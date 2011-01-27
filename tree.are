@@ -1,0 +1,813 @@
+#AREA
+Yggdrasil~
+tree.are~
+{15 50} Glop    Yggdrasil~
+2900 2999
+
+#MOBILES
+#2900
+hollyphant~
+a Hollyphant~
+A Hollyphant is delivering a message here.
+~
+It looks like a large, winged, furry elephant.  It emits an aura of goodness.
+~
+dragon~
+AG D 1000 2900
+16 0 3d9+233 159d1+1 1d12+3 crush
+-2 -2 -2 5
+CDF 0 0 0 
+stand stand either 2000
+0 0 medium 0
+#2901
+planetar~
+a planetar~
+A planetar is here watching out for his masters interest.
+~
+Humanoid in appearance, the planetar has wings and is
+hairless.  He is on a mission from his deity.
+~
+human~
+ABG BCDH 900 2901
+30 0 6d12+778 299d1+1 5d4+7 punch
+-9 -9 -9 6
+CDFK 0 0 0
+stand stand either 4500
+0 0 medium 0
+#2902
+shedu~
+a Shedu~
+A Shedu is here fighting evil.
+~
+Half man, half beast.  The Shedu is out looking for evil anywhere it may be 
+and it will hunt down until death is the result.
+~
+human~
+AG F 850 2902
+25 0 5d10+550 249d1+1 2d10+7 pierce
+-7 -7 -7 6
+CDFJ 0 0 0
+stand stand either 500
+0 0 medium 0
+#2903
+dretch demon~
+a dretch~
+A dretch is here slobbering on you.
+~
+A pathetic, slobbering thing.  The dretch is constantly picked on by its more 
+powerful, demon brothers.
+~
+bear~
+ABGH DF -800 2903
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+CDF 0 0 0
+stand stand either 800
+0 0 medium 0
+#2904
+chasme fly demon~
+a chasme~
+A chasme is flying around here.
+~
+The chasme or fly demon is half-human and half-fly.  They dont like anyone, 
+not even other demons.
+~
+human~
+ACG DF -900 2904
+20 0 3d9+308 199d1+1 3d4+4 pound
+-4 -4 -4 2
+CDEFIKN 0 0 C
+stand stand either 2000
+0 0 medium 0
+#2905
+babau ebony~
+a babau~
+A babau is standing here looking for food.
+~
+The babau or one-horned horror is a demon of considerable fright. He appears
+a skeleton with a black leather jumpsuit on.  He is constantly searching
+for flesh to eat.
+~
+human~
+AG H -1000 2905
+15 0 3d9+208 149d1+1 2d6+3 punch
+-2 -2 -2 7
+EF 0 0 0
+stand stand either 1400
+0 0 medium 0
+#2906
+yagnodemon demon~
+a yagnodemon~
+A yagnodemon is here flexing his giant-sized arm.
+~
+The yagnodemon has one man-sized and one giant-sized arm. With the giant-sized 
+arm it can wield huge weapons.  He is not in a good mood right now.
+~
+human~
+ACG DEF -950 2906
+25 0 5d10+500 249d1+1 4d4+6 smash
+-7 -7 -7 8
+DFJ 0 0 0
+stand stand either 2900
+0 0 medium 0
+#2907
+kostchtchie demon kost~
+Kostchtchie~
+Kostchtchie is here resting on his journey of evil.
+~
+Kostchtchie a powerful demon lord is here.  Obviously derived from giant stock, 
+he is very powerful.  And he does not like to be interrupted.
+~
+human~
+ABEFG DFH -1000 2907
+40 0 15d10+1800 399d1+1 4d8+11 chill
+-13 -13 -13 4
+FI AB 0 0
+stand stand either 6900
+0 0 medium 0
+#2908
+nabassu demon~
+a nabassu~
+A nabassu is here looking to upgrade his status.
+~
+A tall, thin demon, the nabassu are very bat-like in appearance.  
+He seems to have an intense interest in you.
+~
+human~
+ACG D -950 2908
+15 0 2d10+190 149d1+1 1d10+3 slap
+-1 -1 -1 2
+FI 0 0 D
+stand stand either 1120
+0 0 medium 0
+#2909
+dragon cloud~
+a cloud dragon~
+A cloud dragon is here wanting to be left alone.
+~
+This dragon is as large as a red dragon, but does not like to get involved 
+in the struggle between good and evil.  It wants to be left alone.
+~
+dragon~
+ABG DFH 0 2909
+35 0 10d10+1100 349d1+1 4d7+9 bite
+-11 -11 -11 5
+FIKLN 0 0 0
+stand stand either 8000
+0 0 large 0
+#2910
+solar~
+a solar~
+A solar is here contemplating the fight against evil.
+~
+A beautiful being, the solar is totally dedicated to the continuation 
+of the good beings.
+~
+human~
+ABG CDFH 1000 2910
+47 0 25d10+3500 469d1+1 8d4+16 slash
+-17 -17 -17 0
+FI 0  0 0
+stand stand either 8000
+0 0 medium 0
+#2911
+wemic~
+a wemic~
+A wemic is hunting here.
+~
+Part man, part lion, and part horse; the wemic is a creature 
+not to be taken lightly.
+~
+bear~
+AC F 100 2911
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+ABC 0 0 0
+stand stand either 800
+0 0 medium 0
+#2912
+frost giant~
+a frost giant~
+A frost giant is here looking for treasure.
+~
+Large members of the giant family, the frost giants are ravenous collectors 
+of treasure.  They dont like to share this treasure with anyone.
+~
+giant~
+ABFG DF -300 2912
+25 0 5d10+550 249d1+1 2d10+7 grep
+-7 -7 -7 6
+FJKN AB 0 0
+stand stand male 3400
+0 0 large 0
+#2913
+gorgimera~
+a gorgimera~
+A gorgimera is here flexing its wings.
+~
+This three-headed monster is waiting to rip the head off of its latest victim
+to add to its collection.  Watch out for that breath attack.
+~
+dragon~
+ABFG D -750 2913
+20 0 3d9+300 199d1+1 2d8+2 claw
+-4 -4 -4 7
+FIKN AB 0 0
+stand stand either 2500
+0 0 large 0
+#2914
+ratatosk~
+Ratatosk~
+Ratatosk is here delivering the Gods messages.
+~
+You see a giant squirrel carrying greetings and tidings from the various 
+deities residing in these realms.  He does not want to be delayed in his task.
+~
+human~
+ACG CDFH 200 2914
+35 0 10d10+1300 349d1+1 4d7+11 punch
+-11 -11 -11 5
+CDEFJKN 0 0 0
+stand stand male 6700
+0 0 large 0
+#0
+
+#OBJECTS
+
+#2900
+polearm body wrecker~
+a body-wrecker~
+A body-wrecker polearm lies here.~
+steel~
+weapon 0 AN
+polearm 5 6 cleave 0
+23 270 6334 G
+#2901
+hammer iron~
+a huge hammer of cold iron~
+A hammer of iron with silver and nickel detail lies here.~
+iron~
+weapon EJ AN
+mace 5 9 pound 0
+38 250 16400 G
+#2902
+bastard sword~
+a holy bastard sword~
+A beautiful sword lies on the ground here.~
+steel~
+weapon AGIK AN
+sword 5 7 pierce 0
+28 190 9000 G
+A
+13 25
+A
+18 2
+A
+19 4
+A
+24 2
+#2903
+looking glass~
+a looking glass~
+A looking glass lies here.~
+glass~
+wand G AO
+20 7 7 'identify' 0
+8 20 1219 G
+#2904
+cloudy staff~
+a cloudy glass staff~
+A staff made of cloudy glass lies here.~
+glass~
+staff F AO
+40 8 8 'sleep' 0
+23 60 7580 G
+#2905
+crystal sleeves~
+a set of sleeves of crystal~
+Some sleeves made of crystal lie here.~
+quartz~
+armor AFK AI
+13 13 13 2 2
+46 100 22500 G
+A
+19 3
+A
+20 2
+#2906
+sparkling green~
+a sparkling green potion~
+A green potion is lying here sparkling.~
+energy~
+potion AG AO
+10 'detect invis' 'detect magic' 'detect poison' 'detect evil'
+23 10 4580 G
+#2907
+paper triangle~
+a paper triangle~
+A piece of paper in the shape of a triangle is here.~
+paper~
+scroll F A
+50 'armor' 'bless' 'fly' 'stone skin'
+22 12 6700 G
+#2908
+hollyphant tusk~
+a hollyphant tusk~
+A tusk of a hollyphant lies here.~
+bone~
+wand AGK AO
+25 3 3 'haste' 0
+14 10 2160 G
+#2909
+girth cast iron~
+a cast iron girth~
+A cast iron girth lies here.~
+iron~
+armor BG AL
+9 9 9 1 3
+23 180 11230 G
+A
+3 -4
+#2910
+sparkling pink~
+a sparkling pink potion~
+A pink potion is lying here sparkling.~
+energy~
+potion AG A
+10 'detect invis' 'detect magic' 'detect poison' 'detect good'
+13 10 4580 G
+#0
+
+#ROOMS
+#2900
+The Entrance to Yggdrasil~
+This is the entrance to Yggdrasil, the World Ash.  Through
+this tree are conduits to many other planes of existence.
+     There is a small (Glowing) (Huming) tablet.
+~
+0 0 3
+D2
+~
+~
+1 -1 6346
+D4
+You see the trunk rising up into the sky.
+~
+~
+1 -1 2901
+D5
+You see the trunk descending down into the depths of the earth.
+~
+~
+1 -1 2907
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++                     in friday's night, june'96                     +
++                           by jaceks                                +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#2901
+The Trunk of Yggdrasil~
+You are traveling in Yggdrasil, the World Ash.  Who knows
+what other travelers you may encounter.
+~
+0 0 3
+D4
+The trunk continues to go up here.
+~
+~
+0 -1 2902
+D5
+The entrance to the tree is below.
+~
+~
+0 -1 2900
+S
+#2902
+The Lower Trunk of Yggrasil~
+You are in the lower reaches of Yggdrasil.  The tree top cannot be seen.
+Lesser astral travelers can be seen moving about.
+~
+0 0 3
+D0
+A limb branches off in this direction.
+~
+~
+0 -1 2903
+D1
+A limb branches off in this direction.
+~
+~
+0 -1 2906
+D2
+A limb branches off in this direction.
+~
+~
+0 -1 2911
+D3
+A limb branches off in this direction.
+~
+~
+0 -1 2905
+D4
+The trunk continues up the tree.
+~
+~
+0 -1 2917
+D5
+The way down the tree is this way.
+~
+~
+
+0 -1 2901
+S
+#2903
+A Lower Branch of Yggdrasil~
+You are on a limb on the lower level of Yggdrasil.
+~
+0 0 3
+D2
+The main trunk is in this direction.
+~
+~
+0 -1 2902
+S
+#2904
+The Crest of Yggdrasil~
+You are on the top of the World Ash.  You can see in the distance many
+realms and dimensions.  This is definitely a crossroads to the gods.
+~
+0 0 3
+D5
+The way down the trunk of Yggdrasil lies this way.
+~
+~
+0 -1 2918
+S
+#2905
+A Lower Branch of Yggdrasil~
+You are on a limb on the lower level of Yggdrasil.
+~
+0 0 3
+D1
+The main trunk is in this direction.
+~
+~
+0 -1 2902
+S
+#2906
+A Lower Branch of Yggdrasil~
+You are on a limb on the lower level of Yggdrasil.
+~
+0 0 3
+D3
+The main trunk is in this direction.
+~
+~
+0 -1 2902
+S
+#2907
+The Roots of Yggdrasil~
+You are under the ground among the roots of Yggdrasil.  You
+sense a greater preponderance of evil in this area.  Your
+fellow travelers also tend to be of the evil persuasion.
+~
+0 0 3
+D0
+The roots lead off in this direction.
+~
+~
+0 -1 2923
+D1
+The roots lead off in this direction.
+~
+~
+0 -1 2909
+D2
+The roots lead off in this direction.
+~
+~
+0 -1 2908
+D3
+The roots lead off in this direction.
+~
+~
+0 -1 2910
+D4
+The entrance to the tree is in this direction.
+~
+~
+0 -1 2900
+D5
+The deepest part of the tree is down here.
+~
+~
+0 -1 2912
+S
+#2908
+The Roots of Yggdrasil~
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+0 0 3
+D0
+The roots continue in this direction.
+~
+~
+0 -1 2907
+S
+#2909
+The Roots of Yggdrasil~
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+0 0 3
+D3
+The roots continue in this direction.
+~
+~
+0 -1 2907
+S
+#2910
+The Roots of Yggdrasil~
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+0 0 3
+D1
+The roots continue in this direction.
+~
+~
+0 -1 2907
+S
+#2911
+A Lower Branch of Yggdrasil~
+You are on a limb on the lower level of Yggdrasil.
+~
+0 0 3
+D0
+The main trunk is in this direction.
+~
+~
+0 -1 2902
+S
+#2912
+The Deepest Roots of Yggdrasil~
+You are at the tree's deepest point.  Looking down from here
+you can almost see the foul and evil realms of the followers
+of evil.  You can faintly hear the screams of their tortured
+victims.
+~
+0 0 3
+D4
+You see the roots of the tree continue in this direction.
+~
+~
+0 -1 2907
+S
+#2913
+A Middle Branch of Yggdrasil~
+You are on a limb on the middle level of Yggdrasil.
+~
+0 0 3
+D1
+The main trunk is in this direction.
+~
+~
+0 -1 2917
+S
+#2914
+A Middle Branch of Yggdrasil~
+You are on a limb on the middle level of Yggdrasil.
+~
+0 0 3
+D2
+The main trunk is in this direction.
+~
+~
+0 -1 2917
+S
+#2915
+A Middle Branch of Yggdrasil~
+You are on a limb on the middle level of Yggdrasil.
+~
+0 0 3
+D3
+The main trunk is in this direction.
+~
+~
+0 -1 2917
+S
+#2916
+A Middle Branch of Yggdrasil~
+You are on a limb on the middle level of Yggdrasil.
+~
+0 0 3
+D0
+The main trunk is in this direction.
+~
+~
+0 -1 2917
+S
+#2917
+The Middle Trunk of Yggrasil~
+You are in the middle parts of Yggdrasil.  The tree top still cannot be seen.
+Many travelers are passing you in fulfillment of their quests.
+~
+0 0 3
+D0
+A limb branches off in this direction.
+~
+~
+0 -1 2914
+D1
+A limb branches off in this direction.
+~
+~
+0 -1 2915
+D2
+A limb branches off in this direction.
+~
+~
+0 -1 2916
+D3
+A limb branches off in this direction.
+~
+~
+0 -1 2913
+D4
+The trunk continues towards the heavens.
+~
+~
+0 -1 2918
+D5
+The way down the tree is this way.
+~
+~
+0 -1 2902
+S
+#2918
+The Upper Trunk of Yggrasil~
+You are in the topmost section of Yggdrasil.  The tree top is just above you.
+Great power can be sensed in this area. There is also goodness here.
+~
+0 0 3
+D0
+A limb branches off in this direction.
+~
+~
+0 -1 2921
+D1
+A limb branches off in this direction.
+~
+~
+0 -1 2922
+D2
+A limb branches off in this direction.
+~
+~
+0 -1 2919
+D3
+A limb branches off in this direction.
+~
+~
+0 -1 2920
+D4
+The top of the tree can be seen here.
+~
+~
+0 -1 2904
+D5
+The way down the tree is this way.
+~
+~
+0 -1 2917
+S
+#2919
+An Upper Branch of Yggdrasil~
+You are on a limb on the upper level of Yggdrasil.
+~
+0 0 3
+D0
+The main trunk is in this direction.
+~
+~
+0 -1 2918
+S
+#2920
+An Upper Branch of Yggdrasil~
+You are on a limb on the upper level of Yggdrasil.
+~
+0 0 3
+D1
+The main trunk is in this direction.
+~
+~
+0 -1 2918
+S
+#2921
+An Upper Branch of Yggdrasil~
+You are on a limb on the upper level of Yggdrasil.
+~
+0 0 3
+D2
+The main trunk is in this direction.
+~
+~
+0 -1 2918
+S
+#2922
+An Upper Branch of Yggdrasil~
+You are on a limb on the upper level of Yggdrasil.
+~
+0 0 3
+D3
+The main trunk is in this direction.
+~
+~
+0 -1 2918
+S
+#2923
+The Roots of Yggdrasil~
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+0 0 3
+D2
+The roots continue in this direction.
+~
+~
+0 -1 2907
+S
+#0
+
+#RESETS
+
+M 0 2900 6 2914 2 *
+G 1 2908 80 2
+*
+M 0 2901 1 2922 1
+E 1 2902 99 16
+*
+M 0 2902 6 2920 1
+G 1 2904 99
+M 0 2902 6 2913 1
+*
+M 0 2903 9 2907 2
+*
+M 0 2904 8 2906 2
+*
+M 0 2905 9 2903 2
+*
+M 0 2906 4 2923 2
+E 1 2900 99 16
+*
+M 0 2907 1 2908 1
+E 1 2901 30 16
+*
+M 0 2908 8 2911 2
+G 1 2910 99
+*
+M 0 2909 1 2915 1
+*
+M 0 2910 1 2921 1
+G 1 2905 80
+*
+M 0 2911 9 2901 1
+G 1 2903 99
+M 0 2911 9 2917 1
+*
+M 0 2912 6 2910 2
+G 1 2909 99
+M 0 2912 6 2916 2
+G 1 2907 99
+*
+M 0 2913 2 2912 2
+*
+M 0 2914 1 2918 1
+
+S
+
+#SPECIALS
+
+M 2900 spec_cast_cleric
+M 2901 spec_cast_mage
+M 2904 spec_cast_mage
+M 2906 spec_cast_mage
+M 2907 spec_cast_undead
+M 2908 spec_cast_mage
+M 2909 spec_breath_gas
+M 2910 spec_cast_cleric
+M 2911 spec_thief
+M 2913 spec_breath_any
+
+S
+
+#$
+
+

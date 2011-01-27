@@ -1,0 +1,3354 @@
+#AREA
+DSA Format~
+prison.are~
+The Prison~
+{40 65} Alecca  The Prison~
+18300 18399
+Descr
+No description.
+~
+Sec 9
+Levels 1 101
+Flags A
+End
+#HELPS
+The Prison is where the vilest of criminals of the realms are housed.  On
+the outside, it looks like a normal prison, but truthfully on the inside,
+it is one of the worst run places ever.  Prisoners are tortured, then
+left to rot in their own blood.  It is said that some have escaped, but
+the official word on that subject is "No way".
+This is a no recall area, be careful.
+
+The Prison was written by Alecca for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are 
+allowed.  Names and descriptions will not change.
+-1 $~
+
+#MOBILES
+#18300
+prisoner emaciated~
+an emaciated prisoner~
+An emaciated prisoner is here.
+~
+Looks like this man is trouble.  No wonder they keep him
+locked up in solitary confinement.
+~
+human~
+AFG DFT H -1000 0
+48 8 1d97+2303 1d1+99 1d35+15 punch
+-22 -22 -22 -17
+0 0 0 0
+stand stand male 480
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18301
+emaciated prisoner~
+an emaciated prisoner~
+An emaciated prisoner is here.
+~
+Looks like this man is trouble.  No wonder they keep him
+locked up in solitary confinement.
+~
+human~
+AFG DFJT H -1000 0
+47 7 1d95+2208 1d1+99 1d35+14 punch
+-21 -21 -21 -16
+0 0 0 0
+stand stand male 470
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18302
+emaciated prisoner~
+an emaciated prisoner~
+An emaciated prisoner is here.
+~
+Looks like this man is trouble.  No wonder they keep him
+locked up in solitary confinement.
+~
+human~
+AFG DFJ H -1000 0
+45 7 1d91+2024 1d1+99 1d33+14 punch
+-20 -20 -20 -15
+0 0 0 0
+stand stand male 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18303
+prison guard~
+a prison guard~
+A prison guard watches the grounds vigilantly.
+~
+This guard is all business.  No prisoners have escaped
+his watch...ever.  He is huge!  No one would mess with him.
+~
+human~
+AFG DFTU H -1000 0
+48 8 1d97+2303 1d1+99 1d35+15 punch
+-22 -22 -22 -17
+0 0 0 0
+stand stand male 480
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18304
+escapee~
+an escapee~
+An escapee is looking for ANY way out of here.
+~
+This man is terrified!  The last thing he wants is to get
+sent back to the prisons.
+~
+human~
+ABFG DFJ HN -1000 0
+54 9 1d109+2915 1d1+99 1d39+17 punch
+-26 -26 -26 -21
+0 0 0 0
+stand stand male 540
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18305
+chief guard~
+the chief guard~
+The chief guard is here, getting ready to meet with the warden.
+~
+The chief guard is here.  His only ambition is to become
+warden one day.
+~
+human~
+ABFG DFT H -1000 0
+58 9 1d117+3363 1d1+99 1d42+18 punch
+-28 -28 -28 -23
+0 0 0 0
+stand stand male 580
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18306
+raving lunatic~
+a raving lunatic~
+A raving lunatic cackles gleefully.
+~
+This man is truly deranged.  Spittle forms at his mouth, and
+it has been at least three months since he's seen water and
+soap.
+~
+human~
+AFGH DFJ H -1000 0
+52 8 1d105+2703 1d1+99 1d38+16 bite
+-24 -24 -24 -19
+0 0 0 0
+stand stand male 520
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18307
+strolling prisoner~
+a prisoner~
+A prisoner is here taking his daily exercise.
+~
+This prisoner is taking advantage of exercise time by
+stretching out his cramped muscles by taking a long walk.
+~
+human~
+ADG DFJ HN 0 0
+57 9 1d115+3248 1d1+99 1d41+18 punch
+-28 -28 -28 -23
+0 0 0 0
+stand stand male 570
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18308
+emaciated prisoner~
+an emaciated prisoner~
+An emaciated prisoner is here.
+~
+Looks like this man is trouble.  No wonder they keep him
+locked up in solitary confinement.
+~
+human~
+ABDG DFTU H 0 0
+48 8 1d97+2303 1d1+99 1d35+15 punch
+-22 -22 -22 -17
+0 0 0 0
+stand stand male 480
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18309
+elintha~
+Elintha~
+Elintha cowers in a corner.
+~
+Elintha has been imprisonned here for a long long time.  So
+long in fact that she has lost count of the days.  She
+trembles slightly in fear.  The warden has taken her from 
+the cells to use as his stress release.  What a jerk that 
+man is taking advantage of a prisoner who can't fight back.
+~
+human~
+ABDG DFJ HN -1000 0
+55 9 1d111+3024 1d1+99 1d40+17 punch
+-26 -26 -26 -21
+0 0 0 0
+stand stand female 550
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 5
+End
+#18310
+prison chef~
+the prison chef~
+The chef snorts derisevely as she adds some disgusting looking noodles to a big vat of mush.
+~
+It is best that the chef stay in this room.  She is known 
+for her ungodly temper at being interrupted while making
+her "masterpieces".
+~
+human~
+ABFG DFJT HN -1000 0
+58 9 1d117+3363 1d1+99 1d42+18 punch
+-28 -28 -28 -23
+0 0 0 0
+stand stand female 580
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 5
+End
+#18311
+prisoner escaping~
+An escaping prisoner~
+An escaping prisoner is busy digging.
+~
+Rabee hums softly as he painstakingly keeps the ledgers
+balanced.  He hopes no one will notice the skimming that
+he has been doing lately.
+~
+human~
+ABFG DFJT H -1000 0
+62 10 1d125+3843 1d1+99 1d45+19 punch
+-31 -31 -31 -26
+0 0 0 0
+stand stand male 620
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 10
+End
+#18312
+prison guard~
+a prison guard~
+A prison guard patrols the area.
+~
+This guard is all business.  No prisoners have escaped
+his watch...ever.  He is huge!  No one would mess with him.
+~
+human~
+AFG DF 0 -1000 0
+45 7 1d91+2024 1d1+99 1d33+14 punch
+-20 -20 -20 -15
+0 0 0 0
+stand stand male 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18313
+rat~
+a rat~
+A rat scurries about.
+~
+Oh god, how disgusting...this rat has little beady red eyes
+and he is looking around for any thing he can hoard away.
+His mottled fur looks almost grimy.  One word: Gross!
+~
+human~
+ACFGH DFQ 0 -1000 0
+40 6 1d81+1599 1d1+99 1d30+12 bite
+-16 -16 -16 -11
+0 0 0 0
+stand stand male 400
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18314
+spider~
+a spider~
+An spider slinks around.
+~
+My god,  you have never seen a spider this big.  It is huge!
+It is hairy, and it's eyes are glowing strangely.
+~
+human~
+ACFGH DFQ 0 -1000 0
+45 7 1d91+2024 1d1+99 1d33+14 bite
+-20 -20 -20 -15
+0 0 0 0
+stand stand either 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18315
+guard dog~
+a guard dog~
+A guard dog barks loudly.
+~
+Will this dog ever stop barking?  Yap, yap, yap.  Well,
+it could be worse.  It could be chasing you...and the
+way it's teeth kind of stick out of it's mouth, you don't
+think that would be too pleasant.
+~
+human~
+ABFGH JT 0 0 0
+50 8 1d101+2499 1d1+99 1d37+15 bite
+-23 -23 -23 -18
+0 0 0 0
+stand stand either 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18316
+elissandra~
+Elissandra~
+A beautiful female smiles charmingly at her reflection in the mirror.
+~
+Elissandra was imprisonned for her great beauty.  Men said 
+it was a crime for a beauty like her to walk around unprotected.  The Warden keeps her here to amuse the bored
+guards.  As you look at her more closely, you see bruises
+all over her delicate skin.
+~
+human~
+ABDG DFJT H -1000 0
+50 8 1d101+2499 1d1+99 1d37+15 punch
+-23 -23 -23 -18
+0 0 0 0
+stand stand female 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 5
+End
+#18317
+escapee~
+an escapee~
+An escapee hides in the shadows trembling.
+~
+The last thing this man wants is to be busted and have to
+return to that hellish prison.
+~
+human~
+ABGH K 0 -400 0
+50 8 1d101+2499 1d1+99 1d37+15 punch
+-23 -23 -23 -18
+0 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18318
+guard~
+a guard~
+A guard patrols the area.
+~
+He is ever vigilant in his patrols.  Not many can sneak by 
+him.  He is very alert.
+~
+human~
+AFG J 0 0 0
+40 6 1d81+1599 1d1+99 1d30+12 punch
+-16 -16 -16 -11
+0 0 0 0
+stand stand male 400
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18319
+warden~
+the warden~
+The warden looks out the window, looking for escapees.
+~
+The warden of the prison is a powerful man, if you believe
+what HE says.  Apparently the rumor goes that he was "put
+to pasture" here, as they couldn't find anything else to
+do with this busybody.
+~
+human~
+ABDFGH CDEF HN 1000 0
+60 10 1d121+3599 1d1+99 1d43+19 punch
+-30 -30 -30 -25
+0 0 0 0
+stand stand male 600
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 2
+End
+#18320
+prison guard~
+a prison guard~
+A prison guard patrols around the area.
+~
+He is ever vigilant in his patrols.  Not many can sneak by 
+him.  He is very alert.
+~
+human~
+AFG 0 N 0 0
+45 7 1d91+2024 1d1+99 1d33+14 punch
+-20 -20 -20 -15
+0 0 0 0
+stand stand male 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18321
+exercising prisoner~
+an exercising prisoner~
+A prisoner exercises during his recreation time.
+~
+This man is trouble...you can see it in his eyes.  He is
+just looking for anyway to escape this prison...and if he
+has to kill to do so, he will.
+~
+human~
+AFG 0 N 0 0
+50 8 1d101+2499 1d1+99 1d37+15 punch
+-23 -23 -23 -18
+0 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18322
+prisoner reading~
+a prisoner~
+A prisoner is here reading a book.
+~
+This man isn't really reading...he's trying to look like he
+is tho, so the guards don't expect his attack.  He's going 
+to escape this place, come hell or high water.
+~
+human~
+AFG 0 N 0 0
+52 8 1d105+2703 1d1+99 1d38+16 punch
+-24 -24 -24 -19
+0 0 0 0
+stand stand male 520
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18323
+prison cat~
+a prison cat~
+A prison cat stretches luxuriously.
+~
+This cat is said to sneak into the prisoner's cells at 
+night to be petted, and loved.  The guards just kick it
+around for pleasure.
+~
+human~
+ABFG 0 0 0 0
+40 6 1d81+1599 1d1+99 1d30+12 scratch
+-16 -16 -16 -11
+0 0 0 0
+stand stand either 400
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18324
+sparrow~
+a sparrow~
+A sparrow searches for worms.
+~
+Just an ordinary sparrow.  It is brown, with white specks.
+~
+human~
+AFG JT HN -1000 0
+58 9 1d117+3363 1d1+99 1d42+18 peck
+-28 -28 -28 -23
+0 0 0 0
+stand stand either 580
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18325
+mad prisoner~
+a mad prisoner~
+A mad prisoner is here fuming!
+~
+This man is highly upset.  It would be best to stay far
+away from him.
+~
+human~
+AFG 0 0 0 0
+45 7 1d91+2024 1d1+99 1d33+14 punch
+-20 -20 -20 -15
+0 0 0 0
+stand stand male 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18326
+prison nurse~
+the prison's nurse~
+The prison's nurse is here.
+~
+This is no ordinary nurse...for one, she's a he.  He is 
+huge, mean, and u-g-l-y.  It is said people die from 
+sickness rather than be treated by this man.
+~
+human~
+ABDGL CDFJ BHN 400 0
+65 10 1d131+4224 1d1+99 1d47+20 punch
+-33 -33 -33 -28
+0 0 0 0
+stand stand male 650
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18327
+prison guard veteran~
+a veteran prison guard~
+A veteran prison guard looks for intruders.
+~
+He is ever vigilant in his patrols.  Not many can sneak by 
+him.  He is very alert.
+~
+human~
+ABDFG DFJ H 1000 0
+60 10 1d121+3599 1d1+99 1d43+19 punch
+-30 -30 -30 -25
+0 0 0 0
+stand stand male 600
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 50
+End
+#18328
+orderly~
+a prison orderly~
+An orderly is here waiting for orders.
+~
+The orderly looks ragged and tired.  The Warden keeps him up
+all hours doing petty little things no one else wants to do.
+~
+human~
+ABG FJT 0 -1000 0
+45 7 1d91+2024 1d1+99 1d33+14 punch
+-20 -20 -20 -15
+0 0 0 0
+stand stand male 450
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 5
+End
+#18329
+mad guard~
+a mad guard~
+A mad guard is here fuming.
+~
+Gods, this guard is pissed off.  A prisoner must have done
+something really bad to get him this upset.  He is here
+pacing the floors trying to calm down.
+~
+human~
+ABFG DFJ H -1000 0
+58 9 1d117+3363 1d1+99 1d42+18 punch
+-28 -28 -28 -23
+0 0 0 0
+stand stand male 580
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 20
+End
+#18330
+prisoner wary~
+a wary prisoner~
+A wary prisoner eyes you nervously.
+~
+This prisoner has seen a bit too much "action" since
+he's been confined in the prison.  He walks a bit strangely
+but he's the other prisoners "bitch". Hehe.
+~
+human~
+ACDGH DEFJQ H -1000 0
+50 8 1d101+2499 1d1+99 1d37+15 punch
+-23 -23 -23 -18
+0 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 10
+End
+#18331
+gigantic maggot~
+a gigantic maggot~
+A gigantic maggot oozes slime.
+~
+Gross!  What a disgusting animal.  The slime oozes all
+around.  Kill it fast....before the slime gets on you!
+~
+human~
+ABDGH CDEFJ BHN -1000 0
+65 10 1d131+4224 1d1+99 1d47+20 slime
+-33 -33 -33 -28
+0 0 0 0
+stand stand either 650
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 20
+End
+#18332
+bull mastiff~
+a bull mastiff~
+A bull mastiff slobbers angrily.
+~
+This is no pet...it's a murderer!
+~
+human~
+ABFG 0 HN 0 0
+50 8 1d101+2499 1d1+99 1d37+15 bite
+-23 -23 -23 -18
+0 0 0 0
+stand stand either 500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 20
+End
+#18333
+giant spider~
+a giant spider~
+A giant spider lunges from the rafters.
+~
+This spider is huge, and hairy, and fat!
+~
+human~
+ABCFGH DFQ 0 -1000 0
+48 8 1d97+2303 1d1+99 1d35+15 bite
+-22 -22 -22 -17
+0 0 0 0
+stand stand either 480
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 20
+End
+#18334
+gimp~
+the gimp~
+The gimp is here snivelling in the corner.
+~
+The gimp has finally found a place to escape the
+never ending sexual attacks from the horny prisoners.
+~
+human~
+ABFG DFJ HN -1000 0
+60 10 1d121+3599 1d1+99 1d43+19 punch
+-30 -30 -30 -25
+0 0 0 0
+stand stand male 600
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 20
+End
+#0
+
+
+
+#OBJECTS
+#18300
+maggot antennae~
+a maggot's antannae~
+A maggot's antennae lies on the floor.~
+none~
+wand BEG AO
+60 13 13 'curse' 0
+50 500 3900 P
+~
+MaxWorld 50
+End
+#18301
+guard gloves~
+strong Guard Gloves~
+Strong Guard Gloves~
+leather~
+armor K AH
+ACD ACD ACD D 0
+50 5 3900 P
+A
+1 5
+A
+12 100
+A
+19 14
+~
+MaxWorld 50
+End
+#18302
+silver sunglasses~
+silver Sunglasses~
+Silver sunglasses glisten in the light.~
+silver~
+armor AK AY
+ACD ACD ACD D A
+50 2 3900 P
+A
+3 4
+A
+4 4
+A
+18 15
+A
+19 20
+~
+MaxWorld 50
+End
+#18303
+stolen guard baton~
+a stolen guard baton~
+A baton must have been dropped by a guard.~
+wood~
+weapon BG AN
+dagger 9 9 sliver C
+55 200 3900 P
+A
+1 4
+A
+2 5
+A
+18 20
+A
+19 20
+~
+MaxWorld 50
+End
+#18304
+elintha crown thorns~
+a crown of thorns~
+Elintha's crown of thorn's is here~
+wood~
+armor G AE
+ABD ABD ABD ABC A
+45 25 3900 P
+A
+4 3
+A
+2 -2
+~
+MaxWorld 50
+End
+#18305
+prison patch~
+a prison patch~
+A prison patch is here on the ground.~
+gold~
+armor AB AW
+CD CD CD D 0
+49 150 1200 P
+A
+20 -1
+A
+5 4
+A
+1 1
+~
+MaxWorld 40
+End
+#18306
+chest~
+a chest~
+A chest sits here.
+~
+none~
+container 0 A
+150 0 0 150 100
+39 100 3900 P
+~
+End
+#18307
+military jacket~
+a military issue jacket~
+A military jacket is on the ground.~
+cloth~
+armor K AK
+ABD BD CD ABC A
+42 25 2344 P
+A
+12 60
+A
+5 3
+A
+18 15
+A
+19 15
+~
+MaxWorld 50
+End
+#18308
+guard baton~
+a guard baton~
+A stick is here.~
+wood~
+weapon K AN
+mace 7 9 sliver C
+45 240 2344 P
+A
+19 13
+A
+18 13
+A
+12 200
+A
+13 80
+A
+1 5
+A
+17 -10
+~
+MaxWorld 50
+End
+#18309
+crusty toilet~
+a crusty, gross toilet~
+A crusty, gross toilet is here.~
+bone~
+container Y AQ
+100 0 0 500 50
+50 50 5000 P
+A
+13 40
+A
+20 -2
+~
+MaxWorld 50
+End
+#18310
+binoculars~
+binoculars~
+Some binoculars are here.~
+stone~
+armor AG AO
+CD ACD ACD BD 0
+50 10 5000 P
+A
+18 10
+A
+13 100
+A
+12 50
+~
+End
+#18311
+cloak~
+a black cloak~
+A black cloak is piled here.
+~
+silk~
+armor L AK
+BD AD BD D A
+39 10 5000 P
+A
+12 200
+A
+19 15
+A
+18 14
+~
+End
+#18312
+shocker~
+the SHOCKER!!!~
+The SHOCKER is here on the ground.~
+silver~
+weapon B AN
+mace 5 19 shbite G
+60 35 5000 P
+A
+5 1
+A
+18 2
+A
+19 30
+A
+13 150
+A
+20 -1
+~
+End
+#18313
+riot gear~
+riot gear~
+Some riot gear is here.~
+none~
+armor CK AD
+CD ACD CD BD A
+50 25 5000 P
+A
+18 6
+A
+19 8
+A
+17 -10
+~
+End
+#18314
+riot cap~
+a riot cap~
+A riot cap is here on the floor~
+none~
+armor C AE
+CD CD BCD AD A
+50 75 5000 P
+A
+1 5
+A
+4 4
+~
+End
+#18315
+purse~
+a purse~
+A purse is here~
+none~
+container 0 AO
+25 A 0 25 50
+39 10 3900 P
+~
+End
+#18316
+earrings ruby ear~
+{1Ruby Earrings{0~
+{1Ruby Earrings{0 glisten in the sun.{0~
+gemstone~
+armor ABG AS
+ABD ABD ABD ABC 0
+45 20 3900 P
+A
+19 0
+A
+18 5
+A
+20 -1
+A
+4 2
+A
+3 3
+A
+14 20
+A
+12 20
+A
+13 20
+~
+End
+#18317
+flashlight~
+a flashlight~
+A flashlight illuminates the darkness~
+none~
+light 0 A
+0 0 DGH 0 0
+39 5 3900 P
+A
+2 3
+~
+End
+#18318
+flashlight~
+flashlight~
+A flashlight illuminates the darkness~
+none~
+light A A
+0 0 DGH 0 0
+39 5 3900 P
+A
+5 3
+~
+End
+#18319
+rat corpse~
+the corpse of a rat~
+The corpse of a rat is here decomposing.~
+none~
+trash 0 A
+0 0 0 0 0
+39 75 3900 P
+~
+End
+#18320
+key~
+a key~
+A black key is here.
+~
+none~
+key B AO
+0 0 0 0 0
+39 5 3900 P
+~
+End
+#18321
+nailfile~
+a nailfile~
+A nailfile is here dusty with iron shavings.~
+silver~
+weapon BEJ AN
+dagger 7 8 pierce E
+39 5 3900 P
+A
+19 15
+A
+13 40
+~
+End
+#18322
+iron ankle cuff~
+{DIron ankle cuffs{0~
+{DIron ankle cuffs lie discarded on the floor.{0~
+iron~
+armor ABGIR AT
+CD CD CD BD 0
+50 50 1000 P
+A
+2 -1
+A
+19 10
+A
+13 40
+~
+End
+#0
+
+
+
+#ROOMS
+#18300
+Path to the Prison~
+The prison looms ahead.  The grounds are massive, and there
+are no trees and the shrubbery is kept low so that the 
+guards can maintain a good view of the prisoners.  It is a
+very bleak place, a place of punishment.
+~
+0 524289 2
+E
+sign~
+W E L C O M E    T O    D E V I L ' S    S I L E N C E   P R I S O N
+
+                       Population : Growing daily
+
+~
+D0
+~
+~
+0 -1 18301
+End
+D2
+~
+~
+0 0 3142
+End
+S
+End
+#18301
+The Prison Proper~
+Devil's Silence's most heinous criminals inhabit the prison
+here.  It is a place of misery.  Many try to escape this
+hell, most die trying.
+~
+0 524289 1
+D0
+~
+~
+0 -1 18302
+End
+D2
+~
+~
+0 -1 18300
+End
+S
+End
+#18302
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18306
+End
+D1
+~
+~
+1 0 18304
+Flags AB
+End
+D2
+~
+~
+0 0 18301
+End
+D3
+~
+~
+1 0 18303
+Flags AB
+End
+S
+End
+#18303
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D1
+~
+~
+1 0 18302
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+End
+#18304
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D3
+~
+~
+1 0 18302
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18302 1 100 0 Load an emaciated prisoner.
+End
+#18305
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18308
+End
+D1
+~
+~
+0 -1 18306
+End
+S
+End
+#18306
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18309
+End
+D1
+~
+~
+0 -1 18307
+End
+D2
+~
+~
+0 -1 18302
+End
+D3
+~
+~
+0 -1 18305
+End
+S
+Reset M 18318 8 100 0 Load a guard.
+End
+#18307
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18310
+End
+D3
+~
+~
+0 -1 18306
+End
+S
+End
+#18308
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18311
+End
+D1
+~
+~
+0 -1 18309
+End
+D2
+~
+~
+0 -1 18305
+End
+D3
+~
+~
+0 -1 18314
+End
+S
+End
+#18309
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18312
+End
+D1
+~
+~
+0 -1 18310
+End
+D2
+~
+~
+0 -1 18306
+End
+D3
+~
+~
+0 -1 18308
+End
+S
+Reset M 18332 1 100 0 Load a bull mastiff.
+End
+#18310
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18313
+End
+D1
+~
+~
+0 -1 18324
+End
+D2
+~
+~
+0 -1 18307
+End
+D3
+~
+~
+0 -1 18309
+End
+S
+End
+#18311
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D1
+~
+~
+0 -1 18312
+End
+D2
+~
+~
+0 -1 18308
+End
+S
+End
+#18312
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18334
+End
+D1
+~
+~
+0 -1 18313
+End
+D2
+~
+~
+0 -1 18309
+End
+D3
+~
+~
+0 -1 18311
+End
+S
+Reset M 18312 8 100 0 Load a prison guard.
+End
+#18313
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D2
+~
+~
+0 -1 18310
+End
+D3
+~
+~
+0 -1 18312
+End
+S
+End
+#18314
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists, murderers, and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for the monsters, er people, locked up in here.  They will die here,
+or be executed, whichever comes first.  
+~
+0 532481 1
+D0
+~
+~
+1 0 18315
+Flags AB
+End
+D1
+~
+~
+0 -1 18308
+End
+D2
+~
+~
+1 0 18316
+Flags AB
+End
+D3
+~
+~
+0 -1 18317
+End
+S
+End
+#18315
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18314
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18314 3 100 0 Load a spider.
+End
+#18316
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18314
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18313 3 100 0 Load a rat.
+End
+#18317
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists , murderers and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for these monsters, er people, locked up in here.  They will die
+here, or be executed, whichever comes first.  
+~
+0 532481 1
+D0
+~
+~
+1 0 18318
+Flags AB
+End
+D1
+~
+~
+0 -1 18314
+End
+D2
+~
+~
+1 0 18319
+Flags AB
+End
+D3
+~
+~
+0 -1 18320
+End
+S
+End
+#18318
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18317
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18313 3 100 0 Load a rat.
+End
+#18319
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18317
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18302 1 100 0 Load an emaciated prisoner.
+End
+#18320
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists, murderers, and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for the monsters, er people, locked up in here.  They will die here,
+or be executed, whichever comes first.  
+~
+0 532481 1
+D0
+~
+~
+1 0 18321
+Flags AB
+End
+D1
+~
+~
+0 -1 18317
+End
+D2
+~
+~
+1 0 18322
+Flags AB
+End
+D3
+~
+~
+1 0 18323
+Flags AB
+End
+S
+End
+#18321
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18320
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18302 1 100 0 Load an emaciated prisoner.
+End
+#18322
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18320
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18314 3 100 0 Load a spider.
+End
+#18323
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D1
+~
+~
+1 0 18320
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18306 2 100 0 Load a raving lunatic.
+End
+#18324
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists, murderers, and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for the monsters, er people, locked up in here.  They will die here,
+or be executed, whichever comes first.  
+~
+0 532481 1
+D0
+~
+~
+1 0 18325
+Flags AB
+End
+D1
+~
+~
+0 -1 18327
+End
+D2
+~
+~
+1 0 18326
+Flags AB
+End
+D3
+~
+~
+0 -1 18310
+End
+S
+End
+#18325
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18324
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18313 3 100 0 Load a rat.
+End
+#18326
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18324
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18301 2 100 0 Load an emaciated prisoner.
+End
+#18327
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists, murderers, and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for the monsters, er people, locked up in here.  They will die here,
+or be executed, whichever comes first.  
+~
+0 532481 1
+D0
+~
+~
+1 0 18328
+Flags AB
+End
+D1
+~
+~
+0 -1 18330
+End
+D2
+~
+~
+1 0 18329
+Flags AB
+End
+D3
+~
+~
+0 -1 18324
+End
+S
+End
+#18328
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18327
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18301 2 100 0 Load an emaciated prisoner.
+End
+#18329
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18327
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18314 3 100 0 Load a spider.
+End
+#18330
+Solitary Confinement Row~
+This is Solitary Confinement Row, which houses the vilest, foulest
+criminals in the lands.  Rapists, murderers, and other numerous shady
+characters are kept here, keeping the realms safe from their evil.  There is
+no hope for the monsters, er people, locked up in here.  They will die here,
+or be executed, whichever comes first.  
+~
+0 532480 1
+D0
+~
+~
+1 0 18331
+Flags AB
+End
+D1
+~
+~
+1 0 18333
+Flags AB
+End
+D2
+~
+~
+1 0 18332
+Flags AB
+End
+D3
+~
+~
+0 -1 18327
+End
+S
+End
+#18331
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D2
+~
+~
+1 0 18330
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18308 1 100 0 Load an emaciated prisoner.
+Reset O 18319 1 100 0 Load The corpse of a rat.
+End
+#18332
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D0
+~
+~
+1 0 18330
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18301 2 100 0 Load an emaciated prisoner.
+End
+#18333
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D3
+~
+~
+1 0 18330
+Flags AB
+End
+S
+Reset O 18309 1 100 0 Load A crusty, gross toilet.
+Reset M 18306 2 100 0 Load a raving lunatic.
+End
+#18334
+Prison Street~
+The prison street is very sanitary.  The guards work the prisoners very
+hard to keep the grounds spotless and clean.  There is no trash anywhere. 
+Everything seems very orderly...  Almost too orderly.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18337
+End
+D1
+~
+~
+1 0 18336
+Flags AB
+End
+D2
+~
+~
+0 -1 18312
+End
+D3
+~
+~
+1 0 18335
+Flags AB
+End
+S
+Reset M 18303 1 100 0 Load a prison guard.
+End
+#18335
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D1
+~
+~
+1 0 18334
+Flags AB
+End
+S
+Reset M 18300 1 100 0 Load an emaciated prisoner.
+End
+#18336
+Solitary Confinement~
+Solitary confinement is where they put the worst 
+troublemakers.  Murderers, rapists, and general
+scum are kept here locked safely away where they
+can do no harm.
+~
+0 532481 0
+D3
+~
+~
+1 0 18334
+Flags AB
+End
+S
+Reset M 18300 1 100 0 Load an emaciated prisoner.
+End
+#18337
+A triple intersection~
+You stand at a triple intersection.  To the west, lies the administration
+building, to the north is a garden, and to the south is Prison Street.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18355
+End
+D2
+~
+~
+0 -1 18334
+End
+D3
+~
+~
+0 -1 18338
+End
+S
+End
+#18338
+The Path to the Administration Tower~
+The Administration Tower looms to the west.  It is a large, gray
+building, where the prisoner's paperwork is processed, and where the guards
+can go to relax after long days patrolling the yards.  
+~
+0 532481 1
+D1
+~
+~
+0 -1 18337
+End
+D3
+~
+~
+0 -1 18339
+End
+S
+End
+#18339
+A Junction~
+At this junction, a path runs north toward the gardens, which flourishes
+under the prisoner's care.  Towards the west is the main prison compound. 
+The Administration Building is to the west.
+~
+0 532480 1
+D0
+~
+~
+0 -1 18371
+End
+D1
+~
+~
+0 -1 18338
+End
+D3
+~
+~
+0 -1 18340
+End
+S
+Reset M 18330 1 100 0 Load a wary prisoner.
+Reset E 18303 16 100 0 A stolen guard baton is loaded wielded of a stolen guard baton
+Reset E 18317 17 100 0 A flashlight is loaded held in the hands of a flashlight
+End
+#18340
+Just outside the Administration Building~
+You are standing just outside the prison's administration building.  The
+gray walls are very sterile and almost uninviting.  You feel a cool air
+emanating from the building, which is a change from the dank heat of the
+outdoors.  
+~
+0 532481 1
+D1
+~
+~
+0 -1 18339
+End
+D3
+~
+~
+1 0 18341
+Flags AB
+End
+S
+End
+#18341
+The Hallway~
+You are in a well lit hallway.  Pictures of past (and very ugly) warden's
+adorn the walls.  This prison must go through wardens a lot, because there
+are a LOT of pictures here.  Doors lie to the north and to the south.  
+~
+0 532481 0
+D0
+~
+~
+1 0 18343
+Flags AB
+End
+D1
+~
+~
+1 0 18340
+Flags AB
+End
+D2
+~
+~
+1 0 18342
+Flags AB
+End
+D3
+~
+~
+0 -1 18344
+End
+S
+End
+#18342
+The Nurse's Station~
+Clean!  Sterile!  Well this room has to be, this is where prisoners and
+guards alike are treated for injuries.  It is also the room where they
+perform the body cavity searches.  EWWWWWWW!  The only exit is back to the
+north.  
+~
+0 532480 0
+D0
+~
+~
+1 0 18341
+Flags AB
+End
+S
+Reset M 18328 1 100 0 Load a prison orderly.
+End
+#18343
+A room in the Administration Building~
+This is a room where the guards come to chill out and relax, or calm
+down.  Being a guard in this prison is very stressful.  There are barely
+covered up holes in the walls, probably from an upset guard trying to vent
+frustration.  Other than that, there is not much special about this room.  
+~
+0 532481 0
+D2
+~
+~
+1 0 18341
+Flags AB
+End
+S
+Reset M 18329 1 100 0 Load a mad guard.
+End
+#18344
+The Hallway~
+You are in a well lit hallway.  Pictures of past (and very ugly)
+warden's adorn the walls.  This prison must go through wardens a lot,
+because there are a LOT of pictures here.  Doors lie to the north and to the
+south.  
+~
+0 532480 0
+D0
+~
+~
+1 0 18346
+Flags AB
+End
+D1
+~
+~
+0 0 18341
+End
+D2
+~
+~
+1 0 18345
+Flags AB
+End
+D3
+~
+~
+0 -1 18347
+End
+S
+End
+#18345
+A room in the Administration Building~
+This is a room where the guards come to chill out and relax, or calm
+down.  Being a guard in this prison is very stressful.  There are barely
+covered up holes in the walls, probably from an upset guard trying to vent
+frustration.  Other than that, there is not much special about this room.  
+~
+0 532480 0
+D0
+~
+~
+1 0 18344
+Flags AB
+End
+S
+Reset M 18327 1 100 0 Load a veteran prison guard.
+Reset E 18312 16 100 0 The shocker!!! is loaded wielded of the SHOCKER!!!
+Reset E 18313 5 100 0 Riot gear is loaded on the body of riot gear
+Reset E 18314 6 100 0 A riot cap is loaded over the head of a riot cap
+End
+#18346
+A Room in the Mayor's Manse~
+This is a room where the guards come to chill out and relax, or calm
+down.  Being a guard in this prison is very stressful.  There are barely
+covered up holes in the walls, probably from an upset guard trying to vent
+frustration.  Other than that, there is not much special about this room.  
+~
+0 532480 0
+D2
+~
+~
+1 0 18344
+Flags AB
+End
+S
+Reset M 18315 1 100 0 Load a guard dog.
+End
+#18347
+The Stairway~
+There is a staircase here leading up to the second level of the
+Administration Building.  The second floor houses the office of the Warden,
+among other administrative offices.  The walls are a bleak gray and very
+bare.  
+~
+0 532480 0
+D1
+~
+~
+0 -1 18344
+End
+D4
+~
+~
+0 -1 18348
+End
+S
+End
+#18348
+The Stairway~
+You are at the top of the staircase.  Looking east is a long hallway,
+which ends at the office of the prison's warden.  Small administrative
+offices adorn the hallway.  This administration building is run pretty
+efficiently, or so it seems...  
+~
+0 532480 0
+D1
+~
+~
+0 -1 18349
+End
+D5
+~
+~
+0 -1 18347
+End
+S
+End
+#18349
+The Hallway~
+You are in a well lit hallway.  Pictures of past (and very ugly)
+warden's adorn the walls.  This prison must go through wardens a lot,
+because there are a LOT of pictures here.  Doors lie to the north and to the
+south.  
+~
+0 532488 0
+D0
+~
+~
+1 0 18350
+Flags AB
+End
+D1
+~
+~
+1 0 18352
+Flags AB
+End
+D2
+~
+~
+1 0 18351
+Flags AB
+End
+D3
+~
+~
+0 -1 18348
+End
+S
+End
+#18350
+A secret prison!~
+You are in a secret prison cell, where the warden keeps his "play toys". 
+Elinthia seems to be the flavor of the month.  When he tires of her, he'll
+find another helpless prisoner to fulfill his sick desires.  The room reeks
+of sex, which normally isn't a bad thing, but this is degrading sex.... 
+What a shame they put people in power who take advantage of others.  
+~
+0 532488 0
+D2
+~
+~
+1 0 18349
+Flags AB
+End
+S
+Reset M 18309 1 100 0 Load Elintha.
+Reset E 18304 6 100 0 A crown of thorns is loaded over the head of a crown of thorns
+End
+#18351
+A Room in the Mayor's Manse~
+You stand in the prison's kitchen...  What a foul stench....  How can
+they call this shit food?  A huge pot of....  Stuff is bubbling on the
+stove.  For a prison, this room is incredibly unsanitary.  
+~
+0 532488 0
+D0
+~
+~
+1 0 18349
+Flags AB
+End
+S
+Reset M 18310 1 100 0 Load the prison chef.
+End
+#18352
+The Warden's office~
+~
+0 532488 0
+D0
+~
+~
+1 0 18353
+Flags AB
+End
+D2
+~
+~
+1 0 18354
+Flags AB
+End
+D3
+~
+~
+1 0 18349
+Flags AB
+End
+S
+Reset M 18319 1 100 0 Load the warden.
+Reset E 18307 12 100 0 A military issue jacket is loaded about the shoulders of a military issue jacket
+Reset E 18308 16 100 0 A guard baton is loaded wielded of a guard baton
+Reset E 18310 17 100 0 Binoculars is loaded held in the hands of binoculars
+Reset G 18320 1 100 0 A key into inventory of a key
+End
+#18353
+A Bedroom~
+In this room lies an ornately-carved four poster bed with satin sheets. 
+Opposite it lies a long sofa, to each his own.  The Warden's Office is back
+to the south.  
+~
+0 532481 0
+D2
+~
+~
+1 0 18352
+Flags AB
+End
+S
+Reset M 18316 1 100 0 Load Elissandra.
+Reset O 18315 1 100 0 Load A purse.
+Reset P 18316 1 100 0 Put {1ruby earrings{0 inside {1Ruby Earrings{0.
+Reset O 18306 1 100 0 Load A chest.
+Reset P 18305 1 100 0 Put A prison patch inside a prison patch.
+End
+#18354
+A closet~
+~
+0 532489 0
+D0
+~
+~
+1 0 18352
+Flags AB
+End
+S
+Reset M 18305 1 100 0 Load the chief guard.
+Reset E 18301 9 100 0 Strong guard gloves is loaded on the hands of strong Guard Gloves
+Reset E 18302 6 100 0 Silver sunglasses is loaded over the head of silver Sunglasses
+End
+#18355
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D1
+~
+~
+0 -1 18356
+End
+D2
+~
+~
+0 -1 18337
+End
+S
+End
+#18356
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18359
+End
+D2
+~
+~
+0 -1 18357
+End
+D3
+~
+~
+0 -1 18355
+End
+S
+End
+#18357
+An OutHouse~
+Peeeeeeeeeeeeeeeeeeeeeee-U!  God this place stinks something awful...  It
+seems to be the used a bit TOO much.  It's not clean at all.  Gross.  All
+you wanna do is get the HELL out of this nasty room.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18356
+End
+D1
+~
+~
+1 0 18358
+Flags AB
+End
+S
+End
+#18358
+An Escape Route!~
+Wow, some prisoners have actually managed to escape this hellhole!  Who
+knows where this escape route leads to...  Probably some remote place far
+away from here.  Who knows if the tunnel is even finished.  Dare you try it
+out?  
+~
+0 532481 0
+D3
+~
+~
+1 0 18357
+Flags AB
+End
+D5
+~
+~
+0 0 3138
+End
+S
+Reset M 18331 1 100 0 Load a gigantic maggot.
+Reset E 18300 17 100 0 A maggot's antannae is loaded held in the hands of a maggot's antannae
+End
+#18359
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18363
+End
+D1
+~
+~
+0 -1 18360
+End
+D2
+~
+~
+0 -1 18356
+End
+S
+End
+#18360
+A cement block~
+You stand before the main punishment building.  Peering inside you see
+shackles lining the walls.  It is rumored that many a prisoner has been
+beat to death here.  This is not a place you would want to end up in.  
+~
+0 532480 1
+D1
+~
+~
+1 0 18361
+Flags AB
+End
+D3
+~
+~
+0 -1 18359
+End
+S
+End
+#18361
+The Punishment Cell~
+Shackles and dried, caked blood align this sadistic room.  Prisoners are
+brought here to be "restructured", aka: punished, till they repent their
+crimes.  Not that repention will give them any respite from their
+punishment, the guards just like to see how long a man can go before he is
+broken.  
+~
+0 532480 0
+D1
+~
+~
+0 -1 18362
+End
+D3
+~
+~
+1 0 18360
+Flags AB
+End
+S
+End
+#18362
+The Recovery Room~
+This is where the punished prisoners, who survive their beatings
+recover.  A small cot with an itchy blanket lies against the wall...  Which
+leads you to believe that it's probably better off dying than to recover in
+here.  The lights are too bright to get any good rest...  
+~
+0 532480 0
+D3
+~
+~
+0 -1 18361
+End
+S
+End
+#18363
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18364
+End
+D2
+~
+~
+0 -1 18359
+End
+S
+End
+#18364
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18395
+End
+D1
+~
+~
+0 -1 18365
+End
+D2
+~
+~
+0 -1 18363
+End
+S
+End
+#18365
+The Main Prison~
+You stand at the doors of the main prison.  It's a smaller building than
+the Administration Building!  The prisoners in here must be all cramped up.
+It almost makes one think twice when pondering a crime.  
+~
+0 532480 1
+D1
+~
+~
+1 0 18366
+Flags AB
+End
+D3
+~
+~
+0 -1 18364
+End
+S
+Reset M 18323 2 100 0 Load a prison cat.
+End
+#18366
+Inside the Prison~
+The interior of the prison is dark, damp and cramped.  Water drips from
+the ceilings, chilling the room to an almost uncomfortable feeling.  The
+only exits from this room is down, or back to the prison yards.  
+~
+0 532481 0
+D3
+~
+~
+1 0 18365
+Flags AB
+End
+D5
+~
+~
+0 -1 18367
+End
+S
+Reset M 18333 2 100 0 Load a giant spider.
+End
+#18367
+The Prison~
+It seems that this prison is much smaller than you expected....  It's
+very odd that the outlying yards and gardens take up so much space when the
+actual confinements are restricted to about ten rooms.  There is something
+shady going on here....  Perhaps the outside is just for show.  
+~
+0 532481 0
+D0
+~
+~
+1 0 18368
+Flags AB
+End
+D1
+~
+~
+1 0 18370
+Flags AB
+End
+D2
+~
+~
+1 0 18369
+Flags AB
+End
+D4
+~
+~
+0 -1 18366
+End
+S
+Reset M 18323 2 100 0 Load a prison cat.
+End
+#18368
+A prison cell~
+This is one of the cells that the prisoners inhabit.  What a dismal
+place.  Men are stacked in here by the dozens and limited to the 5 cots in
+this room.  Human and animal feces line the floor.  How can anyone live like
+this?  
+~
+0 532488 0
+D2
+~
+~
+1 0 18367
+Flags AB
+End
+S
+Reset M 18304 2 100 0 Load an escapee.
+Reset E 18311 12 100 0 A black cloak is loaded about the shoulders of a black cloak
+Reset G 18321 1 100 0 A nailfile into inventory of a nailfile
+Reset M 18304 2 100 0 Load an escapee.
+Reset E 18311 12 100 0 A black cloak is loaded about the shoulders of a black cloak
+Reset G 18321 1 100 0 A nailfile into inventory of a nailfile
+End
+#18369
+A prison cell~
+This is one of the cells that the prisoners inhabit.  What a dismal
+place.  Men are stacked in here by the dozens and limited to the 5 cots in
+this room.  Human and animal feces line the floor.  How can anyone live like
+this?  
+~
+0 532481 0
+D0
+~
+~
+1 0 18367
+Flags AB
+End
+S
+End
+#18370
+A prison cell~
+This is one of the cells that the prisoners inhabit.  What a dismal
+place.  Men are stacked in here by the dozens and limited to the 5 cots in
+this room.  Human and animal feces line the floor.  How can anyone live like
+this?  
+~
+0 532481 0
+D3
+~
+~
+1 0 18367
+Flags AB
+End
+S
+Reset M 18334 1 100 0 Load the gimp.
+Reset E 18311 12 100 0 A black cloak is loaded about the shoulders of a black cloak
+Reset G 18321 1 100 0 A nailfile into inventory of a nailfile
+Reset E 18322 23 100 0 {diron ankle cuffs{0 is loaded on the left ankle of {DIron ankle cuffs{0
+Reset G 18322 1 100 0 {diron ankle cuffs{0 into inventory of {DIron ankle cuffs{0
+End
+#18371
+The Path to the Recreation Yards~
+The path is lined with small delicate flowers.  The smooth stone of the
+path itself is very well made, and well taken care of.  The Recreation Yards
+are close, they are where the prisoners go to stretch out and relax from
+their hard days working in the yards.  
+~
+0 532480 3
+D0
+~
+~
+0 -1 18372
+End
+D2
+~
+~
+0 -1 18339
+End
+S
+End
+#18372
+The Path to the Recreation Yards~
+The path is lined with small delicate flowers.  The smooth stone of the
+path itself is very well made, and well taken care of.  The Recreation Yards
+are close, they are where the prisoners go to stretch out and relax from
+their hard days working in the yards.  There is a small hole at your feet.  
+~
+0 532480 3
+D0
+~
+~
+0 -1 18373
+End
+D2
+~
+~
+0 -1 18371
+End
+D5
+~
+~
+0 -1 18374
+End
+S
+End
+#18373
+The path to the Recreation Yards~
+The path is lined with small delicate flowers.  The smooth stone of the
+path itself is very well made, and well taken care of.  The Recreation Yards
+are close, they are where the prisoners go to stretch out and relax from
+their hard days working in the yards.  
+~
+0 532480 3
+D0
+~
+~
+1 0 18377
+Flags A
+End
+D2
+~
+~
+0 -1 18372
+End
+S
+End
+#18374
+An old discovered escape route~
+This is obviously the beginning (and end) of an attempted escape route. 
+There is a boarded up hole to the north of you, but the guards seem to have
+it so well covered there is no way through it.  
+~
+0 532481 0
+D4
+~
+~
+0 -1 18372
+End
+S
+Reset M 18317 1 100 0 Load an escapee.
+Reset G 18318 1 100 0 Flashlight into inventory of flashlight
+End
+#18375
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18380
+End
+D1
+~
+~
+0 -1 18376
+End
+S
+Reset M 18320 4 100 0 Load a prison guard.
+End
+#18376
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18381
+End
+D1
+~
+~
+0 -1 18377
+End
+D3
+~
+~
+0 -1 18375
+End
+S
+End
+#18377
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18382
+End
+D1
+~
+~
+0 -1 18378
+End
+D3
+~
+~
+0 -1 18376
+End
+S
+End
+#18378
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18383
+End
+D1
+~
+~
+0 -1 18379
+End
+D3
+~
+~
+0 -1 18377
+End
+S
+Reset M 18321 4 100 0 Load an exercising prisoner.
+End
+#18379
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18384
+End
+D3
+~
+~
+0 -1 18378
+End
+S
+End
+#18380
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18385
+End
+D1
+~
+~
+0 -1 18381
+End
+D2
+~
+~
+0 -1 18375
+End
+S
+End
+#18381
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18386
+End
+D1
+~
+~
+0 -1 18382
+End
+D2
+~
+~
+0 -1 18376
+End
+D3
+~
+~
+0 -1 18380
+End
+S
+Reset M 18322 2 100 0 Load a prisoner.
+End
+#18382
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18387
+End
+D1
+~
+~
+0 -1 18383
+End
+D2
+~
+~
+0 -1 18377
+End
+D3
+~
+~
+0 -1 18381
+End
+S
+End
+#18383
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18388
+End
+D1
+~
+~
+0 -1 18384
+End
+D2
+~
+~
+0 -1 18378
+End
+D3
+~
+~
+0 -1 18382
+End
+S
+End
+#18384
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18389
+End
+D2
+~
+~
+0 -1 18379
+End
+D3
+~
+~
+0 -1 18383
+End
+S
+Reset M 18324 2 100 0 Load a sparrow.
+End
+#18385
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18390
+End
+D1
+~
+~
+0 -1 18386
+End
+D2
+~
+~
+0 -1 18380
+End
+S
+End
+#18386
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18391
+End
+D1
+~
+~
+0 -1 18387
+End
+D2
+~
+~
+0 -1 18381
+End
+D3
+~
+~
+0 -1 18385
+End
+S
+End
+#18387
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 524289 3
+D0
+~
+~
+0 -1 18392
+End
+D1
+~
+~
+0 -1 18388
+End
+D2
+~
+~
+0 -1 18382
+End
+D3
+~
+~
+0 -1 18386
+End
+S
+Reset M 18325 8 100 0 Load a mad prisoner.
+End
+#18388
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18393
+End
+D1
+~
+~
+0 -1 18389
+End
+D2
+~
+~
+0 -1 18383
+End
+D3
+~
+~
+0 -1 18387
+End
+S
+End
+#18389
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D0
+~
+~
+0 -1 18394
+End
+D2
+~
+~
+0 -1 18384
+End
+D3
+~
+~
+0 -1 18388
+End
+S
+End
+#18390
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D1
+~
+~
+0 -1 18391
+End
+D2
+~
+~
+0 -1 18385
+End
+S
+Reset M 18307 1 100 0 Load a prisonner.
+End
+#18391
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D1
+~
+~
+0 -1 18392
+End
+D2
+~
+~
+0 -1 18386
+End
+D3
+~
+~
+0 -1 18390
+End
+S
+End
+#18392
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 524289 3
+D1
+~
+~
+0 -1 18393
+End
+D2
+~
+~
+0 -1 18387
+End
+D3
+~
+~
+0 -1 18391
+End
+S
+Reset M 18326 1 100 0 Load the prison's nurse.
+End
+#18393
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D1
+~
+~
+0 -1 18394
+End
+D2
+~
+~
+0 -1 18388
+End
+D3
+~
+~
+0 -1 18392
+End
+S
+End
+#18394
+The Recreation Yard~
+The recreation yards loom on for miles.  Prisoners can get
+all the exercise they need here.  A long track circles the 
+yard.  It is so large, that many get confused as to where 
+they are.
+~
+0 532481 3
+D2
+~
+~
+0 -1 18389
+End
+D3
+~
+~
+0 -1 18393
+End
+S
+End
+#18395
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18397
+End
+D2
+~
+~
+0 -1 18364
+End
+D5
+~
+~
+0 -1 18396
+End
+S
+End
+#18396
+The Beggining of an escape tunnel~
+Fresh dirt is everywhere...  It is evident that this is one of the newest
+attempts at escape from this hell of a prison.  The escapees haven't gotten
+very far in their attempt tho....  Perhaps they will manage to finish their
+tunnel before the guards catch them, but most likely not.  
+~
+0 532481 0
+D4
+~
+~
+0 -1 18395
+End
+S
+Reset M 18311 1 100 0 Load An escaping prisonner.
+Reset O 18305 1 100 0 Load A prison patch.
+End
+#18397
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532480 1
+D0
+~
+~
+0 -1 18398
+End
+D2
+~
+~
+0 -1 18395
+End
+S
+End
+#18398
+The Prison Gardens~
+You are standing in the prison's gardens.  Neat rows of vegetables and
+flowers surround you.  They must be pretty self efficient here, but the
+better the food they make, the better the food they eat.  
+~
+0 532481 1
+D0
+~
+~
+0 -1 18399
+End
+D2
+~
+~
+0 -1 18397
+End
+S
+End
+#18399
+A Dark Tunnel~
+Can it be? YES! An escape route! From this tunnel emanates the sweet smell 
+of green grass and fresh air. You can clamber through and escape, though
+the tunnel is so narrow you doubt you'd be able to return through it.
+~
+0 532481 1
+D0
+~
+~
+0 -1 18398
+End
+D5
+~
+~
+0 0 1215
+End
+S
+End
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

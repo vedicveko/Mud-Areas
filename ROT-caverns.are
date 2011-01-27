@@ -1,0 +1,2686 @@
+#AREADATA
+Name Caverns Through Time~
+Builders None~
+VNUMs 30400 30499
+Credits [ 10  40] Kandahar Caverns Through Time~
+Security 9
+End
+
+
+
+#MOBILES
+#30400
+spook halloween~
+a spook~
+A {Wspook{x wails keenly.
+~
+{WThis spook is doing its best to scare you.  Do it a favour and at
+least look a bit panicky?  {x 
+~
+human~
+AGS 0 O 0 0
+12 0 2d8+134 2d50+50 1d10+2 slime
+1 1 1 1
+F 0 H N
+stand stand none 400
+AHMV ABCDEFGHIJK medium unknown
+#30401
+pumpkin halloween~
+a pumpkin~
+{x     A {ypumpkin{x sits here.
+~
+{WThis {ypumpkin{W sits innocently on the ground.  {x 
+~
+unique~
+ABGT 0 N 0 0
+10 0 2d8+134 2d50+50 2d4+2 suction
+1 1 1 1
+FN 0 P G
+stand stand none 500
+AE DEF medium unknown
+#30402
+black cat halloween~
+a black cat~
+A {Dblack cat{x winds its way around your legs.
+~
+{WThis {Dblack cat{W looks silently at you as if trying to tell you
+something.  Could it be a good luck omen?  {x 
+~
+cat~
+AGT Z 0 0 0
+11 0 2d10+150 2d50+50 1d10+2 claw
+1 1 1 1
+FH 0 G K
+stand stand none 550
+AGV ACDEFHJKQUV medium unknown
+#30403
+skeleton halloween~
+a skeleton~
+A skeleton cracks its knuckles.
+~
+{WThis skeleton peeks out from behind a tombstone{x.  
+~
+human~
+ACGT 0 O 0 0
+13 0 2d10+190 2d50+50 2d5+3 grep
+-1 -1 -1 -1
+DFI 0 F H
+stand stand none 300
+AHMV ABCDEFGHIJK medium unknown
+#30404
+witch halloween~
+a wicked witch~
+A {Rwicked {Dwitch{G cackles {xat you.
+~
+{WThis witch is quite mad as she cackles gleefully while cooking up
+another hideous plot.  {x 
+~
+human~
+ACGT 0 N 0 0
+15 0 3d9+233 2d50+50 2d6+3 magic
+-2 -2 -2 -2
+FJ 0 N T
+stand stand female 550
+AHMV ABCDEFGHIJK medium unknown
+#30405
+trick treater halloween~
+a trick or treater~
+A trick or treater petulantly waits for candy.
+~
+{WThis trick or treater has made the effort to dress up in a Halloween
+costume.  Now it better have been worth it!  {x 
+~
+human~
+ACGS V 0 0 0
+14 0 2d10+170 2d50+50 2d5+3 punch
+-1 -1 -1 -1
+FN 0 T I
+stand stand male 200
+AHMV ABCDEFGHIJK small unknown
+#30406
+toffee apple halloween~
+a toffee apple~
+{x     A {rtoffee {Gapple{x has been left here.
+~
+{WThis poor liddle toffee apple, all on its lonesome.  It looks like
+someone has dropped it and forgotten all about it.  {x 
+~
+unique~
+ABGT 0 O 0 0
+11 0 2d10+150 2d50+50 1d10+2 blast
+1 1 1 1
+FN 0 T E
+stand stand none 250
+AE DF small unknown
+#30407
+vampire halloween~
+a vampire~
+A vampire sizes up your neck.
+~
+{WThis vampire looks as if it hasn't been fed in a week.  Better watch
+out!  {x 
+~
+human~
+AGT 0 O 0 0
+15 0 3d9+233 2d50+50 2d6+3 suction
+-2 -2 -2 -2
+EFJN 0 T S
+stand stand male 400
+AHMV ABCDEFGHIJK medium unknown
+#30408
+zombie halloween~
+a zombie~
+A zombie stares right through you.
+~
+{WThis zombie doesn't appear to be at home.  Its eyes are glazed and
+nostrils flared.  {x 
+~
+human~
+ACGT 0 N 0 0
+10 0 2d8+134 2d50+50 2d4+2 chill
+1 1 1 1
+FN 0 K N
+stand stand male 300
+AHMV ABCDEFGHIJK medium unknown
+#30409
+santa claus xmas~
+Santa~
+Santa Claus laughs merrily.
+~
+{WSanta is a jolly man who goes out of his way to make the lives of
+children the world around, happier and better if only for one day.  {x 
+~
+human~
+ACGT V N 0 0
+20 0 4d10+360 2d50+50 2d8+5 punch
+-4 -4 -4 -4
+DEFIKN 0 N T
+stand stand male 2000
+AHMV ABCDEFGHIJK large unknown
+#30410
+reindeer xmas~
+a reindeer~
+One of {RSanta's {gReindeers {xstands proudly.
+~
+{WThis reindeer is proud to serve Santa and do its part in making
+Christmas a happier time for all.  {x 
+~
+unique~
+AGR T N 0 0
+15 0 2d10+190 2d50+50 1d10+3 charge
+-1 -1 -1 -1
+EFIN 0 E K
+stand stand male 500
+AGV ACEFGHIJKQ large unknown
+#30411
+xmas tree christmas~
+a Christmas Tree~
+A {RC{xh{Gr{xi{Rs{xt{Gm{xa{Rs {gTree{x {Yglitters {xhere.
+~
+{WThis Christmas tree is covered in sparkly lights and baubles and
+looks most enticing.  {x 
+~
+unique~
+ABGS 0 O 0 0
+16 0 3d9+208 2d50+50 2d6+3 scratch
+-2 -2 -2 -2
+EFJ 0 I H
+stand stand none 1500
+E DF medium unknown
+#30412
+turkey xmas~
+a plump roast turkey~
+{x     A plump {rroast {yturkey {xlies on a plate.
+~
+{WThis plump turkey has been cooked and is just ready to eat.  It
+smells and looks delicious.  {x 
+~
+unique~
+ABGQ 0 N 0 0
+17 0 3d9+258 2d50+50 2d6+3 peckb
+-3 -3 -3 -3
+FN 0 H E
+stand stand none 200
+AGW CP large unknown
+#30413
+ham xmas~
+a ham~
+{x     A delicious looking {Mham{x.
+~
+{WThis Christmas ham is positively oozing delicious smells and juices.
+{x 
+~
+unique~
+ABGQ 0 O 0 0
+17 0 3d9+258 2d50+50 2d6+3 digestion
+-3 -3 -3 -3
+FI 0 H F
+stand stand none 150
+AE DEF medium unknown
+#30414
+caroler xmas singer~
+a caroler~
+A caroler stands here singing Christmas carols.
+~
+{WThis young lady sings loudly to her hearts content, trying to fill
+everyone with the spirit of Christmas.  {x 
+~
+human~
+AGT 0 O 0 0
+18 0 3d9+308 2d50+50 2d7+4 slap
+-3 -3 -3 -3
+EFIN 0 P I
+stand stand female 550
+AHMV ABCDEFGHIJK medium unknown
+#30415
+snowman xmas~
+a snowman~
+A {Wsnowman {xbegins to melt here.
+~
+{WThis snowman twinkles beadily at you.{x
+~
+unique~
+ABCGS 0 N 0 0
+19 0 3d9+283 2d50+50 2d7+4 chill
+-3 -3 -3 -3
+0 0 I H
+stand stand none 600
+AE ABEF medium unknown
+#30416
+elf xmas~
+an elf~
+An {Gelf {xdarts off to assist {RSanta{x.
+~
+{WThis elf is one of Santa's helpers.  He really should be assisting
+Santa right now, not gallivanting around doing just the opposite.  {x 
+~
+elf~
+ACGO JV O 0 0
+16 0 3d9+233 2d50+50 1d12+3 magic
+-2 -2 -2 -2
+U 0 B Z
+stand stand male 500
+AHMV ABCDEFGHIJK small unknown
+#30417
+snowball xmas~
+a snowball~
+{x     A {Wsnowball {xhas been thrown here.
+~
+{WThis snowball looks a bit worse for wear.  It is covered in bits of
+grit and twigs.  {x 
+~
+unique~
+ABGS 0 N 0 0
+20 0 3d9+308 2d50+50 2d7+5 chill
+-4 -4 -4 -4
+EFJ 0 E H
+stand stand none 0
+AE DF small unknown
+#30418
+bunny easter~
+the Easter bunny~
+The Easter bunny hops around here.
+~
+{WThe Easter bunny looks extremely furry and cute.  {x 
+~
+rabbit~
+AGQ 0 O 0 0
+20 0 3d9+333 2d50+50 2d7+4 bite
+-3 -3 -3 -3
+FH 0 E T
+stand stand female 300
+AGV ACDEFHJK small unknown
+#30419
+chick easter~
+a fluffy chick~
+A {Yfluffy chick {xpecks at the {ggrass{x.
+~
+{WA fluffy newly born chick pecks around in the grass looking for
+seed.  {x 
+~
+song bird~
+AGT T O 0 0
+21 0 5d10+400 2d50+50 4d4+5 peckb
+-5 -5 -5 -5
+FH 0 H I
+stand stand female 400
+AGW ACDEFHKP medium unknown
+#30420
+egg easter~
+an Easter egg~
+{x     A handpainted Easter egg lies on the ground.
+~
+{WThis hard boiled egg has been handpainted in the spirit of Easter.  {x 
+~
+unique~
+AGS PQ O 0 0
+22 0 4d10+360 2d50+50 4d4+5 pound
+-5 -5 -5 -5
+BEF 0 I H
+stand stand none 550
+AE DF medium unknown
+#30421
+palm easter~
+a palm branch~
+{x     A {gpalm {ybranch {xlies forlornly on the ground.
+~
+{WThis palm branch is all things holy and is historically found during
+Easter.  {x 
+~
+unique~
+AGQ 0 N 0 0
+23 0 5d10+450 2d50+50 4d4+5 whip
+-6 -6 -6 -6
+FIN 0 E H
+stand stand none 250
+E DF large unknown
+#30422
+duckling easter~
+a downy duckling~
+A {ydowny {Yduckling {xwaddles around here.
+~
+{WThis little duckling waddles around looking for grubs and worms.  {x 
+~
+song bird~
+AGR T N 0 0
+24 0 5d10+450 2d50+50 4d4+5 peckb
+-6 -6 -6 -6
+FHIJ 0 P I
+stand stand female 500
+AGW ACDEFHKP medium unknown
+#30423
+chocolate egg easter~
+a chocolate Easter egg~
+{x     A {ychocolate {BEaster{M egg {xlies in the {ggrass{x.
+~
+{WThis Easter egg's shell is made from solid chocolate.  Mmmmm.  {x 
+~
+unique~
+ABGT 0 N 0 0
+25 0 5d10+600 2d50+50 2d10+7 punch
+-7 -7 -7 -7
+DEFIJ 0 I H
+stand stand none 600
+AE DEF medium unknown
+#30424
+basket easter~
+an Easter basket~
+{x     An {BEaster {ybasket {xfilled with {Mgoodies{x.
+~
+{WThis basket lays on the ground filled with goodies for someone to
+find.  {x 
+~
+unique~
+ABCGO 0 O 0 0
+20 0 3d9+333 2d50+50 2d7+4 slap
+-4 -4 -4 -4
+EFN 0 I K
+stand stand none 350
+BE DEF medium unknown
+#30425
+turkey thanksgiving~
+a plump roast turkey~
+{x     A {rplump {RThanksgiving {yturkey {xwith all the {Ctrimmings {xlies on a plate.
+~
+{WThis is certainly fine fare for this joyous occasion, and enough to
+go round for all the family.  {x 
+~
+unique~
+ABFGS V O 0 0
+35 0 10d10+1200 2d50+50 4d7+10 peckb
+-11 -11 -11 -11
+BEFJKN 0 H G
+stand stand none 2000
+AW 0 giant unknown
+#30426
+pumpkin pie thanksgiving~
+a pumpkin pie~
+{x     A {ypumpkin pie {xlooks delicious.
+~
+{WThis delicious looking pie smells soooo good and is ready to eat.  {x 
+~
+unique~
+ABGT 0 N 0 0
+36 0 10d10+1500 2d50+50 3d10+11 slice
+-12 -12 -12 -12
+DEFI 0 G I
+stand stand none 600
+AE ADEF medium unknown
+#30427
+ham thanksgiving~
+a juicy looking ham~
+{x     A {Rjuicy looking {Mham {xsits on a platter.
+~
+{WThis ham has been bought and cooked especially for Thanksgiving
+dinner.  {x 
+~
+unique~
+ABGQ 0 O 0 0
+37 0 10d10+1500 2d50+50 4d7+11 slap
+-12 -12 -12 -12
+FIJK 0 N O
+stand stand none 200
+AE ADEF medium unknown
+#30428
+relation thanksgiving~
+an irritating relation~
+A relation attempts to make small talk.
+~
+{WThis relation is one of those who has to know EVERYTHING that is
+going on and proceeds to broadcast it far and wide.  Who needs TV!  {x 
+~
+human~
+ACGT 0 N 0 0
+38 0 15d10+1700 2d50+50 3d10+12 slap
+-12 -12 -12 -12
+DEFKN 0 T P
+stand stand female 3000
+AHMV ABCDEFGHIJK large unknown
+#30429
+pilgrim thanksgiving~
+a pilgrim~
+A pilgrim celebrates the bounty over the year.
+~
+{WThis pilgrim is busy counting his lucky stars that the natives of
+this land were as generous as they were.  {x 
+~
+human~
+AGR V O 0 0
+39 0 10d10+1600 2d50+50 3d10+11 punch
+-13 -13 -13 -13
+EFJKN 0 I H
+stand stand female 2000
+AHMV ABCDEFGHIJK medium unknown
+#30430
+native american indian thanksgiving~
+a native American~
+This Indian watches the proceedings unblinkingly.
+~
+{WThis native American watches cynically.  {x 
+~
+human~
+AGQ V O 0 0
+40 0 15d10+1850 2d50+50 5d6+12 chop
+-13 -13 -13 -13
+CEFIK 0 H I
+stand stand female 4000
+AHMV ABCDEFGHIJK medium unknown
+#30431
+beachball summer~
+a beachball~
+{x     A {Rb{Be{Ya{Gc{Rh{Bb{Ya{Gl{Rl {xlies forgotten in the {ysand{x.
+~
+{WLarge and bouncy, it appears to be sagging slightly.  Perhaps
+there's a puncture.  {x 
+~
+unique~
+ABGT T N 0 0
+30 0 6d12+928 2d50+50 4d6+8 thwack
+-9 -9 -9 -9
+DFIJK 0 I F
+stand stand none 200
+E DEF medium unknown
+#30432
+kite summer~
+a kite~
+{x     A {Bkite {xflaps in the {Cbreeze{x.
+~
+{WLarge and bright, it flaps gaily in the wind, ducking and diving and
+enjoying its freedom.  {x 
+~
+unique~
+AGR T N 0 0
+31 0 6d12+853 2d50+50 2d12+8 chill
+-9 -9 -9 -9
+EFJKN 0 O K
+stand stand none 400
+E DEFQ large unknown
+#30433
+crab summer~
+a crab~
+A {gcrab {xscuttles across the {ysand{x.
+~
+{WThis crab looks beadily at you, its shell a dark green colour.  {x 
+~
+unique~
+ACGS PQV O 0 0
+32 3 6d12+928 2d50+50 4d6+9 claw
+-10 -10 -10 -10
+BEFIKN 0 I O
+stand stand male 500
+AGV CEFK medium unknown
+#30434
+bathing beauty summer~
+a bathing beauty~
+A beauty lies stretched out on the sand.
+~
+{WThis woman seems oblivious to your stares.  She obviously is intent
+on catching some rays.  {x 
+~
+human~
+AGQ 0 N 0 0
+33 1 10d10+1100 2d50+50 4d6+9 slap
+-11 -11 -11 -11
+FJKN 0 H T
+sit stand female 5000
+AHMV ABCDEFGHIJK medium unknown
+#30435
+lifeguard summer~
+the lifeguard~
+The lifeguard struts around importantly.
+~
+{WThis guy is full of his own self-importance.  He struts around
+looking quite the part.  Wonder if he can actually swim?  {x 
+~
+human~
+AGT 0 O 0 0
+34 1 10d10+1300 2d50+50 4d7+10 punch
+-11 -11 -11 -11
+DEFJKN 0 I T
+stand stand male 4000
+AHMV ABCDEFGHIJK large unknown
+#30436
+swimmer summer~
+a swimmer~
+A {Bswimmer {xheads towards the {Csea{x.
+~
+{WThis swimmer is covered in sand and is heading for the sea to wash
+it off.  {x 
+~
+human~
+ACGO V N 0 0
+35 2 10d10+1300 2d50+50 6d4+10 none
+-11 -11 -11 -11
+EFJKN 0 I N
+stand stand male 200
+AHMV ABCDEFGHIJK medium unknown
+#30437
+firework independence~
+a firework~
+{MFi{Rre{Ywo{Grks {Bburst {xinto the {Csky {xturning it into a {Gglorious {Mdi{Rsp{Yla{Gy{x.
+~
+{WDon't get too near... you might burn yourself.{x
+~
+unique~
+ABGT V O 0 0
+30 0 6d12+928 2d50+50 4d6+8 none
+-9 -9 -9 -9
+DEFJKN 0 T P
+stand stand none 200
+E DF giant unknown
+#30438
+british soldier independence~
+a British soldier~
+This soldier marches on the orders of his regiment.
+~
+{WHe doesn't look too happy but he has his orders.{x
+~
+human~
+ACGO I N 0 0
+26 1 5d10+600 2d50+50 2d10+6 punch
+-7 -7 -7 -7
+EFIKNU 0 N I
+stand stand male 3000
+AHMV ABCDEFGHIJK medium unknown
+#30439
+us revolutionary independence~
+a US revolutionary~
+This soldier can't believe his luck.
+~
+{WThis soldier is glad to be fighting on the right side.  {x 
+~
+human~
+AGQ V O 0 0
+27 0 5d10+650 2d50+50 2d10+7 beating
+-8 -8 -8 -8
+EFKNU 0 H I
+stand stand male 4500
+AHMV ABCDEFGHIJK medium unknown
+#30440
+tory sympathiser independence~
+a Tory sympathiser~
+This person darts in and out of the shadows.
+~
+{WThis rebel is quite the coward.  {x 
+~
+human~
+ACGS PQ N 0 0
+28 0 5d10+650 2d50+50 5d4+7 scratch
+-8 -8 -8 -8
+BEFKN 0 N T
+stand stand male 5000
+AHMV ABCDEFGHIJK medium unknown
+#30441
+patriot independence~
+a patriot~
+This patriot cheers his side on!
+~
+{WWith a cheerful smile on his face, this man can see freedom within
+easy reach.  {x 
+~
+human~
+AFGQ 0 N 0 0
+29 0 6d12+778 2d50+50 5d4+7 slap
+-9 -9 -9 -9
+EFKN 0 H M
+stand stand male 2000
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#30400
+pool luminous water~
+{ca {Cluminous {cpool{x~
+{cA {Cluminous {cpool {Wsparkles {cmysteriously.{x~
+unknown~
+fountain O 0
+125000 125000 'water' 0 0
+0 250 0 P
+#30401
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30413 0
+0 200 0 P
+#30402
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30424 0
+0 200 0 P
+#30403
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30442 0
+0 200 0 P
+#30404
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30443 0
+0 200 0 P
+#30405
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30444 0
+0 200 0 P
+#30406
+stalactite~
+a {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe~
+A {Ds{xt{Wa{xl{Da{xc{Wt{xi{Dt{xe hangs down from the ceiling here.~
+unknown~
+portal AB 0
+-2 0 0 30445 0
+0 200 0 P
+#30407
+halloween costume~
+a {DH{Wa{yl{Yl{Ro{Yw{ye{We{Dn {xcostume~
+A {DH{Wa{yl{Yl{Ro{Yw{ye{We{Dn {xcostume looks tacky.~
+unknown~
+armor AM AK
+2 2 2 1 0
+10 5 500 P
+A
+13 5
+A
+4 1
+#30408
+ornate pocket watch~
+an {yornate {Dpocket {Wwatch{x~
+An {yornate {Dpocket {Wwatch{x covered in ancient script.~
+unknown~
+armor B AL
+2 2 2 1 0
+12 10 1500 P
+A
+1 1
+A
+5 1
+A
+4 1
+#30409
+cabbage~
+a {gcabbage{x~
+A {gcabbage{x complete with live-in residents.~
+unknown~
+armor A AQ
+2 2 2 1 0
+10 5 100 P
+A
+12 5
+A
+13 5
+A
+2 1
+#30410
+santa's sack~
+{RSanta's {ysack{x~
+{RSanta's {ysack{x is bulging full of gifts.~
+sacking~
+container I AX
+200 AC 0 100 20
+17 15 1500 P
+A
+12 10
+A
+13 5
+A
+5 1
+A
+4 1
+#30411
+nose reindeer~
+a {greindeer's {Rnose{x~
+A {greindeer's {Rnose{x shines brightly.~
+unknown~
+light AB AO
+0 0 999 0 0
+12 5 2000 P
+A
+17 -5
+A
+3 1
+A
+1 1
+#30412
+garland sparkly lights baubles~
+a {ggarland {xof {Wsparkly {Ylights {xand {Mbaubles{x~
+A {ggarland {xpositively {Yfizzes {Mexcitedly{x.~
+unknown~
+armor ABG AD
+3 3 3 0 0
+15 10 1500 P
+A
+18 2
+A
+19 1
+A
+3 1
+#30413
+turkey leg~
+a {rturkey {yleg{x~
+A {rturkey {yleg{x looks delicious.~
+unknown~
+food 0 A
+20 20 0 0 0
+0 5 0 P
+#30414
+ribbon~
+a {Bglossy ribbon {Wtied in a {Bbow{x~
+A {Bglossy ribbon {Wtied in a {Bbow{x.~
+unknown~
+armor 0 AC
+4 4 4 2 0
+20 5 1000 P
+A
+13 5
+A
+1 1
+A
+19 2
+#30415
+goodies easter~
+easter goodies~
+{BEaster {Mgoodies{x.~
+unknown~
+pill A A
+25 'cure critical' 'bless' 'shield' 'haste'
+17 5 0 P
+#30416
+stuffing turkey~
+home-made stuffing~
+Home-made {yturkey {rstuffing {xlooks delicious.~
+unknown~
+food B A
+40 40 0 0 0
+5 10 0 P
+#30417
+cranberry sauce~
+{rcranberry sauce{x~
+{rCranberry sauce{x.~
+unknown~
+potion A A
+35 'giant strength' '' 'stone skin' 'armor'
+35 5 1000 P
+#30418
+wine cooler~
+a {Ys{xp{ya{xr{Yk{xl{yi{xn{Yg {Ywine {Ccooler{x~
+A {Ys{xp{ya{xr{Yk{xl{yi{xn{Yg {Ywine {Ccooler{x looks refreshing.~
+unknown~
+potion Ab AO
+50 'cure poison' 'cure blindness' 'remove curse' 'refresh'
+30 5 50 P
+A
+1 1
+A
+3 1
+A
+12 15
+A
+13 20
+A
+19 1
+#30419
+parasol~
+a {Ysun {Gp{Ca{Yr{Ga{Cs{Yo{Gl{x~
+A {Ysun {Gp{Ca{Yr{Ga{Cs{Yo{Gl{x looks really pretty.~
+unknown~
+armor A AJ
+6 6 6 4 0
+32 10 1500 P
+A
+19 3
+A
+18 2
+A
+5 2
+#30420
+sand~
+{Wfine {Yg{Wl{yi{Wt{Yt{We{yr{Wy {Ysand{x~
+This {Wfine {Yg{Wl{yi{Wt{Yt{We{yr{Wy {Ysand{x gets everywhere.~
+unknown~
+armor I AF
+7 7 7 4 0
+35 5 0 P
+A
+12 15
+A
+13 25
+A
+19 2
+A
+18 2
+#30421
+portal bones~
+a pile of {Wbones{x~
+A pile of {Wbones{x shimmers here.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30422
+portal nuts pile heap~
+a heap of {ynuts{x~
+A heap of {ynuts{x lies on the ground.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30423
+portal daffodil flower~
+a bright {Yyellow{y daffodil{x~
+A bright {Yyellow{y daffodil{x sways gently in the breeze.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30424
+portal table~
+a {ytable{x laden with food~
+A {ytable {xladen with food stands here.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30425
+portal rockpool~
+a {grock{Bpool{x~
+A {grock{Bpool{x is visible above the waterline.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30426
+portal sparkler~
+a {Ddead {Ys{xp{ya{xr{Yk{xl{ye{xr~
+A {Ddead {Ys{xp{ya{xr{Yk{xl{ye{xr lies on the floor.~
+unknown~
+portal 0 0
+-2 0 0 3001 0
+1 100 0 P
+#30427
+teddybear bear~
+a {yteddybear{x~
+A cuddly {yteddybear {xwith a {Yyellow {xribbon.~
+fur~
+treasure HSTY AO
+0 0 0 0 0
+15 5 1000 P
+A
+4 3
+E
+bear~
+The teddybear has silky fur and a cute button nose.  There is some
+embroidery on him.  
+~
+E
+eyes~
+The bear imperceptibly winks at you.  
+~
+E
+nose~
+This bear has a cute little button nose.  It appears to twitch as you
+look at it.  
+~
+E
+ribbon~
+The {Yyellow {yribbon {xis made of satin and is loosely tied in a bow
+around the {ybear{x'{ys {xneck.  
+~
+E
+embroidery~
+'{YYogi{x' has been embroidered on this bear.
+~
+E
+tummy~
+You press the bear's tummy and he growls {g'{GSmarter than the average
+bear{g'{x.  
+~
+#0
+
+
+
+#ROOMS
+#30400
+A Tunnel~
+This is a dimly lit tunnel.  Light floods in from above showing a
+narrow staircase hewn from the rock.  The staircase leads up and appears
+to be the way out of this area.  The tunnel gets darker and narrower to
+the east.  
+~
+0 9 0
+D1
+~
+~
+0 0 30401
+D4
+~
+~
+1 0 3264
+S
+#30401
+A Tunnel~
+This is a section of tunnel underground.  It has been roughly hewn out
+of rock and is well below ground.  The tunnel slopes down towards the
+east where it also gets darker and narrower.  Light cascades in from the
+west.  
+~
+0 9 0
+D1
+~
+~
+0 0 30402
+D3
+~
+~
+0 0 30400
+S
+#30402
+A Tunnel~
+This is a section of underground tunnel.  It has been roughly hewn out
+of rock and is dark and damp.  The tunnel slopes up to the west where a
+tiny amount of light is filtering through.  To the east, the tunnel gets
+narrower and darker.  
+~
+0 9 0
+D1
+~
+~
+0 0 30403
+D3
+~
+~
+0 0 30401
+S
+#30403
+A Tunnel~
+This is a section of underground tunnel.  It has been roughly hewn out
+of rock and is dark and damp.  The tunnel slopes up to the west and
+appears to get lighter, whereas down to the east, the tunnel gets darker.
+~
+0 9 0
+D1
+~
+~
+0 0 30404
+D3
+~
+~
+0 0 30402
+S
+#30404
+A Cavern~
+This is a huge cavern from which tunnels disappear in many different
+directions.  It is dark and damp here, yet there is a noticeable dripping
+noise coming from the east.  Stalactites hang down from the ceiling far
+above and stalagmites grow up from the damp floor.  Occasionally
+something glitters in the walls.  
+~
+0 9 0
+D0
+~
+~
+0 0 30410
+D1
+~
+~
+0 0 30405
+D2
+~
+~
+0 0 30407
+D3
+~
+~
+0 0 30403
+S
+#30405
+A Cavern~
+This is a huge cavern from which tunnels disappear in many different
+directions.  It is dark and damp here, yet there is a noticeable dripping
+noise coming from somewhere.  Stalactites hang down from the ceiling far
+above and stalagmites grow up from the damp floor.  Occasionally
+something glitters in the walls.  
+~
+0 9 0
+D0
+~
+~
+0 0 30411
+D1
+~
+~
+0 0 30406
+D2
+~
+~
+0 0 30408
+D3
+~
+~
+0 0 30404
+S
+#30406
+A Cavern~
+This is a huge cavern from which tunnels disappear in many different
+directions.  It is dark and damp here, yet there is a noticeable dripping
+noise coming from the west.  Stalactites hang down from the ceiling far
+above and stalagmites grow up from the damp floor.  Occasionally
+something glitters in the walls.  
+~
+0 9 0
+D0
+~
+~
+0 0 30412
+D2
+~
+~
+0 0 30409
+D3
+~
+~
+0 0 30405
+S
+#30407
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the north.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the southern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 10 to 15 Only.
+ 
+Enter at your own risk.
+~
+D0
+~
+~
+0 0 30404
+S
+#30408
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the north.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the southern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 15 to 20 Only.
+ 
+Enter at your own risk.
+~
+D0
+~
+~
+0 0 30405
+S
+#30409
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the north.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the southern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 20 to 25 Only.
+ 
+Enter at your own risk.
+~
+D0
+~
+~
+0 0 30406
+S
+#30410
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the south.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the northern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 35 to 40 Only.
+ 
+Enter at your own risk.
+~
+D2
+~
+~
+0 0 30404
+S
+#30411
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the south.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the northern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 30 to 35 Only.
+ 
+Enter at your own risk.
+~
+D2
+~
+~
+0 0 30405
+S
+#30412
+An Ante-chamber~
+This tunnel culminates in an ante-chamber from which there appears to
+be no exit except to the south.  Tiny gems in the walls sparkle and catch
+the light, the source of which cannot be determined.  There is something
+very odd going on around here.  There are markings cut into the solid
+rock floor and a very large stalactite hanging down from the ceiling at
+the northern most point of the chamber.  
+~
+0 9 0
+E
+markings~
+These say : For Levels 25 to 30 Only.
+ 
+Enter at your own risk.
+~
+D2
+~
+~
+0 0 30406
+S
+#30413
+A Misty Path~
+A desolated pathway greets your arrival.  Mists buffet the surrounding
+trees rendering them bereft of their leaves.  A pathway up shimmers in
+and out of view, the damp grass underfoot wet with the dew from the
+mists.  Gravestones and old bones materialise into view, casting a chill
+into the atmosphere.  
+~
+0 1 1
+D4
+~
+~
+0 0 30414
+S
+#30414
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D2
+~
+~
+0 0 30415
+S
+#30415
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30414
+D1
+~
+~
+0 0 30416
+D2
+~
+~
+0 0 30417
+D3
+~
+~
+0 0 30423
+S
+#30416
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D2
+~
+~
+0 0 30418
+D3
+~
+~
+0 0 30415
+S
+#30417
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30415
+D1
+~
+~
+0 0 30418
+D2
+~
+~
+0 0 30419
+D3
+~
+~
+0 0 30422
+S
+#30418
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30416
+D2
+~
+~
+0 0 30420
+D3
+~
+~
+0 0 30417
+S
+#30419
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30417
+D1
+~
+~
+0 0 30420
+D3
+~
+~
+0 0 30421
+S
+#30420
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30418
+D3
+~
+~
+0 0 30419
+S
+#30421
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30422
+D1
+~
+~
+0 0 30419
+S
+#30422
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D0
+~
+~
+0 0 30423
+D1
+~
+~
+0 0 30417
+D2
+~
+~
+0 0 30421
+S
+#30423
+A Misty Path~
+This is a desolated pathway in the mists.  Creepers wind their way
+around the barren tree trunks and frosted grass crunches underfoot. 
+Mists sweep across the path as if threatening to engulf it.  Lonely
+tombstones and old bones stick up out of the gloom giving this area a
+distinct oppressive aura.  
+~
+0 1 1
+D1
+~
+~
+0 0 30415
+D2
+~
+~
+0 0 30422
+S
+#30424
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D5
+~
+~
+0 0 30425
+S
+#30425
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D2
+~
+~
+0 0 30429
+D3
+~
+~
+0 0 30426
+S
+#30426
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D1
+~
+~
+0 0 30425
+D2
+~
+~
+0 0 30427
+S
+#30427
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D0
+~
+~
+0 0 30426
+D1
+~
+~
+0 0 30429
+D2
+~
+~
+0 0 30428
+S
+#30428
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D0
+~
+~
+0 0 30427
+D1
+~
+~
+0 0 30430
+S
+#30429
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D0
+~
+~
+0 0 30425
+D1
+~
+~
+0 0 30432
+D2
+~
+~
+0 0 30430
+D3
+~
+~
+0 0 30427
+S
+#30430
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D0
+~
+~
+0 0 30429
+D1
+~
+~
+0 0 30431
+D3
+~
+~
+0 0 30428
+S
+#30431
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D0
+~
+~
+0 0 30432
+D3
+~
+~
+0 0 30430
+S
+#30432
+Winter Wonderland~
+All around crisp snow lies on the ground, sparkling in the magical
+light which feasts upon this place.  Trees line the roads, snow covering
+them and birds twittering on their branches.  Tiny footprints cross the
+virgin snow, of squirrels and other small mammals, foraging for nuts and
+berries.  A faint singing can be heard and shouts of laughter and
+merriment in the air.  
+~
+0 0 1
+D2
+~
+~
+0 0 30431
+D3
+~
+~
+0 0 30429
+S
+#30433
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30434
+D1
+~
+~
+0 0 30437
+D2
+~
+~
+0 0 30441
+S
+#30434
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D1
+~
+~
+0 0 30435
+D2
+~
+~
+0 0 30433
+S
+#30435
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D1
+~
+~
+0 0 30436
+D2
+~
+~
+0 0 30437
+D3
+~
+~
+0 0 30434
+S
+#30436
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D2
+~
+~
+0 0 30438
+D3
+~
+~
+0 0 30435
+S
+#30437
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30435
+D1
+~
+~
+0 0 30438
+D2
+~
+~
+0 0 30440
+D3
+~
+~
+0 0 30433
+S
+#30438
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30436
+D2
+~
+~
+0 0 30439
+D3
+~
+~
+0 0 30437
+S
+#30439
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30438
+D3
+~
+~
+0 0 30440
+S
+#30440
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30437
+D1
+~
+~
+0 0 30439
+D3
+~
+~
+0 0 30441
+S
+#30441
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D0
+~
+~
+0 0 30433
+D1
+~
+~
+0 0 30440
+S
+#30442
+An Easter Tableau~
+Rolling hills and grassy meadows portray the season of Spring, with
+new growth springing up joyously to embrace the world.  Buds open
+gracefully turning their pretty heads towards the sunshine and delighting
+in its warmth and radiance.  Birds flit around from branch to branch,
+twittering happily, not stopping long enough to settle.  
+~
+0 8 2
+D4
+~
+~
+0 0 30433
+S
+#30443
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D4
+~
+~
+0 0 30466
+S
+#30444
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D5
+~
+~
+0 0 30456
+S
+#30445
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D4
+~
+~
+0 0 30446
+S
+#30446
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D3
+~
+~
+0 0 30447
+S
+#30447
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30448
+D1
+~
+~
+0 0 30446
+D2
+~
+~
+0 0 30451
+D3
+~
+~
+0 0 30450
+S
+#30448
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D2
+~
+~
+0 0 30447
+D3
+~
+~
+0 0 30449
+S
+#30449
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D1
+~
+~
+0 0 30448
+D2
+~
+~
+0 0 30450
+D3
+~
+~
+0 0 30455
+S
+#30450
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30449
+D1
+~
+~
+0 0 30447
+D2
+~
+~
+0 0 30452
+D3
+~
+~
+0 0 30454
+S
+#30451
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30447
+D3
+~
+~
+0 0 30452
+S
+#30452
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30450
+D1
+~
+~
+0 0 30451
+D3
+~
+~
+0 0 30453
+S
+#30453
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30454
+D1
+~
+~
+0 0 30452
+S
+#30454
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D0
+~
+~
+0 0 30455
+D1
+~
+~
+0 0 30450
+D2
+~
+~
+0 0 30453
+S
+#30455
+A Time to Celebrate~
+A joyous occasion greets the eyes here.  A table laden with fine foods
+to give thanks and to commemorate the first settlers from the Mayflower
+to the Plymouth colony in 1620.  The celebration of Thanksgiving was
+first started to give thanks to the native Americans who so generously
+helped those from across the seas.  It is also observed as an
+acknowledgement of the divine favours received during the year.  
+~
+0 8 0
+D1
+~
+~
+0 0 30449
+D2
+~
+~
+0 0 30454
+S
+#30456
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30457
+S
+#30457
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30458
+D1
+~
+~
+0 0 30462
+D2
+~
+~
+0 0 30456
+D3
+~
+~
+0 0 30463
+S
+#30458
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30459
+D1
+~
+~
+0 0 30461
+D2
+~
+~
+0 0 30457
+D3
+~
+~
+0 0 30464
+S
+#30459
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D1
+~
+~
+0 0 30460
+D2
+~
+~
+0 0 30458
+D3
+~
+~
+0 0 30465
+S
+#30460
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D3
+~
+~
+0 0 30459
+S
+#30461
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D2
+~
+~
+0 0 30462
+D3
+~
+~
+0 0 30458
+S
+#30462
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30461
+D3
+~
+~
+0 0 30457
+S
+#30463
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30464
+D1
+~
+~
+0 0 30457
+S
+#30464
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D0
+~
+~
+0 0 30465
+D1
+~
+~
+0 0 30458
+D2
+~
+~
+0 0 30463
+S
+#30465
+A Golden Beach~
+The sound of the waves and the smell of the sea are overly abundant
+here.  Golden sand, fine to the touch, blows gently across the beach. 
+Waves wash up against the shore, the multitude of sealife scurrying back
+towards the safe haven of the waters.  Driftwood and seaweed lay drying
+out above the waterline and rockpools are now visible with the occasional
+captured crustacean within.  
+~
+0 0 1
+D1
+~
+~
+0 0 30459
+D2
+~
+~
+0 0 30464
+S
+#30466
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D1
+~
+~
+0 0 30473
+S
+#30467
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D1
+~
+~
+0 0 30468
+D2
+~
+~
+0 0 30473
+S
+#30468
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D2
+~
+~
+0 0 30472
+D3
+~
+~
+0 0 30467
+S
+#30469
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D2
+~
+~
+0 0 30470
+S
+#30470
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30469
+D2
+~
+~
+0 0 30471
+D3
+~
+~
+0 0 30472
+S
+#30471
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30470
+D3
+~
+~
+0 0 30475
+S
+#30472
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30468
+D1
+~
+~
+0 0 30470
+D2
+~
+~
+0 0 30475
+D3
+~
+~
+0 0 30473
+S
+#30473
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30467
+D1
+~
+~
+0 0 30472
+D2
+~
+~
+0 0 30474
+D3
+~
+~
+0 0 30466
+S
+#30474
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30473
+S
+#30475
+Firework Fun~
+Fireworks blaze in the sky, illuminating the faces of the onlookers so
+far below.  Shiny, happy faces enjoying the spectacle and all around the
+smells of barbeques, hotdogs and hamburgers.  Loud bangs and popping
+fireworks echo through the night, the fizz of sparklers and happy cries
+of children unaware of the meaning of the celebrations.  
+~
+0 8 1
+D0
+~
+~
+0 0 30472
+D1
+~
+~
+0 0 30471
+S
+#0
+
+
+
+#SPECIALS
+M 30400 spec_thief
+M 30405 spec_thief
+M 30410 spec_cast_mage
+M 30411 spec_thief
+M 30412 spec_cast_cleric
+M 30413 spec_cast_cleric
+M 30415 spec_thief
+M 30416 spec_cast_undead
+M 30417 spec_thief
+M 30418 spec_cast_cleric
+M 30420 spec_nasty
+M 30421 spec_cast_cleric
+M 30422 spec_cast_mage
+M 30423 spec_breath_gas
+M 30424 spec_cast_undead
+M 30425 spec_thief
+M 30426 spec_breath_frost
+M 30427 spec_cast_cleric
+M 30428 spec_breath_gas
+M 30429 spec_cast_mage
+M 30430 spec_cast_cleric
+M 30432 spec_cast_mage
+M 30433 spec_thief
+M 30434 spec_cast_cleric
+M 30435 spec_fido
+M 30436 spec_cast_undead
+M 30437 spec_breath_fire
+M 30438 spec_cast_undead
+M 30439 spec_cast_cleric
+M 30440 spec_nasty
+M 30441 spec_cast_cleric
+S
+
+
+
+#RESETS
+D 0 30400 4 1
+O 0 30400 0 30405
+O 0 30401 0 30407
+O 0 30402 0 30408
+O 0 30403 0 30409
+O 0 30406 0 30410
+O 0 30405 0 30411
+O 0 30404 0 30412
+M 0 30403 2 30414 1
+M 0 30406 2 30414 1
+M 0 30403 2 30415 1
+M 0 30406 2 30416 1
+M 0 30407 2 30416 1
+E 0 30408 0 13
+M 0 30402 1 30417 1
+M 0 30405 3 30417 1
+E 0 30407 0 12
+M 0 30400 2 30418 1
+M 0 30400 2 30419 1
+M 0 30407 2 30419 1
+E 0 30408 0 13
+M 0 30401 2 30420 1
+M 0 30408 2 30420 1
+E 0 30409 0 18
+O 0 30421 0 30420
+M 0 30401 2 30421 1
+M 0 30405 3 30421 1
+E 0 30407 0 12
+M 0 30405 3 30422 1
+E 0 30407 0 12
+M 0 30404 1 30423 1
+M 0 30408 2 30423 1
+E 0 30409 0 18
+M 0 30409 1 30425 1
+E 0 30410 0 28
+P 0 30427 1 30410 1
+M 0 30414 4 30425 1
+M 0 30416 5 30425 1
+M 0 30410 3 30426 1
+E 0 30411 0 0
+M 0 30416 5 30426 1
+M 0 30417 4 30426 1
+M 0 30413 1 30427 1
+M 0 30415 3 30427 1
+M 0 30416 5 30427 1
+M 0 30417 4 30427 1
+M 0 30410 3 30428 1
+E 0 30411 0 0
+M 0 30415 3 30428 1
+M 0 30414 4 30429 1
+M 0 30415 3 30429 1
+M 0 30416 5 30429 1
+M 0 30417 4 30429 1
+M 0 30412 1 30430 1
+G 0 30413 0
+M 0 30414 4 30430 1
+M 0 30417 4 30430 1
+M 0 30410 3 30431 1
+E 0 30411 0 0
+M 0 30414 4 30431 1
+M 0 30416 5 30431 1
+O 0 30422 0 30431
+M 0 30411 1 30432 1
+E 0 30412 0 5
+M 0 30415 3 30432 1
+M 0 30418 1 30433 1
+M 0 30423 4 30433 1
+M 0 30419 3 30434 1
+M 0 30420 4 30434 1
+E 0 30414 0 3
+M 0 30423 4 30435 1
+M 0 30420 4 30436 1
+E 0 30414 0 3
+M 0 30419 3 30437 1
+M 0 30423 4 30437 1
+M 0 30422 2 30438 1
+M 0 30423 4 30438 1
+M 0 30424 2 30438 1
+G 0 30415 0
+M 0 30421 1 30439 1
+M 0 30422 2 30439 1
+O 0 30423 0 30439
+M 0 30420 4 30440 1
+E 0 30414 0 3
+M 0 30424 2 30440 1
+G 0 30415 0
+M 0 30419 3 30441 1
+M 0 30420 4 30441 1
+E 0 30414 0 3
+M 0 30437 5 30443 1
+M 0 30431 3 30444 1
+M 0 30429 5 30446 1
+M 0 30428 5 30447 1
+M 0 30430 5 30447 1
+M 0 30428 5 30448 1
+M 0 30430 5 30448 1
+M 0 30427 1 30449 1
+M 0 30429 5 30449 1
+M 0 30428 5 30450 1
+M 0 30429 5 30450 1
+M 0 30429 5 30451 1
+M 0 30430 5 30451 1
+O 0 30424 0 30451
+M 0 30425 1 30452 1
+G 0 30416 0
+G 0 30417 0
+M 0 30430 5 30452 1
+M 0 30430 5 30453 1
+M 0 30428 5 30453 1
+M 0 30426 1 30454 1
+M 0 30429 5 30454 1
+M 0 30428 5 30455 1
+M 0 30434 1 30456 1
+E 0 30418 0 17
+O 0 30425 0 30456
+M 0 30431 3 30457 1
+M 0 30436 3 30457 1
+E 0 30420 0 7
+M 0 30433 4 30458 1
+M 0 30436 3 30458 1
+E 0 30420 0 7
+M 0 30432 2 30459 1
+M 0 30431 3 30460 1
+M 0 30433 4 30461 1
+M 0 30435 1 30462 1
+E 0 30419 0 11
+M 0 30433 4 30463 1
+M 0 30436 3 30463 1
+E 0 30420 0 7
+M 0 30433 4 30464 1
+M 0 30432 2 30465 1
+M 0 30438 5 30466 1
+M 0 30441 5 30466 1
+M 0 30438 5 30467 1
+M 0 30441 5 30467 1
+M 0 30439 6 30468 2
+M 0 30439 6 30468 2
+M 0 30437 5 30468 1
+M 0 30440 3 30468 1
+M 0 30439 6 30469 2
+M 0 30439 6 30469 2
+M 0 30437 5 30469 1
+M 0 30438 5 30470 1
+M 0 30440 3 30470 1
+M 0 30440 3 30471 1
+M 0 30437 5 30471 1
+O 0 30426 0 30471
+M 0 30441 5 30472 1
+M 0 30438 5 30472 1
+M 0 30437 5 30473 1
+M 0 30438 5 30473 1
+M 0 30441 5 30473 1
+M 0 30439 6 30474 2
+M 0 30439 6 30474 2
+M 0 30441 5 30475 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

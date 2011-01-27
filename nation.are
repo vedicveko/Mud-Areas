@@ -1,0 +1,2207 @@
+#AREA	
+nation.are~
+Goblin Nation~
+{10 25} Mort  Goblin Nation~
+9901 9999
+
+#MOBILES
+#9901
+villager~
+the Villager~
+A villager in a small boat floats here.
+~
+This villager is dressed in a robe and sandals.
+His hair is close cropped and he appears to be
+staring into the distance. He is facing westward.
+As you approach he says, "Beware the Goblins!  They
+swarm like flies upon the unwary.  Beware!"
+~
+human~
+2|64 0 0 0
+25 0 5d10+550 5d5+1000 2d10+7 punch    
+-7 -7 -7 4
+EN 0 0 0
+stand stand male 10
+0 0 medium 0
+#9902
+dwarf eyeless~
+the Eyeless Dwarf~
+An Eyeless Dwarf bumps into you then ATTACKS!
+~
+This Dwarf has been horribly mutilated.
+~
+dwarf~
+32|64 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+E 0 0 0
+stand stand male 10
+0 0 small 0
+#9903
+elf deranged~
+the Deranged Elf~
+A deranged Elf looks at you, then attacks with a scream!
+~
+This elf is a young adult.  Obviously driven mad by
+his capture and torture.
+~
+Elf~
+32|64 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EN 0 0 0
+stand stand male 10
+0 0 medium 0
+#9904
+confused human youth~
+the Confused Human~
+A confused human youth attacks you!
+~
+This youngster is walking around in a daze.
+~
+human~
+32|64 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EN 0 0 0
+stand stand male 10
+0 0 medium 0
+#9905
+goblin child~
+the Goblin child~
+A Goblin child skitters about you.
+~
+This goblin is green like all of the others.
+It's hair is mussed, it smells, and has little
+to no clothes on.
+~
+goblin~
+64 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EN 0 0 C
+stand stand male 10
+0 0 small 0
+#9906
+male goblin~
+the Male Goblin~
+A large male goblin looks at you and shouts for a guard
+~
+This goblin is nearly naked.  He is wearing little
+more than a loincloth, a few worthless bangles, and
+some painted symbols on his chest.  They look like
+circles with dots in the middle.
+~
+goblin~
+64 0 0 0
+8 0 2d7+96 5d5+100 1d7+2 punch          
+3 3 3 8
+EN 0 0 C
+stand stand male 10
+0 0 medium 0
+#9907
+goblin female~
+the Female Goblin~
+The female Goblin appears to be scared of you.
+~
+She is very short..only 3 1/2 feet tall.  Long oily
+black hair and a green complexion completes the image.
+~
+goblin~
+64 0 0 0
+8 0 2d7+96 5d5+100 1d7+2 punch         
+3 3 3 8
+EN 0 0 C
+stand stand female 10
+0 0 medium 0
+#9908
+goblin guard ~
+the Goblin Guard~
+The Goblin Guard measures you.
+~
+The guard is lightly armed.  He relies
+upon his claws and fangs to do his work.
+~
+goblin~
+64 0 -300 0
+15 0 3d9+208 5d5+100 2d6+3 punch     
+-2 -2 -2 6
+EN 0 0 C
+stand stand male 10
+0 0 medium 0
+#9909
+goblin shaman~
+the Goblin Shaman~
+The Goblin Shaman is chanting.
+~
+The Goblin Shaman is naked and completely
+covered in symbols from his religion.
+He doesn't notice your intense stare.
+~
+goblin~
+64 0 0 0
+20 0  3d9+333 5d5+1000 2d8+5 punch      
+-4 -4 -4 5
+EN 0 0 C
+stand stand male 10
+0 0 medium 0
+#9910
+warrior goblin~
+the Goblin Warrior~
+The Goblin Warrior looks for help before he attacks.
+~
+This warrior is without armor or weapons.  He also is 
+covered in blue circles with dots in the center.
+~
+goblin~
+64 0 -500 0
+10 0  2d7+121 5d5+100 2d4+2 punch        
+1 1 1 7
+EFN 0 0 C
+stand stand male 10
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#9901
+sign~
+a sign~
+A floating sign draws your attention.~
+~
+furniture 0 0
+0 0 0 0 0 
+0 0 0 P
+E
+sign~
+The Goblin Nation area is designed for players
+of level 10 - 25.   Please be careful when you
+enter the Goblin Nation.  The lousy Goblins 
+travel in packs...and care nothing about honor.~
+#9902
+lost quest note~
+a lost quest note~
+A lost quest note is lying here.~
+~
+treasure 0 1
+0 0 0 0 0 
+0 1 0 P
+E
+quest note lost~
+"The lost, identified, must be revealed".
+
+What this means is that you need to find that which is
+lost, have proof, then tell someone on the wizlist.~
+#9903
+note reward~
+a reward note~
+A reward note has been dropped here.~
+~
+furniture 0 1
+0 0 0 0 0  
+0 1 0 P
+E
+reward note~
+MISSING - REWARD OFFERED
+The brother of the Dread Pirate Roberts is missing.
+A reward is offered for anyone who can locate the
+brother and either release him, or tell someone on
+the wizlist who has him and where he is.~
+#9904
+necklace~
+a Necklace~
+A Necklace lies here.~
+~
+armor 0 1|4
+2 2 2 2 0 
+5 1 0 P
+E
+necklace~
+This is an identification necklace.  It is number 1~
+#9905
+necklace~
+a Necklace~
+A necklace has been dropped here.~
+~
+armor 0 1|4
+2 2 2 2 0 
+5 5 0 P
+E
+necklace~
+This is an identification necklace.  It is number 2.~
+#9906
+necklace~
+a Necklace~
+A Necklace lies here.~
+~
+armor 0 1|4
+2 2 2 2 2 
+5 5 0 P
+E
+necklace~
+This is an identification necklace.  It is number 3.~
+#9907
+ring elven elf~
+an Elven Ring~
+An Elven ring has been dropped here.~
+~
+armor 0 1|2
+0 0 0 0 0 
+5 1 0 P
+E
+ring~
+This ring is for identification.  It is ring 1.~
+#9908
+ring elven elf~
+an Elven Ring~
+An Elven ring has been dropped here.~
+~
+armor 0 1|2
+0 0 0 0 0  
+5 1 0 P
+E
+ring~
+This elven ring is for identification.  It is ring 2.~
+#9909
+ring elven elf~
+an Elven Ring~
+An Elven ring is lying here.~
+~
+armor 0 1|2
+0 0 0 0 0  
+5 5 0 P
+E
+ring elven elf~
+This ring is for identification.  It is ring 3.~
+#9910
+child childs toy~
+a Childs toy~
+A childs toy lies here.~
+~
+armor 0 1|16384
+0 0 0 0 0  
+5 5 0 P
+E
+toy child~
+This toy is for identification.  It is number 1~
+#9911
+toy child childs~
+a Childs toy~
+A childs toy is lying here.~
+~
+armor 0 1|16384
+0 0 0 0 0 
+5 1 0 P
+E
+child toy childs~
+This toy is for identification.  It is number 2~
+#9912
+child childs toy~
+a Childs toy~
+A childs toy has been dropped here.~
+~
+armor 0 1|16384
+0 0 0 0 0 
+5 1 0 P
+E
+child toy childs~
+This toy is for identification.  It is number 3.~
+#9913
+loincloth~
+a loincloth~
+A loincloth has been wadded up and dropped here.~
+~
+armor 0 1|8
+2 3 2 2 0 
+8 5 0 P
+#9914
+bangle goblin~
+a pair of Goblin Bangles~
+A pair of Goblin Bangles have been dropped here.~
+~
+armor 0 1|4096
+3 2 3 2 0 
+8 1 0 P
+#0
+
+
+#ROOMS
+#9901
+Inside the wall~
+The river flows to the west, through the huge hole in the the
+wall which encircles Malo Village.  The village is on the
+north shore of the river to your east.
+~
+0 4 7
+D1
+~
+~
+0 -1 14588
+D3
+~
+~
+0 -1 9902
+S
+#9902
+On the river~
+The river is flowing quickly to the west.  You are outside
+the wall which encircles Malo Village to your east.  Looking 
+about you notice that the land is flat to the west, but 
+mountainous to the northeast.  Tall grass borders both sides of
+the river.
+~
+0 0 7
+D1
+~
+~
+0 -1 9901
+D3
+~
+~
+0 -1 9903
+S
+#9903
+Westward River~
+Flowing westward, the river cuts through rich grassland.  The
+aroma of growing things is strong here in the middle of nowhere.
+~
+0 0 7
+D1
+~
+~
+0 -1 9902
+D3
+~
+~
+0 -1 9904
+S
+#9904
+Grass Ocean~
+The river cuts through an ocean of grass, similiar to a current
+flowing across an ocean.  No movement can be seen for as far as 
+you can see.  The four foot high grass varies in color from
+light green to golden brown.
+~
+0 0 7
+D1
+~
+~
+0 -1 9903
+D3
+~
+~
+0 -1 9905
+S
+#9905
+Small rapids~
+The river flows over small rocks creating rapids.  Tall reeds 
+have replaced the grasses growing along the river bank.
+~
+0 0 7
+D1
+~
+~
+0 -1 9904
+D3
+~
+~
+0 -1 9906
+S
+#9906
+Larger rapids~
+The river is picking up speed as it flows toward the rising sun.
+Several of the rocks below the surface of the river have begun
+to push their way towards you.
+~
+0 0 7
+D1
+~
+~
+0 -1 9905
+D3
+~
+~
+0 -1 9907
+S
+#9907
+Flowing river~
+The river is slowing down and you have more time to look around.
+River banks are covered by reeds, while in the distance you see
+high grass waving with the day's breeze.
+~
+0 0 7
+D1
+~
+~
+0 -1 9906
+D3
+~
+~
+0 -1 9908
+S
+#9908
+River through grass~
+Large shapes slip beneath the waters as you travel by.  Tiny
+birds flit about you because you are disturbing their habitats.
+~
+0 0 7
+D1
+~
+~
+0 -1 9907
+D3
+~
+~
+0 -1 9909
+S
+#9909
+Rushing river~
+The river is rushing westward, toward the horizon.  Reeds are
+along the banks and the five foot high grass blocks your view
+of the surrounding terrain.  A small mountain pokes it's head
+out of the grass to the north of you.  It's bald pate reflects
+the light.
+~
+0 0 7
+D1
+~
+~
+0 -1 9908
+D3
+~
+~
+0 -1 9910
+S
+#9910
+Cutting through the grass~
+Strands of grass, their roots washed out of the earth which
+held them, float alongside you and are bunched into clumps 
+in spots along the bank.
+~
+0 0 7
+D1
+~
+~
+0 -1 9909
+D3
+~
+~
+0 -1 9911
+S
+#9911
+Curving south gently~
+The river begins to curve south gently.  The high grass to the
+north of you begins to look matted and misused.  The bald mountain
+dominates the area as it pokes it's head out of the tall grass.
+~
+0 0 7
+D1
+~
+~
+0 -1 9910
+D3
+~
+~
+0 -1 9912
+S
+#9912
+Southern turn~
+The rushing river slams against a large chunk of bedrock and
+is diverted in a southern direction.  The bedrock extends several
+feet toward the river, creating a perfect landing.  To your 
+north, matted grasses have been woven together into a natural wall.
+~
+0 0 7
+D0
+A grass wall circles this area.~
+grass~
+1 -1 9916
+D1
+~
+~
+0 -1 9911
+D2
+~
+~
+0 -1 9913
+S
+#9913
+River going south~
+The river is following an exposed section of bedrock and is 
+flowing in a southern direction.  The bedrock extends several
+feet over the river creating a set of natural caves.
+~
+0 0 7
+D0
+~
+~
+0 -1 9912
+D3
+~
+~
+0 -1 9914
+S
+#9914
+Rushing river~
+The river is flowing is a southwestern direction.  The grasses
+of the area are growing so tall they completely conceal the
+terrain about you.
+~
+0 0 7
+D1
+~
+~
+0 -1 9913
+D2
+~
+~
+0 -1 9915
+S
+#9915
+South flowing river~
+The cold river, heavy with grasses stripped from the river bank,
+flows quickly in a western direction.
+~
+0 0 7
+D0
+~
+~
+0 -1 9914
+D3
+~
+~
+0 -1 9796
+S
+#9916
+Grassy landing~
+This bedrock landing is concealed by a woven grass wall.  Matted
+grasses cover the ground.  To the north a path through the high
+grasses leads to danger.
+~
+0 4 2
+D0
+~
+~
+0 -1 9917
+D2
+A grass wall surrounds the area.~
+grass~
+1 -1 9912
+S
+#9917
+Grass pathway~
+This path cuts through five foot high grasses and meanders toward
+the northwest.  Bald Mountain rises out of the grass to the
+northeast and provides a point of reference for your travels 
+through the sea of grass surrounding you.
+~
+0 0 2
+D2
+A grass wall surrounds the area.~
+grass~
+0 -1 9916
+D3
+~
+~
+0 -1 9918
+S
+#9918
+Lonely Path~
+This lonely path seemingly stretches forever through this sea
+of grass.  Sounds of life can be heard to the northwest.  Inhuman
+voices, metal on metal, screams of agony float through grass.
+~
+0 0 2
+D0
+~
+~
+0 -1 9919
+D1
+~
+~
+0 -1 9917
+S
+#9919
+Grassy knoll~
+The path leads you onto a grassy knoll a foot or two higher than
+the flat terrain around you.  Perhaps this knoll is part of the
+Bald Mountain to the northeast of your present position.
+~
+0 0 2
+D0
+~
+~
+0 -1 9920
+D2
+~
+~
+0 -1 9918
+S
+#9920
+Grassy curve~
+The path curves to the west.  From here you can smell cooking food
+and hear other activities associated with a small village.
+~
+0 0 2
+D2
+~
+~
+0 -1 9919
+D3
+~
+~
+0 -1 9921
+S
+#9921
+Grassy tunnel~
+The grasses have been woven into a small tunnel...all light from
+above has been cut out.  The tunnel is extremely small and will
+only admit two or three persons at a time.
+~
+0 8|512 0
+D1
+~
+~
+0 -1 9920
+D3
+~
+~
+0 -1 9922
+S
+#9922
+Goblin Nation~
+You are standing on the west side of a tunnel leading away from
+this small village area.  To the west you can see several pathways
+leading through high grasses. Several grass huts can be seen
+poking their heads out of the grassy sea surrounding you.  To the
+northeast Bald Mountain rises from the grass like a behemoth from
+shallow waters.
+~
+0 0 2
+D0
+~
+~
+0 -1 9923
+D1
+~
+~
+0 -1 9921
+D3
+~
+~
+0 -1 9933
+S
+#9923
+Grass field~
+The grass is matted and packed from hundreds of footsteps stamping
+it into the ground.  A grass hut to your west reaks of unwashed
+bodies and poor sanitation.
+~
+0 0 2
+D0
+~
+~
+0 -1 9924
+D2
+~
+~
+0 -1 9922
+S
+#9924
+Inbetween huts~
+This grass path is leading you inbetween two huts.  The hut to 
+your west reaks of unwashed bodies and poor sanitation, while the
+hut to your north gives you the chills.  Death appears to surround
+this hut like a dark shadow.
+~
+0 0 2
+D2
+~
+~
+0 -1 9923
+D3
+~
+~
+0 -1 9925
+S
+#9925
+Goblin village path~
+You are standing in the middle of a small clearing in the center
+of three Goblin huts.  The ground is sewage strewn and the grass
+has matted into a disgusting heap.
+~
+0 0 2
+D0
+~
+~
+0 -1 9927
+D1
+~
+~
+0 -1 9924
+D2
+~
+~
+0 -1 9926
+D3
+~
+~
+0 -1 9930
+S
+#9926
+Grass hut~
+This tiny grass hut is filthy.  Small pieces of food, ripped
+clothing and broken pottery litter the floor.
+~
+0 8 0
+D0
+~
+~
+0 -1 9925
+S
+#9927
+Near the edge~
+Near the edge of a large grass wall are two goblin huts.
+Peering through the grass wall reveals another path leading
+west and east.  That path seems to be little travelled.
+~
+0 0 2
+D1
+~
+~
+0 -1 9928
+D2
+~
+~
+0 -1 9925
+S
+#9928
+Dead grass hut~
+The goblin that fashioned this hut was careless or stupid.
+The grass was cut instead of bent and has now died.  It's
+ugly brown color indicates it's dryness and begs to be 
+set on fire.
+~
+0 8 0
+D3
+~
+~
+0 -1 9927
+S
+#9929
+A blue hut~
+You are standing in a hut which has been smeared with 
+blue berries.  The walls are caked with bits and pieces of
+several different fruits but blueberry is the dominant color.
+~
+0 8 0
+D2
+~
+~
+0 -1 9930
+S
+#9930
+Grass rut~
+There has been so much traffic in this direction a rut in the
+ground has been formed.  Several huts can be seen to the west
+while to the south you can see four or five huts.  Bald 
+Mountain can be seen to the east.  It's rocky dome appears high
+in the sky
+~
+0 0 2
+D0
+~
+~
+0 -1 9929
+D1
+~
+~
+0 -1 9925
+D2
+~
+~
+0 -1 9931
+D3
+~
+~
+0 -1 9940
+S
+#9931
+Blood trail~
+Walking through this area is like walking through a slaughterhouse.
+The grasses are soaked with both old and fresh blood.  The blood
+trail leads to the west.
+~
+0 0 2
+D0
+~
+~
+0 -1 9930
+D2
+~
+~
+0 -1 9932
+D3
+~
+~
+0 -1 9939
+S
+#9932
+Village path~
+The path leads through the center of the village to the west.
+Several huts are scattered around the area and are surrounded
+by seven foot high walls of living grass.
+~
+0 0 2
+D0
+~
+~
+0 -1 9931
+D1
+~
+~
+0 -1 9933
+D2
+~
+~
+0 -1 9934
+D3
+~
+~
+0 -1 9937
+S
+#9933
+Crushed grass~
+This path through the grass plain is a main thoughfare within
+the village.  Several narrow footprints can be seen in the mud
+leading to the west.
+~
+0 0 2
+D1
+~
+~
+0 -1 9922
+D3
+~
+~
+0 -1 9932
+S
+#9934
+Barren spot~
+The grass has been scraped away to reveal hard brown dirt
+compacted by thousands of footsteps.  A small hole has been
+dug in the earth and something is jammed into the ground.
+~
+0 0 2
+D0
+~
+~
+0 -1 9932
+D1
+~
+~
+0 -1 9936
+D2
+~
+~
+0 -1 9935
+E
+something~
+The "something" in the hole is appears to be a small white
+skull.  Too small to be a Goblin or Human skull, this skull
+appears to be an Elven skull.~
+S
+#9935
+Stick hut~
+This stick hut is very small, dark and barren.  How odd the
+walls appear to you now that you are inside.  Several of sticks
+appear to be very smooth.
+~
+0 8 0
+D0
+~
+~
+0 -1 9934
+E
+stick sticks~
+The "sticks" are yellowing bones, collected from the
+dead children of Malo Village.~
+S
+#9936
+Stick and grass hut~
+This hut is made from sticks and grass crudely woven together
+into a weak semblance of a home.
+~
+0 8 0
+D3
+~
+~
+0 -1 9934
+E
+stick sticks~
+The "sticks" are actually bones.  They appear to be the bones
+of several different races.  Looking closely you can see that
+they have been gnawed.~
+S
+#9937
+Rocky spot~
+This rocky spot has pushed itself through the grass covering
+of the prairie.  Perhaps it is an extension of Bald Mountain?
+A hollow sound can be heard when you step here and when you
+look down you see a small hole.
+~
+0 0 2
+D0
+~
+~
+0 -1 9939
+D1
+~
+~
+0 -1 9932
+D2
+~
+~
+0 -1 9938
+D3
+~
+~
+0 -1 9947
+E
+hole~
+Putting your eye to this small hole reveals that beneath
+your feet is a huge cavern.~
+S
+#9938
+Grass hut with window~
+This tiny grass hut is cleaner than you expected and the
+window comes as a great surprise.  Upon closer examination 
+the window is explained.
+~
+0 8 0
+D0
+~
+~
+0 -1 9937
+E
+examination window~
+The window has no frame.  It appears that someone clawed 
+their way through the wall of the hut.  Tiny pieces of nail
+are still embedded into the frame of the hut.~
+S
+#9939
+Rocky ground~
+A rocky protrusion has pushed through the ground and grass.  It
+makes a hollow sound when you tread on it.
+~
+0 0 2
+D0
+~
+~
+0 -1 9940
+D1
+~
+~
+0 -1 9931
+D2
+~
+~
+0 -1 9937
+S
+#9940
+Grassy trail~
+North of you a huge clump of grass blocks the way.  To the west
+are several more huts, then a grass wall.  The wall blocks your
+view of anything beyond it.
+~
+0 0 2
+D1
+~
+~
+0 -1 9930
+D2
+~
+~
+0 -1 9939
+D3
+~
+~
+0 -1 9941
+S
+#9941
+Blood splattered path~
+The path is splattered with fresh blood.  There is no sign
+of a body or the source of the blood.
+~
+0 0 2
+D0
+~
+~
+0 -1 9951
+D1
+~
+~
+0 -1 9940
+D2
+~
+~
+0 -1 9942
+D3
+~
+~
+0 -1 9943
+S
+#9942
+Bloody hut~
+This was the location of a bloody killing.  There is blood
+everywhere; on the floor, walls and ceiling.
+~
+0 8 0
+D0
+~
+~
+0 -1 9941
+S
+#9943
+Grassy path~
+This grassy path is small but well travelled.  To the south of
+you is a path that circles back to the east.  North of you is
+a high grass wall which blocks that direction.
+~
+0 0 2
+D1
+~
+~
+0 -1 9941
+D2
+~
+~
+0 -1 9944
+D3
+~
+~
+0 -1 9948
+S
+#9944
+Between two huts~
+You are walking between two huts, both of which are made from
+the grass of the fields.  Far to the east you can see the dome
+of Bald Mountain.
+~
+0 0 2
+D0
+~
+~
+0 -1 9943
+D2
+~
+~
+0 -1 9946
+D3
+~
+~
+0 -1 9945
+S
+#9945
+Grass hut~
+This grass hut is smaller than those you have seen so far.
+Looking around you see signs that lead you to believe that this
+hut is for children.  Several small piles of grass, looking much
+like beds, are lying about the floor.
+~
+0 8 0
+D1
+~
+~
+0 -1 9944
+S
+#9946
+Southern path~
+This path travels along the grass wall which encircles the
+Goblin village.  You can not see beyond the wall as it is too
+tall, however, you can hear the sound of a rushing river not
+too far away.
+~
+0 0 2
+D0
+~
+~
+0 -1 9944
+D1
+~
+~
+0 -1 9947
+S
+#9947
+Straight path~
+The path to freedom?  Hardly.  This path is used by the guards
+in their circuit of the village.  It is heavily patrolled.
+~
+0 0 2
+D1
+~
+~
+0 -1 9937
+D3
+~
+~
+0 -1 9946
+S
+#9948
+Grassy curve~
+This path leads to the north side of the village.  From here you
+can see little ahead of you.  There must be several guards around
+however, so continue with care.
+~
+0 0 2
+D0
+~
+~
+0 -1 9949
+D1
+~
+~
+0 -1 9943
+S
+#9949
+Northward path~
+This path leads to the northern half of the village.  To your
+west is a Goblin hut while to your east is a huge grass wall.
+~
+0 0 2
+D0
+~
+~
+0 -1 9955
+D2
+~
+~
+0 -1 9948
+D3
+~
+~
+0 -1 9950
+S
+#9950
+Grass hut~
+The grass hut is small because of the two feet of grass covering
+it's walls.  This thickness makes the hut very cool...blocking
+the heat of the day.
+~
+0 0 2
+D1
+~
+~
+0 -1 9949
+S
+#9951
+Blood spots~
+The blood spots on the grass about you suggests that someone
+that is hurt could be nearby.  Looking around you see several
+huts to the north.
+~
+0 0 2
+D0
+~
+~
+0 -1 9952
+D2
+~
+~
+0 -1 9941
+S
+#9952
+Village path~
+This dirt path must be the oldest part of the village.  It 
+continues to the west until it meets a hut then appears to continue
+in a southern direction.
+~
+0 0 2
+D0
+~
+~
+0 -1 9953
+D2
+~
+~
+0 -1 9951
+D3
+~
+~
+0 -1 9954
+S
+#9953
+Goblin hut~
+This hut is unlike many of the others in the area.  It is 
+constructed of wooden poles with tightly stretched animal skins
+fashioned into walls and ceiling.
+~
+0 8 0
+D2
+~
+~
+0 -1 9952
+S
+#9954
+Dirt path~
+Travelling along this dirt path gives you signs to dispell your
+opinion that Goblins are creatures without intelligence. 
+There are several artistic symbols carved into the path.  They are filled with white pebbles to protect the design. You can tell that 
+no one steps on these symbols.
+~
+0 0 2
+D1
+~
+~
+0 -1 9952
+D3
+~
+~
+0 -1 9955
+S
+#9955
+Brown dirt path~
+The dirt path is narrow and straight as an arrow. A hut to the
+north shows a small light burning inside.  To the west you can
+see a hut at the end of the dirt path.
+~
+0 0 2
+D0
+~
+~
+0 -1 9956
+D1
+~
+~
+0 -1 9954
+D2
+~
+~
+0 -1 9949
+D3
+~
+~
+0 -1 9957
+S
+#9956
+Wooden hut~
+This wooden hut is well built from the planks of a sailing ship.
+The weathered wood, the round windows, and a figurine of great
+artistry makes this hut much more than you expected.
+~
+0 8 0
+D2
+~
+~
+0 -1 9955
+E
+figurine~
+The figurine is of a busty woman whose sly smile reminds you
+of the forbidden fruit.  She's a real siren.~
+S
+#9957
+Pebbles in the dirt~
+Small white pebbles in the dirt catch your attention.  The dirt
+path is narrow but shows signs of heavy use.
+~
+0 0 2
+D0
+~
+~
+0 -1 9973
+D1
+~
+~
+0 -1 9955
+D3
+~
+~
+0 -1 9958
+E
+pebble pebbles~
+The pebbles are small and white.  Upon closer examination
+you discover that they are teeth!~
+S
+#9958
+Dirty path~
+Trash, debris and litter covers the path and ground about you.
+Many of the items were taken from Malo Village, while others
+appear to be goblin made.
+~
+0 0 2
+D0
+~
+~
+0 -1 9972
+D1
+~
+~
+0 -1 9957
+D3
+~
+~
+0 -1 9959
+S
+#9959
+Village path~
+Travelling through the village on this dirt path you see that
+the entire west side of the village is made of woven grass.
+To the south of you is a large pit.  To the west a small hut.
+~
+0 0 2
+D0
+~
+~
+0 -1 9970
+D1
+~
+~
+0 -1 9958
+D2
+~
+~
+0 -1 9960
+D3
+~
+~
+0 -1 9967
+S
+#9960
+Edge of the pit~
+You are standing at the northern end of a twelve foot deep pit.
+A large hut has been built along the south wall of the village.
+~
+0 0 2
+D0
+~
+~
+0 -1 9959
+D3
+~
+~
+0 -1 9961
+E
+pit~
+The pit has been dug into the ground twelve feet down.  Several
+log poles have been driven into the ground to support the walls.
+A large clump of refuge at the southern end attracts your attention.~
+E
+refuge~
+You cannot see the refuge from here.~
+S
+#9961
+Dirt path~
+The dirt path circles the pit and travels along the grass wall
+towards the large hut to the south of you.
+~
+0 0 2
+D0
+~
+~
+0 -1 9967
+D1
+~
+~
+0 -1 9960
+D2
+~
+~
+0 -1 9962
+S
+#9962
+Westside of pit~
+You are standing alongside the west side of the pit.  Several
+stakes have been driven into the ground along the edge of the
+pit.  Ropes are coiled near the stakes.
+~
+0 0 2
+D0
+~
+~
+0 -1 9961
+D2
+~
+~
+0 -1 9963
+D3
+~
+~
+0 -1 9966
+E
+pit~
+The pit is very deep here.  A rope is hanging down the side
+of the pit and at the end of the rope hangs a body.~
+E
+body~
+The body is of a soldier from Malo Village.  His throat has been
+slit and his toes and fingers cut off.~
+S
+#9963
+Alongside the pit~
+The smell of death coming from the pit is almost overpowering.
+A swarm of flies hovers above the pit.  A few of them come to you
+to feast on your sweat.
+~
+0 0 2
+D0
+~
+~
+0 -1 9962
+D3
+~
+~
+0 -1 9964
+E
+pit~
+The pit is very deep.  Wooden poles support the walls.  Refuge
+is piled several feet deep in the bottom of the pit.  The corpse
+of a soldier hangs from a stake driven into the ground several
+feet away from you.~
+E
+soldier~
+The soldier is wearing a Malo Village uniform.  ~
+E
+refuge~
+The refuge in the bottom of the pit is a combination of rotting
+clothing, corpses, rotten food and several inches of blood.  A 
+shiny piece of metal reflects the light from the bottom of the pile.~
+E
+metal~
+Looking closely, the metal resembles a hook.  Yes, a hook.
+You know...the kind of hook that replaces a lost hand.  You are
+intrigued by this hook.  What is it doing here?~
+E
+hook~
+The hook is on the hand of one of the corpses.  The corpse
+is dressed in the clothing of a sailor.  Looking closely at 
+the corpse you see that it was a man..and that he had gold
+teeth.  If you know the identity of this pirate's brother,
+please inform someone on the wizlist.  You will need to know
+if the nature of the quest and the identity of this body.~
+S
+#9964
+Dirty grass path~
+The grass path is covered with dirt from the pit.  To the south
+of you is a large hut, built from the wood of a sailing ship.
+~
+0 0 2
+D0
+~
+~
+0 -1 9966
+D1
+~
+~
+0 -1 9963
+D2
+~
+~
+0 -1 9965
+S
+#9965
+Large wood hut~
+The wooden hut is built from the planks of a sailing ship.
+Several round windows allow light and air to enter.  Carved
+into the floor of the hut is a map of the continent.
+~
+0 8 0
+D0
+~
+~
+0 -1 9964
+E
+map~
+The map shows that the continent is shaped much like a cloud.
+North central is Malo Village.  The river below the village
+flows west and east.  To the west of Malo Village is the Goblin
+Nation.  West of the Goblin Nation the river continues until it
+reaches the west side of the continent and a large swamp.
+The river east of Malo Village travels in a southern direction.
+At a "Y" it continues to the east side of the continent and a large
+inland sea.  The left branch continues in a southern direction
+and cuts across the continent to the south west corner of the 
+continent.  In the center of the continent is a huge pyramid
+shaped mountain.~
+S
+#9966
+Grassy patch~
+This grassy patch survived the removal of all that dirt from
+the pit.  Standing next to the grass wall you are able to see
+how crudely the wall was constructed.
+~
+0 0 2
+D1
+~
+~
+0 -1 9962
+D2
+~
+~
+0 -1 9964
+S
+#9967
+Before a shack~
+This dirt path leads toward a shack to your west.  To the 
+northeast of you the village opens up.  Several huts have been
+built in that direction.
+~
+0 0 2
+D0
+~
+~
+0 -1 9969
+D1
+~
+~
+0 -1 9959
+D2
+~
+~
+0 -1 9961
+D3
+~
+~
+0 -1 9968
+S
+#9968
+Grass hut~
+This grass hut is a little larger than the others around you.
+Looking around you discover several articles of children's 
+clothing tacked to the walls.  Some of the clothing is covered
+in blood, while others look brand new.
+~
+0 8 0
+D1
+~
+~
+0 -1 9967
+S
+#9969
+Grass path~
+From this position you can see most of the village.  You can
+count nine or ten huts from this position.  And you can also
+see a small outpost on top of Bald Mountain.  Invisible from
+most of the village, you can see a thin stream of smoke rising
+from the summit.
+~
+0 0 2
+D1
+~
+~
+0 -1 9970
+D2
+~
+~
+0 -1 9967
+S
+#9970
+Silky grass~
+You are standing in hip high grass which caresses your legs
+like the touch of silk thread.
+~
+0 0 2
+D0
+~
+~
+0 -1 9971
+D1
+~
+~
+0 -1 9972
+D2
+~
+~
+0 -1 9959
+D3
+~
+~
+0 -1 9969
+S
+#9971
+Silky grass hut~
+Someone thought they had a good idea..building this hut out
+of silky grass, however, they forgot to brace it up.  The 
+ceiling is nonexistant and the walls quaver with the slightest
+breeze.
+~
+0 0 0
+D2
+~
+~
+0 -1 9970
+S
+#9972
+Silver grass~
+This patch of grass is different than all of the others.  It is
+the color of silver.  Some of the blades of grass are as sharp
+as the edge of a sword.
+~
+0 0 2
+D0
+~
+~
+0 -1 9974
+D1
+~
+~
+0 -1 9973
+D2
+~
+~
+0 -1 9958
+D3
+~
+~
+0 -1 9970
+S
+#9973
+Long grass~
+This part of the village doesn't get much traffic.  The grass 
+is very high, almost as high as the wall which surrounds the
+small village.
+~
+0 0 2
+D2
+~
+~
+0 -1 9957
+D3
+~
+~
+0 -1 9972
+S
+#9974
+Kneehigh grass~
+Finding this trail was a stroke of luck.  The grass is so high
+you could have easily overlooked it.
+~
+0 0 2
+D0
+~
+~
+0 -1 9975
+D2
+~
+~
+0 -1 9972
+S
+#9975
+Before a hut~
+This path leads to the north end of the village.  Some of the
+huts in this area appear to be very old.  Some are falling down.
+~
+0 0 2
+D0
+~
+~
+0 -1 9976
+D1
+~
+~
+0 -1 9977
+D2
+~
+~
+0 -1 9974
+S
+#9976
+Stick hut~
+This stick hut is quite a surprise.  Once you enter you find
+that there is no hut.  Only the front wall is standing.  All
+other three walls have fallen.
+~
+0 0 2
+D2
+~
+~
+0 -1 9975
+S
+#9977
+Northern path~
+The path is leading you toward the northern most part of the
+village.  Several of the huts in this area have fallen down.
+~
+0 0 2
+D1
+~
+~
+0 -1 9978
+D3
+~
+~
+0 -1 9975
+S
+#9978
+Tall grass~
+You are standing in the middle of a path rampant with three foot
+tall grass.  Without the nearby wall as a reference, you would 
+never have guessed that this was a path.
+~
+0 0 2
+D0
+~
+~
+0 -1 9980
+D2
+~
+~
+0 -1 9979
+D3
+~
+~
+0 -1 9977
+S
+#9979
+Grass hut~
+This hut is made of wooden poles with a layer of grass woven
+inbetween them.  A thick thatch roof keeps out the rain.
+Written in blood, on the wall of the hut is a phrase.
+~
+0 8 0
+D0
+~
+~
+0 -1 9978
+E
+phrase~
+Made by the children of Malo Village.~
+S
+#9980
+North path~
+This grass path circles the northern part of the village.  A
+hole in the grass wall surrounding the village provides you a 
+view of the grass prairie surrounding the village.
+~
+0 0 2
+D0
+~
+~
+0 -1 9981
+D1
+~
+~
+0 -1 9982
+D2
+~
+~
+0 -1 9978
+S
+#9981
+Grass hut~
+This hut doesn't exist.  Only the door's frame survived some
+past disaster.  The floor is littered with bones.
+~
+0 0 2
+D2
+~
+~
+0 -1 9980
+S
+#9982
+Brown grass path~
+The grass all around you is dead.  Looking for the cause you
+discover that the ground is hot..and that a thin trickle of
+heated water is seaping through the ground.
+~
+0 0 2
+D1
+~
+~
+0 -1 9984
+D2
+~
+~
+0 -1 9983
+D3
+~
+~
+0 -1 9980
+S
+#9983
+Small hut~
+This small hut is well built and has a fire pit in the center 
+of it.  Several small hands are hanging on the walls.
+~
+0 8 0
+D0
+~
+~
+0 -1 9982
+E
+hand hands~
+The hands are from several small children of different races.~
+S
+#9984
+Grassy path~
+The grass wall curves in a southeast direction.  The path is 
+following the wall.  There are several private huts back here.
+~
+0 0 2
+D2
+~
+~
+0 -1 9985
+D3
+~
+~
+0 -1 9982
+S
+#9985
+Wall path~
+Long grasses from the wall have fallen into the pathway making
+your footing very slippery.
+~
+0 0 2
+D0
+~
+~
+0 -1 9984
+D2
+~
+~
+0 -1 9986
+S
+#9986
+Singlefile path~
+The wall comes very close to one of the Goblin huts.  You will
+have to travel in singlefile to get by.
+~
+0 512 2
+D0
+~
+~
+0 -1 9985
+D1
+~
+~
+0 -1 9988
+D3
+~
+~
+0 -1 9987
+S
+#9987
+Grass shack~
+You are standing in a very small hut near the northern wall.
+Some of the belongings in this hut were made by goblins, some
+were stolen from Malo Village.
+~
+0 8 0
+D1
+~
+~
+0 -1 9986
+S
+#9988
+Tiny path~
+The grass wall is squeezing you into a very small path.  Some of 
+the grasses are hanging down into your path.  They brush against
+your face as you walk under them.
+~
+0 512 2
+D1
+~
+~
+0 -1 9990
+D2
+~
+~
+0 -1 9989
+D3
+~
+~
+0 -1 9986
+S
+#9989
+Grass shack~
+This classic goblin hut is bare.  Now that you think about it...
+most of the huts in this entire village are bare.  The only
+possessions you have seen in quantity have belonged to the
+Malo Villagers.  What is going on?  Where did these goblins
+come from?  Where are they going?  What are they doing here?
+~
+0 8 0
+D0
+~
+~
+0 -1 9988
+S
+#9990
+Tiny grass path~
+This kneehigh grass path leads toward Bald Mountain.  The length
+of the grass indicates that few Goblins come in this direction.
+~
+0 512 2
+D1
+~
+~
+0 -1 9991
+D2
+~
+~
+0 -1 9992
+D3
+~
+~
+0 -1 9988
+S
+#9991
+Wooden hut~
+This hut has been built from the wood of a sailing vessel.  The
+weathered boards have iron rings embedded in them and a small bell
+in the corner is very dull.
+~
+0 8 0
+D3
+~
+~
+0 -1 9990
+E
+bell~
+Carved into the bell's stand is the name of the ship from 
+which it came:   "The Squid".~
+S
+#9992
+Lonely path~
+This lonely path leads to Bald Mountain.  Looking ahead you see
+that the path enters a dark cave in the side of the mountain.
+~
+0 0 2
+D0
+~
+~
+0 -1 9990
+D1
+~
+~
+0 -1 9993
+S
+#9993
+Brown grass path~
+The dead grass around you signifies trouble.  Looking around
+you spot a trickle of steam shooting into the air near the path.
+Checking the ground you find that it's almost too hot to touch.
+~
+0 0 2
+D1
+~
+~
+0 -1 9994
+D3
+~
+~
+0 -1 9992
+S
+#9994
+Rocky path~
+The dead grass has given way to solid granite.  The gray stone
+pushes it's way through the earth and connects to Bald Mountain.
+~
+0 0 2
+D1
+~
+~
+0 -1 9995
+D3
+~
+~
+0 -1 9993
+S
+#9995
+Mountain's shadow~
+Standing before one of the last huts along this path your attention
+is drawn to Bald Mountain.  Standing in it's shadow..looking at
+the cave mouth leading into it's depths, you begin to wonder why
+the Goblins built their village here.
+~
+0 0 2
+D0
+~
+~
+0 -1 9997
+D1
+~
+~
+0 -1 9996
+D3
+~
+~
+0 -1 9994
+S
+#9996
+Before the cave~
+The granite path leads to the mountain cave before you.  There are
+several offerings placed at the entrance.  The offerings consist
+of tiny piles of food, a few old coins, a sharp stick, and several
+grass dolls.
+~
+0 0 2
+D1
+~
+~
+0 -1 9999
+D2
+~
+~
+0 -1 9998
+D3
+~
+~
+0 -1 9995
+S
+#9997
+Grass hut~
+This grass hut is no different than any of the others.  Again the
+question of "where are their possessions?" comes to mind.
+~
+0 8 0
+D2
+~
+~
+0 -1 9995
+S
+#9998
+Grass hut~
+The grass hut was built somewhere else and moved to this location.
+The grass is silver, and appears to be collecting light.  Looking
+at the hut is hard to do...the light is so bright.
+~
+0 8 0
+D0
+~
+~
+0 -1 9996
+S
+#9999
+Cave entrance~
+You are standing in the entrance of a cave within Bald Mountain.
+Several small offerings are scattered about the room.  To the
+rear of the room is a door.  A door which doesn't open.
+~
+0 8 0
+D3
+~
+~
+0 -1 9996
+S
+#0
+
+
+#RESETS
+D 1 9916 2 1                 ; Grassy landing Close South
+D 1 9912 0 1                 ; Southern turn Close North
+*
+M 1 9901 1 9902 1*			the Villager to On the river
+G 1 9902 100
+G 1 9903 100
+O 1 9901 100 9902			a sign to On the river
+*
+M 1 9902 3 9997	 2*		the Eyeless Dwarf to Grass hut
+E 1 9904 100 3
+*
+M 1 9902 3 9977	2*		the Eyeless Dwarf to Northern path
+E 1 9905 100 3
+*
+M 1 9902 3 9959	1*		the Eyeless Dwarf to Village path
+E 1 9906 100 3
+*
+M 1 9903 3 9991	1*		the Deranged Elf to Wooden hut
+E 1 9907 100 1
+*
+M 1 9903 3 9929	1*		the Deranged Elf to A blue hut
+E 1 9908 100 1
+*
+M 1 9903 3 9976	1*		the Deranged Elf to Stick hut
+E 1 9909 100 1
+*
+M 1 9904 3 9965	1*		the Confused Human to Large wood hut
+E 1 9910 100 17
+*
+M 1 9904 3 9989	1*		the Confused Human to Grass shack
+E 1 9911 100 17
+*
+M 1 9904 3 9950	1*		the Confused Human to Grass hut
+E 1 9912 100 17
+*
+M 1 9905 15 9981 1*			the Goblin child to Grass hut
+*
+M 1 9905 15 9983 1*			the Goblin child to Small hut
+*
+M 1 9905 15 9979 1*			the Goblin child to Grass hut
+*
+M 1 9905 15 9976 1*			the Goblin child to Stick hut
+*
+M 1 9905 15 9945 1*			the Goblin child to Grass hut
+*
+M 1 9905 15 9935 1*			the Goblin child to Stick hut
+*
+M 1 9905 15 9942 1*			the Goblin child to Bloody hut
+*
+M 1 9906 10 9938 1*			the Male Goblin to Grass hut withwindow
+E 1 9913 100 5
+*
+M 1 9906 10 9953 1*			the Male Goblin to Goblin hut
+E 1 9913 100 5
+*
+M 1 9906 10 9971 1*			the Male Goblin to Silky grass hut
+E 1 9913 100 5
+*
+M 1 9906 10 9968 1*			the Male Goblin to Grass hut
+*
+M 1 9906 10 9928 1*			the Male Goblin to Dead grass hut
+*
+M 1 9907 12 9938 1*			the Female Goblin to Grass hutwith window
+E 1 9913 100 5
+E 1 9914 100 14
+*
+M 1 9907 12 9953 1*			the Female Goblin to Goblin hut
+E 1 9913 100 5
+E 1 9914 100 14
+*
+M 1 9907 12 9971 1*			the Female Goblin to Silky grasshut
+E 1 9913 100 5
+E 1 9914 100 14
+*
+M 1 9907 12 9968 1*			the Female Goblin to Grass hut
+*
+M 1 9907 12 9928 1*			the Female Goblin to Dead grasshut
+*
+M 1 9908 10 9996 1*			the Goblin Guard to Before thecave
+*
+M 1 9908 10 9959 1*			the Goblin Guard to Village path
+*
+M 1 9908 10 9961 1*			the Goblin Guard to Dirt path
+*
+M 1 9908 10 9933 1*			the Goblin Guard to Crushed grass
+*
+M 1 9909 5 9950	 1*		the Goblin Shaman to Grass hut
+*
+M 1 9909 5 9965	 1*		the Goblin Shaman to Large wood hut
+*
+M 1 9909 5 9987	 1*		the Goblin Shaman to Grass shack
+*
+M 1 9909 5 9998	1*		the Goblin Shaman to Grass hut
+*
+M 1 9910 15 9932 1*			the Goblin Warrior to Village path
+*
+M 1 9910 15 9964 1*			the Goblin Warrior to Dirty grasspath
+*
+M 1 9910 15 9974 1*			the Goblin Warrior to Kneehighgrass
+*
+M 1 9910 15 9988 1*			the Goblin Warrior to Tiny path
+*
+M 1 9910 15 9946 1*			the Goblin Warrior to Southernpath
+S
+
+
+#SHOPS
+9901 8 5 9 12 13 65 150 0 23			Mobile sells quest clues
+0
+
+
+#SPECIALS
+M  9909 spec_cast_cleric			the Goblin Shaman
+S
+
+
+#$

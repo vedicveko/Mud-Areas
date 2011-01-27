@@ -1,0 +1,837 @@
+#AREA
+northrd.are~
+North Road~
+{ All } Lotherius North Road~
+4000 4099
+
+
+
+
+#MOBILES
+#4000
+farmer ghost~
+A ghostly farmer~
+A ghostly farmer is here moaning quietly
+~
+~
+human~
+ABO BU 500 S
+15 0 5d30+161 15d10+100 3d5+8 0
+0 0 0 0
+0 PQ FM NZ
+8 8 0 0
+AHILMV ABCDEFGHIJK M unknown
+#4001
+huge giant guard~
+A giant guardian~
+A huge giant is here, guarding the bridge.
+~
+The giant looks at you as if to determine your worth.
+~
+giant~
+ABT C 400 S
+35 0 16d82+534 35d10+100 5d7+2 11
+-11 -11 -11 0
+CLOR 0 HI JP
+8 8 1 0
+AHMV ABCDEFGHIJK G unknown
+#4002
+Regtorth~
+Regtorth~
+The keeper of the wayhouse, Regtorth, is here tending the bar.
+~
+~
+giant~
+AB 0 0 S
+80 0 16d432+2016 80d10+100 5d17+95 7
+-40 -40 -40 -15
+0 0 HI JP
+8 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#4003
+large burly giant~
+A large burly giant~
+A large burly giant is here keeping the peace.
+~
+~
+giant~
+ABT 0 -50 S
+35 10 16d82+534 35d10+100 5d7+0 3
+-11 -11 -11 0
+ADER 0 HI JP
+8 8 1 20
+AHMV ABCDEFGHIJK L unknown
+#4004
+carrion crawler~
+A carrion crawler~
+A huge ugly carrion crawler is here
+~
+~
+centipede~
+ABF QZa 0 S
+12 0 5d32+120 12d10+100 4d4+11 7
+2 2 2 6
+M 0 FI E
+8 8 0 0
+O DFKMPUX M unknown
+#4005
+poor traveller~
+A poor traveller~
+A poor looking traveller is here, getting drunk.
+~
+~
+human~
+ABHS 0 0 S
+12 0 5d32+120 12d10+100 4d4+11 3
+2 2 2 6
+FJN 0 0 0
+8 8 1 17
+AHMV ABCDEFGHIJK M unknown
+#4006
+cook~
+the cook~
+The cook is here roasting beef for the sandwiches.
+~
+~
+giant~
+ABT 0 -200 S
+18 0 10d36+205 18d10+100 5d5+15 7
+-1 -1 -1 4
+DFO 0 HI JP
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#4007
+giant woman~
+a giant woman~
+A giant woman sleeps here.
+~
+~
+giant~
+AT 0 0 S
+27 0 16d49+360 27d10+100 5d6+30 3
+-6 -6 -6 1
+CEIO 0 HI JP
+4 8 2 0
+AHMV ABCDEFGHIJK L unknown
+#4008
+satyr naked man~
+A satyr man~
+A naked satyr man is here.
+~
+He appears to have been quite busy with his wife, but will stop to kill you.
+~
+satyr~
+ABFT DJZ -200 S
+7 0 16d42+322 25d10+100 5d6+26 11
+-5 -5 -5 2
+R 0 BL Z
+8 8 1 0
+AHMV ABCDEFGHIJKW M unknown
+#4009
+woman naked satyr~
+A satyr woman~
+A naked satyr woman is here.
+~
+She appears to have been quite busy with her husband.
+~
+satyr~
+ABF DJZ 100 S
+5 0 1d16+42 5d10+100 2d6+0 7
+6 6 6 8
+R 0 BL Z
+8 8 2 0
+AHMV ABCDEFGHIJKW M unknown
+#4010
+warrior tough looking giant~
+A tough looking giant warrior~
+A tough looking giant warrior is here.
+~
+He has scars all over him, and is obviously very experienced.
+~
+giant~
+ABT 0 -1000 S
+30 0 16d60+426 30d10+100 5d7+32 11
+-8 -8 -8 0
+0 0 HI JP
+8 8 1 0
+AHMV ABCDEFGHIJK L unknown
+#4011
+wife regtorth~
+Regtorth's wife~
+Regtorth's wife is here relaxing.
+~
+~
+giant~
+A 0 0 S
+40 0 16d108+648 40d10+100 5d9+45 3
+-15 -15 -15 -2
+0 0 HI JP
+8 8 2 2
+AHMV ABCDEFGHIJK G unknown
+#4012
+undead skeleton~
+An undead skeleton~
+An undead skeleton is here, moaning about its fate.
+~
+~
+human~
+A 0 0 S
+1 0 1d2+6 1d10+100 1d8+0 7
+9 9 9 9
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#NEWOBJECTS
+#4000
+skull blackened skin~
+{Da blackened skull{w~
+{DA skull is here, turned black by flames.{w~
+unknown~
+17 H AC
+BD BD ACD 0 0
+1 1 5 P
+R 100
+#4001
+huge club~
+a huge club~
+A huge club is here.~
+unknown~
+5 0 ANPQRSTUVWXYZabcdef
+C AC D ABDE F
+34 50 340 P
+R 100
+A
+4 3
+#4002
+shiny steel axe~
+{WA shiny steel axe{x~
+A {Wshiny steel axe{x is here.~
+unknown~
+5 0 AN
+AC AC AE ACE 0
+80 10 800 P
+R 100
+#4003
+red ale~
+a mug of red ale~
+A mug of red ale is here~
+unknown~
+17 N A
+AC AC C 0 0
+1 2 15 P
+R 100
+#4004
+Regtorth's Specialty~
+a mug of regtorth's specialty~
+A mug of Regtorth's specialty~
+unknown~
+17 N A
+AC AC D 0 0
+1 0 25 P
+R 100
+#4005
+large beef sandwich~
+a large beef sandwich~
+A large beef sandwich is here, large enough for a giant.~
+unknown~
+19 N A
+CE 0 0 0 0
+1 3 400 P
+R 100
+#4006
+worn leather jacket~
+a worn leather jacket~
+A worn leather jacket is here.~
+unknown~
+9 G AD
+AC AC AC B 0
+12 2 240 P
+R 100
+A
+5 1
+#4007
+homemade dagger~
+a homemade dagger~
+A homemade dagger is here.~
+unknown~
+5 G AN
+B C C B 0
+12 1 280 P
+R 100
+A
+2 1
+#4008
+beat longsword sword~
+a beat up longsword~
+A beat up longsword is here~
+unknown~
+5 0 AN
+A AC AC A 0
+18 2 180 P
+R 100
+A
+19 2
+A
+18 1
+#4009
+giant longsword sword~
+a giant longsword~
+A giant longsword is here~
+unknown~
+5 AE AN
+A AC ABC A 0
+30 10 300 P
+R 100
+A
+18 3
+A
+19 1
+#0
+
+
+
+#ROOMS
+#4000
+A porch in front of a very charred farmhouse.~
+This porch lines the front of an old building made from logs.  It
+appears to have been a farmhouse at one point, but now fire has ravaged most
+of it.  The door hangs halfway open, inviting those who are in need of
+shelter in.  The road lies to the east.  
+~
+0 4 0
+D2
+~
+~
+0 0 1516
+D3
+~
+~
+1 -1 4001
+S
+#4001
+A dark, burnt out living room.~
+The living room of this farmhouse didn't fair too well.  Oddly, it seems
+the fire started opposite the fireplace and not in front of it as one would
+expect with an accident.  There doesn't seem to be much of interest in here,
+and the exits to the other rooms are blocked by debris.  
+~
+0 1 0
+D1
+~
+~
+1 -1 4000
+D5
+~
+~
+1 -1 4002
+S
+#4002
+A basement.~
+{DThis basement reveals the charred skeletons of some poor souls who must
+have tried to escape the blaze that took this home.  The air down here still
+reeks of smoke, even after what has obviously been months since the fire. 
+{w 
+~
+0 1 0
+D4
+~
+~
+1 -1 4001
+S
+#4003
+The Northern Road~
+The city of City of Lukhan stands looming to the south, beyond a huge
+iron gate.  The spires of huge buildings and temples can be seen high in the
+air, and the noise of the markets fills the air even outside the gates.  To
+the north, the northern road stretches off through the dense forest.  
+~
+0 0 3
+D0
+~
+~
+0 0 4004
+D2
+~
+~
+0 0 2041
+S
+#4004
+The Northern Road~
+The Northern road plunges into a deep forest here.  A long abandonded
+trail wanders off to the east.  The sounds of City of Lukhan can be heard
+faintly to the south, but mostly the sounds of deep forest prevail.  
+~
+0 0 3
+D0
+~
+~
+0 0 4005
+D1
+~
+~
+0 0 4011
+D2
+~
+~
+0 0 4003
+S
+#4005
+A shady spot on the Northern Road~
+The trees here are extremely thick, and block almost all light from the sun.
+Leaves are piled up deep on the road here, and not a sound can be heard but
+for the sounds of the deep forest.
+~
+0 1 3
+D0
+~
+~
+0 0 4006
+D2
+~
+~
+0 0 4004
+S
+#4006
+A westerly bend in the Northern Road~
+The road here turns slightly to the west for those heading north.  The
+trees aren't so thick at this spot, and evidence of campfires in times past
+can be seen off to the side of the road.  It looks like a good spot to stop
+if you need to stop for the night.  
+~
+0 0 3
+D2
+~
+~
+0 0 4005
+D3
+~
+~
+0 0 4007
+S
+#4007
+Along the Northern Road.~
+The road straightens northward, and curves eastward for those travelling
+south.  The sounds of a river can be heard to the north of here.  A small
+sign is lost in the brush to the side of the road.  
+~
+0 0 3
+D0
+~
+~
+0 0 4008
+D1
+~
+~
+0 0 4006
+S
+#4008
+Along the Northern Road~
+The woods are very dense here, and the roar of a river can be heard to
+the north.  The trail is almost overgrown with brush, but can still be found
+easily, as the woods are practically impassable.  
+~
+0 0 3
+D0
+~
+~
+0 0 4009
+D2
+~
+~
+0 0 4007
+S
+#4009
+A covered bridge along the Northern Road~
+This bridge crosses a rushing river that would be impossible to cross by
+fording or even by boat.  The wood of the bridge is old, and the ceiling is
+high overhead.  You can see through the many holes in the planks, and gaps
+in the floor.  
+~
+0 0 0
+D0
+~
+~
+0 0 4010
+D2
+~
+~
+0 0 4008
+S
+#4010
+On the Giant's Road~
+To the south you can hear the sound of a rushing river.  The woods are
+very dense here, and the trail is narrow, but clear for quite a height.  The
+road continues on to both the north and south.  
+~
+0 0 3
+D0
+~
+~
+0 0 4012
+D2
+~
+~
+0 0 4009
+S
+#4011
+The Olde Rekartha Cemetary~
+To the east stands a very old wrought iron gate, with vines crawling all
+over it.  The fence goes both directions from it and is swallowed up by the
+forest.  A sign resting over the gate indicates that this is the Olde
+Rekartha Cemetary.  
+~
+0 0 3
+D3
+~
+~
+0 0 4004
+S
+#4012
+Along the Giant's Road~
+The road is paved here, and begins to widen.  The forest still clings
+closely to both sides of the road, and looks very dark.  The sound of a
+river can be heard far to the south.  In the distance to the far north,
+mountains begin to rise out of the haze.  
+~
+0 0 3
+D0
+~
+~
+0 0 4013
+D2
+~
+~
+0 0 4010
+S
+#4013
+On the Giant's Road~
+The giant's road continues on a straight path through the dense forest
+here.  The climate is getting noticably colder by this point, and the woods
+more and more evergreen.  
+~
+0 0 3
+D0
+~
+~
+0 0 4014
+D2
+~
+~
+0 0 4012
+S
+#4014
+An eastern bend on the giant's road~
+The giant's road takes an easterly bend here, passing around an acient
+stone building that stands in the way.  A sign on the building has a crudely
+drawn picture of a mug of ale, and light pours from the tall windows.  The
+road heads south and east from here.  
+~
+0 0 3
+D0
+~
+~
+0 0 4022
+D1
+~
+~
+0 0 4015
+D2
+~
+~
+0 0 4013
+S
+#4015
+Along the giant's road~
+~
+0 0 3
+D0
+~
+~
+0 0 4016
+D3
+~
+~
+0 0 4014
+S
+#4016
+Along the giant's road~
+~
+0 0 3
+D0
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4015
+S
+#4017
+Along the giant's road~
+~
+0 0 3
+D0
+~
+~
+0 0 4018
+D2
+~
+~
+0 0 4016
+S
+#4018
+A westerly bend on the giant's road~
+~
+0 0 3
+D2
+~
+~
+0 0 4017
+D3
+~
+~
+0 0 4019
+S
+#4019
+Along the giant's road~
+~
+0 0 3
+D0
+~
+~
+0 0 4020
+D1
+~
+~
+0 0 4018
+S
+#4020
+A westerly bend on the giant's road~
+~
+0 0 3
+D2
+~
+~
+0 0 4019
+D3
+~
+~
+0 0 4021
+S
+#4021
+The end of the giant's road~
+The giant's road ends here at the gates to the City of Galdamar.  The
+entire city is on the scale of giants, but still isn't very large.  
+~
+0 0 3
+D1
+~
+~
+0 0 4020
+D3
+~
+~
+1 -1 2700
+S
+#4022
+The main room of the Regtorth's Wayhouse~
+This wayhouse is built mostly for giants, but it seems that all types are
+gathered here to relax after a long days work.  The wayhouse seems to be a
+collecting place for all those who are travelling the northern roads as well
+as for those who live in the area.  The walls of the room show evidence of
+many fights gotten out of hand, and it is apparent that the atmosphere of
+this place could easily get out of hand.  Sounds of the kitchen can be heard
+to the west, and a staircase leads up.  
+~
+0 8 0
+D2
+~
+~
+0 0 4014
+D3
+~
+~
+1 -1 4023
+D4
+~
+~
+0 0 4024
+D5
+~
+~
+3 -1 4029
+S
+#4023
+The kitchen of Regtorth's Wayhouse~
+There isn't much here in the kitchen, except for a grill where the beef
+sandwiches are prepared, which looks awfully dirty.  Kegs of ale and the
+house drink are stored along the walls here, but are mounted firmly so they
+cannot be taken.  The smell of roasting beef fills the room.  
+~
+0 8 0
+D1
+~
+~
+1 -1 4022
+S
+#4024
+The upstairs landing~
+The stairs come up into a small room with doors in all directions leading
+to the four rooms at the wayhouse.  This small landing is decorated with a
+worn red carpet and a glass roof, lending a more sophisticated feel to the
+wayhouse than would have been expected.  
+~
+0 8 0
+D0
+~
+~
+1 -1 4025
+D1
+~
+~
+1 -1 4028
+D2
+~
+~
+1 -1 4027
+D3
+~
+~
+1 -1 4026
+D5
+~
+~
+0 0 4022
+S
+#4025
+The Blue Room~
+This room is decorated totally in {Bblue{x.  A large chandelier hangs
+from the ceiling at an awesome height to anyone but a giant, and a bed that
+could sleep two giants is against one wall.  A window to the north looks out
+over the forest.  
+~
+0 8 0
+E
+window~
+You can see the forest to the north, and far north of here, you can see
+the city of the giants near the mountains.  
+~
+D2
+~
+~
+1 -1 4024
+S
+#4026
+The HoneyMoon Suite~
+This room is obviously meant for romance.  The light is provided solely
+by candles and the room is dominated by a huge feather bed in the middle. 
+The window lets in just enough light so that if the candles go out, you can
+still see.  
+~
+0 8 0
+D1
+~
+~
+1 -1 4024
+S
+#4027
+A small bedroom~
+This room is obviously for those guests who have less money.  As with the
+other rooms, the bed is huge, sized for a giant.  A small washbasin is in
+this room against one wall, and there are no windows.  The floor is wooden,
+strewn with straw.  An odd smell permeates this room.  
+~
+0 8 0
+D0
+~
+~
+1 -1 4024
+S
+#4028
+{RThe Red Room{x~
+This room is decorated with a deep red satin bed, curtains and a lantern
+covered with red glass.  The room is noticibly warmer than the rest of the
+wayhouse.  
+~
+0 8 0
+D3
+~
+~
+1 -1 4024
+S
+#4029
+Basement below the Wayhouse~
+The basement is very dark, and cold.  Dust covers everything with a still
+silence.  The sounds of the wayhouse above cannot be heard.  
+~
+0 9 0
+D4
+~
+~
+3 -1 4022
+S
+#0
+
+
+
+#SPECIALS
+M 4000 spec_cast_undead Load to: A ghostly farmer
+S
+
+
+
+#RESETS
+D 0 4000 3 1
+D 0 4001 1 1
+D 0 4001 5 1
+D 0 4002 4 1
+D 0 4021 3 1
+D 0 4022 3 1
+D 0 4022 5 1
+D 0 4023 1 1
+D 0 4024 0 1
+D 0 4024 1 1
+D 0 4024 2 1
+D 0 4024 3 1
+D 0 4025 2 1
+D 0 4026 1 1
+D 0 4027 0 1
+D 0 4028 3 1
+D 0 4029 4 1
+M 0 4000 1 4000
+O 0 4000 0 4002
+M 0 4004 2 4002
+M 0 4001 1 4009
+E 0 4001 16 16
+M 0 4002 1 4022
+G 0 4003 9999
+G 0 4004 9999
+G 0 4005 9999
+M 0 4003 1 4022
+G 0 4002 9999
+M 0 4005 1 4022
+E 0 4006 5 5
+E 0 4007 16 16
+M 0 4006 1 4023
+E 0 4008 16 16
+M 0 4007 1 4025
+M 0 4008 1 4026
+M 0 4009 1 4026
+M 0 4010 1 4027
+E 0 4009 16 16
+M 0 4011 1 4028
+S
+
+
+
+#SHOPS
+4002 17 19 0 0 0 125 75 0 23
+0
+
+
+
+#$

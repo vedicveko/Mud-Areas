@@ -1,0 +1,1518 @@
+#AREA
+DSA Format~
+cloudkeep.are~
+Cloud Keep~
+[ 1 30] Monomach Cloud Keep~
+4700 4799
+Descr
+No description.
+~
+Bldrs Monomach~
+Sec 9
+Levels 1 30
+Flags A
+End
+#HELPS
+Of all the giant races that exist in the realm, cloud giants are by far
+the most civilized of the group. Living in castles and manor houses
+amongst the clouds it is said that by being closer to the gods, they
+somehow have gained some of their divinity. That being said the
+race is know for its enjoyment of the same things other races do.
+Currently a family of the giants has anchored themselves just above
+the city of Midgaard and is enjoying a healthy bit of trade. They
+welcome most visitors (especially those with coin),  but would 
+remind you not to feed their pet.
+
+Cloud Keep was written by Monomach for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.  
+-1 $~
+
+#MOBILES
+#4700
+child giant~
+a child giant~
+A giant child runs around playing tag with their siblings.
+~
+A young giant child happily plays tag enjoying its childhood to the
+fullest.  While small for a giant these 'children' are as tall as an average
+human.  
+~
+unique~
+AGHW J 0 200 0
+25 0 5d30+208 15d10+100 3d5+8 pound
+0 0 0 5
+0 J LP MQ
+stand stand either 700
+AHMV ABCDEFGHIJK medium none
+~
+End
+#4701
+giantess bura~
+Bura~
+Bura the giantess sits at the piano playing a sonnet.
+~
+Bura is one of the daughters of Tabriaa mistress of the Cloud Keep.  She
+is very beautiful as well as Very large.  She is currently playing a
+beautiful sonnet on the piano.  
+~
+unique~
+ABGR J 0 400 0
+35 1 10d40+150 25d10+100 6d6+15 magic
+-5 -5 -5 2
+CKR J LP MQ
+sit stand female 1500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld  1
+End
+#4702
+giantess mista~
+Mista~
+The giantess Mista goes about the room tidying up.
+~
+Mista is the spitting image of her mother and sister, with her violet
+hair and silver eyes.  She is currently cleaning up the room she shares with
+her husband Limra and their children.  
+~
+unique~
+ABGQ J 0 400 0
+35 0 10d40+150 25d10+100 6d6+15 none
+-5 -5 -5 2
+CKR J LP MQ
+stand stand female 1500
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld  1
+End
+#4703
+giant limra~
+Limra~
+The giant Limra patrols the grounds looking for trouble.
+~
+Limra is the husband of Mista and is in charge of Keep security.  At over
+8ft tall you do not doubt he can take care of himself and the rest of the
+keep as well if he wished too.  
+~
+unique~
+ABGT J 0 400 0
+37 2 27d14+140 27d10+100 5d8+15 beating
+-8 -8 -8 0
+CDKR J LP MQ
+stand stand male 2100
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld  1
+End
+#4704
+giant codrunn~
+Codrunn~
+The giant Codrunn sits here reading a book.
+~
+Codrunn is taking some time to relax and enjoy a good book.  He is the
+husband of Bura and lives here in the Keep with his wife and children.  
+~
+unique~
+ABGT J 0 400 0
+37 0 10d49+400 27d10+100 5d6+12 none
+-8 -8 -8 0
+CKR J LP MQ
+stand stand male 1800
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld  1
+End
+#4705
+giantess Tabriia~
+Tabriia~
+The giantess Tabria stands here watching over the Keeps daily business.
+~
+The giantess stands over 8 ft tall and every inch of her, commands a
+regal presence.  She has violet hair and silver eyes which stare into the
+depths of your soul.  She runs a tight castle and doesn't appreciate
+visitors in her private abode.  
+~
+unique~
+ABGQ J 0 500 0
+40 3 10d80+550 30d10+100 6d8+20 wrath
+-14 -14 -14 -4
+CFK J LP MQ
+stand stand female 2300
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld  1
+End
+#4706
+dragon pet spot~
+Spot the dragon~
+Spot searches for mice here in the cellar.
+~
+Spot is the Keep's pet dragon.  He currently is searching the cellar for
+mice in order to keep the supplies fresh and safe.  
+~
+dragon~
+AB DJT 0 0 0
+40 0 10d61+500 30d10+100 5d6+15 none
+-10 -10 -10 -2
+ACEMR 0 BEH FI
+stand stand male 1000
+AHZ ACDEFGHIJKPQUVX huge none
+~
+MaxWorld  1
+End
+#0
+
+
+
+#OBJECTS
+#4700
+sword giants~
+sword of the Giants~
+A dazzling sword of sparking electricity lays here.~
+energy~
+weapon ASY AN
+sword 6 8 cleave F
+35 50 5000 P
+A
+1 2
+A
+18 2
+A
+19 2
+E
+sword~
+This blade is crafted out of pure electrical energy and has been in the
+giants family for many years.  
+~
+~
+End
+#4701
+Bura sonnet~
+{xBura's Sonnet{x~
+A wonderful sonnet seems to glow with the passion of music.~
+ethereal~
+light ABGS AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+30 3 2500 P
+A
+4 2
+A
+13 35
+A
+20 -2
+E
+it~
+It sounds like a beautiful sonnet by Johann Sebastian Bach.  
+~
+E
+sonnet~
+It sounds like a beautiful sonnet by Johann Sebastian Bach.  
+~
+~
+MaxWorld 5
+End
+#4702
+belt giant~
+belt of the giants~
+A beautifully crafted belt radiates an aura of power.~
+silver~
+armor ABMY AL
+D D D C AB
+30 20 1200 P
+A
+1 3
+A
+19 2
+E
+belt~
+Tabriaa's strength is great despite her femininity.  And this belt
+embodies that.  
+~
+~
+End
+#4703
+ring war~
+ring of war~
+A small band of sparkling electricity sits here.~
+energy~
+armor BGSTUY AB
+D AD ABC C 0
+30 10 3000 P
+A
+18 3
+A
+19 3
+E
+ring~
+This small band is made of pure electricity and is worn by the giant
+warriors who must fight for their clans.  
+~
+~
+MaxWorld 5
+End
+#4704
+storm cloud~
+a storm cloud~
+A small grey cloud rumbles by.~
+ethereal~
+container ABGSY AQ
+500 0 0 50 60
+30 0 500 P
+A
+2 2
+A
+12 20
+A
+18 2
+A
+19 2
+E
+cloud~
+It seems to be almost intelligent and follows you around.  It is also
+very willing to hold your stuff.  
+~
+~
+MaxWorld 5
+End
+#4705
+dragon collar~
+a dragon collar~
+A studded collar with a tag sits here.~
+leather~
+armor AMSTY AC
+D D D AC B
+30 200 10000 P
+A
+19 1
+A
+18 2
+E
+collar~
+This collar is used by the giants to walk there pet dragon Spot.  There
+seems to be a tag on it.  
+~
+E
+tag~
+If found my name is Spot.  Please return me to my Mistress, Tabriia at
+Cloud Keep.  I havn't had my rabies shot yet.  
+~
+~
+MaxWorld 5
+End
+#4706
+piano~
+a piano~
+A beautiful grand piano waits to be played.~
+wood~
+furniture OSY P
+B CEFGHI ABHIJKOP CFG CFG
+1 0 0 P
+E
+piano~
+This piano has graceful curves and an unblemished finished.  It is truly
+the work of a master.  
+~
+~
+MaxWorld 1
+End
+#4707
+bed~
+a child's bed~
+A child's bed rests against the wall.~
+wood~
+furniture SY P
+A CDFI ABEHKN ADFG ADFG
+1 0 0 P
+E
+bed~
+While this bed is made for a child, it is made for a giant child.  It is
+considered to a queen sized bed by human standards.  
+~
+~
+MaxWorld 1
+End
+#4708
+bookshelf~
+a bookshelf~
+A bookshelf is filled top to bottom with books.~
+wood~
+container SY P
+500 0 0 50 100
+1 0 0 P
+E
+shelf~
+This bookshelf contains hundreds of books alone.  Several stand out of
+particular intrest.  
+~
+~
+MaxWorld 1
+End
+#4709
+book war art~
+a book on the art of war~
+A book on the art of war rests on the shelf.~
+none~
+armor BGS AO
+BC BC ABC AB 0
+25 50 5000 P
+A
+18 1
+A
+19 1
+E
+nook~
+~
+E
+book~
+This book contains the written knowledge possessed by giants on the art
+of war.  
+~
+~
+End
+#4710
+book lore giant~
+a book on giant lore~
+A book on giant lore rests on the shelf.~
+paper~
+trash S AO
+0 0 0 0 0
+1 50 5000 P
+E
+book~
+This book gives a detailed account on everything you could wish to know
+about giants.  
+~
+~
+End
+#4711
+desk~
+a large oak desk~
+A large oak desk sits in the center of the room.~
+wood~
+container S P
+500 ABCD 4725 50 100
+1 0 0 P
+E
+desk~
+A large oak desk is covered with the papers Tabriia uses to keep track of
+the daily transactions going on in the mansion.  
+~
+~
+MaxWorld 1
+End
+#4712
+fountain golden~
+a golden fountain~
+A golden fountain pours into a pool.~
+marble~
+fountain 0 P
+0 0 'water' 0 0
+1 0 0 P
+E
+fountain~
+An enormous golden fountain is here.  You see swans, angels, gryphons and
+a host of other creatures in the fountain.  The fountain empties into a huge
+pool that looks quite inviting.  
+~
+~
+MaxWorld 1
+End
+#4713
+croquet ball blue~
+a blue croquet ball~
+A blue croquet ball lies close to the last wicket.~
+gemstone~
+treasure SY AO
+0 0 0 0 0
+1 100 2500 P
+E
+ball~
+This small blue ball, while used to play the game croquet, appears to be
+made of a very large sapphire.  
+~
+~
+End
+#4714
+croquet ball red~
+a red croquet ball~
+A red croquet ball seems to be quite a ways away from the hoop.~
+gemstone~
+treasure SY AO
+0 0 0 0 0
+1 100 2500 P
+E
+ball~
+This small red ball, while used to play the game croquet, appears to be
+made of a very large ruby.  
+~
+~
+End
+#4715
+table ~
+a table~
+A table is covered with refreshments for guests.~
+none~
+furniture S P
+C DFGHIJ CDEGHJKN CFG CFG
+1 0 0 P
+E
+table~
+A table is covered with refreshments for guests.
+~
+~
+MaxWorld 1
+End
+#4716
+chair lawn~
+a lawn chair~
+A comfortable lawn chair sits at the table.~
+wood~
+furniture S P
+A CDFI BEHKN CFG CFG
+1 0 0 P
+E
+chair~
+A comfortable lawn chair sits at the table.
+~
+~
+MaxWorld 2
+End
+#4717
+box~
+a box~
+A box is stacked neatly in the corner.~
+wood~
+furniture S P
+0 0 0 0 0
+1 0 0 P
+E
+these~
+~
+E
+box~
+These large boxes are used to hold the extra food that the mansion will
+need at a later date.  
+~
+~
+End
+#4718
+junk~
+junk~
+A pile of junk clutters the corner.~
+steel~
+trash 0 P
+0 0 0 0 0
+1 0 0 P
+E
+junk~
+Its all the accumulated stuff you'd expect to find in any basement.  
+~
+~
+MaxWorld 1
+End
+#4719
+barrel~
+a barrel~
+A large barrel of water waits to be used.~
+wood~
+drink S A
+300 300 'water' 0 0
+1 200 10 P
+E
+barrel~
+A large barrel is filled with a clear liquid.
+~
+~
+MaxWorld 1
+End
+#4720
+tree orange~
+an orange tree~
+An orange tree spreads its mighty limbs to the sky.~
+wood~
+container GS P
+300 0 0 50 100
+1 0 0 P
+E
+tree~
+This tree seems to have prosperred in the arboritum as its limbs are full
+of ripe juicy oranges ready to be eaten.  
+~
+~
+MaxWorld 1
+End
+#4721
+orange~
+an orange~
+Description A plump ripe orange looks ready to be eaten.~
+food~
+pill GS AO
+30 'refresh' '' '' ''
+30 5 0 P
+~
+End
+#4722
+rug~
+a fine woven rug~
+A fine woven rug lies on the floor.~
+hemp~
+furniture SY A
+B DFGHIJ BEHKN ADFG ADFG
+1 200 12000 P
+E
+rug~
+This rug is made of the finest silks and feels incredibly soft.  
+~
+~
+End
+#4723
+high backed chair~
+a high-backed chair~
+A high backed chair sits in the corner.~
+none~
+furniture SY P
+A CDFI BEHKN DEFG DEFG
+1 0 0 P
+E
+chair~
+This large chair is oversized by human standards but incredibly well
+crafted by any standards.  Its rich and plush surface makes it ideal to take
+a nap in.  
+~
+~
+MaxWorld 3
+End
+#4724
+cabinet~
+a cabinet~
+A cabinet holding musical instruments stands in the corner.~
+wood~
+container SY P
+0 ABCD 4727 500 100
+1 0 0 P
+E
+cabinet~
+This beautifully crafted cabinet holds several well made musical
+instruments, most notable a very well made lute.  
+~
+~
+MaxWorld 1
+End
+#4725
+shiny key~
+a shiny key~
+A shiny key lies om the floor.~
+silver~
+key 0 AO
+0 0 0 0 0
+1 5 0 P
+~
+MaxWorld 1
+End
+#4726
+lute storm~
+the Lute of Storms~
+A beautifully crafted lute awaits a new owner.~
+wood~
+weapon ABGSY AN
+hand 5 12 magic G
+40 200 30000 P
+A
+18 2
+A
+19 2
+E
+lute~
+A beautifully crafted lute seems to sing music of its own accord.  Along
+its surfaced are etched lightning bolts.  In the hands of a master musician,
+this instrument could be deadly.  
+~
+~
+MaxWorld 2
+End
+#4727
+master key~
+the master key~
+A strong key lies here.~
+iron~
+key 0 AO
+0 0 0 0 0
+1 5 0 P
+~
+MaxWorld 1
+End
+#4728
+clock grandfather~
+a grandfather clock~
+A grandfather clock towers over the room.~
+wood~
+furniture SY P
+A CDFI A CFG CFG
+1 0 0 P
+~
+MaxWorld 1
+End
+#4729
+egg golden~
+a Golden Egg~
+A small golden egg floats along.~
+gold~
+light ABG AQ
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+50 10 30000 P
+A
+24 -3
+A
+19 3
+A
+18 3
+~
+End
+#4730
+golden goose slippers~
+the Golden Goose Slippers~
+A pair of golden slippers rest on the ground.~
+flesh~
+armor AG AG
+CD CD CD D 0
+50 20 1000 P
+A
+18 3
+A
+19 3
+A
+12 50
+~
+End
+#4731
+cloak wisdom~
+a Tourque of Wisdom~
+A beautiful silk cloak radiates a questing aura.~
+silk~
+armor ABG AC
+BCD BCD BCD BC BD
+50 50 50000 P
+A
+18 3
+A
+19 3
+A
+4 2
+A
+24 -2
+~
+End
+#4732
+alphabet soup~
+alphabet soup~
+Some alphabet soup.~
+food~
+pill 0 A
+50 'cure critical' 'cure critical' 'refresh' 'refresh'
+50 1 1 P
+~
+End
+#4733
+bag questors~
+a questor's bag~
+A small bag has been dropped here.~
+cloth~
+container 0 O
+10000 0 0 1000 0
+50 1 1 P
+~
+End
+#4734
+squeeky toy~
+the End All and Be All of Squeeky Toys~
+THE Squeeky Toy~
+flesh~
+armor ABGY AO
+ADE ACE BCE ADE 0
+80 10 100000 P
+A
+24 -5
+A
+12 50
+A
+13 50
+A
+19 5
+A
+18 5
+~
+End
+#0
+
+
+
+#ROOMS
+#4700
+Front Gate~
+There is a gate here.  It is huge, towering over you.  It creaks as it
+sways in the breeze.  To the south you see a huge lawn.  There is a rope
+ladder leading down.  
+~
+0 4 2
+D2
+~
+gate~
+1 0 4701
+Flags AB
+End
+D5
+~
+~
+0 0 4728
+End
+S
+End
+#4701
+The Lawn~
+The lawn seems to stretch and stretch to the south and to the west. 
+North of you is a gate.  The grass is emerald green and luscious, obviously
+well cared for.  
+~
+0 0 2
+D0
+~
+gate~
+1 0 4700
+Flags AB
+End
+D2
+~
+~
+0 0 4703
+End
+D3
+~
+~
+0 0 4702
+End
+S
+End
+#4702
+Croquet game~
+A croquet game has been set up and carelessly left out.  Who ever was
+playing blue was in the lead before they quit.  Benches have been set up for
+spectators and players to enjoy themselves.  
+~
+0 0 0
+D1
+~
+~
+0 0 4701
+End
+D2
+~
+~
+0 0 4704
+End
+S
+Reset O 4713 1 100 0 Load A blue croquet ball.
+Reset O 4714 1 100 0 Load A red croquet ball.
+End
+#4703
+Golden Fountain~
+An enormous golden fountain is here.  You see swans, angels, gryphons and
+a host of other creatures in the fountain.  The fountain empties into a huge
+pool that looks quite inviting.  
+~
+0 0 0
+D0
+~
+~
+0 0 4701
+End
+D3
+~
+~
+0 0 4704
+End
+S
+Reset O 4712 1 100 0 Load A golden fountain.
+End
+#4704
+Patio~
+A huge patio overlooks the lawn area.  There are enough tables and chairs
+for a party of 100.  The tables and chairs are ornate and expensive,
+tasteful and elegant.  Stairs lead up to the main house.  
+~
+0 0 0
+D0
+~
+~
+0 0 4702
+End
+D1
+~
+~
+0 0 4703
+End
+D4
+~
+~
+0 0 4705
+End
+S
+Reset M 4700 3 100 0 Load a child giant.
+Reset O 4715 1 100 0 Load A table.
+Reset O 4716 1 100 0 Load A lawn chair.
+Reset O 4716 1 100 0 Load A lawn chair.
+End
+#4705
+Long Stairway~
+This stairway is suspended on clouds.  It leads from the house to the
+front lawn.  The banisters are made of ornate gold and silver inlays.  
+~
+0 8 0
+D4
+~
+~
+0 0 4706
+End
+D5
+~
+~
+0 0 4704
+End
+S
+End
+#4706
+Front Door~
+You stand at the front door of an immense, sprawling mansion made of
+granite and marble.  The door is at least 10 feet high and is made of oak.  
+~
+0 0 0
+D1
+~
+~
+0 0 4713
+End
+D2
+~
+door~
+1 0 4717
+Flags AB
+End
+D3
+~
+~
+0 0 4707
+End
+D5
+~
+~
+0 0 4705
+End
+S
+End
+#4707
+Lawn northwest of house~
+You stand just outside the northwest corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.  
+~
+0 0 0
+D1
+~
+~
+0 0 4706
+End
+D2
+~
+~
+0 0 4708
+End
+S
+End
+#4708
+Lawn west of house~
+You stand just outside the west corner of the house.  You try to peek in
+a window, but it is a little too high to see anything.  
+~
+0 0 0
+D0
+~
+~
+0 0 4707
+End
+D2
+~
+~
+0 0 4709
+End
+S
+Reset M 4703 1 100 0 Load Limra.
+End
+#4709
+Lawn southwest of house~
+You stand just outside the southwest corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.  
+~
+0 0 0
+D0
+~
+~
+0 0 4708
+End
+D1
+~
+~
+0 0 4710
+End
+D5
+~
+~
+0 0 4714
+End
+S
+End
+#4710
+Lawn south of house~
+You stand just outside the south corner of the house.  You try to peek in
+a window, but it is a little too high to see anything.  
+~
+0 0 0
+D1
+~
+~
+0 0 4711
+End
+D3
+~
+~
+0 0 4709
+End
+S
+End
+#4711
+Lawn southeast of house~
+You stand just outside the southeast corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.  
+~
+0 0 0
+D0
+~
+~
+0 0 4712
+End
+D3
+~
+~
+0 0 4710
+End
+S
+End
+#4712
+Lawn east of house~
+You stand just outside the east corner of the house.  You try to peek in
+a window, but it is a little too high to see anything.  
+~
+0 0 0
+D0
+~
+~
+0 0 4713
+End
+D2
+~
+~
+0 0 4711
+End
+S
+End
+#4713
+Lawn northeast of house~
+You stand just outside the northeast corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.  
+~
+0 0 0
+D2
+~
+~
+0 0 4712
+End
+D3
+~
+~
+0 0 4706
+End
+S
+End
+#4714
+Dirty, dusty Tunnel~
+This dirty dusty tunnel must lead somewhere.  
+~
+0 0 0
+D1
+~
+~
+0 0 4715
+End
+D4
+~
+~
+0 0 4709
+End
+S
+End
+#4715
+Basement~
+This seems to be an average basement with alot of old boxes, unwanted
+furniture, and lots and lots of dust.  
+~
+0 0 0
+D0
+~
+~
+0 0 4716
+End
+D3
+~
+~
+0 0 4714
+End
+S
+Reset M 4706 1 100 0 Load Spot the dragon.
+Reset E 4705 3 100 0 A dragon collar is loaded around the neck (1) of a dragon collar
+Reset O 4718 1 100 0 Load Junk.
+Reset O 4719 1 100 0 Load A barrel.
+Reset O 4717 1 100 0 Load A box.
+Reset O 4719 1 100 0 Load A barrel.
+End
+#4716
+Bottom of the Stairs~
+You stand at the bottom of a long staircase leading up to the main house.
+To the south you can barely make out the accumulated clutter gathered
+throughout the years.  
+~
+0 0 0
+D2
+~
+~
+0 0 4715
+End
+D4
+~
+door~
+1 0 4717
+Flags AB
+End
+S
+End
+#4717
+Foyer~
+"Magnificent" does not even begin to describe the foyer.  Lavishly
+decorated, yet elegant, it gives an impression of indescribable wealth. 
+Paintings and tapestries line the walls depicting scenes from throughout
+history.  Antiques furnitures and oriental rugs are tastefully placed in
+ideal spots.  The door is at least 10 feet high and is made of oak.  
+~
+0 0 0
+D0
+~
+door~
+1 0 4706
+Flags AB
+End
+D1
+~
+~
+0 0 4723
+End
+D3
+~
+~
+0 0 4718
+End
+D5
+~
+trap~
+1 0 4716
+Flags AB
+End
+S
+Reset O 4722 1 100 0 Load A fine woven rug.
+End
+#4718
+Elegant Hallway~
+You are in a long, sprawling hallway connecting the eastern and western
+wings of the house.  There are several chairs and sofas in the hallway and
+some gorgeous, handwoven drapes.  
+~
+0 0 0
+D1
+~
+~
+0 0 4717
+End
+D2
+~
+~
+0 0 4719
+End
+D3
+~
+~
+0 0 4720
+End
+S
+Reset O 4723 1 100 0 Load A high-backed chair.
+End
+#4719
+Library~
+You are overwhelmed by the sheer volumes of books here.  The shelves
+stretch all the way to the ceiling and are on every wall, even above the
+doorway.  There are chairs for sitting and reading and a desk for more
+intense studies.  
+~
+0 0 0
+D0
+~
+~
+0 0 4718
+End
+S
+Reset M 4704 1 100 0 Load Codrunn.
+Reset E 4703 2 100 0 Ring of war is loaded on the right finger of ring of war
+Reset O 4708 1 100 0 Load A bookshelf.
+Reset P 4709 1 100 0 Put A book on the art of war inside a book on the art of war.
+Reset P 4710 1 100 0 Put A book on giant lore inside a book on giant lore.
+Reset O 4723 1 100 0 Load A high-backed chair.
+End
+#4720
+Arboritum~
+A small indoor garden so that the residents don't have to go outside to
+enjoy plants and commune with nature.  There are several trees, a small pond
+and flowers of every kind.  
+~
+0 0 0
+D1
+~
+~
+0 0 4718
+End
+D2
+~
+~
+0 0 4721
+End
+S
+Reset O 4720 1 100 0 Load An orange tree.
+Reset P 4721 5 100 0 Put An orange inside an orange.
+End
+#4721
+Childrens Room~
+This is the room where the children of the castle sleep.  It has several
+beds of enormous size as well as giant sized toys.  In fact you have never
+seen such a big rocking horse in your whole life.  
+~
+0 0 0
+D0
+~
+~
+0 0 4720
+End
+D4
+~
+~
+0 0 4722
+End
+S
+Reset O 4707 1 100 0 Load A child's bed.
+End
+#4722
+Bedroom~
+This is Mista and Limra's bedroom.  The room is beautifully decorated
+with pictures of hawks and dragons in full flight.  Mista is in charge of
+taking care of the children so she keeps the door open to listen for
+trouble.  
+~
+0 0 0
+D5
+~
+~
+0 0 4721
+End
+S
+Reset M 4702 1 100 0 Load Mista.
+End
+#4723
+Elegant Hallway~
+You are in a long, sprawling hallway connecting the eastern and western
+wings of the house.  There are several chairs and sofas in the hallway and
+some gorgeous, handwoven drapes.  
+~
+0 0 0
+D1
+~
+~
+0 0 4725
+End
+D2
+~
+~
+0 0 4724
+End
+D3
+~
+~
+0 0 4717
+End
+S
+Reset O 4723 1 100 0 Load A high-backed chair.
+End
+#4724
+Conservatory~
+Here was the rehearsal and recital room for the residents of the estate. 
+There is a grand piano in the corner and various gilded instruments are on
+display in a glass cabinet.  
+~
+0 0 0
+D0
+~
+~
+0 0 4723
+End
+S
+Reset M 4701 1 100 0 Load Bura.
+Reset E 4701 0 100 0 {xbura's sonnet{x is loaded as a light of {xBura's Sonnet{x
+Reset O 4706 1 100 0 Load A piano.
+Reset O 4724 1 100 0 Load A cabinet.
+Reset P 4726 1 100 0 Put The lute of storms inside the Lute of Storms.
+End
+#4725
+Office~
+You find yourself in a lavish office.  The desk is absolutely huge, at
+least ten feet by five feet and made of ebony and inlaid with mother of
+pearl.  A grandfather clock towers over the room, mechanically ticking and
+tocking the hours away.  
+~
+0 0 0
+D1
+There seems to be a small nob on the clock which allows entrance into its
+base.  
+~
+clock~
+1 0 17300
+Flags AB
+End
+D2
+~
+~
+0 0 4726
+End
+D3
+~
+~
+0 0 4723
+End
+S
+Reset O 4728 1 100 0 Load A grandfather clock.
+End
+#4726
+Bedroom~
+You are in the bottom part of a tower.  This is where Bura and Codrun
+live in the Keep.  Bura has decorated the room with pictures of clouds and
+landscapes seen from the heights of Cloud Keep.  
+~
+0 0 0
+D0
+~
+~
+0 0 4725
+End
+D4
+~
+~
+0 0 4727
+End
+S
+End
+#4727
+Master Bedroom~
+This is where Mistress Tabriia stays in the castle.  She keeps the room
+only lightly decorated since many of the Keep's records are here.  She
+considers this her only room for privacy and does not like to find strangers
+in it.  
+~
+0 0 0
+D5
+~
+~
+0 0 4726
+End
+S
+Reset M 4705 1 100 0 Load Tabriia.
+Reset E 4704 18 100 0 A storm cloud is loaded floating nearby of a storm cloud
+Reset E 4702 13 100 0 Belt of the giants is loaded around the waist of belt of the giants
+Reset G 4725 1 100 0 A shiny key into inventory of a shiny key
+Reset O 4711 1 100 0 Load A large oak desk.
+Reset P 4727 1 100 0 Put The master key inside the master key.
+End
+#4728
+The Mighty Chain of Naris~
+A huge cloud forms the plateau on which you are now standing.  The wind
+here is absolutely quiet and the sun is shining warmly upon you.  From under
+the cloud you can hear the faint sounds of Haven.  The mighty chain
+continues upwards, to another cloud bank high above.  
+~
+0 0 0
+D4
+~
+~
+0 0 4700
+End
+D5
+~
+~
+0 0 7900
+End
+S
+End
+#4750
+Brakis's Room of TERROR!~
+A maelstrom swirls around in here.  It has the esence of death and the
+touch of the coldest of all cold fires.  On the floor there lies a pool of
+water waiting to be discovered.  Waiting to be tasted for the first time. 
+There is a shadow lurking around pulling at all strings of life around.  You
+know you had better run for DEATH lurks here.  
+~
+0 0 0
+D5
+~
+~
+0 0 4751
+End
+S
+End
+#4751
+Brakis's pool.~
+You fall down down down down down Finally you hit bottom.  But wait. 
+There's water all around you you can't breath!  Franticly you thrash about
+but wait there is a light to the south hurry!  
+~
+0 25166848 6
+D2
+~
+~
+0 0 4752
+End
+D4
+~
+~
+0 0 4750
+End
+S
+End
+#4752
+The light at the end of the tunnel.~
+When you break the top of the water you gasp for air.  You have made it to freedom...almost.
+This room has a very painful feeling.
+You feel it pulling away at the very strands of your life.
+You know you must leave and fast but to where?
+~
+0 16777217 0
+D4
+~
+~
+2 0 4753
+Flags ABF
+End
+S
+End
+#4753
+The start of the ghost ship~
+There is a cool ocean breeze here.  Above you can see the crow's nest and
+the mist of the sea is at your sides.  There are holes everywhere on this
+deck, like it was attacked and lost, barley managing to stay afloat.  All
+about you you see the spirits of the dead sailors that died in the attack. 
+Their eyes, merely holes in their sculls.  Their flesh, at the last stage of
+rotting, falling off their bones.  You suddenly get an odd feeling, one that
+tells you you'll never see your comfy, cozy, cottage again.  
+~
+0 0 0
+D2
+~
+~
+2 28160 4754
+Flags ABCF
+End
+S
+End
+#4754
+The lounge of the Gods.~
+~
+0 8422404 0
+D0
+~
+~
+2 0 4753
+Flags ABCF
+End
+S
+End
+#4755
+Pizza Hut~
+You smell the faint aroma of pizza and pasta filling this room.  You
+smell the garlic from Pizza Hut's famous garlic bread.  You suddenly feel
+hungary.  Want some pizza?  
+~
+0 0 0
+D0
+~
+~
+0 0 4756
+End
+S
+End
+#4756
+~
+~
+0 0 0
+D2
+~
+~
+0 0 4755
+End
+S
+End
+#4757
+~
+~
+0 4 0
+S
+End
+#4758
+~
+~
+0 4 0
+S
+End
+#4759
+~
+~
+0 4 0
+S
+End
+#0
+
+
+
+#SPECIALS
+M 4701 spec_cast_mage
+M 4702 spec_cast_cleric
+M 4705 spec_cast_cleric
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

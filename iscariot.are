@@ -1,0 +1,1596 @@
+#AREA   Chantry of the Iscariot~
+
+
+
+#AUTHOR Joaquim~
+
+#RANGES
+30 65 30 65
+$
+
+#RESETMSG A chill breeze wafts through the cloistered halls.~
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#4000
+Judas~
+Judas~
+A grinning, malevolent man stands in the middle of the room.
+~
+The master of betrayal, this man has existed in a thousand time periods
+on a thousand worlds, and betrayed billions. He is the epitomy of the
+art of deceit, none can surpass him. There is not a culture that does
+not have their own incarnation of this seemingly frail man.
+~
+3 373301928 -1000 C
+55 0 -300 1d1+30000 20d20+400
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+90 1 0 0 1 1 4
+66 0 1791 8441 3153670 0 512 524291
+> act_prog p appears in the room.~
+grin $n
+if rand(25)
+say Welcome back, $n, I trust your schemes achieved fruition?
+else
+if rand(45)
+say Greetings, $n, betray well.
+else
+if rand(25)
+cackle
+say Ah yes, here is $n, a known blackheart!
+pat $n
+else
+endif
+endif
+endif
+~
+> all_greet_prog 100~
+if isimmort($n)
+   if clan($n) == iscariot
+   bow $n
+   say Deity of betrayal, I welcome thee.
+   else
+   say I welcome you to our halls, Immortal $n.
+   grin
+   endif
+else
+if clan($n) == iscariot
+   if rand(25)
+   say Betray well, $n.
+   endif
+else
+frown
+say You are not of Iscariot, heathen. LEAVE!
+mea $n _pur Violent energies hurl you from the halls!
+mptrans $n 4000
+endif
+endif
+~
+|
+#4001
+merghedian guardian~
+Merg'hedian the Damned~
+An armored giant stands before the steel gates.
+~
+The cursed betrayer of the Gods, Merg'hedian the Damned was cast down
+from the heavens, and sought refuge with his brethren, those who follow
+the path of Iscariot, the betrayer. He is immortal, and has never been
+vanquished in physical combat, despite many efforts.
+~
+3 373826216 -400 C
+55 0 -300 1d1+30000 10d10+400
+0 0
+8 8 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 3 0 0 1 1 6
+0 0 0 532735 3153152 0 960 2621443
+> all_greet_prog 100~
+if isnpc($n)
+mpe _red Twin bursts of flame spew forth from $I's eyes, charring $n!
+mpforce $n scream
+mpslay $n
+say None may enter this chantry without permission!
+cackle
+else
+if isimmort($n)
+bow $n
+say Greetings and well met, immortal...
+mea $n Although his manner is obsequious, you sense conceit...
+else
+if clan($n) == Iscariot
+grin
+say Well met, betrayer, enter the chantry and be at ease.
+nod
+mea $n $I awaits your command.
+else
+frown
+say You are not welcome here, $n, nor are those of your ilk.
+say Remove thy presence from here. It offends me.
+endif
+endif
+endif
+~
+> speech_prog p I live to betray~
+if clan($n) == Iscariot
+chuckle
+say 'Tis well known that you do, $n.
+mea $n _red A red haze obscures your vision as you pass through the gate.
+mer $n _red A red haze suffuses $n as $e passes through the gate.
+mptrans $n 4002
+mpat 0.$n mpforce 0.$n look
+else
+say It is doubtful that you do, $n. Perhaps you'd feel safer elsewhere?
+mea $n _red Red mists drag you away!
+mer $n _red Red mists drag $n away!
+mptrans $n talus
+endif
+~
+|
+#4002
+de'nas heretic denas~
+De'nas the Heretic~
+A wild-eyed man spouts the prophecies of evil.
+~
+Foul priest of the evil gods of treachery and deceit, De'nas is as
+damnable an individual as you could ever hope to meet. Residing here to
+grant strength to those who follow in the footsteps of his deities, he
+finds joy in the succor of this collective of betrayers.
+~
+3 8872 -1000 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 10~
+if ispc($r)
+c heal $r
+c 'restore mana' $r
+endif
+~
+> all_greet_prog 100~
+say Arise, arise, servant of all that is evil!
+cackle
+drool
+mpe $I's eyes roll in his head, and he begins to spout gibberish.
+~
+|
+#4003
+ptechuweyan smith~
+P'techuweyan~
+A horrid, scaled creature hammers at a sheet of blackened steel.
+~
+This brutal killing machine is one of the races that, along with the
+drow, truly embraces the spirit of treachery and deceit. Thus lizardmen
+form a large portion of those who worship the Dark Gods, those deities
+that protect and nurture those who follow the path of shadow and darkness.
+P'techuweyan is possessed of incredible strength and agility, though few
+would dare challenge him to test their limits.
+~
+3 8872 -1000 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+45 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mea $n $I eyes you with a mixture of curiosity and contempt.
+say So, $n, you have need of my services once more...
+say I shall repair your items, so that you may do battle once more.
+frown
+say For a price, of course...
+snicker
+~
+> speech_prog p Grant me the vision of deceit~
+if goldamt($n) < 50000000
+snarl
+say You have not enough money, fool! Do not seek to bother me!
+scowl
+else
+nod
+say I shall craft this for you...
+mpe _red Sparks fly as $I begins his dark work...
+mpe $I returns a short time later with the item you requested.
+mpforce $n give 50000000 coins ptechuweyan
+mpjunk coins
+if level($n) < 50
+mpoload 4000 30
+give gaze $n
+else
+mpoload 4000 48
+give gaze $n
+endif
+endif
+~
+> speech_prog p I wish to grasp my foes with betrayal~
+if goldamt($n) < 50000000
+snarl
+say You have not enough money, fool! Do not seek to bother me!
+scowl
+else
+nod
+say I shall craft this for you...
+mpe _red Sparks fly as $I begins his dark work...
+mpe $I returns a short time later with the item you requested.
+mpforce $n give 50000000 coins ptechuweyan
+mpjunk coins
+if level($n) < 50
+mpoload 4001 30
+give grasp $n
+else
+mpoload 4001 48
+give grasp $n
+endif
+endif
+~
+> speech_prog p grant me the heart of betrayal~
+if goldamt($n) < 50000000
+snarl
+say You have not enough money, fool! Do not seek to bother me!
+scowl
+else
+nod
+say I shall craft this for you...
+mpe _red Sparks fly as $I begins his dark work...
+mpe $I returns a short time later with the item you requested.
+mpforce $n give 50000000 coins ptechuweyan
+mpjunk coins
+if level($n) < 50
+mpoload 4002 30
+give heart $n
+else
+mpoload 4002 48
+give heart $n
+endif
+endif
+~
+|
+#4004
+metheria ~
+Metheria~
+A darkskinned elven woman glances up at you.
+~
+A young drow acolyte of the dark gods of treachery, Metheria seeks to
+advance her powers through the manufacture of items to aid her fellow
+Iscariot, the only people she would never willingly betray. She is as
+evil as she is fair to look upon.
+~
+3 8872 -1000 C
+20 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 25 13 13 13
+0 0 0 0 0
+1 1 0 0 3 1 0
+0 0 0 0 1051648 0 0 0
+> speech_prog p grant me the skin of the innocents~
+if goldamt($n) < 50000
+say Grant me gold first, beggar!
+chuckle
+else
+if clan($n) == Iscariot
+say Very well, I shall craft this for you...
+mpe $I disappears into a back room, taking a large knife with her.
+mpe _red Anguished screams, accompanied by a horrid hacking sound, issue forth!
+mpe Some time later, $I emerges, clutching a squirming package in her arms.
+mpoload 4008 1
+mpforce $n give 50000 coins metheria
+give iscariotbag $n
+say There you are, may it serve you well, when tamed!
+grin
+mpjunk coins
+else
+endif
+endif
+~
+> speech_prog p I seek the wisdom of the elders~
+nod
+mpoload 4018 1
+give handbook $n
+say Consider the wisdom in these pages well, $n.
+~
+|
+#4005
+gingbergzt~
+a betrayed soul~
+Some god abandoned a newly created betrayer here.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#4006
+cletheral fallen seeker~
+Cletheral~
+A fallen Seeker imparts learning to those who are interested.
+~
+Once a follower of those who value knowledge as the absolute goal, this
+frail old man lost faith in the ways of this order, and betrayed them
+during a crucial battle, earning both their enmity and acceptance by
+Iscariot at once. Iscariot now shields him here, in return for sharing
+in his knowledge.
+~
+1027 8872 -200 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 1051648 0 0 0
+> all_greet_prog 100~
+mpe $I looks up tiredly as you approach.
+say Do you seek to learn the wisdom of an elder, $n?
+mpe $I opens his arms wide, as if you embrace you.
+~
+|
+#4007
+halakyn ~
+Halakyn~
+A horned, winged demon stands before the three portals.
+~
+Summoned by the deities to serve their representatives, Halakyn watches
+over the three portals, ready to transport the leaders to their havens or
+announce visitors to them. A malicious cackle accompanies each response,
+an indication of the anger and pain that accompanies the beast's service.
+~
+3 33555112 -1000 C
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 0
+0 0 0 0 1051648 0 0 0
+> all_greet_prog 100~
+if isimmort($n)
+say Greetings. Dost thou wish to visit with my masters?
+eye $n
+else
+if name($n) == alpha
+bow $n
+say Well met, master of deceit. How may I serve thee?
+grin
+else
+if name($n) == beta
+grin $n
+say Lieutenant of Iscariot, your presence honors me...
+mpe The demon's conceit is almost noticeable sometimes...
+else
+if name($n) == gamma
+nod
+say Well met, second of the order. What do you wish from me?
+else
+say I assume you wish to impose upon the leaders, $n?
+grin
+say Who do you wish me to inform of your arrival?
+endif
+endif
+endif
+endif
+~
+> speech_prog p Open my portal, demon!~
+if isimmort($n)
+chuckle
+say You can easily visit by more powerful means, immortal.
+t $n Goto 4025, 4026 or 4027...
+else
+if name($n) == alpha
+say As you wish...
+mpe The field blocking the portal to the east blinks out of existence.
+mptrans $n 4026
+else
+if name($n) == beta
+say As you wish...
+mpe The field blocking the portal to the north blinks out of existence.
+mptrans $n 4025
+else
+if name($n) == gamma
+say As you wish...
+mpe The field blocking the portal to the south blinks out of existence.
+mptrans $n 4027
+else
+endif
+endif
+endif
+endif
+~
+> speech_prog p I seek the leader.~
+say I will inform them...
+mpat 4026 say $n seeks audience...
+~
+> speech_prog p I seek the first.~
+say I will inform them...
+mpat 4025 say $n seeks audience...
+~
+> speech_prog p I seek the second.~
+say I will inform them...
+mpat 4027 say $n seeks audience...
+~
+|
+#4099
+final mob~
+a newly created final mob~
+Some god abandoned a newly created final mob here.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#4000
+gaze betrayer~
+Gaze of the Betrayer~
+A black malevolence fills the room...~
+~
+9 2097684 131073
+24 0 0 0
+1 0 0
+A
+25 -2
+A
+13 50
+A
+12 50
+A
+18 5
+A
+19 5
+> wear_prog 100~
+if clan($n) == iscariot
+else
+mea $n You are not of iscariot! You may not wear this!
+mpforce $n moan
+mpforce $n rem $o
+shout A heretic attempted to wear me!
+endif
+~
+|
+#4001
+grasp vengeance~
+the Grasp of Vengeance~
+A hazy pair of metallic gauntlets hover in mid air.~
+~
+9 2621974 129
+11 0 0 0
+10 0 0
+A
+2 2
+A
+1 2
+A
+13 25
+A
+18 8
+A
+19 8
+> wear_prog 100~
+if clan($n) == iscariot
+else
+mea $n You are not of iscariot! You may not wear this!
+mpforce $n moan
+mpforce $n rem $o
+shout A heretic attempted to wear me!
+endif
+~
+|
+#4002
+fell heart betrayer~
+Fell Heart of the Betrayer~
+A pulsing, throbbing, blackened heart spews forth an aura of black blood.~
+~
+9 2097686 3
+15 0 0 0
+1 0 0
+A
+13 50
+A
+12 50
+A
+18 5
+A
+19 5
+> wear_prog 100~
+if clan($n) == iscariot
+else
+mea $n You are not of iscariot! You may not wear this!
+mpforce $n moan
+mpforce $n rem $o
+shout A heretic attempted to wear me!
+endif
+~
+|
+#4003
+rune return~
+a rune of return~
+A piece of dark parchment is covered in runes.~
+~
+2 2097232 1
+1 35 42 -1
+1 200 20
+#4004
+philter revival~
+philter of revival~
+A dark potion brewed by the mages of Iscariot shimmers here.~
+~
+10 2097173 1
+35 28 81 -1
+1 20000 2000
+#4005
+arcane carafe~
+an arcane carafe~
+This dark brew restores the mana of Iscariots.~
+~
+10 2097174 1
+35 84 84 -1
+1 5000 500
+#4006
+cup warm blood~
+a cup of warm blood~
+The blood of innocents is as water to the Iscariots.~
+~
+17 2097172 1
+3 3 0 0
+1 30 3
+#4007
+raw meat~
+a hunk of raw meat~
+Iscariots eat their meat raw and bloody.~
+%s gnaw$q hungrily into $p.~
+19 0 1
+24 0 0 0
+2 50 5
+#4008
+skin innocents iscariotbag~
+Skin of the Innocents~
+A bag crafted from human flesh for an Iscariot sits here.~
+~
+15 0 1
+500 5 4009 2
+10 50000 5000
+#4009
+key~
+the darkened steel key~
+A darkened steel key shimmers evilly.~
+~
+18 2621462 16385
+0 0 0 0
+1 0 0
+#4010
+obsidian chest~
+an obsidian chest~
+A chest carved from obsidian holds items for use by the Iscariots.~
+~
+15 0 0
+100000 1 -1 0
+1 0 0
+#4011
+iscariot artifact soul judas~
+the tortured soul of Judas~
+A shimmering, whirling vortex hovers before you.~
+~
+5 2097734 8193
+0 0 0 6
+1 0 0
+A
+13 150
+A
+12 150
+A
+18 18
+A
+19 18
+A
+24 -10
+A
+23 -10
+A
+26 83886120
+#4012
+visions darkness~
+visions of darkness~
+A blackened vial filled with some dark substance spills onto the ground.~
+~
+10 2097172 1
+30 44 19 77
+1 2000 200
+#4013
+iscariot main board scrawlings wall~
+scrawlings on the wall~
+The wall here is covered with scrawlings and scraps of parchment.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#4014
+black demonflesh tome~
+a black tome bound in demonflesh~
+A black tome bound in demonflesh rests on a bronze lectern.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#4015
+unholy scripture iscariot~
+the unholy scripture of the Iscariot~
+A shimmering black tome contains the unholy scripture of the Iscariot.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#4016
+charred flesh plate~
+a steaming plate of charred flesh~
+A steaming plate of charred flesh rests on the slab.~
+~
+19 0 1
+12 0 0 0
+1 0 0
+#4017
+blood red wine goblet~
+a goblet of blood red wine~
+A dark goblet of blood red wine rests on the slab.~
+~
+17 4 1
+5 5 2 0
+1 0 0
+#4018
+handbook betrayal~
+the handbook of betrayal~
+A blackened tome lies smoldering on the ground.~
+~
+35 0 1
+0 0 0 0
+1 0 0
+E
+handbook betrayal~
+Within the covers of this fire-blackened book, bound in the flayed flesh
+of a dozen virgins, you will find the rules of the order known only as
+Iscariot. Simply type 'look chapter#' where # is the chapter number, to
+peruse sections of interest. All potential recruits are expected to have
+read this book from cover to cover, and will be expected to demonstrate
+this knowledge during interrogation.
+ 
+- Joaquim Doomstryfe.
+ 
+This version drafted December, 1998. 
+~
+E
+index~
+                            Table of Contents
+Chapter 1- What is Iscariot?- a brief summary of the Order, its aims and
+           goals, and its origins.
+ 
+Chapter 2- How does one join Iscariot?- self explanatory.
+ 
+Chapter 3- The Rules and Regulations of Iscariot- The many rules that members
+           of Iscariot must follow, 'pon pain of death (or worse).
+ 
+Chapter 4- The current administration of Iscariot- Who runs the place.
+ 
+Appendix 1- Programs throughout the HQ.
+Appendix 2- Equipment available to the Order.
+~
+E
+chapter1~
+Iscariot is a collection of individuals, and their other characters, who
+have in common one trait- they hate the world. The world has betrayed them,
+they have, through fate or misfortune, lost something, someone or similar
+to a force, good or evil, and they hold the world to blame. They see the
+world as having wronged them, or perhaps they see it as imperfect. At any
+rate, they have, through banding together, vowed to end the world one day,
+through an alliance they have forged with Marangarder the ancient daemon,
+child of Choak Niglim himself. Marangarder, through his allies and agents,
+influences the course of action Iscariot takes, discouraging them from a
+premature armageddon- the daemon can see things those in the order cannot,
+most notably the wrath of the other gods that would befall him should he
+reveal his hand too soon.
+ 
+All Iscariot members hold this code of betrayal and deceit dear to them-
+selves. They believe the world is faulty, and in dire need of repair. To
+them this repair comes in the form of conquest by the powers of the lower
+planes, who find it easy to manipulate those who have truly lost faith.
+Iscariot will gladly embrace those who have lost faith with all the other
+orders, clans and guilds, and will offer them a haven. However, it should 
+be noted that once someone has been in Iscariot, there is no turning back.
+No other organization may ever embrace those who have turned their backs on
+the world; they will be forever shunned. But within Iscariot, they may find
+companionship.
+~
+E
+chapter2~
+To join Iscariot, you must seek out a member of the Legion of the Betrayed.
+Such individuals will bear the mark of the Legion in their title and in
+their personal bios and descriptions. This may be, variously-
+LB, LotB, Legion, Betrayed, LoB, Legion of the Betrayed, Legion. etc
+ 
+This member will take you through the steps of becoming Iscariot. However,
+there are some ground rules to consider before wasting a LoB's time.
+1. You must be evil or neutral alignment, as must any other of your characters
+you see to induct.
+2. You may not be a member of any other organization. This includes guilds and
+councils, save for immortal councils.
+3. You must be at least level 30.
+4. If you are a cleric, you must be devoted to one of the following deities-
+ 
+5. If you are any other class, you must be devoted to one of the following 
+deities-
+ 
+The LotB member will most likely take the following steps.
+1. Give you a brief interview, and a copy of the guide, which you will read.
+2. After a week or so, they will contact you again, and interrogate you as
+to the contents of this manuscript. They will also inform you if you have
+been spoked against by the Order, and for what reason. There are no grounds
+for appeal here- any member of the LotB carries the word of Iscariot, and he
+or she speaks for the whole when they speak to you.
+~
+E
+chapter2a~
+3. If you satisfy this stage, you will be sent on three quests, to prove 
+your knowledge, ability and trustworthiness. The specific rules of this 
+quest will be set by the LotB, but a few ground rules do apply- No asking 
+for help from anyone, especially immortals, and no buying or selling of
+items you must seek.
+4. If you pass this stage, a leader will contact you and request that you
+write a letter of no less than two notes, to the order, detailing why you
+feel you are worthy, and why you feel the need to betray others as you have
+been betrayed. This will be a roleplaying format note, and will be posted
+on a board in HQ for all to read. 
+5. When this is written you will be inducted, on a 3 month probationary
+period. Three months may seem overlong, but if you abide by the rules, you
+needn't worry.
+~
+E
+chapter3~
+1. All members of Iscariot must be neutral or evil in alignment.
+
+2. Any alts you have may only be in Iscariot, or no affiliation at all.
+ 
+3. No order equipment is to ever be given or loaned to non-Iscariot.
+ 
+4. Runs with non-Iscariot are permitted, but you must give precedence to
+your fellow Iscariot, and if another Iscariot on the mud behaves in an
+improper manner so as to embarrass his order, you are to report it.
+ 
+5. You must post regular notes of an rp nature to the board, explaining
+how you have progressed in your schemes, and what other achievements you
+have made. Get into it, it can be fun writing such notes. If you need a
+hand, feel free to ask the veteran backstabbers.
+ 
+6. Although you are a betrayer, you MUST remain loyal to your peers. Those
+here have come here because all else has shunned them, if they can't even
+trust you, they have no one. This is the most important rules.
+ 
+7. Donations is to help the underequipped, not to make you a fat profit or
+popular with your friends. Iscariot has many rare items in their chest, if
+the chest is abused, it will be removed, as will you.
+~
+#4099
+final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#4000
+Chantry of the Iscariot~
+Rising out of the swamp is a ruined structure, overgrown with thick 
+black vines and greenish molds. Scum covered steps rise out of the
+thick, sucking mire, emerging on a weed-strewn ledge of yellowing,
+crumbling stone, damaged by centuries of neglect. A volley of howls
+emerges from the swamp behind you, urging you forward. A dark archway
+to the north is the only entrance into this ancient and ruined place.
+~
+0 4 1
+D0
+~
+~
+0 -1 4001
+D2
+~
+~
+0 -1 4035
+S
+#4001
+Gates of Treachery~
+The archway opens onto a short tunnel, which runs north towards a pair
+of rusted metal gates, set into the yellowed stone by heavy hinges that
+are designed to resemble grinning skulls, which hold the hinges with 
+their grinning teeth. A chill washes over you as you regard this ruined
+and ancient edifice, inhabited by the truly forsaken, who have sought
+refuge in this oldest of structures in the known world. Deep claw marks
+mar the surface of the stone, and the heavy chains holding the gates
+closed show signs of attempted forced entry. Apparently those that are
+within have many enemies, of a bestial nature. 
+~
+0 3145736 0
+D2
+~
+~
+0 -1 4000
+S
+#4002
+The Dark Halls~
+This corridor that runs north from the gates is almost entirely devoid
+of light; only a reddish glow from a series of stones set in the floor
+offer any illumination. Your own light is useless; its glow was snuffed
+the moment you passed into this dark cryptlike place. The air is almost
+unbearably cold, and reeks of death and decay. The fouled air has been
+circulating in this place for thousands of years, and has not been able
+to escape; it is a miracle that it does not kill you. Horrid grotesques
+line the walls, grinning gargoyles depicted hunting helpless humans and
+elves, or feasting on crippled dwarves and gnomes. The floor beneath
+your feet trembles occasionally, as some gargantuan beast far beneath 
+the surface of the earth moves about.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4003
+D2
+~
+~
+0 -1 4001
+S
+#4003
+The Dark Halls~
+Onwards runs the hall, past more gargoyles and murals depicting all manner
+of crimes against various individuals. The scenes are heartening to those
+who follow the path of Iscariot- the depicted events are their history,
+their life's work enshrined for all eternity in stone. Pools of blood form
+at the base of the walls, its source gaping holes in the walls, wounds in
+the stone that have been incorporated into the murals, as the wounds of
+the fallen. The blood is fresh, and carries a sickly sweet smell that is
+almost pleasing.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4020
+D2
+~
+~
+0 -1 4002
+S
+#4004
+Captured in Gloom~
+This hall is captured in gloom; it is impossible to clearly discern what
+may lie ahead, though those used to the halls know what to expect. No
+indication as to the function of the chambers that lie before you is
+apparent; evidently one is expected to know, or to plunge on ahead and
+confront what they may encounter. It is said that demons occasionally
+wander these halls, caution may be well-advised.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4005
+D3
+~
+~
+0 -1 4006
+D8
+~
+~
+0 -1 4020
+S
+#4005
+An Unholy Sanctum~
+A dark chapel, containing a bloodstained altar devoted to the deities
+of darkness and despair, lies here, staffed by the one they call the
+Heretic. The walls bear murals depicting human and animal sacrifice,
+unholy rituals to the gods and other enjoyable perversities, including
+blasphemous parodies of the worship of the gods of light and law. Pools
+of blood coalesce at the base of the walls, their source various gaping
+holes in the walls. Above the altar hangs a grim portrait of a howling
+daemon ravishing the population of a damned village.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 4004
+S
+#4006
+A Dark Library~
+The wealth of knowledge accumulated by the Iscariot is gathered here,
+and watched over by their scholar, the fallen Seeker Cletheral. He is
+willing to impart some of the knowledge gathered here, in the rows of
+dusty shelves laden with dark texts, to those that are willing and
+worthy of it. Though the Iscariot do not prize knowledge like others,
+they do recognize that to further their plans they must become adept
+in all the skills they are capable of.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 4004
+S
+#4007
+Captured in Gloom~
+This hall is captured in gloom; it is impossible to clearly discern what
+may lie ahead, though those used to the halls know what to expect. No
+indication as to the function of the chambers that lie before you is
+apparent; evidently one is expected to know, or to plunge on ahead and
+confront what they may encounter. It is said that demons occasionally
+wander these halls, caution may be well-advised.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4008
+D1
+~
+~
+0 -1 4009
+D9
+~
+~
+0 -1 4020
+S
+#4008
+A Dark Forge~
+A hellish glow suffuses this chamber- its source a glowing forge that
+the smith who toils here uses to both repair existing arms and forge
+new ones. Bound to the service of the order, P'techuweyan will gladly
+mend items broken during dark missions, for a price of course; the
+first lesson an Iscariot must learn is that everything comes with a 
+price. Those who are informed may also obtain items crafted for usage
+by the order from this creature.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 4007
+S
+#4009
+Supplies of Necessities~
+Goods of all types surround you as you enter this dusty chamber; piles
+of moldering scrolls lie next to racks filled with dark potions, that
+bubble ominously as you regard them. Bags and sacks filled with more
+goods, some of which squirm about, lay piled behind a small counter,
+where the keeper of this chamber receives gold for the goods that she
+provides. Only an Iscariot is permitted to handle these goods; to ever
+grant them to a heretic is to invite death and dismemberment, at the
+least.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 4007
+S
+#4010
+Floating in a void~
+~
+0 0 1
+D1
+~
+~
+0 -1 4020
+S
+#4011
+Floating in a void~
+~
+0 0 1
+D3
+~
+~
+0 -1 4020
+S
+#4012
+Captured in Gloom~
+This hall is captured in gloom; it is impossible to clearly discern what
+may lie ahead, though those used to the halls know what to expect. No
+indication as to the function of the chambers that lie before you is
+apparent; evidently one is expected to know, or to plunge on ahead and
+confront what they may encounter. It is said that demons occasionally
+wander these halls, caution may be well-advised.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 4013
+D3
+~
+~
+0 -1 4014
+D6
+~
+~
+0 -1 4020
+S
+#4013
+Chamber of Bounty~
+This chamber contains a chest of obsidian, where members of the order
+may place items to be used by their comrades. The order may not be a
+benign or lawful one, but it recognizes that aiding your fellow order
+members may in fact benefit you in the long run as they become strong
+through these items and can in turn aid you. Wanton stealing from the
+chest, or the taking of items to sell or give to non Iscariot carry
+very heavy penalties; at the least an official outcast and execution.
+~
+0 573440 1
+D0
+~
+~
+0 -1 4012
+S
+#4014
+News of Betrayals~
+Upon these walls are scribed messages to the order by the Iscariot;
+you can always find news of import to the order as a whole posted here.
+Calls to join in battles against the many foes of the order are also
+welcome, as is news of new lands uncovered, or new foes vanquished. It
+should be noted that while the order recognizes the need to acquire new
+equipment to better do battle in, it does not condone or accept trading
+on this wall. Additionally, items of a personal nature, such as your 
+mandatory explanations of betrayals you have committed or are planning 
+to avenge should be posted on one of the other places.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 4012
+S
+#4015
+Captured in Gloom~
+This hall is captured in gloom; it is impossible to clearly discern what
+may lie ahead, though those used to the halls know what to expect. No
+indication as to the function of the chambers that lie before you is
+apparent; evidently one is expected to know, or to plunge on ahead and
+confront what they may encounter. It is said that demons occasionally
+wander these halls, caution may be well-advised.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 4017
+D2
+~
+~
+0 -1 4016
+D7
+~
+~
+0 -1 4020
+S
+#4016
+Debaucherous Halls~
+Even the Iscariot still have the capacity for some enjoyment, and when
+they tire of their crusade against all that is lawful, they come here
+to partake in debaucherous revelry, engaging in nights of unbridled
+passion, endless feasting and bouts of drinking that would shame armies
+of orcs. Several cushions lay scattered about a lowset obsidian table,
+which is always laden with food and wine.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4015
+> speech_prog p i wish to feast~
+mpe A steaming plate of charred flesh appears before you.
+mpoload 4016 1
+drop charred
+~
+> speech_prog p I wish to drink~
+mpe A goblet of blood red wine appears on the slab.
+mpoload 4017 1
+drop wine
+~
+|
+S
+#4017
+Tales of Deceit~
+Those that come to Iscariot because they wish to betray the world they
+feel has betrayed them, and avenge wrongs they feel they have been 
+done by doing the unspeakable- siding with demons and other, various
+foul beasts in order to destroy the world they once loved. This tome
+is where the reasoning behind the actions of the betrayed is explained;
+here they may chronicle the wrongs done to them, and how they mean to
+avenge them. News of new betrayals is also welcome; indeed it is a rule
+that all Iscariot must make regular postings here to keep their fellows
+up to date.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 4015
+S
+#4018
+The Dark Stair~
+This creaking wooden staircase ascends to the upper levels of the ruins,
+where those that lead the order quarter, in their own private offices.
+Most members of the order will normally have little cause to venture up
+here, unless they seek an audience with these individuals. A chill air
+wafts up and down the stair, and shrieks of tortured souls can be heard.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 4019
+D5
+~
+~
+0 -1 4020
+S
+#4019
+The Upper Level~
+A guttering torch lights a narrow passage that runs north here, towards
+a dark junction which branches to the northeast and northwest. A sign
+planted near the stair indicates the location of the leaders' offices to
+the north, as well as the office of the Legion of Betrayers, the select
+few in the order whose task it is to seek out new recruits.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 4021
+D5
+~
+~
+0 -1 4018
+S
+#4020
+Heart of the Lair~
+The hall you were following emerges into a vast, pillared chamber,
+hexagonal in design, boasting dark openings in five of its six sides.
+The sixth bears a mural nearly forty feet high, which depicts a scene
+in glorious exaggeration of the hordes of demons and undead that will
+finally consume the world when those of Iscariot manage to make their
+dark plans come to fruition. Iscariot has betrayed the world they knew
+for a darker, evil world, a world of nightmares, which they one day 
+intend to unleash on the world they have turned their backs on and now
+only wish to see reduced to ruin. Four massive pillars, carved in such
+a way as to resemble grinning demons, support the domed ceiling, which 
+is devoid of decoration. A pentacle fills the center of the chamber, and
+marks the point where Iscariot return from their dark missions.
+~
+0 3145740 0
+D1
+~
+~
+0 -1 4011
+D2
+~
+~
+0 -1 4003
+D3
+~
+~
+0 -1 4010
+D4
+~
+~
+0 -1 4018
+D6
+~
+~
+0 -1 4007
+D7
+~
+~
+0 -1 4004
+D8
+~
+~
+0 -1 4015
+D9
+~
+~
+0 -1 4012
+S
+#4021
+A Dark Junction~
+There is almost no illumination in this section of corridor; even the
+black candles that do burn at sporadic intervals cast little light. It
+is as if this place rejects light itself, as it should; this place is
+the haven of the powers of darkness, and despair. Betrayal and deceit
+could never been seen as good acts, and as such Iscariot have never
+sought to embrace law and goodness; these are the systems that they
+feel betrayed by, and seek to destroy.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 4019
+D6
+~
+~
+0 -1 4024
+D7
+~
+~
+0 -1 4022
+S
+#4022
+An Unholy Sanctum~
+The corridor ends a short distance beyond the intersection, at a gaping
+hole in the wall that opens onto a seemingly endless void, within which
+floats a stone platform, where the Legion of Betrayers meet, to discuss
+the goings on in their order, and to discuss new recruits, whose names
+are cast into discussion and hotly debated. Only those who are truly of
+dark heart and motives may seek solace within Iscariot, where their dark
+plans may one day achieve fruition.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 4023
+D8
+~
+~
+0 -1 4021
+S
+#4023
+The Void~
+The stone platform that floats here contains a bronze lectern, flanked
+by six chairs, for the six of Legion- the leaders, and the three most
+senior members of the Order. None else may enter this place, save for
+the dark gods of Iscariot themselves. To tarry within this place, even
+if you are immortal, without the blessings of the leaders and deity is
+to invite harsh penalties.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 4022
+> entry_prog 100~
+if name($n) == blah
+or name($n) == blah
+or name($n) == blah
+or name($n) == blah
+or name($n) == blah
+or name($n) == blah
+else
+mea $n Only the leaders and High Betrayers may enter this office.
+mpforce $n e
+endif
+~
+|
+S
+#4024
+The Three Portals~
+Here lie three shimmering portals, to the north, east and south; the
+temporal gates to the otherplanar havens of the leaders of Iscariot.
+A demon has been placed by the gods themselves, standing in a field
+of flame, to keep those who are unwanted away from the offices. It
+would be foolish indeed to provoke this mighty and ancient being's
+wrath. The walls, where they are not marred by the portals, are all
+but covered by thick, moldering tapestries that in their decrepitude
+only add to the ambient atmosphere of gloom and decay.
+~
+0 3145736 0
+D9
+~
+~
+0 -1 4021
+> speech_prog p Open my haven to all.~
+if name($n) == alpha
+mpopenpassage 4024 4026 1
+else
+if name($n) == beta
+mpopenpassage 4024 4025 0
+else
+if name($n) == gamma
+mpopenpassage 4024 4027 2
+else
+chuckle
+say Now now, you have no haven here, fledgling betrayer.
+endif
+endif
+endif
+~
+|
+S
+#4025
+First's Room~
+~
+0 0 1
+> speech_prog p I wish to depart~
+mptrans $n 4024
+~
+|
+S
+#4026
+Leader's Room~
+~
+0 0 1
+> speech_prog p I wish to depart~
+mptrans $n 4024
+~
+|
+S
+#4027
+Second's Room~
+~
+0 0 1
+> speech_prog p I wish to depart~
+mptrans $n 4024
+~
+|
+S
+#4028
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4031
+D1
+~
+~
+0 -1 4029
+S
+#4029
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4032
+D1
+~
+~
+0 -1 4030
+D3
+~
+~
+0 -1 4028
+S
+#4030
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4033
+D3
+~
+~
+0 -1 4029
+S
+#4031
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4034
+D1
+~
+~
+0 -1 4032
+D2
+~
+~
+0 -1 4028
+S
+#4032
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4035
+D1
+~
+~
+0 -1 4033
+D2
+~
+~
+0 -1 4029
+D3
+~
+~
+0 -1 4031
+S
+#4033
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4036
+D2
+~
+~
+0 -1 4030
+D3
+~
+~
+0 -1 4032
+S
+#4034
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D1
+~
+~
+0 -1 4035
+D2
+~
+~
+0 -1 4031
+S
+#4035
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D0
+~
+~
+0 -1 4000
+D1
+~
+~
+0 -1 4036
+D2
+~
+~
+0 -1 4032
+D3
+~
+~
+0 -1 4034
+S
+#4036
+A Mist-Shrouded Fen~
+The boggy ground underfoot threatens to suck you under as you struggle
+through it, heading deeper into the tangled mess of vines, decaying
+vegetation and rotting bodies. Howls and shrieks assault you from all
+directions, sending shivers up your spine. What creature could ever be
+at home in such a mire?
+~
+0 3416193 6
+D2
+~
+~
+0 -1 4033
+D3
+~
+~
+0 -1 4035
+S
+#4099
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 1 4001 1 4001
+M 1 4002 1 4005
+M 1 4006 1 4006
+M 1 4003 1 4008
+M 1 4004 1 4009
+G 1 4003 1
+G 1 4004 1
+G 1 4005 1
+G 1 36 1
+G 1 37 1
+G 1 4006 1
+G 1 4007 1
+G 1 4012 1
+G 1 34 1
+G 1 35 1
+O 1 4010 1 4013
+O 1 4013 1 4014
+O 1 4016 1 4016
+O 1 4017 1 4016
+O 1 4015 1 4017
+M 1 4000 1 4020
+O 1 4014 1 4023
+M 1 4007 1 4024
+M 1 4005 1 4099
+G 1 4009 1
+S
+
+
+#SHOPS
+ 4004    0  0  0  0  0   100  90         0 23    ; Metheria
+0
+
+
+#REPAIRS
+ 4002    0  0  0         100   1         0 23    ; De'nas the Heretic
+ 4003    5  9 15          80   1         0 23    ; P'techuweyan
+0
+
+
+#SPECIALS
+M  4001 spec_breath_any
+M  4002 spec_cast_adept
+M  4004 spec_cast_cleric
+S
+
+
+#$

@@ -1,0 +1,1858 @@
+#AREA   Haven of the Seekers~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG A whispering voice fills your head, filling you with awe.~
+
+#FLAGS
+0 25
+
+#ECONOMY 0 51200000
+
+#MOBILES
+#18000
+falston sentinel~
+Falston~
+The sentinel of the Haven stands before the Golden Gate.
+~
+Entrusted by the Seekers with the responsibility of securing their
+single entrance, Falston is a loyal, steadfast and dedicated soldier
+who carries out his many duties unfailingly. No mortal may do battle
+with him and survive, for he has been invested with the power and strength
+to smite them with bit a single blow from his fist. 
+~
+3 373301928 200 C
+55 0 -300 10d10+10000 10d10+1000
+0 0
+8 8 0
+25 13 13 13 25 13 13
+-30 -30 -30 -30 -30
+0 3 0 0 655487 1 5
+0 0 0 0 3153807 0 1008 2621639
+> fight_prog 100~
+say Why would you attack an indestructible entity?
+boggle
+mpslay $n
+mpat $n t $n Fool! 
+~
+> all_greet_prog 100~
+if clan($n) == Seekers
+bow $n
+say Welcome, Seeker, to the Haven of your peers.
+, stands aside and allows you to address the gate.
+else
+mea $n $I stares sternly at you, his gaze warning you to back away.
+endif
+~
+> rand_prog 2~
+stretch
+~
+|
+#18001
+acolyte~
+the Acolyte~
+The Acolyte supervises the function of the glyph.
+~
+It is the task of this youthful looking woman to observe correct and
+proper usage of the glyph, and to ensure the safety and well being of
+new arrivals. She is empowered to deal swiftly and ruthlessly with any
+intruders, and will not hesitate to do so. Her long white robes bear
+numerous runes and sigils, all empowered with defensive magicks.
+~
+3 533160 200 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if clan($n) == Seekers
+smile
+bow
+say Well met, fellow Seeker of Knowledge. May Telsar guide your path.
+c refresh $n
+else
+if isimmort($n)
+bow $n
+say You honor us with your presence, immortal.
+else
+if isnpc($n)
+else
+snarl
+say Intruder! You dare violate this venerated place?
+mea $n $I calls for Falston, who, angered that you slipped past him, reacts!
+mea $n You are hurled outside, to be dealt with without soiling the Haven.
+mptrans $n 18001
+mpat falston mpforce falston say Now you shall PAY for your crimes!
+mpat falston mpforce falston c gas
+endif
+endif
+endif
+~
+> rand_prog 2~
+mpe _whi $I sings the praises of Knowledge and its acquisition.
+c bless
+smile
+~
+> act_prog p appears in the room.~
+if clan($n) == Seekers
+laugh
+say Ho! Welcome home, $n! I trust all is well with you?
+wink
+say I would suggest a visit to the healer and the smith, perhaps...
+chuckle
+ruffle $n
+else
+mea $n A Mysterious force bounces you somewhere else...
+mptrans $n executioner
+endif
+~
+|
+#18002
+latasha healer~
+Latasha~
+Clad in shimmering samite, Latasha stands ready to heal your wounds.
+~
+Latasha is a kindly cleric, a member of the clergy of Dinanya, the
+goddess of healing and birth. Pledged to the Order of Seekers, she
+assists her brothers and sisters with curative skills, and for a small
+donation is willing to cast a small variety of beneficial spells upon
+the faithful.
+~
+3 2106024 400 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p from below.~
+if clan($n) == Seekers
+say Welcome, Seeker, to a place of rest and recovery.
+, gestures to one of the many benches.
+say Sit ye down, rest ye, and allow me to tend your wounds.
+smile
+else
+if isimmort($n)
+say I am humbled by your presence, $n.
+else
+say My magics are not for the likes of you, $n. Begone!
+mpforce $n d
+endif
+endif
+~
+> speech_prog p bless me with your powers~
+t $n I offer the following spells, for the stated donation-
+t $n A Heal spell, for 50,000 gold.
+t $n A Cure Poison spell, for 10,000 gold
+t $n A Cure Blindness spell, for 15,000 gold
+t $n A Remove Curse spell, for 25,000 gold
+t $n A Cure Light Wounds spell, for 5,000 gold
+t $n A Cure Serious Wounds spell, for 10,000 gold
+t $n A Cure Critical Wounds spell, for 20,000 gold
+smile
+say Simple state the name of the spell you wish to receive...
+~
+> speech_prog p heal~
+if goldamt($n) < 50000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 50000 coins latasha
+mpat 18099 drop 50000 coins
+mpat 18099 mppurge
+say As you wish...
+c heal $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p cure poison~
+if goldamt($n) < 10000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 10000 coins latasha
+mpat 18099 drop 10000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure poison' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p cure blindness~
+if goldamt($n) < 15000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n drop 15000 coins
+get coins
+mpat 18099 drop 15000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure blindness' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p remove curse~
+if goldamt($n) < 25000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 25000 coins latasha
+mpat 18099 drop 25000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'remove curse' $n
+smile
+say And so it is done!
+endif
+~
+> rand_prog 10~
+c 'restore mana' $r
+c 'cure critical' $r
+~
+> speech_prog p cure light wounds~
+if goldamt($n) < 5000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 5000 coins latasha
+mpat 18099 drop 5000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure light' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p cure serious~
+if goldamt($n) < 10000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 10000 coins latasha
+mpat 18099 drop 10000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure serious' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p cure serious wounds~
+if goldamt($n) < 10000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 10000 coins latasha
+mpat 18099 drop 10000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure serious' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p cure critical wounds~
+if goldamt($n) < 20000
+say I am truly sorry, but you have insufficient funds...
+comfort $n
+say We do have overheads to meet, you know!
+wink $n
+else
+mea $n You state your request and hand over your gold.
+mpforce $n give 20000 coins latasha
+mpat 18099 drop 20000 coins
+mpat 18099 mppurge
+say As you wish...
+c 'cure critical' $n
+smile
+say And so it is done!
+endif
+~
+> speech_prog p enrich me with your blessings~
+if clan($n) == Seekers
+smile
+say I would be happy to, $n. Bow before me and receive a blessing.
+mpforce $n bow latasha
+nod
+mpe _lbl A faint glow fills the chamber.
+c bless $n
+say May your path be free of travails!
+else
+endif
+~
+> act_prog p has lost his link.~
+say Idle Seekers are not desirable, $n. Loiter elsewhere!
+mptrans $n 18008
+~
+> act_prog p has lost its link.~
+say Idle Seekers are not desirable, $n. Loiter elsewhere!
+mptrans $n 18008
+~
+> act_prog p has lost her link.~
+say Idle Seekers are not desirable, $n. Loiter elsewhere!
+mptrans $n 18008
+~
+|
+#18003
+ravern smith~
+Ra'vern~
+A lean, sinewy gith forges a new blade for the Order.
+~
+Although not a militaristic order by any means, the Seekers nevertheless
+recognize the fact that sooner or later their members will fall afoul of
+one for or another, and will need to be adequately prepared for such a
+happenstance. To this end, they have provided a smith, Ra'vern, to tend
+to the equipment damaged during such unfortunate but unavoidable skirmishes.
+~
+3 2097704 200 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 0 0 0 524289 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if clan($n) != Seekers
+snort
+say I will not, indeed I flat out refuse, to touch your items, $n.
+, folds his arms and stares at you defiantly.
+else
+chuckle
+say I see you have been in the wars again, $n.
+, tsks.
+say Will you ever learn? Well I hope not, how else would I make a living?
+smirk
+endif
+~
+|
+#18004
+soneramist~
+Soneramist~
+An elf clad in the robes of a mage arranges a rack of scrolls.
+~
+A cocky, overconfident mage, Soneramist has been confined by the Order
+to the task of vending items of use to members of the Order, as he has
+proved on many occasions that he cannot be trusted not to get himself
+in serious trouble and need bailing out by the rest of the Order.
+~
+3 552 0 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 3 1 0
+0 0 0 0 0 0 0 0
+> act_prog p from the west.~
+smile
+if clan($n) != Seekers
+say I'm sorry, $n, but I cannot sell anything to you. Much as I
+say am always eager to make a profit, it is prohibited by the
+say management.
+frown
+else
+say Welcome, $n. Had a hard day? Fresh out of supplies? Well!
+, rubs his long hands together gleefully.
+say You certainly have come to the right place, as you know!
+wink
+say If the item is needed, I'll have it here somewhere!
+endif
+~
+> speech_prog p tell me of the three relics~
+say The three relics are the holy objects of the Seekers, granted
+say us by the Gods in their wisdom.
+, gazes upwards, a slightly condescending pious look on his face.
+say The first is the gift of Visions of Knowledge.
+say Any Seeker may quest for this enlightenment, and if worthy
+say will be granted it.
+nod
+say The second is the Orb of the Prophets, which may only be
+say borne by the noblest and wisest of our Order. The person who
+say is so blessed must protect this unique item with their life,
+say and uphold the standards of the order, or forfeit their gift.
+hmm
+say The third is the Mantle of Telsar, most honored of the Seekers.
+say It is passed from leader to leader, to be worn while you hold
+say office. No other may touch this item, ever.
+say That's the three.
+~
+|
+#18005
+gibron~
+Gibron~
+An ancient Dwarven priest, wise beyond measure, sits reading a thick tome.
+~
+Gibron has taught members of the Order in the ways of magic and war
+for more centuries than even he can remember. He asks no payment for his
+service; all he does he does for the love of the Order.
+~
+1027 552 440 C
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 5 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if clan($n) == Seekers
+chuckle
+say Welcome, young one. Come, and learn from my experiences.
+mpe $I rises to his feet and prepares to train you.
+else
+endif
+~
+> act_prog p grovels in the dirt before you.~
+nod
+say 'Tis wise to acknowledge my superiority, $n.
+pat $n
+~
+|
+#18006
+master chef zebronski~
+Master Chef Zebronski~
+A smiling, wide faced man clad in a dazzling white apron moves to help you.
+~
+A former battle mage, Zebronski discovered a love of cooking almost
+by accident after an encounter that he refuses to elaborate on, simply
+responding to all interrogatives with a sly grin and a wink. He is now
+considered one of the finest chefs in the world, and can whip up a
+culinary masterpiece in seconds.
+~
+3 552 200 C
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 663615 1 0
+0 0 0 0 1051648 0 0 0
+> greet_prog 100~
+smile
+bow $n
+say Greetings, greetings, most loyal customer!
+, bounds over and, grabbing your hand, pumps it enthusiastically.
+say It is always good to see you, $n! Now, what can I fetch you?
+, bounds back to his preparation area, and awaits your decision.
+~
+> rand_prog 2~
+, runs his finger around a bowl of cake mix and sucks it thoughtfully.
+if rand(30)
+whistle
+else 
+if rand(40)
+mmm
+say Delicious!
+else
+spit
+say Eeeyugh! Troll shit is tasting better than that, eh?
+sigh
+endif
+endif
+~
+> rand_prog 2~
+, beats briskly at a bowl of cake mix.
+~
+> speech_prog p a slice of baked cheesecake~
+say Sweet tooth eh? Well, one piece, coming right up!
+, disappears behind a large white cabinet, and returns with a massive slice!
+mpoload 18024 1
+give slice $n
+say Enjoy!
+wink
+~
+> speech_prog p a rack of lamb~
+say An excellent choice, $n, if I do say so myself!
+smile
+say But then, ALL of my dishes are excellent!
+chuckle
+, reaches into one of the cooking devices, and withdraws the rack.
+mpoload 18025 1
+give rack $n
+say Ta dah!
+~
+> speech_prog p sweet and sour pork~
+say Ah, a dish from the Orient takes your fancy!
+nod
+say One of my personal favorites too, but then I love ALL the food
+say that I create!
+mpoload 18026 1
+, with a flourish, $I brings forth the pork.
+give sweet $n
+lick
+~
+> speech_prog p fettucine cabonara~
+say Yes, an elegant combination, bound to arouse the taste buds.
+say I used to do it marinara too, until that unfortunate poison
+say seafood business...
+hmm
+shrug
+say He lived. Here it is!
+mpoload 18027 1
+give fettucine $n
+say Eat well, $n!
+~
+> speech_prog p a fresh garden salad~
+blink
+say That's it? A light meal indeed, for one with such a hearty appetite!
+chuckle
+mpoload 18028 1
+give salad $n
+~
+> rand_prog 5~
+, picks up a broom and quickly sweeps away the mess on the floor.
+mppurge
+smile
+~
+> speech_prog p menu~
+say Menu? Ah yes of course!
+, slaps himself on the forehead.
+mpoload 18029
+give menu $n
+say Here you go, $n! Let me know what you would like.
+~
+> act_prog drops~
+say Don't you be making a mess on my kitchen floor, eh?
+mutter
+~
+|
+#18007
+goat~
+a mountain goat~
+A sturdy, sinewy goat with coarse brown hair snorts at you.
+~
+Indigenous to this region, these goats subsist on vegetation that 
+wouldn't support an animal a third of its size, due to their unique
+scavenging ability, and their curious metabolism.
+~
+3 512 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 68224573 0 0 0 640 2
+#0
+
+
+#OBJECTS
+#18000
+the golden gate~
+the Golden Gate~
+A towering portal of Gold inlaid with runes bars the entrance.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> speech_prog p I seek knowledge~
+if clan($n) == Seekers
+mea $n The Golden Gate slowly swings forward, and you are drawn through.
+mpechoar $n The Golden Gate slowly swings forward, and $n is drawn through.
+mptrans $n 18002
+mpe The Golden Gate swings silently shut behind $n, and Falston nods.
+mpat $n mea $n The Golden Gate swings silently shut behind you.
+else
+mea $n A violent trembling begins in you, and you fall to the ground.
+mptrans $n executioner
+endif
+~
+|
+#18001
+glyph return~
+the Glyph of Return~
+A brightly glowing blue rune has been carved into the floor.~
+~
+12 65 0
+0 0 0 0
+1 0 0
+#18002
+orb prophets~
+the Orb of the Prophets~
+A brightly glowing sphere of green metal rolls about on the floor.~
+~
+9 11108418 16385
+0 0 0 0
+10 0 0
+A
+26 40
+A
+12 120
+A
+13 120
+A
+18 8
+A
+19 8
+> wear_prog 100~
+if clan($n) == Seekers
+mea $n As you clasp the orb, your mind is flooded with wisdom.
+c sagacity $n
+c 'dragon wit' $n
+else
+mea $n This orb may only be borne by a Seeker of Knowledge!
+mea $n A beam of energy shoots forth from the orb, smiting you!
+mpdamage $n 800
+mpforce $n remove prophets
+mpforce $n drop prophets
+mpforce $n sac prophets
+endif
+~
+|
+#18003
+mantle telsar~
+Mantle of Telsar~
+A brilliant mantle of white cloth floats in mid air.~
+~
+9 10584385 9
+66 0 0 0
+5 0 0
+A
+4 3
+A
+5 3
+A
+17 -40
+A
+13 100
+A
+12 100
+A
+18 8
+A
+19 8
+A
+23 -3
+A
+24 -3
+A
+21 -3
+A
+20 -3
+A
+22 -3
+A
+26 144
+> wear_prog 100~
+if clan($n) == Seekers
+mea $n A shroud of protective magic engulfs you as you don the mantle.
+mea $n You rejoice in this, the confirmation of your office.
+else
+mea $n Only the Head of the Order of Seekers may wear this mantle!
+shout $n the unworthy seeks to wear me!
+mpforce $n remove mantle
+mpforce $n drop mantle
+mpslay $n
+endif
+~
+> get_prog 100~
+if clan($n) == Seekers
+else
+mea $n Only a high ranking member of the Order of Seekers may touch this!
+mpforce $n drop mantle
+endif
+~
+> sac_prog 100~
+mpoload 18003 50
+~
+|
+#18004
+visions knowledge~
+Visions of Knowledge~
+A wavy, indistinct halo of white energy hovers here.~
+~
+9 10584129 131073
+10 0 0 0
+5 0 0
+A
+17 -10
+A
+13 50
+A
+12 50
+A
+18 3
+A
+19 3
+A
+26 16777256
+> wear_prog 100~
+if clan($n) == Seekers
+mea $n You open your eyes to the Visions granted you by your Order.
+mpechoar $n $n smiles as $e is granted the Visions by her Order.
+else
+mea $n You are too ignorant to comprehend the Visions.
+mpforce $n remove visions
+mpforce $n drop visions
+mpforce $n sac visions
+endif
+~
+|
+#18005
+altar elders~
+the Altar of the Elders~
+A long, low stone altar shrouded in silken cloth rests here.~
+~
+15 2097216 0
+100000 13 18006 0
+1 0 0
+E
+altar~
+This sacred altar is actually a coffer used to store items of great
+value, guarded by a keeper appointed from within the Order by the
+leaders. Within, the Order keeps items to be distributed as they see fit
+amongst the members of the Order for outstanding service.
+~
+#18006
+key elders~
+the Key of the Elders~
+A burnished metal key has been dropped by a high ranking Seeker.~
+~
+9 2621440 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if clan($n) != Seekers
+mea $n Only a member of the Order of Seekers may hold this.
+mpforce $n drop elders
+mpforce $n sac elders
+else
+endif
+~
+|
+#18007
+coffer seekers~
+Coffer of the Seekers~
+This metal coffer contains items for use by the Order.~
+~
+15 2621504 0
+100000 0 -1 0
+1 0 0
+#18008
+tome seekers~
+the Tome of the Seekers~
+A mystic tome, graven with glowing runes, rests on a brass lectern.~
+~
+12 2621440 0
+0 0 0 0
+1 0 0
+#18009
+tome elders~
+the Tome of the Elders~
+This ancient text contains writings legible only to the Elders of the Order.~
+~
+12 2621440 0
+0 0 0 0
+1 0 0
+#18010
+elixir restoration~
+Elixir of Restoration~
+This potion heals the wounds of the Seekers when quaffed.~
+~
+10 2097217 1
+33 -1 -1 28
+1 50000 5000
+#18011
+phial mana~
+a Phial of Mana~
+This vial is filled with a clear liquid that restores mana to the Seekers.~
+~
+10 2097217 1
+40 -1 84 84
+1 15000 1500
+#18012
+philter visions~
+Philter of Visions~
+When quaffed by a Seeker, this philter grants supernormal vision.~
+~
+10 2097217 1
+40 19 44 -1
+1 1200 120
+#18013
+elven bread~
+Elven Bread~
+A loaf of wafers made from magical products lies here.~
+~
+19 2097216 1
+24 0 0 0
+1 50 5
+#18014
+carafe sparkling wine~
+a Carafe of Sparkling Wine~
+A carafe filled to the brim with refreshing spring wine lies here.~
+~
+13 64 1
+5 5 5 0
+1 76 7
+E
+carafe~
+This wine, no matter how much is drunk, will never render the drinker
+intoxicated, merely refreshed.
+~
+#18015
+circlet clarity~
+Circlet of Clarity~
+A Seeker has dropped his magical headband here.~
+~
+9 2621506 17
+0 0 0 0
+1 28500 2850
+A
+4 2
+A
+3 2
+A
+12 50
+A
+13 20
+A
+18 2
+A
+19 2
+> wear_prog 100~
+if clan($n) != Seekers
+mea $n You cannot wear an item made for a Seeker!
+mpforce $n remove circlet
+mpforce $n drop circlet
+mpforce $n sac circlet
+else
+endif
+~
+|
+#18016
+pouch seekers~
+A Pouch of the Seekers~
+A magical pouch has been dropped by a Seeker.~
+~
+15 2097216 1
+500 5 -1 0
+20 22500 2250
+> get_prog 100~
+if clan($n) != Seekers
+mea $n As you grasp the pouch, an alarm is activated!
+yell $n is trying to pilfer Seeker property!
+mpforce $n drop pouch
+mpforce $n blush
+else
+endif
+~
+> exa_prog 100~
+mea $n You realize that due to the magical enchantments placed upon it,
+mea $n That only a Seeker may own this item.
+~
+|
+#18017
+bubbling cistern~
+a bubbling cistern~
+A cistern bubbles with fresh water.~
+~
+25 1 0
+0 0 0 0
+1 0 0
+#18018
+wooden bench~
+a wooden bench~
+A wooden bench rests near the north wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#18019
+fountain~
+the fountain~
+A statue of Telsar stands in the center of a marble fountain.~
+~
+25 1 0
+0 0 0 0
+1 0 0
+#18020
+well~
+a well~
+A small well bubbles with fresh spring water.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#18021
+brazier fire~
+a burning brazier~
+A small fire burns brightly in a bronze brazier.~
+~
+34 64 0
+0 0 0 0
+10 10 1
+#18022
+legacy tapestry life~
+the Tapestry of Life~
+A richly embroidered tapestry hangs from the ceiling.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#18023
+basin fountain~
+a small fountain~
+A small basin of water sits in the center of the room.~
+~
+25 1 0
+0 0 0 0
+1 0 0
+#18024
+slice baked cheesecake~
+a slice of baked cheesecake~
+A slice of baked cheesecake tempts you.~
+~
+19 0 1
+4 0 0 0
+1 0 0
+#18025
+rack lamb~
+a rack of lamb~
+A rack of lamb, freshly cooked, looks delicious!~
+~
+19 0 1
+8 0 0 0
+1 0 0
+#18026
+sweet sour pork~
+sweet and sour pork~
+A delicious meal of sweet and sour pork certainly looks inviting!~
+~
+19 0 1
+8 0 0 0
+1 0 0
+#18027
+fettucine cabonara~
+fettucine cabonara~
+A bowl of pasta, freshly prepared, smells delicious.~
+~
+19 0 1
+8 0 0 0
+1 0 0
+#18028
+fresh garden salad~
+a fresh garden salad~
+A fresh garden salad sits on the table.~
+~
+19 0 1
+3 0 0 0
+1 0 0
+#18029
+menu~
+Master Chef Zebronski's menu~
+Master Chef Zebronski's list of Specials of the Day lies here.~
+~
+13 2097152 16385
+0 0 0 0
+1 0 0
+E
+menu~
+These are the specials offered by the Master Chef (that's me) today!
+ 
+A slice of baked cheesecake
+A rack of lamb
+Sweet and Sour Pork
+Fettucine Cabonara
+Fresh Garden Salad
+ 
+Enjoy!
+ 
+- Z
+~
+#18030
+blazing fireplace~
+a blazing fire~
+A fire blazes in the hearth.~
+~
+34 64 0
+0 0 0 0
+10 10 1
+#0
+
+
+#ROOMS
+#18000
+Haven of the Seekers~
+Before you rise the shining spires of the Haven of the Seekers, a
+remote fortress nestled in the peaks of the Westhills. With its walls
+of gleaming mithril and its intricately fashioned stained glass windows,
+it is truly an object of wonder and beauty. Pilgrims used to come from 
+all around to gaze upon its magnificence, but since the recent incursions
+of Chaos its doors have remained closed to all save its members, a highly
+dedicated select order of spellcasters and sages, all united in their desire
+to obtain further knowledge, of the world and its inhabitants, and to provide
+support for their fellow spellusers, a beleagured minority in these times.
+To the north lies the golden gate, grand entrance to the Haven.
+ 
+This lookout point is often used by Seekers as a place to meet with
+non-members of the Order, and many times groups of adventurers will be
+seen congregating here.
+~
+0 0 5
+D0
+~
+~
+0 -1 18001
+D5
+~
+~
+128 -1 18038
+S
+#18001
+The Golden Gate~
+Before you, set into the inpenetrable marble walls of the fortress, is
+a massive gate, forged of gold imbued with supernatural energy which
+renders it indestructible. Crafted by a god, only similar could breach it.
+Seekers, and Seekers only, are permitted to pass by use of a special password,
+which transports them through the gates and into the foyer of the Haven. All
+others who attempt to enter may find themselves in less pleasing surrounds...
+Far above, lightning crackles about one of the spires, evidence of magical
+experiments taking place, or perhaps the arrival of an immortal or similar 
+being seeking to witness the goings-on within these hallowed halls. The Gate
+bears an inscription, written in all the known tongues of the Empire. It reads-
+"Great is Knowledge, and Mighty Above all Things".
+~
+0 3145728 1
+D2
+~
+~
+0 -1 18000
+S
+#18002
+The Foyer of the Haven~
+No matter how many times a Seeker enter their Haven, the vista that
+greets them as they do never ceases to take their breath away. Massive
+marble columns swathed in thick tendrils of ever blooming vines line
+the marble hall, the floor of which is polished so perfectly that you
+can see a clear reflection of yourself as you proceed. The towering
+pillars support a high arched ceiling, over eighty feet high, which is
+covered in richly colored murals depicting the founding of the Haven by
+the gods of knowledge and learning, and the arrival of Telsar, first of the
+Seekers in this holy place. Thick tapestries, woven from magical thread
+by the Elves of Malathar, cover the walls, each of them bearing representations
+of life, time, nature and the elements. The figures and places within them 
+appear to be in a state of constant flux, as if they were living, breathing
+material things, and not just an artistic representation. To the north the
+Foyer meets the Halls of the Hallowed, which runs into the center of the
+Haven. Truly there cannot be a more impressive structure in the world.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18003
+S
+#18003
+The Halls of the Hallowed~
+Named for the marble statues of the most respected men and women of
+learning in the history of the Empire, this colonnaded hall stretches
+north towards the Glyph of Return, and south to the magnificent Foyer
+of the Haven. Each statue is an incredibly lifelike depiction of those
+most respected individuals of the Seekers, who have over the centuries
+contributed most to the accumulation of knowledge and the discovery of
+new magics and enchantments. Many of them are instantly familiar even to
+the layman, while others are from an earlier period, the history of which
+has been lost to most save those in the Order.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18004
+D2
+~
+~
+0 -1 18002
+S
+#18004
+The Glyph of Return~
+Engraved on the floor of this large chamber is a glowing rune, carved
+into the rock by magical crystal which has left a glowing powdery residue
+that causes the rune to glow with a bluish hue. By uttering the ancient
+incantations of return known to all competent spellcasters, members of the
+Order are drawn by this glyph to this chamber, a place of safety where they
+can be certain of protection from outside forces. Passages run east and west
+into other parts of the Haven, while the Halls of the Hallowed continue north
+and south.
+~
+0 3154952 0
+D0
+~
+~
+0 -1 18007
+D1
+~
+~
+0 -1 18006
+D2
+~
+~
+0 -1 18003
+D3
+~
+~
+0 -1 18005
+D4
+~
+~
+0 -1 18010
+S
+#18005
+Hall of Destiny~
+The walls here are of polished stone, and heavily decorated with
+elaborate murals, depicting Seekers through the ages pursuing true
+enlightenment through knowledge and combatting ignorance in all its varied
+and insidious forms. Ignorance is perhaps one of the worst enemies one can
+face; especially in a world fraught with constant peril, both mundane
+and supernatural in origin. All Seekers are expected to combat ignorance
+and misinformation, and to spread the joy of learning and expanding one's
+skills and abilities to their fullest extent.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18004
+D3
+~
+~
+0 -1 18028
+S
+#18006
+Chambers of Commerce~
+This narrow hallway leads into the rooms set aside for members of the
+Order to purchase goods and services necessary to their quests to 
+increase their knowledge and magical power. While such services do
+involve fees, the money that is gathered by these merchants is used to
+further the Order, most notably in the addition of new structures and
+services. The Seekers have also never claimed to be a non profit 
+organization...
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18023
+D3
+~
+~
+0 -1 18004
+S
+#18007
+The Halls of the Hallowed~
+Tapestries depicting the greatest finds in the history of the Seekers
+decorate the walls here, ranging from the discovery of magic by the
+earliest Seekers of magic, up to the development of advanced alchemical
+formulae and complex magical rituals. Each has been lovingly and carefully
+crafted from the finest cloth, and - due to either an innate enchantment or
+clever weaving- the people in each tapestry appear to be moving and talking,
+albeit no sound escapes their lips. On the ceiling, you see that transparent
+metals forged by magical means have replaced the stone, allowing you to
+see outside, as if on a clear summer's day.
+~
+0 3145728 2
+D0
+~
+~
+0 -1 18008
+D2
+~
+~
+0 -1 18004
+S
+#18008
+The Arboretum~
+Here the Hall enters a wide chamber filled with lush foilage, plants of
+the greenest hue lining the walls, placed in neaty maintained beds of
+fresh loam. The transparent ceiling affords them a great deal of sunlight,
+and magical enchantments provide them with fresh clean water every second
+day. Even a Druid from the Westwoods would be envious of the quality of
+these plants. To the north, a short flight of steps leads up to a place
+of rest and recuperation, tended by the kindly clerics of the Order.
+~
+0 3145732 3
+D2
+~
+~
+0 -1 18007
+D4
+~
+~
+0 -1 18009
+S
+#18009
+The Sanctum of Rejuvenation~
+The stairs end in a small circular chamber, the center of which is dominated
+by a small statue placed in the middle of a fountain that bubbles with
+fresh spring water. Benches surround this fountain on all sides, allowing
+those who are tired or injured to rest and be tended to by Latasha, the
+healer of the Order. Doric columns support the domed roof, which is decorated
+with a richly colored mural that depicts the gods delivering blessings and
+healings upon the populace.
+~
+0 3179532 0
+D5
+~
+~
+0 -1 18008
+S
+#18010
+The Glowing Stair~
+This broad marble staircase ascends to the second level of the head-
+quarters, where you can find the note boards, the donations room, the
+dining area and the offices of the leaders. Only Seekers may ever pass
+this way; if intruders somehow managed to penetrate thus far, they'd
+receive little warmth from the Seekers if caught upstairs; the punishments
+are said to be severe.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 18011
+D5
+~
+~
+0 -1 18004
+S
+#18011
+Annex of the Second Tier~
+The stair ends in a large stone chamber, ornately decorated and furnished
+with shelving stacked with books covering a variety of subjects. Statues
+of famed scholars, Seekers all, line the walls, some of them holding aloft
+glowing balls of energy that serve as the primary source of illumination
+here. A sense of awe comes over you as you stand in this hallowed hall
+of learning and lore. Passages extend to the north, east and west, into
+different sections of the sanctum, containing the upper echelons of
+the Seekers, as well as equipment donations and communications areas.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18015
+D1
+~
+~
+0 -1 18020
+D2
+~
+~
+0 -1 18031
+D3
+~
+~
+0 -1 18012
+D5
+~
+~
+0 -1 18010
+S
+#18012
+Hall of Philanthropism~
+The walls of this narrow stone corridor bear images of Seekers of all
+races and ages delivering knowledge to the masses, whose faces are a
+rapture of joy upon the bequethal of this precious gift. Also depicted
+are Seekers exchanging items with each other, to further their quests
+for knowledge and magic, and the bestowing of special gifts upon the
+worthy members of the order by the Gods themselves. A bright light
+shines in from the west, the glow of magical materials in abundance.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18011
+D3
+~
+~
+0 -1 18013
+S
+#18013
+Chamber of the Philanthropist~
+It is here that the Seekers leave items that they feel may be of use
+to their fellow members, items that they no longer need but have in
+their genorosity left for others to avail themselves of. While any
+member is free to take items from the coffer, it is assumed that they
+will repay in kind, either at the time or at a later date, by adding
+something of similar value themselves. The order is a lawful one, but
+is not a charity; members of the order who steal items from the coffer
+to sell on the common market or to give to non-members often find themselves
+outcast from the order, as do those wags that foolishly fill the coffer
+with useless junk. The gods themselves are said to keep an eye on this
+room.
+~
+0 3719176 0
+D1
+~
+~
+0 -1 18012
+D2
+~
+~
+8389671 18006 18014
+S
+#18014
+Chamber of Relics~
+Only the highest ranking members of the Seekers, and those they allow
+to accompany them, may enter this chamber. Here, items of special power
+or uniqueness are gathered and stored by the Order, to be distributed
+amongst the members as the leaders see fit. Uusually the result of 
+successful expeditions by the Seekers, these items are awarded to those
+who have contributed to the order, in any form, and have thus deserved
+a token of gratitude. Only the Keeper of the Relic can open the chest,
+with the key granted him by the gods.
+~
+0 3719176 0
+D0
+~
+~
+8389671 18006 18013
+S
+#18015
+Hall of Authority~
+This north-south passage leads north to the chambers of the Order's
+leaders, those three elected by the members of the Order to lead them
+in their quest for knowledge, magical power and experience. The walls
+bear depictions of leaders past and present, leading their peers against
+dark magical threats, or on quests to find rare and exciting treasures.
+The roof is covered with an intricately woven tapestry, often referred to
+as the Tapestry of Life, wherein all the tales of the leaders are woven,
+to be observed by future generations, a legacy left for their descendants.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18016
+D2
+~
+~
+0 -1 18011
+S
+#18016
+Offices of the Prime Seekers~
+The chamber off of which the offices of the Prime Seekers depend is
+surprisingly bare, containing only the three doors, and a small fountain,
+next to which a golden plaque has been placed. A dim glow pervades the air,
+its source a glowing sphere set in the high domed ceiling of the chamber,
+which is circular in shape and reminds you of an observatory more than an
+office. Peering upwards, you realize that the roof is cunningly designed
+to resemble the night sky, with the sphere representing the sun, as it would
+look set in a starry field instead of through the atmosphere of the planet.
+~
+0 3145736 0
+D0
+~
+~
+3 -1 18019
+D1
+~
+~
+3 -1 18018
+D2
+~
+~
+0 -1 18015
+D3
+~
+~
+3 -1 18017
+> speech_prog p I seek the wisdom of the elders~
+if name($n) == Yaegar
+or name($n) == Garth
+or name($n) == Stencil
+mptrans $n 18022
+else
+endif
+~
+|
+S
+#18017
+Chambers of the First~
+~
+0 3145736 0
+D1
+~
+~
+3 -1 18016
+S
+#18018
+Chambers of the Second~
+~
+0 3145736 0
+D3
+~
+~
+3 -1 18016
+S
+#18019
+Office of the Leader~
+~
+0 3145736 0
+D2
+~
+~
+3 -1 18016
+S
+#18020
+Hall of Communication~
+Knowledge cannot be learned, or shared, without some form of verbal
+or written communication, and thus the Seekers hold such forms of
+transmitting of knowledge in high regard. This Hall leads to the
+chambers where the Seekers communicate with each other, waxing verbose
+on a wide variety of subjects, as the Seekers are wont to do. The
+art here is what you would expect, depicting raconteurs, lecturers
+and other speakers engaging in rhetoric.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18021
+D3
+~
+~
+0 -1 18011
+S
+#18021
+Annals of Lore~
+The Seekers are a highly communicative order, but the nature of their
+quests for knowledge and magical power often means that they are
+seperated from each other for extended periods of time. Thus they have
+established a medium by which they can keep abreast of each other's doings,
+in the form of the mystic tome, within which they can scribble anything that
+they want their peers to know, and get a response when they return. It is
+here that the leaders announce policy to the order, to ensure all read it,
+and where important issues such as elections, quests and runs are announced.
+Sometimes even the Gods themselves send short missives to their worshippers
+in the order via this tome.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 18020
+S
+#18022
+Chamber of the Elders~
+Only the leaders of the Seekers may enter this hallowed and ancient
+chamber, which is inaccessible by normal means. Here the leaders can
+converse with each other, and the Gods can pass messages to the order
+through the ancient texts. 
+~
+0 3145740 0
+S
+#18023
+A Junction ~
+Passages run north and south to the two principal suppliers of goods
+and services in the Haven. The walls here depict members availing 
+themselves of these services, in the form of potions, weapons, repairs
+scrolls and other items of use to scholars who seek to travel in the
+dangerous world outside the Haven. The floor here is stone, not marble,
+and shows signs of heavy wear, as this is where most members of the Order
+tend to converge in between expeditions.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18024
+D2
+~
+~
+0 -1 18026
+D3
+~
+~
+0 -1 18006
+S
+#18024
+The Forge of the Seekers~
+A wave of heat hits you as you enter this chamber, its source a well-
+stocked blacksmith's workshop to the east. The walls here are lined with
+weapons and armor in various states of (dis)repair, either awaiting repair
+or pick up by their owners. Adventuring members of the Order have their
+needs met almost immediately, as the Order recognizes the urgency of such
+needs, and the desire for members in need of equipment repair to quickly
+return to their quests.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18025
+D2
+~
+~
+0 -1 18023
+S
+#18025
+The Anvil of Ra'vern~
+A brightly glowing adamantium anvil fills most of this sweltering
+chamber, heated by the roaring blaze in the stone and metal forge, set
+in the east wall. The heat is almost as unbearable as the noise; the
+immensely strong smith smashes his hammer down with incredible force as
+he hammers the dents from a battered breastplate, while he waits for
+a newly forged blade to cool. He will be happy to repair your equipment,
+but will not sell any of his own creations; these are made for special
+members only.
+~
+0 3146760 0
+D3
+~
+~
+0 -1 18024
+S
+#18026
+The Store of the Seekers~
+Walking down the southern passage, you pass into a shop, positively
+packed with all sorts of items that a Seeker would be likely to need,
+and many which they wouldn't. Scrolls, flasks, beakers, pouches, ropes,
+elixirs, vials and powders make up but a portion of what is available
+in the warehouse-sized place. The counter where purchases are counted 
+and charged for lies at the back of the shop, to the east.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18023
+D1
+~
+~
+0 -1 18027
+S
+#18027
+Supplies of the Seekers~
+At the far end of the store, half-buried under a pile of goods awaiting
+pricing, is Soneramist, the clever but cocky storekeeper for the Seekers.
+Overconfident, and a trifle greedy, he is nevertheless still loyal to his
+order, and will charge (reasonably) fair prices for his stock, which is
+guaranteed to never be depleted.
+~
+0 3146760 0
+D3
+~
+~
+0 -1 18026
+S
+#18028
+Hall of Learning~
+The walls here are crammed with bookshelves, straining under the 
+combined weight of an innumerable number of tomes, ledgers, librams,
+manuscripts and grimoires. Collected by the Seekers over the centuries,
+they contain a wealth of information about the world and its many
+types of inhabitants. Geography, history, politics and other subjects
+are all covered; name the subject and you would doubtless find a text
+here discussing or explaining it.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18005
+D3
+~
+~
+0 -1 18029
+S
+#18029
+The Laboratory of Learning~
+The far end of the Hall of Learning contains a series of rooms and
+labs, where Seekers may come to study, learn and experiment. More
+books and tomes line the walls here, as well as portraits of famed
+scholars and sages, not all of them Seekers; many were granted an
+honorary membership during or after their lifetimes though. To the
+west you can see the largest laboratory, where mages and clerics 
+busy themselves preparing magical items.
+~
+0 3146760 0
+D1
+~
+~
+0 -1 18028
+D3
+~
+~
+0 -1 18030
+S
+#18030
+Lab of the Seekers~
+A large laboratory lies here, the size of a large stables or school
+house. But the vast majority of the space is taken up by tables and
+benches laden with all manner of devices, from alembics and beakers
+to funnels and burners, each serving a vital role in the various
+experiments undertaken here. It is so cramped that not more than 2 or
+3 people could possibly work in here at the same time, for fear of
+bumping into each other and ruining days of work.
+~
+0 3211272 0 0 0 3
+D1
+~
+~
+0 -1 18029
+S
+#18031
+Hall of Recreation~
+Even scholars and magicians need sometimes to rest and partake of a meal,
+and in this section of the sanctum provision is made for those needs.
+Originally most of the members of the order would subsist on magical food
+and drink when in need, but in these times the Seekers have realized it is
+best to strike a balance between labor and rest, and have created a rather
+elaborate series of chambers for rest and relaxation, as depicted on the
+walls here, which bear images of Seekers sleeping, meditating and feasting.
+Such a turnaround has resulted in the Seekers gaining a legendary reputation
+for the culinary delights their chefs invoke.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 18011
+D2
+~
+~
+0 -1 18032
+S
+#18032
+Kitchen of the Magician~
+This broad chamber is filled with a large single table, lined with
+enough chairs to seat the entire order, and then some. Behind this table
+lies what is generally regarded as the finest kitchen in all of Brythunia.
+Pots, pans and kettles bubble over a stone of truly immense proportions,
+magically woven steel invoked by the master chef, who is a Seeker of
+considerable power and talent that has devoted his time to creating culinary
+delights for the enjoyment of the order, free of charge. Open doorways
+to the east and west lead into private lounges where offduty Seekers may
+rest and relax, and share tobacco and tales.
+~
+0 3146760 0
+D0
+~
+~
+0 -1 18031
+D1
+~
+~
+0 -1 18034
+D3
+~
+~
+0 -1 18033
+S
+#18033
+The Lounge of Science~
+This wing of the relaxation area contains several comfortable chairs,
+a row of shelves crammed with scientific journals, and a map of the
+Cosmos, the latest made by the Order's astronomers. A low table lies
+between the chairs, used to keep the latest issues, but more often
+used by those who relax here as a footrest.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 18032
+S
+#18034
+The Lounge of the Clergy~
+The long standing disagreements between scientific and religious
+authorities is legendary, and due to unfortunate incidents in the past,
+the Order has wisely voted to establish two seperate lounges, where
+proponents of the two camps can rest and wax lyrical on their beliefs,
+free from derisive comments by the other. Of course this rarely works
+in practice; frequently a mage will "accidentally" wander into this
+lounge and overhear something he finds ludicrous, and snaps back, which
+initiates a flame war (mages, fireballs, clerics, flamestrikes, the
+term should be obvious).
+~
+0 3145736 0
+D3
+~
+~
+0 -1 18032
+S
+#18035
+A Windy Trail~
+This narrow trail winds around one of the taller hills in the range,
+a small mountain almost, that soars above you. A stiff breeze chills
+you, even through your thick clothing, and you draw your cloak more
+tightly around yourself as you press onwards. It is rumored that the
+Haven of the Seekers is located somewhere in the Westhills; perhaps
+you might get a chance to see it?
+~
+0 0 5
+D7
+~
+~
+0 -1 18036
+S
+#18036
+A Steep Climb~
+The trail ends here, at the base of a short cliff face, atop which you
+think you can see another trail, though from this angle you cannot be
+sure. The cliff is overgrown with thick grass, and large granite
+protuberences at regular intervals would make this a possible, if 
+exhausting climb. The wind howls eerily around the bend in the trail,
+sending shivers up and down your spine.
+~
+0 0 5
+D4
+~
+~
+128 -1 18037
+D8
+~
+~
+0 -1 18035
+S
+#18037
+Approaching the Summit~
+Although short, the cliff is quite difficult to climb, as you find
+after a few movements which cause large clumps of rock and dirt to
+break away from the cliff face and plummet downwards. More than once
+the lack of strong hand and footholds, combined with the whipping
+wind, threatens to send you falling back to the rocky hillside path
+below.
+~
+0 0 5
+D4
+~
+~
+0 -1 18038
+D5
+~
+~
+128 -1 18036
+S
+#18038
+Another Path~
+As you near the summit, your suspicions are confirmed- there is indeed
+another path here, that you have reached, that continues on into the
+peaks of the Westhills. But to your dismay you note that the path runs
+very steeply upwards, and is almost too narrow to even attempt; goats
+would shy away before beginning that ascent. But an incentive has been
+added- in the distance you can see the shining spires of a castle or
+fortress, protruding from atop the peak which the goat track circumvents.
+The Haven of the Seekers, Bed of Knowledge, lies very near!
+~
+0 0 5
+D4
+~
+~
+128 -1 18000
+D5
+~
+~
+128 -1 18037
+S
+#18099
+Purge Chamber~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 1 18000 1 18001
+O 1 18000 1 18001
+M 1 18001 1 18004
+O 1 18001 1 18004
+M 1 18002 1 18009
+O 1 18018 1 18009
+O 1 18019 1 18009
+O 1 18017 1 18011
+O 1 18007 1 18013
+D 0 18013 2 2
+O 1 18005 1 18014
+D 0 18014 0 2
+O 1 18022 1 18015
+O 1 18023 1 18016
+D 0 18016 0 1
+D 0 18016 1 1
+D 0 18016 3 1
+D 0 18017 1 1
+D 0 18018 3 1
+D 0 18019 2 1
+O 1 18008 1 18021
+O 1 18009 1 18022
+M 1 18003 1 18025
+M 1 18004 1 18027
+G 1 18010 1
+G 1 18011 1
+G 1 18012 1
+G 1 18013 1
+G 1 18014 1
+G 1 34 1
+G 1 35 1
+G 1 37 1
+G 1 36 1
+G 1 18015 1
+G 1 18016 1
+M 1 18005 1 18029
+O 1 18020 1 18030
+O 1 18021 1 18030
+M 1 18006 1 18032
+O 1 18030 1 18033
+O 1 18030 1 18034
+M 1 18007 2 18036
+M 1 18007 2 18038
+S
+
+
+#SHOPS
+ 18004    0  0  0  0  0   100  80         0 23    ; Soneramist
+0
+
+
+#REPAIRS
+ 18003    9  5 15          80   1         0 23    ; Ra'vern
+0
+
+
+#SPECIALS
+M  18000 spec_breath_any
+M  18002 spec_cast_adept
+M  18006 spec_cast_mage
+S
+
+
+#$

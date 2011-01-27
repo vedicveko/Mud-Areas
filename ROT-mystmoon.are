@@ -1,0 +1,2244 @@
+#AREADATA
+Name Mystic Moon~
+Builders None~
+VNUMs 29800 29899
+Credits [ 75 100] Kandahar Mystic Moon~
+Security 9
+End
+
+
+
+#MOBILES
+#29800
+pussycat~
+a pussycat~
+A {Mpussycat {xrubs up against your legs.
+~
+~
+cat~
+AGT DFJPZ 0 -1000 0
+90 72 12d360+1920 2d50+50 5d16+40 claw
+-40 -40 -40 -40
+FHK 0 C 0
+stand stand male 3600
+AGV ACDEFHJKQUV small unknown
+M RANDOM 29800 10~
+#29801
+mystic~
+a mystic~
+A {mmystic {xwaves his arms in the air.
+~
+This fearsome looking mystic has runes and symbols covering his face and
+hands.  He doesn't look particularly friendly.  
+~
+elf~
+AGR IJ H -1000 0
+95 75 12d406+2115 2d50+50 5d16+75 magic
+-43 -43 -43 -43
+FK 0 BC Z
+stand stand male 3700
+AHMV ABCDEFGHIJK medium unknown
+M RANDOM 29801 10~
+#29802
+darkfury~
+{DDark{Wfury{x~
+{DDark{Wfury{m smiles{W happily{x.
+~
+{DDark{Wfury{x is a lithe tawny-coloured young tiegre.  She has honey
+coloured eyes, a soft muzzle and a heart of gold.  With coppery lights in
+her fur and a gleaming twinkle in her eye, she looks like the type you'd
+want to be friendly with.  Be careful though, or you might just fall under
+her {mhypnotic{D spell....  {x 
+She offers a healing service and a transportation service to Midgaard, of course
+you would have to ask for the teleport.  Otherwise just type heal for the list of
+healing services.
+~
+cat~
+ABGQVa JPVZ H 1000 0
+200 200 401d66+8081 200d10+85 66d3+105 magic
+-126 -126 -126 -84
+AFHK ABCDLQ 0 0
+stand stand female 10000
+AGHMV ABCDEFGHIJKQUV medium unknown
+M SPEECH 29810 midgaard~
+M GRALL 29802 100~
+#29803
+moonbug~
+a {Cmoon{bbug{x~
+An insect hovers... just waiting.
+~
+This tiny insect has an oval eyescope and several legs.  It looks
+harmless enough...  
+~
+centipede~
+ACGS BJTZ 0 -1000 0
+100 79 12d455+2310 2d50+50 5d17+76 suction
+-46 -46 -46 -46
+FJK 0 FI E
+stand stand none 3900
+ABGO ACK tiny unknown
+M RANDOM 29803 10~
+#29804
+shade~
+{ba shadow{x~
+{
+~
+You're imagining things.  There's nothing here.
+~
+human~
+AGHS DFJP 0 0 0
+105 85 12d507+2515 2d50+50 5d18+75 pierce
+-49 -49 -49 -49
+FK B GL Z
+stand stand none 4200
+AHMV ABCDEFGHIJK large unknown
+M RANDOM 29804 10~
+#29805
+swirl~
+a {Mswirl{x~
+{DSomething {Meddies {Daround you{x.
+~
+Colours and sounds rush at you as if threatening to overwhelm you or suck
+you in to their very depths.  {x 
+~
+human~
+AGQ FP 0 -1000 0
+100 90 12d562+2730 2d50+50 5d19+95 drain
+-52 -52 -52 -52
+GHK 0 N P
+stand stand none 4500
+AHMV ABCDEFGHIJK large unknown
+M RANDOM 29805 10~
+#29806
+hermit~
+a {ghermit{x~
+This {ghermit {xdoesn't look happy to see you.
+~
+He looks like he'd rather be left to his own devices.  With a sullen face
+and dark eyes, he could be more dangerous than he looks at first glance.  {x
+~
+human~
+AGT DZ 0 -1000 0
+115 95 12d619+2950 2d50+50 5d20+95 pound
+-55 -55 -55 -55
+FK 0 GJ EK
+stand stand male 4700
+AHMV ABCDEFGHIJK large unknown
+M RANDOM 29806 10~
+#29807
+spidermouse~
+a {cspidermouse{x~
+{
+~
+This tiny little creature dangles down from a silky thread, hovering. 
+Just waiting.  
+~
+bat~
+ACGS BFPTZ 0 0 0
+120 100 12d679+3175 2d50+50 5d21+95 acbite
+-58 -58 -58 -58
+FHK E F HS
+stand stand female 5000
+AGV ACDEFHJKP tiny unknown
+M RANDOM 29807 10~
+#0
+
+
+
+#OBJECTS
+#29800
+ring~
+{DDark {B& {DNight's {BWedding {WVows{x~
+{DA {Bspecial {Wwedding {Dring{x.~
+gold~
+jewelry KLPTUY AB
+0 0 0 0 0
+200 1 0 P
+#29801
+ring1~
+{RRing {xof {WWolf{x~
+{WA {Rspecial {Wring{x.~
+gold~
+jewelry KLPTUY AB
+0 0 0 0 0
+200 1 0 P
+#29802
+jewel~
+{Mthe {Cj{ce{Yw{Ge{Ml {xand a strange feeling comes over you....~
+{MA {Cj{ce{Yw{Ge{Ml {xlies here.~
+unknown~
+portal AR P
+0 0 A 29899 0
+55 2000 0 P
+#29803
+rune~
+{cthe {rr{yu{gn{me {xand start to fall...fall..fall...~
+{cA {rr{yu{gn{me {xlies here.~
+unknown~
+portal BR P
+0 0 A 29898 0
+55 2000 0 P
+#29805
+teddybear bear~
+a {yteddybear{x~
+A cuddly {yteddybear {xwith a {mpurple {xribbon.~
+fur~
+treasure HSTY AO
+0 0 0 0 0
+20 5 1000 P
+A
+20 -10
+E
+bear~
+The teddybear has silky fur and a sweet smile.  There is some embroidery
+on him.  
+~
+E
+ribbon~
+The {mpurple ribbon{x is made of satin and is tied in a big bow around
+the teddybear's neck.  
+~
+E
+smile~
+The bear smiles sweetly and looks very huggable.  
+~
+E
+tummy~
+You press the bear's tummy and he emits a cute {g'{GHoney!  {g'{x.  
+~
+E
+embroidery~
+'{mPooh{x' has been embroidered on this bear.
+~
+#29806
+jewelled anklet~
+a {Mj{mewelled {Ga{gnklet{x~
+A {Ws{Dilver {Ga{gnklet {xcovered in {Mj{mewels{x lies here.~
+silver~
+armor BISY AT
+45 45 45 45 0
+85 5 2800 P
+A
+20 -15
+A
+19 15
+A
+18 15
+A
+12 50
+#29807
+insignia mystic XOX~
+{m<{B<{b-{WX{DO{WX{b-{B>{m>{x~
+An {m<{B<{b-{WX{DO{WX{b-{B>{m>{M insignia {xlies here.~
+runes~
+armor AY AV
+40 40 40 40 0
+90 5 4000 P
+A
+19 20
+A
+13 100
+A
+4 4
+#29808
+shadow earring~
+{Da shadow{x~
+A mere shadow of its self.~
+nothingness~
+armor S AS
+20 20 20 20 0
+95 0 0 P
+A
+2 2
+A
+18 15
+A
+13 90
+#29809
+silhouette mask velvet~
+a {Bvelvet {Wsilhouette {mmask{x~
+A mask designed to hide someone's identity lies here.~
+velvet~
+armor AGS AR
+25 25 25 25 0
+100 2 4000 P
+A
+20 -20
+A
+19 40
+A
+3 5
+#29810
+spider web cobweb~
+{Dthe {Wweb {Dof a {W///\{Coo{W/\\\{x~
+A tangled {Wcobweb{x lies here.~
+cobweb~
+armor C AW
+40 40 40 40 0
+105 0 0 P
+A
+1 4
+A
+20 -5
+A
+13 100
+A
+18 20
+#0
+
+
+
+#ROOMS
+#29800
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the north and
+east.  {x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29803
+D1
+~
+~
+0 0 29801
+S
+#29801
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the north and to the west lies the corridor in {cSector Libra{y.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29804
+D3
+~
+~
+0 0 29800
+S
+#29802
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the north and
+east.  {x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29806
+D1
+~
+~
+0 0 29803
+S
+#29803
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the south and
+west.  {x 
+~
+0 8200 0
+D2
+~
+~
+0 0 29800
+D3
+~
+~
+0 0 29802
+S
+#29804
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the east and south.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29805
+D2
+~
+~
+0 0 29801
+S
+#29805
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the north and west.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29809
+D3
+~
+~
+0 0 29804
+S
+#29806
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the east and
+south.  {x 
+~
+0 8200 0
+D1
+~
+~
+0 0 29807
+D2
+~
+~
+0 0 29802
+S
+#29807
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the north and
+west.  {x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29811
+D3
+~
+~
+0 0 29806
+S
+#29808
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the north and east.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29812
+D1
+~
+~
+0 0 29809
+S
+#29809
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the south and west.  {x 
+~
+0 8192 0
+D2
+~
+~
+0 0 29805
+D3
+~
+~
+0 0 29808
+S
+#29810
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the east and
+there is a flight of steps leading up to the {WLine of Judas.  {x 
+~
+0 8200 0
+D1
+~
+~
+0 0 29811
+D3
+~
+green-door~
+1 0 29882
+D4
+~
+~
+0 0 29814
+S
+#29811
+Sector Libra - Corridor~
+{cThe corridor in Sector Libra swirls maddeningly, infuriating the
+senses.  The walls fade in and out of view, sometimes appearing closer and
+other times further away.  The floor and ceiling are spongy to the touch and
+the area has a strange {Cglow{c.  The corridor continues to the south and
+west.  {x 
+~
+0 8200 0
+D2
+~
+~
+0 0 29807
+D3
+~
+~
+0 0 29810
+S
+#29812
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the south and east.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29813
+D2
+~
+~
+0 0 29808
+S
+#29813
+Sector Capricorn - Corridor~
+{yThe corridor in Sector Capricorn appears to tilt no matter how hard you
+look at it.  It sways with a rhythm of its own.  The walls and ceiling
+appear to move up and down, yet curiously you feel no movement.  The effect
+of it could make you feel quite dizzy if you let it.  The corridor continues
+to the west and up a flight of steps lies the {WLine of Judas{y.  {x 
+~
+0 8192 0
+D1
+~
+red-door~
+1 0 29884
+D3
+~
+~
+0 0 29812
+D4
+~
+~
+0 0 29817
+S
+#29814
+{WLine of Judas{x~
+{DThe {WLine of Judas{D appears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the east.  There is a flight of steps just visible leading down to
+{cSector Libra{D.  {x 
+~
+0 787464 0
+D1
+~
+~
+0 0 29815
+D5
+~
+~
+0 0 29810
+M -500 H -500
+S
+#29815
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the west.  There is a flight of steps just visible leading down to
+{mSector Aquarius{D.  {x 
+~
+0 787464 0
+D3
+~
+~
+0 0 29814
+D5
+~
+~
+0 0 29818
+M -500 H -500
+S
+#29816
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the east.  There is a flight of steps just visible leading down to
+{gSector Gemini{D.  {x 
+~
+0 787464 0
+D1
+~
+~
+0 0 29817
+D5
+~
+~
+0 0 29819
+M -500 H -500
+S
+#29817
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the west.  There is a flight of steps just visible leading down to
+{ySector Capricorn{D.  {x 
+~
+0 787464 0
+D3
+~
+~
+0 0 29816
+D5
+~
+~
+0 0 29813
+M -500 H -500
+S
+#29818
+Sector Aquarius - Corridor~
+{mThe corridor in Sector Aquarius appears to shimmer like a mirage,
+moving all the time back and forth as if never still, and yet, how is that
+possible?  There is a distant muted {Mlight{m shining down the corridor and
+this gives the walls and ceilings an eerie look.  The corridor continues to
+the north.  There is a flight of steps leading up to the {WLine of Judas. 
+{x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29820
+D4
+~
+~
+0 0 29815
+S
+#29819
+Sector Gemini - Corridor~
+{gThe corridor in Sector Gemini appears very narrow at first glance, yet
+suddenly there is a feeling of wide open space as the further you get down
+the corridor, the more it seems to open up.  Yet behind you, the walls feel
+almost claustrophobic.  The corridor continues to the north and a flight of
+steps leads up to the {WLine of Judas{g.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29821
+D4
+~
+~
+0 0 29816
+S
+#29820
+Sector Aquarius - Corridor~
+{mThe corridor in Sector Aquarius appears to shimmer like a mirage,
+moving all the time back and forth as if never still, and yet, how is that
+possible?  There is a distant muted {Mlight {mshining down the corridor and
+this gives the walls and ceilings an eerie look.  The corridor continues to
+the north and south.  {x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29822
+D2
+~
+~
+0 0 29818
+S
+#29821
+Sector Gemini - Corridor~
+{gThe corridor in Sector Gemini appears very narrow at first glance, yet
+suddenly there is a feeling of wide open space as the further you get down
+the corridor, the more it seems to open up.  Yet behind you, the walls feel
+almost claustrophobic.  The corridor continues to the north and south.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29823
+D2
+~
+~
+0 0 29819
+S
+#29822
+Sector Aquarius - Corridor~
+{mThe corridor in Sector Aquarius appears to shimmer like a mirage,
+moving all the time back and forth as if never still, and yet, how is that
+possible?  There is a distant muted {Mlight {mshining down the corridor and
+this gives the walls and ceilings an eerie look.  The corridor continues to
+the south and west.  {x 
+~
+0 8200 0
+D2
+~
+~
+0 0 29820
+D3
+~
+~
+0 0 29824
+S
+#29823
+Sector Gemini - Corridor~
+{gThe corridor in Sector Gemini appears very narrow at first glance, yet
+suddenly there is a feeling of wide open space as the further you get down
+the corridor, the more it seems to open up.  Yet behind you, the walls feel
+almost claustrophobic.  The corridor continues to the east and south.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29825
+D2
+~
+~
+0 0 29821
+S
+#29824
+Sector Aquarius - Corridor~
+{mThe corridor in Sector Aquarius appears to shimmer like a mirage,
+moving all the time back and forth as if never still, and yet, how is that
+possible?  There is a distant muted {Mlight {mshining down the corridor and
+this gives the walls and ceilings an eerie look.  The corridor continues to
+the north and east.  {x 
+~
+0 8200 0
+D0
+~
+~
+0 0 29826
+D1
+~
+~
+0 0 29822
+S
+#29825
+Sector Gemini - Corridor~
+{gThe corridor in Sector Gemini appears very narrow at first glance, yet
+suddenly there is a feeling of wide open space as the further you get down
+the corridor, the more it seems to open up.  Yet behind you, the walls feel
+almost claustrophobic.  The corridor continues to the west and joins the
+walkway to the north.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29829
+D3
+~
+~
+0 0 29823
+S
+#29826
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and west.  The corridor of Sector Aquarius lies to the south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29872
+D2
+~
+~
+0 0 29824
+D3
+~
+~
+0 0 29827
+S
+#29827
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29826
+D3
+~
+~
+0 0 29828
+S
+#29828
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29827
+D2
+~
+~
+0 0 29834
+S
+#29829
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and east, with the {GSector Gemini Corridor{g lying to the south. 
+{x 
+~
+0 1 0
+D0
+~
+~
+0 0 29877
+D1
+~
+~
+0 0 29830
+D2
+~
+~
+0 0 29825
+S
+#29830
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29831
+D3
+~
+~
+0 0 29829
+S
+#29831
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29835
+D3
+~
+~
+0 0 29830
+S
+#29832
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29833
+D2
+~
+~
+0 0 29838
+S
+#29833
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29834
+D3
+~
+~
+0 0 29832
+S
+#29834
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29828
+D3
+~
+~
+0 0 29833
+S
+#29835
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29831
+D1
+~
+~
+0 0 29836
+S
+#29836
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29837
+D3
+~
+~
+0 0 29835
+S
+#29837
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29840
+D3
+~
+~
+0 0 29836
+S
+#29838
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29832
+D2
+~
+~
+0 0 29839
+S
+#29839
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29838
+D3
+~
+~
+0 0 29842
+S
+#29840
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29837
+D2
+~
+~
+0 0 29841
+S
+#29841
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29840
+D1
+~
+~
+0 0 29843
+S
+#29842
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east.  There is a flight of steps leading up to the {WLine of Judas{m.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29839
+D4
+~
+~
+0 0 29844
+S
+#29843
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the west and the {WLine of Judas{g lies up a flight of steps.  {x 
+~
+0 1 0
+D3
+~
+~
+0 0 29841
+D4
+~
+~
+0 0 29849
+S
+#29844
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to shimmer to the east.  There is a flight of steps down to Sector Aquarius
+walkway and to the south lies Sector Libra walkway.  {x 
+~
+0 787464 9
+D2
+~
+~
+0 0 29845
+D5
+~
+~
+0 0 29842
+M -500 H -500
+S
+#29845
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the east and to the north lies the {WLine of Judas{c.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29844
+D1
+~
+~
+0 0 29846
+S
+#29846
+Sector Libra - walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29847
+D3
+~
+~
+0 0 29845
+S
+#29847
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29846
+D2
+~
+~
+0 0 29848
+S
+#29848
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29847
+D1
+~
+~
+0 0 29856
+S
+#29849
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+dimly to the west, although not reachable from here.  Sector Capricorn
+walkway lies to the south and down a flight of steps, lies Sector Gemini
+walkway.  {x 
+~
+0 787464 0
+D2
+~
+~
+0 0 29850
+D5
+~
+~
+0 0 29843
+M -500 H -500
+S
+#29850
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the west and the {WLine of Judas {ylies
+north.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29849
+D3
+~
+~
+0 0 29851
+S
+#29851
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29850
+D2
+~
+~
+0 0 29852
+S
+#29852
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29851
+D2
+~
+~
+0 0 29853
+S
+#29853
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29852
+D3
+~
+~
+0 0 29854
+S
+#29854
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the east and west.  {x 
+~
+0 0 0
+D1
+~
+~
+0 0 29853
+D3
+~
+~
+0 0 29855
+S
+#29855
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29854
+D2
+~
+~
+0 0 29863
+S
+#29856
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the east and west.  
+{x
+~
+0 1 0
+D1
+~
+~
+0 0 29857
+D3
+~
+~
+0 0 29848
+S
+#29857
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29858
+D3
+~
+~
+0 0 29856
+S
+#29858
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29857
+D1
+~
+~
+0 0 29859
+S
+#29859
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29860
+D3
+~
+~
+0 0 29858
+S
+#29860
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29864
+D3
+~
+~
+0 0 29859
+S
+#29861
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29862
+D2
+~
+~
+0 0 29865
+S
+#29862
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the east and west.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29863
+D3
+~
+~
+0 0 29861
+S
+#29863
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29855
+D3
+~
+~
+0 0 29862
+S
+#29864
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29860
+D2
+~
+~
+0 0 29866
+S
+#29865
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29861
+D2
+~
+~
+0 0 29869
+S
+#29866
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29864
+D1
+~
+~
+0 0 29867
+S
+#29867
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29870
+D3
+~
+~
+0 0 29866
+S
+#29868
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29871
+D1
+~
+~
+0 0 29869
+S
+#29869
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the north and west.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29865
+D3
+~
+~
+0 0 29868
+S
+#29870
+Sector Libra - Walkway~
+{cShadows dart nimbly around from corner to corner just out of your
+vision.  A strange light seems to play with your soul, dancing and creeping
+into your mind producing a lightheaded numbness.  The walkway continues to
+the east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29871
+D2
+~
+~
+0 0 29867
+S
+#29871
+Sector Capricorn - Walkway~
+{yEchoes of past times reverberate around your head.  Memories both
+distant and recent scurry through your mind.  Shadows leap and whirl in
+front and behind your footsteps as if clutching the past and the future
+together.  The walkway continues to the west and south.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29868
+D3
+~
+~
+0 0 29870
+S
+#29872
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29873
+D2
+~
+~
+0 0 29826
+S
+#29873
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29874
+D2
+~
+~
+0 0 29872
+S
+#29874
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29878
+D3
+~
+~
+0 0 29873
+S
+#29875
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the east and south.  {x 
+~
+0 1 0
+D1
+~
+~
+0 0 29876
+D2
+~
+~
+0 0 29879
+S
+#29876
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the south and west.  {x 
+~
+0 1 0
+D2
+~
+~
+0 0 29877
+D3
+~
+~
+0 0 29875
+S
+#29877
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29876
+D2
+~
+~
+0 0 29829
+S
+#29878
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29874
+D2
+~
+~
+0 0 29880
+S
+#29879
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and south.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29875
+D2
+~
+~
+0 0 29881
+S
+#29880
+Sector Aquarius - Walkway~
+{mThe walkway is plagued with shadows darting to and fro as if they have
+a mind of their own.  Playing and lulling you into a false sense of
+security, they attempt to inhibit your mind.  The walkway continues to the
+north and east.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29878
+D1
+~
+~
+0 0 29881
+S
+#29881
+Sector Gemini - Walkway~
+{gGems and faint glows dance in front of your eyes, as if guiding you in
+the right direction.  Shouts and whispers mingle in your mind, confusion
+ebbing and flowing like a distant tide.  Shadows tug and pull you different
+ways, themselves undecided as to the right path.  The walkway continues to
+the north and to the west lies the walkway in {mSector Aquarius{g.  {x 
+~
+0 1 0
+D0
+~
+~
+0 0 29879
+D3
+~
+~
+0 0 29880
+S
+#29882
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe west.  {x 
+~
+0 8192 0
+D1
+~
+~
+1 0 29810
+D3
+~
+~
+0 0 29883
+S
+#29883
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe west and
+{geast.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29882
+D3
+~
+~
+0 0 29886
+S
+#29884
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe east and {Gthe
+{Rred-door {Mlies to the {Cwest.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29885
+D3
+~
+~
+1 0 29813
+S
+#29885
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe east and {Gthe
+{Rred-door {Mlies far to the {Cwest.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29887
+D3
+~
+~
+0 0 29884
+S
+#29886
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe east and
+{gthe {WLine of Judas{m lies up a fl{cight of steps.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29883
+D4
+~
+~
+0 0 29888
+S
+#29887
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe west and {Gthe {WLine
+of Judas {Mlies up a flight {Cof steps.  {x 
+~
+0 8192 0
+D3
+~
+~
+0 0 29885
+D4
+~
+~
+0 0 29889
+S
+#29888
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the east.  There is a flight of steps just visible leading down to the
+{rRu{yne{gd Pa{mth{cway{D.  {x 
+~
+0 787464 0
+D1
+~
+~
+0 0 29890
+D5
+~
+~
+0 0 29886
+M -500 H -500
+S
+#29889
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the west.  There is a flight of steps just visible leading down to the
+{cJe{Ywe{Glle{Md Path{Cway{D.  {x 
+~
+0 787464 0
+D3
+~
+~
+0 0 29891
+D5
+~
+~
+0 0 29887
+M -500 H -500
+S
+#29890
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the west.  There is a flight of steps just visible leading down to the
+{rRu{yne{gd Pa{mth{cway{D.  {x 
+~
+0 787464 0
+D3
+~
+~
+0 0 29888
+D5
+~
+~
+0 0 29892
+M -500 H -500
+S
+#29891
+Line of Judas~
+{DThe {WLine of Judas {Dappears to hover just out of your perspective as
+if it isn't really there.  Echoes and shouts from the past regale your
+senses, bringing confusion and amazement to mind.  Mists appear to claw you
+from the ground up as if trying to draw you under.  This dimension continues
+to the east.  There is a flight of steps just visible leading down to the
+{cJe{Ywe{Glle{Md Path{Cway{D.  {x 
+~
+0 787464 0
+D1
+~
+~
+0 0 29889
+D5
+~
+~
+0 0 29893
+M -500 H -500
+S
+#29892
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe east and
+{gthe {WLine of Judas{m lies up a fl{cight of steps.  {x 
+~
+0 8192 0
+D1
+~
+~
+0 0 29894
+D4
+~
+~
+0 0 29890
+S
+#29893
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe west and {Gthe {WLine
+of Judas {Mlies up a flight {Cof steps.  {x 
+~
+0 8192 0
+D3
+~
+~
+0 0 29895
+D4
+~
+~
+0 0 29891
+S
+#29894
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe west and
+{gnorth.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29896
+D3
+~
+~
+0 0 29892
+S
+#29895
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe east and {Gnorth.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29897
+D1
+~
+~
+0 0 29893
+S
+#29896
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe south and
+{gnorth.  {x 
+~
+0 8192 0
+D0
+~
+~
+0 0 29898
+D2
+~
+~
+0 0 29894
+S
+#29897
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe south and {Gnorth.  {x
+~
+0 8192 0
+D0
+~
+~
+0 0 29899
+D2
+~
+~
+0 0 29895
+S
+#29898
+Runed Pathway~
+{rThe pathway {yhums with {guntold effervescence as {mrunes set into
+{cthe walls {rglitter and {yresonate under {gthe {Ysunlight {gwhich see{mms
+to someho{cw focus upon {rthem.  The {yrunes seem to {gmesmerise and
+{menchant with a will {cof their own - {rit would be {ytoo easy to {gfall
+under their {mhaunting spell.  {cThe pathway {rcontinues to {ythe south.  {x
+~
+0 0 0
+D2
+~
+~
+0 0 29896
+S
+#29899
+Jewelled Pathway~
+{cThe pathway {Yglitters with {Guntold beauty as {Mjewels set into {Cthe
+walls {cglimmer and {Yshine under {Gthe {Wmoonlight {Gwhich see{Mms to
+someho{Cw focus upon {cthem.  The {Ygems seem to {Gmesmerise and {Menchant
+with a will {Cof their own - {cit would be {Ytoo easy to {Gfall under their
+{Mhypnotic spell.  {CThe pathway {ccontinues to {Ythe south.  {x 
+~
+0 0 0
+D2
+~
+~
+0 0 29897
+S
+#0
+
+
+
+#SPECIALS
+M 29800 spec_impale
+M 29801 spec_cast_mage
+M 29802 spec_cast_adept
+M 29803 spec_thief
+M 29804 spec_nasty
+M 29805 spec_cast_cleric
+M 29806 spec_impale
+M 29807 spec_thief
+S
+
+
+
+#RESETS
+D 0 29810 3 1
+D 0 29813 1 1
+D 0 29882 1 1
+D 0 29884 3 1
+M 0 29800 10 29800 1
+M 0 29803 10 29808 1
+M 0 29800 10 29811 1
+M 0 29800 10 29812 1
+M 0 29803 10 29815 1
+M 0 29801 8 29818 1
+M 0 29800 10 29820 1
+M 0 29800 10 29823 1
+E 0 29806 0 23
+M 0 29801 8 29826 1
+E 0 29805 0 17
+M 0 29804 20 29827 1
+M 0 29803 10 29828 1
+M 0 29804 20 29829 1
+M 0 29803 10 29830 1
+M 0 29804 20 29831 1
+M 0 29804 20 29832 1
+E 0 29808 0 22
+M 0 29800 10 29833 1
+M 0 29804 20 29834 1
+M 0 29804 20 29835 1
+M 0 29804 20 29836 1
+M 0 29804 20 29837 1
+M 0 29803 10 29838 1
+M 0 29803 10 29840 1
+M 0 29801 8 29841 1
+M 0 29807 10 29842 1
+M 0 29807 10 29843 1
+M 0 29802 1 29844 1
+E 0 29801 0 2
+E 0 29800 0 1
+M 0 29801 8 29845 1
+E 0 29807 0 26
+M 0 29804 20 29846 1
+M 0 29804 20 29847 1
+M 0 29801 8 29848 1
+M 0 29806 10 29849 1
+M 0 29807 10 29850 1
+E 0 29810 0 27
+M 0 29807 10 29851 1
+M 0 29803 10 29852 1
+M 0 29807 10 29853 1
+M 0 29807 10 29854 1
+M 0 29800 10 29855 1
+M 0 29800 10 29856 1
+M 0 29804 20 29857 1
+M 0 29804 20 29858 1
+M 0 29804 20 29859 1
+M 0 29801 8 29861 1
+M 0 29803 10 29862 1
+M 0 29804 20 29863 1
+M 0 29801 8 29864 1
+M 0 29807 10 29865 1
+M 0 29807 10 29866 1
+M 0 29803 10 29867 1
+M 0 29804 20 29868 1
+M 0 29804 20 29869 1
+M 0 29804 20 29870 1
+M 0 29804 20 29871 1
+M 0 29804 20 29872 1
+M 0 29804 20 29873 1
+M 0 29807 10 29874 1
+M 0 29806 10 29877 1
+M 0 29807 10 29878 1
+M 0 29800 10 29880 1
+M 0 29803 10 29881 1
+M 0 29805 10 29882 1
+M 0 29806 10 29883 1
+M 0 29805 10 29884 1
+M 0 29806 10 29885 1
+M 0 29805 10 29886 1
+E 0 29809 0 20
+M 0 29805 10 29887 1
+M 0 29806 10 29888 1
+M 0 29806 10 29889 1
+M 0 29805 10 29890 1
+M 0 29805 10 29891 1
+M 0 29806 10 29892 1
+M 0 29805 10 29893 1
+M 0 29805 10 29894 1
+M 0 29806 10 29895 1
+M 0 29800 10 29895 1
+M 0 29805 10 29896 1
+M 0 29801 8 29896 1
+M 0 29805 10 29897 1
+M 0 29806 10 29898 1
+O 0 29802 0 29898
+M 0 29806 10 29899 1
+O 0 29803 0 29899
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#29800
+mob echo A {Mpussycat {xmeows and purrs.
+~
+#29801
+mob echo A {mmystic{x utters the words 'arcanum zanthor'.
+mob echo {cYou start to feel queasy and your knees buckle.{x
+~
+#29802
+mob echo {DDark{Wfury{x lays {mhealing {xhands on you.
+mob echo Your whole being {Cquivers {xand {Yglows{x.
+~
+#29803
+mob echo A {Cmoon{bbug {cb{yu{cz{yz{ce{ys {xloudly in your ear.
+~
+#29804
+mob echo Someone follows you.
+~
+#29805
+mob echo {DSomething grabs your {mankle {Dand pulls {m.. {MHARD{D!{x
+~
+#29806
+mob echo '{mGo AWAY!{x'
+~
+#29807
+mob echo {c///\oo/\\\{x
+~
+#29810
+mob transfer $n 3014
+~
+#0
+
+#$

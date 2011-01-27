@@ -1,0 +1,1064 @@
+#AREA
+zoo2.are~
+Zoo of Midgaard~
+{ 1 15} Anon    Zoo of Midgaard~
+8200 8299
+
+#MOBILES
+#8200
+shopkeeper giles~
+Giles~
+Giles the shopkeeper sits with his feet up on the counter.
+~
+Giles sits here most of the time serving things to the visitors of the zoo. 
+His lazy streak prevents him from doing any other job and besides the pay's 
+good here.
+~
+human~
+ABG D 0 0
+20 0 3d9+333 199d1+1 2d8+5 punch
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+#8201
+zoo keeper man~
+the zookeeper~
+A man sits behind the desk here.
+~
+This is the zookeeper of the world famous midgaard zoo. He is in charge of 
+the upkeep of all the animals and the running of the zoo in general. He has 
+slicked backgraesy hair and a long curly moustache. From the good state of 
+his clothes, you guess that he rarely goes near the animals here himself.
+~
+human~
+AB F 0 0
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+E 0 0 0
+stand stand male 100
+0 0 medium 0
+#8202
+giant leech~
+a giant leech~
+A giant leech sticks to your arm.
+~
+A little browny black leech.
+~
+bear~
+ABEF 0 0 0
+3 0 2d6+35 29d1+1 1d6+0 claw
+7 7 7 10
+0 AB 0 0
+stand stand male 0
+0 0 medium 0
+#8203
+tiger~
+the tiger~
+A tiger stands here ready to pounce.
+~
+cat~
+The tiger is a huge wild cat. She is very angry due to having been locked 
+up in a cage for the last year. As you enter she sniff the air, licks her 
+lips and advances towards you.
+~
+ABEF J 0 0
+17 0 3d9+258 169d1+1 3d4+4 claw
+-3 -3 -3 7 
+H AB 0 0
+stand stand female 0
+0 0 medium 0
+#8204
+dolphin~
+a dolphin~
+A dolphin swims happily here.
+~
+water fowl~
+The dolphin is a happy animal that bounces playfully around its pond all day 
+long. It playfully splashes water at you as stand watching it.
+~
+ABCE 0 50 0
+10 0 2d7+121 99d1+1 2d4+2 slap
+1 1 1 8
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8205
+unicorn~
+the unicorn~
+A unicorn stands here.
+~
+fox~
+This fine magnificent beast is a large white horse with a large spiral horn 
+in the centre of its head. It represents all the good and pure things that 
+exists in the world. It looks at you. It has a look of knowing in its eyes 
+as if it can read your own thoughts directly from your mind. 
+~
+AB 0 1000 0
+15 0 3d9+208 149d1+1 2d6+3 pierce
+-2 -2 -2 7
+IJ 0 0 0
+stand stand female 0
+0 0 medium 0
+#8206
+crocodile~
+a crocodile~
+A crocodile floats just below the surface of the water.
+~
+A big green scaly creature with very large teeth. You better hope that it has 
+been fed laterly.
+~
+lizard~
+ABF 0 -100 8206
+13 0 2d10+170 129d1+1 2d5+3 cleave
+-1 -1 -1 8
+0 AB 0 0
+stand stand female 0
+0 0 medium 0
+#8207
+bear~
+the bear~
+A large bear growls louly as it advances.
+~
+This bear is one of the largest you have ever seen. The thought of what its 
+huge claws can do to your face makes you shudder     
+~
+bear~
+ABF 0 0 0
+13 0 2d10+170 129d1+1 2d5+3 claw
+-1 -1 -1 8
+C AB 0 0
+stand stand female 0
+0 0 medium 0
+#8208
+baby dragon lizard huge 8ft~
+the baby dragon~
+A huge 8ft long lizard sits here.
+~
+This lizard looks like a scaled down version of a dragon. As you look at him 
+he burps and a cloud of smoke comes outa of his mouth.
+~
+dragon~
+AB 0 2 0
+19 0 3d9+308 189d1+1 2d7+5 blast
+-4 -4 -4 7
+0 0 0 0
+stand stand female 0
+0 0 large 0
+#8209
+elephant~
+the elephant~
+A elephant stands here.
+~
+A gray elephant with big ears.
+~
+dragon~
+AB 0 100 0
+14 0 2d10+190 139d1+1 1d12+3 pierce
+-1 -1 -1 8
+C 0 0 0
+stand stand female 0
+0 0 large 0
+#8210
+gorilla~
+the gorilla~
+A gorilla stands here.
+~
+A large hairy gorilla.
+~
+human~
+ABF 0 0 0
+15 0 3d9+208 149d1+1 2d6+3 bite
+-2 -2 -2 7
+F AB 0 0
+stand stand male 0
+0 0 medium 0
+#8211
+zoo assistant young woman~
+the zoo assistant~
+A young woman is here preparing food here.
+~
+human~
+This woman appears to be a worker for the zoo. She is busy preparing food 
+for all the animals and hasn't seemed to notice you.
+~
+AB 0 200 0
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+E 0 0 0
+stand stand female 0
+0 0 medium 0
+#8230
+pig~
+a pig~
+A pig is here, wallowing in mud.
+~
+This is a small pink pig. Nothing more, Nothing less.
+~
+pig~
+AB 0 0 0
+3 0 2d6+35 29d1+1 1d6+0 scratch
+7 7 7 10
+0 0 0 0
+stand stand female 0
+0 0 medium 0 
+#8231
+small bird~
+a small bird~
+A small bird flies around here.
+~
+The little birdy flies merily around in the sky twerping and whistling.
+~
+song bird~
+A 0 0 0
+1 0 2d6+10 9d1+1 1d4+0 scratch
+9 9 9 10
+0 0 0 0
+stand stand female 0
+0 0 small 0
+#8232
+baby goat~
+a baby goat~
+A small baby goat chews a piece of grass here.
+~
+fox~
+The goat has a little, half chewed nametag around his neck.
+It reads...
+/---------+
+\t Gruff. |
+/---------+
+~
+ABG 0 0 8232
+2 0 2d7+21 19d1+1 1d5+0 slash
+8 8 8 10
+0 0 0 0
+stand stand female 0
+0 0 tiny 0
+#8233
+mother goat~
+a mother goat~
+A medium sized goat stands here chewing.
+~
+The goat has a large round belly. As you stand looking at the goat it 
+wanders over and stats chewing at your clothes.
+~
+fox~
+ABG 0 0 8232
+3 0 2d6+35 29d1+1 1d6+0 slash
+7 7 7 10
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8234
+father goat~
+a father goat~
+A large goat stands here.
+~
+The large goat stands in front of you and stares right into your eyes. His 
+large horns look as if they could do a nasty bit of damage.
+~
+fox~
+ABG 0 0 8232
+4 0 2d7+46 39d1+1 1d5+1 slash
+6 6 6 9
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8235
+sad sorry donkey~
+a donkey~
+A sad sorry looking donkey is here.
+~
+The donkey looks sad and miserable. Its eyes have sleep in the corners and 
+its right ears has a chunk missing from it.
+~
+dog~
+AB 0 0 0
+5 0 2d6+60 49d1+1 1d6+1 stab
+5 5 5 9
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8236
+old horse~
+an old horse~
+An old horse stands here. 
+~
+The horse looked as if it was once a war horse. It is big and muscular and 
+can proberly still do a lot of damage despite being retired.
+~
+fox~
+AB 0 0 0
+6 0 2d7+71 59d1+1 1d7+1 charge
+4 4 4 9
+I 0 C 0
+stand stand female 0
+0 0 medium 0
+#8237
+parrot harvey~
+Harvey the parrot~
+Harvey the green parrot sits on a perch here.
+~
+This green parrot is sitting on its perch. It watches your every move. Below 
+the parrot, fixed to its perch is a name plaque. The plaque reads 'Harvey the 
+talking parrot, please mind your fingers'.
+~
+song bird~
+AB 0 0 0
+8 0 2d7+96 79d1+1 1d7+2 peck
+3 3 3 9
+0 0 0 0
+stand stand female 0
+0 0 small 0
+#0
+
+#OBJECTS
+#8200
+key small brass~
+a small brass key~
+A small brass key lies here.~
+brass~
+key 0 A
+0 0 0 0 0
+1 10 4 P
+E
+key~
+It is a small, simple brass key with no inscriptions 
+or marks of any kind.
+~
+#8201
+tee shirt tee-shirt~
+a tee-shirt~
+A plain white tee-shite with large multi-coloured writting on the front 
+is here.~
+satin~
+clothing 0 AK
+0 0 0 0 0
+1 20 50 P
+A
+17 -1
+E
+writting~
+The writting on the tee-shirt reads 
+"I've been to the Midgaard Zoo"
+~
+#8202
+china mug~
+a mug~
+A china mug with multi-coloured writting on it.~
+porcelain~
+drink 0 AO
+3 3 'lemonade' 0 0
+1 10 10 P
+E
+writting~
+The writting on the mug reads
+"I've been to the Midgaard Zoo"
+~
+#8203
+fountain water~
+a fountain~
+A small white fountain gushes forth here.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#8204
+map zoo foldable~
+a map of Midgaard Zoo~
+A small foldable map lies here.~
+paper~
+map 0 AO
+0 0 0 0 0
+1 12 200 P
+E
+map zoo~
+The Midgaard Zoo
+
+             [ ]
+            / |
+           /  |                  G = Gift Shop
+         [G]-[W]--[K]            W = Wishing well
+              |                  K = Kiddies Zoo
+        [X]--[ ]                 X = Out of bounds (Keeper)
+              |                  C = Crocodile
+     [C]      |   [G]            Y = Out Of Bounds (Feed Hut)
+      |       |    |             D = Dolphin
+     [ ]-----[ ]--[ ]--[ ]-[Y]   T = Tiger
+      |       |    |    |        U = Unicorn
+     [D] [E]-[ ]  [b]   |        B = Baby Dragon
+              |        [ ]-[B]   G = Gorilla
+             [T]        |        E = Elephant
+                       [U]       b = Bear
+
+~
+#8205
+zoo dagger~
+a zoo dagger~
+A small, iron dagger with multi-coloured writting lies here.~
+iron~
+weapon 0 AN
+dagger 2 6 pierce 0
+10 80 750 P
+E
+writting~
+The writting on the tee-shirt reads
+"I've been to the Midgaard Zoo"
+~
+#0
+
+#ROOMS
+#8200
+Outside the Midgaard Zoo~
+   You are at the end of a path in the park. You are standing outside main 
+gate of the zoo of Midgaard. To the west you can see a small pond and a small 
+path leads of to the east. To the south are two turnstiles. One leading into 
+the zoo and one leading back out.
+~
+0 C 1
+D1
+~
+~
+0 -1 3115
+D2
+The turnstiles are study and can only be made to turn in one direction.
+~
+turnstile~
+0 -1 8201
+E
+turnstiles turnstile~
+The turnstiles are study and can only be made to turn in one direction.
+~
+S
+#8201
+The Zoo Wishing Well~
+   You are standing just inside the entrance to the Midgaard zoo. 
+The turnstile leading back out should be to the west, but a small building 
+is there instead. You only assume that you must go that way to get back out. 
+To the east is a brightly painted entrance to the Kiddies Zoo and to the south 
+is the Main Zoo.
+~
+0 0 1
+D0
+The turnstile looks study and impossible to get through from this side.
+~
+turnstile~
+0 -1 -1
+D1
+You can see a few huts and pens to the East.
+~
+~
+0 -1 8230
+D2
+You can see a small path.
+~
+~
+0 -1 8204
+D3
+The building appears to be a gift shop for the tourists.
+~
+door~
+2 -1 8205
+D5
+You can see coins glistening in the murky water at the bottom of the well.
+~
+grate~
+1 8200 8203
+S
+#8203
+Bottom of the Wishing Well~
+   You are up to you neck is thick murky water. You can just make out 
+enough hand and foot holds to allow you to climb up back to the surface.
+~
+8200 1 6
+D4
+You can see the sky.
+~
+grate~
+1 8200 8201
+S
+#8204
+A path in the zoo~
+   You are standing on a small path in the zoo. To the west is a small 
+important looking building and to both the north and south the path continues.
+~
+0 0 1
+D0
+You can see a Well.
+~
+~
+0 -1 8201
+D2
+You can see a crossroads.
+~
+~
+0 -1 8207
+D3 
+The door to the building is labeled 'Zoo Keeper'.
+~
+door~
+1 -1 8206
+S
+#8205
+The Gift Shop~
+   Row apon row of pointless zoo mercandise lines the walls of this room. 
+Why anyone one would want an 'I've been to Midgaard Zoo' Tee-shirt is beyond 
+you. North leads through a turnstile to the out side world and east leads back 
+into the zoo. A sign sits on the shop counter. 
+~
+8200 8 0
+D0 
+A study turnstile leading out of the zoo.
+~
+turnstile~
+0 -1 8200
+D1
+You can see the zoo Well though the door.
+~
+door~
+2 -1 8201
+E
+sign~
++----------------------+
+|  The Zoo Gift Shop   |
+|                      |
+| Type 'list' or 'buy' |
+|  here to deal with   |
+|     shop keeper.     |
++----------------------+
+~
+S
+#8206
+Zoo Keepers Office~
+   You are standing in the office of the Zoo keeper. A large oak desk fills 
+the room litered with numerous small pieces of paper.
+~
+8200 D 0
+D1
+~
+door~
+1 -1 8204
+E
+paper~
+You pick a piece of paper randomly and read it. It details the profits of the
+zoo for the last week. Wow! You realise this guy is making a packet.
+~
+S
+#8207
+Crossroads in the Zoo~
+   You are standing in the middle of a crossroads. Paths lead off to the 
+north, east, south and west.
+~
+0 0 1
+D0
+You can see a small path.
+~
+~
+0 -1 8204
+D1
+You can see a small path.
+~
+~
+0 -1 8208
+D2
+You can see a small path.
+~
+~
+0 -1 8209
+D3
+You can see a small path.
+~
+~
+0 -1 8210
+S
+#8208
+A path between cages~
+   You are standing in a path inside the famous midgaarrd zoo. To the north 
+and south there are cages. The path continues to the east and west.
+~
+0 0 1
+D0
+A gorilla stands in the cage pounding his chest at you, as if he was daring 
+you. Surely they can't be that clever?
+~
+door cage~
+2 8200 8211
+D1
+You can see a small hut in the distance.
+~
+~
+0 -1 8213
+D2
+A big brown bear stands upright and growls as you walk towards the cage to 
+get a better look.
+~
+door cage~
+2 8200 8212
+D3
+You can see the crossroads.
+~
+~
+0 -1 8207
+S
+#8209
+A path between cages~
+   You are standing in a path inside the famous midgaarrd zoo. To the west 
+and south there are cages. The path leads back north.
+~
+0 0 1
+D0
+You can see the crossroads.
+~
+~
+0 -1 8207
+D2
+A large Tiger can be seen through the bars of the cage door. The tiger is 
+wandering up and down in the cage and looks slightly bored.
+~
+cage door~
+2 8200 8214
+D3
+A large Elephant stands idly in the cage to the west.
+~
+cage door~
+2 8200 8215
+S
+#8210
+A path between cages~
+   You are standing in a path inside the famous midgaarrd zoo. To the north 
+and south there are cages. Both of these cages are around pools of water. The 
+path leads back to the east.
+~
+0 0 1
+D0
+Numerous crocodiles can be seen through the bars in the cage door. 
+The crocodiles thrash about in the pools water.
+~
+cage door~
+2 8200 8216
+D1
+You can see the crossroads.
+~
+~
+0 -1 8207
+D2
+Numerous dolphins can be seen through the bars in the cage door. They are 
+playfully frolicing in the water.
+~
+door cage~
+2 8200 8217
+S
+#8211
+The gorilla cage~
+   You are standing in the zoo's gorilla cage. A buddle of stray lies under 
+a large uprooted tree here. The door out of the cage is to the south.
+~
+0 0 1
+D2
+You can see a small path past the cage door.
+~
+door cage~
+2 8200 8208
+S
+#8212
+The bear cage~
+   You are standing in the zoo's bear cage. A large chunk of meat lies half 
+eaten in one corner of the cage. You wonder what it was before the bear got 
+hold of it. The door out of the cage is to the north.
+~
+0 0 1
+D0
+You can see a small path past the cage door.
+~
+door cage~
+2 8200 8208
+S
+#8213
+A bend in the path~
+   The path bends from the west to the south here. A door leading to a small 
+hut is to the east of here.
+~
+0 0 1
+D1
+The door is quite weak.
+~
+door~
+1 -1 8219
+D2
+You can see a small path.
+~
+~
+0 -1 8218
+D3
+You can see a small path.
+~
+~
+0 -1 8208
+S
+#8214
+The tiger cage~
+   You are standing in the zoo's tiger cage. Long grass grows every where here. No wonder really you wouldn't come in here to cut it. Suddenly you realize you are in here. What have you done? Perhaps you should make a run for the door to the north.
+~
+0 0 1
+D0
+You can see a small path through the door.
+~
+cage door~
+2 8200 8209
+S
+#8215
+The elephant cage~
+   You are standing in the zoo's elephant cage. The ground here is hard and 
+dust. A door out of the cage is to the east.                
+~
+0 0 1
+D1
+You can see a samll path through the door.
+~
+cage door~
+2 8200 8209
+S
+#8216
+The crocodile cage~
+   You are standing in the zoo's crocodile cage. Most of the cage if taken up 
+with a large pool of water. A door out of the cage is to the south.
+~
+0 0 6
+D2
+You can see a small path through the door.
+~
+cage door~
+2 8200 8210
+S
+#8217
+The dolphins cage~
+   You are in the zoo's dolphin cage. You are swimming in a pool of water. 
+A door out of the cage is to the north.
+~
+0 0 6
+D0
+You can see a small path through the door.
+~
+cage door~
+2 8200 8210
+S
+#8218
+A path between cages~
+   You are standing in a path inside the famous midgaarrd zoo. To the east 
+and south there are cages. The path leads back north.
+~
+0 0 1
+D1
+You can see a gigantic lizard through the cage door.
+~
+cage door~
+2 8200 8220
+D2
+You can see a white horned horse through the cage door.
+~
+cage door~
+2 8200 8221
+D0
+You can see a small path through the door.
+~
+~
+0 -1 8213
+S
+#8219
+The animal food store hut~
+   You are standing in a small hut. From looking around you gather it is used 
+to store food for all the animal in the zoo. A door out of the hut is to the 
+west.
+~
+8200 D 0
+D3
+The door is quite weak.
+~
+door~
+1 -1 8213
+S
+#8220
+The baby dragon cage~
+   You are standing in the zoo's baby dragon cage. The cage is totally empty 
+of all stuff. A door out of the cage is to the west.
+~
+0 0 1
+D3
+You can see a small path through the cage door.
+~
+cage door~
+2 8200 8218
+S
+#8221
+the unicorn cage~
+   You are standing in the zoo's unicorn cage. Inside the cage feels cold. 
+A door out of the cage is to the north.
+~
+0 0 1
+D0
+You can see a small path through the cage door.
+~
+cage door~
+2 8200 8218
+S
+#8230
+Entrance to the Kiddies Zoo~
+  You are standing in the entrance to the Kiddies Zoo in Midgaard. 
+To the west is the zoo's well and to the east there is a small path.
+~
+0 0 1
+D3
+You can see a Well.
+~
+~
+0 -1 8201
+D1
+You can see a small path.
+~
+~
+0 -1 8231
+S
+#8231
+A small path in the Kiddies Zoo~
+  You are standing on a small path in the Kiddies Zoo. To the north there is 
+a enclosure containing goats, and to the south there is a pig pen. The path 
+continues to the east and the entrance is west.
+~
+0 0 1
+D0
+You can see a family of goats.
+~
+~
+0 -1 8232
+D1
+You can see a small path
+~
+~
+0 -1 8234
+D2 
+You can see some pigs wollowing in mud.
+~
+~
+0 -1 8233
+D3
+You can see the entrance way.
+~
+~
+0 -1 8230
+S         
+#8232
+The goat enclosure~
+   A large fallen tree is here so visitors can sit and play with the goats. 
+A small path is to the south.
+~
+0 0 1
+D2
+You can see a small path.
+~
+~
+0 -1 8231
+S
+#8233
+The pig pen~
+   You are standing up to you ankles in mud mixed up with bits of straw. 
+A foul smell fills your nostrils. You can go back to the path to the north.
+~
+0 0 1
+D0
+You can see a small path.
+~
+~
+0 -1 8231
+S
+#8234
+A small path in the Kiddies Zoo~
+   You are standing on a small path in the Kiddies Zoo. To the north there is 
+a large aviry and to the south there is a small stable. The path leads back 
+west.
+~
+0 0 1
+D0
+You can see birds flying in a large wood and mesh structure.
+~
+door~
+1 -1 8236
+D3
+You can see a small path.
+~
+~
+0 -1 8231
+D2
+You can see a horses head poking out of a stable door.
+~
+door~
+1 -1 8235
+S
+#8235
+A stable~
+   You are standing in a small stable. Straw lays all over the floor and 
+various horse shoes and leather tack items have been nailed firmly to the 
+walls. There is a door out to the north.
+~
+0 D 0
+D0
+Through the stable door you can see a small path with a aviry in the distance.
+~
+door~
+1 -1 8234
+S
+#8236
+In the Aviary~
+   You are standing in a large aviary. The aviry continues to the north and 
+a door out is to the south.
+~
+0 D 0
+D0
+You can see the aviary continue.
+~
+~
+0 -1 8237
+D2
+You can see a small path through the window in the door.
+~
+door~
+1 -1 8234
+S
+#8237
+In the Aviary~
+   You are standing in a large aviary. The aviary continues to the West and 
+the South.
+~
+0 D 2
+D2
+You can see the aviary continue.
+~
+~
+0 -1 8236
+D3
+You can see the aviary continue.
+~
+~
+0 -1 8238
+S
+#8238
+In the Aviary~
+   You are standing at the end of the aviary. More aviary is to the east.
+~
+0 D 0
+D1
+You can see the aviary continue.
+~
+~
+0 -1 8237
+S
+#0
+
+#RESETS
+* this area has been converted to ROM 2.4 format by jaceks
+* area Zoo of Midgaard is connected with:
+*         8200 <> 3115 (midgaard)
+*         8200 <> 3116 (midgaard)
+* ver 1.00
+* - section #SPECIALS added
+* - section #SHOPS added
+* - a zoo dagger added
+* - fountain added
+*                      jaceks, Wed Jul 31 00:12:08 MET DST 1996
+*
+* M 0 6502 1 8218    Tourist  (somewhere_between_cages)
+* E 1 8201 500 5    Tee-shirt
+* E 1 1025 100 16   Wields wakizashi 
+*
+M 0 8200 1 8205 1  * Gift shop keeper (S)
+G 0 8201 -1        * a tee-shirt
+G 0 8202 -1        * a mug
+G 0 8204 -1        * a map of Midgaard Zoo
+G 0 8205 -1        * a zoo dagger
+*
+D 0 8201 5 2      * Lock Well grate
+D 0 8204 3 1      * Zoo keepers hut
+D 0 8206 1 1      * Zoo keepers hut
+*
+D 0 8210 0 2      * Cages
+D 0 8210 2 2
+D 0 8216 2 2
+D 0 8217 0 2
+*
+D 0 8209 3 2
+D 0 8209 2 2
+D 0 8214 0 2
+D 0 8215 1 2
+*
+D 0 8208 0 2
+D 0 8208 2 2
+D 0 8211 2 2
+D 0 8212 0 2
+*
+D 0 8218 1 2
+D 0 8218 2 2
+D 0 8220 3 2
+D 0 8221 0 2
+*
+M 0 8201 1 8206 1  * Zoo keeper (10)
+G 1 8200 8           * Zoo key
+*
+M 0 8211 1 8219  1 * Zoo assistant  (10)
+E 1 8205 -1 16       * wields a zoo dagger
+*
+O 0 8203 1 8201 1  * Well
+*
+M 0 8203 1 8214 1  * Tiger (17)
+*
+M 0 8206 3 8216 3  * Crocodile (13)
+*
+M 0 8204 2 8217 2  * Dolphin (10)
+*
+M 0 8205 1 8221 1  * Unicorn (15)
+*G 1 8205 100
+*
+M 0 8202 6 8203 4  * Giant Leech (3)
+*
+M 0 8209 1 8215 1  * Elephant (14)
+*
+M 0 8210 1 8211 1  * Gorilla (15)
+*
+M 0 8207 1 8212 1  * Bear (13)
+*
+M 0 8208 1 8220 1  * Baby Dragon (19)
+*
+M 0 8230 6 8233 3  * Pigs (3)
+*
+M 0 8234 1 8232 1                (2)
+M 0 8233 1 8232 1  * Goat Family (3)
+M 0 8232 1 8232 1                (4)
+*
+D 0 8235 0 1       * Close Stable door
+D 0 8234 2 1
+*
+* M 0 8236 1 8235 1  * Horse (5) /* temporaly removed */
+M 0 8235 1 8235 1  * Donkey (6)
+*
+D 0 8236 2 1       * Close aviary door
+D 0 8234 0 1
+*
+M 0 8231 12 8236 7 * Small birds (1)
+*
+M 0 8231 12 8238 1 * Small bird (1)
+*
+M 0 8237 1 8238 1  * parrot (8)
+*
+S
+
+#SHOPS
+8200 0 0 0 0 0  100 100  0 23  * shopkeeper Giles
+0
+
+#SPECIALS
+M 8208 spec_breath_lightning   * the baby dragon
+S
+
+#$

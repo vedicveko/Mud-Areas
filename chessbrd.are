@@ -1,0 +1,2045 @@
+#AREADATA
+Credits     {r< 55- 99> {bFreak    {gChessboard   {x~
+Name        chessboard~
+Filename    chessbrd.are~
+Builders    Freak~
+VNUMs       15800 15899
+Security    9
+End
+
+
+
+#MOBILES
+#15800
+green pawn~
+a green pawn~
+A green pawn stands here proudly.
+~
+A green chess pawn.  Tall in stature, and tough in spirit, it fights to
+overthrow the evils of the black chess pieces.  
+~
+human~
+AGHTW CF 777 0
+55 6 10d204+1078 55d10+100 5d19+28 none
+-24 -24 -24 -7
+CEFKN H 0 I
+stand stand none 4000
+AHMV ABCDEFGHIJK M 0
+#15801
+red pawn~
+a red pawn~
+A red pawn stands at the ready.
+~
+A red chess pawn that is here to conquer, destroy and overpower the green
+pieces.  It is determined to make the life of anyone that stands in its way
+a living hell.  
+~
+human~
+AGHTW FG -777 0
+55 6 10d204+1078 55d10+100 5d19+28 none
+-24 -24 -24 -7
+CEFKN I 0 H
+stand stand none 4000
+AHMV ABCDEFGHIJK M 0
+#15802
+green rook~
+a green rook~
+A green rook surveys the surrounding squares.
+~
+The green rook patrols the chessboard quickly and quietly.  
+~
+human~
+AGHT CDFH 777 0
+85 27 10d487+2244 85d10+100 5d29+46 none
+-43 -43 -43 -16
+CEFK H 0 I
+stand stand none 4200
+AHMV ABCDEFGHIJK M 0
+#15803
+red rook~
+a red rook~
+A red rook blocks your path.
+~
+The red rook patrols the chessboard quickly and quietly.  
+
+~
+human~
+AGHT DFGH -777 0
+85 27 10d487+2244 85d10+100 5d29+46 none
+-43 -43 -43 -16
+CEFK I 0 H
+stand stand none 4200
+AHMV ABCDEFGHIJK M 0
+#15804
+green knight~
+a green knight~
+A green knight patrols the chessboard, watching for invaders.
+~
+A tall, thin horse head makes this piece one of the most distinguishable
+on the board.  It serves as the second line of protection for the green
+side.  
+~
+human~
+AGHT CDFH 777 0
+65 13 10d285+1420 65d10+100 5d22+36 none
+-30 -30 -30 -10
+CEFK H 0 I
+stand stand none 4400
+AHMV ABCDEFGHIJK M 0
+#15805
+red knight~
+a red knight~
+A red knight defends its territory.
+~
+A tall, thin horse head makes this piece one of the most distinguishable
+on the board.  It serves as the second line of protection for the red side. 
+~
+human~
+AGHT DFGH -777 0
+65 13 10d285+1420 65d10+100 5d22+36 none
+-30 -30 -30 -10
+CEFK I 0 H
+stand stand none 4400
+AHMV ABCDEFGHIJK M 0
+#15806
+green bishop~
+a green bishop~
+A green bishop stands here, blessing surrounding squares.
+~
+The bishop is the cleric for the green army.  He is here to heal and
+protect green soldiers in their war against the red.  
+~
+human~
+AGHQ CDFH 777 0
+75 20 10d379+1812 150d10+100 5d26+38 none
+-36 -36 -36 -13
+CEFK H 0 I
+stand stand none 4600
+AHMV ABCDEFGHIJK M 0
+#15807
+red bishop~
+a red bishop~
+A red bishop stands here, cursing the green army.
+~
+The bishop is the cleric for the red army.  He is here to heal and
+protect red soldiers in their war against the green.  
+~
+human~
+AGHQ DFGH -777 0
+75 20 10d379+1812 150d10+100 5d26+38 none
+-36 -36 -36 -13
+CEFK I 0 H
+stand stand none 4600
+AHMV ABCDEFGHIJK M 0
+#15808
+green king~
+the green king~
+The King of the Green Army is here, yelling orders to his troops.
+~
+The King is strong, and second only to the queen in power and might.  He
+acts as commander of the green army.  
+~
+human~
+AGHT CDFH 777 0
+95 34 10d609+2716 95d10+100 5d33+48 none
+-49 -49 -49 -19
+CEFK H 0 I
+stand stand male 4800
+AHMV ABCDEFGHIJK M 0
+#15809
+red king~
+the red king~
+The King of the red army is here, yelling orders to his troops.
+~
+The King is strong, and second only to the queen in power and might.  He
+acts as commander of the red army.  
+~
+human~
+AGHT DFGH -777 0
+95 34 10d609+2716 95d10+100 5d33+48 none
+-49 -49 -49 -19
+CEFK I 0 H
+stand stand male 4800
+AHMV ABCDEFGHIJK M 0
+#15810
+green queen~
+the green queen~
+The Queen of the green army flaunts her nobility and power.
+~
+She is the most powerful piece on the green side.  She orders the king to
+order the troops to do what she wants them to do.  She has as much wealth as
+she does power.  
+~
+human~
+AGHR CDFH 777 0
+105 41 10d744+3238 210d10+100 5d36+56 none
+-55 -55 -55 -22
+CEFKQ H 0 I
+stand stand female 5000
+AHMV ABCDEFGHIJK M 0
+#15811
+red queen~
+the red queen~
+The Queen of the red army is here, pondering her next move.
+~
+She is the most powerful piece on the red side.  She orders the king to
+order the troops to do what she wants them to do.  She has as much wealth as
+she does power.  
+~
+human~
+AGHR DFGH -777 0
+105 41 10d744+3238 210d10+100 5d36+56 none
+-55 -55 -55 -22
+CEFKQ I 0 H
+stand stand female 5000
+AHMV ABCDEFGHIJK M 0
+#15812
+oil slick~
+an oil slick ~
+A large pool of oil completely covers this square on the chessboard.
+~
+A rather large, rather slippery oil slick.  
+~
+human~
+ACGHTU CDFG 0 0
+60 10 10d243+1242 60d10+100 5d21+30 none
+-27 -27 -27 -8
+FN 0 D J
+stand stand none 4100
+AHMV ABCDEFGHIJK M 0
+#15813
+Jester~
+a jester~
+A court jester is skipping around here.
+~
+Clad in bright clothes, with a big grin on his face, the court jester
+runs around obnoxiously trying to get get chess pieces To laugh.  
+~
+human~
+AGHTU CDFG 0 0
+70 16 10d330+1614 70d10+100 5d24+37 none
+-33 -33 -33 -11
+FN 0 D 0
+stand stand either 4300
+AHMV ABCDEFGHIJK M 0
+#15814
+pegasus~
+a pegasus~
+A pegasus gallops by you.
+~
+The pegasus is a beautiful winged horse.  It is the color of snow, and
+has deep black eyes.  
+~
+human~
+AGHTU CDFGT 0 0
+80 24 10d432+2016 80d10+100 5d28+40 none
+-40 -40 -40 -15
+CDFN 0 D 0
+stand stand none 4500
+AHMV ABCDEFGHIJK M 0
+#15815
+scum sucker~
+a scum sucker~
+A scum sucker sweeps up every step you take.
+~
+It looks like a broom: A mouth covered with bristles and the tail of a
+horse, with a broomstick-sized body.  It has the job of keeping the
+chessboard clean.  
+~
+human~
+AGHTU CDFG 0 0
+90 30 10d546+2478 90d10+100 5d31+47 none
+-46 -46 -46 -18
+FN 0 D 0
+stand stand none 4700
+AHMV ABCDEFGHIJK M 0
+#15816
+pixie~
+a pixie~
+A pixie zips past your nose.
+~
+A pixie is a tiny fairie that keeps an eye out on the movements of the
+green and red chess pieces.  
+~
+human~
+AGHTU CFGT 0 0
+100 38 10d675+2970 100d10+100 5d35+50 none
+-52 -52 -52 -21
+F 0 D 0
+stand stand none 4900
+AHMV ABCDEFGHIJK M 0
+#15820
+healer druid~
+The druidess~
+A Druidess is here to heal you.
+~
+A blonde-haired blue-eyed human woman is here to tend the garden and heal
+the wounds of hurt World Shapers.  
+~
+human~
+ABQRac 0 0 0
+80 0 10d432+2016 160d10+100 5d28+40 none
+-40 -40 -40 -15
+0 ABCD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#15888
+Cthulhu~
+Cthulhu~
+Cthulhu gets ready to have you for lunch.
+~
+Yeah right... like you're still alive to read this.
+Cthulhu is a big, bad immortal mofo.  
+Not convinced? Look again (if you aren't dead yet) and you'll see:
+A squid for Cthulhu's head.
+The body and wigs of a dragon.
+Large eagle-talons used as feet.
+ 
+You should be dead by now... Cthulhu likes eating EVERYONE and EVERYTHING.
+~
+school monster~
+ABCFORTUc CDEFGHJTVac 0 0
+1000 0 10d1964+29994 2000d10+100 5d350+500 none
+-615 -615 -615 -302
+0 AB 0 C
+stand stand none 0
+ABMV ABCDEFHJKQU M 0
+#0
+
+
+#OBJECTS
+#15800
+staff green quarterstaff~
+a green quarterstaff~
+A green quarterstaff lies on the ground here.~
+none~
+weapon K AN
+polearm 7 8 pound F
+52 43 5700 P
+E
+green~
+A quarterstaff that once belonged to a green pawn is here.  
+~
+#15801
+staff red quarterstaff~
+a red quarterstaff~
+A red quarterstaff lies on the ground here.~
+none~
+weapon J AN
+polearm 7 8 pound F
+52 43 5700 P
+E
+red~
+A red quarterstaff that once belonged to a red pawn lies here.  
+~
+#15802
+green lance~
+a green lance~
+A green knight's lance lies on the ground here.~
+none~
+weapon K AN
+spear 1 68 none 0
+63 100 7000 P
+E
+green~
+A large green lance lies here.  
+~
+#15803
+red lance~
+a red lance~
+A red knight's lance lies on the ground here.~
+none~
+weapon J AN
+spear 1 68 none 0
+63 100 7000 P
+E
+red~
+A large lance belonging once to a red knight.  
+~
+#15804
+green bishop hat~
+a bishop's hat~
+A green bishop's sacred hat lies trampled in the dust here.~
+none~
+armor GKS AE
+ABDE ABDE ABDE AE 0
+74 23 8213 P
+F A 4 1 0
+F A 12 25 0
+F A 17 -2 0
+#15805
+red bishop hat~
+a bishop's hat~
+A red bishop's hat has been trampled in the dust and left here.~
+none~
+armor GJS AE
+ABDE ABDE ABDE AE 0
+74 23 8213 P
+#15806
+ivory bracer~
+an ivory bracer~
+A bracer made of pure ivory lies here.~
+none~
+armor K AI
+DF DF DF BF 0
+85 91 4400 P
+#15807
+obsidian bracer~
+an obsidian bracer~
+A bracer made of pure obsidian lies here.~
+none~
+armor J AI
+DF DF DF BF 0
+85 91 4400 P
+#15808
+magic dagger~
+a magical dagger~
+A magical dagger lies on the ground forgotten.~
+none~
+weapon AGS AN
+dagger 3 30 pierce E
+85 64 6171 P
+#15809
+royal crest shield~
+shield of the green army~
+A shield bearing the crest of the green army lies here.~
+none~
+armor K AJ
+ABCEF ABCEF ABCEF BCF 0
+89 107 8201 P
+F A 17 -10 0
+F A 1 2 0
+E
+crest~
+The crest is a giant green dragon.  It covers the whole shield.  
+~
+#15810
+royal crest shield~
+shield of the red army~
+A shield bearing the crest of the red army lies here.~
+none~
+armor J AJ
+ABCEF ABCEF ABCEF BCF 0
+89 107 8201 P
+F A 17 -10 0
+F A 1 2 0
+E
+crest~
+The red army's crest is a giant demon.  It covers the whole shield.  
+~
+#15811
+royal green robe~
+the royal robe of the green queen~
+The green queen's robe lies here in a crumpled ball.~
+none~
+armor K AK
+BEF BEF BEF ABCDF 0
+102 37 10000 P
+F A 2 1 0
+F A 12 20 0
+E
+robe~
+This robe is made from the finest green silk.  
+~
+#15812
+royal red robe~
+the royal robe of the red queen~
+The red queen's royal robe has been left here.~
+none~
+armor J AK
+BEF BEF BEF ABCDF 0
+102 37 10000 P
+F A 2 1 0
+F A 12 20 0
+E
+robe~
+This robe is made from the finest red silk.  
+~
+#15813
+jester slippers~
+a jester's slippers~
+Slippers with bells on the toes lie here.~
+none~
+armor 0 AG
+ABD ABD ABD 0 0
+69 17 5 P
+#15817
+mystical portal~
+{G a portal to the Mystical Garden Qwest (look mystical){x~
+{G A portal to the Mystical Garden Qwest is here.{x~
+none~
+portal T A
+A 0 0 BCFHJLO 0
+65 0 0 P
+E
+mystical~
+Drop and enter this portal to go to the Mystical Garden qwest and relive
+the adventure Daz went through to win the Holy Rose.  Be prepared because
+there are many no_recall rooms there, but the divine shears you can gain if
+you suceed are worth it.  The Mystical garden was made by Vestrivan for the
+all of ET to enjoy.  You should be at least level 65 to try this qwest.  
+~
+#15819
+et disclaimer~
+et disclaimer~
+This area is copyrighted by Eternitys Trials.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+disclaimer~
+Please do not distribute this area, or use without the express permission
+of the Immortals at Eternitys Trials at mud@mud.  Moonlight.  Net.  Telnet
+mud.  Moonlight.  Net 9000 
+~
+#15865
+no name~
+(no short description)~
+(no description)~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#15888
+no name~
+(no short description)~
+(no description)~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#15896
+BonBon~
+a bonbon~
+A magic bonbon lies here... yum.~
+none~
+pill B A
+69 'heal' 'heal' 'heal' 'none'
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#15800
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  South and east are black squares.  Peering over the edge, you
+see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D1
+~
+~
+0 0 15801
+D2
+~
+~
+0 0 15815
+S
+#15801
+A Black Square~
+You are standing on a square made of black marble at the north end of the
+chessboard.  East, south and west are white squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15802
+D2
+~
+~
+0 0 15814
+D3
+~
+~
+0 0 15800
+S
+#15802
+A White Square~
+You are standing on a square made of white marble at the north end of the
+chessboard.  East, south and west are black squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15803
+D2
+~
+~
+0 0 15813
+D3
+~
+~
+0 0 15801
+S
+#15803
+A Black Square~
+You are standing on a square made of black marble at the north end of the
+chessboard.  East, south and west are white squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15804
+D2
+~
+~
+0 0 15812
+D3
+~
+~
+0 0 15802
+S
+#15804
+A White Square~
+You are standing on a square made of white marble at the north end of the
+chessboard.  East, south and west are black squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15805
+D2
+~
+~
+0 0 15811
+D3
+~
+~
+0 0 15803
+S
+#15805
+A Black Square~
+You are standing on a square made of black marble at the north end of the
+chessboard.  East, south and west are white squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15806
+D2
+~
+~
+0 0 15810
+D3
+~
+~
+0 0 15804
+S
+#15806
+A White Square~
+You are standing on a square made of white marble at the north end of the
+chessboard.  East, south and west are black squares.  
+~
+0 0 0
+D1
+~
+~
+0 0 15807
+D2
+~
+~
+0 0 15809
+D3
+~
+~
+0 0 15805
+S
+#15807
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  South and west are white squares.  Peering over the edge, you
+see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D2
+~
+~
+0 0 15808
+D3
+~
+~
+0 0 15806
+S
+#15808
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North,south and west are black squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15807
+D2
+~
+~
+0 0 15823
+D3
+~
+~
+0 0 15809
+S
+#15809
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15806
+D1
+~
+~
+0 0 15808
+D2
+~
+~
+0 0 15822
+D3
+~
+~
+0 0 15810
+S
+#15810
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15805
+D1
+~
+~
+0 0 15809
+D2
+~
+~
+0 0 15821
+D3
+~
+~
+0 0 15811
+S
+#15811
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15804
+D1
+~
+~
+0 0 15810
+D2
+~
+~
+0 0 15820
+D3
+~
+~
+0 0 15812
+S
+#15812
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15803
+D1
+~
+~
+0 0 15811
+D2
+~
+~
+0 0 15819
+D3
+~
+~
+0 0 15813
+S
+#15813
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15802
+D1
+~
+~
+0 0 15812
+D2
+~
+~
+0 0 15818
+D3
+~
+~
+0 0 15814
+S
+#15814
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15801
+D1
+~
+~
+0 0 15813
+D2
+~
+~
+0 0 15817
+D3
+~
+~
+0 0 15815
+S
+#15815
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and east are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15800
+D1
+~
+~
+0 0 15814
+D2
+~
+~
+0 0 15816
+S
+#15816
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North,south and east are black squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15815
+D1
+~
+~
+0 0 15817
+D2
+~
+~
+0 0 15831
+S
+#15817
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15814
+D1
+~
+~
+0 0 15818
+D2
+~
+~
+0 0 15830
+D3
+~
+~
+0 0 15816
+S
+#15818
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15813
+D1
+~
+~
+0 0 15819
+D2
+~
+~
+0 0 15829
+D3
+~
+~
+0 0 15817
+S
+#15819
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15812
+D1
+~
+~
+0 0 15820
+D2
+~
+~
+0 0 15828
+D3
+~
+~
+0 0 15818
+S
+#15820
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15811
+D1
+~
+~
+0 0 15821
+D2
+~
+~
+0 0 15827
+D3
+~
+~
+0 0 15819
+S
+#15821
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15810
+D1
+~
+~
+0 0 15822
+D2
+~
+~
+0 0 15826
+D3
+~
+~
+0 0 15820
+S
+#15822
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15809
+D1
+~
+~
+0 0 15823
+D2
+~
+~
+0 0 15825
+D3
+~
+~
+0 0 15821
+D4
+~
+~
+0 0 15864
+S
+#15823
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and west are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15808
+D2
+~
+~
+0 0 15824
+D3
+~
+~
+0 0 15822
+S
+#15824
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North,south and west are black squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15823
+D2
+~
+~
+0 0 15839
+D3
+~
+~
+0 0 15825
+S
+#15825
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15822
+D1
+~
+~
+0 0 15824
+D2
+~
+~
+0 0 15838
+D3
+~
+~
+0 0 15826
+S
+#15826
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15821
+D1
+~
+~
+0 0 15825
+D2
+~
+~
+0 0 15837
+D3
+~
+~
+0 0 15827
+S
+#15827
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15820
+D1
+~
+~
+0 0 15826
+D2
+~
+~
+0 0 15836
+D3
+~
+~
+0 0 15828
+S
+#15828
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15819
+D1
+~
+~
+0 0 15827
+D2
+~
+~
+0 0 15835
+D3
+~
+~
+0 0 15829
+S
+#15829
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15818
+D1
+~
+~
+0 0 15828
+D2
+~
+~
+0 0 15834
+D3
+~
+~
+0 0 15830
+S
+#15830
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15817
+D1
+~
+~
+0 0 15829
+D2
+~
+~
+0 0 15833
+D3
+~
+~
+0 0 15831
+S
+#15831
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and east are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15816
+D1
+~
+~
+0 0 15830
+D2
+~
+~
+0 0 15832
+S
+#15832
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North,south and east are black squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15831
+D1
+~
+~
+0 0 15833
+D2
+~
+~
+0 0 15847
+S
+#15833
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15830
+D1
+~
+~
+0 0 15834
+D2
+~
+~
+0 0 15846
+D3
+~
+~
+0 0 15832
+S
+#15834
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15829
+D1
+~
+~
+0 0 15835
+D2
+~
+~
+0 0 15845
+D3
+~
+~
+0 0 15833
+S
+#15835
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15828
+D1
+~
+~
+0 0 15836
+D2
+~
+~
+0 0 15844
+D3
+~
+~
+0 0 15834
+S
+#15836
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15827
+D1
+~
+~
+0 0 15837
+D2
+~
+~
+0 0 15843
+D3
+~
+~
+0 0 15835
+S
+#15837
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15826
+D1
+~
+~
+0 0 15838
+D2
+~
+~
+0 0 15842
+D3
+~
+~
+0 0 15836
+S
+#15838
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15825
+D1
+~
+~
+0 0 15839
+D2
+~
+~
+0 0 15841
+D3
+~
+~
+0 0 15837
+S
+#15839
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and west are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15824
+D2
+~
+~
+0 0 15840
+D3
+~
+~
+0 0 15838
+S
+#15840
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North and west are white squares.  Peering over the edge, you
+see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15839
+D2
+~
+~
+0 0 15855
+D3
+~
+~
+0 0 15841
+S
+#15841
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15838
+D1
+~
+~
+0 0 15840
+D2
+~
+~
+0 0 15854
+D3
+~
+~
+0 0 15842
+S
+#15842
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 15837
+D1
+~
+~
+0 0 15841
+D2
+~
+~
+0 0 15853
+D3
+~
+~
+0 0 15843
+S
+#15843
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15836
+D1
+~
+~
+0 0 15842
+D2
+~
+~
+0 0 15852
+D3
+~
+~
+0 0 15844
+S
+#15844
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15835
+D1
+~
+~
+0 0 15843
+D2
+~
+~
+0 0 15851
+D3
+~
+~
+0 0 15845
+S
+#15845
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15834
+D1
+~
+~
+0 0 15844
+D2
+~
+~
+0 0 15850
+D3
+~
+~
+0 0 15846
+S
+#15846
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15833
+D1
+~
+~
+0 0 15845
+D2
+~
+~
+0 0 15849
+D3
+~
+~
+0 0 15847
+S
+#15847
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and east are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15832
+D1
+~
+~
+0 0 15846
+D2
+~
+~
+0 0 15848
+S
+#15848
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North,south and east are black squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15847
+D1
+~
+~
+0 0 15849
+D2
+~
+~
+0 0 15863
+S
+#15849
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15846
+D1
+~
+~
+0 0 15850
+D2
+~
+~
+0 0 15862
+D3
+~
+~
+0 0 15848
+S
+#15850
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15845
+D1
+~
+~
+0 0 15851
+D2
+~
+~
+0 0 15861
+D3
+~
+~
+0 0 15849
+S
+#15851
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15844
+D1
+~
+~
+0 0 15852
+D2
+~
+~
+0 0 15860
+D3
+~
+~
+0 0 15850
+S
+#15852
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15843
+D1
+~
+~
+0 0 15853
+D2
+~
+~
+0 0 15859
+D3
+~
+~
+0 0 15851
+S
+#15853
+A Black Square~
+You are standing on a square made of black marble on the chessboard.  In
+every direction, there is a white square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15842
+D1
+~
+~
+0 0 15854
+D2
+~
+~
+0 0 15858
+D3
+~
+~
+0 0 15852
+S
+#15854
+A White Square~
+You are standing on a square made of white marble on the chessboard.  In
+every direction, there is a black square.  
+~
+0 0 0
+D0
+~
+~
+0 0 15841
+D1
+~
+~
+0 0 15855
+D2
+~
+~
+0 0 15857
+D3
+~
+~
+0 0 15853
+S
+#15855
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North,south and west are white squares.  Peering over the edge,
+you see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15840
+D2
+~
+~
+0 0 15856
+D3
+~
+~
+0 0 15854
+S
+#15856
+A White Square~
+You are standing on a square made of white marble at the edge of the
+chessboard.  North and west are black squares.  Peering over the edge, you
+see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15855
+D3
+~
+~
+0 0 15857
+S
+#15857
+A Black Square~
+You are standing on a square made of black marble at the south end of the
+chessboard.  East, north and west are white squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15854
+D1
+~
+~
+0 0 15856
+D3
+~
+~
+0 0 15858
+S
+#15858
+A White Square~
+You are standing on a square made of white marble at the south end of
+the chessboard.  East, north and west are black squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15853
+D1
+~
+~
+0 0 15857
+D3
+~
+~
+0 0 15859
+S
+#15859
+A Black Square~
+You are standing on a square made of black marble at the south end of the
+chessboard.  East, north and west are white squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15852
+D1
+~
+~
+0 0 15858
+D3
+~
+~
+0 0 15860
+S
+#15860
+A White Square~
+You are standing on a square made of white marble at the south end of
+the chessboard.  East, north and west are black squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15851
+D1
+~
+~
+0 0 15859
+D3
+~
+~
+0 0 15861
+S
+#15861
+A Black Square~
+You are standing on a square made of black marble at the south end of the
+chessboard.  East, north and west are white squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15850
+D1
+~
+~
+0 0 15860
+D3
+~
+~
+0 0 15862
+S
+#15862
+A White Square~
+You are standing on a square made of white marble at the south end of the
+chessboard.  East, north and west are black squares.  
+~
+0 0 0
+D0
+~
+~
+0 0 15849
+D1
+~
+~
+0 0 15861
+D3
+~
+~
+0 0 15863
+S
+#15863
+A Black Square~
+You are standing on a square made of black marble at the edge of the
+chessboard.  North and east are white squares.  Peering over the edge, you
+see nothing but the blackness and occasional bright star of space.  
+~
+0 0 0
+D0
+~
+~
+0 0 15848
+D1
+~
+~
+0 0 15862
+S
+#15864
+Above the Chessboard~
+You are floating in space above a giant black and white tiled chessboard
+covered with red and green chess pieces.  Around you are millions and
+billions of tiny white stars, glowing in the thick blackness of the
+universe.  The portal you entered through is back to the south.  A magical
+sign is floating here.  READ IT.  
+~
+0 CK 1
+E
+sign~
+The Chessboard (levels 50-100)
+By Freak.  Completed 4/7/96
+Note: Consider mobs before trying to kill them.
+Be aware there are a "good" team and a "bad" team
+Lowest mob: Pawn (level 55)
+Highest mob: Queen (Level 105)
+Explore!
+~
+D2
+~
+~
+0 0 15865
+D5
+~
+~
+0 0 15822
+S
+#15865
+A Swirling Purple Portal~
+A swirling mass of purple gas hangs in the sky before you.  Through the
+purple cloud, you can see the thick blackness of an outer-space sky.  You
+also notice that on the ground in front of the gas is what appears to be the
+drawing of a chessboard.  
+~
+0 CK 1
+E
+gas~
+It's a swirling mass of purple gas.  
+~
+E
+chessboard~
+It looks magical.  Looking closer, you see that ALL the squares on the
+board have arrows marked in them, which all point north.  
+~
+D0
+~
+~
+0 0 15864
+D3
+~
+~
+0 0 9268
+S
+#0
+
+
+
+#SPECIALS
+M 15800 spec_ogre_member Load to: a green pawn
+M 15801 spec_troll_member Load to: a red pawn
+M 15802 spec_cast_judge Load to: a green rook
+M 15803 spec_cast_judge Load to: a red rook
+M 15806 spec_cast_cleric Load to: a green bishop
+M 15807 spec_cast_cleric Load to: a red bishop
+M 15808 spec_breath_lightning Load to: the green king
+M 15809 spec_breath_lightning Load to: the red king
+M 15810 spec_cast_mage Load to: the green queen
+M 15811 spec_cast_mage Load to: the red queen
+M 15812 spec_thief Load to: an oil slick 
+M 15815 spec_janitor Load to: a scum sucker
+M 15816 spec_cast_cleric Load to: a pixie
+M 15820 spec_cast_adept Load to: The druidess
+S
+
+
+
+#RESETS
+M 0 15802     2 15800     1   * Load a green rook
+G 0 15806    -1               * An ivory bracer is given to a green rook
+M 0 15804     2 15801     1   * Load a green knight
+E 0 15802    16    16         * A green lance is loaded wielded of a green knight
+M 0 15806     2 15802     1   * Load a green bishop
+E 0 15804     6     6         * A bishop's hat is loaded over the head of a green bishop
+M 0 15810     1 15803     1   * Load the green queen
+E 0 15811    12    12         * The royal robe of the green queen is loaded about the shoulders of the green queen
+M 0 15808     1 15804     1   * Load the green king
+G 0 15809    -1               * Shield of the green army is given to the green king
+M 0 15806     2 15805     1   * Load a green bishop
+E 0 15804     6     6         * A bishop's hat is loaded over the head of a green bishop
+M 0 15804     2 15806     1   * Load a green knight
+E 0 15802    16    16         * A green lance is loaded wielded of a green knight
+M 0 15802     2 15807     1   * Load a green rook
+E 0 15808    16    16         * A magical dagger is loaded wielded of a green rook
+G 0 15806    -1               * An ivory bracer is given to a green rook
+M 0 15800     8 15808     1   * Load a green pawn
+E 0 15800    16    16         * A green quarterstaff is loaded wielded of a green pawn
+M 0 15800     8 15809     1   * Load a green pawn
+M 0 15800     8 15810     1   * Load a green pawn
+M 0 15800     8 15811     1   * Load a green pawn
+M 0 15800     8 15812     1   * Load a green pawn
+E 0 15800    16    16         * A green quarterstaff is loaded wielded of a green pawn
+M 0 15800     8 15813     1   * Load a green pawn
+M 0 15800     8 15814     1   * Load a green pawn
+M 0 15800     8 15815     1   * Load a green pawn
+E 0 15800    16    16         * A green quarterstaff is loaded wielded of a green pawn
+M 0 15812     3 15816     1   * Load an oil slick 
+M 0 15813     2 15819     1   * Load a jester
+E 0 15813     8     8         * A jester's slippers is loaded on the feet of a jester
+G 0 15817    -1               * {g a portal to the mystical garden qwest (look mystical){x is given to a jester
+M 0 15814     2 15821     1   * Load a pegasus
+M 0 15816     2 15821     1   * Load a pixie
+M 0 15815     2 15823     1   * Load a scum sucker
+M 0 15812     3 15832     1   * Load an oil slick 
+M 0 15816     2 15837     1   * Load a pixie
+M 0 15814     2 15838     1   * Load a pegasus
+M 0 15815     2 15839     1   * Load a scum sucker
+M 0 15812     3 15848     1   * Load an oil slick 
+M 0 15801     8 15848     1   * Load a red pawn
+E 0 15801    16    16         * A red quarterstaff is loaded wielded of a red pawn
+M 0 15801     8 15849     1   * Load a red pawn
+M 0 15801     8 15850     1   * Load a red pawn
+M 0 15801     8 15851     1   * Load a red pawn
+E 0 15801    16    16         * A red quarterstaff is loaded wielded of a red pawn
+M 0 15801     8 15852     1   * Load a red pawn
+M 0 15801     8 15853     1   * Load a red pawn
+M 0 15801     8 15854     1   * Load a red pawn
+M 0 15801     8 15855     1   * Load a red pawn
+E 0 15801    16    16         * A red quarterstaff is loaded wielded of a red pawn
+M 0 15803     2 15856     1   * Load a red rook
+E 0 15807    10    10         * An obsidian bracer is loaded on the arms of a red rook
+M 0 15805     2 15857     1   * Load a red knight
+E 0 15803    16    16         * A red lance is loaded wielded of a red knight
+M 0 15807     2 15858     1   * Load a red bishop
+E 0 15805     6     6         * A bishop's hat is loaded over the head of a red bishop
+M 0 15809     1 15859     1   * Load the red king
+E 0 15810    11    11         * Shield of the red army is loaded as a shield of the red king
+M 0 15811     1 15860     1   * Load the red queen
+E 0 15812    12    12         * The royal robe of the red queen is loaded about the shoulders of the red queen
+M 0 15807     2 15861     1   * Load a red bishop
+E 0 15805     6     6         * A bishop's hat is loaded over the head of a red bishop
+M 0 15805     2 15862     1   * Load a red knight
+E 0 15803    16    16         * A red lance is loaded wielded of a red knight
+M 0 15803     2 15863     1   * Load a red rook
+G 0 15807    -1               * An obsidian bracer is given to a red rook
+E 0 15808    16    16         * A magical dagger is loaded wielded of a red rook
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

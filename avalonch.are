@@ -1,0 +1,4037 @@
+#AREADATA
+Credits     {r< 25- 45> {bChipper  {gAvalon       {x~
+Name        Avalon~
+Filename    avalonch.are~
+Builders    Chipper~
+VNUMs       21000 21099
+Security    9
+End
+
+
+
+#MOBILES
+#21000
+trout~
+a trout~
+A trout is hiding in the water reeds.
+~
+A silver-grey trout darts into the water reeds as you approach.
+~
+human~
+AG Qb 0 0
+25 13 10d42+322 25d10+100 5d8+16 grep
+-5 -5 -5 2
+0 R I H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21001
+carp~
+a carp~
+A carp darts past your legs.
+~
+A golden carp darts through the water, brushing against your legs
+as you wade through the lake.
+~
+human~
+AG Qb 0 0
+26 13 10d45+345 26d10+100 5d9+13 chomp
+-6 -6 -6 1
+CF R I H
+stand stand none 300
+AHMV ABCDEFGHIJK M 0
+#21002
+bass~
+a bass~
+A bass glares at you aggresively.
+~
+A large bass swims here, obviously secure in his position of king
+of the lake.  He glares at you as you approach.
+~
+human~
+AG b 0 0
+27 14 10d49+360 27d10+100 5d9+15 bite
+-6 -6 -6 1
+CEH R I H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21003
+eel~
+an eel~
+An eel slips past you, wiggling into the sand near your feet.
+~
+A small eel darts past you, it's grey body almost hidden against the
+water that laps around you.  
+~
+human~
+AF Vb 0 0
+28 14 10d52+387 28d10+100 5d9+18 claw
+-7 -7 -7 1
+DK R FI EH
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21004
+tadpole~
+a tadpole~
+A tadpole swims peaceably through the water, ignoring you.
+~
+A tadpole, grey and silver, swims gently around in circles by your feet,
+nibbling at the lake plants.
+~
+human~
+A Vb 0 0
+29 15 10d56+405 29d10+100 5d10+15 peck
+-8 -8 -8 1
+CE R GI E
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21005
+blue-gill blue gill~
+a blue-gill~
+A blue-gill darts in and out of the bushes by your feet.
+~
+A blue-gill, fins waving frantically, darts in and out between your feet.
+~
+human~
+A HVb 0 0
+30 15 10d60+426 30d10+100 5d10+17 pierce
+-8 -8 -8 0
+CHN R I H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21006
+goose~
+a goose~
+A goose sees you intruding and attacks you with a scream.
+~
+A large goose with white and black feathers swims on the lake.  It sees
+you and interprets your intrusion as an attack.  It screams and charges for
+you.  
+~
+human~
+AF TVb 0 0
+32 16 10d69+462 32d10+100 5d11+17 peckb
+-10 -10 -10 0
+CEH R I H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21007
+duck~
+a duck~
+A duck glares at you menacingly as you walk by it.
+~
+A duck, brown with golden tinting on its wings, glares at you menacingly
+as you pass it.
+~
+human~
+AC Tb 0 0
+31 16 10d64+448 31d10+100 5d10+19 bite
+-9 -9 -9 0
+0 R 0 H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21008
+salmon~
+a salmon~
+A salmon, pink and grey, swims past your feet.
+~
+A pink and grey salmon, gills wriggling in the water, swims past your
+feet.  
+~
+human~
+A Hb 0 0
+33 17 10d73+487 33d10+100 5d11+19 flame
+-10 -10 -10 0
+CEHN R I H
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21009
+godling shrine~
+a godling of the shrine~
+The godling who watches over the shrine looks down at  you from his stone.
+~
+The godling of this shrine gazes at you from his stone.  His pale, misty
+shape is difficult to discern against the slate grey sky, but his black,
+marble hard eyes pierce into you.  
+~
+human~
+ABC FH 0 0
+30 15 10d60+426 30d10+100 5d10+17 drain
+-8 -8 -8 0
+CEFHN AB 0 I
+stand stand male 500
+AHMV ABCDEFGHIJK M 0
+#21010
+deer~
+a deer~
+A deer looks at you, and bolts into the woods, startled.
+~
+A brown deer with white markings on its tail and chest looks at you in
+startlement, and bolts into the woods.
+~
+human~
+A QVZ 0 0
+34 17 10d78+505 34d10+100 5d11+21 pound
+-11 -11 -11 0
+CFH X I Q
+stand stand either 0
+AHMV ABCDEFGHIJK M 0
+#21011
+bath~
+the god Bath~
+Bath, god of the isles, looks at you from his shrine.
+~
+Bath is a tall, stone like figure, who glares down at you as you enter
+his shrine.  You sense that he knows you are unbelievers.
+~
+human~
+AB H 0 0
+35 18 10d82+534 35d10+100 5d12+18 divine
+-11 -11 -11 0
+CE ABN 0 M
+stand stand male 500
+AHMV ABCDEFGHIJK M 0
+#21012
+lake keeper~
+the Keeper of the Lake~
+The Keeper of the Lake of Avalon sits at her desk.
+~
+The keeper of the lake looks up as you enter, and raises her eyebrow. 
+"Was there something I can help you with?"  She asks.  
+~
+human~
+AB H 0 0
+35 18 10d82+534 35d10+100 5d12+18 none
+-11 -11 -11 0
+0 AB R H
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#21013
+pict boat man men~
+a pictish boat man~
+A small, dark man, obviously a pict, moves among the boats.
+~
+A small man, with dark skin and black hair, moves among the boats,
+repairing and inspecting them.  He does not seem to notice your presence.  
+~
+human~
+AB 0 0 0
+34 17 10d78+505 34d10+100 5d11+21 pierce
+-11 -11 -11 0
+0 O H R
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#21014
+Taliesin~
+Taliesin, the Merlin of Britain~
+Taliesin glances up at you from his harp.
+~
+Taliesin is an old man with greying hair.  He carries a large harp with
+golden strings, and he smiles at you gently as you approach him.  
+~
+human~
+ABGR H 0 0
+35 18 10d82+534 35d10+100 5d12+18 none
+-11 -11 -11 0
+CE N PR M
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#21015
+faerie lady sidhe~
+a faerie lady~
+A lady of the faerie realms gathers herbs here.
+~
+A short, dark skinned woman of the Sidhe race gather herbs here.  She
+glances up at you with disinterest, and goes back to her work.  
+~
+human~
+ABGQ HV 0 0
+36 18 10d87+555 72d10+100 5d12+21 pierce
+-12 -12 -12 -1
+EFHN Y 0 Z
+stand stand female 500
+AHMV ABCDEFGHIJK M 0
+#21016
+sulis~
+Sulis, God of Sleep~
+Sulis, the God of Sleep, watches over his worshippers.
+~
+Sulis, the god of sleep, watches his worshippers as they prepare the ritual to 
+invoke his holy sight.
+~
+human~
+AB BH 0 0
+35 18 10d82+534 35d10+100 5d12+18 divine
+-11 -11 -11 0
+0 N HO M
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#21017
+priestess woman~
+a priestess of Sulis~
+A priestess of Sulis chants to invoke the god.
+~
+A young woman dressed in the robes of a worshipper of Sulis moves into
+the water to invoke the god of Sleep.  
+~
+human~
+ABQ 0 0 0
+36 0 10d87+555 72d10+100 5d12+21 thwack
+-12 -12 -12 -1
+0 H O I
+stand stand none 500
+AHMV ABCDEFGHIJK M 0
+#21018
+squirrel~
+a squirrel~
+A squirrel chitters at you angrily from a tree.
+~
+A brown squirrel rushes up a tree as you approach and chitters at you
+angrily.  Apparently it doesn't appreciate your intrusion.  
+~
+human~
+AC VZ 0 0
+36 18 10d87+555 36d10+100 5d12+21 bite
+-12 -12 -12 -1
+0 L I J
+stand stand either 200
+AHMV ABCDEFGHIJK M 0
+#21019
+chipmunk~
+a chipmunk~
+A chipmunk scurries up a tree at your approach.
+~
+A striped chipmunk scurries up a tree when you approach and watches you
+nervously.  
+~
+rabbit~
+AC QTVa 0 0
+37 19 10d92+578 37d10+100 5d12+23 bite
+-13 -13 -13 -1
+FH 0 0 0
+stand stand either 500
+AGV ACDEFHJK M 0
+#21020
+racoon~
+a racoon~
+A racoon looks up from your travel bag, a pack of rations dangling from its mouth.
+~
+You discover a wily racoon going through your travel rations, eating the 
+best parts.
+~
+rabbit~
+AC 0 0 0
+38 19 10d97+603 38d10+100 5d13+20 bite
+-13 -13 -13 -1
+FH 0 0 0
+stand stand either 500
+AGV ACDEFHJK M 0
+#21021
+girl student~
+a young student~
+A young student walks through the halls, going to her next class.
+~
+A young girl walks to her next class, her books clutched in her arms as she
+hurries along.
+~
+human~
+AHS DFQ 0 0
+40 20 10d108+648 40d10+100 5d14+20 slash
+-15 -15 -15 -2
+FHN K 0 X
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#21022
+acolyte~
+an acolyte~
+An acolyte of the Goddess looks at you intently.
+~
+An acolyte of the Goddess, her hair carefully braided back and her blue
+robes neatly arranged, peers at you intently as you enter the room.
+~
+human~
+AHR V 0 0
+41 21 10d113+678 82d10+100 5d14+22 thwack
+-15 -15 -15 -2
+EFN H O I
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#21023
+priestess~
+a priestess~
+A priestess of the Goddess raises her eyebrow at you.
+~
+A priestess of the Goddess, dressed in blue robes with the goddesses'
+crescent upon her brow, gazes at you and raises an eyebrow.  
+~
+human~
+AQ H 0 0
+42 21 10d119+700 84d10+100 5d14+24 flame
+-16 -16 -16 -3
+CFN N 0 M
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#21024
+seeress~
+a seeress~
+A seeress strides through the halls, seemingly unaffected by her blindfold.
+~
+A seeress, her eyes covered by a blindfold, walks along the halls as if
+she is completely confident in her way.  
+~
+human~
+AR DFH 0 0
+43 22 10d124+733 86d10+100 5d15+21 magic
+-16 -16 -16 -3
+FKN N P M
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#21025
+Gatekeeper~
+the Gatekeeper~
+The Gatekeeper of Avalon sits at her desk.
+~
+A young woman with black hair and eyes sits at her desk and looks through
+scrolls.  She glances up at you and says "Welcome to Avalon."  
+~
+human~
+AB HV 0 0
+44 22 10d130+759 44d10+100 5d15+24 thwack
+-17 -17 -17 -3
+0 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#21026
+Niniane~
+Niniane~
+Niniane, who once trained to be Lady of the Lake after Morgaine, is here.
+~
+Niniane is a tall, willowy girl with long brown hair.  She looks up at you
+with a smile, and arches an eyebrow.
+~
+human~
+ABR Ha 0 0
+44 22 10d130+759 88d10+100 5d15+24 drain
+-17 -17 -17 -3
+CFI AB 0 H
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#21027
+Morgause~
+Morguase~
+Morguase, cousin to King Arthur, sits here.
+~
+Morgause sits at her bedside table, brushing out her long, red hair.  She
+represents the fourth face of the goddess, that face which betokens death
+and darkness.  
+~
+human~
+ABCR DOV 0 0
+44 22 10d130+759 88d10+100 5d15+24 thwack
+-17 -17 -17 -3
+EFN AB H G
+stand stand female 1500
+AHMV ABCDEFGHIJK M 0
+#21028
+nimue~
+Nimue~
+Nimue is weeping for her betrayal of Kevin, Merlin of Britain.
+~
+Nimue, a small young woman with black hair and blue eyes, lies across her
+bed, weeping for her betrayal of Kevin.  
+~
+human~
+ABQ HV 0 0
+45 23 10d136+786 90d10+100 5d15+26 flame
+-18 -18 -18 -4
+0 AB H R
+stand stand female 1500
+AHMV ABCDEFGHIJK M 0
+#21029
+Morgaine~
+Morgaine~
+Morgaine, Lady of the Lake, sits at her table mixing herbs.
+~
+Morgaine, a small, dark woman with a look of one who has faerie blood,
+sits at the table, her blue robe fluttering about her feet, and the crescent
+of the goddess shining on her brow.  
+~
+human~
+ABQ HNV 0 0
+45 0 10d136+786 90d10+100 5d15+26 flame
+-18 -18 -18 -4
+EFN ABH I M
+stand stand female 1500
+AHMV ABCDEFGHIJK M 0
+#21030
+Igraine~
+Igraine~
+Igraine, Arthur's mother, prays for her immortal soul.
+~
+An old woman, with the wimple and veil of a bride of Christ, kneels at
+the prie-dieu and prays for her sins.  
+~
+human~
+AB 0 0 0
+45 23 10d136+786 45d10+100 5d15+26 thwack
+-18 -18 -18 -4
+FJN AB 0 0
+stand stand female 1500
+AHMV ABCDEFGHIJK M 0
+#21031
+Viviane~
+Viviane~
+Viviane, Lady of the Lake, and ruler of Avalon, gazes out the window at the mist.
+~
+Viviane, a small, dark woman, stands here, gazing out the window.  She
+gazes towards the mist that covers the lake surrounding Avalon, drawing it
+further and further from the world inhabited by the priests and children of
+the christian god.  
+~
+human~
+ABCQ BH 0 0
+44 22 10d130+759 88d10+100 5d15+24 divine
+-17 -17 -17 -3
+EFN AB H I
+stand stand female 2000
+AHMV ABCDEFGHIJK M 0
+#21032
+raven~
+Raven~
+Raven, the seeress of Avalon, sits watching the moon.
+~
+Raven is a tall, dark haired woman.  She looks at you expectantly, but
+doesn't speak.  Of course, she hasn't spoken outside of the holy circle in
+12 years, so that's to be expected.  
+~
+human~
+AB H 0 0
+45 23 10d136+786 45d10+100 5d15+26 slap
+-18 -18 -18 -4
+FIJN AB S M
+stand stand female 500
+AHMV ABCDEFGHIJK M 0
+#21033
+mordred~
+Mordred~
+Mordred, the king's son, stands looking out the window.
+~
+Mordred is a tall man, with his mother's black eyes and his father's
+golden hair.  He holds a harp, and carries a sword.  
+~
+human~
+ABT HV 0 0
+45 23 10d136+786 45d10+100 5d15+26 pierce
+-18 -18 -18 -4
+CIN AB E C
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#21034
+crimson virgin~
+a virgin~
+A crimson virgin is here.
+~
+She is covered in-- what else <G>-- blood.
+~
+human~
+AB 0 0 0
+1 0 1d6+23 3d10+100 1d5+1 none
+8 8 8 9
+0 AB 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21098
+robert haeffner asshole~
+Robert Haeffner, the asshole~
+Hi, I'm an asshole.  Kill me, please.
+~
+~
+human~
+A 0 -1000 0
+1 0 1d2+6 1d10+100 1d2+0 none
+9 9 9 9
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#21099
+zombie~
+a zombie~
+A zombie shuffles across the room.
+~
+~
+human~
+A 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#21000
+fish scale~
+a fish scale~
+A fish scale is fit to cover the arms here.~
+none~
+armor A AI
+AD D BD ABC 0
+27 2 250 P
+F A 13 100 0
+F A 5 3 0
+F A 1 2 0
+#21001
+golden ring~
+a golden ring~
+A golden ring that was swallowed by the carp sits on the ground here.~
+none~
+jewelry B AB
+0 0 0 0 0
+29 2 550 P
+F A 4 2 0
+F A 3 3 0
+F A 12 50 0
+#21002
+bass bone~
+a bass bone~
+A bass bone has been sharpened into a dagger here.~
+none~
+weapon B AN
+dagger 5 9 slash D
+30 5 1560 P
+F A 18 3 0
+F A 19 4 0
+#21003
+letter~
+a letter from Arthur to Morgaine~
+A letter~
+none~
+trash 0 A
+0 0 0 0 0
+25 0 0 P
+E
+letter~
+Dearest Sister,
+Please let us put aside all our differences, and strive to reconcile this rift that
+has come between us.  I am willing to forgive you your treasonous behaviour
+with Accolon, but I must demand that you remove your son from my halls
+and bid him accept that he can never be king of these lands.  I also must
+insist that you return back to me Excalibur, which is my sword, by divine
+right.
+Arthur, Pendragon of Britain.
+~
+#21004
+ink stain~
+an ink stain~
+A hardened ink stain lies on the floor.~
+none~
+armor A AJ
+BD CD AD D 0
+30 8 2150 P
+F A 13 20 0
+F A 5 2 0
+F A 19 2 0
+#21005
+fish tail~
+a fish tail~
+A fish tail just the right size for you to wrap around yourself.~
+none~
+armor B AD
+CD ABD AD AD 0
+30 8 2205 P
+F A 23 -2 0
+F A 24 -3 0
+#21006
+fish bone~
+a fish bone~
+A necklace formed out of a fish bone lies here.~
+none~
+armor BF AC
+CD ACD BD AD 0
+32 7 2205 P
+F A 13 20 0
+F A 3 3 0
+#21007
+duck wing~
+a duck wing~
+A mounted and stuffed duck wing has been tied to a pole.~
+none~
+weapon B AN
+spear 6 7 pierce A
+33 12 2320 P
+F A 19 5 0
+F A 18 3 0
+#21008
+goose liver~
+a goose liver~
+A goose liver to thwack your enemies with.~
+none~
+weapon B AN
+exotic 6 8 cleave DH
+35 12 2530 P
+F A 5 3 0
+F A 12 20 0
+F A 18 5 0
+#21009
+salmon fin~
+a salmon fin~
+A necklace has been made out of a salmon fin.~
+none~
+armor BFM AC
+ABD CD AD BD 0
+35 5 2300 P
+F A 18 5 0
+F A 12 30 0
+#21010
+deerskin bracelet~
+a deerskin bracelet~
+A bracelet made out of deerskin lies here.~
+none~
+armor AF AM
+CD BD ABD AD 0
+36 7 2440 P
+F A 2 3 0
+F A 23 -2 0
+F A 14 200 0
+#21011
+wool leggings~
+a pair of wool leggings~
+A pair of wool leggings lies crumpled on the ground.~
+none~
+armor CF AF
+CD ABCD BD BD 0
+37 7 2100 P
+F A 13 50 0
+F A 12 20 0
+F A 17 -5 0
+#21012
+sealskin boots~
+a pair of sealskin boots~
+A pair of sealskin boots sit beside the bed~
+none~
+armor B AG
+ACD CD ABCD D 0
+38 0 2405 P
+F A 19 3 0
+F A 1 3 0
+#21013
+harp merlin~
+the harp of Merlin~
+The harp of Merlin rests on the table here.~
+none~
+wand A AO
+37 10 10 'charm person' 0
+37 9 2900 P
+#21014
+golden earrings~
+a pair of golden earrings~
+A pair of golden earrings, fashioned as a pair of walnuts, lie here.~
+none~
+jewelry B AS
+0 0 0 0 0
+38 2 2920 P
+F A 23 -2 0
+F A 12 25 0
+F A 4 2 0
+#21015
+dream whip~
+a dream whip~
+A whip fashioned from your darkest dreams lies here.~
+none~
+weapon AC AN
+whip 6 9 slash B
+37 5 2952 P
+F A 2 3 0
+F A 18 5 0
+#21016
+acorn~
+an acorn~
+An acorn has been squirreled away for the winter here.~
+none~
+light A A
+0 0 999 0 0
+38 33 3120 P
+F A 13 50 0
+F A 12 30 0
+F A 1 1 0
+F A 4 1 0
+F A 3 1 0
+#21017
+potion striped~
+a striped potion~
+A potion, striped black and white, sits here.~
+none~
+potion AB A
+37 'detect hidden' 'detect invis' 'farsight' 'kind light'
+37 3 2501 P
+#21018
+racoon tail~
+a racoon's tail~
+A racoon's tail hangs from a stick.~
+none~
+weapon B AN
+flail 6 11 beating G
+40 12 2913 P
+#21019
+bracelet moon~
+a moon bracelet~
+A bracelet with a moon charm dangling on it.~
+none~
+armor AC AM
+E ABCD ACD BD 0
+42 5 2600 P
+F A 1 2 0
+F A 12 20 0
+#21020
+moon club~
+a moon club~
+A club with the sickle crescent of the Lake House carved on it rests here.~
+none~
+weapon A AN
+mace 6 12 smash G
+43 14 2890 P
+F A 18 3 0
+F A 19 4 0
+F A 1 3 0
+#21021
+deerskin gloves~
+a pair of deerskin gloves~
+A pair of deerskin gloves sits on the table.~
+none~
+armor C AH
+BD ABCD BCD ACD 0
+44 7 2900 P
+F A 23 -3 0
+F A 13 50 0
+F A 5 2 0
+#21022
+blindfold~
+a blindfold~
+A blindfold is neatly laid out on the table.~
+none~
+armor A AR
+ABCD BCD E BCD 0
+46 8 3120 P
+F A 12 50 0
+F A 4 4 0
+#21023
+guisarme holy~
+a holy guisarme~
+A holy guisarme from the isle of Avalon rests against the wall.~
+none~
+weapon 0 AN
+polearm 7 10 slash H
+42 12 3212 P
+F A 23 -5 0
+F A 18 5 0
+#21024
+pendragon ring~
+a royal pendragon ring~
+A ring with the royal crest of the Pendragon's lies here.~
+none~
+jewelry AF AB
+0 0 0 0 0
+46 2 3120 P
+F A 12 50 0
+F A 5 3 0
+#21025
+holy sword excalibur~
+the holy sword~
+Excalibur, the sword from the holy Regalia, is here.~
+none~
+weapon A AN
+sword 8 9 wrath AH
+46 15 3250 P
+#21026
+wraps dead~
+wraps of the dead~
+Wrappings fit for a king's corpse lie here.~
+none~
+armor 0 AI
+ACD ABCD BCD ABCD 0
+46 8 3120 P
+F A 24 -5 0
+F A 13 20 0
+F A 5 2 0
+#21027
+merlin's heart~
+merlin's Heart~
+Merlin's Heart is here, taken from him by Nimue.~
+none~
+jewelry B AQ
+0 0 0 0 0
+46 2 2105 P
+F A 18 3 0
+F A 23 -2 0
+F A 3 3 0
+#21028
+moon crescent~
+a moon crescent~
+A moon crescent rests on the table here.~
+none~
+armor AC AE
+E BCD BE BCD 0
+48 9 3120 P
+F A 24 -4 0
+F A 4 2 0
+#21029
+golden comb~
+a golden comb~
+A golden comb with leaves scrolled across it lies on the bed.~
+none~
+jewelry 0 AO
+0 0 0 0 0
+45 5 3150 P
+F A 13 20 0
+F A 19 5 0
+F A 18 5 0
+#21030
+sheathe belt~
+a sheathe and belt~
+The sheathe for the holy sword lies here, covered with embroidery.~
+none~
+armor 0 AL
+E BE BCD BCD 0
+47 7 3100 P
+F A 19 3 0
+F A 18 2 0
+F A 17 -10 0
+#21031
+cloak mordred's~
+mordred's cloak~
+Mordred's cloak lies tossed across the back of a chair.~
+none~
+armor A AC
+BE E BCD BCD 0
+47 5 3120 P
+F A 19 2 0
+F A 18 2 0
+F A 13 20 0
+#21032
+crimson orb honor~
+a{r Crimson{x orb of honor~
+A{r Crimson{x orb of honor is here.~
+none~
+jewelry BY AQ
+0 0 0 0 0
+1 1 0 P
+F A 18 5 0
+F A 19 5 0
+F A 4 1 0
+F A 13 100 0
+F A 12 50 0
+#21033
+crimson portal virgin~
+a crimson virgin portal~
+A crimson virgin portal is here.~
+none~
+portal Y A
+ABCDEFGHNOPQSUVWXYa 0 C CEGJMO 0
+1 0 0 P
+#21061
+ring harmony~
+a ring of {yharmony{x~
+A ring of {yharmony{x.~
+none~
+jewelry AY ABC
+0 0 0 0 0
+15 0 0 P
+F A 12 25 0
+F A 24 -4 0
+F A 17 -20 0
+F A 5 2 0
+F A 13 100 0
+#21064
+vine clasp friendship ring~
+a {Gvine clasp friendship{x ring~
+A {Gvine clasp friendship{x ring~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 1 5 0
+F A 12 100 0
+F A 4 5 0
+F A 3 5 0
+#21065
+ring vitality~
+a ring of {Gvitality{x~
+A ring of {Gvitality{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 24 -5 0
+F A 13 150 0
+F A 12 75 0
+F A 4 4 0
+F A 3 4 0
+F A 23 -5 0
+#21066
+ring spirit~
+a ring of {Bspirit{x~
+A ring of {Bspirit{x~
+none~
+jewelry AY AB
+0 0 0 0 0
+45 0 0 P
+F A 18 5 0
+F A 19 5 0
+F A 1 4 0
+F A 18 5 0
+F A 4 3 0
+#21067
+demeter's ring~
+{GDemeter's ring{x~
+{GDemeter's ring{x is lying here.~
+none~
+jewelry Y AB
+0 0 0 0 0
+25 0 0 P
+F A 23 -4 0
+F A 19 3 0
+F A 18 3 0
+F A 3 2 0
+F A 4 2 0
+#21068
+ring growth~
+a ring of {ggrowth{x~
+A ring of {ggrowth{x~
+none~
+jewelry AY AB
+0 0 0 0 0
+10 0 0 P
+F A 12 20 0
+F A 18 5 0
+F A 17 -10 0
+F A 3 3 0
+F A 4 2 0
+#21069
+sharp ring~
+a {Rsharp ring{x~
+A {Rsharp ring{x~
+none~
+jewelry BY AB
+0 0 0 0 0
+60 0 0 P
+F A 18 5 0
+F A 4 3 0
+F A 24 -5 0
+F A 23 -5 0
+F A 13 150 0
+#21070
+ring tone~
+a ring of {btone{x~
+A ring of {btone{x~
+none~
+jewelry AY AB
+0 0 0 0 0
+30 0 0 P
+F A 13 30 0
+F A 1 3 0
+F A 5 2 0
+F A 17 -10 0
+F A 18 3 0
+#21071
+guitar pick~
+a {Rguitar pick{x~
+A {Rguitar pick{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+45 0 0 P
+F A 18 5 0
+F A 4 3 0
+F A 24 -5 0
+F A 23 -5 0
+F A 13 150 0
+#21072
+ring beethoven~
+ring of {YBeethoven{x~
+The ring of {YBeethoven{x.~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 5 5 0
+F A 4 5 0
+F A 3 5 0
+F A 12 100 0
+#21073
+pulsating dragon soul~
+{R(pulsating){x a dragon {ysoul{x~
+{R(pulsating){x A dragon {ysoul{x.~
+none~
+jewelry AY AB
+0 0 0 0 0
+45 0 0 P
+F A 18 5 0
+F A 17 -30 0
+F A 4 3 0
+F A 1 4 0
+F A 19 5 0
+#21074
+horn satan~
+a {Rhorn of Satan{x~
+A {Rhorn of Satan{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+30 0 0 P
+F A 13 75 0
+F A 1 2 0
+F A 24 -3 0
+F A 23 -3 0
+F A 4 4 0
+#21075
+ring doom~
+a ring of {bdoom{x~
+A ring of {bdoom{x~
+none~
+jewelry AY AB
+0 0 0 0 0
+15 0 0 P
+F A 13 30 0
+F A 18 3 0
+F A 17 -10 0
+F A 5 2 0
+F A 1 3 0
+#21076
+ring leadership~
+a ring of {Yleadership{x~
+A ring of {Yleadership{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 12 100 0
+F A 3 5 0
+F A 4 5 0
+F A 2 5 0
+#21077
+ring despair~
+a ring of {bdespair{x~
+A ring of {bdespair{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 1 5 0
+F A 5 5 0
+F A 3 5 0
+F A 12 100 0
+#21078
+heart dragon~
+a {Rheart of a dragon{x~
+A {Rheart of a dragon{x.~
+none~
+jewelry AY AB
+0 0 0 0 0
+60 0 0 P
+F A 12 75 0
+F A 13 150 0
+F A 23 -5 0
+F A 24 -5 0
+F A 1 3 0
+F A 18 5 0
+#21079
+ring scholarship~
+a ring of {Rscholarship{x~
+A ring of {Rscholarship{x.~
+none~
+jewelry BY AB
+0 0 0 0 0
+60 0 0 P
+F A 3 3 0
+F A 13 100 0
+F A 19 10 0
+F A 23 -5 0
+F A 24 -5 0
+F A 12 100 0
+#21080
+Ring knowledge~
+a ring of {Cknowledge{x~
+A ring of {Cknowledge{x~
+none~
+jewelry AY AB
+0 0 0 0 0
+45 0 0 P
+F A 4 3 0
+F A 1 4 0
+F A 19 5 0
+F A 18 5 0
+F A 17 -30 0
+#21081
+ring learning~
+a ring of {WLearning{x~
+A ring of {WLearning{x.~
+none~
+jewelry AY AB
+0 0 0 0 0
+30 0 0 P
+F A 18 3 0
+F A 17 -50 0
+F A 3 3 0
+F A 13 100 0
+F A 12 25 0
+#21082
+ring gloom~
+a ring of {Bgloom{x~
+A ring of {Bgloom{x.~
+none~
+jewelry AY ABC
+0 0 0 0 0
+20 0 0 P
+F A 23 -4 0
+F A 12 25 0
+F A 13 100 0
+F A 3 3 0
+F A 17 -50 0
+#21083
+aura magic~
+an {yaura{x of {wmagic{x~
+An {yaura{x of {wmagic{x.~
+none~
+jewelry AY AQ
+0 0 0 0 0
+0 0 0 P
+F A 19 5 0
+F A 12 50 0
+F A 13 100 0
+F A 4 2 0
+F A 3 2 0
+#21084
+elder's globe prime material plane~
+an {GElder's Globe of the Prime Material Plane{x~
+An {GElder's Globe of the Prime Material Plane{x.~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 3 5 0
+F A 4 5 0
+F A 12 100 0
+F A 1 5 0
+#21085
+globe vertigo~
+a {Rglobe{x of {Bvertigo{x~
+A {Rglobe{x of {Bvertigo{x~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 150 0
+F A 23 -5 0
+F A 3 4 0
+F A 4 4 0
+F A 12 75 0
+#21086
+ice rock sylvan~
+an {Wice rock{x ring~
+An {Wice rock{x ring.~
+none~
+jewelry AY AB
+0 0 0 0 0
+45 0 0 P
+F A 18 5 0
+F A 4 3 0
+F A 1 4 0
+F A 18 5 0
+F A 19 5 0
+#21087
+force nature~
+a {Gforce of nature{x~
+A {Gforce of nature{x.~
+none~
+jewelry Y AB
+0 0 0 0 0
+25 0 0 P
+F A 23 -4 0
+F A 4 2 0
+F A 3 2 0
+F A 18 3 0
+F A 19 3 0
+#21088
+moon infinity~
+a {Cmoon{x of infinity~
+A {Cmoon{x of infinity~
+none~
+jewelry AY AB
+0 0 0 0 0
+10 0 0 P
+F A 12 20 0
+F A 4 2 0
+F A 3 2 0
+F A 17 -20 0
+F A 18 5 0
+#21089
+crimson lantern crystal~
+a{C crystal{x lantern~
+A{C crystal{x lantern is here.~
+none~
+light BY A
+0 0 999 0 0
+50 0 0 P
+F A 17 -35 0
+F A 24 -4 0
+F A 18 5 0
+F A 13 150 0
+F A 12 100 0
+F A 19 5 0
+#21090
+crimson lantern emerald~
+a koem-runed{g emerald{x lantern~
+A koem-runed{g emerald{x lantern is here.~
+none~
+light BY A
+0 0 999 0 0
+55 0 0 P
+F A 23 -4 0
+F A 19 5 0
+F A 1 3 0
+F A 13 200 0
+F A 12 100 0
+F A 17 -50 0
+F A 18 5 0
+#21091
+eight-sided lantern crimson~
+an{C eight-sided{x lantern~
+An{C eight-sided{x llantern is here.~
+none~
+light AY A
+0 0 999 0 0
+40 0 0 P
+F A 13 120 0
+F A 18 5 0
+F A 19 5 0
+F A 17 -20 0
+F A 12 80 0
+#21092
+crimson lantern sapphire~
+a{B bluish{W white{B sapphire{x lantern~
+A{B bluish{W white{B sapphire{x lantern is here.~
+none~
+light Y A
+0 0 999 0 0
+30 0 0 P
+F A 13 75 0
+F A 12 75 0
+F A 19 3 0
+F A 18 3 0
+F A 17 -25 0
+#21093
+shadowy lantern crimson~
+a{b shadowy{x lantern~
+A{b shadowy{x lantern is here~
+none~
+light AY A
+0 0 999 0 0
+15 0 0 P
+F A 5 2 0
+F A 17 -10 0
+F A 18 2 0
+F A 19 3 0
+F A 12 50 0
+#21094
+golden rose ring~
+a {Ygolden rose{x ring~
+A {Ygolden rose{x ring~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 13 200 0
+F A 12 100 0
+F A 4 5 0
+F A 3 5 0
+F A 1 5 0
+#21095
+yellow rose ring~
+a {yyellow rose{x ring~
+A {yyellow rose{x ring~
+none~
+jewelry Y AB
+0 0 0 0 0
+60 0 0 P
+F A 12 75 0
+F A 13 150 0
+F A 4 4 0
+F A 3 4 0
+F A 23 -5 0
+F A 24 -5 0
+#21096
+blue rose ring~
+a {Bblue rose{x ring~
+A {Bblue rose{x ring~
+none~
+jewelry AY AB
+0 0 0 0 0
+45 0 0 P
+F A 18 5 0
+F A 19 5 0
+F A 1 4 0
+F A 4 3 0
+F A 17 -30 0
+#21097
+pink rose ring~
+a {ppink rose{x ring~
+A {ppink rose{x ring~
+none~
+jewelry AY AB
+0 0 0 0 0
+30 0 0 P
+F A 18 3 0
+F A 19 3 0
+F A 3 2 0
+F A 4 2 0
+F A 23 -4 0
+#21098
+filigreed gold armband~
+an {Bintricate, {Ygolden, {Mfiligree {Rarmband{x~
+An intricate golden filigree armband~
+none~
+armor AGIKLSY AM
+ADE BDE ABCE ACE 0
+63 0 0 P
+F A 1 3 0
+F A 24 -2 0
+F A 23 -2 0
+F A 4 3 0
+F A 12 75 0
+#21099
+test~
+test~
+Test~
+none~
+trash T A
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#21000
+Lake~
+You emerge from Camelot to find yourself at the edge of a lake.  The mist
+makes it hard to see where you are going, and you stumble on the uneven
+ground.  A glowing sign rises up before you, beckoning you closer to read
+closer to read the words inscribed on it.  There are faint lights shining in
+the mist from the south and the east.  
+~
+0 C 6
+H 110 M 110
+E
+sign~
+Avalon is a 25 - 45 level area.  There are some aggressive mobs contained
+herein, so do not venture within unless you are certain that you are capable
+of handling it.  
+~
+D0
+~
+~
+0 0 20939
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21001
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21002
+S
+#21001
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21004
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21000
+S
+#21002
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21000
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21004
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21008
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21003
+S
+#21003
+lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and east.
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21002
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21006
+S
+#21004
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21001
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21005
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21009
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21002
+S
+#21005
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21010
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21004
+S
+#21006
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21003
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21008
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21014
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21007
+S
+#21007
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and east.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21006
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21012
+S
+#21008
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21002
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21009
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21015
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21006
+S
+#21009
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21004
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21010
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21016
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21008
+S
+#21010
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+water and look around nervously.  The mist is thick here, with faint
+openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21005
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21011
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21017
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21009
+S
+#21011
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21018
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21010
+S
+#21012
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21007
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21014
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21013
+S
+#21013
+Lake Shrine~
+This is a lake shrine to some small, unnamed deity.  There is a small
+standing stone with a rude altar in front of it.  The altar is scattered
+with various offerings; bread and flowers are strewn about the stones and
+altar.  The cold mist from the lake drifts over you, chilling you to the
+bone.  
+~
+0 C 2
+H 95 M 95
+D1
+All you can see to the east is heavy fog hanging over the Lake of Avalon.
+~
+~
+0 0 21012
+S
+#21014
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21006
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21015
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21012
+S
+#21015
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21008
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21016
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21014
+S
+#21016
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21009
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21017
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21015
+S
+#21017
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21010
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21018
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21016
+S
+#21018
+~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, east and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21011
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21019
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21017
+S
+#21019
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east and south.
+~
+0 ACT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21020
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21018
+S
+#21020
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, south and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21019
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21021
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21022
+S
+#21021
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21023
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21020
+S
+#21022
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, south and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21020
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21023
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21025
+S
+#21023
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21021
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21024
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21026
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21022
+S
+#21024
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21027
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21023
+S
+#21025
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, south and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21022
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21026
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21029
+S
+#21026
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21023
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21027
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21030
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21025
+S
+#21027
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21024
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21028
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21031
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21026
+S
+#21028
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south and west.  
+~
+0 AT 6
+H 85 M 85
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21032
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21027
+S
+#21029
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, south and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21025
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21030
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21033
+S
+#21030
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21026
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21031
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21034
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21029
+S
+#21031
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21027
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21032
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21035
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21030
+S
+#21032
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and west.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21028
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21031
+S
+#21033
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the south, north and east. 
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21029
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21034
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21036
+S
+#21034
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21030
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21035
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21037
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21033
+S
+#21035
+Lake~
+You slog through the lake, which is ankle deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings only to be seen to the west and the
+south.
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21031
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21034
+S
+#21036
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north, south and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21033
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21037
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21038
+S
+#21037
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21034
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21036
+S
+#21038
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and west 
+~
+0 ACT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21036
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21039
+S
+#21039
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, west and south.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21038
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21040
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21041
+S
+#21040
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21039
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21042
+S
+#21041
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, south and west.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21039
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21042
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21044
+S
+#21042
+Lake~
+You slog through the lake, which is ankle deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings seen in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21041
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21040
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21043
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21045
+S
+#21043
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21042
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21046
+S
+#21044
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, south and west.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21041
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21045
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21048
+S
+#21045
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21044
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21042
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21046
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21049
+S
+#21046
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21045
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21043
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21047
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21050
+S
+#21047
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and west.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21046
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21051
+S
+#21048
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, south and west.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21044
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21049
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21052
+S
+#21049
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21048
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21045
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21050
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21053
+S
+#21050
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21049
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21046
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21051
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21054
+S
+#21051
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21050
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21047
+S
+#21052
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, south and west.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21048
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21053
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21055
+S
+#21053
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings in all directions.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21052
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21049
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21054
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21056
+S
+#21054
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21053
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21050
+S
+#21055
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the east, south and west.  
+~
+0 AT 6
+H 85 M 85
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21052
+D2
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21056
+D3
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21057
+S
+#21056
+Lake~
+You slog through the lake, which is waist deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings to the north and east.  
+~
+0 AT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21055
+D1
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21053
+S
+#21057
+Lake~
+You slog through the lake, which is ankle deep at this point.  The water
+is cold and soaks through your boots, chilling you.  You can hear the sounds
+of large creatures moving through the water and look around nervously.  The
+mist is thick here, with faint openings only to be seen to the east and the
+north.
+~
+0 ACT 6
+H 85 M 85
+D0
+You can see a faint light shining through the mist in this direction.
+~
+~
+0 0 21058
+D1
+~
+~
+0 0 21055
+S
+#21058
+Lake Trail~
+You emerge finally from the lake to find yourself on a trail leading
+around the edge of the water.  The trail is muddy and uneven, and the mist
+curls from the lake to wrap around your feet and remind you of the chilly
+water.  The air is cool, and you can sense a faint tang of pine.  
+~
+0 A 2
+H 85 M 85
+D1
+The trail continues it's uneven path to the east.
+~
+~
+0 0 21059
+D2
+To the south is a solid wall of mist that hangs over the lake of Avalon.
+~
+~
+0 0 21057
+S
+#21059
+Lake Trail~
+You continue up the lake trail, avoiding the branches of the pine trees
+that grow along the path.  The woods around you are silent, and you have the
+feeling that you are being watched.  You jump in startlement as a deer
+breaks through the underbrush and races back into the woods.  
+~
+0 A 2
+H 85 M 85
+E
+deer~
+Y Y
+               ---
+              /" "\
+             | * * |
+              \   /
+              |. .|
+               \_/
+~
+D0
+You can see the boat house of Avalon lying to the north.
+~
+~
+0 0 21060
+D1
+The trail winds it way upwards to the east, towards a large hill.
+~
+~
+0 0 21063
+D3
+The trail to the west leads down to the edge of the lake.
+~
+~
+0 0 21058
+S
+#21060
+Boat House~
+You have entered the boat house of Avalon.  Small boats, with carved
+lions heads at their prows, lie about the room.  Small Pictish men move
+among the boats, repairing and inspecting them.  To the east is you can see
+a small shrine, and the way west is blocked by a door.  
+~
+0 ACD 0
+H 85 M 85
+E
+boats~
+{Y      &             |  |                 &
+{Y      \_____________|  |_________________/
+{Y       \DDDDDDDDDDDD|  |DDDDDDDDDDDDDDDD/
+{Y        \                              /
+{B         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^{x
+~
+D1
+A shrine and circle of stones lies to the east.
+~
+~
+0 0 21061
+D2
+The trail that follows the lake lies to the south.
+~
+~
+0 0 21059
+D3
+The door to the west leads into the Lake Keeper's private quarters.
+~
+~
+1 0 21062
+S
+#21061
+Shrine of Bath~
+You have intruded upon a shrine to the God Bath, who has watched over
+these islands for many centuries before the Roman's ever set foot on it,
+although perhaps in a different incarnation.  The standing stones of the
+shrine are set in a circle/square configuration for the eternal perfection
+of the sacred circle.  A small altar sits in the center of the stones,
+bearing upon it the dagger and sword of Bath, and the cup that holds the
+water of life.  
+~
+0 A 2
+H 85 M 110
+E
+altar~
+{Y             ==  {R  ^
+{Y             \/  {G  H
+{Y             ||  {G  T
+{W    <---H   {Y --  {G  H
+{W   /--------------------\{x
+~
+D3
+The archway to the west leads back into the boathouse.
+~
+~
+0 0 21060
+S
+#21062
+Lake Keeper's Quarters~
+This room is the private household of the Lake Keeper of Avalon.  The
+room is barren of everything except for a sleeping mat and a small table
+that holds a basin for water.  The walls are covered with diagrams of the
+moon in her courses, and herbs hang from the ceiling.  
+~
+0 A 0
+H 110 M 90
+E
+moon~
+O
+   D     D
+ )         (
+   D     D
+      O
+~
+D1
+The door to the east leads back into the boat house.
+~
+~
+1 0 21060
+S
+#21063
+Lake Trail~
+You continue upon the muddy path winding its way around the edge of the
+lake.  The forest is still quiet, with all the creatures falling silent at
+the sound of your passage.  The only sound you can hear is the wind, sighing
+through the pine trees that line the path.  
+~
+0 0 2
+H 85 M 85
+E
+pine~
+{g         /|\   /|\
+{g        //|\\ //|\\
+{g       ///|\\\//|\\\
+{g      ////|\\\\/|\\\\
+{g     /////|\\\\\|\\\\\{x
+~
+D1
+The trail continues its way upwards to the east.
+~
+~
+0 0 21069
+D3
+The lake trail winds its way down to the west.
+~
+~
+0 0 21059
+S
+#21064
+Lake Trail~
+You stop as you reach this section of the trail.  The trail itself
+continues east and west, but to the north you can see a tall hill rising
+over the lake.  You glance again as you see a greyish purple mist forming
+along one side of the hill, and a door appears out of the fog.  Could this
+be one of the hollow hills spoken of in the legends?  
+~
+0 A 2
+H 85 M 85
+D0
+The hill to the north is swathed in a grey-purple mist, and a door can be
+faintly seen in the side.
+~
+~
+0 0 21065
+D1
+The lake trail winds its way up to the east.
+~
+~
+0 0 21068
+D3
+~
+~
+0 0 21069
+S
+#21065
+Hollow Hill~
+You have entered the hollow hill, the entrance into Faerie.  To the north
+and west, corridors lead to unknown rooms, and the sound of singing is heard
+from the north.  The hill is formed of stone blocks, and torches sputter
+along the walls.  
+~
+0 ACN 0
+H 95 M 110
+D0
+The mist hides what lies beyond the path to the north.
+~
+~
+0 0 21066
+D2
+The swirling mist to the south hides the exit from this place.
+~
+~
+0 0 21064
+D3
+The mist hides what lies beyond the path to the west.
+~
+~
+0 0 21067
+S
+#21066
+Realms of Faerie~
+You have entered into the realms of Faerie.  As your feet step off the
+misty path you followed to get here, it disappears, and the way closes
+behind you.  You look around in panic as you realize you are trapped,
+perhaps forever, within the realms of Faerie.  A man sits on a grassy knoll
+in front of you, playing a harp.  He glances up as you enter, and smiles at
+you.  "Welcome to Faerie" he says.  "I am Taliesin, the Merlin of Britain." 
+~
+0 ACD 0
+H 90 M 120
+D4
+~
+~
+0 0 5307
+S
+#21067
+Realms of Faerie~
+You follow the path onto a grassy hilltop.  You glance behind you, and
+notice in panic that the way behind you has sealed completely.  A small,
+dark woman is here, gathering flowers.  She glances up as you enter, and
+then continues.  You recognize the flowers as goldenseal, an herb well known
+for it's medicinal uses.  
+~
+0 ACD 0
+H 120 M 90
+D4
+~
+~
+0 0 5252
+S
+#21068
+Lake Trail~
+You continue along the muddy trail leading into Avalon.  All around you
+the woods are alive with the sounds of animals and birds.  The water
+brushing against the shore of the lake creates a soothing sound, and you
+occasionally hear a fish breaking the lake's surface.  There is a shrine to
+the north, and the trail continues east and west.  
+~
+0 A 2
+H 85 M 85
+D0
+A small shrine lies to the north.
+~
+~
+0 0 21070
+D1
+The lake trail continues to the east.
+~
+~
+0 0 21071
+D3
+The lake trail slowly continues its way down to the west.
+~
+~
+0 0 21064
+S
+#21069
+Lake Trail~
+The trail continues its slow way along the lake.  In the distance you can
+hear bird calls and the sound of the water lapping against the shore.  The
+world seems peaceful here, and a chill breeze dips under your cloak,
+brushing against your skin.  You tighten your cloak around you and continue
+along the trail.  
+~
+0 A 0
+H 85 M 85
+D1
+You can see a tall hill rising to the east.
+~
+~
+0 0 21064
+D3
+The trail continues to the west.
+~
+~
+0 0 21063
+S
+#21070
+Shrine of Sulis~
+You have intruded upon a ritual honoring the god Sulis, also known as the
+god of Dreams.  Seven women move about the shrine, calling up the god to
+send them visions of power in their dreams.  The shrine itself consists of a
+pool of water with steps leading down into it, and a marble altar set in the
+center of the pool.  
+~
+0 AC 0
+H 120 M 85
+E
+pool~
+{W                    /------------------\
+{W                    |                  |
+{W                    |                  |
+{B MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM{x
+~
+D2
+The trail winding itself around the lake lies to the south.
+~
+~
+0 0 21068
+S
+#21071
+Lake Trail~
+The lake trail reaches a bend here, continuing to the north and the west.
+The ground beneath your feet is muddy, and gets soggier the farther north
+you continue.  You can hear the faint sounds of frogs and crickets, and the
+sounds of the lake reach you faintly here.  You can smell the scent of pine
+and oak in the air, and a squirrel scurries up the side of a nearby tree,
+chattering at you angrily.  
+~
+0 AC 2
+H 85 M 85
+D0
+The trail to the north becomes marshy and treacherous.
+~
+~
+0 0 21072
+D3
+The lake trail continues to the west
+~
+~
+0 0 21068
+S
+#21072
+Lake Trail~
+The ground is becoming very marhy on this part of the trail, and water
+from the lake begins to lap against your feet as you continue on.  The
+footing is very treacherous here, and you clutch at a nearby tree as the
+ground slides beneath you.  The forest around you is silent, and you can
+faintly smell the scent of apples in the air.  
+~
+0 A 4
+H 75 M 75
+D0
+You can smell the scent of apples to the north.
+~
+~
+0 0 21073
+D2
+The trail is dryer to the south.
+~
+~
+0 0 21071
+S
+#21073
+Lake Trail~
+You emerge from the marsh, and look around.  There is gravel paving
+the trail from here, and the trees are trimmed back.  Flowers bloom along
+the trail, and you recognize many medicinal herbs growing here.  The scent
+of apples is heavy in the air, and you can see an apple grove to the west.
+~
+0 A 2
+H 85 M 85
+D0
+The lake trail continues to the north.
+~
+~
+0 0 21077
+D2
+The ground to the south is very marshy and treacherous.
+~
+~
+0 0 21072
+D3
+An apple grove rests to the west, spreading the scent of apples and blossoms
+through the air.
+~
+~
+0 0 21074
+S
+#21074
+Apple Grove~
+You have entered an apple grove.  The scent of apples and blossoms almost
+presses you to the ground, and blossoms are strewn on the ground beneath
+your feet.  Ripe apples hang within reach, and you take one off a tree and
+bite into it.  The heady scent of apple passes over you and a sweetness
+bursts within your mouth.  A small trail leads to the north.  
+~
+0 A 3
+H 85 M 85
+D0
+You can see a circle of stones to the north.
+~
+~
+0 0 21075
+D1
+The trail wends to the east, back to the lake trail.
+~
+~
+0 0 21073
+S
+#21075
+Standing Stones~
+You have entered a ring of standing stones.  Huge monoliths tower above
+you, awing you into silence.  The holy thorn grows here, that Joseph of
+Arimathea planted when he came to those shores.  The holy thorn once
+represented the oath that the christian priests would never rise against the
+druids, who were at Avalon before them, but now that oath is broken. 
+Faintly in the distance, as if in a dream, you think you can hear the sound
+of church bells through the mist.  
+~
+0 A 2
+H 120 M 120
+D2
+A small trail leads south into an apple orchard.
+~
+~
+0 0 21074
+S
+#21076
+Crimson Clan Vestibule~
+Blood fills your eyes in this room.  A portrait of the crimson clan
+leaders of past and present is on the wall.  Many a virgin have offered
+themslves as a sacrifice for the good of the clan here.  
+ 
+  A sign says:
+    Drop extra clan orbs and rings on the floor after you kill
+    the virgin, and don't forget your portal.
+~
+0 C 0
+E
+portrait~
+There is much blood on the portrait.
+~
+E
+crap~
+Clan Floater 
+Crimsons Crystal of Honor 
+Stats: 100hps 50mana 1con 1wis 5hit 5dam 
+ 
+1. Ring of the Shadows 
+Object 'ring shadows' is type jewelry, extra flags hum
+burn_proof. 
+Weight is 0, value is 0, level is 15 
+Affects hit roll by 2. 
+Affects armor class by -10. 
+Affects constitution by 2. 
+Affects mana by 15. 
+Affects damage by 2. 
+ 
+2. A White-Blue Sapphire Ring 
+Object 'white-blue sapphire ring' is type jewelry, extra flags  
+burn_proof. 
+Weight is 0, value is 0, level is 30. 
+Affects damage by 2. 
+Affects armor class by -15 
+Affects mana by 25. 
+ Affects hp by 75. 
+ 
+3. Eight-sided Ring 
+Object 'eight-sided ring is type jewelry, extra flags glow
+burn_proof. 
+Weight is 0, value is 0, level is 45. 
+Affects damage roll by 5. 
+Affects hit roll by 5. 
+Affects mana by 50. 
+Affects armor class by -20. 
+Affects hp by 120. 
+ 
+4. Crystal Ring 
+Object 'crystal ring' is type jewelry, extra flags hum
+burn_proof. 
+Weight is 0, value is 0, level is 60. 
+Affects mana by 50. 
+Affects armor class by -35. 
+Affects save vs spell by -4. 
+Affects save vs breath by -4. 
+Affects hp by 100. 
+ 
+5. Emerald Ring with Koem Rune 
+Object 'emerald ring koem rune' is type jewelry, extra flags hum 
+ 
+burn_proof. 
+Weight is 0, value is 0, level is 75. 
+Affects hp by 150. 
+Affects damage roll by 5. 
+Affects mana by 50. 
+Affects armor class by -50. 
+ 
+~
+S
+#21077
+Lake Trail~
+The lake trail continues here.  The trail winds away from the lake,
+creating a slightly drier path as you walk along it.  The oak trees rustle
+slightly as you continue, and you can smell the scent of heather and acorns.
+The wind moans through the branches, and ruffles through your hair.  
+~
+0 A 2
+H 85 M 85
+D0
+The trail to the north continues along the lake edge.
+~
+~
+0 0 21078
+D2
+The lake trail continues to the south.  You can smell the faint scent of
+apples from that direction.
+~
+~
+0 0 21073
+S
+#21078
+Lake Trail~
+The trail dips once more down close to the lake, creating a muddy mess
+out of the trail.  The trees begin to thin out here, though to the north you
+can see an enormous oak tree towering over the island.  To the west you can
+see a gatehouse leading into the Lake House, and you hear a faint moaning to
+the north.  
+~
+0 A 2
+H 85 M 85
+D0
+You can hear a faint moaning, like a spirit in torment, to the
+north.
+~
+~
+0 0 21079
+D2
+The trail winds it's way to dry ground south of here.
+~
+~
+0 0 21077
+D3
+The path to the west is an overgrown trail leading to the gate
+of the Lake House.
+~
+~
+0 0 21081
+S
+#21079
+Lake Trail~
+As you walk along the path, you are drawn up short by a huge oak tree. 
+You hear a moaning coming from the tree, and draw closer nervously.  In the
+cleft of the trunk, a human figure writhes in agony.  He reaches out one
+clawlike hand towards you and whispers 'Mercy, oh have mercy."  You draw
+back in alarm as you recognize Kevin, the false Merlin of Britain, who was
+accused and found guilty of treason to the high priestess of Avalon, and to
+the holy order of the druids.  
+~
+0 A 2
+H 85 M 85
+D2
+The trail continues into quieter parts to the south.
+~
+~
+0 0 21078
+D3
+The trail continues its way west, away from the tree.
+~
+~
+0 0 21080
+S
+#21080
+Lake Trail~
+You have reached the end of the trail that extends around the lake.  To
+the west lies the walls of the Lake House, and the gate house itself lies to
+the south.  The trail ends in a small clearing here, with a stone bed in the
+center.  It is here that the seers of Avalon fast and pray for visions of
+the future.  The air is heavy with the scent of oak and pine, and the wind
+rustles gently through the leaves.  
+~
+0 A 2
+H 85 M 85
+D1
+You can see a tall oak tree rising to the east, and you can hear
+a faint moaning sound from that direction.
+~
+~
+0 0 21079
+D2
+The gatehouse of Avalon lies to the south.
+~
+~
+0 0 21081
+S
+#21081
+Gatehouse~
+You emerge into a gatehouse that leads into the Lake House.  Named as a
+gatehouse only as a courtesy, this room is little more than a sitting room
+where visitors can await the presence of one of the priestesses or women who
+live in the house.  Hard stone benches line the walls and there is a pitcher
+of water on a small table.  
+~
+0 ACD 0
+H 85 M 85
+D0
+You can see a small clearing to the north.
+~
+~
+0 0 21080
+D1
+An overgrown trail leads to the path around the lake.
+~
+~
+0 0 21078
+D3
+~
+~
+0 0 21082
+S
+#21082
+Lake  House~
+You enter the cool, dark halls of the Lake House.  The floors are of a
+cold grey stone, and a freezing breeze blows across your feet.  You can hear
+the murmur of voices from within, and the occasional rustle of a robe. 
+The gatekeeper's room lies to the north, and Niniane's room is to the south.  
+~
+0 AD 0
+H 85 M 85
+D0
+The Gatekeeper's room lies to the north.
+~
+~
+0 0 21085
+D1
+The archway to the east leads back into the gatehouse.
+~
+~
+0 0 21081
+D2
+The room to the south belongs to Niniane.
+~
+~
+0 0 21084
+D3
+The hallway continues to the west.
+~
+~
+0 0 21086
+S
+#21083
+Morgause's Room~
+This room is filled with fine clothing and mirrors.  It is obvious that
+the inhabitant of the room is more concerned with her looks and possessions
+than in learning wisdom from the priestesses.  Morgause herself is sitting
+in front of a mirror, brushing her long, red hair and plotting against her
+cousin, Arthur.  
+~
+0 ACD 0
+H 70 M 125
+D2
+The doorway to the south leads back into the hallway.
+~
+~
+0 0 21086
+S
+#21084
+Niniane's Room~
+Niniane's room is filled with rocks and coral, and other objects the lady
+in question has collected over the years.  Most prominient are several large
+pieces of quartz crystal displayed on the bedside table.  The room is filled
+with heavy wooden furniture, all carved with ivy and tendrils of roses.  
+~
+0 ACD 0
+H 90 M 110
+D0
+To the north lies the hallway leading through the gate house.
+~
+~
+0 0 21082
+S
+#21085
+Gatekeeper's Room~
+The private room of the gatekeeper of Avalon is an austere place, with
+only a hard bunk, chest, and small table gracing the room.  The walls are of
+a dark grey stone, and a small brazier rests on the table, barely warming
+the chill in the air.  The gatekeeper herself sits by the table, spinning
+only a hard bunk, chest, and small table gracing the room.  The walls are of
+wool.  
+~
+0 ACD 0
+H 100 M 85
+D2
+The hallway lies to the south.
+~
+~
+0 0 21082
+S
+#21086
+Lake House~
+You continue along the hallway that runs through the lake house. 
+Acolytes and priestesses pass by you on their way to their errands, and
+there is a a faint murmur to be heard throughout the house.  The rustle of
+robes blends in with the faint murmuring and creates a very peaceful
+atmosphere.  Rooms lie to the north and south, and the hallway continues
+east and west.  
+~
+0 AD 0
+H 85 M 85
+D0
+The doorway to the north leads into Morgause's room
+~
+~
+0 0 21083
+D1
+The hallway continues to the east.
+~
+~
+0 0 21082
+D2
+~
+~
+0 0 21087
+D3
+The hallway continues to the west.
+~
+~
+0 0 21088
+S
+#21087
+Nimue's Room~
+Nimue's room is draped in black, and the faint tang of sorrow hangs heavy
+in the air.  Everywhere you look, there are reminders to the lady of her
+betrayal of the Merlin of Britain.  Kevin's harp rests on the bedside table,
+and his staff leans against the wall.  The lady herself lies on her bed,
+weeping quietly for the false Merlin.  
+~
+0 ACD 0
+H 80 M 120
+D0
+The doorway to the north leads back into the hallway.
+~
+~
+0 0 21086
+S
+#21088
+Lake House~
+The hallway splits into a three-way intersection here, going to the east,
+west and south.  Women hurry by, and the occasional pictish warrior.  The
+sounds of chanting come from the south, and the faint sounds from the lake
+are almost lost to you here.  
+~
+0 AD 0
+H 85 M 85
+D0
+Morgaine's room lies to the north.
+~
+~
+0 0 21089
+D1
+The hallway splits off to the east here.
+~
+~
+0 0 21086
+D2
+The hallway splits off to the south.
+~
+~
+0 0 21090
+D3
+The main hallway of the Lake House continues to the west.
+~
+~
+0 0 21096
+S
+#21089
+Morgaine's Room~
+You have entered the rooms of Morgaine, who will be high priestess of
+Avalon after Viviane rejoins the great wheel.  The room is a barren place,
+hosting only a table, chair, and bedstand.  There is a black robe laying
+across the bed, and a sheaf of drying herbs rests on the table.  A sickle
+knife rests beside the sheaf.  Morgaine sits at the table, preparing some
+herbal concoction.  
+~
+0 ACD 0
+H 95 M 110
+D2
+The archway to the south leads back into the hallway.
+~
+~
+0 0 21088
+S
+#21090
+Lake House~
+This wing of the Lake House is very quiet, with only the occasional
+acolyte wandering by.  The murmuring you heard is now faint, and the sounds
+from the rooms are muffled.  Your footsteps sound loud against the cold
+stone floor, and you can hear echoes reflecting back off the walls towards
+you.  
+~
+0 AD 0
+H 85 M 85
+D0
+The hallway continues to the north.
+~
+~
+0 0 21088
+D2
+The hallway ends to the south.
+~
+~
+0 0 21091
+D3
+The hall branches off once again to the west.
+~
+~
+0 0 21094
+S
+#21091
+Lake House~
+You have reached the end of this branch of the hallway.  The stone around
+you is of cold, grey slate, and there are rushes strewn across the floor.  A
+murmur of voices can be heard from the east, where Viviane's quarters are,
+and the sounds of prayer come from the west, where Igraine's room lies.  
+~
+0 AD 0
+H 85 M 85
+D0
+The hallway continues north.
+~
+~
+0 0 21090
+D1
+Viviane's room lies to the east.
+~
+~
+0 0 21092
+D3
+The archway to the west is decorated with crosses, an odd sight here
+in the Lake House.
+~
+~
+0 0 21093
+S
+#21092
+Viviane's Room~
+You have entered the rooms of the high priestess of Avalon.  The room is
+barren, except for a bed and bedside table.  Apparently all the work of the
+house is done elsewhere.  A chart of the moon phases hangs on the wall and a
+silver crescent lies on the bed.  Viviane stands looking out the window. 
+She doesn't seem to notice your presence.  
+~
+0 ACD 0
+H 110 M 110
+D3
+The hallway lies to the west.
+~
+~
+0 0 21091
+S
+#21093
+Igraine's Room~
+You have entered Igraine's room.  The room is decorated with crosses and
+pictures of events important to christianity.  It is indeed an odd sight to
+greet your eyes, as Igraine is a daughter of the Holy Isle of Avalon.  A
+large bed sits in the center of the room, and a bedside table beside it
+holds a cup of wine.  Lady Igraine kneels at a prie-dieu underneath a large
+copper cross hanging on the far wall.  
+~
+0 ACD 0
+H 130 M 75
+D1
+The doorway to the east leads back out into the hallway.
+~
+~
+0 0 21091
+S
+#21094
+Lake House~
+You have entered a smaller hall that branches of the main hall of the
+Lake House.  Grey robed acolytes pass you, stepping quietly as if to avoid
+causing any noise here.  You can hear still the faint murmur of voices and
+chanting to the east, but to the west is silence.  
+~
+0 AD 0
+H 85 M 85
+D1
+The main hallway lies to the east.
+~
+~
+0 0 21090
+D3
+Raven's Room lies to the west.
+~
+~
+0 0 21095
+S
+#21095
+Raven's Room~
+You enter a dark room, with only a large window opening to the west,
+where you can see a full moon.  The room contains only a hard pallet on the
+causing any noise here.  You can hear still the faint murmur of voices and
+woman sits on the pallet watching the moon.  
+~
+0 ACD 0
+H 100 M 125
+D1
+The archway to the east leads to the hallway.
+~
+~
+0 0 21094
+S
+#21096
+Lake House~
+You continue along the hallway, your boots scuffing the clean stone
+floors beneath your feet.  The walls here are hung with tapestries of
+flowers and herbs and other plants.  You see careful embroidery beneath each
+plant detailing it's medicinal uses, and conclude that these must be tools
+used in the training of priestesses.  
+~
+0 AD 0
+H 85 M 85
+D0
+The hallway continues to the north.
+~
+~
+0 0 21098
+D1
+The hallway continues to the east.
+~
+~
+0 0 21088
+D3
+Mordred's room lies to the west.
+~
+~
+0 0 21097
+S
+#21097
+Mordred's Room~
+You have entered a room filled with swords and spears and shields.  It is
+obvious that the owner of this room is more interested in the physical than
+the spiritual world.  Mordred himself stands here, looking out the window,
+pondering his mother's request that he become the next Merlin of Britain.  
+~
+0 ACD 0
+H 75 M 125
+D1
+The doorway to the east leads into the hallway.
+~
+~
+0 0 21096
+S
+#21098
+Lake House~
+You approach the end of the hallway that wends through the Lake House. 
+To the west you can see another gate house that leads to parts unknown.  The
+stones beneath your feet are cold, and a chilly breeze blows from the
+western gate.  
+~
+0 AD 0
+H 85 M 85
+D2
+The hallway continues to the south.
+~
+~
+0 0 21096
+D3
+A gatehouse lies to the west.
+~
+~
+0 0 21099
+S
+#21099
+Gatehouse~
+You have entered a gatehouse that leads into parts unknown.  You gaze
+back at the Lake House, then turn and resolutely continue into the dark
+gate.  
+~
+0 ACD 0
+H 85 M 85
+D1
+The hallway leading into the Lake House lies to the east.
+~
+~
+0 0 21098
+S
+#0
+
+
+
+#SPECIALS
+M 21014 spec_cast_mage Load to: Taliesin, the Merlin of Britain
+M 21017 spec_cast_cleric Load to: a priestess of Sulis
+M 21021 spec_thief Load to: a young student
+M 21022 spec_cast_mage Load to: an acolyte
+M 21023 spec_cast_cleric Load to: a priestess
+M 21024 spec_cast_mage Load to: a seeress
+M 21026 spec_cast_mage Load to: Niniane
+M 21027 spec_cast_mage Load to: Morguase
+M 21029 spec_cast_cleric Load to: Morgaine
+M 21031 spec_cast_cleric Load to: Viviane
+S
+
+
+
+#RESETS
+D 0 21060 3 1               * The west door of Boat House is closed
+D 0 21062 1 1               * The east door of Lake Keeper's Quarters is closed
+M 0 21000     1 21001     1   * Load a trout
+E 0 21000    10    10         * A fish scale is loaded on the arms of a trout
+M 0 21002    10 21002     2   * Load a bass
+M 0 21001    10 21003     2   * Load a carp
+M 0 21000    10 21004     2   * Load a trout
+M 0 21001    10 21005     2   * Load a carp
+M 0 21000    10 21006     2   * Load a trout
+M 0 21002    10 21007     2   * Load a bass
+M 0 21001    10 21008     2   * Load a carp
+M 0 21002    10 21009     2   * Load a bass
+M 0 21000    10 21010     2   * Load a trout
+M 0 21001    10 21011     2   * Load a carp
+M 0 21002    10 21012     2   * Load a bass
+M 0 21009     1 21013     1   * Load a godling of the shrine
+G 0 21003    -1               * A letter from arthur to morgaine is given to a godling of the shrine
+M 0 21000    10 21014     2   * Load a trout
+E 0 21000    10    10         * A fish scale is loaded on the arms of a trout
+M 0 21001    10 21015     2   * Load a carp
+M 0 21002    10 21016     2   * Load a bass
+E 0 21002    16    16         * A bass bone is loaded wielded of a bass
+M 0 21000    10 21017     2   * Load a trout
+M 0 21001    10 21018     2   * Load a carp
+M 0 21003    10 21020     2   * Load an eel
+M 0 21004    10 21021     2   * Load a tadpole
+M 0 21005    10 21022     2   * Load a blue-gill
+M 0 21003    10 21023     2   * Load an eel
+M 0 21004    10 21024     2   * Load a tadpole
+M 0 21005    10 21025     2   * Load a blue-gill
+M 0 21003    10 21026     2   * Load an eel
+M 0 21004    10 21027     2   * Load a tadpole
+E 0 21005     5     5         * A fish tail is loaded on the torso of a tadpole
+M 0 21005    10 21028     2   * Load a blue-gill
+E 0 21006     3     3         * A fish bone is loaded around the neck (1) of a blue-gill
+M 0 21003    10 21029     2   * Load an eel
+M 0 21004    10 21030     2   * Load a tadpole
+M 0 21005    10 21031     2   * Load a blue-gill
+M 0 21003    10 21032     2   * Load an eel
+M 0 21004    10 21033     2   * Load a tadpole
+M 0 21005    10 21034     2   * Load a blue-gill
+M 0 21003    10 21035     2   * Load an eel
+E 0 21004    11    11         * An ink stain is loaded as a shield of an eel
+M 0 21004    10 21036     2   * Load a tadpole
+M 0 21005    10 21037     2   * Load a blue-gill
+M 0 21008    10 21039     2   * Load a salmon
+M 0 21008    10 21040     2   * Load a salmon
+M 0 21006    10 21041     2   * Load a goose
+E 0 21008    16    16         * A goose liver is loaded wielded of a goose
+M 0 21006    10 21042     2   * Load a goose
+M 0 21007    10 21043     2   * Load a duck
+M 0 21007    10 21044     2   * Load a duck
+E 0 21007    16    16         * A duck wing is loaded wielded of a duck
+M 0 21007    10 21045     2   * Load a duck
+M 0 21008    10 21046     2   * Load a salmon
+M 0 21008    10 21047     2   * Load a salmon
+M 0 21008    10 21048     2   * Load a salmon
+E 0 21009     3     3         * A salmon fin is loaded around the neck (1) of a salmon
+M 0 21008    10 21049     2   * Load a salmon
+M 0 21006    10 21050     2   * Load a goose
+M 0 21006    10 21051     2   * Load a goose
+M 0 21006    10 21052     2   * Load a goose
+M 0 21006    10 21053     2   * Load a goose
+M 0 21007    10 21054     2   * Load a duck
+M 0 21007    10 21055     2   * Load a duck
+M 0 21007    10 21056     2   * Load a duck
+M 0 21010    10 21058     2   * Load a deer
+M 0 21010    10 21059     2   * Load a deer
+M 0 21013     5 21060     5   * Load a pictish boat man
+M 0 21011     1 21061     1   * Load the god Bath
+E 0 21011     7     7         * A pair of wool leggings is loaded on the legs of the god Bath
+M 0 21012     1 21062     1   * Load the Keeper of the Lake
+E 0 21012     8     8         * A pair of sealskin boots is loaded on the feet of the Keeper of the Lake
+M 0 21010    10 21063     2   * Load a deer
+M 0 21010    10 21064     2   * Load a deer
+E 0 21010    15    15         * A deerskin bracelet is loaded on the right wrist of a deer
+M 0 21014     1 21066     1   * Load Taliesin, the Merlin of Britain
+E 0 21013    17    17         * The harp of merlin is loaded held in the hands of Taliesin, the Merlin of Britain
+M 0 21015     1 21067     1   * Load a faerie lady
+G 0 21014    -1               * A pair of golden earrings is given to a faerie lady
+M 0 21010    10 21068     2   * Load a deer
+M 0 21010    10 21069     2   * Load a deer
+M 0 21016     1 21070     1   * Load Sulis, God of Sleep
+M 0 21017     7 21070     7   * Load a priestess of Sulis
+E 0 21015    16    16         * A dream whip is loaded wielded of a priestess of Sulis
+M 0 21020     8 21072     8   * Load a racoon
+M 0 21018     8 21072     8   * Load a squirrel
+E 0 21016     0     0         * An acorn is loaded as a light of a squirrel
+M 0 21019     8 21072     8   * Load a chipmunk
+G 0 21017    -1               * A striped potion is given to a chipmunk
+M 0 21018     8 21073     1   * Load a squirrel
+M 0 21019     8 21073     8   * Load a chipmunk
+M 0 21020     8 21073     8   * Load a racoon
+M 0 21018     8 21077     1   * Load a squirrel
+M 0 21019     8 21077     8   * Load a chipmunk
+M 0 21020     8 21077     8   * Load a racoon
+E 0 21018    16    16         * A racoon's tail is loaded wielded of a racoon
+M 0 21019     8 21078     8   * Load a chipmunk
+M 0 21020     8 21078     8   * Load a racoon
+M 0 21018     8 21078     8   * Load a squirrel
+E 0 21016     0     0         * An acorn is loaded as a light of a squirrel
+M 0 21018     8 21079     1   * Load a squirrel
+M 0 21020     8 21079     8   * Load a racoon
+M 0 21019     8 21079     8   * Load a chipmunk
+G 0 21017    -1               * A striped potion is given to a chipmunk
+M 0 21018     8 21080     1   * Load a squirrel
+M 0 21019     8 21080     8   * Load a chipmunk
+M 0 21020     8 21080     8   * Load a racoon
+E 0 21018    16    16         * A racoon's tail is loaded wielded of a racoon
+M 0 21023     6 21082     6   * Load a priestess
+M 0 21024     8 21082     8   * Load a seeress
+M 0 21021    10 21082    10   * Load a young student
+E 0 21019    15    15         * A moon bracelet is loaded on the right wrist of a young student
+M 0 21022     8 21082     8   * Load an acolyte
+E 0 21020    16    16         * A moon club is loaded wielded of an acolyte
+M 0 21027     1 21083     1   * Load Morguase
+E 0 21024     2     2         * A royal pendragon ring is loaded on the right finger of Morguase
+M 0 21026     1 21084     1   * Load Niniane
+E 0 21025    16    16         * The holy sword is loaded wielded of Niniane
+M 0 21025     1 21085     1   * Load the Gatekeeper
+E 0 21023    16    16         * A holy guisarme is loaded wielded of the Gatekeeper
+M 0 21022     8 21086     8   * Load an acolyte
+M 0 21023     6 21086     6   * Load a priestess
+M 0 21024     8 21086     8   * Load a seeress
+M 0 21021    10 21086    10   * Load a young student
+E 0 21019    15    15         * A moon bracelet is loaded on the right wrist of a young student
+M 0 21028     1 21087     1   * Load Nimue
+E 0 21027    18    18         * Merlin's heart is loaded floating of Nimue
+M 0 21021    10 21088    10   * Load a young student
+M 0 21023     6 21088     6   * Load a priestess
+M 0 21024     8 21088     8   * Load a seeress
+M 0 21022     8 21088     8   * Load an acolyte
+E 0 21020    16    16         * A moon club is loaded wielded of an acolyte
+M 0 21029     1 21089     1   * Load Morgaine
+E 0 21028     6     6         * A moon crescent is loaded over the head of Morgaine
+M 0 21021    10 21090    10   * Load a young student
+M 0 21022     8 21090     8   * Load an acolyte
+M 0 21023     6 21090     6   * Load a priestess
+M 0 21024     8 21090     8   * Load a seeress
+M 0 21021    10 21091    10   * Load a young student
+M 0 21022     8 21091     8   * Load an acolyte
+M 0 21024     8 21091     8   * Load a seeress
+M 0 21023     6 21091     6   * Load a priestess
+E 0 21021     9     9         * A pair of deerskin gloves is loaded on the hands of a priestess
+M 0 21031     1 21092     1   * Load Viviane
+E 0 21026    10    10         * Wraps of the dead is loaded on the arms of Viviane
+M 0 21030     1 21093     1   * Load Igraine
+E 0 21029    17    17         * A golden comb is loaded held in the hands of Igraine
+M 0 21021    10 21094    10   * Load a young student
+M 0 21022     8 21094     8   * Load an acolyte
+M 0 21024     8 21094     8   * Load a seeress
+M 0 21023     6 21094     6   * Load a priestess
+E 0 21021     9     9         * A pair of deerskin gloves is loaded on the hands of a priestess
+M 0 21032     1 21095     1   * Load Raven
+E 0 21030    13    13         * A sheathe and belt is loaded around the waist of Raven
+M 0 21021    10 21096    10   * Load a young student
+M 0 21022     8 21096     8   * Load an acolyte
+M 0 21023     6 21096     6   * Load a priestess
+M 0 21024     8 21096     8   * Load a seeress
+E 0 21022    19    19         * A blindfold is loaded on the eyes of a seeress
+M 0 21033     1 21097     1   * Load Mordred
+E 0 21031     3     3         * Mordred's cloak is loaded around the neck (1) of Mordred
+M 0 21021    10 21098    10   * Load a young student
+M 0 21022     8 21098     8   * Load an acolyte
+M 0 21023     6 21098     6   * Load a priestess
+M 0 21024     8 21098     8   * Load a seeress
+E 0 21022    19    19         * A blindfold is loaded on the eyes of a seeress
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

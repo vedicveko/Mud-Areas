@@ -1,0 +1,5560 @@
+#AREA   The Keep of Lilith~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG An eerie cry echoes through the night.~
+
+#FLAGS
+0 18
+
+#ECONOMY 0 0
+
+#MOBILES
+#25500
+lilith vampire slut succubus demon~
+Lilith~
+A tall, scantily clad women of impressive stature stands before you.
+~
+Known as the Slut of the Abyss, the succubus, the Demon Whore, and 
+other pleasant names, Lilith is the eldest of all vampires, and by
+far the most deadly. Purely evil, Lilith exists only to devour the flesh
+and blood of mortal men. Women she takes as mates and slaves, making them
+thralls of her powerful will. 
+~
+67 392700584 -1000 C
+55 0 -200 10d40+15600 7d12+60
+1000000 0
+8 8 2
+22 22 11 22 22 25 3
+-20 -20 -20 -20 -20
+67 4 0 0 36865 1 6
+0 0 263871 1059985 3153678 0 1109399555 3
+> fight_prog 10~
+c gas
+c eldritch
+~
+> fight_prog 15~
+c antimagic
+c 'frost breath' $n
+~
+> fight_prog 20~
+c unravel $r
+c feebleness $r
+c blazebane $r
+c winter $r
+c weaken $r
+c blindness $r
+~
+> fight_prog 25~
+c necro
+c necro
+c necro
+cackle
+gouge
+stun
+~
+> fight_prog 75~
+disarm
+sac sword
+sac axe
+sac club
+sac mace
+sac staff
+~
+> hitprcnt_prog 20~
+ooo
+say You are truly a potent opponent, $n...
+giggle
+say But... not ...potent...ENOUGH!
+mpe _red Lilith screams maniacally, and begins to transform!
+mpe _red Huge tusks sprout from her distended head and long spines erupt!
+mpe _red Scraps of her flesh go flying about the chamber, and she roars!
+mea $r Lilith grabs ahold of you, and hurls you into a stone wall!
+mpforce $n yell AAAAAGGGHHHHHHHH!
+mpdamage $n 750
+mpechoaround $n Lilith grabs ahold of $n and hurls $m into a stone wall!
+~
+> all_greet_prog 100~
+if isnpc($n)
+say Cretinous $n, you are a fool to invade my sanctum!
+mpslay $n
+else
+if sex($n) == 2
+smile
+say Ahh, what a beauteous beast you are, $n!
+mea $n Lilith smiles seductively, and runs a hand along your face.
+say So soft, and smooth, and... oh my what a delicious figure you have!
+gasp
+say All of that running around slaying creatures does wonders for you dear.
+grin
+say Come, lie with me, enjoy the company of a master of love...
+else
+snarl
+say Bah! What a disgusting interloper you are $n!
+mutter
+say Begone else I be forced to remove thy genitals and devour them!
+mea $n Lilith is clearly angered by your presence. 
+mea $n Only the thought of defiling her boudoir stops her form destroying you.
+endif
+endif
+~
+> act_prog p from the south.~
+if sex($n) == 2
+and if wis($n) < 14
+mea $n Your mind is weak; you foolishly remove your clothing and leap into bed!
+mpforce $n remove all
+mpforce $n drop all
+mpforce $n say Take me, Lilith! Show me the TRUE ways of Love!
+cackle
+else
+if sex($n) == 2
+mea $n You resist the allure of the stunning Lilith, and grip your weapons.
+snarl
+say Foolish slut! I shall have you yet bitch!
+cackle
+endif
+endif
+~
+> act_prog p grovels before you.~
+cac
+say Crying won't help ya, praying won't do you no good!
+~
+> fight_prog 100~
+wield touch
+~
+> rand_prog 33~
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+~
+> fight_prog 33~
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+~
+> death_prog 100~
+if rand(10)
+mpe _red As Lilith perishes, her heart explodes from her chest and lands,
+mpe _red still beating, on the floor, pulsing its owner's foul blood.
+mpoload 25502 50
+drop evilheart
+else
+mpe _red As Lilith perishes, her body explodes into flames, reducing it
+mpe _red to a charred pile of stinking flesh, putrescent and vile.
+endif
+~
+|
+#25501
+handmaiden lilith~
+a handmaiden of Lilith~
+A comely woman clad in naught but a loincloth smiles seductively.
+~
+Lilith's handmaidens tend slavishly to their mistress' every need and
+desire; they are former prisoners who Lilith granted the "gift" of
+undeath to, for they took her fancy.
+~
+3 680 -1000 C
+48 0 -155 0d0+0 0d0+0
+125000 0
+8 8 2
+20 13 13 20 13 25 13
+-10 -10 -10 -10 -10
+67 4 0 0 1 1 0
+0 0 263871 1056768 2104582 0 1109398019 2
+> greet_prog 100~
+if ispc($n)
+mea $n $I smiles seductively at you.
+say Come, $n, rest awhile, forget your troubles...
+mpe In one swift move, the handmaiden gestures, and a couch appears.
+say Believe it or not, I will not attack you without provocation.
+, sits down, smiling sweetly at you.
+else
+say Poohey! Be gone, smelly beast!
+mpforce $n e
+endif
+~
+> act_prog p sits down.~
+nod
+smile
+say See? All is well!
+mea $n $I begins to gently massage your shoulders. It is quite relaxing!
+c refresh $n
+say We are trained only to serve, $n, and will not destroy you.
+~
+> fight_prog 45~
+if rand(25)
+say Ungrateful whelp! I offer you paradise and you thank me 
+say with violence! You shall perish horribly, $n!
+mpe Huge fangs burst from the Handmaiden's maw, stained with blood!
+feed
+feed
+feed
+gouge
+stun
+else
+if rand(40)
+c chill $r
+c 'faerie fire' $r
+c unravel $r
+c weaken $r
+c blindness $r
+else
+endif
+endif
+~
+|
+#25502
+eunuch~
+the Eunuch~
+A broad chested man stands before the doors.
+~
+A former adventurer who found out how genuine Lilith's threat of 
+castration she imposed on intruders was, he is now sworn to do her
+unholy bidding, protecting her handmaiden/concubines from harm.
+~
+35 33596072 -1000 C
+50 0 -200 1200d1+3800 0d0+0
+475600 0
+8 8 0
+25 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+0 3 0 0 1 1 0
+0 0 1791 3145984 3072 0 8397328 524291
+> rand_prog 33~
+mpat 3 c kin
+mpat 3 c troll
+mpat 3 c heal
+close e
+close w
+~
+> greet_prog 100~
+if ispc($n)
+snarl
+say Inruders! You shall not disturb the handmaidens!
+mpe The eunuch's voice is pitched uncomfortably high...
+mpforce $n snicker
+say Do you find my emasculated state AMUSING???
+scream
+c gas
+disarm
+stun
+else
+say You are a fool, $n, to venture here. But on your head be it!
+cackle
+endif
+~
+> act_prog flees~
+yell Oh no you don't, $n!
+mpat $n mea $n A large hand grabs you and hauls you back!
+mpat $n mpechoar $n A meaty hand drags $n back!
+mptrans $n
+cackle
+mea $n The eunuch slams his fist into your stomach!
+mpdamage $n 250
+~
+> fight_prog 50~
+if rand(40)
+wield club
+disarm
+get all
+stun
+gouge
+else
+if rand(20)
+mpat 3 c heal
+mpat 3 c 'cure blindness'
+mpat 3 c 'cure poison'
+else
+if rand(30)
+punch
+kick
+bash
+gouge
+else
+endif
+endif
+endif
+~
+|
+#25503
+darke knight~
+a Darke Knight~
+A Knight of the Darke stands motionless here.
+~
+Pledged to stand before the doors of his master Lilith's keep, this loyal
+guardian will not raise his weapon against those who approach; rather he will
+seek to warn them of the certain death they will meet should they proceed.
+Swathed in flowing black robes that conceal gleaming black chain, he stands
+with his hands resting upon his greatsword.
+~
+3 524968 -500 C
+38 0 0 0d0+0 0d0+0
+25000 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 3146496 3072 0 608 524291
+> fight_prog 33~
+wield great
+mpe With a mighty sweep, the knight smashes his blade into yours!
+disarm
+disarm
+disarm
+mpdamage $n 75
+stun
+~
+> greet_prog 100~
+if ispc($n)
+chuckle
+say Adventurer, dost thou know where thou doth venture?
+say Leave now, afore 'tis too late!
+cackle
+else
+if name($n) == marsh viper
+snarl
+say Verminbeast! Begone!
+mpslay $n
+else
+endif
+endif
+~
+|
+#25504
+spectral guardian~
+a spectral guardian~
+A translucent shape steps forth from the shadows...
+~
+This fell undead has been given the task of protecting the First Level, and
+will attack any and all who attempt to proceed forward to the next level. While
+it is ferocious and evil, it is not very perceptive, and should be easy to
+slip past. It resembles nothing so much as a translucent warrior, bearing no
+weapon save for its glowing hands, from which radiates a chill that is cold
+enough to make you shiver at 10 yards.
+~
+35 271581696 0 C
+40 0 -200 22d10+2000 9d7+22
+0 0
+8 8 0
+18 18 18 18 18 18 18
+-10 -10 -10 -10 -10
+67 0 0 0 1 1 0
+0 0 0 1048576 2113286 33 1107300352 2
+> death_prog 100~
+mpe _whi The spirit dissipates into nothingness as it dies...
+mpgoto 25500
+~
+> fight_prog 25~
+c chill $r
+c chill $r
+c chill $r
+~
+> greet_prog 100~
+if ispc($n)
+mea $n As soon as it sees you, the guardian strikes!
+YELL NONE...... SHALL...... PASS......!
+c 'frost breath' $n
+cackle
+else
+endif
+~
+|
+#25505
+witch~
+a Chaos witch~
+A hideous, wizened old crone mutters vile incantations under her fetid breath.
+~
+This grotesque woman is a witch, who has sold her soul to Chaos in return for
+power unimaginable, with which she aids her infernal master in her unspeakable
+plans.
+~
+35 2097672 -666 C
+38 0 -50 0d0+0 0d0+0
+100000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1791 3146383 7424 0 1109398080 131
+> hitprcnt_prog 20~
+if rand(60)
+say Powers of Chaos, aid me in my hour of direst need!
+mpe _red The witch slashes her wrists with a sharp nail, and a demon appears!
+mpmload 25506 
+mpforce xered cackle
+mpforce xered say I shall aid thee, witch, but you know the price!
+cringe
+say I...I accept, just rescue me!
+else
+endif
+~
+> greet_prog 100~
+if ispc($n)
+say What? Living, breathing things of Law, here?
+mutter
+say Unglaublich! You must die!
+mpe Black smoke plumes from smoldering urns, and shadows fill the room!
+c shadowform
+say Powers of Chaos, aid me!
+else
+endif
+~
+|
+#25506
+xered demon~
+Xered~
+A tall, almost emaciated demon with razor sharp claws stands here.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#25507
+marsh viper~
+a marsh viper~
+A sinewy snake rushes through the waters.
+~
+Marsh vipers are common and deadly threats to those who brave these
+waters, striking with speed and lethal volleys of poisonous bites.
+~
+97 -2145287680 -400 C
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1024 1024 0
+0 0 8455209 32 0 0 262149 2
+#25508
+ghastly apparition~
+a ghastly apparition~
+A shimmering apparition rises from the waters before you.
+~
+The soul of a paladin who met his grisly end in this place, the 
+apparition now seeks to warn others, but due to a curse finds it 
+impossible to communicate properly.
+~
+65 270041730 400 C
+38 0 -200 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 4096 4096 0
+0 0 0 0 2109190 0 1109397504 2
+> fight_prog 25~
+c chill $r
+mea $n Fear grips your heart!
+if rand(40)
+mpforce $n flee
+else
+endif
+~
+> greet_prog 100~
+if ispc($n)
+say Flee! Flee this evil place!
+mpe The apparition is frustrated by his inability to make himself understood.
+else
+endif
+~
+> death_prog 100~
+mpe The apparition dissolves into the murky waters of the lake.
+mpgoto 25500
+~
+|
+#25509
+ab'yshai~
+Ab'yshai~
+A black dragon of immense size is curled up before the gates.
+~
+Glaring at you with one half-closed eye, Ab'yshai makes it abundantly
+clear that she doesn't consider you to be worth more than even a cursory
+sideways glance. She makes a big show of returning to sleep in your presence,
+hoping to convey the contempt she holds for those she perceives to be
+less than her.
+~
+3 557736 -1000 C
+50 0 -222 100d4+9860 11d6+66
+2000000 0
+8 8 2
+22 13 13 22 22 13 13
+-20 -20 -20 -20 -20
+31 3 0 0 2048 2048 0
+0 0 33883711 1049423 2104480 0 299333 524291
+> fight_prog 40~
+if rand(40)
+c 'acid breath' $r
+stun
+gouge
+else
+if rand(20)
+mpe $I snaps with her jaws and sweeps with her tail, scattering everyone!
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+mpgoto 25555
+murder $r
+evilgrin
+else
+endif
+endif
+~
+> greet_prog 100~
+if ispc($n)
+mpe $I raises her head and lazily stares around.
+say Oh, adventurers. Joy. Mistress will be SO pleased.
+say She LOVES entertaining, $n.
+wink $n
+mpe With a snort and a belch, $I returns to her rest.
+else
+growl $n
+mpforce $n say Eep! 
+snicker
+endif
+~
+> death_prog 100~
+mpe With a final indignant roar, the mount of Lilith collapses, dead.
+mpat lilith mpforce lilith yell NNNNNNOOOOOOOO! $n, you shall pay dearly!
+mpe A bolt of energy surges forth from the gates, striking the corpse.
+mpe The corpse of the wyrm explodes, showering the room with acid!
+mpdamage $r 125
+mpdamage $r 125
+mpdamage $r 125
+mpdamage $r 125
+mpe When the dust settles, only a small token of the dragon's existence remains
+if rand(70)
+mpoload 25510
+else
+mpoload 25511
+endif
+~
+> act_prog p pierce misses you.~
+chuckle
+say Such a weapon cannot damage me, $n.
+wink $n
+~
+> act_prog p looks at you.~
+slap $n
+say Stare not 'pon my beauteous form, snivelling whelp!
+growl
+mea $n A second after her blow, you feel you whole body tremble.
+mea $n Acid was injected into your skin, and before it dissipated it
+mea $n managed to wreak considerable damage!
+mpdamage $n 125
+mpechoar $n $n trembles as the acidic touch of $I infects $m.
+~
+|
+#25510
+dark minotaur~
+a dark minotaur~
+A minotaur clad in black steel plate snorts and charges!
+~
+These burly humanoids are the guardians of Lilith's court, and will
+violently assault any who dare trespass here without authority! Imposing
+beasts, standing at well over eight feet tall and clad in black steel plate,
+you find yourself quite intimidated by their ferocity and skill.
+~
+97 8744 -700 C
+44 0 0 0d0+0 0d0+0
+120000 0
+8 8 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+48 3 0 0 65536 65536 0
+0 0 68159359 32 6144 0 848 3
+> fight_prog 20~
+mpe The minotaur lowers its head and charges at you.
+mpe It intends to impale you on its horns!
+stun
+mpdamage $n 50
+~
+|
+#25511
+courtier~
+a courtier~
+A female noble clad in fine clothing gossips with her peers.
+~
+These are the chaotic nobles who pay homage to Lilith, filling her
+court for days on end eagerly awaiting an appearance. Occasionally one
+of Lilith's minions will select a few of them to meet with Lilith; none
+return, but that does not deter the remainder.
+~
+129 512 -500 C
+40 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 2047 0 0 0 576 6
+> rand_prog 100~
+mpat 3 c 'detect invis'
+get all
+wear all
+~
+> rand_prog 2~
+say Did you hear about Lord Krothgar?
+ooo
+smirk
+~
+> rand_prog 2~
+say That Lord Raintresset is SOOOO sexy. Pity he's of Law...
+sniff
+shrug
+smile
+~
+> greet_prog 50~
+if ispc($n)
+smile
+curtsey $n
+else
+, sniffs in disdain.
+say Out of my way, $n.
+endif
+~
+> death_prog 100~
+mpforce $n chuckle
+mea $n This should impress the disgruntled imp. Perhaps you should
+mea $n give him the ring to show him you slew his hated masters?
+~
+|
+#25512
+imp~
+an imp~
+An imp rushes about, serving drinks to the noblewomen.
+~
+This minor demon has been assigned the task of serving the needs of
+the nobles gathered here. Considering that they are pampered, privileged
+nobles, he has a hard task indeed.
+~
+2241 524840 0 C
+42 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1410751 0 7811 0 2363911 3
+> greet_prog 100~
+say Greetings, would you care for a drink?
+if ispc($n)
+say Oh, you're new. Why are you here, $n, with these types?
+mpe The imp pokes a gnarled digit at the assembled nobles.
+say Do me a favor, and loot them or something.
+else
+endif
+~
+> rand_prog 2~
+roll
+sigh
+say I am SO tired of this task!
+grumble
+~
+> give_prog silver ring~
+grin
+ooo
+say I hope it HURT!
+wink
+mpe The imp pockets the ring.
+say Here's a little something in return, $n.
+mpoload 25542
+say Give it to the Crystal Golem, he don't like it too much...
+cackle
+mpat 2 drop silver
+give littlehammer $n
+bow $n
+~
+> bribe_prog 100~
+mpe The imp carefully counts the money before pocketing it.
+say Ignore Ab'yshai and his stupid door; its a trap.
+say To truly seek Lilith, you must travel below...
+wink
+~
+|
+#25513
+crocodile~
+a crocodile~
+A massive crocodile is disturbed by your entrance!
+~
+~
+35 -2145353176 0 C
+40 0 -100 100d10+2350 8d8+36
+0 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1024 1024 0
+0 0 328765 32 0 0 197 2
+#25514
+cook troll helfga~
+Helf'ga~
+A burly troll whistles merrily as she carves up an elf carcass.
+~
+You have seen more attractive piles of fungus-covered phlegm than the
+bloody horror that stands before you. She keeps muttering about her
+friend Francois...
+~
+3 552 -1000 C
+46 0 -300 100d10+6600 8d5+40
+750000 0
+8 8 2
+20 13 13 13 13 13 13
+-15 -15 -15 -15 -15
+8 3 0 0 65 1 2
+0 0 264191 1048686 2104576 129 835 2621443
+> fight_prog 33~
+wield cleaver
+wield cleaver
+cackle
+if rand(30)
+say Bloodshed! Hack, hack, chop and dice! I'll eat ye like a skunk!
+lick
+mea $r $I chops deeply into your chest!
+mpforce $r scream
+mpforce $r say OH MY GOD!
+mpechoar $r $I chops deeply into $r's chest!
+mpdamage $r 600
+else
+if rand(20)
+disarm
+stun
+gouge
+bash
+chuckle
+say Clumsy oafs! The weapons stay in your hand, not on the ground!
+say Here, let me clean that up for you!
+mpe $I grabs up the items on the ground and dumps them in the crate.
+get all
+wield cleaver
+wield cleaver
+mpat 25533 $I appears and drops several items into the crate.
+mpat 25532 drop all
+else
+if rand(30)
+mpgoto 25534
+else
+endif
+endif
+endif
+~
+> greet_prog 100~
+if isnpc($n)
+say Excellent! Fresh meat! C'mere $n!
+mpe $n cringes as $I grabs them, and tosses them onto the carving block.
+mpslay $n
+mpe In short order, $I reduces their kicking screaming body to bloody meat!
+mmm
+else
+if isimmort($n)
+gasp
+grovel $n
+else
+lick
+mmm
+say Fresh meat for the stewpots 'ere! C'mere, $n!
+mea $n $I tries to grab you and drag you to the block!
+mea $n She seems truly surprised when you resist...
+say Bah, you must be one o' the mistress' new playthings.
+say Well don't expect supper for another three hours!
+mutter
+endif
+endif
+~
+> rand_prog 2~
+, whistles merrily as she carves up another carcass.
+mpasound You hear the sound of a heavy cleaver rending flesh and bone.
+~
+|
+#25515
+leper~
+a leper~
+A disease ridden man shrouded in rags awaits scraps from above.
+~
+~
+7 512 -200 C
+42 0 0 73d4+1260 4d4+40
+10 0
+8 8 1
+13 13 13 22 13 13 13
+-5 -5 -5 -5 -5
+0 3 0 0 1 1 0
+0 0 2047 2100992 0 0 262721 2
+> fight_prog 20~
+if rand(60)
+mpe As the battle progresses, chunks of the leper's body fall off!
+mpoload 25529
+drop chunk
+lick
+say Tasty, innit?
+grin
+else
+mea $n The leper leaps forward and grabs you with scabby, infested hands!
+mea $n You suddenly do not feel terribly well at all....
+c poison $n
+mpdamage $n 125
+c weaken $n
+c leth $n
+endif
+~
+> death_prog 100~
+mpoload 25531
+drop leprous
+~
+|
+#25516
+dying elf~
+a dying elf~
+A half-decayed elf is still barely alive.
+~
+Intended for a meal, this elf was beaten badly and tossed in here to die.
+He has lasted longer than the cook expected, and she is worried that he
+now may be too tough to cook properly.
+~
+3 512 0 C
+30 0 0 2d2+2 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 2 2 0
+0 0 2047 0 0 0 0 0
+> greet_prog 33~
+if ispc($n)
+mea $n As you enter the elf's eyes flutter open, and he croaks feebly.
+say Kill..... me.....
+drool
+else
+endif
+~
+> death_prog 33~
+mpe As the elf crumples to the floor a ring falls from one of his fingers.
+mpoload 25516
+drop ring
+~
+|
+#25517
+two headed troll~
+a two headed troll~
+A burly two headed troll clad in black plate strides past.
+~
+One of the many minions in service to Lilith, this unintelligent brute
+is used as a shock trooper when Lilith feels it necessary to flex her
+muscle with the neighboring nobility.
+~
+97 512 -750 C
+42 0 -100 22d10+4000 0d0+0
+12500 0
+8 8 1
+20 13 13 13 20 13 13
+-6 -6 -6 -6 -6
+8 3 0 0 64 64 0
+0 0 2047 3153168 0 129 592 3
+> greet_prog 33~
+grunt
+if ispc($n)
+murder $n
+else
+endif
+~
+> fight_prog 20~
+disarm
+stun
+wield morning 
+~
+|
+#25518
+xogra~
+a Xogra~
+A hideous hound whose pelt is shot through with razors growls at you.
+~
+Mutant hounds captured and modified by Lilith's scientists, these
+beasts have been driven insane by the pain of having their skeletons
+fused with rows of razor blades and now exist only to kill. Respecting
+only the trolls, they are used by them as guard dogs.
+~
+97 98856 -400 C
+40 0 -80 0d0+0 0d0+0
+0 0
+8 8 0
+22 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+85 3 0 0 512 512 0
+0 0 42010173 2100480 64 4 262215 3
+> fight_prog 10~
+mea $n The hound leaps past you, slashing your side with razors!
+mpdamage $n 75
+bash
+~
+> death_prog 100~
+mpe The hide is torn from the Xogra's back by the death blow.
+mpoload 25536
+~
+|
+#25519
+crystal golem~
+a crystal golem~
+A crystal statue nearly seven feet high stands before the door.
+~
+~
+3 6333096 0 C
+44 0 -200 0d0+0 0d0+0
+175000 0
+8 8 0
+22 13 13 13 13 13 13
+-20 -20 -20 -20 -20
+40 3 0 0 1 1 0
+0 0 0 1048652 2112802 16 8520656 2
+> greet_prog 100~
+if ispc($n)
+chuckle
+say Well, you have done well to survive the Troll pens, $n.
+smile
+say Mistress will be SO pleased! I am glad the false door didn't
+say deceive you; walking through there would be rather bad...
+frown
+say It DIDN'T deceive you, did it?
+grin
+say At any rate, your crusade ends here, unless you spot some way to
+say get past me...
+flex
+else
+endif
+~
+> rand_prog 2~
+peer
+nod
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+~
+> fight_prog 33~
+c gas
+cackle
+~
+> fight_prog 25~
+lick
+if rand(30)
+mpat 3 c heal
+else
+if rand(10)
+c earthquke
+c blindness
+c harm
+else
+endif
+endif
+~
+> death_prog 100~
+mpe The golem topples over, smashing a hole through the north wall.
+mpopenpassage 25547 25548 0
+~
+> give_prog littlehammer~
+gasp
+say How...
+faint
+mpe As the golem collapses, he smashes through the north wall.
+mpopenpassage 25547 25548 0
+mpat 25500 drop littlehammer
+sleep
+~
+> act_prog p wakes you.~
+say Huh? Who? What?
+frown
+say THE HAMMER!
+scream
+c gas
+c gas
+c gas
+c gas
+c gas
+c gas
+mpclosepassage 25547 0
+mpe Satisfied at the carnage he has wrought, the golem grins.
+~
+|
+#25520
+giant leech~
+a giant leech~
+A giant leech slips silently through the muck.
+~
+These loathsome bloodsuckers are at least six feet long.
+~
+97 -2145288192 0 C
+38 0 -50 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 66601 2097424 128 1 262145 2
+> fight_prog 10~
+mea $n The leech sinks in its teeth and sucks blood from you!
+mpdamage $n 75
+~
+|
+#25521
+giant toad~
+a giant toad~
+A gargantuan toad has fallen into the sewers.
+~
+This monstrous amphibian is twice the size of a warhorse, and thrice
+as powerful. It can bite an armored knight in twain, and squirts acid
+and swamp gas from its pores and maw.
+~
+35 -2145385984 -400 C
+42 0 -200 12d10+3750 0d0+0
+0 0
+8 8 0
+22 13 13 13 13 13 13
+-12 -12 -12 -12 -12
+81 3 0 0 1024 1024 0
+0 0 33557565 1048656 2100480 1 961 2
+> fight_prog 20~
+if rand(60)
+mpe Acid squirts from the Toad's eyes!
+c 'acid breath' $r
+c 'acid breath' $r
+else
+mpe The toad opens its maw and breathes a volume of swamp gas!
+c gas
+endif
+~
+> rand_prog 2~
+mpe RIBBIT!
+mpasound A monstrous croaking sound can be heard to the north.
+~
+> death_prog 100~
+mpe As the beast dies, a strip of skin is torn loose.
+mpoload 25537
+~
+|
+#25522
+troll sergeant~
+the troll sergeant~
+A snarling, sneering troll, fully two feet taller than the others, grunts.
+~
+One of the many minions in service to Lilith, this unintelligent brute
+is used as a shock trooper when Lilith feels it necessary to flex her
+muscle with the neighboring nobility.
+~
+99 552 -750 C
+46 0 -100 22d10+5760 0d0+0
+12500 0
+8 8 1
+22 13 13 13 20 13 13
+0 0 0 0 0
+8 3 0 0 65 1 0
+0 0 2047 1052752 2100480 129 592 3
+> act_prog p from the east.~
+if name($n) == two headed troll
+snarl
+say Get back to the barracks, swine!
+mpforce $n e
+else
+if ispc($n)
+say Intruders in the Barracks! You shall pay for this!
+yell Guards! We got an intruder here! Come 'elp bash their 'eads in!
+cackle
+mpkill $n
+else
+if isimmort($n)
+bow $n
+else
+endif
+endif
+endif
+~
+> fight_prog 33~
+wield mighty
+disarm
+cackle
+~
+|
+#25523
+keeper pernaglia~
+the Keeper of Pernaglia~
+A stout, balding middle aged man clad in black robes smiles confidently.
+~
+A bitter rival of Lilith, the Keeper chose voluntary exile in this 
+chamber rather than face the wrath of Lilith after he attempted to slay
+her. Because she cannot enter this area, he is safe as long as he remains
+here. However, the boredom is beginning to tire him, and he is attempting
+to think of ways to escape.
+~
+3 340370090 -1000 C
+48 0 -300 3d100+5600 0d0+0
+1000000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 1 1 0
+0 0 2047 96 3153670 0 1518342720 3
+> fight_prog 50~
+if rand(30)
+cackle
+say You risk the wrath of a Keeper? Impressive! 
+grunt
+say You will pay, though!
+c 'acid breath' $n
+c chill $n
+else
+if rand(20)
+c unravel $n
+c feebleness $n
+c blindness $n
+c weaken $n
+endif
+if rand(50)
+c 'energy drain'
+c 'energy drain'
+c 'energy drain'
+else
+c 'cause critical'
+endif
+~
+> rand_prog 2~
+mpat 3 c heal
+~
+> greet_prog 100~
+if class($n) == mage
+mea $n You feel a wave of nausea overwhelm you as you enter here.
+mea $n Without knowing how, you become aware that a Keeper lurks nearby.
+mpforce $n shiver
+else
+if class($n) == vampire
+mea $n Something about this room makes you feel decidedly uneasy.
+else
+endif
+endif
+~
+> speech_prog lilith~
+sneer
+visible
+say You have my attention. What knowst you of Lilith, $n?
+mea $n $I grabs ahold of you and stares intently into your eyes.
+mpechoar $n $I grabs ahold of $n and stares intently into $s eyes.
+mea $n You feel a presence invade your mind...
+mutter
+say Bah. As I expected, nothing that I already did not know.
+say Begone, $n, and leave me to my meditations.
+~
+> rand_prog 33~
+sneak
+hide
+mpat 3 c invis
+~
+|
+#25524
+smirnick halfling thief~
+Smirnick~
+A rather dishevelled looking halfling creeps cautiously around.
+~
+Smirnick infiltrated the keep months ago, in search of treasure. He
+got trapped in here some time ago, and hasn't been able to sneak past
+the vaunted sentinel yet.
+~
+193 98856 200 C
+47 0 -200 21d10+3100 0d0+0
+120000 0
+8 8 1
+13 13 13 25 13 13 13
+-5 -5 -5 -5 -5
+3 2 0 0 131073 1 0
+0 0 2047 3153184 0 0 1632 524291
+> rand_prog 33~
+sneak
+hide
+~
+> greet_prog 100~
+if ispc($n)
+say Shhh! Don't make any noise. The sentinel will hear us!
+shiver
+else
+cringe
+endif
+~
+|
+#25525
+peasant~
+a peasant~
+A terrified peasant huddles in one corner of the pit.
+~
+This unfortunate soul will end up on the torturer's rack or the scientist's
+operation table...
+~
+131 512 0 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 17 2
+#25526
+vaunted sentinel~
+the vaunted sentinel~
+A powerfully built golem strides swiftly and silently along the hall.
+~
+This nigh-invulnerable terror stalks the dungeons, hunting down
+intruders and escapees mercilessly.
+~
+97 67207850 0 C
+49 0 -200 75d10+5670 12d8+40
+0 0
+8 8 0
+20 13 13 20 20 13 13
+-20 -20 -20 -20 -20
+40 3 0 0 8192 8192 2
+0 0 239 1048583 2103584 0 8389600 524295
+> fight_prog 20~
+stun
+c gas
+bash
+gouge
+c earthquake
+kick
+~
+> hitprcnt_prog 20~
+mpe $I pauses in its relentless assault, momentarily puzzled. 
+mpe Then, recovering from the shock of the injuries it bears, it charges!
+stun
+bash
+gouge
+kick
+c gas
+~
+> greet_prog 100~
+murder $n
+mpe $I flexes immensely powerful muscles and releases a burst of energy!
+c q
+~
+> entry_prog 100~
+c gas
+~
+|
+#25527
+torturer naggamantech~
+Naggamantech~
+A crazed hunchback grinds glass into the eyes of a bound elf.
+~
+This sadistic freak is a favorite employee of Lilith, for she has yet
+to meet a torturer who takes more enjoyment out of their work than this
+fellow. He keeps muttering about having to outdo his brother, one
+Naggamanteth.
+~
+3 552 -1000 C
+47 0 -125 12d20+5500 8d8+44
+875000 0
+8 8 1
+22 13 13 13 13 13 13
+0 0 0 0 -30
+6 3 0 0 1 1 0
+0 0 2044 3146832 2304 0 592 524291
+> rand_prog 2~
+mpe The elf on the rack lets out a blood curdling scream!
+cackle
+drool
+say Yesssss..... More.....
+mpe With a mighty heave, $I gives the rack another full turn.
+mpe A horrid snapping sound reverberates throughout the chamber.
+~
+> death_prog 33~
+mpe Your weapon tears a chunk of skin off the torturer's tattooed arms.
+mpoload 25555
+~
+> greet_prog 100~
+mpe The half-ogre is too engrossed in his work to notice you...
+cackle
+say Pain... appreciate it, elfling, savor it...
+say It is the last sensation you will ever experience....
+nod
+lick
+~
+> fight_prog 75~
+if rand(60)
+disarm
+wield whip
+gouge
+else
+if rand(30)
+snarl
+mea $n $I grabs ahold of you and hurls you into the iron maiden!
+mpechoar $n $I grabs ahold of $n and hurls $m into the iron maiden!
+mpforce $n scream
+mpe With a mighty heave, $I slams the door shut! Muffled screams are heard.
+mpdamage $n 400
+cackle
+say That ROCKS!
+else
+if rand(40)
+stun
+cackle
+mpat 3 c heal
+lick
+else
+endif
+endif
+endif
+~
+> hitprcnt_prog 20~
+mpe Sensing imminent defeat, $I spurs himself on to greater efforts.
+stun
+bash
+kick
+punch
+gouge
+disarm
+~
+> rand_prog 2~
+mpasound Horrid shrieks of pain, accompanied by evil cackling, can be heard.
+~
+|
+#25528
+manticore~
+a manticore~
+A human headed lion with the wings of a dragon bounds across the sand.
+~
+This savage beast is used to slaughter hapless prisoners cast into the
+arena by the servants of Lilith for her enjoyment. It is a mindless
+killing machine, devoid of reason.
+~
+35 524840 -500 C
+46 0 -100 9d100+3800 11d5+45
+0 0
+8 8 1
+18 13 13 18 13 13 13
+-5 -5 -5 -5 -5
+85 3 0 0 8192 8192 2
+0 0 33916477 3147520 0 0 262155 2
+> fight_prog 25~
+mea $n The manticore leaps back and releases a volley of spikes from its tail!
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+~
+> greet_prog 100~
+if ispc($n)
+mpe The manticore snarls and releases a volley of razor sharp spikes!
+mpdamage $n 100
+else
+, roars with earth-shaking ferocity!
+mpforce $n cringe
+endif
+~
+|
+#25529
+trainer~
+the trainer~
+A smiling dwarf bows and greets you.
+~
+This cocky dwarf can afford to be smug; no one may raise a weapon
+against him here, an enchantment added by Lilith to assist him in
+taming beasts for the arena.
+~
+3 552 -600 C
+38 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 5 4 0
+0 0 0 0 0 0 0 0
+> act_prog p from the east.~
+if ispc($n)
+smile
+bow
+say Welcome, welcome. New contestants are always welcome!
+chuckle
+say Well, come on then, mistress awaits her fun. Through the
+say trapdoor and up, easy does it.
+open trapdoor
+mpe $I waits patiently for you to proceed to the Arena...
+else
+endif
+~
+> rand_prog 2~
+mutter
+close u
+say When yer ready, coward, you can open it yerself!
+roll
+~
+> act_prog p glances around for signs of pursuit.~
+chuck
+say Oh no you don't, $n!
+mea $n The dwarf grabs ahold of you and hurls you back up!
+mpechoar $n $I grabs $n and hurls $m back up into the arena!
+mpforce $n u
+nod
+grin
+~
+|
+#25530
+lilith simulacrum~
+Lilith~
+A tall, scantily clad women of impressive stature stands before you.
+~
+Known as the Slut of the Abyss, the succubus, the Demon Whore, and 
+other pleasant names, Lilith is the eldest of all vampires, and by
+far the most deadly. Purely evil, Lilith exists only to devour the flesh
+and blood of mortal men. Women she takes as mates and slaves, making them
+thralls of her powerful will. 
+~
+35 369099432 -1000 C
+45 0 -200 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+0 0 2047 0 0 0 1509954048 2
+> greet_prog 100~
+if ispc($n)
+, shrieks in surprise and anger!
+say Foolish mortal! You dare disturb me!
+snarl
+say You will feel the wrath of an elder demon, knave!
+mpe $I makes a motion with her hands, and points at you!
+mpdamage $n 100
+else
+endif
+~
+> death_prog 100~
+mpe As Lilith dies, a dread chuckle fills the chamber.
+mpe Suspicious, you prod at the corpse of the vampire, which is quite dead.
+mpe That was a little easy... perhaps Lilith was all bluff and bluster?
+mpe _red Suddenly a reddish glow suffuses the chamber!
+mpe _red A glowing figure steps forth from a wreath of flame.
+mpe _lbl The figure says 'You have slain the demoness Lilith, truly a'
+mpe _lbl The figure says 'marvellous and impressive feat. You have won, and'
+mpe _lbl The figure says 'deserve rest and rewards. Simply enter the portal'
+mpe _lbl The figure says 'and you will be transported home, and rewarded.'
+mpe Smiling, the figure steps back and makes a gesture, then disappears.
+mpopenpassage 25575 25582 0
+~
+> rand_prog 100~
+mpclosepassage 25575 0
+~
+|
+#25531
+mist walker~
+a mist walker~
+A shadowy figure creeps through the mist.
+~
+These cowardly spirits wander in swamps and marshes, scavenging and
+stealing wherever they can.
+~
+197 623146 -222 C
+43 0 -300 0d0+0 0d0+0
+100000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 2 0 0 4096 4096 0
+0 0 0 11264 0 0 1108611648 66
+> death_prog 100~
+mpe As the mist walker perishes, its corpse dissipates into nothingness.
+mpgoto 25500
+~
+|
+#25532
+librarian~
+the librarian~
+A sullen elven mage stares hard at a book before her.
+~
+This comely mage is the keeper of Lilith's considerable repository of
+knowledge. Books, tomes and librams, many of them several centuries old,
+line the dusty shelves, all catalogued by her, and kept up to date and
+in good condition.
+~
+3 301990568 -765 C
+1 0 -200 20d100+2500 0d0+0
+1200000 0
+8 8 2
+13 20 13 20 13 20 20
+-10 -10 -10 -10 -10
+1 0 0 0 3 1 0
+0 0 2047 2097152 1056000 0 1250169344 70
+> fight_prog 66~
+if rand(60)
+c blindness $n
+c chill $r
+c chill $r
+c chill $r
+c weaken $n
+mpdamage $n 125
+else
+if rand(40)
+c 'frost breath'
+c 'acid breath'
+else
+if rand(70)
+gouge
+c heal
+disarm
+wield staff
+else
+endif
+endif
+endif
+~
+> greet_prog 100~
+if ispc($n)
+mutter
+say You can't come in here, mercenary. Only I, or Lilith may 
+say browse these shelves. Leave now, or face my wrath...
+mpe $I's eyes gleam dangerously.
+else
+mpforce $n s
+roll
+endif
+~
+> rand_prog 33~
+say I warned you! Now face the wrath of a Keeper!
+c gas
+cackle
+scream
+c shadowform
+c eldritch
+~
+|
+#25533
+quelzar scientist~
+Quel'zar~
+A bony, sharp featured gith works on a dying human.
+~
+He he. Ha Ha. Ho Ho. Quel'zar spends more time giggling maniacally than
+he does dismembering...err OPERATING ON his poor victims err... PATIENTS.
+Blood and guts fly here and there, as he whistles and sniggers merrily whilst
+swishing about his ensorcelled scalpel.
+~
+3 339739176 -1000 C
+49 0 -200 0d0+0 0d0+0
+956750 0
+8 8 1
+18 18 13 18 18 13 13
+-22 -10 -22 -22 -10
+10 0 0 0 524288 524288 0
+0 0 2047 2097504 3584 0 1075839552 524291
+> fight_prog 33~
+c 'ethereal funnel'
+c q
+cackle
+drool
+if rand(66)
+wield scalpel
+disarm
+else
+mpat 3 c heal
+mpe $I grabs a potion and quaffs it hurriedly. A wave of health suffuses $I.
+endif
+~
+> fight_prog 10~
+say Go say hello to my other patients, $n...
+snicker
+mea $n $I grabs you with surprising strength, and hurls you down the shaft!
+mpechoar $n $I grabs ahold of $n and hurls $m down the shaft!
+mpforce $n scream
+mptrans $n 25586
+cackle
+say I LOVE my work!
+mpat gxx mpforce gxx c gas
+~
+|
+#25534
+gloom~
+Gloom~
+A shimmering dark apparition hovers here.
+~
+Once a mage of considerable power, Gloom challenged Lilith to a battle,
+and managed to fight her to a draw. However, the effort so taxed him that
+he was reduced to a non corporeal entity, capable of great magic but no
+longer able to exist normally on the Prime Material Plane. Thus he now
+lurks here, invisible to Lilith, plotting revenge.
+~
+3 340361898 -1000 C
+52 0 -300 77d10+12500 12d5+80
+7500000 0
+8 8 0
+13 13 13 13 13 13 13
+-30 -30 -30 -30 -30
+84 0 0 0 1 1 2
+0 0 0 1048785 2109198 0 1244664576 2
+> death_prog 100~
+mpe As Gloom perishes, pieces of his shadowy equipment phase back.
+if rand(70)
+mpoload 25568
+endif
+if rand(50)
+mpoload 25570
+endif
+if rand(30)
+mpoload 25569
+endif
+if rand(10)
+mpoload 25571
+endif
+if rand(5)
+mpoload 25567
+endif
+~
+> fight_prog 75~
+if rand(30)
+c gas
+c earthquake
+mpe $I cackles as he wreaks havoc with his magicks!
+endif
+if rand(40)
+gouge
+c blindness
+c weaken
+mpgoto 25589
+c 'frost breath' $r
+cackle
+else
+if rand(60)
+kick
+punch
+feed
+lick
+else
+endif
+endif
+~
+|
+#25535
+crucified saint~
+the crucified saint~
+A bleeding, beaten man hangs crucified from a metal cross.
+~
+Despite the condition of his body, the saint is quite capable of
+defending himself against any who would hasten his martyrdom.
+~
+3 4727464 1000 C
+51 0 -300 12d10+4750 0d0+0
+0 0
+8 8 1
+20 20 20 20 20 20 20
+-30 -30 -30 -30 -30
+90 3 0 0 1 1 0
+0 0 2047 0 3153152 0 8389200 198
+> greet_prog 100~
+if ispc($n)
+mpe As you approach the saint looks up and eyes you coldly.
+say Stranger, I wish that your intentions for ridding the world
+say of this evil were purer; but I sense that your aim is simply
+say to sequester her power and items for yourself, which makes you
+say as heinous as she is... I curse you, adventurers, and your ilk.
+spit $n
+else
+endif
+~
+|
+#25536
+Drake wyrmkin dragon~
+an angry drake~
+An angry drake howls and snorts in frustration.
+~
+This wyrmkin was a continual annoyance to its masters, and as punishment
+it has had its tail severed and been incarcerated in this chamber.
+~
+35 34079232 -500 C
+44 0 -200 0d0+0 0d0+0
+150000 0
+8 8 0
+16 13 13 13 13 13 13
+0 0 0 -10 0
+31 3 0 0 2048 2048 0
+0 0 33850941 32 1 2 8707 2
+> fight_prog 20~
+mpe _red A gout of scalding flame and steam surges from $I's maw!
+c 'fire breath'
+c gas
+if rand(40)
+mpe The Drake tries to lash out with its tail, having forgotten its injury.
+mpe Thrown off balance, it crashes into a wall and is momentarily stunned.
+mpgoto 25584
+sit
+shake
+else
+feed
+lick
+endif
+~
+|
+#25537
+gxx mutant~
+Mutant Gxx~
+One of the more "successful" results of Quel'zar's operations lurks here.
+~
+~
+1 98856 -500 C
+46 0 -100 11d100+3750 12d12+20
+0 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 512 512 0
+0 0 42214975 1051744 2101524 0 262927 0
+> act_prog p pound misses you.~
+mpe The weapon bounces ineffectively off Gxx's hide.
+~
+> act_prog p crush misses you.~
+mpe The weapon bounces ineffectively off Gxx's hide.
+~
+> greet_prog 100~
+mpe With a horrid snarl, $I leaps upon you!
+murder $n
+gouge
+stun
+~
+|
+#0
+
+
+#OBJECTS
+#25500
+touch lilith~
+the Touch of Lilith~
+An incredibly sharp dagger forged from black metal hums loudly.~
+~
+5 17498682 8193
+0 0 0 11
+5 4362411 436241
+A
+1 1
+A
+2 1
+A
+13 50
+A
+12 80
+A
+18 11
+A
+19 11
+A
+25 5
+A
+27 1051648
+#25501
+shroud lust~
+the Shroud of Lust~
+A translucent black shroud lies here.~
+~
+9 16974336 1025 64
+22 0 0 0
+33 5243131 524313
+A
+12 100
+A
+13 100
+A
+18 7
+A
+19 7
+A
+24 -10
+> wear_prog 100~
+if sex($n) == 2
+mea $n You smile seductively as you slip the object of lust on.
+mpechoaround $n $n smiles seductively and glows with an aura of sin.
+else
+tell $n You do not understand the true nature of desire!
+mpforce $n say Oh no...
+mpslay $n
+endif
+~
+|
+#25502
+evilheart heart evil~
+the Heart of Evil~
+A blackened heart, still beating, pumps blood onto the floor.~
+~
+1 2579 1
+0 0 -1 0
+50 5634254 563425
+A
+1 1
+A
+5 1
+A
+12 50
+A
+13 50
+A
+19 6
+A
+25 -5
+> wear_prog 100~
+mea $n As you grasp the heart a hellish light suffuses you.
+mpechoaround $n A hellish light fills the area as $n grasps the heart.
+c fireshield $n
+~
+> remove_prog 100~
+mea $n The hellish light dims to nothing as you release the heart.
+~
+> damage_prog 100~
+mpoload 25502
+drop heart
+mpforce $n get evilheart
+mpforce $n wear evilheart
+mpechoaround $n $n's heart spontaneously regenerates into $s hand!
+mpforce $n cackle
+~
+|
+#25503
+loincloth handmaiden~
+loincloth of the handmaiden~
+This loincloth is all the handmaidens of Lilith are permitted to wear.~
+~
+9 80 2049
+8 0 0 0
+1 0 0
+A
+17 -20
+A
+2 2
+A
+25 2
+A
+31 2
+A
+18 2
+A
+19 2
+A
+27 32
+#25504
+iron club~
+an iron club~
+A heavy iron shod club rests on the floor.~
+~
+5 524824 8193
+0 0 0 8
+45 75000 7500
+A
+1 2
+A
+2 -2
+A
+4 -2
+A
+13 100
+A
+18 8
+A
+19 8
+A
+29 4
+#25505
+iron ring~
+an iron ring~
+A thick heavy iron ring lies here.~
+~
+9 17449474 3
+8 0 0 0
+10 50000 5000
+A
+1 1
+A
+5 1
+A
+17 -20
+A
+13 20
+A
+18 2
+A
+19 3
+#25506
+great sword~
+a greatsword~
+A sword nearly seven feet long has been dropped here.~
+~
+5 705106 8193
+0 0 0 3
+20 500 50
+A
+1 1
+A
+5 1
+A
+13 25
+A
+18 4
+A
+19 7
+#25507
+flowing black robes~
+flowing black robes~
+A pile of black cloth fills one corner of the room.~
+~
+9 596 1025
+11 0 0 0
+3 7645 764
+A
+13 75
+A
+17 -20
+A
+19 3
+A
+24 -2
+#25508
+gleaming black chain chainmail~
+gleaming black chainmail~
+This chain gleams as if an invisible moon were shining upon it.~
+~
+9 33365 9
+20 0 0 0
+12 57500 5750
+A
+13 50
+A
+12 50
+A
+14 50
+A
+18 4
+A
+19 4
+A
+23 -5
+#25509
+black rune covered staff~
+a black rune-covered staff~
+A twisted length of blackwood covered in silvery runes lies here.~
+~
+5 100946 8193
+0 0 0 6
+4 75000 7500
+A
+3 1
+A
+4 1
+A
+12 75
+A
+18 6
+A
+19 6
+> wear_prog 100~
+if isevil($n)
+mea $n Power courses through your veins as you grasp the staff.
+mpechar $n $n shivers in delight as $e grasps the staff.
+c 'dragon wit' $r
+c kin $r
+mea $n Power of body and mind is infused in you.
+else
+endif
+~
+|
+#25510
+sleeves wyrm~
+Sleeves of the Wyrm~
+A pair of shimmering black dragonscale sleeves lies here.~
+~
+9 17334866 257
+30 0 0 0
+22 754000 75400
+A
+13 25
+A
+12 25
+A
+18 4
+A
+19 7
+A
+27 128
+A
+23 -5
+A
+24 -5
+#25511
+claw ab'yshai~
+The Claw of Ab'yshai~
+A black dragon claw of enormous size lies torn from its owner.~
+~
+5 17334864 8193
+0 0 0 5
+1 0 0
+A
+1 1
+A
+3 1
+A
+2 1
+A
+13 50
+A
+12 130
+A
+18 9
+A
+19 9
+A
+27 32
+#25512
+black steel plate~
+black steel plate~
+A suit of black steel plate glows dimly.~
+~
+9 524880 9
+25 0 0 0
+40 10000 1000
+A
+17 -30
+A
+13 40
+A
+18 5
+A
+19 5
+A
+22 -3
+#25513
+black metal gauntlets~
+black steel gauntlets~
+A pair of black steel gauntlets lies here.~
+~
+9 524880 129
+12 0 0 0
+4 10000 1000
+A
+17 -10
+A
+13 10
+A
+18 3
+A
+19 4
+A
+21 -3
+#25514
+black steel leggings~
+black steel leggings~
+A pair of heavy black leggings lies here.~
+~
+9 524880 33
+20 0 0 0
+12 10000 1000
+A
+14 64
+A
+13 10
+A
+12 10
+A
+18 3
+A
+19 3
+A
+23 -3
+#25515
+black steel helm~
+a black steel helm~
+A black steel helm, with two large holes atop it, lies here.~
+~
+9 524880 17
+17 0 0 0
+4 10000 1000
+A
+3 -2
+A
+13 50
+A
+18 4
+A
+19 4
+A
+24 -3
+#25516
+black steel shield~
+a black steel shield~
+A black steel shield with a grinning skull boss lies here.~
+~
+9 524880 513
+30 0 0 0
+20 10000 1000
+A
+18 3
+A
+19 3
+A
+17 -30
+A
+23 -3
+#25517
+black steel mattock~
+a black steel war mattock~
+A short-handled war mattock lies here.~
+~
+5 557648 8193
+0 0 0 8
+22 10000 1000
+A
+1 2
+A
+13 80
+A
+19 6
+A
+27 16
+#25518
+purple cloak~
+a purple cloak~
+A pile of cloth hums evilly.~
+~
+9 262738 1025
+12 0 0 0
+4 125000 12500
+A
+2 2
+A
+13 75
+A
+18 5
+A
+19 5
+A
+27 1
+#25519
+silver ring~
+a silver ring~
+A band of silver lies here, unwanted.~
+~
+9 622656 3
+3 0 0 0
+1 12000 1200
+A
+12 75
+A
+24 -8
+#25520
+choker jewelled~
+a jewelled choker~
+A piece of expensive jewellry lies here.~
+~
+9 622656 5
+10 0 0 0
+1 75000 7500
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 2
+#25521
+courtier's robes~
+courtier's robes~
+These robes have been fashioned to display the wearer to her best advantage.~
+~
+9 96 9
+5 0 0 0
+1 40000 4000
+A
+12 50
+A
+18 4
+A
+19 4
+A
+23 5
+> wear_prog 100~
+if sex($n) == 2
+mea $n You feel wonderfully attractive in these robes.
+c 'elven beauty' $n
+else
+mea $n Try as you might, you cannot get the robes to fit properly.
+mpforce $n remove courtier's
+mpforce $n sigh
+endif
+~
+|
+#25522
+glass white wine~
+a glass of white wine~
+A glass of white wine sits here.~
+~
+17 0 1
+1 1 0 2
+1 200 20
+#25523
+glass red wine~
+a glass of red wine~
+A glass of red wine sits here.~
+~
+17 0 1
+1 1 0 2
+1 200 20
+#25524
+plug~
+a plug~
+A massive metal plug is set into the base of the pit.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> pull_prog 100~
+if str($n) < 20
+mea $n Try as you might, you cannot budge the plug.
+else
+mea $n As you yank at the plug, you are sucked down, along with a
+mea $n considerable volume of water, into a sluice pipe. The plug
+mea $n is yanked behind you, sealing off the pipe, and you plummet
+mea $n downwards, to wherever the pipe terminates.
+mpechoar $n As $n pulls the plug loose, $e is sucked down the hole
+mpechoar $n it revealed, the plug settling back into the hole as
+mpechoar $n $n disappears!
+mpopenpassage 25522 25557 5
+mpforce $n down
+endif
+~
+|
+#25525
+metal crate~
+a metal crate~
+A heavy metal crate smeared with grease and muck sits here.~
+~
+15 0 0
+10000 0 -1 0
+1 0 0
+#25526
+meat cleaver~
+(Bloody) a meat cleaver~
+A bloocstained meat cleaver awaits another bout of bloodshed.~
+~
+5 17484304 8193
+0 0 0 1
+10 175400 17540
+A
+1 1
+A
+2 1
+A
+13 125
+A
+18 8
+A
+19 8
+#25527
+bloody apron~
+a bloody apron~
+A blood soaked apron has been tossed aside here.~
+~
+9 16908882 1025
+11 0 0 0
+11 0 0
+A
+27 64
+A
+17 -10
+A
+13 45
+A
+18 5
+A
+19 5
+A
+23 -2
+#25528
+bloodstained carving block~
+a bloodstained carving block~
+A massive stone block caked with dried blood rests here.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> exa_prog 100~
+mea $n Your head swims with visions of slaughter and death.
+mea $n Gazing at what lies here makes you want to become a vegan...
+~
+|
+#25529
+chunk leprous flesh~
+a chunk of leprous flesh~
+A chunk of leprous flesh festers here.~
+~
+19 0 1
+4 0 0 1
+1 0 0
+#25530
+rags leper~
+rags of the leper~
+These once-white linen strips are stained with pus and blood.~
+~
+9 262160 1025
+7 0 0 0
+1 0 0
+A
+5 -3
+A
+25 -3
+A
+13 50
+A
+12 50
+A
+19 4
+A
+27 256
+#25531
+leprous touch~
+Leprous Touch~
+A rotting, disembodied hand lies here.~
+~
+5 17170960 8193
+1 0 0 5
+4 0 0
+A
+1 1
+A
+2 1
+A
+5 -2
+A
+25 -2
+A
+18 7
+A
+19 7
+A
+26 4096
+A
+30 33
+#25532
+shitstained hole~
+a gaping shit stained hole~
+A gaping hole stained with shit lies before you.~
+~
+9 0 0
+0 0 0 0
+1 0 0
+#25533
+ring elf friend~
+Elf Friend Ring~
+This ring marks the wearer as a friend of the elves.~
+~
+9 8913984 3
+5 0 0 0
+1 15750 1575
+A
+25 2
+A
+31 2
+A
+12 30
+A
+18 2
+A
+19 2
+A
+26 32768
+#25534
+black plate~
+black plate ~
+A suit of battered black plate mail lies here.~
+~
+9 524288 9
+22 0 0 0
+30 320 32
+A
+17 -30
+A
+13 75
+A
+18 3
+A
+19 5
+A
+27 64
+#25535
+morning star~
+a morning star of doom~
+A huge black, bloodstained morning star lies on the ground in a pool of gore.~
+~
+5 17351248 8193
+0 0 0 7
+22 5000 500
+A
+1 2
+A
+2 -2
+A
+13 45
+A
+18 2
+A
+19 7
+A
+27 32
+#25536
+xogra hide~
+Xogra Hide~
+A dog skin sewn through with razors lies here covered in blood.~
+~
+9 524352 1025
+0 0 0 0
+22 47500 4750
+A
+27 64
+A
+13 30
+A
+18 5
+A
+19 5
+A
+24 3
+A
+29 4
+> wear_prog 100~
+mea $n As you wrap the hide around you, you are slashed by razors!
+mpdamage $n 100
+~
+|
+#25537
+toad hide~
+Hide of the Toad~
+A strip of thick green hide lies here.~
+~
+9 262144 1025 128
+22 0 0 0
+20 0 0
+A
+17 -30
+A
+5 2
+A
+13 45
+A
+18 5
+A
+19 5
+A
+27 128
+A
+20 -2
+A
+22 -2
+A
+23 -2
+#25538
+studded leather wristguard~
+a studded leather wristguard~
+A strip of leather covered in metal rivets lies here.~
+~
+9 524800 4097
+12 0 0 0
+3 21000 2100
+A
+1 1
+A
+5 1
+A
+18 2
+A
+19 2
+#25539
+wyvern skull helm~
+Wyvernskull helm~
+The skull of a Wyvern rests on the ground.~
+~
+9 2576 17
+10 0 0 0
+12 22500 2250
+A
+3 -1
+A
+4 -1
+A
+13 100
+A
+18 4
+A
+19 5
+A
+27 256
+A
+29 2048
+#25540
+mighty war mattock~
+Mighty War Mattock~
+A war mattock nearly eleven feet long lies here.~
+~
+5 49746 8193
+0 0 0 8
+33 223000 22300
+A
+1 2
+A
+13 50
+A
+18 9
+A
+19 9
+> wear_prog 10~
+if isgood($n)
+else
+c kin $n
+endif
+~
+|
+#25541
+giant tooth earring~
+a giant tooth earring~
+This tooth was torn from the maw of a giant.~
+~
+9 262144 65537
+4 0 0 0
+1 0 0
+A
+1 2
+A
+18 2
+A
+19 2
+#25542
+littlehammer~
+a little hammer~
+A miniature steel hammer lies on the floor.~
+~
+8 524288 1
+1000 0 0 0
+1 0 0
+#25543
+sign~
+a small sign~
+A small sign has been nailed to a wall here.~
+~
+12 64 0
+0 0 0 0
+1 0 0
+E
+sign~
+The sign reads-
+ 
+A little favor paid in advance, can save much trouble later
+Give the imp a hundred gold, else prepare to meet your maker
+ 
+ 
+~
+> exa_prog 100~
+mea $n From far away, you feel someone watching you.
+mea $n Spinning round, you see an imp bearing a drinks tray,
+mea $n disappearing into the crowd.
+~
+|
+#25544
+snakeskin breeches~
+snakeskin breeches~
+A pair of breeches fashioned from the skin of a snake lies here.~
+~
+9 459344 33
+16 0 0 0
+3 432432 43243
+A
+1 -1
+A
+2 1
+A
+3 1
+A
+13 10
+A
+12 25
+A
+18 1
+A
+19 4
+A
+27 32
+#25545
+belt black shimmering~
+shimmering black belt~
+A belt of shimmering black cloth is coiled up on the floor.~
+~
+9 8489489 2049
+11 0 0 0
+10 233400 23340
+A
+3 2
+A
+4 1
+A
+12 60
+A
+18 3
+A
+19 3
+A
+24 -3
+A
+21 -3
+#25546
+knife keeper~
+Knife of the Keepers~
+A black metal knife gleams dully.~
+~
+5 623152 8193
+0 0 0 11
+4 400000 40000
+A
+2 2
+A
+3 2
+A
+12 88
+A
+13 66
+A
+18 8
+A
+19 8
+A
+27 1048576
+#25547
+black robes~
+Robes of the Night~
+A pile of heavy black cloth covers the floor.~
+~
+9 25395792 1025
+30 0 0 0
+45 124000 12400
+A
+17 -30
+A
+12 100
+A
+18 5
+A
+19 5
+A
+22 -2
+A
+21 -2
+A
+20 -2
+A
+24 -2
+A
+23 3
+#25548
+lens perception~
+Lens of Perception~
+A glowing amber lens lies here.~
+~
+9 1089 131073
+9 0 0 0
+1 50000 5000
+A
+26 8
+A
+26 32
+A
+3 3
+A
+18 3
+A
+27 2048
+#25549
+viper~
+Viper~
+A dangerous looking short sword gleams in the light.~
+~
+5 17498208 8193
+0 0 0 11
+4 175000 17500
+A
+2 3
+A
+13 30
+A
+18 11
+A
+19 8
+#25550
+soft leather shoes~
+soft leather shoes~
+A pair of doeskin shoes has been left here.~
+~
+9 8455264 65
+9 0 0 0
+1 75600 7560
+A
+2 2
+A
+13 20
+A
+12 45
+A
+18 4
+A
+19 4
+A
+26 98304
+#25551
+fur lined cloak~
+fur lined cloak~
+A well fashioned furlined cloak hangs from a hook.~
+~
+9 262144 5
+7 0 0 0
+4 650 65
+A
+17 -20
+A
+13 45
+A
+18 2
+A
+19 2
+A
+27 2
+#25552
+torturer whip~
+the Torturer's Whip~
+A whip with razor blades sewn into the thongs hangs here.~
+~
+5 17220112 8193
+0 0 0 4
+25 300 30
+A
+1 1
+A
+2 1
+A
+13 125
+A
+18 9
+A
+19 7
+#25553
+black leathers~
+black leathers~
+A set of studded black leathers makes you think of pain and misery.~
+~
+9 17187344 9
+18 0 0 0
+20 500 50
+A
+17 -22
+A
+13 50
+A
+18 5
+A
+19 5
+A
+23 -4
+A
+22 -3
+#25554
+black leather hood~
+a black leather hood~
+A black sack with eye and mouth slits lies on the floor.~
+~
+9 262736 17
+5 0 0 0
+1 20 2
+A
+3 1
+A
+4 1
+A
+12 75
+A
+19 3
+A
+18 3
+#25555
+tattooed hide~
+tattooed hide~
+A strip of ogre hide covered in evil tats lies here.~
+~
+9 262144 257
+12 0 0 0
+10 0 0
+A
+17 -30
+A
+5 2
+A
+13 50
+A
+18 4
+A
+19 7
+A
+27 2097152
+A
+23 -5
+A
+20 -5
+> wear_prog 100~
+if race($n) == half-ogre
+mea $n As you drape the skin around your arms it melds with your skin.
+grin
+mpforce $n say Nice tattoos. Make me feel strong.
+mpforce $n nod
+else
+mea $n The skin slips off when you try to wear it.
+mpforce $n remove tattooed
+endif
+~
+|
+#25556
+rack elf~
+the rack~
+A dying, flayed elf is strapped to the rack.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> exa_prog 100~
+mpe _lbl The elf says 'Kill me... please....'
+~
+> rand_prog 2~
+The elf screams in excrutiating agony and despair.
+~
+|
+#25557
+hot poker~
+a hot poker~
+A red hot poker lies burning the floor.~
+~
+3 65 16385
+50 5 5 88
+5 500 50
+A
+12 25
+#25558
+whip~
+a whip~
+A whip is curled up on the floor here.~
+~
+5 0 8193
+0 0 0 4
+10 20 2
+#25559
+helm vigilance~
+Helm of Vigilance~
+A shining steel helm lies here.~
+~
+9 25198656 17
+20 0 0 0
+11 57600 5760
+A
+3 2
+A
+4 2
+A
+5 2
+A
+13 30
+A
+12 50
+A
+18 3
+A
+19 3
+A
+27 1024
+A
+26 40
+> wear_prog 100~
+if class($n) == cleric
+c sagacity $n
+else
+if class($n) == mage
+c 'dragon wit' $n
+else
+if class($n) == warrior
+c troll $n
+c kin $n
+else
+endif
+endif
+endif
+~
+> damage_prog 100~
+mpe _whi Beams of light issue forth from the Helm as it is damaged!
+~
+> sac_prog 100~
+mpe The helm bestows one final blessing as it is consigned to oblivion.
+c sanc $n
+~
+|
+#25560
+gauntlets power~
+Gauntlets of Power~
+A pair of heavy metal gauntlets has been dropped here.~
+~
+9 17481794 129
+13 0 0 0
+22 40000 4000
+A
+1 2
+A
+13 25
+A
+18 2
+A
+19 6
+#25561
+iron key~
+the iron key~
+An iron key lies on the ground.~
+~
+18 524288 1
+0 0 0 0
+10 50 5
+#25562
+iron maiden~
+the iron maiden~
+A bloodstained iron maiden dominates the chamber.~
+~
+12 524288 0
+0 0 0 0
+1 0 0
+> act_prog p bashes against the wall, but it holds strong.~
+mea $n You are trying to bash open an open metal casket filled with spikes.
+mea $n O...u...c....h....
+mpechoar $n $n hurls $mself into the iron maiden. Yahoo.
+mpdamage $n 600
+mpechoar $n Crazy idiot...
+~
+|
+#25563
+staff knowledge~
+Staff of Knowledge~
+A plain piece of polished oak serves as a makeshift staff.~
+~
+5 360448 8193
+0 0 0 7
+6 225000 22500
+A
+3 2
+A
+4 2
+A
+1 -2
+A
+12 150
+A
+18 6
+A
+19 6
+#25564
+tome thought~
+Tome of Thought~
+A slim volume of arcane lore has been left here.~
+~
+9 25395264 16385
+22 0 0 0
+22 56400 5640
+A
+3 2
+A
+12 125
+A
+13 33
+A
+18 5
+A
+19 5
+A
+24 -10
+#25565
+scalpel~
+the surgeon's scalpel~
+A long, slender scalpel lies here.~
+~
+5 98896 8193
+0 0 0 1
+1 75000 7500
+A
+2 2
+A
+12 66
+A
+13 30
+A
+18 12
+A
+19 10
+#25566
+white lab coat~
+a white coat~
+A coat spattered with gore hands from a hook.~
+~
+9 98880 1025
+11 0 0 0
+7 5750 575
+A
+17 -66
+A
+12 100
+A
+18 7
+A
+19 4
+A
+27 64
+#25567
+visions darkness~
+Visions of Darkness~
+A shimmering black aura of energy fills the room.~
+~
+9 100980 131073
+27 0 0 0
+1 0 0
+A
+1 -1
+A
+3 2
+A
+12 125
+A
+13 75
+A
+18 4
+A
+19 4
+A
+26 544
+> wear_prog 100~
+if isevil($n)
+mea $n Dark thoughts invade your mind, thrilling you with their intensity.
+mpechoar $n $n cackles in glee as $e is exposed to horrid fantasies of evil.
+mpforce $n cackle
+else
+endif
+~
+> remove_prog 100~
+if isevil($n)
+mea $n You sigh with regret as you remove the visions from your mind.
+mpechoar $n $n looks disappointed as $e returns to reality.
+else
+endif
+~
+> get_prog 100~
+if isevil($n)
+mea $n You are instantly tempted by the evil magics!
+mpforce $n wear visions
+else
+endif
+~
+> drop_prog 100~
+if isevil($n)
+mea $n You cast away the visions, but instantly regret it.
+mpechoar $n $n hurls the visions away, but with obvious reluctance.
+else
+endif
+~
+|
+#25568
+darkened plate armor~
+Darkened Plate Armor~
+A suit of battered metal armor lies in the shadows.~
+~
+9 16826902 9
+40 0 0 0
+33 0 0
+A
+1 1
+A
+2 1
+A
+17 -66
+A
+13 50
+A
+12 100
+A
+18 6
+A
+19 6
+A
+22 -5
+#25569
+onyx dagger~
+an onyx dagger~
+A dagger carved from onyx is embedded in the ground.~
+~
+5 16878102 8193
+0 0 0 2
+12 0 0
+A
+5 -2
+A
+13 30
+A
+12 125
+A
+18 8
+A
+19 5
+A
+34 25
+#25570
+bracer pain~
+Bracer of Pain~
+A bracer lined with spikes (inside!) sits unwanted here.~
+~
+9 623126 4097
+7 0 0 0
+5 0 0
+A
+2 -2
+A
+13 -25
+A
+12 40
+A
+18 -2
+A
+19 3
+> wear_prog 100~
+if isgood($n)
+else
+mea $n You wince as the spikes dig into your wrist!
+mpdamage $n 50
+endif
+~
+|
+#25571
+doom leggings~
+Leggings of Doom~
+A pair of tarnished bronze leggings lies here.~
+~
+9 17400326 33
+22 0 0 0
+45 0 0
+A
+2 1
+A
+13 25
+A
+12 30
+A
+18 4
+A
+19 4
+#25572
+blackened nails~
+blackened nails~
+A pair of bloodstained nails lie on the ground, torn from someone's hands.~
+~
+9 525569 129
+11 0 0 0
+10 100 10
+A
+1 -1
+A
+2 -1
+A
+13 30
+A
+18 -4
+A
+19 6
+> wear_prog 100~
+if isevil($n)
+else
+mea $n With a grunt and a sudden howl, you drive the nail into your palm!
+mpechoar $n You watch wide eyed with horror as $n drives the nail into $s hand.
+mpdamage $n 50
+endif
+~
+> remove_prog 100~
+if isevil($n)
+else
+mea $n With a cry of pain you tear the nails from your hands.
+mpechoar $n You almost vomit when you see $n tear the nails from $s hands.
+endif
+~
+|
+#25573
+blackened nails~
+blackened nails~
+A pair of bloodstained nails lie on the ground, torn from someone's hands.~
+~
+9 525569 65
+11 0 0 0
+10 100 10
+A
+2 -2
+A
+5 -2
+A
+13 40
+A
+19 5
+> wear_prog 100~
+if isevil($n)
+else
+mea $n You drop the nail, and stamp your foot down on it, driving it home!
+mpforce $n scream
+mpforce $n drool
+mpechoar $n $n rams $s foot down on a nail, driving it through bone and flesh.
+mpdamage $n 50
+endif
+~
+> remove_prog 100~
+if isevil($n)
+else
+mea $n You grab ahold of the nail and wrench it free from your foot.
+mpechoar $n You almost pass out as $n wrenches the nails from $s feet.
+endif
+~
+|
+#0
+
+
+#ROOMS
+#25500
+Spare Special Room~
+~
+0 4 1
+S
+#25501
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25504
+D1
+~
+~
+0 -1 25502
+D6
+~
+~
+0 -1 25505
+S
+#25502
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25505
+D1
+~
+~
+0 -1 25503
+D3
+~
+~
+0 -1 25501
+D6
+~
+~
+0 -1 25506
+D7
+~
+~
+0 -1 25504
+S
+#25503
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25506
+D3
+~
+~
+0 -1 25502
+D7
+~
+~
+0 -1 25505
+S
+#25504
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25507
+D1
+~
+~
+0 -1 25505
+D2
+~
+~
+0 -1 25501
+D6
+~
+~
+0 -1 25508
+D8
+~
+~
+0 -1 25502
+S
+#25505
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25508
+D1
+~
+~
+0 -1 25506
+D2
+~
+~
+0 -1 25502
+D3
+~
+~
+0 -1 25504
+D6
+~
+~
+0 -1 25509
+D7
+~
+~
+0 -1 25507
+D8
+~
+~
+0 -1 25503
+D9
+~
+~
+0 -1 25501
+S
+#25506
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25509
+D2
+~
+~
+0 -1 25503
+D3
+~
+~
+0 -1 25505
+D7
+~
+~
+0 -1 25508
+D9
+~
+~
+0 -1 25502
+S
+#25507
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D1
+~
+~
+0 -1 25508
+D2
+~
+~
+0 -1 25504
+D8
+~
+~
+0 -1 25505
+S
+#25508
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D0
+~
+~
+0 -1 25510
+D1
+~
+~
+0 -1 25509
+D2
+~
+~
+0 -1 25505
+D3
+~
+~
+0 -1 25507
+D8
+~
+~
+0 -1 25506
+D9
+~
+~
+0 -1 25504
+S
+#25509
+A Mist-Shrouded Lake~
+Thick mist clouds your vision on all sides as you traverse the murky waters
+of the lake. Strange howls and cries echo across the water, accompanied by
+the occasional scream and gurgle of some unseen victim to the many predators
+that infest these waters. You cannot perceive how deep these waters may be,
+or what may lurk beneath the scum-coated surface. Twisted, gnarled trees,
+their decayed limbs coated in thick growths of fungus, sprout at random
+intervals from the lake, are frequent hazards, as you cannot seem them until
+you are almost on top of them.
+~
+0 3416065 7
+D2
+~
+~
+0 -1 25506
+D3
+~
+~
+0 -1 25508
+D9
+~
+~
+0 -1 25505
+S
+#25510
+The Gates of the Castle~
+Rising out of the murky waters here is a small island that boasts a
+rusted iron gate, which leads into a looming structure to the west.
+Despite its size, it is not visible from more than a few feet away,
+being as its walls are covered in marsh muck and assorted other 
+substances. It is not surprising that you found it hard to locate. The
+gate doesn't appear to be locked; peering between the bars you see a 
+long stone corridor beckoning...
+~
+0 3145733 1
+D3
+~
+gate~
+11 -1 25511
+S
+#25511
+A Dark Corridor~
+Wet, slimy stone presses in all sides; you shiver as you pass through
+the iron gate, and wince as it clangs shut suddenly behind you, the
+noise echoing down the dank corridor. No torches illuminate the hall,
+nor are there any signs of provision for such items. The floor is slick
+underfoot, suggesting mold and other substances that grow in a place
+that has most probably not felt the touch of sunlight in centuries, if
+ever.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 25512
+S
+#25512
+A Junction~
+The damp corridor terminates here, at a junction, marked by several
+decaying corpses staked to the slimy walls. Several more corpses, of
+elves and goblins, sit skewered about a small unlit brazier at the
+junction; the purpose of this is unclear, but you think it wisest not
+to meddle. A strong odor wafts in from the northern corridor, while
+a keeing wail echoes from the west. Neither sound nor noise can be
+detected to the southwest, however, just dark, impenetrable dark, and
+silence. Truly this is indeed a lair of Chaos, and you do not doubt that
+whatever is the master of this domain will be a potent adversary indeed!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25515
+D1
+~
+~
+0 -1 25511
+D3
+~
+~
+0 -1 25513
+D9
+~
+~
+0 -1 25518
+S
+#25513
+Rivers of Blood~
+The walls of this section of corridor have been cunningly decorated to
+give the impression that they are flowing rivers of blood, gushing in
+torrents back and forth along the walls, like the cargo of some inhuman
+vein of gargantuan proportions. A dull throbbing, pulsing sound, as of a
+heart beat magnified in intensity a hundredfold, echoes back and forth
+along the corridor. A chill wind blows in from the east, accompanied by
+a fell howling; the resulting cacophony of sound is almost enough to send
+you mad.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25512
+D3
+~
+~
+0 -1 25514
+S
+#25514
+The Gates to the Court of Lilith~
+As the heartbeat reaches a crescendo, it suddenly halts when you pass
+before the gates to the west. Ornately crafted from platinum and onyx,
+the unique combination of the two substances gives an impression of age
+and grandeur, while the naked, writhing women carved into the frame preserve
+Lilith's taste for decadence and wanton excess, especially in her chosen
+gender. It is rumored that only a woman may pass safely before Lilith, and
+that any man foolish enough to cross her path will be dealt with in 
+unimaginable ways. No keyhole mars the gate, nor bar, yet it does not yield to
+a gentle push or even a firm nudge. 
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25513
+D3
+~
+gate~
+1031 -1 25549
+S
+#25515
+The End of the Corridor~
+The corridor ends before two doors, set in the north and eastern walls.
+A high pitched cackling accompanies the stench that emanates from the
+north, while the eastern door boasts no unusual sensory assaults. As
+you ponder which way to go, a small plaque on the wall opposite the
+east door catches your eye...
+~
+0 3153929 0
+D0
+~
+~
+3 -1 25516
+D1
+~
+~
+3 -1 25517
+D2
+~
+~
+0 -1 25512
+E
+plaque~
+The Darkness shall claim you.
+ 
+ 
+ 
+ 
+ 
+ 
+~
+S
+#25516
+Vile Incantations~
+Shadows flicker and dance about this small chamber, which is dimly
+illuminated by small fires blazing in clay urns set in each corner of
+the room. A pungent, acrid odor fills the area, assaulting your nostrils,
+and making your eyes water. The gutted and flayed elf staked to one wall
+doesn't excactly improve the atmosphere either...
+~
+0 3153929 0
+D2
+~
+~
+3 -1 25515
+S
+#25517
+A Storeroom~
+This room is filled to the roof with dusty barrels, bound with iron
+and bearing the seal of Westport. Either alcohol or oil, they appear to
+have not been touched since they were brought here. You wonder at their
+function, but try as you might you cannot budge the lids, nor stave in
+the sides.
+~
+0 3153929 0
+D3
+~
+~
+3 -1 25515
+S
+#25518
+Silent Passage~
+Not a sound can be heard here, even from your booted feet striking the
+damp stone... it is as if some field of silence was muffling this area,
+for what reason though is unclear. The walls and ceiling are featureless,
+save for the ever present slime that coats the surface everywhere. A 
+slightly unpleasant odor wafts in from the south, snapping you back from
+your contemplation.
+~
+0 3219465 0
+D2
+~
+~
+0 -1 25519
+D6
+~
+~
+0 -1 25512
+S
+#25519
+Proceeding Slowly...~
+Marching through these silent halls, you find that you are becoming
+unconsciously more nervous with each step. Your hands are slick with
+sweat, and the hairs on the back of your neck are standing straight up.
+Something is not right here, even not counting the eerie silence. The smell
+from the south is getting stronger; an odor of decaying foodstuffs and other
+waste materials.
+~
+0 3219465 0
+D0
+~
+~
+0 -1 25518
+D2
+~
+~
+0 -1 25520
+S
+#25520
+The Gaping Pit~
+The corridor ends here, in a dead end. Surprised and mildly disappointed,
+you allow yourself to pause for a moment and collect yourself. It is then
+that the floor beneath your feet opens up, depositing ankle deep pools of
+scummy water into a long deep shaft! You scramble for safety, hoping you
+can avoid joining them in plummeting down to whatever horror the vile smells
+wafting in from below emanate from!
+~
+0 19996681 0
+D0
+~
+~
+0 -1 25519
+D5
+~
+~
+1 -1 25521
+> act_prog p from the north.~
+mpe As you enter, a trapdoor opens beneath your feet!
+op d
+~
+|
+S
+#25521
+Plummeting Down the Pit~
+The first clue you have that you have escaped the field of silence is
+the fact that you can hear yourself crying out in surprise and fear as
+you hurtle downwards to whatever fate awaits you below. Staring wide-eyed
+downwards as you fall, you see a deep pool of water, in which various
+shapes can be seen moving about.
+~
+0 19931145 0
+D4
+~
+~
+65 -1 25520
+D5
+~
+~
+0 -1 25522
+S
+#25522
+The Crocodile Pit~
+You land with a splash in a neck deep pool of fetid black water. Almost
+immediately you feel various creatures brushing against you, and you fight
+down a rising wave of panic, in an attempt to work out what the hell to do
+next. A thick wall of stone slides soundlessly into place above your head,
+preventing return in that direction, and leaving you trapped in this horrible
+chamber. More water is pouring in through a grate set in the east wall.
+~
+0 3153929 7
+D1
+You see a small grate set in the wall.
+~
+grate~
+11 -1 25523
+S
+#25523
+A Water-Filled Tunnel~
+The grate opens onto a small sewer tunnel, no more than three feet
+across, limiting progress to one person at a time. Various disgusting
+objects drift past with the current, and you quickly realize that
+whatever lives in the upper levels uses this as a waste disposal sewer,
+presumably it empties into the swamp outside.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 25524
+D3
+~
+grate~
+11 -1 25522
+S
+#25524
+A Junction~
+You emerge from the narrow tunnel with a gush of water into a massive
+tunnel that runs north and south, filled to chest height with filthy
+water. Swimming would be impossible in this muck; you need some other
+way to stay afloat. To the north you can hear the sound of rushing water,
+while to the south you can hear nothing.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 25525
+D2
+~
+~
+0 -1 25527
+D3
+~
+~
+0 -1 25523
+S
+#25525
+A Disgusting Sewer~
+Piles of debris float past you on the scummy water, drifting with a
+current stirred up by turbulence ahead. Water is pouring in from some
+above ground source, causing a considerable stench to fill the place as
+the debris is disturbed and releases various gasses, as of a dead animal
+carcass when it is disturbed.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 25526
+D2
+~
+~
+0 -1 25524
+S
+#25526
+The End of the Sewer~
+At this point water gushes in from the swamps above, pounding down on
+the sewerage and driving it through some hidden grates below. The flow
+is strong, and much of the water is forced southwards rather than being
+able to escape down the tiny drain, thus keeping a decent volume of water
+in the sewer so that the refuse may eventually be carried away. Unspeakable
+horrors undoubtedly lurk below the grate, and you make no effort to 
+investigate further.
+~
+0 3153929 7
+D2
+~
+~
+0 -1 25525
+D4
+~
+~
+128 -1 25529
+S
+#25527
+A Second Junction~
+At this point a narrow tunnel slopes downwards to the southwest, 
+heading under the water to some unknown destination. To the south,
+an island of refuse rises out of the muck, providing a temporary
+sanctuary from the disgusting sludge.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 25524
+D2
+~
+~
+0 -1 25528
+D9
+~
+~
+0 -1 25530
+S
+#25528
+A Sea of Muck~
+The island of refuse you spied earlier is further away than you thought,
+and each move in this dreadful mire threatens to overwhelm you, nausea
+and dizziness being the least of your worries in the disease carrying
+waters. You feel... things... brushing against your legs in the water,
+and you feel horribly exposed. What horrors lurk in these murky depths?
+~
+0 3153929 7
+D0
+~
+~
+0 -1 25527
+D2
+~
+~
+0 -1 25532
+S
+#25529
+A Natural Hole~
+Erosion at a gap in the bedrock beneath the marsh that the castle rests
+on has caused a previously tiny crack to widen, over the centuries, to
+this gaping hole, which several people could ascend travelling abreast.
+The water slops over your head and face, but is not distracting enough
+to prevent travel. Above, it emerges into the swamps surrounding this place.
+~
+0 3153933 7
+D4
+~
+~
+128 -1 25507
+D5
+~
+~
+128 -1 25526
+S
+#25530
+An Underwater Tunnel~
+This tunnel is completely submerged, but is very narrow, necessitating
+you to walk on the very slippery floor, which is coated with all manner
+of slime. A slight current is pushing from the northeast, threatening
+at times to disturb your balance. To the west, the tunnel disappears into
+the dark, making you reluctant to continue without being able to accurately
+determine what may lie in that direction.
+~
+0 3153929 8
+D3
+~
+~
+0 -1 25531
+D6
+~
+~
+0 -1 25527
+S
+#25531
+A Gruesome End~
+As you proceed down the steeply sloping tunnel, you lose your footing
+in the muck, and before you know it you are sliding on your back down
+the chute, gradually increasing speed, until you reach a point where
+the tunnel slopes almost vertically, and you plummet downwards many
+thousands of feet, hurtling towards some unknown fate, from which you
+will never return...
+~
+0 3153935 0
+S
+#25532
+An Island of Muck~
+At this point you can suddenly feel ground beneath your flailing feet,
+and it is with a great deal of relief that you stagger onto the mound
+of refuse that has formed here, creating a surprisingly stable island
+in the disgusting sewers. A large hole gapes in the roof of the cavern,
+leading to whatever dropped all of the rotting vegetables and meat down
+here.
+~
+0 3153933 13
+D0
+~
+~
+0 -1 25528
+D3
+~
+~
+0 -1 25535
+D4
+~
+~
+64 -1 25533
+S
+#25533
+A Filthy Section~
+Waste material from the kitchens is dumped into the heavy iron container
+at your feet, and judging by the thick crust of material around the edges
+no one bothers cleaning up anything that misses its target. Bits of meat
+fly over your head and land in the container at random intervals. Presumably,
+this container empties into some hidden sewer.
+~
+0 3153933 0
+D2
+~
+~
+0 -1 25534
+D10
+~
+crate~
+133184 -1 25532
+S
+#25534
+The Kitchens~
+Blood soaked countertops splattered with piles of stinking entrails
+line this greasy room, causing an overwhelming stench to assault your
+nostrils. Heavy, sharp hooks and knives hang from rusted nails hammered
+into the stone walls, along with iron pots and pans, and a couple of
+filthy aprons. Only one cook works in here; she prefers solitude, and
+more than one potential servant has ended up in the soup, so to speak.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25533
+D2
+~
+~
+3 -1 25539
+D3
+~
+~
+3 -1 25538
+S
+#25535
+Slimy Floors~
+The sewer ends here, in a dead end waist deep in filth that has been
+injected into the sewers from some source at the top of a narrow chute
+in the ceiling. You aren't the most imaginative of adventurers sometimes,
+but even you can easily guess at the designated function of such a hole,
+and your theory is evidenced by the substances surrounding you as you
+progress through the much. At least you can touch bottom here.
+~
+0 3153929 13
+D1
+~
+~
+0 -1 25532
+D4
+~
+~
+128 -1 25536
+E
+hole~
+You think that you would be able to slither up the hole if you desired.
+~
+S
+#25536
+A Slimy Tunnel~
+What in the name of the gods are you doing? Haven't you any idea what
+this tunnel IS? These are the questions you fire at yourself as you
+slither along this narrow chute, the indescribable substances coating
+the walls providing sufficient lubrication for your journey. Trips to
+the Abyss would be more pleasant than this. The whole time, you are
+terrified that someone may decide to come in and avail themselves of the
+facilities while you are jammed in the pipe. Down below, it empties into
+a sewer, while above it terminates in the keep latrines.
+~
+0 3153933 0 0 0 1
+D4
+~
+~
+128 -1 25537
+D5
+~
+~
+128 -1 25535
+> act_prog p from below.~
+if race($n) == half-ogre
+or race($n) == half-troll
+mea $n You are too big! Try as you might, you cannot fit into the pipe.
+mea $n Most would consider that a blessing...
+mpforce $n d
+else
+mea $n Horrid substances coat your body as you slither upwards.
+endif
+~
+> act_prog p from above.~
+if race($n) == half-ogre
+or race($n) == half-troll
+mea $n You are too big! Try as you might, you cannot fit into the pipe.
+mea $n Most would consider that a blessing...
+mpforce $n u
+else
+mea $n Horrid substances coat your body as you slither downwards.
+endif
+~
+> act_prog p from somewhere.~
+if race($n) == half-ogre
+or race($n) == half-troll
+mea $n You are too big! Try as you might, you cannot fit into the pipe.
+mea $n Most would consider that a blessing...
+mpforce $n u
+else
+mea $n Horrid substances coat your body as you slither downwards.
+endif
+~
+|
+S
+#25537
+The Latrine~
+A wise man in your home town once said that "A prudent and clever soldier
+will never venture into the heart of his enemies toilet facilities". At
+the time you failed to grasp the meaning of his rhetoric, but now you
+suddenly realize, as you stare in horror at the filthy chamber before you,
+the source of his dire edict. Unfathomable odors arise from a gaping hole
+in the floor, which winds down into the sewers below. You think you can see,
+shortly before the visage makes you lose your lunch on the floor, small 
+creatures feasting on the encrusted remains scattered about this hole.
+~
+0 3153929 0
+D2
+~
+~
+3 -1 25540
+D10
+~
+hole~
+133248 -1 25536
+S
+#25538
+Outside the Kitchens~
+The sound of meat cleavers rending flesh and shattering bone emanates
+from behind a splintery wooden door to the east; behind which you surmise
+lies what passes as a kitchen in this hellhole. To the northwest, the
+twisting corridor heads deep into the heart of the fortress. You are
+stuck for choices; "Which fate is worse," you wonder aloud."The food or
+the guards?". Strengthening your discomfort is an occasional high pitched
+cackle as some maniacal butcher revels with glee in their grisly task.
+~
+0 3153929 0
+D1
+~
+~
+3 -1 25534
+D7
+~
+~
+0 -1 25540
+S
+#25539
+The Larder~
+This room is used to store the "food" eaten by the garrison of the keep.
+Much of it has been here much longer than is healthy, and the odor is
+almost as bad as the preparation area to the north. Many of the items
+in here are the corpses of expired adventurers who stumbled upon
+Helf'ga by accident, much to their dismay.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 25534
+S
+#25540
+Assault by Odor~
+This section of the corridor is plagued by an almost unbearable stench,
+one that threatens to overwhelm you and send you into a coma. It appears
+to be coming from behind a door to the north. Through watering eyes, you
+make out a rather stained sign that reads - "Latrines". Gagging, you stagger
+away, hoping that a fell demon may slay you this instant and spare you further
+anguish at the mercy of this vile stench.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 25537
+D3
+~
+~
+0 -1 25541
+D8
+~
+~
+0 -1 25538
+S
+#25541
+A Sturdy Door~
+The passage ends at an oaken portal bound with heavy iron, and lined
+with sharp spikes to prevent any attempts to bash it open. It appears
+that such an action will be unnecessary, though, as it stands slightly
+ajar. Peering through the crack, you can see large shapes moving about
+in the darkened interior. The odor of trolls is unmistakably strong
+here.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25540
+D3
+~
+~
+8388611 -1 25542
+S
+#25542
+Troll Barracks~
+Lilith favors all manner of barbarous creatures as soldiers, guards and
+thugs, but none are as impressive to her as the simple, but strong trolls.
+Where the minotaurs have cunning and guile, and question orders frequently,
+the trolls slavishly obey. Where the ogres and orcs may balk at vastly
+superior numbers, the trolls will merely grunt and charge, without any fear.
+Clad in rough black plate, and bearing vicious weapons in addition to their
+fearsome natural armaments, the trolls are ideal shock troops. Their barracks
+are surprisingly clean, since Lilith imposed a death sentence on any who failed
+to use the latrines instead of their quarters for any and all waste disposal.
+There is a strong odor in the air, however, of animal fur long left unbathed.
+The barracks stretch to the north and south, while a stairwell lies to the
+west.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25543
+D1
+~
+~
+3 -1 25541
+D2
+~
+~
+0 -1 25545
+D3
+~
+~
+0 -1 25544
+S
+#25543
+Troll Barracks~
+Piles of dirty cloth fill the corners of the room, as well as most of
+the middle, providing bedding for a half dozen trolls or more. There is
+in addition provision for a small fire for heat in winter, though it never
+gives off more than a feeble glow as trolls loathe and fear the touch of
+the naked flame, one of the few known ways to truly scar their resilient
+hides. Smoky torches illuminate the stained ceiling, which once bore murals
+depicting scenes of sacrifice and mayhem, a "sport" to the followers of
+Lilith.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25542
+S
+#25544
+The Dark Stairwell~
+A set of greasy stone steps ascends to the next level of the keep here,
+guarded by a rather large and singularly ugly troll, bearing even more
+vicious implements of destruction. Every ship has its captain, and around
+this section of the keep this troll is the master. While mere mention of 
+Lilith's name can cause her minions to tremble in fear, it is nowhere near
+as imposing as the mailed fist of the sergeant bearing down on them to 
+enforce discipline. Lilith recognizes and encourages the ego of this fellow,
+and likes to see him hold her troops in thrall.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25542
+D4
+~
+~
+0 -1 25546
+S
+#25545
+Troll Barracks~
+Piles of dirty cloth fill the corners of the room, as well as most of
+the middle, providing bedding for a half dozen trolls or more. There is
+in addition provision for a small fire for heat in winter, though it never
+gives off more than a feeble glow as trolls loathe and fear the touch of
+the naked flame, one of the few known ways to truly scar their resilient
+hides. Smoky torches illuminate the stained ceiling, which once bore murals
+depicting scenes of sacrifice and mayhem, a sport to the followers of
+Lilith.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25542
+S
+#25546
+A Cavernous Hall~
+The stairs end in a feebly lit hall of gigantic proportions, which
+stretches far to the west. The pillared walls are lined with gloomy
+portraits of past rulers of the keep, all female of course, and all 
+displaying obvious signs of their vampiric lineage. The ceiling far
+above you bears murals depicting cannibalism, torture and human sacrifice
+before the grinning visages of the gods of chaos. Every few seconds the
+walls seem to shift slightly; a sure sign that they are composed of the
+stuff of chaos, bound together by the will of the ruler of this fell domain.
+The floor is slippery underfoot; gazing down you realize it is coated in
+blood...
+~
+0 3153929 0
+D3
+~
+~
+0 -1 25547
+S
+#25547
+The End of the Hall~
+Death. Destruction. Chaos. These are the themes of the images that
+assault you as you enter this section of the hall. Faces appear in the
+stonework, screaming soundlessly as they endure a nightmare of endless
+agony, bound into the structure of Lilith's domain. Blood seeps from the
+walls and floor, making travel difficult without slipping and crashing to
+the floor. The sound of stone grating on stone echoes about here, as of
+some monolithic guardian working its way towards you.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25546
+S
+#25548
+A Quiet Alcove~
+Stepping through the hole in the wall, you enter a dusty chamber, no
+bigger than a closet, the only feature of note being a large hole in
+the ceiling, partially obscured by cobwebs. No footprints mar the dust
+on the floor; evidently few people have come this way indeed.
+~
+0 3153933 0
+D4
+~
+~
+64 -1 25558
+S
+#25549
+The Hellish Court~
+The court of Lilith is a surprisingly colorful affair, for a prominent
+figure among the undead, boasting brightly colored banners hanging from
+gilded beams set in the whitewashed ceiling. Giggling noblewomen, enticingly
+clad, mingle about here, in the hopes of an audience with Lilith. Evidently
+this area has been designed to impress and beguile them, obfuscating the
+true nature of Lilith from those who foolishly seek her help and affection;
+they will find only servitude and death. Several burly minotaurs prowl the
+court, keeping a close eye on the proceedings in case anyone manages to
+realize the fate that is in store for them. A massive set of banded metal
+doors lies to the west, guarded at all times by Lilith's wyrm. Surely these
+doors must lead into the haven of Lilith herself!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25553
+D1
+~
+~
+3 -1 25514
+D2
+~
+~
+0 -1 25554
+D3
+~
+~
+0 -1 25550
+S
+#25550
+The Hellish Court~
+The court of Lilith is a surprisingly colorful affair, for a prominent
+figure among the undead, boasting brightly colored banners hanging from
+gilded beams set in the whitewashed ceiling. Giggling noblewomen, enticingly
+clad, mingle about here, in the hopes of an audience with Lilith. Evidently
+this area has been designed to impress and beguile them, obfuscating the
+true nature of Lilith from those who foolishly seek her help and affection;
+they will find only servitude and death. Several burly minotaurs prowl the
+court, keeping a close eye on the proceedings in case anyone manages to
+realize the fate that is in store for them. A massive set of banded metal
+doors lies to the west, guarded at all times by Lilith's wyrm. Surely these
+doors must lead into the haven of Lilith herself!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25551
+D1
+~
+~
+0 -1 25549
+D2
+~
+~
+0 -1 25552
+D3
+~
+~
+0 -1 25555
+S
+#25551
+The Hellish Court~
+The court of Lilith is a surprisingly colorful affair, for a prominent
+figure among the undead, boasting brightly colored banners hanging from
+gilded beams set in the whitewashed ceiling. Giggling noblewomen, enticingly
+clad, mingle about here, in the hopes of an audience with Lilith. Evidently
+this area has been designed to impress and beguile them, obfuscating the
+true nature of Lilith from those who foolishly seek her help and affection;
+they will find only servitude and death. Several burly minotaurs prowl the
+court, keeping a close eye on the proceedings in case anyone manages to
+realize the fate that is in store for them. A massive set of banded metal
+doors lies to the west, guarded at all times by Lilith's wyrm. Surely these
+doors must lead into the haven of Lilith herself!
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25553
+D2
+~
+~
+0 -1 25550
+S
+#25552
+The Hellish Court~
+The court of Lilith is a surprisingly colorful affair, for a prominent
+figure among the undead, boasting brightly colored banners hanging from
+gilded beams set in the whitewashed ceiling. Giggling noblewomen, enticingly
+clad, mingle about here, in the hopes of an audience with Lilith. Evidently
+this area has been designed to impress and beguile them, obfuscating the
+true nature of Lilith from those who foolishly seek her help and affection;
+they will find only servitude and death. Several burly minotaurs prowl the
+court, keeping a close eye on the proceedings in case anyone manages to
+realize the fate that is in store for them. A massive set of banded metal
+doors lies to the west, guarded at all times by Lilith's wyrm. Surely these
+doors must lead into the haven of Lilith herself!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25550
+D1
+~
+~
+0 -1 25554
+S
+#25553
+The Hellish Court~
+The court of Lilith is a surprisingly colorful affair, for a prominent
+figure among the undead, boasting brightly colored banners hanging from
+gilded beams set in the whitewashed ceiling. Giggling noblewomen, enticingly
+clad, mingle about here, in the hopes of an audience with Lilith. Evidently
+this area has been designed to impress and beguile them, obfuscating the
+true nature of Lilith from those who foolishly seek her help and affection;
+they will find only servitude and death. Several burly minotaurs prowl the
+court, keeping a close eye on the proceedings in case anyone manages to
+realize the fate that is in store for them. A massive set of banded metal
+doors lies to the west, guarded at all times by Lilith's wyrm. Surely these
+doors must lead into the haven of Lilith herself!
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25549
+D3
+~
+~
+0 -1 25551
+S
+#25554
+The Hellish Court~
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25549
+D3
+~
+~
+0 -1 25552
+S
+#25555
+The Grand Gates ~
+Upon closer inspection, you realize that the banded metal gates you
+spied from across the court are in fact composed of some shifting,
+shimmering substance; the souls of those slain within the walls of
+this keep. Occasionally a face will arise from the seething mass,
+staring in horror outwards, beseeching you for help; help that you
+cannot give. Only when all Chaos is removed from the universe will these
+souls be freed.
+~
+0 3153933 0
+D1
+~
+~
+0 -1 25550
+D3
+~
+gate~
+1031 -1 25556
+S
+#25556
+The Yawning Abyss~
+Steeling yourself, you stride through the gates, into the throne room
+of Lilith. Suddenly, you feel the ground disappear beneath your feet!
+Panicking, you try to grab for the doors, but instead you watch them
+disappear as some unseen force drags you kicking and screaming down into
+the abyss. Foolish of you, to assume Lilith would be so easy to approach!
+~
+0 3153935 0
+S
+#25557
+Destination Nowhere~
+You come screaming out of the pipe, falling into a waist deep pool of
+dirty water, and badly bruising your body. But that is the least of
+your worries; the second you land, the slimy walls begin to close,
+moving rapidly inwards and crushing you and all your equipment...
+~
+0 3153935 8
+S
+#25558
+A Mist Shrouded Corridor~
+The entirety of the passage you are in is shrouded in thick, greenish
+mist, making it virtually impossible to make out what lies in any
+direction. Only an exit to the north is clearly visible, delineated by
+glowing stones set in the floor that make it possible to see it. Strange
+cries and howls echo through the mist, sending shivers up your spine.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25561
+D1
+~
+~
+3 -1 25559
+S
+#25559
+A Short Corridor~
+This short, narrow corridor is framed by a plain wooden door at each
+end, leading to unknown destinations. The walls here are white, plain
+and without any marks or flaws. A strange energy emanates from them,
+making you feel tired and lethargic. Shaking your head, you gather 
+yourself and prepare to continue.
+~
+0 3153933 0
+D1
+~
+~
+3 -1 25560
+D3
+~
+~
+3 -1 25558
+> rand_prog 50~
+if ispc($r)
+mpe Strange energies sap your strength...
+mpdamage $r 50
+else
+endif
+~
+|
+S
+#25560
+The Keeper of Pernaglia~
+A plain, white walled chamber lies here, dominated by a heavy metal
+chair, upon which the sole occupant of this place spends most of his
+time. Due to one of the many unpredictable variables that accompanies
+any chaotic magic, Lilith is unable to enter this room, nor even to
+look within here, even involuntarily. This causes her some small amount
+of concern, for enemies of hers may find sanctum here, though she accepts
+this as one of the many prices for the power that comes with serving Chaos.
+~
+0 3153929 0
+D3
+~
+~
+3 -1 25559
+S
+#25561
+A Mist Shrouded Corridor~
+The entirety of the passage you are in is shrouded in thick, greenish
+mist, making it virtually impossible to make out what lies in any
+direction. Only an exit to the northwest is clearly visible, delineated by
+glowing stones set in the floor that make it possible to see it. Strange
+cries and howls echo through the mist, sending shivers up your spine.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25558
+D7
+~
+~
+0 -1 25562
+S
+#25562
+A Mist Shrouded Corridor~
+The entirety of the passage you are in is shrouded in thick, greenish
+mist, making it virtually impossible to make out what lies in any
+direction. Only an exit to the northwest is clearly visible, delineated by
+glowing stones set in the floor that make it possible to see it. Strange
+cries and howls echo through the mist, sending shivers up your spine.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25563
+D8
+~
+~
+0 -1 25561
+S
+#25563
+A Choice of Perils~
+Four dark stone corridors meet here, at this crossroads, marked by
+a massive statue of polished obsidian. The construct- a massive, muscular
+minotaur rending some indefinable humanoid in two- stands at good eleven
+feet tall, reaching nearly to the arched ceiling, which is engulfed in
+gloom. Shrieks and howls of pain echo in from the east, while to the
+west you rather fancy you can hear a crowd cheering. No sound issues forth
+from the north or south.
+~
+0 3153933 0
+D0
+~
+~
+0 -1 25566
+D1
+~
+~
+0 -1 25565
+D2
+~
+~
+0 -1 25562
+D3
+~
+~
+0 -1 25564
+S
+#25564
+A Dark Corridor~
+A corridor of shifting stone heads south here, bending away from the
+passage that heads east to an intersection. Howls, shrieks and the sound
+of flesh being rended echo from down this southern edit, and it is with
+great reluctance that you prepare to continue. Who knows what horrors lurk
+within the walls of this vile citadel?
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25563
+D2
+~
+~
+0 -1 25572
+S
+#25565
+Chamber of Unspeakable Pain~
+This foul chamber is a torture chamber, the same as dozens of other
+torture chambers that you have been in during your long career. The
+usual devices- rack, iron maiden, hot coals, pokers and whips- are
+present, but so are several new, wicked implements; the purpose of each
+is not clear to you at this time, which is perhaps fortunate. If you remain
+long enough, you will undoubtedly see their function demonstrated by the
+maniacs that staff this foul chamber. Several mangled corpses, hanging from
+large meat hooks that dangle from the ceiling, occasionally swing in front
+of you, causing you to duck reflexively and gag.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 25563
+D6
+~
+maiden~
+8391727 25561 25577
+S
+#25566
+Pit of Despair~
+The corridor ends here, at a steeply sloping staircase that descends
+into a stinking, gloomy chamber below, presumably a dungeon of some
+sort. You occasionally catch glimpses below, as of some massive stone
+beast charging silently up and down through the corridor, but when the
+image passes you shake your head and decide you must be seeing things.
+Nothing that large could move so swiftly and soundlessly, surely? A
+tingle of fear causes you to twitch involuntarily, and you wonder if 
+proceeding in this direction is such a good idea...
+~
+0 3153933 0
+D2
+~
+~
+0 -1 25563
+D5
+~
+~
+0 -1 25567
+S
+#25567
+The Dungeons~
+Filthy walls line this miserable, damp corridor, stained with various
+substances, including more than one crushed corpse. Whatever dashed these
+unfortunates to pieces must be possessed of enormous strength; on one 
+wall you see an armored knight that was smashed with such force that his
+body was imbedded in the stone wall. The corridor continues north, twisting
+to the east in that direction. To the south a stairway offers escape from
+this dreadful place.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25568
+D4
+~
+~
+0 -1 25566
+S
+#25568
+Floating in a void~
+The corridor continues, bearing still more signs of destruction. Smashed
+weapons and armor litter the floor, the possessions of other adventurers,
+escaped prisoners and even a few unfortunate guards of the keep that
+strayed down here. Evidently the guardian that lurks here is not particular
+in who he pummels. To the east you can see several grates set in the floor,
+evidently pens where prisoners are kept.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25569
+D2
+~
+~
+0 -1 25567
+S
+#25569
+The Prison Pits~
+Grates set in the floor open onto dank, dirty cells, where the prisoners
+of the keep are quartered. There are no locks on the grates; to emerge
+would mean certain death at the hands of the roving sentinel. Some prisoners
+have, however, voluntarily chosen this fate, preferring it to what Lilith's
+torturers and scientists have in store for them...
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25571
+D3
+~
+~
+0 -1 25568
+D5
+~
+grate~
+131 -1 25570
+S
+#25570
+A Filthy Cell~
+Dirty straw covers the cold stone floor, providing scant comfort for
+those quartered here. No food, drink or toilet amenities are provided
+for those kept here; they rarely live long enough to require any of
+these things. The manic scrawlings of countless dozens of prisoners covers
+the walls, carved with whatever implement comes to hand; prisoners seem
+to have an urge to leave some quantifiable legacy of their existence, even
+if no one will ever read these scrawlings, or even care.
+~
+0 3153929 0
+D4
+~
+grate~
+131 -1 25569
+E
+scrawlings~
+A variety of graffiti covers the walls, most of it meaningless. 
+However, you do note one interesting piece of scripture-
+ 
+The Torturer holds the key, he can access the upper levels. But you
+have to find the door, within the metal woman...
+~
+S
+#25571
+The Prison Pits~
+Grates set in the floor open onto dank, dirty cells, where the prisoners
+of the keep are quartered. There are no locks on the grates; to emerge
+would mean certain death at the hands of the roving sentinel. Some prisoners
+have, however, voluntarily chosen this fate, preferring it to what Lilith's
+torturers and scientists have in store for them...
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25569
+D5
+~
+grate~
+131 -1 25576
+S
+#25572
+Approaching the Arena~
+Like most despots of her ilk, Lilith greatly enjoys bloodsports, which
+are conducted in her private arena to the west of here, with combatants
+selected by her trainer battling to the death on the bloodsoaked sands
+for her enjoyment. Perhaps this will give you a chance to strike at her,
+outside of her sanctum? Or perhaps it will give you a chance to be 
+senselessly slaughtered for her enjoyment...
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25564
+D3
+~
+~
+0 -1 25573
+S
+#25573
+A Chamber of Corpses~
+The floor of this room is covered in blood stained straw, which has
+yet to be swept away by whomever is responsible for such tasks. Judging
+by the large carcasses lying nearby, someone or something upstairs is
+having a grand time ripping all contenders to shreds before dropping the
+remains down here. You aren't sure if you want to be next...
+~
+0 3155081 0
+D1
+~
+~
+0 -1 25572
+D4
+~
+trapdoor~
+3 -1 25574
+S
+#25574
+The Arena~
+The roar of an excited, bloodthirsty crowd echoes in your ears as you
+step out onto the sands of the arena. A hot sun burns down upon you,
+causing you to be soaked in sweat in a manner of seconds. Hordes of
+cheering, screaming creatures of all races fill the stands, lustily
+awaiting your demise. An illusion, undoubtedly, but an effective one,
+and you find yourself impressed almost despite yourself by the power of
+Lilith's magic; though you do find it curious that such a spectacle would
+mean so much to her. Evidently even the Queen of Vampires desires the
+thrill of a packed arena. Bounding across the sand towards you is a 
+creature that is definitely quite real, and you grit your teeth and prepare
+to do battle, all too aware that Lilith is somewhere nearby, very close
+nearby, watching you...
+~
+0 3153929 0
+D3
+~
+~
+2051 -1 25575
+D5
+~
+trapdoor~
+3 -1 25573
+S
+#25575
+A Private Booth~
+You plunge through the door concealed by the illusion, and enter an
+opulent chamber, a booth where Lilith and her chosen lackeys recline
+and watch the proceedings in the arena without. Soft silk cushions cover
+the floor, and intricately woven tapestries hang on the walls. A shimmering
+mirror to the east, the point of your entrance, allows her to view the 
+battles in the arena.
+~
+0 3153929 0
+D1
+~
+~
+3 -1 25574
+S
+#25576
+A Dreary Fate~
+Dirty straw covers the cold stone floor, providing scant comfort for
+those quartered here. No food, drink or toilet amenities are provided
+for those kept here; they rarely live long enough to require any of
+these things. The manic scrawlings of countless dozens of prisoners covers
+the walls, carved with whatever implement comes to hand; prisoners seem
+to have an urge to leave some quantifiable legacy of their existence, even
+if no one will ever read these scrawlings, or even care.
+~
+0 3153929 0
+D4
+~
+grate~
+131 -1 25571
+E
+scrawlings~
+A variety of graffiti covers the walls, most of it meaningless. 
+However, you do note one interesting piece of scripture-
+ 
+Lilith loves to fool her hunters with her simulacrum. Trust not her
+appearance, nor her words for they are lies and trickery.
+~
+S
+#25577
+A Plain Stone Chamber~
+Your vision blurs momentarily as you pass through the maiden, then
+clears again. When it does, you find yourself standing in a bleak stone
+chamber, devoid of any trappings or furnishings. The walls gleam with
+fresh whitewash, and the floor has been polished to a sheen. You feel cold
+and uncomfortable in this strange place. You can still hear sounds from the
+torture chamber, but cannot see any way back to that place, which is probably
+fortunate.
+ 
+A door is set in the west wall, while the chamber stretches to the north.
+~
+0 3153933 0
+D0
+~
+~
+0 -1 25580
+D3
+~
+~
+3 -1 25578
+S
+#25578
+A Crowded Annex~
+Moldering tomes dealing with a variety of subjects line the creaking
+shelves in this foyer, the shelves covering each wall, from the dusty
+floor to the shifting surface of the roof, in which you can see visages
+of terror and damnation. Occasionally a book will float gently off one
+of the shelves of its own accord, and disappear into the ceiling, to be
+returned some time later, read by the unseen summoner of the work. Curious,
+you poke at the ceiling, but it remains firm to the touch.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 25579
+D1
+~
+~
+3 -1 25577
+S
+#25579
+Dark Knowledge~
+This small chamber is crammed with books of all manner, many of them
+bound in humanskin, and enscribed with runes of power, drawn with the
+blood of virgins and babes. A musty odor fills the still air, an odor
+all too familiar to stuffy mages used to researching ancient texts in
+even more ancient libraries. 
+~
+0 3153929 0
+D2
+~
+~
+3 -1 25578
+S
+#25580
+A Convergence of Paths~
+Dark stone corridors snake away into the darkness to the north, east
+and south, heading towards fates unknown. A foul smell fills the air,
+nor surprising any more in this fell fortress, and you realize that
+you are in the very heart of this damned place, nearer to Lilith than
+ever before. But there are many paths to choose from; which one leads
+to the Whore of the Abyss?
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25581
+D1
+~
+~
+0 -1 25587
+D2
+~
+~
+0 -1 25577
+S
+#25581
+A Bend in the Corridor~
+Ghastly shapes are visible on the walls here, illuminated by your light
+source, the flickering glow giving them the semblance of movement...wait
+a minute, they actually ARE moving, writhing and contorting spasmodically,
+dancers to some unheard music, lost in the macabre ritual they are engaging
+in. Occasionally one of the figures will turn towards you, revealing a face
+with gaping eyesockets and a toothless maw, beckoning lewdly for you to join
+in the obscene ritual. Shuddering, you press on.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25583
+D2
+~
+~
+0 -1 25580
+S
+#25582
+Home Sweet Home?~
+You leap joyfully through the portal, looking forward to seeing old
+friends and familiar sights once again. To your horror and dismay, you
+enter your home town, only to see it ablaze from end to end, and swarming
+with vile demons spawned from the pits of the Abyss. Frantically, you try
+to leap back through the portal, but there is no sign of it. Drawing your
+weapon, you turn to face the fiends, a grim smile on your lips as you 
+realize you are facing your last battle. Within seconds it is over, the
+horde leaping upon you and tearing you limb from limb.
+~
+0 3153935 0
+S
+#25583
+The End~
+The corridor, and its unsettling occupants, ends here, at two doors, one
+set in the north wall and the other in the eastern wall. Cries and howls
+of pain, accompanied by a high pitched sniggering, issue forth from behind
+the door to the east, while nothing but silence comes from the north. A
+severed tail, of some unknown beast, has been nailed to the northern door,
+the dark ichor seeping from the severed end staining the blackened wood an
+even darker shade.
+~
+0 3153929 0
+D0
+~
+~
+7 -1 25584
+D1
+~
+~
+3 -1 25585
+D3
+~
+~
+0 -1 25581
+S
+#25584
+Perdition~
+This bare stone chamber is used to incarcerate lackeys of Lilith who
+have displeased her in some way. They are always mutilated, a permanent
+reminder of their transgression, and a severed appendage of the critter
+is nailed to the door, to remind others. Trolls, being capable of
+regenerating even whole limbs, aren't particularly impressed by this
+punishment, so Lilith keeps an acid bath for the recalcitrant ones amongst
+their number.
+~
+0 3153933 0
+D2
+~
+~
+7 -1 25583
+S
+#25585
+An Infernal Operating Theater~
+The majority of this room has been scrubbed clean, the shining white
+walls a paragon of cleanliness and hygiene. That is probably the only
+commendable feature of what is by all other definitions a slaughter
+house/torture chamber. Mutilated humanoids lie struggling feebly on
+the iron tables they have been tied to, while a bony surgeon wanders
+from one to the other, making a casual slice her or amputation there.
+Their cries of pain are weak and soft, as most of them have had their
+mouths sewn shut and their tongues cut out. Blood spattered implements
+awaiting cleaning rest in a metal bin near a gaping hole in the floor,
+from which issue a variety of howls and pleas.
+~
+0 3153933 0
+D3
+~
+~
+3 -1 25583
+D5
+~
+~
+128 -1 25586
+S
+#25586
+A Pit of Despair~
+This vile place is where Quel'zar stores the results of his unholy
+experiments. Unfortunately, it quickly became a struggle for survival
+down here, and now a solitary creature resides here, devouring anything
+else hurled down to join it.
+~
+0 3153929 0
+D4
+~
+~
+128 -1 25585
+S
+#25587
+A Twisting Corridor~
+Ghastly shapes are visible on the walls here, illuminated by your light
+source, the flickering glow giving them the semblance of movement...wait
+a minute, they actually ARE moving, writhing and contorting spasmodically,
+dancers to some unheard music, lost in the macabre ritual they are engaging
+in. Occasionally one of the figures will turn towards you, revealing a face
+with gaping eyesockets and a toothless maw, beckoning lewdly for you to join
+in the obscene ritual. Shuddering, you press on.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 25580
+D8
+~
+~
+0 -1 25588
+S
+#25588
+A Twisting Corridor~
+At this point utter darkness engulfs the corridor. Even your light
+source cannot penetrate the gloom. You are reduced to having to stumble
+forward, arms outstretched, praying you don't fall into some hidden pit.
+At one stage your hands brushes what could be a door, but you aren't
+sure.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25590
+D2
+~
+~
+3 -1 25589
+D7
+~
+~
+0 -1 25587
+S
+#25589
+Gloom~
+You can't see a thing in here, so you have no idea what you may have
+stumbled in on when you opened the door. Suddenly, you see something
+flickering in the darkness, and sparks of magical energy cast a dim
+glow on the stone walls, each of them filled with the wildly cavorting
+figures you glanced earlier. Shuddering, you look away and prepare to
+face whatever may lurk in this strange place.
+~
+0 3153933 0
+D0
+~
+~
+3 -1 25588
+S
+#25590
+A Twisting Corridor~
+The darkness continues, threatening to engulf you, overwhelming your
+senses, causing you to panic as you flail madly, feeling extremely
+uncomfortable in this state of near total sensory deprivation. To the
+east and west the corridor continues, while to the north and south lie
+greasy stone walls.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 25591
+D3
+~
+~
+0 -1 25588
+S
+#25591
+A Horrid Sight~
+All at once, the corridor plunges from the darkness into a chamber
+filled with blinding white light, most of it issuing from a metal
+cross affixed to the far wall, upon which is fastened a warning to those
+who would challenge the might of Lilith. Above the cross is a shimmering
+portal, which presumably leads up into the sanctum of the Queen of
+Vampires herself. To the north, a plain wooden door leads to some unknown
+location.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 25592
+D3
+~
+~
+0 -1 25590
+D4
+~
+~
+64 -1 25593
+S
+#25592
+A Place of Contemplation~
+The purpose of this chamber escapes you. Only a small metal plaque
+mars the plain stone walls, which are devoid of any signs of chaos.
+Curious, you step in to examine the chamber further...
+ 
+~
+0 13 0
+D2
+~
+~
+3 -1 25591
+E
+plaque~
+I have managed to cleanse this place of evil, here, and you may rest
+and summon aid to help you in your battles against the whore of the
+abyss.
+ 
+ 
+~
+S
+#25593
+Swirling Vortex~
+As you step through the portal, and invisible force grabs ahold of you
+and hurls you into a swirling vortex of magical energies. Dozens of
+exits spin past you, leading into worlds known and unknown; you pray
+fervently that you will be thrown out where you intend to go.
+~
+0 19931149 0 80 25596 0
+> rand_prog 2~
+mpe Flashes of light and sudden explosions are interspersed with the mayhem.
+~
+|
+S
+#25594
+The Handmaidens of Lilith~
+This chamber is dominated by an opulent four poster bed, swathed in silk and
+fine cloths. Incense burns in small clay pots near the bed, filling the room
+with a sickly sweet odor, not unlike that of fresh blood. The walls are
+covered in richly colored tapestries depicting the feasting of the kindred
+upon the innocents of the world.
+~
+0 3153929 0
+D3
+~
+~
+3 -1 25597
+S
+#25595
+The Handmaidens of Lilith~
+This chamber is dominated by an opulent four poster bed, swathed in silk and
+fine cloths. Incense burns in small clay pots near the bed, filling the room
+with a sickly sweet odor, not unlike that of fresh blood. The walls are
+covered in richly colored tapestries depicting the feasting of the kindred
+upon the innocents of the world.
+~
+0 3153929 0
+D1
+~
+~
+3 -1 25597
+S
+#25596
+The Final Journey~
+At long last the vortex deposits you in a blackwalled stone chamber,
+filled to your knees with blood and gore, which seeps in through the
+walls and floor. Sickened, you attempt to wade through the mire as
+quickly as possible, heading for a blood free passage in the north wall,
+which leads towards a series of metal doors. Someone or something cackles
+with glee at your misfortunes, and you grit your teeth and try to ignore
+it.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25597
+S
+#25597
+Chambers of the Slaves~
+Here are quartered those selected to serve Lilith, in whatever manner
+she may desire, kept in rooms to the east and west, under the watchful
+eye of the Eunuch, who is compelled to remain in this empty chamber,
+watching the doors for sign of escape or intrusion. Only four tapestries,
+placed near each exit from this room, break the plain stone. A vile
+smell emanates from the northern exit.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25598
+D1
+~
+~
+3 -1 25594
+D2
+~
+~
+0 -1 25596
+D3
+~
+~
+3 -1 25595
+S
+#25598
+Path of the Damned~
+Your first impression, as you traverse this bloodsoaked corridor, is that
+many, many others have passed this way, and have fallen here, over the
+centuries, nay millenia! Lilith, the greatest of succubi, the queen of
+vampires, has claimed innumerable souls, and their blood coats this seemingly
+endless passageway. Mangled, blackened corpses hang from hooks set in the
+walls, dripping entrails onto the slick floor. The stench is overpowering;
+even a vampire would find the overwhelming presence of blood sickening in
+its gross excess. Undoubtedly worse waits ahead.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25599
+D2
+~
+~
+0 -1 25597
+S
+#25599
+The Chamber of Lilith~
+You have finally stumbled onto the true haven of Lilith, her private
+boudoir, an opulent apartment appointed with all manner of rare and
+valuable artifacts and works of art. Long drapes, of a soft material,
+shroud most of the room, including an extravagant four poster bed, to
+which someone is bound, though you cannot see through the gossamer to
+determine who or what it is. Lilith will most surely be angered by your
+persistence and audacity, and you expect her to react violently!
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25598
+S
+#0
+
+
+#RESETS
+R 0 25501 4
+R 0 25502 4
+R 0 25503 4
+R 0 25504 4
+R 0 25505 4
+R 0 25506 4
+R 0 25507 4
+R 0 25508 4
+R 0 25509 4
+M 1 25507 6 25501
+M 1 25507 6 25503
+M 1 25507 6 25503
+M 1 25507 6 25505
+M 1 25507 6 25505
+M 1 25508 1 25507
+M 1 25507 6 25508
+M 1 25503 1 25510
+E 1 25506 1 16
+E 1 25507 1 12
+E 1 25508 1 5
+D 0 25510 3 1
+M 1 25504 1 25514
+D 0 25514 3 2
+D 0 25515 0 1
+D 0 25515 1 1
+M 1 25505 1 25516
+E 1 25509 1 16
+D 0 25516 2 1
+D 0 25517 3 1
+D 0 25520 5 0
+D 0 25521 4 0
+M 1 25513 1 25522
+O 1 25524 1 25522
+D 0 25522 1 1
+D 0 25523 3 1
+M 1 25520 3 25524
+M 1 25520 3 25524
+M 1 25520 3 25524
+M 1 25521 1 25526
+M 1 25515 1 25532
+E 1 25530 1 12
+O 1 25525 1 25533
+M 1 25514 1 25534
+E 1 25527 1 12
+E 1 25526 1 16
+E 1 25526 1 18
+O 1 25528 1 25534
+D 0 25534 2 1
+D 0 25534 3 1
+O 1 25532 1 25537
+D 0 25537 2 1
+D 0 25538 1 1
+M 1 25516 1 25539
+D 0 25539 0 1
+D 0 25540 0 1
+D 0 25541 3 1
+M 1 25517 4 25542
+E 1 25534 1 5
+E 1 25535 1 16
+M 1 25518 2 25542
+D 0 25542 1 1
+M 1 25517 4 25543
+E 1 25534 1 5
+E 1 25535 1 16
+M 1 25518 2 25543
+M 1 25522 1 25544
+E 1 25534 1 5
+E 1 25538 1 14
+E 1 25538 1 15
+E 1 25539 1 6
+E 1 25540 1 16
+E 1 25541 1 19
+M 1 25517 4 25545
+E 1 25534 1 5
+E 1 25535 1 16
+M 1 25517 4 25545
+E 1 25534 1 5
+E 1 25535 1 16
+M 1 25519 1 25547
+M 1 25510 2 25549
+E 1 25512 1 5
+E 1 25513 1 9
+E 1 25514 1 7
+E 1 25515 1 6
+E 1 25516 1 11
+E 1 25517 1 16
+E 1 25518 1 12
+D 0 25549 1 1
+M 1 25510 2 25550
+E 1 25512 1 5
+E 1 25513 1 9
+E 1 25514 1 7
+E 1 25515 1 6
+E 1 25516 1 11
+E 1 25517 1 16
+E 1 25518 1 12
+M 1 25511 4 25551
+E 1 25519 1 1
+E 1 25520 1 3
+E 1 25521 1 5
+M 1 25512 1 25552
+G 1 25522 1
+G 1 25523 1
+G 1 3 1
+M 1 25511 4 25552
+E 1 25519 1 1
+E 1 25521 1 5
+E 1 25520 1 3
+M 1 25511 4 25553
+E 1 25519 1 1
+E 1 25520 1 3
+E 1 25521 1 5
+M 1 25511 4 25554
+E 1 25519 1 1
+E 1 25521 1 5
+E 1 25520 1 3
+O 1 25543 1 25554
+M 1 25509 1 25555
+D 0 25555 3 2
+D 0 25558 1 1
+D 0 25559 1 1
+D 0 25559 3 1
+M 1 25523 1 25560
+E 1 25544 1 7
+E 1 25545 1 13
+E 1 25546 1 16
+E 1 25547 1 12
+D 0 25560 3 1
+M 1 25531 2 25562
+M 1 25531 2 25562
+M 1 25527 1 25565
+E 1 25552 1 16
+E 1 25553 1 5
+E 1 25554 1 6
+G 1 25561 1
+O 1 25556 1 25565
+O 1 25562 1 25565
+D 0 25565 6 2
+M 1 25526 1 25567
+E 1 25559 1 6
+E 1 25560 1 9
+D 0 25569 5 1
+M 1 25525 3 25570
+M 1 25525 3 25570
+M 1 25525 3 25570
+D 0 25570 4 1
+D 0 25571 5 1
+M 1 25529 1 25573
+E 1 25558 1 16
+D 0 25573 4 1
+M 1 25528 1 25574
+D 0 25574 3 1
+D 0 25574 5 1
+M 1 25530 1 25575
+D 0 25575 1 1
+M 1 25524 1 25576
+E 1 25548 1 20
+E 1 25549 1 16
+E 1 25550 1 8
+E 1 25551 1 3
+D 0 25576 4 1
+D 0 25577 3 1
+D 0 25578 0 1
+D 0 25578 1 1
+M 1 25532 1 25579
+E 1 25563 1 16
+E 1 25564 1 17
+D 0 25579 2 1
+D 0 25583 0 2
+D 0 25583 1 1
+M 1 25536 1 25584
+D 0 25584 2 2
+M 1 25533 1 25585
+E 1 25565 1 16
+E 1 25566 1 12
+D 0 25585 3 1
+M 1 25537 1 25586
+D 0 25588 2 1
+M 1 25534 1 25589
+D 0 25589 0 1
+M 1 25535 1 25591
+E 1 25572 1 9
+E 1 25573 1 8
+D 0 25591 0 1
+D 0 25592 2 1
+M 1 25501 2 25594
+E 1 25503 1 13
+D 0 25594 3 1
+M 1 25501 2 25595
+E 1 25503 1 13
+D 0 25595 1 1
+M 1 25502 1 25597
+E 1 25505 1 1
+E 1 25504 1 16
+D 0 25597 1 1
+D 0 25597 3 1
+M 1 25500 1 25599
+E 1 25500 1 16
+E 1 25501 1 12
+S
+
+
+#SHOPS
+ 25512    0  0  0  0  0   120  90         0 23    ; an imp
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  25500 spec_cast_cleric
+M  25501 spec_cast_mage
+M  25502 spec_breath_fire
+M  25504 spec_breath_frost
+M  25505 spec_cast_mage
+M  25507 spec_poison
+M  25509 spec_breath_acid
+M  25511 spec_cast_mage
+M  25514 spec_poison
+M  25518 spec_fido
+M  25519 spec_breath_gas
+M  25521 spec_poison
+M  25523 spec_cast_mage
+M  25526 spec_breath_any
+M  25528 spec_poison
+M  25530 spec_breath_frost
+M  25531 spec_thief
+M  25532 spec_cast_mage
+M  25533 spec_cast_mage
+M  25534 spec_cast_mage
+M  25536 spec_breath_fire
+M  25537 spec_breath_gas
+S
+
+
+#$

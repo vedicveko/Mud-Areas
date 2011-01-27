@@ -1,0 +1,2490 @@
+#AREA    {20 30} Xanax   Thoran~
+
+#MOBILES
+#26500
+wolf~
+A wolf~
+A wolf is here bearing his teeth.
+~
+He is about two foot and a half foot long and has dingy white fur. He does 
+not look look to happy to see you, maybe it is time to go.
+~
+32|64 8|32|512 -1000 S
+20 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26501
+bat~
+A bat~
+A bat is flapping around here.
+~
+It looks like a rat with wings. What more can I say?
+~
+32|64 8|32|512 -1000 S
+20 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26502
+gypsie~
+A gypsie~
+A gypsie is here trying to figure out how to scam you.
+~
+This woman is filthy. She has obviously not bathed in a while, if ever. She
+beckons you to come let her tell your fortune. You sure you want to do that?
+~
+64 8|32 -1000 S
+20 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26503
+villager~
+A villager~
+A villager is here looking for something to do.
+~
+She stands about five foot six and has flowing gold hair. You find yourself
+staring at her, so you quickly turn away before she discovers your gawking.
+~
+64 8|32 1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26504
+zombie~
+A zombie~
+A zombie is roaming around here.
+~
+He looks human, a mutated human, but human just the same.
+~
+32|64|4096 8|32 -1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26505
+ghost~
+A ghost~
+A ghost is floating around here.
+~
+It looks exactly like the ghosts you have seen in books and on tv.
+~
+32|64|4096 8|32 -1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26506
+ghoul~
+A ghoul~
+A ghoul is floating around here.
+~
+It looks to have once been human, but now his flesh is falling off his bones.
+His nails and teeth seem to have grown quite a bit too.
+~
+32|64|4096 8|32 -1000 S
+22 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26507
+wight~
+A wight~
+A wight is here looking for someone to eat.
+~
+It looks exactly like a zombie. Perhaps they are related in some way.
+~
+32|64|4096 8|32 -1000 S
+22 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26508
+wraith~
+A wraith~
+A wraith is here waiting for someone to eat.
+~
+He looks like a skeleton. Unfortunately is not quite as dead as a skeleton
+should be.
+~
+32|64|4096 8|32 -1000 S
+22 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26509
+maiden vampire~
+A maiden vampire~
+A maiden vampire is here looking for someone to bite.
+~
+She is a beautiful woman, very beautiful indeed. You better not get to close,
+remember, she bites. Hmm, maybe living for eternity wouldn't be all that bad.
+~
+32|64|4096 8|32 -1000 S
+23 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26510
+Gildra~
+Gildra~
+Gildra is here displaying his wares.
+~
+He is a puny little man, only standing about five foot tall and weighing
+barely one hundred pounds.
+~
+2 8|32 1000 S
+23 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26511
+Elpmi~
+Elpmi~
+Elpmi is here guarding Gildra.
+~
+He is quite a bit bigger than Gildra, standing about six foot tall and 
+weighing close to two hundred pounds. I am not to sure I would mess with him.
+~
+2 8|32 1000 S
+23 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26512
+Kira~
+Kira~
+Kira is here minding his bar.
+~
+He looks at you with kind eyes, imploring you to tell him your life story. 
+Just imagine the stories he has heard.
+~
+2 8|32 1000 S
+23 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26513
+Bizmark~
+Bizmark~
+Bizmark is here having a drink.
+~
+His eyes are droopy and bloodshot. Perhaps he has had a few too many.
+~
+2 8|32 1000 S
+24 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26514
+Yram~
+Yram~
+Yram is here mourning the loss of her daughter.
+~
+She looks terrible. She looks like she has not groomed herself in weeks. 
+Maybe you should put her out of her misery.
+~
+2 8|32 1000 S
+24 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26515
+Anir~
+Anir~
+Anir is here cowering in a corner.
+~
+She is a pretty woman with flowing black hair. You see two sets of bite marks
+on her neck. Uh oh, one more time and she becomes undead.
+~
+2 8|32 1000 S
+24 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26516
+Donovan~
+Donovan~
+Donovan is here praying.
+~
+He is kneeling here praying to his god, whichever god that might be.
+~
+2 8|32 1000 S
+24 0 0 0d0+0 0d0+0 
+50 0
+7 7 1
+#26517
+Ave~
+Ave~
+Ave is here looking into her crystal ball.
+~
+She is an older woman with white hair and wrinkled skin. She begs you to look
+into the ball with her.
+~
+2 8|32 1000 S
+25 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26518
+horse~
+A horse~
+A horse is trotting along here. 
+~
+He is quite a large horse, standing about six foot at the shoulders. He is 
+jet black. What a beautiful specimen.
+~
+2 8|32 1000 S
+25 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26519
+green slime~
+A green slime~
+Some green slime is here oozing down the walls.
+~
+It looks like slime. What more can I say?
+~
+2 8|32 -1000 S
+25 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26520
+giant spider~
+A giant spider~
+A giant spider is here weaving a web.
+~
+It looks like a regular, just quite a bit larger than you are familiar with.
+~
+2 8|32 -1000 S
+26 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26521
+gargoyle~
+A gargoyle~
+A gargoyle is here guarding against evil.
+~
+It is a stone creature with wings, sharp teeth and claws, and pointy ears. It
+looks quite evil itself.
+~
+2 8|32 -1000 S
+26 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26522
+vampire~
+A vampire~
+A vampire is here looking for someone to bite.
+~
+He is a handsome man with golden hair and deep blue eyes. Obviously his looks
+help him capture his victims.
+~
+64 8|32 -1000 S
+26 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26523
+rust monster~
+A rust monster~
+A rust monster is here.
+~
+It is a tall creature with a bony back, a long tail and pointed ears.
+~
+64 8|32 -1000 S
+27 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26524
+spectre~
+A spectre~
+A spectre is floating around here.
+~
+It looks exactly like a ghost. After all, a spectre is a ghost.
+~
+64 8|32 -1000 S
+27 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26525
+Dhart~
+Dhart~
+Dhart is roaming around here.
+~
+He stands about six foot tall and has long, stringy black hair. He growls at
+you for looking at him too long.
+~
+64 8|32 -1000 S
+27 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26526
+red dragon~
+A red dragon~
+A red dragon is here looking for someone to eat.
+~
+He stands about twelve foot tall and three foot wide, He is the color of fire,
+and appears hungry as hell. Maybe it is time to go.
+~
+2 8|32 -1000 S
+28 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26527
+guardian of sorrow~
+A guardian of sorrow~
+The guardian of sorrow is here making you sad.
+~
+He stands about twenty foot tall. He does not look to happy about you waking 
+him from his nap. I would get out of here.
+~
+2 8|32 -1000 S
+28 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26528
+Fiel~
+Fiel~
+Fiel is here doing some paperwork.
+~
+He is a nerdy looking man, complete with coke bottle glasses. Maybe you 
+should kill him for simply being a geek.
+~
+2 8|32 1000 S
+28 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26529
+Agle~
+Agle~
+Agle is here making a bed.
+~
+She appears to be a nice, innocent woman, but something about here tells you
+otherwise.
+~
+2 8|32 -1000 S
+29 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26530
+Durtreg~
+Durtreg~
+Durtreg is here getting ready for bed.
+~
+You see an older woman with greying hair and wrinkled skin. What the hell,
+she is going to dies soon anyway.
+~
+2 8|32 1000 S
+29 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26531
+guardian portrait~
+A guardian portrait~
+A portrait is here hanging on the wall.
+~
+As you look at it, its eyes start to move. Perhaps it is not a portrait at
+all.
+~
+2 8|32 1000 S
+29 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26532
+witch~
+A witch~
+A witch is here looking for lizards tails.
+~
+She looks nothing like a witch is fabled to look. She looks like a normal 
+person that has just gone insane,
+~
+2 8|32 -1000 S
+29 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26533
+Syruc~
+Syruc~
+Syruc is here preparing to go make dinner.
+~
+He is an old, frazzled man. He has obviously been working too many hours for
+too long.
+~
+2 8|32 1000 S
+29 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26534
+shadow demon~
+A shadow demon~
+A demon is standing here in the shadows.
+~
+He looks like your typical, everyday, run of the mill demon; complete with 
+sharp teeth and claws.
+~
+2 8|32 -1000 S
+30 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26535
+werewolf~
+A werewolf~
+A werewolf is here howling at the moon.
+~
+He looks exactly like a dog. He has sharp fangs and dingy white fur.
+~
+2 8|32 -1000 S
+30 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26536
+iron golem~
+An iron golem~
+An iron golem is solemly standing here.
+~
+He looks like a man, and iron man. He appears to be guarding against 
+something,
+~
+2 8|32 -1000 S
+30 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26537
+hellhound~
+A hellhound~
+A hellhound is here waiting to bite you.
+~
+He looks like a dog, a very small but very vicious dog. He begins to bear his
+teeth.
+~
+2|32 8|32 -1000 S
+30 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26538
+nightmare~
+A nightmare~
+Your worst nightmare is here.
+~
+It looks like the worst nightmare you have ever had. Too bad this time you
+can't wake up.
+~
+2|32 8|32 -1000 S
+30 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26539
+zombie~
+A zombie~
+A zombie is roaming around here.
+~
+He looks human, a mutated human, but human just the same.
+~
+2|32|4096 8|32 -1000 S
+20 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26540
+ghost~
+A ghost~
+A ghost is floating around here.
+~
+It looks exactly like the ghosts you have seen in books and on tv.
+~
+2|32|4096 8|32 -1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26541
+ghoul~
+A ghoul~
+A ghoul is roaming here.
+~
+It looks to have once been human, but now its skin seems to be falling off
+its bones. Its teeth and nails seem to have grown quite a bit also.
+~
+2|32|4096 8|32 -1000 S
+20 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26542
+wight~
+A wight~
+A wight is here looking for someone to eat.
+~
+It looks exactly like a zombie. Perhaps they are related in some way.
+~
+2|32|4096 8|32 -1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#26543
+wraith~
+A wraith~
+A wraith is here waiting for someone to eat.
+~
+He looks like a skeleton. Unfortunately is not quite as dead as a skeleton
+should be.
+~
+2|32|4096 8|32 -1000 S
+21 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26544
+maiden vampire~
+A maiden vampire~
+A maiden vampire is here looking for someone to bite.
+~
+She is a beautiful woman, very beautiful indeed. You better not get to close,
+remember, she bites. Hmm, maybe living for eternity wouldn't be all that bad.
+~
+2|32|4096 8|32 -1000 S
+23 0 0 0d0+0 0d0+0
+50 0
+7 7 2
+#26545
+vampire~
+A vampire~
+A vampire is here looking for someone to bite.
+~
+He is a handsome man with golden hair and deep blue eyes. Obviously his looks
+help him capture his victims.
+~
+2 8|32 -1000 S
+26 0 0 0d0+0 0d0+0
+50 0
+7 7 1
+#26546
+spectre~
+A spectre~
+A spectre is floating around here.
+~
+It looks exactly like a ghost. After all, a spectre is a ghost.
+~
+2 8|32 -1000 S
+27 0 0 0d0+0 0d0+0
+50 0
+7 7 0
+#0
+
+#OBJECTS
+#26500
+lantern~
+a lantern~
+A lantern is lying here.~
+~
+1 1 1|16384
+0 0 0 0
+2 10 0
+#26501
+torch~
+a torch~
+A torch is lying here.~
+~
+1 1 1|16384
+0 0 0 0
+2 10 0
+#26502
+bread~
+a piece of bread~
+A piece of bread is lying here.~
+~
+19 0 1
+40 0 0 0
+1 10 0
+#26503
+water flask~
+a water flask~
+A water flask is lying here.~
+~
+17 0 1
+10 10 0 0
+5 15 0
+#26504
+sword~
+a sword~
+A nice looking sword is lying here.~
+~
+5 1 1|8192
+0 3 6 3
+10 1000 0
+A 18 4
+A 19 2
+#26505
+shield~
+a shield~
+A shield is lying here.~
+~
+9 1 1|512
+5 0 0 0
+5 500 0
+#26506
+shotglass~
+a shotglass~
+A shotglass is lying here.~
+~
+17 0 1
+2 2 5 0
+1 0 0
+#26507
+wine glass~
+a wine glass~
+A wine glass is lying here.~
+~
+17 0 1
+5 5 2 0
+1 0 0
+#26508
+beer mug~
+a beer mug~
+A beer mug is lying here.~
+~
+17 0 1
+5 5 1 0
+1 0 0
+#26509
+beer~
+a beer~
+A beer is lying here.~
+~
+17 0 1
+5 5 1 0
+1 0 0
+#26510
+bible~
+a bible~
+A bible is lying here.~
+~
+13 1 1
+0 0 0 0
+2 0 0
+#26511
+incense stick~
+an incense stick~
+An incense stick is lying here.~
+~
+1 1 1|16384
+0 0 0 0
+2 50 0
+#26512
+crystal ball~
+a crystal ball~
+A crystal ball is lying here.~
+~
+13 1 1|16384
+0 0 0 0
+5 50 0
+#26513
+scales dragon~
+the scales of a dragon~
+The scales of a dragon are lying here.~
+~
+9 1 1|512 
+10 0 0 0
+5 1000 0
+#26514
+head dragon~
+the head of a dragon~
+The head of a dragon is lying here.~
+~
+9 1 1|16
+7 0 0 0
+5 1000 0
+#26515
+tail dragon~
+the tail of a dragon~
+The tail of a dragon is lying here.~
+~
+9 1 1|32
+7 0 0 0
+5 1000 0
+#26516
+wings gargoyle~
+the wings of a gargoyle~
+The wings of a gargoyle are lying here.~
+~
+9 1 1|1024
+9 0 0 0
+5 1000 0
+#26517
+calculator~
+a calculator~
+A scientific calculator is lying here.~
+~
+9 1 1|16384
+0 0 0 0
+3 500 0
+A 3 1
+A 4 1
+#26518
+pencil~
+a pencil~
+A pencil is lying here.~
+~
+5 1 1|8192
+0 3 6 11
+5 1000 00
+#26519
+vampire teeth~
+the teeth of a vampire~
+The teeth of a vampire are lying here.~
+~
+5 1 1|8192
+0 3 6 10
+5 1000 0
+#26520
+black cape~
+a black cape~
+A black cape is lying here.~
+~
+9 1 1|1024
+7 0 0 0
+3 1000 0
+#26521
+broom~
+a broom~
+A broom is lying here.~
+~
+5 1 1|8192
+0 3 6 5
+5 1000 0
+#26522
+cauldron~
+a cauldron~
+A cauldron is bubbling here.~
+~
+13 1 1
+0 0 0 0
+10 50 0
+#26523
+serving tray~
+a serving tray~
+A serving tray is lying here.~
+~
+5 1 1|8192
+0 3 6 7
+5 1000 0
+#26524
+ring truth~
+a ring of truth~
+A beautiful ring is lying here.~
+~
+5 1 1|2
+15 0 0 0
+2 1000 0
+A 18 3
+A 19 3
+#26525
+ring honor~
+a ring of honor~
+A beautiful ring is lying here.~
+~
+5 1 1|2
+15 0 0 0
+2 1000 0
+A 18 3
+A 19 3
+#26526
+sword vengeance~
+a sword of vengeance~
+A beautifully crafted sword is lying here.~
+~
+5 1 1|8192
+0 6 8 3
+10 5000 0
+A 18 3
+A 19 3
+#26527
+boots striding~
+the boots of striding~
+A pair of boots is lying here.~
+~
+9 1 1|64
+15 0 0 0
+5 1000 0
+A 18 3
+A 19 3
+A 14 100
+#26528
+plate chest chestplate valor~
+a chest plate of valor~
+A chest plate is lying here.~
+~
+9 1 1|8
+15 0 0 0
+5 1000 0
+A 18 3
+A 19 3
+#26529
+gloves power~
+the gloves of power~
+A pair of gloves is lying here.~
+~
+9 1 1|128
+15 0 0 0
+5 1000 0
+A 18 3
+A 19 3
+# 26530
+shield courage~
+the shield of courage~
+A shield is lying here.~
+~
+9 1 1|512
+15 0 0 0
+5 1000 0
+A 18 3
+A 19 3
+#26531
+cape invulnerability~
+a cape of invulnerability~
+A cape is lying here.~
+~
+9 1 1|1024
+15 0 0 0
+5 1000 0
+A 18 3
+A 19 3
+#26532
+belt strength~
+a belt of strength~
+A belt is lying here.~
+~
+9 1 1|2048
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+A 1 1
+#26533
+bracelet love~
+a bracelet of love~
+A bracelet is lying here.~
+~
+9 1 1|4096
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26534
+bracelet hate~
+a bracelet of hate~
+A bracelet is lying here.~
+~
+9 1 1|4096
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26535
+sceptre wisdom~
+a sceptre of wisdom~
+A sceptre is lying here.~
+~
+9 1 1|16384
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+A 4 1
+A 12 100
+#26536
+arm plates striking~
+the arm plates of striking~
+A set of arm plates is lying here.~
+~
+9 1 1|256
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26537
+silver ankh~
+a silver ankh~
+A silver ankh is lying here.~
+~
+9 1 1|4
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26538
+golden cross~
+a golden cross~
+A golden cross is lying here.~
+~
+9 1 1|4
+15 0 0 0
+5 1000 0
+A 18 9
+A 19 5
+#26539
+candle light~
+a candle of divine light~
+A candle is lying here.~
+~
+1 1 1|16384
+0 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26540
+helm intelligence~
+a helm of intelligence~
+A helm is lying here.~
+~
+9 1 1|16
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+A 3 1
+#26541
+leggings doom~
+the leggings of doom~
+A pair of leggings are lying here.~
+~
+9 1 1|32
+15 0 0 0
+5 1000 0
+A 18 5
+A 19 5
+#26542
+treasure chest~
+a treasure chest~
+A treasure chest is lying here.~
+~
+15 0 0
+10000 1 -1 0
+0 0 0
+#26543
+pile coins~
+a pile of coins~
+A pile of coins is lying here.~
+~
+20 0 1
+100000 0 0 0
+0 0 0
+#0
+
+#ROOMS
+#26500
+Syrus Road~
+You are travelling along the road that leads to the city of Thoran. To the 
+north you see the gates of Thoran.
+~
+0 0 1
+D0
+~
+~
+0 0 26501
+D2
+~
+~
+0 0 3205
+S
+#26501
+Gates of Thoran~
+Jutting from the inpenetrable woods on both sides of the road, high stone 
+buttresses look up gray in the fog. Huge iron gates hand on the stonework.
+To the north and south Syrus Road continues.
+~
+0 0 1
+D0
+~
+~
+0 0 26502
+D2
+~
+~
+0 0 26500
+S
+#26502
+Syrus Road~
+You are continuing along Syrus Road. It spans the entire length of the city.
+To the north and south Syrus Road continues. To the east you see the Blood
+Tavern, and to the west you see Gildra's Mercantile.
+~
+0 0 1
+D0
+~
+~
+0 0 26505
+D1
+~
+~
+0 0 26504
+D2
+~
+~
+0 0 26501
+D3
+~
+~
+0 0 26503
+S
+#26503
+Gildra's Mercantile~
+The sparse light from this building spills out from behind drawn heavy 
+curtains. A sign on the door creaks on its hinges, proclaiming this Gildra's
+Mercantile. To the east you see Syrus Road.
+~
+0 8 0
+D1
+~
+~
+0 0 26502
+S
+#26504
+Blood Tavern~
+A single shaft of light thrusts into the main square, its brightness like a
+solid pillar in the heavy fog. Above the gaping doorway, a sign hangs
+precariously askew proclaiming this is the Blood Tavern. To the west you
+see Syrus Street.
+~
+0 8 0
+D3
+~
+~
+0 0 26502
+S
+#26505
+Syrus Road~
+You are continuing along Syrus Road. To the north and south Syrus Road
+continues. To the east you see the Burgomaster's home and to the west you
+see Yram's home.
+~
+0 0 1
+D0
+~
+~
+0 0 26508
+D1
+~
+~
+0 0 26507
+D2
+~
+~
+0 0 26502
+D3
+~
+~
+0 0 26506
+S
+#26506
+Yram's Home~
+A moaning sob floats through the still gray streets, coloring your thoughts
+with sadness. The sounds flow from this dark, two-story townhouse. To the
+east you see Syrus Street.
+~
+0 8 0
+D1
+~
+~
+0 0 26505
+S
+#26507
+Burgomaster's Home~
+This is a weary looking mansion that squats behind a rusting iron fence. The
+iron gates are twisted and torn. The right gate lies cast aside while the
+left swings crazily in the wind. To the west you see Syrus Street.
+~
+0 8 0
+D3
+~
+~
+0 0 26505
+S
+#26508
+Syrus Road~
+You are continuing along Syrus Road. To the north and south the road 
+continues. To the east you see a church and to the west you see a guest house.
+~
+0 0 1
+D0
+~
+~
+0 0 26511
+D1
+~
+~
+0 0 26510
+D2
+~
+~
+0 0 26505
+D3
+~
+~
+0 0 26509
+S
+#26509
+Guest House~
+This house is roughly fifty square feet. It is the guest house of the
+Burgomaster's house. To the east you see Syrus Road.
+~
+0 8 0
+D1
+~
+~
+0 0 26508
+S
+#26510
+Church~
+This is the church of the city of Thoran. The bell tower hangs to one side,
+its sweet tones silenced. Flickering light shines through holes burned
+through the roof shingles. To the west you see Syrus Road.
+~
+0 8 0
+D3
+~
+~
+0 0 26508
+S
+#26511
+Syrus Road~
+You are continuing along Syrus Road. Syrus Road continues to the north and
+south. To the east you see a cemetary.
+~
+0 0 1
+D0
+~
+~
+0 0 26513
+D1
+~
+~
+0 0 26512
+D2
+~
+~
+0 0 26508
+S
+#26512
+Cemetary~
+This is the city's graveyard. For a town as large as this one there are
+surpisingly few graves. To the west you see Syrus Road.
+~
+0 0 1
+D3
+~
+~
+0 0 26511
+S
+#26513
+Syrus Road~
+You are continuing along Syrus Road. To the north you see the intersection
+with Denar Road, to the south Syrus Road continues, to the east and west 
+you see old, rundown houses.
+~
+0 0 1
+D0
+~
+~
+0 0 26516
+D1
+~
+~
+0 0 26515
+D2
+~
+~
+0 0 26511
+D3
+~
+~
+0 0 26514
+S
+#26514
+Rundown House~
+This house is in great need of repair. You can't believe that anyone could
+possibly live here. To the east you see Syrus Road.
+~
+0 8 0
+D1
+~
+~
+0 0 26513
+S
+#26515
+Rundown House~
+This house is in great need of repair. You can't believe that anyone could
+possibly live here. To the west you see Syrus Road.
+~
+0 8 0
+D3
+~
+~
+0 0 26513
+S
+#26516
+Intersection of Syrus and Denar Road~
+This is the intersection of Syrus and Denar Road. Syrus Road continues to
+the north and south and Denar leads off to the east and west. 
+~
+0 0 1
+D0
+~
+~
+0 0 26523
+D1
+~
+~
+0 0 26517
+D2
+~
+~
+0 0 26513
+D3
+~
+~
+0 0 26519
+S
+#26517
+Denar Road~
+You are on Denar Road. It is the east west road of the city. To the north you
+see a carriage house and to the west you see the intersection.
+~
+0 0 1
+D0
+~
+~
+0 0 26518
+D3
+~
+~
+0 0 26516
+S
+#26518
+Carriage House~
+This is the carriage house. This is where the person that takes care of
+the horses in the town lives. To the south you see Denar Road.
+~
+0 8 0
+D2
+~
+~
+0 0 26517
+S
+#26519
+Denar Road~
+You are continuing along the east west road of the city. To the north you see
+a gypsy encampment, to the east yoy see the intersection and to the west
+Denar Road continues.
+~
+0 0 1
+D0
+~
+~
+0 0 26520
+D1
+~
+~
+0 0 26516
+D3
+~
+~
+0 0 26521
+S
+#26520
+Gypsy Encampment~
+On the far side of the clearing are several colorful wagons parked on the bank
+of a stream. To the south you see Denar Road.
+~
+0 0 1
+D2
+~
+~
+0 0 26519
+S
+#26521
+Denar Road~
+You are continuing along the east west route of the city. To the north you 
+see Madam Ave's Tent and to the east you see Denar Road.
+~
+0 0 1
+D0
+~
+~
+0 0 26522
+D1
+~
+~
+0 0 26519
+S
+#26522
+Madam Ave's Tent~
+This tent is dimly illuminated in pools of red light. A small, low table 
+stands across from the doorway covered in a black velvet cloth. To the
+south you see Denar Road.
+~
+0 8 0
+D2
+~
+~
+0 0 26521
+S
+#26523
+Syrus Road~
+You are continuing along Syrus Road. To the south the road continues and to
+the north you see a courtyard.
+~
+0 0 1
+D0
+~
+~
+0 0 26524
+D2
+~
+~
+0 0 26516
+S
+#26524
+Courtyard~
+This is a very beautiful courtyard. It is line with pretty red and blue 
+flowers and in the center there is a large granite fountain. To the south
+you see Syrus Road, to the east you see a beutiful garden, and to the
+north you see the entry to the castle.
+~
+0 0 1
+D0
+~
+~
+0 0 26526
+D1
+~
+~
+0 0 26525
+D2
+~
+~
+0 0 26523
+S
+#26525
+Garden~
+This garden is not in as well as the courtyard. Its flowers are brown and
+wilting. To the north you see a guest hall and to the west you see the
+courtyard.
+~
+0 0 1
+D0
+~
+~
+0 0 26527
+D3
+~
+~
+0 0 26524
+S
+#26526
+Entry~
+The ornate massive doors hang open. Fluttering torches cast dim yellow
+flickers of light from the entry way. To the east you see a guest hall, to
+the south you see a carriage house and to the west you see the courtyard.
+~
+0 8 0
+D1
+~
+~
+0 0 26527
+D3
+~
+~
+0 0 26529
+D2
+~
+~
+0 0 26524
+S
+#26527
+Guest Hall~
+This is a neatly kept room with two small beds one one side of the room, a 
+desk with two chairs on another side of the room, and a large fireplace on
+yet another side of the room. To the north you see the dining hall, to the
+south you see the garden, and to the west you see the entry room.
+~
+0 8 0
+D0
+~
+~
+0 0 26528
+D2
+~
+~
+0 0 26525
+D3
+~
+~
+0 0 26526
+S
+#26528
+Dining Hall~
+This room is HUGE! It is about 40X40 and has a ten foot long table in the
+center of the room. You have never seen a kitchen table quite so big. To
+the south you see the guest hall.
+~
+0 8 0
+D2
+~
+~
+0 0 26527
+S
+#26529
+Carriage House~
+This is a small neatly kept room and not a house at all. You wonder why it
+is called a house when it is inside the castle walls. To the north you see 
+the entry room and to the east you see a chapel.
+~
+0 8 0
+D1
+~
+~
+0 0 26526
+D3
+~
+~
+0 0 26530
+S
+#26530
+Chapel~
+Thin colored light filters through broken and boarded up stained glass 
+windows, illuminating the ancient chapel. Pews and benches like about the
+floor in jumbled disarray, coated with centuries of dust. To the north
+you see the audience hall, to the west you see the carriage house and up
+you see the high tower stairs.
+~
+0 8 0
+D0
+~
+~
+0 0 26535
+D1
+~
+~
+0 0 26529
+D4
+~
+~
+0 0 26531
+S
+#26531
+High Tower Stairs~
+The large gray flagstones of this spiraling staircase lead up around a twenty
+foot wide stone core. Cobwebs fill the staircase, making it difficult to see 
+even the ceiling. Heavy beams sag overhead from the centuries of weight. To
+the north you see the grand landing and down you see the chapel.
+~
+0 8 0
+D0
+~
+~
+0 0 26532
+D5
+~
+~
+0 0 26530
+S
+#26532
+Grand Landing~
+This is quite a large landing, about twenty foot long and fourty foot wide.
+To the north you see the servant's quarters, to the south you see the stairs,
+and to the west you see the tower hall.
+~
+0 8 0
+D0
+~
+~
+0 0 26534
+D2
+~
+~
+0 0 26531
+D3
+~
+~
+0 0 26533
+S
+#26533
+Tower Hall~
+A mosaic floor stretches about into the darkness. You feel the tower's cold
+expanse weighing down on you. To the east you see the landing.
+~
+0 8 0
+D1
+~
+~
+0 0 26532
+S
+#26534
+Servant Quarters~
+Broken furniture and torn cloth are strewn about this 20X40 foot room. Dim
+illumination comes from the dirt-caked windows in the east and north walls.
+To the south you see the landing.
+~
+0 8 0
+D2
+~
+~
+0 0 26532
+S
+#26535
+Audience Hall~
+Dim light falls into this room in jagged shafts through the broken glass and
+iron frames of a large window in the west wall. Cobwebs span the entire
+length of the room. To the north you see the king's worship place, to the
+east you see the office of the accountant, and to the south you see the 
+chapel.
+~
+0 8 0
+D0
+~
+~
+0 0 26536
+D1
+~
+~
+0 0 26537
+D2
+~
+~
+0 0 26530
+S
+#26536
+King's Worship Place~
+This long balcony room overlooks a vst rubble-strewn room. Two large, ornate
+thrones stand in the middle of the balcony that is covered with dust. To the
+south you see the audience hall.
+~
+0 8 0
+D2
+~
+~
+0 0 26535
+S
+#26537
+Office of the Accountant~
+Dusty scroll and tomes line the walls of this room and are scattered across 
+the floor. In the center of all this clutter stands a huge accountant's desk.
+To the east you see the maid's hall and to the west you see the audience
+hall.
+~
+0 8 0
+D1
+~
+~
+0 0 26538
+D3
+~
+~
+0 0 26535
+S
+#26538
+Maid's Hall~
+Stained yellow lace hangs neatly from eight canopied beds. At the foot of
+each bed is a large chest. To the north you see the study, to the east you
+see the treasury, and to the west you see the office of the accountant.
+~
+0 8 0
+D0
+~
+~
+0 0 26539
+D1
+~
+~
+0 0 26540
+D3
+~
+~
+0 0 26537
+S
+#26539
+Study~
+Three of the walls are lined with ancient books and the fourth wall contains
+a large firplace. To the north you see a bedchamber and to the south you 
+see the maid's hall.
+~
+0 8 0
+D0
+~
+~
+0 0 26541
+D2
+~
+~
+0 0 26538
+S
+#26540
+Treasury~
+For a treasure room, this room is quite bare. It does not look to have been
+used for a very long time. To the west you see the maid's hall.
+~
+0 8 0
+D3
+~
+~
+0 0 26538
+S
+#26541
+Bedchamber~
+Windows on the west wall are covered by bright red draperies, hanging stiffly
+from the high ceiling. In the center of the room there is a large bed 
+canopied in velvet. To the east you see the lounge and to the south you
+see the study.
+~
+0 8 0
+D1
+~
+~
+0 0 26542
+D2
+~
+~
+0 0 26539
+S
+#26542
+Lounge~
+A low ceiling supported by heavy beams, seem to press down on this room. Plush
+overstuffed chairs and couches are placed about the room. To the north you see
+a guest room and to the west you see a bedchamber.
+~
+0 8 0
+D0
+~
+~
+0 0 26543
+D3
+~
+~
+0 0 26541
+S
+#26543
+Guest Room~
+A huge bed sits in the center of this room, its four corner posts rising to a
+black canopy trimmed with gold tassels. Several comfortable divans are placed
+about the room. To the north you see a hallway, to the south you see the 
+lounge, and up you seea creepy room.
+~
+0 8 0
+D0
+~
+~
+0 0 26545
+D2
+~
+~
+0 0 26542
+D4
+~
+~
+0 0 26544
+S
+#26544
+Cauldron~
+Through the darkness of this room you can just barely see green-glowing wisps
+bubbling up from a huge black kettle. Electric sounds of cackling suddenly
+strike, sending a shiver up your spine. Down you see the guest room.
+~
+0 8 0
+D5
+~
+~
+0 0 26543
+S
+#26545
+Hallway~
+This hallway leads to the rooms of the servnats. To the north the hallway 
+continues, to the east you see the servant's hall, to the west you see the
+wine cellar, and to the south you see the guest room.
+~
+0 8 0
+D0
+~
+~
+0 0 26548
+D1
+~
+~
+0 0 26546
+D2
+~
+~
+0 0 26543
+D3
+~
+~
+0 0 26547
+S
+#26546
+Servant's Hall~
+This hall stands in deadly silence. The low ceiling sags from heavy beams. A
+fog clings to the floor in thick patches, obscuring everything less than three
+feet above the floor. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26545
+S
+#26547
+Wine Cellar~
+Arched frames of stone form a low wet ceiling over this wine cellar. Great 
+casks of wine line the walls, their bands rusting and their contents long
+since spilled on the floor. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26545
+S
+#26548
+Hallway~
+This hallway leads to the rooms most used by the servants. The hall continues
+north and south, to the east you see the kitchen, and to the west you see
+the butler's quarters.
+~
+0 8 0
+D0
+~
+~
+0 0 26551
+D1
+~
+~
+0 0 26549
+D2
+~
+~
+0 0 26545
+D3
+~
+~
+0 0 26550
+S
+#26549
+Kitchen~
+This is where the maids, butler's and other servants cook and eat their meals.
+It is of course not as well furnished as the main kitchen. To the west you see
+the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26548
+S
+#26550
+Butler's Quarters~
+This is the room where the butler sleeps during his off time. It is sparsely
+furnished, only containing a small bed, a table, and one chair. To the east
+you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26548
+S
+#26551
+Hallway~
+This is the hallway leading to the rooms most often used by the servants. To
+the east you see the guard's quarters, to the west you see an office, and 
+down you see the dungeon hall.
+~
+0 8 0
+D1
+~
+~
+0 0 26552
+D3
+~
+~
+0 0 26553
+D5
+~
+~
+0 0 26554
+S
+#26552
+Guard's Quarters~
+This is where then guards spend their time when they are not guarding the
+royal family. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26551
+S
+#26553
+Office of Vengeance~
+This shadowy room is in perfect order. An old cot stands to one side, its
+heavy blanket made taut and straight. A great table stands with its chair,
+inkwell, and quill lying carefully in place. To the east you see the
+hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26551
+S
+#26554
+Dungeon Hall~
+This is the hallway leading to all the crypts. A shiver runs up your spine
+as you think about what you might find. To the east you see the torture room,
+to the south the hallway continues, and up leads back to another hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26555
+D2
+~
+~
+0 0 26556
+D4
+~
+~
+0 0 26551
+S
+#26555
+Torture Room~
+This is where the owners of the castle would beat those who chose to disagree
+with them. Several racks are about the room. To the west you see the dungeon
+hall.
+~
+0 8 0
+D3
+~
+~
+0 0 26554
+S
+#26556
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26554
+D1
+~
+~
+0 0 26557
+D2
+~
+~
+0 0 26559
+D3
+~
+~
+0 0 26558
+S
+#26557
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26556
+S
+#26558
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26556
+S
+#26559
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26556
+D1
+~
+~
+0 0 26560
+D2
+~
+~
+0 0 26562
+D3
+~
+~
+0 0 26561
+S
+#26560
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26559
+S
+#26561
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26559
+S
+#26562
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26559
+D1
+~
+~
+0 0 26563
+D2
+~
+~
+0 0 26565
+D3
+~
+~
+0 0 26564
+S
+#26563
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26562
+S
+#26564
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26562
+S
+#26565
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26562
+D1
+~
+~
+0 0 26566
+D2
+~
+~
+0 0 26568
+D3
+~
+~
+0 0 26567
+S
+#26566
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26565
+S
+#26567
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26565
+S
+#26568
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26565
+D1
+~
+~
+0 0 26569
+D2
+~
+~
+0 0 26571
+D3
+~
+~
+0 0 26570
+S
+#26569
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26568
+S
+#26570
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26568
+S
+#26571
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26568
+D1
+~
+~
+0 0 26572
+D2
+~
+~
+0 0 26574
+D3
+~
+~
+0 0 26573
+S
+#26572
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26571
+S
+#26573
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26571
+S
+#26574
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26571
+D1
+~
+~
+0 0 26575
+D2
+~
+~
+0 0 26577
+D3
+~
+~
+0 0 26576
+S
+#26575
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26574
+S
+#26576
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26574
+S
+#26577
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26574
+D1
+~
+~
+0 0 26578
+D2
+~
+~
+0 0 26580
+D3
+~
+~
+0 0 26579
+S
+#26578
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26577
+S
+#26579
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26577
+S
+#26580
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north and south the
+hallway continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26577
+D1
+~
+~
+0 0 26581
+D2
+~
+~
+0 0 26583
+D3
+~
+~
+0 0 26582
+S
+#26581
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26580
+S
+#26582
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26580
+S
+#26583
+Dungeon Hallway~
+This is the hallway leading to the crypts. A shiver runs up your spine as you
+realize what you might see. East and west are crypts and north the hallway 
+continues.
+~
+0 8 0
+D0
+~
+~
+0 0 26580
+D1
+~
+~
+0 0 26584
+D3
+~
+~
+0 0 26585
+S
+#26584
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the west you see the hallway.
+~
+0 8 0
+D3
+~
+~
+0 0 26583
+S
+#26585
+Crypt~
+The only thing that adorns this room is a cement bed and a prayer mat beside
+the bed. To the east you see the hallway.
+~
+0 8 0
+D1
+~
+~
+0 0 26583
+S
+#26586
+Xanax's Hideout~
+Yes, this is where Xanax goes to hide when the puny mortals start to get on
+her nerves. There is a large desk strewn with papers in one corner of the
+room. Another corner is occupied with a TV and VCR, so she will have 
+something to do when she is bored or too stressed out to mud.
+~
+0 8 0
+S
+#0
+
+#RESETS
+M 0 26500 3 26500           wolf
+M 0 26500 3 26502           wolf
+M 0 26500 3 26505           wolf
+M 0 26501 2 26508           bat
+M 0 26501 2 26511           bat
+M 0 26502 3 26520           gypsie
+M 0 26502 3 26520           gypsie
+M 0 26502 3 26520           gypsie
+M 0 26503 3 26500           villager
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26503 3 26502           villager
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26503 3 26505           villager
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26504 2 26519           zombie
+M 0 26504 2 26521           zombie
+M 0 26505 2 26512           ghost
+M 0 26505 2 26512           ghost
+M 0 26506 1 26522           ghoul
+M 0 26507 2 26523           wight
+M 0 26507 2 26523           wight
+M 0 26508 1 26518           wraith
+M 0 26509 2 26503           maiden vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26509 2 26504           maiden vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26510 1 26503           Gildra
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+G 0 26500 0                  give lantern
+G 0 26501 0                  give torch
+G 0 26502 0                  give bread
+G 0 26503 0                  give water flask
+M 0 26512 1 26504           Kira
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+G 0 26506 0                  give shotglass
+G 0 26507 0                  give wine glass
+G 0 26508 0                  give beer mug
+M 0 26513 1 26504           Bizmark
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+G 0 26509 0                  give beer
+M 0 26511 1 26503           Elpmi
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26514 1 26506           Yram
+M 0 26515 0 26507           Anir
+M 0 26516 1 26510           Donovan
+G 0 26510 0                  give bible
+G 0 26511 0                  give incense
+M 0 26517 1 26522           Ave
+G 0 26512 0                  give crystal ball
+M 0 26518 0 26518           horse
+M 0 26519 1 26501           green slime
+M 0 26520 2 26525           spider
+M 0 26520 2 26527           spider
+M 0 26521 2 26526           gargoyle
+E 0 26516 0 12               wear wings
+M 0 26521 2 26529           gargoyle
+E 0 26516 0 12               wear wings
+M 0 26522 1 26529           vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26523 1 26530           rust monster
+M 0 26524 1 26524           spectre
+M 0 26525 1 26528           Dhart
+M 0 26526 1 26532           red dragon
+E 0 26513 0 11               wear scales
+E 0 26514 0 6                wear head
+E 0 26515 0 7                wear tail
+M 0 26527 1 26533           guardian of sorrow
+M 0 26528 1 26537           Fiel
+E 0 26505 0 11               wear shield
+E 0 26518 0 16               wield pencil
+E 0 26517 0 17               hold calculator
+M 0 26529 1 26534           Agle
+M 0 26530 1 26541           Durtreg
+M 0 26531 1 26539           guardian portrait
+M 0 26532 2 26544           witch
+E 0 26521 0 16               wield broom
+G 0 26522 0                  give cauldron
+M 0 26532 2 26544           witch
+E 0 26521 0 16               wield broom
+G 0 26522 0                  give cauldron
+M 0 26533 1 26552           Syruc
+E 0 26523 0 16               wield tray
+M 0 26534 1 26548           shadow demon
+M 0 26535 1 26550           werewolf
+M 0 26536 2 26552           golem
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26536 2 26550           golem
+E 0 26504 0 16               wield sword
+E 0 26505 0 11               wear shield
+M 0 26537 1 26553           hellhound
+M 0 26538 1 26555           nightmare
+O 0 26543 0 26540           gold
+O 0 26542 0 26586           chest
+P 0 26524 0 26542             ring
+P 0 26525 0 26542             ring
+P 0 26526 0 26542             sword
+P 0 26527 0 26542             boots
+P 0 26528 0 26542             plate
+P 0 26529 0 26542             gloves
+P 0 26530 0 26542             shield
+P 0 26531 0 26542             cape
+P 0 26531 0 26542             belt
+P 0 26532 0 26542             bracelet
+P 0 26533 0 26542             bracelet
+P 0 26534 0 26542             sceptre
+P 0 26535 0 26542             arm plates
+P 0 26536 0 26542             ankh
+P 0 26537 0 26542             cross
+P 0 26538 0 26542             candle
+P 0 26539 0 26542             helm
+P 0 26540 0 26542             leggings
+M 0 26539 3 26557           zombie
+M 0 26539 3 26569           zombie
+M 0 26539 3 26581           zombie
+M 0 26540 3 26558           ghost
+M 0 26540 3 26570           ghost
+M 0 26540 3 26582           ghost
+M 0 26541 3 26560           ghoul
+M 0 26541 3 26572           ghoul
+M 0 26541 3 26584           ghoul
+M 0 26542 3 26561           wight
+M 0 26542 3 26573           wight
+M 0 26542 3 26585           wight
+M 0 26544 2 26564           maiden vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26544 2 26576           maiden vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26543 2 26563           wraith
+M 0 26543 2 26575           wraith
+M 0 26545 2 26566           vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26545 0 26578           vampire
+E 0 26519 0 16               wield teeth
+E 0 26520 0 12               wear cape
+M 0 26546 2 26567           spectre
+M 0 26546 2 26579           spectre
+S
+
+#SHOPS
+26510 1 9 17 19 0 120 80 0 23      Gildra
+26512 19 0 0 0 0 120 80 0 23       Kira
+0
+
+#SPECIALS
+M 26516 spec_cast_cleric           Donovan
+M 26517 spec_cast_mage             Ave
+M 26531 spec_cast_mage             Guardian Portrait
+M 26532 spec_cast_mage             witch
+S
+#$
+
+--
+Only the insane have the strength to prosper; 
+Only those who prosper truly judge what is sane.
+
+Proverb.
+

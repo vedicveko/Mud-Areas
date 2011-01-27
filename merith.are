@@ -1,0 +1,1855 @@
+#AREA
+DSA Format~
+merith.are~
+Merith's Parlor~
+{ 1 20} Alecca Merith's Parlor~
+34000 34099
+Descr
+No description.
+~
+Sec 9
+Levels 1 20
+Flags A
+End
+#HELPS
+Merith's Parlor is where young adventurers come to gain knowledge and
+share experiences with others.  Tis said that Merith makes some of the
+best food in the realms.
+
+Merith's Parlor was written by Alecca for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.
+-1 $~
+
+#MOBILES
+#34000
+Farle~
+Farle~
+Farle the soldier stands and watches quietly.
+~
+Farle is a dark-haired, blue-eyed man with an extremely
+grave expression drawn upon his face.  He wears a bright blue
+set of overalls, with some protective layers of leather overtop
+and a white cloak to round it out.  His crossbow looks well-used
+and cared for.  You think he knows how to use it.
+~
+human~
+AB 0 0 400 0
+35 1 1d1+599 0d0+0 2d4+14 pound
+0 0 0 0
+0 0 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34001
+small child~
+a small child~
+A small child is here eating peanuts.
+~
+It's a small, well-groomed and well-cared for brown
+gerbil.  Its sniffing around some peanuts quietly,
+and then promptly shoves the lot of them in its mouth!
+~
+human~
+ABH 0 0 0 0
+1 20 1d1+0 0d0+0 1d3+0 pound
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 15
+End
+#34002
+Karlea~
+Karlea~
+Karlea Bardbane is resting here.
+~
+Karlea sneers at you rudely, and ignores you.  He looks
+rather non-descript and plain, just an ordinary man taking
+a break. His knives do not look ordinary at all, however.
+~
+human~
+AB 0 0 -1000 0
+35 11 3d5+620 0d0+0 1d6+4 pound
+0 0 0 0
+0 0 0 0
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34003
+Gordo~
+Gordo~
+Gordo the Dwarf is polishing his axe here.
+~
+Gordo Bloodstain, dwarf at large.  He polishes his battle
+axe with a fervor, more than once licking the blade to put
+a shine on it.  He seems to be having fun...to each his own.
+~
+human~
+AB 0 0 0 0
+35 6 3d5+800 0d0+0 1d1+1 pound
+0 0 0 0
+0 0 0 0
+stand stand male 8000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34004
+Kolssed elf dark~
+Kolssed~
+A dark elf stands against the wall, watching.
+~
+You feel his eyes bore through you for a moment, and then whisk
+away.  He stands motionless, quietly...awaiting a proper moment
+perhaps?
+~
+human~
+AB D 0 0 0
+12 9 3d5+130 0d0+0 2d7+5 pound
+0 0 0 0
+0 0 0 0
+stand stand male 4000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34005
+dog~
+a dog~
+A dog sits here, protecting his master.
+~
+The dog growls at you as you approach, and his hackles
+raise menacingly.  You carefully stand back and consider
+your next move.
+~
+human~
+AB 0 0 0 0
+5 16 3d5+60 0d0+0 2d5+0 pound
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34006
+Nedira~
+Nedira the Wanderer~
+Nedira the Wanderer is taking a break from wandering here.
+~
+Nedira is a tall, skinny human, dressed in simple clothes.  He
+smiles at you and nods hello.  The dust on his clothes tells
+tales of many strange lands and stranger adventures, and for
+a moment you consider asking him to tell you a story.
+~
+human~
+A 0 0 750 0
+9 12 3d5+110 0d0+0 2d5+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 2500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34007
+Eimees kid~
+Eimees~
+A young kid stands out of the way here.
+~
+On a second look, this twelve-year old kid seems completely
+drunk!  Hey!  Who gave the kid a drink?
+~
+human~
+AB 0 0 250 0
+7 17 3d5+100 0d0+0 1d6+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34008
+Yaiseh woman~
+Yaiseh~
+A young woman sits here, a confused expression upon her face.
+~
+Yaiseh seems somewhat pretty, but very confused.  She moves
+a little awkwardly, as if her body doesn't fit her very well.
+She smiles at you uncertainly, and then ignores you.
+~
+human~
+AB 0 0 900 0
+18 12 3d5+90 0d0+0 2d4+4 pound
+0 0 0 0
+0 0 0 0
+stand stand female 8
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34009
+Odroj~
+Odroj~
+Odroj the Engineer is just hanging out here.
+~
+Odroj's eyes glint viciously as he looks across the
+room.  From the way his hands tighten on his weapon,
+you can tell that he isn't quite as at ease as he
+would like you to believe.
+~
+human~
+AB 0 0 0 0
+32 9 3d5+145 0d0+0 2d7+3 pound
+0 0 0 0
+0 0 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34010
+horse~
+a horse~
+A horse stands in its stall here, munching on some grain.
+~
+It's a fairly plain, nondescript horse.  Brown hair, brown
+eyes, quiet and pretty well-mannered.
+~
+human~
+ABH 0 0 0 0
+26 15 3d5+150 0d0+0 3d4+0 pound
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 6
+End
+#34011
+waiter~
+a waiter~
+A waiter rushes by, intent on his business.
+~
+He looks harried from the way he hastily takes orders and rushes
+in the back to get food, and to the bar for drinks.  He doesn't even
+spare you a glance as he passes by.
+~
+human~
+A 0 0 0 0
+25 16 3d5+260 0d0+0 2d4+0 pound
+0 0 0 0
+0 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#34012
+waitress~
+a waitress~
+A waitress rushes by, intent on her business.
+~
+She looks harried from the way she hastily takes orders and rushes
+in the back to get food, and to the bar for drinks.  She doesn't even
+spare you a glance as she passes by.
+~
+human~
+A 0 0 0 0
+25 16 3d5+260 0d0+0 2d4+0 pound
+0 0 0 0
+0 0 0 0
+stand stand female 500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#34013
+farmer~
+a farmer~
+A tired farmer relaxes here, for awhile.
+~
+The dust and dirt of the land cover this man head to toe.  His
+eyes look weary, his hands calloused, and those big workboots he's
+wearing just can't be comfortable.  This man is one of the citizenry
+elite; he feeds the people through his own hard work.  Maybe you
+should buy him a beer.
+~
+human~
+A 0 0 0 0
+27 14 3d5+285 0d0+0 2d4+1 pound
+0 0 0 0
+0 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 5
+End
+#34014
+Merith~
+Merith~
+Merith tends bar here, listening but not talking very much.
+~
+From the size of those arms, this man must've once been a blacksmith.
+You bet he can more than take on anyone who wants to knock over his
+Parlor for a little cash...this man is truly immense.  His movements
+sure, his eyes keen...you don't think messing with him would be a good
+idea.
+~
+human~
+AB 0 0 750 0
+46 1 1d1+1249 0d0+0 3d6+10 pound
+0 0 0 0
+0 0 0 0
+stand stand male 30000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34015
+bartender~
+a bartender~
+A bartender pours a drink while advising his patrons.
+~
+He nods, smiles, and asks you what you would like to drink.
+As you decide, he mixes a Franjie Deluxe for the guy down the
+ways a bit, his hands quickly and surely spinning the lemon over
+the sides of the glass.
+~
+human~
+AB 0 0 200 0
+35 6 3d5+880 0d0+0 2d8+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#34016
+chef~
+a chef~
+A chef struggles to get the food out quickly.
+~
+With one hand he fries, with the other he flips the meat over,
+and with the other hand he sprinkles some salt into the other hand
+which is holding...hey!  Isn't that too many hands?  This guy is good.
+~
+human~
+AB 0 0 350 0
+30 11 3d5+720 0d0+0 2d6+1 pound
+0 0 0 0
+0 0 0 0
+stand stand male 3000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 5
+End
+#34017
+adventurer~
+an adventurer~
+An adventurer babbles about some monster she killed.
+~
+Her tales are pretty much full of it, and her equipment
+sucks.  Cannon fodder.
+~
+human~
+A 0 0 0 0
+18 12 3d5+800 0d0+0 2d5+2 pound
+0 0 0 0
+0 0 0 0
+stand stand female 2000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 2
+End
+#34018
+adventurer~
+an adventurer~
+An adventurer babbles about some monster he killed.
+~
+His tales are pretty much full of it, and his equipment
+sucks.  Cannon fodder.
+~
+human~
+A 0 0 0 0
+18 12 3d5+800 0d0+0 2d5+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 2000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 2
+End
+#34019
+Marketeer Black woman black-marketeer~
+The woman~
+A young woman watches the crowd go by.
+~
+She seems rather secretive.  You wonder what she's hiding.
+~
+human~
+AB 0 0 -500 0
+28 3 3d5+520 0d0+0 3d6+2 pound
+0 0 0 0
+0 0 0 0
+stand stand female 14000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#34020
+bartender~
+a bartender~
+A bartender pours a drink while advising his patrons.
+~
+He nods, smiles, and asks you what you would like to drink.
+As you decide, he mixes a Franjie Deluxe for the guy down the
+ways a bit, his hands quickly and surely spinning the lemon over
+the sides of the glass.
+~
+human~
+AB 0 0 200 0
+25 6 3d5+380 0d0+0 2d8+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#34021
+bartender~
+a bartender~
+A bartender pours a drink while advising his patrons.
+~
+He nods, smiles, and asks you what you would like to drink.
+As you decide, he mixes a Franjie Deluxe for the guy down the
+ways a bit, his hands quickly and surely spinning the lemon over
+the sides of the glass.
+~
+human~
+AB 0 0 200 0
+25 6 3d5+380 0d0+0 2d8+2 pound
+0 0 0 0
+0 0 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#0
+
+
+
+#OBJECTS
+#34000
+crossbow~
+a crossbow~
+A huge crossbow is leaning against the wall here.~
+none~
+weapon 0 AN
+hand 5 10 sliver 0
+20 20 50001 P
+A
+19 8
+A
+18 5
+E
+Crossbow cross bow~
+This weapon almost scares you.  Why, this thing could 
+punch a hole right through you...ack!
+~
+~
+End
+#34001
+axe sturdy~
+a sturdy axe~
+A thick, well-crafted axe lies here, well-polished.~
+none~
+weapon A AN
+axe 5 10 iron 0
+21 20 20000 P
+A
+1 2
+A
+18 2
+E
+axe sturdy~
+This axe is so shiny, you'd swear someone has licked it clean!
+~
+~
+End
+#34002
+Sword bastard~
+an immense bastard sword~
+An astoundingly big bastard sword stands here.~
+none~
+weapon 0 AN
+sword 5 10 shard DE
+21 30 75000 P
+A
+17 10
+A
+1 2
+E
+Sword bastard~
+Wow!  It would take a HUGE person to wield this sword!
+~
+~
+End
+#34003
+rain barrel~
+a rain barrel~
+A rain barrel stands here.~
+none~
+drink 0 A
+300 300 'water' 0 0
+21 200 51 P
+E
+rain barrel~
+That's one big rain barrel!  The water looks cool and clear inside...
+~
+~
+End
+#34004
+slingshot sling shot~
+a slingshot~
+A slingshot of wood has been discarded here.~
+none~
+weapon 0 AN
+hand 5 10 pierce 0
+21 2 26 P
+A
+18 5
+E
+slingshot sling shot~
+A child's weapon, nothing more.
+~
+~
+End
+#34005
+dart~
+a dart~
+A dart is stuck in the ground.~
+none~
+weapon 0 AN
+dagger 5 10 pierce 0
+21 1 6 P
+~
+End
+#34006
+pike~
+a pike~
+A nasty looking pike is lying on the ground.~
+none~
+weapon 0 AN
+polearm 5 10 drowning 0
+21 20 5000 P
+E
+pike~
+It's heavy, but not a bad weapon!
+~
+~
+End
+#34007
+knife wicked~
+a wicked knife~
+A wickedly curved knife sits here.~
+none~
+weapon 0 AN
+dagger 5 10 shard 0
+21 5 3000 P
+A
+18 1
+E
+knife wicked~
+This is a murderer's knife, pure and simple.
+~
+~
+End
+#34008
+staff quarter quarterstaff~
+a quarterstaff~
+A metal-shod quarterstaff has been stuck in the ground.~
+none~
+weapon 0 AN
+staff 5 10 drowning 0
+21 12 101 P
+A
+19 1
+E
+staff quarter quarterstaff~
+An oaken war staff.  A simple weapon that can be very deadly.
+~
+~
+End
+#34009
+weapon bardiche wood spike spikes~
+bardiche~
+A strange weapon made of wood and spikes sits here.~
+none~
+weapon 0 AN
+polearm 5 10 sliver 0
+21 8 10000 P
+A
+19 2
+~
+End
+#34010
+scarf silk~
+a silk scarf~
+A silk scarf has been folded neatly here.~
+none~
+armor 0 AC
+AC AC AC A 0
+20 1 501 P
+A
+3 1
+A
+4 1
+E
+scarf silk~
+Very nice...a beautiful scarf.
+~
+~
+End
+#34011
+scarf black silk~
+a black silk scarf~
+A silk scarf has been folded neatly here.~
+none~
+armor 0 AC
+AC AC AC A 0
+20 1 501 P
+A
+2 1
+A
+5 1
+E
+scarf silk~
+Very nice...a beautiful scarf.
+~
+~
+End
+#34012
+Pot cooking~
+a big pot~
+A big cooking pot sits here.~
+none~
+container 0 A
+50 0 0 0 0
+0 15 201 P
+E
+pot~
+That's one big cast-iron pot!
+~
+~
+End
+#34013
+Pan frying~
+a frying pan~
+A frying pan has been put aside here.~
+none~
+container 0 A
+10 0 0 0 0
+0 10 101 P
+E
+Pan frying~
+There's some grease on the bottom.  Yuck!
+~
+~
+End
+#34014
+Plate crawfish steamed~
+a plate of steamed crawfish~
+A plate of delicious crawfish gives off steam.~
+none~
+food 0 AO
+ABCD 0 0 0 0
+0 3 23 P
+~
+End
+#34015
+Plate spaghetti~
+a plate of spaghetti~
+A plate of spaghetti sits here.~
+none~
+food 0 AO
+BCD 0 0 0 0
+0 3 21 P
+E
+Plate spaghetti~
+Spaghetti with meatballs...looks good!
+~
+~
+End
+#34016
+Bowl soup~
+a bowl of soup~
+A bowl of soup is cooling here.~
+none~
+food 0 AO
+BC 0 0 0 0
+0 1 13 P
+E
+Bowl soup~
+Looks like garden vegetable soup.  Smells good too.
+~
+~
+End
+#34017
+glass~
+a glass~
+A glass of beer sits forgotten here.~
+none~
+drink 0 AO
+1 1 'beer' 0 0
+0 2 9 P
+E
+Beer glass~
+A nice glass filled with 'Mr. Beer' brand beer.
+~
+~
+End
+#34018
+glass~
+a glass~
+A big glass of ale sits here, cool and frosty.~
+none~
+drink 0 AO
+1 1 'ale' 0 0
+0 2 12 P
+E
+ale glass~
+Looks good.  Looks cold.  You sure could use some cold and
+alcoholic right about now...
+~
+~
+End
+#34019
+shot~
+a shot~
+A shot of Whiskey is sitting here.~
+none~
+drink 0 AO
+1 1 'whisky' 0 0
+0 1 14 P
+~
+End
+#0
+
+
+
+#ROOMS
+#34000
+Outside the Parlor~
+You are outside a large, two-story building which proports
+to be 'Merith's Parlor' on a brightly lettered sign out 
+front.  You hear laughing and revelry from inside, sounds 
+like a lively place.  The main doors are directly south of 
+you, and small paths lead east and west around the building. 
+Eastward is another smaller building, obviously a stable.  
+Northward is the main road, providing all the traffic and 
+customers for this establishment.
+~
+0 4 2
+E
+path paths~
+Well-trodden paths around the sides of the building.  Not 
+much of interest.
+~
+E
+stable~
+A place to keep your horses while you enjoy yourself inside...
+~
+D0
+~
+~
+0 0 3302
+End
+D1
+~
+~
+0 0 34007
+End
+D2
+~
+door wooden~
+1 0 34015
+Flags AB
+End
+D3
+~
+~
+0 0 34001
+End
+S
+End
+#34001
+Near a Large Building~
+You are north-west of the Parlor.  This section of the 
+path seems less used, possibly because there's nothing really
+over here.  The trees crowd in towards the clearing, making 
+the general area seem rather eerie somehow.  The voices 
+coming from inside are clearly audible, and by listening hard
+you can almost make out the words. The path around the building 
+continues to the west and south.
+~
+0 0 2
+D1
+~
+~
+0 0 34000
+End
+D2
+~
+~
+0 0 34002
+End
+S
+End
+#34002
+Near a Large Building~
+You are standing on the path that runs around the Parlor
+to the west.  A window spills light onto the trees that block
+out all available light overhead.  You hear general merryment
+and alcoholism from inside, and wonder if being inside would 
+be more fun than walking around outside...
+~
+0 0 2
+D0
+~
+~
+0 0 34001
+End
+D2
+~
+~
+0 0 34003
+End
+S
+End
+#34003
+Near a Large Building~
+You are south-west of the main structure of the Parlor. 
+A lone rain barrel catches run-off from the roof eaves by the
+corner of the building, and you spy a small white fence 
+cordoning off an herb garden nearby.  The path around the 
+building leads to the north and east.
+~
+0 0 2
+D0
+~
+~
+0 0 34002
+End
+D1
+~
+~
+0 0 34004
+End
+S
+Reset O 34003 1 100 0 Load A rain barrel.
+End
+#34004
+Outside the Parlor~
+You are standing just south of Merith's Parlor, right 
+where the kitchen entrance is.  A well trodden path leads 
+east, towards a small shack that is unmistakeably an outhouse.
+You hear the unmistakeable sound of clanging pots and pans 
+from the inside, the warning of an upcoming meal.  The path 
+around the building here runs east and west.
+~
+0 4 2
+D0
+~
+~
+0 0 34026
+End
+D1
+~
+~
+0 0 34005
+End
+D3
+~
+~
+0 0 34003
+End
+S
+End
+#34005
+Near a Large Building~
+The Parlor is just north-west of you here, and you are 
+right by the facility's outhouse to the south.  The wooden 
+planks of the stable form an alley to the north, with the 
+path leading right in-between.  To the west is the kitchen 
+entrance to the Parlor, kept wide open to let the heat 
+inside escape.
+~
+0 0 2
+D0
+~
+~
+0 0 34006
+End
+D2
+~
+~
+0 0 34040
+End
+D3
+~
+~
+0 0 34004
+End
+S
+End
+#34006
+Near a Large Building~
+This is a small, outdoors 'alley' formed by the Parlor's
+stone walls to the west, and the wooden planked walls of the 
+stable to the east.  The path around the building leads north
+and south of here.
+~
+0 0 2
+D0
+~
+~
+0 0 34007
+End
+D2
+~
+~
+0 0 34005
+End
+S
+End
+#34007
+Near a Large Building~
+You are on a small, well-travelled path that leads between
+Merith's Parlor to the west, and the stables to the east.  
+Another path breaks off to the south, between the two 
+buildings, towards what appears to be an outhouse.
+~
+0 0 2
+D1
+~
+~
+0 0 34008
+End
+D2
+~
+~
+0 0 34006
+End
+D3
+~
+~
+0 0 34000
+End
+S
+End
+#34008
+Just Outside the Stable~
+The stable of the Parlor is just south of you, its 
+wooden doors spread open and inviting.  Inside you can hear 
+the snorting of horses, and the occasional hoof scraping 
+against the ground.  The path leads to the west, towards the 
+Parlor.
+~
+0 4 2
+D2
+~
+~
+0 0 34009
+End
+D3
+~
+~
+0 0 34007
+End
+S
+End
+#34009
+Inside the Stable~
+You are standing inside the dusty confines of the stable. 
+Stalls line the aisle, some with horses, some empty.  A pail 
+filled with water and a stack of grain are heaped up against 
+the interior wall, dimly illuminated by a lantern hanging 
+from a rafter.  Seems rather quiet in here...
+~
+0 8 2
+D0
+~
+~
+0 0 34008
+End
+D1
+~
+~
+0 0 34012
+End
+D2
+~
+~
+0 0 34010
+End
+S
+Reset M 34010 6 100 0 Load a horse.
+End
+#34010
+Inside the Stable~
+You are standing inside the dusty confines of the stable. 
+Stalls line the aisle, some with horses, some empty.  A pail 
+filled with water and a stack of grain are heaped up against 
+the interior wall, dimly illuminated by a lantern hanging 
+from a rafter.  Seems rather quiet in here...
+~
+0 8 1
+D0
+~
+~
+0 0 34009
+End
+D1
+~
+~
+0 0 34011
+End
+S
+Reset M 34010 6 100 0 Load a horse.
+End
+#34011
+Inside the Stable~
+You are standing inside the dusty confines of the stable. 
+Stalls line the aisle, some with horses, some empty.  A pail 
+filled with water and a stack of grain are heaped up against the interior wall, dimly illuminated by a lantern hanging from a rafter.  Seems rather quiet in here...
+~
+0 8 1
+D0
+~
+~
+0 0 34012
+End
+D3
+~
+~
+0 0 34010
+End
+S
+Reset M 34010 6 100 0 Load a horse.
+Reset M 34010 6 100 0 Load a horse.
+End
+#34012
+Inside the Stable~
+You are standing inside the dusty confines of the stable. 
+Stalls line the aisle, some with horses, some empty.  A pail
+filled with water and a stack of grain are heaped up against 
+the interior wall, dimly illuminated by a lantern hanging 
+from a rafter.  Seems rather quiet in here...
+~
+0 8 1
+D2
+~
+~
+0 0 34011
+End
+D3
+~
+~
+0 0 34009
+End
+S
+Reset M 34010 6 100 0 Load a horse.
+Reset M 34010 6 100 0 Load a horse.
+End
+#34013
+Main Room~
+The bar runs south here all along the western wall.   A 
+few smaller tables here are set up with various board games, 
+ready to play.  There's also a shelf along the wall, lined 
+with a few popular books; light reading all of them.  The 
+patrons here seem to be a bit quieter than the rowdy bunch 
+in the rest of the building.
+~
+0 8 0
+E
+board games~
+Chess, checkers, stomp-the-orc...that sort of thing.
+~
+D1
+~
+~
+0 0 34014
+End
+D2
+~
+~
+0 0 34020
+End
+S
+Reset M 34004 1 100 0 Load Kolssed.
+Reset M 34005 1 100 0 Load a dog.
+Reset M 34021 3 100 0 Load a bartender.
+Reset G 34017 1 100 0 A glass into inventory of a glass
+Reset G 34018 1 100 0 A glass into inventory of a glass
+Reset G 34019 1 100 0 A shot into inventory of a shot
+Reset M 34018 2 100 0 Load an adventurer.
+End
+#34014
+Main Room~
+A window here offers a view outside, where it doesn't seem
+near as social as it is inside.   Tables filled with laughing
+customers eat and drink and generally be merry, not caring 
+what the weather is like, and probably not even knowing.  
+There's a general sense of joy in the room; the joy of still 
+being alive in such a dangerous world as this one.
+~
+0 8 0
+D1
+~
+~
+0 0 34015
+End
+D2
+~
+~
+0 0 34019
+End
+D3
+~
+~
+0 0 34013
+End
+S
+Reset M 34012 3 100 0 Load a waitress.
+Reset E 34015 17 100 0 A plate of spaghetti is loaded held in the hands of a plate of spaghetti
+End
+#34015
+Main Room~
+You stand just inside the Main Room of Merith's Parlor. 
+The whole place stretches out all around you, a 
+conglomeration of people, food, and alcohol.  The sheer 
+chatter and roar of conversation makes your ears hurt a 
+little, and then you suddenly notice you're smiling.  Yes, 
+this place might do for awhile...
+~
+0 8 0
+D0
+~
+door wooden~
+1 0 34000
+Flags AB
+End
+D1
+~
+~
+0 0 34016
+End
+D2
+~
+~
+0 0 34018
+End
+D3
+~
+~
+0 0 34014
+End
+S
+Reset M 34017 2 100 0 Load an adventurer.
+End
+#34016
+Main Room~
+The giant fireplace here sends a great amount of heat 
+throughout the room.  The sheer massiveness of the stone 
+edifice and the literal bonfire inside makes you give the 
+area a clear way.  A few of the older and less human 
+residents of the inn seem to be enjoying these tables, 
+however.
+~
+0 8 0
+D2
+~
+~
+0 0 34017
+End
+D3
+~
+~
+0 0 34015
+End
+S
+Reset M 34003 1 100 0 Load Gordo.
+Reset E 34001 16 100 0 A sturdy axe is loaded wielded of a sturdy axe
+Reset M 34013 5 100 0 Load a farmer.
+End
+#34017
+Main Room~
+Several dart boards line the wall to the south, and darts 
+are scattered all about on the tables and stuck in the wall. 
+The people coming up and down the stairs to the east 
+carefully walk by the wall to avoid being pin-cushioned 
+involuntarily, and you think it would be a good idea to do 
+the same.
+~
+0 8 0
+D0
+~
+~
+0 0 34016
+End
+D1
+~
+~
+0 0 34029
+End
+D3
+~
+~
+0 0 34018
+End
+S
+Reset M 34000 1 100 0 Load Farle.
+Reset E 34000 16 100 0 A crossbow is loaded wielded of a crossbow
+Reset M 34001 1 100 0 Load a small child.
+Reset M 34013 5 100 0 Load a farmer.
+Reset O 34005 1 100 0 Load A dart.
+Reset O 34005 1 100 0 Load A dart.
+Reset O 34005 1 100 0 Load A dart.
+End
+#34018
+Main Room~
+The tables seem to thin out around here, to give room for 
+the traffic going in and out of the kitchen through the 
+archway to the south.  Waiters and waitresses march in and 
+out with empty plates and sumptuous platters, hardly stopping
+to breathe in their business.  You hear the distant clank of 
+a pot banging against something, the chefs are busy too it 
+seems.  
+~
+0 8 0
+D0
+~
+~
+0 0 34015
+End
+D1
+~
+~
+0 0 34017
+End
+D2
+~
+~
+0 0 34023
+End
+D3
+~
+~
+0 0 34019
+End
+S
+Reset M 34009 1 100 0 Load Odroj.
+Reset E 34006 16 100 0 A pike is loaded wielded of a pike
+Reset M 34011 3 100 0 Load a waiter.
+Reset E 34014 17 100 0 A plate of steamed crawfish is loaded held in the hands of a plate of steamed crawfish
+End
+#34019
+Main Room~
+This seems to be a central part of the room, where many 
+people congregate to talk or sing or dance or whatever they 
+feel like at that exact moment.  The people seem just on the 
+edge of being completely carried away at every moment.
+~
+0 8 0
+D0
+~
+~
+0 0 34014
+End
+D1
+~
+~
+0 0 34018
+End
+D2
+~
+~
+0 0 34022
+End
+D3
+~
+~
+0 0 34020
+End
+S
+Reset M 34007 1 100 0 Load Eimees.
+Reset E 34004 16 100 0 A slingshot is loaded wielded of a slingshot
+Reset M 34013 5 100 0 Load a farmer.
+Reset M 34013 5 100 0 Load a farmer.
+End
+#34020
+Main Room~
+The wooden bar runs along the length of the western wall, 
+just in front of the many shelves of different colored 
+alcohol in different shaped bottles.  You espy drunkards and 
+waitresses, adventurers and farmers althroughout the building
+from this vantage point, and guess that this establishment is
+turning a pretty penny in profits.
+~
+0 8 0
+D0
+~
+~
+0 0 34013
+End
+D1
+~
+~
+0 0 34019
+End
+D2
+~
+~
+0 0 34021
+End
+S
+Reset M 34014 1 100 0 Load Merith.
+Reset E 34002 16 100 0 An immense bastard sword is loaded wielded of an immense bastard sword
+Reset G 34017 1 100 0 A glass into inventory of a glass
+Reset G 34018 1 100 0 A glass into inventory of a glass
+Reset G 34019 1 100 0 A shot into inventory of a shot
+End
+#34021
+Main Room~
+The bar continues along the length of the western wall.  
+An empty bottle with some spare coppers in it lies on top of 
+its polished surface; tip collection evidently.  The tables 
+nearby seem mostly filled with people and food, the bar 
+appears at times to be either packed, or merely elbow-to-
+elbow.  A lantern hanging from a rafter overhead casts 
+shadows among the beerstains on the floor and gives the 
+complexion of everyone around a sort of glow.
+~
+0 8 0
+D0
+~
+~
+0 0 34020
+End
+D1
+~
+~
+0 0 34022
+End
+D2
+~
+~
+0 0 34028
+End
+S
+Reset M 34006 1 100 0 Load Nedira the Wanderer.
+Reset E 34008 16 100 0 A quarterstaff is loaded wielded of a quarterstaff
+Reset E 34010 3 100 0 A silk scarf is loaded around the neck (1) of a silk scarf
+Reset E 34011 4 100 0 A black silk scarf is loaded around the neck (2) of a black silk scarf
+Reset M 34011 3 100 0 Load a waiter.
+Reset E 34016 17 100 0 A bowl of soup is loaded held in the hands of a bowl of soup
+Reset M 34013 5 100 0 Load a farmer.
+Reset M 34020 3 100 0 Load a bartender.
+Reset G 34017 1 100 0 A glass into inventory of a glass
+Reset G 34018 1 100 0 A glass into inventory of a glass
+Reset G 34019 1 100 0 A shot into inventory of a shot
+Reset M 34018 2 100 0 Load an adventurer.
+End
+#34022
+Main Room~
+In the clutter of the main room of the Parlor, is a path
+leading out from the kitchen to the east.  A wide archway
+allows admittance to the back room, from which you hear the 
+distant clank of a pan hitting another.  There aren't very 
+many tables here, due to the amount of traffic coming in and 
+out.
+~
+0 8 0
+D0
+~
+~
+0 0 34019
+End
+D1
+~
+~
+0 0 34023
+End
+D2
+~
+~
+0 0 34027
+End
+D3
+~
+~
+0 0 34021
+End
+S
+Reset M 34012 3 100 0 Load a waitress.
+Reset E 34014 17 100 0 A plate of steamed crawfish is loaded held in the hands of a plate of steamed crawfish
+Reset M 34017 2 100 0 Load an adventurer.
+End
+#34023
+Kitchen~
+This is the main entranceway of the kitchen.  Two archways
+serve as an entry and exit point from the main room of the 
+Parlor, one north, one west.  The kitchen is a room roughly
+thirty feet by thirty feet, extending from the south and east
+from here.  You see many pots on the stove bubbling away and 
+hear the whistle of a kettle somewhere off to the left, 
+business must be good.
+~
+0 8 0
+D0
+~
+~
+0 0 34018
+End
+D1
+~
+~
+0 0 34024
+End
+D2
+~
+~
+0 0 34026
+End
+D3
+~
+~
+0 0 34022
+End
+S
+Reset M 34011 3 100 0 Load a waiter.
+Reset E 34015 17 100 0 A plate of spaghetti is loaded held in the hands of a plate of spaghetti
+End
+#34024
+Kitchen~
+You are standing in a more quiet area of the kitchen, 
+where various supplies of flour, grain and meats are kept.  
+The kitchen extends south and west from here; that's where 
+the main clutter seems to be.  A steady clanging
+from the north wall reminds you that the main room is where 
+are the fun and action seems to be.
+~
+0 8 0
+D2
+~
+~
+0 0 34025
+End
+D3
+~
+~
+0 0 34023
+End
+S
+Reset M 34016 5 100 0 Load a chef.
+End
+#34025
+Kitchen~
+The south-eastern section of the kitchen here is a 
+veritable whirlwind of activity!  The entire area is 
+comprised of cooking surfaces and ovens; enough to keep a 
+massive amount of food ready at any one time.  The aisles
+are large, allowing room for frantic chefs and waiters to 
+hurtle through the kitchen with only a small amount of 
+collisions.  Seems hectic, yet efficient.  The rest of the 
+kitchen is to the north and west from here.
+~
+0 8 0
+D0
+~
+~
+0 0 34024
+End
+D3
+~
+~
+0 0 34026
+End
+S
+Reset M 34012 3 100 0 Load a waitress.
+Reset E 34016 17 100 0 A bowl of soup is loaded held in the hands of a bowl of soup
+Reset M 34016 5 100 0 Load a chef.
+Reset M 34016 5 100 0 Load a chef.
+Reset M 34016 5 100 0 Load a chef.
+Reset O 34012 1 100 0 Load A big pot.
+Reset O 34012 1 100 0 Load A big pot.
+Reset O 34013 1 100 0 Load A frying pan.
+Reset O 34014 1 100 0 Load A plate of steamed crawfish.
+Reset O 34015 1 100 0 Load A plate of spaghetti.
+Reset O 34015 1 100 0 Load A plate of spaghetti.
+Reset O 34016 1 100 0 Load A bowl of soup.
+End
+#34026
+Kitchen~
+This is the back entranceway to the kitchen, where the 
+door is kept seasonally open to allow the hot air to escape. 
+Some trash is piled up near the door, waiting to be taken 
+out.  The main area of the kitchen extends to the north and 
+east from here, a hodge-podge of business and insanity in 
+motion.  Looking at the general cleanliness, however, you 
+think this would be a good place to eat.
+~
+0 8 0
+D0
+~
+~
+0 0 34023
+End
+D1
+~
+~
+0 0 34025
+End
+D2
+~
+~
+0 0 34004
+End
+S
+Reset M 34016 5 100 0 Load a chef.
+End
+#34027
+Main Room~
+This is a quiet, darkened corner, it appears someone 
+has put out the lantern here on purpose.  You feel a chill, 
+probably due to your distance from the fire, and rub your 
+arms absently.  There's a table set near the corner, a single
+chair behind it in the shadowy of shadows. 
+~
+0 8 0
+D0
+~
+~
+0 0 34022
+End
+D3
+~
+~
+0 0 34028
+End
+S
+Reset M 34002 1 100 0 Load Karlea.
+Reset E 34007 16 100 0 A wicked knife is loaded wielded of a wicked knife
+Reset E 34007 17 100 0 A wicked knife is loaded held in the hands of a wicked knife
+Reset M 34019 1 100 0 Load The woman.
+End
+#34028
+Main Room~
+The bar runs along the length of the west wall here, 
+dispensing drinks to all customers with impunity.  A few 
+tables are empty here in the southern part of the Parlor.
+The dull roar of conversation and the warm air from the fire 
+makes you feel at home.
+~
+0 8 0
+D0
+~
+~
+0 0 34021
+End
+D1
+~
+~
+0 0 34027
+End
+S
+Reset M 34008 1 100 0 Load Yaiseh.
+Reset E 34009 16 100 0 Bardiche is loaded wielded of bardiche
+Reset M 34015 3 100 0 Load a bartender.
+Reset G 34017 1 100 0 A glass into inventory of a glass
+Reset G 34018 1 100 0 A glass into inventory of a glass
+Reset G 34019 1 100 0 A shot into inventory of a shot
+End
+#34029
+Stairwell~
+Some sturdy wooden stairs lead up to the second floor of 
+the Parlor, where there are a few rooms for rent.  A lonely
+lantern lights the way up, glinting off the polished 
+handrail.  An arch to the east opens up into the main room...
+where the noise informs you that the revelry hasn't stopped 
+yet.
+~
+0 8 0
+D3
+~
+~
+0 0 34017
+End
+D4
+~
+~
+0 0 34030
+End
+S
+End
+#34030
+Stairwell~
+A stairwell here leads back down to the first floor and 
+the main room  of the Parlor.  A hallway leads east along 
+the second floor here, lined with doors to private bedrooms. 
+The floors, stairs, and walls are all made with sturdy oak 
+in contrast of the heavy stone of the exterior walls.  A 
+light at the top of the stairs throws illumination down the 
+hall.
+~
+0 8 0
+D3
+~
+~
+0 0 34031
+End
+D5
+~
+~
+0 0 34029
+End
+S
+End
+#34031
+Hallway~
+This is a plain hallway on the second floor.  The stairs 
+leading down are to the east, and the hall continues to the 
+west.  On either side to the north and south are doors to 
+private rooms.  You can hear a dull roar coming from below 
+in the main room, but the thick wooden floorboards do a good 
+job of blocking the majority of the noise out.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34038
+Flags AB
+End
+D1
+~
+~
+0 0 34030
+End
+D2
+~
+door south wooden~
+1 0 34039
+Flags AB
+End
+D3
+~
+~
+0 0 34032
+End
+S
+End
+#34032
+Hallway~
+This is a plain hallway on the second floor.  The stairs 
+leading down are down the hall to the east, and westwards the
+hall continues.  On either side to the north and south are 
+doors to private rooms.  You can hear a dull roar coming from
+below in the main room, but the thick wooden floorboards do a
+good job of blocking the majority of the noise out.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34036
+Flags AB
+End
+D1
+~
+~
+0 0 34031
+End
+D2
+~
+door south wooden~
+1 0 34037
+Flags AB
+End
+D3
+~
+~
+0 0 34033
+End
+S
+End
+#34033
+Hallway~
+This is a plain hallway on the second floor.  The hall 
+continues to the east, all the way down to where the stairs 
+are.  On either side to the north and south are doors to 
+private rooms.  You can hear a dull roar coming from below 
+in the main room, but the thick wooden floorboards do a good 
+job of blocking the majority of the noise out.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34034
+Flags AB
+End
+D1
+~
+~
+0 0 34032
+End
+D2
+~
+door south wooden~
+1 0 34035
+Flags AB
+End
+S
+End
+#34034
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets, a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D2
+~
+door south wooden~
+1 0 34033
+Flags AB
+End
+S
+End
+#34035
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets, a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34033
+Flags AB
+End
+S
+End
+#34036
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets, a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D2
+~
+door south wooden~
+1 0 34032
+Flags AB
+End
+S
+End
+#34037
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets,.a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34032
+Flags AB
+End
+S
+End
+#34038
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets, a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D2
+~
+door south wooden~
+1 0 34031
+Flags AB
+End
+S
+End
+#34039
+Private Room~
+This is a smallish private room, with an adequate bed with
+clean sheets, a rather beat up, but serviceable clothes chest, 
+and a table and chair.  Plain and simple, yet nice in a 
+strange sort of way.
+~
+0 8 0
+D0
+~
+door north wooden~
+1 0 34031
+Flags AB
+End
+S
+End
+#34040
+Outhouse~
+Um.  Whew! It's definitely an outhouse...doesn't smell too good at 
+all.  There's a wooden plank with a few 'convenient' holes cut in
+it for service, and several curtains hung up for privacy.  A 
+bowl with a large cake of soap next to it serve as sanitary 
+measures.  Otherwise, there's not too much here to take
+an interest in.
+~
+0 8 0
+D0
+~
+~
+0 0 34005
+End
+S
+End
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

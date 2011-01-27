@@ -1,0 +1,1657 @@
+#AREA
+gillign2.are~
+Gilligan's Island~
+{12 18} Lenny   Gilligan's Island~
+32100 32199
+
+#MOBILES
+#32101
+Gilligan~
+Gilligan~
+Gilligan stands here.
+~
+Gilligan looks exactly like you remember from the TV show. He is wearing
+a red shirt and a white hat.
+~
+human~
+ABCGHW DH 800 0
+15 0 3d9+233 1d1+99 2d6+3 scratch
+-2 -2 -2 6
+FKN B M F
+stand stand male 200
+0 0 medium 0
+#32102
+Skipper~
+The Skipper~
+The Skipper stands here holding his hat.
+~
+The Skipper is a portly fellow wearing the same costume as from the show.
+You can see the stress in his brow whenever you mention Gilligans name.
+~
+human~
+ABCG NO 200 0
+16 0 3d9+233 1d1+99 2d6+4 slice
+-5 -5 -5 8
+FIJK A KL F
+stand stand male 200
+0 0 medium 0
+#32103
+Professor~
+The Professor~
+The Professor stands here working away.
+~
+The professor is working away hard at a new way to get off the Island,
+if they could have just got a ride from the camera crew!
+~
+human~
+ABCG DH 300 0
+15 0 3d9+208 1d1+99 2d6+3 slice
+-2 -2 -2 6
+FIJ A M F
+stand stand male 350
+0 0 medium 0
+#32104
+Howell~
+Mr.Howell~
+Mr.Howell lies here waiting to tee off.
+~
+     As you get near him, you can smell money. Perhaps he shredded some just
+for cologne? Never can tell with these eccentrics.
+~
+human~
+ABCG DH -300 0
+14 0 2d10+190 1d1+99 1d12+3 beating
+-2 -2 -2 7
+FIJN AS 0 F
+rest rest male 100
+0 0 medium 0
+#32105
+Howell~
+Mrs.Howell~
+Mrs.Howell walks around aimlessly.
+~
+     Mrs.Howell wouldnt know a hard days work if she were hit by it. She is
+clad in an evening gown, even though she is trapped on this island.
+~
+human~
+ABCG C -100 0
+16 0 3d9+233 1d1+99 2d6+4 pierce
+-3 -3 -3 7
+FIJN 0 0 0
+stand stand female 400
+0 0 medium 0
+#32106
+Mary Anne~
+Mary Anne~
+Mary Anne stands here doing laundry.
+~
+     Mary Anne definately knew how to live on the farm to keep this body. If
+Ginger wasn't so easy, she would have the professor all to herself.
+~
+human~
+ABCG C 500 0
+16 0 3d9+233 1d1+99 2d6+4 pierce
+-3 -3 -3 7
+FN AK 0 E
+stand stand female 100
+0 0 medium 0
+#32107
+Ginger~
+Ginger~
+Ginger stands here in here sequenned evening gown.
+~
+     This movie star has it where it belongs. It is unfortunate for this boat
+wreck, for Ginger's porn movies were just starting to reach the top of the
+charts.
+~
+human~
+ABCG NO -100 0
+16 0 3d9+233 1d1+99 2d6+4 slash
+-4 -4 -4 7
+EFIN 0 0 0
+stand stand female 500
+0 0 medium 0
+#32108
+Camera man~
+A camera man~
+A camera man stands here checking the light.
+~
+     This camera man looks like a fat old man with a beard. Must not take much
+personal grooming to be a camera man. You wonder why he never takes the
+castaways home with him?
+~
+human~
+ABCG NO 0 0
+14 0 3d9+233 1d1+99 2d6+3 scratch
+-2 -2 -2 8
+EFK 0 0 0
+stand stand male 150
+0 0 medium 0
+#32109
+Director~
+A Director~
+A director stands here yelling 'Cut!'
+~
+    The director is an angry older man, who has a glass eye monacle and a
+bullhorn. He is mean enough to leave the castaways here, when he leaves after
+shooting each episode, says it builds character.
+~
+human~
+ABCG NO 0 0
+15 0 3d9+208 1d1+99 2d6+3 beating
+-2 -2 -2 8
+FN 0 0 0
+stand stand male 100
+0 0 medium 0
+#32110
+Lion~
+A lion~
+A lion sleeps here.
+~
+    A HUGE lion sleeps here in the jungle. Makes you start thinking about that
+song.  You sing 'In the jungle, the mighty jungle, the lion sleeps tonight.'
+Well, you get the point.
+~
+cat~
+ABF J 0 0
+14 0 2d10+190 1d1+99 1d12+3 beating
+-1 -1 -1 9
+CN A 0 A
+sleep sleep either 0
+0 0 huge 0
+#32111
+Headhunter~
+A headhunter~
+A headhunter stands here looking for heads.
+~
+     The headhunter is an island native with a tooth necklace, and a grass
+skirt. He is a larger man, so he must eat well.
+~
+human~
+AFG NO 0 0
+13 0 2d10+170 1d1+49 2d5+3 punch
+-1 -1 -1 9
+IN A 0 0
+stand stand male 50
+0 0 medium 0
+#32112
+Headhunter king~
+The Headhunter King~
+The Headhunter King awaits here for his meal.
+~
+    The king is very stocky and well built. He is a humungous man that weighs
+about 300 pounds and has jagged teeth. He wears a large head dress upon his
+head.
+~
+human~
+ABT NO 0 0
+15 0 3d9+233 1d50+49 2d6+4 sting
+-2 -2 -2 8
+AE 0 0 L
+stand stand male 200
+0 0 large 0
+#32113
+Referee~
+A Referee~
+A Referee stands here making bad calls.
+~
+    This referee has a white cane and glasses, because he obviously cant see.
+Many people think its a front so that he can be boughten off easier.
+~
+human~
+ABR HNO 0 0
+14 0 2d10+170 1d1+99 1d10+3 magic
+-1 -1 -1 8
+N M 0 F
+stand stand male 100
+0 0 medium 0
+#32114
+Russian Astronaut~
+A Russian Astronaut~
+A Russian Astronaut stands here mumbling something in russian.
+~
+    He is 6'4, and very well built. You hope he stays on your good side.
+~
+human~
+ABT NO 0 0
+15 0 3d9+208 1d1+49 2d6+4 pierce
+-2 -2 -2 0
+EFIJN 0 0 C
+stand stand male 10
+0 0 large 0
+#32115
+Totem pole~
+Totem Pole~
+A Totem Pole stands here.
+~
+    A totem pole towers above you. It is at leaset ten feet high, with
+engravings and carvings of some of the past kings of the tribe.
+~
+doll~
+AB NO 0 0
+14 0 2d10+190 1d1+49 1d12+3 bite
+-1 -1 -1 5
+FN 0 0 0
+stand stand either 0
+0 0 large 0
+#32116
+Surfer~
+a Surfer~
+A Surfer stands here.
+~
+     This blonde hair blue eyed surfer has a great tan and stands here
+holding his surf
+board.
+~
+human~
+AC D 0 0
+14 0 2d10+190 1d1+49 1d12+3 stab
+-1 -1 -1 8
+EI 0 0 0
+stand stand male 10
+0 0 medium 0
+#32117
+Robot~
+a Robot~
+A Robot stands here ready to play basketball.
+~
+This robot is a really boxey robot. You wonder how it move, nonetheless
+play basketball?
+~
+giant~
+ABC C 0 0
+14 0 3d9+208 1d1+49 1d12+3 beating
+-2 -2 -2 8
+HI 0 0 BIJ
+stand stand either 20
+0 0 large 0
+#32118
+Robinson Cruesoe~
+Robinson Cruesoe~
+Robinson Cruesoe stands here.
+~
+Robinson is very old and scraggly from the many years on this island,
+without his girl Friday, he would probably look a bit younger.
+~
+human~
+AB NO 0 0
+15 0 3d9+208 1d1+49 2d6+3 blast
+-2 -2 -2 8
+FIJ 0 0 0
+stand stand male 100
+0 0 medium 0
+#32119
+Friday~
+Friday~
+Friday stands here awaiting to help her master.
+~
+     Friday is a beautiful native girl with an excellant figure. To bad she
+is devoted to her master Robinson. Thank god its friday!
+~
+human~
+AB NO 0 0
+15 0 3d9+208 1d1+49 2d6+3 punch
+-2 -2 -2 8
+IN 0 0 0
+stand stand female 50
+0 0 medium 0
+#32120
+Land Shark~
+A Land Shark~
+A Land Shark stands here waiting for his next meal.
+~
+     The Landshark is about 10 feet long and likes to go door to door posing
+as an avon representative.
+~
+wolf~
+ACF NO 0 0
+14 0 2d10+190 1d1+99 1d12+3 beating
+-2 -2 -2 8
+DFIN 0 0 0
+stand stand either 20
+0 0 medium 0
+#32121
+Chicken Person~
+A Chicken Person~
+A Chicken Person stands here.
+~
+     This creature looks like a person, but is covered in blue, red, and
+yellow flowers.
+~
+human~
+AFG D 0 0
+13 0 2d10+230 1d1+99 1d12+3 beating
+-1 -1 -1 6
+N AL T 0
+stand stand male 50
+0 0 medium 0
+#32122
+Monkey~
+A Monkey~
+A monkey sits here playing with coconuts.
+~
+     A really mean looking monkey, holding some coconuts.
+~
+dog~
+AB HNO 0 0
+14 0 2d10+190 1d1+99 1d12+3 pierce
+-1 -1 -1 8
+HI 0 0 AB
+sit sit either 20
+0 0 small 0
+#32123
+Hurricane Andrew~
+Hurricane Andrew~
+Hurricane Andrew blows away violently here.
+~
+     Hurricane Andrew looks like a very handsome hurricane. Rapid winds
+and violent storms make him very respected by all.
+~
+bat~
+ABCFO BHNOT 0 0
+18 0 3d9+283 1d1+99 2d7+4 crush
+-3 -3 -3 6
+CDF A 0 0
+stand stand either 500
+0 0 medium 0
+#32124
+Sumo~
+A Sumo~
+A Sumo waits here for his next opponent.
+~
+    The Sumo is a HUGE man, wearing only a diaper. I am not gonna be the one
+to laugh.
+~
+human~
+ABCF CDENO 0 0
+10 0 2d7+121 1d1+49 1d10+2 crush
+1 1 1 9
+EH A 0 0
+stand stand male 30
+0 0 large 0
+#32125
+Butterfly Catcher~
+A Butterfly Catcher~
+A Butterfly Catcher stands here looking for butterfliers.
+~
+     An older frail gentleman. He has a mustache, and speaks with an
+accent.
+~
+human~
+ABCF D 0 0
+14 0 2d10+190 1d1+49 1d12+3 beating
+-1 -1 -1 8
+N A 0 0
+stand stand male 50
+0 0 medium 0
+#32126
+Meadowlark Lemon~
+Meadowlark Lemon~
+Meadowlark Lemon stands here ready to play ball.
+~
+     Meadowlark is a really tall Globetrotter. He really has a great presence
+on the courts.
+~
+human~
+AB NO 0 0
+15 0 3d9+208 1d1+99 2d6+3 beating
+-3 -3 -3 6
+KN G 0 F
+stand stand male 50
+0 0 medium 0
+#0
+
+#OBJECTS
+#32100
+First mats cap~
+a first mates cap~
+A white cap that is weathered and beaten.~
+wool~
+armor 0 AE
+6 6 6 0 1
+13 40 2250 G
+#32101
+Red Shirt~
+a red shirt~
+A red shirt rests here.~
+wool~
+armor 0 AD
+6 6 6 0 1
+13 40 1890 G
+#32102
+Skippers hat~
+a skippers hat~
+A skippers hat lies here.~
+wool~
+armor 0 AE
+5 5 5 0 0
+10 60 950 G
+#32103
+Glasses~
+a pair of glasses~
+A pair of glasses sit here.~
+glass~
+armor G AE
+6 6 6 0 1
+14 30 2160 G
+A
+3 1
+A
+2 1
+A
+17 5
+#32104
+Short shorts~
+short shorts~
+A pair of really short shorts.~
+satin~
+armor 0 AF
+6 6 6 0 0
+10 30 2240 G
+#32105
+Sequened dress~
+a sequenned dress~
+A sequenned dress sparkles here.~
+wool~
+armor 0 AD
+6 6 6 0 0
+13 20 2448 G
+#32106
+nine iron 9~
+a nine iron~
+A nine iron sits here waiting to be used.~
+iron~
+weapon I AN
+exotic 4 4 pierce D
+12 120 2156 P
+A
+18 2
+#32107
+Mai tai~
+a Mai tai cocktail~
+A mai tai waits to be drunk here.~
+glass~
+drink 0 AO
+1 1 'beer' 0 0
+0 10 10 G
+#32108
+Pearl necklace~
+a pearl necklace~
+A pearl necklace sits here.~
+gold~
+armor 0 AC
+6 6 6 0 0
+13 10 2640 G
+A
+2 1
+#32109
+White cane~
+a white cane~
+A white cane rests here.~
+softwood~
+wand 0 AO
+12 20 20 'blindness' 0
+10 20 1850 P
+#32110
+Whistle~
+A whistle~
+A whistle sits here.~
+plastic~
+armor 0 AC
+5 5 5 0 0
+12 30 1859 G
+A
+2 -1
+A
+17 -10
+#32111
+lions mane~
+A lions mane~
+A lions mane sits here.~
+soft leather~
+armor 0 AC
+5 5 5 0 0
+13 3 2100 G
+#32112
+Coconut~
+A coconut~
+A coconut lies here.~
+food~
+potion A AO
+11 'cure light' 'cure light' 'cure light' 'cure light'
+0 5 1368 P
+#32113
+Chicken Feather~
+A chicken feather~
+A feather seems to hover here.~
+feathers~
+wand 0 AO
+10 20 20 'detect magic' 0
+1 5 2100 P
+A
+14 20
+#32114
+Grass skirt~
+A grass skirt~
+A grass skirt lies here.~
+wool~
+armor 0 AF
+5 5 5 0 0
+15 30 300 G
+A
+17 -10
+#32115
+headhunter spear~
+A headhunters spear~
+A spear lies here waiting to be used.~
+hardwood~
+weapon AN AO
+exotic 4 4 pierce D
+14 30 1440 P
+A
+18 3
+#32116
+King headdress~
+The headdress of the king~
+The headdress of the king lies here.~
+gold~
+armor I AE
+5 5 5 0 1
+15 50 1950 G
+A
+17 -15
+A
+5 1
+#32117
+Raunchy teeth~
+Raunchy teeth~
+A set of raunchy teeth lie here.~
+horn~
+weapon 0 AO
+exotic 4 4 pierce C
+16 60 2250 P
+A
+18 2
+A
+19 2
+#32118
+Teeth Necklace~
+A necklace made of teeth~
+A necklace made of teeth rests here.~
+horn~
+armor G AC
+5 5 5 0 0
+14 40 1690 G
+A
+17 -5
+#32119
+bracelet palm~
+A bracelet made of palm~
+A bracelet made of palm is beautifully woven.~
+softwood~
+armor G AM
+6 6 6 0 0
+13 10 2440 G
+#32120
+Palm belt~
+A belt made from palm~
+A belt made from palm lies here.~
+softwood~
+armor 0 AL
+5 5 5 0 0
+12 40 1960 G
+#32121
+Groucho glasses~
+Groucho glasses~
+A pair of glasses with a fake nose and mustache attached rests here.~
+glass~
+armor G AE
+6 6 6 0 0
+13 10 2100 G
+A
+18 2
+A
+19 1
+#32122
+moon boots~
+Moon boots~
+A pair of moon boots rest here.~
+air~
+armor AG AG
+6 6 6 0 0
+13 5 900 G
+A
+14 15
+#32123
+Surfboard~
+A surfboard~
+A surfboard lies here.~
+plastic~
+boat 0 AO
+0 0 0 0 0
+1 1 500 P
+#32124
+Calculater~
+A calculater~
+A calculator computes here.~
+plastic~
+armor BG AO
+5 5 5 0 0
+12 5 1764 G
+A
+4 2
+#32125
+Globetrotter jersey~
+A Globetrotter jersey~
+A jersey rests here.~
+wool~
+armor G AD
+6 6 6 0 0
+12 45 2350 G
+A
+1 1
+#32126
+Voodoo mask~
+A Voodoo mask~
+A mask made from palm bark rests here.~
+softwood~
+armor CH AE
+5 5 5 0 0
+15 5 1756 G
+#32127
+Sumo pants~
+Sumo pants~
+A pair of pants that look like a huge diaper rest here.~
+wool~
+armor GI AF
+5 5 6 1 0
+10 40 1000 G
+A
+1 2
+#32128
+Butterfly Net~
+A butterfly net~
+A butterfly net lies here.~
+rubber~
+weapon 0 AO
+exotic 4 5 pierce 0
+10 10 2002 P
+A
+17 -10
+A
+18 2
+#32129
+Safari hat~
+A safari hat~
+A safari hat has been left here.~
+wool~
+armor 0 AE
+5 5 5 0 0
+10 40 1570 G
+A
+17 -10
+#32130
+bullhorn~
+A bullhorn~
+A bullhorn lies here to be used to get attention.~
+horn~
+wand 0 AO
+10 10 10 'charm person' 0
+11 5 600 P
+A
+2 -1
+#32131
+Directors scarf~
+A directors scarf~
+A long white scarf lies here.~
+wool~
+armor G AC
+6 6 6 0 0
+10 40 1000 G
+#32132
+Hurricane staff~
+The hurricane staff~
+The hurricane staff sizzles here.~
+air~
+wand AB AO
+20 10 10 'earthquake' 0
+10 5 600 P
+#32133
+camera~
+A 35 millimeter camera~
+A camera sits here waiting to be used.~
+plastic~
+armor AG AC
+5 5 6 0 0
+14 40 1400 G
+A
+5 1
+#0
+#ROOMS
+#32100
+The beach~
+You have landed upon the beach, on an island which looks semi-familiar.
+There are palm trees all over and to the north the beach continues.
+   (Glowing) (Humming) SIGN is here.
+~
+0 0 2
+D0
+~
+~
+0 -1 32101
+D2
+~
+~
+0 -1 9797
+E
+sign~
+This land was adopted by Kajko. Have fun!
+~
+S
+#32101
+The beach~
+     As you proceed up the beach, you see a marooned boat to your west. There
+is a big hole in the side, and the sign on it says 'Minnow'. You knew this
+beach looked familiar! This is Gilligans Island. Wow, you thought this was
+only a television show. You can board the Minnow, or proceed north.
+~
+0 0 2
+D0
+~
+~
+0 -1 32103
+D2
+~
+You see the landing to the South.
+~
+0 -1 32100
+D3
+~
+~
+0 -1 32102
+S
+#32102
+Aboard the Minnow~
+     This boat is exactly like it looked in television. Destroyed beyond
+repair, it has sitten here for years. Almost all of the parts have been taken
+out to be used by the professor to make useful things around the island.
+~
+0 AD 0
+D1
+~
+~
+0 0 32101
+S
+#32103
+End of the beach~
+     You have reached the end of the beach, you can see a trail leading off
+into the jungle to the east, or you can return to the south.
+~
+0 0 2
+D1
+~
+~
+0 -1 32104
+D2
+~
+~
+0 -1 32101
+S
+#32104
+The jungle~
+     You have entered into the jungle. The sounds of wild animals and lack of
+light, provide for a rather spooky effect. You can continue to the east, or
+return to the beach to the west.
+~
+0 0 3
+D1
+~
+~
+0 -1 32105
+D3
+~
+~
+0 -1 32103
+S
+#32105
+The Jungle~
+     You have reached a branch in the path. From here you can head northward
+toward a light, or southward towards the sound of drums.
+~
+0 0 3
+D0
+~
+~
+0 -1 32155
+D2
+~
+~
+0 -1 32106
+D3
+~
+~
+0 -1 32104
+S
+#32106
+Deep in the jungle~
+     You are getting deeper in the jungle and your senses are really peaked.
+All around you are sounds of the jungle. In the distance you can hear some
+drums play a monotonous beat. You can proceed to the south, or head back to
+safety in the north.
+~
+0 A 3
+D0
+~
+~
+0 -1 32105
+D2
+~
+~
+0 -1 32107
+S
+#32107
+Deeper in the jungle~
+     As you proceed down this trail, the drums are getting louder. You start
+to wonder if there are cannibal tribes on this island. There are some totem
+poles here, with masks carved into them. You see some sort of shrine to the
+south, and to the west you see a clearing, of course, you can always head back
+to the north.
+~
+0 A 3
+D0
+~
+~
+0 -1 32106
+D1
+~
+~
+0 -1 32109
+D2
+~
+~
+0 -1 32108
+S
+#32108
+The Shrine~
+     You have walked into the sacrificial room for some tribe. There are
+bones scattered everywhere. There is a large block here used for the
+ceremonies. The only exit appears to be back to the north.
+~
+0 A 3
+D0
+~
+~
+0 0 32107
+S
+#32109
+Deeper yet in the jungle~
+     As you look further down the path you see a large clearing. You also
+notice that it appears to lighten up ahead. You can return to the east, or
+continue to the west.
+~
+0 A 3
+D1
+~
+~
+0 -1 32110
+D3
+~
+~
+0 -1 32107
+S
+#32110
+A clearing in the jungle~
+     You have entered a large clearing in the jungle. You feel much safer
+as you notice you can see the sky and that the path here looks much more
+used. You can here a strange noise to the south, but can continue in any
+direction.
+~
+0 0 3
+D0
+~
+~
+0 -1 32116
+D1
+~
+~
+0 -1 32114
+D2
+~
+~
+0 -1 32111
+D3
+~
+~
+0 -1 32109
+S
+#32111
+A wide path~
+     You are on a wide path in the jungle. You can hear a whistling noise
+further down the path, and you think you hear some taunting. You can continue
+to the south, or return to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 32110
+D2
+~
+~
+0 -1 32112
+S
+#32112
+The basketball court~
+     You have walked on to a basketball court. There is a bench here for
+one team, but the other team doesnt have one. You can return to the north
+or go check out the southern end of the court.
+~
+0 0 3
+D0
+~
+~
+0 -1 32111
+D2
+~
+~
+0 -1 32113
+S
+#32113
+Southern end of the courts~
+     You are at the southern end of the basketball court. The scoreboard here
+reads Islanders 100, Robots 99. Hard to believe it was such a close game.
+The only exit appears to be to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 32112
+S
+#32114
+Deadend in the path~
+     You have reached a dead end in the path. Looks like the were saving this
+in case they needed to expand through. The only exit here is to the west.
+~
+0 0 3
+D3
+~
+~
+0 -1 32110
+S
+#32115
+Broader path~
+      The path continues to widen here as you head north. Way up in the
+distance you see a small table. You can continue to the north, or return
+to the south.
+~
+0 0 3
+D0
+~
+~
+0 -1 32116
+D2
+~
+~
+0 -1 32110
+S
+#32116
+Opening by the beach~
+     You stand on a wide path that looks well traveled. The sounds of the
+jungle are fading away, yet are still very prevalent. To your east you hear
+some cackling, and to the north you see a table.
+~
+0 0 3
+D0
+~
+~
+0 -1 32125
+D1
+~
+~
+0 -1 32117
+D2
+~
+~
+0 -1 32115
+S
+#32117
+To the Lagoon~
+     You are on a path to the lagoon. It is frequently used and rather large.
+There is a hut to the north, and the water is to the east. You can hear a
+strange cackling noise even louder now.
+~
+0 0 3
+D0
+~
+~
+0 -1 32124
+D1
+~
+~
+0 -1 32119
+D3
+~
+~
+0 -1 32116
+S
+#32118
+The Landmine~
+     This is the end of the clearing by the lagoon. You see nothing unusual
+about the end of the clearing except a rather large mine. You here a faint
+ticking sound. Hmmm....
+~
+0 0 3
+D0
+~
+~
+0 -1 32119
+S
+#32119
+The clearing~
+     You stand on the edge of the lagoon. The clearing goes on to the north
+and south, but you can also see something out in the water. The cackling
+noise is really loud now.
+~
+0 0 3
+D0
+~
+~
+0 -1 32123
+D1
+~
+~
+0 -1 32120
+D2
+~
+~
+0 -1 32118
+D3
+~
+~
+0 -1 32117
+S
+#32120
+On the lagoon~
+    You are on the lagoon. The water beneath you is extremely clear, and you
+see some humungous fish on the bottom. No wonder Gilligan always used to
+fish here. The lagoon continues to the east, or you can return to the
+clearing to the west.
+~
+0 0 7
+D1
+~
+~
+0 -1 32121
+D3
+~
+~
+0 -1 32119
+S
+#32121
+Further on the Lagoon~
+     You are way out above the water now, you can finally see the object that
+floats here good enough to recognize that it is a satellite. There is a hatch
+that is closed. You can enter the satellite, or return to the clearing.
+~
+0 0 7
+D1
+~
+hatch
+~
+1 -1 32122
+D3
+~
+~
+0 -1 32120
+S
+#32122
+The Satellite~
+     You have entered a satellite. There are controls and dials everywhere in
+here. All the writing is in russian, and you can here some russian coming
+through the radio. The only exit is to the west.
+~
+0 AD 0
+D3
+~
+~
+1 -1 32121
+S
+#32123
+Northern Clearing~
+     You stand at the northern edge of the clearing by the lagoon. You can see
+the entrance to the hut here. There is also glue everywhere. You can see an
+exploded pot of glue lying on the roof of the hut.
+~
+0 0 3
+D2
+~
+~
+0 -1 32119
+D3
+~
+~
+0 -1 32124
+S
+#32124
+A hut~
+     You stand in a small hut that was used mostly for storage of miscellaneous
+objects. There is a door to the east and to the south. There are feathers
+lying everywhere.
+~
+0 A 0
+D1
+~
+~
+0 -1 32123
+D2
+~
+~
+0 -1 32117
+S
+#32125
+Beginning of trail~
+     You stand at a large entryway here. To the north is a picnic table made
+of bamboo and some huts, to the south the trail gets narrower.
+~
+0 0 3
+D0
+~
+~
+0 -1 32126
+D2
+~
+~
+0 -1 32116
+S
+#32126
+Picnic table~
+     You stand at a picnic table made of bamboo, in the center of a small
+village. There are some huts to the east and some to the west. You can
+also head down the trail to the south.
+~
+0 0 3
+D1
+~
+~
+0 -1 32128
+D2
+~
+~
+0 -1 32125
+D3
+~
+~
+0 -1 32139
+S
+#32127
+Professors Lab~
+     You have entered a hut with many beakers and vials made from bamboo.
+There is a bunsen burner brewing something on the table. There is a small
+cot in the corner, and not to much else for decorations. The professor is
+to busy to spend time decorating.
+~
+0 A 0
+D0
+~
+~
+1 -1 32128
+S
+#32128
+Open Area~
+     You stand in the large clearing by the huts. To your south you see a
+very plain hut, and to your east you see a nicely decorated hut. The table
+is to the west and there is also a path leading to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 32130
+D1
+~
+~
+1 -1 32129
+D2
+~
+~
+1 -1 32127
+D3
+~
+~
+0 -1 32126
+S
+#32129
+Gingers Hut~
+     You stand in Mary Anne and Gingers hut. They did a great job of decorating
+this hut. There are pink curtains, and freshly picked flowers everywhere. This
+hut is located close to the professors lab so that he can slip over late at
+night. You wondered why the professor never got them off the island?
+~
+0 A 0
+D3
+~
+~
+1 -1 32128
+S
+#32130
+Another Path~
+     You are walking along a path leading through the tropical jungle. There
+are palm and bamboo trees everywhere. The sounds of the wild jungle surround
+you and you wonder if this is a good idea.
+~
+0 0 3
+D0
+~
+~
+0 -1 32131
+D2
+~
+~
+0 -1 32128
+S
+#32131
+A branch in the path~
+     The sounds of the jungle get louder as you proceed down this path. There
+is a lion sleeping here, and all you can do is think about that song 'In the
+jungle, the mighty jungle, the lion sleeps tonight.' There are exits to
+the north and west.
+~
+0 0 3
+D0
+~
+~
+0 -1 32132
+D2
+~
+~
+0 -1 32130
+D3
+~
+~
+0 -1 32135
+S
+#32132
+More Jungle~
+     You are descending towards a small alcove on the island. This trail does
+not look as widely used as the rest of the trails on the island. In fact,
+this trail looks like it is not used. Well, you can always turn back.
+~
+0 0 3
+D0
+~
+~
+0 -1 32133
+D2
+~
+~
+0 -1 32131
+S
+#32133
+The end path~
+     You stand at the end of the path. There is nothing special here at all.
+The path is blocked by an enormous tree.To your north, you think you can see a
+break in the tree, but you are not sure.
+~
+0 0 3
+D0
+~
+Tree
+~
+1 -1 32134
+D2
+~
+~
+0 -1 32132
+S
+#32134
+Cruesoe's hut~
+     You have entered a humungous tree hut. The walls are intricately carved
+depicting a voyage of a ship. There is no other exits but the one you came in.
+Robinson Cruesoe and his girl Friday are here. You can see why he stays
+secluded when you see Friday.
+~
+0 A 0
+D2
+~
+tree
+~
+1 -1 32133
+S
+#32135
+Continuing up~
+     The path starts to thin again here as you head toward the bluffs. You see
+a tremendous tree up ahead, and you can see a clearing at the top of the bluffs.
+~
+0 0 3
+D1
+~
+~
+0 -1 32131
+D3
+~
+~
+0 -1 32136
+S
+#32136
+BIG tree~
+     You have walked up to a big tree. As you look up, you can see some
+coconuts growing up there, should you climb up and get them? You can either
+climb the tree, or continue down the path.
+~
+0 0 3
+D1
+~
+~
+0 -1 32135
+D3
+~
+~
+0 -1 32137
+D4
+~
+~
+0 -1 32153
+S
+#32137
+Large clearing~
+     You stand atop the bluffs. You can see for miles in every direction.
+All around you is water, nothing else. You can see almost the entire island
+from here, including a cave to your west.
+~
+0 0 3
+D1
+~
+~
+0 -1 32136
+D3
+~
+~
+0 -1 32138
+S
+#32138
+The cave~
+      This cave is fairly large, but it can only hold probably six people.
+It is too dark to see anything really even with your light.
+~
+0 A 0
+D1
+~
+~
+0 -1 32137
+S
+#32139
+Castaway village~
+     You stand approximately at the center of Castaway Village, or at least
+that is what they call it. It is actually four huts around a picnic table.
+Well, to each there own. You can see a ships wheel on the hut to the north,
+or you can continue on east or west.
+~
+0 0 3
+D0
+~
+~
+1 -1 32140
+D1
+~
+~
+0 -1 32126
+D3
+~
+~
+0 -1 32156
+S
+#32140
+Gilligans hut~
+    This hut is about the size of a dorm room. There are no modern accesories,
+and there are two hammocks hanging in the middle. There is also a window
+looking out to the picnic table.
+~
+0 0 3
+D2
+~
+~
+1 -1 32139
+S
+#32141
+Howells hut~
+     This hut is extremely nice. It is loaded to the til hut wise. There
+are two single beds in here, and two big closets. This is where the Howells
+spend there evenings. They paid Gilligan almost nothing to make there hut so
+nice. No wonder they are rich.
+~
+0 A 0
+D2
+~
+~
+1 -1 32156
+D3
+~
+~
+1 -1 32142
+S
+#32142
+19th hole~
+    You have entered the 19th hole. This lies at the end of Mr.Howells 3 hole
+golf course. Mr.Howell comes here to drink mai tai's after he finishes his
+game. There is a lawn chair made of bamboo resting here. You can go to the
+Howells hut, or hit the course.
+~
+0 0 3
+D1
+~
+~
+1 -1 32141
+D2
+~
+~
+0 -1 32143
+D3
+~
+~
+0 -1 32152
+S
+#32143
+First tee~
+    You stand at the tee off point for the first hole of Mr.Howells golf
+course. The island is too small for a real couse, but he has a 3 hole pitch
+and putt course to pass his time.
+~
+0 0 3
+D0
+~
+~
+0 -1 32142
+D2
+~
+~
+0 -1 32155
+D3
+~
+~
+0 -1 32144
+S
+#32144
+Second tee~
+     You are on the green(so called) of the first hole. The tee for the second
+hole is right here to. The second hole looks like it is about 90 yards long.
+Good thing you only have a nine iron.
+~
+0 0 3
+D1
+~
+~
+0 -1 32143
+D3
+~
+~
+0 -1 32145
+S
+#32145
+Third tee~
+     You have reached the third tee, and you are shooting well above par. This
+course is tougher than it looks. To the north is the tee for the third and
+final hole.
+~
+0 0 3
+D0
+~
+~
+0 -1 32152
+D1
+~
+~
+0 -1 32144
+S
+#32152
+Last hole~
+     THis hole is a good 100 yards, and ends up at the 19th hole. After this
+long day, I bet you could use a drink. To your west is a STEEP decline, about
+200 feet down, to the ocean. You can go back to the second hole and take a
+mulligan, or head east to the 19th hole.
+~
+0 0 3
+D1
+~
+~
+0 -1 32142
+D2
+~
+~
+0 -1 32145
+S
+#32153
+Up the tree~
+    You are approximately half way up this large palm tree. Those better be
+good coconuts. As you look around, you can see almost the whole island from
+here.
+~
+0 0 3
+D4
+~
+~
+0 -1 32154
+D5
+~
+~
+0 -1 32136
+S
+#32154
+The top of the tree~
+     You have reached the top of the tree. From here you can see for miles!
+The whole island is pretty small, probably only 1 mile square. You can see
+the huts to your south and the top of the bluffs to the west.
+~
+0 0 3
+D5
+~
+~
+0 -1 32153
+S
+#32155
+Path~
+     You are on a seldom used path through the jungle. To the north you see
+a large golf ball? You are surrounded by palm and bamboo trees and hope that
+you dont run into any more natives.
+~
+0 0 3
+D0
+~
+~
+0 -1 32143
+D2
+~
+~
+0 -1 32105
+S
+#32156
+West side~
+     You are in the west side of the clearing for the huts. You can smell
+money, and notice the Howells hut to the north. The rest of the so called
+town lies to the east. The west and south is blocked by heavy vegetation.
+~
+0 0 3
+D0
+~
+~
+0 -1 32141
+D1
+~
+~
+0 -1 32139
+S
+
+#0
+
+#RESETS
+
+*
+M 0 32101 1 32138 1
+E 1 32100 1 6
+E 1 32101 1 5
+M 0 32102 1 32102 1
+E 1 32102 1 16
+M 0 32103 1 32127 1
+E 1 32103 1 6
+M 0 32104 1 32142 1
+E 1 32106 1 6
+E 1 32107 1 17
+*E 1 13418 1 17
+M 0 32105 1 32141 1
+E 1 32108 1 3
+*E 1 13418 1 17
+M 0 32106 1 32129 1
+E 1 32104 1 7
+M 0 32107 1 32126 1
+E 1 32105 1 5
+M 0 32108 1 32103 1
+E 1 32133 1 3
+M 0 32109 1 32103 1
+E 1 32130 1 16
+E 1 32131 1 4
+M 0 32110 1 32131 1
+E 1 32111 1 4
+M 0 32111 3 32105 1
+E 1 32114 1 7
+E 1 32115 1 16
+M 0 32112 1 32108 1
+E 1 32116 1 6
+E 1 32117 1 16
+E 1 32118 1 3
+M 0 32113 1 32112 1
+E 1 32109 1 17
+E 1 32110 1 4
+M 0 32114 2 32122 1
+E 1 32122 1 8
+M 0 32115 4 32107 2
+E 1 32126 1 6
+M 0 32116 1 32114 1
+E 1 32123 1 17
+M 0 32117 1 32113 1
+E 1 32124 1 17
+M 0 32118 1 32134 1
+E 1 32120 1 13
+M 0 32119 1 32134 1
+E 1 32119 1 14
+M 0 32120 1 32145 1
+E 1 32121 1 6
+M 0 32121 4 32123 1
+E 1 32113 1 17
+M 0 32122 1 32154 1
+E 1 32112 2 17
+M 0 32123 1 32126 1
+E 1 32132 1 17
+M 0 32124 1 32135 1
+E 1 32127 1 7
+M 0 32125 1 32156 1
+E 1 32128 1 16
+E 1 32129 1 6
+M 0 32126 1 32113 1
+E 1 32125 1 5
+*
+S
+#SHOPS
+0
+#SPECIALS
+S
+#$

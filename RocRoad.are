@@ -1,0 +1,607 @@
+#AREA
+@@bRoc Road @@Wand the @@GForest Path@@N~
+K rocroad~
+L @@W{ @@rALL@@W }@@N~
+N 16
+I 1 120
+V 3201 3299
+X 0
+F 10
+U @@WYou hear the wheels of a @@bWagon Train @@Wclatter in the distance.@@N~
+O stephen~
+R stephen~
+W stephen~
+T You can teleport into here
+M No bad room spells allowed.
+#ROOMS
+#3230
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.  The entrance to
+Midgaard lies to East.
+~
+0 3
+D1
+Midgaard.
+~
+~
+0 -1 3052
+D3
+Roc Road.
+~
+~
+0 -1 3231
+S
+#3231
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3230
+D3
+Roc Road.
+~
+~
+0 -1 3232
+S
+#3232
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3231
+D3
+The Crossroads.
+~
+~
+0 -1 3233
+S
+#3233
+CrossRoads~
+You are at a crossroads.  Roc Road runs East/West, while paths lead off to the
+North and South also.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3232
+D3
+Roc Road.
+~
+~
+0 -1 3234
+S
+#3234
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+The Crossroads.
+~
+~
+0 -1 3233
+D3
+Roc Road.
+~
+~
+0 -1 3235
+S
+#3235
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3234
+D3
+Roc Road.
+~
+~
+0 -1 3236
+S
+#3236
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3235
+D3
+Roc Road.
+~
+~
+0 -1 3237
+S
+#3237
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.
+~
+0 3
+D1
+Roc Road.
+~
+~
+0 -1 3236
+D3
+Roc Road.
+~
+~
+0 -1 3238
+S
+#3238
+Roc Road~
+You are standing on Roc Road, the main link between Midgaard and the lands to
+the west.  Tall, majestic trees line the side of the road.  The Road continues
+to the North, toward the town of Kiess, whilst a small path leads of to the
+South, into the trees.
+~
+0 3
+D0
+Roc Road.
+~
+~
+0 -1 3239
+D1
+Roc Road.
+~
+~
+0 -1 3237
+D2
+A Small Path.
+~
+~
+0 -1 3244
+S
+#3239
+Roc Road~
+You are standing on Roc Road, which runs to the North towards Kiess, or back
+to the bend in the South.
+~
+0 3
+D0
+Roc Road.
+~
+~
+0 -1 3240
+D2
+Roc Road.
+~
+~
+0 -1 3238
+S
+#3240
+Roc Road~
+You are standing on Roc Road, which runs to the North towards Kiess, or back
+to the bend in the South.
+~
+0 3
+D0
+Roc Road.
+~
+~
+0 -1 3241
+D1
+A strange looking forest.
+~
+~
+0 -1 9601
+D2
+Roc Road.
+~
+~
+0 -1 3239
+S
+#3241
+Roc Road~
+You are standing on Roc Road, which runs to the North towards Kiess, or back
+to the bend in the South.
+~
+0 3
+D0
+Roc Road.
+~
+~
+0 -1 3242
+D2
+Roc Road.
+~
+~
+0 -1 3240
+S
+#3242
+Roc Road~
+You are standing on Roc Road, which runs to the North towards Kiess, or back
+to the bend in the South.
+~
+0 3
+D0
+End of Roc Road.
+~
+~
+0 -1 3243
+D2
+Roc Road.
+~
+~
+0 -1 3241
+S
+#3243
+Roc Road~
+You are standing at one end of Roc Road, which links Kiess to Midgaard.  You
+may enter Kiess by travelling North, or head back towards Midgaard by leaving
+South.
+~
+0 3
+D2
+Roc Road.
+~
+~
+0 -1 3242
+S
+#3244
+A Small Forest Path~
+You are on a small path, which runs south through the forest.
+~
+0 3
+D0
+Roc Road.
+~
+~
+0 -1 3238
+D2
+The Path.
+~
+~
+0 -1 3245
+S
+#3245
+A Small Forest Path~
+You are on a small path, which runs south through the forest.
+~
+0 3
+D0
+The Path.
+~
+~
+0 -1 3244
+D2
+The Path.
+~
+~
+0 -1 3246
+S
+#3246
+A Small Forest Path~
+You are on a small path, which runs south through the forest.  The path
+bends off towards the West here.
+~
+0 3
+D0
+The Path.
+~
+~
+0 -1 3245
+D3
+The Path.
+~
+~
+0 -1 3247
+S
+#3247
+A Small Forest Path~
+You are on a small path, which runs West through the forest.
+~
+0 3
+D1
+The Path.
+~
+~
+0 -1 3246
+D3
+The Path.
+~
+~
+0 -1 3248
+S
+#3248
+A Small Forest Path~
+You are on a small path, which runs West through the forest.
+~
+0 3
+D1
+The Path.
+~
+~
+0 -1 3247
+D3
+The Path.
+~
+~
+0 -1 3249
+S
+#3249
+A Small Forest Path~
+You are on a small path, which runs West through the forest.
+~
+0 3
+D0
+~
+~
+0 -1 3290
+D1
+The Path.
+~
+~
+0 -1 3248
+D3
+The Path.
+~
+~
+0 -1 3250
+S
+#3250
+A Small Forest Path~
+You are on a small path, which runs West through the forest.
+~
+0 3
+D1
+The Path.
+~
+~
+0 -1 3249
+D3
+The Path.
+~
+~
+0 -1 3251
+S
+#3251
+A Small Forest Path~
+You are on a small path, which runs West through the forest.  The trees are
+thinner here, and you hear the sounds of water to the West.
+~
+0 3
+D1
+The Path.
+~
+~
+0 -1 3250
+D3
+The Path.
+~
+~
+0 -1 3252
+S
+#3252
+Edge of Forest~
+You have arrived at the edge of the forest.  To the west you can see a small
+sea inlet.  It appears that you are standing on a small cliff, which you
+could climb down to get to the tiny beach.
+~
+0 3
+D1
+The Path, back inside the forest.
+~
+~
+0 -1 3251
+D5
+A Tiny Beach below.
+~
+~
+0 -1 3253
+S
+#3253
+A Tiny Beach~
+You are on a really small strip of sand, below the cliff above, lined by the
+massive trees of the forest.  The Inlet that feeds this beach continues
+off to the West.
+~
+0 10
+D1
+A small iron door set into the cliff.
+~
+iron~
+1 -1 3260
+D3
+In the Water.
+~
+~
+0 -1 3254
+D4
+Atop the Cliff.
+~
+~
+0 -1 3252
+S
+#3254
+In the Water~
+You are in a small inlet, which continues towards the Sea to the West, and
+back to the tiny beach to the East.  The further West you go, the deeper you
+notice the water becomes.
+~
+0 7
+D1
+The Beach.
+~
+~
+0 -1 3253
+D3
+Further Along the Inlet.
+~
+~
+0 -1 3255
+S
+#3255
+Further Along the Inlet~
+You are in a small inlet, which continues towards the Sea to the West, and
+back to the tiny beach to the East.  The further West you go, the deeper you
+notice the water becomes.
+~
+0 7
+D1
+In The Water.
+~
+~
+0 -1 3254
+D3
+In Deep Water.
+~
+~
+0 -1 3256
+S
+#3256
+In Deep Water~
+You are in a small inlet, which continues towards the Sea to the West, and
+back to the tiny beach to the East.  The further West you go, the deeper you
+notice the water becomes.  The depth here appears to be *pretty* deep!
+~
+0 7
+D1
+Further Along the Inlet.
+~
+~
+0 -1 3255
+D3
+Lost at Sea.
+~
+~
+0 -1 3257
+S
+#3257
+Lost at Sea~
+You are now on the rough, uneven waters of one of the Western Seas.  To the
+East you can see a small inlet heading inland, whilst the Sea continues to
+the West.
+~
+0 7
+D1
+In Deep Water.
+~
+~
+0 -1 3256
+D3
+Lost at Sea.
+~
+~
+0 -1 3258
+S
+#3258
+Lost at Sea~
+You are now on the rough, uneven waters of one of the Western Seas.  To the
+East you can see a small inlet heading inland, whilst the Sea continues to
+the West.
+~
+0 7
+D1
+Lost at Sea.
+~
+~
+0 -1 3257
+D3
+Lost at Sea.
+~
+~
+0 -1 3259
+S
+#3259
+Lost at Sea~
+You are now further out to sea.  The water is dark here, possibly full of
+creatures that would be unhappy to meet you, so to speak.
+~
+0 7
+D0
+Lost at Sea.
+~
+~
+0 -1 5083
+D1
+Lost at Sea.
+~
+~
+0 -1 3258
+S
+#3260
+A Small Cave~
+You are in a small cave, set into the face of the large cliff outside.
+~
+13 0
+D3
+A small iron door.
+~
+iron~
+1 -1 3253
+D5
+A small sinkhole.
+~
+~
+0 -1 3261
+S
+#3261
+A Small Sinkhole~
+You are in a cramped sinkhole, cut out of the very rock itself.
+~
+13 0
+D4
+A small cave.
+~
+~
+0 -1 3260
+S
+#3290
+A Small Stone Path~
+You are on an old, small stone path, which heads off through the trees.
+~
+0 3
+D0
+~
+~
+0 -1 3291
+D2
+~
+~
+0 -1 3249
+S
+#3291
+End of Path~
+You at at the Northern end of the path.  A tall building can be seen to the
+North.  It looks very old....
+~
+0 3
+D0
+~
+~
+0 -1 4449
+D2
+~
+~
+0 -1 3290
+S
+#0
+#RESETS
+D 0 3253 1 1 
+D 0 3260 3 1 
+S
+#$

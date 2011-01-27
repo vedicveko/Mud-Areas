@@ -1,0 +1,1431 @@
+#AREADATA
+Name The Temple of Sun~
+Builders Debra~
+VNUMs 451 499
+Credits {80 + } Debra     Temple of the Sun~
+Security 9
+End
+
+
+
+#MOBILES
+#451
+travelling vagabond man~
+12~
+A travelling vagabond~
+A vagabond is hanging around here, trying not to look out of place.
+~
+You see a well-travelled man carefully examining the sky and the ground. You
+wonder if he has something to hide as he turns to look at you and winces almost
+unnoticeably. He is wearing a grey tunic and a pair of sandals and holds a
+traveller's staff in his left hand. His eyes dart towards the temple quickly
+as the wyrm on the roof moves its powerful body producing a scraping sound.
+You feel that one wrong move could set him scaling over the walls and running
+head over heels into the vast wilderness.
+~
+Human~
+AGHT DFV 600 0
+75 30 10d50+9000 1d1+99 10d5+100 crush
+-40 -40 -40 -40
+FJNU BH F E
+stand stand male 5000
+AHMV ABCDEFGHIJK medium unknown
+#452
+draconian trooper scout~
+8~
+A Draconian trooper~
+A Draconian Trooper wanders here, scouting the premises.
+~
+A living specimen of the legendary fearsome draconians, the trooper is well
+built, almost gigantic humanoid lizard towering above you and all the 'normal'
+people around the yard. It is here on an assignment to protect the delegate
+from the draconians who has a meeting with the Daughter. It is walking around
+the yard, determining the vital strategic information of the place and checking
+out the people who walk here, trying to uncover assassins and other 
+individuals who might provide a threat to its lord.
+~
+lizard~
+ACGT NV 600 0
+85 30 10d50+14000 1d1+100 10d5+130 claw
+-50 -50 -50 -50
+CDEFHLRT ABH L I
+stand stand none 7000
+AGXc ACDEFHKQV medium unknown
+M DEATH 452 100~
+#453
+draconian trooper~
+2~
+A Draconian trooper~
+A Draconian Trooper is here guarding the life of its lord.
+~
+The reptilian trooper is here to protect his lord from harm. Its skin is
+covered with steely green scales eliminating the need for any kind of 
+additional armor whatsoever. It is unarmed but judging from the look of his 
+clawed hands and muscular arms he doesn't need any arms other than his natural
+ones. He towers above you, his head reaching up to 8'. Its teeth look sharp
+enough to shatter bones and its yellow eyes look at everything and nothing at
+the same time. You feel a little uneasy when he turns toward you to determine
+your potential threat to his liege.
+~
+lizard~
+ABCGT DFN 600 0
+85 40 10d50+13000 1d1+99 5d10+130 claw
+-60 -60 -60 -60
+FKLPRT ABH L I
+stand stand male 8000
+AGXc ACDEFHKQV medium unknown
+M DEATH 453 100~
+#454
+draconian lord~
+50~
+The Draconian Lord~
+The Draconian Lord stands here, waiting to speak to the Daughter.
+~
+The mighty elder draconian is a delegate from the draconian high council, his
+mission to discuss urgent matters with the Daughter of the Sun. His stature
+is overpowering, his great dragon wings adding to the mighty aura of this
+beautiful being. He, unlike the other draconians, wears clothing, even if it
+is only a simple red jacket and a short red kilt-like skirt. The scales that
+cover his skin are deep-green and perfectly polished. His tail is coiled around
+his right leg as is the custom when appearing among other species. He looks at
+you briefly before turning his eyes away from you without expression.
+~
+lizard~
+ABCT DFJTV 900 0
+105 50 10d10+25000 10d10+2000 10d5+200 claw
+-80 -80 -80 -80
+CEFHKLRT ABH L I
+stand stand male 20000
+AGHXZc ACDEFGHIJKPQUVX large unknown
+M DEATH 454 90~
+#455
+paladin apprentice errant man~
+10~
+Paladin errant~
+A paladin's apprentice is patrolling here.
+~
+Before you stands a man clad in a yellowish studded leather armor. He carries
+no arms as it is part of his training to handle troublesome situations in a
+non-violent fashion. He is of average height but rather muscular nevertheless.
+He smiles pleasantly and greets you by raising his hand. After seeing your 
+curious expression he approaches you and asks if he could provide assistance 
+in your search for the final truth.
+~
+Human~
+ACGT DFV 900 0
+85 40 10d10+12000 1d1+99 10d5+90 slash
+-70 -70 -70 -70
+EFKLNRT ABH K b
+stand stand male 5000
+AHMV ABCDEFGHIJK medium unknown
+M KILL 455 50~
+M DEATH 456 50~
+#456
+pious clergyman man~
+4~
+Clergyman~
+A pious clergyman is here helping people with their quest to find the final truth.
+~
+What would a temple be without priests? The man standing here is one of those 
+who have been accepted by the Daughter to perform the daily priestly rituals 
+and to provide clerical assistance to those who seek it here. He smiles at you
+and makes a silent inquisitive gesture to let you know he's available should
+you be in need of clerical services or just a person to talk to. He wears a
+pair of sandals and the pale yellow tunic as a symbol of his priesthood in the
+Temple of the Sun. 
+~
+Human~
+AGQ DFHN 1000 0
+103 20 10d5+22000 10d10+5000 10d5+120 punch
+-40 -40 -40 -40
+FTU BH 0 b
+stand stand male 12000
+AHMV ABCDEFGHIJK medium unknown
+#457
+defender sun~
+2~
+Defender of the Sun~
+The Defender of the Sun stands here, keeping the temple peaceful.
+~
+Before you stands a tall man clad in a pleasant yellow armor. Engraved in the
+chestpiece there is a symbol of the Temple, a flaring sun. He is completely
+bald and wears no helmet. He is wielding a standard issue guard weapon, a 
+golden-bladed halberd. Despite the elaborate looks of his arms and armor you 
+are certain they can be used properly to protect the temple from intruders if 
+the need arises. Now he's smiling warmly at you though as it is part of his
+job to make all visitors and pilgrims alike feel safe and comfortable inside
+the Temple's premises.
+~
+Human~
+ABCGT DFJNV 1000 0
+105 50 10d10+32000 1d1+599 5d10+200 cleave
+-80 -80 -80 -80
+DEFHJKT BH 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium unknown
+#458
+paladin sun~
+1~
+Paladin of the Sun~
+The Paladin of the Sun stands here in honorary guard.
+~
+The Defender grand-master, the Paladin of the Sun, is here guarding Solaris
+and preventing those without a proper audience from disturbing the mighty
+wyrm on the roof.  His armor is orange and the engraved symbol of the sun is
+bright red and glowing with warm light.  His chrome-tipped spear shines with
+the golden rays of the sun, bathing the room in its warming yellow glow.  His
+whole presence projects a holy aura, making you feel safe and sure he will
+protect you from whatever harm someone might want to cause you.
+~
+Human~
+ABGT DFNV 1000 0
+115 80 10d50+32000 1d1+999 5d10+250 slash
+-100 -100 -100 -100
+DEFHK H 0 0
+stand stand male 23000
+AHMV ABCDEFGHIJK medium unknown
+M DEATH 458 100~
+#459
+daughter sun woman~
+1~
+Daughter of the Sun~
+The Daughter of the Sun sits here, meditating.
+~
+The high leader of the Temple, the Daughter of the Sun is a surprisingly small
+woman, standing only at about 5' tall. Her golden hair lays on her shoulders
+and her golden robe is stainless. She is sitting cross-legged on top of the
+pillar facing the wyrm on the roof, talking with it in an arcane tongue. She
+projects an aura of serenity and calmness all over the temple from her central
+position. She glows with an inner light of holiness, drawing power directly
+from the Sun. She doesn't notice you or is ignoring you totally.
+~
+Human~
+ABCGRT DFHN 1000 0
+120 30 10d50+20000 1d1+1999 5d10+160 crush
+-50 -50 -50 -50
+ACFHK BH E I
+stand stand female 24000
+AHMV ABCDEFGHIJK medium unknown
+M DEATH 459 100~
+#460
+solaris sun protector dragon~
+1~
+Solaris, Protector of the Sun~
+Solaris, Protector of the Sun nestles here comfortably.
+~
+The mighty golden wyrm nestles on the roof, surrounding the trapdoor where you
+just climbed up. Its tail sways in the air lazily and its huge claws scratch
+the roof making a tearing sound and leaving deep gashes in the pure white 
+marble. Its head is facing north towards the pillar which reaches up just high
+enough for a person on top of it to talk to the dragon face to face. Its
+flawless golden scales reflect and enhance sunlight making it look like the
+dragon in essence was the sun itself. Suddenly it turns its head towards you
+and glares right into your soul with its yellow glowing eyes making you wish
+you never opened that trapdoor in the first place. Maybe you should have asked
+for an audience first..
+~
+dragon~
+ABCGT HJTV 1000 0
+130 80 10d50+30000 1d1+9999 5d10+400 claw
+-100 -100 -100 -100
+ACDFHIK BH E I
+stand stand none 26000
+AHZ ACDEFGHIJKPQUVX huge unknown
+F res BH
+F vul F
+M FIGHT 463 30~
+M ACT 462 azaraiqpz~
+M ACT 462 Avalanche~
+M DEATH 460 100~
+#461
+little elf thief alisha~
+1~
+Alisha~
+Alisha, the little elf sneaks around here, grinning mischievously.
+~
+You see a tiny little elf only about 4 feet tall. She is wearing a brown dress
+with a black leather belt. Her hair is neatly cut and hangs on her shoulders 
+partly covering her face. She would have a pretty face if not for the most
+demonic grin ever seen on the face of a mortal being. Her green eyes seem to
+register everything with a mere glance. She moves among the people with grace
+and stealth, taking great care to avoid anyone getting suspicious as she
+practices her profession.
+~
+Elf~
+ACGHS JNOPQV -400 0
+99 20 10d10+15000 1d1+99 10d15+100 pierce
+-5 -5 -5 -5
+EFGHJN BCHIKPb D 0
+stand stand female 18000
+AHMV ABCDEFGHIJK small unknown
+F res B
+F vul Z
+M DEATH 461 50~
+#0
+
+
+
+#OBJECTS
+#451
+chromed shirt~
+{CC{ch{Cr{co{Cm{ce{Cd{x Shirt~
+A shining chromed shirt is here.~
+chromium~
+armor AHIKLMPUZ AD
+DF DF DF DF 0
+80 300 10000 P
+A
+23 -2
+A
+12 50
+A
+13 50
+A
+2 5
+A
+18 7
+A
+19 7
+#452
+chromed necklet~
+{CC{ch{Cr{co{Cm{ce{Cd{x Necklet~
+A necklet plated with shining chrome has been left here.~
+chromium~
+armor AIKLPUZ AC
+CE CE CE CE 0
+80 50 10000 P
+A
+12 100
+A
+13 25
+A
+3 4
+A
+4 4
+A
+18 7
+A
+19 7
+#453
+matched pair chromed anklets~
+{xA matched pair of {CC{ch{Cr{co{Cm{ce{Cd{x Anklets~
+{xA matched pair of {CC{ch{Cr{co{Cm{ce{Cd{x anklets is here.~
+chromium~
+armor BHIKLMPUZ AG
+BCDE BCDE BCDE BCDE 0
+90 20 55000 P
+A
+13 200
+A
+2 4
+A
+1 4
+A
+18 8
+A
+19 8
+#454
+long black fingernails nails~
+{xLong, {DBlack{x-painted Fingernails~
+A set of long, black fingernails has been left here. ~
+chromium~
+armor AHIKLMPUZ AB
+CE CE CE CE 0
+90 10 20000 P
+A
+12 60
+A
+13 60
+A
+19 5
+A
+18 5
+A
+3 5
+A
+4 5
+A
+20 -2
+#455
+chromed wristlet~
+{CC{ch{Cr{co{Cm{ce{Cd{x Wristlet~
+A shining chromed wristlet is here.~
+chromium~
+armor AHIKLMPUZ AM
+CE CE CE CE 0
+90 10 20000 P
+A
+12 70
+A
+13 70
+A
+19 5
+A
+2 5
+A
+20 -2
+A
+19 8
+A
+18 8
+#456
+chromed handbrace brace~
+{CC{ch{Cr{co{Cm{ce{Cd{x Handbrace~
+A shining chrome-plated handbrace has been left here.~
+chromium~
+armor AHIKLMPUZ AH
+DF DF DF DF 0
+99 200 20000 P
+A
+20 -2
+A
+13 250
+A
+12 250
+A
+14 250
+A
+18 9
+A
+19 9
+#457
+flaming chromed spear~
+{RFlaming {CC{ch{Cr{co{Cm{ce{x-tipped Spear~
+A {RFlaming{x spear is lying here.~
+chromium~
+weapon AHIKLMPUZ AN
+staff 11 12 pierce ADE
+80 100 20000 P
+A
+18 4
+A
+19 4
+A
+1 4
+#458
+white key~
+{xA {WWhite{x key~
+A white key is lying here.~
+steel~
+key A A
+0 0 0 0 0
+1 10 0 P
+#459
+chromed string whip~
+{CC{ch{Cr{co{Cm{ce{Cd{x string whip~
+A chromium-stringed whip is here.~
+chromium~
+weapon AHIKLMPUZ AN
+whip 10 10 whip EGJ
+60 40 10000 P
+A
+18 5
+A
+2 4
+A
+1 4
+#460
+chromed orb~
+{xA {CC{ch{Cr{co{Cm{ce{Cd{x Orb~
+A small, glowing orb is here.~
+chromium~
+gem AIKPUY AQ
+0 0 0 0 0
+5 30 15000 P
+A
+4 1
+A
+3 1
+A
+5 1
+#499
+phase matrix~
+a Phase Matrix~
+A shimmering and quivering cube of rainbow lights is here.~
+cloth~
+container PY A
+1000 0 0 1000 50
+1 2 10 P
+#0
+
+
+
+#ROOMS
+#451
+{WApproaching the Temple Grounds{w~
+You are standing in front of a gateway through massive fortifications. 
+The guards on both sides of the gate smile at you benevolently and welcome
+you to the Temple of the Sun.  Looking through the passage you see the
+sacred yard bathing in sunlight which seems more intense over there.  On the
+other side of the yard you can see the temple itself but you can't work out
+exact details because of the numerous passers-by as well as the vapour
+rising from the earth under the scorching sun.  
+~
+0 4 2
+D0
+~
+~
+0 -1 452
+D2
+~
+~
+0 -1 28159
+S
+#452
+{WIn the Tunnel Through the Fortification{w~
+You are walking through the massive walls that separate the temple
+grounds from the surrounding wilderness.  Judging from the length of the
+tunnel there must be rooms built into the walls, nobody would build walls 30
+feet thick, would they?  Maybe the builders had a special reason to do so,
+you'll never know for those who were witnessing the construction of this
+magnificent temple have long since died, their bodies crumbled to dust.  You
+see several pilgrims and wanderers who have set up camp on the sacred yard,
+amongst them a group of draconians that catches the eye because of their
+great stature.  
+~
+0 0 2
+D0
+~
+~
+0 -1 455
+D2
+~
+~
+0 -1 451
+S
+#453
+{WThe Sacred Yard, Southwest Segment{w~
+You are standing in the southwestern part of the sacred yard.  You see a
+couple of weary travellers cooking dinner for themselves over a small
+campfire.  The sun above burns so hot you wonder if you need a campfire to
+cook in the first place.  A couple of warriors are standing on guard up in
+the tower, seemingly unaffected by the searing heat.  There are a few
+travelling salesmen who have opened their wagons and are standing in the
+shade selling their goods.  
+~
+0 0 2
+D1
+~
+~
+0 -1 454
+S
+#454
+{WThe Sacred Yard, Southwest Segment{w~
+This part of the yard along the southern wall is partly shaded by the
+high southern fortification.  You take a moment to relax in the cool shadow
+for the sun's glare on the yard here is unbearable.  A family of desert
+lizards is living under a small bush that grows against the wall, you see
+them quickly retreat in their hideout as you approach.  The bush is just a
+normal everyday poison spike bush so you decide against closer inspection.  
+~
+0 0 2
+D0
+~
+~
+0 -1 457
+D1
+~
+~
+0 -1 455
+D3
+~
+~
+0 -1 453
+S
+#455
+{WThe Sacred Yard at the Entrance{w~
+You have entered the sacred yard of the Temple of the Sun.  The temple
+flag is flying high above the fortification, announcing the presence of this
+asylum to all travellers within several miles.  Several travellers are
+taking advantage of the sacred yard to make their camp for the night or even
+longer if they so choose for the temple's rules allow anyone to make camp at
+the sacred yard for as long as they choose, provided they don't cause
+trouble.  The sun glares down at you fiercely and you see no sign of clouds
+in the sky.  It's going to be a hot day.  
+~
+0 0 0
+D1
+~
+~
+0 -1 456
+D2
+~
+~
+0 -1 452
+D3
+~
+~
+0 -1 454
+S
+#456
+{WThe Sacred Yard, Southeast Segment{w~
+This part of the yard is inhabited by a largish group of pilgrims.  Some
+of them are sitting out in the burning sunlight meditating with their eyes
+closed.  You wonder how they are able to stand the solar fury that is
+beaming down in a merciless fashion, day after day for the sun always shines
+in the Temple.  It might very well be that they employ magical means of
+protection..  Or then the Sun doesn't harm its faithful followers, you never
+know about these cults.  In any case you are beginning to feel slightly
+uncomfortable in the heat, better move on.  
+~
+0 0 0
+D0
+~
+~
+0 -1 458
+D3
+~
+~
+0 -1 455
+S
+#457
+{WAmong the Stands{w~
+You are walking among several travelling salesmen who have set up their
+goods out for trade.  You see countless baskets and bottles as well as quite
+a few caskets and kettles spread out as visible as humanely possible. 
+Various liquid- filled bottles produce brilliant little rainbows as the
+sunlight shines through them, adding a touch of oriental mysticism to the
+area.  You find a shady spot and rest yourself there for a while, glad to be
+safe from the burning sun even for a short while.  
+~
+0 0 2
+D2
+~
+~
+0 -1 454
+S
+#458
+{WThe Sacred Yard, Draconian Encampment{w~
+You have entered a camp made up of six humongous tents put up in an
+orderly fashion.  You see two large draconians standing outside pitching up
+a humongous tent.  They are obviously bodyguards of the huge draconian noble
+standing outside watching them work.  Seeing you approach they consider you
+without the slightest hint of emotion.  After one minute of complete silence
+they turn away again and resume their work.  Only the noble still looks at
+you, without expression.  Seems like he's waiting for you to announce your
+reasons for approaching.  
+~
+0 0 0
+D0
+~
+~
+0 -1 462
+D1
+~
+~
+0 -1 459
+D2
+~
+~
+0 -1 456
+S
+#459
+{WThe Sacred Yard, Southeast Segment{w~
+You are walking next to the eastern walls of the sacred yard.  Due west
+you can see a couple of draconians setting up camp.  Some thorny bushes grow
+here and there, adding to the forsaken look of the yard.  The heat is
+constantly becoming more and more unbearable and looking at the sky you can
+guess the sun is not finished yet.  No clouds.  You wonder if it's ever
+going to set and let the wind cool off the yard.  You lean against the wall
+for a moment to take a breather.  The heat is rapidly draining your
+strength.  
+~
+0 0 0
+D0
+~
+~
+0 -1 463
+D3
+~
+~
+0 -1 458
+S
+#460
+{WBehind the Stands{w~
+You have crawled into a small space behind a couple of carts and wagons. 
+The sun doesn't shine here but the air is still quite hot.  Not as
+uncomfortable as out there under the glare though.  Might as well stay a
+while and rest, what's the rush anyway.  The stone wall feels cool to the
+touch and you make the most of it.  Several broken bottles and other
+unidentifiable garbage are spread all over the sandy ground, making it
+hazardous to walk about without some kind of shoes or boots.  Who knows what
+poisons were in those bottles.  
+~
+0 0 0
+D0
+~
+~
+0 -1 464
+S
+#461
+{WThe Sacred Yard, Northeast Segment{w~
+You are walking in the yard quite close to the temple.  You admire the
+beauty of the pleasant yellow golden walls of the magnificent temple.  You
+notice a huge statue of a dragon on the roof.  But..  Wait just a moment
+now, it moved!  It's a live dragon, right there on the roof!  You can only
+see the tail slowly waving in the air though.  You ask a pilgrim about the
+dragon and she says: 'That is {YSolaris{x, the Protector of the Sun.  He's been
+sent by the Sun to watch over the mortals.  Glory to the Sun.  ' and walks
+away mumbling prayers.  
+~
+0 0 0
+D0
+~
+~
+0 -1 466
+D1
+~
+~
+0 -1 462
+S
+#462
+{WThe Sacred Yard, Northeast Segment{w~
+This segment of the yard is inhabited by a number of travellers who have
+set up comfortably for the night.  Right now they are spending the day doing
+whatever suits them, making dinner, eating, drinking, repairing their tents
+and clothes.  They don't seem to be bothered by the heat at all.  Almost as
+if the sun didn't shine on them in the first place..  
+~
+0 0 0
+D0
+~
+~
+0 -1 467
+D1
+~
+~
+0 -1 463
+D2
+~
+~
+0 -1 458
+D3
+~
+~
+0 -1 461
+S
+#463
+{WThe Sacred Yard, Southeast Segment{w~
+This corner is inhabited by a bunch of mercenaries from the north,
+travelling and searching for work.  They turn their eyes on you, pondering
+if you might provide work for a second before dismissing the possibility and
+returning to their work, fixing their equipment, setting up bedrolls and
+making food.  They seem to work pretty well as a team despite the lack of an
+apparent leader.  They must have been through a lot together.  
+~
+0 0 0
+D2
+~
+~
+0 -1 459
+D3
+~
+~
+0 -1 462
+S
+#464
+{WThe Sacred Yard, Northwest Segment{w~
+This is the northernmost part of the yard. The golden coloured stone wall is
+burning hot as is the sand. You see a couple of vultures circling high in the
+sky, just waiting for an unfortunate soul to provide them lunch. You doubt
+they'll land on the yard to have their meal though because some of the people
+you see here seem to be starving themselves. They'd probably be more than happy
+to have cooked vulture for lunch undoubtedly. A group of pilgrims is walking by
+quietly mumbling prayers to themselves.
+~
+0 0 0
+D1
+~
+~
+0 -1 465
+D2
+~
+~
+0 -1 460
+S
+#465
+{WThe Sacred Yard, Northwest Segment{w~
+You stand in the northern part of the yard, barely able to stand up
+anymore.  The heat has taken its toll.  You are absolutely exhausted.  You
+think the Sun must have sensed you are about to collapse and puts on a
+little more heat.  You lean against the temple's wall and immediately pull
+away as the searing hot stone burns your skin through your clothes.  You see
+the entrance to the temple due east, maybe you can find a cool shade there. 
+~
+0 0 0
+D1
+~
+~
+0 -1 466
+D3
+~
+~
+0 -1 464
+S
+#466
+{WAt the Door to the Temple{w~
+You made it across the desertlike yard to the temple!  Just a few more
+steps and you'll be safely inside and away from the deadly glare of the sun.
+The guards at the door salute you as you take a quick look at the yard from
+the door and try to decide where you want to go next.  You can see a bunch
+of people east of here, there must be something interesting going on.  Think
+carefully now, do you want to go see what it is and stand the sun for some
+more time or just walk inside and out of the heat?  
+~
+0 0 0
+D0
+~
+~
+0 -1 468
+D1
+~
+~
+0 -1 467
+D2
+~
+~
+0 -1 461
+D3
+~
+~
+0 -1 465
+S
+#467
+{WThe Sacred Yard, Northeast Segment{w~
+The northeastern part of the yard is where the well is located. Lots of people
+are standing here in line waiting with their buckets and cups for their turn to
+refill their water supplies. You notice someone's cat has escaped and is 
+dashing between the legs of people, desperately trying to avoid being trampled
+by the thirsty masses of wanderers. You move forward to save the poor creature
+but stop quickly as you notice a strong reptilian arm belonging to a large
+draconian trooper picking it up and striding away towards their encampment in
+the central part of the yard.
+~
+0 0 0
+D2
+~
+~
+0 -1 462
+D3
+~
+~
+0 -1 466
+S
+#468
+{WJust Inside the Temple{w~
+You have stepped out of the burning sun into the surprisingly cool halls
+of the Temple.  The vestibule is decorated with several fabulous and
+colourful tapestries and the on the ceiling you see an artistic picture of
+the Sun and its protectors, the mighty golden dragons.  The lighting is
+smooth and pleasant.  A couple of errants are presently removing the dust
+and sand from the floor with brooms and shovels.  
+~
+0 8 0
+D0
+~
+~
+0 -1 470
+D2
+~
+~
+0 -1 466
+S
+#469
+{WA Small Prayer Room{w~
+This small room contains only a little altar with a holy symbol on top of
+it.  The floor is padded and there is a small openable window on the western
+wall, probably to allow ventilation during the nights since the air can get
+pretty hot during the days.  The altar is made of clear white stone and on
+top of it, on a yellow, softly glowing piece of cloth is the holy symbol of
+the Sun which is basically a rune-covered spherical golden ball on a simple
+wooden pedestal.  
+~
+0 0 0
+D1
+~
+~
+0 -1 470
+S
+#470
+{WThe Central Hall{w~
+This is the central hall of the first floor.  Due north you can see a
+wide staircase going upwards to the second floor.  A door leads to a small
+room to the south and to the north.  These rooms are used for people who
+want to pray in peace, just them and their god.  The walls are adorned with
+colourful frescoes depicting ancient battles between ancient enemies, the
+followers of the Sun and the cult of the Moon.  The floor is made of golden
+coloured tiles and massive white marble pillars support the ceiling in the
+corners.  
+~
+0 0 0
+D0
+~
+~
+0 -1 472
+D1
+~
+~
+0 -1 471
+D2
+~
+~
+0 -1 468
+D3
+~
+~
+0 -1 469
+S
+#471
+{WA Small Prayer Room{w~
+This is a small prayer room, designed to provide sufficient privacy and
+room for one person at a time.  There is a small, openable window on the
+east wall in case there is a need for ventilation.  On top of a small altar
+on a yellow cloth is the Holy symbol of the Sun, a small, rune-covered
+golden sphere set on a simple wooden pedestal.  
+~
+0 0 0
+D3
+~
+~
+0 -1 470
+S
+#472
+{WAt the Base of the Stairs{w~
+You are standing at the base of the staircase which leads to the second
+floor.  The stairs are made of yellowish white marble which emits a soft,
+almost unnoticeable glow.  On the walls the frescoes continue upwards with
+two massive battlefield scenes.  You sense a flow of warm air rushing down
+from the second floor.  Other than that, it is surprisingly cool inside,
+remembering how unbearably hot it was in the yard outside the temple doors. 
+~
+0 0 0
+D2
+~
+~
+0 -1 470
+D4
+~
+~
+0 -1 475
+S
+#473
+{WAlong the Walkway{w~
+The walkway takes a rounded turn northwards.  There are couches set
+against the western wall and a few people are sitting in them, discussing
+some matters in a low tone in order not to disturb those who want to
+meditate or pray.  You can hear an occasional scraping sound from the
+ceiling, just as if something was trying to dig in the ceiling.  Some
+members of the Temple's priests walk around here slowly, offering their
+assistance.  
+~
+0 0 0
+D0
+~
+~
+0 -1 478
+D1
+~
+~
+0 -1 474
+S
+#474
+{WThe Walkway Along the Southern Wall{w~
+A soft carpet under your feet efficiently kills the sound of footsteps as you
+walk slowly, admiring the wonderful oriental tapestries and the fabulous
+wall-paintings along the walkway. There is a simple door to the north leading
+to the defender's quarters. Some people are sitting on the floor here, lost in
+deep meditation. They seem totally unaware of their surroundings. You decide to
+leave them alone for there is no reason to disturb them.
+~
+0 0 0
+D0
+~
+~
+1 -1 479
+D1
+~
+~
+0 -1 475
+D3
+~
+~
+0 -1 473
+S
+#475
+{WThe Top of the Stairs{w~
+Having ascended the stairs up to the second floor you take a brief
+overview of the things you see.  The floor is totally covered with a soft
+carpet, effectively killing the sound of footsteps.  On the walls several
+colourful tapestries create an oriental atmosphere and making the temple
+feel more like an art gallery.  An occasional scraping sound can be heard
+from the roof.  You wonder what's going on up there.  
+~
+0 0 0
+D1
+~
+~
+0 -1 476
+D3
+~
+~
+0 -1 474
+D5
+~
+~
+0 -1 472
+S
+#476
+{WThe Walkway Along the Southern Wall{w~
+A group of red-robed pilgrims have occupied this section of the temple,
+their chanting makes you feel relaxed.  You watch their ritual for a moment
+before quietly moving on, careful not to disturb them.  Some clergymen,
+clearly of the temple's priestly order stand by here, humming along the
+melody of the chant.  A door north on the north wall leads to the defender's
+quarters and there is a stairway down due west.  
+~
+0 0 0
+D0
+~
+~
+1 -1 481
+D1
+~
+~
+0 -1 477
+D3
+~
+~
+0 -1 475
+S
+#477
+{WThe Walkway Turns North{w~
+A sweet smell attracts your attention.  Someone is probably burning some
+incense in honor of the Sun.  Or has been since you can't see anything
+burning anywhere A couple of empty couches have been set along the walls and
+there is an open window high up the southern wall, apparently in order to
+dissipate the smoke.  You feel tranquil, almost as if time had stopped and
+you could live here in peace forever..  Must be the smoke getting to you. 
+Better move along quickly before you pass out.  
+~
+0 0 0
+D0
+~
+~
+0 -1 482
+D3
+~
+~
+0 -1 476
+S
+#478
+{WWestern Walkway{w~
+You are walking towards the sun-lit balcony to the north.  A warm breeze
+blows from the open corridor to the north.  The designers of this place have
+clearly forgotten the possibility of rain.  Or maybe they haven't..  You
+never know about these cults.  It just might be possible that it never rains
+here..  Well no way to know that now.  Suddenly you see a huge tail waving
+in the air above the balcony!  Whatever that belongs to must be on the
+roof..  You are starting to have second thoughts about stepping outside and
+in the reach of that creature.  
+~
+0 0 0
+D0
+~
+~
+0 -1 483
+D2
+~
+~
+0 -1 473
+S
+#479
+{WThe Defender's Quarters{w~
+These are the quarters of one of the temple's defenders.  It is simple,
+with just a bed, a table, a chair and one shelf with several books on it. 
+The man in sitting in the chair puts his book down and turns to look at you
+with a smile on his face.  He is unarmored but has a longsword on his side. 
+He doesn't seem bothered by your presence in his private room.  To the east
+you see a door which leads to the paladin's room according to the man.  He
+is not to be disturbed except in an emergency.  
+~
+0 0 0
+D0
+~
+~
+1 -1 484
+D1
+~
+~
+4 458 480
+D2
+~
+~
+1 -1 474
+S
+#480
+{WThe Paladin's Room{w~
+The temple's high guard leader, the Paladin of the Sun lives here.  The
+room is pleasantly decorated with several transparent silk scarves that
+reach down to the floor.  You feel almost as if you were swimming in silk,
+it feels unreal, as if it all was a dream.  Suddenly you come to the center
+of the room.  There is a round area about 10 feet accross where there are no
+scarves.  At the center stands the paladin, fully armored and armed, smiling
+at you.  Above his head is a trapdoor leading to the roof.  His smile slowly
+fades into an inquisitive look, maybe you should start explaining why you
+have disturbed his meditation.  
+~
+0 8 0
+D1
+~
+~
+4 458 481
+D3
+~
+~
+4 458 479
+D4
+~
+~
+0 -1 488
+S
+#481
+{WThe Defender's Quarters{w~
+Here lives one of the temple's guards, the defenders.  He was laying on
+the bed, relaxing.  When he saw you he clambered on his feet and greets you
+by raising his hand.  He walks over to a round table in the center of the
+room and lights a yellow candle on it.  With a wave of his hand he asks you
+to sit down with him and to share your worries with him.  On the western
+wall there is a door leading to the paladin's room.  
+~
+0 0 0
+D0
+~
+~
+1 -1 486
+D2
+~
+~
+1 -1 476
+D3
+~
+~
+4 458 480
+S
+#482
+{WThe Eastern Walkway{w~
+The walkway suddenly ends and the balcony begins.  The sun shines
+pleasantly down on you..  But the shine is not searing like it was on the
+yard, now it is just warm and relaxing.  You are starting to believe there
+really is a deity that is the sun..  Or is it the sun that is a deity.  You
+decide to leave that to the philosophers to debate over.  The carpet ends
+also, the golden plated floor continues northwards.  
+~
+0 0 0
+D0
+~
+~
+0 -1 487
+D2
+~
+~
+0 -1 477
+S
+#483
+{WThe Sun-Lit Balcony{w~
+There is no railing to prevent you from falling off the balcony.  Looking
+down you can see the drop is not that big, only about 20 feet down to a flat
+sandy surface.  You don't feel like jumping off anyway, the sand might not
+be that soft.  The sun shines down pleasantly, unlike on the yard where it
+was trying to fry you down to ashes.  
+~
+0 0 0
+D1
+~
+~
+0 -1 484
+D2
+~
+~
+0 -1 478
+S
+#484
+{WThe Sun-Lit Balcony{w~
+The balcony continues to the west where it goes inside the temple's
+halls.  A warm breeze blows from the east, creating a pleasant, lazy
+atmosphere.  To the east you see a white marble pillar which reaches up
+approximately 20 feet, just enough to be level with the roof of the temple. 
+Looking up you see a massive reptilian head connected to an equally massive
+reptilian body on the roof.  It seems to be talking in a low voice to
+someone or something on top of the pillar.  You can't see anything or anyone
+there though.  Maybe you could investigate.  If you arent afraid of dragons
+that is..  
+~
+0 0 0
+D1
+~
+~
+0 -1 485
+D2
+~
+~
+1 -1 479
+D3
+~
+~
+0 -1 483
+S
+#485
+{WThe middle of the Sun-Lit Balcony{w~
+The white pillar stands here, reaching the sky.  On the northern side of
+it you see a series of iron bars fitted in to allow climbing up to the top
+should anyone so desire for one reason or another.  The wyrm seems to focus
+all its attention to the top, obviously someone or something is there.  You
+are glad it hasn't noticed you..  Or if it has it's not paying any attention
+to your presence on the balcony.  Two priests walk out here, talking in a
+low voice.  
+~
+0 0 0
+D1
+~
+~
+0 -1 486
+D3
+~
+~
+0 -1 484
+D4
+~
+~
+0 -1 489
+S
+#486
+{WThe Sun-Lit Balcony{w~
+This part of the balcony is fitted with a small altar made of yellow
+stone.  On top of it is the familiar globe that is the holy symbol of the
+Sun.  On the southern wall is a closed door leading into the defender's
+quarters.  Due west you can see a high white marble pillar and to the east
+the balcony ends and enters the temple.  
+~
+0 0 0
+D1
+~
+~
+0 -1 487
+D2
+~
+~
+1 -1 481
+D3
+~
+~
+0 -1 485
+S
+#487
+{WThe Eastern Part of the Balcony{w~
+The balcony turns westwards toward a tall pillar standing in the middle
+of it.  Looking up you can see a surprising sight, a masive dragon's head
+looming over the pillar.  Its jaws move as if talking but you are unable to
+hear a sound other than the soft whisper of the wind.  Looking around you
+can see the endless wilderness behind the huge fortifications protecting the
+temple from marauders and preventing wild animals from wandering into the
+sacred yard.  
+~
+0 0 0
+D2
+~
+~
+0 -1 482
+D3
+~
+~
+0 -1 486
+S
+#488
+{WOn the Roof of the Temple{w~
+You have climbed through the trapdoor and onto the roof.  Taking a brief
+look around you see mountains of golden scales all over you.  A huge golden
+wyrm nestles comfortably on the roof, completely surrounding you with its
+massive body, its tail waving high in the air above your head.  You can see
+the blue sky above you, the sun's rays beaming down and reflecting from the
+wyrm's scales creating a fabulous lightshow right in front of your eyes. 
+You feel at peace despite the fact that the wyrm could crush you with the
+slightest move of its tail.  
+~
+0 0 1
+D5
+~
+~
+0 -1 480
+S
+#489
+{WThe Top of the Pillar of Flames{w~
+You have climbed up on top of the Pillar of Flames, the focus of the Sun
+on the earth.  The glare is utterly unbearable, the heat approaching 100
+degrees celsius.  This is the point to talk to the Sun if there ever was
+one.  This is also the private place of meditation of the Daughter of the
+Sun, the sovereign leader of the Temple.  You are beginning to have real
+problems with the heat, the sun seems more determined than ever to melt you
+down to a puddle.  Better get your business done and get out of here.  
+~
+0 0 0
+D5
+~
+~
+0 -1 485
+S
+#0
+
+
+
+#SPECIALS
+M 451 spec_thief
+M 452 spec_guard
+M 453 spec_guard
+M 454 spec_breath_fire
+M 455 spec_guard
+M 456 spec_cast_cleric
+M 457 spec_guard
+M 458 spec_guard
+M 459 spec_cast_mage
+M 460 spec_breath_any
+M 461 spec_thief
+S
+
+
+
+#RESETS
+D 0 474 0 1
+D 0 476 0 1
+D 0 479 0 1
+D 0 479 1 2
+D 0 479 2 1
+D 0 480 1 2
+D 0 480 3 2
+D 0 481 0 1
+D 0 481 2 1
+D 0 481 3 2
+D 0 484 2 1
+D 0 486 2 1
+M 0 451 1 454 1
+M 0 451 1 456 1
+M 0 452 1 457 1
+M 0 453 1 458 2
+M 0 454 1 458 1
+E 0 451 0 5
+E 0 452 0 3
+M 0 451 1 459 1
+M 0 461 1 460 1
+M 0 451 1 462 1
+M 0 452 1 463 1
+M 0 452 1 464 1
+M 0 452 1 465 1
+M 0 452 1 466 1
+M 0 452 1 467 1
+M 0 455 1 468 1
+M 0 455 1 469 1
+M 0 455 1 470 1
+M 0 455 1 471 1
+M 0 455 1 472 1
+M 0 456 1 473 1
+M 0 456 1 477 1
+M 0 457 1 479 1
+G 0 458 0
+M 0 458 1 480 1
+E 0 457 0 16
+M 0 457 1 481 1
+G 0 458 0
+M 0 456 1 483 1
+M 0 456 1 487 1
+M 0 460 1 488 1
+E 0 453 0 8
+E 0 456 0 9
+M 0 459 1 489 1
+E 0 454 0 1
+E 0 455 0 14
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#452
+mob echoat $n Your last attack causes the trooper to immolate into a deadly cloud of {Rfire{x!
+mob echoaround $n The trooper explodes in a deadly cloud of {Rfiery death{x!
+mob cast 'fire breath' $n
+mob asound You hear a thundering explosion!
+-
+~
+#453
+mob echoat $n Your last attack causes the trooper to immolate into a deadly cloud of {Rfire{x!
+mob echoaround $n The trooper explodes in a deadly cloud of {Rfiery death{x!
+mob cast 'fire breath' $n
+mob asound You hear a thundering explosion!
+-
+~
+#454
+mob echo The Draconian Lord suddenly explodes in a great ball of {Rfire{x!
+mob echo His belongings drop to the ground.
+mob cast 'fire breath' $n
+mob junk all
+mob oload 451 80 room
+mob oload 452 80 room
+-
+~
+#455
+mob echo The errant screams in anger and draws a whip to defend himself with!
+mob oload 459 60 wield
+-
+~
+#456
+mob echo The errant drops a whip on the ground, falls back and dies peacefully.
+mob oload 459 60 room
+-
+~
+#458
+mob echo The Paladin gasps one last time as his life force drains from him. He drops his spear on the floor and dies.
+mob junk spear
+mob oload 457 80 room
+-
+~
+#459
+mob gecho The {YSun{x suddenly goes dark as its most powerful mortal servant dies!
+mob echo The Daughter's fingernails shimmer and disconnect from her fingers!
+mob echo The Daughter's wristlet clicks open and falls on the floor!
+mob junk all
+mob oload 455 90 room
+mob oload 454 90 room
+-
+~
+#460
+mob gecho The {YSun{x suddenly shimmers and darkens noticeably!! Something bad has happened.
+mob echoat $n You feel the backlash of killing the mighty Dragon!!
+mob damage $n 50 100 lethal
+mob echo You are knocked down by the blast.!
+mob echo Solaris equipment falls to the floor.
+mob transfer all 480
+mob junk all
+mob oload 453 90 room
+mob oload 456 90 room
+-
+~
+#461
+mob echo You notice a small orb rolling out from Alisha's pocket!
+mob oload 460 15 room
+-
+~
+#462
+mob echo Solaris roars '{RKnow the closeness of the {YSun{W'
+mob echo Solaris roars in a mighty voice '{RBURN!!!{W'.
+mob cast 'fire breath' $n
+~
+#463
+mob echo Solaris sweeps the roof with its mighty tail.
+mob purge
+~
+#0
+
+#$

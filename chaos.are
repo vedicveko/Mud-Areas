@@ -1,0 +1,1636 @@
+#AREA
+chaos.are~
+chaos-rift~
+{ All } Loran The chaos rift~
+400 499
+
+#400
+sean paladin~
+Sean the Paladin~
+Sean the Paladin is here, preparing to battle against the Chaos.  
+~
+The Paladin is old and tired.  He has decided to clean the hills of the
+rampaging chaos that is slowly destroying the surroundings.  He has defeated
+the evil many times, but this fight could be his last battle.  
+~
+human~
+A N 1000 S
+25 10 1d1+519 1d1+319 2d10+7 bite
+-1 -1 -1 -1
+DEKT ABN M 0
+rest stand male 10
+AHMV ABCDEFGHIJK medium 0 
+#401
+half manbeast scout~
+the manbeast scout~
+An half-human half-lizard scout is hidding here
+~
+This creature his scouting the area and seems unease here.  You notice a
+long tail from her back, and the green color of her scale-covered skin.  Her
+face looks strangely human and this scout seems well-equiped to survive in
+hostile land.  
+~
+human~
+ACGS PQ 0 S
+26 3 5d10+550 5d10+150 3d7+6 stab
+0 0 0 0
+0 B H 0
+stand stand none 0
+AHMVXc ABCDEFGHIJK medium 0 
+#402
+hakk-ghar vendor~
+Hakk-Ghar~
+Hakk-Ghar the vendor sits behind the counter, preparing the discount of the day.
+~
+The vendor has a strange face that reminds you of a squirrel.  He wears
+long red hairs and you notice a squirrel tail wich he's using the wipe the
+shelves.  He is proud to be the best discounter of all the choatic plane. 
+And the only one.  
+~
+human~
+ABV J 0 S
+35 0 1d100+100 1d20+20 1d20+10 stab
+0 0 0 0
+0 CD 0 0
+rest rest male 100
+AHMV ABCDEFGHIJKQ medium 0 
+#403
+zhakk necromancer vendor~
+Zhakk the necromancer~
+Zhakk the necromancer is here, writing a dusty scroll.
+~
+The rat-faced manbeast is a powerfull Necromancer, but he's too lazy to
+spend time and money in conquering the world or spreading death and chaos...
+~
+human~
+ABV J 0 S
+35 0 1d100+100 1d20+20 1d20+10 none
+0 0 0 0
+0 CD 0 0
+stand stand none 100
+AHMV ABCDEFGHIJKQ medium 0 
+#404
+rhaak-ghaar chief~
+Rhaak-Ghaar~
+Rhaak-Ghaar the wise stands here.
+~
+The manbeasts chief is a tall half-bear half-giant warrior.  His two
+powerfull arms end with fearsome claws that could pierce even the best
+armors...  
+~
+human~
+ABQ 0 0 S
+35 5 10d10+1300 10d10+500 4d7+11 slash
+-1 -1 -1 -1
+CD AB 0 J
+rest stand male 0
+AHMV ABCDEFGHIJKU large  0 
+#405
+manbeasts guard beast~
+the manbeast guard~
+A manbeast guard stands here.
+~
+The Guard is a scale-covered half-lizard man, with a long green tail.  He
+is loyal and efficient.  
+~
+human~
+AGT 0 0 S
+30 0 7d10+850 10d10+50 6d4+8 slash
+0 0 0 0
+HMU A B F
+stand stand either 0
+AHMVXc ABCDEFGHIJKQ medium 0 
+#406
+manbeast guard beast bull~
+a manbeast guard~
+A manbeast guard stands here.
+~
+The Guard looks like a minotaur, safe for a more human-like face.  He is
+strong and loyal.  
+~
+human~
+ABT 0 0 S
+30 2 12d6+900 10d5+50 4d6+10 slice
+0 0 0 0
+CDU A B I
+stand stand either 0
+AHMV ABCDEFGHIJKW medium 0 
+#407
+cat woman maid~
+the catwoman maid~
+A beautiful cat-like maid is here, waiting for your order.
+~
+The catwoman maid has a perfect body covered with black fur.  She is
+really beautiful but most men avoid teasing her.  Maybe because of her sharp
+teeth and claws...  
+~
+human~
+A 0 0 S
+35 0 10d10+100 10d10+100 5d10+10 slash
+0 0 0 0
+0 CD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJKQ medium 0 
+#0
+
+
+
+#OBJ24b3
+#400
+bush dusty branch~
+a small dusty branch~
+A small dusty bush grows here.~
+oldstyle~
+food 0 AO
+10 0 0 A 0
+5 10 0 P
+#401
+small bush green branch~
+a small branch wearing green berries~
+A small bush carrying green berries grows here.~
+oldstyle~
+food 0 AO
+20 0 0 0 0
+5 10 0 P
+EXTRA
+berries~
+Yummy, those berries are looking good...  
+~
+#402
+silver flail~
+a silver flail~
+A flail made of silver lies here.~
+silver~
+weapon 0 AN
+flail 5 4 slash 0
+25 20 0 P
+APPLY
+18 2
+#403
+red gate~
+(no short description)~
+(no description)~
+(null)~
+furniture 0 0
+0 0 0 0 137848740
+0 0 0 P
+#404
+thin bush red branch ~
+a thin branch wearing red berries~
+A thin bush wearing red berries grows here.~
+oldstyle~
+pill 0 AN
+20 none none none none
+5 10 0 P
+#405
+desert boots~
+a pair of desert boots~
+A pair of dusty boots lies here.~
+leather~
+armor GN AG
+6 6 6 6 0
+27 2 2000 P
+APPLY
+14 20
+#406
+brown travelling cape~
+a brown travelling cape~
+A brown cape lies on the floor.~
+leather~
+clothing GN AC
+0 0 0 0 0
+29 5 5000 P
+APPLY
+14 50
+APPLY
+5 -1
+#407
+potion chaos~
+a potion of chaos~
+A boiling potion has been left here~
+(null)~
+potion AN AO
+30 none none none none
+20 5 1000 P
+#408
+scroll purple revelation~
+a scroll of revelation~
+A purple scroll has been left here.~
+(null)~
+scroll GN AO
+25 none none none none
+25 5 500 P
+#409
+scroll red chaos~
+a scroll of chaos~
+A red scroll lies here.~
+(null)~
+scroll GN AO
+30 none none none none
+30 10 2500 P
+#410
+human skin map~
+a piece of human skin~
+(no description)~
+(null)~
+map 0 A
+0 0 0 0 0
+20 5 1000 P
+#411
+bottle beer chaos~
+a bottle of chaos beer~
+A bottle with a red and yellow label has been left here.~
+(null)~
+trash N A
+0 0 0 0 0
+20 5 50 P
+#491
+sign~
+a sign~
+A SIGN has been put here by the builder.~
+(null)~
+furniture 0 0
+0 0 0 0 137848740
+0 0 0 P
+EXTRA
+sign~
+Soon a link from here to another area, so there will be 2 paths to reach
+this area.  Loran.  
+~
+#0
+
+
+
+#ROOMS
+#400
+The burned Hills~
+The trail leaves the Forest and you start to climb on a desolated hill. 
+Small burned bushes try to grow among the rocks.  
+~
+0 4 4
+D0
+~
+~
+0 0 401
+S
+#401
+The burned Hills~
+The surrounding Hills seems to have been cleared of any form of life. 
+The wind blows dust in your face.  There is a kind of strange light coming
+from the northwest.  
+~
+0 0 4
+D0
+~
+~
+0 0 403
+D1
+~
+~
+0 0 402
+D2
+~
+~
+0 0 400
+D3
+~
+~
+0 0 413
+S
+#402
+The burned Hills~
+You are surrounded by rocks making almost a wall to the south and to the
+east.  A few bushes try to grow up, covered with dust.  
+~
+0 0 4
+D0
+~
+~
+0 0 404
+D3
+~
+~
+0 0 401
+S
+#403
+The burned Hills~
+You're standing amongs rocks.  There is no more trail and you can make
+your way in almost every direction.  There is a strange glow coming fom the
+west, behind high rocks.  
+~
+0 0 4
+D0
+~
+~
+0 0 406
+D1
+~
+~
+0 0 404
+D2
+~
+~
+0 0 401
+D3
+~
+~
+0 0 412
+S
+#404
+A small Gap in the Cliff~
+You're standing on a dusty hill.  There is a small gap in the high cliff
+to the east.  It seems to lead to a cave entrance.  
+~
+0 0 4
+D0
+~
+~
+0 0 405
+D1
+~
+~
+1 0 491
+D2
+~
+~
+0 0 402
+D3
+~
+~
+0 0 403
+S
+#405
+The burned Hills~
+You're standing on a dusty hill. The Cliff to the east is getting covered with bushes and plants to the north, but you still can't go east.
+~
+0 0 4
+D0
+~
+~
+0 0 408
+D2
+~
+~
+0 0 404
+D3
+~
+~
+0 0 406
+S
+#406
+the burned hills~
+You are surrounded by the dusty and desolated hills.  You feel a little
+desoriented by this unchanged landscape.  There is a light coming from the
+west.  
+~
+0 0 4
+D0
+~
+~
+0 0 407
+D1
+~
+~
+0 0 405
+D2
+~
+~
+0 0 403
+D3
+~
+~
+0 0 411
+S
+#407
+On the edge of a dense Forest~
+You're standing on the edge of a very dense forest.  The trees and bushes
+make almost a wall to the north.  
+~
+0 0 3
+D1
+~
+~
+0 0 408
+D2
+~
+~
+0 0 406
+D3
+~
+~
+0 0 410
+S
+#408
+Near the dense Forest~
+You are on the edge of a very dense forest.  It seems amost impossible to
+go north through the bushes, or to the east where the Cliff is now covered
+with vegetation.  You can hear the sound of birds and small animals coming
+from the trees.  It's strange to see how arid and dusty are the hills to the
+south, compared to this place.  
+~
+0 0 3
+D0
+~
+~
+1 0 409
+D2
+~
+~
+0 0 405
+D3
+~
+~
+0 0 407
+S
+#409
+The hidden Grove~
+You're surrounded by oak trees and exotic flowers.  This little haven
+seems to have been spared by the nearby desolation.  There's a poor blanket
+lying on the floor, and some wooden furnitures.  
+~
+0 4 3
+D2
+~
+~
+1 0 408
+S
+#410
+On the edge of a dense Forest~
+The dusty hills end here, and you seean overgrowth vegetation to the
+north and to the west.  Trees and bushes make a living green wall.  You can
+follow the forest border to the east, or climb the hill to the south.  
+~
+0 0 3
+D1
+~
+~
+0 0 407
+D2
+~
+~
+0 0 411
+S
+#411
+The burned hills~
+Still sand, dust and rocks all around.  And this strange glow coming from
+the west...  Or is that south ?  There are exits in all directions.  You can
+see the top of trees to the north.  
+~
+0 0 4
+D0
+~
+~
+0 0 410
+D1
+~
+~
+0 0 406
+D2
+~
+~
+0 0 412
+D3
+~
+~
+0 0 416
+S
+#412
+The burned Hills~
+You've reached the top of a dusty hills.  You can see a strange glow
+coming from the western hills, and some trees far to the north.  You can go
+down this hill in all directions.  
+~
+0 0 4
+D0
+~
+~
+0 0 411
+D1
+~
+~
+0 0 403
+D2
+~
+~
+0 0 413
+D3
+~
+~
+0 0 415
+S
+#413
+The burned Hills~
+You're standing between two dusty hills.  You can climb to the north or
+the west, but the south way is barred by fallen rocks.  To the east you can
+see a path.  
+~
+0 0 4
+D0
+~
+~
+0 0 412
+D1
+~
+~
+0 0 401
+D3
+~
+~
+0 0 414
+S
+#414
+The burned Hills~
+You're standing on a desolated hill.  Life seems to have left this place,
+except of little dusty plants that are trying to grow here.  You can go to
+the north, where a strange glow comes from, or to the east.  
+~
+0 0 4
+D0
+~
+~
+0 0 415
+D1
+~
+~
+0 0 413
+S
+#415
+The burned Hills~
+This seems to be the most desolated part of the hills.  You see pieces of
+bones and scraps of metal and wood half-covered with dust.  The stones and
+rocks are sometimes broken or melt.  A red glow comes from the west.  
+~
+0 0 4
+D0
+~
+~
+0 0 416
+D1
+~
+~
+0 0 412
+D2
+~
+~
+0 0 414
+D3
+~
+~
+0 0 417
+S
+#416
+The burned Hills~
+You're standing amongs fallen rocks, at the foot of a huge Cliff. 
+Strangely, there are footprints in the dust coming from nowhere.  The only
+ways are south further in the hills, or east.  A strange glow comes from the
+south west.  
+~
+0 0 4
+D1
+~
+~
+0 0 411
+D2
+~
+~
+0 0 415
+S
+#417
+The Portal~
+You're standing near the source of all this desolation.  A red Portal
+glows, leading in some chaotic place.  Stones around the portal have melt.  
+You can enter the portal by going down, or go back east in the hills.
+~
+0 0 4
+D1
+~
+~
+0 0 415
+D5
+~
+~
+0 0 418
+S
+#418
+The chaotic Steppes~
+You're standing on a chaotic ground, surrounded by steppes.  A strange
+sound comes from the wounded land.  Insects you've never seen before are
+eaten by living stones.  The steppe extand in all direction.  You better
+don't get lost in this cursed land.  
+~
+0 8196 10
+D0
+~
+~
+0 0 419
+D1
+~
+~
+0 0 421
+D2
+~
+~
+0 0 423
+D3
+~
+~
+0 0 425
+S
+#419
+The chaotic Steppes~
+~
+0 0 10
+D0
+~
+~
+0 0 428
+D1
+~
+~
+0 0 420
+D2
+~
+~
+0 0 418
+D3
+~
+~
+0 0 426
+S
+#420
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 429
+D1
+~
+~
+0 0 433
+D2
+~
+~
+0 0 421
+D3
+~
+~
+0 0 419
+S
+#421
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 420
+D1
+~
+~
+0 0 434
+D2
+~
+~
+0 0 422
+D3
+~
+~
+0 0 418
+S
+#422
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 421
+D3
+~
+~
+0 0 423
+S
+#423
+The chaotic Steppes~
+All arround you is the same landscape of chaotic steppes, where all form
+of life seems to grow opposing any natural law you know.  The east way is
+barred by huge plants covered with eyes.  There seems to be some sort of
+field to the south.  
+~
+0 8192 10
+D0
+~
+~
+0 0 418
+D1
+~
+~
+0 0 422
+D2
+~
+~
+0 0 447
+D3
+~
+~
+0 0 424
+S
+#424
+The chaotic Steppes~
+You're standing on the red-colored steppes.  There is a small path of
+living stones leading south.  Like ants, the stones are coming to build the
+trail, but as soon as a stone is set, it melts in a strangely human cry,
+leaving a little cloud smelling sulfur.  There is a field to the west.  
+~
+0 8192 10
+D0
+~
+~
+0 0 425
+D1
+~
+~
+0 0 423
+D2
+~
+~
+0 0 446
+D3
+~
+~
+0 0 443
+S
+#425
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 426
+D1
+~
+~
+0 0 418
+D2
+~
+~
+0 0 424
+S
+#426
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 427
+D1
+~
+~
+0 0 419
+D2
+~
+~
+0 0 425
+S
+#427
+The living hill~
+~
+0 8192 4
+D1
+~
+~
+0 0 428
+D2
+~
+~
+0 0 426
+S
+#428
+The chaotic Steppes~
+~
+0 8192 10
+D1
+~
+~
+0 0 429
+D2
+~
+~
+0 0 419
+D3
+~
+~
+0 0 427
+S
+#429
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 430
+D1
+~
+~
+0 0 432
+D2
+~
+~
+0 0 420
+D3
+~
+~
+0 0 428
+S
+#430
+The chaotic Steppes~
+~
+0 8192 4
+D1
+~
+~
+0 0 431
+D2
+~
+~
+0 0 429
+S
+#431
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 435
+D1
+~
+~
+0 0 437
+D2
+~
+~
+0 0 432
+D3
+~
+~
+0 0 430
+S
+#432
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 431
+D1
+~
+~
+0 0 438
+D2
+~
+~
+0 0 433
+D3
+~
+~
+0 0 429
+S
+#433
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 432
+D1
+~
+~
+0 0 439
+D2
+~
+~
+0 0 434
+D3
+~
+~
+0 0 420
+S
+#434
+The chaotic Steppes~
+~
+0 8192 4
+D0
+~
+~
+0 0 433
+D3
+~
+~
+0 0 421
+S
+#435
+The chaotic Steppes~
+~
+0 8192 10
+D1
+~
+~
+0 0 436
+D2
+~
+~
+0 0 431
+S
+#436
+The chaotic Steppes~
+~
+0 8192 10
+D1
+~
+~
+0 0 442
+D2
+~
+~
+0 0 437
+D3
+~
+~
+0 0 435
+S
+#437
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 436
+D1
+~
+~
+0 0 441
+D2
+~
+~
+0 0 438
+D3
+~
+~
+0 0 431
+S
+#438
+~
+~
+0 8192 10
+D0
+~
+~
+0 0 437
+D1
+~
+~
+0 0 440
+D2
+~
+~
+0 0 439
+D3
+~
+~
+0 0 432
+S
+#439
+The chaotic Steppes~
+~
+0 8192 10
+D0
+~
+~
+0 0 438
+D3
+~
+~
+0 0 433
+S
+#440
+By the chasm~
+~
+0 8192 10
+D0
+~
+~
+0 0 441
+D3
+~
+~
+0 0 438
+S
+#441
+By the chasm~
+~
+0 8192 10
+D0
+~
+~
+0 0 442
+D2
+~
+~
+0 0 440
+D3
+~
+~
+0 0 437
+S
+#442
+By the chasm~
+You're standing by a deep chasm.  You can barely see the end of it, and
+hot smokes and stranges vapors are coming from downunder.  You can see to
+the east a tall black tower.  There is a small footbridge made of burned
+stones and melted metal leading that way.  
+~
+0 8192 10
+D1
+~
+~
+0 0 457
+D2
+~
+~
+0 0 441
+D3
+~
+~
+0 0 436
+S
+#443
+The chaotic Fields~
+You're standing on some cultivated ground.  There is not two crops
+looking the same.  Some are growing so fast they deperish as soon as the
+first fruit has grown.  Others suddenly explode, leaving a nasty smell in
+the air and covering your feet with green unidentified mud.  There is a path
+to the east, and the manbeasts village is south of here.  
+~
+0 8196 2
+D1
+~
+~
+0 0 424
+D2
+~
+~
+0 0 445
+S
+#444
+Hakk-Ghar Baazar~
+The baazar is filled with merchandises and materials of all sorts.  Huges
+jarres full of spices are set against a wall and furs, artefacts and
+jewellry are filling wooden boxes.  There's even some rusty pieces of armor
+and you notice the spear-made hole in the back of dusty chainmail.  Red eyes
+are watching you behind the bars of a small cage.  There is an empty box
+with a small hand-writed sign above it.  Traps for sale and potions of all
+kind have been carelessly left on the floor.  You notice a counter covered
+with magical figurines and souvenirs from all over Boinga in a corner of
+this messy warehouse.  
+~
+0 8204 0
+E
+sign~
+The piece of paper reads: Sorry, our last fireworm has been sold.  But
+there is a special offer on catbird fat-free cookies !  
+~
+D1
+~
+~
+0 0 445
+S
+#445
+The village entrance~
+You are at the village entrance.  The houses are made mainly with red mud
+and stones, and strangely shaped.  Furs and worked pieces of metal are
+ornating the doors and windows.  There is a sign in front the door house, to
+the west.  The path leads west back in the chaotic steppes, and there is a
+field to the north.  
+~
+0 8192 2
+E
+sign~
+The sign reads:
+    HAKK-GHAR BAAZAR
+Special prices on fireworms this week !
+~
+D0
+You see a strange-looking field.
+~
+~
+0 0 443
+D1
+~
+~
+0 0 446
+D2
+You see the village main street.
+~
+~
+0 0 449
+D3
+You see a messy shop.
+~
+~
+0 0 444
+S
+#446
+A path to the Village~
+You're walking on a small path leading north and west to the village. 
+There is a strange-looking field to the east.  You can enter a house made of
+red mud and stones to the south.  
+~
+0 8196 2
+D0
+~
+~
+0 0 424
+D1
+~
+~
+0 0 447
+D2
+~
+~
+1 0 450
+D3
+~
+~
+0 0 445
+S
+#447
+The chaotic Fields~
+You're standing on some cultivated ground.  This could be a field like
+the many you've seen before, if the plants -or is that cattle?  - that grows
+here wasn't so strange.  There is a path to the west, leading to a small
+village.  
+~
+0 8192 2
+D0
+~
+~
+0 0 423
+D3
+~
+~
+0 0 446
+S
+#448
+Inside a village House~
+As you look around you, you see a large collection of handmade craftwork.
+This house probably belongs to some kind of artist or artisan.  There are
+shelves of tools on the walls and pieces of many different materials on the
+floor.  
+~
+0 8192 0
+D1
+You see the village main street.
+~
+~
+0 0 449
+S
+#449
+The village Main Street~
+You're standing on the village main street, paved with yellow and oranges
+stones.  Purple plants are growing on the walls of the house to your east,
+while the western house entrance is ornated with wooden-carved idols.  The
+wind blowing in the houses roof ornaments produce a strange music.  Main
+street continues to the south.  
+~
+0 8192 1
+D0
+You see the entrance of the village.
+~
+~
+0 0 445
+D1
+You see a large house.
+~
+~
+0 0 450
+D2
+You see the village main street.
+~
+~
+0 0 452
+D3
+You see a large House.
+~
+~
+0 0 448
+S
+#450
+Inside a village House~
+You're standing in a large single room.  Weapons and hunting trophees
+ornate the walls.  A small bed made covered with furs is in a corner.  There
+is a fireplace in the center of the room, and you notice the hole in the
+roof to let the smoke go.  You see a small door leading north and the house
+entrance is on the west side.  
+~
+0 8192 0
+D0
+You see a small door leading in a field.
+~
+~
+1 0 446
+D3
+You see the village main street.
+~
+~
+0 0 449
+S
+#451
+The Misty Morning Inn~
+You've entered a crowded Inn.  The room is filled with a purple smoke,
+smelling stranges flavors of spices and plants.  Some villagers look at you
+and turn back to drink and chat.  A drunken man with a dog head is sleeping
+in a corner.  The bartender is busy cleaning his counter.  
+~
+0 8192 0
+D1
+You see the village main street.
+~
+~
+0 0 452
+S
+#452
+The village Main Street~
+You're on main street.  Happy sounds and laugh come from the large house
+to the west, the Misty Morning Inn.  You see a dark house to the east, and a
+strong smell of sulfur and burned flesh comes from the opened window.  To
+the south is the end of main street and the largest house of the village.  
+~
+0 8192 1
+D0
+You see the village main street.
+~
+~
+0 0 449
+D1
+You see a small shop.
+~
+~
+0 0 453
+D2
+You see the end of main street.
+~
+~
+0 0 455
+D3
+You see the Misty Morning Inn.
+~
+~
+0 0 451
+S
+#453
+Zhakk the necromancer's Shop~
+Ackk!  The smell in this shop is terrible!  And you almost walked on some
+rat-like creature when you came in.  It takes you a few minutes to
+accomodate to the room darkness, then you notice the man behind the counter.
+~
+0 8192 0
+D3
+You barely see the exit, leading to the village main street.
+~
+~
+0 0 452
+S
+#454
+House of Chief Rhaak-Ghaar~
+This is certainly the most beautifull house of the village.  The walls
+are made of living stones who are changing of color and humming softly.  The
+floor is covered with furs and skins.  Skins of all kind...  
+~
+0 8192 0
+D1
+You see the village main street.
+~
+~
+0 0 455
+S
+#455
+The village Main Street~
+The main street ends here.  You see a river of burbling magma to the
+south.  There is a large house to the west, richely decorated with sculpted
+statues and figurines, and another villager house to the east.  
+~
+0 8192 1
+D0
+~
+~
+0 0 452
+D1
+You see a small House.
+~
+~
+0 0 456
+D3
+You see the House of some powerfull person.
+~
+~
+0 0 454
+S
+#456
+Inside a village House~
+You're standing in a poorly decorated room.  Some pieces of junk are
+lying on the floor, and you notice a large steel ring .  A few blankets on
+the floor are probably used as beds.  There are holes in the roof and you
+can see the red sky of the chaos plane.  
+~
+0 8192 0
+E
+steel~
+The steel ring is fixed to an hidden grate in the floor.
+~
+E
+ring~
+The steel ring is fixed to an hidden grate in the floor.
+~
+D3
+You see the village main street.
+~
+~
+0 0 455
+D5
+The gate opens on a small square of red light.
+~
+grate~
+1 0 416
+S
+#457
+The footbridge~
+You're standing on a small footbridge, crossing over the deepest chasm
+you've ever seen.  Watch your steps closely, you just wouldn't like to fall
+down...  
+~
+0 8196 2
+D1
+~
+~
+0 0 458
+D3
+~
+~
+0 0 442
+S
+#458
+The necromancer tower Entrance~
+The footbridge ends here, and you've reached the other side of the chasm.
+There is a tall black gate leading inside this tower.  Eye-looking living
+stone are watching you closely.  All around the tower, the land has been
+burned and a strange smell fills the air.  Some letters have been carved on
+a stone.  
+~
+0 8196 2
+E
+letters~
+The letters read:
+Levels lower than 35 are WARMLY welcome. 
+I always need new slaves and fresh food.
+~
+D1
+The Tall black doors are leading inside the necromancer tower.
+~
+gate~
+0 0 459
+D3
+~
+~
+0 0 457
+S
+#459
+The tower main Hall~
+You're standing in a long darkened corridor.  A nasty smell fills this
+room.  The walls are covered with strange paintings and trophees.  There are
+two doors leading south and north.  A strong feeling of danger comes to you
+as you look to the east, where the corridor continues.  
+~
+0 0 0
+D0
+~
+~
+1 0 464
+D1
+~
+~
+0 0 462
+D2
+~
+~
+1 0 460
+D3
+~
+~
+0 0 458
+S
+#460
+The guard Room~
+~
+0 0 0
+D0
+~
+~
+1 0 459
+S
+#461
+A small Laboratory~
+~
+0 1 0
+D0
+~
+~
+1 0 462
+S
+#462
+The wrong place to stay...~
+You're standing in the middle of the main corridor.  Adventurer heads
+have been set on picks, a few corpse are still decaying and the wall are
+covered with blood and fighting marks.  The rests of a Mage are covering the
+door leading north, while the southern door is half burned.  
+~
+0 8192 0
+D0
+~
+~
+1 0 466
+D1
+~
+~
+0 0 467
+D2
+~
+~
+1 0 461
+D3
+~
+~
+0 0 459
+S
+#464
+A Storage room~
+You're in a room filled with junk and trash of all kind.  There are even
+rotting pieces of flesh, some of theim still covered with what used to be an
+armor.  Skulls and bones have been left on the ground.  
+~
+0 1 0
+D0
+The wall seems to move when you push it.
+~
+passage~
+1 0 465
+D2
+~
+~
+1 0 459
+S
+#465
+The secret Passage~
+~
+0 1 0
+D1
+~
+~
+0 0 492
+D2
+~
+~
+1 0 464
+S
+#466
+A guard Room~
+~
+0 1 0
+D2
+~
+~
+1 0 462
+S
+#467
+The tower main Hall~
+~
+0 0 0
+D1
+~
+~
+0 0 468
+D3
+~
+~
+0 0 462
+S
+#468
+The Stairs~
+~
+0 0 0
+D3
+~
+~
+0 0 467
+S
+#491
+A small Cave~
+You are standing in a small cave.  Strangely, you feel at ease in this
+little place.  The wall are glowing with a peacefull golden aura.  There
+seems to be an exit to the west.  
+~
+0 4 0
+D3
+~
+~
+1 0 404
+S
+#492
+The secret Passage~
+~
+0 1 0
+D2
+You feel some fresh air coming from behind the wall.
+~
+passage~
+1 0 467
+D3
+~
+~
+0 0 465
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 404 1 1
+D 0 408 0 1
+D 0 409 2 1
+D 0 456 5 1
+D 0 459 0 1
+D 0 459 2 1
+D 0 462 0 1
+D 0 462 2 1
+D 0 464 2 1
+D 0 465 2 1
+D 0 466 2 1
+D 0 491 3 1
+O 0 400 0 402
+M 0 401 2 402
+O 0 400 0 403
+O 0 400 0 405
+O 0 401 0 407
+O 0 401 0 408
+M 0 400 1 409
+E 0 402 0 16
+O 0 404 0 409
+M 0 401 2 410
+O 0 400 0 411
+O 0 400 0 414
+O 0 400 0 416
+M 0 402 1 444
+E 0 405 0 -1
+E 0 406 0 -1
+E 0 407 0 -1
+M 0 406 4 445
+M 0 406 4 445
+M 0 405 4 449
+M 0 405 4 451
+M 0 407 1 451
+M 0 403 1 453
+E 0 408 0 -1
+E 0 409 0 -1
+E 0 410 0 -1
+M 0 404 1 454
+M 0 406 4 454
+M 0 406 4 454
+M 0 405 4 455
+M 0 405 4 455
+O 0 491 0 491
+S
+
+
+
+#SHOPS
+402 0 9 11 10 0 150 75 0 23
+403 2 28 0 0 0 150 75 1 23
+407 19 0 0 0 0 110 100 1 23
+0
+
+
+
+#$

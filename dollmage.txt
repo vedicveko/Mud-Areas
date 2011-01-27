@@ -1,0 +1,61 @@
+WHAT IS THIS?
+
+A Patch to implement the Doll Mage class.
+
+INSTALLING
+
+Copy dollmage.patch to your Circle src directory and run patch < dollmage.patch
+
+This patch was built off of circle30bpl16 and should patch cleanly off of a
+stock source. If not look at the .rej files and patch by hand.
+
++ means add.
+- means remove.
+! means change.
+
+USAGE
+
+Doll Mages are a strange breed which use magical dolls to perform magic through
+and thus must have an ITEM_DOLL held in order to cast magic or perform skills.
+
+The value0 and value1 slots on ITEM_DOLLs are used to calculate a damage bonus.
+Basicly they are sent to the number() function. value0 should be the low number
+and value1 should be the high number.
+
+This patch comes with six basic skills for Doll Mages.
+All Doll Mage skills cost a small amount of Dana.
+
+dollhit : level 1 damage
+dollbite : level 5 damage
+dollmaul : level 10 damage
+dollshield : level 15, block hits with your doll.
+dollwield : level 15, gain an extra attack w/ your doll helping out.
+dollstrike : level 20 damage, can only be used to engage.
+
+It also comes with seven basic skills.
+
+Opaque, level 6, turn objs invis.
+Coy level 16, AGGR mobs have second thoughts about attacking.
+Flood level 17, sets RM_FLOOD and causes all mobs and players in that room
+without a boat to take some damage each tick.
+Acid level 20 area effect spell.
+Radiance, level 25 area effect spell that sets blind.
+Acid Storm, level 28 sets RM_ACID, does damage like Flood.
+Hold Person, level 29, sets AFF_HELD, half assidly implemented.
+
+I didn't even bother to give these skills and spells proper damage, since
+every mud out there has a different idea on that sort of thing.
+
+Some other things have been added that I will leave up to you to find. :P
+
+DISTRIBUTING/CHANGING
+
+Do whatever you want to it. Just please give me credit in some small way or
+a nice email saying you like my stuff.
+
+AUTHOR
+
+Dean Vaughan (Vedic) vedic@thevedic.net
+
+Homepage: http://thevedic.net/computer/circlemud
+

@@ -1,0 +1,1165 @@
+#AREA
+ocean.are~
+The River~
+{ All } Picard  The River~
+200 299
+
+#MOBILES
+#201
+witch hag woman~
+a witch~
+A robust woman grins as she watches you in her cottage.
+~
+She appears to be an old woman whom you guess to be a witch since
+she has in her hand a wand, and in the room is a magical red book.
+~
+unique~
+AB 0 0 0
+28 0 0d0+0 0d0+0 0d0+0 pound
+0 0 0 0
+0 0 0 0
+stand stand female 14000
+AHMV ABCDEF medium 0
+#202
+sailor~
+the sailor~
+A stranded sailor stands here, selling boats.
+~
+It appears that this sailor's captain has left him here on the dock.
+~
+unique~
+AB 0 900 0
+23 2 1d30000+0 0d0+0 1d8+32 pound
+0 0 0 0
+0 0 0 0
+stand stand male 12000
+AHMV ABCDEF medium 0
+#0
+
+
+#OBJECTS
+#201
+book red~
+a red book~
+A dusty red book is laying here.~
+~
+container G AO
+50 A -1 0 ''
+0 5 1200 P
+E
+book red~
+The hands of Time can rule the world.~
+#202
+flask glass~
+a colorless flask~
+A flask used to hold various liquids has been left here.
+~
+~
+drink G AO
+250 50 water 0 ''
+0 15 500 P
+#203
+canoe~
+a canoe~
+A canoe has been left here.~
+~
+boat 0 A
+0 0 0 0 ''
+0 32 1000 P
+E
+canoe~
+The canoe is fairly light.
+~
+#0
+
+
+#ROOMS
+#201
+On the River~
+The river flows slowly westward from the city of Midgaard. To the east
+a bridge can be seen crossing the river. South of here a field can be seen
+on ground rising from the water's edge. To the north is a thick forest. The
+river flows west and upstream to the east.
+~
+0 CK 7
+D1
+A bridge leading from northern to sourthern Midgaard crosses the river there.
+~
+~
+0 -1 3200
+D3
+The river continues westward.
+~
+~
+0 -1 202
+S
+#202
+On the River~
+You have passed by the farm land of Midgaard and no longer can you 
+sense the noise of the city. The forest bordering the river has swallowed you 
+in a dark shadow. The river flows west and upstream to the east.
+~
+0 CK 7
+D1
+Going east on the river will take you to Midgaard.
+~
+~
+0 -1 201
+D3
+The river continues into the shadows.
+~
+~
+0 -1 203
+S
+#203
+On the River~
+The sun is barely visible above the top branches of the trees as the 
+river snakes its way thru the forest. The flow of the river seems to have 
+picked up though in this narrow section of the river as you notice a small 
+figure watching you from the northern shore. The river flows west and upstream
+to the east.
+~
+0 CK 7
+D1
+The river leads east towards a city.
+~
+~
+0 -1 202
+D3
+The river continues to the west.
+~
+~
+0 0 204
+E
+figure small north~
+As you look towards the shore, the figure disappears into the forest.
+~
+S
+#204
+The Wide River~
+Here the river is very wide. With the absence of so many tree limbs
+overhead, the river is much brighter here than it is towards the east.
+You can see land far to the west. The river flows west and upstream to the 
+east.
+~
+0 CK 7
+D1
+Looking upstream, the river narrows and darkens.
+~
+~
+0 -1 203
+D3
+The appears to be an island in the middle of the river ahead.
+~
+~
+0 -1 205
+S
+#205
+A Split in the River~
+The river flows around a small island which lies directly to the south
+west. The brackish water reflects your image like a smooth mirror disturbed 
+only by your movement. The river flows west and upstream to the east. A 
+smaller part of the river splits and flows south.
+~
+0 CK 7
+D1
+Looking east you can see a widening in the river.
+~
+~
+0 -1 204
+D2
+This way leads past the eastern side of the island.
+~
+~
+0 -1 207
+D3
+This way will take you to the northern side of the island.
+~
+~
+0 -1 206
+S
+#206
+On the River~
+You are on the river which is flowing westward past the north side
+of a small island.  The island is thich with vegetation which makes it 
+impossible to get on shore from here. The river flows west and upstream
+to the east.
+~
+0 CK 7
+D1
+You see the southeast split in the river.
+~
+~
+0 -1 205
+D3
+The river continues onwards towards a large body of water.
+~
+~
+0 -1 209
+S
+#207
+The Southeast Split in the River~
+A small island is west of the river here, but the island's thick 
+vegetation makes it impossible to get on shore from here. To the north
+the main path of the river flows west and upstream to the east.
+~
+0 CK 7
+D0
+The river flows east and downstream to the west there.
+~
+~
+0 -1 205
+D3
+Here you can see the southern side of the island.
+~
+~
+0 -1 208
+S
+#208
+The Little River~
+This narrower route around the island has brought you within sight
+of a small path cut out of the vegetation leading north into the depths
+of the island.
+~
+0 CK 7
+D0
+A small path leads into the shadowy island.
+~
+~
+0 -1 242
+D1
+You see the southeast split in the river.
+~
+~
+0 -1 207
+D3
+You see the southwest split in the river.
+~
+~
+0 -1 210
+S
+#209
+On the Big River~
+A small island splits the river to the southeast. On the island you
+can see nothing due to trees and plants which grow even at the waters edge.
+These plants make it impossible to get on the island from here. The river
+flows to the downstream to the west and upstream to the east.
+~
+0 CK 7
+D1
+Looking east you see the river as it passes by the island which is to the south
+of that point.
+~
+~
+0 -1 206
+D2
+You see the southwest split in the river.
+~
+~
+0 -1 210
+D3
+The river continues its slow movement toward a larger body of water.
+~
+~
+0 -1 211
+S
+#210
+The Southwest Split in the River~
+A small island can be seen to the east. Large trees cover this end
+of the island. The river merges to the north where it continues to flow
+downstream to the west.
+~
+0 CK 7
+D0
+You see a river flowing west and upsteam to the east.
+~
+~
+0 -1 209
+D1
+Going upstream from here you may pass by the southern side of the island.
+~
+~
+0 -1 208
+S
+#211
+The Wide River~
+The river flows westward from here. Looking at the distant shores
+you notice they continue to get further apart and all that can be seen to
+the west is more water which touches the sky at the horizon. Upstream
+it appears there is land near the middle of the river.
+~
+0 CK 7
+D1
+The river continues upstream to the east.
+~
+~
+0 -1 209
+D3
+The mouth of the river can be seen to the west.
+~
+~
+0 -1 212
+S
+#212
+The Mouth of the River~
+The river is merging with the ocean! Waves rock you back and forth
+as you move about. The river snakes its way into the land and disappears
+to the east. To the west is the big, blue ocean. To the north and south
+the forest has given way to grass fields and small bushes on fairly flat land.
+~
+0 CK 7
+D1
+The river continues upstream to the east.
+~
+~
+0 -1 211
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 213
+S
+#213
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the east can be seen
+a river as it leads into an immense land mass. The ocean continues to
+the north, south, and west.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 214
+D1
+You can see the mouth of a large river.
+~
+~
+0 -1 212
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 215
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 216
+S
+#214
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, and west
+the ocean continues in unobscured vision. To the east, a large land mass 
+can be seen, however rocks along the shore prevent you from landing there.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 217
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 213
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 221
+S
+#215
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, and west
+the ocean continues in unobscured vision. To the east, a large land mass 
+can be seen, however rocks along the shore prevent you from landing there.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 213
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 222
+D3
+To the west only the ocean can ben seen.
+~
+~
+0 -1 224
+S
+#216
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, east and 
+west the ocean continues in unobscured vision.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 221
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 213
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 224
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 229
+S
+#217
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, and west
+the ocean continues in unobscured vision. To the east, a large land mass 
+can be seen, however rocks along the shore prevent you from landing there.
+~
+0 CK 7
+D0
+To the north the ocean appears to have frozen.
+~
+~
+0 -1 218
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 214
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 220
+S
+#218
+In a Frozen Ocean~
+The ocean is beginning to freeze and turn to ice. To the north can
+be seen large blocks of ice which block further passage in that direction. To 
+the south and west the ocean continues. To the east, a large land mass 
+can be seen, however rocks along the shore prevent you from landing there.
+Looking further inland you can see a number of large mountains.
+~
+0 CK 7
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 217
+D3
+To the west the ocean appears frozen.
+~
+~
+0 -1 219
+S
+#219
+In a Frozen Ocean~
+The ocean is beginning to freeze and turn to ice. To the north can
+be seen large blocks of ice which block further passage in that direction. To 
+the south and east the ocean continues.
+~
+0 CK 7
+D1
+To the east the ocean appears frozen.
+~
+~
+0 -1 218
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 220
+S
+#220
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, east and 
+west the ocean continues in unobscured vision.
+~
+0 CK 7
+D0
+To the north the ocean appears to have frozen.
+~
+~
+0 -1 219
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 217
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 221
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 234
+S
+#221
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, east and 
+west the ocean continues in unobscured vision.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 220
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 214
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 216
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 233
+S
+#222
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north and west the 
+ocean continues in unobscured vision. To the east the shore rises steeply
+into a verticle cliff. To the south the water seem to be turning cooler.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 215
+D2
+To the south appears a dangerous region inhabited by polar bears.
+~
+~
+0 -1 1801
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 223
+S
+#223
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, east and west 
+the ocean continues in unobscured vision. To the south large pieces of floating
+ice make the waters impassable.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 224
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 222
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 225
+S
+#224
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, east and 
+west the ocean continues in unobscured vision.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 216
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 215
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 223
+D3
+To the west the ocean grows in ferocity.
+~
+~
+0 -1 226
+S
+#225
+The Angry Sea~
+Although you didn't know it at the time, you have come upon 
+the dreaded area of the ocean where many an adventurer has perished
+never to heard of again.
+~
+0 CK 7
+D0
+To the north the ocean grows in ferocity.
+~
+~
+0 -1 226
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 223
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 227
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 228
+S
+#226
+A Ferocious Sea~
+As you make your way here the sky darkens, and the
+wind rises. Waves now pour over you, filling your stomach with
+the taste of salt water. Gradually things subside, and you able to
+continue your journey.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 229
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 224
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 225
+D3
+To the west only the ocean can be seen.
+~
+~
+0 -1 230
+S
+#227
+A Tropical Sea~
+You have reached the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+Stuck to simply wondering above though, you notice land to the south, but 
+volcanic lava flows prevent landing.
+~
+0 CK 7
+D0
+To the north waves increase in size and the sky appears darker.
+~
+~
+0 -1 225
+D3
+To the west only the smooth sea can be seen.
+~
+~
+0 -1 231
+S
+#228
+A Tropical Sea~
+You have reached the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+The sea continues north, south, east, and west, however the sky 
+appears much cloudier looking to the east than in the other directions.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 230
+D1
+To the east the sea grows in ferocity.
+~
+~
+0 -1 225
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 231
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 232
+S
+#229
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, and east 
+the ocean continues in unobscured vision. You see land in the west, seemingly
+unconnected with that on which Midgaard rests.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 233
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 216
+D2
+To the south the clouds gather in manner meant as a warning.
+~
+~
+0 -1 226
+S
+#230
+A Tropical Sea~
+You have reached the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+The sea continues south, east, and west, however the sky appears 
+much cloudier looking to the east than in the other directions. You see 
+land to the north, seemingly unconnected with that on which Midgaard rests.
+~
+0 CK 7
+D1
+To the east clouds seem to be gathering, threatening a storm.
+~
+~
+0 -1 226
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 228
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 235
+S
+#231
+A Tropical Sea~
+You traverse the calm warm waters of the Yeats Sea. The clear
+ blue-green waters support a variety of life below the surface. The sea 
+continues north, south, east, and west.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 228
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 227
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 236
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 237
+S
+#232
+A Tropical Sea~
+You traverse the calm warm waters of the Yeats Sea. The clear
+ blue-green waters support a variety of life below the surface. The sea 
+continues north, south, east, and west.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 235
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 228
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 237
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 238
+S
+#233
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the north, south, and east 
+the ocean continues in unobscured vision. You see land in the west, seemingly
+unconnected with that on which Midgaard rests.
+~
+0 CK 7
+D0
+To the north only the ocean can be seen.
+~
+~
+0 -1 234
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 221
+D2
+To the south only the ocean can be seen..
+~
+~
+0 -1 229
+S
+#234
+The Big Blue Ocean~
+You are in the ocean. Waves rock you back and forth occasionally
+crashing over you, drenching you in salt water. To the south and east the 
+ocean continues in unobscured vision. You see land in the west, seemingly
+unconnected with that on which Midgaard rests. To the north the cliffs 
+break away to a narrow stretch of beach.
+~
+0 CK 7
+D0
+You see the beach ahead.
+~
+~
+0 0 245
+D1
+To the east only the ocean can be seen.
+~
+~
+0 -1 220
+D2
+To the south only the ocean can be seen.
+~
+~
+0 -1 233
+S
+#235
+A Tropical Sea~
+You traverse the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+The sea continues south and east. You see land to the north and west 
+seemingly unconnected with that on which Midgaard rests. A small
+dock allows you to continue north onto land.
+~
+0 CK 7
+D0
+To the north you see a small dock.
+~
+~
+0 -1 239
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 230
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 232
+S
+#236
+A Tropical Sea~
+You have reached the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+Stuck to simply wondering above though, you notice land to the south and 
+east, but volcanic lava flows prevent landing.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 231
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 240
+S
+#237
+A Tropical Sea~
+You traverse the calm warm waters of the Yeats Sea. The clear
+ blue-green waters support a variety of life below the surface. The sea 
+continues north, south, east, and west.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 232
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 231
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 240
+D3
+To the west only the sea can be seen.
+~
+~
+0 -1 241
+S
+#238
+A Tropical Sea~
+You traverse the calm warm waters of the Yeats Sea. 
+The clear blue-green waters support a variety of life below the surface. 
+The sea continues south and east. You see land to the north and west 
+seemingly unconnected with that on which Midgaard rests. The banks
+are too steep to climb.
+~
+0 CK 7
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 232
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 241
+S
+#239
+The Dock~
+The dock is made of old greyed timber. Not very much could 
+stop at so small a dock with such shallow water around it. There are no
+apparent reasons for a dock even being here, since there is no visible
+trail in any direction. The only exit takes you back to the Sea.
+~
+0 K 1
+D2
+To the south only the sea can be seen.
+~
+~
+0 -1 235
+S
+#240
+A Tropical Sea~
+You sail the calm warm waters of the Yeats Sea. The clear 
+blue-green waters support a variety of life below the surface. Stuck to 
+simply wondering above though, you notice land to the south and 
+west, but volcanic lava flows prevent landing.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 237
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 236
+S
+#241
+A Tropical Sea~
+You sail the calm warm waters of the Yeats Sea. The clear 
+blue-green waters support a variety of life below the surface. Stuck to 
+simply wondering above though, you notice land to the south and 
+west on which forested hills rise and fall like the waves of the sea for as
+far as the eye can see. The shores are too steep to climb.
+~
+0 CK 7
+D0
+To the north only the sea can be seen.
+~
+~
+0 -1 238
+D1
+To the east only the sea can be seen.
+~
+~
+0 -1 237
+S
+#242
+A Small Path~
+As you slowly force your way through the head high weeds
+the path becomes clearer. Going just far enough to be out of sight 
+of where you stepped on to the island, you can see a small cottage
+ahead steeped in shadow with light filtering though the shutters of a 
+small window.
+~
+0 K 3
+D0
+To the north you can see a small cottage.
+~
+~
+0 -1 243
+D2
+To the south you can see the river.
+~
+~
+0 -1 208
+S
+#243
+Beside the Cottage~
+You stand in front of a small cottage made of shabbily
+connected boards and sticks, the kinds of things one might see
+floating down a river. As you approached a noise came from 
+within, and now all is quiet.  The entrance is to the west, or you
+may return on the path to the south.
+~
+0 K 3
+D2
+To the south you can see a small path leading through the 
+forest.
+~
+~
+0 -1 242
+D3
+To the west can be seen a wooden door.
+~
+door wooden~
+1 -1 244
+S
+#244
+Inside the Cottage~
+Around the room you can see a number of books and
+flasks, perhaps used in the manufacture of magical potions. On
+the far side of the room from where you stand the picture of a 
+beautiful woman dressed in a formal gown can be seen. A door
+leading outside is east of here.
+~
+0 D 0
+D1
+The door leads outside.
+~
+~
+1 -1 243
+S
+#245
+A Beach~
+You come to a narrow beach.  Vertical cliffs loom to the east and west,
+and the harsh ocean is to the south.  To the north, you can see a less steep
+mountain ahead, which you can probably climb.
+~
+0 D 0
+D0
+The beach continues toward the mountain.
+~
+~
+0 0 246
+D2
+You see the vast ocean before you.
+~
+~
+0 0 234
+S
+#246
+Along the Beach~
+You are along the beach.  Evidently, not many people travel on this
+rocky shore, and you are lucky you found this place.  Continuing north is the
+foot of a large mountain, while south of you, you can hear the roar of the 
+waves crashing against the rocky beach.  The vertical cliffs to the east and
+west block any movement in those directions.
+~
+0 D 0
+D0
+You see the foot of the mountains.
+~
+~
+0 0 247
+D2
+You see the beach and the vast ocean beyond.
+~
+~
+0 0 245
+S
+#247
+Foot of the Mountain~
+You are at the foot of the mountain.  A narrow trail leads up the face
+of the mountain to the north, while the beach leads back south toward the
+ocean.  Vertical cliffs block all travel east and west.  It almost looks as if
+stairs have been carved into the trail to the north.
+~
+0 D 0
+D0
+You see the path along the foot of the mountain.
+~
+~
+0 0 20101
+D2
+You see the beach and the vast ocean beyond.
+~
+~
+0 0 246
+S
+#0
+
+
+#RESETS
+*This area was created by Picard for EnvyMud
+*you are welcome to use the area as long as apropriate
+*credit remains with me for the original.
+*
+M 1 201 1 244 1      Put witch in cottage
+E 1 202 1 17           Give flask to witch
+*
+M 1 202 1 239 1      Put sailor on dock
+G 1 203 10             Give canoe to Sailor
+*
+O 1 201 1 244     Put book in cottage
+*
+D 1 243 3 1            Closes door to cottage
+D 1 244 1 1             
+*
+S
+
+
+#SHOPS
+202 22 0 0 0 0 120 90 6 22 ; The sailor
+0
+
+
+#$

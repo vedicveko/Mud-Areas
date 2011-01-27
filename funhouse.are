@@ -1,0 +1,1144 @@
+#AREA
+funhouse.are~
+Fun House~
+{12 17} Gorzak  Fun House~
+4300 4399
+
+#HELPS
+
+0 FUN HOUSE FUNHOUSE~
+Welcome to the magical world of the circus! In recent years, we have been
+working on some major renevations to try and make it more enjoyable for you!
+The Fun House is one of many new features you can expect in the near future.
+
+Fun House area has been created by Gorzak for 12-17 level players,
+converted to ROM 2.4 format by jaceks, july'96.
+~
+
+0 $~
+
+
+#MOBILES
+#4303
+ticket taker tickettaker ticket-taker man~
+the ticket-taker~
+A nice ticket-taker stands here, letting small children in for free
+(and maybe you too).
+~
+A nice old man, maybe in his 80s, he has developed a nice streak and a soft
+spot for kids. He notices you staring at him, and quickly tells you that if
+anyone found out he was letting people in for free, he would be fired.
+~
+human~
+ABG HN 100 4303
+17 0 3d9+258 169d1+1 3d4+4 punch 
+-3 -3 -3 7
+AJK 0 0 0
+stand stand male 850
+0 0 medium 0
+
+#4304
+kid child~
+a little kid~
+A little kid is here, trying to hide from the spooky clowns staring at him.
+~
+Boy, is this kid scared, or what?...
+He cowers in the corner, afraid to go on, afraid to turn back.
+HE JUST WANTS HIS MOMMY!
+*SOB*
+~
+human~
+ABG Q 0 4304
+12 0 2d10+150 119d1+1 1d10+3 scratch
+0 0 0 8
+I 0 0 0
+stand stand male 150
+0 0 medium 0
+
+#4305
+kid child~
+a little kid~
+A little kid stands here, laughing at the stupid clowns on the wall.
+~
+This kid is SO OBNOXIOUS... reminds you of a young kid you once knew...
+He laughs and laughs and laughs, and yells "HEY! WHAT ARE YOU LOOKING
+AT?!?!?!?" when he sees you inspecting his person.
+~
+human~
+ABG 0 -5 4304
+14 0 2d10+190 139d1+1 1d12+3 punch
+-1 -1 -1 8
+I 0 0 0
+stand stand male 100
+0 0 medium 0
+
+#4306
+boss~
+the nice old man's boss~
+The old man's boss stands here, waiting to report back to the circus owner.
+~
+What a bad, bad man...
+He is trying to wreck the nice old man's good will and nice disposition...
+Well... you'll show him, now, won't you?
+~
+human~
+ABG PQ -100 4303
+16 0 3d9+233 159d1+1 2d6+4 chomp
+-2 -2 -2 7
+I 0 0 0
+stand stand male 670
+0 0 medium 0
+#4307
+kid thief~
+a mean little kid~
+A mean little kid is here, politely brushing by you as you exit.
+~
+Hmm... something's wrong here...
+What IS he doing?...
+OH MY GOD!
+He's stealing from the innocent patrons of the fun house as they walk away...
+~
+human~
+ABG P -50 0
+15 0 3d9+208 149d1+1 2d6+3 slap
+-2 -2 -2 7
+I 0 0 0
+stand stand male 350
+0 0 medium 0
+#4308
+kid child~
+a dizzy little kid~
+A dizzy little kid is here, being flung about wildly.
+~
+I THINK HE'S GONNA BLOW!!!
+AHHHH!!! GROSS!!!
+~
+human~
+ABG P 0 0
+16 0 3d9+233 159d1+1 2d6+4 punch
+-2 -2 -2 7
+I 0 0 0
+stand stand male 510
+0 0 medium 0
+#4309
+kid child~
+a clueless kid~
+A clueless kid is here, thinking that he's about to fall.
+~
+Boy is he clueless!
+He looks around, trying to grab onto anything he can get his hands on, in
+hopes that he won't fall to his doom.
+~
+human~
+ABG 0 0 0
+13 0 2d10+170 129d1+1 2d5+3 slap
+-1 -1 -1 8
+I 0 0 0
+stand stand male 340
+0 0 medium 0
+#4310
+girl child kid~
+a little girl~
+A little frightened girl tries to get away from the falling ceiling.
+~
+She is really scared.
+You almost feel sorry that you are in too much of a rush to help her.
+~
+human~
+ABG 0 0 0
+14 0 2d10+190 139d1+1 1d12+3 punch
+-1 -1 -1 8
+I 0 0 0
+stand stand female 430
+0 0 medium 0
+#4311
+kid child~
+a little kid~
+A little kid is here, trying to keep on his feet.
+~
+He looks like a scarecrow waving in the wind.
+He shakes violently as if he's about to fall, and then stands back upright
+again.
+~
+human~
+ABG 0 0 0
+14 0 2d10+190 139d1+1 1d12+3 pound
+-1 -1 -1 8
+I 0 0 0
+stand stand male 440
+0 0 medium 0
+#4312
+kid child cub scout~
+a lost kid~
+A little kid wanders about, trying to use his cub-scout training to get out.
+~
+Hmm... Cub-Scout First Class...
+Got all of his merit badges and everything.
+If he can't find his way out, noone can.
+~
+human~
+ABG DEJ 0 0
+15 0 3d9+208 149d1+1 2d6+3 punch
+-2 -2 -2 7
+I 0 0 0
+stand stand male 540
+0 0 medium 0
+#4313
+kid child~
+an anxious little kid~
+An anxious little kid tries to cut in line here.
+~
+What a BRAT!
+~
+human~
+ABCG 0 0 4313
+12 0 2d10+150 119d1+1 1d10+3 grep
+0 0 0 8
+I 0 0 0
+stand stand male 270
+0 0 medium 0
+#4314
+mom mother~
+a nice mother~
+Some kid's mother is here, guiding her kid through the line.
+~
+She is one nice mother, giving up her own time at the circus to let her kid
+experience the immense joy of going through the most famous funhouse in the
+city (and the only one)
+~
+human~
+ABG H 0 4314
+17 0 3d9+258 169d1+1 3d4+4 slash
+-3 -3 -3 7
+E 0 0 0
+stand stand female 760
+0 0 medium 0
+#4315
+clown~
+a really scary clown~
+A really scary clown jumps out and attacks you!
+~
+Hmm... a face only a mother could love.
+~
+human~
+ABCEG D 0 0
+16 0 3d9+233 159d1+1 2d6+4 stab
+-2 -2 -2 7
+N 0 0 0
+stand stand male 490
+0 0 medium 0
+#4316
+johnny carson jester~
+Johnny Carson~
+A jester that looks remarkably like Jonny Carson is here, laughing.
+~
+HEEEEEEEEEEEEEEERE'S JOHNNY!
+~
+human~
+ABG 0 0 0
+14 0 2d10+190 139d1+1 1d12+3 punch
+-1 -1 -1 8
+JK 0 0 0
+stand stand male 350
+0 0 medium 0
+#4317
+jay leno chin~
+Jay Leno~
+Jay Leno is here, tied up in the corner.
+~
+Wow! What a huge chin, you've got, granny.
+~
+human~
+ABG 0 0 4317
+12 0 2d10+150 119d1+1 1d10+3 slap
+0 0 0 8
+C 0 0 0
+stand stand male 200
+0 0 medium 0
+#4318
+david letterman~
+David Letterman~
+David Letterman is here, tied up in the corner.
+~
+David Letterman, ex-follower of Johnny Carson,
+resents the fact that he didn't inherit the Tonight Show, and that big-chinned
+guy Jay Leno got it. Now he does stupid pet tricks to keep from being kept off
+of the air.
+~
+human~
+ABG 0 0 4317
+12 0 2d10+150 119d1+1 1d10+3 pierce
+0 0 0 8
+FGH 0 0 0
+stand stand male 220
+0 0 medium 0
+#4319
+kid child boy~
+a small child~
+A small child uncontrollably floats about here.
+~
+He seems to be out of control, as he has not figured out that swimming-like
+motions can motiviate his butt around the room instead of floating about
+aimlessly.
+~
+human~
+ABG T 0 4219
+13 0 2d10+170 129d1+1 2d5+3 punch
+-1 -1 -1 8
+I 0 0 0
+stand stand male 330
+0 0 medium 0
+#4320
+bonkers bobcat~
+Bonkers T. Bobcat~
+Bonkers T. Bobcat bounces about wildly from wall to wall.
+~
+Looney, Tooney, Gooney... ran out of stuff that rhymed... :)
+~
+human~
+ABG T 0 0
+14 0 2d10+190 139d1+1 1d12+3 pound
+-1 -1 -1 8
+EI 0 0 0
+stand stand male 430
+0 0 medium 0
+#4321
+pope~
+the Pope~
+The Pope is lost in the hedge maze.
+~
+What a cool hat!!!
+You shouldn't try and kill him, because he looks PRETTY strong for someone
+his age.
+~
+human~
+ABG DEHJN 1000 0
+65 0 100d10+12000 649d1+1 8d6+29 slap
+-35 -35 -35 -1
+BCDEFGHIJK 0 0 C
+stand stand male 15000 
+0 0 medium 0
+#4322
+don king~
+Don King~
+Don King is lost in the hedge maze.
+~
+What a bad 'fro!
+He's looking for the pope to set up a fight between him and the Dhali Llama.
+~
+human~
+ABG E 0 0
+17 0 3d9+258 169d1+1 3d4+4 punch
+-3 -3 -3 7
+EJ 0 0 0
+stand stand male 670
+0 0 medium 0
+#4323
+man~
+a man behind a curtain~
+A man behind a red curtain tells you to go away!
+~
+GO AWAY!
+Do you want to ruin the FUNHOUSE for everybody?
+And how did you make it through that damn hedge maze anyway? Don King has
+been in there for 3 months!
+~
+human~
+ABG 0 0 0
+17 0 3d9+258 169d1+1 3d4+4 scratch
+-3 -3 -3 7
+I 0 0 0
+stand stand male 690
+0 0 medium 0
+#4324
+lemming~
+a cute little stupid lemming~
+A little lemming marches on, right off the edge of a cliff and goes "YEECH!"
+~
+Awww... cute little lemmings...
+Watch the lemmings run!
+Run, lemmings, run!
+Watch the lemmings walk off the cliff!
+Watch the lemmings fall!
+Watch the lemmings die!
+FUN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~
+human~
+AG E 0 4324
+12 0 2d10+150 119d1+1 1d10+3 punch
+0 0 0 8
+0 0 0 0
+stand stand either 200
+0 0 medium 0
+#4325
+cashier man old~
+the old cashier~
+A strange old man stands here, manhandling hot dogs.
+~
+A bit out of the ordinary, but, who can argue?
+~
+human~
+ABG 0 0 0
+1 0 2d6+10 9d1+1 1d4+0 punch
+9 9 9 10
+0 0 0 0
+stand stand male 3400
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#4303
+lolly pop lollipop~
+a rainbow-colored lollipop~
+A beautiful rainbow-colored lollipop lies here, sticky with spit.~
+~
+food H AO
+4 4 0 0 0
+5 10 10 G
+A
+13 10
+A
+9 -20
+A
+18 -2
+A
+19 1
+#4306
+money~
+some stolen money~
+Some stolen money lies here, apparently dropped by the thief.~
+~
+money E A
+225 0 0 0 0
+15 50 225 G
+#4307
+cap hat~
+a boy scout's hat~
+A strange brownish-green colored hat is here.~
+~
+armor G AE
+6 6 6 1 2
+15 40 2310 P
+A
+5 1
+A
+4 1
+A
+17 3
+#4308
+swiss-army swiss army knife~
+a swiss army knife~
+A cub scout's swiss-army knife lies here, ready to handle anything.~
+~
+weapon 0 AN
+dagger 5 4 stab 0
+15 90 2010 P
+A
+18 3
+#4309
+money~
+some dropped money~
+Some idiot dropped some money from their pockets.~
+~
+money 0 A
+100 0 0 0 0
+1 10 100 P
+#4310
+red wig curly~
+a curly red wig~
+A curly red wig gains lice here.~
+~
+armor G AE
+7 7 7 0 2
+15 20 2710 P
+A
+5 1
+#4311
+chin~
+a HUGE chin~
+A HUGE chin lies here, ripped from it's human counterpart.~
+~
+armor G AE
+6 6 6 0 2
+11 300 945 P
+A
+3 -1
+A
+4 -1
+A
+2 -1
+A
+1 -1
+A
+19 4
+A
+18 -2
+A
+13 15
+#4312
+paper stupid pet tricks~
+"stupid pet tricks"~
+A piece of paper that says "stupid pet tricks" on it.~
+~
+scroll 0 A
+12 'detect evil' 'cure blindness' 'cure disease' 'refresh'
+10 10 1175 G
+E
+trick tricks paper~
+1. Dog chases tail whenever audience claps.
+2. Dog eats rubber.
+3. Mouse jumps up when you yell the word banana
+4. Cat meows every time she hears Hardfloor's ravings.
+~
+#4313
+robe~
+a long flowing Jester's robe~
+The robe of the great jester lies here in a pile.~
+~
+armor G AK
+6 6 6 1 3
+13 120 977 P
+A
+18 2
+A
+19 -1
+A
+5 1
+A
+14 -10
+#4314
+snowcone~
+a snowcone~
+A delicious snowcone sits here, melting away.~
+~
+food 0 A
+2 2 0 0 0
+1 10 2 P
+#4315
+hot dog hotdog~
+a hot dog~
+A really scuzzy-looking hot dog lies here.~
+~
+food 0 A
+8 8 0 0 0
+1 10 6 P
+#4316
+popcorn~
+some popcorn~
+A small bag of popcorn lies here, uneaten.~
+~
+food 0 A
+3 3 0 0 0 
+1 5 5 P
+#4317
+apple jelly~
+a jelly apple~
+A jelly apple, covered in a thick, viscous candy jelly, is ready to coat
+your stomach.~
+~
+pill 0 1
+5 'bless' 'create food' 'refresh' 'cure light'
+1 10 10 P
+#4318
+potion lemming~
+a Lemming potion~
+The potion that lemmings use to stop from self-destructing sits here.~
+~
+potion ABG AO
+1 'stone skin' 'word of recall' 'change sex' 'haste'
+10 10 900 P
+#0
+
+
+#ROOMS
+#4303
+A Path To Somewhere~
+You walk along a small path away from the game booths, towards what seems
+like a long line to get into something. You can't quite tell what it is, yet,
+but it seems very interesting. The cheering from the bigtop seems to begin to
+quiet as you walk farther and farth away from it.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 C 2
+D0
+~
+~
+0 -1 4304
+D2
+~
+~
+0 -1 4408
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++                      in cold sunday, july'96                       +
++                            by jaceks                               +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#4304
+In Line~
+As you walk into the line, you can't help but wonder what you are getting in
+line for... A great commotion runs through the people as you hear the distant
+sound of laughing and playing while the line continues moving on and on, until
+you are all the way in front... Now... what were you doing here again? To the
+north, you smell some REALLY delicious food.
+~
+0 C 2
+D0
+~
+~
+0 -1 4326
+D1
+~
+~
+0 -1 4305
+D2
+~
+~
+0 -1 4303
+S
+#4305
+The Entrance to the Fun House~
+As you walk past the front of the line, you can see that you were waiting in
+line for the Circus's famous funhouse. The laughing sound is much stronger
+here, as you can see children running through the funhouse to the north and
+running out the exit, back to the entrance without a ticket.
+~
+0 0 1
+D0
+~
+~
+0 -1 4306
+D3
+~
+~
+0 -1 4304
+S
+#4306
+The Psychadelic Hallway~
+You pass through a long hallway, walking past mindless images painted onto
+the walls. Clowns frown and stare at you and others laugh and grin evilly
+at you with their eerie smiles. Images of melting clocks and surreality in
+its fullest fill your mind and confuse your sense of direction.
+~
+0 D 0
+D0
+~
+~
+0 -1 4307
+D2
+~
+~
+0 -1 4305
+S
+#4307
+The Ceiling Room~
+As you step into the chamber, the ceiling begins to come down on you and
+the floor begins to fall out from under you. You desperately run to the
+wall and cling to it for dear life. Finding that you can inch across the
+room by using a very small outcropping from every wall as solid ground.
+~
+0 D 0
+D1
+~
+~
+0 -1 4308
+D2
+~
+~
+0 -1 4306
+S
+#4308
+The Shaking Floor~
+As you are walking across the room, the floor begins to quiver and shake.
+You hold out your arms to regain your balance, and soon find that it is
+very hard to maintain a standing position, and you fall to your knees.
+Crawling across the room, you think that you can reach the exit.
+~
+0 D 0
+D1
+~
+~
+0 -1 4309
+D3
+~
+~
+0 -1 4307
+S
+#4309
+The Glass Floor~
+You are FALLING!
+You are FALLING!
+There is no ground under you!
+
+Or is there?
+You are walking across a floor of thick, sturdy glass, which almost had you
+fooled into thinking that you were about to plummet to your death.
+~
+0 D 0
+D0
+~
+~
+0 -1 4313
+D1
+~
+~
+0 -1 4312
+D2
+~
+~
+0 -1 4310
+D3
+~
+~
+0 -1 4308
+S
+#4310
+The Spinning Chamber~
+You walk into a huge cylindrical chamber, which soon begins a soft rumbling
+roar and starts to spin. Try as you might, you are constantly being drawn up
+to the top of the circle, and dropped... You try to run against the movement
+of the cylinder, and you get dizzy and fall.
+~
+0 D 0
+D0
+~
+~
+0 -1 4309
+D2
+~
+~
+0 -1 4311
+S
+#4311
+EXIT~
+A loudspeaker blasts,
+"Thank You. We hope you enjoyed the new Fun House!!! Send any positive
+feedback to the administrators of the Circus, and any negative feedback,
+you can stick up your... umm... mailbox, and send it directly to:
+The Circus Owner
+c/o The Circus
+Southern Path, BR 54321-8000"
+~
+0 0 1
+D3
+~
+~
+0 -1 4305
+S
+#4312
+The Hall of Mirrors~
+OH NO! You seem to be lost in a huge maze of identical mirrors.
+Every time you think that you have found the exit, you walk into a mirror
+and hurt your head. You soon get sick of your own reflection around every
+corner and your head begins to throb with immense pain from what you think
+might even be a concussion.
+~
+0 D 0
+D3
+~
+~
+0 -1 4309
+S
+#4313
+The Beginning of the Hall of Many Doors~
+You step into a long hallway, half expecting some sort of maniacal device
+or optical illusion to pop out at you and drive you insane, but are almost
+let down to see that aside from the IMMENSE amount of doors connected to this
+hall, this is a pretty normal place.
+~
+0 D 0
+D0
+~
+~
+0 -1 4317
+D1
+~
+~
+1 -1 4315
+D2
+~
+~
+0 -1 4309
+D3
+~
+~
+1 -1 4314
+S
+#4314
+The Clown Room~
+You enter a room painted all red. The Ceiling is a deep scarlet, and a thick,
+red liquid slowly drips onto your head. You can see some strange things on the
+ground... better take a closer look.
+~
+0 D 0
+D1
+~
+~
+1 -1 4313
+E
+ground~
+There is a half-dead cat on the ground with all of it's intestinal track cut
+out, lying in a dripping lump on the ground.~
+S
+#4315
+The Jester's Room~
+You enter the room, only to find that instead of strange colors or shapes,
+you only find distorted imaged of the famous athos and pathos masks all over
+the walls and ceilings. A derranged one, the jester must be. You can see
+a small plaque in the corner. There is also some sort of closet to the east.
+~
+0 D 0
+D1
+~
+~
+1 -1 4316
+D3
+~
+~
+1 -1 4313
+E
+plaque~
+This plaque awarded to Johnny Carson for his hosting the Tonight Show for
+many, many years.~
+S
+#4316
+The Jester's Closet~
+A small little closet houses...
+HEY!
+Look what that sicko keeps in here.
+~
+0 D 0
+D3
+~
+~
+1 -1 4315
+S
+#4317
+Along the Hallway~
+You keep walking along the hallway, wondering when it will end... There are
+thousands of doors on either side of you. You try one. Ooops... not a real
+door... You hurt your hand on a cheap painting. You try a few more. Empty
+rooms... You try a couple more... all locked or rusted shut. You wonder if
+there ARE any doors that you can enter.
+~
+0 CD 0
+D0
+~
+~
+0 -1 4320
+D1
+~
+~
+1 -1 4319
+D2
+~
+~
+0 -1 4313
+D3
+~
+~
+1 -1 4318
+S
+#4318
+Zero-G Room~
+As you enter this room, you fel weightless and soon float into the air
+around you. You are drawn upwards, upwards, until you bang your head on
+the ceiling. You find that you can move yourself around the room by using
+a swimming-like motion.
+~
+0 D 0
+D1
+~
+~
+1 -1 4317
+S
+#4319
+The Rubber Room~
+You walk in this room, only to be propelled against the far wall, and
+bounced back and forth between walls. You continue to bounce, trying to
+aim yourself towards the door to the west. You try and stop, but all efforts
+to do so seem futile. You continue to bounce...
+~
+0 D 0
+D3
+~
+~
+1 -1 4317
+S
+#4320
+The Southern Hedge Maze~
+You have entered the hegde maze's southern region. All you can see around
+you is a mixture of different shrubberies and bushes. There is no way to get
+through this thick layer of foliage, so the only way through is to find the
+exit.
+~
+0 0 2
+D0
+~
+~
+0 -1 4321
+D1
+~
+~
+0 -1 4320
+D2
+~
+~
+0 -1 4317
+D3
+~
+~
+0 -1 4320
+S
+#4321
+The Northern Hedge Maze~
+Upon entering the northern hedge maze, the mixture of different types of
+plants begins to vary more than before. You can now see different flowers
+and beautiful ivies growing all around you.
+~
+0 0 2
+D0
+~
+~
+0 -1 4322
+D1
+~
+~
+0 -1 4321
+D2
+~
+~
+0 -1 4320
+D3
+~
+~
+0 -1 4321
+S
+#4322
+The End of the Maze~
+You KNEW all that walking would pay off eventually! You have successfully
+navigated the hedge maze. Before you lies a strange metallic-looking room,
+but something seems strange about it...
+~
+0 CD 0
+D0
+~
+~
+1 -1 4323
+D1
+~
+~
+0 -1 4324
+D2
+~
+~
+0 -1 4321
+S
+#4323
+The Control Booth~
+You enter a room with blinking lights and sounds. Strange machinery lines
+every wall and knobs, buttons, and levers line the control panels of each
+machine. You can now see from where all of the illusions and tricks from
+the Fun House are created and controlled.
+~
+0 CD 0
+D2
+~
+~
+1 -1 4322
+S
+#4324
+On a Steel Bridge~
+You are walking along a narrow suspension bridge made of steel girders and
+iron bolts. You wonder if you are actually still inside of a fun house, as
+you look down and see a 2000 foot drop.
+~
+0 D 5
+D1
+~
+~
+0 -1 4325
+D3
+~
+~
+0 -1 4322
+S
+#4325
+Nearing the End~
+You think you are nearing the end as you can hear the clammering of the
+crowds back in the circus. You can almost make out the big top back to the
+south, and you can smell popcorn and cotton candy wafting through the swift,
+cooling breeze.
+~
+0 CD 5
+D2
+~
+~
+0 -1 4311
+D3
+~
+~
+0 -1 4324
+S
+#4326
+The Concessions Stand~
+You walk up to the concessions stand, the smell of all sorts of delicious
+foods and drinks fills your nostrils and lifts you up to a self-contained
+blissful haven of pleasure. You are SO tempted to buy something, but you
+hope that it won't give you a stomach ache like last time.... OWWWW...
+~
+0 D 1
+D2
+~
+~
+0 -1 4304
+S
+#0
+
+
+#RESETS
+* objects removed (no cars, planes, tv sets, cameras etc at Chicken's Den !):
+* #4304
+* camera polaroid~
+* a polaroid camera~
+* A camera with the word Polaroid (TM) on it lies here, ready to take a picture.~
+* ~
+* 5 AB AN
+* 0~ 0~ 0~ 7~
+* 5 0 0
+* A
+* 5 1
+* A
+* 19 2
+* A
+* 2 -1
+* #4305
+* polaroid picture~
+* a polaroid picture~
+* A polaroid picture lies here, blackmailing someone~
+* ~
+* 2 0 1
+* 10~ continual light~ ~ ~
+* 5 0 0
+*
+* this area has been converted to ROM 2.4 format by jaceks
+* this area is connected with:
+*  4303 A Path To Somewhere        <> 4408 The Entrance to the Freak (circus  )
+*
+* ver 1.00 by jaceks, Sun Aug  4 17:02:01 1996
+*
+* ver 1.01
+* - ABCD flags removed from the ticket-taker (thx for Paymon)
+* - amount of mob's gold decreased
+*                      jaceks, Tue Aug  6 03:07:03 MET DST 1996
+* 
+R 1 4312 2                   * Randomize The Hall of Mirrors
+*
+M 1 4313 1 4304 1            * an anxious little kid to On Line (12)
+E 1 4303 -1 17
+*
+M 1 4314 1 4304 1            * a nice mother to On Line (17)
+*
+M 1 4303 1 4305 1            *  the ticket-taker to The Entrance (17)
+*
+M 1 4306 1 4305 1            * the nice old man's boss to The Entrance (16)
+* E 1 4304 -1 16
+* G 1 4305 -1
+* G 1 4305 -1
+*
+M 1 4304 1 4306 1            * a little kid to The Psychadelic Hallway (12)
+*
+M 1 4305 1 4306 1            * a little kid to The Psychadelic Hallway (14)
+*
+M 1 4310 1 4307 1            * a little girl to The Ceiling Room (14)
+*
+M 1 4311 1 4308 1            * a little kid to The Shaking Floor (14)
+*
+M 1 4309 1 4309 1            * a clueless kid to The Glass Floor (13)
+*
+M 1 4308 1 4310 1            * a dizzy little kid to The Spinning Chamber (16)
+*
+M 1 4307 1 4311 1            * a mean little kid to EXIT (15)
+G 1 4306 -1
+*
+M 1 4312 1 4312 1            * a lost kid to The Hall of Mirrors (15)
+E 1 4307 -1 6
+E 1 4308 -1 16
+*
+O 1 4309 -1 4310             * some dropped money to The Spinning Chamber
+*
+M 1 4315 1 4314 1            * a really scary clown to The Clown Room (16)
+E 1 4310 -1 6
+*
+D 1 4313 3 1                 * The Beginning of the Hall of Many Doors Close West
+D 1 4315 3 1                 * The Jester's Room Close West
+D 1 4316 3 1                 * The Jester's Closet Close West
+*
+M 1 4317 1 4316 1            * Jay Leno to The Jester's Closet (12)
+E 1 4311 -1 6
+*
+M 1 4318 1 4316 1            * David 901 Letterman to The Jester's Closet (12)
+G 1 4312 -1
+*
+M 1 4316 1 4315 1            * Johnny Carson to The Jester's Room (14)
+O 1 4313 -1 4316               * a long flowing Jester's robe to The Jester's Closet
+*
+M 1 4319 2 4318 2            * a small child to Zero-G Room (13)
+*
+M 1 4319 2 4318 2            * a small child to Zero-G Room (13)
+O 1 4309 -1 4318               * some dropped money to Zero-G Room
+*
+M 1 4320 1 4319 1            * Bonkers T. Bobcat to The Rubber Room (14)
+*
+R 1 4320 3                   * Randomize The Southern Hedge Maze
+*
+M 1 4321 1 4320 1            * the Pope to The Southern Hedge Maze  (65 sic!)
+*
+M 1 4322 1 4321 1            * Don King to The Northern Hedge Maze (17)
+*
+R 1 4320 3                   * Randomize The Northern Hedge Maze
+*
+D 1 4323 2 1                     * The Control Booth Close South
+*
+M 1 4323 1 4323 1            * a man behind a curtain to The Control Booth (17)
+*
+M 1 4324 3 4324 3            * a lemming to On a Steel Bridge (12)
+G 1 4318 -1
+M 1 4324 3 4324 3            * a lemming to On a Steel Bridge (12)
+G 1 4318 -1
+M 1 4324 3 4324 3            * a lemming to On a Steel Bridge (12)
+G 1 4318 -1
+*
+M 1 4325 1 4326 1            * the old cashier to The Concessions Stand 
+G 1 4315 -1
+G 1 4314 -1
+G 1 4316 -1
+G 1 4317 -1
+S
+
+
+#SHOPS
+4325 0 0 0 0 0 100 100 0 23   * I know a guy like this in Astroland in Coney Island... blech.... never get food from him. trust me
+0
+
+
+#SPECIALS
+M  4306 spec_thief                      the nice old man's boss
+M  4307 spec_thief                      a mean little kid
+M  4315 spec_cast_mage                  a really scary clown
+M  4316 spec_cast_undead                        Johnny Carson
+M  4321 spec_cast_adept                 the Pope
+M  4322 spec_cast_judge                 Don King
+M  4323 spec_janitor                    a man behind a curtain
+M  4324 spec_fido                       a cute little stupid lemming
+M  4325 spec_cast_undead                        the old cashier
+S
+
+
+#$

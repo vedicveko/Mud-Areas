@@ -1,0 +1,2908 @@
+#AREA
+@@BGarmaine@@N~
+K none~
+L @@N{@@eA@@gD@@eE@@gP@@eT@@N}~
+N 130
+I 120 120
+V 30000 30099
+X 0
+F 15
+U @@gA blast of @@lf@@gr@@li@@lg@@gi@@ld@@g air flows through the room.@@N~
+O darksol~
+R darksol~
+W darksol~
+#ROOMS
+#30000
+@@lA Snowy Path@@N~
+@@gIt just gets harder and harder to walk through the snow, and it seems to be
+getting colder and colder.  Thoughts like sitting by a fire and sleeping in a
+nice cozy bed are comforting at times like these, but going forward is
+essential.  Vague sounds of what may be a town can be heard, but a town way
+out here?@@N
+~
+81989 5
+D0
+~
+~
+0 -1 30001
+D2
+~
+~
+0 0 7310
+E
+snow~
+@lThe snow is very deep, and very cold.@N
+~
+E
+@@lThe snow is very deep, and very cold.@@N
+~
+~
+S
+#30001
+@@lThe Gates of Garmaine@@N~
+@@gThese are the grand gates of Garmaine.  There is usually a guard positioned
+here to stop people from entering, because you can't trust anybody during
+times of war.  There is a snow covered chair near the left gate, with some
+footprints around it.@@N
+~
+81985 5
+D0
+~
+gates~
+225 30099 30002
+D2
+~
+~
+0 -1 30000
+E
+gates~
+@@lThe top of the gates cannot be seen through the snow, but it looks as if they are very tall.@@N~
+E
+chair~
+@@lThe chair is covered with a thin layer of snow, so someone must use it regularly.@@N~
+E
+footprints~
+@@lThe footprints are very wide and deep.  The owner of those feet must be a giant.@@N~
+S
+#30003
+@@lThe Road through Garmaine@@N~
+@@gThere seems to be even more wind and snow here than in other places, but
+there is still a small coating of snow on the ground.  The front of the
+building must be right here, but the snow is so thick, hardly anything can be
+seen clearly.  There may be a door here, and there may be some light coming
+from the building.@@N
+~
+81985 5
+D0
+~
+door~
+1 -1 30004
+D1
+~
+~
+0 0 30002
+D3
+~
+~
+0 -1 30031
+E
+ground~
+@@lThere is only a small coating of snow on the ground.@@N~
+E
+building~
+@@lIt is quite possibly a building.@@N~
+E
+door~
+@@lIt appears to be a door, but may just be a tree or something.@@N~
+S
+#30004
+@@lThe Garmaine Training Center@@N~
+@@gThis building is quite large, and there appears to be a second floor, but
+there aren't any stairs visible.  There is a nice set of french doors to the
+north, where some odd noises appear to be coming from.  There is also a sign
+feebly hanging on a wall.@@N
+~
+81928 1
+D0
+~
+french~
+1 -1 30005
+D2
+~
+~
+1 0 30003
+E
+sign~
+@@lWelcome to the Garmaine Training Center!  Prepare yourself before you venture out into the mines and beyond.@@N~
+E
+wall~
+@@lThere is a sign hanging here.@@N~
+E
+door~
+@@lThe door is made out of a strong wood, probably oak.@@N~
+E
+french~
+@@lThe french doors are made out of a pretty cherry.@@N~
+S
+#30005
+@@lThe Garmaine Guild Room@@N~
+@@gPosted neatly on the walls are ribbons and other awards, most likely won at
+a fighting tournament of some kind.  There are shelves on the walls also, each
+overflowing with trophies.  All of the have the name 'Martin' written on them,
+who is the likely guildmaster.@@N
+~
+81928 1
+D2
+~
+~
+1 0 30004
+E
+walls~
+@@lThere are ribbons and many, many other awards on them.  What champion won them all?@@N~
+E
+shelves~
+@@lLike the walls, the shelves are littered with awards and trophies.@@N~
+S
+#30008
+@@lThe Road through Garmaine@@N~
+@@gThis part of the road continues north, where vague shapes can be seen.  As
+before, there is a small coating of snow on the ground, but the storm is still
+raging on.  Directly to the east is a building of some kind, but it looks very
+old and worn down.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30006
+D1
+~
+door~
+1 -1 30009
+D3
+~
+~
+0 -1 30002
+E
+road~
+@@lThere isn't much snow on the ground, as before.@@N~
+E
+building~
+@@lEven though it is not clearly visible, it looks as if time as taken its toll on this building.@@N~
+S
+#30009
+@@lA Filthy Home@@N~
+@@gFrom the looks of things, not many people have come through this building
+recently.  There are books lying all over the ground, and there is a thick
+layer of dust on everything.  The floor is soggy from the the melting snow
+overhead.  There appears to be another room east, but it may not be fit to
+enter.@@N
+~
+81992 1
+D1
+~
+~
+0 -1 30010
+D3
+~
+~
+1 0 30008
+E
+books~
+@@lThere are many books lying on the ground, none of which seem important.@@N~
+E
+dust~
+@@lThe dust is thick and disgusting.  Breathing in all of this can't be good.@@N~
+E
+floor~
+@@lThe floot makes a squishy sound as you walk over it.@@N~
+S
+#30010
+@@lA Filthy Home@@N~
+@@gThis part of the building may have been a bedroom at one time.  There is
+water dripping from the ceiling again, right onto the bed.  Old clothing is
+scattered throughout the room, and some other items are also.  There is a
+small fireplace with some burnt wood in it here also.@@N
+~
+81992 1
+D3
+~
+~
+0 0 30009
+E
+water~
+@@lDrip, drip, drip.@@N~
+E
+clothing~
+@@lThere are a few shirts and some pants.@@N~
+E
+items~
+@@lThere is a small pad of paper, a rock, and a pile of snow here.@@N~
+E
+fireplace~
+@@lThere are five or six pieces of wood in it.@@N~
+E
+wood~
+@@lThe wood appears wet due to water coming down the chimney.@@N~
+E
+chimney~
+@@lThe chimney looks as if it wants to collapse right now.@@N~
+S
+#30007
+@@lThe Armour Shop@@N~
+@@gThis is indeed an armour store.  There are helmets, and leggings, and
+sleeves lying on the ground and some is hanging on the walls.  It is warm
+inside, so somebody must run the place.@@N
+~
+81928 1
+D1
+~
+~
+1 1 30006
+E
+helmets~
+@@lThere are viking battle helmets, and some other various pieces.@@N~
+E
+leggings~
+@@lSome of the leggings look to be made out of human flesh...@@N~
+E
+sleeves~
+@@lThe sleeves are made out of some strong, rock-like material.@@N~
+E
+walls~
+@@lThere is some armour hanging on the walls.@@N~
+E
+ground~
+@@lThere are various pieces of armour on the ground.@@N~
+S
+#30012
+@@lA Well-Kept Home@@N~
+@@gThis house is very well kept, maybe because it is still in use.  The
+mysterious shimmering of the snow can be seen out the window, and there is a
+nice fire going in the fireplace.  This house has only one room, but the owner
+must still live comfortably.@@N
+~
+81928 0
+D3
+~
+~
+1 0 30011
+E
+fireplace~
+@@lThe fire in the fireplace is very warm.@@N~
+S
+#30013
+@@lA Luxurious Residence@@N~
+@@gEven though the house itself is quite small, the owner must be rather
+wealthy.  There are dozens of crystal figurines and knick-knacks around the
+room, and the paintings on the wall look wierd enough to be valuable.  The
+furniture is apholstered with plush velvet, wood floor is polished until it
+shines.@@N
+~
+81928 0
+D1
+~
+~
+1 0 30011
+E
+figurines~
+@@lThere are many different animals protrayed.@@N~
+E
+crystal~
+@@lThere are many different animals protrayed.@@N~
+E
+knick-knacks~
+@@lThere are a few small carriages, and buildings.@@N~
+E
+paintings~
+@@lThe artist must not have been able to see very well, for her nose is on the side of her head.@@N~
+E
+furniture~
+@@lThe furniture is very soft.@@N~
+E
+wood~
+@@lThe wood is very shiny, and slippery.@@N~
+S
+#30014
+@@lThe Road through Garmaine@@N~
+@@gThere is a staircase here, and it seems to lead up to a building.  There
+are even more buildings in all directions, and the road is completely bare of
+all snow.  The snow, however, is more thick in the air than anywhere else.@@N
+~
+81985 5
+D1
+~
+~
+0 -1 30023
+D2
+~
+~
+0 -1 30011
+D3
+~
+~
+0 -1 30015
+D4
+~
+~
+0 -1 30019
+E
+snow~
+@@lEvery piece of snow disappears before it reaches the ground.@@N~
+E
+staircase~
+@@lThe staircase is steep, and looks old.@@N~
+E
+road~
+@@lThe road is completely bare of snow.@@N~
+S
+#30015
+@@lThe Road through Garmaine@@N~
+@@gThere is a sign hanging on one of the buildings here, and the snow seems be
+trying to avoid hitting it.  The path continues to the west, and back to the
+east.@@N
+~
+81985 5
+D0
+~
+weapon~
+1 -1 30016
+D1
+~
+~
+0 -1 30014
+D3
+~
+~
+0 -1 30017
+E
+sign~
+@@lThe Garmaine Weapon Shop@@N~
+E
+buildings~
+@@lThere are a few buildings around, most have signs hanging in front of them.@@N~
+E
+path~
+@@lThe path is virtually free of snow, and of all moisture.@@N~
+S
+#30016
+@@lThe Weapon Shop@@N~
+@@gThis is the weapon shop of Garmaine.  Swords and daggers hang on the wall,
+while other heavier weapons such as battle axes adorn the ground.  There is a
+small counter to do business on, and a fire in the fireplace.@@N
+~
+81928 1
+D2
+~
+~
+1 0 30015
+E
+swords~
+@@lThere are a few claymores and katanas.@@N~
+E
+daggers~
+@@lThe are meek in comparison to some of the other weapons here.@@N~
+E
+axes~
+@@lThe axes seem perfect in every way, as if forged by a god.@@N~
+E
+counter~
+@@lThe counter is made of strong wood.  There are some nicks and slashes in it.@@N~
+E
+fire~
+@@lThe fire is warm and cozy, and it crackles and pops.@@N~
+E
+fireplace~
+@@lThere are more weapons mounted on the fireplace.@@N~
+E
+weapons~
+@@lThere are swords, daggers, axes, and other various types of weapons.@@N~
+S
+#30017
+@@lThe Road through Garmaine@@N~
+@@gFor some reason, this part of the path is thrown into shadows, but there
+doesn't appear to be a reason why.  There is a small building, more like a
+shack here, with a sturdy wooden door.  The path ends here, but continues back
+east.@@N
+~
+81985 5
+D0
+~
+shadowy~
+1 -1 30018
+D1
+~
+~
+0 -1 30015
+E
+path~
+@@lThe path is dark, from the shadows strewn about.@@N~
+E
+building~
+@@lThe building lies in the darkest shadow of all.@@N~
+E
+door~
+@@lThe door itself is very shadowy, almost like it is where the shadows come from.@@N~
+E
+windows~
+@@lThe windows, if that is what they are, are completely dark.@@N~
+E
+fire~
+@@lThere must be a fire here, but one cannot be seen.@@N~
+S
+#30018
+@@lWithin the Shadows@@N~
+@@gThe entire building is dark, even the windows to the outside.  The sounds
+of a fire can be heard, but one cannot be seen.  The door south is open, but
+nothing can be seen through it.@@N
+~
+81929 1
+D2
+~
+~
+1 0 30017
+E
+fire~
+@@lThere must be a fire here, but one cannot be seen.@@N~
+E
+windows~
+@@lThe windows, if that is what they are, are completely dark.@@N~
+S
+#30021
+@@lThe Top of the Staircase@@N~
+@@gThere is a little platform here, which does indeed step into a store.  There
+is a small sign swinging in the wind, and the door is slightly ajar.  There is
+a warm glow coming from the door, which seems to beckon for people to come in
+@@N
+~
+81985 5
+D0
+~
+relic~
+1 -1 30022
+D5
+~
+~
+0 0 30020
+E
+sign~
+@@lWelcome to my Relic Shop.@@N~
+E
+platform~
+@@lThe platform seems very unstable, like it could break at any moment.@@N~
+E
+door~
+@@lThe door has various relics etched into it.@@N~
+S
+#30022
+@@lThe Relic Shop@@N~
+Suprisingly, the inside of the building is a lot nicer than the stairs leading
+up to it.  The wood seems very strong, but it is easily just as old.  There is
+a warm fire in the fireplace, and there is a small counter here.@@N
+~
+81928 0
+D2
+~
+~
+1 0 30021
+E
+wood~
+@@lThe wood has a beautiful silver color, a sign of maturity and age.@@N~
+E
+fire~
+@@lThe fire crackles and pops, it's a relief during a cold night like this.@@N~
+E
+fireplace~
+@@lThe fireplace is a simple one, just enough to stop the building from going up in fire.@@N~
+E
+counter~
+@@lThe counter has various relics on it, most likely for sale or trade.@@N~
+S
+#30019
+@@lOn the Staircase@@N~
+@@gStepping onto the stairs, the wood begins to creak and moan under the
+weight.  Who knows how long they have been here, or how long they will
+continue to be here.  Looking up the stairs, a small building can be seen.@@N
+~
+81985 5
+D4
+~
+~
+0 -1 30020
+D5
+~
+~
+0 -1 30014
+E
+stairs~
+@@lThe stairs are cracked and crumbling.@@N~
+E
+building~
+@@lFrom this distance, not much can be noticed about it.@@N~
+S
+#30020
+@@lOn the Staircase@@N~
+@@gFrom this distance, more of the building is noticeable.  Through the snow,
+the outline of what may be a sign can be seen, which swings violently back and
+forth in the wind.  There are railings made of the same wood here, probably to
+stop people from blowing off the stairs.@@N
+~
+81985 5
+D4
+~
+~
+0 -1 30021
+D5
+~
+~
+0 -1 30019
+E
+buildine~
+@@lIt seems like a small store, but maybe somebody likes signs.@@N~
+E
+outline~
+@@lIt is the right size for a sign, but the snow is too thick to be sure.@@N~
+E
+sign~
+@@lIt is the right size for a sign, but the snow is too thick to be sure.@@N~
+E
+railings~
+@@lWhen touched, they almost give way.  They seem to have rotted over the years.@@N~
+S
+#30023
+@@lThe Road through Garmaine@@N~
+@@gThere appears to be a home here.  Through the window, a small fire can be
+seen, with some furniture around it.  Down the path another home can be seen,
+and then the path justs continues past it.@@N
+~
+81985 1
+D0
+~
+door~
+1 -1 30024
+D1
+~
+~
+0 -1 30025
+D3
+~
+~
+0 -1 30014
+E
+home~
+@@lThe home is large in comparison to others here.@@N~
+E
+window~
+@@lThe window is spotless, even on the outside.@@N~
+E
+path~
+@@lThe path is firm and dry, almost like it wasn't snowing at all.@@N~
+S
+#30011
+@@lThe Road through Garmaine@@N~
+@@gContinuing down the road, the outline of more buildings can be seen through
+the snow.  There are buildings on either side of the road here, and they look
+like residences.  Up ahead there appears to be a steep staircase, but what it
+leads to isn't distinguishable.@@N
+~
+81985 5
+D0
+~
+~
+0 0 30014
+D1
+~
+oak~
+1 -1 30012
+D2
+~
+~
+0 0 30006
+D3
+~
+pine~
+1 -1 30013
+E
+buildings~
+@@lThere are two doors here, one made of pine, the other of oak.@@N~
+E
+road~
+@@lThe road is almost completely bare of snow.@@N~
+E
+staircase~
+@@lIt appears to be a staircase, but it might be something else.@@N~
+S
+#30002
+@@lThe Road through Garmaine@@N~
+@@gThere is a road here, which is visible only because there is only a thin
+layer of snow here, even though the snow is still coming down just as hard.
+It is hard to imagine people living in a desolate place like this, but
+anything is possible.  The outline of a building can barely be recognized to
+the west, and more of this road can be seen to the east.@@N
+~
+81985 5
+D1
+~
+~
+0 -1 30008
+D2
+~
+gates~
+225 30099 30001
+D3
+~
+~
+0 -1 30003
+E
+road~
+@@lThe road is almost bare, which is strange considering the snowfall right now...@@N~
+E
+snow~
+@@lThe snow is coming down very hard.@@N~
+E
+building~
+@@lIt looks as if there are two stories, but the snow distorts the image.@@N~
+E
+outline~
+@@lIt looks as if there are two stories, but the snow distorts the image.@@N~
+S
+#30006
+@@lThe Road through Garmaine@@N~
+@@gThis appears to be the main part of town.  There is barely any snow on the
+ground, and the road can even be seen in a few places.  The snow is still
+coming down just as hard, but before most if it has the chance to reach the
+ground, it shimmers, then disappears.  There is also a door directly west of
+here.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30011
+D2
+~
+~
+0 -1 30008
+D3
+~
+armour~
+1 1 30007
+E
+door~
+@@lThe door seems very strong, and has some armour depicted on it.@@N~
+E
+snow~
+@@lThere is a thin layer of snow on the ground.@@N~
+E
+ground~
+@@lThe road is a simple dirt path.@@N~
+E
+road~
+@@lThe road is a simple dirt path.@@N~
+S
+#30024
+@@lA Comfortable Home@@N~
+@@gThis home is indeed very comfortable.  There are plush chairs and couches
+everywhere, and the fire is very warm and cozy.  There are paitings hanging on
+the walls, and some books lying around.@@N
+~
+81928 1
+D2
+~
+~
+1 -1 30023
+E
+chairs~
+@@lThe chairs are very soft.@@N~
+E
+couches~
+@@lThe couches are extremely soft, like the chairs.@@N~
+E
+fire~
+@@lThe fire glows a pretty red color.@@N~
+E
+paintings~
+@@lThey must be paintings of the landscape around Garmaine.@@N~
+E
+walls~
+@@lOn them are some paintings.@@N~
+E
+books~
+@@lThere is a Bible, and a book on mining.@@N~
+S
+#30025
+@@lThe Road through Garmaine@@N~
+@@gAs the path continues, it can be seen that it turns sharply up ahead,
+almost like it is heading in the mountain.  There is another home here, and
+some faint noises can be heard from further down the path.@@N
+~
+82241 5
+D0
+~
+door~
+1 -1 30026
+D1
+~
+~
+0 -1 30027
+D3
+~
+~
+0 -1 30023
+E
+home~
+@@lThere is a strong looking door on the front of the building.@@N~
+E
+path~
+@@lThe path is well worn in this part of town.@@N~
+E
+mountain~
+@@lIt is big enough to be a mountain, but just a vague outline is all that can be seen through the snow.@@N~
+S
+#30026
+@@lA Lavish Home@@N~
+@@gThis home must be owned by someone with lots of money.  All of the
+furniture is covered in fine silk, there is a beautiful ornamental fireplace,
+and everything is extremely clean.  The only thing that looks out place is the
+rusty broadsword hanging on the wall.@@N
+~
+81928 1
+D2
+~
+~
+1 0 30025
+E
+furniture~
+@@lThe furniture is very soft, and slippery too.@@N~
+E
+fireplace~
+@@lThe fireplace is made out of ivory, it seems.@@N~
+E
+broadsword~
+@@lThe broadsword has blood stains on it, not rust...@@N~
+S
+#30027
+@@lThe Road to the Mines@@N~
+@@gThe path does indeed travel up to a moutain, but there seems to be a mine
+shaft up ahead.  There are no more buildings along the path, but louder sounds
+can now be heard seemingly from within the mines.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30028
+D3
+~
+~
+0 -1 30025
+E
+path~
+@@lThe path is very poorly maintained here.@@N~
+E
+mine~
+@@lThe shaft looks just like a black hole from here.@@N~
+E
+shaft~
+@@lThe shaft looks just like a black hole from here.@@N~
+S
+#30028
+@@lThe Road to the Mines@@N~
+@@gAs the path gets closer and closer to the mineshaft, stranger and stranger
+noises can be heard from within the mines.  There are many footprints in the
+path here, but they are headed the other way.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30029
+D2
+~
+~
+0 -1 30027
+E
+path~
+@@lThe path is covered with footprints.@@N~
+E
+footprints~
+@@lFootprints are a pretty common thing, but why so many in the other direction?@@N~
+S
+#30031
+@@lThe Road outside Garmaine@@N~
+@@gThe path seems to be heading away from the town, but to what?  The outline
+of a building can be seen back the other way, but there appears to be nothing
+ahead.  There is just snow and coldness.@@N
+~
+81985 5
+D1
+~
+~
+0 -1 30003
+D3
+~
+~
+0 -1 30032
+E
+path~
+@@lThe path seems to have more snow on it now.@@N~
+E
+outline~
+@@lThe outline is very faint through the snow.@@N~
+E
+building~
+@@lThe outline of a building can barely be seen through the snow.@@N~
+S
+#30032
+@@lThe Road outside Garmaine@@N~
+@@gAs the path continues, the weather seems to worsen.  The wind has become
+like whips, and is cracking at everything around.  A huge dark object seems to
+fade in out of the snow, but there are no apparent signs of life.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30033
+D1
+~
+~
+0 -1 30031
+E
+path~
+@@lThe snow on the path gets deeper and deeper with every step.@@N~
+E
+object~
+@@lThe object is very large, like a rock wall.@@N~
+S
+#30033
+@@lThe Road outside Garmaine@@N~
+@@gDark objects seems to enclose the path, which channel the wind and snow
+more powerfully than anywhere else.  The wind howls like werewolves after a
+kill, and the cold stings like thousands of tiny needles.@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30034
+D2
+~
+~
+0 -1 30032
+E
+objects~
+@@lThe objects are tall and massive, almost like rock walls.@@N~
+E
+path~
+@@lThe path doesn't seem protected like back in town, for there is an abundance of snow on it.@@N~
+S
+#30034
+@@lA Small Cave@@N~
+@@gThe path seems to have led into a small cave, only a few feet deep, so
+there is momentary shelter from the weather.  Looking around, nothing but rock
+can be seen, except for a few nooks and crannies.  Looking back, all that can
+be seen is bitter cold and despair.@@N
+~
+81985 5
+D0
+~
+shadow~
+225 -1 30035
+D2
+~
+~
+0 -1 30033
+E
+path~
+@@lThe path has led into this cave.@@N~
+E
+cave~
+@@lThere are a few nooks and crannies, but that's about it.@@N~
+E
+nooks~
+@@lThere seems to be something like a lever here.@@N~
+E
+crannies~
+@@lThere seems to be something like a lever here.@@N~
+E
+lever~
+@@lAs you pull on the lever, a small door appears!@@N~
+E
+door~
+@@lThe door has a black figure on it.@@N~
+S
+#30029
+@@lThe Road to the Mines@@N~
+@@gThe sounds coming from the mines are becoming clearer and clearer with each
+step.  They sound like the cries of battle, but it's just a mine shaft.  There
+are, however, a barrage of footprints in the ground heading toward Garmaine
+@@N
+~
+81985 5
+D0
+~
+~
+0 -1 30030
+D2
+~
+~
+0 -1 30028
+E
+footprints~
+@@lThere must be hundreds of them.@@N~
+S
+#30030
+@@lThe Entrance to the Mines@@N~
+@@gBehold, the entrance to the mineshaft.  There are periodic gusts of wind
+blowing out of it, all extremely freezing.  There are numerous sounds coming
+from within, but from and unknown origin.  The inside of the shaft is
+completely black, so nothing can be seen inside.@@N
+~
+81985 5
+D0
+~
+~
+0 0 30056
+D2
+~
+~
+0 -1 30029
+E
+shaft~
+@@lThe shaft looks like a neverending pit, turned sideways.@@N~
+E
+mineshaft~
+@@lThe shaft looks like a neverending pit, turned sideways.@@N~
+S
+#30035
+@@lIn the Mines@@N~
+@@gThe tunnel has seemed to stop here.  The walls around here are carved
+perfectly smooth, and a large dome has been carved into the ceiling.  There is
+however, a small hairline crack in one of the walls.@@N
+~
+81993 5
+D2
+~
+~
+225 0 30034
+D3
+~
+~
+0 -1 30036
+E
+walls~
+@@lThe walls are carved exceptionally smooth.@@N~
+E
+dome~
+@@lThe dome extends far overhead.  It is spectacular.@@N~
+E
+crack~
+@@lThe crack forms a rectangle in the wall.@@N~
+S
+#30036
+@@lIn the Mines@@N~
+@@gSuprisingly, the temperature has risen, and it has risen a lot.  There must
+be something nearby giving off a lot of heat, or something was here recently.
+The ice on the walls is melting, and there are a few puddles on the ground.@@N
+
+~
+81993 5
+D0
+~
+~
+0 -1 30037
+D1
+~
+~
+0 -1 30035
+E
+walls~
+@@lThe ice on the walls is melting rapidly.@@N~
+E
+puddles~
+@@lThe water in the puddles is quite warm.@@N~
+E
+ground~
+@@lThere are a few puddles in the ground here.@@N~
+S
+#30037
+@@lIn the Mines@@N~
+@@gCold cannot describe the temperature here.  Just moving is painful, and it
+doesn't seem that the temperature will be rising any time soon.  The walls are
+coated with thick ice, which gleams in the light.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30038
+D2
+~
+~
+0 -1 30036
+S
+#30038
+@@lIn the Mines@@N~
+As the tunnel continues, it begins to turn westardly.  The walls are carved
+exceptionally smooth, as well as the ceilings.  The air keeps getting much
+colder though.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30039
+D3
+~
+~
+0 -1 30037
+S
+#30039
+@@lIn the Mines@@N~
+@@gThere more than enough room stand upright in this part of the tunnel, and
+it seems to get even wider to the south.  The walls are carved very smooth
+here also.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30040
+D2
+~
+~
+0 -1 30038
+E
+walls~
+@@lThe walls seems to be coated in ice, but underneath the ice appears to be smooth as well.@@N~
+S
+#30040
+@@lIn the Mines@@N~
+@@gThe size of the tunnel is now extremely small, with just barely a crawl
+space to walk through.  Up further, though, it looks as if the tunnel is
+getting larger.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30041
+D2
+~
+~
+0 -1 30039
+S
+#30041
+@@lIn the Mines@@N~
+@@gAs the tunnel continues to narrow, as does the temperature decrease.  One
+could not think that the temperature could go below that of the rest of the
+mines, but it has, almost to the point that anything that tries to move, is
+frozen solid.  The tunnel continues in both directions.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30042
+D2
+~
+~
+0 -1 30040
+S
+#30042
+@@lIn the Mines@@N~
+@@gThe tunnel seems to get smaller here, and more and more jagged.  It seems
+as if hundreds of daggers are protruding from them, wanting to stab into
+anyone who walks by.  If the tunnel continues to shrink, that's probably what
+will happen.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30043
+D3
+~
+~
+0 -1 30041
+S
+#30043
+@@lIn the Mines@@N~
+@@gAs the tunnel continues, more of these horribly carved tunnels continue as
+well.  The walls are extremely jagged, evidence that hardly any care was taken
+when making it, unlike back in the large chamber.  The tunnel turns, the
+continues.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30044
+D2
+~
+~
+0 -1 30042
+E
+walls~
+@@lThe walls are almost razor sharp.@@N~
+S
+#30044
+@@lIn the Mines@@N~
+@@gAs the tunnel begins, it is clear that not much time was taken in creating
+this tunnel.  The height of the tunnel is uneven, showing a careless manner in
+carving out the ceiling.  The walls are not an even distance apart either.
+Maybe something hurried the miners to make this tunnel.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30045
+D3
+~
+~
+0 -1 30043
+E
+ceiling~
+@@lThe ceiling is rather high in some parts, but too low in others.@@N~
+E
+walls~
+@@lIn some places, it's quite a squeeze to fit through.@@N~
+S
+#30045
+@@lIn a Large Chamber@@N~
+@@gFrom this part of the chamber, another tunnel branches off into darkness.
+The ceilings are almost low enough to jump and reach, but not quite.  The
+walls are also jagged here.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30046
+D1
+~
+~
+0 -1 30051
+D3
+~
+~
+0 -1 30044
+E
+ceilings~
+@@lThe ceilings are low and jagged.@@N~
+E
+walls~
+@@lUnlike before, the walls are poorly carved, but still bitterly cold to the touch.@@N~
+S
+#30051
+@@lIn a Large Chamber@@N~
+@@gThere ceiling of the chamber is visible now, but still extremely high.
+They must angle down and away from the center of the chamber.  As like the
+rest of the chamber, the walls are perfectly smooth, and freezing cold.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30050
+D3
+~
+~
+0 -1 30045
+E
+ceiling~
+@@lFrom this distance, it looks as if the ceilings are as smooth as the walls.@@N~
+E
+walls~
+@@lThe walls seem to be the source of the great cold of the mines...@@N~
+S
+#30046
+@@lIn a Large Chamber@@N~
+@@gThis side of the chamber seems to be colder than the other side, even
+though there is only a difference of a few feet.  The chamber continues to the
+north, and there seems to be a small tunnel heading off of the tunnel to the
+south.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30047
+D1
+~
+~
+0 0 30050
+D2
+~
+~
+0 -1 30045
+S
+#30050
+@@lIn a Large Chamber@@N~
+@@gThe chamber is quite large, and it's amazing how people could have carved
+out such a large room.  The ceilings height is out of sight, and the walls are
+perfectly smooth, unlike the walls before.  There is nothing in the chamber,
+but more tunnels branch off from it.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30048
+D1
+~
+~
+0 -1 30052
+D2
+~
+~
+0 -1 30051
+D3
+~
+~
+0 -1 30046
+E
+ceilings~
+@@lThe ceilings are too high to be seen, I'm afaid.@@N~
+E
+walls~
+@@lThe walls are perfectly smooth, like ice, and very cold.@@N~
+S
+#30052
+@@lIn the Mines@@N~
+@@gDirectly west is a large chamber.  There are many things from within that
+sparkle from the light.  From here, it looks as if the room has immense
+proportions, but there doesn't look like anything is inside.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30053
+D3
+~
+~
+0 -1 30050
+S
+#30048
+@@lIn a Large Chamber@@N~
+@@gA small tunnel branches of the chamber here, and there is another tunnel to
+the south.  Looking into the tunnel, the walls become jagged, and the ceiling
+extremely low.  A freezing blast of air flows from the tunnel.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30049
+D2
+~
+~
+0 -1 30050
+D3
+~
+~
+0 0 30047
+E
+walls~
+@@lThe walls are extremely rough and jagged.@@N~
+E
+ceiling~
+@@lThere is barely enough room to walk here.@@N~
+S
+#30047
+@@lIn a Large Chamber@@N~
+@@gThis appears to be the largest part of the chamber.  The walls are
+incredibly smooth, and they seem to rise without bounds.  More of the tunnel
+is in every direction, and there is a tunnel heading off of the chamber to the
+east.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30048
+D2
+~
+~
+0 -1 30046
+S
+#30053
+@@lIn the Mines@@N~
+@@gAs the tunnel turns, a large chamber of some sorts can be seen.  It doesn't
+appear to contain anything, but from this distance one could not be sure.
+There seems to be some things sparkling ahead, also.@@N
+~
+81993 5
+D2
+~
+~
+0 -1 30054
+D3
+~
+~
+0 -1 30052
+S
+#30054
+@@lIn the Mines@@N~
+@@gGoing further down the tunnel, it continues to grow in size, and the wear
+on the ground is becoming more evident.  There must be something of importance
+ahead.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30053
+D2
+~
+~
+0 -1 30055
+S
+#30055
+@@lIn the Mines@@N~
+@@gThe mineshaft suddenly gets larger here, with much higher ceilings and much
+wider tunnels.  There is a thick coating of mud on the ground, with many
+footprints in it.  Ahead the tunnel turns, but nothing further can be noticed.
+@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30054
+D1
+~
+~
+0 -1 30056
+E
+ceiling~
+@@lThe ceiling is very high here, almost non-existent.@@N~
+E
+ground~
+@@lThe ground has a thick layer of mud on it.@@N~
+S
+#30056
+@@lIn the Mines@@N~
+@@gThis is the begging of the mines.  Tunnels branch off in either direction,
+and nothing can be seen from within.  All that can be heard are distant
+screams and other sounds.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30057
+D2
+~
+~
+0 -1 30030
+D3
+~
+~
+0 -1 30055
+S
+#30057
+@@lIn the Mines@@N~
+@@gThis part of the tunnel is well worn.  The walls and ceiling are jagged,
+showing the carelessness of the miners.  There are a lot of footprints in the
+mud, in both directions, and some sparkling can be seen up ahead.@@N
+~
+82249 5
+D2
+~
+~
+0 -1 30058
+D3
+~
+~
+0 -1 30056
+E
+walls~
+@@lThey are almost sharp enough to cut flesh.@@N~
+E
+ceiling~
+@@lThe ceiling is low, posing a threat for those who are tall.@@N~
+E
+footprints~
+@@lThe footprints indicate heavy traffic.@@N~
+S
+#30058
+@@lIn the Mines@@N~
+@@gThe reason for the sparkling before is quite evident here.  There are many,
+many diamonds sticking out of the walls and ceiling.  They sparkle in the
+light like stars at night, trully a beautiful scene.  Even more sparkling can
+be scene further down the tunnel.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30057
+D1
+~
+~
+0 -1 30059
+E
+diamonds~
+@@lThe diamonds glitter in the light.@@N~
+E
+walls~
+@@lThe walls are covered with many diamonds.@@N~
+E
+ceiling~
+@@lThe ceiling is low, with many jagged diamonds protruding from it.@@N~
+S
+#30059
+@@lA Small Chamber.@@N~
+@@gThere has been a small chamber dug out of the mountain here.  Hundreds of
+diamonds poke there way through the rock, glistening in the light.  For some
+reason, the digging stopped right here though.@@N
+~
+81993 5
+D3
+~
+~
+0 -1 30058
+E
+diamonds~
+@@lThe beautiful diamonds sparkle in the light.@@N~
+E
+rock~
+@@lThere seem to be more diamonds than rock, actually.@@N~
+S
+#30049
+@@lIn the Mines@@N~
+@@gAt this point, the mines seem to be headed down further into the mountain.
+There is a steep grade in the ground, and torrential blasts of cold air are
+coming from the passage.  Something ominous seems near.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30060
+D2
+~
+~
+0 -1 30048
+E
+ground~
+@@lThe ground is angled sharply downward.@@N~
+S
+#30060
+@@lFurther into the Mines@@N~
+@@gThis tunnel looks as if it continues deep into the mines, for an ominous
+winds is coming from within.  The walls are extremely rough, and the air is
+even colder.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30061
+D3
+~
+~
+0 -1 30049
+E
+walls~
+@@lIt seems like someone burrowed their way through here.@@N~
+S
+#30061
+@@lFurther into the Mines@@N~
+@@gThe tunnel takes a turn here, and it looks as if it will again shortly.
+All of these twists and turns make it hard to decipher what is up ahead.  The
+wind coming from this tunnel gets increasingly stronger with each step, and
+the temperature falls just as quickly.@@N
+~
+81993 5
+D2
+~
+~
+0 -1 30062
+D3
+~
+~
+0 -1 30060
+S
+#30062
+@@lFurther into the Mines@@N~
+@@gThe tunnel turns again, and there seems to be another large chamber ahead.
+The walls start to become more smooth, and the coldness and wind seem to die
+down a bit.  There is more room to walk around, since the ceiling are also
+higher here.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30061
+D1
+~
+~
+0 -1 30063
+E
+walls~
+@@lThe walls are poorly carved, but better than before.@@N~
+E
+ceiling~
+@@lThe ceiling seems to be gradually getting higher and higher.@@N~
+S
+#30063
+@@lFurther into the Mines@@N~
+@@gDirectly east of here is a great chamber, much like the other one in the
+mines.  The walls are perfectly smooth here, and the ceiling just seemed to
+vanish out of sight.  There is almost no wind, and the temperature is
+drastically warmer.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30064
+D3
+~
+~
+0 -1 30062
+E
+walls~
+@@lThe walls are smoother than marble, but colder than ice.@@N~
+E
+ceiling~
+@@lWho knows if there is even a ceiling here...@@N~
+S
+#30064
+@@lIn a Large Chamber@@N~
+@@gThis chamber seems to be exactly like the previous one, just turned a
+different.  As before, the ceiling gets lower in one part of the chamber, but
+out of sight in another.  The only difference is the odd heat coming from
+somewhere.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30065
+D1
+~
+~
+0 -1 30070
+D3
+~
+~
+0 -1 30063
+E
+ceiling~
+@@lThe ceiling slopes downward into the lower corner.@@N~
+S
+#30070
+@@lIn a Large Chamber@@N~
+@@gThere is a good deal of heat in this room, probably coming from the north.
+There is a small tunnel toward the south, which appears to be headed deeper
+into the bowels of the mines.  However, the tunnel looks like it was
+meticulously carved, unlike previous tunnels.@@N
+~
+81993 5
+D0
+~
+~
+0 0 30066
+D1
+~
+~
+0 0 30069
+D2
+~
+~
+0 -1 30071
+D3
+~
+~
+0 -1 30064
+S
+#30065
+@@lIn a Large Chamber@@N~
+@@gThe heat seems more intense here, and the ice on the walls is beginning to
+melt.  There are a few small puddles on the ground also.  The chamber
+continues east, and south where a small tunnel branches out.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30066
+D2
+~
+~
+0 -1 30064
+E
+ice~
+@@lThe ice is slowly melting.@@N~
+E
+walls~
+@@lThe walls are covered with melting ice.@@N~
+S
+#30066
+@@lIn a Large Chamber@@N~
+@@gThe heat is extremely intense here, and it seems to be coming from the door
+to the north.  The ice has formed large puddles of water on the ground, which
+is bubbling, almost to the point of boiling.  There seems to be a tunnel a
+little further south.@@N
+~
+81961 5
+D0
+~
+smoltering~
+225 -1 30067
+D1
+~
+~
+0 -1 30068
+D2
+~
+~
+0 -1 30070
+D3
+~
+~
+0 -1 30065
+E
+ice~
+@@lThere isn't much ice left, since it has all almost melted.@@N~
+E
+water~
+@@lThe water is hot to the touch.@@N~
+E
+door~
+@@lThe wood is smoltering in the intense heat.@@N~
+S
+#30067
+@@lThe Smoltering Cave@@N~
+@@gFor some reason, this cave is incredibly hot.  There must be something
+generating all of this heat, because the rest of the mines are as cold as it
+is hot in here.  There are large pools of water on the ground, indicating that
+there was a lot of ice in here recently.@@N
+~
+81961 5
+D2
+~
+~
+225 -1 30066
+E
+ground~
+@@lThere are large pools of water in the ground.@@N~
+E
+water~
+@@lThe water itself is boiling.@@N~
+S
+#30068
+@@lIn a Large Chamber@@N~
+@@gIt is rather warm in here compared to the rest of the mine, and the heat
+seems to be coming from the west.  This must be the lower end of the chamber,
+for the ceiling is rather low here.@@N
+~
+81993 5
+D2
+~
+~
+0 -1 30069
+D3
+~
+~
+0 -1 30066
+E
+ceiling~
+@@lThe ceiling comes down a few feet above your head.@@N~
+S
+#30069
+@@lIn a Large Chamber@@N~
+@@gIt doesn't seem as warm here as in other parts of the chamber, but what
+heat there is seems to be generated somewhere from the north-west.  The
+ceiling seems to slope to the north, and there is a small tunnel to the west
+@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30068
+D3
+~
+~
+0 -1 30070
+E
+ceiling~
+@@lThe ceiling slowly slopes northward.@@N~
+S
+#30071
+@@lFurther into the Mines@@N~
+@@gThere seems to be some evil force deep within this part of the mine.  The
+strange wind has started up again, and the temperature as drastically gone
+down.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30070
+D2
+~
+~
+0 -1 30072
+S
+#30072
+@@lFurther into the Mines@@N~
+@@gContinuing down the tunnel, the wind picks up and the temperature decreases
+even more.  The ice on the wall must be a foot thick, which is greatly cutting
+down on the space in the tunnel.  The tunnel turns here, then probably
+continues.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30071
+D1
+~
+~
+0 -1 30073
+E
+ice~
+@@lThe ice is taking up a good chunk of the space here.@@N~
+E
+wall~
+@@lThe walls are covered with thick ice.@@N~
+S
+#30073
+@@lFurther into the Mines@@N~
+@@gAs the wind picks up speed, a metallic sound can be barely heard from
+farther down the tunnel.  The temperature has seemed to level off at it's
+present temperature also.  The tunnel just keeps continuing.@@N
+~
+81993 5
+D2
+~
+~
+0 -1 30074
+D3
+~
+~
+0 -1 30072
+S
+#30074
+@@lFurther into the Mines@@N~
+@@gThe strange metallic echoes loudly through the tunnel now, and the wind
+continues to pick up speed.  The walls are still coated with a thick layer of
+ice.  The tunnel continues to the east.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30073
+D1
+~
+~
+0 -1 30075
+E
+walls~
+@@lThe ice is incredibly thick.  It must stay extremely cold in here all year round.@@N~
+E
+ice~
+@@lThe ice is smooth and very cold.@@N~
+S
+#30075
+@@lFurther into the Mines@@N~
+@@gThe tunnel turns north here, and the metallic sound gets louder and louder.
+The ice on the walls is getting thicker, and it looks pretty tight up ahead.
+The wind has seemed to die down a bit.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30076
+D3
+~
+~
+0 -1 30074
+E
+ice~
+@@lThe ice is clear as glass.@@N~
+E
+walls~
+@@lThe walls are covered with very thick ice.@@N~
+S
+#30076
+@@lFurther into the Mines@@N~
+@@gThe echoing has died down a bit, since there is less rock for the sounds to
+bounce off of, but it is still there.  It sounds as if something large is
+pacing back and forth ahead.  The wind has picked up a tad, and the ice is
+even thicker.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30077
+D2
+~
+~
+0 -1 30075
+E
+ice~
+@@lThere must be a reason for the excess of ice in this part of the mines.@@N~
+S
+#30077
+@@lFurther into the Mines@@N~
+@@gThe echoing continues to get quieter, but this tunnel must lead to the
+source.  The wind is like small tornado, blowing bits of rock and ice
+everywhere.  The tunnel appears to turn ahead.@@N
+~
+81993 5
+D1
+~
+~
+0 -1 30078
+D2
+~
+~
+0 -1 30076
+S
+#30078
+@@lFurther into the Mines@@N~
+@@gThe sound is very loud now, so whatever is making it must be very close.
+The ice on the walls almost totally constricts the path, but there is still a
+little room.  The wind is dying down again, and the tunnel continues northward
+@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30079
+D3
+~
+~
+0 -1 30077
+E
+ice~
+@@lThe ice on the walls almost touch each other.@@N~
+S
+#30079
+@@lFurther into the Mines@@N~
+@@gThe source of the sound must be near, for it's more of a loud booming now
+than an echo.  There is little room to walk through the tunnel with all of
+this ice, and the wind is totally gone now.@@N
+~
+81993 5
+D0
+~
+~
+0 -1 30080
+D2
+~
+~
+0 -1 30078
+E
+ice~
+@@lThe ice almost totally blocks off the passage, except for a small slit.@@N~
+S
+#30080
+@@lA Freezing Chamber@@N~
+@@gThis chamber is by far the coldest room in the mines, and all of the
+coldness seems to be coming from the back wall.  Also, the wall back there
+looks an odd blue color...@@N
+~
+81985 5
+D0
+~
+icy~
+225 -1 30081
+D2
+~
+~
+0 -1 30079
+E
+wall~
+@@lThe wall is covered with ice.@@N~
+S
+#30081
+@@lThe Icy Chamber@@N~
+@@gThe entire room seems to have been carved out of a giant block of ice.  The
+room seems like a hollow sphere, and there is a pedestool fixed in the center
+of the room, with an inscription written in it.@@N
+~
+81985 5
+D2
+~
+~
+225 -1 30080
+E
+pedestool~
+@@lThere is an inscription written on it.@@N~
+E
+inscription~
+@@lThe inscription reads: "Let Garmaine suffer in eternal ICE!"@@N~
+S
+#0
+#MOBILES
+#30000
+martin~
+@@lMartin@@N~
+@@lMartin is here ready to train your mind and body.@@N
+~
+@@gMartin is truly a master of the sword, and the mind.@@N
+~
+3146859 27372 1000 S
+136 1
+-2500 1000 1000
+! 3 0 0 7 425662 0 80
+#30001
+elis~
+@@lElis@@N~
+@@lElis urges you to try on some armour.@@N
+~
+Her face seems to glow brighter than the lights inside.
+~
+3145835 27368 1000 S
+141 2
+-2500 1000 1000
+! 0 0 0 7 425726 37751848 48
+#30002
+butch~
+@@lButch@@N~
+@@lButch eyes you energetically.@@N
+~
+@@gButch is known as the greatest thief that ever lived, or treasurer hunter as he would put it.  Better watch your pocket.@@N
+~
+3145839 125674 1000 S
+130 1
+-2500 1000 1000
+! 2 0 0 7 425726 262144 80
+#30003
+Darkshade~
+@@lDarkshade@@N~
+@@lSomething dark blends in with the shadows and disappears...@@N~
+@@gIt is hard to make out a true image of him, since he blends in with almost everything.@@N
+~
+3145835 125694 1000 S
+132 1
+-2500 1000 1000
+! 2 0 0 7 425726 0 144
+#30004
+Xania~
+@@lXania@@N~
+@@lXania walks around you displaying various relics and artifacts@@N~
+@@gCeles appears to be tired, and yawns at the sight of you.@@N
+~
+3145835 27368 1000 S
+141 2
+-2500 1000 1000
+! 0 0 0 7 425726 8392832 48
+#30005
+garmaine gate guard~
+@@lGarmaine Gate Guard@@N~
+@@lThe Garmaine Gate Guard stands here eyeing you carefully.@@N
+~
+@@gThe guard stands motionless, but you probably couldn't sneak past him.@@N
+~
+3145803 27368 1000 S
+141 1
+-2500 1000 1000
+! 7 0 0 7 490126 38010880 48
+#30006
+relm~
+@@lRelm@@N~
+@@lRelm relaxes on one of the many comfortable chairs.@@N
+~
+@@gRelm looks like a sweet, innocent little girl.@@N
+~
+3145835 92906 1000 S
+136 2
+-2500 1000 1000
+! 5 0 0 7 686222 4195328 144
+#30007
+james~
+@@lJames@@N~
+@@lJames rests in a chair, smiling as he thinks of his fortunes.@@N
+~
+@@gJames has traveled the world over, and is adept at many things.@@N
+~
+3145835 27368 1000 S
+139 1
+-2500 1000 1000
+! 3 0 0 7 948878 33280 48
+#30008
+jack~
+@@lJack@@N~
+@@lJack is seeking refuge here.@@N
+~
+@@gJack looks just like a bodybuilder.@@N
+~
+3145835 92906 1000 S
+139 1
+-2500 1000 1000
+! 7 0 0 7 457358 295424 80
+#30009
+guardian~
+@@lGuardian@@N~
+@@lThe Guardian stands ready for anyone.@@N
+~
+@@gThe Guardian is fearless, and extremely strong.@@N
+~
+3145835 117482 1000 S
+141 0
+-2500 1000 1000
+! 0 0 0 7 424590 33554944 144
+#30010
+shawn~
+Shawn~
+@@lSean stands here, ready to stop your passage further into the mines.@@N
+~
+@@gHe is a master of the darkness, king of the shadows.@@N
+~
+3145835 125674 1000 S
+135 1
+-2500 1000 1000
+! 6 0 0 7 424846 50364416 80
+#30011
+flaming hydra~
+@@lA Flaming Hydra@@N~
+@@lThe Hydra is on fire, but he likes it.@@N
+~
+@@gThe Hydra seems to draw his power from the flames.@@N
+~
+3145835 19176 -1000 S
+140 1
+-2500 1000 1000
+! 3 0 0 7 490126 50332672 48
+#30012
+guard garmaine~
+@@lA Guard of Garmaine@@N~
+@@lA Guard of Garmaine is protecting his hometown.@@N
+~
+@@gThe guard looks very determined to stop all intruders.@@N
+~
+3145835 27368 1000 S
+135 1
+-2500 1000 1000
+! 3 0 0 7 948878 1048576 80
+#30013
+guard garmaine~
+@@lA Guard of Garmaine@@N~
+@@lA Guard of Garmaine is protecting his hometown.@@N
+~
+@@gThe guard looks very determined to stop all intruders.@@N
+~
+3145835 27368 1000 S
+138 1
+-2500 1000 1000
+! 3 0 0 7 948878 1048576 80
+#30014
+guard garmaine~
+@@lA Guard of Garmaine@@N~
+@@lA Guard of Garmaine is protecting his hometown.@@N
+~
+@@gThe guard looks very determined to stop all intruders.@@N
+~
+3145835 27368 1000 S
+139 1
+-2500 1000 1000
+! 7 0 0 7 948878 1048576 48
+#30015
+guard garmaine~
+@@lA Guard of Garmaine@@N~
+@@lA Guard of Garmaine is protecting his hometown.@@N
+~
+@@gThe guard looks very determined to stop all intruders.@@N
+~
+3145835 27368 1000 S
+136 1
+-2500 1000 1000
+! 7 0 0 7 948878 1048576 48
+#30016
+frost dragon~
+@@lThe Frost Dragon@@N~
+@@lThe Frost Dragon is moaning about the heat in here.@@N
+~
+@@gHe would much rather be in a freezing room than where he is now.@@N
+~
+3145835 543464 0 S
+141 1
+-2500 1000 1000
+! 3 0 0 7 948878 0 80
+#30017
+ice lion~
+@@lThe Ice Lion@@N~
+@@lThe Ice Lion is on the prowl here.@@N
+~
+@@gHe is very strong and agile.@@N
+~
+3145825 1100520 0 S
+140 1
+-2500 1000 1000
+! 3 0 0 7 950158 16777728 144
+#30018
+frozen necromancer~
+@@lThe Frozen Necromancer@@N~
+@@lA huge block of ice is here, but someone steps out of it!@@N
+~
+@@gThe Necromancer looks older than time itself.@@N
+~
+3145825 1690314 -1000 S
+134 2
+-2500 1000 1000
+! 8 0 0 7 424590 50331648 80
+#30019
+ice golem~
+@@lThe Ice Golem@@N~
+@@lA lumbering Golem made from Ice stands here, awaiting his next victim.@@N
+~
+@@gThe Golem has transfixed eyes.  He doesn't seem to care about much.@@N
+~
+3145825 1067752 0 S
+135 1
+-2500 1000 1000
+! 3 0 0 7 948910 8 48
+#30020
+poppy~
+@@lPoppy@@N~
+@@lPoppy floats here, mumbling something irrelevant.@@N
+~
+@@gHe is an old man, but looks strong.@@N
+~
+3145825 1600248 1000 S
+136 1
+-2500 1000 1000
+! 5 0 0 7 424590 33554944 80
+#30021
+guyue~
+@@lGuyue@@N~
+@@lGuyue is looking for something shiny in the mines.@@N
+~
+@@gHe looks like an animal, heck, he acts like one too.@@N
+~
+3145833 1633000 0 S
+135 1
+-2500 1000 1000
+! 3 0 0 7 948990 33554432 144
+#30022
+frost behemoth~
+@@lThe Frost Behemoth@@N~
+@@lSomething large and mean stands here.@@N
+~
+@@gHe is larger than most anything else in the world.@@N
+~
+3145825 117482 -1000 S
+144 1
+-2500 1000 1000
+! 7 0 0 7 424622 4 48
+#30023
+chimera~
+@@lChimera@@N~
+@@lChimera spews fire from her three heads!@@N
+~
+@@gHer three heads give her a wide range of view.@@N
+~
+3145833 1100520 -1000 S
+141 2
+-2500 1000 1000
+! 3 0 0 7 424846 55578152 48
+#30024
+yeti~
+@@lThe Yeti@@N~
+@@lThe fabled Yeti stands here.@@N
+~
+@@gThe Yeti is larger than people depicted him as being.@@N
+~
+3145825 125674 0 S
+138 1
+-2500 1000 1000
+! 3 0 0 7 424590 262144 80
+#0
+#OBJECTS
+#30000
+sword diamonds~
+@@lS@@gw@@lo@@gr@@ld @@lo@@lf @@lD@@gi@@ga@@lm@@lo@@gn@@gd@@ls@@N~
+@@gThe @@lS@@gw@@lo@@gr@@ld @@lo@@lf @@lD@@gi@@ga@@lm@@lo@@gn@@gd@@ls@@g, a weapon of legend.@@N~
+5 3137 270337 75777
+0 0 0 11
+15
+A
+19 50
+A
+18 50
+A
+17 -300
+A
+12 350
+A
+13 350
+L
+120
+#30001
+ice orb~
+@@rI@@lc@@re @@rO@@lr@@rb@@N~
+@@rI@@lc@@re @@rO@@lr@@rb@@g, relic of myth.@@N~
+11 2243 131073 81417
+3 30081 0 0
+10
+A
+19 43
+A
+18 43
+A
+17 -300
+A
+13 250
+A
+12 250
+L
+120
+#30002
+diamond leggings~
+@@aD@@gi@@ga@@am@@go@@gn@@ad @@aL@@ge@@gg@@ag@@ai@@gn@@gg@@as@@N~
+@@gThe @@aD@@gi@@ga@@am@@go@@gn@@ad @@aL@@ge@@gg@@ag@@ai@@gn@@gg@@as@@g sparkle in the light.@@N~
+9 3168 33 32869
+0 0 0 0
+15
+A
+19 40
+A
+18 40
+A
+17 -200
+A
+13 300
+A
+12 300
+L
+120
+#30003
+gauntlet~
+@@pG@@da@@du@@pn@@pt@@dl@@de@@pt@@N~
+@@gA strong looking @@pG@@da@@du@@pn@@pt@@dl@@de@@pt@@g lies here.~
+29 64 129 257
+0 30017 30023 0
+3
+L
+120
+#30004
+samurai gloves~
+@@dS@@ea@@em@@du@@er@@ea@@di @@dG@@el@@do@@dv@@ee@@ds@@N~
+@@dS@@ea@@em@@du@@er@@ea@@di @@dG@@el@@do@@dv@@ee@@ds@@g are of choice to those of the martial arts.@@N~
+29 64 129 97
+0 30007 30030 0
+3
+L
+120
+#30005
+icy cape~
+@@lI@@gc@@ly @@lC@@ga@@gp@@le@@N~
+@@gAn @@lI@@gc@@ly @@lC@@ga@@gp@@le@@g lies here, shimmering in and out of existence.@@N~
+29 96 1025 5
+30006 0 30033 0
+3
+L
+120
+#30006
+ring heroes~
+@@gR@@mi@@mn@@gg @@go@@gf @@gH@@me@@gr@@go@@me@@gs@@N~
+@@gThe ring of a long dead @@gH@@me@@gr@@go@@me@@gs@@g rests here.@@N~
+29 64 3 65537
+0 30010 30024 0
+3
+L
+120
+#30007
+safety charm~
+@@aS@@ga@@af@@ae@@gt@@ay @@aC@@gh@@aa@@gr@@am@@N~
+@@gA @@aS@@ga@@af@@ae@@gt@@ay @@aC@@gh@@aa@@gr@@am@@g lies here protecting the very ground it lies on.@@N~
+29 64 9 145
+30011 0 30033 0
+3
+L
+120
+#30008
+yeti cloak~
+@@gY@@We@@Wt@@gi @@gC@@Wl@@go@@Wa@@gk@@N~
+@@gThis @@gY@@We@@Wt@@gi @@gC@@Wl@@go@@Wa@@gk@@g must belong to a yeti.@@N~
+29 0 5 16395
+0 30019 30031 0
+3
+L
+120
+#30009
+ice spikes~
+@@aI@@ec@@ae @@aS@@ep@@ai@@ak@@ee@@as@@N~
+@@gThese @@aI@@ec@@ae @@aS@@ep@@ai@@ak@@ee@@as@@g get good traction on slippery surfaces.@@N~
+29 66 65 16385
+30020 0 30033 0
+3
+L
+120
+#30010
+gem box~
+@@eG@@re@@em @@eB@@ro@@ex@@N~
+@@gA relic only hinted about in legend, here lies the @@eG@@re@@em @@eB@@ro@@ex@@g.~
+29 98 131073 17
+30016 0 30033 0
+3
+L
+120
+#30011
+snow stone~
+@@BS@@Wn@@Wo@@Bw @@BS@@Wt@@Bo@@Wn@@Be@@N~
+@@gThe @@BS@@Wn@@Wo@@Bw @@BS@@Wt@@Bo@@Wn@@Be@@g are cold to the touch.@@N~
+29 64 16385 1537
+0 30009 30027 0
+3
+L
+120
+#30012
+ancient ring~
+@@WA@@Bn@@Bc@@Wi@@Be@@Bn@@Wt @@WR@@Bi@@Bn@@Wg@@N~
+@@gThis appears to be a very @@WA@@Bn@@Bc@@Wi@@Be@@Bn@@Wt @@WR@@Bi@@Bn@@Wg@@g.@@N~
+29 66 3 37121
+0 30018 30032 0
+3
+L
+120
+#30013
+cursed ring~
+@@dC@@pu@@dr@@ds@@pe@@dd @@dR@@pi@@pn@@dg@@N~
+@@gThe @@dC@@pu@@dr@@ds@@pe@@dd @@dR@@pi@@pn@@dg@@g was hexed long ago, in a forgotten time.~
+29 4290 3 1
+30021 0 30033 0
+3
+L
+120
+#30014
+ring paladins~
+@@cR@@Wi@@Wn@@cg @@co@@cf @@cP@@Wa@@Wl@@ca@@cd@@Wi@@Wn@@cs@@N~
+@@gThe @@cR@@Wi@@Wn@@cg @@co@@cf @@cP@@Wa@@Wl@@ca@@cd@@Wi@@Wn@@cs@@g is a sought-after relic in these parts.@@N~
+29 320 3 145
+0 30015 30025 0
+3
+L
+120
+#30015
+ribbon~
+@@eR@@Ri@@eb@@eb@@Ro@@en@@N~
+@@gThe @@eR@@Ri@@eb@@eb@@Ro@@en@@g is the ward of all ailments.~
+29 0 17 8193
+30008 0 30033 0
+3
+L
+120
+#30016
+dragon boots~
+@@eD@@Br@@ea@@eg@@Bo@@en @@eB@@Bo@@eo@@Bt@@es@@N~
+@@gThese @@eD@@Br@@ea@@eg@@Bo@@en @@eB@@Bo@@eo@@Bt@@es@@g are big enough to fit a dragon, of course.@@N~
+29 64 65 16385
+0 30005 30026 0
+3
+L
+120
+#30017
+boots speed~
+@@GB@@ro@@Go@@rt@@Gs @@Go@@Gf @@GS@@rp@@Ge@@re@@Gd@@N~
+@@gThese @@GB@@ro@@Go@@rt@@Gs @@Go@@Gf @@GS@@rp@@Ge@@re@@Gd@@g even look fast.@@N~
+29 2 65 33
+30012 0 30033 0
+3
+L
+120
+#30018
+knight's valor~
+@@aK@@Gn@@Gi@@ag@@ah@@Gt@@G'@@as @@aV@@Ga@@al@@Go@@ar@@N~
+@@gThe enemies worst fear was of the @@aK@@Gn@@Gi@@ag@@ah@@Gt@@G'@@as @@aV@@Ga@@al@@Go@@ar@@g.@@N~
+29 65 2049 145
+30014 0 30033 0
+3
+L
+120
+#30019
+offering~
+@@dO@@af@@af@@de@@dr@@ai@@an@@dg@@N~
+@@gAn @@dO@@af@@af@@de@@dr@@ai@@an@@dg@@g to the gods almost always is beneficial.~
+29 3 16385 145
+30003 0 30033 0
+3
+L
+120
+#30020
+goggles~
+@@pG@@eo@@eg@@pg@@el@@ee@@ps@@N~
+@@gWith @@pG@@eo@@eg@@pg@@el@@ee@@ps@@g on, you can even see in the dark!~
+29 65 32769 3
+0 30013 30028 0
+3
+L
+120
+#30021
+earrings~
+@@mE@@ya@@yr@@mr@@mi@@yn@@yg@@ms@@N~
+@@gThese @@mE@@ya@@yr@@mr@@mi@@yn@@yg@@ms@@g are usually found in the sacks of magic users.~
+29 65 65537 1545
+0 30022 30029 0
+3
+L
+120
+#30022
+rage ring~
+@@dR@@ei@@en@@dg @@do@@df @@dR@@ea@@eg@@de@@N~
+@@gThe @@dR@@ei@@en@@dg @@do@@df @@dR@@ea@@eg@@de@@g was first discovered in a cave somewhere.@@N~
+29 64 3 257
+30004 0 30033 0
+3
+L
+120
+#30023
+ninja gloves~
+@@pN@@ei@@pn@@ej@@pa @@pG@@el@@po@@pv@@ee@@ps@@N~
+@@gA set of @@pN@@ei@@pn@@ej@@pa @@pG@@el@@po@@pv@@ee@@ps@@g lies on the ground here.~
+29 64 129 97
+0 30025 30035 0
+3
+L
+120
+#30024
+gem studded earrings~
+@@mG@@ee@@mm @@mS@@et@@eu@@md@@ed@@ee@@md @@mE@@ea@@er@@mr@@mi@@en@@eg@@ms@@N~
+@@gSome @@mG@@ee@@mm @@mS@@et@@eu@@md@@ed@@ee@@md @@mE@@ea@@er@@mr@@mi@@en@@eg@@ms@@g shimmer on the ground here.~
+29 99 65537 113673
+0 30030 30037 0
+3
+L
+120
+#30025
+garmaine ring~
+@@pG@@Ga@@Gr@@pm@@pa@@Gi@@Gn@@pe @@pR@@Gi@@Gn@@pg@@N~
+@@gThis @@pR@@Gi@@Gn@@pg@@g is inscribed with the word: 'Garmaine'.@@N~
+29 65 3 145
+0 30023 30042 0
+3
+L
+120
+#30026
+blizzard charm~
+@@gB@@Bl@@Bi@@gz@@gz@@Ba@@Br@@gd @@gC@@Bh@@ga@@Br@@gm@@N~
+@@gThis @@gC@@Bh@@ga@@Br@@gm@@g is colder than ice.~
+29 65 5 16387
+0 30027 30038 0
+3
+L
+120
+#30027
+relic rage~
+@@eT@@Bh@@ee @@eR@@Be@@el@@Bi@@ec @@eo@@ef @@eR@@Ba@@Bg@@ee@@N~
+@@gThis @@eR@@Be@@el@@Bi@@ec @@gsymbolizes the @@eR@@Ba@@Bg@@ee@@g within all.~
+29 66 16385 257
+0 30026 30048 0
+3
+L
+120
+#30028
+dragon ribbon~
+@@BD@@Rr@@Ba@@Bg@@Ro@@Bn @@BR@@Ri@@Bb@@Bb@@Ro@@Bn@@N~
+@@gThe @@BD@@Rr@@Ba@@Bg@@Ro@@Bn @@BR@@Ri@@Bb@@Bb@@Ro@@Bn@@g is a part of dragon heritage.@@N~
+29 64 17 17
+0 30029 30047 0
+3
+L
+120
+#30029
+night visors~
+@@rN@@pi@@rg@@ph@@rt @@rV@@pi@@rs@@ro@@pr@@rs@@N~
+@@gWith @@rN@@pi@@rg@@ph@@rt @@rV@@pi@@rs@@ro@@pr@@rs@@g, running in the darkness is easy.~
+29 65 32769 16387
+0 30028 30041 0
+3
+L
+120
+#30030
+knight's offering~
+@@GK@@dn@@di@@Gg@@Gh@@dt@@d'@@Gs @@GO@@df@@df@@Ge@@Gr@@di@@dn@@Gg@@N~
+@@gThe @@GK@@dn@@di@@Gg@@Gh@@dt@@d'@@Gs @@GO@@df@@df@@Ge@@Gr@@di@@dn@@Gg@@g gave the knights extra passion for battle.@@N~
+29 65 131073 401
+0 30024 30046 0
+3
+L
+120
+#30031
+safety shoes~
+@@aS@@ea@@af@@ae@@et@@ay @@aS@@eh@@ao@@ee@@as@@N~
+@@aS@@ea@@af@@ae@@et@@ay @@aS@@eh@@ao@@ee@@as@@g will protect your feet from the terrain.~
+29 64 65 16513
+0 30032 30034 0
+3
+L
+120
+#30032
+icy ring~
+@@BI@@lc@@By @@BR@@li@@ln@@Bg@@N~
+@@gThe @@BI@@lc@@By @@BR@@li@@ln@@Bg@@g fades in and out of reality.@@N~
+29 96 3 101
+0 30031 30049 0
+3
+L
+120
+#30033
+snowball~
+@@gS@@ln@@lo@@gw@@gb@@la@@ll@@gl@@N~
+@@gThe @@gS@@ln@@lo@@gw@@gb@@la@@ll@@gl@@g is light and fluffy.~
+29 0 16385 1
+0 30098 30095 0
+1
+L
+120
+#30099
+gate key~
+@@eG@@aa@@at@@ee @@eK@@ae@@ey@@N~
+@@gThis is the @@eG@@aa@@at@@ee @@eK@@ae@@ey@@g of Garmaine.@@N~
+18 96 16385 1
+0 0 0 0
+1
+L
+120
+#30098
+snow pile~
+@@lP@@Wi@@Wl@@le @@lo@@lf @@lS@@Wn@@Wo@@lw@@N~
+@@gThere seems to be a @@lP@@Wi@@Wl@@le @@lo@@lf @@lS@@Wn@@Wo@@lw@@g here.@@N~
+29 1048576 1 1
+0 0 0 0
+3
+L
+120
+#30034
+ninja visors~
+@@dN@@ei@@dn@@ej@@da @@dV@@ei@@ds@@do@@er@@ds@@N~
+@@gIt is hard to find a @@dN@@ei@@dn@@ej@@da@@g without his @@dV@@ei@@ds@@do@@er@@ds@@g.@@N~
+29 65 32769 1033
+0 30038 30033 0
+3
+L
+120
+#30035
+dragon earrings~
+@@pD@@rr@@pa@@pg@@ro@@pn @@pE@@ra@@rr@@pr@@pi@@rn@@rg@@ps@@N~
+@@pD@@rr@@pa@@pg@@ro@@pn @@pE@@ra@@rr@@pr@@pi@@rn@@rg@@ps@@g are specially designed for dragons.@@N~
+29 64 65537 16385
+0 30038 30039 0
+3
+L
+120
+#30036
+offering garmaine~
+@@aO@@lf@@lf@@ae@@ar@@li@@ln@@ag @@ao@@af @@aG@@la@@lr@@am@@aa@@li@@ln@@ae@@N~
+@@gThe @@aO@@lf@@lf@@ae@@ar@@li@@ln@@ag @@ao@@af @@aG@@la@@lr@@am@@aa@@li@@ln@@ae@@g is used to protect the town from evil.@@N~
+29 65 16385 145
+0 30041 30002 0
+3
+L
+120
+#30037
+blizzard ring~
+@@aB@@gl@@gi@@az@@az@@ga@@gr@@ad @@aR@@gi@@gn@@ag@@N~
+@@gThe @@aB@@gl@@gi@@az@@az@@ga@@gr@@ad @@aR@@gi@@gn@@ag@@g has a small storm around it.@@N~
+29 0 3 16409
+0 30034 30040 0
+3
+L
+120
+#30038
+Safety Relic~
+@@rS@@ya@@rf@@re@@yt@@ry @@rR@@ye@@rl@@yi@@rc@@N~
+@@gThe @@rS@@ya@@rf@@re@@yt@@ry @@rR@@ye@@rl@@yi@@rc@@g offers great protection.@@N~
+29 65 16385 145
+0 30037 30044 0
+3
+L
+120
+#30039
+symbol ninja~
+@@dS@@yy@@dm@@db@@yo@@dl @@do@@df @@dt@@yh@@de @@dN@@yi@@dn@@yj@@da@@N~
+@@gThe @@dS@@yy@@dm@@db@@yo@@dl @@do@@df @@dt@@yh@@de @@dN@@yi@@dn@@yj@@da@@g is just what it is called, the symbol of the ninja.@@N~
+29 64 131073 1129
+0 30040 30033 0
+3
+L
+120
+#30040
+blizzard earrings~
+@@BB@@ll@@li@@Bz@@Bz@@la@@lr@@Bd @@BE@@la@@lr@@Br@@Bi@@ln@@lg@@Bs@@N~
+@@gThe @@BB@@ll@@li@@Bz@@Bz@@la@@lr@@Bd @@BE@@la@@lr@@Br@@Bi@@ln@@lg@@Bs@@g hum like a savage winter storm.@@N~
+29 66 65537 19
+0 30039 30036 0
+3
+L
+120
+#30041
+symbol garmaine~
+@@cS@@ry@@cm@@cb@@ro@@cl @@co@@cf @@cG@@ra@@rr@@cm@@ca@@ri@@rn@@ce@@N~
+@@gThe @@cS@@ry@@cm@@cb@@ro@@cl @@co@@cf @@cG@@ra@@rr@@cm@@ca@@ri@@rn@@ce@@g is encrusted with a minature mining pick.@@N~
+29 64 131073 145
+0 30045 30033 0
+3
+L
+120
+#30097
+flaming claw~
+@@lA @@eFlaming @@lClaw@@N~
+~
+5 8260 0 1
+0 0 0 5
+15
+A
+19 50
+A
+18 50
+L
+120
+#30096
+claws~
+@@lBig @@rClaws@@N~
+~
+5 8196 0 1
+0 0 0 0
+1
+A
+19 50
+A
+18 50
+L
+120
+#30042
+diamond band~
+@@rD@@gi@@ga@@rm@@go@@gn@@rd @@rB@@ga@@gn@@rd@@N~
+@@gThe @@rD@@gi@@ga@@rm@@go@@gn@@rd @@rB@@ga@@gn@@rd@@g glows in the light.@@N~
+29 65 4097 145
+0 30034 30043 0
+3
+L
+120
+#30043
+diamond necklace~
+@@gD@@li@@la@@gm@@lo@@ln@@gd @@gN@@le@@lc@@gk@@gl@@la@@lc@@ge@@N~
+@@gThe @@gD@@li@@la@@gm@@lo@@ln@@gd @@gN@@le@@lc@@gk@@gl@@la@@lc@@ge@@g glistens in the light.@@N~
+29 64 5 16401
+0 30044 30045 0
+3
+L
+120
+#30044
+ice rod~
+@@BI@@lc@@Be @@BR@@lo@@Bd@@N~
+@@gThe @@BI@@lc@@Be @@BR@@lo@@Bd@@g looks to be made out of solid ice.@@N~
+29 64 16385 9
+0 30043 30033 0
+3
+L
+120
+#30045
+diamond ring~
+@@aD@@gi@@ga@@am@@go@@gn@@ad @@aR@@gi@@gn@@ag@@N~
+@@gThe @@aD@@gi@@ga@@am@@go@@gn@@ad @@aR@@gi@@gn@@ag@@g has a soft inner glow.@@N~
+29 1 3 145
+0 30041 30000 0
+3
+L
+120
+#30046
+icy boots~
+@@eI@@lc@@ey @@eB@@lo@@eo@@lt@@es@@N~
+@@gThe @@eI@@lc@@ey @@eB@@lo@@eo@@lt@@es@@g get good traction on ice.@@N~
+29 64 65 16385
+0 30042 30050 0
+3
+L
+120
+#30047
+ribbon shadows~
+@@dR@@gi@@db@@db@@go@@dn @@do@@df @@dS@@gh@@ga@@dd@@go@@gw@@ds@@N~
+@@gThe @@dR@@gi@@db@@db@@go@@dn @@do@@df @@dS@@gh@@ga@@dd@@go@@gw@@ds@@g blends in with the darkness.@@N~
+29 0 17 1
+0 30049 30051 0
+3
+L
+120
+#30048
+relic safety~
+@@aR@@ce@@al@@ci@@ac @@ao@@af @@aS@@ca@@af@@ae@@ct@@ay@@N~
+@@gThe @@aR@@ce@@al@@ci@@ac @@ao@@af @@aS@@ca@@af@@ae@@ct@@ay@@g protects all withing its reach.@@N~
+29 65 131073 145
+0 30052 30001 0
+3
+L
+120
+#30049
+visor shadows~
+@@gV@@di@@gs@@do@@gr @@go@@gf @@gS@@dh@@da@@gd@@do@@dw@@gs@@N~
+@@gThe @@gV@@di@@gs@@do@@gr @@go@@gf @@gS@@dh@@da@@gd@@do@@dw@@gs@@g absorbs all light in the room.@@N~
+29 66 32769 4097
+0 30047 30033 0
+3
+L
+120
+#30050
+diamond boots~
+@@yD@@gi@@ga@@ym@@go@@gn@@yd @@yB@@go@@yo@@gt@@ys@@N~
+@@gThe @@yD@@gi@@ga@@ym@@go@@gn@@yd @@yB@@go@@yo@@gt@@ys@@g are extremely durable.@@N~
+29 0 65 1
+0 30051 30052 0
+3
+L
+120
+#30051
+helm shadows~
+@@pH@@de@@dl@@pm @@po@@pf @@pS@@dh@@da@@pd@@po@@dw@@ps@@N~
+@@gThe @@pH@@de@@dl@@pm @@po@@pf @@pS@@dh@@da@@pd@@po@@dw@@ps@@g is blacker than night.@@N~
+29 64 17 3
+0 30050 30033 0
+3
+L
+120
+#30052
+brick ice~
+@@BB@@Wr@@Bi@@Wc@@Bk @@Bo@@Bf @@BI@@Wc@@Be@@N~
+@@gA @@BB@@Wr@@Bi@@Wc@@Bk @@Bo@@Bf @@BI@@Wc@@Be@@g lies here.@@N~
+29 64 16385 145
+0 30048 30033 0
+3
+L
+120
+#30095
+snowman~
+@@gA @@lS@@ln@@lo@@lw@@gm@@ga@@gn@@N~
+@@gA @@lSnow@@gman stands here.@@N~
+12 0 0 1
+0 0 0 0
+100
+L
+120
+#0
+#RESETS
+M 0 30000 1 30005 (null)
+
+E 0 30006 0 1 (null)
+
+M 0 30001 1 30007 (null)
+
+E 0 30021 0 19 (null)
+
+M 0 30002 1 30016 (null)
+
+E 0 30005 0 12 (null)
+
+M 0 30003 1 30018 (null)
+
+E 0 30004 0 9 (null)
+
+M 0 30004 1 30022 (null)
+
+E 0 30010 0 20 (null)
+
+M 0 30005 1 30001 (null)
+
+E 0 30099 0 17 (null)
+
+D 0 30004 0 1 (null)
+
+D 0 30003 0 1 (null)
+
+D 0 30008 1 1 (null)
+
+D 0 30006 3 1 (null)
+
+D 0 30011 3 1 (null)
+
+D 0 30011 1 1 (null)
+
+D 0 30021 0 1 (null)
+
+D 0 30015 0 1 (null)
+
+D 0 30017 0 1 (null)
+
+D 0 30001 0 1 (null)
+
+D 0 30001 0 2 (null)
+
+O 0 30098 0 30002 (null)
+
+D 0 30023 0 1 (null)
+
+M 0 30006 1 30024 (null)
+
+E 0 30007 0 3 (null)
+
+D 0 30025 0 1 (null)
+
+M 0 30007 1 30026 (null)
+
+E 0 30015 0 6 (null)
+
+D 0 30034 0 1 (null)
+
+D 0 30080 0 1 (null)
+
+M 0 30008 1 30059 (null)
+
+E 0 30014 0 1 (null)
+
+M 0 30009 1 30080 (null)
+
+E 0 30016 0 8 (null)
+
+M 0 30010 1 30049 (null)
+
+E 0 30018 0 13 (null)
+
+M 0 30011 1 30035 (null)
+
+E 0 30022 0 1 (null)
+
+E 0 30097 0 16 (null)
+
+D 0 30035 2 1 (null)
+
+M 0 30012 1 30021 (null)
+
+M 0 30013 1 30027 (null)
+
+M 0 30014 1 30031 (null)
+
+M 0 30015 1 30017 (null)
+
+M 0 30016 1 30067 (null)
+
+E 0 30011 0 17 (null)
+
+D 0 30066 0 1 (null)
+
+M 0 30017 1 30047 (null)
+
+E 0 30019 0 17 (null)
+
+E 0 30096 0 16 (null)
+
+M 0 30018 1 30071 (null)
+
+E 0 30020 0 18 (null)
+
+M 0 30019 1 30041 (null)
+
+E 0 30003 0 9 (null)
+
+M 0 30020 1 30054 (null)
+
+E 0 30012 0 1 (null)
+
+M 0 30021 1 30063 (null)
+
+E 0 30017 0 8 (null)
+
+M 0 30022 1 30077 (null)
+
+E 0 30009 0 8 (null)
+
+M 0 30023 1 30044 (null)
+
+E 0 30013 0 1 (null)
+
+M 0 30024 1 30050 (null)
+
+E 0 30008 0 3 (null)
+
+S
+#SPECIALS
+M 30004 spec_cast_bigtime
+M 30016 spec_breath_frost
+M 30018 spec_cast_bigtime
+S
+#$

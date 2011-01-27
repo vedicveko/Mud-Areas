@@ -1,0 +1,1657 @@
+#AREA
+enfan.are~
+Ershteep City~
+{ 7 15} Anon    Ershteep City~
+11000 11100
+
+#MOBILES
+#11001
+enfan blue~
+the blue enfan~
+There is an enfan here. It is dressed in a blue suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFLW 0 -400 0
+9 0 2d6+110 89d1+1 1d8+2 slap
+2 2 2 9
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11002
+enfan grey~
+the grey enfan~
+There is an enfan here. It is dressed in a grey suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFLW 0 -550 0
+6 0 2d7+71 59d1+1 1d7+1 chomp
+4 4 4 9
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11003
+enfan green~
+the green enfan~
+There is an enfan here. It is dressed in a green suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFW 0 -700 0
+11 0 2d8+134 109d1+1 1d10+2 scratch
+1 1 1 8
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11004
+enfan purple~
+the purple enfan~
+There is an enfan here. It is dressed in a purple suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFLW 0 -800 0
+12 0 2d10+150 119d1+1 1d10+3 bite
+0 0 0 8
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11005
+enfan yellow~
+the yellow enfan~
+There is an enfan here. It is dressed in a yellow suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFLUW 0 -900 0
+13 0 2d10+170 129d1+1 2d5+3 slap
+-1 -1 -1 8
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11006
+enfan black~
+the black enfan~
+There is a positively evil enfan in front of you. He is dressed in black and
+carries a large weapon.
+~
+A small child-like being who struts about rather haughtily.
+~
+human~
+ABFLUW D -1000 0
+15 0 3d9+208 149d1+1 2d6+3 punch
+-2 -2 -2 2
+E 0 0 0
+stand stand none 130
+0 0 medium 0
+
+#11007
+dog guard~
+the guard dog~
+A guard dog sits here staring hungrily.
+~
+A large, ugly, evil dog.
+~
+dog~
+ABF D -700 0
+10 0 2d7+121 99d1+1 2d4+2 scratch
+1 1 1 8
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#11008
+rat~
+the rat~
+A large mutated rat stares at you with glowing eyes.
+~
+It is simply very ugly.
+~
+rat~
+AF D 0 0
+13 -3 2d10+170 129d1+1 2d5+3 bite
+-1 -1 -1 8
+0 0 0 0
+stand stand none 0
+0 0 medium 0
+
+#11009
+enfan green~
+the green enfan~
+There is an enfan here. It is dressed in a green suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFW D -700 0
+7 0 2d6+85 69d1+1 1d8+1 slap
+4 4 4 9
+0 0 0 0
+stand stand none 0
+0 0 medium 0
+
+#11010
+enfan purple~
+the purple enfan~
+There is an enfan here. It is dressed in a purple suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFW D -800 0
+8 0 2d7+96 79d1+1 1d7+2 bite
+3 3 3 9
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11011
+enfan yellow~
+the yellow enfan~
+There is an enfan here. It is dressed in a yellow suit.
+~
+A small child like being who struts about rather haughtily.
+~
+human~
+AGFLW D -900 0
+12 0 2d10+150 119d1+1 1d10+3 scratch
+0 0 0 8
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+
+#11012
+gargoyle~
+the gargoyle~
+A stone gargoyle stands before you blocking your way.
+~
+Very, very ugly. Much like a stereo-typical mother-in-law,
+only a lot worse!
+~
+wyvern~
+AGFW D -500 0
+8 0 2d7+96 79d1+1 1d7+2 bite
+3 3 3 9
+0 0 0 0
+stand stand none 30
+0 0 medium 0
+#0
+
+
+#OBJECTS
+
+#11001
+key gold~
+a gold key~
+There is a gold key here~
+gold~
+key 0 A
+0 0 0 0 0 
+1 1 0 P
+
+#11002
+key old~
+an old key~
+There is a old key here~
+iron~
+key 0 A
+0 0 0 0 0
+1 1 0 P
+
+#11003
+pair strange boots~
+a pair of strange boots~
+A pair of strange boots sit on the floor rather correctly~
+leather~
+armor G AG
+6 6 7 3 3 
+13 120 330 P
+A
+1 1
+A
+5 1
+
+#11004
+claymore~
+galactic claymore~
+A galactic claymore sits heavily on the ground.~
+~
+weapon 0 AN
+sword 5 5 slash F 
+13 200 1210 P
+A
+4 -3
+A
+13 -15
+
+#11005
+metallic shield~
+a metallic shield~
+A metallic shield has been dropped here.~
+~
+armor 0 AJ
+7 7 7 3 4 
+13 350 2210 P
+A
+1 1
+A
+24 2
+
+#11006
+black tunic~
+a black tunic~
+A black tunic lies in a crumpled heap on the floor~
+~
+armor G AD
+5 5 5 5 3 
+8 100 730 P
+
+#11007
+high heels shoes~
+high heels~
+A pair of old high heels lie discarded in a corner~
+~
+armor G AG
+5 5 5 5 3 
+8 120 459 P
+A
+11 20
+A
+9 -1
+
+#11008
+opal ring~
+an opal ring~
+You see an opal ring here.~
+~
+treasure 0 AB
+0 0 0 0 0 
+10 20 1210 P
+A
+9 2
+A
+13 15
+
+#11009
+opal bracelet~
+an opal bracelet~
+You see an opal bracelet here~
+~
+treasure 0 AM
+0 0 0 0 0 
+10 20 1120 P
+A
+5 1
+A
+19 1
+
+#11010
+display case~
+a display case~
+There is a large display case here.~
+~
+container 0 0
+1000 ABD 10011 1000 100
+0 0 0 P
+
+#11011
+key chain~
+key chain~
+A large chain of keys hangs on the wall~
+~
+key 0 A
+0 0 0 0 0 
+1 10 0 P
+
+#11012
+opal potion~
+an opal potion~
+An opal potion rests here~
+~
+potion 0 AO
+15 'cure poison' 'heal' 'heal' ''
+10 10 2120 P
+A
+17 -5
+
+#11013
+sword long~
+a long sword~
+A long sword has been left here.~
+~
+weapon 0 AN
+sword 5 5 slash 0 
+12 300 1389 P
+
+#11014
+runed dagger~
+a runed dagger~
+A runed dagger, almost hideen from sight, lies here.~
+~
+weapon AJ AN
+dagger 5 4 stab 0 
+12 120 1675 P
+A
+18 1
+A
+19 1
+
+#0
+
+
+#ROOMS
+#11001
+Tern Road~
+You are standing on a thin trail only wide enough for two. The trail was 
+once, apparently, the middle of a large and busy thoroughfare. It now lies 
+overgrown by thick, impassable forest to the east and west.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 0 3
+D0
+More trail
+~
+~
+0 -1 11002
+D2
+Nearer the city, less dense forest.
+~
+~
+0 -1 307
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:), adapted      +
++                    and enhanced in august'96                       +
++                            by jaceks                               +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#11002
+Tern Road~
+You are standing on a thin trail only wide enough for two. The trail was 
+once, apparently, the middle of a large and busy thoroughfare. It now lies 
+overgrown by thick, impassable forest to the east and west.
+~
+0 0 3
+D0
+More trail and a cottage
+~
+~
+0 -1 11003
+D2
+Nearer the city, less dense forest.
+~
+~
+0 -1 11001
+S
+#11003
+Intersection~
+Tern road meets with Ershteep road here, the distinction largely defined 
+by the narrow swath of trees cut out of the forest in each direction. On 
+Ershteep road to the west can be seen a cottage.
+   A warped old sign sticks out of the ground here.
+~
+0 0 3
+D2
+A trail through the forest.
+~
+~
+0 -1 11002
+D3
+A trail through the forest.
+~
+~
+0 -1 11005
+E
+sign old~
+  West - The city of the Enfans, Beware!!!
+  South - Midgaard
+~
+S
+#11004
+A deserted cottage~
+Once inside you see that the former inhabitants of this cottage left in 
+a hurry. There seems to be much that was left lying about. Now after many 
+years only the things that aren't of much use lie here under a thick layer 
+of dust. There is a fireplace in the north wall over which a large painting 
+hangs. The only apparent exit is south.
+~
+0 D 0
+D0
+A fireplace
+~
+fireplace lock grate~
+2 11001 11052
+D2
+A door back to the outside world!
+~
+~
+0 -1 11005
+E
+fireplace~
+It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling the key is
+not here!
+~
+E
+lock grate~
+A lock made of a fine metal seems to be locking the grate in
+place.
+~
+E
+painting picture~
+A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+~
+S
+#11005
+Ershteep Road~
+You are standing on a thin trail only wide enough for two. The trail was 
+once, apparently, the middle of a large and busy thoroughfare. It now lies 
+overgrown by thick, impassable forest to the north and south. The trail leads 
+further east and west. To the north a small cottage lies in a natural 
+clearing. It looks deserted.
+~
+0 0 3
+D0
+A cottage, the front door is open
+~
+~
+0 -1 11004
+D1
+More trail
+~
+~
+0 -1 11003
+D3
+More trail
+~
+~
+0 -1 11006
+S
+#11006
+Ershteep Road~
+You are standing on a thin trail only wide enough for two. The trail was 
+once, apparently, the middle of a large and busy thoroughfare. It now lies 
+overgrown by thick, impassable forest to the west and south. The trail leads 
+further east and north.
+~
+0 0 3
+D0
+More trail
+~
+~
+0 -1 11007
+D1
+More trail
+~
+~
+0 -1 11005
+S
+#11007
+Ershteep Road~
+You are standing on a thin trail only wide enough for two. The trail was 
+once, apparently, the middle of a large and busy thoroughfare. It now lies 
+overgrown by thick, impassable forest to the north and east and leads straight 
+up a very large mountain. The trail leads further south and west. You see a
+plateau where the trail disappears to the west.
+~
+0 0 5
+D2
+More trail
+~
+~
+0 -1 11006
+D3
+More trail
+~
+~
+0 -1 11008
+S
+#11008
+Ershteep Road~
+You are standing at a triple junction. To the north you see a wide boulevard, 
+to the east a narrow trail leads down the hill and to the west there is a 
+large, open field. The way south is blocked by forest.
+~
+0 0 5
+D0
+More road
+~
+~
+0 -1 11010
+D1
+More trail
+~
+~
+0 -1 11007
+D3
+A field
+~
+~
+0 -1 11009
+S
+#11009
+An open field~
+You stand on one of the many concentric grassy rings of this field. In the 
+centre of the field a large unfamiliar tree is growing surrounded by a ring of 
+earth then a ring of grass and so on so that a pattern of concentric circles 
+emerges. You feel a strange power coming from the tree but as you try to
+approach it you suddenly feel quite rejected. There is an exit to the east 
+back to the trail. The forest is too thick to penetrate here.
+~
+0 0 2
+D1
+The trail again
+~
+~
+0 -1 11008
+S
+#11010
+Ershteep Road~
+The road here is wider and seemingly more travelled. The road leads north 
+and south and is surrounded by impassable forest its the east and west sides. 
+On the horizon you see a large city wall.
+~
+0 0 3
+D0
+A road
+~
+~
+0 -1 11011
+D2
+A road
+~
+~
+0 -1 11008
+S
+#11011
+Outside the city wall~
+As you stand before the city a very strange feeling overwhelms you. You 
+get a sensation of great disaster but also a sense of lasting peace. The 
+gates stand before you wide open and unattended. The road leads south and 
+underneath the bridge you stand on lies a moat running east-west.
+~
+0 0 1
+D0
+The city.
+~
+~
+0 -1 11014
+D2
+A road.
+~
+~
+0 -1 11010
+E
+moat~
+You look into the murky water below you and surmise that
+jumping in there wuld not be a wise thing to do. A number of
+rather heavy objects seem to be floating on the surface!
+~
+S
+#11012
+Dead end~
+The passage way ends here where a door in the west wall leads further into 
+the wall. The smell that comes from there tends to indicate that it leads 
+into the sewers.
+~
+0 CD 0
+D1
+A dimly lit passageway
+~
+~
+0 -1 11013
+D3
+A door
+~
+door~
+2 11002 11056
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#11013
+East-West Passage~
+You stand in a dimly lit passage way inside the city wall. To the east is 
+the main city gate and west leads further into the dankness. It seems to be 
+a dead end.
+~
+0 D 0
+D1
+The city gates
+~
+~
+0 -1 11014
+D3
+An apparent dead end
+~
+~
+0 -1 11012
+S
+#11014
+City Gates~
+You stand inside the wall of the city where thousands of feet have trod. 
+To the south lies the relative safety of Ershteep Road, to the east and west 
+lie dim passages into the wall and north you can see into the city. Strangely 
+no normal city sounds seem to come from within!
+~
+0 D 0
+D0
+The city of Orshingal
+~
+~
+0 -1 11019
+D1
+A dim passage
+~
+~
+0 -1 11015
+D2
+Ershteep Road
+~
+~
+0 -1 11011
+D3
+A dim passage
+~
+~
+0 -1 11013
+S
+#11015
+East-West Passage~
+You stand in an dimly lit east-west passage inside the city wall. West lies 
+the city gate and east seems to lead to a dead end.
+~
+0 D 0
+D1
+A seemingly dead end
+~
+~
+0 -1 11016
+D3
+City gates
+~
+~
+0 -1 11014
+S
+#11016
+Dead end~
+The passage way ends here where a door in the east wall leads further into 
+the wall. The smell that comes from there tends to indicate that it leads 
+into the sewers.
+~
+0 CD 0
+D1
+A door
+~
+door~
+2 11002 11053
+D3
+A dimly lit passageway
+~
+~
+0 -1 11015
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#11017
+On a Road~
+You stand at a corner of a road which follows to city wall around. Through 
+huge amounts of rubble to see that the road leads north and east from here.
+~
+0 0 1
+D0
+On a Road
+~
+~
+0 -1 11023
+D1
+On a Road
+~
+~
+0 -1 11018
+S
+#11018
+On a Road~
+You stand on a road which leads both east and west from here. To
+the north is a broken down, old building.
+~
+0 0 1
+D0
+An old building
+~
+~
+0 -1 11024
+D1
+A junction
+~
+~
+0 -1 11019
+D3
+Road
+~
+~
+0 -1 11017
+S
+#11019
+Inside the main gates~
+You stand inside the main gates of Orshingal, a city in ruins. The cities 
+invaders seemed to take no care in their attack and bodies and rubble line 
+the streets. From here roads lead north, east and west. South leads back to 
+the city gates.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11025
+D1
+Road
+~
+~
+0 -1 11020
+D2
+City gates
+~
+~
+0 -1 11014
+D3
+Road
+~
+~
+0 -1 11018
+S
+#11020
+On a Road~
+You stand on a road which though covered in bodies and rubble seems 
+to lead both east and west from here. To the north is a mystic temple, 
+strangely in tact.
+~
+0 0 1
+D0
+A temple
+~
+~
+0 -1 11026
+D1
+Road
+~
+~
+0 -1 11021
+D3
+A junction
+~
+~
+0 -1 11019
+S
+#11021
+On a Road~
+You stand at a bend in the road. The road continues north and west from here.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11027
+D3
+Road
+~
+~
+0 -1 11020
+S
+#11022
+On a Road~
+You stand at a bend in the ruined road. The road apparently
+leads north and east from here.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11029
+D1
+Road
+~
+~
+0 -1 11023
+S
+#11023
+On a Road~
+You stand at a bend in the old road. It continues south and west
+through much rubble and many decaying bodies.
+~
+0 0 1
+D2
+Road
+~
+~
+0 -1 11017
+D3
+Road
+~
+~
+0 -1 11022
+S
+#11024
+Armoury~
+This ransacked shop once was an armoury and there are many pieces of 
+ancient armour all rusting on the floor. There is a cabinet on the floor 
+which seems to have been overlooked. Doors lead to the north and south.
+~
+0 D 0
+D0
+A foyer
+~
+~
+0 -1 11031
+D2
+Road
+~
+~
+0 -1 11018
+S
+#11025
+A wide street~
+A cobblestone street, meandering through the town. To the north is a
+large square dominated by a rather large mound in the centre with a tree on
+it. South is a junction of this street and another road.
+~
+0 0 1
+D0
+A square
+~
+~
+0 -1 11038
+D2
+A junction
+~
+~
+0 -1 11019
+S
+#11026
+South Chapel of the Temple~
+You are at the south end of the great temple. It is bedecked with many 
+ancient symbols and artifacts. The strange thing about this temple is that 
+unlike the rest of the city it seems to be quite well kept. An exit lies to 
+the south and the main hall lies to the north.
+~
+0 CD 0
+D0
+The main hall
+~
+~
+0 -1 11032
+D2
+An exit back to the street
+~
+~
+0 -1 11020
+E
+symbols~
+Strange symbols all in yellow and black are written on the walls. You have
+never seen anything like it before in your life. The strangest thing is
+that you seem to think the symbols say something important.
+~
+S
+#11027
+On a Road~
+A bend in the road. This was obviously where a great battle was fought as 
+the stench here is overpowering. The road continues south and east from here.
+~
+0 0 1
+D1
+Road
+~
+~
+0 -1 11028
+D2
+Road
+~
+~
+0 -1 11021
+S
+#11028
+On a Road~
+The road heads north and west at this point because at this point, what 
+is left of the city wall dictates that it does.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11034
+D3
+Road
+~
+~
+0 -1 11027
+S
+#11029
+On a Road~
+You stand on a north-south section of the road. The city wall is
+west of here and an old building lies to the east.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11035
+D1
+An old building
+~
+~
+0 -1 11030
+D2
+Road
+~
+~
+0 -1 11022
+S
+#11030
+Weaponary~
+This shop has been looted and pillaged many times and now all that is
+left are broken swords and a few scabbards. There is an awful lot of blood
+on the walls and a pile of bones lies behind the counter. There is an exit
+to the west and a small foyer lies east of here.
+~
+0 D 0
+D1
+A foyer
+~
+~
+0 -1 11031
+D3
+An exit to the street
+~
+~
+0 -1 11029
+E
+bones~
+The last remains of the weaponsmith.
+~
+S
+#11031
+A small foyer~
+This is a small room which connects three shops: The Armoury, Weaponry 
+and Jewellery. These lie to the south, west and north respectively.
+~
+0 D 0
+D0
+The Jewellery
+~
+~
+0 -1 11037
+D2
+The Armoury
+~
+~
+0 -1 11024
+D3
+The Weaponry
+~
+~
+0 -1 11030
+S
+#11032
+The Main Hall~
+Amazing patterns and dazzling images crowd your mind. Swirling visual 
+illusions make you reel and almost fall over. There are exits north and 
+south to small chapel like areas and in the east wall a small door leading 
+who knows where?
+~
+0 D 0
+D0
+A chapel
+~
+~
+0 -1 11039
+D1
+A large jarrah door
+~
+door~
+2 -1 11033
+D2
+A chapel
+~
+~
+0 -1 11026
+S
+#11033
+Cleric's Sanctum~
+You feel quite out of place in here. On the walls lie shelves which haven't 
+seen the love of a cleaner in what is apparently centuries. Many books lie 
+about them and there are some scrolls on the table before you. You suddenly 
+feel uneasy and you look around.
+~
+0 D 0
+D3
+A door
+~
+door~
+2 -1 11032
+S
+#11034
+A street~
+The road runs north-south here and there is a vile stench coming from a 
+grate at the base of the wall. You expect there are sewers down there.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11041
+D2
+Road
+~
+~
+0 -1 11028
+D5
+The city wall and a grate
+~
+grate~
+2 -1 11055
+E
+grate~
+It looks unlocked.
+~
+S
+#11035
+On a Road~
+At this point you can see through a hole in the wall of the city and see 
+that there is a large plain to the east and moving around you see a large 
+mountain to the north. The road turns to the south and east here.
+~
+0 0 1
+D1
+Road
+~
+~
+0 -1 11036
+D2
+Road
+~
+~
+0 -1 11029
+S
+#11036
+On a Road~
+The rubble lined road leads north and west from here. Through the debris 
+you see that the road leads distantly to the north where the remnants of the 
+wall impede its progress and it turns east.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11042
+D3
+Road
+~
+~
+0 -1 11035
+S
+#11037
+Jewelery~
+With little regard for years of timeless work, the city's destroyers have 
+badly damaged this place. You can see little of any value here. The bones of 
+the shopkeeper lie where he fell and they still clutch something!
+~
+0 D 0
+D1
+The City Square can be seen through the broken door.
+~
+~
+0 -1 11038
+D2
+A door to a small foyer
+~
+~
+0 -1 11031
+S
+#11038
+The City Square~
+In the centre of this large square, perched on the top of a small hillock, 
+is an all to unfamiliar tree. Radial lines of grass feed out from the tree 
+and you feel a sense of power radiating from it. Exits lie north and south 
+along a cobblestone street and east and west lead into buildings.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11044
+D1
+The temple
+~
+~
+0 -1 11039
+D2
+Road
+~
+~
+0 -1 11025
+D3
+An old, broken down building
+~
+~
+0 -1 11037
+D4
+Up to the tree
+~
+~
+0 -1 11059
+E
+tree~
+Why not go and take a closer look yourself?
+~
+S
+#11039
+North Chapel~
+The dim candle light and smell of incense makes your head spin and you get 
+the  feeling that you could very well be in for a bit of peril in here! There 
+is an exit to the west and the Main Hall lies to the south.
+~
+0 D 0
+D2
+You see the main hall of the temple
+~
+~
+0 -1 11032
+D3
+A door back to the outside
+~
+~
+0 -1 11038
+S
+#11040
+On a Road~
+The rubble lined road leads north and east from here. Through the debris 
+you see that the road leads distantly to the north where the remnants of the 
+wall impede its progress and it turns east.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11046
+D1
+Road
+~
+~
+0 -1 11041
+S
+#11041
+On a Road~
+The rubble lined road leads south and west from here.
+~
+0 0 1
+D2
+Road
+~
+~
+0 -1 11034
+D3
+Road
+~
+~
+0 -1 11040
+S
+#11042
+On a Road~
+The rubble lined road leads north-south here. A small house lies
+to the east but no door is apparent in the wall.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11047
+D2
+Road
+~
+~
+0 -1 11036
+S
+#11043
+Small House~
+This small house, once occupied, now lies in ruins. There are lots of 
+food scraps on the floor here and some clothes lie strewn on the floor. 
+Looks tidy eh?
+~
+0 AD 0
+D0
+The door out!
+~
+~
+0 -1 11048
+S
+#11044
+A wide street~
+A cobblestone street, meandering through the town. To the south is a large 
+square dominated by a rather large mound in the centre with a tree on it. 
+North is a junction of this street and another road. Small homes can be seen 
+east and west of here.
+~
+0 0 1
+D0
+A junction
+~
+~
+0 -1 11049
+D2
+A square
+~
+~
+0 -1 11038
+S
+#11045
+Small House~
+This small house, once occupied, now lies in ruins. There are lots of food 
+scraps on the floor here and some clothes lie strewn on the floor. 
+Looks tidy eh?
+~
+0 AD 0
+D0
+The door out!
+~
+~
+0 -1 11050
+S
+#11046
+On a Road~
+The rubble lined road leads north-south here. A small house lies
+to the west but no door is apparent in the wall.
+~
+0 0 1
+D0
+Road
+~
+~
+0 -1 11051
+D2
+Road
+~
+~
+0 -1 11040
+S
+#11047
+On a Road~
+The road turns here and leads south and east. To the north the city wall 
+lies in complete ruin and all the city which was beyond it is now just 
+wasteland. You get a strange sense of fear as you get closer to the wall. 
+There is a small path through the rubble.
+~
+0 0 1
+D0
+Something outside the city beckons from that direction.
+~
+~
+0 -1 11060
+D1
+Road
+~
+~
+0 -1 11048
+D2
+Road
+~
+~
+0 -1 11042
+S
+#11048
+On a Road~
+The road leads east-west and a door into a small, dark house leads south.
+~
+0 0 1
+D1
+Road
+~
+~
+0 -1 11049
+D2
+A small house
+~
+~
+0 -1 11043
+D3
+Road
+~
+~
+0 -1 11047
+S
+#11049
+Road Junction~
+You stand at the junction of the two main roads in Orshingal.
+They lead south and east-west.
+~
+0 0 1
+D1
+Road
+~
+~
+0 -1 11050
+D2
+A wide street
+~
+~
+0 -1 11044
+D3
+Road
+~
+~
+0 -1 11048
+S
+#11050
+On a Road~
+The road leads east-west and a door into a small, dark house leads south.
+~
+0 0 1
+D1
+Road
+~
+~
+0 -1 11051
+D2
+A small house
+~
+~
+0 -1 11045
+D3
+Road
+~
+~
+0 -1 11049
+S
+#11051
+On a Road~
+The road turns here and leads south and west. To the north the city wall 
+lies in complete ruin and all the city which was beyond it is now just 
+wasteland. You get a strange sense of fear as you get closer to the wall. 
+There is no way thru all the rubble, luckily.
+~
+0 0 1
+D2
+Road
+~
+~
+0 -1 11046
+D3
+Road
+~
+~
+0 -1 11050
+S
+#11052
+Fireplace~
+You stand in this small dim fireplace your light source dancing merrily 
+and making shadowy pictures on the walls. The grate lies to the south.
+~
+0 AD 0
+D2
+A grate
+~
+grate door~
+2 11001 11004
+S
+#11053
+Sewer~
+The stench is revolting! You see that the sewer here leads east
+and there is a door in the west wall.
+~
+0 AD 0
+D1
+More sewer
+~
+~
+0 -1 11054
+D3
+A door
+~
+door sewer~
+2 11002 11016
+E
+door~
+A plain wooden door
+~
+S
+#11054
+Sewer~
+The sewer leads both north and west from here.
+~
+0 AD 0
+D0
+More sewer
+~
+~
+0 -1 11055
+D3
+More sewer
+~
+~
+0 -1 11053
+S
+#11055
+Sewer~
+The sewer leads south from here and there is a grate in the ceiling.
+~
+0 AD 0
+D2
+More sewer
+~
+~
+0 -1 11054
+D4
+A city street
+~
+grate ceiling~
+2 -1 11034
+S
+#11056
+Sewer~
+The stench is revolting! You see that the sewer here leads west and there 
+is a door in the east wall.
+~
+0 AD 0
+D1
+A door
+~
+door sewer~
+2 11002 11012
+D3
+More sewer
+~
+~
+0 -1 11057
+E
+door~
+A plain wooden door
+~
+S
+#11057
+Sewer~
+The sewer leads both north and east from here.
+~
+0 AD 0
+D0
+More sewer
+~
+~
+0 -1 11058
+D1
+More sewer
+~
+~
+0 -1 11056
+S
+#11058
+Sewer~
+Apparently this is a dead end with the only exit being south.
+~
+0 AD 0
+D2
+More sewer
+~
+~
+0 -1 11057
+S
+#11059
+By the tree~
+Here, by the tree lie lots of bones and many bodies. There is an
+exit down. You might get to use it!
+~
+0 0 1
+D5
+The square
+~
+~
+0 -1 11038
+S
+#11060
+Outside the Wall~
+Wasteland extends north of the wall here, mostly littered with bricks and 
+other remnants of ancient construction. A great forest is on the west, 
+individual trees reaching nearly to the clouds. The city wall on the south 
+is in ruin, and a path leads through.
+~
+0 0 4
+D2
+~
+~
+0 -1 11047
+S
+#0
+
+
+#RESETS
+*
+D 1 11004 0 2			* A deserted cottage Lock North
+D 1 11052 2 2			* fireplace
+D 1 11012 3 2			* Dead end Lock West
+D 1 11016 1 2			* Close all the sewer
+D 1 11056 1 2			* doors!
+D 1 11053 3 2
+D 1 11055 4 1
+D 1 11034 5 1
+D 1 11032 1 1			* Close doors of sanctum
+D 1 11033 3 1
+*
+M 1 11007 1 11052 1		* Guard dog in fireplace (10)
+G 1 11008 -1                      * give him the ring!
+G 1 11012 -1                      * give him an opal potion
+*
+M 1 11012 1 11011 1		* Gargoyle (8)
+G 1 11002 -1                      * give gargoyle the key to the sewers
+*
+M 1 11008 2 11054 1		* Rats (13)
+M 1 11008 2 11057 1
+*
+M 1 11011 3 11031 1		* aggressive Yellow enfan in foyer 1 (14)
+E 1 11014 -1 16                   * wields runed dagger
+G 1 11011 -1                      * give him the key for the cases!
+*
+O 1 11010 3 11024               * a display case
+P 1 11006 99 11010 1		  * tunic in armory
+P 1 11007 99 11010 1		  * high heels in armory
+*
+O 1 11010 3 11030               * a display case
+P 1 11013 99 11010 1		  * long sword
+P 1 11013 99 11010 1              * long sword
+*
+O 1 11010 3 11037               * a display case
+P 1 11009 99 11010 1		  * bracelet in case in jewellery
+*
+M 1 11009 4 11045 1		* agg green 1 (7)
+M 1 11009 4 11045 1		* agg green 1 (7)
+M 1 11010 2 11045 1		* agg purple 1 (8)
+M 1 11011 3 11045 1		* agg yellow 2 (12)
+G 1 11001 1                       *give this guy the key to the fireplace
+*
+M 1 11001 10 11012 1
+M 1 11001 10 11016 1
+M 1 11001 10 11019 1
+M 1 11001 10 11025 1    blue enfans (9)
+M 1 11001 10 11038 2
+M 1 11001 10 11038 2
+M 1 11001 10 11049 1
+M 1 11001 10 11051 1
+*
+M 1 11002 10 11014 2
+M 1 11002 10 11014 2
+M 1 11002 10 11027 1
+M 1 11002 10 11032 1     grey enfans (6)
+M 1 11002 10 11039 1
+M 1 11002 10 11042 1
+M 1 11002 10 11047 1
+M 1 11002 10 11046 1
+*
+M 1 11009 4 11033 2			agg green (7)
+M 1 11009 4 11033 2			agg green (7)
+M 1 11010 2 11033 1			agg purple (8)
+M 1 11011 3 11033 1			agg yellow (12)
+M 1 11006 1 11033 1		* the black man! (15)
+E 1 11003 -1 8                    * boots
+E 1 11005 -1 11		          * shield
+E 1 11004 -1 16			  * claymore
+E 1 11009 -1 15			  * opal bracelet - moved from Jewelry Store
+*
+M 1 11003 5 11010 1
+M 1 11003 5 11030 1
+M 1 11003 5 11040 1			green enfans (11)
+M 1 11003 5 11050 1
+M 1 11003 5 11059 1
+*
+M 1 11004 4 11023 1
+M 1 11004 4 11022 1			purple (12)
+M 1 11004 4 11041 1
+M 1 11004 4 11048 1
+*
+M 1 11005 3 11032 1			yellows (13)
+M 1 11005 3 11043 1
+M 1 11005 3 11047 1
+*
+S
+
+
+#SPECIALS
+M 11006 spec_cast_cleric			the black enfan
+M 11001 spec_assassin_align
+M 11002 spec_assassin_align
+M 11003 spec_assassin_align
+M 11004 spec_assassin_align
+M 11005 spec_assassin_align
+M 11009 spec_assassin_align
+M 11009 spec_assassin_align
+M 11011 spec_assassin_align
+
+S
+
+
+#$

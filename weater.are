@@ -1,0 +1,3113 @@
+#AREA   The Domain of World Eater~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+30 50 0 65
+$
+
+#RESETMSG Deep, booming laughter echoes through the halls of the citadel.~
+
+#FLAGS
+0
+
+#ECONOMY 0 5000000
+
+#MOBILES
+#3000
+world eater monolith~
+World Eater~
+A towering monolith of black stone stands in the center of the chamber.
+~
+Few beings in the known (or unknown) multiverses are as powerful (or
+arrogant) as the all-powerful World Eater. A galactic power of immense
+strength and magical power, the world eater is a demon trapped in a
+massive stone monolith, who must travel the planes, devouring worlds and
+civilizations. Brythunia is next on his agenda; pray that he fails...
+~
+67 373301928 0 C
+55 0 -300 1d1+29999 10d20+100
+0 0
+8 8 0
+25 25 25 13 25 3 3
+0 0 0 0 0
+90 24 0 0 110593 1 6
+0 0 0 8399 3677986 16 254208 8192
+> fight_prog 100~
+if isnpc($n)
+mpe _yel A brilliant beam of energy strikes $n in the chest!
+mpforce $n scream
+mpdamage $n 5000
+mpforce $n flee
+else
+if rand(10)
+mpe _yel Bolts of energy lance from the monolith, striking many combatants.
+mpdamage $n 600
+mpdamage $r 400
+mpdamage $r 200
+cackle
+else
+if rand(20)
+say Seek not to test my power, mortal $n!
+mpe _whi An aura of intense light issues forth from the monolith!
+muhaha
+mpdamage $n 500
+c frost
+else
+if rand(30)
+say My powers are not to be trifled with!
+c feebleness
+c blazebane
+c winter
+c quantum
+c necro
+c 'fire breath'
+c chill
+else
+if rand(40)
+yell I AM WORLD EATER! I AM INVINCIBLE!
+disarm
+sneer $n
+get all
+mpjunk all
+endif
+endif
+endif
+endif
+endif
+~
+> death_prog 100~
+mpe The World Eater screams, as cracks appear along its surface.
+mpe With a mighty roar, it epxlodes, showering the room with shards of stone!
+mpdamage $r 200
+mpdamage $r 200
+mpdamage $r 200
+mpdamage $r 200
+mpdamage $r 200
+mpe When the dust settles, you see a metal belt lying amidst the debris.
+mpoload 3000 50
+~
+> greet_prog 100~
+if isimmort($n)
+sneer $n
+say Hark, so-called 'immortal', I am here at the behest of greater
+say powers than you... Leave before I destroy ye pfile!
+else
+if ispc($n)
+hmm
+say Mortal named $n, you realize not the powers you meddle with.
+say Normally, I would destroy thee without a thought... and be glad!
+snicker
+say But I admire you for passing my guardians, and shall spare you.
+say Speak your wish to be gone from this place, and I shall send you away.
+say But, should you elect to remain, be aware that I will smite you down!
+cackle
+else
+endif
+endif
+~
+> act_prog p grovels in the dirt before you.~
+chuckle
+say Ahh, you truly are a worthless creature, $n.
+pat $n
+~
+> speech_prog p I wish to be gone from this place~
+nod
+say So be it!
+mea $n $I whispers a word, and you find yourself suddenly falling...
+mpechoaround $n $I whispers a word, and $n disappears!
+mpat 21056 mpe $n suddenly comes hurtling down from the heavens!
+mptrans $n 21056
+mpat 21056 mpforce talus say By the Gods! What an entrance!
+mpat $n mea $n You hit the ground... HARD.
+mpat $n mpdamage $n 500
+mpat $n mpasound You hear a body smash into the stone road nearby.
+~
+> act_prog p looks at you.~
+say Stare not upon my magnificence, $n!
+mea $n A bolt of black energy strikes you in the chest!
+mpechoaround $n $n cries out as a blast of energy strikes $m!
+mpdamage $n 400
+~
+|
+#3001
+unearthly guardian~
+an unearthly guardian~
+A massive stone statue looms over you.
+~
+~
+99 4194944 0 C
+48 0 -200 10d100+9000 8d10+80
+0 0
+8 8 0
+20 13 13 13 20 13 13
+0 0 0 0 -10
+40 3 0 0 4096 4096 3
+0 0 0 8399 3153184 16 384 524291
+> fight_prog 20~
+c winter $r
+c chill $r
+~
+> death_prog 100~
+mpe At the moment of 'death', the head of the guardian topples off.
+mpoload 3056 1
+mpat 3045 drop head
+mpe It strikes the floor and bounces high and hard into the south wall.
+mpe It smashes into the wall with such force that the stone is shattered!
+mpe Peering through the rubble, you can make out a hidden passage.
+mpopenpassage 3045 3046 2
+~
+|
+#3002
+bronze dragon blue shruaurgaz~
+Shruaurgaz~
+A mighty blue dragon roars in anger!
+~
+Your first reaction upon glimpsing this mighty dragon is one of terror;
+blue dragons are one of the most powerful types of dragons. It is said
+that their lightning breath can fell giants like pixies. However, you
+notice no trance of the magical lightning sparks one normally sees about
+such a beast; instead you note a faint golden hue, as if magical illusion
+obfuscated the true nature of this ensorcelled beast.
+~
+67 340271272 750 C
+50 0 -300 30d10+16000 40d2+40
+0 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 2049 1 5
+0 0 8750621 735 3153152 32 131463 2
+> greet_prog 100~
+if ispc($n)
+say Stranger, pray attack me not; I am a dragon of good mein, 
+say imprisoned here against my will by the vile World Eater. If you
+say wish to slay him, say so and I can try and help you.
+else
+say Begone from this place, else I slay you $n!
+roar $n
+endif
+~
+> fight_prog 80~
+if isnpc($n)
+mpe $I levels $n with a withering blast of energy!
+mpdamage $n 1000
+mpforce $n scream
+mpforce $n yell THE PAIN!!!!!
+mpforce $n flee
+else
+if rand(5)
+mea $n You are hit by a breath attack of tremendous force!
+mpechoaround $n A bolt of flame strikes $n, searing $m badly!
+mpforce $n yell IT BURNS! IT BURNS!
+mpdamage $n 800
+mpforce $n flee
+else
+if rand(10)
+mpe $I roars in fury, unleashing a gout of fire and gas!
+c 'fire breath'
+c 'gas breath'
+mpe Flesh is charred and seared by the blast!
+else
+if rand(20)
+mpe $I unleashes a volley of spells!
+c 'black lightning'
+c 'sulfurous spray'
+c chill
+c 'spiral blast'
+c 'caustic fount'
+else
+if rand(30)
+mpe $I works an array of debilitating magicks upon $r!
+c unravel $r
+c winter $r
+c blazebane $r
+c swordbait $r
+c weaken $r
+else
+endif
+endif
+endif
+endif
+endif
+~
+> death_prog 100~
+if rand(40)
+mpe As the mighty blue dies, it reverts to its true, bronze, colorings.
+mpe A shimmering token falls from its maw as it collapses, dead.
+mpoload 3006
+else
+endif
+~
+> speech_prog p i wish to slay him~
+say Good. His lair is hidden by magical forces, without my help you
+say would not reach his sanctum. However, he may have other barriers
+say that I do not know of; the master loves his little tricks.
+sigh
+say Be sure to explore every avenue, for he is an ancient and deadly foe.
+say Now, go!
+mea $n A swirling mass of colours surrounds you, and you shift dimensions.
+mpechoaround $n $n is surrounded by a swirling mass of colours.
+mptrans $n 3049
+mpat $n tell $n This is his sanctum! Be careful, and may Law be with you!
+~
+|
+#3003
+shrua elder god~
+Shrua~
+A beautiful woman with wise eyes stares quietly ahead.
+~
+Sister of Urgaz, Shrua and her brothers were the elder gods of an ancient
+culture destroyed by the World Eater, who found the deities amusing and
+decided to bring them to his otherworldly manse. They are good and
+honest deities, who can only hope for salvation if their token is
+returned to them, the key by which they may traverse to another world.
+~
+67 6291624 1000 C
+48 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 25 13 13 13 13
+0 0 0 0 0
+90 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if isnpc($n)
+say You are not welcome here!
+mpforce $n w
+else
+say O adventurer, why are you in this accursed place willingly?
+sigh
+say Pray, destroy the vile evil that keeps us imprisoned here,
+say and return to my brother and I the token that may free us
+say from this foul domain.
+endif
+~
+> rand_prog 2~
+, sings sadly, in a high, soft voice.
+~
+> give_prog token elder gods~
+say Joy! I can be free, to flee this fell domain!
+swoon
+say Mayhap I can find some of my worshippers, yet alive somewhere...
+sigh
+say At any rate, I am glad to be free of this place. Pray, accept this-
+mpe Shrua produces a shining shield, used by her in many battles against chaos.
+mpoload 3005 45
+give shield $n
+say Use it wisely, and justly, as I know you will, dear $n.
+yell World Eater! I am free of your foul clutches! HA!
+mpat world mpforce world yell NNNOOOO! HOW IS THIS POSSIBLE???
+mea $n World Eater will surely remember your act...
+smile
+c sanc $n
+wave
+mpe _whi $I suddenly vanishes, in a blinding flash of light!
+mpgoto 2
+mpjunk all
+~
+|
+#3004
+urgaz~
+Urgaz~
+A proud man, clad in white armor, stands before you.
+~
+Urgaz and his twin sister Shrua were the deities of an ancient civilization
+that was obliterated by the fell World Eater, who took them prisoner to
+amuse himself. They are prevented from escaping by the fact that the
+dragon that once served them as herald has been ensorcelled and forced to
+guard it, ironically so in that he who was once sworn to protect them now
+enslaves them, albeit against his will.
+~
+3 2097832 0 C
+48 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+90 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if isnpc($n)
+say Leave, $n, you cannot help us.
+mpforce $n bow
+mpforce $n e
+else
+say Adventurer, you truly must be strong of arm and heart, to venture
+say this far into the World Eater's damned citadel. Pray, would you
+say help my sister and I to be free of this place, so that we may
+say properly mourn the death of our people? Return to us the token,
+say borne by the dragon that bears our names, and you shall be rewarded.
+endif
+~
+> give_prog token elder gods~
+say At last! $n, I am in your debt. Please, take my sword as payment.
+mpe Urgaz unsheathes a magnificent blade, and hands it over.
+mpoload 3004 46
+give urgaz $n
+say May it serve you well. I shall have no further use of it.
+bow $n
+say Fare thee well, $n
+yell World Eater! I have defeated your prison! I am free!
+mpat world mpforce world yell NNNOOOOOO! HOW IS THIS POSSIBLE?
+mea $n You feel fairly sure that the World Eater will not be pleased...
+wave $n
+mpe _whi Urgaz disappears in a blinding flash of holy light!
+mpgoto 2
+mpjunk all
+~
+|
+#3005
+forsaken entity~
+the Forsaken Entity~
+A pathetic old man is huddled up in one corner.
+~
+This old man was once a mighty deity, immortal god king of a proud
+and powerful empire that spanned whole planes of existence. He and
+his world were utterly destroyed by the World Eater, and he was brought
+here as a souvenir of this accomplishment. Without his world, his power
+is greatly reduced, though he is still a powerful spellcaster.
+~
+67 4194472 -400 C
+46 0 -100 100d50+3860 8d8+12
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+90 0 0 0 1 1 3
+0 0 2047 3154176 7168 64 1107300992 1048594
+> fight_prog 100~
+if rand(15)
+yell Leave me ALONE!
+stun
+c q
+c 'charged beacon'
+c 'ethereal funnel'
+c quantum
+else
+if rand(20)
+c acid
+c fireball
+c 'galvanic whip'
+c chill
+c weaken
+else
+if rand(30)
+c 'energy drain'
+c feebleness
+c necro
+else
+c 'black fist'
+endif
+endif
+endif
+~
+> greet_prog 100~
+, babbles incoherently.
+mpe Looking up, the old man's eyes refocus, and he opens his toothless mouth.
+say Just... just... leave... me... alone...please...
+cry
+drool
+~
+> death_prog 100~
+mpe As the old man dies, a glove slips from his gnarled hands.
+mpoload 3008 
+~
+|
+#3006
+enraged berserker warrior eyrtug~
+Eyrtug~
+An enraged berserker warrior screams and attacks!
+~
+Once a mighty barbarian prince from some far off world, Eyrtug was
+snatched from his home seconds before its destruction by the World
+Eater, as he alone dared challenge the destroyer of worlds to 
+combat. World Eater destroyed his mind, then imprisoned him here,
+as a souvenir.
+~
+99 4202536 -654 C
+42 0 0 50d10+2500 0d0+0
+0 0
+8 8 1
+22 13 13 21 23 13 13
+0 0 0 0 0
+0 3 0 0 65536 65536 3
+0 0 2047 1048688 2104576 0 944 524291
+> greet_prog 100~
+snarl
+say More flesh to fall beneath the blades of my axes!
+cackle
+mpkill $n
+~
+> fight_prog 100~
+if rand(10)
+disarm
+cackle
+gouge
+else
+if rand(25)
+stun
+mea $n $I slams his huge fist into your groin!
+mpdamage $n 150
+mpforce $n say OOOO! Me 'nads!
+grin
+else
+if rand(30)
+wield axe
+wield axe
+muhaha
+say Best not try to disarm me again!
+mpe $I slams his foot down, hard, sending shockhaves through the room!
+c earthquake
+mpdamage $n 100
+mpdamage $r 50
+mpdamage $r 50
+else
+kick
+endif
+endif
+endif
+~
+|
+#3007
+vigilant watcher~
+the vigilant watcher~
+A steel statue stands before the archway.
+~
+This armored steel construct has been placed to ward off any of the
+minions without from entering the domain of World Eater. However, it
+will not bother more powerful intruders, unless provoked.
+~
+67 6300328 0 C
+33 0 -123 0d0+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 18 13 13
+0 0 0 0 0
+40 3 0 0 4096 4096 1
+0 0 0 1048825 2104578 4 128 2097155
+> greet_prog 100~
+if level($n) < 30
+mpe The vigilant watcher moves to intercept you!
+mpkill $n
+else
+mpe The vigilant watcher remains motionless as you approach.
+endif
+~
+> death_prog 100~
+mpoload 3013
+~
+> speech_prog key~
+mpe The vigilant watcher shifts suddenly, and points to his chest.
+mpe you almost fancy that his featureless face was about to grin.
+~
+|
+#3008
+lost soul~
+a lost soul~
+A shrieking apparition hurtles past.
+~
+The unfortunates are some of the souls of the billions of creatures
+slain by World Eater and his minions over the aeons.
+~
+65 2097664 0 C
+20 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 2 0 0 4096 4096 0
+0 0 0 0 7424 0 1107300352 2
+> rand_prog 1~
+scream
+~
+> rand_prog 2~
+drool
+~
+> greet_prog 25~
+cringe $n
+~
+|
+#3009
+scribe~
+a spectral scribe~
+A spectral scribe rushes about the library.
+~
+~
+65 275776170 0 C
+37 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 1 0 0 1 1 1
+0 0 0 1056768 2100486 0 1107300352 2050
+> fight_prog 33~
+c chill
+~
+> rand_prog 2~
+sigh
+say Oh my!
+~
+> fight_prog 25~
+yell Violence in the place of learning!
+, mutters a few words, and you suddenly feel quite odd...
+mpforce $n say hmm... now what was it i was doing?
+mpechoaround $n $n suddenly wanders out of the library!
+mea $n You lose interest in this battle, and wander outside!
+mptrans $n 3025
+~
+> death_prog 100~
+if rand(5)
+mpe As the scribe dies, a scroll slips from his grasp...
+mpoload 3023 30
+else
+if rand(10)
+mpe As the scribe dies, a scroll slips from his grasp...
+mpoload 3019 30
+else
+if rand(15)
+mpe As the scribe dies, a scroll slips from his grasp...
+mpoload 3020 30
+else
+if rand(20)
+mpe As the scribe dies, a scroll slips from his grasp...
+mpoload 3021 30
+else
+if rand(25)
+mpe As the scribe dies, a scroll slips from his grasp...
+mpoload 3022 30
+else
+endif
+endif
+endif
+endif
+endif
+~
+|
+#3010
+the spectral librarian~
+the spectral librarian~
+A ghostly librarian sits here reading.
+~
+This spectre resembles a ghostly old man, not unlike the bespectacled
+gentleman who is the archiver of the city records in Maritshome.
+Once a famous and respected historian, the World Eater resurrected him
+after obliterating his home world, and made him the archiver of his
+own records, also totally wiping any memory of his previous life from
+his mind.
+~
+67 357573288 400 C
+40 0 -123 7d30+3333 8d2+64
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 -10
+0 1 0 0 1 1 2
+0 0 0 1048584 2113286 161 0 211
+> act_prog p from the west.~
+if isnpc($n)
+and name($n) == scribe
+sigh
+say Not NOW, fellow! I am BUSY!
+sigh
+mpforce $n roll
+mpforce $n w
+else
+if ispc($n)
+say What? What do you want? Do you have a particular reason
+say for disturbing my research, or are you a pest by nature?
+mea $n The librarian glares at you from over his spectacles.
+mea $n Suddenly you feel as if you were in school, and in trouble.
+mpforce $n blush
+mutter
+say Shoo! I have work to do!
+mpe With that, the librarian returns to his book.
+else
+endif
+endif
+~
+> bribe_prog 100000~
+say Oh, well you DO have a valid reason to disturb me, then!
+, winks at you knowingly.
+say They don't pay us much here, you know.
+say After something more exciting? Well don't forget that
+say World Eater loves levers.
+smirk
+mpjunk coins
+~
+> rand_prog 2~
+, clears his throat, and reads aloud from one of his books.
+say The time has come, my little friends, to talk of other things.
+say Of shoes and ships, and ceiling whacks, and cabbages, and
+say ...kings...
+mpe The librarian pauses, as if suddenly remembering something.
+sniff
+~
+> fight_prog 10~
+c winter
+c chill
+~
+> fight_prog 15~
+c charged
+c 'black lightning'
+~
+> fight_prog 20~
+c 'ethereal funnel'
+c quantum
+~
+> fight_prog 25~
+c feebleness
+c necro
+~
+> death_prog 100~
+mpe As the librarian slips into the cold embrace of death again, he smiles.
+mpe Although I wish you had succeeded, know that my master will bring me
+mpe back, and I will be once again his slave...
+if rand(10)
+mpe Before he dies, the librarian casts a glance at the loose book.
+else
+endif
+~
+> rand_prog 2~
+mpe The librarian suddenly raps his staff upon the ground, visibly upset.
+say QUIET! Too much chatter!
+mutter
+~
+> rand_prog 33~
+pull tome
+~
+|
+#3011
+deranged alchemist~
+a deranged alchemist~
+A wild-eyed old man sniggers softly as he brews a bubbling potion.
+~
+This mad-looking character is totally devoted to his work. He stumbled
+in here one day by accident, and was almost destroyed by the gargoyles.
+World Eater saved him, but not before his mind became rather...unhinged.
+You note with interest the curious brace he wears on his neck, which 
+supports a heavy tome at arm's length, so he can glance at his notes
+whilst brewing, leaving his hands free.
+~
+67 301990056 -400 C
+42 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 18 13 25 13 13 22
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 2047 2098063 1055744 0 1375998465 2
+> rand_prog 2~
+mpe The alchemist glances down at the book supported on the brace.
+hmm
+say Yesss..... heh heh...heh heh...
+, sniggers uncontrollably.
+mpe The alchemist adds another drop of brown liquid to his potion.
+~
+> rand_prog 2~
+mpe _whi A sudden explosion rocks the chamber, sending glass everywhere!
+say Aw crap... not good....heh heh... but nice explosion...
+, sniggers uncontrollably.
+~
+> greet_prog 100~
+if ispc($n)
+say heh heh... visitors... niiiiiiice....
+say heh heh.... made a potion.... wanna try it?
+, sniggers uncontrollably.
+else
+say heh heh, who are you $n!
+say Want a potion?
+mpe $n wisely declines.
+endif
+~
+> speech_prog p yes~
+if rand(10)
+mpoload 3031 39
+give bubbling $n
+mpe You take a sip...
+mpforce $n quaff bubbling
+say Uh oh, bad one...
+, sniggers uncontrollably.
+else
+if rand(15)
+mpoload 3034 39
+give bubbling $n
+mpe You take a sip...
+mpforce $n quaff bubbling
+say Heh heh me make a nice one there... heh heh
+else
+if rand(20)
+mpoload 3032 39
+give bubbling $n
+mpe You take a sip...
+mpforce $n quaff bubbling
+say Heh heh oops...
+muhaha
+else
+if rand(30)
+mpoload 3033 39
+give bubbling $n
+mpe You take a sip...
+mpforce $n quaff bubbling
+say OOOO.... you pretty now! Not like before...heh heh
+else
+mpoload 3035 39
+give bubbling $n
+mpe You take a sip...
+mpforce $n quaff bubbling
+shrug
+say It happens... heh heh....heh heh....
+endif
+endif
+endif
+endif
+~
+> speech_prog p no~
+shrug
+say Your loss... heh heh....heh heh...
+drool
+~
+> fight_prog 100~
+if rand(10)
+say Heh heh... bad move $n...
+mea $n hurls a vial of acid in your face!
+mpechoaround $n $I hurls a vial of acid in $n's face!
+mpforce $n scream
+mpforce $n say AAAAAGH! My eyes!
+mpdamage $n 200
+else
+if rand(20)
+say Heh heh.... make magic now... heh heh....
+c q
+c unravel
+c 'caustic fount'
+c chill
+else
+if rand(30)
+gouge $r
+poke $r
+wink $r
+slap $r
+mpdamage $r 75
+else
+c 'acid blast'
+endif
+endif
+endif
+~
+> hitprcnt_prog 20~
+cry
+say You hurt me... heh heh.... but i get better...
+snicker
+mpe The alchemist quickly quaffs a vial of black liquid.
+mpat 3 c heal
+mpat 3 c troll
+mpat 3 c 'antimagic shell'
+mpat 3 c shadowform
+~
+> rand_prog 3~
+mpasound A sudden explosion, and someone laughing uncontrollably, is heard.
+~
+|
+#3012
+zombie janitor~
+a zombie janitor~
+A rotting corpse slowly shuffles along.
+~
+This undead servant shuffles along the many twisting corridors, picking
+up any rubbish, and mopping up stains left by slain adventurers.
+~
+69 8744 0 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+18 3 3 13 18 3 3
+0 0 0 0 0
+71 3 0 0 4096 4096 1
+0 0 2047 1048592 7426 96 128 1
+> fight_prog 33~
+bash
+~
+> rand_prog 2~
+, stops and picks his nose.
+say Gaaaaaahhhh.....
+~
+> rand_prog 5~
+if inroom($n) == 3018
+mpe The zombie's face contorts in a rictus of agony.
+mpe Even he finds the stench unbearable...
+else
+mpe The zombie clumsily swipes at a patch of dust with the mop.
+endif
+~
+|
+#3013
+troll guard~
+the troll guard~
+A troll clad in splint mail sits here, sobbing uncontrollably.
+~
+This poor troll has been set to guard something, but exactly what he
+is not sure. All he knows is that it is imperative he keep ahold of the
+little stuffed toy he was given by the nice big black stone what has
+a deep voice...
+~
+67 552 -200 C
+36 0 -75 0d0+0 0d0+0
+0 0
+8 8 0
+20 8 8 13 18 6 4
+0 0 0 0 0
+8 3 0 0 65 1 2
+0 0 47 1048646 2104592 129 896 3
+> greet_prog 100~
+if ispc($n)
+mpe As you enter the troll rubs at his eyes, and attempts to regain
+mpe his composure.
+say Err.... hello...
+, shuffles his feet nervously, unsure of what he is meant to do.
+say Er... have you seen my doll?
+, blinks innocently.
+say It...er... isn't that I like dolls or anything, its just that...
+mpe The troll suddenly breaks down again, weeping uncontrollably.
+else
+endif
+~
+> speech_prog p yes~
+say You HAVE? That's... incredible!
+gasp
+say May I have it please?
+, does his best to look appealing and friendly.
+~
+> speech_prog p no~
+cry
+say Waaah... I'll NEVER get it back...
+sniff
+say I lost it when I was going wee-wees. It fell down the-
+blush
+say ... you know...
+, rubs his toe in the dirt sheepishly.
+~
+> give_prog fluffy toy doll~
+mpe Tears well in the troll's eyes, this time tears of joy.
+say Oh THANK YOU!
+mpe The troll grabs the doll and hugs it tightly.
+mpe As he does, a small silver key slips from the stuffing.
+mpoload 3041
+drop key
+mpjunk fluffy 
+~
+> fight_prog 33~
+bash
+~
+> rand_prog 100~
+close s
+close trapdoor
+~
+> rand_prog 2~
+sigh
+mpat 3 c troll
+mpat 3 c stone
+~
+|
+#3014
+demonic butler~
+a demonic butler~
+A demonic butler stands here, awaiting guests.
+~
+This helpful little valet is clad in a smart black jacket, and looks
+quite the part. His mannerisms, however, such as sudden howls and 
+vocalizing his desire to drink the blood of virgins, are unsettling
+reminders of his true nature.
+~
+3 532648 -400 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+18 18 13 22 13 7 4
+0 0 0 0 0
+67 2 0 0 1 1 1
+0 0 1409071 2099456 1053901 16 1074008707 2
+> act_prog p from the south.~
+if ispc($n)
+say Ahh, greetings and welcome to the residence of my master.
+smile
+say Can I take your cloak for you. $n?
+else
+roll $n
+say MORE vagrants. Tsk.
+endif
+~
+> act_prog p from the north.~
+if ispc($n)
+say Leaving so soon, $n?
+snicker
+else
+say Good, be off wih you, $n.
+endif
+~
+> speech_prog p yes~
+smile
+say Excellent! I'll have those off ye in a second.
+mea $n The demon whips the cloak from your back, and whisks it away!
+mpforce $n rem cloak
+mpforce $n rem coat
+mpforce $n rem cape
+mpforce $n give cloak butler
+mpforce $n give coat butler
+mpforce $n give cape butler
+mpechoaround $n The demon grabs $n's cloak, and disappears!
+mpat 4 drop all
+mpat 4 mppurge
+say There!
+smile
+~
+|
+#3015
+elderly gith mage aaquervus~
+Aaquervus~
+An elderly gith mage sits here, reading quietly.
+~
+This venerable gith warlock wants nothing more than to be left alone in
+his contemplation of the works of Chaos.
+~
+67 6292008 -500 C
+44 0 0 100d5+3500 4d10+50
+0 0
+8 8 0
+13 22 13 18 13 13 8
+0 0 0 0 0
+10 0 0 0 524288 524288 0
+0 0 2047 3151247 2048 0 1912602624 1060419
+> fight_prog 100~
+if rand(20)
+snarl
+say You anger me, adventurer!
+mpe The mage launches a volley of offensive magic!
+c q
+c 'caustic fount'
+c 'galvanic whip'
+c 'sulfurous spray'
+c 'black fist'
+c chill
+else
+if rand(25)
+mpe The mage throws up a wall of defensive spells!
+c antimagic
+c eldritch
+c shadowform
+c dragonskin
+c demonskin
+c inner
+c blazeward
+else
+if rand(30)
+mpe The mage launches a variety of debilitating magic!
+c 'ethereal funnel'
+c blazebane
+c winter
+c weaken
+c 'charged beacon'
+c unravel
+else
+c fireball
+endif
+endif
+endif
+~
+> greet_prog 100~
+if name($n) == scribe
+sigh
+say Please, do not disturb my work, you ghostly apparition!
+mpforce $n roll
+mpforce $n s
+mutter
+else
+if ispc($n)
+say What is it NOW? Oh dear, an adventurer!
+roll
+say Please, I am not in the mood to kill you right now.
+say Just leave me alone, and depart!
+else
+say MORE interruptions!
+boggle
+endif
+endif
+~
+> rand_prog 4~
+mutter
+say What does a mage have to do to get some PEACE around here???
+say Be off before I call the librarian!
+~
+|
+#3016
+grinning gargoyle~
+a grinning gargoyle~
+A gargoyle leers menacingly at you from atop a pedestal.
+~
+Not dissimilar to the statues downstairs, this one differs in that it
+slowly, but surely, creaks to life as you pass it, squatting down to
+stare intently at you.
+~
+67 524840 -745 C
+38 0 -100 0d0+0 0d0+0
+0 0
+8 8 1
+20 13 13 20 20 13 13
+0 0 0 0 0
+34 3 0 0 8192 8192 3
+0 0 1377855 2100431 12576 16 647 2
+> greet_prog 100~
+mea $n The gargoyle stares intently at you as you pass.
+snicker
+~
+> rand_prog 2~
+mpat 3 c stone
+mpat 3 c heal
+mpat 3 c antimagic
+~
+> fight_prog 33~
+gouge
+~
+> fight_prog 10~
+stun
+~
+|
+#3017
+jedevirk thief rogue~
+Jedevirk~
+A rogue clad in black armor slinks near the shadowy corner.
+~
+The infamous rogue Jedevirk is legendary all across Brythunia. He claims
+that there is nothing he cannot steal; perhaps, though, he is a little
+in over his head here. Despite his arrogance, he is in fact a superb
+swordsman and spellcaster, and has bested foes far more powerful tham
+himself through guile and cunning.
+~
+67 337740458 -100 C
+49 0 -300 75d10+8800 8d10+35
+0 0
+8 8 1
+13 22 13 25 13 20 20
+0 0 0 0 0
+9 2 0 0 3 1 3
+0 0 2047 1056880 2100480 0 1109395136 2621443
+> fight_prog 100~
+wield blade
+wield dagger
+if rand(15)
+gouge
+disarm
+sac staff
+sac sword
+sac spear
+sac mace
+sac axe
+sac hammer
+sac club
+chuckle
+else
+if rand(25)
+say Fancy yourself a swordsmaster? Ha!
+mpe $I launches into a devastating assault, slicing and stabbing repeatedly!
+mpdamage $n 500
+else
+if rand(35)
+say Magic as well as might is mine to command!
+c unravel
+c blindness
+c weaken
+c razorbait
+c swordbait
+c curse
+else
+if rand(40)
+c 'acetum primus'
+else
+c 'black fist'
+endif
+endif
+endif
+endif
+~
+> act_prog flees~
+cackle
+mpat $n mea $n Jedevirk fishes out a throwing dagger and nails you in the back!
+mpat $n mpdamage $n 300
+~
+|
+#0
+
+
+#OBJECTS
+#3000
+cosmic belt~
+The Cosmic Belt~
+A girth of titanic proportions lies here.~
+~
+9 528578 2049
+30 0 0 0
+25 750000 75000
+A
+1 3
+A
+5 3
+A
+13 200
+A
+17 -50
+A
+18 5
+A
+19 6
+> wear_prog 100~
+mea $n As you fasten the sparkling girth about your waist, you feel 
+mea $n strange magics begin to work upon you.
+c kin $n
+c troll $n
+c armor $n
+c valiance $n
+~
+> remove_prog 100~
+mea $n You reluctantly remove the Cosmic belt from your waist.
+mea $n Immediately you feel relieved to be rid of the immense burden.
+c refresh $r
+~
+> sac_prog 100~
+mpe _whi A beam of white light shines down from the heavens!
+c sanc $r
+~
+|
+#3001
+trident stone~
+a stone trident~
+A massive three pronged stone dart rests here.~
+~
+5 16908354 8193
+0 0 0 2
+20 0 0
+A
+1 2
+A
+13 60
+A
+18 8
+A
+19 9
+A
+22 -3
+#3002
+graystone cloak~
+Graystone Cloak~
+A sheet of stone that appears to be moving slides across the floor...~
+~
+9 16926274 1025
+25 0 0 0
+45 50000 5000
+A
+5 2
+A
+13 80
+A
+19 7
+A
+22 -4
+A
+24 -4
+A
+27 32
+> wear_prog 100~
+c troll $n
+~
+|
+#3003
+circlet of perception~
+Circlet of Perception~
+A thin band of white metal lies here.~
+~
+9 16827970 131073
+18 0 0 0
+4 63211 6321
+A
+19 3
+A
+18 3
+A
+26 32
+#3004
+sword urgaz~
+the Sword of Urgaz~
+A glowing metal blade is buried to the hilt in the floor.~
+~
+5 8946952 8193
+0 0 0 3
+7 1500000 150000
+A
+2 2
+A
+31 2
+A
+13 100
+A
+12 100
+A
+18 9
+A
+19 10
+A
+23 -5
+A
+27 3
+#3005
+shield shrua~
+the Shield of Shrua~
+The shield of a forgotten god lies here, forgotten.~
+~
+9 8947010 513
+30 0 0 0
+35 150000 15000
+A
+17 -55
+A
+27 2097412
+A
+13 125
+A
+18 4
+A
+19 6
+#3006
+token elder gods~
+the Token of the Elder Gods~
+A shimmering symbol lies on the ground in a pool of blood.~
+~
+18 1344 16385
+0 0 0 0
+3 0 0
+A
+12 75
+#3007
+bubbling fountain~
+a bubbling fountain~
+A bubbling fountain rests in the center of the chamber.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#3008
+grasp futility~
+the Grasp of Futility~
+A glowing, clawed glove lies here.~
+~
+9 99904 129
+18 0 0 0
+18 0 0
+A
+1 -1
+A
+2 -1
+A
+12 75
+A
+13 40
+A
+24 -5
+A
+27 512
+A
+18 5
+A
+19 7
+> wear_prog 100~
+mea $n The utter futility of existence suddenly becomes aware to you.
+mpforce $n say It's hopeless, really.
+shrug
+~
+|
+#3009
+axe eyrtug~
+Axe of Eyrtug~
+A vicious-looking, broad bladed axe lies on the ground.~
+~
+13 17482240 8193
+0 0 0 1
+20 7600 760
+A
+1 1
+A
+13 60
+A
+18 5
+A
+19 7
+#3010
+girth humanhair ~
+humanhair girth~
+This girth has been fashioned from hair torn from the head of a maiden.~
+~
+9 262144 2049
+19 0 0 0
+1 1500 150
+A
+4 2
+A
+5 2
+A
+13 30
+A
+12 30
+A
+19 2
+#3011
+blood covered leggings~
+blood covered leggings~
+A pair of leggings stained with blood lies here.~
+~
+9 262144 33
+11 0 0 0
+2 23 2
+A
+13 20
+A
+14 45
+A
+19 4
+#3012
+steel rod~
+a steel rod~
+A slim steel rod lies on the floor.~
+~
+5 524354 8193
+0 0 0 6
+6 150000 15000
+A
+18 7
+A
+19 5
+#3013
+steel key~
+a steel key~
+A steel key has been left here.~
+~
+18 524290 16385
+0 0 0 0
+4 200 20
+#3014
+stone lever~
+a stone lever~
+A stone lever is set into one wall.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpecho As the lever is pushed slowly upwards, a grating sound is heard.
+mpecho It sounds as if some massive stone portal were opening nearby.
+mpopenpassage 3049 3050 0
+~
+> pull_prog 100~
+mpecho As the lever is slowly pulled back down, a grating sound is heard.
+mpecho Somewhere nearby, a stone door is slowly closing.
+mpclosepassage 3049 0
+~
+|
+#3015
+stone key~
+the stone key~
+A massive stone key lies on the ground.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#3016
+dusty tome~
+a dusty tome~
+A dusty tome sits slightly forward from the other books.~
+~
+37 0 0
+40 0 0 0
+1 0 0
+E
+tome~
+It looks like whoever placed this book back on the shelf did not push
+it all the way in. Perhaps you could do it for them.
+~
+> push_prog 100~
+mpe As the book is pushed back into place, the shelf suddenly opens!
+mpe A small crawlspace is revealed...
+mpopenpassage 3033 3034 4
+~
+> pull_prog 100~
+mpe As the book is pulled from the shelf, you hear a click.
+mpe A section of shelf slides back into place.
+mpclosepassage 3033 4
+~
+|
+#3017
+dusty bookshelf~
+a dusty bookshelf~
+A dusty bookshelf crammed with tattered tomes and manuscripts lines one wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+bookshelf~
+The books are neatly arranged in rows, 30 per shelf, and cover a variety
+of topics, from the nomenclature of pole arms, to the basic rituals required
+to invoke a greater demon. Only one book is out of place, protruding like
+a probing digit from the body of librams.
+~
+#3018
+ghostly quill~
+a ghostly quill~
+A translucent feather covered in ink floats here.~
+~
+5 66656 8193
+0 0 0 2
+1 10002 1000
+A
+2 2
+A
+3 2
+A
+12 25
+A
+18 7
+A
+19 3
+#3019
+tattered scroll~
+a tattered scroll~
+A tattered scroll lies curled up on the ground.~
+~
+2 96 16385
+40 221 213 224
+1 500 50
+#3020
+tattered scroll~
+a tattered scroll~
+A tattered scroll lies curled up on the ground.~
+~
+2 96 16385
+40 88 206 215
+1 500 50
+#3021
+tattered scroll~
+a tattered scroll~
+A tattered scroll lies curled up on the ground.~
+~
+2 96 16385
+40 89 104 207
+1 500 50
+#3022
+tattered scroll~
+a tattered scroll~
+A tattered scroll lies curled up on the ground.~
+~
+2 96 16385
+40 66 210 212
+1 500 50
+#3023
+tattered scroll~
+a tattered scroll~
+A tattered scroll lies curled up on the ground.~
+~
+2 96 16385
+40 225 208 102
+1 500 50
+#3024
+wooden staff~
+the librarian's staff~
+This sturdy piece of yew would serve as a decent weapon.~
+~
+5 8422400 8193
+0 0 0 0
+4 430 43
+A
+12 35
+A
+13 40
+A
+18 5
+A
+19 5
+#3025
+spectacles~
+ghostly spectacles~
+A pair of ghostly spectacles floats past.~
+~
+13 8946784 131073
+8 0 0 0
+2 53432 5343
+A
+26 8
+A
+3 2
+A
+4 2
+A
+12 22
+#3026
+huge wooden desk~
+a huge wooden desk~
+A huge wooden desk fills most of the chamber.~
+~
+15 0 0
+1000 13 3027 0
+1 0 0
+E
+desk~
+Most of this desk is covered in papers, quills and books. Peering down,
+you see a large drawer on one side, with an elaborate lock.
+~
+#3027
+desk key~
+the desk key~
+A tiny metal key is here.~
+~
+18 524288 1
+0 0 0 0
+1 50 5
+#3028
+map~
+a faded map~
+A piece of parchment covered in scribblings could be a map...~
+~
+35 0 1
+0 0 0 0
+1 0 0
+E
+map~
+The map is faded and torn, and little can be deciphered. However, you
+can make out a series of rooms, leading off a central room marked with
+the ancient rune for guardian, or protector. The room to the west has
+the rune for L marked on it, while a skull and crossbones has been
+scrawled on the room to the right. 
+~
+#3029
+glowing amulet~
+glowing amulet~
+An amulet that glows strangely hangs from a gold chain.~
+~
+9 623170 5
+11 0 0 0
+3 12000 1200
+A
+12 60
+A
+3 4
+A
+26 16
+#3030
+alchemical manual~
+an alchemical manual~
+This manual is fitted to a brace so it can be worn on the neck, leaving hands free for brewing.~
+~
+9 66 5
+27 0 0 0
+1 0 0
+A
+55 20
+#3031
+bubbling potion~
+a bubbling potion~
+A bubbling potion sits here.~
+~
+10 66 1
+40 33 -1 -1
+1 1 0
+#3032
+bubbling potion~
+a bubbling potion~
+A bubbling potion sits here.~
+~
+10 66 1
+40 4 -1 -1
+1 1 0
+#3033
+bubbling potion~
+a bubbling potion~
+A bubbling potion sits here.~
+~
+10 66 1
+40 226 -1 -1
+1 1 0
+#3034
+bubbling potion~
+a bubbling potion~
+A bubbling potion sits here.~
+~
+10 66 1
+40 36 -1 -1
+1 1 0
+#3035
+bubbling potion~
+a bubbling potion~
+A bubbling potion sits here.~
+~
+10 66 1
+40 17 -1 -1
+1 1 0
+#3036
+vial black liquid~
+a vial of black liquid~
+A vial of black liquid rests here.~
+~
+10 66 1
+40 28 224 225
+1 1 0
+#3037
+mop~
+a mop~
+A dirty mop is dripping brown water on the floor.~
+~
+5 0 8193
+0 0 0 6
+4 75 7
+A
+18 2
+A
+19 2
+#3038
+loose tome~
+a loose tome~
+A small book is wedged near the top of the shelf. Maybe you could pull it free...~
+~
+37 0 0
+40 0 0 0
+1 0 0
+> pull_prog 100~
+mpe As the book is yanked free, the remainder of the precariously stacked
+mpe books come crashing down, along with the heavy wooden bookshelf!
+mpe $n is buried beneath tons of books and wooden shelving!
+mpdamage $n 275
+~
+|
+#3039
+filthy latrine~
+a filthy latrine~
+A gaping hole in the floor serves as a latrine.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3040
+fluffy toy doll~
+a fluffy toy~
+A fluffy toy lies half-buried in the muck.~
+~
+15 0 1
+5 5 -1 0
+1 10 1
+#3041
+silver key~
+a silver key~
+This key is covered in what appears to be the stuffing from a toy.~
+~
+18 0 1
+0 0 0 0
+1 500 50
+#3042
+splint mail~
+splint mail~
+A suit of splint mail covered in tear stains lies here.~
+~
+9 49152 9
+11 0 0 0
+30 750 75
+A
+1 1
+A
+5 1
+A
+14 -100
+A
+13 50
+A
+19 5
+A
+24 -3
+#3043
+wooden rack~
+a wooden rack~
+A wooden rack lines one wall.~
+~
+15 0 0
+100 1 -1 0
+1 0 0
+E
+rack~
+Peering closely, you think you can see something glinting at the bottom
+of the rack.
+~
+#3044
+broom~
+a broom~
+A dirty broom lies here.~
+~
+5 0 8193
+0 0 0 6
+4 75 7
+#3045
+silver ring~
+a silver ring~
+Someone has carelessly dropped a silver ring here.~
+~
+9 9012320 3
+4 0 0 0
+1 45000 4500
+A
+12 30
+A
+19 2
+A
+27 3072
+#3046
+gargoyle~
+a grinning gargoyle~
+A grinning gargoyle leers down at you.~
+~
+15 64 0
+10 5 -1 0
+1 0 0
+E
+gargoyle~
+Perring closely, you think you can see a small panel set in the statue's
+midsection.
+~
+#3047
+silver helm~
+a silver helm~
+A silver helm lies on the floor.~
+~
+9 9014624 17
+18 0 0 0
+5 7500 750
+A
+3 2
+A
+4 2
+A
+12 75
+A
+19 2
+A
+27 2048
+#3048
+tapestry~
+a massive tapestry~
+A massive tapestry depicting the Chaos Wars hangs here.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> exa_prog 100~
+mea $n As you peer closely at the tapestry, you notice a rather odd feature.
+mea $n Standing amidst the forces of chaos is a massive black monolith.
+mea $n Beams of energy surge forth from it, smiting humans and demons alike.
+mea $n Suddenly a terror grips your heart, and you realize that this is
+mea $n World Eater, destroyer of realities.
+mpforce $n gasp
+mpforce $n say Look! It's him!
+mpe Deep, booming laughter echoes all about the Hall.
+mpat world mpforce world mpat 3022 say HARK MORTALS! PREPARE FOR THY DOOMS!
+~
+|
+#3049
+comfortable chair~
+a comfortable chair~
+A comfortable chair rests near the bookshelf.~
+~
+9 0 0
+0 0 0 0
+1 0 0
+A
+4 -2
+#3050
+bracer magic~
+a bracer of magic~
+A metal bracer covered in arcane script can be seen.~
+~
+9 25919552 4097
+8 0 0 0
+2 10000 1000
+A
+3 1
+A
+1 -1
+A
+12 20
+A
+19 1
+A
+24 -5
+#3051
+staff energy~
+an energy staff~
+This metal staff hums with energy.~
+~
+4 524354 16385
+50 5 5 89
+4 100000 10000
+#3052
+chaos sceptre~
+a chaos sceptre~
+This sceptre contains a portion of the essence of Chaos.~
+~
+9 721474 16385
+12 0 0 0
+10 120000 12000
+A
+4 -2
+A
+12 100
+A
+19 3
+A
+27 1
+A
+29 2048
+#3053
+metal earring~
+a metal earring~
+A tiny metal stud rolls about on the floor.~
+~
+9 9011776 65537
+5 0 0 0
+1 6521 652
+A
+3 1
+A
+4 1
+A
+31 1
+A
+12 30
+A
+18 1
+A
+19 1
+#3054
+black dagger~
+a black dagger~
+An evil black blade lies here.~
+~
+5 590354 8193
+0 0 0 11
+10 21112 2111
+A
+2 3
+A
+13 25
+A
+18 7
+A
+19 7
+A
+25 -2
+#3055
+ruby~
+a massive ruby~
+A massive ruby pulses with an unearthly energy.~
+~
+8 1 1
+20 0 0 0
+4 150000 15000
+#3056
+head stone guardian~
+the head of the stone guardian~
+A massive stone head rests on the floor.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+#3057
+blade night~
+the Blade of Night~
+Forged from darkness by a shady smith, this blade is as fine as any in Brythunia.~
+~
+5 16908820 8193
+0 0 0 11
+4 750000 75000
+A
+2 3
+A
+13 50
+A
+12 80
+A
+18 9
+A
+19 10
+A
+26 32768
+A
+32 25
+#3058
+dagger shard~
+Shard~
+A single shard of obsidian lies here.~
+~
+5 592 8193
+0 0 0 2
+3 500 50
+A
+1 2
+A
+13 75
+A
+18 8
+A
+19 8
+A
+27 32
+A
+20 -2
+#3059
+ring jedevirk~
+the ring of Jedevirk~
+A plain gold band rests on the floor.~
+~
+9 25379328 3
+12 0 0 0
+1 42141 4214
+A
+2 2
+A
+13 20
+A
+18 3
+A
+19 3
+A
+20 -3
+#0
+
+
+#ROOMS
+#3000
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3002
+D1
+~
+~
+0 -1 3001
+D2
+~
+~
+0 -1 3003
+D3
+~
+~
+0 -1 3006
+S
+#3001
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3000
+D1
+~
+~
+0 -1 3002
+D2
+~
+~
+0 -1 3004
+D3
+~
+~
+0 -1 3007
+S
+#3002
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3008
+D1
+~
+~
+0 -1 3001
+D2
+~
+~
+0 -1 3005
+D3
+~
+~
+0 -1 3000
+S
+#3003
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3005
+D1
+~
+~
+0 -1 3004
+D2
+~
+~
+0 -1 3006
+D3
+~
+~
+0 -1 3000
+S
+#3004
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3003
+D1
+~
+~
+0 -1 3001
+D2
+~
+~
+0 -1 3007
+D3
+~
+~
+0 -1 3005
+S
+#3005
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3002
+D1
+~
+~
+0 -1 3004
+D2
+~
+~
+0 -1 3003
+D3
+~
+~
+0 -1 3008
+S
+#3006
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3003
+D1
+~
+~
+0 -1 3000
+D2
+~
+~
+0 -1 3007
+D3
+~
+~
+0 -1 3008
+S
+#3007
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3008
+D1
+~
+~
+0 -1 3004
+D2
+~
+~
+0 -1 3006
+D3
+~
+~
+0 -1 3009
+S
+#3008
+A Formless void~
+You find yourself falling, floating, drifting through a formless grey void
+devoid of sound, shape or colour. Howls and shrieks occasionally cut through
+the silence, the only distraction from the seemingly unending vista of grey.
+Words fail you as you attempt to rationalize this place, to define it, to
+describe it; it is as if it defied existence itself.
+~
+0 3416136 1
+D0
+~
+~
+0 -1 3002
+D1
+~
+~
+0 -1 3007
+D2
+~
+~
+0 -1 3006
+D3
+~
+~
+0 -1 3005
+S
+#3009
+The Arches of Oblivion~
+Rising up out of the void is a set of ghostly arches, two pairs, 
+encased in shimmering spheres of magic. One set of arches sits about
+three feet in fron of the others, and in between them shimmers a 
+field of black energy, the purpose of which is unfathomable to you.
+Presumably the arch can be entered, but a large steel gate bearing
+a massive padlock bars it; you see no sign of a key on the ground or
+nearby.
+~
+0 3153928 0
+D0
+~
+arch~
+8520743 3013 3010
+> rand_prog 33~
+mpe _blu Sparks of energy crackle and fizz about the arches.
+~
+|
+S
+#3010
+Beyond the Arches~
+You pass through the arches and emerge in a long hallway, the walls of
+which are fashioned from a dull grey stone, devoid of architectural
+features or any specific design. They stretch high on either side, as
+far as you can see, towards a mist shrouded ceiling several hundred
+feet up. You think you can hear something flapping about up there, and
+imagine for a second thick, leathery wings beating in the still air.
+To the north, the hallway stretches as far as you can see, while a 
+locked steel gate leads south back into the void.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3013
+D2
+~
+arch~
+8651815 3013 3009
+D4
+~
+~
+64 -1 3011
+S
+#3011
+Within the Mists~
+You soar upwards, reaching the mists sooner than you expected, and are
+soon surrounded by thick, chill mists that cause you to shiver to your
+very soul. Vile odors, accompanied by cries of pain and fear, reach
+your ears, and a feeling of dread washes over you as you imagine what
+might lie beyond the mists. To your admittedly unnerved mind, they
+may conceal a world out of your darkest nightmares.
+~
+0 19931144 9
+D4
+~
+~
+64 -1 3012
+D5
+~
+~
+64 -1 3010
+S
+#3012
+The World of Nightmares~
+You pass through the mist, and enter a whirling maelstrom of titanic
+proportions. Huge, hideous beasts, with massive maws and the leathery
+wings you imagined, fly into your face, assaulting your body and your
+mind. Horrible images of death, torture and mutilation flood your mind,
+and you scream and scream again before you sink, mercifully, into
+oblivion, seconds before your physical form is totally torn to shreds.
+~
+0 3154446 1
+S
+#3013
+The Grey Corridors~
+The featureless grey corridor continues, heading north towards a small
+staircase, visible in the distance. To the south, it stretches back
+towards the shimmering arches that marked the entry to the unusual
+domain of World Eater.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3014
+D2
+~
+~
+0 -1 3010
+S
+#3014
+The Foot of the Stair~
+At this point a stone staircase ascends to a second, presumably more
+interesting, level, leaving the bleak grey corridor behind. You certainly
+aren't reluctant to do so either. You hear nary a sound in this place,
+every step you take echoes around the cavernous hall a thousand times.
+~
+0 3153932 0
+D2
+~
+~
+0 -1 3013
+D4
+~
+~
+0 -1 3015
+S
+#3015
+The Top of the Stairs~
+The stairs lead into a wood panelled corridor, lined with neatly
+framed lithographs and oil paintings, depicting pastoral scenes on a
+dozen different worlds. Despite his habit of devouring whole realities,
+World Eater appears to have a slightly sentimental attachment to those
+he destroys. Small chandeliers hang from the high ceiling, illuminating
+the corridor for the short distance it travels east and west.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3017
+D3
+~
+~
+0 -1 3016
+D5
+~
+~
+0 -1 3014
+S
+#3016
+The Western Hall~
+The corridor passes into a broad, marble floored hall at this point,
+the transition in decor apparently almost seamless. Gone are the
+framed pictures; now you are confronted with grinning gargoyles, in
+various poses, which leer down from their pedestals to either side
+of the hall. Stout marble pillars, in stark doric form, rest in between
+each pair, supporting the high arched ceiling, which is richly decorated
+with elaborate murals.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3015
+D3
+~
+~
+0 -1 3022
+S
+#3017
+The End of the Corridor~
+The corridor ends before three doors, each bearing a small metal 
+plaque denoting their function, save the door to the south which bears
+no distinguishing mark. A vile smell fills the air; you think it is
+emanating from behind the northern door.
+~
+0 3153928 0
+D0
+LATRINE
+~
+~
+3 -1 3018
+D1
+STOREROOM
+~
+~
+7 -1 3020
+D2
+~
+~
+3 -1 3021
+D3
+~
+~
+0 -1 3015
+S
+#3018
+A Foul Latrine~
+For some reason, presumably the usual one, you have decided to wander
+into a latrine. How do you know its a latrine? Well, you see a massive
+gaping black pit, from which an unmeasurably bad smell arises, and note
+the various stains about the rim. For such an immaculate residence, the
+toilet facilities certainly could do with some renovation.
+~
+0 0 1 0 0 4
+D2
+~
+~
+3 -1 3017
+D10
+~
+latrine~
+133120 -1 3019
+S
+#3019
+An Excrementally Bad Situation~
+You slip down the hole, sliding down a chute slick with gods-know what,
+and land waist deep in a mass of unspeakably awful waste matter. A smell,
+perhaps the most vile smell you have ever had the displeasure to be
+exposed to, hits you like a sledge hammer, and you reel as if a giant had
+struck you. You are quite sure that you will become deathly ill if you
+do not get out of here, and fast, though as you stare up the slick chute
+that is devoid of any hand holds you wonder just exactly how you will
+accomplish this...
+~
+0 3153929 13 0 0 3
+D4
+~
+~
+64 -1 3018
+S
+#3020
+A Storeroom~
+This room is significantly different from the others you have visited,
+in that it has no wood panelling or decorative features. Plain grey stone
+walls lie in every direction, while the floor of the room is piled with
+various goods of little worth, such as ropes, lanterns, tinderboxes and
+jacks of ale.
+~
+0 8200 0 0 0 4
+D3
+~
+~
+7 -1 3017
+S
+#3021
+A Broom Closet~
+This tiny cramped closet boasts a wooden rack, in which several mops,
+dustpans and brushes are stored. Presumably these are the tools of the
+zombie without's trade.
+~
+0 3153929 0 0 0 2
+D0
+~
+~
+3 -1 3017
+S
+#3022
+Before a Polished Wooden Door~
+The Hall ends at a polished wooden door, set in the north wall. The
+end of the hall to the west is covered by a massive tapestry, depicting
+a battle from centuries past, presumably fought on some otherworldly
+plain, between humanity and chaos. From the view of the artist, the
+forces of chaos are pitiable wretches, being set upon by hordes of angry
+aggressive humans intent on their destruction; a decidedly biased 
+depiction.
+~
+0 3153928 0
+D0
+~
+~
+3 -1 3023
+D1
+~
+~
+0 -1 3016
+S
+#3023
+A Guard House~
+The door opens onto a small, cramped chamber, which boasts a rickety
+wooden table, bearing a jack of ale and a half-eaten loaf of bread.
+Next to the table rest two equally rickety chairs, laden with loose nails
+and splinters, while a narrow cot covered in crumpled bedding lies in
+the northeast corner. The only other feature of note is the ceiling,
+which bears a very interesting mural depicting the gods opening a rift
+to another world.
+~
+0 3153928 0
+D2
+~
+~
+3 -1 3022
+D4
+~
+trapdoor~
+10486959 3041 3024
+E
+mural~
+The center of the mural is a gaping black hole, which the gods are
+presumably opening.
+~
+E
+hole~
+As you peer closer, you notice a tiny silver keyhole in the center of
+the hole, and note that a trapdoor has been cunningly concealed within
+the mural.
+~
+S
+#3024
+A Somber Hallway~
+You clamber up into the end of a narrow hallway, the walls of which
+are painted a subdued brown. No ornaments or other decorative features
+embellish its starkness. The only other way out of here is to head east,
+towards a junction.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3025
+D5
+~
+trapdoor~
+10486959 3041 3023
+S
+#3025
+A Choice of Passages~
+At this point the hallway splits, with forks heading off in various
+directions. The sound of chanting, accompanied by whispering and the
+occasional thumping sound, come from the northeast, while to the southeast
+someone or something is creating a considerable racket, giggling and cursing
+accompanied by periodic explosions and the like.
+~
+0 3153932 0
+D3
+~
+~
+0 -1 3024
+D6
+~
+~
+0 -1 3027
+D8
+~
+~
+0 -1 3026
+S
+#3026
+A Marble Hallway~
+This section of hallway is lined with gargoyles similar to those in the
+grand hallway on the lower level, save that in this case there are no
+pillars, as the ceiling is apparently not in need of such support, and
+the statues are smaller (but no less threatening). The sounds of
+activity grow louder to the east.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3032
+D7
+~
+~
+0 -1 3025
+S
+#3027
+The Libraries of World Eater~
+As you step into the famous halls of the Libraries, a wave of magic
+washes over you, as if the books themselves radiated power and eldritch
+energies. You shiver, partially in nervousness, partially in delight, and
+gaze in awe down the innumerable rows of bookshelves that stretch into
+the distance in this vast hall.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3028
+D9
+~
+~
+0 -1 3025
+S
+#3028
+The Center of the Library~
+It is rumored that World Eater, in the course of his rampage across the
+planes, has managed to acquire practically every scrap of knowledge of
+the cultures he has eliminated, thereby preserving this knowledge, albeit
+only for his own selfish ends. Powerful sorcerers often travel here to
+attempt to glean some valuable information from the books gathered here,
+though in truth it would take a godlike intellect and many decades of
+research to even begin to comprehend the wealth of knowledge gathered
+here.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3030
+D1
+~
+~
+0 -1 3031
+D2
+~
+~
+0 -1 3027
+D3
+~
+~
+0 -1 3029
+S
+#3029
+A Storage Space~
+Piled here are countless volumes of work, deemed to be of only secondary
+importance by the librarian to his master, and thereby stored here, awaiting
+transportation to one of the many extradimensional realms of the World Eater,
+for the World Eater never discards any work of literature, no matter how
+useless it may appear. Were it not for his habit of destroying worlds, the
+scholarly nature of World Eater would make him an admirable...entity.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3028
+S
+#3030
+A Reading Room~
+This area is used by visitors to the domain of World Eater to rest and
+research the demon's impressive collection of arcane lore. A risky
+proposition, because World Eater can be very fickle about his guests,
+but equally so because to read many of the books in this place can mean
+death, insanity, or worse.
+~
+0 3153928 0
+D2
+~
+~
+0 -1 3028
+S
+#3031
+Private Offices~
+The halls end here before a door marked "PRIVATE"; presumably the
+offices of who or whatever administers the library. An eerie wind
+blows through the many rows of shelves, issuing from some unknown
+source.
+~
+0 3153928 0
+D1
+~
+~
+3 -1 3033
+D3
+~
+~
+0 -1 3028
+S
+#3032
+Labratorie Subsicivus~
+The corridor ends in a large chamber, which used to be a dining hall,
+but has been converted into a most unusual laboratory. The dinner tables
+are strewn with flask, urns, vials, beakers, test tubes, alembics and
+magical braziers, all in various states of disrepair. Powdered glass,
+the result of innumerable accidents, covers the floor, and larger shards
+are imbedded in the wood panelling that covers the walls. An acrid odor
+fills the room, stinging your nostrils.
+~
+0 3153928 0
+D3
+~
+~
+0 -1 3026
+S
+#3033
+Bibliotheca Splendidus~
+The walls of this cramped office are lined with more shelves, containing
+books yet to be sorted and shelved. The extremely busy head librarian must
+read each one, and determine which category it is to be shelved under. It is
+fortunate that he is undead, for the spells and traps placed upon many of
+these works by previous owners would have slain him dozens of times.
+~
+0 3153928 0
+D3
+~
+~
+3 -1 3031
+S
+#3034
+The Menagerie~
+The crawlspace opens onto a long corridor, which runs north from here
+past several doorways. towards a set of stairs far to the north. It is
+here that the World Eater keeps his prized (living) trophies; surely
+you must be near the demon now. The crawlspace shuts behind you as
+you enter; you have no choice but to proceed north.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3037
+S
+#3035
+Rage~
+Every item of furniture in this chamber has been smashed to flinders,
+piled in the center of the room, and burned. Whoever did this also
+added the tattered remains of the wall hangings and carpet, scorched
+scraps of which remain. A foul smell, of unwashed human, fills the air.
+~
+0 3153928 0
+D3
+~
+~
+0 -1 3037
+S
+#3036
+A Pitiful Sight~
+This small cell bears pleasant, if not opulent, furnishings, including
+a comfortable easychair with ottoman, a plush carpet, several small chairs
+and an oak desk. All of these items have been ignored by the occupant,
+however, who spends his time huddled in a corner, his mind incapable of
+handling the trauma of his experiences at the hand of World Eater.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 3037
+S
+#3037
+A Long Corridor~
+Doorways open to the east and west, onto small, well-appointed cells,
+wherein reside the prisoners of World Eater, held captive by magical
+enchantments that are nearly impossible to break. Perhaps, however, 
+there is an item within the depths of the citadel that would enable
+some of these unfortunate souls to escape...
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3039
+D1
+~
+~
+0 -1 3035
+D2
+~
+~
+0 -1 3034
+D3
+~
+~
+0 -1 3036
+S
+#3038
+A Flowery Gaol~
+The entirely of this lavish chamber is filled with bouquets of the
+freshest flowers from a hundred different universes, arranged in a 
+most impeccable manner, which is disquieting in a place such as this
+otherworldly domain. Despite the beauty of this room, it still has
+the feel of a prison; there are no doors or locks, but you do not
+doubt that the warder of this gaol has other ways to keep his prisoners
+within.
+~
+0 3154952 0
+D3
+~
+~
+0 -1 3039
+S
+#3039
+A Pair of Cells~
+The corridor ends in a spacious chamber, which leads onto two smaller rooms,
+doubtlessly more cells for World Eater's 'exhibits'. Quiet music is piped
+into the room from some unknown, presumably magical, source, and a bubbling
+fountain fills the center of the chamber. The walls bear pleasant murals
+depicting ancient civilizations which flourished millenia ago, before the
+coming of World Eater.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3041
+D1
+~
+~
+0 -1 3038
+D2
+~
+~
+0 -1 3037
+D3
+~
+~
+0 -1 3040
+S
+#3040
+A Spartan Chamber~
+Little effort has been put into decorating this bare chamber; the plain
+white stone walls bear no decorations, nor does the floor bear any rug.
+Only a narrow cot and a small table piled with refreshments can be seen.
+And evidently this is to the liking of whomever is imprisoned within.
+~
+0 3154952 0
+D1
+~
+~
+0 -1 3039
+S
+#3041
+A Way Out...~
+The corridor leads out of the menagerie and into a small area which
+contains a marble staircase, which ascends to whatever lies next within
+the unholy citadel. You cannot hear or smell anything coming from above,
+and have little idea what may await. However, knowing this place, it
+will not be pleasant...
+~
+0 3153932 0
+D2
+~
+~
+0 -1 3039
+D4
+~
+~
+0 -1 3045
+S
+#3042
+A Small Chamber~
+The entirety of this chamber is shrouded in shadow, which could conceal
+innumerable threats. Imagining a foe lurking in every corner, you
+make your way slowly and cautiously into the room. Your light illuminates
+a small stone lever, set in the far wall.
+~
+0 3153929 0
+D1
+~
+~
+8389671 3015 3045
+S
+#3043
+Vacuum~
+As you step through the stone door, you suddenly realize that you
+are floating in space, literally, outer space. Vacuum tears the air
+from your lungs, and decompression begins to wreak its traumatic
+effects on your fragile form. Blood vessels burst all over your body,
+and your eyes explode in their sockets, blood pouring down into your
+mouth, which is frozen wide open, in a silent scream. 
+~
+0 3153927 1
+S
+#3044
+A Small Study~
+This small room serves as a study for someone, and is not dissimilar to
+the one occupied by the librarian downstairs, though less cluttered
+with papers and books. A thick layer of dust coats the floor; you wonder
+how this much dust got in here.
+~
+0 3153929 0
+D3
+~
+~
+8389671 3015 3045
+S
+#3045
+The End of the Line~
+The staircase emerges into a plain stone chamber, devoid of furnishings,
+and boasting three stout stone doors, facing north, east and west. These
+chambers serve an unknown purpose, though presumably they are important
+to World Eater in some way, as he has positioned a mighty stone guardian
+to watch over them.
+~
+0 4 1
+D0
+~
+~
+8389671 3015 3043
+D1
+~
+~
+8389671 3015 3044
+D3
+~
+~
+8389671 3015 3042
+D5
+~
+~
+0 -1 3041
+S
+#3046
+A Rubble Strewn Passage~
+This section of corridor is littered with chunks of masonry, sent
+flying by the impact of the guardian's head with the wall. The air here
+is thick and still, and quite stale; you doubt it has been breathed in
+quite some time. A flickering light issues forth from somewhere far to
+the south.
+~
+0 3153921 0
+D2
+~
+~
+0 -1 3047
+S
+#3047
+A Flickering Light~
+The light grows steadily brighter here, coming from a cavern of immense
+size to the south, wherein resides something of immense size, casting
+giant draconian shadows upon the wall near you- draconian? Hmm. It
+figures; you had been expecting a dragon at some stage; what megalomaniacal
+tyrant's residence is complete without one?
+~
+0 3153921 0
+D0
+~
+~
+0 -1 3046
+D2
+~
+~
+0 -1 3048
+S
+#3048
+A Cavernous Lair~
+Imprisoned within this chamber is a massive dragon, of great power
+and age, ensorcelled by World Eater to both serve as his final
+guardian and to hoard the tokens belonging to the elder gods he has
+imprisoned below. Both tasks are not to the dragon's liking, though
+the sorcery has seriously warped its mind.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 3047
+S
+#3049
+Sanctum Sanctorum~
+This room appears to be some sort of study or drawing room. An
+antique desk rests near one wall, which is covered by bookshelves crammed
+with ancient texts. A plush rug covers the floor, and a fire crackles
+merrily in a fireplace set in the eastern wall. The northern wall is,
+however, curiously bare. There are deep grooves in the floor, partially
+concealed by the rug, as if the wall had been shoved aside, then dragged
+back. 
+~
+0 3145740 0
+E
+desk~
+A letter on the desk, partially drafted, bears the words- Lever to
+the Left of the Guardian. 
+~
+S
+#3050
+The Center of the Antiverse~
+The stone walls open onto the void that you encountered entering the
+domain of World Eater, save that this time the surrounding vista is
+lit by fiery explosions and sparks of electrical current, lancing between
+hidden targets. Howls, cries and screams of pain, anguish, distress and
+terror echo all around you, the noise almost deafening you. Your mind
+rebels against the images that suddenly fill it, images of destruction
+on an impossibly vast scale.
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 1 3008 9 3000
+M 1 3008 9 3000
+M 1 3008 9 3002
+M 1 3008 9 3002
+M 1 3008 9 3004
+M 1 3008 9 3006
+M 1 3008 9 3006
+M 1 3008 9 3008
+M 1 3008 9 3008
+M 1 3007 1 3009
+E 1 3012 1 16
+D 0 3009 0 2
+D 0 3010 2 2
+M 1 3014 1 3013
+O 1 3046 1 3016
+P 0 3047 1 0
+M 1 3012 1 3017
+E 1 3037 1 16
+D 0 3017 0 1
+D 0 3017 1 2
+D 0 3017 2 1
+O 1 3039 1 3018
+D 0 3018 2 1
+O 1 3040 1 3019
+P 0 3041 1 0
+D 0 3020 3 2
+O 1 3043 1 3021
+P 0 3044 1 0
+P 1 3045 1 0
+D 0 3021 0 1
+O 1 3048 1 3022
+D 0 3022 0 1
+M 1 3013 1 3023
+E 1 3042 1 5
+D 0 3023 2 1
+D 0 3023 4 2
+D 0 3024 5 2
+M 1 3016 1 3026
+G 1 3055 1
+M 1 3009 3 3028
+E 1 3018 1 16
+M 1 3009 3 3028
+E 1 3018 1 16
+M 1 3009 3 3028
+E 1 3018 1 16
+O 1 3017 1 3028
+O 1 3017 1 3029
+M 1 3015 1 3030
+E 1 3050 1 14
+E 1 3050 1 15
+G 1 3051 1
+E 1 3052 1 17
+E 1 3053 1 19
+E 1 3054 1 16
+O 1 3017 1 3030
+O 1 3049 1 3030
+O 1 3017 1 3031
+D 0 3031 1 1
+M 1 3011 1 3032
+E 1 3029 1 3
+E 1 3030 1 4
+G 1 3036 1
+M 1 3010 1 3033
+E 1 3024 1 16
+E 1 3025 1 20
+G 1 3027 1
+O 1 3017 1 3033
+O 1 3026 1 3033
+P 0 3028 1 0
+O 1 3016 1 3033
+D 0 3033 3 1
+M 1 3006 1 3035
+E 1 3009 1 16
+E 1 3009 1 18
+E 1 3010 1 13
+E 1 3011 1 7
+M 1 3005 1 3036
+M 1 3003 1 3038
+O 1 3007 1 3039
+M 1 3004 1 3040
+M 1 3017 1 3042
+E 1 3057 1 16
+E 1 3058 1 18
+G 1 3059 1
+O 1 3014 1 3042
+D 0 3042 1 2
+O 1 3017 1 3044
+O 1 3038 1 3044
+D 0 3044 3 2
+M 1 3001 1 3045
+E 1 3001 1 16
+E 1 3002 1 12
+E 1 3003 1 20
+G 1 3015 1
+D 0 3045 0 2
+D 0 3045 1 2
+D 0 3045 3 2
+M 1 3002 1 3048
+M 1 3000 1 3050
+R 0 3000 4
+R 0 3001 4
+R 0 3002 4
+R 0 3003 4
+R 0 3004 4
+R 0 3005 4
+R 0 3006 4
+R 0 3007 4
+R 0 3008 4
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3000 spec_cast_mage
+M  3001 spec_breath_frost
+M  3002 spec_cast_mage
+M  3003 spec_cast_adept
+M  3008 spec_thief
+M  3009 spec_cast_mage
+M  3010 spec_cast_cleric
+M  3012 spec_janitor
+M  3014 spec_breath_fire
+M  3015 spec_cast_mage
+M  3017 spec_cast_mage
+S
+
+
+#$

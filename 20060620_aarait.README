@@ -1,0 +1,53 @@
+WHAT IS THIS?
+
+The complete source and world to the mud Aarait. A mud that is so unique, you've never seen
+anything like it before. 
+
+Features at a glance:
+
+Fishing w/ World and Personal Recording keeping, plus webpage record keeping.
+Pig Farming w/ World and Personal Recording keeping, plus webpage record keeping.
+Nethack style graphics.
+Totally Original World.
+
+Aarait is a 'proof of concept' mud. I wanted to see if it was possible to make a mud that
+did not involve killing or rp, while remaining fun. Aarait does this beautifully. It's not
+for everyone though, I've found that four out of five new players type kill a few times,
+figure out it doesn't work and quit, never to be seen again. Those that stay love it.
+
+Aarait works in every aspect, is very playable, there are no 'crash' bugs. While being more
+complete than 90% of muds on the Internet it lacks a certain polish that keeps me from 
+considering it finished.
+
+WHAT IS INCLUDED?
+
+I am releasing everything. This is all you need to run Aarait.
+
+EVERYTHING?
+
+Everything.
+
+HOW DO I MAKE IT WORK?
+
+Download all of the zip files unto any UNIX type computer.
+Unzip/untar all of the zip files. (tar zxvf filename)
+Type 'cd aarait/src'
+Edit act.other.c and change all of the '/home/dean/public_html' to a valid directory on your computer. 
+This will be where the records for inclusion on a webpage will be kept.
+Type 'make'
+Wait a few minutes.
+Type 'cd ../'
+Type './bin/test'.
+Open your favourite mud client and point it towards the computer you did all of this on
+at port 4000.
+Enjoy yourself.
+
+ANYTHING ELSE I NEED TO KNOW?
+
+Aarait is offered with no warranty of any sort. No guarantee of fitness is provided. 
+It may work, it may not. You may give homage and beer to anyone listed in the credit file.
+
+-- Dean Vaughan
+   June 20, 2006
+   http://thevedic.net 
+

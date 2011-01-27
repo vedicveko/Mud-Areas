@@ -1,0 +1,416 @@
+#AREA
+deliv.are~
+~
+{ 5 35} Grehyton Deliverance~
+21000 21099
+
+#MOBILES
+#21000
+little jessy~
+little jessy~
+Little jessy sits here, chewing on some chaw.
+~
+He says "Wat chall doin round these parts, i reckon you all should turn back ya hear!"
+~
+human~
+BH 0 -200 0
+5 0 2d6+60 0d0+0 1d6+1 pound
+7 7 7 9
+J 0 0 0
+sit stand male 1
+0 0 small 0
+#21001
+Cletus Mcoy~
+cletus mcoy~
+Cletus Mcoy looks you up and down.
+~
+He is wearing a straw hat and overalls with no
+shirt or shoes. A toothless evil grin gives you a strange vibe.
+~
+human~
+G 0 -300 0
+7 0 2d6+85 0d0+0 1d8+1 pound
+5 5 5 8
+JK 0 0 0
+stand stand male 0
+0 0 medium 0
+#21002
+Mary Lou~
+mary lou~
+Mary Lou stands here with a flirting look.
+~
+A beautiful read head, large bosom and that wonderful mountain accent.
+~
+human~
+G F -300 0
+10 0 2d7+121 0d0+0 2d4+5 scratch
+5 5 5 7
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#21003
+Billy Bob~
+billy bob~
+Billy Bob will make you squeal like a pig!
+~
+A fat greasy unkept mountain man. Looks like he is a by-product of his dad and his first cousin.
+~
+human~
+BFG 0 -500 0
+14 0 3d9+208 0d0+0 2d7+8 pound
+5 5 5 9
+IJ 0 0 0
+stand stand male 3
+0 0 medium 0
+#21004
+Bubba Joe~
+bubba joe~
+Bubba Joe will make you squeal like a pig!
+~
+Chewin Chaw and dancing a jig, he aint never seen nothin more purtier than you.
+~
+human~
+BFG 0 -500 0
+15 0 3d9+208 0d0+0 2d6+8 pound
+5 5 5 7
+JK 0 0 0
+stand stand male 5
+0 0 medium 0
+#21005
+granny tucker~
+granny tucker~
+Granny Tucker stands here looking for Mary Lou.
+~
+Old style country granny, smoking a pipe.
+~
+human~
+G PQ -600 0
+20 0 3d9+333 0d0+0 2d9+7 pound
+-4 -4 -4 -1
+EFHJK 0 0 0
+stand stand female 0
+0 0 medium 0
+#21006
+Uncle Jed~
+uncle jed~
+Uncle Jed is here skinning a dog.
+~
+Brown coat and worn out shoes and hat.
+His is quite upset at your presence on his mountain.
+~
+human~
+G DFJ -1000 0
+25 0 5d10+550 0d0+0 2d10+7 pound
+-7 -7 -7 -3
+ACFIJ 0 0 0
+stand stand male 20
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#21000
+ragged overalls~
+a pair of overalls~
+A pair of ragged overalls sits here.~
+cloth~
+armor M AD
+5 5 5 7 1
+0 3 0 P
+F
+A 0 0 F
+#21001
+rotting boots~
+a pair of rotting boots~
+A pair of rotting boots sits here.~
+hard leather~
+armor 0 AG
+7 7 7 9 1
+0 0 0 P
+F
+V 0 0 E
+#21002
+country dress~
+a country dress~
+A country style dress sits here.~
+cloth~
+armor 0 AD
+4 4 4 7 2
+0 1 0 P
+F
+V 0 0 F
+#21003
+straw hat~
+a straw hat~
+A straw hat sits here.~
+bamboo~
+armor 0 AE
+5 5 5 7 1
+0 1 0 P
+F
+V 0 0 H
+#21004
+torn pants~
+a pair of torn pants~
+A old pair of torn pants sits here.~
+cloth~
+armor 0 AF
+5 5 5 5 1
+0 2 0 P
+F
+R 0 0 Q
+#21005
+rope belt~
+a rope belt~
+A belt made out of hemp rope sits here.~
+hemp~
+armor 0 AL
+5 5 5 7 1
+0 1 0 P
+F
+I 0 0 A
+#21006
+knocker~
+mountain knocker~
+A mountain knocker sits here.~
+bone~
+weapon 0 AN
+mace 2 6 pound G
+0 1 0 P
+#0
+
+
+#ROOMS
+#21000
+Mountain Path~
+You are on a hidden mountain path. It looks as though no one has been here in quite a while.
+There is a sign hidden in the brush here.
+~
+0 0 5
+D3
+~
+~
+0 -1 9202
+D4
+~
+~
+0 -1 21001
+E
+sign~
+ BWAR
+Du N T NtR~
+S
+#21001
+Mountain Path~
+The mountain path continues its upward journey.
+In the distance you can here some hollering.
+SUUUUEEEE! SUUUUUEEEE!
+~
+0 0 5
+D4
+~
+~
+0 -1 21002
+D5
+~
+~
+0 -1 21000
+S
+#21002
+Mountain Path~
+The path here has reached its top and now heads off to the north.
+~
+0 0 5
+D0
+~
+~
+0 -1 21003
+D5
+~
+~
+0 -1 21001
+S
+#21003
+Trail in the woods~
+You are on a trail in the woods going deeper into 
+the mountainous area.
+~
+0 0 5
+D0
+~
+~
+0 -1 21004
+D1
+~
+~
+0 -1 21006
+D2
+~
+~
+0 -1 21002
+D3
+~
+~
+0 -1 21005
+S
+#21004
+Deep Woods~
+On top of the mountain you can see all around
+the lands, you are standing in some woods that are getting pretty thick.
+~
+0 0 5
+D2
+~
+~
+0 -1 21003
+S
+#21005
+Deep Woods~
+Its getting darker in this part of the woods.
+You get the smell of corn coming from somewhere.
+~
+0 0 5
+D0
+~
+~
+0 -1 21008
+D1
+~
+~
+0 -1 21003
+S
+#21006
+Woodland~
+A nice clearing in the woods.
+You notice another path heading off to the 
+north, laughter can be heard in that direction as well.
+~
+0 0 5
+D0
+~
+~
+0 -1 21007
+D3
+~
+~
+0 -1 21003
+S
+#21007
+Forest Clearing~
+A clearing in the woods offers a nice view of the surrounding area. You see a hammock strung between two trees.
+~
+0 0 5
+D2
+~
+~
+0 -1 21006
+S
+#21008
+Country Still~
+An oldstyle country still is here, brewing some
+corn whiskey. The fire is burning so somebody must be close by.
+~
+0 0 5
+D2
+~
+~
+0 -1 21005
+D3
+~
+~
+0 -1 21009
+S
+#21009
+Disgusting Site~
+A pile of corpses many of them tied to the trees, stripped from the waist down. Something just aint right here. You hear some hollerin coming from the west.
+~
+0 0 5
+D1
+~
+~
+0 -1 21008
+D3
+~
+~
+0 -1 21010
+S
+#21010
+The Shack~
+You are in a clearing, a small thrown together shack sits in its center. The entrance to the shack is west, you can hear some wimpering coming from inside.
+~
+0 0 5
+D1
+~
+~
+0 -1 21009
+D3
+~
+~
+1 -1 21011
+S
+#21011
+Inside Shack~
+You are inside an old shack. The boards are barely stuck together. You see a iron wood stove and a couple of straw cots.
+~
+0 0 0
+D1
+~
+~
+1 -1 21010
+S
+#0
+
+
+#RESETS
+*
+M 1 21000 1 21003 1
+E 1 21004 100 7
+E 1 21005 100 13
+*
+M 1 21000 1 21003 1
+E 1 21004 100 7
+E 1 21005 100 13
+*
+M 1 21000 1 21003 1			little jessy to Trail in the woods
+E 1 21004 100 7
+E 1 21005 100 13
+*
+M 1 21002 1 21007 1			mary lou to Forest Clearing
+E 1 21002 100 5
+*
+M 1 21003 1 21010 1			billy bob to The Shack
+E 1 21000 100 5
+E 1 21003 100 6
+E 1 21001 100 8
+E 1 21005 100 13
+E 1 21006 100 16
+*
+M 1 21004 1 21010 1			bubba joe to The Shack
+E 1 21000 100 5
+E 1 21003 100 6
+E 1 21001 100 8
+E 1 21006 100 16
+*
+M 1 21005 1 21011 1			granny tucker to Inside Shack
+E 1 21002 100 5
+E 1 21003 100 6
+E 1 21001 100 8
+E 1 21005 100 13
+E 1 21006 100 16
+*
+M 1 21006 1 21011 1			uncle jed to Inside Shack
+E 1 21000 100 5
+E 1 21003 100 6
+E 1 21004 100 7
+E 1 21001 100 8
+E 1 21005 100 13
+E 1 21006 100 16
+*
+M 1 21001 1 21005 1			cletus mcoy to Deep Woods
+E 1 21003 100 6
+E 1 21004 100 7
+E 1 21005 100 13
+S
+
+
+#$

@@ -1,0 +1,641 @@
+#AREA { 5 15} Paulanka  Sesame Street~
+
+#MOBILES
+#715
+oscar grouch~
+Oscar the Grouch~
+Oscar the Grouch is here, complaining about his living conditions.
+~
+~
+muppet~
+BGT N -1000 S
+5 0 2d10+40 0d0+0 1d10+10 1
+50 50 50 75
+DFK 0 0 H
+8 8 1 200
+AM ABCDEFGHIJK 2 0 
+#716
+bird big~
+Big Bird~
+A huge yellow bird, known as Big Bird, is here, trying to make you 
+believe in Mr. Snuffleupagus.
+~
+~
+muppet~
+BGT DN -1000 S
+8 0 3d10+30 0d0+0 2d6+10 3
+40 40 40 60
+DFK 0 0 H
+8 8 0 200
+AM ABCDEFGHIJK 3 0
+#717
+bert~
+Bert~
+Bert is here, whining at Ernie to clean up the apartment.
+~
+~
+muppet~
+BGT DN -900 S
+8 0 4d6+30 0d0+0 2d10+10 2
+45 45 45 49
+DFK 0 0 H
+8 8 1 150
+AM ABCDEFGHIJK 2 0
+#718
+ernie~
+Ernie~
+Ernie is here and he looks as dumb in real life as he does on T.V.
+~
+~
+muppet~
+BGT DN -1000 S
+7 0 3d10+30 0d0+1 2d10+10 2
+60 60 60 85
+DFK 0 0 H
+8 8 1 100
+AM ABCDEFGHIJK 2 0
+#719
+cookie monster~
+Cookie Monster~
+Cookie Monster is trashing the store. You have caught him in the cookie 
+section, gorging himself on Oreos.  Hey! Those are your favorite!
+~
+~
+muppet~
+BGT DN -1000 S
+10 0 4d6+40 0d0+0 2d4+2 3
+35 35 35 20
+DFK 0 0 H
+8 8 0 153
+AM ABCDEFGHIJK 2 0
+#720
+grover~
+Grover~
+Grover, with that sickening muppet voice of his, has taken over the 
+playground.  Win it back for the kiddies!
+~
+~
+muppet~
+BGT DN -1000 S
+12 1 4d6+45 0d0+0 4d4+2 2
+30 30 30 38
+DFK 0 0 H
+8 8 0 150
+AM ABCDEFGHIJK 2 0
+#721
+count~
+The Count~
+The Count is here, counting the bodies of the human children.
+~
+~
+muppet~
+BGR DN -1000 S
+13 1 6d4+40 4d10+50 6d2+5 17
+45 45 45 10
+DFK 0 0 H
+8 8 1 678
+AM ABCDEFGHIJK 2 0
+#722
+kermit frog~
+Kermit the Frog~
+Standing nonchalantly with his dorky microphone is Kermit THE Frog.
+~
+~
+muppet~
+BGT DN -1000 S
+15 8 4d8+40 0d0+0 4d6+1 1
+20 20 15 70
+DFK 0 0 H
+8 8 1 250
+AM ABCDEFGHIJK 2 0
+#723
+snuffleupagus monster~
+Mr.Snuffleupagus~
+Mr.Snuffleupagus is here, pretending to exist.
+~
+~
+muppet~
+BFGR DHN -1000 S
+20 1 5d8+50 100d1+100 4d6+5 1
+0 0 0 20
+ACDEFKN AB C DE
+8 8 1 150
+AZ ABCDEFGHIJKLMNOPQRSTUVWXY 5 0 
+#0
+#OBJECTS
+#725
+ducky rubber~
+Rubber Ducky~
+Ernies precious little Rubber Ducky has been dropped here.~
+rubber~
+11 G AO
+5 5 5 0 0
+1 2 200 G
+A
+5 1
+A
+18 1
+#726
+cookie oreo~
+Oreo Cookie~
+Cookie Monster dropped an Oreo here.~
+plastic~
+26 G A
+10 82 0 0 0
+5 5 200 G
+
+#727
+key red~
+Red key~
+A Red key is lying here.~
+steel~
+18 B A
+0 0 0 0 0 
+1 1 1 G
+
+#0
+#ROOMS
+#715 
+On-ramp to Sesame Street~
+You are walking towards a quiet street which reminds you of horrible 
+memories of your deluded childhood.  The main street is to the north, the 
+way out lies east.
+~
+0 0 1
+D1
+To Kvasir Court.
+~
+~
+0 0 3265
+D0
+The main drag on Sesame Street.
+~
+~
+0 0 716
+S
+#716
+Sesame Street~
+You walk down a normal looking street, with normal looking buildings on 
+both sides of you.  However, you also notice piles of dead bodies and 
+what appear to be crumpled up wool puppets.  It looks as though the 
+characters of Sesame street went a little nuts!
+~
+0 0 1
+D0
+Sesame street continues to the north.
+~
+~
+0 0 717
+D2
+The entrance to Sesame Street is south of here.
+~
+~
+0 0 715
+S
+#717
+Sidewalk~
+You are walking near an old apartment building. Beside the stairs, there 
+is an old rusted garbage can from which you can hear sounds of growling 
+and cursing.  You think you could probably fit into the can, just to see 
+what is down there.  The street continues to the north.
+~
+0 0 1
+D0
+Sesame Street continues north.
+~
+~
+0 0 720
+D2
+Sesame Street continues south.
+~
+~
+0 0 716
+D5
+You see blackness descending into the can.
+~
+~
+0 0 718
+S
+#718
+Oscar's Can~
+You are in the basement of what appears to be the living quarters of one 
+of the deranged muppets.  It is very dark, and there is tons of junk 
+everywhere!  There are louder growling and cursing sounds coming from 
+the south.  Perhaps you should go back up the can!
+~
+0 D 0 
+D2
+A door is in the south wall.
+~
+~
+1 0 719
+D4
+The exit from this filthy pit is above you.
+~
+~
+0 0 717
+S
+#719
+Oscar's Bedroom~
+This has got to be the most cluttered room you have ever been in in your 
+entire life!  There are useless pieces of junk everywhere!  Not to 
+mention the incredible stench!  You decide you had better leave before 
+you lose your lunch all over your shiny armor.
+~
+0 D 0
+D0
+The door leading out.
+~
+~
+0 0 718
+S
+#720
+Sesame Street~
+This part of the street is bordered by a large apartment building to the 
+east, as well as what looks like a large nest sitting west of here.  The 
+street continues north and south.
+~
+0 0 1
+D0
+Sesame Street continues north.
+~
+~
+0 0 725
+D1
+The entrance to an apartment is east.
+~
+~
+0 0 722
+D2
+Sesame Street continues south.
+~
+~
+0 0 717
+D3
+A large nest lies west of here.
+~
+~
+0 0 721
+S
+#721
+Big Bird's nest~
+A large nest made of rotting human bodies is sitting here.  You can see 
+great yellow feathers laying all around it, and wonder how Big Bird could 
+have killed all those nice people.
+~
+0 0 1
+D1
+The street lies east of here.
+~
+~
+0 0 720
+S
+#722
+Apartment building~
+A large green building is in front of you.  It is clearly meant for lower 
+class scum of Sesame street to live in, as you can tell from the bad 
+paint job.  All the people are probably dead in there, but it wouldn't 
+hurt to check, you might get a treat!  The doors to go inside are east, 
+the way back to the street is west.
+~
+0 0 1
+D1
+The doors to the building are east.
+~
+~
+1 0 723
+D3
+The street is west of here.
+~
+~
+0 0 720
+S
+#723
+Hallway~
+You are in a plain looking hallway going east to west.  The far eastern door 
+has noise coming from it.  The exit is west.
+~
+0 D 0
+D1
+The door to the room is east.
+~
+~
+1 0 724
+D3
+The doors leaving are west.
+~
+~
+0 0 722
+S
+#724
+Apartment~
+A very confusing scene indeed!  The two halves of this apartment are 
+completely opposite from one another!  One half has a large bed with an 
+'E' on it, and is completely messy, while the other half has a large bed 
+with a 'B' on it, and is totally neat!
+~
+0 D 0
+D3
+The door out is west.
+~
+~
+0 0 723
+S
+#725
+Intersection~
+Sesame street itself comes to a halt here.  The general store is west of 
+here, and the playground is east.  The street continues south of here.
+~
+0 0 1
+D1
+The playground is to the east.
+~
+~
+0 0 731
+D2
+Sesame Street.
+~
+~
+0 -1 720
+D3
+Mr.Hooper's store is west.
+~
+~
+0 0 726
+S
+#726
+Mr.Hooper's store~
+You are standing at the entrance to Mr.Hooper's store.  All of the 
+windows have been smashed out, and the door is slightly ajar.  You can 
+hear the sounds of frenzied munching coming from behind the door to your 
+north. The intersection is to the east.
+~
+0 0 1
+D0
+The door to the store is north.
+~
+~
+1 0 727
+D1
+The intersection is east of here.
+~
+~
+0 0 725
+S
+#727
+Mr.Hooper's store~
+You are standing knee-high in old groceries.  The store has been 
+completely ransacked.  You notice in particular that whoever did this 
+payed special attention to the cookie section of the store.  Empty bags 
+and cookie crumbs lay strewn everywhere.  A door out leads south, and the 
+back exit is to the north.
+~
+0 D 0
+D0
+The back exit is north of here.
+~
+~
+1 0 728
+D2
+The front door is south of you.
+~
+~
+0 0 726
+S
+#728
+Back exit of the store~
+You are standing outside the back exit of Mr.Hooper's store.  You are in 
+a dark alley, filled with garbage and refuse.  The alley continues north, 
+or you can go into the store through the south door.
+~
+0 0 1
+D0
+The alley continues north.
+~
+~
+0 0 729
+D2
+The back door to the store is south.
+~
+~
+1 0 727
+S
+#729
+Back alley~
+The dark alley continues here. It turns east or goes south to the back of 
+Mr.Hooper's store.
+~
+0 0 1
+D1
+The alley turns east here.
+~
+~
+0 0 730
+D2
+The alley goes south to the store.
+~
+~
+0 0 728
+S
+#730
+Back Alley~
+Here, the alley is joined by a path from the playground, which is to the 
+south.  The alley goes west from here, or a long path can be seen going 
+east.  From the east you can here someone talking.
+~
+0 0 1
+D1
+A path leads east.
+~
+~
+0 0 733
+D2
+A path leads to the playground, south.
+~
+~
+0 0 732
+D3
+The alley leads west.
+~
+~
+0 0 729
+S
+#731
+Playground~
+You have arrived at Sesame Street's playground, where all the children 
+used to come and play.  Except now, the evil muppets of Sesame Street 
+play with the children's bloated bodies.  The swings and merry-go-round 
+are covered with slick, red blood.  A path west leads to Sesame Street 
+itself, and to the north you can see the sandbox.
+~
+0 0 1
+D0
+The sandbox is to the north.
+~
+~
+0 0 732
+D3
+Sesame Street lies to the west.
+~
+~
+0 0 725
+S
+#732
+The Sandbox~
+A large sandbox sits here amongst all of the gore and chaos.  What was 
+once a beautiful golden sand, is now only crimson mud.  The path goes 
+further north, or south to the rest of the playground.
+~
+0 0 1
+D0
+The path leads north.
+~
+~
+0 0 730
+D2
+The path leads south, to the playground.
+~
+~
+0 0 731
+S
+#733
+Pathway~
+A stone pathway leads you towards a large set of double doors in the side 
+of a large building.  The doors are to the east.  The alley is west of here.
+~
+0 0 1
+D1
+Two large doors are east of you.
+~
+~
+2 727 734
+D3
+The alley is west of here.
+~
+~
+0 0 730
+S
+#734
+Large room~
+You are in a large, cold room.  A large sign on the wall reads: "If you 
+are not yet powerful enough to face the final evil in these lands, TURN 
+BACK NOW! This is your final warning!".  Perhaps this wasn't such a good 
+idea.  The doors out lead west, or you could go north, but I wouldn't 
+recommend it.
+~
+0 D 0
+D0
+Two large doors lead north.
+~
+~
+1 0 735 
+D3
+Two large doors lead out of here.
+~
+~
+0 0 733
+S
+#735
+Large room~
+You open the doors, cringing, only to find a quiet room, similar to the 
+one you just left.  Another sign hangs here: "Alright, we will give you 
+ONE FINAL CHANCE to leave!  The creature beyond these doors is far too 
+powerful for little weakling newbies, so don't even think about it! TURN 
+BACK!".  The sign maker was probably a wise person, maybe you should turn 
+back, south to leave, or...north to certain death.
+~
+0 D 0 
+D0
+Two doors lead north.
+~
+~
+1 0 736
+D2
+Two doors lead south.
+~
+~
+0 0 734
+S
+#736
+Large room~
+You probably haven't raised your intelligence much have you?  Did those 
+signs mean nothing to you? Well, here's one more: "Are you stupid?  You 
+will most certainly die a horrible, painful, bloody, and drawn-out death 
+if you continue down this path.  But alright, it looks like you've made 
+up your empty head to keep going...so go..and don't say nobody warned 
+you!".  If you insist on dying, there are doors to the west (from which 
+you can here ferocious snarling I might add), OR, the way out is south 
+*hint-hint*.
+~
+0 D 0
+D2
+The doors south lead out.
+~
+~
+0 0 735
+D3
+A set of doors lead west, to your death probably.
+~
+~
+1 0 737
+S
+#737
+Large cave~
+You stumble into a large cave littered with human remains.  The doors 
+slam shut behind you, and disappear in a shimmering haze. Oh great! Now 
+you're stuck!  You have trouble keeping a grip on the floor because of all the blood, and because 
+you have wet your armor.  You see several dead characters, some of which 
+are probably yours, and you are about to add to them. A shadow looms 
+towards you...
+~
+0 D 0
+S
+#0
+#RESETS
+M 0 715 1 719     Oscar
+G 1 27 2
+*
+M 0 716 1 721      Big Bird
+*
+M 0 717 1 724   Bert
+*
+M 0 718 1 724    Ernie
+E 1 725 1 17           Rubber ducky
+*
+M 0 719 1 727   Cookie Monster
+E 1 726 1 17      Cookie
+*
+M 0 720 1 731   Grover
+*
+M  0 721 1 732  The Count
+*
+M 0 722 1 733  Kermit
+E 1 727 1 17
+*
+M 0 723 1 737  Mr.Snuffleupagus
+*
+D 727 733 1 2
+*
+D 0 722 1 1
+*
+D 0 718 2 1
+D 0 722 1 1
+D 0 723 1 1
+D 0 726 0 1
+D 0 727 0 1
+*
+D 0 728 2 1
+*
+D 0 733 1 2
+D 0 734 0 1
+*
+D 0 735 0 1
+* 
+D 0 736 3 1
+S
+#SPECIALS
+M 721 spec_cast_mage
+M 723 spec_cast_mage
+S
+#$
+

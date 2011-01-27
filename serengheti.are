@@ -1,0 +1,3470 @@
+#AREA
+DSA Format~
+serengheti.are~
+The Serengheti~
+[ 1 25] Monomach The Serengheti~
+5400 5499
+Descr
+No description.
+~
+Bldrs Monomach~
+Sec 9
+Levels 1 25
+Flags A
+End
+#HELPS
+Deep towards the southern range of our world lies the subtropical
+realm of the Serengheti. Home of the aboriginal people known as the
+Massai, it is also home to many a unique beast. From the monkeys and
+warthogs in the lush jungle, to the lions, rhinos and gazelles of the
+vast plains the wonders of nature are in full view. Legend even has it
+that there is a creature in the lake whose like has not been seen in
+the realms for eons. Many a new explorer has learned his trade here.
+
+The Serengheti was written by Monomach for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.  
+-1 $~
+
+#MOBILES
+#5400
+gazelle~
+a gazelle~
+A gazelle runs across the plains.
+~
+This deer like animal is very lithe with thin horns and a sleek body.  It
+has brown fur on its back with 2 black strips running along its sides.  This
+animal is the embodiment of speed as it gracefully roams the plains.  
+~
+fox~
+AGH JZ 0 0 0
+5 0 1d17+42 5d10+100 2d3+2 bite
+7 7 7 8
+FHI 0 0 0
+stand stand either 10
+AGV ACDEFHJKQVW medium none
+~
+MaxWorld  12
+End
+#5401
+warthog~
+a warthog~
+A warthog roots around in the underbrush for bugs.
+~
+This wathog is very similar to common everyday pigs but it is much
+heavier.  You also notice that it has rather large tusks and smells very,
+very bad.  
+~
+pig~
+ABCGW 0 0 0 0
+5 0 1d17+42 5d10+100 2d3+2 charge
+7 7 7 8
+D 0 0 0
+stand stand either 50
+AGV ACDEFHJK medium none
+~
+MaxWorld  2
+End
+#5402
+hyena~
+a hyena~
+A hyena slinks in the shadows.
+~
+It looks to be a large hump backed dog with brown fur and a thin black
+mane.  It seems to be not a very brave beast as it cowers in the corner
+trying to sneak up on you.  
+~
+dog~
+ACG 0 0 0 0
+7 0 2d7+46 7d10+100 1d4+4 bite
+6 6 6 8
+H 0 0 0
+stand stand either 70
+AGV ACDEFHJKUV medium none
+~
+MaxWorld  6
+End
+#5403
+giraffe~
+a giraffe~
+A giraffe wanders across the open savahnna.
+~
+Perhaps one of the tallest beasts ever seen, this animal stands well over
+15 feet high, with most of that being the neck.  It is a golden yellow color
+with orange spots.  It seems rather docile .  
+~
+rabbit~
+AGH 0 0 0 0
+9 0 3d22+80 1d1+99 2d5+4 bite
+4 4 4 7
+FHI 0 0 0
+stand stand either 90
+AGV ACDEFHJK medium none
+~
+MaxWorld  4
+End
+#5404
+snake mamba~
+a mamba snake~
+A snake swims towards you.
+~
+This huge snake is well over 15 ft long with a wide sinuous body covered
+in green and black scales.  It looks as though it could swallow a waterhog
+whole and its coming towards you with a hungry look in its eyes.  
+~
+snake~
+AG 0 0 0 0
+1 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 L I
+stand stand either 0
+AGXYc ADEFKLQVX medium none
+~
+MaxWorld  1
+End
+#5405
+crocodile~
+a crocodile~
+A crocodile basks in the sun on a sand bar.
+~
+~
+wolf~
+A JZ 0 0 0
+12 0 4d25+130 12d10+100 3d5+5 chomp
+2 2 2 6
+FH 0 0 0
+stand stand either 0
+AGVXc ACDEFJKQV medium none
+~
+MaxWorld  1
+End
+#5406
+lion cub~
+a lion cub~
+A lion cub cries for its mother.
+~
+This small cat can't be anymore than a couple of months old.  It is
+adorible but cries because it wants its mother.  
+~
+cat~
+ABGH JZ 0 0 0
+3 0 1d6+24 3d10+100 1d3+2 scratch
+8 8 8 9
+FH 0 0 0
+stand stand either 30
+AGV ACDEFHJKQUV medium none
+~
+MaxWorld  3
+End
+#5407
+lioness~
+a lioness~
+A lioness guards the enterance to the cave.
+~
+This cat has the look of a very powerful animal.  Her sleek gold fur
+stands on end as she prepares to keep you out of the cave.  
+~
+cat~
+ABG JZ 0 0 0
+12 0 4d26+130 12d10+100 3d5+5 claw
+2 2 2 6
+FH 0 0 0
+stand stand female 1200
+AGV ACDEFHJKQUV medium none
+~
+MaxWorld  1
+End
+#5408
+lioness~
+a lioness~
+A lioness lounges around.
+~
+This cat has the look of a very powerful animal.  She stands as you
+enter, startled by your presence.  
+~
+cat~
+ABG JZ 0 0 0
+12 0 4d25+120 12d10+100 2d5+10 claw
+2 2 2 6
+CFH 0 0 0
+stand stand female 200
+AGV ACDEFHJKQUV medium none
+~
+MaxWorld  2
+End
+#5409
+lion~
+a lion~
+A lion dozes lazily in the shade.
+~
+This cat would be more intimidating if it weren't always sleeping.  He
+has life pretty easy as all he has to do is make new lions.  After all the
+women do all the hunting.  
+~
+cat~
+ABG JZ 0 0 0
+16 1 5d30+200 16d10+100 3d5+12 claw
+0 0 0 5
+CFH 0 0 0
+stand stand male 400
+AGV ACDEFHJKQUV medium none
+~
+MaxWorld  1
+End
+#5410
+rhino~
+a rhino~
+A rhino grazes on the open plane.
+~
+This large beast is covered in a think gray hide and looks to made of
+solid stone.  It is docile right now but the horn on its nose looks like it
+would hurt an awful lot if he decided to use it.  
+~
+bear~
+AG 0 0 0 0
+15 0 5d30+161 15d10+100 3d5+8 charge
+-1 -1 -1 2
+DEO 0 EI 0
+stand stand either 300
+AGV ABCDEFHJKUV large none
+~
+MaxWorld  2
+End
+#5411
+elephant~
+an elephant~
+An elephant drinks water at the oasis.
+~
+You see a very large animal standing before you.  It is unique in its
+size and in its long prehensile nose.  
+~
+bear~
+AG 0 0 0 0
+15 0 5d30+161 15d10+100 3d5+8 pound
+0 0 0 5
+CDEO 0 EI 0
+stand stand female 200
+AGV ABCDEFHJKUV large none
+~
+MaxWorld  3
+End
+#5412
+elephant bull~
+the bull elephant~
+A huge elephant watches his herd with a careful eye.
+~
+This behemoth looks to be able to crush a dragon if he wished it.  His
+tusks are over 2 feet long and look to have been used often.  
+~
+bear~
+ABG 0 0 0 0
+20 0 9d35+300 20d10+100 5d5+12 crush
+-3 -3 -3 3
+CDEO 0 EI 0
+stand stand male 2000
+AGV ABCDEFHJKUV huge none
+~
+MaxWorld  1
+End
+#5413
+a massai warrior~
+a massai warrior~
+A massai warrior stands here.
+~
+Standing before you is what can no doubt be a warrior.  He has lean
+muscles and tanned scin from his many days hunting in the savannah for prey.
+One his body are painted symbols for his spirit guide.  
+~
+human~
+AG 0 0 0 0
+8 0 2d20+80 8d10+100 2d5+5 pierce
+4 4 4 7
+IKR 0 H I
+stand stand male 200
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  8
+End
+#5414
+massai warrior chieftan~
+the massai chieften~
+The massai chieftain sits on his bamboo throne.
+~
+This warrior has gone through much to become chief of his people.  While
+ages has weakened his skills there is no doubt of the strength in his still
+athletic build.  He bears the scars of many battles on his body and arms.  
+~
+human~
+ABG 0 0 0 0
+15 0 5d30+161 15d10+100 3d5+8 smash
+-2 -2 -2 6
+CFKRU 0 H I
+sit stand male 200
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#5415
+missionary human~
+a missionary~
+A missionary tries to convert the natives.
+~
+This missionary seems like an everyday human male.  He is here to try to
+teach the massai about the religion of the god AInvar.  The massai keep him
+around because they think that he is funny.  
+~
+human~
+ABGH 0 0 0 0
+12 0 3d20+90 12d10+100 2d5+5 none
+4 4 4 7
+FN 0 0 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#5416
+lake monster~
+the lake monster~
+A large monster with glowing eyes rears out of the water at you.
+~
+This large beast is known in legends from the local tribes.  It is said
+to come in the night and steal children who misbehave.  It appears to be
+more than a legend though and by the size of it , it could eat an elephant
+if it wanted to.  
+~
+dragon~
+ABG DJTb 0 0 0
+25 0 10d30+400 25d10+100 5d6+15 chomp
+-8 -8 -8 1
+0 0 BEH FI
+stand stand none 800
+AHZ ACDEFGHIJKPQUVX huge none
+~
+MaxWorld  1
+End
+#5417
+monkey~
+a small monkey~
+A small monkey swings through the trees.
+~
+This is a small brown monkey with a long prehensile tail.  He is quite
+intrested in anything new, including you.  
+~
+human~
+AGH 0 0 0 0
+5 0 1d17+42 5d10+100 2d3+2 bite
+7 7 7 8
+EF 0 0 0
+stand stand either 30
+AHMV ABCDEFGHIJK small none
+~
+MaxWorld  8
+End
+#5418
+shrilian bug~
+a shrilian bug~
+A small iridescent shrilian bug flies about.
+~
+This small bug is called a shrilian bug.  It is iridescently colored with
+thin gossamer wings.  It is rather harmless but they get to be a bit of a
+nuscience.  
+~
+centipede~
+AG JZ 0 0 0
+3 0 1d6+24 3d10+100 1d3+2 bite
+8 8 8 8
+FH 0 FI E
+stand stand none 0
+ABGO ACK small none
+~
+MaxWorld  15
+End
+#5470
+massai woman~
+a massai woman~
+A massai woman busies herself about the room.
+~
+This is a female member of the massai tribe.  She wears her dark hair up
+in a ball and her dark skin bears secorative markings.  She is the life
+blood of the village as she prepares all the food brought back by the
+hunters as well as child rearing.  
+~
+human~
+ABGH 0 0 0 0
+6 0 1d20+60 6d10+100 2d4+4 none
+6 6 6 8
+F 0 0 0
+stand stand female 100
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  2
+End
+#5471
+child girl~
+a massai girl~
+A small massai girl stands here.
+~
+This little girl looks strong for her age.
+~
+human~
+ABCG Ic 0 0 6800
+75 0 50d25+17000 0d0+0 6d11+35 stab
+-11 -11 -11 -10
+FIKN 0 0 0
+stand stand either 300
+AHMV ABCDEFGHIJKL medium none
+~
+End
+#5472
+lake moster ghost~
+the {&ghost{0 of the {4Lake Monster{0~
+The {&ghost{0 of the {4Lake Monster{0 stands here.
+~
+This creature has grown in strength with its death and seeks revenge.  
+~
+unique~
+ABCF DFJLTVc H 0 0
+170 500 32000d1+0 32000d1+0 600d10+175 slice
+-90 -90 -90 -90
+ACEFHKN HIJKMN C 0
+stand stand male 10000
+AHMV ABCDEFGHIJKP giant none
+~
+End
+#5494
+massai human shaman~
+the massai shaman~
+A massai shaman chants over his bowl of incense.
+~
+He looks kinda creepy to be honest.  With wild hair and bone jewelry he
+makes quite a spectacle.  However, be warned, there is a look of obvious
+power in his eyeand he does not like you being here.  
+~
+human~
+ABCGQ 0 0 0 0
+13 0 4d25+120 13d10+100 1d10+5 magic
+-1 -1 -1 7
+EIK 0 0 0
+stand stand male 200
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#0
+
+
+
+#OBJECTS
+#5400
+gazelle skin gloves~
+a pair of gazelle skin gloves~
+A soft pair of furry gloves lie on the ground.~
+fur~
+armor 0 AH
+AB C B A 0
+10 5 200 P
+A
+2 2
+~
+End
+#5401
+bull elephant tusks~
+a set of bull elephant tusks~
+A large pair of tusks rest on the ground.~
+bone~
+armor S AE
+BC ABC AC AC 0
+25 30 500 P
+A
+18 1
+A
+19 2
+~
+MaxWorld 5
+End
+#5402
+rotting log~
+a rotting log~
+A rotting log is decomposing here on the jungle floor. It appears to be hollow.~
+wood~
+container 0 0
+100 0 0 50 100
+0 1 1 P
+~
+MaxWorld 1
+End
+#5403
+grubs~
+some grubs~
+Small grubs squirm around in the squalor.~
+food~
+food 0 AO
+CFG EG 0 0 0
+1 10 10 P
+~
+End
+#5404
+giraffe spots~
+giraffe spots~
+There apeear to be some spots on the floor.~
+ethereal~
+armor 0 AD
+AB C C A 0
+10 1 500 P
+A
+3 1
+A
+4 1
+~
+MaxWorld 5
+End
+#5405
+rhino horn~
+a rhino horn~
+A small horn rests in the dirt.~
+bone~
+pill G A
+15 'bless' 'giant strength' 'reserved' 'reserved'
+15 10 500 P
+~
+MaxWorld 5
+End
+#5406
+Lion skin~
+a lion skin~
+The pelt of a lion gathers dust on the ground.~
+fur~
+armor S AK
+C AC C A 0
+15 30 400 P
+A
+5 2
+A
+13 10
+A
+2 -1
+~
+MaxWorld 8
+End
+#5407
+tongue dagger snake~
+a mamba snake tongue~
+What appears to be a snake's tongue lies on the ground.~
+flesh~
+weapon 0 AN
+dagger 3 5 bite 0
+10 10 200 P
+~
+MaxWorld 5
+End
+#5408
+crocodile skin boots~
+crocodile skin boots~
+A pair of boots made of crocodile skin rest here.~
+flesh~
+armor S AG
+A A A 0 0
+1 10 300 P
+A
+5 1
+A
+1 1
+A
+14 -15
+E
+sand~
+This is a large area where the sand of the river rises up beyond the
+level of the water.  
+~
+~
+MaxWorld 5
+End
+#5409
+sand bar~
+a sand bar~
+A sand bar rises up out of the water.~
+porcelain~
+trash 0 0
+0 0 0 0 0
+1 1 1 P
+~
+MaxWorld 2
+End
+#5410
+eyes lake monster~
+eyes of the lake monster~
+A pair of disembodied eyes glow with an eery red light.~
+ethereal~
+light A AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+25 10 1000 P
+A
+5 1
+A
+2 1
+A
+18 1
+A
+13 -10
+~
+MaxWorld 3
+End
+#5411
+marshy reeds~
+marshy reeds~
+Several marshy reeds line the lake edge.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+reeds~
+These small reeds line the edge of the lack.  The only thing seeming to
+break the surface of the lake.  
+~
+~
+MaxWorld 4
+End
+#5412
+falls~
+the falls~
+The falls continue to pour down from overhead.~
+water~
+trash 0 0
+0 0 0 0 0
+1 1 1 P
+E
+falls~
+The falls are just to steep to climb.  Thousands of gallons pour over the
+ledge every minute, making the surface slippery and worn smooth.  
+~
+~
+MaxWorld 1
+End
+#5413
+warrior spear~
+a warriors spear~
+A warriors spear sticks out of the ground with its point imbedded in the dirt.~
+wood~
+weapon 0 AN
+staff 3 5 pierce 0
+10 20 300 P
+~
+End
+#5414
+bear spirit guide~
+a bear spirit guide~
+A small ethereal form of a bear seeks to guide you.~
+ethereal~
+treasure BG AQ
+0 0 0 0 0
+15 1 1500 P
+A
+1 2
+~
+MaxWorld 3
+End
+#5415
+owl spirit guide~
+an owl spirit guide~
+A small ethereal form of an owl seeks to guide you.~
+ethereal~
+treasure BG AQ
+0 0 0 0 0
+15 1 1500 P
+A
+4 2
+~
+MaxWorld 3
+End
+#5416
+wolf spirit guide~
+a wolf spirit guide~
+A small ethereal form of an wolf seeks to guide you.~
+ethereal~
+treasure BG AQ
+0 0 0 0 0
+15 1 1500 P
+A
+5 2
+A
+1 -1
+~
+MaxWorld 3
+End
+#5417
+belt of prayer tokens~
+a belt of prayer tokens~
+A small belt with several odd objects attached to it rests here.~
+leather~
+armor AB AL
+AB BC C AC 0
+15 20 1500 P
+A
+12 20
+A
+3 1
+E
+belt~
+This belt holds what is known as prayer tokens, items of power to the
+shamans of the massai tribe.  Some examples include an ostritch feather, a
+hippo tooch and snake skin.  
+~
+~
+MaxWorld 3
+End
+#5418
+spring~
+a spring~
+A small fresh water spring bubbles up from the ground.~
+water~
+fountain 0 0
+0 0 'water' 0 0
+1 1 1 P
+~
+MaxWorld 1
+End
+#5419
+bamboo throne~
+a bamboo throne~
+A bamboo throne stands in the center of the room.~
+wood~
+trash 0 0
+0 0 0 0 0
+1 1 1 P
+~
+MaxWorld 1
+End
+#5420
+lion skull helmet~
+a lion's skull helmet~
+The bleached white skull of a lion rests here.~
+bone~
+armor 0 AE
+C C C C 0
+15 30 500 P
+A
+14 20
+A
+13 20
+~
+MaxWorld 4
+End
+#5421
+bandelush tree~
+a bandelush tree~
+A bandelush tree rises up from the barren plains.~
+wood~
+trash 0 0
+0 0 0 0 0
+1 1 1 P
+E
+tree~
+This is a small tree which has grown used to the dry, hot weather.  The
+are a bit stunted but quite healthy.  
+~
+~
+End
+#5422
+water waterhole~
+the waterhole~
+The watering hole trickles by.~
+water~
+fountain 0 0
+0 0 'water' 0 0
+1 1 1 P
+~
+MaxWorld 2
+End
+#5423
+straw mats~
+straw mats~
+Comfortable looking straw mats rest on the ground{0.~
+cloth~
+furniture 0 0
+CFG EHIJKLMOQ CFILO DFGHIJ EGHIJK
+0 0 0 P
+~
+MaxWorld 1
+End
+#5450
+note small leaflet~
+A small note~
+A tiny leaflet lies on the ground.~
+none~
+trash 0 A
+0 0 0 0 0
+0 5 0 P
+E
+note~
+To complete the summoning spell i need the following items:
+ 
+a blue and green mushroom
+a mandrake root
+an ostritch egg
+a blueberry
+a mango leaf
+bark of the bandelushi tree
+jar of river water 
+~
+~
+End
+#5451
+blue green mushroom~
+a {4blue{0 and {2green{0 mushroom~
+A {4blue{0 and {2green{0 mushroom lies here on the ground.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5452
+mandrake root~
+a {5Mandrake{0 Root~
+A {5Mandrake{0 Root lies on the ground.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5453
+ostritch egg~
+an {6ostritch{& egg{0~
+An {6ostritch{& egg{o lies here on the ground.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5454
+blueberry berry~
+a{4 blueberry{0~
+A{4 blueberry{0 lies here on the ground.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5455
+mango leaf~
+a {1mango {2leaf{0~
+A {1mango {2leaf{0 has been left here.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5456
+bark bandelushi tree~
+{3bark{0 of the {3bandelushi{0 {2tree{0~
+Some {3bark{0 of the {3bandelushi{0 {2tree{0 has been left here.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5457
+jar river water~
+a {7jar{0 of {4river{0 water~
+A {7jar{0 of {4river{0 water has been left here.~
+ethereal~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#5458
+staff wooden~
+a {3wooden{0 staff~
+A {3wooden{0 staff rests here on the ground.~
+none~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#0
+
+
+
+#ROOMS
+#5400
+The jungle~
+The long stretches of sand abruptly give way to the dense foliage of the
+jungle.  The heat seems to have changed from the dry, burning heat of the
+desert to the sticky, cloying heat commonly found in jungles.  While the
+foliage is dense, a small rough animal path can be seen running to the south
+while the desert stretches endlessly to the north, beyond the wind-swept
+ledge.  
+~
+0 5 10
+D0
+~
+~
+0 0 9511
+End
+D2
+~
+~
+0 0 5401
+End
+S
+End
+#5401
+Jungle~
+A small, winding path that appears to of been made by some large animal
+runs through the thick plants.  Green is everywhere as the the lush foliage
+provides a stunning display of natures diversity.  It is only matched by the
+cacaphony of sounds echoing through out the jungle like a busy city street. 
+The combination creates a scene which is dizzying to the senses.  The jungle
+completely surrounds you except for the small path faintly running
+north-south.  
+~
+0 4 1
+D0
+~
+~
+0 0 5400
+End
+D2
+~
+~
+0 0 5402
+End
+S
+End
+#5402
+The Jungle~
+A small, winding path that appears to of been made by some large animal
+runs through the thick plants.  Green is everywhere as the the lush foliage
+provides a stunning display of natures diversity.  It is only matched by the
+cacaphony of sounds echoing through out the jungle like a busy city street. 
+The combination creates a scene which is dizzying to the senses.  The jungle
+completely surrounds you except for the small path faintly running
+north-south.  
+~
+0 0 3
+D0
+~
+~
+0 0 5401
+End
+D2
+~
+~
+0 0 5403
+End
+S
+End
+#5403
+The Jungle~
+A small, winding path that appears to of been made by some large animal
+runs through the thick plants.  Green is everywhere as the the lush foliage
+provides a stunning display of natures diversity.  It is only matched by the
+cacaphony of sounds echoing through out the jungle like a busy city street. 
+The combination creates a scene which is dizzying to the senses.  The jungle
+completely surrounds you except for the small path faintly running
+north-south.  
+~
+0 0 3
+D0
+~
+~
+0 0 5402
+End
+D1
+~
+~
+0 0 5406
+End
+D2
+~
+~
+0 0 5404
+End
+D3
+~
+~
+0 0 5412
+End
+S
+Reset M 5417 3 100 0 Load a small monkey.
+End
+#5404
+The Jungle~
+A small, winding path that appears to of been made by some large animal
+runs through the thick plants.  Green is everywhere as the the lush foliage
+provides a stunning display of natures diversity.  It is only matched by the
+cacaphony of sounds echoing through out the jungle like a busy city street. 
+The combination creates a scene which is dizzying to the senses.  The jungle
+completely surrounds you except for the small path faintly running
+north-south.  
+~
+0 0 3
+D0
+~
+~
+0 0 5403
+End
+D1
+~
+~
+0 0 5407
+End
+D2
+~
+~
+0 0 5405
+End
+D3
+~
+~
+0 0 5413
+End
+S
+End
+#5405
+The Jungle~
+The ever-present green canopy of the jungle seems to thin out here.  The
+wild sounds are still present but they seem to be mixed with the flow of
+water.  The sound seems to be coming from the south along the animal path.  
+~
+0 0 3
+D0
+~
+~
+0 0 5404
+End
+D1
+~
+~
+0 0 5409
+End
+D2
+~
+~
+0 0 5487
+End
+D3
+~
+~
+0 0 5415
+End
+S
+End
+#5406
+The Jungle~
+The Jungle is in full bloom here with a wide splash of color filling the
+area.  It is hard to move due to the thickness of the plantlife but not
+impossible.  The humidity is nearly unbearable and the stink of rotting
+plants, steamed in the intense heat leaves a pungent aroma in the air.  
+~
+0 0 3
+D2
+~
+~
+0 0 5407
+End
+D3
+~
+~
+0 0 5403
+End
+S
+Reset M 5417 3 100 0 Load a small monkey.
+End
+#5407
+The Jungle~
+The call of wild animals fill the air in a symphony of sound.  From the
+call of a monkey to the screetch of a mandrill, a thousand noises attempt to
+battle for the spotlight.  The jungle is very thick here making it hard to
+move about.  The jungle continues on in every direction with a small path to
+the west barely visable.  
+~
+0 0 3
+D0
+~
+~
+0 0 5406
+End
+D1
+~
+~
+0 0 5408
+End
+D2
+~
+~
+0 0 5409
+End
+D3
+~
+~
+0 0 5404
+End
+S
+End
+#5408
+The Jungle~
+The jungle grows into a tangled mess here, blocking any further passage
+to the north or east, Several trees seem to have fallen here and have begun
+to decompose in the humidity.  It is still possible to move to the west and
+south, though it will not be easy.  
+~
+0 0 3
+D2
+~
+~
+0 0 5410
+End
+D3
+~
+~
+0 0 5407
+End
+S
+Reset M 5401 1 100 0 Load a warthog.
+Reset O 5402 1 100 0 Load A rotting log.
+Reset P 5403 3 100 0 Put Some grubs inside some grubs.
+End
+#5409
+The Jungle~
+The jungle is as untamable as nature gets.  The mass roil of vegation is
+a bit bewildering and direction is lost almost as soon as it is found.  The
+heat has built up in intensity under the green awning that seems to stretch
+forever overhead.  To the south can be heard the sounds of water but the
+foliage is much to thick to even think of going that way though the other
+directions can be reached with some work.  
+~
+0 0 3
+D0
+~
+~
+0 0 5407
+End
+D1
+~
+~
+0 0 5410
+End
+D3
+~
+~
+0 0 5405
+End
+S
+End
+#5410
+The Jungle~
+With all the large animals that exist in a jungle environment its often
+easy to forget the most common creature of all found in this environment. 
+Bugs.  However once noticed, there is no doubt that they are there.  The
+variety range from the huge stag beetle to the tiny shrilan bug.  They do
+not seem to mind the heat at all.  The jungle is getting very hard to move
+in though it is still possible to move north east or west.  
+~
+0 0 3
+D0
+~
+~
+0 0 5408
+End
+D1
+~
+~
+0 0 5411
+End
+D3
+~
+~
+0 0 5409
+End
+S
+Reset M 5418 3 100 0 Load a shrilian bug.
+End
+#5411
+The Jungle~
+At this point the jungle has become unpassable.  To venture further would
+be to assure getting lost forever.  The sea of green is unending and at
+least for now, unyeilding.  The only exit is back west.  
+~
+0 0 3
+D3
+~
+~
+0 0 5410
+End
+S
+End
+#5412
+The Jungle~
+The Jungle is in full bloom here with a wide splash of color filling the
+area.  It is hard to move due to the thickness of the plantlife but not
+impossible.  The humidity is nearly unbearable and the stink of rotting
+plants, steamed in the intense heat leaves a pungent aroma in the air.  
+~
+0 0 3
+D1
+~
+~
+0 0 5403
+End
+D2
+~
+~
+0 0 5413
+End
+S
+Reset M 5401 1 100 0 Load a warthog.
+Reset O 5402 1 100 0 Load A rotting log.
+Reset P 5403 3 100 0 Put Some grubs inside some grubs.
+End
+#5413
+The Jungle~
+The call of wild animals fill the air in a symphony of sound.  From the
+call of a monkey to the screetch of a mandrill, a thousand noises attempt to
+battle for the spotlight.  The jungle is very thick here making it hard to
+move about.  The jungle continues on in every direction with a small path to
+the west barely visable.  
+~
+0 0 3
+D0
+~
+~
+0 0 5412
+End
+D1
+~
+~
+0 0 5404
+End
+D2
+~
+~
+0 0 5415
+End
+D3
+~
+~
+0 0 5414
+End
+S
+Reset M 5418 3 100 0 Load a shrilian bug.
+End
+#5414
+The Jungle~
+The jungle finally begins to thin out a bit here though it is still
+impassable to the north.  It is possible to catch a glimpse through the
+foliage out onto the open savannah of the Serengeti to the west.  The jungle
+continues to the south and east.  
+~
+0 0 3
+D1
+~
+~
+0 0 5413
+End
+D2
+~
+~
+0 0 5416
+End
+D3
+~
+~
+0 0 5426
+End
+S
+End
+#5415
+The Jungle~
+It is nearly impossible to move about without bringing out a weapon and
+hacking a way through the plants.  The intense and humidity combine to make
+an excellent place for plants to grow.  It also has the effective of
+periodically simulating rainfall underneath the tall trees growing over
+head.  
+~
+0 0 3
+D0
+~
+~
+0 0 5413
+End
+D1
+~
+~
+0 0 5405
+End
+D3
+~
+~
+0 0 5416
+End
+S
+Reset M 5418 3 100 0 Load a shrilian bug.
+End
+#5416
+The Jungle~
+The jungle finally begins to thin out a bit here though it is still
+impassable to the south.  It is possible to catch a glimpse through the
+foliage out onto the open savannah of the Serengeti to the west.  A cool
+breeze becons from that direction, a pleasant alternative from the cloying
+jungle air.  
+~
+0 4 3
+D0
+~
+~
+0 0 5414
+End
+D1
+~
+~
+0 0 5415
+End
+D3
+~
+~
+0 0 5417
+End
+S
+End
+#5417
+Jungle's Edge~
+This is where the Jungle abruptly ends and the great open savannah of the
+serengeti begins.  The change is startling as the open plains are in
+juxtaposition to the crowded whirl of life in the jungle.  
+~
+0 5 1
+D0
+~
+~
+0 0 5426
+End
+D1
+~
+~
+0 0 5416
+End
+D2
+~
+~
+0 0 5438
+End
+D3
+~
+~
+0 0 5418
+End
+S
+Reset M 5402 6 100 0 Load a hyena.
+End
+#5418
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 5 1
+D0
+~
+~
+0 0 5425
+End
+D1
+~
+~
+0 0 5417
+End
+D2
+~
+~
+0 0 5437
+End
+D3
+~
+~
+0 0 5419
+End
+S
+End
+#5419
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 1
+D0
+~
+~
+0 0 5424
+End
+D1
+~
+~
+0 0 5418
+End
+D2
+~
+~
+0 0 5436
+End
+D3
+~
+~
+0 0 5420
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+Reset M 5403 2 100 0 Load a giraffe.
+Reset E 5404 12 100 0 Giraffe spots is loaded about the shoulders of giraffe spots
+Reset M 5402 6 100 0 Load a hyena.
+End
+#5420
+Plain's Edge~
+At this point the plains can go no further as the steep Borderland
+Mountains rise in the west.  The great expanse continues to the north along
+the mountains and east along the river.  
+~
+0 0 1
+D0
+~
+~
+0 0 5421
+End
+D1
+~
+~
+0 0 5419
+End
+D2
+~
+~
+0 0 5435
+End
+S
+End
+#5421
+Plain's Edge~
+At this point the plains can go no further as the steep Borderland
+Mountains rise in the west.  The great expanse continues to the north and
+south along the mountains and to the east.  
+~
+0 0 1
+D0
+~
+~
+0 0 5428
+End
+D1
+~
+~
+0 0 5424
+End
+D2
+~
+~
+0 0 5420
+End
+S
+End
+#5422
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 1
+D0
+~
+~
+0 0 5434
+End
+D2
+~
+~
+0 0 5426
+End
+D3
+~
+~
+0 0 5423
+End
+S
+Reset M 5402 6 100 0 Load a hyena.
+End
+#5423
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 1
+D0
+~
+~
+0 0 5433
+End
+D1
+~
+~
+0 0 5422
+End
+D2
+~
+~
+0 0 5425
+End
+D3
+~
+~
+0 0 5427
+End
+S
+Reset M 5400 12 100 0 Load a gazelle.
+End
+#5424
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 1
+D0
+~
+~
+0 0 5427
+End
+D1
+~
+~
+0 0 5425
+End
+D2
+~
+~
+0 0 5419
+End
+D3
+~
+~
+0 0 5421
+End
+S
+Reset M 5400 12 100 0 Load a gazelle.
+End
+#5425
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 1
+D0
+~
+~
+0 0 5423
+End
+D1
+~
+~
+0 0 5426
+End
+D2
+~
+~
+0 0 5418
+End
+D3
+~
+~
+0 0 5424
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5426
+Jungle's Edge~
+This is where the Jungle abruptly ends and the great open savannah of the
+serengeti begins.  The change is startling as the open plains are in
+juxtaposition to the crowded whirl of life in the jungle.  
+~
+0 4 1
+D0
+~
+~
+0 0 5422
+End
+D1
+~
+~
+0 0 5414
+End
+D2
+~
+~
+0 0 5417
+End
+D3
+~
+~
+0 0 5425
+End
+S
+End
+#5427
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5432
+End
+D1
+~
+~
+0 0 5423
+End
+D2
+~
+~
+0 0 5424
+End
+D3
+~
+~
+0 0 5428
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5428
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and xx trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 1 0
+D0
+~
+~
+0 0 5431
+End
+D1
+~
+~
+0 0 5427
+End
+D2
+~
+~
+0 0 5421
+End
+D3
+~
+~
+0 0 5429
+End
+S
+End
+#5429
+Plain's Edge~
+At this point the plains can go no further as the steep Borderland
+Mountains rise in the west.  The great expanse continues to the north and
+south along the mountains and to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 5430
+End
+D1
+~
+~
+0 0 5428
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5430
+Plain's Edge~
+The rough mountains trail off here, eventually forming rough hills and
+finally, the great expanse of the plain itself.  A rough trail can be just
+made out running west through the hills.  The great expanse continues to the
+north and south along the mountains and to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 5071
+End
+D1
+~
+~
+0 0 5431
+End
+D2
+~
+~
+0 0 5429
+End
+D3
+~
+~
+0 0 5495
+End
+M 140 H 150
+S
+End
+#5431
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5072
+End
+D1
+~
+~
+0 0 5432
+End
+D2
+~
+~
+0 0 5428
+End
+D3
+~
+~
+0 0 5430
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5432
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5073
+End
+D1
+~
+~
+0 0 5433
+End
+D2
+~
+~
+0 0 5427
+End
+D3
+~
+~
+0 0 5431
+End
+S
+Reset M 5400 12 100 0 Load a gazelle.
+Reset G 5400 1 100 0 A pair of gazelle skin gloves into inventory of a pair of gazelle skin gloves
+End
+#5433
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5074
+End
+D1
+~
+~
+0 0 5434
+End
+D2
+~
+~
+0 0 5423
+End
+D3
+~
+~
+0 0 5432
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+Reset M 5402 6 100 0 Load a hyena.
+End
+#5434
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking the
+scene.  However life still exists, if not thrives in this area.  Mile after
+mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5075
+End
+D1
+~
+~
+0 0 5432
+End
+D2
+~
+~
+0 0 5422
+End
+D3
+~
+~
+0 0 5433
+End
+S
+Reset M 5400 12 100 0 Load a gazelle.
+Reset G 5400 1 100 0 A pair of gazelle skin gloves into inventory of a pair of gazelle skin gloves
+End
+#5435
+River's edge~
+This is where the plains of the serengeti are split by the wide, churning
+Serengeti River.  The great expanse continues north and east while to the
+south is the river itself.  
+~
+0 0 0
+D0
+~
+~
+0 0 5420
+End
+D1
+~
+~
+0 0 5436
+End
+D2
+~
+~
+0 0 5494
+End
+S
+End
+#5436
+River's edge~
+This is where the plains of the serengeti are split by the wide, churning
+Serengeti River.  The river runs to the south while the great expanse of the
+plains go off in all the other directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 5419
+End
+D1
+~
+~
+0 0 5437
+End
+D2
+~
+~
+0 0 5493
+End
+D3
+~
+~
+0 0 5435
+End
+S
+End
+#5437
+River's edge~
+This is where the plains of the serengeti are split by the wide, churning
+Serengeti River.  The river runs to the south while the great expanse of the
+plains go off in all the other directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 5418
+End
+D1
+~
+~
+0 0 5438
+End
+D2
+~
+~
+0 0 5492
+End
+D3
+~
+~
+0 0 5436
+End
+S
+End
+#5438
+River's edge~
+This is where the plains of the serengeti are split by the wide, churning
+Serengeti River.  The great expanse continues north and west, while to the
+south and east is the river itself.  
+~
+0 0 0
+D0
+~
+~
+0 0 5417
+End
+D1
+~
+~
+0 0 5489
+End
+D2
+~
+~
+0 0 5491
+End
+D3
+~
+~
+0 0 5437
+End
+S
+End
+#5439
+River's Edge~
+The Borderland Mountains tower over the plains forming an impenetrable
+barrier to the west and south.  The raging Serengeti River is just to the
+north while the open plains run eastward for an undeterminable distance.  
+~
+0 0 0
+D0
+~
+~
+0 0 5494
+End
+D1
+~
+~
+0 0 5440
+End
+S
+End
+#5440
+River's Edge~
+This is where the plains of the serengeti are split by the wide,
+churning Serengeti River.  The river runs to the north while the great
+expanse of the plains go off in all the other directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 5493
+End
+D1
+~
+~
+0 0 5441
+End
+D2
+~
+~
+0 0 5447
+End
+D3
+~
+~
+0 0 5439
+End
+S
+Reset M 5410 1 100 0 Load a rhino.
+End
+#5441
+River's Edge~
+This is where the plains of the serengeti are split by the wide,
+churning Serengeti River.  The river runs to the north while the great
+expanse of the plains go off in all the other directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 5492
+End
+D1
+~
+~
+0 0 5442
+End
+D2
+~
+~
+0 0 5446
+End
+D3
+~
+~
+0 0 5440
+End
+S
+Reset M 5403 1 100 0 Load a giraffe.
+End
+#5442
+River's Edge~
+This is where the plains of the serengeti are split by the wide,
+churning Serengeti River.  The river runs to the north while the great
+expanse of the plains go off in all the other directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 5491
+End
+D1
+~
+~
+0 0 5443
+End
+D2
+~
+~
+0 0 5445
+End
+D3
+~
+~
+0 0 5441
+End
+S
+End
+#5443
+River's Edge~
+This is the junction point between the three great aspects dominating the
+land.  To the north is the raging Serengeti river while the great plains of
+the open savannah run west and south.  To the east is the great expanse of
+jungle.  
+~
+0 4 0
+D0
+~
+~
+0 0 5490
+End
+D1
+~
+~
+0 0 5452
+End
+D2
+~
+~
+0 0 5444
+End
+D3
+~
+~
+0 0 5442
+End
+S
+End
+#5444
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  To the east a creavice seem to
+have been opened up leaving a long gash across the otherwise flat plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5443
+End
+D1
+~
+~
+0 0 5456
+End
+D2
+~
+~
+0 0 5450
+End
+D3
+~
+~
+0 0 5445
+End
+S
+End
+#5445
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5442
+End
+D1
+~
+~
+0 0 5444
+End
+D2
+~
+~
+0 0 5449
+End
+D3
+~
+~
+0 0 5446
+End
+S
+End
+#5446
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5441
+End
+D1
+~
+~
+0 0 5445
+End
+D2
+~
+~
+0 0 5448
+End
+D3
+~
+~
+0 0 5447
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5447
+The Plains~
+The Borderland Mountains tower over the plains forming an impenetrable
+barrier to the west and south.  The open plains run north and east for an
+undeterminable distance under the great expanse of the sky.  
+~
+0 0 0
+D0
+~
+~
+0 0 5440
+End
+D1
+~
+~
+0 0 5446
+End
+S
+Reset M 5403 1 100 0 Load a giraffe.
+End
+#5448
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5446
+End
+D1
+~
+~
+0 0 5449
+End
+D2
+~
+~
+0 0 5443
+End
+D3
+~
+~
+0 0 5450
+End
+S
+Reset M 5410 1 100 0 Load a rhino.
+Reset G 5405 1 100 0 A rhino horn into inventory of a rhino horn
+End
+#5449
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  To the south the land rises up a
+bit to a small plateau.  
+~
+0 0 0
+D0
+~
+~
+0 0 5445
+End
+D1
+~
+~
+0 0 5450
+End
+D2
+~
+~
+0 0 5470
+End
+D3
+~
+~
+0 0 5448
+End
+S
+Reset O 5421 1 100 0 Load A bandelush tree.
+End
+#5450
+Savannah of the Serengeti~
+The savannah is a wonder of nature in its simplicity.  Great open fields
+go on for miles with only the odd scrub bushes and Bandelush trees breaking
+the scene.  However life still exists, if not thrives in this area.  Mile
+after mile, the land is just open plains.  
+~
+0 0 0
+D0
+~
+~
+0 0 5444
+End
+D1
+~
+~
+0 0 5448
+End
+D2
+~
+~
+0 0 5443
+End
+D3
+~
+~
+0 0 5449
+End
+S
+End
+#5451
+The Jungle~
+The Jungle continues here in its never-ending frenzy of life.  Monkeys
+swing by in the trees and birds of every color fly by.  The might Serengeti
+River can be heared to the north, while the jungle is to thick to penetrate
+in any direction but to the west.  
+~
+0 0 3
+D0
+~
+~
+0 0 5487
+End
+D3
+~
+~
+0 0 5452
+End
+S
+Reset M 5418 3 100 0 Load a shrilian bug.
+End
+#5452
+The Jungle~
+The jungle abruptly ends here to the west where the great plains begin. 
+While still being impenetrable to the north and south, a whole new world is
+just a few steps away.  Strange animals noises can be heard in the jungle to
+the east.  
+~
+0 0 3
+D1
+~
+~
+0 0 5451
+End
+D3
+~
+~
+0 0 5443
+End
+S
+End
+#5453
+Lake Monster's Lair~
+This is the underwater lair of the hideous lake moster.  It is a large
+underwater cave filled with skeletal carcasses of animals who have strayed
+to close to the lake's edge.  
+~
+0 0 0
+D4
+~
+~
+3 5458 5471
+Flags ABCG
+End
+S
+Reset M 5416 1 100 0 Load the lake monster.
+Reset E 5410 0 100 0 Eyes of the lake monster is loaded as a light of eyes of the lake monster
+End
+#5454
+The Waterhole~
+The waterhole ends here as the wayer goes underground in a slow trickle. 
+Eventually the water will run out leaving the waterhole bare until the next
+rainy season comes along.  
+~
+0 0 0
+D3
+~
+~
+0 0 5455
+End
+D5
+~
+~
+1 0 2941
+Flags AB
+End
+S
+Reset M 5412 1 100 0 Load the bull elephant.
+Reset E 5401 6 100 0 A set of bull elephant tusks is loaded over the head of a set of bull elephant tusks
+Reset O 5422 1 100 0 Load The waterhole.
+End
+#5455
+The Waterhole~
+This small water source is a favorite of many animals.  It is not only a
+water source, but also a haven from the intense heat of the Serengeti sun. 
+Frequently elephants can be seen playing in the mud here.  
+~
+0 0 0
+D1
+~
+~
+0 0 5454
+End
+D4
+~
+~
+0 0 5456
+End
+S
+Reset M 5411 3 100 0 Load an elephant.
+Reset M 5411 3 100 0 Load an elephant.
+Reset M 5411 3 100 0 Load an elephant.
+Reset O 5422 1 100 0 Load The waterhole.
+End
+#5456
+The Waterhole~
+A small rift gashes it way across the land as a shady scar.  Here water
+gathers from the short rainy season and provides water for the animals who
+wander across the open plains.  
+~
+0 4 0
+D3
+~
+~
+0 0 5444
+End
+D5
+~
+~
+0 0 5455
+End
+S
+End
+#5457
+Open Savahhna~
+The great open Savannah spreads out in every direction as far as the eye
+can see, interrupted only by an odd scrub bush or a Bandelush tree.  Here
+though the land beginds to rise to the west to a rockier region and
+eventually a wall of mountains forming the western boundry.  
+~
+0 4 0
+S
+End
+#5458
+The Chief's Hut~
+This is the main hut of the village and is where the chieftan rules his
+people.  Larger than the other huts it can hold all of the tribe if
+neccessary.  A large bamboo throne stands in the center of the room and the
+walls are decorated with large shields bearing the markings of individual
+families in the tribe.  
+~
+0 8 0
+D0
+~
+~
+0 0 5466
+End
+S
+Reset M 5413 2 100 0 Load a massai warrior.
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+Reset M 5414 1 100 0 Load the massai chieften.
+Reset E 5420 6 100 0 A lion's skull helmet is loaded over the head of a lion's skull helmet
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+Reset O 5419 1 100 0 Load A bamboo throne.
+End
+#5459
+Supply Hut~
+This hut is used as storage by the tribe.  It holds all of the extra food
+and materials neccessary for survival.  Baskets of all sizes are filled with
+items.  Smoked meat dries on racks in preperation for leaner times.  
+ 
+~
+0 8 0
+D3
+~
+~
+0 0 5466
+End
+S
+End
+#5460
+Water Hut~
+This site was chosen by the Massai because it had a small spring of fresh
+water, a rare commodity in this arid location.  A hut was built around it to
+keep animals away and to keep it out of the light.  It constitutes the whole
+water supply for the entire village.  Several straw mats lay on the ground
+and look to be quite comfortable.  
+~
+0 1032 0
+D1
+~
+~
+0 0 5466
+End
+S
+Reset O 5423 1 100 0 Load Straw mats.
+Reset O 5418 1 100 0 Load A spring.
+End
+#5461
+Shaman's Hut~
+This small hut is the home of the tribe's shaman.  It is filled with
+strange herbs and odd parts of animals.  A thick fog seems to envelope the
+air as there is a small pot giving off steam in the fire.  The room while
+being creepy, also inspires an intense feeling of calmness.  
+~
+0 8 0
+D1
+~
+door~
+1 0 5462
+Flags AB
+End
+S
+Reset M 5494 1 100 0 Load the massai shaman.
+Reset E 5417 13 100 0 A belt of prayer tokens is loaded around the waist of a belt of prayer tokens
+End
+#5462
+A small Path~
+This small path leads to a hut further out than the rest.  It appears to
+be like all the other huts though there are many odd trinkets hanging about
+and there is an odd symbol painted on the door.  
+~
+0 0 0
+D1
+~
+~
+0 0 5467
+End
+D3
+~
+door~
+1 0 5461
+Flags AB
+End
+S
+End
+#5463
+Armory~
+This hut is used to keep all the spare weapons that the tribe will need
+throughout the year.  Mostly spears can be found but there is also some
+spiked bucklers as well.  
+~
+0 8 0
+D3
+~
+~
+0 0 5467
+End
+S
+End
+#5464
+A Small Hut~
+This small hut is the home of one of the Massai families.  It is made of
+mud like bricks, with a thatched roof.  It is simply decorated, as the
+massai are a simple people.  Only several items of need are in the room.  
+~
+0 8 0
+D1
+~
+~
+0 0 5468
+End
+S
+Reset M 5470 1 100 0 Load a massai woman.
+Reset M 5413 1 100 0 Load a massai warrior.
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+Reset E 5416 18 100 0 A wolf spirit guide is loaded floating nearby of a wolf spirit guide
+End
+#5465
+A Small Hut~
+This small hut is the home of one of the Massai families.  It is made of
+mud like bricks, with a thatched roof.  It is simply decorated, as the
+massai are a simple people.  Only several items of need are in the room.  
+~
+0 8 0
+D3
+~
+~
+0 0 5468
+End
+S
+Reset M 5470 1 100 0 Load a massai woman.
+End
+#5466
+Village Center~
+This is the center of the Massai Village where all important events for
+the village take place.  A fire is continual kept up here in order to cook
+and preserve the meat that the hunters bring back.  A larger hut than the
+others seen in the village is to the south and is obviously the home of
+someone very important.  Other huts are to the east and west while a small
+path runs north through the rest of the village.  
+~
+0 0 0
+D0
+~
+~
+0 0 5467
+End
+D1
+~
+~
+0 0 5459
+End
+D2
+~
+~
+0 0 5458
+End
+D3
+~
+~
+0 0 5460
+End
+S
+Reset M 5415 1 100 0 Load a missionary.
+End
+#5467
+A Rough Path Through the Village~
+This rough path leads through the village of the Massai people.  Several
+of the Massai can be seen moving about there business in and out of the huts
+on either side of the road.  The path continues to the north while to the
+south can be seen the center of the village.  
+~
+0 0 0
+D0
+~
+~
+0 0 5468
+End
+D1
+~
+~
+0 0 5463
+End
+D2
+~
+~
+0 0 5466
+End
+D3
+~
+~
+0 0 5462
+End
+S
+Reset M 5413 3 100 0 Load a massai warrior.
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+End
+#5468
+A Rough Path Through the Village~
+This rough path leads through the village of the Massai people.  Several
+of the Massai can be seen moving about there business in and out of the huts
+on either side of the road.  The path leads up a short rise to the north,
+out of the village while also continuing south towards the center.  
+~
+0 0 0
+D0
+~
+~
+0 0 5469
+End
+D1
+~
+~
+0 0 5465
+End
+D2
+~
+~
+0 0 5467
+End
+D3
+~
+~
+0 0 5464
+End
+S
+Reset M 5413 1 100 0 Load a massai warrior.
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+Reset E 5414 18 100 0 A bear spirit guide is loaded floating nearby of a bear spirit guide
+End
+#5469
+Village Entrance~
+This is the entrance to the small village of the Massai tribe that lives
+in this area.  While more of a loose collection of huts than a village, it
+does constitute the only form of civilization to be seen in this area.  
+~
+0 0 0
+D0
+~
+~
+0 0 5470
+End
+D2
+~
+~
+0 0 5468
+End
+S
+Reset M 5413 1 100 0 Load a massai warrior.
+Reset E 5413 16 100 0 A warriors spear is loaded wielded of a warriors spear
+Reset E 5415 18 100 0 An owl spirit guide is loaded floating nearby of an owl spirit guide
+End
+#5470
+A Small Rise~
+The ground swells a bit here to form a bit of a rise in the layout of the
+plains.  It offers an excellent chance for a panoramic view of the area.  To
+the north can be be seen the wide expanse of the Serengeti in all its glory,
+great swaths of land open the the air in a wide uncluttered expanse of land.
+A largw river cuts across the scene until it meets up with a jungle to the
+northeast.  A shimmering water hole can be seen to the east while the land
+begins to climb a bit to a rocky region to the west.  Just to the south of
+here below the rise of this hill is a small village.  
+~
+0 4 4
+D0
+~
+~
+0 0 5449
+End
+D2
+~
+~
+0 0 5469
+End
+S
+End
+#5471
+Center of the Lake~
+This is the huge center of this large lake.  It is completely still here
+and deathly quite.  You do nnot see any animals anywhere, not even bugs. 
+Out of the corner of your eye you think you see some movement but probably
+not, as there has yet to be anything moving on the lake since you got here. 
+However, you can't shake the feeling of being watched.  
+~
+0 0 6
+D0
+~
+~
+0 0 5477
+End
+D1
+~
+~
+0 0 5475
+End
+D2
+~
+~
+0 0 5473
+End
+D3
+~
+~
+0 0 5479
+End
+D5
+~
+underwater~
+3 5458 5453
+Flags ACG
+End
+S
+End
+#5472
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D0
+~
+~
+0 0 5479
+End
+D1
+~
+~
+0 0 5473
+End
+S
+Reset O 5411 1 100 0 Load Marshy reeds.
+End
+#5473
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D0
+~
+~
+0 0 5471
+End
+D1
+~
+~
+0 0 5474
+End
+D3
+~
+~
+0 0 5472
+End
+S
+End
+#5474
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D0
+~
+~
+0 0 5475
+End
+D3
+~
+~
+0 0 5473
+End
+S
+Reset O 5411 1 100 0 Load Marshy reeds.
+End
+#5475
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D0
+~
+~
+0 0 5476
+End
+D1
+~
+~
+0 0 26900
+End
+D2
+~
+~
+0 0 5474
+End
+D3
+~
+~
+0 0 5471
+End
+S
+End
+#5476
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D2
+~
+~
+0 0 5475
+End
+D3
+~
+~
+0 0 5477
+End
+S
+Reset O 5411 1 100 0 Load Marshy reeds.
+End
+#5477
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D1
+~
+~
+0 0 5476
+End
+D2
+~
+~
+0 0 5471
+End
+D3
+~
+~
+0 0 5478
+End
+S
+End
+#5478
+Lake's Edge~
+The lake comes to abrupt stop at the edge of a massive wall of
+vegeatation.  The plant life is so thick here that there appears to be no
+way out but on the lake.  
+~
+0 0 6
+D1
+~
+~
+0 0 5477
+End
+D2
+~
+~
+0 0 5479
+End
+S
+Reset O 5411 1 100 0 Load Marshy reeds.
+End
+#5479
+The Lake~
+The lake is perfectly calm.  A strangly tranquil place compaired to the
+chaos of the jungle.  The lake continues on to the north and south, while
+there appears to be a small disturbance in the water to the east.  
+~
+0 0 6
+D0
+~
+~
+0 0 5478
+End
+D1
+~
+~
+0 0 5471
+End
+D2
+~
+~
+0 0 5472
+End
+D3
+~
+~
+0 0 5480
+End
+S
+End
+#5480
+Lake Junction~
+Once a small valley, this area has now become a wide calm lake stretching
+off in the distance.  The river flows into the lake, dumping all the excess
+of its contents of its stream here to form a bit of a shelter for some small
+animals.  The ever present heat still abounds but the sounds of teeming life
+are alot quiter here.  In fact except for the harsh cry of a bird it is very
+quite here.  
+~
+0 0 6
+D1
+~
+~
+0 0 5479
+End
+D3
+~
+~
+0 0 5481
+End
+S
+End
+#5481
+Base of the Falls~
+The river cascades from above down to this wide pool before continuing on
+its way to the east where it flows into a calm, still lake.  It is rather
+pleasant here as the mist from the falls help cool the normally hot jungle
+air.  The river continues to the east and the falls rise to unpassable
+heights.  
+~
+0 0 6
+D1
+~
+~
+0 0 5480
+End
+D3
+~
+~
+1 0 2940
+Flags AB
+End
+S
+Reset O 5412 1 100 0 Load The falls.
+End
+#5482
+The Falls~
+>Of course the rushing river could only lead to one thing,
+> A 
+>    wat
+>           e
+>                r
+>                      f
+>                           a
+>                                l
+>                                     l
+>
+> The only way out is down.
+~
+0 0 6
+D5
+~
+~
+0 0 5481
+End
+S
+End
+#5483
+The Rapids~
+At this point the water is rushing headlong at breakneck spead and there
+is no way to stop it.  Huge sprays of water fly about in a tumultous rythym.
+The water is moving to fast to go back west and the banks are too steep to
+climb even if you could reach them.  A loud roar can be heard to the east.  
+~
+0 0 6
+D1
+~
+~
+0 0 5482
+End
+S
+End
+#5484
+The Serengeti River~
+The river bank has begun to rise along the edges as the water begins to
+flow downhill at ever increasing speed.  Here, even the crocodiles have
+backed off because of the extreme current of the river as it flows ever
+eastward.  
+~
+0 0 6
+D1
+~
+~
+0 0 5483
+End
+D3
+~
+~
+0 0 5485
+End
+S
+End
+#5485
+The Serengeti River~
+The water has really picked up speed now as the joining tributaries are
+dumping vast amounts of water into the swelling river.  Several crocodiles
+swimm about the area but other animal life has gone back to the calmer
+waters.  The foliage is farther back now that theriver is swollen and the
+wide expanse of sky over the river can be seen quite clearly now.  
+~
+0 0 6
+D1
+~
+~
+0 0 5484
+End
+D3
+~
+~
+0 0 5486
+End
+S
+End
+#5486
+The Serengeti River~
+The river here is still rather thin here with several sand bars showing
+through the water but the flow here is much faster now.  The jungle can be
+seen to the north and south but the foliage is so thick it has formed an
+unpenetrable wall.  
+~
+0 0 6
+D1
+~
+~
+0 0 5485
+End
+D3
+~
+~
+0 0 5487
+End
+S
+Reset M 5405 1 100 0 Load a crocodile.
+Reset G 5408 1 100 0 Crocodile skin boots into inventory of crocodile skin boots
+Reset O 5409 1 100 0 Load A sand bar.
+End
+#5487
+The Serengeti River~
+The water has thinned here as it travels over a wide area of sand bars. 
+This is the easiest way to cross over from many miles around and quite often
+animals can be seen fjording the river here.  There is a rough animal track
+running north-south through the jungle, while the river flows from the west
+to the east.  
+~
+0 0 6
+D0
+~
+~
+0 0 5405
+End
+D1
+~
+~
+0 0 5486
+End
+D2
+~
+~
+0 0 5451
+End
+D3
+~
+~
+0 0 5488
+End
+S
+Reset O 5409 1 100 0 Load A sand bar.
+End
+#5488
+The Serengeti River~
+The air teems with life as the river has slowed inmmensly from its
+source.  Insects swarm through the air and things move in and out of the
+water.  Lush vegetation hangs over the water in some cases in the water. 
+Despite the water there is no solice from the damp heat that is prevelant
+through the entire region.  
+~
+0 0 6
+D1
+~
+~
+0 0 5487
+End
+D3
+~
+~
+0 0 5489
+End
+S
+Reset M 5404 1 100 0 Load a mamba snake.
+Reset E 5407 16 100 0 A mamba snake tongue is loaded wielded of a mamba snake tongue
+End
+#5489
+The Serengeti River~
+The banks of the river are crowded along its edges by the dense foliage
+of the jungle along its sides.  The water moves along at a slow but steady
+pace to the east as tributaries join in from every dirsction.  All sort of
+animal life abounds as the river brings about the much needed essance of
+life: water.  The jungle continues to the north and south though it begins
+to thin a bit in that direction.  
+~
+0 0 6
+D1
+~
+~
+0 0 5488
+End
+D2
+~
+~
+0 0 5490
+End
+D3
+~
+~
+0 0 5438
+End
+S
+End
+#5490
+The Serengeti River~
+Here the waters are much slower than the turbulence farther upstream. 
+The water makes small eddies along the banks and small animals and fish can
+be seen swimming in its more swallow depths.  The land around the river has
+changed a bit as well, as more trees of the jungles can be seen in the
+distance, The open plains still abound but this is definatly a borderzone in
+the region known as the serengeti.  The river makes a bit of a turn to the
+north here, and also runs upstream to the west. 
+~
+0 0 6
+D0
+~
+~
+0 0 5489
+End
+D2
+~
+~
+0 0 5443
+End
+D3
+~
+~
+0 0 5491
+End
+S
+End
+#5491
+Swollen River~
+This river , swollen by the rains of spring flows swiftly to the east. 
+It reaches great depths for a river of this region and has been known to
+sweep even the strongest wildebeast along in its swift current.  The open
+savannah stretches to the north and south while the river runs east and
+west.  
+~
+0 0 6
+D0
+~
+~
+0 0 5438
+End
+D1
+~
+~
+0 0 5490
+End
+D2
+~
+~
+0 0 5442
+End
+D3
+~
+~
+0 0 5492
+End
+S
+End
+#5492
+Swollen River~
+This river , swollen by the rains of spring flows swiftly to the east. 
+It reaches great depths for a river of this region and has been known to
+sweep even the strongest wildebeast along in its swift current.  The open
+savannah stretches to the north and south while the river runs east and
+west.  
+~
+0 0 6
+D0
+~
+~
+0 0 5437
+End
+D1
+~
+~
+0 0 5491
+End
+D2
+~
+~
+0 0 5441
+End
+D3
+~
+~
+0 0 5493
+End
+S
+End
+#5493
+Swollen River~
+This river , swollen by the rains of spring flows swiftly to the east. 
+It reaches great depths for a river of this region and has been known to
+sweep even the strongest wildebeast along in its swift current.  The open
+savannah stretches to the north and south while the river runs east and
+west.  
+~
+0 0 6
+D0
+~
+~
+0 0 5436
+End
+D1
+~
+~
+0 0 5492
+End
+D2
+~
+~
+0 0 5440
+End
+D3
+~
+~
+0 0 5494
+End
+S
+End
+#5494
+The River Source~
+A wall of mountains form an impenetrable border on the western border of
+the Serengeti.  Falling from between two of the craggy peaks is the source
+of the river you see before you.  The open plains of the savannah stretch
+both to the north and south while the river tumbles along to the east.  
+~
+0 0 6
+D0
+~
+~
+0 0 5435
+End
+D1
+~
+~
+0 0 5493
+End
+D2
+~
+~
+0 0 5439
+End
+S
+End
+#5495
+A Rocky Path~
+A rough path can be picked between the low trees and rocks in this area. 
+A cool breeze makes the air a bit more bearable and breathable.  The ground
+is a bit more hilly in contrast tto the flat plains of the savannah.  A
+small clearing at the base of a hill can be seen to the west while the
+savannah opens up to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 3591
+End
+D1
+~
+~
+0 0 5430
+End
+D3
+~
+~
+0 0 5497
+End
+S
+End
+#5496
+A Shady Clearing~
+This smaller clearing is apparently the home of the male leader of the
+pride.  Half -eaten carcasses and older bones can be found strewn about.  A
+small run off of water trails by and helps keep a cool breeze going.  In
+lions terms this is the lap of luxury.  
+~
+0 0 0
+D0
+~
+~
+0 0 5497
+End
+S
+Reset M 5409 1 100 0 Load a lion.
+Reset E 5406 12 100 0 A lion skin is loaded about the shoulders of a lion skin
+End
+#5497
+A Large Clearing~
+This wide clearing is the home of a large pride of lions.  It is here
+that the cubs are raised, the female lions bring back there kills, and where
+the male lion sleeps.  It is a shady area with larger trees than can be
+found on the savannah forming a ring around the area.  The occasional growl
+of two sparring lions can be heard but other than an occational whipperwhill
+call, all is quiet.  The area is clear of most rocks and plants but an
+outcropping does seem to go up to the west.  A small break in the trees is
+to the south and a rough path wanders eastward toward the open savannah.  
+~
+0 0 2
+D1
+~
+~
+0 0 5495
+End
+D2
+~
+~
+0 0 5496
+End
+D4
+~
+~
+0 -1 5498
+End
+S
+Reset M 5408 2 100 0 Load a lioness.
+Reset M 5408 2 100 0 Load a lioness.
+End
+#5498
+An Outcropping~
+This large, raised clearing stands before the enterance of a cave mouth. 
+Rough scrub and loose rocks can be found here and there but for the most
+part this area is bare.  A rough path heads down to a large clearing.  
+~
+0 0 0
+D3
+~
+~
+0 0 5499
+End
+D5
+~
+~
+0 0 5497
+End
+S
+Reset M 5407 1 100 0 Load a lioness.
+End
+#5499
+A Cave~
+This appears to be the main room in which the lions live.  Currently it
+is the home of a mother lion and her cubs.  The area is pleasantly cool from
+the outside heat though a distinctly feline aroma is present.  It appears to
+be a natural formation, with rough hewn walls.  It is a bit crowded and not
+much light seems to penetrate this deep.  
+~
+0 1 0
+D1
+~
+~
+0 0 5498
+End
+S
+Reset M 5406 3 100 0 Load a lion cub.
+Reset M 5406 3 100 0 Load a lion cub.
+Reset M 5406 3 100 0 Load a lion cub.
+End
+#0
+
+
+
+#SPECIALS
+M 5400 spec_troll_member
+M 5404 spec_poison
+M 5494 spec_cast_cleric
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

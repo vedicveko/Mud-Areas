@@ -1,0 +1,3908 @@
+#AREA   Island of the Dead~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+15 30 0 65
+$
+
+#RESETMSG A shrill cry in a strange tongue cuts the air like a knife.~
+
+#FLAGS
+0
+
+#ECONOMY 0 4728000
+
+#MOBILES
+#1800
+maddened knight~
+a maddened knight~
+A ragged figure clad in the remnants of Imperial armor leaps at you!
+~
+This pitiable wretch is the sole survivor of an Imperial expedition to
+the island, who has been hiding here since his fellows were all slain.
+The horrors he has witnessed have broken his mind; he is clearly beyond
+any help you could offer.
+~
+35 552 200 C
+18 0 0 19d2+200 7d2+14
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 16 0 2048 0 1 2
+> all_greet_prog 100~
+scream
+if isimmort($n)
+else
+yell You'll never take me alive, fiends!
+murder $n
+endif
+~
+> rand_prog 2~
+drool
+~
+|
+#1801
+zombie native~
+a zombie~
+A native stares at you, slackjawed, mumbling incoherently.
+~
+This poor fellow appears to have been drained of all life and will; he
+is but an empty shell, wandering aimlessly, awaiting orders from his
+dark controller, to whom he now belongs, body and soul.
+~
+65 0 0 C
+16 0 0 9d9+100 3d3+6
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 4096 4096 0
+0 0 0 784 3074 0 144 0
+> rand_prog 2~
+say Powers of darkness will conquer the light...
+say Powers of darkness will conquer the light...
+~
+> rand_prog 2~
+drool
+~
+> rand_prog 5~
+moan
+if isimmort($r)
+else
+if ispc($r)
+mpe _red A gleam suddenly comes into the zombie's eyes!
+say Master says you must die!
+murder $r
+else
+endif
+endif
+~
+|
+#1802
+captain vega wight~
+Captain Vega~
+The rotting corpse of the captain of the Esperanza rises to greet you!
+~
+Never a nice man in life, Vega has become thrice the devil he ever was
+in the mortal realm in undeath. Brought to life by the dark workings of
+the masters of this isle, he is bound to this rotting hulk, and now he
+exists only to slay those foolish enough to embark.
+~
+35 4194984 -750 C
+24 0 -50 10d10+400 2d5+18
+5000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 3 0 0 1 1 2
+0 0 0 8704 3078 0 515 1572867
+> all_greet_prog 100~
+if ispc($n)
+snicker
+say So nice to have visitors... except when they are unwelcome!
+yell STOWAWAYS! Let's have them walk the plank!
+cackle
+grin
+say No, I shall slay you now! Prepare to die, scurvy dog!
+endif
+~
+> fight_prog 20~
+lick
+feed
+~
+> fight_prog 20~
+snarl
+c 'energy drain'
+~
+> fight_prog 45~
+cackle
+c 'chill touch'
+~
+|
+#1803
+first mate sanchez~
+Sanchez~
+The first mate stands here, a death grin on his pale lips.
+~
+Once a healthy, experienced sailor, Sanchez is now a member of the dark
+powers of the island's growing legion of undead. He reacts violently to
+any who disturb him at his post.
+~
+35 520 -400 C
+20 0 0 100d1+350 5d2+10
+500 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 16 260 3074 0 16 2
+> greet_prog 100~
+if ispc($n)
+mpe $I's gleam with hatred as he turns to face you.
+say Perish, intruders, perish...!
+cackle
+endif
+~
+> fight_prog 20~
+cackle
+say Die, die die!
+mpe $I attacks with unparalleled ferocity!
+gouge
+~
+|
+#1804
+zombie crewman~
+a zombie crewman~
+A slackjawed crewman shambles across the deck.
+~
+Once a burly sailor, this emaciated wretch is now a mindless slave of
+Captain Vega, and in turn his masters, the dark masters of the isle,
+to whom the souls of all who arrive here eventually succumb.
+~
+97 0 -200 C
+18 0 0 10d3+300 2d4+8
+200 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 16 128 3074 0 128 0
+> rand_prog 2~
+say Gaaaahhhh...
+~
+> rand_prog 5~
+puke
+~
+> fight_prog 20~
+puke
+mea $n _gre The vomit is acidic... it burns your skin!
+mpdamage $n 10
+~
+|
+#1805
+zombie crewman~
+a zombie crewman~
+A vacant-eyed crewman stumbles about belowdecks.
+~
+Once a burly sailor, this emaciated wretch is now a mindless slave of
+Captain Vega, and in turn his masters, the dark masters of the isle,
+to whom the souls of all who arrive here eventually succumb.
+~
+97 -2147483648 -200 C
+18 0 0 10d3+300 2d4+8
+200 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 16 128 3074 0 128 0
+> rand_prog 2~
+groan
+~
+> fight_prog 20~
+mpe _red Bits of rotting flesh fly from the zombie as it battles!
+moan
+~
+> hitprcnt_prog 20~
+mpe _red Large chunks of the zombie's flesh are sent flying by your blows!
+if rand(50)
+mpoload 1825 1
+drop arm
+else
+mpoload 1826 1
+drop leg
+endif
+~
+|
+#1806
+enrique revenant~
+Enrique~
+A petty noble, slain by the crew, has returned intent on vengeance.
+~
+This young nobleman was slain and dumped in here before the shipwreck,
+having been duped and robbed by the crew of the merchantman, and killed
+for having the audacity to object. His thirst for vengeance combined
+with the workings of the isle have caused him to be returned as a dire
+revenant, intent on revenge!
+~
+7 8872 200 C
+22 0 -100 40d3+400 2d8+12
+0 0
+8 8 0
+18 18 13 18 18 3 3
+0 0 0 0 0
+67 3 0 0 1 1 2
+0 0 262144 2097924 11298 0 4098 524291
+> all_greet_prog 100~
+snarl
+if ispc($n)
+mpe $I relaxes, and stares long and hard at you.
+say No... you are not him. Bring me the one they call Vega.
+mpe The revenant is not to be taken lightly, he is immune to many weapons.
+endif
+~
+> fight_prog 15~
+vom
+~
+> rand_prog 2~
+say Soon... soon revenge shall be mine!
+cackle
+~
+> fight_prog 45~
+if ispc($n)
+say I do not wish to do battle with you... you are not Vega!
+mutter
+endif
+~
+|
+#1807
+esmerelda captive~
+Esmerelda~
+A mutilated woman moans in anger and pain!
+~
+Captured and held for ransom by the unscrupulous Vega, this poor woman
+suffered an ungodly fate, devoured alive by rats, and then what was left
+was animated by the magic of the isle.
+~
+3 0 0 C
+20 0 0 30d4+300 5d2+12
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 262144 0 3074 0 514 2
+> rand_prog 2~
+say Rats... stop the rats...
+moan
+~
+> all_greet_prog 100~
+mpe $I's eyes roll in what's left of her head.
+~
+> rand_prog 5~
+if ispc($r)
+mpe $I grabs you with surprising strength!
+say Stop... the... pain!
+endif
+~
+|
+#1808
+black rat~
+a black rat~
+A large black rat gnaws at the mutilated woman.
+~
+These foul rodents remained unaffected by the magic that claimed the
+rest of the crew; the dark masters of the isle have little need for
+rats, dead or alive.
+~
+229 512 0 C
+8 0 0 1d1+80 1d3+3
+0 0
+8 8 0
+13 13 13 18 13 13 13
+0 0 0 0 0
+54 3 0 0 128 128 0
+0 0 65536 0 0 0 262145 2
+> rand_prog 2~
+mpe The rat tears a chunk of flesh from the woman!
+~
+|
+#1809
+giant sand crab~
+a giant sand crab~
+A giant sand crab rises up from the ground!
+~
+Driven inland by the wandering zombies, which it fears, the crab has
+sought refuge near the pools of quicksand, where the natives will not
+dare go near.
+~
+39 512 0 C
+20 0 -100 8d5+300 2d4+9
+0 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1024 1024 0
+0 0 32 0 32 17 128 2
+> act_prog p pierce misses you.~
+mea $n Your weapon glances off the crab's shell.
+~
+> act_prog p stab misses you.~
+mea $n Your weapon glances off the crab's shell.
+~
+> death_prog 100~
+mpe As the crab dies, a chunk of its broken shell is torn loose.
+mpoload 1815
+~
+|
+#1810
+bo'sun botswain esteban ~
+Esteban~
+The Bo'sun stands here, clutching the remnants of the wheel.
+~
+The bo'sun seems oblivious to the destruction and decay all around him,
+even though he too is now a zombie. He stares straight ahead, out to
+sea, watching the horizon, singing softly.
+~
+3 512 -400 C
+20 0 0 100d1+350 5d2+10
+300 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 16 260 3074 0 16 2
+> rand_prog 2~
+mpe $I sings softly in a foreign tongue.
+mpasound From nearby comes the sound of someone singing.
+~
+> rand_prog 5~
+mpe $I moves the wheel slightly, as if adjusting the ship's course.
+~
+|
+#1811
+fierce native zombie~
+a fierce native~
+A fierce native, his face covered in scars and tattoos, stands near the bodies.
+~
+This zombie appears to have retained a fair portion of the wit he once
+possessed in life, though judging from his expression and attitude only
+all the unruly, aggressive elements. Blood drips from his sharpened
+teeth, where he has gnawed his own lips in frustration.
+~
+35 4203040 -500 C
+20 0 0 10d5+500 3d3+11
+0 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+0 3 0 0 65536 65536 2
+0 0 16 0 2048 0 512 524291
+> greet_prog 100~
+say The masters say none may approach! You will die for this!
+cackle
+lick
+~
+> rand_prog 2~
+drool
+lick
+~
+> rand_prog 2~
+twitch
+~
+> fight_prog 33~
+feed
+lick
+mmm
+~
+|
+#1812
+spirit volcano~
+the spirit of the volcano~
+A flickering, dancing flame surges into a roaring blaze!
+~
+~
+39 38273704 -1000 C
+30 0 -100 1d1+2999 3d6+20
+100000 100000
+8 8 0
+18 18 18 18 18 18 18
+-5 -5 -5 -5 -5
+84 0 0 0 65537 1 0
+0 0 0 0 3149057 2 335552512 2
+> fight_prog 25~
+c 'faerie fire' $r
+~
+> fight_prog 25~
+c blazebane $r
+~
+> fight_prog 25~
+gouge
+~
+> fight_prog 25~
+stun
+~
+> death_prog 100~
+mpe _red As the spirit is defeated, it cries out, and explodes!
+mpe _red Its remaining portions are hurled eastward!
+mpgoto 1857
+mpe _red Only a small token of its power remains...
+if rand(30)
+mpoload 1823 
+else
+if rand(70)
+mpoload 1824 
+else
+mpoload 1822 
+endif
+endif
+~
+|
+#1813
+octopus giant~
+a giant octopus~
+A giant octopus fills most of the cargo hold.
+~
+This undersea horror managed to pass through the cracks in the hull,
+squeezing its rubbery body to a remarkably narrow shape, then it had
+at the easy pickings, feeding on all that came near. The zombies now
+avoid this section of the ship.
+~
+39 512 0 C
+22 0 0 22d8+300 1d6+6
+0 0
+8 8 0
+22 13 13 18 13 13 13
+0 0 0 0 0
+81 3 0 0 1024 1024 8
+0 0 0 18 0 0 0 2
+> fight_prog 20~
+mpe The octopus flails at you with its many tentacles!
+~
+|
+#1814
+warrior fire cult~
+a warrior of the fire cult~
+A burly human clad in black armor strides down the lava tunnel.
+~
+These fanatical humans obey the dark masters of the fire cult with
+undying loyalty; they exist in a state of half-life, not alive, but
+not undead, and will (they are promised) attain immortality if they
+serve well. With their tattooed faces and flaming red hair, spiked 
+and filled with bones and blood, they are truly terrifying to behold.
+~
+101 512 -400 C
+24 0 0 10d10+400 3d3+11
+0 0
+8 8 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 1051648 1 2 128 524289
+> greet_prog 100~
+if ispc($n)
+scream
+mpe The warrior gurgles in fanatical bloodrage!
+endif
+~
+|
+#1815
+priestess fire cult~
+a fire cult priestess~
+A naked priestess covered in flaming oil chants an unholy litany.
+~
+This young woman is totally devoid of clothing or even body hair, the
+fire she is perpetually enshrouded in has scorched it all away. Although
+the heat is intense, she remains unharmed, due to her devotion to this
+ancient and primitive deity. Her eyes roll about in her head, as she 
+loses herself in the dark ritual she is performing.
+~
+35 33563176 -1000 C
+26 0 0 20d5+600 5d5+12
+12000 0
+8 8 2
+13 13 13 18 13 18 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 0 3073 0 268443649 2
+> greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+cackle
+say Come, come relish in the touch of fire!
+mpe _red The woman opens her mouth, and releases a gout of flame!
+c 'fire breath' $n
+else
+endif
+endif
+~
+> fight_prog 18~
+c blazebane $r
+~
+> fight_prog 33~
+c 'faerie fire' $r
+~
+> fight_prog 45~
+c 'cure serious'
+~
+|
+#1816
+envoy flame~
+the envoy of flame~
+A fiery denizen of the elemental plane of fire stands here.
+~
+This minor efreet has been sent by his dark masters to observe the 
+worship of fire taking place here, as well as the subjugation of
+the local population. While they do not approve of the connection
+with the powers of necromancy, they are happy to see a cult dedicated
+to worship of their native element flourishing on this plane.
+~
+3 33563304 -200 C
+28 0 0 1d1+1999 0d0+0
+50000 0
+8 8 0
+22 13 13 22 13 13 13
+0 0 0 0 0
+84 0 0 0 1 1 0
+0 0 262144 0 2049 2 268435968 524291
+> all_greet_prog 100~
+if isnpc($n)
+else
+bow $n
+say Well met, mortal. I take it you are not of this cult...
+frown
+say You probably shouldn't be here, you know...
+wink $n
+endif
+~
+> fight_prog 45~
+wield shamsheer
+~
+|
+#1817
+djinn genie imprisoned~
+a chained djinn~
+A blue-skinned, muscular man sits in the corner, a downcast expression on his face.
+~
+Mighty sorcerers from the elemental plane of air, Djinni are a benevolent
+race, who mostly keep out of human affairs. Sometimes one may be bound
+into the service of a mortal master, though the duration of this servitude
+will normally be brief, especially if the master is not benign. This poor
+fellow was trapped by the efreet, who are his race's mortal enemies, along
+with the treacherous Dao and cruel Marid.
+~
+3 524968 600 C
+28 0 0 1d1+2200 3d8+24
+0 0
+8 8 1
+22 22 13 22 13 13 22
+0 0 0 0 0
+84 0 0 0 1 1 1
+0 0 2047 3145728 3078 0 81936 1051843
+> rand_prog 25~
+if ispc($r)
+   if isgood($r)
+   smile $r
+   c fly $r
+   c heal $r
+   c 'restore mana' $r
+   else
+   t $r Leave me, dark one!
+   frown $r
+   endif
+endif
+~
+> all_greet_prog 100~
+if isimmort($n)
+bow $n
+else
+if ispc($n)
+   if isgood($n)
+      if sex($n) == 2
+      mea $n The Djinn leaps to his feet and bows deeply.
+      say M'lady, you honor me with your presence.
+      hand $n
+      else
+      mea $n The Djinn slowly rises to his feet and regards you.
+      say Well met, stranger...
+      mpe The Djinn is cordial, but cautious.
+      endif
+   else
+   scream
+   say Dark one, you insult me with your presence!
+   say Although imprisoned here, I can still destroy your evil spirit!
+   c 'winter mist' $n
+   c 'frost breath' $n
+   cackle
+   endif
+else
+endif
+endif
+~
+|
+#1818
+flame fiend~
+a flame fiend~
+A hideous reptile swathed in fire frolicks and cackles in glee!
+~
+This ugly lizardlike creature capers and frolicks playfully with its
+fellows, but this jovial exterior conceals a dark heart. These fiends
+are used to routinely rend prisoners to shreds, and whoever else is
+unfortunate enough to fall foul of their claws and scorching breath.
+~
+39 33554944 -500 C
+22 0 0 20d5+400 2d4+4
+0 0
+8 8 0
+18 13 13 22 13 13 13
+0 0 0 0 0
+79 3 0 0 1024 1024 0
+0 0 34932287 0 33 2 7 2
+#1819
+dwarf enslaved smith~
+an enslaved dwarven smith~
+A tired old dwarf hammers at a piece of damaged armor.
+~
+Despite his haggard appearance, this old dwarf is still a formidable
+opponent; his will to escape has been sapped, but his animal instinct
+of survival is still functioning, and he will battle to defend himself
+ferociously!
+~
+3 520 450 C
+25 0 -100 1d1+2000 5d5+20
+0 0
+8 8 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+2 22 0 0 5 1 3
+0 0 47 0 3149568 0 992 524290
+> fight_prog 75~
+mpdamage $n 100
+~
+> all_greet_prog 100~
+mea $n The dwarf looks up at you with only mild curiosity.
+t $n You need somethin' repaired?
+sigh
+~
+> rand_prog 5~
+mprestore self 200
+sigh
+~
+|
+#1820
+arbalaxus fire mage~
+A'rbalax'us~
+A cackling fire mage weaves a scorching series of spells!
+~
+This insane pyromaniac is a mercenary in the employ of the cult; fire
+mages are rare indeed, for it is considered near-suicidal to try and
+master the unpredictable element, and shape it to cohesive uses.
+~
+167 35652104 -860 C
+26 0 0 20d5+500 4d4+12
+10000 0
+8 8 0
+13 18 13 18 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 2047 0 2049 0 268435456 10242
+> fight_prog 25~
+c blazebane $r
+~
+> fight_prog 25~
+c 'faerie fire' $r
+cackle
+~
+> fight_prog 40~
+c fireball
+c fireball
+~
+> rand_prog 2~
+cackle
+mpe _red A table suddenly explodes into flame!
+gasp
+mpe $I quickly douses the fire with a bucket of water.
+shrug
+snicker
+~
+|
+#1821
+brass golem~
+a brass golem~
+An eight foot tall statue of brass stands before the three doors.
+~
+This mindless automaton has been charged with protecting those who
+live beyond these three doors from any harm. It cannot be bargained
+or reasoned with; it is merely a barely sentient construct bound to
+the will of its masters, the priestesses of flame.
+~
+39 552 0 C
+26 0 0 20d20+800 2d5+12
+0 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 8192 8192 0
+0 0 0 3146336 7424 0 128 2
+> all_greet_prog 100~
+if isimmort($n)
+or isnpc($n)
+else
+mpe _yel The mighty golem grinds into life!
+c gas
+endif
+~
+> fight_prog 33~
+gouge
+~
+|
+#1822
+high priest~
+the high priest of flame~
+A skullfaced human, the flesh seared from his head, utters unholy phrases.
+~
+A master of powers of necromancy as well as fire, this diabolical fiend
+is one of the masterminds of this unholy alliance between the masters
+of fire and death, and in effect the ringleader of this dark cult. He
+has overseen the collection of zombies, and the sacrifice to his fiery
+deities, while placating the gods of death and disease.
+~
+7 34087592 -1000 C
+28 0 0 22d22+2200 4d2+8
+0 0
+8 8 1
+18 18 13 18 13 3 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 3146496 3073 0 268440064 524291
+> fight_prog 18~
+c feebleness $r
+~
+> fight_prog 25~
+c 'faerie fire' $r
+~
+> fight_prog 15~
+c 'sulfurous spray' $n
+~
+> hitprcnt_prog 25~
+mpe Sensing his imminent defeat, the priest tries to use his dark staff!
+hold doomstaff
+brandish doomstaff
+cackle
+~
+> all_greet_prog 100~
+mea $n The priest cackles joyfully as he spies you.
+say Ah, come, come heathens, come and witness the power I have
+say unleashed, embrace it, join me in celebrating it!
+mpe The priest is too engrossed in his arcane rituals to pay much attention.
+drool
+~
+> rand_prog 2~
+say Powers of fire and darkness, take my offering!
+mpe The priest draws a serrated blade, and cuts his arm open!
+scream
+moan
+mpe Blood seeps from the wound, sizzling when it strikes the altar.
+mpe _red A low rumbling issues from the volcano, and the flame dances higher.
+~
+|
+#1823
+zombie savage~
+a zombie savage~
+A savage zombie snarls and scowls in pain and rage!
+~
+This zombie appears to have retained a fair portion of the wit he once
+possessed in life, though judging from his expression and attitude only
+all the unruly, aggressive elements. Blood drips from his sharpened
+teeth, where he has gnawed his own lips in frustration.
+~
+97 4203040 -500 C
+20 0 0 10d5+500 3d3+11
+0 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 16 0 2048 0 512 524291
+> rand_prog 5~
+drool
+~
+|
+#1824
+g'nurra beast~
+G'nurra~
+A hideous, hairy, mutated beast leaps at your throat!
+~
+This fould mutant was once human; what is left of its mind understands
+only violence and death. Huge gnashing fangs tear through flesh of its
+hapless victims in seconds; pray you're not next.
+~
+39 98856 -750 C
+25 0 0 1d1+800 2d3+17
+0 0
+8 8 0
+22 13 13 22 13 13 13
+0 0 0 0 0
+0 3 0 0 512 512 0
+0 0 34932415 576 2304 0 515 2
+> all_greet_prog 100~
+mpe With a roar, $I attacks!
+shriek
+~
+> fight_prog 33~
+shriek
+~
+|
+#1825
+ereig assassin dwarf~
+Ereig~
+A hairless, stocky female dwarf clad in black sits at the table.
+~
+This assassin was hired by the cult to seek out their enemies and 
+despatch them; she has done so with ruthless efficiency, engineering
+the zombie attack on the knights on the beach, and the shipwreck of
+the Esperanza, through co-operation with a native shaman. Now she 
+will be charged with dealing with you; by coming here you have saved
+her the time.
+~
+3 98856 -600 C
+25 0 0 10d10+700 4d4+14
+25000 0
+8 8 2
+20 13 13 22 13 13 20
+0 0 0 0 0
+2 2 0 0 4 4 0
+0 0 2047 0 3328 0 1536 524291
+> fight_prog 25~
+wield fang
+mpgoto $i
+bs $r
+circle $r
+lick
+~
+> all_greet_prog 100~
+if isnpc($n)
+chuckle
+else
+chuckle
+say Well, it's $n. Your arrival has been noted, and will be dealt with.
+say But... not before I finish my ale... 
+mpe $I sips at her mug of ale, never taking her eyes off of you.
+endif
+~
+|
+#1826
+x'ora death lich~
+X'ora~
+The death lich X'ora cackles at your pathetic show of strength.
+~
+This horrid, skeletal being is a foul agent of the dark powers of death
+and damnation, and has forged an unholy alliance with the evil cult of
+fire. Together they will attempt to bring Chaos to order, anarchy to
+Law.
+~
+39 8872 -1000 C
+28 0 0 20d20+1500 3d3+11
+50000 0
+8 8 0
+13 25 25 20 13 3 3
+-5 -5 -5 -5 -5
+67 0 0 0 4097 1 2
+0 0 262168 2105736 3590 1 1107300864 1051651
+> fight_prog 10~
+vom
+~
+> fight_prog 25~
+c 'chill touch' $r
+c 'chill touch' $r
+~
+> fight_prog 25~
+c 'energy drain' $r
+c 'energy drain' $r
+~
+> all_greet_prog 100~
+if isnpc($n)
+say Interloper! Begone from my realm!
+mpe _lbl A blast of cold smites $n, freezing $s flesh!
+c 'frost breath' $n
+c 'frost breath' $n
+else
+if isimmort($n)
+say I will not attempt to defeat you, godling.
+bow $n
+else
+chuckle
+say Well, well, well. I have expected your arrival $n.
+hmm
+say I suppose congratulations are in order for surviving the tunnels.
+shrug
+say Die.
+mea $n _lbl A blast of cold streaks from the necromancer's bony hands!
+c 'frost breath' $n
+endif
+endif
+~
+> death_prog 30~
+mpe _red As the foul being perishes, its hand is severed, at the wrist.
+mpoload 1861 
+~
+|
+#1827
+treeman savage~
+a savage treeman~
+A greenskinned human wearing clumps of vegetation stands near the rope.
+~
+These primitive humans have co-existed with their environment for so 
+long that they have adopted certain vegetative properties, the most
+noticeable being a green hue to their skin, though the effect is in
+fact exaggerated by their bark armor and grassy clothing. Despite the
+rather savage appearance of these people, they are benign, though the
+latest evil on their island has made them guarded and aggressive to all
+foreigners.
+~
+35 8736 400 C
+18 0 0 5d12+400 3d3+9
+0 0
+8 8 1
+13 13 13 22 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 2047 0 0 1 576 2
+> greet_prog 100~
+if name($n) == treeman savage
+else
+if isnpc($n)
+say M'ach'up a'weya H'chupa!
+scream
+else
+if ispc($n)
+say M'ach'up a'weya H'chupa!
+mea $n The treeman pokes you with his long spear.
+else
+endif
+endif
+endif
+~
+> fight_prog 18~
+say T'chey! U'grnapt t'chey wampa!
+snarl
+~
+|
+#1828
+treeman savage~
+a savage treeman~
+A treeman leaps agilely through the boughs.
+~
+These primitive humans have co-existed with their environment for so 
+long that they have adopted certain vegetative properties, the most
+noticeable being a green hue to their skin, though the effect is in
+fact exaggerated by their bark armor and grassy clothing. Despite the
+rather savage appearance of these people, they are benign, though the
+latest evil on their island has made them guarded and aggressive to all
+foreigners.
+~
+97 8736 400 C
+18 0 0 5d12+400 3d3+9
+0 0
+8 8 1
+13 13 13 22 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 2047 0 0 1 576 2
+#1829
+treeman shaman~
+a treeman shaman~
+An old, wiry treeman scowls and shrieks!
+~
+These primitive humans have co-existed with their environment for so 
+long that they have adopted certain vegetative properties, the most
+noticeable being a green hue to their skin, though the effect is in
+fact exaggerated by their bark armor and grassy clothing. Despite the
+rather savage appearance of these people, they are benign, though the
+latest evil on their island has made them guarded and aggressive to all
+foreigners.
+~
+97 8864 400 C
+20 0 0 5d12+400 3d3+9
+0 0
+8 8 1
+13 13 13 22 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 2047 0 0 1 167772736 2
+> greet_prog 100~
+scowl
+c heal
+~
+> fight_prog 10~
+mpgoto $i
+c unravel $r
+~
+> rand_prog 2~
+c 'detect invis'
+c heal
+~
+|
+#0
+
+
+#OBJECTS
+#1800
+chest~
+a wooden chest~
+A wooden chest sticks out from under the bunk.~
+~
+15 262144 0
+500 13 1801 0
+1 0 0
+#1801
+rusted key~
+a rusted key~
+A rusted metal key lies on the floor.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#1802
+journal dusty~
+a dusty old journal~
+An old book, covered in dust and mold, has been discarded here.~
+~
+35 0 1
+0 0 0 0
+1 0 0
+E
+journal~
+This ancient book is so badly damaged that the pages crumble away as you
+turn them...
+~
+> exa_prog 100~
+mea $n _lbl A section of the text is legible, barely-
+mer $n _lbl $n reads aloud what little $e can decipher of the journal.
+mpe _whi "... we came across the dark priest, horrid he was, and cruel.
+mpe _whi Gunnarson suggested we do battle, and we... but... too many;
+mpe _whi the zombies... everywhere... top of the cliff, which we hadn't
+mpe _whi discovered for quite a while due to... ship, thought lost some
+mpe _whi time ago... do now, for we are outnumbered, and scared... keep
+mpe _whi hiding here, in the hopes that the Empire will..."
+mea $n _dch The book bears the Imperial Coat of Arms.
+~
+|
+#1803
+dead sailor corpse~
+the sailor~
+The corpse of a dead sailor has been washed up on the shore.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+corpse sailor~
+The fellow apparently died from fright, judging by the terrified 
+expression frozen on his face.
+~
+> exa_prog 100~
+mea $n As you poke the corpse, it shrieks and stares at you!
+mer $n As $n pokes the corpse, it shrieks and stares at $m!
+say The natives! They're all DEAD! DEAD!
+mpe The sailor's eyes roll back in his head and he slumps back down.
+~
+|
+#1804
+platinum wristband~
+a dull platinum wristband~
+This wristband could do with a polish.~
+~
+9 524288 4097
+6 0 0 0
+1 7500 750
+A
+1 1
+A
+18 1
+A
+19 2
+#1805
+rotting cloak~
+a rotting cloak~
+Only scraps remain of what was once a fine cloak.~
+~
+9 262144 5
+2 7 0 0
+1 5 0
+A
+12 25
+#1806
+captain vega sabre~
+Captain Vega's sabre~
+A shining steel sabre lies next to its scabbard.~
+~
+5 524352 8193
+0 0 0 3
+7 5000 500
+A
+18 2
+A
+19 3
+#1807
+stained cloth pantaloons~
+stained cloth pantaloons~
+A pair of badly stained sailor's pantaloons have been strewn here.~
+~
+9 0 33
+5 0 0 0
+2 50 5
+A
+2 1
+A
+13 15
+A
+14 35
+#1808
+rope belt~
+a rope belt~
+A piece of rope has been fashioned into a crude belt.~
+~
+9 0 2049
+2 0 0 0
+1 10 1
+#1809
+silver stud~
+a silver stud~
+A silver stud has fallen from someone's ear.~
+~
+9 524288 65537
+3 0 0 0
+1 500 50
+A
+31 1
+A
+18 2
+A
+19 1
+#1810
+silver locket~
+a silver locket~
+A silver locket hangs from a silver chain.~
+~
+9 8913920 5
+5 0 0 0
+1 750 75
+E
+silver locket~
+It contains a picture of a rather frumpy looking middle aged woman,
+below which an unintelligable name is engraved.
+~
+A
+3 2
+A
+12 10
+A
+13 10
+#1811
+white lace gloves~
+a pair of white lace gloves~
+A woman of gentle birth has dropped her gloves.~
+~
+9 0 129
+3 0 0 0
+1 750 75
+A
+2 2
+#1812
+remnants wheel~
+the remnants of the ship's wheel~
+The top third of a ship's wheel has been discarded here.~
+~
+9 262144 513
+3 7 0 0
+5 75 7
+A
+17 -10
+A
+19 1
+#1813
+red bandana~
+a red bandana~
+A red bandana lies on the floor like a pool of blood.~
+~
+9 0 17
+4 0 0 0
+1 172 17
+A
+5 1
+A
+13 25
+A
+19 2
+#1814
+grass skirt~
+a grass skirt~
+A skirt made of woven grass and rope lies here.~
+~
+9 262144 33
+3 0 0 0
+5 215 21
+A
+17 -10
+A
+13 10
+A
+18 2
+A
+19 2
+#1815
+crab shell~
+a giant crab shell~
+This chunk of giant crab shell makes a servicable shield.~
+~
+9 0 513
+9 0 0 0
+12 760 76
+A
+17 -10
+A
+27 32
+#1816
+human bone earring~
+a humanbone earring~
+This earring is made from human bone.~
+~
+9 530 65537
+5 0 0 0
+1 650 65
+A
+19 2
+#1817
+belt skulls~
+a belt of skulls~
+A belt of snake skulls hangs from a branch.~
+~
+9 528 2049
+6 0 0 0
+10 50 5
+A
+13 15
+A
+12 25
+A
+18 2
+A
+19 1
+#1818
+nose bone~
+a nose bone~
+A long bone covered in mucous and blood lies here.~
+~
+9 528 17
+4 0 0 0
+1 25 2
+A
+1 2
+A
+19 2
+> wear_prog 100~
+if isgood($n)
+else
+mea $n With great difficulty, you shove the sharpened bone through your nose!
+mer $n With great difficulty, $n shoves the sharpened bone through $s nose!
+mpforce $n grunt
+endif
+~
+> remove_prog 100~
+if isgood($n)
+else
+mea $n You grab ahold of the bone and rip it out of your nose!
+mer $n $n grabs ahold of the bone and rips it out of $s nose!
+mea $n _red Blood showers from your mutilated nose!
+mer $n _red Blood showers from $n's mutilated nose!
+mpforce $n moan
+endif
+~
+|
+#1819
+bone club~
+a bone club~
+A club fashioned from a human femur lies here.~
+~
+5 0 8193
+0 0 0 7
+5 50 5
+#1820
+bone knife~
+a bone knife~
+A knife carved from bone is thrust into a crack in the ground.~
+~
+5 0 8193
+0 0 0 2
+1 120 12
+A
+19 2
+#1821
+blade don de la vega~
+the blade of Don de la Vega~
+A shining silver rapier lies in its jewelled scabbard.~
+~
+5 8948801 8193
+0 0 0 1
+10 50000 5000
+E
+blade ~
+Forged in fire and ice, this blade is of the purest silver, strengthened
+by magical enchantment. It is an heirloom of the de la Vegas, and they
+would dearly love for it to be returned.
+~
+A
+1 1
+A
+4 1
+A
+13 10
+A
+12 25
+A
+18 6
+A
+19 5
+A
+24 -1
+> wear_prog 100~
+if isgood($n)
+mea $n _whi You feel a surge of confidence as you wield the blade.
+mer $n _whi $n swells with pride as $e hefts the blade.
+endif
+~
+> remove_prog 100~
+if isgood($n)
+mea $n _blu You sigh as you remove the blade.
+mer $n _blu $n sighs with regret as $e returns the blade to its scabbard.
+endif
+~
+|
+#1822
+gauntlets fire~
+gauntlets of fire~
+A pair of gauntlets blazes with eldritch flame.~
+~
+9 623107 129
+7 0 0 0
+8 50000 5000
+A
+2 1
+A
+12 60
+A
+18 4
+A
+19 3
+A
+27 1
+#1823
+bracer flame~
+a bracer of flame~
+A bronze bracer dances with eldritch flame.~
+~
+9 98835 4097
+6 0 0 0
+3 50000 5000
+A
+12 40
+A
+27 1
+#1824
+fiery torque~
+a fiery torque~
+A flaming circlet scorches the ground.~
+~
+9 98835 5
+6 0 0 0
+10 50000 5000
+A
+13 10
+A
+12 50
+A
+27 1
+#1825
+rotting arm~
+a rotting arm~
+A rotting arm floats in a pool of water.~
+~
+19 262144 1
+4 0 0 1
+1 0 0
+#1826
+rotting leg~
+a rotting leg~
+A rotting leg floats in a pool of water.~
+~
+19 262144 1
+4 0 0 1
+1 0 0
+#1827
+casket metal~
+a metal casket~
+A gleaming metal casket rests on the ground.~
+~
+15 524288 0
+666 13 1828 0
+56 600 60
+#1828
+casket key~
+the casket key~
+A shining metal key lies abandoned.~
+~
+18 0 1
+0 0 0 0
+1 50 5
+#1829
+snakeskin boots~
+snakeskin boots~
+A pair of snakeskin boots with silver inlays await an owner.~
+~
+9 262144 65
+6 0 0 0
+5 1200 120
+A
+2 1
+A
+1 1
+A
+19 2
+#1830
+rusty cutlass~
+a rusty cutlass~
+This cutlass is badly corroded.~
+~
+5 0 8193
+0 0 0 1
+3 75 7
+A
+18 -2
+A
+19 2
+#1831
+plate fire~
+black fire plate~
+This blackened steel armor bears an embossed flaming sun.~
+~
+9 524817 9
+12 0 0 0
+10 5000 500
+A
+1 1
+A
+13 20
+A
+18 3
+A
+19 3
+#1832
+blackened greaves~
+blackened greaves~
+A pair of blackened metal greaves lie like a stain on the ground.~
+~
+9 524816 33
+9 0 0 0
+4 2800 280
+A
+2 -1
+A
+17 -10
+A
+14 -100
+A
+18 2
+A
+19 2
+#1833
+visions rage~
+visions of rage~
+A hazy, indistinct, reddish aura fills the air.~
+~
+9 528 131073
+5 0 0 0
+1 4000 400
+A
+1 2
+A
+18 4
+A
+26 16777224
+#1834
+flail bloodstained ~
+a bloodstained flail~
+A spiked flail covered in blood and ash lies here.~
+~
+5 524886 8193
+0 0 0 8
+18 5000 500
+A
+19 4
+#1835
+efreeti shamsheer~
+a great shamsheer~
+A powerful efreeti weapon lies on the ground, flickering with flame.~
+~
+5 524867 8193
+0 0 0 6
+20 17500 1750
+A
+18 5
+A
+19 5
+#1836
+flaming baton~
+the flaming baton~
+A narrow brass cylinder lies on the ground.~
+~
+9 524867 16385
+12 0 0 0
+5 15000 1500
+A
+3 2
+A
+12 45
+A
+19 3
+#1837
+torn parchment~
+a torn piece of parchment~
+A torn piece of parchment lies curled up on the ground.~
+~
+2 20 1
+40 4 107 110
+1 0 0
+#1838
+armory key~
+the armory key~
+A small bronze key lies here.~
+~
+18 0 16385
+0 0 0 0
+2 50 5
+#1839
+bracer air~
+bracer of air~
+This shimmering blue band is empowered with the strength of the four winds.~
+~
+9 3393 4097
+7 0 0 0
+1 50000 5000
+A
+2 2
+A
+31 1
+A
+12 20
+A
+19 2
+> wear_prog 10~
+if isgood($n)
+c fly $n
+endif
+~
+|
+#1840
+bindings fire~
+bindings of fire~
+A pair of flaming leg irons scorches the ground.~
+~
+9 528401 65
+11 0 0 0
+50 5000 500
+A
+2 -3
+A
+12 -20
+A
+14 -200
+A
+18 -2
+A
+19 4
+#1841
+tapestry city brass~
+a tapestry~
+A tapestry on the south wall depicts the City of Brass, in a sea of fire.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+tapestry city brass~
+The entire city is fashioned from the alloy that is its namesake; it
+reflects the heat of the flames with an almost eerie beauty.
+~
+#1842
+tapestry city brass~
+a tapestry~
+A tapestry on the north wall bars exit from this room.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+tapestry city brass~
+The entire city is fashioned from the alloy that is its namesake; it
+reflects the heat of the flames with an almost eerie beauty.
+~
+#1843
+wand fire baton~
+a wand of fire~
+A metal baton has been dropped here.~
+~
+3 524353 16385
+30 12 12 26
+1 25000 2500
+A
+12 75
+#1844
+robe flame~
+flame robe~
+A fiery garment burns the very air around it.~
+~
+9 8487425 1025
+11 0 0 0
+8 75000 7500
+A
+12 100
+A
+27 1
+> wear_prog 5~
+if isgood($n)
+else
+c fireshield $n
+endif
+~
+|
+#1845
+bag holding~
+a bag of holding~
+A magical pouch stuffed with all manner of items lies here.~
+~
+15 64 1
+150 5 -1 0
+4 15000 1500
+#1846
+elixir fire~
+elixir of fire~
+A smoldering brew bubbles ominously...~
+~
+10 67 1
+40 26 88 215
+3 5000 500
+> use_prog 100~
+mea $n _red You are engulfed in flame! 
+~
+|
+#1847
+brass gauntlets~
+brass gauntlets~
+A pair of gauntlets made from a shiny yellowish alloy glint in the light.~
+~
+9 524288 129
+7 0 0 0
+5 15000 1500
+A
+19 4
+#1848
+brass leggings~
+brass leggings~
+A pair of leggings made from a shiny yellowish alloy glint in the light.~
+~
+9 524288 33
+7 0 0 0
+5 15000 1500
+A
+18 1
+A
+19 1
+#1849
+brass plate~
+brass plate~
+A sheet of brass plate lies on the ground.~
+~
+9 524288 9
+7 0 0 0
+20 24300 2430
+A
+18 4
+A
+12 60
+#1850
+brass boots~
+brass boots~
+A pair of shiny brass boots sits here.~
+~
+9 524288 65
+7 0 0 0
+5 15000 1500
+A
+14 75
+A
+21 -3
+#1851
+brass helmet~
+brass helmet~
+A visorless brass helmet rolls about on the ground.~
+~
+9 524288 17
+7 0 0 0
+5 15000 1500
+A
+17 -10
+A
+4 2
+A
+12 33
+#1852
+brass sleeves~
+brass sleeves~
+A pair of shining brass sleeves hangs from their leather ties.~
+~
+9 524288 257
+7 0 0 0
+5 15000 1500
+A
+2 2
+A
+31 1
+#1853
+ember malice~
+ember of malice~
+A glowing ember radiates an unnatural heat.~
+~
+1 593 1
+0 0 120 0
+1 500 50
+A
+23 -5
+A
+24 -5
+#1854
+robes fiery doom~
+dark robes of fiery doom~
+A set of dark robes embroidered with images of fire and grinning skulls lies here.~
+~
+9 16878100 1025 16
+11 0 0 0
+1 157500 15750
+A
+1 1
+A
+2 1
+A
+13 25
+A
+12 45
+A
+19 2
+A
+23 -3
+A
+20 -3
+#1855
+doomstaff staff doom~
+Doomstaff~
+A blackened metal rod covered in dark runes hums with a dim malevolence.~
+~
+4 17402455 16385
+40 10 10 203
+5 750000 75000
+A
+13 50
+A
+12 50
+#1856
+serrated knife~
+a serrated knife~
+This short, but nasty blade is stained with blood.~
+~
+5 0 8193
+0 0 0 1
+1 500 50
+#1857
+fang dagger~
+Fang~
+A wicked dagger roughly eighteen inches long drips blood and venom.~
+~
+5 526928 8193
+0 0 0 11
+3 56400 5640
+A
+2 2
+A
+13 25
+A
+18 7
+A
+19 5
+#1858
+studded leather armor~
+studded leather armor~
+A suit of studded leather armor stained with blood lies here.~
+~
+9 0 9
+7 0 0 0
+10 500 50
+#1859
+boots stealth~
+boots of stealth~
+These black boots are of unknown origin.~
+~
+9 36 65
+5 0 0 0
+1 1500 150
+A
+2 1
+A
+26 32768
+#1860
+mug ale~
+a mug of ale~
+This steel tankard would make a powerful bludgeoning weapon.~
+~
+5 524288 8193
+0 0 0 8
+4 50 5
+A
+19 5
+#1861
+death touch x'ora~
+the death touch of X'ora~
+A skeletal hand lies clawed on the ground.~
+~
+5 2646 8193
+0 0 0 5
+1 7500 750
+A
+1 1
+A
+5 -1
+A
+13 40
+A
+12 40
+A
+18 7
+A
+19 7
+A
+24 -3
+#1862
+cowl x'ora black~
+the cowl of X'ora~
+A black pile of fabric covered with silvery runes lies here.~
+~
+9 16878160 17
+9 0 0 0
+1 15033 1503
+A
+3 2
+A
+12 75
+A
+13 25
+A
+19 2
+#1863
+spear long~
+a long spear~
+This sharpened piece of wood is nearly eleven feet long.~
+~
+5 262144 8193
+0 0 0 2
+6 60 6
+#1864
+bark armor~
+armor of bark~
+A suit of bark armor crafted by treemen lies here.~
+~
+9 262144 9
+8 0 0 0
+10 60 6
+A
+17 -12
+A
+13 20
+A
+18 2
+A
+19 2
+A
+29 1
+#1865
+wood brooch~
+wood brooch~
+A strangely significant scrap of timber shimmers into view.~
+~
+9 8896608 5
+9 0 0 0
+1 0 0
+A
+4 2
+A
+12 35
+A
+27 1
+#0
+
+
+#ROOMS
+#1800
+A Narrow Inlet~
+Finding a gap in the reef that surrounds the isle is difficult but not
+impossible; presently you are able to negotiate through a small inlet,
+and enter the shallow waters that lie between the sandy shores of the
+jungle-covered island and the reef. A large smoking volcano soars up
+from the center of the isle, spewing black smoke and ash. Most of it
+does not land on the island, and is instead carried far out to sea. A
+definite sense of foreboding is gripping you, as you near the isle, as
+if something were horribly wrong.
+~
+0 0 7
+D2
+~
+~
+0 -1 1880
+D3
+~
+~
+0 -1 1801
+S
+#1801
+Approaching the Shore~
+You cruise along the coast, searching for an appropriate place to set
+ashore. As you do, your mind wanders, and you recall the many rumors
+spoken in hushed whispers in taverns from Freeport to Irilian, of the
+dark and mysterious Island of the Dead, where strange magicks cast by
+dark priests have transformed a peaceful isle of natives to a haven
+of zombies, who aid the priests in gaining new victims for their dark
+rituals. Previously you had dismissed such rumors as irrational and
+superstitious, but as you approach this volcanic island, you begin to
+harbor doubts.
+~
+0 0 7
+D1
+~
+~
+0 -1 1800
+D3
+~
+~
+0 -1 1802
+S
+#1802
+Preparing to Set Ashore~
+At last you find an even stretch of black volcanic sand, where you may
+safely set ashore. You see natives wandering the beaches, strangely 
+enough they don't appear to have noticed your arrival. In fact, they
+don't appear to be noticing much of anything. Plumes of smoke obscure
+your vision upwards, rising from the volcano to the north. Something 
+is definitely amiss here; despite the crystal clear waters and all the
+lush green vegetation, you feel as if you are approaching a graveyard.
+~
+0 0 7
+D0
+~
+~
+0 -1 1803
+D1
+~
+~
+0 -1 1801
+S
+#1803
+The Lonely Shore~
+The black sand is warm underfoot, even through your boots, and sweat
+beads on your brow as you stride up onto the beach. A series of white
+skulls, bleached by the sun, sit on wooden posts to either side, as
+a grim warning of some sort. You had heard that the natives of these
+waters were friendly; evidently this particular group doesn't appear 
+to fall under that classification. Shrieking birds of prey circle far
+overhead, as if expecting an imminent feast. The shore stretches far 
+to the east and west, circling the small island.
+~
+0 0 2
+D1
+~
+~
+0 -1 1810
+D2
+~
+~
+0 -1 1802
+D3
+~
+~
+0 -1 1804
+S
+#1804
+The Sandy Shore~
+The soft sand crunches underfoot, laden as it is with tiny chunks of
+pumice and crushed seashell, plus what you suspect is bone; fragments
+left behind as if after the feast of some animal capable of rending 
+and crushing a soul's body to pulp. Natives can be seen to either side
+though they for the most part ignore you. Despite the vacant stares of
+the natives, they are not silent; strange mumblings and the sound of
+jungle drums can be heard all around. The effect is disconcerting, to
+say the least.
+~
+0 4 2
+D1
+~
+~
+0 -1 1803
+D7
+~
+~
+0 -1 1805
+S
+#1805
+A Small Path Presents Itself...~
+At this point a small path has been hacked into the undergrowth to
+the north, the only one you have seen along this side of the beach
+from the landing point. Footprints, some even booted, lead both to
+and from this hut; perhaps there you will find some answers. Would
+it have been that someone had visited this isle before you, they may
+well have established a base of operations, for trade or exploration.
+~
+0 0 2
+D0
+~
+~
+0 -1 1806
+D3
+~
+~
+0 -1 1808
+D8
+~
+~
+0 -1 1804
+> rand_prog 33~
+mpe _gre Jungle drums beat a rhythmic tattoo.
+~
+|
+S
+#1806
+Outside a Small Hut~
+Plunging into the jungle, you have to constantly pause to swat at the
+hordes of stinging, biting insects that swarm about you, disturbed
+and subsequently excited by your unexpected arrival. Evidently those
+native to this island provide little blood, for they seem incredibly
+eager to feed on yours. Stumbling northward, you suddenly spot a hut
+of wood to the east, its door closed, and overgrown with weeds, which
+also cover the single window. The ground underfoot is soggy, and you
+notice with a slight degree of alarm that you have sunk ankle deep in
+the marshy ground.
+~
+0 0 3
+D1
+~
+~
+3 -1 1807
+D2
+~
+~
+0 -1 1805
+S
+#1807
+A Bloody Scene~
+An absolutely disgusting stench is unleashed as you force your way
+into the hut. Piled around the smashed and broken furniture are a
+number of corpses, clad in the tattered remains of the unmistakable
+colors of the Emperor. An Imperial party here, on business of trade
+or exploration, or perhaps something else? At any rate, most of the
+bodies bear horrid bite marks, wounds inflicted by ravenous carnivore
+in a fit of bloodlust. Someone dragged them here, then neglected to
+bury them, hence the stench. Gagging, you attempt to see what else is
+in this death pit, noticing only a single bed has escaped the damage.
+~
+0 9 0
+D3
+~
+~
+3 -1 1806
+S
+#1808
+The Shoreline~
+The sand here, as in many other parts, is marked by footprints, human
+tracks made by barefoot natives for the most part, though their gait
+appears unusually dragging, as if they shuffled everywhere. Certainly
+not a practical way to travel. More skulls on stakes decorate this
+section of the shore, grinning out to sea. Flies and mosquitoes swarm
+about them, seeking the flesh that has long since been stripped away.
+Disappointed, they settle instead on you.
+~
+0 0 2
+D1
+~
+~
+0 -1 1805
+D7
+~
+~
+0 -1 1809
+> entry_prog 100~
+mea $n _red Swarms of biting insects fly all around you!
+~
+|
+S
+#1809
+An Impassable Cliff~
+The beach ends suddenly as it rounds the bend, ending at an impassable
+wall of black stone, that stretches upwards as far as you can see,
+disappearing into the perpetual cloud of black volcanic smoke that
+covers the island. The cliff face is sheer and devoid of any sort of
+hand or footholds whatsoever; scaling it is out of the question. At this
+point, you would rather not risk flying upwards either, who knows what may
+lurk up there.
+~
+0 0 2
+D4
+~
+~
+64 -1 1838
+D8
+~
+~
+0 -1 1808
+S
+#1810
+The Sandy Shore~
+Proceeding eastward, you skirt the beach, looking for any gaps in the
+thick jungle to the north which may allow you to proceed inland. All
+these natives must live somewhere, surely. You see no canoes, on the
+shore or in the water, yet you had heard that fishing was the center
+of the village economies of this region. Another curiosity revealed,
+though the rather disturbing look in the eyes of the locals is proving
+to be rather distracting.
+~
+0 0 2
+D1
+~
+~
+0 -1 1811
+D3
+~
+~
+0 -1 1803
+S
+#1811
+A Break in the Jungle~
+At this point you notice a break in the trees, to the north, where you
+could head inland should you wish to. No tracks approach this small gap;
+it appears the locals deliberately steer well clear, even in their near
+death states. The coastline bends to the northeast, you cannot see around
+the bend and don't know what to expect.
+~
+0 0 2
+D0
+~
+~
+16777216 -1 1812
+D3
+~
+~
+0 -1 1810
+D6
+~
+~
+0 -1 1813
+S
+#1812
+A Small Clearing~
+The opening marks the start of a path, that proceeds for a short distance
+to the north, where it ends in a small clearing. The sand here has been
+disturbed recently, marked by the claws of some large beast, which has
+evidently then burrowed into the sand nearby. The clearing itself shows
+no other signs of recent intrusion; perhaps the giant pools of quicksand
+that surround it are part of the reason it is avoided...
+~
+0 0 2
+D0
+It would mean certain death to continue.
+~
+~
+0 -1 1820
+D1
+It would mean certain death to continue.
+~
+~
+0 -1 1820
+D2
+~
+~
+0 -1 1811
+D3
+It would mean certain death to continue.
+~
+~
+0 -1 1820
+S
+#1813
+The Sandy Shore~
+The beach continues, boasting only the occasional zombie native, who
+only barely seem to register your presence. Far to the northeast, a
+short distance out to sea, you think you can see the broken hull of
+a ship, wrecked on the reef you found so difficult to negotiate. This
+vessel does not bear imperial markings, at least none visible from this
+point; it is probably a merchantman, or a pirate ship, shipwrecked as
+they attempted to reach (or escape) this volcanic isle.
+~
+0 0 2
+D0
+~
+~
+0 -1 1814
+D9
+~
+~
+0 -1 1811
+S
+#1814
+The Sandy Shore~
+As you proceed along the beach, the wreck on the reef to the northeast
+becomes more visible. A gaping hole can be made out in the hull, which
+is half-sunken in the salty water, as high as the tide reaches at this
+point on the reef. It appears to be deserted, though for a second you
+swore you could see someone moving about on deck, though this could be
+just a trick of the light.
+~
+0 0 2
+D0
+~
+~
+0 -1 1815
+D2
+~
+~
+0 -1 1813
+S
+#1815
+Another Break in the Jungle~
+The foilage to the west boasts another break at this stage, opening
+onto a relatively broad and even path that runs due west towards the
+base of the great volcano that forms the basis of this island. Blood
+stains the ground here, and you see signs of numerous bodies having
+been dragged westward, and recently too. The branches near the trail
+entrance have all been broken back, as if by the passage of a beast
+much larger than the locals. A thick, ropelike vine dangles from one 
+of the trees, disappearing into the leafy foliage.
+~
+0 0 2
+D0
+~
+~
+0 -1 1816
+D2
+~
+~
+0 -1 1814
+D3
+~
+~
+16777216 -1 1818
+D4
+~
+~
+2176 -1 1871
+> rand_prog 50~
+mpe Strange animal cries cut through the humid air.
+~
+|
+S
+#1816
+A Sandbar~
+At this point the beach boasts a new feature; a sandbar, visible just
+beneath the surface of the water, heading east towards the reef, and
+incidentally offering a safe way to approach the wreck that sits on
+the reef like a giant wooden skeleton. To enter the water at any of
+the other points invites the possibility of shark attack; here they
+are unlikely to bother you, for they avoid shallow water.
+~
+0 0 2
+D1
+~
+~
+0 -1 1836
+D2
+~
+~
+0 -1 1815
+D7
+~
+~
+0 -1 1817
+S
+#1817
+The Cliff Face~
+The beach ends suddenly here, at an impassable sheer cliff face, which
+boasts no gaps or spaces to facilitate climbing. It soars as high as
+you can see, before disappearing into the black clouds that cover the
+island near the peak of the volcano, and spread outwards, like a dark
+influence shadowing the island. It would be foolhardy to risk flying up
+without knowing what may lie in wait.
+~
+0 0 2
+D4
+~
+~
+64 -1 1838
+D8
+~
+~
+0 -1 1816
+S
+#1818
+Heading Inland~
+The path runs west, heading directly towards the center of this dark
+and evil island. Grinning skulls dangle from vines looped around low
+hanging tree branches, some of them still covered in a layer of blood
+red skin, to which flies swarm. Rotting eyeballs glare at all who pass
+by; the effect is quite disturbing. Low growls and strange cries echo
+all around you, as you push forwards, made by unseen creatures. Their
+motives cannot be benign, though none have as yet moved against you.
+~
+0 0 2
+D1
+~
+~
+0 -1 1815
+D3
+~
+~
+0 -1 1819
+S
+#1819
+Approaching the Volcano~
+The path opens onto a rocky trail here, devoid of vegetation; it has
+recently been burned back, and replaced by a series of wooden stakes,
+from which skinned humans dangle, suspended by their ankles, which
+have had holes bored through them, so as to allow for leather thongs
+to be passed through, to support the body while it was skinned. From
+the pained expressions on what is left of their faces, it seems this
+was all carried out while these men and women were still alive. Vile
+odors mingle here, of sweat, blood and urine, as well as the distinct
+stench of fear. You aren't sure that doesn't issue from you.
+~
+0 0 4
+D0
+Do not proceed if you are under level 20!
+~
+~
+0 -1 1858
+D1
+~
+~
+0 -1 1818
+D4
+Do not proceed if you are under level 25!
+~
+~
+128 -1 1821
+S
+#1820
+Quicksand!~
+As you take your first few steps into the quicksand, you quickly realize
+your mistake. Struggling, you attempt to reverse your course, only to
+find yourself further mired, and sinking deeper. As the quicksand begins
+to rise above your waist, you start to wonder if anyone will ever find 
+your body, as it sinks without a trace into this deadly trap.
+~
+0 3153927 2
+S
+#1821
+Ascending the Volcano~
+Clambering up the steep slope of the black mountain, you stumble more
+than once, barking your shins painfully on the outcroppings of rock
+that sprout randomly from the volcano. Deep grooves in the rock mark
+where the lava has melted softer rock, after countless eruptions. Above,
+the sky is filled with dark clouds of ash, which even here chokes you as
+you inadvertently inhale some. The rock is warm underfoot, though as yet
+not uncomfortably so.
+~
+0 1056768 5
+D4
+~
+~
+128 -1 1839
+D5
+~
+~
+128 -1 1819
+S
+#1822
+On Board the Esperanza~
+Water has poured in through the hole, partially flooding the cargo 
+hold of this merchantman, ruining what little cargo was stored here.
+Sodden sacks of grain lie split open by rats, while splintered wood
+floats on the surface, along with a slick of alcohol from shattered
+tuns of rum and ale. The air stinks of mold and dampness, as well as
+death. You can proceed north or south into the belowdecks section. A
+large hole in the roof here opens onto the deck above; the rope ladder
+that once allowed crew to pass up and down lies in the corner.
+~
+0 3153929 6
+D0
+~
+~
+0 -1 1823
+D2
+~
+~
+0 -1 1827
+D3
+~
+~
+16777216 -1 1837
+D4
+~
+~
+64 -1 1829
+S
+#1823
+Approaching the Bow~
+A corridor runs north here, rising slightly as it leaves the water and
+waste behind. Light filters in dimly from the south, though it is quite
+insufficient to see by. The ship creaks as you move forward, shifting
+slightly on the reef, though from what you saw outside there is little
+risk of it sliding off; it is well wedged on the source of its doom.
+~
+0 3153929 6
+D0
+~
+~
+0 -1 1824
+D2
+~
+~
+0 -1 1822
+S
+#1824
+The Staterooms~
+The corridor ends here, before two doors to the east and west, sealed
+shut by moisture, as well as corroded locks, on the outside; it seems
+that whoever was quartered within wasn't staying willingly. Perhaps 
+this ship was a vessel of piracy after all. The water here is only up
+to your ankles, and provides little impediment to travel. It now seems
+likely that this ship specialized in kidnapping for ransom, and thus its
+fate seems less of a tragedy.
+~
+0 3153929 6
+D1
+~
+~
+39 -1 1826
+D2
+~
+~
+0 -1 1823
+D3
+~
+~
+39 -1 1825
+S
+#1825
+An Ungodly Fate~
+This squalid room quartered a naive young nobleman, duped and robbed
+by the dark captain of this vessel; as you proceed into the ship you
+become gladder and gladder that this vermin was destroyed... or was
+he? Already it has become evident that the evil magicks of the isle 
+have worked their foulness on those on this doomed vessel.
+~
+0 3153929 0
+D1
+~
+~
+39 -1 1824
+S
+#1826
+A Stateroom~
+The inhabitant of this room was a pretty young woman named Esmerelda,
+who had booked passage with the villainous Vega, unaware of his scam,
+which was to take on board wealthy passengers and then rob them or
+hold them for ransom, and usually killing them in the most painful way
+possible. Esmerelda never did get to her mother, but Vega shared her fate
+here on the Esperanza.
+~
+0 3153929 0
+D3
+~
+~
+39 -1 1824
+S
+#1827
+The Cargo Hold~
+The ship slopes downwards here, due to the angle of the ship on the
+reef, and you find yourself thigh deep in sea water, which has passed
+into the merchantman through a series of breaches where the coral has
+torn the wood like flimsy cloth. The ship creaks as the waves splash
+against it. Various debris litters the water, flotsam and jetsam from
+the merchantman, consisting mostly of splintered wood and sailcloth.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 1822
+D2
+~
+~
+16777216 -1 1828
+> rand_prog 33~
+mpe _lbl Water seeps in through cracks in the hull.
+~
+|
+S
+#1828
+The Cargo Hold~
+The stern of the ship is almost completely submerged; here it is not
+possible to continue without immersing yourself in the water. The
+gloom makes it hard to see very far in the hold, and you hope that
+some marine predator has not managed to pass into the ship and make 
+a nest here, feeding on the senseless zombie crew.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 1827
+> rand_prog 33~
+mpe _lbl Water seeps in through cracks in the hull.
+~
+|
+S
+#1829
+On the Deck of the Esperanza~
+The deck of the Esperanza is in poor condition indeed; listing to one
+side, most of the items stored here have slid to the port side, near
+the gaping hole in the keel, and the decks, badly in need of swabbing,
+are difficult to walk upon. The mainmast was brought down by a storm
+during the wreck, and washed out to see. Only a splintered stump is
+left of this integral nautical device. The ship creaks as waves drive 
+it further onto the unforgiving reef.
+~
+0 3153920 1
+D0
+~
+~
+0 -1 1830
+D2
+~
+~
+0 -1 1832
+D5
+~
+~
+16777280 -1 1822
+S
+#1830
+The Wheel~
+A splintered strip of wood once held the wheel of the merchantman, it
+too having been destroyed during the wreck. Piles of rope lie around
+the foredeck, left uncoiled by the undead crew. A living captain would
+be livid at the poor state of this ship, which while holed would still
+be salvageable. The crew should have applied canvas and tar to the hole
+and escaped; instead the island's dark sorcery enthralled them.
+~
+0 3153920 1
+D0
+~
+~
+0 -1 1831
+D2
+~
+~
+0 -1 1829
+D5
+~
+~
+16777280 -1 1837
+S
+#1831
+The Bow of the Esperanza~
+The bowsprit was torn from the merchantman during the wreck, and now
+a gaping hole in the rail lies to the west, through which you can see
+the surf churn about the treacherous reef. The Esperanza certainly is
+not the first ship to run afoul of a reef, which are common hazards to
+shipping. But it is certainly one of the first to sport a crew composed
+entirely of undead after the event.
+~
+0 3153920 1
+D2
+~
+~
+0 -1 1830
+S
+#1832
+Amidships~
+At this point a set of steps leads to the upper deck that fills the
+stern, while directly to the south a door leads to, presumably, the
+captain's quarters and ready room. Shattered bone and wood litter
+the decks, which are thickly encrusted with salt. The air is fouled
+despite the bracing sea breeze; a perpetual stench of decay haunts
+this cursed ship like its undead crew.
+~
+0 3153920 1
+D0
+~
+~
+0 -1 1829
+D2
+~
+~
+16777219 -1 1833
+D4
+~
+~
+0 -1 1834
+S
+#1833
+The Fate of Captain Vega~
+A flickering lantern casts sporadic light on the messy interior of this
+room. A table littered with food and maps rests near the port side, 
+where it slid to when the ship listed. An unmade bed covered in bloody
+prints marks where recent 'guests' of the captain attempted to flee to
+as he cut them down, for a porthole sits ajar above the bed. Not even a
+halfling could hope to fit through that tiny gap, though. The floor is
+covered with broken glass, which crunches underfoot as you proceed quite
+cautiously into this realm of the ship's dark master.
+~
+0 3153928 0
+D0
+~
+~
+3 -1 1832
+S
+#1834
+The Poop Deck~
+The stairs end a short distance upwards, at the poop deck, most of which
+was demolished by the falling mizzenmast. The deck is strewn with torn
+sailcloth and splintered wood, soaked with liberal amounts of blood and
+gore. A mighty battle took place here, between those few crew who had 
+managed to resist the transformation, and those who had become zombies.
+The outcome of this battle is obvious.
+~
+0 3153920 1
+D2
+~
+~
+0 -1 1835
+D5
+~
+~
+0 -1 1832
+S
+#1835
+The Poop Deck~
+The stern of the ship is here, where the poop deck ends; peering over
+the edge you can see the waves washing around the wreck and over the
+reef, which is barely visible in the churning brine. Splinters of wood
+are torn from the ship at random intervals, and washed onto the shore
+some distance away. You can see far across the island from here, and
+note a path near the sandbar which heads inland to the base of the ash
+spewing volcano.
+~
+0 3153920 1
+D0
+~
+~
+0 -1 1834
+S
+#1836
+The Sandbar~
+Splashing through the surf, you head out to sea, walking along the 
+sandbar, which is narrower than you thought. Dark shapes move like
+shadows through the water on either side; occasionally one will come
+to the surface, and a great fin will break the water, creating a wake
+as it carves the salty ocean like a knife. Small currents tug at you
+as if the ocean itself sought to sweep you to your doom. To the east,
+the hulk looms, like a black stain on the pristine beauty of the reef.
+~
+0 0 6
+D1
+~
+~
+0 -1 1837
+D3
+~
+~
+0 -1 1816
+S
+#1837
+A Gaping Hole~
+The sandbar ends here, at the reef, where the ship was swept sideways
+by the cruel sea to its fate, holed and stranded here. A large chunk
+of coral gouged a gaping hole, which affords the only plausible way 
+to enter the ship; the deck is too high to reach from here, by normal
+means at any rate. Large black rats can be seen scurrying about inside
+even from here. Peeled paint near the bowsprit reads- "Esperanza".
+~
+0 0 6
+D1
+~
+~
+0 -1 1822
+D3
+~
+~
+0 -1 1836
+D4
+~
+~
+64 -1 1830
+S
+#1838
+Into the Darkness~
+As you fly upwards, you disappear into the black clouds of ash that
+pour from the gaping wound that is the volcano. Once within the dark
+clouds, your visibility is reduced to almost nothing, as is your air;
+you cannot possibly breathe this ash. Flailing about, you attempt to
+clear the ash clouds, but are saved from a death from asphyxiation by
+a taloned claw, that reaches out of the darkness and snares your form
+and flings it into a waiting maw, where it is quickly devoured.
+~
+0 3153927 9
+S
+#1839
+An Opening in the Volcano~
+At this point in your ascent you spy a cave opening in the face of the
+black volcanic mountain. This gap has been carved from the layers of
+dried lava, and opens onto a natural lava tunnel, which disappears in
+the distance, lit sporadically by burning torches. The air reeks of
+sulfur and brimstone, and other substances, volcanic gases.
+~
+0 0 5
+D3
+~
+~
+0 -1 1840
+D4
+~
+~
+128 -1 1855
+D5
+~
+~
+128 -1 1821
+S
+#1840
+A Lava Tunnel~
+This natural formation in the porous volcano has been modified by 
+unknown engineers to suit the needs of the foul forces that now
+reside in this peak. While the shape of the tunnel has been left
+largely unmodified, several bronze doors have been added, visible
+on both sides to the west, which presumably open onto chambers that
+have been carved from the soft rock.
+~
+0 8 0
+D1
+~
+~
+16777216 -1 1839
+D3
+~
+~
+0 -1 1841
+S
+#1841
+A Lava Tunnel~
+Guttering torches cast looming shadows of you as you pass, the shadows
+seeming to move of their own will in the flickering light. The air is
+hot and still, and soon you are sweating profusely and begin to feel
+dehydrated. How could living creatures stand to live in such a largely
+inhospitable environment? At this point a bronze door is set north of
+the tunnel.
+~
+0 8 0
+D0
+~
+~
+3 -1 1842
+D1
+~
+~
+0 -1 1840
+D3
+~
+~
+0 -1 1843
+S
+#1842
+A Storage Room~
+Sacks of grain and barrels of water and wine fill this chamber, doubtless
+stolen from shipwrecked merchants or pirates. These supplies are being
+stockpiled as if to provide provisions for a large force on the march; it
+would seem the dark masters of this domain have imminent plans to expand
+their malevolent magical operations. Zombies would have little need of 
+food or drink; apparently they have many henchmen that still live.
+~
+0 8 0
+D2
+~
+~
+3 -1 1841
+S
+#1843
+A Lava Tunnel~
+Onwards the tunnel continues, heading steadily deeper into the volcano's
+fiery heart, though the tunnel does not ascend or descend noticeably. A
+junction is visible west of here, and you can also see several armored men
+moving about; this place is heavily guarded, almost as if those in command
+were fully expecting intruders. A second bronze portal draws your eye; this
+one is set in the south wall.
+~
+0 8 0
+D1
+~
+~
+0 -1 1841
+D2
+~
+~
+7 -1 1844
+D3
+~
+~
+0 -1 1845
+S
+#1844
+The Armory~
+This room is filled with wooden racks, from which several rather vicious
+looking weapons and sturdy suits of metal armor hang. The guards that
+you encountered must draw their attire from this place; the large gaps
+in the racks show where such items have been removed recently. Most of
+them have been newly forged; they must have the services of a skilled 
+smith.
+~
+0 8 0
+D0
+~
+~
+7 -1 1843
+S
+#1845
+A Junction~
+Several tunnels converge here, the ones to the north and east running
+past numerous doors as far as you can see, while the one to the west
+ends a short distance at a bronze door covered in indistinguishable
+runes, although they do appear to be a dire warning! The air is thick
+with smoke, and the stench of sulfur is strong. Most of it appears to
+issue forth from behind the door to the west...
+~
+0 8 0
+D0
+~
+~
+0 -1 1848
+D1
+~
+~
+0 -1 1843
+D3
+~
+~
+3 -1 1846
+S
+#1846
+Chambers of the Envoy~
+This room has been decorated to resemble a fiery pit; in hell itself
+perhaps, or more likely the elemental plane of fire, the home plane
+of the primeval forces the dark priests of this island worship. Bronze
+fittings shimmer in the heat from blazing fires in braziers, while the
+walls are covered with long tapestries, many depicting the legendary
+City of Brass, capital of the efreet.
+~
+0 8 0
+D1
+~
+~
+3 -1 1845
+D2
+~
+tapestry~
+1035 -1 1847
+S
+#1847
+A Solitary Cell~
+Behind the tapestry is secreted a tiny chamber, with barely enough room
+for the inhabitant and his gaoler, the efreet. The walls are bare stone
+and devoid of decorations, save for the tapestry to the north which is
+the door to this room. The air is hot, and still, and must be unpleasant
+to its unwilling inhabitant.
+~
+0 3153929 0
+D0
+~
+~
+1035 -1 1846
+S
+#1848
+The Lava Tunnel~
+This section of tunnel runs between two bends in the passages that run
+through the top third of the volcano. Shadowy shapes can be made out
+at the periphery of your vision, disappearing from sight when you spin
+round to confront them. Only the aggressive guards, screaming curses
+and drooling insanely, appear to be real. The walls are lined with a
+large number of iron cressets, the light and heat from the torches at
+times overpowering.
+~
+0 8 0
+D0
+~
+~
+0 -1 1849
+D2
+~
+~
+0 -1 1845
+S
+#1849
+A Bend in the Tunnel~
+The tunnel bends sharply to the west here, at a point where a large
+bronze trapdoor is set in the floor. No markings can be seen, so it
+is impossible to guess at what may lie below. It would be fair for
+one to assume prudence would be the best choice, for if the hordes
+of zombies and savages that inhabit this fell lair are any indication,
+whatever lies below will most likely not be benign.
+~
+0 8 0
+D2
+~
+~
+0 -1 1848
+D3
+~
+~
+0 -1 1851
+D5
+~
+trapdoor~
+3 -1 1850
+S
+#1850
+A Fiery Pit~
+A wave of heat greets you as you shove the trapdoor open. A set of
+stone steps descends into a pit that is for the most part aflame;
+the floor is covered with glowing embers, while jets of flame burst
+from holes in the walls at sporadic intervals. But this deathly hot
+pit is not a torture chamber; it is the home of creatures who find
+this environment as pleasing as your own home is to you.
+~
+0 3153928 0
+D4
+~
+trapdoor~
+3 -1 1849
+> entry_prog 100~
+mea $n _red Flames lick at you as you enter!
+mpdamage $n 20
+~
+> rand_prog 100~
+if ispc($r)
+mea $r _red Flames lick at you!
+mpdamage $r 20
+endif
+~
+|
+S
+#1851
+The End of the Tunnel~
+The tunnel ends here, before three bronze doors, each bearing the rune
+for fire, flanked by an unrecognizable series of runes unique to this
+cult, which mark the function of those who reside beyond the portals.
+At a guess, you would say the runes to the west seemed to be the most
+dire, while those to the south resemble runes found on dwarven armor.
+The runes to the north are totally unrecognizable.
+~
+0 8 0
+D0
+~
+~
+3 -1 1852
+D1
+~
+~
+0 -1 1849
+D2
+~
+~
+3 -1 1853
+D3
+~
+~
+3 -1 1854
+S
+#1852
+Haven of Flame~
+This chamber is well furnished, remarkable for this grim lair, sporting
+a table, several chairs and a sumptuous divan, flanked by low tables
+laden with bowls of lapis-lazuli, which are filled with sweetmeats, and
+crystal decanters of fine wines accompany the lavish spread. The roof
+boasts an impressive chandelier, doubtless stolen from some shipwrecked
+noble's vessel, and the walls are covered in expensive tapestries. The
+occupant of this chamber certainly enjoys his creature comforts.
+~
+0 8 0
+D2
+~
+~
+3 -1 1851
+S
+#1853
+The Smithy~
+Normally the heat of a smithy would be unbearable compared to the 
+climate without, especially in the northern regions of the Empire 
+from whence you hail. But in this place the fiery forge seems to
+be almost cool; in a volcano where the ambient temperature can 
+soar to several thousand degrees, a bed of coals is nothing. What
+smith works here is skilled, but doesn't seem to take care of what 
+he does; weapons lie strewn across the floor, many of them similar
+to those used by the cult guardians.
+~
+0 8 0
+D0
+~
+~
+3 -1 1851
+S
+#1854
+A Fiery Altar~
+This chamber is bare, totally devoid of furnishings save for a small
+stone altar, which is wreathed in a bluish flame that radiates not 
+heat but cold, a result of the merging between the cult of fire and
+their dark allies in the death cult of X'ora. The entire room is as
+cold as the grave, yet at the same time you do not shiver; it is as
+if some internal heat warmed you from within, uncomfortably so. The
+whole experience is quite unpleasant.
+~
+0 8 0
+D1
+~
+~
+3 -1 1851
+S
+#1855
+Ascending the Volcano~
+Onwards you climb, sweating profusely as you pass the cave entrance
+below, the last refuge before you reach the summit, which still seems
+to be far, far away. Birds of prey circle far above you, awaiting the
+opportunity to peck at your corpse should you fall from the mountain
+and strike the rocks below, as so many before you have done. Cawing,
+they are yet another unpleasant element in what is already a rather
+dispiriting adventure.
+~
+0 0 5
+D4
+~
+~
+128 -1 1856
+D5
+~
+~
+128 -1 1839
+S
+#1856
+Ascending the Volcano~
+Clambering over the skeleton of a deceased adventurer whose bones were
+picked clean by the carrion birds, you find yourself at the base of a
+stair, of obsidian, cut from the side of the volcano. Burning torches
+are set every few feet, perched atop grinning human and orcish skulls,
+the protruding tusks of the latter appearing more gruesome in death 
+than they were in life. The air is still, and hot, and waves of fiery
+heat are accompanied by a growing premonition of dread. Your head is
+aching unbearably, and you suspect it has little to do with the heat.
+~
+0 0 5
+D4
+~
+~
+128 -1 1857
+D5
+~
+~
+128 -1 1855
+S
+#1857
+The Peak of the Fiery Mountain~
+The stairs end at the lip of the volcano. A large obsidian altar rests
+here, on a broad ledge, from which sacrificial victims are hurled into
+the fiery heart of the volcano, which lies to the west. Clouds of ash
+and smoke billow from the cone, choking you as you struggle in fierce
+winds that threaten to sweep you from this rocky aerie. The torches of
+skulls that surround you somehow manage to stay lit, despite the smoke
+and wind, and burn fiercely. Howls and shrieks echo around the mouth
+of the volcano, and you think you can see some sort of flickering flame
+dancing high above the volcano, cavorting in the waves of heat.
+~
+0 0 5
+D3
+~
+~
+0 -1 1899
+D5
+~
+~
+128 -1 1856
+S
+#1858
+Circling the Volcano~
+Shards of bone litter this path, which is composed for the most part of
+pumice of varying sizes, which crunch underfoot as you progress. Staked
+heads gape from the stakes they have been impaled upon at various parts
+of the route. A vile stench fills the air, mingling with the unpleasant
+ash and dust that already assails your nostrils. Despite the tropical
+heat, you can feel a definite chill about you.
+~
+0 73856 5
+D2
+~
+~
+0 -1 1819
+D7
+~
+~
+0 -1 1859
+> entry_prog 50~
+mea $n _lbl A chill passes through you, causing you to shudder.
+~
+|
+S
+#1859
+Circling the Volcano~
+The sense of unease grows as the mounds of human remains pile higher
+to either side, obscene cairns to the slain, who perished at the hands
+of the dark powers of the island when they failed to co-operate with
+the sinister efforts to transform them into mindless undead. Doubtless
+the source of the necromantic evils lies near here; this whole place
+reeks of decay. It is not possible to further circle the volcano at
+this point, as a huge mound of rock bars the way. However, the path
+has diverted, heading due north into the jungle, which has been burnt
+back either side.
+~
+0 73856 5
+D0
+~
+~
+0 -1 1860
+D8
+~
+~
+0 -1 1858
+S
+#1860
+A Gaping Hole~
+The path ends here, a short distance into the burnt back jungle, before
+a gaping hole, the sides of which are slick with blood and gore. The
+silence is almost deafening in its absoluteness; you try to talk, to
+shout, to scream, but not a word passes your lips. Powerful, malignant
+magicks are at work here, the powers of the dark gods of all the vile
+evils of this world hold sway on this isle.
+~
+0 73856 2
+D2
+~
+~
+0 -1 1859
+D5
+~
+~
+128 -1 1861
+> entry_prog 100~
+mea $n _red A flaming skull materializes before you!
+mea $n _red Opening its mouth wide, it begins a horrid chant...
+mea $n _lbl The flaming skull yells 'DEATH AWAITS THEE!'
+mea $n _red With a roaring flash, the skull explodes!
+~
+|
+S
+#1861
+The Pit of Decay~
+Gagging, you descend into the pit, the blood smearing your armor as
+you pass. Skinned heads hang in bunches from stakes thrust into the
+walls of the pit, while the surface below is knee deep in rotting 
+flesh and splintered bone. Yet still not a sound can be heard, but
+this could be a blessing, for it spares you the horrified scream that
+at times threatens to erupt from you. Even the darkest of souls could
+not help but blanch at this total assault on all that is not dead.
+~
+0 1122440 0
+D2
+~
+~
+0 -1 1862
+D4
+~
+~
+16777344 -1 1860
+S
+#1862
+A Dank Tunnel~
+Creeping along the earthen tunnel, you have to consciously contort your
+body to avoid the clusters of skinned body parts that sway before you
+as if caught in some breeze, though the air is still. Sweat beads on
+your brow as the intense humidity of this foul den begins to take its
+toll, though you still feel as if icy hands were grasping your throat.
+What vile manner of beast could possibly lurk in such a place, especially
+of its own free will?
+~
+0 73865 0
+D0
+~
+~
+0 -1 1861
+D8
+~
+~
+0 -1 1863
+S
+#1863
+A Bend in the Passage~
+The passage bends sharply here, heading north, while to the south a
+stout wooden door has been erected, barring passage in that direction.
+Evidently whoever is the fell master of this domain is not entirely 
+certain of their position of power, or such security measures would be
+unnecessary. The door bears no markings or visible locking mechanism.
+~
+0 73865 0
+D0
+~
+~
+0 -1 1864
+D2
+~
+~
+39 -1 1870
+D7
+~
+~
+0 -1 1862
+S
+#1864
+The Tunnel Continues~
+The tunnel bends again here, and again a door is set in the nearby
+wall. It would appear not all of the occupants are mindless in this
+lair; perhaps not all of them are willing either, though it would be
+premature to hope for allies in this literally godsforsaken place. A
+shiver runs up and down your spine as you sense the approach of yet
+another mindless minion.
+~
+0 73865 0
+D0
+~
+~
+7 -1 1865
+D1
+~
+~
+0 -1 1866
+D2
+~
+~
+0 -1 1863
+S
+#1865
+A Dark Chamber~
+The sound of your own sharp inhalation as you enter the first room
+devoid of body parts is the first indication that you have exited 
+the pervasive aura of silence that suffuses most of the tunnels in
+this lair. The second indication is a gasp as you see a tripwire
+running in front of the door, connected to a crossbow set directly
+opposite the doorway.
+~
+0 1056777 0
+D2
+~
+~
+7 -1 1864
+> entry_prog 100~
+if class($n) == thief
+mea $n _lbl Your keenly honed senses and skills allow you to avoid the trap.
+else
+mea $n _lbl A crossbow shoots across the room, slamming into you!
+mpdamage $n 25
+endif
+~
+|
+S
+#1866
+A Perilious Intersection~
+Three tunnels converge at this point, marked by three naked human
+females that have been crucified to the walls. Each is still barely
+alive, their eyes rolling about in their heads, large chunks of skin
+torn from their bodies where the zombies have feasted. A dull, deep
+throbbing sound, much like a pulsing heart, is audible even in this
+field of magical silence, and the victims spasm with each beat. All
+three victims have been arranged so that they face the southeast.
+Waves of heat and evil are both noticeable from this glowing passage.
+~
+0 73865 0
+D3
+~
+~
+0 -1 1864
+D6
+~
+~
+0 -1 1868
+D8
+It would be inadvisable to progress there!
+~
+~
+16777216 -1 1867
+> entry_prog 100~
+mea $n _lbl Your instincts scream at you to stay clear of the southeast.
+~
+|
+S
+#1867
+A Grim Fate~
+Stepping into this tunnel is like stepping into a furnace. A blistering
+heat issues from the redhot walls, searing the flesh from your bones,
+though not before the booming pulse becomes loud enough to rupture your
+fragile eardrums. Blood spurts from every orifice as an intense pressure
+is brought to bear on your burning flesh, and as your head explodes your
+limbs are crushed to jelly.
+~
+0 2171023 0
+S
+#1868
+Before the Portal of Bone~
+The tunnel ends here, before a door fashioned from the bones of a dozen
+victims, of various races. A grinning skull set in the center serves as
+the handle, while ribs and femurs form the frame. Flayed hide has been
+stretched over parts of the door, and it trembles as you approach, as if
+it senses your presence. This would appear to be the core of this grim
+lair of the undead.
+~
+0 73865 0
+D0
+~
+~
+16777217 -1 1869
+D9
+~
+~
+0 -1 1866
+> entry_prog 100~
+if isimmort($n)
+else
+if level($n) > 30
+mea $n _lbl A ghostly voice speaks inside your head.
+mea $n _lbl "You have greater challenges to face than this, $n!"
+mea $n _whi A blinding flash of light dazzles you, and you are hurled away!
+mptrans $n 21001
+mpat 0.$n mer 0.$n _whi $n appears suddenly, looking confused.
+else
+endif
+endif
+~
+|
+S
+#1869
+The Heart of Evil~
+Stepping into this fell chamber is like stepping into a beating,
+pulsing human heart. The walls shudder and spasm, dripping a dark
+red ichor that resembles blood, but is something else, something
+much fouler. The lairs of the great Lords of Chaos, from the Priest
+King of Xchantharus, to the Necromancer and the legendary Choak
+Niglim, all possess a singular trait- their strongholds are often
+crafted from living flesh, and writhe disgustingly of their own
+accord, bound against their will by the power of Chaos. The death
+lich is a mere apprentice to their lofty heights of power, but he
+nevertheless is a tough opponent.
+~
+0 3153993 0
+D2
+~
+~
+1 -1 1868
+S
+#1870
+Chamber of Mutation~
+The first realization you have upon entering this room is relief that
+the veil clouding both your magic and your vocal chords appears to 
+have lifted. Unfortunately, this revelation came about as you shrieked
+and prepared your magical defenses upon spying the horrid, twisted
+occupant of this dark chamber.
+~
+0 1056777 1
+D0
+~
+~
+39 -1 1863
+S
+#1871
+Climbing the Tree~
+Clambering up the thick vine, you are instantly aware of several pairs
+of eyes watching you, from the dense, impenetrable foliage. A high
+pitched chattering begins nearby; a monkey, perhaps, or one of those
+indigenous to this place communicating with his or her fellows? At any
+rate, you are certain that this vine has been placed here by design 
+rather than accident, and that it leads to the lair of some of those
+same indigenous peoples.
+~
+0 0 3
+D4
+~
+~
+128 -1 1872
+D5
+~
+~
+128 -1 1815
+S
+#1872
+Assault from Above~
+Nearing the top of the vine, you can make out a wooden platform, that
+was not visible from even five feet away, so well-camoflagued it is.
+A soft hooting noise, not unlike the owls of your homeland, starts up
+now, and you are certain that your progress is being carefully watched,
+even prepared for. Feeling increasingly vulnerable hanging from this
+vine, you hasten your ascent.
+~
+0 0 3
+D4
+~
+~
+128 -1 1873
+D5
+~
+~
+128 -1 1871
+> entry_prog 50~
+mea $n _yel A sharp whistling noise marks the approach of a hurled projectile!
+if dex($n) > 15
+   if rand(75)
+   mea $n You manage to swing to the left, and the wooden spear hurtles past.
+   else
+   mea $n Despite your swift reactions, the spear glances off your shoulder!
+   mpdamage $n 25
+      if str($n) > 16
+      mea $n Fortunately you do not lose your grip.
+      else
+      mea $n You cry out, and lose your grip! You plummet downwards...
+      mptrans $n 1815
+      mpat 0.$n mea 0.$n You smash into the ground, hard!
+      mpat 0.$n mer 0.$n $n comes hurtling in from above!
+      mpat 0.$n mpdamage 0.$n 50
+      endif
+   endif
+else
+if lck($n) > 15
+   if rand(75)
+   mea $n Luck shines on you, and the spear misses you by a long shot.
+   mpforce $n whew
+   else
+   mea $n Fortune abandons you; the spear sinks into your chest!
+   mpdamage $n 50
+      mea $n You cry out, and lose your grip! You plummet downwards...
+mptrans $n 1815
+mpat 0.$n mea 0.$n You smash into the ground, hard!
+mpat 0.$n mer 0.$n $n comes hurtling in from above!
+mpat 0.$n mpdamage 0.$n 50
+endif
+else
+mea $n The spear slams into you, killing you instantly!
+mpslay $n
+endif
+endif
+~
+|
+S
+#1873
+A Wooden Platform~
+The vine terminates at a wooden platform, upon which rest several beds
+of moss. A small wooden table, crudely made, bears an earthenware
+bowl loaded with berries, an obvious sign of sentient, albeit rather
+primitive, habitation. The air is humid, and uncomfortably warm, as
+you would expect in this jungle-covered isle.
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D0
+~
+~
+0 -1 1874
+D1
+~
+~
+0 -1 1877
+D5
+~
+~
+16777344 -1 1872
+S
+#1874
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D2
+~
+~
+0 -1 1873
+D3
+~
+~
+0 -1 1875
+S
+#1875
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D0
+~
+~
+0 -1 1876
+D1
+~
+~
+0 -1 1874
+S
+#1876
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D2
+~
+~
+0 -1 1875
+S
+#1877
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D2
+~
+~
+0 -1 1878
+D3
+~
+~
+0 -1 1873
+S
+#1878
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D0
+~
+~
+0 -1 1877
+D1
+~
+~
+0 -1 1879
+S
+#1879
+A Wooden Platform~
+The platform continues all around, a confusing maze of twisting rope
+bridges and tangled vines. Creatures scurry about on all sides of you,
+some venturing forth to make contact. The sole possessions you spy
+are rude and barely functional; it doesn't appear that you will have
+the opportunity to loot much here.
+~
+0 8 0
+D3
+~
+~
+0 -1 1878
+S
+#1880
+Connx Room~
+Connect this room to an ocean, mention in the connx room desc that
+players can see an island surrounded by a reef.
+~
+0 0 1
+D0
+~
+~
+0 -1 1800
+S
+#1898
+A Fiery Death~
+The incredible heat rising from the molten core of the firemountain
+sears the flesh from your bones long before your very dead body sinks
+into the lava, melting along with every earthly possession you owned.
+~
+0 3153935 0
+S
+#1899
+Hovering Above a Volcano~
+You find yourself in a highly undesirable position. Hovering only a
+hair-singeing short distance above the maw of the volcano, you can
+even here feel the heat rapidly dehydrating you and scalding your
+skin. Every metal object in your possession begins to glow as it is
+heated, and blisters form on your skin. A howling, shrieking wind
+gusts up out of the fiery mountain, assaulting you at sporadic and
+untimely intervals. To fall here would mean a horrible death, beyond
+redemption.
+~
+0 19931149 0
+D1
+~
+~
+0 -1 1857
+D5
+Death by fire!
+~
+~
+0 -1 1898
+S
+#0
+
+
+#RESETS
+R 0 1873 3
+R 0 1874 3
+R 0 1875 3
+R 0 1876 3
+R 0 1877 3
+R 0 1878 3
+R 0 1879 3
+D 0 1806 1 1
+M 1 1800 1 1807
+G 1 1801 1
+O 1 1800 1 1807
+P 0 1802 1 0
+D 0 1807 3 1
+M 1 1801 7 1809
+E 1 1814 1 7
+M 1 1801 7 1809
+E 1 1814 1 7
+M 1 1801 7 1810
+E 1 1814 1 7
+M 1 1809 1 1812
+M 1 1801 7 1813
+E 1 1814 1 7
+M 1 1801 7 1813
+E 1 1814 1 7
+O 1 1803 1 1814
+M 1 1801 7 1817
+E 1 1814 1 7
+M 1 1801 7 1817
+E 1 1814 1 7
+M 1 1811 1 1819
+E 1 1816 1 19
+E 1 1817 1 13
+E 1 1818 1 6
+E 1 1819 1 16
+E 1 1820 1 18
+D 0 1824 1 2
+D 0 1824 3 2
+M 1 1806 1 1825
+E 1 1809 1 19
+D 0 1825 1 2
+M 1 1807 1 1826
+E 1 1810 1 3
+E 1 1811 1 9
+M 1 1808 3 1826
+M 1 1808 3 1826
+M 1 1808 3 1826
+D 0 1826 3 2
+M 1 1805 3 1827
+M 1 1805 3 1827
+M 1 1805 3 1827
+M 1 1813 1 1828
+G 1 1828 1
+O 1 1827 1 1828
+P 0 1829 1 0
+M 1 1804 3 1829
+M 1 1804 3 1829
+M 1 1804 3 1829
+M 1 1810 1 1830
+E 1 1812 1 11
+E 1 1813 1 6
+D 0 1832 2 1
+M 1 1802 1 1833
+E 1 1804 1 14
+E 1 1805 1 3
+E 1 1806 1 16
+D 0 1833 0 1
+M 1 1803 1 1835
+E 1 1807 1 7
+E 1 1808 1 13
+E 1 1830 1 16
+M 1 1814 3 1841
+E 1 1831 1 5
+E 1 1832 1 7
+E 1 1833 1 20
+E 1 1834 1 16
+E 1 1838 1 17
+E 1 1853 1 0
+D 0 1841 0 1
+O 1 1837 1 1842
+D 0 1842 2 1
+D 0 1843 2 2
+O 1 1831 1 1844
+O 1 1832 1 1844
+O 1 1834 1 1844
+D 0 1844 0 2
+M 1 1814 3 1845
+E 1 1831 1 5
+E 1 1832 1 7
+E 1 1833 1 20
+E 1 1834 1 16
+E 1 1838 1 17
+E 1 1853 1 0
+D 0 1845 3 1
+M 1 1816 1 1846
+E 1 1835 1 16
+E 1 1836 1 17
+E 1 1853 1 0
+O 1 1841 1 1846
+D 0 1846 1 1
+D 0 1846 2 1
+M 1 1817 1 1847
+E 1 1839 1 14
+E 1 1839 1 15
+E 1 1840 1 8
+O 1 1842 1 1847
+D 0 1847 0 1
+M 1 1814 3 1849
+E 1 1831 1 5
+E 1 1832 1 7
+E 1 1833 1 20
+E 1 1834 1 16
+E 1 1838 1 17
+E 1 1853 1 0
+D 0 1849 5 1
+M 1 1818 3 1850
+M 1 1818 3 1850
+M 1 1818 3 1850
+D 0 1850 4 1
+M 1 1821 1 1851
+E 1 1849 1 5
+E 1 1847 1 9
+E 1 1848 1 7
+E 1 1850 1 8
+E 1 1851 1 6
+E 1 1852 1 10
+D 0 1851 0 1
+D 0 1851 2 1
+D 0 1851 3 1
+M 1 1820 1 1852
+E 1 1843 1 17
+E 1 1844 1 12
+G 1 1845 1
+P 0 1846 1 0
+D 0 1852 2 1
+M 1 1819 1 1853
+D 0 1853 0 1
+M 1 1815 1 1854
+D 0 1854 1 1
+M 1 1822 1 1857
+E 1 1854 1 12
+G 1 1855 1
+E 1 1853 1 0
+G 1 1846 1
+E 1 1856 1 16
+M 1 1823 4 1862
+E 1 1819 1 16
+E 1 1818 1 6
+E 1 1816 1 19
+E 1 1817 1 13
+M 1 1823 4 1863
+E 1 1819 1 16
+E 1 1818 1 6
+E 1 1817 1 13
+E 1 1816 1 19
+M 1 1823 4 1863
+E 1 1819 1 16
+E 1 1818 1 6
+E 1 1817 1 13
+E 1 1816 1 19
+D 0 1863 2 2
+D 0 1864 0 2
+M 1 1825 1 1865
+E 1 1857 1 16
+E 1 1858 1 5
+E 1 1859 1 8
+E 1 1860 1 18
+D 0 1865 2 2
+M 1 1823 4 1866
+E 1 1818 1 6
+E 1 1819 1 16
+E 1 1817 1 13
+E 1 1816 1 19
+D 0 1868 0 0
+M 1 1826 1 1869
+E 1 1862 1 6
+E 1 1820 1 16
+D 0 1869 2 0
+M 1 1824 1 1870
+D 0 1870 0 2
+M 1 1827 1 1873
+E 1 1863 1 16
+E 1 1864 1 5
+M 1 1828 4 1875
+E 1 1863 1 16
+E 1 1864 1 5
+M 1 1828 4 1875
+E 1 1863 1 16
+E 1 1864 1 5
+M 1 1829 2 1876
+E 1 1864 1 5
+E 1 1865 1 3
+M 1 1828 4 1878
+E 1 1863 1 16
+E 1 1864 1 5
+M 1 1828 4 1878
+E 1 1863 1 16
+E 1 1864 1 5
+M 1 1829 2 1879
+E 1 1865 1 3
+E 1 1864 1 5
+M 1 1812 1 1899
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 1819    9  5  0         200   1         0 23    ; an enslaved dwarven smith
+0
+
+
+#SPECIALS
+M  1800 spec_fido
+M  1804 spec_fido
+M  1805 spec_fido
+M  1808 spec_fido
+M  1812 spec_breath_fire
+M  1815 spec_cast_cleric
+M  1816 spec_breath_fire
+M  1817 spec_cast_mage
+M  1818 spec_breath_fire
+M  1820 spec_cast_mage
+M  1821 spec_breath_gas
+M  1822 spec_cast_cleric
+M  1824 spec_fido
+M  1826 spec_cast_undead
+M  1827 spec_cast_cleric
+M  1828 spec_cast_cleric
+M  1829 spec_cast_cleric
+S
+
+
+#$

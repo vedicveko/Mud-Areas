@@ -1,0 +1,2598 @@
+#AREA	{30 62} Rainman Setting Sons~
+
+
+#MOBILES
+#32301
+lunatic raving man~
+a raving lunatic~
+A raving lunatic is here spouting his madness.
+~
+The man tells you 'Don't go in there, my friend'.
+
+You notice spittle dripping from his chin as he grins wide to display a mouth 
+totally devoid of teeth, less one green rotting canine.
+
+The man throws back his head and cackles insanely.
+
+'You'll die in there', he says to you.
+~
+2|64|128 0 0 S
+30 15 4 4d4+55 2d4+1
+0 0
+8 8 1
+#32302
+graveyard guardian~
+a graveyard guardian~
+A graveyard guardian keeps a watchful eye for intruders.
+~
+A graveyard guardian stands nearly as tall as you. His militant stance is 
+indicative of his well formed discipline. He traverses the area in search of 
+would-be evil doers and thieves.
+~
+4|64|128 128|512|32768 0 S
+30 11 0 7d7+80 1d4+6
+10 0
+8 8 1
+#32303
+graveyard guardian~
+a graveyard guardian~
+A graveyard guardian keeps a watchful eye for intruders.
+~
+A graveyard guardian stands nearly as tall as you. His militant stance is 
+indicative of his well formed discipline. He traverses the area in search of 
+would-be evil doers and thieves.
+~
+4|64|128 128|512|32768 0 S
+30 11 0 7d7+80 1d4+6
+10 0
+8 8 1
+#32304
+sentry graveyard~
+a graveyard sentry~
+A graveyard sentry stands here waitng for somehing to happen.
+~
+A graveyard sentry stands nearly as tall as you. His militant stance is 
+indicative of his well formed discipline. He is posted here to keep an eye 
+out for trouble.
+~
+2 128|512 0 S
+30 12 1 6d6+70 1d4+5
+10 0
+8 8 1
+#32305
+sentry graveyard~
+a graveyard sentry~
+A graveyard sentry stands here waiting for something to happen.
+~
+A graveyard sentry stands nearly as tall as you. His militant stance is 
+indicative of his well formed discipline. He is posted here to keep an eye 
+out for trouble.
+~
+2 128|512 0 S
+30 12 1 6d6+70 1d4+5
+10 0
+8 8 1
+#32306
+digger grave~
+a grave digger~
+A graveyard digger is returning from a long nights' work.
+~
+This man looks extremely tired from a long evening of digging new gravesites 
+by hand. He is covered by dirt from head to toe, and looks though he could 
+really use a long, hot bath.
+~
+64 0 0 S
+30 13 2 5d5+60 1d4+4
+10 0
+8 8 1
+#32307
+grave digger~
+a grave digger~
+A grave digger wonders what you're doing here.
+~
+This man looks extremely tired from a long evening of digging new gravesites 
+by hand. He is covered by dirt from head to toe, and looks though he could 
+really use a long, hot bath.
+~
+4|64|128 512 0 S
+30 13 2 5d5+60 1d4+4
+10 0
+8 8 1
+#32308
+grave robber~
+a grave robber~
+A grave robber is here looting corpses.
+~
+The grave robber shows no sign of embarrassment at being caught.
+~
+4|32|64|128 512|32768 0 S
+30 3 -7 14d14+150 1d4+9
+10 0
+8 8 1
+#32309
+keeper~
+the keeper~
+The keeper stands here.
+~
+The keeper of the graveyard looks old and a little tired.
+~
+4 0 0 S
+30 3 -10 14d14+150 1d4+9
+10 0
+8 8 1
+#32310
+lady old~
+an old lady~
+An old lady is here.
+~
+The old lady is here sobbing. She mutters something about 'joining that stupid 
+club' and turns away from you.
+~
+0 0 0 S
+25 2 -5 20d20+200 1d20+12
+0 0
+8 8 2
+#32311
+man old~
+an old man~
+An old man stands here, talking to himself.
+~
+The man is trembling and reciting a prayer.
+~
+128 0 0 S
+25 17 7 3d3+33 1d4+2
+10 0
+8 8 1
+#32312
+demon~
+a demon~
+A graveyard demon beckons you to leave this place.
+~
+The demon hovers over you, and appears to be aflame.
+~
+2|32 8|32|512|524288 -1000 S
+35 0 -10 25d25+250 1d4+10
+1000 0
+8 8 1
+#32313
+demon~
+a demon~
+A graveyard demon hovers about.
+~
+The demon hovers over you, and appears to be aflame.
+~
+2|32 8|32|512|524288 -1000 S
+35 -2 -10 25d25+250 2d4+20
+0 0
+8 8 0
+#32314
+bat~
+a bat~
+A black bat is here.
+~
+The bat dives at you!
+~
+32|128 256|524288 0 S
+25 16 6 4d4+40 1d4+3
+0 0
+8 8 0
+#32315
+gargoyle stone~
+a stone gargoyle~
+A stone gargoyle is here, mounted on a pedestal.
+~
+The gargoyle seems to be here to instill some fear in your bones.
+~
+2|32 8|32|512|8192 -300 S
+25 14 4 6d6+66 1d4+5
+0 0
+8 8 0
+#32316
+Presley~
+the ghost of Elvis~
+Elvis has left the building.
+~
+Elvis curls his lip, snarls, and begins to sing.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32317
+Joplin~
+the ghost of Janis~
+Janis is here screaming at you.
+~
+Janis continues screaming.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32318
+Hendrix~
+the ghost of Jimi~
+Jimi is standing here playing a guitar lick with his teeth.
+~
+Jimi continues writhing with his guitar, as if they were one.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32319
+Moon~
+the ghost of Keith~
+Keith is here destoying a drum kit.
+~
+Keith pounds away at his kit in a frenzy.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32320
+Cobain~
+the ghost of Kurt~
+Kurt is here leering at his shoes.
+~
+Kurt continues to stare at the ground, ignoring you.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32321
+Lennon~
+the ghost of John~
+John stands here, seemingly out of place.
+~
+John was taken from us before his time.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32322
+Holly~
+the ghost of Buddy~
+Buddy stands here singing a ballad.
+~
+Buddy croons a ballad to you.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32323
+Valens~
+the ghost of Ritchie~
+Richie is here singing in spanish.
+~
+Richie smiles and continue to sing.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32324
+Zappa~
+the ghost of Frank~
+Frank is here inventing something weird.
+~
+Frank just loos at you and cracks a knowing smile.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32325
+Morrison~
+the ghost of Jim~
+Jim wants you to light him on fire.
+~
+Jim closes his eyes and reaches out to you.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32326
+lycanthrope~
+the lycanthrope~
+A lycanthrope lunges at you and goes for the jugular.
+~
+OUCH!
+~
+2|32|64 8|32|512|32768 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32327
+lucifer~
+Lucifer~
+Lucifer is here to give you directions.
+~
+Or maybe this is Lucifer's friend. In any event, he is not of this world.
+~
+2|32|64 8|32|512|32768 -1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32328
+reaper~
+the reaper~
+The Grime Reaper is ready for your soul. Do not be afraid.
+~
+The GRIME Reaper? Hrm...
+~
+2|32|64|512 8|32|512|32768 -1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32329
+angel~
+an angel of hope~
+A nice angel floats above you.
+~
+The angel is immersed in white and glowing.
+~
+64 524288 1000 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32330
+manic depression~
+manic depression~
+
+~
+
+~
+2|32|64 2|8|32|512|8192|32768|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32331
+suicidal tendencies~
+suicidal tendencies~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32332
+reckless lifestyle~
+a reckless lifestyle~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32333
+stress~
+stress~
+
+~
+
+~
+2|32|64 2|8|32|512|32768|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32334
+apathy~
+apathy~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32335
+hopelessness feeling ~
+an overwhelming feeling of hopelessness~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32336
+insecurity feelings~
+feelings of insecurity~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32337
+sex drugs rock -n- roll~
+a life of sex, drugs and rock -n- roll~
+
+~
+
+~
+2|32|64 2|8|32|512|65536 0 S
+75 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32338
+Garcia~
+the ghost of Jerry~
+Jerry is here, trippin' you out.
+~
+Jerry ... cool.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32339
+Vicious~
+the ghost of Sid~
+Sid is here, snarling at himself.
+~
+Sid Vicious is lookin pretty bad. As long as he doesn't try to sing, everything will be alright.
+~
+64 0 -1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32340
+Orbison~
+the ghost of Roy~
+Roy walks up and kind of startles you.
+~
+Roy mutters something about a pretty woman and looks away.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32341
+Marley~
+the ghost of Bob~
+Bob is here, proclaiming his innocence.
+~
+Bob probably did the deputy in as well.
+~
+64 0 1000 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32342
+Bonham~
+the ghost of John~
+John is here, looking for a stairway.
+~
+John smiles and takes another drink.
+~
+64 0 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#32301
+coat old smelly~
+a smelly old coat~
+A smelly old coat stinks from years of neglect.~
+~
+9 0 1|1024
+0 0 0 0 
+5 50 0
+A
+4 1
+#32302
+cane~
+a cane~
+An old and intricately carved wooden cane.~
+~
+4 0 1|16384
+30 8 8 25 
+2 0 0
+#32303
+club~
+a club of bone~
+A club made of bone was dropped here.~
+~
+5 512 1|8192
+0 1 6 7 
+5 0 0
+#32304
+shovel~
+a dented shovel~
+A rusted and dented shovel is laying here.~
+~
+5 0 1|8192
+0 1 6 8 
+5 0 0
+#32305
+key~
+a skeleton key~
+The key to everything rests here.~
+~
+18 0 1
+0 1 6 11 
+1 0 0
+#32306
+bible~
+a dusty old bible~
+A very important book was dropped here.~
+~
+2 64|1024 1|16384
+0 3 606 34 
+5 0 0
+A
+4 1
+#32307
+chain~
+a chain of beads~
+A beaded chain lays in a heap here.~
+~
+9 1024 1|4
+0 0 0 0 
+2 0 0
+A
+12 10
+#32308
+sword~
+a sword~
+A sword rests here.~
+~
+5 0 1|8192
+0 1 6 11 
+5 0 0
+#32309
+jumpsuit~
+a leather jumpsuit~
+A white leather jumpsuit with groovy bellbottoms has been left here.~
+~
+9 4096 1|8
+0 0 0 0 
+5 0 0
+A
+12 20
+#32310
+cape~
+a groovy cape~
+A really groovy cape lays here.~
+~
+9 0 1|1024
+0 0 0 0 
+3 0 0
+A
+1 2
+#32311
+crown~
+a golden crown~
+An ornate crown of gold and jewels lies here.~
+~
+9 0 1|16
+0 0 0 0 
+2 0 0
+A
+4 1
+#32312
+bangles~
+a plethora of bangles~
+A bunch of hoops have been fitted together and dropped here.~
+~
+5 1 1|4096
+0 15 30 5 
+2 0 0
+A
+18 2
+A
+19 2
+#32313
+t-shirt shirt dyed tie~
+a tie-dyed t-shirt~
+A cool looking t-shirt has been dropped here.~
+~
+9 1 1|8
+0 0 0 0 
+5 0 0
+A
+9 30
+#32314
+stratocaster strat fender guitar flaming~
+a flaming guitar~
+A left-handed white fender stratocaster is ablaze here.~
+~
+5 2 1|8192
+0 12 20 3 
+5 0 0
+A
+18 5
+A
+19 2
+#32315
+bandana~
+a silk bandana~
+A long piece of sheer silk  rests here.~
+~
+9 0 1|16
+0 0 0 0 
+1 0 0
+A
+3 3
+#32316
+drumstick~
+a drumstick~
+A broken drumstick has been forgotton here.~
+~
+5 0 1|8192
+0 15 25 0 
+5 0 0
+A
+5 1
+A
+1 1
+A
+13 50
+#32317
+absolute vodka~
+a bottle of absolute~
+A large bottle of clear liquid has been set here.~
+~
+17 0 1|16384
+5 5 22 1 
+5 0 0
+#32318
+hat cap~
+a hat with flaps~
+A cap with flaps has been dropped here.~
+~
+9 0 1|16
+0 0 0 0 
+5 0 0
+A
+23 1
+A
+24 7
+#32319
+shirt flannel plaid~
+a plaid flannel shirt~
+A large and comfortably torn looking shirt has been left in a heap.~
+~
+9 0 1|1024
+0 0 0 0 
+5 0 0
+A
+17 -20
+#32320
+grip~
+a grip~
+~
+~
+9 0 1|16384
+0 1 6 11 
+5 0 0
+A
+3 2
+#32321
+peace~
+peace~
+~
+~
+9 0 1|16384
+0 1 6 11 
+5 0 0
+A
+4 2
+#32322
+love~
+love~
+~
+~
+9 0 1|16384
+0 1 6 11 
+5 0 0
+A
+1 3
+#32323
+understanding~
+understanding~
+~
+~
+9 0 1|16384
+0 1 6 11 
+5 0 0
+A
+5 3
+#32324
+harmony perfect~
+perfect harmony~
+~
+~
+9 0 1|16384
+0 1 6 11 
+5 0 0
+A
+2 3
+#0
+
+
+#ROOMS
+#32301
+A Path Through the Woods~
+You notice a dusty path that leads north through the trees to a small hill. 
+An unseasonably cold gust of wind causes a chill to run down your spine. Or 
+was it the sound of wolves howling in the distance that caused it?
+~
+0 0 3
+D0
+The path continues north.
+~
+~
+0 -1 32302
+D5
+~
+~
+0 -1 1035
+S
+#32302
+On a Dark Path~
+You stand where a path through the woods intersects with a smaller path that 
+runs east and west. To the north you see a small hill.
+~
+0 0 3
+D0
+You see the overlook.
+~
+~
+0 -1 32305
+D1
+You see a smaller path.
+~
+~
+0 -1 32304
+D2
+You see the path back toward Ofcol.
+~
+~
+0 -1 32301
+D3
+You see a smaller path.
+~
+~
+0 -1 32303
+S
+#32303
+A Smaller Path~
+This smaller path leads north and east.
+~
+0 0 3
+D0
+The path continues north.
+~
+~
+0 -1 32368
+D1
+The dark path is to the east.
+~
+~
+0 -1 32302
+S
+#32304
+A Smaller Path~
+This smaller path leads north and west through the woods.
+~
+0 0 3
+D0
+The path continues north.
+~
+~
+0 -1 32350
+D3
+The dark path is to the west.
+~
+~
+0 -1 32302
+S
+#32305
+A Grassy Knoll~
+You stand atop a grassy knoll which overlooks a cemetary. You see hoofprints 
+in the dirt. The path leads down to the entrance.
+~
+0 0 4
+D2
+You see the path back which leads back the way you came.
+~
+~
+0 -1 32302
+D5
+You see the entrance to the graveyard.
+~
+~
+0 -1 32306
+E
+hoofprints dirt~
+These tracks were made by a large animal.~
+S
+#32306
+The Entrance to the Graveyard~
+You are at the entrance to the Graveyard of the Setting Sons.
+~
+0 0 2
+D0
+The graveyard is to the north, beyond the gate.
+~
+gate~
+1 -1 32311
+D1
+The graveyard continues east.
+~
+~
+0 -1 32308
+D3
+The graveyard continues west.
+~
+~
+0 0 32307
+D4
+The overlook is above you.
+~
+~
+0 0 32305
+E
+note~
+The note reads:
+
+     *************************
+     *   PLEASE DON'T JOIN   *
+     *   THAT STUPID CLUB!   *
+     *                       *
+     *       - MOM -         *
+     *************************
+~
+E
+plaque~
+The plaque reads:
+
+     ---------------------
+     |                   |
+     |   SETTING SONS    |
+     |     MEMORIAL      |
+     |                   |
+     ---------------------~
+S
+#32307
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, you 
+see a small path circling the entire graveyard. The  graveyard continues 
+north and east.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32310
+D1
+The entrance to the graveyard is to the east.
+~
+~
+0 0 32306
+S
+#32308
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, 
+you see a small path circling the entire graveyard. The graveyard continues 
+north and west.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32312
+D3
+The entrance to the graveyard is to the west.
+~
+~
+0 0 32306
+S
+#32309
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, 
+you see a small path circling the entire graveyard. The graveyard continues 
+north and east.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32314
+D1
+The graveyard continues east.
+~
+~
+0 0 32310
+S
+#32310
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32315
+D1
+The graveyard continues east.
+~
+~
+0 0 32311
+D2
+The graveyard continues south.
+~
+~
+0 0 32307
+D3
+The graveyard continues west.
+~
+~
+0 0 32309
+S
+#32311
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+The entrance to the graveyard is towards the south.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32316
+D1
+The graveyard continues east.
+~
+~
+0 0 32312
+D2
+You see the entrance to the graveyard.
+~
+~
+1 0 32306
+D3
+The graveyard continues west.
+~
+~
+0 0 32310
+S
+#32312
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32317
+D1
+The graveyard continues east.
+~
+~
+0 -1 32313
+D2
+The graveyard continues south.
+~
+~
+0 -1 32308
+D3
+The graveyard continues west.
+~
+~
+0 -1 32311
+S
+#32313
+The Edge of the Graveyard~
+You are at the edge of the graveyard of the Setting Sons. High above you, 
+you see a small path circling the entire graveyard. The graveyard continues 
+north and west.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32318
+D3
+The graveyard continues west.
+~
+~
+0 0 32312
+S
+#32314
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. A steep path leads 
+up toward the deer path circling the graveyard. The graveyard continues north, 
+south, and east.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32319
+D1
+The graveyard continues east.
+~
+~
+0 0 32315
+D2
+The graveyard continues south.
+~
+~
+0 0 32309
+D4
+The steep path leads up.
+~
+~
+0 0 32364
+S
+#32315
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32320
+D1
+The graveyard continues east.
+~
+~
+0 0 32316
+D2
+The graveyard continues south.
+~
+~
+0 0 32310
+D3
+The graveyard continues west.
+~
+~
+0 0 32314
+S
+#32316
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32321
+D1
+The graveyard continues east.
+~
+~
+0 0 32317
+D2
+The graveyard continues south.
+~
+~
+0 0 32311
+D3
+The graveyard continues west.
+~
+~
+0 0 32315
+S
+#32317
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32322
+D1
+The graveyard continues east.
+~
+~
+0 0 32318
+D2
+The graveyard continues south.
+~
+~
+0 0 32312
+D3
+The graveyard continues west.
+~
+~
+0 0 32316
+S
+#32318
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. A steep path leads 
+up toward the deer path circling the graveyard. The graveyard continues 
+north, south, and west.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 -1 32323
+D2
+The graveyard continues south.
+~
+~
+0 0 32313
+D3
+The graveyard continues west.
+~
+~
+0 0 32317
+D4
+The steep path leads up.
+~
+~
+0 0 32354
+S
+#32319
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, you 
+see a small path circling the entire graveyard. The graveyard continues south 
+and east.
+~
+0 0 2
+D1
+The graveyard continues east.
+~
+~
+0 -1 32320
+D2
+The graveyard continues south.
+~
+~
+0 0 32314
+S
+#32320
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 0 32324
+D1
+The graveyard continues east.
+~
+~
+0 -1 32321
+D2
+The graveyard continues south.
+~
+~
+0 0 32315
+D3
+The graveyard continues west.
+~
+~
+0 0 32319
+S
+#32321
+The Graveyard of the Setting Sons~
+You are in the graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 0 32325
+D1
+The graveyard continues east.
+~
+~
+0 -1 32322
+D2
+The graveyard continues south.
+~
+~
+0 0 32316
+D3
+The graveyard continues west.
+~
+~
+0 0 32320
+S
+#32322
+The Graveyard of the Setting Sons~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+~
+0 0 2
+D0
+The graveyard continues north.
+~
+~
+0 0 32326
+D1
+The graveyard continues east.
+~
+~
+0 -1 32323
+D2
+The graveyard continues south.
+~
+~
+0 0 32317
+D3
+The graveyard continues west.
+~
+~
+0 0 32321
+S
+#32323
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, you 
+see a small path circling the entire graveyard. The graveyard continues 
+south and west.
+~
+0 0 2
+D2
+The graveyard continues south.
+~
+~
+0 -1 32318
+D3
+The graveyard continues west.
+~
+~
+0 -1 32322
+S
+#32324
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, you 
+see a small path circling the entire graveyard. The graveyard continues south 
+and east.
+~
+0 0 2
+D1
+The graveyard continues east.
+~
+~
+0 0 32325
+D2
+The graveyard continues south
+~
+~
+0 0 32320
+S
+#32325
+The Edge of the Graveyard~
+You are in the Graveyard of the Setting Sons. The graveyard continues in all 
+directions.
+To the north, a small, narrow path leads away from the graveyard.
+~
+0 0 2
+D0
+A small path leads away from the graveyard.
+~
+~
+0 0 32327
+D1
+The graveyard continues east.
+~
+~
+0 0 32326
+D2
+The graveyard continues south.
+~
+~
+0 0 32321
+D3
+The graveyard continues west.
+~
+~
+0 0 32324
+S
+#32326
+The Edge of the Graveyard~
+You are at the edge of the Graveyard of the Setting Sons. High above you, you 
+see a small path circling the entire graveyard. The graveyard continues south 
+and west.
+~
+0 0 2
+D2
+The graveyard continues south.
+~
+~
+0 0 32322
+D3
+The graveyard continues west.
+~
+~
+0 0 32325
+S
+#32327
+A Path Leading Away From the Graveyard~
+You are on a narrow path leading away from the Graveyard of the Setting Sons. 
+This path leads north and south. A rope ladder leads up to a bridge.
+~
+0 0 2
+D0
+The path continues north.
+~
+~
+0 0 32328
+D2
+The path leads back to the graveyard.
+~
+~
+0 0 32325
+D4
+You see the rope bridge above you.
+~
+~
+0 0 32359
+S
+#32328
+Along the Path~
+You are on the path away from the graveyard of the Setting Sons. The hills 
+around you keep this path narrow. The path continues east, south, and west.
+~
+0 0 2
+D1
+The path continues east.
+~
+~
+0 0 32329
+D2
+The path continues south back toward the graveyard.
+~
+~
+0 0 32327
+D3
+The path continues west.
+~
+~
+0 0 32369
+S
+#32329
+A Bend in the Path~
+You are on the path away from the graveyard of the Setting Sons. The hills 
+around you keep this path narrow. The path continues north and back west.
+~
+0 0 2
+D0
+You see a small graveyard north.
+~
+~
+0 0 32330
+D3
+The path goes back to the west.
+~
+~
+0 0 32328
+S
+#32330
+A Smaller Graveyard~
+You are in another graveyard within these hills. To the north, you can see a
+building, and to the south you see the path away from this graveyard. The
+west and east paths surround this building.
+~
+0 0 2
+D0
+You see the building.
+~
+door~
+1 -1 32335
+D1
+You see the path around the building.
+~
+~
+0 0 32332
+D2
+You see the path leading away from this graveyard.
+~
+~
+0 0 32329
+D3
+You see the path around the building.
+~
+~
+0 0 32331
+S
+#32331
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and east. To the north-east is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32333
+D1
+You see the path.
+~
+~
+0 0 32330
+S
+#32332
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+west and east. To the north is a building.
+~
+0 0 2
+D1
+You see the path.
+~
+~
+0 0 32334
+D3
+You see the path.
+~
+~
+0 0 32330
+S
+#32333
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and south. To the east is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32338
+D2
+You see the path.
+~
+~
+0 0 32331
+S
+#32334
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and west. To the north-west is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32337
+D3
+You see the path.
+~
+~
+0 0 32332
+S
+#32335
+A Crypt~
+You are in the home of the Graveyard Setting Sons. The building continues to 
+the north and the east, and the exit is to the south.
+~
+0 8 0
+D0
+The building continues to the north.
+~
+~
+0 0 32339
+D1
+The building continues to the east.
+~
+~
+1 0 32336
+D2
+The exit is to the south.
+~
+door~
+1 -1 32330
+S
+#32336
+Within the Crypt~
+You are deep within a forgotten crypt in the graveyard.
+~
+0 8 0
+D0
+The building continues to the north.
+~
+~
+1 -1 32340
+D3
+The building continues to the west.
+~
+~
+1 -1 32335
+S
+#32337
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and south. To the west is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32341
+D2
+You see the path.
+~
+~
+0 0 32334
+S
+#32338
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and south. To the east is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32342
+D2
+You see the path.
+~
+~
+0 0 32333
+S
+#32339
+Within the Crypt~
+You are within a crypt in the graveyard. It is dark an eery.
+~
+0 1|8 0
+D1
+The building continues to the east.
+~
+~
+0 0 32340
+D2
+The entrance is to the south.
+~
+~
+0 0 32335
+S
+#32340
+Deep Within the Crypt~
+You are deeper with in a crypt in the graveyard. Exits are west and up.
+~
+0 8 0
+D2
+The building continues to the south.
+~
+~
+1 0 32336
+D3
+The building continues to the west.
+~
+~
+0 0 32339
+D4
+You see the second floor.
+~
+~
+0 0 32349
+S
+#32341
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+north and south. To the west is a building.
+~
+0 0 2
+D0
+You see the path.
+~
+~
+0 0 32345
+D2
+You see the path.
+~
+~
+0 0 32337
+S
+#32342
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+south and east. To the south-east is a building.
+~
+0 0 2
+D1
+You see the path.
+~
+~
+0 0 32343
+D2
+You see the path.
+~
+~
+0 0 32338
+S
+#32343
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+west and east. To the south is a building.
+~
+0 0 2
+D1
+You see the path.
+~
+~
+0 0 32344
+D3
+You see the path.
+~
+~
+0 0 32342
+S
+#32344
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+east and west. To the south is a building.
+~
+0 0 2
+D1
+You see the path.
+~
+~
+0 0 32345
+D3
+You see the path.
+~
+~
+0 0 32343
+S
+#32345
+A Path in the Graveyard~
+You are on the path in the Graveyard of the Setting Sons. This path leads 
+south and west. To the south-west is a building.
+~
+0 0 2
+D2
+You see the path.
+~
+~
+0 0 32341
+D3
+You see the path.
+~
+~
+0 0 32344
+S
+#32346
+The Keepers' Room~
+You are in the room of the graveyard guardian.
+~
+0 8 0
+D0
+You see another room.
+~
+door~
+1 -1 32348
+D1
+You see another room.
+~
+door~
+1 32004 32347
+S
+#32347
+A Storage Room~
+You are in a storage room.
+~
+0 8 0
+D0
+You see another room.
+~
+door~
+1 32004 32349
+D3
+You see another room.
+~
+door~
+1 32004 32346
+S
+#32348
+The Break Room~
+You are in the break room of the graveyard keepers. Cots line the floor,
+with two windows showing a view of the graveyard.
+~
+0 8 0
+D1
+You see another room.
+~
+door~
+1 -1 32349
+D2
+You see another room.
+~
+door~
+1 -1 32346
+S
+#32349
+The Keeper's Office~
+You are in the graveyard keepers office.
+~
+0 8 0
+D2
+You see another room.
+~
+door~
+1 32004 32347
+D3
+You see another room.
+~
+door~
+1 -1 32348
+D5
+You see the first floor.
+~
+~
+0 0 32340
+S
+#32350
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 32351
+D2
+~
+~
+0 0 32304
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32351
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32352
+D3
+~
+~
+0 0 32350
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32352
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 32353
+D2
+~
+~
+0 0 32351
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32353
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32354
+D3
+~
+~
+0 0 32352
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32354
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+A safe path leads down into the graveyard.
+~
+0 0 2
+D0
+~
+~
+0 0 32355
+D2
+~
+~
+0 0 32353
+D5
+The path down looks safe.
+~
+~
+0 0 32318
+S
+#32355
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D2
+~
+~
+0 0 32354
+D3
+~
+~
+0 0 32356
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32356
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32357
+D1
+~
+~
+0 0 32355
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32357
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D2
+~
+~
+0 0 32356
+D3
+~
+~
+0 0 32358
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32358
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 32357
+D3
+You see a bridge~
+~
+0 0 32359
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32359
+On the Bridge~
+You are on a bridge. From here, you can see the whole graveyard of the
+Setting Sons. To the south, you see the main graveyard. To the north-east, 
+you see a smaller graveyard with a building in the center of it. To the 
+north-west, you can see a very small graveyard with a shack in its center. 
+A ladder leads down into a path.
+~
+0 0 2
+D1
+~
+~
+0 0 32358
+D3
+~
+~
+0 0 32360
+D5
+You see the path.
+~
+~
+0 0 32327
+S
+#32360
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+You see a rope bridge.
+~
+~
+0 0 32359
+D3
+~
+~
+0 0 32361
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32361
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 32360
+D2
+~
+~
+0 0 32362
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32362
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32361
+D3
+~
+~
+0 0 32363
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32363
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 32362
+D2
+~
+~
+0 0 32364
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32364
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+A safe path leads down into the graveyard.
+~
+0 0 4
+D0
+~
+~
+0 0 32363
+D2
+~
+~
+0 0 32365
+D5
+The path down looks safe.
+~
+~
+0 0 32314
+S
+#32365
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32364
+D1
+~
+~
+0 0 32366
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32366
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D2
+~
+~
+0 0 32367
+D3
+~
+~
+0 0 32365
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32367
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D0
+~
+~
+0 0 32366
+D1
+~
+~
+0 0 32368
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32368
+Along a Spooky Path on the Confines of the Graveyard~
+You are on a narrow path on the confines of the Graveyard of the Setting 
+Sons. Below you, you can see the graveyard, filled with wild flowers and 
+tall, green grasses.
+~
+0 0 2
+D2
+~
+~
+0 0 32303
+D3
+~
+~
+0 0 32367
+D5
+The path down doesn't look safe to travel on at all.
+~
+~
+0 0 32384
+S
+#32369
+A Bend in the Path~
+You are on a bend in the path leading from the main graveyard. The hills 
+around you make this path quite narrow.
+~
+0 0 2
+D0
+The path continues north.
+~
+~
+0 0 32370
+D1
+The path continues east.
+~
+~
+0 0 32328
+S
+#32370
+A Bend in the Path~
+You are on a bend in the path leading from the main graveyard. The hills 
+around you make this path quite narrow. To the west, you can see an even 
+smaller graveyard, with looks like a small shack in the center of it.
+~
+0 0 2
+D2
+The path continues south.
+~
+~
+0 0 32369
+D3
+The entrance to the small graveyard is to the west.
+~
+~
+0 0 32371
+S
+#32371
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. The exit from this graveyard is to 
+the east, and the entrance to the shack is to the west.
+~
+0 0 2
+D0
+The graveyard continues to the north.
+~
+~
+0 0 32372
+D1
+The exit from this small graveyard is to the east.
+~
+~
+0 0 32370
+D2
+The graveyard continues to the south.
+~
+~
+0 0 32373
+D3
+You see the small shack.
+~
+door~
+1 -1 32379
+S
+#32372
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the south-west is a small shack.
+~
+0 0 2
+D2
+The graveyard continues to the south.
+~
+~
+0 0 32371
+D3
+The graveyard continues to the west.
+~
+~
+0 0 32374
+S
+#32373
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the north-west is a small shack.
+~
+0 0 2
+D0
+The graveyard continues to the north.
+~
+~
+0 0 32371
+D3
+The graveyard continues to the west.
+~
+~
+0 0 32378
+S
+#32374
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the south is a small shack.
+~
+0 0 2
+D1
+The graveyard continues to the east.
+~
+~
+0 0 32372
+D3
+The graveyard continues to the west.
+~
+~
+0 0 32375
+S
+#32375
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the south-east is a small shack.
+~
+0 0 2
+D1
+The graveyard continues to the east.
+~
+~
+0 0 32374
+D2
+The graveyard continues to the south.
+~
+~
+0 0 32376
+S
+#32376
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the east is a small shack.
+~
+0 0 2
+D0
+The graveyard continues to the north.
+~
+~
+0 0 32375
+D2
+The graveyard continues to the south.
+~
+~
+0 0 32377
+S
+#32377
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the north-east is a small shack.
+~
+0 0 2
+D0
+The graveyard continues to the north.
+~
+~
+0 0 32376
+D1
+The graveyard continues to the east.
+~
+~
+0 0 32378
+S
+#32378
+The Small Graveyard~
+You are in the small graveyard. Strangely, tall trees grow here, almost as if 
+some magic was used to help them grow. To the north is a small shack.
+~
+0 0 2
+D1
+The graveyard continues to the east.
+~
+~
+0 0 32373
+D3
+The graveyard continues to the west.
+~
+~
+0 0 32377
+S
+#32379
+A Crematorium~
+You are inside the small crematorium. A hearth is on the side, with something 
+burning in it.
+~
+0 8 0
+D1
+You see the graveyard outside.
+~
+door~
+1 -1 32371
+D5
+You see a trap door!
+~
+trap door~
+1 -1 32380
+S
+#32380
+A Catacomb~
+You are beneath the crematorium, in a tunnel that leads south. It feels
+quite cold down here.
+~
+0 1|8 0
+D2
+A cold breeze billows from there.
+~
+~
+0 0 32381
+D4
+Back to known territory!
+~
+trap door~
+1 -1 32379
+S
+#32381
+The Lair of the Demon~
+You are in the lair of the demon. The walls are cold and damp, and there is a 
+stench beyond your wildest imagination. Doors lead east and west. But you have
+to ask yourself...do I really want to know what's on the other side of the 
+doors??
+~
+0 1|8 0
+D0
+You see the relative safety to the north.
+~
+~
+0 0 32380
+D1
+You see breaks in the charred rock to the east.
+~
+secret~
+1 32005 32383
+D3
+You see a door to the west.
+~
+door~
+1 32005 32382
+S
+#32382
+A Closet of Skeletons~
+Now you've done it.
+~
+0 8 0
+D1
+~
+door~
+1 32305 32381
+S
+#32383
+A Closet of Skeletons~
+Now you've done it.
+~
+0 8 0
+D3
+~
+door~
+1 32305 32381
+S
+#32384
+An Open Grave~
+You have fallen into a freshly-dug grave.
+
+*BONK* *OUCH* *DOH!*
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+D 1 32330 0 1			; A Smaller Graveyard Close North
+D 1 32335 2 1			; A Crypt Close South
+D 1 32346 1 2			; The Keepers' Room Lock East
+D 1 32347 3 2			; A Storage Room Lock West
+D 1 32346 0 1			; The Keepers' Room Close North
+D 1 32347 0 2			; A Storage Room Lock North
+D 1 32348 1 1			; The Break Room Close East
+D 1 32348 2 1			; The Break Room Close South
+D 1 32349 2 2			; The Keeper's Office Lock South
+D 1 32349 3 1			; The Keeper's Office Close West
+D 1 32371 3 1			; The Small Graveyard Close West
+D 1 32379 1 1			; A Crematorium Close East
+D 1 32379 5 1			; A Crematorium Close Down
+D 1 32380 4 1			; A Catacomb Close Up
+D 1 32381 1 2			; The Lair of the Demon Lock East
+D 1 32383 3 2			; A Closet of Skeletons Lock West
+D 1 32381 3 2			; The Lair of the Demon Lock West
+D 1 32382 1 2			; A Closet of Skeletons Lock East
+*
+*
+*
+M 1 32301 1 32306			load lunatic to entrance
+E 1 32301 100 12
+E 1 32302 100 17
+D 1 32306 0 1			; The Entrance to the Graveyard Close North
+D 1 32336 0 1			; Within the Crypt Close North
+D 1 32336 3 1			; Within the Crypt Close West
+*
+M 1 32330 1 32382			manic depression to The Demon Lair
+G 1 32320 100
+*
+M 1 32331 1 32382			suicidal tendancies to The Demon Lair
+G 1 32321 100
+*
+M 1 32332 1 32382			a reckless lifestyle to The Demon Lair
+G 1 32322 100
+*
+M 1 32333 1 32383			stress to The Demon Lair
+G 1 32322 100
+*
+M 1 32334 1 32383			apathy to The Demon Lair
+G 1 32323 100
+*
+M 1 32335 1 32383			an overwhelming feeling of hopelessness to The Demon Lair
+G 1 32324 100
+*
+M 1 32336 1 32383			feelings of insecurity to The Demon Lair
+G 1 32320 100
+*
+M 1 32308 1 32384			a grave robber to An Open Grave
+*
+M 1 32302 1 32310			a graveyard guardian to The Graveyard of the Setting Sons
+E 1 32303 100 16
+*
+M 1 32303 1 32308			a graveyard guardian to The Edge of the Graveyard
+E 1 32303 100 16
+*
+M 1 32304 1 32315			a graveyard sentry to The Graveyard of the Setting Sons
+E 1 32303 100 16
+*
+M 1 32305 1 32317			a graveyard sentry to The Graveyard of the Setting Sons
+E 1 32303 100 16
+*
+M 1 32306 1 32320			a grave digger to The Graveyard of the Setting Sons
+E 1 32304 100 16
+*
+M 1 32307 1 32322			a grave digger to The Graveyard of the Setting Sons
+E 1 32304 100 16
+*
+M 1 32308 1 32321			a grave robber to The Graveyard of the Setting Sons
+E 1 32304 100 16
+*
+M 1 32309 1 32349			the keeper to The Keeper's Office
+G 1 32305 100
+*
+M 1 32310 1 32328			an old lady to Along the Path
+E 1 32307 100 3
+E 1 32306 100 17
+*
+M 1 32311 1 32331			an old man to A Path in the Graveyard
+*
+M 1 32312 1 32381			a demon to The Lair of the Demon
+*
+M 1 32313 1 32381			a demon to The Lair of the Demon
+*
+M 1 32314 1 32369			a bat to A Bend in the Path
+*
+M 1 32315 1 32371			a stone gargoyle to The Small Graveyard
+*
+M 1 32316 1 32372			Elvis to The Small Graveyard
+E 1 32309 100 5
+E 1 32311 100 6
+E 1 32310 100 12
+*
+M 1 32317 1 32373			Janis to The Small Graveyard
+E 1 32312 100 15
+*
+M 1 32318 1 32374			Jimi to The Small Graveyard
+E 1 32315 100 6
+E 1 32314 100 16
+*
+M 1 32319 1 32375			Keith to The Small Graveyard
+E 1 32316 100 16
+E 1 32317 100 17
+*
+M 1 32320 1 32376			Kurt to The Small Graveyard
+E 1 32318 100 6
+E 1 32319 100 12
+*
+M 1 32321 1 32377			John to The Small Graveyard
+*
+M 1 32322 1 32378			Buddy to The Small Graveyard
+*
+M 1 32323 1 32311			Richie to The Graveyard of the Setting Sons
+*
+M 1 32324 1 32316			Frank to The Graveyard of the Setting Sons
+*
+M 1 32325 1 32330			Jim to A Smaller Graveyard
+E 1 32313 100 5
+*
+M 1 32337 1 32382			to The Demon Lair
+*
+M 1 32338 1 32334			Jerry to A Path in the Graveyard
+*
+M 1 32339 1 32338			Sid to A Path in the Graveyard
+*
+M 1 32340 1 32343			Roy to A Path in the Graveyard
+*
+M 1 32327 1 32340			Lucifer to Deep Within the Crypt
+*
+M 1 32328 1 32359			the reaper to On the Bridge
+*
+M 1 32329 1 32305			an angel of hope to A Grassy Knoll
+*
+M 1 32326 1 32361			the lycanthrope to Along a Spooky Path on the Confines of the Graveyard
+*
+M 1 32342 1 32367			John to Along a Spooky Path on the Confines of the Graveyard
+E 1 32316 100 16
+E 1 32317 100 17
+*
+M 1 32341 1 32364			Bob to Along a Spooky Path on the Confines of the Graveyard
+S
+
+
+#SPECIALS
+M  32302 spec_guard                     a graveyard guardian
+M  32303 spec_guard                     a graveyard guardian
+M  32304 spec_guard                     a graveyard sentry
+M  32305 spec_guard                     a graveyard sentry
+M  32315 spec_cast_undead                       a stone gargoyle
+S
+
+
+#$

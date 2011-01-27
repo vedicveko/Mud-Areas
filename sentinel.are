@@ -1,0 +1,3618 @@
+#AREA   The Sentinel~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+5 10 0 65
+$
+
+#RESETMSG The cry of a Skulk can be heard in the distance...~
+
+#FLAGS
+0
+
+#ECONOMY 0 435540
+
+#MOBILES
+#1500
+papa kurst~
+Papa Kurst~
+A grizzled old man stares in concern at the walls of the inn.
+~
+The elder of the village, Papa Kurst is a hardy old coot, with years
+of experience in the ways of the world to aid him in leading his beloved
+village. He will not tolerate any trouble, but will be glad to see any
+adventurers who would help him against the enemy.
+~
+131 680 400 C
+11 0 0 0d0+0 0d0+0
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 544 2
+> act_prog p from the west.~
+if ispc($n)
+say Greetings, fair adventurer, and welcome to Kusnir.
+say I wish I could welcome you under more pleasant 
+say circumstances, but our little village is in dire peril.
+frown
+say Kusnir has recently become the hunting ground of a beast,
+say we presume it to be a Skulk, which slips in during the
+say night and slays the weak and elderly. Normally we would
+say have the means to deal with such a threat, but this being
+say has proved to be... unusual. Do you wish to hear more?
+, raises an eyebrow expectantly, awaiting your reply.
+else
+smile $n
+endif
+~
+> speech_prog p yes~
+say Excellent. Your willingness to listen bodes well.
+say This Skulk is apparently either possessed, mad, or both.
+say Recently it has taken to ignoring babes it could easily slay,
+say or scrawling messages in its own blood on the walls, as you
+say can see here...
+, points to a white wall, covered in crimson stains.
+say What does it mean? I know not. But one thing is for certain-
+say Only an adventurer of stout heart and strong sword can lay
+say such a beast to rest. I implore thee, seek out the Skulk and
+say destroy it. 
+sigh
+~
+> speech_prog p no~
+if isgood($n)
+gasp
+say How could one of such good mein refuse to help us?
+say You are a discredit to the alignment you profess to follow.
+else
+nod
+say I expected as much from a vagrant adventurer, a vagabond
+say that feeds from all it encounters like a parasite, sucking
+say up gold and destroying everything. Leave, then, and ignore our
+say doomed little village.
+endif
+~
+> rand_prog 2~
+sigh
+mutter
+~
+> act_prog p from the east.~
+if ispc($n)
+say Have you slain the Skulk? Pray, show me its head!
+else
+endif
+~
+|
+#1501
+innkeeper~
+the innkeeper~
+A red-faced, portly chap hurries about serving ales.
+~
+The innkeeper appears to be far too busy to serve you; in fact you
+rather fancy that he is ignoring you, on account of you not being
+a local. Perhaps a bag of gold would draw his attention...?
+~
+3 512 0 C
+11 0 0 0d0+0 0d0+0
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 528 2
+> fight_prog 100~
+say No fighting in here, thanks!
+mea $n A burly farmer grabs your arms, while another knocks you on
+mea $n the head with a heavy tankard. When you come to, you are lying
+mea $n in the dirt outside the village.
+mpechoar $n Two burly peasants grab $n and knock $m out, then drag 
+mpechoar $n $m outside.
+mptrans $n 1500
+~
+> greet_prog 100~
+mutter
+say One at a time! I only 'ave two 'ands, yer know!
+roll
+~
+> bribe_prog 100~
+boggle
+, stops everything and gives you his undivided attention.
+say Soooo, after something are ye? Let me guess...
+say Papa Kurst has roped you in to findin' that Skulk, eh?
+nod
+say Ok, this is wot I've 'eard...
+, scratches his head, and tries to remember one of the many rumors.
+if rand(30)
+say Rats n Xvarts 'ave been attacking villages nearby, maybe 'e's with them!
+else
+if rand(40)
+say Mebbe its an assassin, disguised as a Skulk!
+wink
+else
+if rand(50)
+say I 'ear them Xvarts be camped up northeast, mebbe they know...
+shrug
+else
+if rand(60)
+say People disappear in the woods near 'ere, northeast of 'ere...
+else
+if rand(70)
+say Mebbe a demon from the lake 'as taken over... Mebbe...
+hmm
+else
+say I dunno, I can't think of anythin unusual...
+endif
+endif
+endif
+endif
+endif
+~
+> rand_prog 2~
+mpjunk gold
+sigh
+say So bloody busy, wot with this fishin' carnival an' all.
+~
+|
+#1502
+bandit ~
+a bandit~
+A rather shady individual steps out of the trees.
+~
+This poorly armed ruffian has seen his fair share of brawls, but hasn't 
+up till now been foolish enough to trouble a well armed adventurer. But
+the Skulk and the Xvarts have caused travel along this road to dwindle to
+almost nothing, and he is desperate.
+~
+35 512 -200 C
+5 0 0 0d0+0 0d0+0
+50 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 2047 0 0 0 0 2
+> act_prog p leader flees head over heels!~
+mutter
+say 'E's split! Leg it!
+flee
+flee
+flee
+~
+|
+#1503
+bandit leader~
+the bandit leader~
+A burly vagabond with an eyepatch and a sneer grins evilly.
+~
+This poorly armed ruffian has seen his fair share of brawls, but hasn't 
+up till now been foolish enough to trouble a well armed adventurer. But
+the Skulk and the Xvarts have caused travel along this road to dwindle to
+almost nothing, and he is desperate.
+~
+35 512 -400 C
+6 0 0 0d0+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 2047 0 0 0 96 524291
+> greet_prog 100~
+say Stop right there!
+say Hand over yer gold and yer weapons, or perish!
+grin
+~
+> fight_prog 20~
+disarm
+evilgrin
+~
+> hitprcnt_prog 25~
+say This is too rough for me, I'm off!
+flee
+flee
+flee
+scream
+flee
+flee
+flee
+~
+|
+#1504
+brown bear~
+the brown bear~
+A brown bear snores peacefully, nestled in between two large oaks.
+~
+This peaceful ursine creature is causing no problems, and other creatures
+wisely prefer not to cause it any problems in return.
+~
+67 33280 -50 C
+8 13 3 8d8+80 2d6+2
+0 2000
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+24 3 0 0 512 512 1
+0 0 263853 0 0 0 3 2
+> rand_prog 5~
+snore
+mpasound A loud snoring sound can be heard from nearby.
+~
+> fight_prog 15~
+mpe The bear roars in anger at being disturbed and assaulted!
+mpforce $n cringe
+~
+> rand_prog 100~
+stand
+~
+|
+#1505
+mountain lion~
+a mountain lion~
+A sleek mountain lion growls menacingly from its stone ledge.
+~
+This lithe feline is a pet of whatever resides here; you are certain
+now that the Xvarts are gone; they do not usually cohabit with such
+beasts.
+~
+35 512 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 16 13 13 13
+0 0 0 0 0
+74 3 0 0 512 512 0
+0 0 33883709 0 0 0 3 2
+> greet_prog 100~
+mpe As the lion leaps forward, a thief appears from nowhere and strikes!
+mptrans detrak
+mpforce detrak backstab $n
+mpforce detrak kill $n
+~
+|
+#1506
+detrak half-orc thief~
+Detrak~
+A greasy half-orc clad in leather armor sits at a table.
+~
+Detrak is an unsavory half-orc, one of a family of such beasts that
+have taken over the Xvart lair, and set it up as base of operations for
+their own purposes. He will not reveal what these are (he does not know),
+and will fight to the death. He is an intelligent and cunning foe, and
+will be difficult to defeat.
+~
+35 98848 -600 C
+7 0 0 11d1+120 0d0+0
+500 0
+8 8 1
+14 13 13 16 13 13 13
+0 0 0 0 0
+7 2 0 0 16417 32 0
+0 0 2047 0 0 0 1600 3
+> greet_prog 100~
+backstab $n
+gouge
+circle $n
+disarm
+cackle
+~
+> fight_prog 20~
+circle $n
+gouge
+cackle
+~
+> fight_prog 10~
+mpe $I leaps back and whips out a sling.
+mpe With unerring accuracy, he lobs a lead bullet at you!
+mpdamage $n 15
+snicker
+~
+> rand_prog 2~
+mpat 3 c 'cure blindness'
+mpat 3 c 'cure poison'
+mpat 3 c 'remove curse'
+mpat 3 c heal
+wield longsword
+snicker
+hide
+sneak
+~
+|
+#1507
+owlbear~
+an owlbear~
+A hideous bird bear hybrid roars in anger.
+~
+This abberation defies description. A magical hybrid of an owl and
+a bear, it is hideously strong and vicious, with massive claws that
+can rend steel and a beak that can penetrate solid iron.
+~
+35 33320 -400 C
+8 0 -33 0d0+0 0d0+0
+0 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1711276033 1711276032 0
+0 0 33818172 3149072 0 0 131 2
+#1508
+giant rat~
+a giant rat~
+A giant rat scurries over the dried vegetable matter.
+~
+~
+99 512 -200 C
+4 0 -10 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 512 512 0
+0 0 67081 0 0 0 1 2
+#1509
+caterwaul~
+a caterwaul~
+A ferocious feline humanoid leaps about the room.
+~
+Standing nearly five feet tall, this vicious feline has claws capable
+of rending flesh as easily as paper, and can utter a most dismaying
+wail, to put fear into the hearts of the most stout of adventurers.
+~
+35 33312 -500 C
+8 0 0 0d0+0 0d0+0
+500 0
+8 8 2
+13 13 13 18 13 13 13
+0 0 0 0 0
+74 3 0 0 512 512 0
+0 0 33883711 0 0 0 3 2
+> fight_prog 15~
+mpe The Caterwaul lets forth a bloodcurdling shriek!
+mpdamage $n 25
+~
+|
+#1510
+skeleton~
+A skeleton~
+A human skeleton staggers to its feet.
+~
+Once an adventurer such as yourself, this unfortunate soul was left to
+starve to death after the Xvarts bailed, and was animated as an undead
+due to the vile nature of his demise.
+~
+35 8712 -400 C
+5 0 -10 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+60 0 0 0 4096 4096 0
+0 0 7 64 3106 17 32 3
+#1511
+lavinia mage human~
+Lavinia~
+An unkempt human mage snarls at the orcs accompanying here.
+~
+This foul human has mated with an orc and produced four sons, who
+serve her loyally as part of her brigand force. She is cold, calculating
+and totally ruthless.
+~
+35 520 -650 C
+7 0 0 0d0+0 0d0+0
+1500 0
+8 8 2
+9 13 13 16 13 13 13
+0 0 0 0 0
+0 3 0 0 16433 1 0
+0 0 2039 1051648 0 0 0 3
+> greet_prog 100~
+if ispc($n)
+peer
+say Found us, someone did! Kill them, me sons!
+snarl
+say Ye'll not get the sentinel afore us, mateys!
+wink
+c sanc
+else
+endif
+~
+|
+#1512
+finnock half-orc~
+Finnock~
+An ugly orc-human hybrid snarls and mutters in contempt.
+~
+Finnock is an unsavory half-orc, one of a family of such beasts that
+have taken over the Xvart lair, and set it up as base of operations for
+their own purposes. He will not reveal what these are (he does not know),
+and will fight to the death. He is an intelligent and cunning foe, and
+will be difficult to defeat.
+~
+35 98848 -600 C
+6 0 0 11d1+120 0d0+0
+500 0
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 16417 32 0
+0 0 2047 0 0 0 1088 3
+#1513
+prakrit half-orc warrior~
+Prakrit~
+A scrawny half-orc warrior brandishes a dirty blade.
+~
+Prakrit is an unsavory half-orc, one of a family of such beasts that
+have taken over the Xvart lair, and set it up as base of operations for
+their own purposes. He will not reveal what these are (he does not know),
+and will fight to the death. He is an intelligent and cunning foe, and
+will be difficult to defeat.
+~
+35 98848 -600 C
+6 0 0 11d1+120 0d0+0
+500 0
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 33 32 0
+0 0 2047 0 0 0 16 3
+#1514
+redec half-orc assassin black~
+Redec~
+A half-orc clad all in black silently draws his weapons.
+~
+Redec is an unsavory half-orc, one of a family of such beasts that
+have taken over the Xvart lair, and set it up as base of operations for
+their own purposes. He will not reveal what these are (he does not know),
+and will fight to the death. He is an intelligent and cunning foe, and
+will be difficult to defeat.
+~
+35 98848 -600 C
+6 0 0 11d1+120 0d0+0
+500 0
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+7 2 0 0 16417 32 0
+0 0 2047 0 0 0 512 3
+#1515
+urquant monk~
+Urquant~
+An old man clad in grey robes stands here.
+~
+Urquant is a monkg, of a powerful and ancient order, here to see the
+hermit Quern. Dismayed by his friend's death, he now stands here
+beseeching all who pass to aid him in slaying the foul monsters that
+killed the hermit.
+~
+3 8744 750 C
+10 0 0 10d5+350 0d0+0
+500 0
+8 8 1
+16 13 13 16 13 13 13
+-5 -5 -5 -5 -5
+0 1 0 0 1 1 0
+0 0 2047 0 2048 0 880 2
+> fight_prog 20~
+say Feel the fury of fist and foot!
+kick
+punch
+kick
+punch
+~
+> act_prog p from the north-east.~
+if ispc($n)
+bow 
+say Greetings, adventurer.
+say I am Urquant, a simple monk, and though I am loathe to
+say trouble you, I must needs ask of you a favor. Will you
+say grant me that?
+else
+endif
+~
+> speech_prog p no~
+nod
+say I understand. Pray, good day to you adventurer.
+sigh
+~
+> speech_prog p yes~
+nod
+say Knew you would. Now, a friend of mine, Quent the hermit,
+say has fallen prey to foul stoneskinned winged beings, that
+say now cackle and cavort over his corpse just east of here.
+sigh
+say Try as I might, I cannot damage their hides with my fists.
+say I imagine some sort of magical weapon is needed to harm them.
+shrug
+say Help me, and their treasure is yours.
+~
+> act_prog p from the east.~
+say Well, did ye kill them!
+~
+> give_prog head gargoyle~
+smile
+say Thank you so much, $n!
+say My faith is restored in humanity. Now I may bury my friend.
+mpe $I heads off with spade and pick to consign the remains to the earth.
+mpe He returns shortly, mumbling prayers and exhortations.
+say Thank you again. All the gargoyle's gold is yours, as I promised.
+mpe You notice Urquant has removed several history texts from the cave.
+mpe Perhaps there are other books of value still inside?
+mpat 2 drop head
+~
+|
+#1516
+gargoyle~
+a gargoyle~
+A stony skinned avian cackles as it tears at rotting flesh.
+~
+A foul, fecund creature of dubious origin, the gargoyle is a threat
+to most sturdy warriors only due to its nigh invulnerable hide, which
+no nonmagic weapon can penetrate.
+~
+99 524840 -745 C
+8 0 0 0d0+0 0d0+0
+500 0
+8 8 1
+13 13 13 20 20 13 13
+-5 -5 -5 -5 -5
+34 3 0 0 8192 8192 0
+0 0 1377855 2100431 12576 16 7 2
+> rand_prog 2~
+cackle
+drool
+mpasound A high pitched cackling comes from somewhere nearby.
+~
+> death_prog 100~
+mpe As the monster perishes, its head is torn from its shoulders.
+mpe It rolls across the ground a few times before stopping at your feet.
+mpe This should prove to Urquant the proof of your deed!
+mpoload 1532
+drop head
+~
+|
+#1517
+peryton~
+a peryton~
+A large bird with the head of a deer flies about.
+~
+Magical beings, the peryton cannot be harmed by any nonmagic weapon,
+such is the strange magic woven into its creation.
+~
+35 557568 -700 C
+8 0 0 0d0+0 0d0+0
+1200 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 1345065 0 8192 0 514 2
+#1518
+giant badger~
+a giant badger~
+A badger the size of a small pony wanders out of the undergrowth.
+~
+This large mammal doesn't seem unduly concerned by your presence;
+staring at the long sharp claws on its paws you figure keeping it peaceful
+is probably a good idea.
+~
+3 512 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 0
+0 0 329401 0 0 0 3 0
+#1519
+giant centipede~
+a giant centipede~
+A giant centipede, as long as your leg, crawls out of the rubble.
+~
+Foul insects abound in ruined structures, and this villa has its fair
+share, including several such foul centipedes.
+~
+35 33280 0 C
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36 0 0 0 262145 2
+#1520
+stunjelly~
+a stunjelly~
+A section of wall seems to come alive!
+~
+The stunjelly is a creature capable of mimicking objects in order to
+surprise its prey, which it poisons then devours.
+~
+35 552 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 10 -10
+52 3 0 0 8192 8192 0
+0 0 0 16 2048 64 128 0
+#1521
+baby peryton~
+a baby peryton~
+A large bird with the head of a deer flies about.
+~
+Magical beings, the peryton cannot be harmed by any nonmagic weapon,
+such is the strange magic woven into its creation.
+~
+35 557568 -400 C
+4 0 0 0d0+0 0d0+0
+400 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 1345065 0 8192 0 514 2
+#1522
+sheet phantom~
+a Sheet Phantom~
+A piece of white cloth falls from the ceiling.
+~
+Resembling nothing so much as an animated bedsheet, this creature 
+devours its prey by engulfing them or slashing with sharp claws.
+~
+35 590378 -400 C
+8 0 0 0d0+0 0d0+0
+5000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 -5 0 -5
+84 3 0 0 4096 4096 0
+0 0 0 16 262 0 6 2
+#1523
+sheet ghoul~
+a Sheet Ghoul~
+A strip of white cloth spurts acid at you!
+~
+Resembling nothing so much as an animated bedsheet, this creature 
+devours its prey by engulfing them or slashing with sharp claws.
+Sheet ghouls can in addition squirt acid into the eyes of their victims.
+~
+35 590378 -400 C
+6 0 0 0d0+0 0d0+0
+5000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 4096 4096 0
+0 0 0 16 262 0 6 2
+#1524
+iron cobra~
+an iron cobra~
+A cobra fashioned from iron rears on its tail near the lectern.
+~
+Magical creations, these cobras are small but virtually indestructible
+guardians of labs and the like.
+~
+3 8744 0 C
+5 0 -300 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 0 719 2100512 0 5 2
+> act_prog p gets a spell book.~
+mea $n As you touch the spell book, the cobra comes to life!
+c poison $n
+~
+|
+#1525
+skulk~
+the skulk~
+A thin white creature huddles near the wall.
+~
+Once a deadly killer, this creature has had its mind broken by some
+magical force, and is now no threat to anyone. Whimpering, it cowers
+away from you, begging you not to hurt it.
+~
+131 98856 0 C
+8 0 0 1d1+1 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1 1 0
+0 0 0 0 3072 0 2051 2
+> greet_prog 100~
+if ispc($n)
+mpe As you approach the Skulk, a voice speaks inside your head.
+mpe _whi The Sentinel tells you 'At last you have found me! Pray, take me'
+mpe _whi The Sentinel tells you 'from the hand of this vile creature, and'
+mpe _whi The Sentinel tells you 'place me on your own. There is an evil force'
+mpe _whi The Sentinel tells you 'at work in the world, and I need you to take'
+mpe _whi The Sentinel tells you 'me and wield my power for the common good. I'
+mpe _whi The Sentinel tells you 'would ask that you spare the Skulk, for it'
+mpe _whi The Sentinel tells you 'has borne me well, despite its evil nature.'
+mpe The skulk looks at you imploringly, proffering the Sentinel. What say you?
+mpe _whi The Sentinel tells you 'Will you take me? Speak thus if so!'
+else
+endif
+~
+> speech_prog p I will take you~
+smile
+mpe A tear rolls down the creature's cheek.
+rem sentinel
+give sentinel $n
+mpe _lbl The Sentinel yells 'Hark, Gauntlet of Evil, I come for thee!'
+mpe With this final gesture, the Skulk slips outside into the darkness.
+mpgoto 1599
+~
+> rand_prog 2~
+, whimpers in fear and sadness.
+~
+|
+#1526
+presence~
+the Presence~
+A glowing black sphere of energy hovers here.
+~
+A vile manifestation of evil, this highly intelligent creature can
+actually do very little to defend itself, but the whisps it summons
+can fight for it, while it spends its time plotting evil deeds.
+~
+35 67633832 -700 C
+15 0 -100 0d0+0 0d0+0
+4000 0
+8 8 0
+13 22 13 13 13 13 13
+-20 -20 -20 -20 -20
+85 3 0 0 8193 1 0
+0 0 0 137 2109190 0 0 4
+> greet_prog 100~
+if ispc($n)
+mpe The black mass sends forth several pseudopods to intercept you.
+mpmload 1527
+mpforce whisp mpkill $n
+else
+endif
+~
+> fight_prog 20~
+mpmload 1527
+mpforce whisp mpkill $n
+~
+|
+#1527
+whisp~
+a whisp~
+A writhing green tentacular cloud wraps itself around your face.
+~
+~
+35 524840 -400 C
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 0 0 2100992 0 0 2
+#1528
+xvart male~
+a Xvart male~
+A squat, blueskinned creature brandishes his fist at you.
+~
+Short blueskinned cousins of goblins, these squat, ugly creatures are
+wicked, malicious and deadly in large numbers, though a strong organised
+attack by a seriously outnumbered group of adventurers can send them
+running.
+~
+35 512 -400 C
+5 0 0 0d0+0 0d0+0
+100 0
+8 8 1
+13 13 13 18 13 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 2047 0 0 0 0 2
+#1529
+xvart female~
+a Xvart female~
+A Xvart woman shrieks at your intrusion!
+~
+Short blueskinned cousins of goblins, these squat, ugly creatures are
+wicked, malicious and deadly in large numbers, though a strong organised
+attack by a seriously outnumbered group of adventurers can send them
+running.
+~
+39 512 -400 C
+5 0 0 0d0+0 0d0+0
+100 0
+8 8 2
+13 13 13 18 13 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 2047 0 0 0 0 2
+#1530
+xvart leader~
+the Xvart leader~
+A larger Xvart wielding a metal axe stomps around the hall.
+~
+Short blueskinned cousins of goblins, these squat, ugly creatures are
+wicked, malicious and deadly in large numbers, though a strong organised
+attack by a seriously outnumbered group of adventurers can send them
+running.
+~
+35 512 -400 C
+7 0 0 0d0+0 0d0+0
+500 0
+8 8 1
+13 13 13 18 13 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 2047 0 0 0 576 3
+> rand_prog 2~
+if inroom($i) == 1571
+grunt
+say Chief heap big tired now. Me sleep!
+, staggers drunkenly into his chambers.
+op w
+w
+close e
+, staggers in, obviously drunk, and collapses into a deep sleep.
+sleep
+snore
+else
+if inroom($i) == 1572
+stand
+, wakes and rubs his eyes sleepily.
+say Enough sleep. Me go eat and drink and sex em up now 'gain.
+grin
+op e
+e
+, comes bounding in, fresh and full of energy.
+close w
+else
+endif
+endif
+~
+|
+#1531
+large spider~
+a large spider~
+A large arachnid crawls across the floor.
+~
+~
+33 32768 -200 C
+6 20 0 1d12+8 1d4+0
+0 100
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 256 256 1
+0 0 1581 0 0 0 1 0
+#1532
+xvart mage~
+the Xvart mage~
+A Xvart clad in dirty blue robes stumbles about.
+~
+Short blueskinned cousins of goblins, these squat, ugly creatures are
+wicked, malicious and deadly in large numbers, though a strong organised
+attack by a seriously outnumbered group of adventurers can send them
+running.
+~
+3 512 -400 C
+7 0 0 0d0+0 0d0+0
+2000 0
+8 8 1
+13 13 13 18 13 13 13
+0 0 0 0 0
+39 0 0 0 16384 16384 0
+0 0 2047 0 0 0 0 3
+> fight_prog 10~
+c 'magic missile'
+c sleep $r
+~
+> greet_prog 100~
+snarl
+say You disturb my research! Take some time off!
+c sleep $n
+cackle
+say That's better!
+~
+|
+#1533
+xvart shaman~
+the Xvart shaman~
+A Xvart standing on stilts and wearing a hideous mask intimidates his peers.
+~
+Short blueskinned cousins of goblins, these squat, ugly creatures are
+wicked, malicious and deadly in large numbers, though a strong organised
+attack by a seriously outnumbered group of adventurers can send them
+running.
+~
+35 512 -400 C
+7 0 0 0d0+0 0d0+0
+2000 0
+8 8 1
+13 13 13 18 13 13 13
+0 0 0 0 0
+39 1 0 0 16384 16384 0
+0 0 2047 0 0 0 33554432 11
+> fight_prog 15~
+say May ooga boogah take your soul, $n!
+c curse 
+c blindness
+cackle
+~
+|
+#1534
+wererat~
+a wererat~
+A human with ratlike features rips the meat from a human femur.
+~
+The wererat is exactly that:  what appears to be a cross between a
+human and a rat.  He stands on two feet, but has the features, fur,
+and appendages of a common sewer rat.  At his size though, his
+disease-infected bite is especially deadly, so you had best
+be on your guard!
+~
+39 544 -500 C
+11 0 -25 0d0+0 0d0+0
+2760 0
+8 8 1
+15 13 13 18 16 10 0
+0 0 0 0 0
+77 2 0 0 1 1 0
+0 0 4524023 0 8448 0 69 1
+#0
+
+
+#OBJECTS
+#1500
+leather armor~
+leather armor~
+A suit of battered leather armor has been discarded here.~
+~
+9 0 9
+3 0 0 0
+2 10 1
+#1501
+short sword~
+a short sword~
+A battered short sword has been discarded here.~
+~
+5 524288 8193
+0 2 4 2
+2 35 3
+#1502
+wooden shield~
+a wooden shield~
+A battered wooden shield has been discarded here.~
+~
+9 0 513
+4 2 0 0
+3 50 5
+#1503
+black leather eyepatch~
+a black leather eyepatch~
+This eyepatch makes the wearer look dangerous and sinister.~
+~
+9 262144 131073
+2 0 0 0
+1 100 10
+A
+25 -2
+A
+19 1
+A
+18 1
+#1504
+gold ring~
+a gold ring set with jade~
+A piece of chipped jade is set in this gold ring.~
+~
+9 524288 3
+2 0 0 0
+1 200 20
+A
+3 1
+A
+4 1
+#1505
+leather armor~
+leather armor~
+A suit of black leather armor lies here.~
+~
+9 262672 9
+5 0 0 0
+2 400 40
+A
+17 -10
+A
+13 5
+A
+18 2
+A
+22 -1
+#1506
+longsword~
+a longsword~
+A thin, pointed longsword, ideal for stabbing, is here.~
+~
+5 524288 8193
+0 0 0 2
+2 800 80
+A
+18 2
+#1507
+aquamarine gem~
+an aquamarine~
+An aquamarine gleams prettily in the light.~
+~
+8 0 1
+0 0 0 0
+1 80 8
+#1508
+pouch belt~
+a pouch belt~
+This belt has numerous pouches incorporated into its seams.~
+~
+15 0 2049
+50 5 -1 2
+1 750 75
+#1509
+chest~
+an iron chest~
+An iron chest lies partially concealed by the table.~
+~
+15 262144 0
+1000 5 -1 0
+10 5560 556
+#1510
+powdered wig~
+a powdered wig~
+My. How dandy. A powdered wig.~
+~
+9 64 17
+4 0 0 0
+1 1050 105
+A
+3 1
+A
+2 1
+A
+12 20
+A
+19 1
+A
+24 -2
+#1511
+gold~
+a pile of gold coins~
+A pile of gold coins is scattered on the floor.~
+~
+20 0 1
+1500 0 0 0
+1 0 0
+#1512
+lavinia spell book~
+Lavinia's spell book~
+A tattered spell book lies on the ground.~
+~
+2 80 16385
+22 29 7 20
+5 1575 157
+A
+12 33
+#1513
+thick metal chain~
+a thick metal chain~
+A thick band of iron, crafted to bind something, lies here.~
+~
+9 524288 2049
+10 0 0 0
+30 50 5
+A
+1 1
+A
+5 1
+A
+13 10
+A
+19 1
+A
+22 -2
+#1514
+cloak elvenkind~
+cloak of elvenkind~
+A simple brown cloak of wrinkled linen hangs by the door.~
+~
+9 96 1025
+5 0 0 0
+1 15750 1575
+A
+2 2
+A
+12 10
+A
+13 10
+A
+18 2
+A
+19 2
+> wear_prog 100~
+if race($n) == elf
+mea $n You slip easily into this garment of your people.
+else
+if race($n) == half-elf
+mea $n You slip easily into this elven-made garment.
+else
+mea $n The cloak slips from your shoulders as you don it.
+mpforce $n remove elvenkind
+mpforce $n drop elvenkind
+endif
+endif
+~
+|
+#1515
+pile garbage~
+a pile of garbage~
+A pile of rotting plants, broken furniture and splintered wood fills the tunnel.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#1516
+potion~
+a potion of healing~
+A vial of oily liquid sits here.~
+~
+10 64 1
+12 15 -1 -1
+1 450 45
+#1517
+ivory dice~
+ivory dice~
+A pair of ivory dice has been discarded here.~
+~
+9 524288 16385
+2 0 0 0
+1 100 10
+A
+31 1
+A
+24 -1
+#1518
+gold xvart idol~
+a gold Xvart idol~
+A gold idol the size of your forearm rests here.~
+~
+9 524368 16385
+6 0 0 0
+22 2200 220
+A
+13 20
+A
+12 20
+A
+14 20
+A
+18 2
+A
+19 2
+#1519
+iron bracers~
+iron bracers~
+A pair of iron bracers lie open on the floor.~
+~
+9 524288 257
+4 0 0 0
+2 40 4
+A
+17 -5
+A
+1 2
+#1520
+dagger~
+a rune covered dagger~
+A dagger of black metal inscribed with glowing red runes lies here.~
+~
+5 524288 8193
+0 0 0 11
+5 2500 250
+A
+3 1
+A
+14 25
+A
+18 2
+#1521
+long dark red robe~
+a dark red hooded robe~
+A dark red robe is draped on the ground.~
+~
+9 0 9
+5 0 0 0
+20 75 7
+A
+3 1
+A
+4 1
+A
+12 10
+#1522
+necklace topaz~
+topaz necklace~
+You see a necklace of small pieces of topaz.~
+~
+8 0 5
+0 0 0 0
+1 1800 180
+#1523
+long sword~
+a long sword~
+A sword of average make is visible here.~
+~
+5 524288 8193
+10 0 0 3
+6 100 10
+#1524
+travelling cloak~
+Travelling cloak~
+A cloak of brown and grey is here.~
+~
+9 262144 5
+9 0 0 0
+3 25 2
+A
+5 1
+A
+13 25
+#1525
+platinum clasp~
+a small platinum clasp~
+A platinum clasp from a cloak has fallen to the ground.~
+~
+8 524288 5
+0 0 0 0
+1 160 16
+#1526
+dark green robe~
+dark green robes~
+You see a pile of deep green cloth.~
+~
+9 262144 1025
+5 0 0 0
+3 50 5
+A
+1 1
+A
+14 50
+#1527
+throwing dagger~
+a throwing dagger~
+A perfectly balanced throwing dagger is wedged in a crack.~
+~
+5 524288 8193
+0 0 0 11
+1 500 50
+A
+18 2
+A
+2 1
+#1528
+black cloak~
+black cloak~
+A pile of black cloth has been dropped.~
+~
+9 262144 5
+4 0 0 0
+3 25 2
+A
+26 32768
+#1529
+gold ring~
+a gold ring~
+A plain band of gold is here.~
+~
+9 524352 3
+2 0 0 0
+1 1000 100
+A
+18 1
+A
+19 1
+#1530
+broadsword~
+a broadsword~
+This heavy blade was forged in blood and fire.~
+~
+5 524352 8193
+0 0 0 3
+9 15650 1565
+A
+1 1
+A
+13 10
+A
+18 1
+A
+19 2
+#1531
+gray robes~
+gray robes of the monk~
+A monk's gray habit has been tossed aside for more colorful garments.~
+~
+9 8750144 1025
+4 0 0 0
+4 2500 250
+A
+5 1
+A
+4 1
+A
+17 -20
+A
+19 2
+#1532
+head gargoyle~
+gargoyle head~
+A stone head lies on the ground.~
+~
+13 0 16385
+0 0 0 0
+10 5750 575
+#1533
+mug ale~
+a mug of ale~
+A mug of ale awaits consumption.~
+~
+17 0 16385
+4 4 4 0
+2 50 5
+#1534
+bowl irish stew~
+a bowl of irish stew~
+A bowl of steaming Irish stew sits on a benchtop.~
+%s tuck$q into $p with great gusto.~
+19 0 1
+24 0 0 0
+2 100 10
+#1535
+corpse tree~
+a corpse hanging from a tree~
+A half-eaten corpse dangles from a tree.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#1536
+wooden box~
+a small wooden box~
+A small wooden box lies unopened on the floor.~
+~
+15 262144 1
+100 5 -1 0
+2 100 10
+#1537
+periapt health~
+a periapt of health~
+A small gem has been dropped here.~
+~
+9 64 16385
+2 0 0 0
+1 50000 5000
+A
+5 2
+A
+27 256
+#1538
+backpack~
+a backpack~
+A large backpack brims with equipment.~
+~
+15 262144 9
+200 5 -1 0
+10 500 50
+#1539
+unicorn horn medallion~
+a unicorn horn medallion~
+A medallion fashioned from unicorn horn hangs from a delicate silver chain.~
+~
+9 8504576 5
+5 0 0 0
+1 50000 5000
+A
+4 2
+A
+12 30
+#1540
+brass lectern~
+a brass lectern~
+A brass lectern stands in the center of the library.~
+~
+8 0 1
+0 0 0 0
+200 300 30
+#1541
+spell book~
+a spell book~
+A spell book sits open on the lectern.~
+~
+2 64 16385
+20 292 206 208
+3 10000 1000
+A
+3 3
+#1542
+scorched remains goblin~
+the scorched remains of a goblin~
+The scorched remains of a goblin lie near the burnt wood.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+remains goblin~
+It appears the unlucky fellow triggered a trap of some sort when he
+tried to open the door.
+~
+#1543
+sentinel glove~
+The Sentinel~
+A white glove with a single pearl ring on the index finger lies here.~
+~
+9 1088 129
+17 0 0 0
+2 150000 15000
+A
+33 25
+A
+26 8192
+A
+26 4
+A
+12 25
+> wear_prog 100~
+if isgood($n)
+mea $n The glove imbues you with its magical power.
+c shield $n
+else
+endif
+~
+> get_prog 100~
+if isgood($n)
+say Yes! Take me and wear me, let us rid the world of evil!
+else
+endif
+~
+> remove_prog 100~
+if isgood($n)
+say No! We have so much more to do! Please, $n, wear me!
+mpforce $n hmm
+else
+endif
+~
+> damage_prog 100~
+say Ouch! That HURT! Pray be more careful with me!
+~
+> repair_prog 100~
+say Ahhh, that's better!
+~
+> sac_prog 100~
+say Uh oh...
+~
+> drop_prog 100~
+say Oh that's right, drop me in the dirt. How rude!
+~
+> exa_prog 100~
+say That tickles!
+~
+> zap_prog 100~
+say Ha! Only one of pure heart may wear me, scion of evil!
+~
+|
+#1544
+shelf~
+a wooden shelf~
+A single wooden shelf is affixed to the west wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#1545
+hand axe~
+a hand axe~
+A hand axe covered in runes lies here.~
+~
+5 524352 8193
+0 2 15 3
+3 2100 210
+A
+18 1
+A
+19 1
+#1546
+loop gold wire~
+a loop of gold wire~
+A loop of gold wire lies here.~
+~
+9 524288 65537
+3 0 0 0
+1 19 1
+A
+31 2
+#1547
+leather jerkin~
+a thick leather jerkin~
+A small leather jerkin, suitable for a demihuman at best, lies here.~
+~
+9 262144 9
+6 0 0 0
+5 400 40
+A
+1 1
+A
+2 1
+A
+5 1
+> wear_prog 100~
+if race($n) == half-troll
+mea $n This is too small for you!
+mpforce $n remove jerkin
+else
+if race($n) == half-troll
+mea $n This is too small for you!
+mpforce $n remove jerkin
+else
+mea $n This jerkin is a snug fit!
+endif
+endif
+~
+|
+#1548
+jar~
+a large glass jar~
+This glass jar looks as if it once contained yeast.~
+~
+15 0 1
+25 5 -1 0
+1 250 25
+#1549
+ring magic ~
+a lightweight ring~
+This ring weighs almost nothing!~
+~
+9 524352 3
+4 0 0 0
+1 15000 1500
+A
+26 2097152
+#1550
+fine silk doublet~
+a fine silk doublet~
+A flimsy garment made of silk has been left here.~
+~
+9 0 9
+2 0 0 0
+1 50 5
+A
+25 2
+#1551
+staff xvart mage~
+staff of the Xvart mage~
+A long wooden staff lies on the floor.~
+~
+4 64 16385
+10 5 5 38
+1 0 0
+#1552
+ceremonial mask~
+a Xvart ceremonial mask~
+Xvart culture is a joke to sociologists; here is an ugly example of why.~
+~
+9 4820 17
+4 0 0 0
+10 5 0
+A
+3 -1
+A
+4 -1
+A
+25 -3
+A
+18 -2
+#1553
+stilts~
+a pair of stilts~
+A pair of wooden stilts lies here.~
+~
+9 262144 65
+5 0 0 0
+1 10 1
+A
+2 -2
+A
+14 -75
+#1554
+scroll~
+a Xvart scroll~
+The magic on this scroll, while crude, works reasonably well.~
+~
+2 80 1
+10 43 17 33
+1 500 50
+#1555
+studded shield~
+a studded shield~
+A studded metal shield rolls about on the floor.~
+~
+9 524352 513
+11 0 0 0
+2 400 40
+A
+17 -10
+A
+24 -1
+A
+23 -1
+A
+18 1
+A
+19 1
+#0
+
+
+#ROOMS
+#1500
+Approaching Kusnir~
+A small collection of whitewashed stone buildings to the east, known
+collectively as the village of Kusnir, draws your attention, and is a
+welcome break in the tedium of the trail, which thus far has boasted as
+diversions only the occasional farmhouse or broken cart. The shimmering
+waters of a lake lie to the south, the lifeline of the village economy,
+which even from here can be determined to be fishing; the abundance of
+boats, nets and piles of fish on the shore a sure hint. It seems unlikely
+that such a place would hold much of interest to a person in search of
+fame and fortune, but who can tell?
+~
+0 0 1
+D1
+~
+~
+0 -1 1501
+S
+#1501
+Kusnir~
+This part of the village is the square, onto which the small collection
+of two storey whitewashed buildings face. Visible from here are such
+structures as a temple, an inn and several small shops, though none of
+them appear to contain much of interest to an adventurer. Netmakers,
+boatbuilders and fisherman congregate nearby, all profiting from the
+bustling trade made possible by the fish-rich waters of Lake Spendlowe,
+which lies to the southwest; its waters are visible from here. Several
+villagers stop and stare at you, curious at your strange attire and
+foreign ways. Many of the smaller settlements of Brythunia are rather
+parochial, and it seems that Kusnir is no different. A busy inn lies to
+the north; doubtless you will find sustenance and perhaps information
+in this place.
+~
+0 0 1
+D0
+~
+~
+0 -1 1502
+D1
+~
+~
+0 -1 1503
+D3
+~
+~
+0 -1 1500
+S
+#1502
+The Bridge and Barrel~
+The interior of the inn is brightly lit, and boasts several stained
+wooden benches surrounded by chairs, polished smooth by contact with
+thousands of rumps over the decades. A small sign hanging above the
+busy bar proclaims- NO VACANCY; it seems surprising that such a small
+town would provide sufficient customers for an inn. But there did seem
+to be quite a lot of people gathered at the lake; perhaps some sort of
+local fishing event is taking place. Shrugging, you move in, shouldering
+your way past rude fishermen and drunken farmers. Raising your voice
+to draw the harried innkeep's attention, you turn away from his sweaty,
+annoyed face and stare out at the crowd.
+~
+0 8 0
+D2
+~
+~
+0 -1 1501
+S
+#1503
+Leaving Kusnir~
+A dirt trail leads away from the village, heading northeast along the
+shores of the river Lewyn, the mighty tributary of the Phlugistrum
+that feeds Lake Spendlowe. The ground rises slightly as it passes into
+a lightly wooded area, which is infrequently used as a source of lumber
+for new ships when the need arises. Few people travel in this direction,
+for little of interest is here, save perhaps for the rumors of a ruined
+fort somewhere in the wooded hills.
+~
+0 0 1
+D3
+~
+~
+0 -1 1501
+D6
+~
+~
+0 -1 1504
+S
+#1504
+Travelling Along the Lewyn's Shore~
+The swiftly flowing waters of the Lewyn, pouring southwest from the
+Phlugistrum into Lake Spendlowe, echoes pleasantly among the trees,
+which tower gracefully to either side of you. There is evidence of
+recent logging here, with several stumps protruding at odd intervals,
+not yet covered in moss and debris. Unusually enough, several tools
+such as axes and saws have been left here, as if someone took off in
+a hurry and never came back for their possessions. Rain and the elements
+have quickly rendered them useless, so you step over them and press on.
+~
+0 0 3
+D6
+~
+~
+0 -1 1505
+D9
+~
+~
+0 -1 1503
+S
+#1505
+A Break in the Trail~
+At this point a small clearing has been carved from the forest, and
+the trail twists as it passes through, following the circuitious path
+of the river. The remains of several old campfires mark the spots where
+lumberjacks and other travellers have stopped to rest and partake of
+a meal and a drink from the clear waters of the Lewyn. The forest is 
+strangely silent, you suddenly notice, a sure sign that something nearby
+has frightened the timid inhabitants into a mute state. 
+~
+0 0 2
+D1
+~
+~
+0 -1 1506
+D9
+~
+~
+0 -1 1504
+S
+#1506
+Deeper in the Forest~
+The trees begin to thicken here, and press closer to the rutted trail,
+causing you to feel slightly claustrophobic. Alert for further ambushes
+after the events in the clearing, you stare carefully at the trees to
+either side, expecting a foe behind each one. The sun cannot penetrate
+far through the thick canopy of branches and leaves overhead, and more than
+once you stumble over a protruding root in the gloom.
+~
+0 0 3
+D3
+~
+~
+0 -1 1505
+D6
+~
+~
+0 -1 1507
+S
+#1507
+Approaching the Stockade~
+At this point the ground rises rather sharply, as a small hillock
+breaks the forest and the surrounding terrain. The Leywn diverts to
+the east, circumventing the hill. Further progress past the hillock is
+not possible, barred by an impenetrable wall of trees offering no break
+or trail, which leaves only the wooden stockade, situated atop the hill,
+to explore. Helmets poke out from the tops of the wooden walls, indicating
+that the fortress is certainly manned, though you do not know of many
+humanoids who wear such helmets. There is no sign of a gate; it has either
+been boarded up or never existed in the first place, suggesting an alternate
+entrance may have at one stage existed. The path circles the stockade to
+the east, while the wall looms to the north.
+~
+0 0 4
+D0
+~
+~
+0 -1 1508
+D1
+~
+~
+0 -1 1509
+D9
+~
+~
+0 -1 1506
+S
+#1508
+End of the Trail~
+Further progress around this side of the stockade is made impossible
+by the dense undergrowth of the forest, a superb addition to the defense
+already offered by the sharpened stakes that form the walls of the 
+stockade. Frustrated, you mutter to yourself and decide you will have to
+head back and try to find another way of accessing the stockade.
+ 
+Failing that, you could always try scaling the walls, which are at their
+lowest point here, ignoring the helmeted guardians standing there.
+~
+0 0 4
+D2
+~
+~
+0 -1 1507
+D4
+~
+~
+128 -1 1511
+S
+#1509
+Circling the Stockade~
+Whoever built this stockade certainly knew their tactics; access from
+the river to the south is made impossible by the steep cliff carved
+in the hillside by the swiftly flowing Lewyn, while thick forest frames
+it to the north, on the eastern and western flanks, leaving only a little
+over a third of the ground needing to be observed for assault by the
+sentries. Speaking of sentries, you note that no alarm has been raised by
+whoever is manning the walls; either they cannot see you, do not care, or
+are dead. At any rate, this stockade is becoming more peculiar by the minute.
+Certainly no Skulk could have constructed this, and you doubt that whoever
+did could be overcome by one.
+~
+0 0 4
+D3
+~
+~
+0 -1 1507
+D6
+~
+~
+0 -1 1510
+S
+#1510
+The End of the Trail~
+Further progress around this side of the stockade is made impossible
+by the dense undergrowth of the forest, a superb addition to the defense
+already offered by the sharpened stakes that form the walls of the 
+stockade. Frustrated, you mutter to yourself and decide you will have to
+head back and try to find another way of accessing the stockade.
+~
+0 0 4
+D9
+~
+~
+0 -1 1509
+S
+#1511
+Scaling the Walls~
+Tensing every muscle in your body, you run at the walls and leap up,
+grabbing at the thick ropes that bind the wood together, attempting
+to haul yourself up, expecting all the while for the guards to notice
+you and drop spears, rocks or oil down on your exposed head. But you
+reach the top unhindered, only to find that the helmets protect no head,
+spears rather, upon which they are propped at regular intervals, to give
+the semblance of a series of guards. Shaking your head, you peer into
+the compound enclosed within, and see only a watch tower, and a gaping
+hole carved into the highest section of the hillock. Evidently whatever
+resides here prefers a subterranean life.
+ 
+Descent into the stockade interior will be easy; a series of ladders
+have been left here, to allow whatever patrols these battlements to
+get up and down.
+~
+0 0 1
+D1
+~
+~
+0 -1 1512
+D5
+~
+~
+128 -1 1508
+S
+#1512
+Inside the Stockade~
+The interior of the stockade is plain and unremarkable, besides the
+tunnel, the packed earth showing signs of frequent usage at some stage
+in the past, but very few recent tracks, save for a few pairs of booted
+feet moving back and forth between the ladders; evidently made by whoever
+rigged the dummy guardsmen. The guard tower to the east appears to be
+rather delapidated, and is unmanned. 
+~
+0 0 1
+D1
+~
+~
+0 -1 1513
+D3
+~
+~
+0 -1 1511
+S
+#1513
+The Base of the Watch Tower~
+Here, at the base of the tower, you can see directly north into the
+tunnel, which descends sharply underground. The entrance is a little
+under six feet high, suggesting that whoever lives here is quite short,
+as are the majority of underground dwelling races. Gazing up at the tower,
+you aren't sure if climbing up the rickety ladder to the decaying wooden
+platform far above the ground would be such a great idea; it barely looks
+strong enough to support the weight of the few birds that nest there, let
+alone an armored adventurer.
+~
+0 0 1
+D0
+~
+~
+0 -1 1514
+D3
+~
+~
+0 -1 1512
+D4
+~
+~
+128 -1 1516
+S
+#1514
+Entrance to the Lair~
+This entrance is framed by two wooden stakes, each bearing various types
+of rusted metal armor, corroded weapons, and other implements of war, as
+well as various pots and pans, steak knives and even scraps of cloth and
+fine clothing. Virtually everything a traveller would be carrying is
+displayed here, evidently as trophies of some sort. This would certainly
+support the rumor that Xvarts lair here.
+~
+0 0 1
+D2
+~
+~
+0 -1 1513
+D5
+~
+~
+0 -1 1515
+S
+#1515
+An Abandoned Lair?~
+You pass into the subterranean lair, peering intently into the gloom,
+alert for ambush. Although it did surprise you a little to meet with
+no resistance up top, you put this down to the Xvart's known hatred and
+fear of light and open spaces. But you expected to have met with at least
+some resistance by now, but not a single creature steps out to bar your 
+path into the maze of tunnels that lies before you.
+~
+0 9 0
+D2
+~
+~
+0 -1 1520
+D3
+~
+~
+0 -1 1517
+D4
+~
+~
+0 -1 1514
+D6
+~
+~
+0 -1 1521
+S
+#1516
+The Ruined Watch Tower~
+The second you put weight upon the weakened floorboards, they give
+way beneath your feet, sending debris tumbling downwards. Without some
+magical means of support, you will not be able to stay on this platform
+for long.
+~
+0 16777216 1
+D5
+~
+~
+64 -1 1513
+S
+#1517
+A Net Trap~
+Traps abound in Xvart lairs, and this one, though abandoned, is no
+different. Net traps have been positioned along the corridors, one of
+which springs up as you pass through, threatening to entangle you and
+send you tumbling down a narrow shaft. 
+~
+0 9 0
+D1
+~
+~
+0 -1 1515
+D9
+~
+~
+0 -1 1518
+> act_prog p from the east.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+> act_prog p from the south-west.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+|
+S
+#1518
+A Twisting Corridor~
+The low tunnel wends its way deep beneath the surface of the hillock,
+the dirt floor showing considerable evidence of frequent travel and
+usage by a variety of creatures. The aid is musty, and stale, and reminds
+you of long closed rooms in deep dungeons, where few have been in recent
+times. 
+~
+0 9 0
+D6
+~
+~
+0 -1 1517
+D8
+~
+~
+0 -1 1519
+S
+#1519
+A Junction~
+A series of tunnels meet here, heading in several directions. To the
+south, you can hear something in the distance roaring, either in pain
+or anger; or both. The air is quite thick and stale, and difficult to
+breathe. Dried blood is spattered on the floor; the bluish blood of
+Xvarts mingled with red animal blood.
+~
+0 9 0
+D0
+~
+~
+0 -1 1520
+D2
+~
+~
+0 -1 1527
+D7
+~
+~
+0 -1 1518
+S
+#1520
+A Narrow Tunnel~
+The tunnel narrows sharply as it heads south away from the entrance,
+shrinking to the point where it would be difficult for a force of more
+than three people to progress close together. Made for Xvarts, they 
+naturally gave little thought to how the dimensions of their lair would
+affect other creatures.
+~
+0 9 0
+D0
+~
+~
+0 -1 1515
+D2
+~
+~
+0 -1 1519
+S
+#1521
+A Guard Room~
+At one stage this room served as quarters for several Xvart sentries,
+as evidenced by the small chairs arranged around a table that is only
+two feet high. Several stone ledges circle the room, which could hide
+a variety of treasures, or threats. At least it is possible to stretch
+out here, unlike the cramped tunnels in other parts of the lair.
+~
+0 9 0
+D8
+~
+~
+0 -1 1522
+D9
+~
+~
+0 -1 1515
+S
+#1522
+Gathering Hall~
+This was once the central dining and meeting area for the Xvarts, but is
+now the quarters of a group of humanoids, mercenaries most likely, who
+have set up several beds, surrounded by simple furniture, around a large
+dining table. Several items are scattered over the table, including some
+half-eaten food, and a pile of thieves' tools. The table is large and heavy,
+and would be difficult to budge; you wonder how they managed to get it
+in here, but you are quickly drawn back from your contemplation by the
+thought of what may lurk within this area.
+~
+0 9 0
+D7
+~
+~
+0 -1 1521
+D9
+~
+~
+0 -1 1523
+S
+#1523
+A Blocked Passage~
+At this point several tunnels converge, heading in a series of directions
+deeper into the lair. One passage, the one to the southeast, is blocked
+by a pile of rubbish, which is probably crawling with vermin and other
+disgusting creatures. A vile smell wafts from this direction, but your
+direction sense tells you that this is probably the way to the end of
+the lair, and whatever it contains.
+~
+0 9 0
+D2
+~
+~
+0 -1 1525
+D6
+~
+~
+0 -1 1522
+D7
+~
+~
+0 -1 1524
+D8
+~
+pile~
+259 -1 1530
+S
+#1524
+A Net Trap~
+Traps abound in Xvart lairs, and this one, though abandoned, is no
+different. Net traps have been positioned along the corridors, one of
+which springs up as you pass through, threatening to entangle you and
+send you tumbling down a narrow shaft. 
+~
+0 9 0
+D8
+~
+~
+0 -1 1523
+> act_prog p from the south-east.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+|
+S
+#1525
+A Training Room~
+A variety of items, used by both the old and new inhabitants to practice
+combat with, line the walls and cover the floor, including several racks
+of wooden weapons, several straw dummies, and a bench bearing a row of
+muscle liniments and the like. The smell of sweat is strong here, and you
+can't help but think how much at home a warrior would feel here.
+~
+0 9 0
+D0
+~
+~
+0 -1 1523
+D9
+~
+~
+0 -1 1526
+S
+#1526
+A Net Trap~
+Traps abound in Xvart lairs, and this one, though abandoned, is no
+different. Net traps have been positioned along the corridors, one of
+which springs up as you pass through, threatening to entangle you and
+send you tumbling down a narrow shaft. 
+~
+0 9 0
+D6
+~
+~
+0 -1 1525
+D7
+~
+~
+0 -1 1527
+> act_prog p from the north-east.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+> act_prog p from the north-west.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+|
+S
+#1527
+Deep in the Lair~
+The walls here are slightly damp, indicating that the tunnel has most
+likely descended below the water table; you hope that the Xvarts knew
+what they were doing when they constructed this, and fervently hope that
+you won't be suddenly inundated with water. A small guard post lies to
+the east, while to the south some burly creature is quartered, judging
+by the claw marks and torn corpses.
+~
+0 9 0
+D0
+~
+~
+0 -1 1519
+D1
+~
+~
+0 -1 1528
+D2
+~
+~
+0 -1 1529
+D8
+~
+~
+0 -1 1526
+S
+#1528
+A Guard Room~
+The Xvarts took to decorating this chamber in their own inimitable style,
+carving amateurish depictions of their blue kinfolk completeting highly
+unbelievable tasks such as felling giants and overcoming mounted knights.
+Xvarts are a threat to defenseless villagers, but not to stout adventurers,
+and knowing this they sought to salvage their pride through such works of,
+for desperate want of a better word, art.
+~
+0 9 0
+D3
+~
+~
+0 -1 1527
+S
+#1529
+A Stinking Lair~
+Whatever beast lurks here was trapped and chained by the Xvarts, and
+has fared poorly since their departure, as the new inhabitants have
+little idea how to take care of or feed it. Flesh will do, though, quite
+nicely, and yours would be an excellent solution to its food shortage
+crisis. Deep gouges in the wall indicate that the beast has claws quite
+capable of rending an ogre in twain, and judging by the bones scattered
+on the floor more than one person before you has met their end here.
+~
+0 9 0
+D0
+~
+~
+0 -1 1527
+S
+#1530
+A Pile of Rubbish~
+The passage to the northwest is blocked by a pile of garbage; it could
+be dug through but it would take some time. There are several other
+exits to choose from however, including a wooden door to the northeast
+and dark passages to the southeast and southwest.
+~
+0 9 0
+D6
+~
+~
+3 -1 1533
+D7
+~
+~
+259 -1 1523
+D8
+~
+~
+0 -1 1534
+D9
+~
+~
+0 -1 1531
+S
+#1531
+The Green Room~
+This circular chamber once housed the Xvart Shaman, and his many
+trappings, but now boasts only a scattering of decayed corpses and
+dried bloodstains. A foul odor fills the air, an odor of death, decay
+and other unpleasantries. Deep claw marks scar the walls, evidence of
+some muscular beast sharpening its natural weaponry in preparation for
+new slaughter.
+~
+0 9 0
+D6
+~
+~
+0 -1 1530
+D8
+~
+~
+0 -1 1532
+S
+#1532
+Refuse~
+Once the temple of the Xvarts, this room has been desecrated by being
+used as a waste disposal area by the new inhabitants. Piles of dried
+vegetable matter fill the room, covering the black floor and staining
+it with whatever sap it exuded. A sickly sweet aroma fills the air, 
+reminding you of rotten fruit in the markets of Westport.
+~
+0 9 0
+D6
+~
+~
+0 -1 1534
+D7
+~
+~
+0 -1 1531
+S
+#1533
+A Grisly Fate~
+This dingy cell was used to store prisoners taken by the Xvarts for
+whatever reasons, and when the Xvarts were driven from the lair they
+no longer had anyone to feed them (inasmuch as the Xvarts ever bothered
+much), and slowly perished from starvation and dehydration. Such an
+ignomious death carries much latent evil energy, and has caused black
+magicks to animate some of the indignant dead.
+~
+0 9 0
+D9
+~
+~
+3 -1 1530
+S
+#1534
+The End of the Tunnel~
+The tunnel ends abruptly here, before the entrances to several chambers,
+homes to the former leaders of the Xvarts that once resided here. Fresh
+air blows in from somewhere to the northeast, where you presume you may
+find an exit from this claustrophobic lair. A heavy curtain hangs on the
+south wall, a primitive decoration of some sort which doubtless impressed
+the stupid and primitive Xvarts, for it has many semi-precious stones
+woven into it.
+~
+0 9 0
+D2
+~
+curtain~
+2051 -1 1535
+D6
+~
+~
+0 -1 1536
+D7
+~
+~
+0 -1 1530
+D9
+~
+~
+0 -1 1532
+S
+#1535
+A Laboratory~
+Once the quarters of a mage of some sort, this room does not appear 
+to have been investigated since the Xvarts abandoned this place, for
+no one thought to look behind the curtain. A variety of worthless items
+cover the floor, each damaged or defective in some way; evidently the
+Xvart mage fancied himself something of a handyman.
+~
+0 9 0
+D0
+~
+curtain~
+3 -1 1534
+S
+#1536
+An Empty Chamber~
+This was where the Xvart chief once resided, in comparative luxary to
+his peers, surrounded by comely Xvart maidens and his personal guard.
+He and his entourage left in a hurry when the new arrivals began their
+campaign to drive them away, however, and stripped the place of anything
+of value before they did so. A large boulder partially blocks an entrance
+to the east, from which light and fresh air issues forth.
+~
+0 9 0
+D1
+~
+boulder~
+3 -1 1537
+D9
+~
+~
+0 -1 1534
+S
+#1537
+Back in the Forest~
+The tunnels exit out on the far side of the Lewyn, at the start of
+a small path that twists south into the forest, heading towards wherever
+the Xvarts fled to when they evacuated this base. Their tracks are
+everywhere in the loose earth, as are the prints of several pairs of
+booted feet. Humans, most likely, or perhaps orcs. The walls of the
+stockade can be made out some distance to the west, beyond the thick
+screening of trees.
+~
+0 0 3
+D3
+~
+boulder~
+3 -1 1536
+D8
+~
+~
+0 -1 1538
+S
+#1538
+The Southern Path to the Lake~
+The walk is fairly pleasant, strolling along the wide, even trail
+that wends its way southward along the banks of the Lewyn, towards
+the waters of Lake Spendlowe, upon which rests the fishing village of
+Kusnir. You hope to make it to wherever the Skulk has fled by the end
+of the day.
+~
+0 0 3
+D2
+~
+~
+0 -1 1539
+D7
+~
+~
+0 -1 1537
+S
+#1539
+A Conflict of Interests?~
+The path widens here, into a clearing near the swiftly flowing eastern
+shore of the Lewyn. Someone has camped here, recently too; the remains
+of a campfire along with scraps of food litters the ground, and the dirt
+thrives with fresh footprints, booted feet stomping carelessly into the
+soft earth, leaving a trail a blind man could follow. Evidently the maker
+of these signs was not expecting anyone to take the time to follow them
+and possibly interrogate them.
+~
+0 0 2
+D0
+~
+~
+0 -1 1538
+D9
+~
+~
+0 -1 1540
+S
+#1540
+A Cliff Face~
+As the path plunges back into the forest, it passes a cliff face,
+hewn centuries ago into the rocky hillock to the east by the Lewyn,
+when it used to rise a lot higher than it does now. A single cave
+entrance can be seen, in the middle of the cliff just east of here.
+A large, leafy tree grows just outside the entrance, and you rather fancy
+you can see something dangling from its branches, being pecked at by 
+two very large winged creatures.
+~
+0 0 3
+D1
+~
+~
+0 -1 1541
+D2
+~
+~
+0 -1 1544
+D6
+~
+~
+0 -1 1539
+S
+#1541
+A Gruesome Sight~
+Several trees grow near the entrance to the cave, and most of them
+are pleasant and green. One, however, bears the grisly remains of the
+unfortunate hermit who once dwelled within the cave, and now hangs here,
+food for his murderers, who are most likely nearby, gloating over their
+wicked deed.
+~
+0 0 4
+D3
+~
+~
+0 -1 1540
+D6
+~
+~
+0 -1 1542
+S
+#1542
+The Outer Chamber~
+The entrance of the cave leads into a cave, roughly twenty feet by
+twenty feet, with the ceiling being nearly ten feet high. The furniture
+here has been tossed about by something, presumably the creatures that
+slew the good hermit, and little of value (what little the frugal hermit
+owned) remains undestroyed. Very little, in fact. A low passage in the
+north wall leads into another section of the dwelling.
+~
+0 8 0
+D0
+~
+~
+0 -1 1543
+D9
+~
+~
+0 -1 1541
+S
+#1543
+Quern's Library~
+At one stage Quern, an accomplished scholar, kept his literary works,
+and works by his peers, in a small shelf set in the far wall. But someone
+has quietly removed the books, most likely while you were battling the
+gargoyles. Only a single text remains, lying on the floor, its pages
+torn out, save for one which identifies it as a history of the Van
+Arthog family, whose holdings include a villa on the shores of Lake
+Spendlowe, south of Kusnir. Thinking back, you recall that the Van
+Arthogs were the Keepers of the Keep of Alderweg, using the relic known
+as the Sentinel to protect the keep. But the Van Arthogs died out decades
+ago, and their relic, a white glove, disappeared. The plot thickens...
+~
+0 8 0
+D2
+~
+~
+0 -1 1542
+S
+#1544
+The Forest Path~
+Thick undergrowth surrounds you on all sides here, making you feel
+slightly claustrophobic. The trail here shows signs of heavy usage,
+including human, xvart and orc footprints, heading southwest for the
+most part. Broken twigs and branches speak of the careless nature of
+their passage, as if they were rashly confident, or in a tremendous
+hurry.
+~
+0 1 3
+D0
+~
+~
+0 -1 1540
+D9
+~
+~
+0 -1 1545
+S
+#1545
+The Forest Path~
+The path continues, heading south and west through the forest, heading
+presumably back towards the region of Kusnir, or thereabouts. The waters
+of Lake Spendlowe can be glimpsed through infrequent breaks in the thick
+vegetation, and you can faintly detect the sounds and smells of the
+fishing-intensive lake. Large clawed tracks have marred the ground here,
+made by some creature that has recently wandered into the trail.
+~
+0 1 3
+D3
+~
+~
+0 -1 1546
+D6
+~
+~
+0 -1 1544
+S
+#1546
+Approaching Lake Spendlowe~
+The forest thins out abruptly here, giving way to a sparsely covered
+shoreline, upon which the waters of the great and gentle lake wash
+up on. Fishing boats of all shapes and sizes abound on the lake,
+which stretches to the north and south. The path ends on the shore,
+but you may be able to proceed by water.
+~
+0 1 2
+D1
+~
+~
+0 -1 1545
+D3
+~
+~
+0 -1 1547
+S
+#1547
+Sailing Lake Spendlowe~
+The clear waters of the largest fresh water lake in the region flow
+past you, as you head into the center of the lake. Schools of fish,
+ample prey for the dozens of fishermen that work the lake, scurry
+past, close to the surface, alert for insects that have strayed too
+close and fallen in the water. The crews of passing boats stare rudely
+at you, curious about you and your strange foreign ways; to a native of
+the fishing towns anyone not from Chiswell, Kusnir or Gannaway is 
+foreign.
+~
+0 0 7
+D0
+~
+~
+0 -1 1548
+D1
+~
+~
+0 -1 1546
+D2
+~
+~
+0 -1 1549
+S
+#1548
+A Full Harbor~
+Approaching the northern shore, where the river flows under the harbor
+of Kusnir, you quickly realize that you have little hope of getting
+into Kusnir from the water. The harbor is literally overflowing with
+boats; all manner of vessels are cram packed into the small harbor, all
+manned by crews eager to win the fishing competition. The streets of
+Kusnir are crammed with eager spectators, and you feel you should get
+out of the way.
+~
+0 0 7
+D2
+~
+~
+0 -1 1547
+S
+#1549
+The Van Arthog Villa~
+At this point the villa of the Van Arthogs, former rulers of this
+region, comes into view, on the eastern bank of the river. Progress
+further down the lake is possible, but pointless, as it shallows out
+and eventually ends in the thick undergrowth to the southwest. The
+house lies east, a formerly opulent dwelling now fallen into ruin.
+Wherever the Skulk has hidden, this is the one place left yet to search.
+~
+0 0 7
+D0
+~
+~
+0 -1 1547
+D1
+~
+~
+0 -1 1550
+S
+#1550
+Approaching the Villa~
+The rectangular dwelling has whitewashed stone walls, and red shingle
+roof. From here you can see that a second storey lies on the eastern
+end of the villa. The rest of it is a lowset single storey affair,
+the whitewash chipped and peeling, and many of the shingles missing. A
+rank odor of decay emanates from the archway directly east of here,
+which leads into the courtyard.
+~
+0 0 2
+D1
+~
+~
+0 -1 1551
+D3
+~
+~
+0 -1 1549
+S
+#1551
+The Entrance~
+You pass beneath a low archway into the courtyard entrance. Doors
+to the north and south open into what were once presumably guard houses,
+though no one comes out to challenge you. You cannot make out any
+tracks on the hard stone floor, but you are certain that fecund beasts
+do indeed lair here, and close by too.
+~
+0 0 1
+D0
+~
+~
+3 -1 1553
+D1
+~
+~
+0 -1 1552
+D2
+~
+~
+3 -1 1554
+D3
+~
+~
+0 -1 1550
+S
+#1552
+The Courtyard~
+A large open-roofed area forms most of the lower section of the villa,
+with numerous doors leading into enclosed rooms to the north and south.
+Rubble is strewn randomly across the courtyard, as are several blood
+stains. Thick vegetation has sprouted along the walls, spreading to the
+edges and forming a thin shielding of branches and vines overhead, which
+blocks some of the light and rain.
+~
+0 0 1
+D0
+~
+~
+7 -1 1555
+D1
+~
+~
+0 -1 1559
+D2
+~
+~
+3 -1 1556
+D3
+~
+~
+0 -1 1551
+S
+#1553
+A Gatehouse~
+Pushing through the wooden door, the hinges of which are almost rusted
+through, you enter a stark chamber, devoid of trappings save some broken
+furniture, piled in the center of the chamber. Large holes in the ceiling
+allow light to stream in, as well as the elements; water has formed in
+hollows of the floor, evidence of recent heavy rains.
+~
+0 9 0
+D2
+~
+~
+3 -1 1551
+S
+#1554
+A Gatehouse~
+Pushing through the wooden door, the hinges of which are almost rusted
+through, you enter a stark chamber, devoid of trappings save some broken
+furniture, piled in the center of the chamber. Large holes in the ceiling
+allow light to stream in, as well as the elements; water has formed in
+hollows of the floor, evidence of recent heavy rains.
+~
+0 9 0
+D0
+~
+~
+3 -1 1551
+S
+#1555
+Cold Storage~
+This room is utterly bare. Neither a piece of furniture nor broken
+implement mars the clean floor, which appears to have been recently
+swept. White plaster covers all available surfaces. A thin layer of
+frost covers the walls, and the air feels uncomfortably cold.
+~
+0 8 0
+D2
+~
+~
+7 -1 1552
+S
+#1556
+A Dark Chamber~
+The air in this dark chamber smells bad; stale, and with the hint of
+decay. The darkness makes it difficult to make out much of the room;
+even with your light the rafters are lost in darkness. Several dessicated
+corpses lie on the floor, along with some of the items they bore when
+they were slain. 
+~
+0 9 0
+D0
+~
+~
+3 -1 1552
+S
+#1557
+A Strange Wall~
+The entire floor of this room is littered with smashed urns and jars,
+of pottery and glass, their contents long since devoured, looted or
+buried in the junk. Flaking green paint covers the walls, save for
+one to the west, which is plain white and utterly bare. Stone flagstones
+cover the floor, bearing scrapes and gouges from being used as a surface
+to smash the clay pots upon.
+~
+0 8 0
+D2
+~
+~
+3 -1 1559
+S
+#1558
+A Deadly Entrance~
+As you enter the room, A large pile of rubbish taller than your head
+tumbles forward, disturbed by your forcing of the door. Ducking for
+cover, you dodge and swerve, attempting to skirt the collapsing pile
+of debris, which includes heavy masonry and piles of timber. But it is
+for naught; the pile catches you, crushing your legs and pressing down
+hard on your chest, squeezing the breath from your lungs in a matter of
+minutes.
+~
+0 3154447 0
+D0
+~
+~
+7 -1 1559
+S
+#1559
+The Courtyard~
+The courtyard ends here, at the base of a broad staircase that ascends
+to a set of wooden doors bound with metal. The ground is clearer here
+than near the entrance; evidently most intruders do not make it this
+far, and the bulk of the devastation caused by battle takes place in
+the entranceway.
+~
+0 0 1
+D0
+~
+~
+3 -1 1557
+D2
+~
+~
+7 -1 1558
+D3
+~
+~
+0 -1 1552
+D4
+~
+~
+0 -1 1560
+S
+#1560
+The Bound Doors~
+The broad stone steps end before the door, which bears three locks,
+all of which have been blown asunder by some magical energy; the wood
+of the door is badly scorched, as if hit by a concentrated burst of flame.
+The metal fittings have warped and melted, but the hinges are still
+functional; the door should be operational. But do you want to go in there?
+~
+0 0 1
+D1
+~
+~
+3 -1 1561
+D5
+~
+~
+0 -1 1559
+S
+#1561
+The Hall of the Van Arthogs~
+The doors open onto a long hall, with a high arched ceiling, which
+is supported by large pillars, between which shuttered lancet windows
+lie. The walls are painted with murals depicting what appears to be
+a series of interwoven vines. A dais supported by bronze feline statues
+bears a sturdy throne, upon which rests the skeleton of a domestic cat,
+doubtless a pet of the former inhabitants, of whom there is no trace.
+Doors on the north and south walls lead to other parts of the second
+storey, while a staircase to the east descends to an underground section.
+~
+0 9 0
+D0
+~
+~
+3 -1 1562
+D2
+~
+~
+3 -1 1564
+D3
+~
+~
+3 -1 1560
+D5
+~
+~
+0 -1 1565
+S
+#1562
+The Green Room~
+This small chamber was once a library. The walls and ceiling are covered
+in peeling white plaster, while the floor is adorned with green tiles.
+A pile of moldering cloth, the remnants of curtains torn from brass rails
+that line the walls, fills the center of the room. A single shelf remains
+on the western wall.
+~
+0 9 0
+D2
+~
+~
+3 -1 1561
+D3
+~
+shelf~
+1035 -1 1563
+S
+#1563
+A Secret Chamber~
+Similar in design to the previous chamber, this small library is
+remarkable in that it appears to have remained more or less undisturbed
+since the evacuation of the Van Arthogs. Only a single lectern sits in
+this room, but the glow emanating from it indicates some sort of magic
+is at work, and that the book is probably quite important (the Van Arthogs
+were renowned for their magical skills as well as their administrative
+ones).
+~
+0 9 0
+D1
+~
+~
+3 -1 1562
+S
+#1564
+The Green Room~
+This small chamber was once a library. The walls and ceiling are covered
+in peeling white plaster, while the floor is adorned with green tiles.
+A pile of moldering cloth, the remnants of curtains torn from brass rails
+that line the walls, fills the center of the room, as does a pile of torn
+and mangled manuscripts of little value or interest.
+~
+0 9 0
+D0
+~
+~
+3 -1 1561
+S
+#1565
+The Basement~
+The stairs head down to a wide stone passageway, which runs east into
+the darkness and ends to the west at a wooden door. Greenish mists waft
+from under this door, issuing forth into the corridor, causing you to
+cough as it enters your lungs. It almost seems that the mist is forming
+into clouds that dance and flitter menacingly about you.
+~
+0 0 1
+D1
+~
+~
+0 -1 1568
+D3
+~
+~
+3 -1 1566
+D4
+~
+~
+0 -1 1561
+S
+#1566
+The Cellar~
+This bare room has been hewn from the bedrock beneath the villa. No
+features strike you as being of interest, save for a metal door set
+in the far wall, which bears a hand sized imprint, as if a gauntlet
+or glove could be pressed into it. 
+~
+0 9 0
+D1
+~
+~
+3 -1 1565
+D3
+~
+~
+8389671 1543 1567
+S
+#1567
+A Steep Flight of Stairs~
+The door opens onto a flight of stairs, leading down into the darkness.
+From this direction you can hear the sound of water lapping against stone.
+The sentinel urges you onwards, indicating empathically that this is the
+way it must travel, to fulfill whatever objective it has. Seeing no other
+choice, you warily descend the stairs...
+~
+0 3153929 0
+D1
+~
+~
+8389671 1543 1566
+S
+#1568
+Roughly Hewn Tunnels~
+At the point where the stonework passage ends, a large hole has been
+hacked through the wall, and a new series of tunnels excavated, presumably
+to house the Xvarts and Skulks that you strongly suspect now reside here.
+The air is damp and cold, and smells of decaying foodstuffs, amongst other
+things. A choice of directions is offered to you at this point.
+~
+0 9 0
+D0
+~
+~
+0 -1 1569
+D3
+~
+~
+0 -1 1565
+D6
+~
+~
+0 -1 1573
+D8
+~
+~
+0 -1 1570
+S
+#1569
+A Net Trap~
+Traps abound in Xvart lairs, and this one, though newly built, is no
+different. Net traps have been positioned along the corridors, one of
+which springs up as you pass through, threatening to entangle you and
+send you tumbling down a narrow shaft. 
+~
+0 9 0
+D2
+~
+~
+0 -1 1568
+> act_prog p from the south.~
+if dex($n) >= 16
+mea $n You nimbly avoid the net, leaping agilely over the pit.
+else
+mea $n The net entwines around you, and you tumble down the shaft.
+mpdamage $n 25
+mea $n You finally manage to drag yourself out sometime later.
+endif
+~
+|
+S
+#1570
+A Small Door~
+Doors are set into the walls of the tunnel at regular intervals along
+the passage which runs east from here, some of them actually large
+enough for a humanoid over three feet to enter, which seems to indicate
+the Xvarts either expect visitors or are very self-conscious about their
+diminutive state and wish to create the impression that they are much
+larger than they actually are. In either case, it works to your advantage,
+as you can progress easily without banging your head.
+ 
+A great deal of noise comes from behind the nearest door to the south.
+~
+0 9 0
+D1
+~
+~
+0 -1 1584
+D2
+~
+~
+3 -1 1571
+D7
+~
+~
+0 -1 1568
+S
+#1571
+Main Hall~
+The door opens onto a large, crudely furnished natural rock chamber,
+which the Xvarts have converted into the dwelling for the bulk of their
+tribe. Xvarts scurry everywhere, angered and a little frightened by your
+sudden intrusion. The floor is strewn with crude carvings and broken
+crockery.
+ 
+A door in the west wall is marked with a crude Xvart rune, marking it
+as somehow important.
+~
+0 9 0
+D0
+~
+~
+3 -1 1570
+D3
+~
+~
+3 -1 1572
+S
+#1572
+The Chieftain's Chamber~
+This smaller room houses the chief, he sleeps on a pile of straw and
+cloth arranged haphazardly near the far wall. He usually is found
+outside, enjoying the company of those he rules, especially the females,
+but sometimes he can be found sleeping off a bender here.
+~
+0 9 0
+D1
+~
+~
+3 -1 1571
+S
+#1573
+A Dirty Tunnel~
+This dank, dirty earthen tunnel runs east, boring through the ground
+under the villa towards what natural pockets and caverns lie beneath
+it. Xvarts are clever engineers, and can rival the dwarves with their
+ability to tunnel and find natural openings, if not with their style or
+finesse.
+~
+0 9 0
+D1
+~
+~
+0 -1 1574
+D9
+~
+~
+0 -1 1568
+S
+#1574
+Lair of the Rat~
+This is a foul-smelling chamber, irregular in plan and devoid of furniture.
+the floor is covered with gnawed bones and droppings. There are piles of
+garbage and rotting vegetable matter, some of it partially obscuring a door
+in the south wall.
+~
+0 9 0
+D1
+~
+~
+0 -1 1576
+D2
+~
+~
+3 -1 1575
+D3
+~
+~
+0 -1 1573
+S
+#1575
+A Circular Chamber~
+This room is similar to the one to the north, save that it is roughly
+circular, and contains a table with several wooden stools arranged about
+it. There are no signs of Xvarts here; whoever resides here is undoubtedly
+of a certain degree of intelligence, though.
+~
+0 9 0
+D0
+~
+~
+3 -1 1574
+S
+#1576
+Another Bend~
+At this point the tunnel bends again, heading to the southeast and west.
+A door is set in the eastern wall; you fancy you can hear someone sobbing
+behind it. Tracks in the ground, of Xvart and other unidentifiable beasts,
+seem to avoid this chamber and whoever lives within.
+~
+0 9 0
+D1
+~
+~
+3 -1 1577
+D3
+~
+~
+0 -1 1574
+D8
+~
+~
+0 -1 1578
+S
+#1577
+The Skulk's Lair~
+This plain rocky chamber is unremarkable in appearance and content;
+what is remarkable is the nature of the beast that inhabits it. Namely,
+a Skulk. The same red writing you saw in the village covers the walls here,
+with little variation (Skulks aren't very bright, it would appear some force
+has possessed the foul beast and caused it to scribble such graffitio). The
+question is, what is the riddle behind the whole mystery you have thus far
+uncovered? Perhaps the Skulk will know.
+~
+0 1037 0
+D3
+~
+~
+3 -1 1576
+S
+#1578
+The Tunnel Continues~
+This long, unremarkable stretch of rough hewn tunnel runs for sixty or
+seventy yards in either direction from this point, winding into the
+darkness, heading towards unknown perils or treasures. Tracks cover
+the ground here, and the remains of a campfire indicate that someone has
+recently camped here.
+~
+0 9 0
+D7
+~
+~
+0 -1 1576
+D8
+~
+~
+0 -1 1579
+S
+#1579
+Another Bend~
+The tunnel doglegs sharply here, bending back to head west in one
+direction, and northwest in the other. Freshly dug earth lies in piles
+all around you, indicating that someone or something is in the process
+of expanding on the lair. You would think they could tidy up what they
+have already before digging more smelly tunnels!
+~
+0 9 0
+D3
+~
+~
+0 -1 1580
+D7
+~
+~
+0 -1 1578
+S
+#1580
+A Tunnel Lined with Doors~
+The narrow tunnel heads east and west, lined by wooden doors to the north
+and south, behind which you can sometimes hear the occasional shriek or
+moan, or a bitter, cruel cackle of amusement. Shaking your head, you press
+on.
+~
+0 9 0
+D0
+~
+~
+3 -1 1581
+D1
+~
+~
+0 -1 1579
+D2
+~
+~
+3 -1 1582
+D3
+~
+~
+0 -1 1584
+S
+#1581
+Net Trap~
+Traps abound in Xvart lairs, and this one, though newly built, is no
+different. Net traps have been positioned along the corridors, one of
+which springs up as you pass through, threatening to entangle you and
+send you tumbling down a narrow shaft. 
+~
+0 9 0
+D2
+~
+~
+3 -1 1580
+S
+#1582
+The Xvart Temple~
+This is the largest chamber in the tunnel complex, and serves as an
+area of worship for the deeply superstitious Xvarts. A crudely carved
+wooden idol of some pathetic Xvart godlin sits against the far wall,
+in a position of almost comical reverence. Xvarts of all ages and genders
+bow and scrape before this representation, and a Xvart wearing tacky
+priestly robes and standing on stilts dominates the proceedings. You don't
+know whether to flee this fervent mob, or laugh.
+~
+0 0 1
+D0
+~
+~
+3 -1 1580
+D3
+~
+~
+3 -1 1583
+S
+#1583
+A Rectangular Chamber~
+Of all the chambers you have explored, this one appears to have had the
+most effort put into it. Roughly rectangular in shape, someone has taken
+great pains to furnish it with wooden chairs, a braizer, and several throw
+rugs. The walls have been painted black, and covered with strange runes
+and symbols graven in white chalk. Shaking your head, you wonder how any
+Xvart managed to get it together enough to become a magician. Surely a
+Xvart mage couldn't be a powerful threat?
+~
+0 9 0
+D1
+~
+~
+3 -1 1582
+D7
+~
+~
+3 -1 1584
+S
+#1584
+A Tunnel Lined with Doors~
+The narrow tunnel heads east and west, lined by wooden doors to the north
+and south, behind which you can sometimes hear the occasional shriek or
+moan, or a bitter, cruel cackle of amusement. Shaking your head, you press
+on.
+~
+0 9 0
+D0
+~
+~
+3 -1 1585
+D1
+~
+~
+0 -1 1580
+D3
+~
+~
+0 -1 1570
+D8
+~
+~
+3 -1 1583
+S
+#1585
+An Empty Chamber~
+This small chamber is empty save for two small piles of rock and two
+small metal picks.
+~
+0 9 0
+D2
+~
+~
+3 -1 1584
+S
+#1599
+Dud Room~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 1 1500 1 1501
+M 1 1501 1 1502
+G 1 1533 1
+G 1 1534 1
+M 1 1502 2 1505
+E 1 1500 1 5
+E 1 1501 1 16
+E 1 1502 1 11
+M 1 1502 2 1505
+E 1 1500 1 5
+E 1 1501 1 16
+E 1 1502 1 11
+M 1 1503 1 1505
+E 1 1503 1 20
+E 1 1500 1 5
+E 1 1502 1 11
+E 1 1501 1 16
+E 1 1504 1 1
+M 1 1504 1 1506
+M 1 1505 2 1521
+M 1 1505 2 1521
+M 1 1506 1 1522
+E 1 1505 1 5
+E 1 1506 1 16
+E 1 1508 1 13
+P 0 1507 1 0
+P 1 1507 1 0
+O 1 1509 1 1522
+P 0 1510 1 0
+O 1 1515 1 1523
+D 0 1523 8 1
+O 1 1516 1 1525
+O 1 1517 1 1528
+M 1 1507 1 1529
+E 1 1513 1 13
+D 0 1530 6 1
+D 0 1530 7 1
+M 1 1509 1 1531
+G 1 1518 1
+M 1 1508 7 1532
+M 1 1508 7 1532
+M 1 1508 7 1532
+M 1 1508 7 1532
+M 1 1510 1 1533
+E 1 1519 1 10
+D 0 1533 9 1
+D 0 1534 2 1
+O 1 1514 1 1535
+D 0 1535 0 1
+D 0 1536 1 1
+D 0 1537 3 1
+M 1 1511 1 1539
+E 1 1512 1 17
+E 1 1520 1 16
+E 1 1508 1 13
+E 1 1521 1 5
+E 1 1522 1 3
+M 1 1512 1 1539
+E 1 1500 1 5
+E 1 1523 1 16
+E 1 1524 1 3
+E 1 1525 1 4
+E 1 1508 1 13
+M 1 1513 1 1539
+E 1 1523 1 16
+E 1 1526 1 12
+E 1 1527 1 18
+E 1 1500 1 5
+G 1 1527 1
+E 1 1508 1 13
+M 1 1514 1 1539
+E 1 1500 1 5
+E 1 1508 1 13
+E 1 1528 1 3
+E 1 1529 1 1
+E 1 1530 1 16
+M 1 1515 1 1540
+E 1 1531 1 12
+M 1 1516 2 1541
+M 1 1516 2 1541
+O 1 1535 1 1541
+M 1 1518 1 1545
+D 0 1551 0 1
+D 0 1551 2 1
+M 1 1517 2 1552
+D 0 1552 0 2
+D 0 1552 2 1
+M 1 1519 1 1553
+D 0 1553 2 1
+D 0 1554 0 1
+O 1 1536 1 1555
+P 0 1537 1 0
+D 0 1555 2 2
+M 1 1521 3 1556
+M 1 1521 3 1556
+M 1 1521 3 1556
+O 1 1538 1 1556
+P 0 1539 1 0
+D 0 1556 0 1
+M 1 1520 1 1557
+D 0 1557 2 1
+D 0 1558 0 2
+M 1 1517 2 1559
+D 0 1559 0 1
+D 0 1559 2 2
+O 1 1542 1 1560
+D 0 1560 1 1
+M 1 1522 1 1561
+M 1 1523 2 1561
+M 1 1523 2 1561
+D 0 1561 0 1
+D 0 1561 2 1
+D 0 1561 3 1
+O 1 1544 1 1562
+D 0 1562 2 1
+D 0 1562 3 1
+M 1 1524 1 1563
+O 1 1541 1 1563
+O 1 1540 1 1563
+D 0 1563 1 1
+D 0 1564 0 1
+M 1 1527 3 1565
+M 1 1527 3 1565
+D 0 1565 3 1
+M 1 1526 1 1566
+D 0 1566 1 1
+D 0 1566 3 2
+D 0 1567 1 2
+D 0 1570 2 1
+M 1 1528 8 1571
+M 1 1529 6 1571
+M 1 1528 8 1571
+M 1 1528 8 1571
+M 1 1529 6 1571
+D 0 1571 0 1
+D 0 1571 3 1
+M 1 1531 1 1572
+M 1 1530 1 1572
+E 1 1545 1 16
+E 1 1546 1 19
+E 1 1547 1 5
+O 1 1548 1 1572
+P 0 1549 1 0
+D 0 1572 1 1
+M 1 1508 7 1574
+M 1 1508 7 1574
+M 1 1508 7 1574
+D 0 1574 2 1
+M 1 1534 1 1575
+E 1 1555 1 11
+D 0 1575 0 1
+D 0 1576 1 1
+M 1 1525 1 1577
+E 1 1543 1 9
+D 0 1577 3 1
+M 1 1528 8 1578
+M 1 1528 8 1578
+M 1 1529 6 1578
+D 0 1580 0 1
+D 0 1580 2 1
+D 0 1581 2 1
+M 1 1533 1 1582
+E 1 1552 1 6
+E 1 1553 1 8
+G 1 1554 1
+M 1 1528 8 1582
+M 1 1528 8 1582
+M 1 1528 8 1582
+M 1 1529 6 1582
+M 1 1529 6 1582
+M 1 1529 6 1582
+D 0 1582 0 1
+D 0 1582 3 1
+M 1 1532 1 1583
+E 1 1550 1 5
+E 1 1551 1 17
+D 0 1583 1 1
+D 0 1583 7 1
+D 0 1584 0 1
+D 0 1584 8 1
+D 0 1585 2 1
+S
+
+
+#SHOPS
+ 1501    0  0  0  0  0   180  90         0 23    ; the innkeeper
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1500 spec_guard
+M  1502 spec_thief
+M  1503 spec_thief
+M  1511 spec_cast_mage
+M  1514 spec_poison
+M  1515 spec_cast_cleric
+M  1519 spec_poison
+M  1520 spec_poison
+M  1523 spec_breath_acid
+M  1524 spec_poison
+M  1527 spec_breath_lightning
+M  1531 spec_poison
+M  1532 spec_cast_mage
+M  1533 spec_cast_cleric
+M  1534 spec_poison
+S
+
+
+#$

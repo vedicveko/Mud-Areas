@@ -1,0 +1,2432 @@
+#AREADATA
+Name Mount Hydrag'orn~
+Builders Dekar Kandahar~
+VNUMs 29500 29599
+Credits 30 130 Mount Hydrag'orn (Dekar/Kandahar)~
+Security 3
+End
+
+
+
+#MOBILES
+#29500
+fire bat~
+{RFire {YBat{x~
+{xA {RFire{Y Bat{x is here, flying around the room.
+~
+A large firey bat flies around the room, occasionally swooping down and
+attacking the people that walk under it.  
+~
+bat~
+ABGT FJT -1000 0 0
+30 60 10d10+1500 1d1+999 5d5+50 flbite
+-9 -9 -9 -9
+FHP H 0 IS
+stand stand none 1500
+AGHMV ABCDEFGHIJKP small unknown
+M ACT 29511 mushroom~
+M DELAY 29507 100~
+M GRALL 29506 100~
+M FIGHT 29500 20~
+#29501
+baby dragon~
+{xa baby dragon~
+{xA baby dragon is here, feeding on other creatures.
+~
+~
+Dragonite~
+ABG DFZ 0 0 0
+40 80 10d50+4500 1d1+999 5d5+80 flame
+-15 -15 -15 -15
+CFHIJKMNO BH D 0
+stand stand none 2000
+AHMZ ABCDEFGHIJKUVX medium unknown
+F res HI
+F vul JKP
+F for V
+M RANDOM 29512 5~
+M FIGHT 29501 20~
+M FIGHT 29502 15~
+#29502
+pile rocks~
+a pile of small rocks~
+{x     A pile of small rocks is here.
+~
+~
+Human~
+ABG JT -1000 0 0
+50 80 10d50+4800 1d1+999 5d8+80 flbite
+-15 -15 -15 -15
+CFKO ACDHJKLQT 0 0
+stand stand none 2000
+AHMV ABCDEFGHIJK medium unknown
+M FIGHT 29505 50~
+#29503
+{~
+{~
+{
+~
+~
+bat~
+ABGT JT 0 0 0
+30 60 1d1+1499 1d1+999 4d22+30 flbite
+-100 -100 -100 -100
+DFH ABCDEFGHIJKLMNOPQRT 0 IS
+stand stand none 1500
+AGV ACDEFHJKP medium unknown
+M KILL 29503 100~
+M GRALL 29504 20~
+#29504
+lava beast~
+a {Rl{Ya{Rv{Ya{x beast~
+{xA {RL{Ya{Rv{Ya{x beast is here, eating molten rocks.
+~
+~
+Human~
+ABFT DFZ 0 0 0
+60 120 10d50+6500 1d1+999 5d10+110 flbite
+-22 -22 -22 -22
+0 HLQ 0 0
+stand stand none 3000
+AHMV ABCDEFGHIJK medium unknown
+M FIGHT 29513 30~
+#29505
+magma beast~
+a {RM{Ya{xg{Ym{Ra {rbeast{x~
+A magma beast is here, eating molten lava.
+~
+~
+Demon~
+ABT DFJTZ 0 0 0
+80 200 10d50+13000 1d1+999 10d4+150 flbite
+-30 -30 -30 -30
+FHIK H C I
+stand stand none 4000
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CN
+M FIGHT 29516 20~
+M DEATH 29515 100~
+M FIGHT 29514 20~
+#29506
+fire harpy~
+a fire harpy~
+A fire harpy is here, flying around the lava pit.
+~
+~
+Demon~
+AGQ JT -1000 0 0
+100 150 10d50+17000 1d1+999 5d10+230 claw
+-30 -30 -30 -30
+CFGHIKO H D 0
+stand stand none 5000
+AHMV ABCDEFGHIJK medium unknown
+F res HM
+F vul CIN
+M FIGHT 29517 25~
+M DEATH 29508 10~
+#29507
+hydra~
+{RH{Yy{xd{Yr{Ra{x~
+A {RH{Yy{xd{Yr{Ra{x stands in the lava, roaring in fury that you have entered his lair.
+~
+~
+Demon~
+ABGT DFJTVZa 0 0 0
+130 600 10d10+20000 1d1+999 10d10+1000 bite
+-50 -50 -50 -50
+ACDFGHIKMNO H D 0
+stand stand none 6500
+AHMV ABCDEFGHIJK large unknown
+F res HM
+F vul CIN
+M KILL 29520 100~
+M DEATH 29519 100~
+#29508
+head hydra~
+a hydra's head~
+{xOne of the hydra's many heads is here!
+~
+~
+Demon~
+ABT DFJTZ 0 0 0
+140 400 10d10+10000 1d1+999 10d4+200 flbite
+-39 -39 -39 -39
+CFHIK H 0 0
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+M SPEECH 29525 heads~
+M DEATH 29524 100~
+#29509
+{~
+{~
+{
+~
+~
+Demon~
+AB JT 0 0 0
+130 300 20000d1+0 10000d1+0 10d10+500 wrath
+-100 -100 -100 -10
+H ABCDEFGHIJKLMNOPQRT 0 0
+stand stand none 10000
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+M SPEECH 29509 help me!!!~
+M DELAY 29510 100~
+#29510
+old harpy~
+an old harpy~
+An old harpy sits here screeching at you!
+~
+~
+Demon~
+ABGQ DFJTZ 0 0 0
+130 250 10d100+19000 1d1+999 10d10+400 pound
+-39 -39 -39 -39
+AFGHK ABCDEFGHIJKLMNOPRT 0 0
+stand stand female 6500
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+M GRALL 29521 100~
+M SPEECH 29522 yes~
+M DELAY 29523 100~
+#29511
+magician~
+{xa magician~
+{xA magician is here, selling potions.
+~
+~
+Demon~
+AB DFJTZ 0 0 0
+130 260 1d1+12999 1d1+999 5d78+130 magic
+-39 -39 -39 -39
+H ABCDEFGHIJKMNOPQRT 0 0
+stand stand none 1000000
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+#29512
+devil guardian~
+{xthe Devil's Guardian~
+{xThe Devil's Guardian is here, protecting the temple.
+~
+{D The Guardian is a huge 10 foot tall demon. He has large horns on his head, and spike on his arms, legs, and back. He diligently guards the temple from intruders, especially seraphs.
+~
+Demon~
+ABT DFJTZ -1000 0 0
+160 320 30000d1+0 1d1+999 10d10+1000 wrath
+-100 -100 -100 -100
+FGHK ABCDHIJKLMNOPQRT 0 0
+stand stand none 8000
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+M EXALL 29508 0~
+#29513
+no name~
+{xa portal~
+{xA portal is on each of the walls of this room.
+~
+~
+Human~
+AB DFJZ 0 0 0
+165 300 10000d1+9 1000d1+0 1d1+5 punch
+-100 -100 -100 -100
+0 ABCDHIJKLMNOPQRT 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+M EXALL 29509 0~
+#29514
+Asart~
+Asart~
+{xAsart is here, healing your wounds.
+~
+~
+Demon~
+ABa JT -1000 0 0
+130 260 1d1+12999 1d1+999 6d65+130 wrath
+-39 -39 -39 -39
+FGHK ABCDHIJKLMNOPQRT 0 0
+stand stand male 6500
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+M GRALL 29510 100~
+M EXALL 29511 2~
+#29515
+yokadjwa~
+Yokadjwa~
+{xYokadjwa is here, aiding you in your practicing.
+~
+~
+Demon~
+ABK JT -1000 0 0
+130 260 1d1+12999 1d1+999 6d65+130 punch
+-39 -39 -39 -39
+FGHK ABCDHIJKLMNOPQRT 0 0
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+#29516
+Ghire~
+Ghire~
+{xGhire is teaching others on how to train properly.
+~
+~
+Demon~
+ABJ JT -1000 0 0
+130 260 1d1+12999 1d1+999 3d130+130 punch
+-39 -39 -39 -39
+H ABCDEFGHIJKLMNOPQRT 0 0
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+F res DHM
+F vul CIN
+#29517
+ladder~
+a ladder~
+{x     A ladder stands in the center of the room.
+~
+~
+Human~
+AB DFTZ 0 0 0
+130 260 1d1+12999 1d1+999 4d97+130 none
+-39 -39 -39 -39
+0 ABCDEFGHIJKLMNOPQRT 0 0
+stand stand none 6500
+AHMV ABCDEFGHIJK medium unknown
+M EXALL 29512 5~
+M EXALL 29513 4~
+#29599
+specialtrickmob~
+{~
+{
+~
+~
+Human~
+A 0 0 0 0
+1 0 1d1+1 1d1+1 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#29500
+dragon amulet~
+{xa {WD{Dr{Wa{Dg{Wo{Dn {BA{cm{Bu{cl{Be{ct{x~
+{xA dragon amulet lies on the floor here.~
+silver~
+armor A AC
+BD BD BD BD 0
+35 0 0 P
+A
+14 200
+A
+13 75
+A
+12 75
+#29501
+lava whirlpool~
+a whirlpool in the lava~
+A whirlpool has appeared in the lava!!!~
+lava~
+portal 0 0
+B K A ACDHIJMNO 0
+0 0 0 P
+#29502
+hydra skin~
+{RH{Yy{xd{Yr{Ra {DS{ck{Di{cn{x~
+A hydra's skin is here.~
+hydra skin~
+armor JK AD
+CDFI CDFI CDFI CDFI 0
+130 0 0 P
+A
+3 -3
+A
+14 -700
+A
+12 700
+A
+13 700
+A
+1 3
+#29503
+hydra claw~
+the claw of the {RH{Yy{xd{Yr{Da{x~
+The claw of the hydra is here!~
+unknown~
+weapon 0 AN
+exotic 50 6 claw AG
+130 5 0 P
+A
+19 50
+A
+18 -50
+A
+1 1
+#29504
+amulet fire~
+an {DAmulet {rof {RF{Yi{Rr{Ye{x~
+An amulet of fire is on the ground!~
+fire~
+armor ABSTY AC
+BEF BEF BEF BEF 0
+130 0 0 P
+A
+18 15
+A
+19 15
+A
+1 2
+A
+4 2
+#29505
+braclet lava~
+a lava bracelet~
+A bracelet made out of lava is here.~
+lava~
+armor A AM
+ABF ABF ABF ABF 0
+50 0 0 P
+A
+12 25
+A
+14 -50
+A
+1 1
+A
+18 5
+#29506
+firey potion~
+a firey potion~
+A small firey potion lies on the ground.~
+glass~
+potion A A
+100 'armor' 'shield' 'fireball' ''
+50 0 0 P
+#29507
+ghires sword~
+{m-{G>{b) {RG{Yh{Ri{Yr{Re{Y'{Rs {YS{Rw{Yo{Rr{Yd {b({G<{m-{x~
+The sword of a long forgotten warrior lies under the rocks.~
+unknown~
+weapon ABPTX AN
+sword 135 1 slash BD
+60 25 0 P
+#29508
+fire rune~
+a fire rune~
+A piece of paper with a fire rune on it.~
+parchment~
+scroll X AO
+90 'fireball' 'fireball' 'fireball' ''
+50 0 0 P
+#29509
+magic portal~
+a magic portal~
+A magic portal spins in the air here!~
+unknown~
+portal A 0
+BD K CE CDEFIJMNO 0
+130 0 0 P
+#29510
+ice rune~
+an ice rune~
+A scroll with an ice rune on it is here.~
+unknown~
+scroll X AO
+90 'Ice storm' 'Ice storm' 'Ice storm' ''
+50 0 0 P
+#29511
+lightning rune~
+a lightning rune~
+A scroll with a lightning rune on it is here.~
+unknown~
+scroll X AO
+90 'lightning bolt' 'lightning bolt' 'lightning bolt' ''
+50 0 0 P
+#29512
+acid rune~
+an acid rune~
+A scroll with an acid rune on it is here.~
+unknown~
+scroll X AO
+90 'acid blast' 'acid blast' 'acid blast' ''
+90 0 0 P
+#29513
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29514
+no name~
+none~
+None~
+unknown~
+trash 0 AF
+0 0 0 0 0
+0 0 0 P
+#29515
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29516
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29517
+no name~
+none~
+None~
+unknown~
+trash A 0
+0 0 0 0 0
+0 0 0 P
+#29518
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29519
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29520
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29521
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29522
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29523
+no name~
+none~
+None~
+unknown~
+trash A AO
+0 0 0 0 0
+0 0 0 P
+#29524
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29525
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29526
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29527
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29528
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29529
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+E
+paper~
+What each potion does:
+ 
+Silver Potion:
+Level 50:
+ sanctuary
+ bless
+ endure
+ 
+Odd Potion:
+level 150
+ restoration
+ restoration
+ restoration
+ 
+Red Potion
+Level 100
+ detect invis
+ detect hidden
+ infravision
+ 
+Blue Potion
+Level 50
+ heal
+ 
+{Y<X> {xblue potion {Y<X>{x
+Level 50
+ heal
+ heal
+ 
+{Y<X> {BBlue {RPotion {Y<X>{x
+Level 100
+ heal
+ heal
+ heal
+ 
+{w-{W={w-{Y<X> {BBlue {RPotion {Y<X>{x{w-{W={w-{x
+Level 130
+ restoration
+~
+#29530
+no name~
+none~
+None~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#29531
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#29532
+no name~
+none~
+None~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#29500
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail edges away to the west in such a way that
+once on that path, there is no chance of return.  
+~
+0 0 5
+D3
+~
+~
+0 0 29501
+S
+#29501
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D3
+~
+~
+0 0 29502
+S
+#29502
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D3
+~
+~
+0 0 29503
+S
+#29503
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D3
+~
+~
+0 0 29504
+S
+#29504
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D3
+~
+~
+0 0 29505
+S
+#29505
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D3
+~
+~
+0 0 29506
+S
+#29506
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D3
+~
+~
+0 0 29507
+S
+#29507
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D3
+~
+~
+0 0 29508
+S
+#29508
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D0
+~
+~
+0 0 29509
+S
+#29509
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D0
+~
+~
+0 0 29510
+S
+#29510
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D0
+~
+~
+0 0 29511
+S
+#29511
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D0
+~
+~
+0 0 29512
+S
+#29512
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D0
+~
+~
+0 0 29513
+S
+#29513
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D0
+~
+~
+0 0 29514
+S
+#29514
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D0
+~
+~
+0 0 29515
+S
+#29515
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the north further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D0
+~
+~
+0 0 29516
+S
+#29516
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D1
+~
+~
+0 0 29517
+S
+#29517
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D1
+~
+~
+0 0 29518
+S
+#29518
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D1
+~
+~
+0 0 29519
+S
+#29519
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D1
+~
+~
+0 0 29520
+S
+#29520
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D1
+~
+~
+0 0 29521
+S
+#29521
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D1
+~
+~
+0 0 29522
+S
+#29522
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D1
+~
+~
+0 0 29523
+S
+#29523
+{rO{Rute{rr R{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the east further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D1
+~
+~
+0 0 29524
+S
+#29524
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D2
+~
+~
+0 0 29525
+S
+#29525
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D2
+~
+~
+0 0 29526
+S
+#29526
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 8192 5
+D2
+~
+~
+0 0 29527
+S
+#29527
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D2
+~
+~
+0 0 29528
+S
+#29528
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D2
+~
+~
+0 0 29529
+S
+#29529
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D2
+~
+~
+0 0 29530
+M 0 H 0
+S
+#29530
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the south further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D2
+~
+~
+0 0 29531
+S
+#29531
+{rO{Rute{rr {rR{Ri{rm{x~
+This is the outer rim of a volcanic mound.  As far as the eye can see,
+there is nothing but desolate waste, bleak and hopeless.  The sides of the
+mound are sheer and crumble away from the touch.  This makes any position
+very vulnerable indeed.  The trail continues to the west further around the
+mound.  The trail looks slippery in the extreme.  
+~
+0 0 5
+D3
+~
+~
+0 0 29532
+S
+#29532
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D3
+~
+~
+0 0 29533
+S
+#29533
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D3
+~
+~
+0 0 29534
+S
+#29534
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D3
+~
+~
+0 0 29535
+S
+#29535
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D3
+~
+~
+0 0 29536
+S
+#29536
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D3
+~
+~
+0 0 29537
+S
+#29537
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D3
+~
+~
+0 0 29538
+S
+#29538
+
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 29539
+S
+#29539
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D0
+~
+~
+0 0 29540
+S
+#29540
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 29541
+S
+#29541
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D0
+~
+~
+0 0 29542
+S
+#29542
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D0
+~
+~
+0 0 29543
+S
+#29543
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D0
+~
+~
+0 0 29544
+S
+#29544
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D1
+~
+~
+0 0 29545
+S
+#29545
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D1
+~
+~
+0 0 29546
+S
+#29546
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D1
+~
+~
+0 0 29547
+S
+#29547
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D1
+~
+~
+0 0 29548
+S
+#29548
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8192 5
+D1
+~
+~
+0 0 29549
+S
+#29549
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 0 5
+D1
+~
+~
+0 0 29550
+S
+#29550
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8196 5
+D2
+~
+~
+0 0 29551
+S
+#29551
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 4 5
+D2
+~
+~
+0 0 29552
+S
+#29552
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8196 5
+D2
+~
+~
+0 0 29553
+S
+#29553
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 4 5
+D2
+~
+~
+0 0 29554
+S
+#29554
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 8196 5
+D2
+~
+~
+0 0 29555
+S
+#29555
+{RC{rrate{Rr{r'{Rs {RE{rdg{Re{x~
+{yNearer to the centre of the volcanic mound, the temperature increases. 
+The trail doesn't get any easier to navigate, still the slippery shale with
+razor-sharp edges.  Still the 'can't turn back now' air of fatality.  The
+bubbling pool of lava down below seems to beckon, as if calling worshippers
+into its deadly embrace.  {x 
+~
+0 4 5
+D3
+~
+~
+0 0 29556
+S
+#29556
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D3
+~
+~
+0 0 29557
+S
+#29557
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D3
+~
+~
+0 0 29558
+S
+#29558
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+{Dhere. On this part of the scree slope, a large pile of rocks almost
+blocks the way. It is probably here due to frequent land slides.{x
+~
+0 8196 5
+D3
+~
+~
+0 0 29559
+S
+#29559
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D3
+~
+~
+0 0 29560
+S
+#29560
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D0
+~
+~
+0 0 29561
+S
+#29561
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D0
+~
+~
+0 0 29562
+S
+#29562
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D0
+~
+~
+0 0 29563
+S
+#29563
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D0
+~
+~
+0 0 29564
+S
+#29564
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D1
+~
+~
+0 0 29565
+S
+#29565
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D1
+~
+~
+0 0 29566
+S
+#29566
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D1
+~
+~
+0 0 29567
+S
+#29567
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D1
+~
+~
+0 0 29568
+S
+#29568
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D2
+~
+~
+0 0 29569
+S
+#29569
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 8196 5
+D2
+~
+~
+0 0 29570
+S
+#29570
+{RV{rol{Yca{rni{Rc {DScree {ySlope{x~
+{DLoose little black pebbles comprise the slope making it very hard to
+keep a footing.  The slope gets steeper and the temperature warmer.  Minor
+eruptions seem to be occurring with greater frequency closer to the centre
+of the volcano.  The air feels turgid and heavy and it is hard to breathe
+here.  {x 
+~
+0 4 5
+D2
+~
+~
+0 0 29571
+S
+#29571
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D3
+~
+~
+0 0 29572
+S
+#29572
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D3
+~
+~
+0 0 29573
+S
+#29573
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D3
+~
+~
+0 0 29574
+S
+#29574
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 4 5
+D0
+~
+~
+0 0 29575
+S
+#29575
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D0
+~
+~
+0 0 29576
+S
+#29576
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D1
+~
+~
+0 0 29577
+S
+#29577
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D1
+~
+~
+0 0 29578
+S
+#29578
+{DSmo{Wul{rd{Wer{Ding {RCrust{x~
+{DRight on the edge of the {rbubbling pool of molten {Wlava, the crust is
+{Wcracked and smouldering {rfrom the heat.  Parts {Dof the crust have crumbled
+{Daway and toppled into the {rbubbling yaw of the vol{Wcano.  The air is heavy
+{Wand flecks of molten lava {rare being spat out peri{Dodically as if some lava
+{Dbeast is regurgitating its {rbreakfast.{x
+~
+0 8196 5
+D2
+~
+~
+0 0 29579
+S
+#29579
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Ypool.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 4 5
+D3
+~
+~
+0 0 29580
+S
+#29580
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boi{Rling cauldron which
+{Rmakes up this {Ypool.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; the{xy seem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 4 5
+S
+#29581
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8192 0
+D0
+~
+~
+0 0 29587
+D1
+~
+~
+0 0 29583
+D2
+~
+~
+0 0 29582
+D3
+~
+~
+0 0 29593
+S
+#29582
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29581
+S
+#29583
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D2
+~
+~
+0 0 29584
+D3
+~
+~
+0 0 29581
+S
+#29584
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29583
+D1
+~
+~
+0 0 29585
+S
+#29585
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8228 0
+D0
+~
+~
+0 0 29586
+D3
+~
+~
+0 0 29584
+S
+#29586
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8192 0
+D2
+~
+~
+0 0 29585
+S
+#29587
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29588
+D1
+~
+~
+0 0 29589
+D2
+~
+~
+0 0 29581
+S
+#29588
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{R A large rune covers the rock in the northern part of this room.  It
+seems that the harpies come here to pray to their gods of magic.  Molten
+lava bubbles and flows through this room.  A small patch of land is all all
+there is to stand on in this room.  To the south the lava continues.  
+~
+0 8192 0
+D2
+~
+~
+0 0 29587
+S
+#29589
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29590
+D3
+~
+~
+0 0 29587
+S
+#29590
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D1
+~
+~
+0 0 29591
+D2
+~
+~
+0 0 29589
+S
+#29591
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 32 0
+D3
+~
+~
+0 0 29590
+S
+#29592
+{CIn {xthe {BAir{x~
+{CHigh up in the air way {xway above the volcano, {Cthere are compact looking
+{Cclouds and the {xodd bird flying on the warm up currents.  Down {Cdown below
+{Clies the tiny speck {xknown as Kieron.  All around it {Clies the vacuum of empty
+{Cspace, like it was a sparkling {xjewel dropped {Conto a black velvet piece of
+{Ccloth.{x
+~
+0 8196 9
+S
+#29593
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29597
+D1
+~
+~
+0 0 29581
+D2
+~
+~
+0 0 29594
+S
+#29594
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29593
+D3
+~
+~
+0 0 29595
+S
+#29595
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8228 0
+D0
+~
+~
+0 0 29596
+D1
+~
+~
+0 0 29594
+S
+#29596
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8192 0
+D2
+~
+~
+0 0 29595
+S
+#29597
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D0
+~
+~
+0 0 29598
+D2
+~
+~
+0 0 29593
+S
+#29598
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RMolten lava {Ybubbles and boi{xls glutinously {Yspitting out {Rflecks of molten
+{Rrock in all {Ydirections.  Jets {xof steam hiss {Yfrom the boiling {Rcauldron which
+{Rmakes up this {Yriver.  Images be{xgin to form in {Ythe swirls of {Rcrusting lava on
+{Rthe surface of {Ythis hotpot; they {xseem to becko{Yn as if wanting {Rto draw you
+{Rinto their emb{Yrace.{x
+~
+0 8224 0
+D2
+~
+~
+0 0 29597
+D3
+~
+~
+0 0 29599
+S
+#29599
+{RBu{Yb{xbl{Yi{Rng {rL{Rav{ra{x~
+{RThe boiling hot {Ylava spills out {xonto a {Yledge and trickles {Rover the edge
+{Rand down the slop{Yes of the volcan{xo.  {CFresh {xair {Ytumbles in {Rbut doesn't get
+{Rvery far as it so{Yon meets with the{x blastingly {Yhot air from wi{Rthin the lava
+{Rpool.  The panora{Yma from here wo{xuld be spec{Ytacular if it {Rwasn't for the
+{Rbleak {Dblack {Rsurro{Yunds.{x
+~
+0 0 10
+D1
+~
+~
+0 0 29598
+S
+#0
+
+
+
+#SPECIALS
+M 29504 spec_breath_fire
+M 29505 spec_breath_fire
+M 29506 spec_breath_fire
+M 29508 spec_breath_fire
+M 29510 spec_breath_acid
+S
+
+
+
+#RESETS
+M 0 29500 15 29500 1
+M 0 29500 15 29502 1
+M 0 29500 15 29504 1
+M 0 29500 15 29506 1
+M 0 29500 15 29508 1
+
+M 0 29500 15 29510 1
+M 0 29500 15 29512 1
+M 0 29500 15 29514 1
+M 0 29500 15 29516 1
+M 0 29500 15 29518 1
+M 0 29500 15 29520 1
+M 0 29500 15 29522 1
+M 0 29500 15 29524 1
+M 0 29500 15 29526 1
+M 0 29500 15 29528 1
+M 0 29501 12 29532 1
+E 0 29500 0 3
+M 0 29501 12 29534 1
+E 0 29500 0 3
+M 0 29501 12 29536 1
+E 0 29500 0 3
+M 0 29501 12 29538 1
+E 0 29500 0 3
+M 0 29501 12 29540 1
+E 0 29500 0 3
+M 0 29501 12 29542 1
+E 0 29500 0 3
+M 0 29501 12 29544 1
+E 0 29500 0 3
+O 0 29505 0 29545
+M 0 29501 12 29546 1
+E 0 29500 0 3
+M 0 29501 12 29548 1
+E 0 29500 0 3
+M 0 29501 12 29550 1
+E 0 29500 0 3
+M 0 29501 12 29552 1
+E 0 29500 0 3
+M 0 29501 12 29554 1
+E 0 29500 0 3
+M 0 29503 13 29556 1
+M 0 29502 6 29556 1
+M 0 29503 13 29557 1
+O 0 29507 0 29558
+M 0 29503 13 29558 1
+M 0 29502 6 29558 1
+M 0 29503 13 29559 1
+M 0 29502 8 29560 1
+M 0 29503 13 29560 1
+M 0 29503 13 29561 1
+M 0 29502 8 29562 1
+M 0 29503 13 29562 1
+M 0 29503 13 29563 1
+M 0 29502 8 29564 1
+M 0 29503 13 29564 1
+M 0 29503 13 29565 1
+M 0 29502 8 29566 1
+M 0 29503 13 29566 1
+M 0 29503 13 29567 1
+M 0 29502 8 29568 1
+M 0 29503 13 29568 1
+M 0 29503 15 29569 1
+M 0 29503 13 29569 1
+M 0 29502 8 29570 1
+M 0 29503 15 29570 1
+M 0 29503 13 29570 1
+M 0 29504 4 29571 1
+M 0 29504 4 29573 1
+M 0 29504 4 29575 1
+O 0 29506 0 29576
+M 0 29504 4 29577 1
+M 0 29505 1 29580 1
+M 0 29506 9 29581 1
+M 0 29506 9 29582 1
+M 0 29506 9 29583 1
+M 0 29506 9 29585 1
+M 0 29510 1 29586 1
+M 0 29506 9 29587 1
+O 0 29512 0 29588
+O 0 29511 0 29588
+O 0 29510 0 29588
+O 0 29508 0 29588
+M 0 29506 9 29589 1
+O 0 29509 0 29591
+M 0 29506 9 29591 1
+M 0 29509 1 29592 1
+M 0 29506 9 29594 1
+M 0 29507 1 29596 1
+E 0 29502 0 5
+E 0 29503 0 16
+G 0 29503 0
+M 0 29506 9 29597 1
+M 0 29506 9 29599 1
+S
+
+
+
+#SHOPS
+29511 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#29500
+mob echo A firey bat swoops and attacks!
+mob cast fireball $n
+~
+#29501
+mob echo $I takes a deep breath...
+mob cast 'fire breath' $n
+~
+#29502
+mob echo $I growls!
+mob cast fireball $n
+~
+#29503
+mob goto $n
+~
+#29504
+mob echoat $n You slip on the rocks beneath your feet and fall onto the ground!
+mob echoat $n Ouch!
+mob damage $n 100 200
+mob echoaround $n $n slips on the rocks beneath $s feet and falls onto the ground!
+~
+#29505
+mob echo The rocks swarm into the air and strike $n!
+mob damage $n 50 100 lethal
+~
+#29506
+mob echo A fire bat flies around the room in search of food.
+mob remember $n
+mob delay 5
+~
+#29507
+mob echoat $q A fire bat swoops and attacks you, thinking you are food!
+mob echoaround $q A fire bat swoops and attacks $q, thinking $e is food!
+mob cast fireball $q
+mob goto $n
+mob forget
+~
+#29508
+mob echo $I throws you high into the air!
+mob transfer $n 29592
+mob mload 29599
+mob goto 29592
+mob echoat $n You come to a stop at the very top...
+mob force $n say help me!!!
+mob goto specialtrickmob
+mob purge specialtrickmob
+~
+#29509
+mob remember $n
+mob delay 1
+~
+#29510
+mob echoat $q You start to slowly plummet back towards the ground...
+mob transfer $q 3001
+mob at 3001 mob echoat $q You hit the ground with unspeakable force!
+mob at 3001 mob echoaround $q $q hits the ground with unpspeakable force!
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+mob at 3001 mob damage $q 3000 3000
+~
+#29511
+mob echo A fire bat swoops down and gobbles up the magic mushroom.
+mob cancel
+get mush
+eat mush
+if mobs < 3
+ mob echo A fire bat calls its friend to help look for more food!
+ mob mload 29500
+mob remember $n
+mob delay 6
+else
+break
+endif
+~
+#29512
+mob echo A baby dragon yawns and looks around the room.
+~
+#29513
+mob echo $I {Rs{yp{Ye{yw{Rs l{Ya{Rv{Ya {rall over {Wyou!!!{x
+mob damage $n 300 400 lethal
+~
+#29514
+mob echo $I howls in anger!
+mob echo $I {rthrows a ball of hot {RM{Ya{xg{Ym{Ra {rat {Wyou!!!{x
+mob damage $n 400 500
+mob cast 'fireball' $n
+~
+#29515
+mob echo $I howls in agony as it dies!
+mob zecho {rThe {yearth {bbelow {yyou {rbegins {bto {Ys{yh{Da{yk{Ye{W!{x
+mob zecho {rThe volcanoe is {Re{Yru{Wpt{Yin{Rg{W!{x
+mob damage $n 500 500
+mob echoat $n {rThe {Rm{Ya{xg{Ym{Ra {rsurrounds {Wy{xo{Wu{r!!! {Y[{R5{D0{y0{Y]{x
+mob echoaround $n {rThe {Rm{Ya{xg{Ym{Ra {rsurrounds {W$n{r!!!
+mob oload 29501 1 room
+~
+#29516
+mob echo $I goes into a rage!!!
+mob goto 29580
+mob kill $n
+mob goto 29580
+mob kill $n
+mob goto 29580
+mob kill $n
+mob goto 29580
+mob kill $n
+~
+#29517
+mob echo $I flies high into the air...
+mob echo $I dives at you and claws at your eyes!!!
+mob damage $n 400 600
+mob cast blind $n
+~
+#29518
+~
+#29519
+mob echo $I howls in anger!
+mob transfer $n 3054
+~
+#29520
+sec hyd
+mob mload 29508
+mob mload 29508
+mob mload 29508
+mob echo The hydra grows 3 more heads as you attack it!!!
+mob force $n say watch out for its heads!
+~
+#29521
+say What do you wish of this old hag?
+say I have no power left in me to fight, so spit it out! What do you want?
+say Do you want to leave this place?
+~
+#29522
+say As you wish.
+mob echoat $n Balls of fire start spinning around you!
+mob echoaround $n Balls of fire start spinning around $n!
+mob remember $n
+mob delay 1
+~
+#29523
+mob echoat $q The balls of fire spin faster and faster!
+mob echoaround $q The balls of fire spinning around $q go faster and faster...
+mob echoaround $q $q vanishes in a huge ball of fire!
+mob echoat $q The balls of fire speed up, and you are engulfed in a huge ball of fire!
+mob transfer $q 3054
+mob at 3054 mob echoat $q When the fire leaves your eyes, you are here...
+mob at 3054 mob echoaround $q $q appears in a huge ball of fire!
+mob goto 3054
+mob oload 29504 130 room
+mob goto 29586
+~
+#29524
+mob echo A hydra grows 2 more heads after you kill one!
+mob mload 29508
+mob mload 29508
+mob vforce 29508 kill $n
+mob force $n say watch out for its heads!
+~
+#29525
+mob goto $n
+mob vforce 29508 kill $n
+kill $n
+mob cast fireball $n
+mob cast fireball $n
+mob cast fireball $n
+~
+#0
+
+#$
+

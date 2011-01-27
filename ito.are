@@ -1,0 +1,3358 @@
+#AREA
+DSA Format~
+ito.are~
+Ito Stronghold~
+[90 HR] Vaevicti Ito Stronghold~
+32200 32299
+Descr
+No description.
+~
+Bldrs Vaevictis~
+Sec 4
+Levels 90 101
+Flags 0
+End
+#HELPS
+Shrouded in mystery, the Ito Stronghold is a haven for assassins and
+evil doers. It's highest ranking members inhabit a Pagoda guarded by a
+tremendous dragon. Any who go there should be very careful. If you do go,
+liking to uninvited guests. Lord Genjiro has been known to slay
+adventurers and guests just for entering the gates of the Ito Stronghold.
+
+Ito Stronghold was written by Vaevictis for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.  
+-1 $~
+
+#MOBILES
+#32200
+komodo dragon ito~
+a Komodo Dragon~
+The Komodo dragon of the Ito clan lies here.
+~
+~
+dragon~
+ABFGTc HJTVac BCDEHOS -1000 0
+150 90 50d10+25000 10d50+12000 10d12+300 bite
+-40 -40 -40 -30
+M AEL BEH I
+stand stand male 0
+AHZ ACDEFGHIJKPQUVX huge none
+F vul F
+~
+Damroll  70
+Saves  -40
+End
+#32201
+Hohiro weapon merchant~
+Hohiro, the weapons merchant~
+A small man with dark hair stands here, selling weapons.
+~
+~
+human~
+ABGTVc CDFJZa CDEHPQST 0 0
+150 50 10d50+25000 50d10+12000 7d16+400 crush
+-50 -50 -50 -50
+ACDEFHIKLNOT ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+Damroll  50
+End
+#32202
+small child~
+a small child~
+A small child runs along, playing with his friends.
+~
+~
+human~
+AGHSc 0 0 200 0
+100 50 50d45+25000 50d45+25000 10d8+40 beating
+-62 -62 -62 -62
+U E I P
+stand stand male 0
+AHMV ABCDEFGHIJK small none
+~
+Damroll  50
+Saves  40
+End
+#32203
+sanitation crew~
+a sanitation crew~
+A sanitation crew labors here.
+~
+~
+human~
+AGc 0 0 200 0
+30 0 6d12+928 6d12+928 4d6+9 drowning
+-14 -14 -14 -14
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+End
+#32204
+siberian tiger~
+a white siberian tiger~
+A huge white tiger sits here, licking its lips.
+~
+~
+cat~
+AI JZ 0 0 0
+1 55 2d7+21 2d7+21 1d5+0 claw
+8 8 8 8
+FH 0 0 0
+stand stand male 0
+AGHMV ABCDEFGHIJKQUV huge none
+~
+Damroll  55
+End
+#32205
+scrawny cat~
+a scrawny cat~
+A scrawny cat meows here.
+~
+~
+cat~
+AGc JZ 0 0 0
+30 20 6d12+928 6d12+928 4d6+9 bite
+-14 -14 -14 -14
+FH 0 0 0
+stand stand none 0
+AGV ACDEFHJKQUV medium none
+~
+Damroll  20
+Saves  20
+End
+#32206
+fontu jeweller~
+Fontu the jeweller~
+An old man sits here peddling jewels.
+~
+~
+human~
+ABGTc DF CDEHPQST 0 0
+150 55 50d10+12000 8d16+12000 20d10+600 beating
+-60 -60 -60 -55
+AFH 0 0 0
+stand stand male 50000
+AHMV ABCDEFGHIJK medium none
+~
+Saves  100
+End
+#32207
+Genjiro ito man~
+Genjiro Ito~
+A very sinister looking man stands here with a gleam in his eye and a katana in his hand.
+~
+~
+human~
+ABFGSc DFHPV BCDEHS -500 0
+150 200 50d10+25000 10d50+12000 10d10+300 mindblast
+-200 -200 -200 -150
+BEFHJNU H EGHI N
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+Damroll  100
+Saves  60
+End
+#32208
+assassin guard~
+an assassin guard~
+An assassin guard screams and attacks!
+~
+~
+human~
+ABFGSc DFHPV BS -250 0
+125 45 50d10+15000 8d10+7000 7d16+175 punch
+-25 -25 -25 -20
+B HZ K I
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  40
+Saves  -30
+End
+#32209
+mad cleric dwarven~
+the mad cleric~
+This dwarf looks as if his days spent here were very uncomfortable.
+~
+~
+dwarf~
+ABFGQc DFV EHINT 250 0
+125 45 50d10+15000 8d10+7000 7d16+175 crush
+-27 -27 -27 -22
+F M EIPQ R
+stand stand male 1000
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  25
+Saves  40
+End
+#32210
+ito citizen~
+a citizen of Ito~
+A citizen of this town watches you warily.
+~
+~
+human~
+AGHTc DF 0 100 0
+110 35 50d10+11500 5d10+4750 6d7+175 punch
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  35
+Saves  -25
+End
+#32211
+yukei groceress~
+Yukei, the Groceress~
+An old woman stands here selling groceries.
+~
+~
+human~
+ABGTc DF CDEHPQST 500 0
+150 100 50d10+20000 9d12+12000 30d10+800 beating
+-80 -80 -80 -70
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  100
+Saves  60
+End
+#32212
+miyamoto ito son~
+Miyamoto Ito~
+A very large young man stands here, meditating on the darkness.
+~
+~
+human~
+ABFGTc DFPVa BCDEHS -100 0
+125 100 50d10+15000 8d10+7000 7d16+175 punch
+-50 -50 -50 -45
+ACEFJOUW H CFG K
+stand stand male 300
+AHMV ABCDEFGHIJK large none
+~
+Damroll  100
+Saves  -25
+End
+#32213
+Tojo Ito son~
+Tojo Ito~
+A very young boy basks in the light.
+~
+~
+human~
+ABFGSc DFPV BCEHT 200 0
+120 80 50d10+12000 5d10+6000 6d7+175 chill
+-25 -25 -25 -20
+BEFJU N I M
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  80
+Saves  -50
+End
+#32214
+kagero ito father~
+Kagero Ito~
+A short, hobbled old man stands here, leering at you.
+~
+~
+human~
+ABFGSc DFPVa BCDEHS -150 0
+130 60 50d10+15000 10d10+8000 8d25+175 pierce
+-29 -29 -29 -27
+H HN FG MP
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  40
+Saves  -45
+End
+#32215
+chozen ito~
+Chozen Ito~
+A large ninja brandishes his katana then attacks!!
+~
+~
+human~
+ABFGSc DFPVa BCDEHPS -500 0
+145 90 50d10+22500 15d15+10500 10d12+238 smash
+-30 -30 -30 -27
+H 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+Damroll  90
+Saves  -60
+End
+#32216
+a rooftop assassin~
+a rooftop assassin~
+An assassin waits here in the shadows.
+~
+~
+human~
+AFGSc HPV BCHS -200 0
+120 60 17d10+15000 7d16+13000 10d50+300 frbite
+-30 -30 -30 -27
+H IKP CD H
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+Damroll  60
+Saves  30
+End
+#32217
+Hiro armourer~
+Hiro, the armourer~
+Hiro stands here, selling armor.
+~
+~
+human~
+ABGTc DFZ CDEHIPQST 500 0
+150 0 50d10+25000 20d12+3000 50d10+800 punch
+10 10 10 10
+0 0 0 0
+stand stand male 500000
+AHMV ABCDEFGHIJK large none
+~
+End
+#32218
+Shinzo Ito magistrate~
+Shinzo Ito~
+The magistrate of this stronghold cowers in a corner.
+~
+He looks as if he has rings under his eyes and a fear of almost anything.
+He whimpers as you approach, then buries his head in his hands, screaming.  
+~
+human~
+ABHRc UVc BCDEHS 300 0
+140 20 50d10+15000 10d10+8000 8d25+175 silver
+-27 -27 -26 -22
+AFHKN AB CD X
+stand stand male 20000
+AHMV ABCDEFGHIJK large none
+~
+Damroll  20
+Saves  30
+End
+#32219
+outpost guardian~
+an outpost guardian~
+A formidable warrior stands here, guarding the outpost.
+~
+~
+human~
+ABGTc DFZ DEHS 40 0
+90 80 50d45+25000 50d45+25000 10d8+40 drowning
+-62 -62 -62 -62
+CEFHIKUW PR CGH Z
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  90
+Saves  40
+End
+#32220
+ninja warrior~
+a ninja warrior~
+A ninja warrior stands here, looking at you and grinning.
+~
+~
+human~
+ABGSTc 0 DEHS -250 0
+90 80 50d45+25000 50d45+25000 10d8+40 drowning
+-62 -62 -62 -62
+BCEFHIJKUW PR CGH Z
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  75
+Saves  50
+End
+#32221
+gate guardian~
+a gate guardian~
+A guard stands here, scanning the surroundings for trouble.
+~
+~
+human~
+AFGTc DFVZ DEHS 20 0
+120 60 50d10+20000 10d20+12000 7d12+500 sliver
+-30 -30 -30 -25
+ACHU HNS CD I
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+Damroll  75
+Saves  50
+End
+#32222
+mei ling wife~
+Mei Ling~
+The magistrate's wife stands here, looking scared.
+~
+~
+human~
+AGHQTc PV DEHT 200 0
+120 80 50d10+22500 10d12+15000 7d12+600 thwack
+-50 -50 -50 -42
+0 KN CD MZ
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  85
+Saves  -30
+End
+#32223
+half elven elf thief prisoner~
+the half-elven prisoner~
+A half-elf hides here, on the lam from the local law enforcement.
+~
+~
+half-elf~
+ABFGSc JLNV BCHP -500 0
+140 80 50d10+25000 7d12+15000 9d7+600 sliver
+-50 -50 -50 -45
+BEFHU IM CD HN
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  90
+Saves  -70
+End
+#32224
+menzori ito captain~
+Menzori Ito~
+A small man in a captain's uniform stands here.
+~
+~
+human~
+ABFGTc DFP CEH -250 0
+101 200 50d50+29500 50d50+29500 10d10+45 punch
+-70 -70 -70 -70
+CJW 0 IM K
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  300
+MaxWorld  1
+Saves  -30
+End
+#32225
+jushin ito~
+Jushin Ito~
+A small half-elf stands here, with a deadly gleam in his eye.
+~
+~
+half-elf~
+AFGSc DFJLNZ CEHPS 0 0
+130 300 50d50+29500 50d50+29500 10d10+45 bitchslap
+-70 -70 -70 -70
+BFHIJKNU FI EMN HK
+stand stand male 0
+AHMV ABCDEFGHIJK small none
+~
+Damroll  450
+MaxWorld  1
+Saves  -40
+End
+#0
+
+
+
+#OBJECTS
+#32200
+bhelliom~
+{$Bhellio{4m{0~
+Bhelliom lies here glowing with a blue aura.~
+steel~
+weapon ABMYd AN
+hand 40 100 wrath ABCDEGHIJK
+102 0 10000 P
+A
+19 1000
+A
+18 500
+A
+13 1000
+~
+Spec flaming~
+MaxWorld 20
+End
+#32201
+silver rose pendant neck~
+a Silver Rose pendant~
+A silver chain with a small pendant shaped like a silver rose.~
+silver~
+jewelry AB AC
+0 0 0 0 0
+0 0 0 P
+~
+MaxWorld 4
+End
+#32202
+diamond wedding ring~
+a diamond wedding ring~
+A diamond wedding ring to Miriel from Vaevictis, his one and only love.~
+gemstone~
+jewelry A AB
+0 0 0 0 0
+0 0 0 P
+~
+End
+#32203
+bed silver black honeymoon~
+a large silver and black bed~
+A large silver and black bed, complete with satin sheets and pillowcases.~
+silver~
+furniture B 0
+B FHJKPQ EHK BEF BEF
+0 150 0 P
+~
+End
+#32204
+wedding invitation~
+a wedding invitation~
+An invitation to the wedding of Lord Vaevictis and Lady Miriel lies here.~
+paper~
+none Y A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#32205
+roman hot tub whirlpool~
+a black marble Roman tub~
+A black marble Roman tub with whirlpool jets, sits here bubbling softly.~
+marble~
+furniture AB 0
+B FHJKPQ FIL CFG CFG
+0 0 0 P
+~
+End
+#32206
+signet ring silver rose~
+a Silver Rose signet ring~
+A signet ring lies here, inscribed with a Silver Rose.~
+gemstone~
+armor ABDGISY AB
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+106 0 0 P
+A
+18 2500
+A
+19 2500
+A
+12 1000
+A
+13 1000
+~
+MaxWorld 2
+End
+#32207
+key dragon oriental~
+the Key of the Dragon~
+A key shaped like an oriental dragon.~
+steel~
+key BIT AO
+0 0 0 0 0
+90 1 10000 P
+A
+5 5
+A
+4 5
+A
+20 -1
+~
+End
+#32208
+crystal chandelier~
+a crystal chandelier~
+A large crystal chandelier hangs here, illuminating the whole room.~
+crystal~
+light AI 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 200 5 P
+~
+End
+#32209
+bed honeymoon large~
+a large four-posted bed~
+A large four poster bed with blue satin sheets and pillows. A large canopy spreads over the top, with silver buntings hanging from the posts.~
+wood~
+furniture AB 0
+B GJOQRST EHK BEF BEF
+0 400 300 P
+~
+End
+#32210
+flower vase blue~
+a small blue flower vase~
+A small blue flower vase gilted with silver, and carrying two long stemmed silver roses.~
+glass~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+~
+End
+#32211
+table~
+A {*Silver{0 Table~
+A beautiful table made of silver is here.  There are beautiful etchings on
+it's surface.~
+wood~
+furniture 0 P
+C DFGHIJ ABDEGHJKN CFG 0
+40 10000 1 P
+~
+End
+#32212
+wedding ring diamond~
+a diamond wedding ring~
+A diamond wedding ring enscribed, To my love, my life, my Grand Paladin, MY lord, Vaevictis... From: Miriel.~
+gemstone~
+jewelry A AB
+0 0 0 0 0
+106 0 0 P
+~
+End
+#32213
+wedding bouquet silver blue roses~
+a bouquet of long stemmed, silver and sapphire blue roses~
+A beautiful bouquet of silver and sapphire long stemmed roses is here.~
+none~
+armor A AO
+0 0 0 0 0
+0 0 0 P
+~
+MaxWorld 1
+End
+#32214
+obsession men for cologne~
+a bottle of Obsession for Men (tm)~
+A bottle of Obsession for Men sits here.~
+crystal~
+jewelry 0 A
+0 0 0 0 0
+0 0 0 P
+~
+End
+#32215
+large gate key stronghold~
+a large steel key, engraved with an oriental design~
+A large steel key lies here, its shaft engraved with an oriental design.~
+steel~
+key BTU A
+0 0 0 0 0
+50 5 100 P
+~
+End
+#32216
+fountain marble~
+a beautiful large marble fountain.~
+A beautiful large marble fountain is here.~
+marble~
+fountain AO 0
+10000 10000 'water' 0 0
+0 0 0 P
+~
+End
+#32217
+small chest~
+a small wooden chest~
+{}~
+wood~
+container 0 0
+20 AC 0 250 20
+1 0 0 P
+~
+End
+#32218
+small rope coil~
+a small coil of rope~
+A small coil of rope lies here.~
+cloth~
+key 0 A
+0 0 0 0 0
+1 10 0 P
+~
+End
+#32219
+dagger annihilation~
+daggeR of AnnihilatioN~
+A long, wicked dagger emanates a malevolent aura.~
+energy~
+weapon BE AN
+dagger 13 13 stab BDEH
+101 40 2000 P
+A
+4 -2
+A
+2 3
+A
+3 -1
+A
+1 2
+A
+18 20
+A
+19 20
+A
+12 100
+A
+13 100
+~
+End
+#32220
+ito dragon claw~
+the Ito Dragon ClaW~
+A small black dragons claw lies here.~
+mithril~
+weapon BCE AN
+hand 13 13 claw CDEG
+101 50 100000 P
+A
+5 -5
+A
+14 100
+A
+12 100
+A
+13 150
+A
+19 25
+A
+18 25
+~
+End
+#32221
+lash ito master~
+the lash of the Ito Master~
+A long wicked looking whip lies coiled here.~
+steel~
+weapon BE AN
+whip 13 13 sting BCDH
+101 50 2000 P
+A
+19 25
+A
+18 35
+A
+13 100
+A
+12 100
+A
+1 2
+A
+2 2
+A
+3 -1
+A
+4 -3
+A
+5 1
+~
+End
+#32222
+wicked dagger~
+a wicked looking dagger~
+A wicked looking dagger lies here.~
+steel~
+weapon BE AN
+dagger 13 13 pierce DEGH
+101 40 100000 P
+A
+18 10
+A
+19 10
+A
+13 50
+A
+1 3
+~
+End
+#32223
+spear toy~
+a toy spear~
+A small toy spear lies here.~
+steel~
+weapon BIK AN
+staff 13 13 divine BDG
+101 50 1000 P
+A
+5 4
+A
+18 10
+A
+19 10
+A
+20 -3
+~
+End
+#32224
+cane death~
+the Cane of Death~
+A long cane lies here.~
+wood~
+weapon BCEGY AN
+mace 13 13 chill BCD
+101 50 15000 P
+A
+5 -2
+A
+3 -3
+A
+2 3
+A
+1 4
+A
+18 30
+A
+19 20
+~
+End
+#32225
+deathdealer~
+deaTHDeAleR~
+A wicked looking katana glows and hums.~
+steel~
+weapon BCEFJ AN
+katana 13 13 acbite BCDH
+101 60 10000 P
+A
+13 50
+A
+5 2
+A
+1 2
+A
+18 25
+A
+19 25
+~
+End
+#32226
+beautiful silver rose quest~
+a {^B{7e{^a{7u{^t{7i{^f{7u{^l{x {7Silver{x {!Ro{1s{!e{x~
+A {^b{7e{^a{7u{^t{7i{^f{7u{^l{x {7silver{x {!ro{1s{!e{x lies here.~
+gemstone~
+gem ABCEGIc AO
+0 0 0 0 0
+0 0 550000 P
+E
+rose~
+You see a small silver rose here.  It glows with quite a magical aura.  
+~
+~
+End
+#32227
+ito katana death~
+the Katana of Death~
+A long, evil looking katana lies here.~
+steel~
+weapon BCEG AN
+katana 8 19 frbite BDE
+90 50 100000 P
+A
+18 35
+A
+1 2
+A
+5 3
+~
+End
+#32228
+dragon plate mail~
+dragon plate mail~
+A suit of dragon plate mail lies here.~
+shadow~
+armor BCE AD
+ACE ACE ACE AE 0
+90 2 250000 P
+A
+18 30
+A
+19 30
+A
+13 50
+A
+3 4
+~
+End
+#32229
+outpost forest~
+a small forest outpost~
+{}~
+stone~
+trash 0 0
+0 0 0 0 0
+1 200 0 P
+E
+outpost~
+You see a large stone building, with crossbows set in the corners. 
+Torches are blazing on the ramparts, and angry men run around the walls.  
+~
+~
+End
+#32230
+silver rose key~
+a silver rose key~
+A silver rose key lies here.~
+steel~
+key F A
+0 0 0 0 0
+0 0 0 P
+~
+MaxWorld 1
+End
+#32231
+toy child~
+a small toy~
+A small child's toy sits here humming.~
+wood~
+weapon BFI AN
+hand 12 14 mindblast BDG
+100 2 5000 P
+A
+3 -2
+A
+5 -2
+A
+1 1
+A
+2 3
+A
+18 20
+A
+19 20
+A
+12 50
+A
+13 50
+~
+End
+#32232
+diamond~
+a sparkling diamond~
+A sparkling diamond lies here.~
+gemstone~
+jewelry 0 AO
+0 0 0 0 0
+1 0 200000 P
+~
+End
+#32233
+Bonesmasher~
+the Bonesmasher~
+An evil looking mace with all kinds of spikes set in it lies on the floor.~
+mithril~
+weapon BCE AN
+mace 13 13 divine DEG
+101 70 25000 P
+A
+18 25
+A
+13 100
+A
+12 100
+A
+19 33
+~
+End
+#32234
+shining emerald~
+a shining emerald~
+A shining emerald lies here.~
+gemstone~
+jewelry 0 AO
+0 0 0 0 0
+1 0 150000 P
+~
+End
+#32235
+sack grain~
+a sack of grain~
+A sack of grain lies in the corner.~
+food~
+food 0 A
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef C 0 0 0
+1 2 500 P
+~
+End
+#32236
+wonton fried~
+some fried wonton~
+Some fried wonton looks delicious.~
+food~
+food 0 A
+BD AC 0 0 0
+1 1 250 P
+~
+End
+#32237
+shadow bracer~
+a shadow bracer~
+A shadow bracer lies here, barely visible.~
+shadow~
+armor B AM
+ACE ACE ACE AE 0
+90 0 200000 P
+A
+19 30
+A
+18 30
+A
+1 1
+A
+2 5
+A
+12 100
+A
+13 100
+A
+5 3
+~
+End
+#32238
+dragon helmet~
+a dragon helmet~
+A colorful helmet made of dragonscale lies here.~
+dragonscale~
+armor BI AE
+ADE ADE ADE CE 0
+101 2 500000 P
+A
+18 35
+A
+19 35
+A
+4 3
+A
+3 3
+~
+End
+#32239
+sacrificial dagger~
+a sacrificial dagger~
+A small silver dagger lies here.~
+silver~
+weapon BC AN
+dagger 13 13 iron DEGH
+101 40 50000 P
+A
+14 -100
+A
+5 -3
+A
+18 40
+A
+19 40
+~
+End
+#32240
+medallion magistrate~
+a magistrate's medallion~
+A small silver medallion lies here.~
+silver~
+armor BCF AC
+ADE ADE ADE CE 0
+101 1 50000 P
+A
+18 25
+A
+19 25
+A
+13 50
+A
+2 4
+A
+20 -5
+~
+End
+#32241
+campfire small~
+a small campfire~
+A small campfire burns here.~
+fire~
+light A 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 0 0 P
+~
+End
+#32242
+cloth tent camouflaged~
+a small tent~
+A small camouflaged tent.~
+cloth~
+furniture IY 0
+B FHIJKL IL ABDG ABDG
+0 0 0 P
+~
+End
+#32243
+plain katana~
+a plain katana~
+A very plain looking katana lies here.~
+mithril~
+weapon BCFY AN
+katana 13 13 ray BD
+101 50 20000 P
+A
+1 4
+A
+13 100
+A
+18 40
+A
+19 30
+~
+End
+#32244
+shadowy ankle cuff~
+a shadowy ankle cuff~
+An ankle cuff made of pieces of the shadows lies here.~
+shadow~
+armor BFI AT
+ABCE ABCE ABCE ABE 0
+101 0 12000 P
+A
+13 150
+A
+3 3
+A
+1 2
+A
+18 20
+A
+19 20
+~
+End
+#32245
+silver rose wallet~
+a Silver Rose wallet~
+A silver wallet lies here.~
+cloth~
+container STd A
+500 A 0 10000 75
+102 0 0 P
+~
+Spec everful_purse~
+End
+#32246
+patch god unknown~
+a patch of an unknown God~
+A dark patch lies here.~
+cloth~
+armor CIJSTY AW
+ADE ADE ADE CE 0
+101 2 40000 P
+A
+5 4
+A
+19 20
+A
+18 20
+A
+13 400
+~
+End
+#32247
+amethyst brooch necklace~
+an amethyst brooch~
+A small amethyst brooch lies here.~
+gemstone~
+jewelry AG AC
+0 0 0 0 0
+90 1 200000 P
+A
+5 3
+A
+20 -2
+A
+1 -1
+A
+3 5
+A
+4 5
+~
+End
+#32248
+dagger yogsothoth~
+the Dagger of Yogsothoth~
+A small,evil looking dagger lies here, glowing with a malevolent aura.~
+iron~
+weapon BCEFGT AN
+dagger 13 13 stab BDEH
+101 30 30000 P
+A
+4 -3
+A
+13 100
+A
+5 -1
+A
+1 5
+A
+18 40
+A
+19 20
+~
+End
+#32249
+mark yogsothoth~
+the Mark of Yogsothoth~
+A small cloth marking lies here.~
+cloth~
+armor BCEFSTY AR
+ADE ADE ADE ABCE 0
+101 1 24000 P
+A
+12 80
+A
+13 50
+A
+3 2
+A
+18 25
+A
+19 25
+A
+4 -2
+~
+End
+#32250
+a dark earring~
+a dark earring~
+A small black earring lies here.~
+steel~
+armor BCEFT AS
+ADE ADE ADE ABCE 0
+101 1 15000 P
+A
+20 -2
+A
+5 2
+A
+4 2
+A
+3 4
+A
+12 100
+~
+End
+#32251
+rock~
+a small rock~
+A small rock lies on the edge of the path.~
+stone~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+~
+End
+#32252
+small sign~
+a small sign~
+A small sign stands here saying 'Look at me!!!!'~
+wood~
+trash ABGI 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+******** WARNING! ***********
+You are now entering the Ito Stronghold! Many aggressive and powerful creatures reside here. If you are not level 95 or over, I suggest you not be here.
+If you are, then have fun dying.. :)
+ 
+-Lord Vaevictis, Grand Paladin of the Silver Rose.
+~
+~
+End
+#32253
+black velvet bed pet~
+a black velvet bed~
+A big black velvet bed sits here.~
+cloth~
+furniture A 0
+C DFIJN EHK BEF BEF
+0 0 0 P
+~
+End
+#32254
+fountain black silver marble~
+a black marble fountain~
+A large black marble fountain with silver accents gurgles endlessly.~
+marble~
+fountain AB 0
+-1 -1 'champagne' 0 0
+1 0 0 P
+~
+End
+#32255
+lash frigid whip~
+a FriGiD Lash~
+A frigid whip lies here, coiled like a snake.~
+leather~
+weapon AFISY AN
+whip 8 19 frbite BDE
+90 20 100000 P
+A
+18 30
+A
+19 30
+A
+13 100
+A
+1 -2
+A
+3 -2
+~
+End
+#32256
+oil seller katana~
+oil Seller~
+An ancient looking katana lies here.~
+steel~
+weapon FIT AN
+katana 8 19 iron E
+90 30 100000 P
+A
+18 40
+A
+19 40
+A
+13 50
+F
+A 0 0 P
+~
+End
+#32257
+captains badge~
+a captains badge~
+A badge of the captain of the guard lies here.~
+steel~
+armor BF AW
+ACE ACE ACE AE 0
+90 10 0 P
+A
+1 3
+A
+5 3
+A
+3 2
+A
+13 100
+A
+19 20
+A
+18 20
+A
+2 -3
+~
+End
+#32258
+silken obi~
+a silken obi~
+A silken obi lies here.~
+silk~
+armor ABISY AK
+ACE ACE ACE AE 0
+90 10 500000 P
+A
+19 30
+A
+18 25
+A
+4 3
+A
+1 -2
+A
+13 100
+A
+20 -3
+~
+End
+#32259
+leather leggings black~
+some black leather leggings~
+A pair of black leather leggings lie here.~
+leather~
+armor ISY AF
+ACE ACE ACE AE 0
+90 20 0 P
+A
+2 3
+A
+13 50
+A
+14 50
+A
+18 20
+A
+19 15
+F
+A 0 0 P
+A
+20 -3
+~
+End
+#32260
+jo staff~
+a jo staff~
+A small staff lies here.~
+wood~
+weapon SY AN
+hand 9 17 sliver CDE
+90 10 0 P
+~
+End
+#32261
+belt shadow~
+a shadowy belt~
+A shadowy belt lies here, almost unseen.~
+shadow~
+armor EF AL
+ACE ACE ACE AE 0
+90 10 100000 P
+A
+20 -1
+A
+18 10
+A
+19 15
+A
+13 20
+F
+A 0 0 V
+~
+End
+#32262
+rod of drowning~
+a rod of drowning~
+A small watery rod lies here.~
+steel~
+weapon BIT AN
+hand 9 17 drowning BDE
+90 30 300000 P
+~
+End
+#32263
+wedding ring jackal~
+a diamond wedding ring~
+A diamond wedding ring lies here.~
+gold~
+jewelry ABISTY AB
+0 0 0 0 0
+0 0 0 P
+E
+inscription~
+Dear Hubby Creel, May our LovE last for Eternity
+~
+~
+End
+#32264
+wedding ring creel~
+a diamond wedding ring~
+A diamond wedding ring lies here.~
+none~
+jewelry ABISTY AB
+0 0 0 0 0
+0 0 0 P
+E
+inscription~
+Jackal, with this ring, I give you all that I am and ever will be.
+~
+~
+End
+#0
+
+
+
+#ROOMS
+#32201
+Entrance to the mountains~
+You come to the foothills of the Ito Mountains.  A forest surrounds you
+as the path continues through the hills to the mountains looming beyond
+Small animals scurry into the forest as you hurry along the path.  All is
+silent as if some great presence lurks within.  
+~
+0 34086913 4
+D2
+~
+~
+0 0 32202
+End
+D4
+~
+~
+0 0 3595
+End
+S
+End
+#32202
+A foothill path.~
+The path runs north to south, wooded on both sides.  You feel an ominous
+presence in these mountains and a cold chill runs down your back.  Short
+croaks can be heard and a pond is to your left.  Frogs leap in and out, but
+grow quiet as you walk by.  
+~
+0 34086913 4
+D0
+~
+~
+0 0 32201
+End
+D2
+~
+~
+0 0 32203
+End
+S
+Reset O 32251 1 100 0 Load A small rock.
+End
+#32203
+A crossroads.~
+You stand at a crossroads.  Exits extend in all directions, and the smell
+of smoke wafts in from the north.  You feel many eyes upon you.  You are not
+alone.  In the distance, birds chirp and a deer jumps across the path in
+front of you.  
+~
+0 34086913 4
+D0
+~
+~
+0 0 32202
+End
+D1
+~
+~
+0 0 32205
+End
+D2
+~
+~
+0 0 32206
+End
+D3
+~
+~
+0 0 32204
+End
+S
+End
+#32204
+A wooded path into the mountains.~
+The forest thickens as you walk this path.  Many trees seem to block your
+vision and forest sounds assault your ears.  The faint sound of a hammer on
+metal can be heard in the distance.  Other than that, you neither see nor
+hear any signs of intelligent life.  
+~
+0 34086913 3
+D0
+~
+~
+0 0 32207
+End
+D1
+~
+~
+0 0 32203
+End
+S
+End
+#32205
+A thin wooded path.~
+You can barely make out the path in front of you, even your light doesn't
+penetrate the darkness because of the trees.  You smell woodsmoke wafting in
+from the east, and voices can be heard, but you can barely make out the
+words.  You sense many eyes watching you and an unfriendly presence is
+nearby.  
+~
+0 34086913 3
+D1
+~
+~
+0 0 32208
+End
+D3
+~
+~
+0 0 32203
+End
+S
+End
+#32206
+A small clearing~
+The woods suddenly think out into a small clearing, and you can see the
+bare rock of the mountains in the distance.  A gate rises up some distance
+ahead and you can barely make out silhouettes of men walking the walls.  A
+small breeze caresses your body and lifts your spirits, as you prepare for
+the inevitable conflict to come.  Unless you leave now of course.  
+~
+0 34086913 2
+D0
+~
+~
+0 0 32203
+End
+D3
+~
+~
+0 0 32280
+End
+S
+Reset O 32252 1 100 0 Load A small sign.
+End
+#32207
+Deeper in the forest~
+Deeper into the forest, this path is almost indistinguishable from the
+rest of the forest itself.  Only a thin trail marks the passage of where you
+should go.  Sounds of people moving about come from the north, as well as
+the sounds of shouted orders, and the scrape of steel on steel.  
+~
+0 34086913 3
+D0
+~
+~
+0 0 32210
+End
+D2
+~
+~
+0 0 32204
+End
+S
+End
+#32208
+A dead end in the woods.~
+You have stumbled upon an encampment of armed men.  Dressed in black
+suits and masks, they draw katanas, and rush you.  Now would be a good time
+to leave, if you are so inclined.  
+~
+0 34086912 3
+D3
+~
+~
+0 0 32205
+End
+S
+Reset O 32241 1 100 0 Load A small campfire.
+Reset O 32242 1 100 0 Load A small tent.
+Reset M 32220 4 100 0 Load a ninja warrior.
+Reset E 32244 23 100 0 A shadowy ankle cuff is loaded on the left ankle of a shadowy ankle cuff
+Reset E 32243 16 100 0 A plain katana is loaded wielded of a plain katana
+End
+#32209
+Before the gates at the foot of the mountains.~
+You stand before a massive gate, idealized carvings of oriental figures
+cover the sides.  A large windlass holds the gate shut.  Armed ninjas in
+masks and suits man the walls.  You see them point at you and draw their
+katanas looking for a fight.  
+~
+0 34086913 2
+D0
+You see a large ornamental gate with idealized oriental carvings.
+~
+gate~
+1 0 32211
+Flags A
+End
+D1
+~
+~
+0 0 32213
+End
+D2
+~
+~
+0 0 32281
+End
+D3
+~
+~
+0 0 32214
+End
+S
+End
+#32210
+A forest outpost~
+A large outpost lies here, men in masks and uniforms shout orders to the
+soldiers defending this outpost from a current attack.  The defending unit
+seems to know what they are doing, and the defenders seem to be winning. 
+Even though they aren't dressed in the fine plate that the attackers seem to
+have, they are light and quick, and possess great skill at hand to hand
+combat.  There is a door north to the outpost.  
+~
+0 34086913 3
+D2
+~
+~
+0 0 32207
+End
+S
+Reset O 32229 1 100 0 Load A small forest outpost.
+Reset M 32219 4 100 0 Load an outpost guardian.
+End
+#32211
+Inside the gates, on the path to the stronghold.~
+The path slopes sharply upward here, gaining about a foot in height for
+every 10 feet in distance.  As it winds up into the mountains, you hear
+screaming coming from the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 32212
+End
+D2
+~
+~
+1 0 32209
+Flags A
+End
+S
+End
+#32212
+Path to the stronghold.~
+A long north-south path heads up into the mountains.The forest begins to thin out, and bluffs extend up from the sides of the path. Many ccrevices dot the walls of the bluff and boulders are strewn about.
+Shadows fall upon the path, cast by rocks jutting from the sides of the bluffs.
+~
+0 0 5
+D0
+~
+~
+0 0 32215
+End
+D2
+~
+~
+0 0 32211
+End
+S
+End
+#32213
+A small gatehouse~
+A small gatehouse, with a table and chairs.  There are weapons on the
+wall and crossbows leaned in the corner.  From the looks of things, it is
+still inhabited.  
+~
+0 34086920 0
+D3
+~
+~
+0 0 32209
+End
+S
+Reset M 32221 1 100 0 Load a gate guardian.
+Reset E 32243 16 100 0 A plain katana is loaded wielded of a plain katana
+End
+#32214
+A small gatehouse.~
+This gatehouse has a small table, and woven chairs.  Many weapons lie
+stacked in piles on the floor, crossbows are leaned in the corners and a cup
+of steaming tea is on the table.  
+~
+0 34086920 0
+D1
+~
+~
+0 0 32209
+End
+S
+Reset M 32221 1 100 0 Load a gate guardian.
+Reset E 32243 16 100 0 A plain katana is loaded wielded of a plain katana
+End
+#32215
+Farther up the path.~
+The path seems clearer here, the boulders almost strategic in their setting, short walls of rock dot the path and noises can be heard from the north.
+A bird winds it's way overhead, chirping at you as you walk by. Quietness dominates the canyon as you come to the end of the path.
+~
+0 0 0
+D0
+~
+~
+0 0 32216
+End
+D2
+~
+~
+0 0 32212
+End
+S
+End
+#32216
+Before the gates of the strong hold.~
+You see a masive gate topping a flight of stone steps in front of you. Guards can be seen manning towers at either side of the gate. They seem to be very alert and spot you almost instantly. If you wish to leave, now would be a good time.
+~
+0 0 5
+D2
+~
+~
+0 0 32215
+End
+D4
+A massive gate, with large timbers and steel reinforcment bands. A large lock bolts the gate shut.
+~
+gate up~
+1 32215 32217
+Flags A
+End
+S
+End
+#32217
+Inside the gate.~
+As you enter the city, you notice the utilitarian aspect of it.  Two
+guard towers flank the gate, and a high wall surrounds what little you can
+see of the city.  Citizens and Guards alike run back and forth preparing the
+city for defense, while messengers run through the streets screaming about
+an attack.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32218
+End
+D1
+~
+~
+0 0 32219
+End
+D3
+~
+~
+0 0 32220
+End
+D5
+~
+~
+1 0 32216
+Flags A
+End
+S
+Reset M 32224 1 100 0 Load Menzori Ito.
+End
+#32218
+The main street of the stronghold.~
+A broad street lined with shops and homes, citizens run from the shops, entering dwelling and barring doors. Other citizens look at you in fear, while guards eye you warily, not wanting to endanger themselves or the citizens they strive to protect.
+~
+0 34086912 1
+D0
+~
+~
+0 0 32248
+End
+D1
+~
+~
+0 0 32225
+End
+D2
+~
+~
+0 0 32217
+End
+D3
+~
+~
+0 0 32221
+End
+S
+End
+#32219
+A small guardtower.~
+A small weapons rack lies against the north wall, while a crossbow mount
+is fixed to the south wall, overlooking the path down the hill.  Extra bolts
+are arr ayed in an orderly fashion along the shelf below the mount, a
+a crossbow lies here still, left by a lazy guard.
+~
+0 34086912 1
+D3
+~
+~
+0 0 32217
+End
+S
+End
+#32220
+A small guardtower.~
+A small guardtower with a weaponsrack and acrossbow mount. Extra bolts lie in an orderly row across the top of a low wall that gives protection to the archer. A small torch glows brightly about three feet below the mount.
+~
+0 34086912 1
+D1
+~
+~
+0 0 32217
+End
+S
+End
+#32221
+Along the main street in town.~
+More shops line this portion of the street.  You see an intersection to
+the east, and the city gates lie to the west.  Muffled sounds come from all
+about and you see shadows flicker down the sides of the road.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32222
+End
+D1
+~
+~
+0 0 32218
+End
+D2
+~
+door south~
+1 0 32223
+Flags AB
+End
+D3
+~
+~
+0 0 32231
+End
+S
+Reset M 32210 2 100 0 Load a citizen of Ito.
+End
+#32222
+A small weapons shop~
+As you enter the shop, you notice an array of weapons that you have
+rarely seen before.  Whips and katanas adorn the walls, bamboo stands hold
+staves and spears.  Shields hang on the walls and daggers lie in a glass
+case in front of the counter.  
+~
+0 34086920 0
+D2
+~
+~
+0 0 32221
+End
+S
+Reset M 32201 1 100 0 Load Hohiro, the weapons merchant.
+Reset G 32227 1 100 0 The katana of death into inventory of the Katana of Death
+Reset G 32222 1 100 0 A wicked looking dagger into inventory of a wicked looking dagger
+End
+#32223
+A small dwelling.~
+A small house with the usual homely type stuff is here.  A hearth sits in
+the back wall, fire burning cheerful and banked for cooking.  Dishes are
+strewn about the living area, apparently the family forgot to do dishes
+before they left.  A noise comes from under your feet...  Maybe they haven't
+really left at all?  
+~
+0 34086920 0
+D0
+~
+~
+1 0 32221
+Flags AB
+End
+D5
+~
+~
+1 0 32224
+Flags A
+End
+S
+End
+#32224
+A small hiding chamber.~
+A small chamber made expressly for hiding people.  It looks fairly
+ordinary, and extremely small.  
+~
+0 34086921 0
+D4
+A small dusty trapdoor.
+~
+trap door trapdoor~
+1 0 32223
+Flags A
+End
+S
+Reset M 32223 1 100 0 Load the half-elven prisoner.
+Reset E 32250 21 100 0 A dark earring is loaded on the left ear of a dark earring
+Reset E 32249 20 100 0 The mark of yogsothoth is loaded worn on face of the Mark of Yogsothoth
+Reset E 32248 16 100 0 The dagger of yogsothoth is loaded wielded of the Dagger of Yogsothoth
+End
+#32225
+Along the Main Street.~
+More shops line this portion of the Main Street, and all the windows and doors to the living areas are shuttered and locked.
+~
+0 34086912 1
+D0
+~
+~
+0 0 32226
+End
+D1
+~
+~
+0 0 32228
+End
+D2
+~
+~
+0 0 32227
+End
+D3
+~
+~
+0 0 32218
+End
+S
+Reset M 32210 3 100 0 Load a citizen of Ito.
+Reset M 32225 1 100 0 Load Jushin Ito.
+End
+#32226
+An abandoned building.~
+This building appears to have been abandoned for quite some time. Dust cakes the floor, and no footprints can be seen in the dust. There is a big hole in the roof, but you can't seem to find a way up
+~
+0 34086912 1
+D2
+~
+~
+0 0 32225
+End
+D4
+~
+up hole~
+3 32218 32238
+Flags ABCG
+End
+S
+End
+#32227
+Hiro's Armor shop.~
+This appears to be an armory.  Many suits of plate and leather line the
+walls.  Various price tags are attached and not all of them are too high for
+your purse.  A small man greets you from behind a counter.  He smiles at you
+and prepares his wares to do business.  
+~
+0 34086912 0
+D0
+~
+~
+0 0 32225
+End
+S
+Reset M 32217 1 100 0 Load Hiro, the armourer.
+Reset G 32237 1 100 0 A shadow bracer into inventory of a shadow bracer
+Reset G 32228 1 100 0 Dragon plate mail into inventory of dragon plate mail
+End
+#32228
+At the corner of the Main street and RoHai Lane.~
+You stand at the corner of the Main street and RoHai lane, this appears
+to be the residential section of the city.  Many houses line this portion of
+the road and torches appear at regular intervals, providing the citizens
+with light.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32229
+End
+D1
+~
+door~
+1 0 32239
+Flags AB
+End
+D3
+~
+~
+0 0 32225
+End
+S
+End
+#32229
+Along RoHai Lane.~
+The flames from the torches that line the road snap and crackle in the
+wind.  The corner at the end of this road lies ahead and the torches seem to
+dim as the night wears on.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32230
+End
+D1
+~
+~
+0 0 32240
+End
+D2
+~
+~
+0 0 32228
+End
+D3
+~
+door~
+1 0 32241
+Flags AB
+End
+S
+End
+#32230
+At the corner of the back road and RoHai Lane.~
+At the corner here, you see a sign on the north building that says
+'Fontu's Jewelry'.  To the west is a dark building.  Light from the torches
+paints your weapon a blood red.  Shouting from the main street can be heard,
+and it sounds like it is closing on your position.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32245
+End
+D1
+~
+~
+0 0 32246
+End
+D2
+~
+~
+0 0 32229
+End
+D3
+~
+~
+0 0 32235
+End
+S
+End
+#32231
+At the corner of the Main Street and a side alley.~
+This corner looks as if no poverty exists in the city at all.  Elaborate
+houses line the street and finely wrought gates protect them from outsiders.
+The streets are exceptionally clean, and people whistle as they go about
+their way.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32232
+End
+D1
+~
+~
+0 0 32221
+End
+S
+End
+#32232
+A side alley.~
+Going into this part of town, you notice that the kids in the street are
+playing alone, running around and laughing as if there were no problems in
+the world.  Mothers look out their windows and smile as they run past,
+waving at their respective children as they go.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32233
+End
+D2
+~
+~
+0 0 32231
+End
+S
+Reset M 32202 3 100 0 Load a small child.
+Reset E 32231 16 100 0 A small toy is loaded wielded of a small toy
+End
+#32233
+A side alley~
+This section of the city seems to give way to the lower class, moderate
+amounts of trash gather in the streets, and a sanitation crew laors to pick
+it up.  They look warily to the north, and finish their job then leave.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32234
+End
+D2
+~
+~
+0 0 32232
+End
+S
+Reset M 32203 1 100 0 Load a sanitation crew.
+End
+#32234
+The corner of the back road and a side alley.~
+This portion of the city seems to be a lower class section.  Not the
+slums, but not the richest part either.  Shabby looking houses line the
+streets, light seeping through the greasy windows.  The gutters of this
+street stink as raw sewage is backed up in them, it appears that the
+sanitation crews in this city don't make it over here that often.  A lone
+dog is barking in the distance, and shouts can be heard from the south back
+toward the main street.  
+~
+0 34086912 1
+D1
+~
+~
+0 0 32237
+End
+D2
+~
+~
+0 0 32233
+End
+S
+End
+#32235
+Along the back road.~
+Along the back roads of the stronghold you notice a lot less of the
+hurriedness that you saw on the Main street.  It seems calm and quiet as if
+the hecticness has not visited the back portion of the city yet.  
+~
+0 34086912 1
+D1
+~
+~
+0 0 32230
+End
+D3
+~
+~
+0 0 32236
+End
+S
+End
+#32236
+Along the back road.~
+This portion of the back road seems to house the homeless people of the
+city.  Many of them look at you with awe and wonder.  It's no doubt that you
+own more now than they will ever own in their whole life.  Trash lines the
+gutters, and spills over onto the street, some people search through it
+hungrily, looking for food.  
+~
+0 34086912 1
+D1
+~
+~
+0 0 32235
+End
+D3
+~
+~
+0 0 32237
+End
+S
+End
+#32237
+Along the back road.~
+This portion of the road continues to be the slums of the stronghold, and
+many people line the street burning anything they can in used wine barrels. 
+More trash lines the gutters, and scrawny cats and skinny dogs chase each
+other through the streets.  
+~
+0 34086912 1
+D1
+~
+~
+0 0 32236
+End
+D3
+~
+~
+0 0 32234
+End
+S
+End
+#32238
+On the rooftops of the stronghold.~
+As you stand on the roof of this old building, you can see the layout of
+the city below.  As you turn to move away, the floorboards of the roof you
+are standing on almost give and break.  Down you see the abandoned building,
+and to the north and west, you see more rooftops.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32262
+End
+D3
+~
+~
+0 0 32261
+End
+D5
+~
+~
+3 0 32226
+Flags ABCG
+End
+S
+End
+#32239
+A small dwelling.~
+You have entered a small living space.  It is extremely dark and damp. 
+Rats hide in the corners, and scraps of food lie on a small table.  
+~
+0 34086921 0
+D3
+~
+~
+1 0 32228
+Flags AB
+End
+S
+End
+#32240
+A grocery store.~
+You have entered a small grocery shop.  Bottles of potable liquids line
+the walls, and sacks of grain sit in neat rows on the floor.  An old woman
+looks up at you and smiles as you enter.  'Buy my wares?  ', she asks.  It
+appears that her inventory is of the highest quality.  
+~
+0 34086920 0
+D3
+~
+~
+0 0 32229
+End
+S
+Reset M 32211 1 100 0 Load Yukei, the Groceress.
+Reset G 32236 1 100 0 Some fried wonton into inventory of some fried wonton
+Reset G 32235 1 100 0 A sack of grain into inventory of a sack of grain
+End
+#32241
+A living area.~
+This dwelling is fairly large compared to the others on this road.  It
+appears that someone of a certain importance lives here.  Paintings decorate
+the walls, and ornate furniture is spaced in an oriental design that calms
+the soul.  
+~
+0 34086920 0
+D0
+~
+~
+1 0 32243
+Flags AB
+End
+D1
+~
+~
+1 0 32229
+Flags AB
+End
+D2
+~
+~
+0 0 32244
+End
+D4
+~
+~
+0 0 32242
+End
+S
+Reset M 32222 1 100 0 Load Mei Ling.
+Reset E 32247 3 100 0 An amethyst brooch is loaded around the neck (1) of an amethyst brooch
+End
+#32242
+An attic.~
+Dark and dank, this attic smells of musty papers, and old clothing. Books are piled against one wall, mouldering in the dampness.
+~
+0 34086921 0
+D3
+~
+~
+0 0 32247
+End
+D5
+~
+~
+0 0 32241
+End
+S
+End
+#32243
+A back room.~
+This room appears to be used for storage, although a cursory examination
+tells you that nothing here is useful.  
+~
+0 34086920 0
+D2
+You see a small ordianry door here.  
+~
+door~
+1 0 32241
+Flags AB
+End
+S
+Reset M 32218 1 100 0 Load Shinzo Ito.
+Reset E 32240 3 100 0 A magistrate's medallion is loaded around the neck (1) of a magistrate's medallion
+Reset E 32239 16 100 0 A sacrificial dagger is loaded wielded of a sacrificial dagger
+End
+#32244
+A large kitchen.~
+This large room appears to be some sort of kitchen.  Metal pots and pans
+line the countertops, stacked in neat rows.  A bright cooking fire is banked
+in the hearth and a large pot containing the residents' last meal bubbles
+softly.  
+~
+0 34086920 0
+D0
+~
+~
+0 0 32241
+End
+S
+End
+#32245
+Fontu's Fabulous Jewelry Emporium.~
+An old grizzled man stands behind the counter, watching you with a wary
+eye.  You notice he has one hand under the counter and you hear the click of
+a katana beginning to slide out of its sheath.  All sorts of jewelry are
+arranged in cases before you, and not too many of them have exorbitant
+prices.  
+~
+0 34086920 0
+D2
+~
+~
+0 0 32230
+End
+S
+Reset M 32206 1 100 0 Load Fontu the jeweller.
+Reset G 32234 1 100 0 A shining emerald into inventory of a shining emerald
+Reset G 32232 1 100 0 A sparkling diamond into inventory of a sparkling diamond
+End
+#32246
+An abandoned house.~
+This building is dark.  Real dark.  You can't even see your hand in front
+of your face, and your light gives off a sickly glow.  Even the torchlight
+coming through the open door seems paled as soon as it hits the doorway. 
+You catch a glimpse of a magical aura as you turn to leave.  
+~
+0 34086921 0
+D3
+~
+~
+0 0 32230
+End
+S
+Reset M 32209 1 100 0 Load the mad cleric.
+Reset E 32246 25 100 0 A patch of an unknown god is loaded as a patch of a patch of an unknown God
+Reset E 32233 16 100 0 The bonesmasher is loaded wielded of the Bonesmasher
+End
+#32247
+Farther into an attic.~
+Cobwebs hang like ropes from the ceiling and a small chest sits here in
+the dust.  Spiders dangle from draglines on the wall, and bugs glisten in
+the light from your torch 
+~
+0 34086921 0
+D1
+~
+~
+0 0 32242
+End
+S
+Reset O 32217 1 100 0 Load A small wooden chest.
+Reset P 32218 1 100 0 Put A small coil of rope inside a small coil of rope.
+End
+#32248
+Road to the Pagoda.~
+You travel along a small roadnorth of the main street.  You see a large
+pagoda to the north.  As you wonder what perils lie ahead for you, you are
+distracted from your reverie by the sound of a large animal roaring.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32249
+End
+D2
+~
+~
+0 0 32218
+End
+S
+End
+#32249
+Near the Pagoda~
+~
+0 34086912 1
+D0
+You see an oriental gate barring the way.  
+~
+oriental gate north~
+1 32207 32250
+Flags ABC
+End
+D1
+~
+~
+0 0 32252
+End
+D2
+~
+~
+0 0 32248
+End
+D3
+~
+~
+0 0 32251
+End
+S
+Reset M 32200 1 100 0 Load a Komodo Dragon.
+Reset E 32220 16 100 0 The ito dragon claw is loaded wielded of the Ito Dragon ClaW
+Reset E 32207 17 100 0 The key of the dragon is loaded held in the hands of the Key of the Dragon
+End
+#32250
+The entrance to the Pagoda.~
+You stand inside a large pagoda.  It has to be at least 40 feet high and
+it's huge!  The rooms span out before you like a field of wheat and screams
+come from the north east, as if someone is practicing beating someone to a
+pulp.  
+~
+0 34086921 0
+D0
+~
+~
+0 0 32255
+End
+D1
+~
+~
+0 0 32254
+End
+D2
+~
+~
+1 0 32249
+Flags ABC
+End
+D3
+~
+~
+0 0 32253
+End
+S
+End
+#32251
+A side alley near the Pagoda.~
+~
+0 34086913 1
+D1
+~
+~
+0 0 32249
+End
+S
+End
+#32252
+A side alley near the Pagoda.~
+~
+0 34086913 1
+D3
+~
+~
+0 0 32249
+End
+S
+End
+#32253
+The Pagoda.~
+Darkness pervades this room, and you can't see much of anything here. 
+More screams echo from the north and light comes from the northwest 
+~
+0 34086921 0
+D0
+~
+~
+0 0 32256
+End
+D1
+~
+~
+0 0 32250
+End
+S
+End
+#32254
+The Pagoda.~
+More darkness and screams, plus you notice a glimmer of light far to the
+north.  A faint hope.  But at least you have one.  
+~
+0 34086921 0
+D0
+~
+~
+0 0 32257
+End
+D3
+~
+~
+0 0 32250
+End
+S
+End
+#32255
+Nearer to Enlightenment.~
+You feel at peace with your inner self.  They say enlightenment comes to
+those who wait.  But can you wait while someone is pouunding on your skull? 
+You see someone appear from the shadows, and attack.  Guess you'll find out
+soon enough huh?  
+~
+0 34086921 0
+D0
+~
+~
+0 0 32259
+End
+D1
+~
+~
+0 0 32257
+End
+D2
+~
+~
+0 0 32250
+End
+D3
+~
+~
+0 0 32256
+End
+S
+Reset M 32215 1 100 0 Load Chozen Ito.
+Reset E 32225 16 100 0 Deathdealer is loaded wielded of deaTHDeAleR
+End
+#32256
+Nearer to Enlightenment.~
+A clear path to enlightenment is always hard to find.  Looks like you
+lucked out.  But be caerful.  A wrong turn could spell your doom.  
+~
+0 34086921 0
+D0
+~
+~
+0 0 32260
+End
+D1
+~
+~
+0 0 32255
+End
+D2
+~
+~
+0 0 32253
+End
+S
+End
+#32257
+Nearer to Enlightenment.~
+Enlightnement comes at a cost.  A high cost indeed.  This old man has
+payed his price, and now he will make you pay yours.  
+~
+0 0 0
+D0
+~
+~
+0 0 32258
+End
+D2
+~
+~
+0 0 32254
+End
+D3
+~
+~
+0 0 32255
+End
+S
+Reset M 32214 1 100 0 Load Kagero Ito.
+Reset E 32224 16 100 0 The cane of death is loaded wielded of the Cane of Death
+End
+#32258
+The Light of the Pagoda.~
+The light here is calming, you notice a boy in the center of the pool of
+light and he looks at you and frowns.  Shielding your eyes from the
+brilliance, you notice him stand and look at you.  His frown deepens and he
+reaches for his weapon...  
+~
+0 34086920 0
+D2
+~
+~
+0 0 32257
+End
+D3
+~
+~
+0 0 32259
+End
+S
+Reset M 32213 1 100 0 Load Tojo Ito.
+Reset E 32223 16 100 0 A toy spear is loaded wielded of a toy spear
+End
+#32259
+The Center of Enlightenment.~
+This room is calm and peaceful.  A balance between dark and light. 
+Shadows play on the walls and light dances on the floor.  
+~
+0 34086920 0
+D1
+~
+~
+0 0 32258
+End
+D2
+~
+~
+0 0 32255
+End
+D3
+~
+~
+0 0 32260
+End
+S
+Reset M 32207 1 100 0 Load Genjiro Ito.
+Reset E 32238 6 100 0 A dragon helmet is loaded over the head of a dragon helmet
+Reset E 32221 16 100 0 The lash of the ito master is loaded wielded of the lash of the Ito Master
+Reset M 32208 3 100 0 Load an assassin guard.
+Reset E 32222 16 100 0 A wicked looking dagger is loaded wielded of a wicked looking dagger
+Reset E 32228 5 100 0 Dragon plate mail is loaded on the body of dragon plate mail
+End
+#32260
+The darkness of the Pagoda.~
+This room is so dark you can't even see two inches in front of you. 
+Darkness wages a war with light as you struggle to see your surroundings. 
+You feel a presence in front of you, and notice part of the darkness
+coalescing into an enemy that you can barely make out.  Maybe he can show
+you the way to the light.  Or he'll just skewer you and be done with it.  
+~
+0 34086921 0
+D1
+~
+~
+0 0 32259
+End
+D2
+~
+~
+0 0 32256
+End
+S
+Reset M 32212 1 100 0 Load Miyamoto Ito.
+Reset E 32219 16 100 0 Dagger of annihilation is loaded wielded of daggeR of AnnihilatioN
+End
+#32261
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32265
+End
+D1
+~
+~
+0 0 32238
+End
+D3
+~
+~
+0 0 32263
+End
+S
+End
+#32262
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32268
+End
+D2
+~
+~
+0 0 32238
+End
+D3
+~
+~
+0 0 32265
+End
+S
+End
+#32263
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 34086912 1
+D0
+~
+~
+0 0 32266
+End
+D1
+~
+~
+0 0 32261
+End
+D3
+~
+~
+0 0 32264
+End
+S
+Reset M 32216 1 100 0 Load a rooftop assassin.
+Reset E 32227 16 100 0 The katana of death is loaded wielded of the Katana of Death
+End
+#32264
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32267
+End
+D1
+~
+~
+0 0 32263
+End
+D3
+~
+~
+0 0 32276
+End
+S
+Reset M 32216 3 100 0 Load a rooftop assassin.
+Reset E 32243 16 100 0 A plain katana is loaded wielded of a plain katana
+End
+#32265
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32269
+End
+D1
+~
+~
+0 0 32262
+End
+D2
+~
+~
+0 0 32261
+End
+D3
+~
+~
+0 0 32266
+End
+S
+End
+#32266
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32270
+End
+D1
+~
+~
+0 0 32265
+End
+D2
+~
+~
+0 0 32263
+End
+D3
+~
+~
+0 0 32267
+End
+S
+End
+#32267
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32271
+End
+D1
+~
+~
+0 0 32266
+End
+D2
+~
+~
+0 0 32264
+End
+D3
+~
+~
+0 0 32277
+End
+S
+Reset M 32216 3 100 0 Load a rooftop assassin.
+Reset E 32227 16 100 0 The katana of death is loaded wielded of the Katana of Death
+End
+#32268
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32275
+End
+D2
+~
+~
+0 0 32262
+End
+D3
+~
+~
+0 0 32269
+End
+S
+End
+#32269
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32274
+End
+D1
+~
+~
+0 0 32268
+End
+D2
+~
+~
+0 0 32265
+End
+D3
+~
+~
+0 0 32270
+End
+S
+Reset M 32216 4 100 0 Load a rooftop assassin.
+Reset E 32227 16 100 0 The katana of death is loaded wielded of the Katana of Death
+End
+#32270
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32273
+End
+D1
+~
+~
+0 0 32269
+End
+D2
+~
+~
+0 0 32266
+End
+D3
+~
+~
+0 0 32271
+End
+S
+End
+#32271
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32272
+End
+D1
+~
+~
+0 0 32270
+End
+D2
+~
+~
+0 0 32267
+End
+D3
+~
+~
+0 0 32278
+End
+S
+End
+#32272
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D1
+~
+~
+0 0 32273
+End
+D2
+~
+~
+0 0 32271
+End
+D3
+~
+~
+0 0 32279
+End
+S
+Reset M 32216 5 100 0 Load a rooftop assassin.
+Reset E 32222 16 100 0 A wicked looking dagger is loaded wielded of a wicked looking dagger
+End
+#32273
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D1
+~
+~
+0 0 32274
+End
+D2
+~
+~
+0 0 32270
+End
+D3
+~
+~
+0 0 32272
+End
+S
+End
+#32274
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D1
+~
+~
+0 0 32275
+End
+D2
+~
+~
+0 0 32269
+End
+D3
+~
+~
+0 0 32273
+End
+S
+End
+#32275
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D2
+~
+~
+0 0 32268
+End
+D3
+~
+~
+0 0 32274
+End
+S
+End
+#32276
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32277
+End
+D1
+~
+~
+0 0 32264
+End
+S
+Reset M 32216 4 100 0 Load a rooftop assassin.
+Reset E 32227 16 100 0 The katana of death is loaded wielded of the Katana of Death
+End
+#32277
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32278
+End
+D1
+~
+~
+0 0 32267
+End
+D2
+~
+~
+0 0 32276
+End
+S
+End
+#32278
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D0
+~
+~
+0 0 32279
+End
+D1
+~
+~
+0 0 32271
+End
+D2
+~
+~
+0 0 32277
+End
+S
+End
+#32279
+Along the rooftop of the Stronghold.~
+Whoa!  You better watch your step.  You almost fell out onto the roads
+below.  Looking around you see more of the rooftops you currently are
+standing on.  Well at least that's all you can make it to without breaking
+your neck.  
+~
+0 0 0
+D1
+~
+~
+0 0 32272
+End
+D2
+~
+~
+0 0 32278
+End
+S
+End
+#32280
+Around the bend.~
+You have come upon a small bend in the path.  The trees and darkness seem
+to close around you and animals of the forest quiet themselves and take
+flight at your approach.  Exits are east and west.  
+~
+0 34086913 0
+D1
+~
+~
+0 0 32206
+End
+D3
+~
+~
+0 0 32281
+End
+S
+End
+#32281
+Continuing down the path to the Stronghold.~
+As you round the bend to continue upon thepath, you notice a forbidding
+gate to the north.  From this distance it seems that you can barely make out
+moving spots of torchlight.  Preparing yourself for a confrontaion that may
+never happen, you press onward.  
+~
+0 34086913 5
+D0
+~
+~
+0 0 32209
+End
+D1
+~
+~
+0 0 32280
+End
+S
+End
+#32282
+(UnNamed)~
+~
+0 268443656 0
+D0
+~
+~
+0 0 1227
+End
+S
+Reset O 32205 1 100 0 Load A black marble roman tub.
+Reset O 32253 1 100 0 Load A black velvet bed.
+Reset O 32254 1 100 0 Load A black marble fountain.
+End
+#0
+
+
+
+#SPECIALS
+M 32200 spec_cast_mage
+M 32207 spec_breath_any
+M 32209 spec_cast_cleric
+M 32213 spec_breath_any
+M 32214 spec_breath_any
+M 32215 spec_nasty
+M 32216 spec_cast_mage
+M 32218 spec_breath_any
+M 32225 spec_nasty
+S
+
+
+
+#SHOPS
+32201 5 5 0 0 0 100 75 0 23
+32206 33 0 0 0 0 100 100 0 23
+32211 19 15 1 0 0 100 100 0 23
+32217 9 9 0 0 0 100 100 0 23
+0
+
+
+
+#$

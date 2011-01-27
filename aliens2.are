@@ -1,0 +1,3031 @@
+#AREA {30 91} Mull  Aliens/Hadley's Hope~
+
+
+#MOBILES
+
+#8500
+alien worker~
+An alien~
+A worker alien is here hiding in the shadows.
+~
+A nightmarish beast, this creature is a pure-bred killer.
+The entire body is covered in a hard exoskeleton and it's head
+is 3 feet long with no eyes and a set of dagger-like teeth.
+It's tail is poised like a spear ready to strike.
+~
+alien~
+AGH PQZ 0 S
+42 0 25d10+1000 100 4d6+5 10
+-17 -25 -10 -5
+MOR KQS IL H
+8 8 0 0
+Mc ABCDEFGHILQUV 2 0
+
+#8501
+face hugger~
+A face hugger~
+A face hugger is here waiting for a host to impregnate.
+~
+Somewhat like a spidery hand only as big as a cat,
+this creature is part of the aliens' bizarre life cycle.
+It's tail and legs look just the right length to wrap around your head.
+~
+alien~
+ABFG JPQ 0 S
+20 0 30d6+333 100 2d8+5 8
+-6 -8 -4 0
+OR KLPQRS I H
+8 8 0 0
+Pc CDFNQ 1 0
+
+#8502
+robot sentry~
+A robot sentry~
+A robot sentry is here guarding the door.
+~
+Basically a big gun on a tripod, this thing doesn't look very friendly.
+~
+unknown~
+ABFGU JV 0 S
+33 2 10d10+1100 100 6d4+10 6
+-20 -11 -15 0
+AHU BIJLMNOPQRTX FGH EK
+8 8 0 0
+EJc CH 1 metal
+
+#8503
+jones cat~
+Jones~
+A ginger tom-cat is here eating some leftovers.
+~
+But the cat didn't come on this mission.
+Well just deal with it soldier.
+~
+cat~
+ABG N 0 8510
+35 0 10d10+900 100 4d7+11 22
+-11 -11 -11 -6
+0 0 0 0
+6 8 1 0
+0 0 1 0
+
+#8504
+gorman lieutenant~
+Gorman~
+Lt. Gorman is giving orders to his squad through a headset.
+~
+A young and inexperienced officer,
+he is trying to remain calm in front of his troops.
+~
+human~
+ABGHTW J 0 S
+58 0 50d10+1900 100 10d4+23 13
+-28 -28 -28 -10
+CFR A 0 0
+6 6 1 20d10+2000
+AHMV ABCDEFGHIJK 2 0
+
+#8505
+apone sergeant~
+Apone~
+Sergeant Apone is translating orders from the lieutenant.
+~
+"Another glorious day in the Corps,
+a day in the Marine Corps is like a day on the farm;
+every meal is a banquet, every paycheque a fortune,
+every formation a parade. I love the Corps!"
+~
+human~
+AGT J 0 S
+60 0 70d10+3000 100 5d10+25 13
+-32 -32 -32 -12
+CFLR A E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8506
+hicks corporal~
+Hicks~
+Hicks is here sweeping the area for hostiles.
+~
+Hicks is a lifer, a man devoted to the Corps.
+He will do what's necessary to keep his people safe.
+~
+human~
+AGT J 100 S
+68 1 80d10+4000 100 8d6+28 13
+-35 -35 -35 -15
+CEFLNR A KE 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8507
+ferro pilot~
+Ferro~
+Ferro is here bitching about the conditions she must fly under.
+~
+The squad pilot, Ferro has a high opinion
+of herself and flying skills. Over the face of her helmet is written:
+                 "Fly the Friendly Skies".
+~
+human~
+ABGT J 0 S
+45 0 30d10+1300 100 8d4+15 13
+-28 -28 -28 -10
+CFR A 0 0
+6 6 2 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8508
+dietrich~
+Dietrich~
+Dietrich the med-tech is here looking very tough.
+~
+The medic of the squad, Dietrich is still a warrior first and foremost.
+~
+human~
+AGT J 0 S
+55 0 25d10+1200 100 6d6+16 13
+-29 -29 -29 -12
+CFLR A E 0
+8 8 2 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8509
+vasquez~
+Vasquez~
+Vasquez is here walking point, with a smart-gun.
+~
+A tough looking woman,
+Vasquez could kill you with her bare hands, but wields a M-56 Smart Gun.
+On the front of her chest plate is written : "El Riesgo Siempre Vive."
+She doesn't look like a person to mess with.
+~
+human~
+AGT JVc 0 S
+70 10 100d10+8000 100 8d8+30 13
+-40 -45 -40 -20
+ACDFHLR A BKLMNO 0
+8 8 2 40d10+2000
+AHMV ABCDEFGHIJK 2 0
+
+#8510
+hudson~
+Hudson~
+Hudson is here telling you about his squad of ultimate bad-asses.
+~
+A wise-talking young marine, Hudson has seen his share of combat.
+But still he is a little green.
+~
+human~
+AGHT J 0 S
+55 2 25d10+2300 100 6d6+16 13
+-29 -29 -29 -12
+CDEFJLR A E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8511
+drake~
+Drake~
+Drake is standing here sneering.
+~
+He looks back at you with a look that could curdle milk.
+The front of his armour says "Pray for War",
+and other things Neut probably wouldn't let me have.
+~
+human~
+AGTW J 0 S
+59 1 50d10+1900 100 10d6+23 13
+-37 -37 -37 -18
+CDFLR A E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8512
+frost~
+Frost~
+Frost is here bouncing wisecracks off Hicks.
+~
+A loyal soldier,
+Frost is a good friend of Hicks and the two are rarely seen apart.
+On his shirt is written "Peace Through Superior Firepower".
+~
+human~
+AGTW J 0 S
+58 0 50d10+2200 100 10d4+23 13
+-40 -40 -40 -20
+CEFILR A E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8513
+spunkmeyer~
+Spunkmeyer~
+Spunkmeyer is here checking that all is in order with the dropship.
+~
+Ferro's co-pilot and friend when he isn't being abused by his superior.
+~
+human~
+AGTW 0 0 S
+44 0 25d10+1200 100 7d4+15 13
+-28 -28 -28 -10
+FLNR 0 0 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8514
+wierzbowski~
+Wierzbowski~
+Wierzbowski is here having his lines stolen by Frost.
+~
+Wierzbowski is a young but capable marine.
+~
+human~
+AGTW 0 0 S
+56 0 30d10+2000 100 8d4+23 13
+-40 -40 -40 -20
+CDFIR 0 E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8515
+crowe~
+Crowe~
+Crowe is here trying to look like more than a simple extra.
+~
+Crowe is hard to describe,
+mainly because he is nearly invisible in the movie.
+~
+human~
+AGTW 0 0 S
+56 0 30d10+2000 100 8d4+23 13
+-40 -40 -40 -20
+CDFJR 0 E 0
+8 8 1 20d10+200
+AHMV ABCDEFGHIJK 2 0
+
+#8516
+ripley~
+Ripley~
+Ripley a flight officer is here following the troops in.
+~
+A career woman in the 'company',
+Ripley has recently been re-appointed as a flight officer,
+though her views often contradict company orders.
+~
+human~
+AGTW HNVZc 400 S
+90 3 300d20+12000 100 8d10+10 13
+-67 -80 -64 -72
+CDFGHLR ABMQ EHK 0
+8 8 2 50d20+1000
+AHMV ABCDEFGHIJK 2 0
+
+#8517
+burke~
+Burke~
+Burke is here telling you about the marvels of company technology.
+~
+'You see that?,' he says pointing at
+the atmosphere processor, 'One of thirty or so all over the planet.
+Remarkable piece of machinery. Completely automated.'
+He looks at you, 'You know we manufacture those?'
+~
+human~
+AGH VZ -200 S
+65 0 90d20+2000 100 5d8+5 17
+-35 -38 -43 -21
+BFN A G N
+8 8 1 100d40+1000
+AHMV ABCDEFGHIJK 2 0
+
+#8518
+bishop~
+Bishop~
+Bishop the android is here driving the APC.
+~
+'I prefer the term "artificial person" myself.' he says.
+Bishop is a synthetic human, with most bodily functions the
+same as a human except made of all sorts of plastics and such.
+~
+human~
+ABG DFJVc 0 S
+62 0 60d8+3200 100 6d6+15 7
+-39 -46 -43 -25
+CEFHI ABLMQ EP H
+6 6 1 100d10
+AHMV ABCDEFGHIJK 2 0
+
+#8519
+newt rebecca~
+Newt~
+Newt, a haunted young girl is here.
+~
+This child's skin, hair and clothes
+are very dirty from weeks of neglect and crawling about in air ducts.
+~
+human~
+ACGHW NPV 300 S
+67 0 100d10+2500 100 4d5+10 10
+-20 -12 -16 -10
+FNU A 0 0
+8 8 2 5d10+20
+AHMV ABCDEFGHIJK 2 0
+
+#8520
+queen alien~
+The Queen alien~
+The Queen alien is here laying eggs.
+~
+Built something like the soldier aliens,
+the queen is much bigger and has huge ornamental plates on the back
+of it's skull and extra pair of limbs, perhaps fo feeding. It also has
+a greatly distended abdomen, the end of which is extruding a leathery
+oblong ball covered in mucus. The new egg sits on it's end stuck to the floor.
+~
+alien~
+ABG DFZc -500 S
+106 25 500d10+18000 100 12d10+30 10
+-264 -245 -230 -320
+ACFHKMOR ABIKLMS FJ H
+5 8 2 0
+HMc ABCDEFGHILQUV 3 0
+
+#8521
+colonist cocooned~
+Cocooned colonist~
+The corpse of a colonist is here cocooned into the wall.
+~
+This corpse's skin is coated in
+some sort of mucus and wears rather ordinary clothes.
+~
+human~
+ABG I 0 S
+30 -2 30d8+600 100 3d4+2 13
+0 0 0 0
+U Q L 0
+5 4 2 10
+AHMV ABCDEFGHIJK 2 0
+
+#8522
+lydecker~
+Lydecker~
+Lydecker the Assistant Operations Manager is here talking to Simpson.
+~
+This man and his boss - Simpson, are the two people
+in charge of the colony, they don't look like they are in control of much.
+~
+HUMAN~
+ABG Z 0 S
+48 0 30d20+1200 100 5d6+5 7
+-20 -20 -27 -11
+R A Q 0
+8 8 1 50d20+1000
+AHMV ABCDEFGHIJK 2 0
+
+#8523
+simpson~
+Simpson~
+Simpson the Operating Manager is here talking to Lydecker.
+~
+A middle-aged man, Simpson is the Operating Manager of the colony.
+He has a paunch and looks overworked.
+~
+human~
+ABG Z 0 S
+50 1 40d20+1300 100 4d8+5 17
+-22 -30 -19 -25
+CR A L 0
+8 8 1 100d20+1500
+AHMV ABCDEFGHIJK 2 0
+
+#8524
+harley man~
+Harley~
+A young man is here changing a wheel on his car.
+~
+'Hello there,' he says, 'could you give us a hand with this?'
+He motions to the wheel he is changing.
+'This looks like a pretty bad storm coming.'
+You think to yourself - the clouds do look quite ominous.
+~
+human~
+ABGT DFJNc 300 S
+78 2 200d20+13000 200 8d12+20 13
+-65 -79 -70 -70
+CDGHR ABN MP IQ
+6 8 1 30d10+100
+AHMV ABCDEFGHIJK 2 0
+
+#8525
+alien soldier~
+An alien~
+A soldier alien is here hiding in the shadows.
+~
+A nightmarish beast, this creature is a pure-bred killer.
+The entire body is covered in a hard exoskeleton and it's head
+is 3 feet long with no eyes and a set of dagger-like teeth.
+It's tail is poised like a spear ready to strike.
+~
+alien~
+AGT PQVZ 0 S
+52 1 30d10+1500 100 5d8+10 10
+-24 -32 -18 -17
+EFMR KQS IL H
+8 8 0 0
+Mc ABCDEFGHILQUV 2 0
+
+#8526
+chest-burster alien~
+A chest-burster~
+A chest-burster has just emerged from it's unfortunate host.
+~
+This little pink horror is a smaller version of
+the other aliens, although this has no hardened exoskeleton.
+It is probably the juvenile of the adults you have seen.
+~
+alien~
+ABG Z 0 S
+30 0 30d8+600 100 2d4+5 10
+-10 -10 -10 -5
+R KQS IL H
+8 8 0 0
+Mc ABCDEFGHILQUV 1 0
+
+#8527
+lock sulaco automatic override~
+~
+
+~
+This mechanism is here for your safety.
+It ensures that the Sulaco can not be completely depressurised.
+~
+unknown~
+ABGUV DFZ 0 S
+1 0 10 0 0 1
+0 0 0 0
+0 ABCDQ 0 0
+8 8 0 0
+0 0 0 0
+
+#8528
+ripley~
+Ripley~
+Ripley is here fighting the queen alien.
+~
+Strapped into a power loader with the word "CAT" on the back,
+she is wearing a dirty grey shirt and pants.
+She makes driving that loader look easy.
+~
+human~
+ABGTW HNZc 400 S
+102 10 700d10+12000 100 10d10+20 7
+-112 -145 -172 -200
+ACDEGHKLOR ABMQ EHJK F
+8 8 2 50d20+1000
+AHMV ABCDEFGHIJK 2 0
+
+#8529
+queen alien~
+The Queen alien~
+The Queen alien is here fighting Ripley.
+~
+Built something like the soldier aliens, the queen is much
+bigger and has huge ornamental plates on the back of it's skull.
+~
+alien~
+ABG DFZc -500 S
+106 25 500d10+18000 100 12d10+30 10
+-264 -245 -230 -320
+ACFHKMOR ABIKLMS FJ H
+5 8 2 0
+HMc ABCDEFGHILQUV 3 0
+
+#8530
+bishop pilot~
+Bishop~
+Bishop is here piloting the dropship.
+~
+He looks like he is concentrating on the task
+of flying the ship. You wouldn't want to disrupt him.
+~
+human~
+ABGUV DFZ 0 S
+1 0 10 0 0 1
+0 0 0 0
+0 ABCDQ 0 0
+8 8 0 0
+0 0 0 0
+
+#0
+
+#MOBPROGS
+M 8500 alien.prg
+M 8501 alien.prg
+M 8520 alien.prg
+M 8525 alien.prg
+M 8526 alien.prg
+M 8529 alien.prg
+M 8506 hicks.prg
+M 8509 vasquez.prg
+M 8510 hudson.prg
+M 8519 newt.prg
+M 8521 colonist.prg
+M 8522 lydecker.prg
+M 8523 simpson.prg
+M 8526 burster.prg
+M 8527 lock.prg
+M 8528 r&q.prg
+M 8529 r&q.prg
+M 8530 bishop.prg
+S
+
+#OBJECTS
+
+#8500
+pulse rifle~
+a M-41A Pulse Rifle~
+A M-41A Pulse Rifle is lying here on the ground.~
+metal~
+5 0 AN
+0 4 8 6 0
+60 10 1500 G
+
+
+#8501
+smart gun~
+a M-56 Smart Gun~
+A M-56 Smart Gun is here looking very intelligent.~
+metal~
+5 B AN
+0 5 8 6 0
+62 20 2500 G
+E
+words~
+The word "Adios" is painted on the smart gun.
+A
+3 3
+
+#8502
+incinerator flamethrower~
+a M-240 Incinerator~
+A M-240 Incinerator's pilot flame is about to go out.~
+metal~
+3 A AO
+60 15 10 65 0
+60 15 600 G
+
+#8503
+headband vasquez's~
+Vasquez's headband~
+A sweat-stained red and white bandanna is here.~
+cloth~
+9 0 AE
+10 12 9 8 0
+65 1 6000 G
+A
+1 3
+A
+2 2
+A
+13 80
+A
+18 4
+A
+19 7
+
+#8504
+casey head~
+the head of Casey~
+She doesn't have bad dreams because she's just a piece of plastic.~
+plastic~
+9 K AO
+8 12 9 8 0
+58 2 1000 G
+A
+1 -2
+A
+2 3
+A
+9 -12
+A
+12 30
+A
+13 75
+A
+18 3
+A
+19 6
+
+#8505
+flare marker~
+a marker flare~
+A marker flare is here.~
+metal~
+1 0 A
+0 0 200 0 0
+15 1 20 G
+
+#8506
+bracelet locator~
+a locator bracelet~
+A dull black bracelet is here beeping away.~
+metal~
+9 BG AM
+6 6 6 6 0
+50 2 10000 G
+A
+18 2
+A
+19 3
+
+#8507
+breastplate colonial marine~
+a Colonial Marine Corps breastplate~
+A breastplate has been discarded rather hastily.~
+kevlar~
+9 0 AD
+10 10 10 10 0
+55 8 6000 G
+A
+2 -1
+A
+5 2
+
+#8508
+legplates greaves marine~
+a pair of Colonial Marine Corps legplates~
+A pair of Colonial Marine Corps legplates lie here.~
+kevlar~
+9 0 AF
+7 7 7 5 0
+55 6 2000 G
+A
+2 -1
+A
+5 2
+A
+14 -20
+
+#8509
+marine armplates~
+a pair of Colonial Marine Corps armplates~
+A set of Colonial Marine Corps armplates sits here.~
+kevlar~
+9 0 AI
+5 5 5 5 0
+55 4 2000 G
+A
+1 1
+A
+2 -1
+A
+5 2
+
+#8510
+pdt transmitter~
+a Personal Data Transmitter~
+A small plastic disc is here rolling around in the dirt.~
+plastic~
+26 BM AO
+60 42 81 77 0
+40 1 100 G
+
+#8511
+shotgun hicks pump-action 12-gauge~
+Hicks' 12-gauge~
+Something to keep handy for close encounters.~
+metal~
+5 0 AN
+0 9 6 6 0
+70 10 5000 G
+A
+4 2
+A
+12 -25
+A
+18 5
+A
+19 5
+
+#8512
+locator~
+a locator device~
+A small black cylinder lies on the floor.~
+metal~
+3 ABG AO
+50 10 8 31 0
+40 2 4000 G
+
+#8513
+helmet marine~
+a Colonial Marine Corps helmet~
+A soldiers helmet has lost it's owner.~
+metal~
+9 0 AE
+5 5 5 5 0
+55 2 2000 G
+A
+3 -1
+A
+5 2
+
+#8514
+ripleys flight jacket~
+ripley's flight jacket~
+A flight officer's black leather jacket has been dropped here.~
+leather~
+9 K AK
+18 19 20 15 0
+95 8 9000 G
+A
+4 3
+A
+12 125
+A
+13 50
+A
+18 6
+A
+19 8
+A
+25 -20
+
+#8515
+vw jack bar~
+a VW jack~
+A bar with a simple mechanism around it is here.~
+metal~
+5 0 AN
+4 9 12 27 0
+80 8 8000 G
+A
+12 66
+A
+13 66
+A
+14 66
+A
+17 -17
+A
+18 7
+A
+19 13
+
+#8516
+car volkswagen vw~
+a Volkswagen~
+A turquoise and white Volkswagen Beetle is parked here.~
+steel~
+12 O A
+0 0 0 0 0
+1 1500 30000 G
+E
+car volkswagen vw~
+A turquoise and white Volkswagen Beetle is parked here.
+60's music filters out of the open windows... sounds like "I am the Walrus".
+
+#8517
+pistol~
+a VP-90 pistol~
+A semi-automatic pistol rests here.~
+metal~
+5 0 AN
+0 2 6 6 0
+40 5 200 G
+
+#8518
+skull queen alien~
+the Queen alien's ornate skull~
+A nightmarish creature's ornate skull is here.~
+unknown~
+9 EJQ AJ
+20 20 20 20 0
+105 70 50000 G
+A
+1 3
+A
+12 100
+A
+13 150
+A
+17 -15
+A
+18 8
+A
+19 8
+A
+23 -15
+A
+24 -20
+
+#8519
+motion tracker~
+a Weyland-Yutani motion tracker~
+A small metal box with flashing lights is here beeping.~
+metal~
+3 AB AO
+70 30 20 44 0
+50 5 700 G
+
+#8520
+egg~
+an oblong leathery egg~
+An egg is about to open and let it's contents out.~
+unknown~
+13 0 0
+0 0 0 0 0
+1 30 10 G
+
+#8521
+ammo bag~
+Frost's ammo bag~
+A dull green canvas bag has been dropped here.~
+canvas~
+15 0 A
+100 1 0 0 0
+30 4 300 G
+
+#8522
+boots marine~
+a pair of Marine Corps boots~
+If it wasn't for the mud you could see your face in them.~
+plastic~
+9 0 AG
+6 6 6 6 0
+55 6 1000 G
+A
+5 2
+A
+14 -20
+
+#8523
+shoes sneakers reeboks~
+a pair of white Reebok sneakers~
+A pair of white sneakers is here.~
+leather~
+9 K AG
+14 14 14 14 0
+80 5 20000 G
+A
+2 1
+A
+4 3
+A
+12 50
+A
+13 70
+A
+14 50
+A
+18 3
+A
+19 4
+A
+24 -10
+
+#8524
+sunglasses mirror~
+a pair of mirror lens sunglasses~
+That glare is blinding.~
+metal~
+9 0 AE
+10 10 10 10 0
+50 1 6000 G
+A
+
+#8525
+loader power caterpillar~
+a Caterpillar P-5000 Powered Work Loader~
+A large yellow bipedal vehicle stands here idle.~
+metal~
+9 B AK
+20 20 20 20 0
+90 700 51720 G
+E
+word logo~
+The 'CAT' logo is printed on the back of the power loader.
+A
+1 7
+A
+2 -7
+A
+14 -400
+A
+17 -30
+A
+18 50
+A
+19 50
+
+#8526
+cornbread bread~
+a piece of half eaten cornbread~
+Some unappetizing rations sit here going mouldy.~
+bread~
+19 0 A
+60 0 0 0 0
+15 1 10 G
+
+#8527
+eggs~
+Two oblong leathery eggs~
+Two oblong leathery objects.~
+unknown~
+20 0 A
+1000000 0 0 0 0
+25 45 20000 G
+
+#8528
+freezer~
+A portable freezer~
+~
+metal~
+15 0 0
+1000 5 0 0 0
+0 350 10000 G
+
+#0
+
+
+#ROOMS
+
+#8500
+A muddy road.~
+You are standing in a rock strewn, muddy place.
+ The sky is thick with clouds, the sun just a dull blob, and the wind howls
+throught the hills and messes up your hair. The grey stone pinnacles jutting
+out of the ground have been carved into strange otherworldly shapes.
+ All around you are low barren hills, the road continues south, and the way
+you came is to the east. A sign is here made from an old crate.
+~
+0 C 4
+D2
+A muddy road leads south.
+~
+~
+0 -1 8514
+E
+sign crate~
+Stenciled on the crate with white paint are the words:
+            "Hadley's Hope - pop. 158".
+      Underneath this in rough brushstrokes is
+               "WELCOME TO ACHERON".
+~
+S
+#8501
+A huge gate.~
+Out of the fog looms a large mountainous outline that looks like a
+volcano, lightning strikes it every few seconds and arcs down to the ground.
+ A large sloping metal wall blocks your way south.
+ There are lights along the top, but are not very bright.
+It looks like there is a gate, but you can't be sure though all this fog.
+~
+0 0 3
+D0
+The muddy road continues north.
+~
+~
+0 -1 8514
+D2
+Through the gate is the colony compound.
+~
+gate~
+1 -1 8502
+S
+#8502
+Inside the compound.~
+You are inside the colony known as Hadley's Hope.
+This place is an equipment depot, there are stacks of crates and all sorts of
+industrial vehicles are parked here along with a large rectangular vehicle
+that looks out of place. The depot contines west and the landing grid is to the east.
+~
+0 0 2
+D0
+The muddy road continues north.
+~
+gate~
+1 -1 8501
+D1
+A landing grid lies to the east.
+~
+~
+0 -1 8503
+D2
+The APC is parked north of here.
+door~
+~
+1 -1 8508
+D3
+The rest of the depot is west of here.
+~
+~
+0 -1 8507
+S
+#8503
+Landing grid.~
+The ground is a concrete apron covered with a metal grid,
+and looks like it is used to land aircraft on. The rain has
+made the surface slippery so watch your step.
+A large dark-green aircraft stands here on the grid.
+The way you came leads back to the depot.
+~
+0 C 1
+D0
+The ramp leads up into the dropship.
+~
+~
+0 -1 8517
+D1
+An elevator door is to the east.
+~
+elevator door~
+1 -1 8520
+D3
+Back to the depot.
+~
+~
+0 -1 8502
+E
+dropship ship~
+On the side of the drop ship is an insignia of an eagle
+with big sneakers on, sort of completing a jump. 
+Just above this is the text "Bug Stompers" and just below is "We endanger species".
+~
+S
+#8504
+A broad corridor.~
+Wires and bits of ducting hang out of holes in the metal walls
+and ceiling. Some stairs go up and down and the corridor continues west.
+The depot isoutside through the lock to the north.
+~
+0 D 0
+D0
+The depot is to the north outside the lock.
+~
+main colony lock~
+2 -1 8507
+D2
+The corridor continues south.
+~
+~
+0 -1 8506
+D4
+A metal staircase leads up to the next level.
+~
+~
+0 -1 8505
+D5
+A metal staircase leads down to the sub-level.
+~
+~
+0 -1 8530
+S
+#8505
+Upper level.~
+This is the floor above the one you came in on.
+The floor has been pitted and burnt by some corrosive substance.
+The stairs lead down and the corridor goes south.
+~
+0 AD 0
+D2
+A corridor exactly like the one down the stairs is to the south.
+~
+~
+0 -1 8515
+D5
+~
+~
+0 -1 8504
+S
+#8506
+A broad corridor.~
+Wires and bits of ducting hang out of holes in the metal walls and ceiling.
+The corridor continues north and the way to the south has been welded shut.
+~
+0 AD 0
+D0
+The corridor continues north.
+~
+~
+0 -1 8504
+D2
+The door to the south has been welded up.
+~
+~
+2 -1 8510
+S
+#8507
+The depot.~
+You are inside the colony known as Hadleys Hope.
+ This place is an equipment depot, there are stacks of crates and all
+sorts of industrial vehicles are parked here.
+ The colony main entry-lock lies to the south up a metal ramp,
+and the depot continues to the west.
+~
+0 0 2
+D1
+The rest of the depot is east.
+~
+~
+0 -1 8502
+D2
+The colony main entry-lock lies to the south.
+~
+main colony lock~
+2 -1 8504
+D3
+The muddy road goes west further into the compound.
+~
+~
+0 -1 8516
+S
+#8508
+The APC.~
+You are standing inside the APC, it has lots of weapons:
+Independently targeting particle-beam phalanx. VWAP!
+Fry half a city with this puppy.
+Tactical smart-missles, phased-plasma pulse-rifles, RPG's.
+Sonic eeelectronic ballbreakers, nukes, knives...sharp sticks...
+~
+0 D 0
+D0
+Outside the APC is the depot.
+~
+door~
+1 -1 8502
+S
+#8509
+Medlabs.~
+This is the medical centre of the colony. The way out
+is to the south and Medlabs continues to the north and east.
+~
+0 D 0
+D0
+You see the rest of Medlabs.
+~
+~
+0 -1 8555
+D1
+You see a messy laboratory.
+~
+~
+0 -1 8535
+D2
+The room full of computer banks is south.
+~
+~
+0 -1 8525
+S
+#8510
+An intersection.~
+You are in an intersection in a corridor that leads north, south, east and west.
+The pressure doors to the north have been welded up however.
+~
+0 AD 0
+D0
+The door to the north has been welded shut.
+~
+~
+2 -1 8506
+D1
+The corridor continues east for a long way.
+~
+~
+0 -1 8596
+D2
+The corridor continues south for a long way.
+~
+~
+0 -1 8595
+D3
+The corridor continues west for a long way.
+~
+~
+0 -1 8594
+S
+#8511
+Scene 13.~
+You are stading in a broad corridor, but this place is different.
+ Some children race in the corridor on things that look suspiciously
+like "Big Wheels." Two men stand here talking about the lack of
+information from their superiors on Earth.
+~
+0 D 0
+D1
+The corridor goes east of here.
+~
+~
+0 -1 8526
+D3
+The corridor goes west of here.
+~
+~
+0 -1 8537
+E
+logo sign~
+.
+                    Weyland-Yutani Corp
+                    __  __       __  __
+                    \ \ \ \ ___ / / / /
+                     \ \ \ / _ \ / / /
+                      \ \_/ / \ \_/ /
+                       \___/|_|\___/
+
+                  Building Better Worlds
+~
+S
+#8512
+Egg chamber.~
+A huge storage space in the Atmosphere Processor has been converted
+into a nursery for hundreds of alien eggs. Eggs cover every available
+piece of floor, and darker things move in the shadows.
+To the south is an alien much larger than all the rest.
+~
+0 AD 1
+D1
+That paart of the station has been used to cocoon the colonists.
+~
+~
+0 -1 8581
+D2
+The egg chamber is very big, more eggs lie in every direction.
+~
+~
+0 -1 8513
+S
+#8513
+The Egg Chamber.~
+You are standing before a huge alien which is laying eggs.
+There are more eggs in all directions.
+~
+0 AD 1
+D0
+The egg chamber is very big, more eggs lie in every direction.
+~
+~
+0 -1 8512
+S
+#8514
+A muddy road.~
+The sky is thick with clouds, the sun just a dull blob, and the wind howls
+throught the hills and messes up your hair. The grey stone pinnacles jutting
+out of the ground have been carved into strange otherworldly shapes.
+ All around you are low barren hills, the road continues south and north.
+~
+0 0 3
+D0
+A muddy road leads north.
+~
+~
+0 -1 8500
+D2
+The muddy road continues south.
+~
+~
+0 -1 8501
+S
+#8515
+A broad corridor.~
+You are standing in a broad corridor. The northern end of it is littered with
+all sorts of equipment and furniture... Looks like the barricade didn't hold.
+An open door to the west is the source of a draught. The corridor continues south.
+~
+0 AD 0
+D0
+A set of stairs lies to the north.
+~
+~
+0 -1 8505
+D2
+The corridor continues to the south.
+~
+~
+0 -1 8524
+D3
+A draughty office is to the west.
+~
+door~
+1 -1 8523
+S
+#8516
+The compound.~
+The depot narrows and becomes a road here heading furtheer into the compound.
+This muddy road goes west between featureless buildings.
+~
+0 0 2
+D1
+The rest of the depot is east.
+~
+~
+0 -1 8507
+D3
+The rest of the depot is east.
+~
+~
+0 -1 8550
+S
+#8517
+The payload bay of the dropship.~
+The metal ramp lads you into a large area used for carrying military
+vehicles. There is some mucus-like substance here on the bulkhead.
+ A door lies to the north and the ramp leads south into the mud.
+~
+0 D 0
+D0
+The door to the north leads to the cockpit.
+~
+door~
+1 -1 8518
+D2
+The landing grid is down the ramp to the south.
+~
+~
+0 -1 8503
+S
+#8518
+The cockpit.~
+This is where the dropship is piloted from.
+ Two seats are here, one in front of the other and staggered so that the
+copilot can see forwards you presume.
+~
+0 D 0
+D2
+The payload bay is through this door.
+~
+~
+1 -1 8517
+S
+#8519
+Roadside trouble.~
+The same rocky tree-like structures that cover the
+surface of the planet are all around you. Something is out of place here though
+- a bulbous shaped vehicle of some sort. It is a lovely shade of blue and white.
+A flyer is tucked under one of it's windscreen wipers.
+~
+0 C 3
+D3
+The causeway is west.
+~
+~
+0 -1 8562
+E
+note flyer~
+.
+                     ____________
+         ___________/   Aliens   \___________
+        /     Created for Aesir,             \
+       |                        by Mull       |
+       |   A pale shadow of the true glory    |
+       |        of such a cool film.          |
+       ++++++++++++++++++++++++++++++++++++++++
+~
+E
+car vw volkswagen~
+A turquoise and white Volkswagen Beetle is parked here.
+60's music filters out of the open windows, sounds like "I am the Walrus".
+~
+S
+#8520
+An elevator.~
+You step into the elevator and the doors close behind you.
+The sound of a motor above you starts up, and you feel the
+room moving downwards. You feel the motion stop suddenly
+and the doors open.
+~
+0 D 0
+D3
+A dark hallway is through the doors to the east.
+~
+elevator door~
+1 -1 8521
+S
+#8521
+A walkway.~
+This narrow corridor contines to the west for a bit
+then goes south. A set of elevator doors is to the east.
+~
+0 AD 0
+D1
+An elevator door is to the east.
+~
+elevator door~
+1 -1 8522
+D3
+The walkway continues to the west.
+~
+~
+0 -1 8534
+S
+#8522
+An elevator.~
+You step into the elevator and the doors close behind you.
+The sound of a motor above you starts up, and you feel the
+room moving upwards. You feel the motion stop suddenly
+and the doors open.
+~
+0 D 0
+D3
+The elevator door opens out into a landing area of some kind.
+~
+elevator door~
+1 -1 8503
+S
+#8523
+An office.~
+This looks like an executives office. The windows facing
+west have been broken and rain is blowing in and covering
+the floor.
+~
+0 D 0
+D1
+The corridor lies to the east.
+~
+door~
+1 -1 8515
+S
+#8524
+A broad corridor.~
+You are standing in an intersection in the corridor. A
+room to the east has several rows of filing cabinets,
+or perhaps they are banks of computers. The corridor
+continues north and east.
+~
+0 D 0
+D0
+The corridor continues to the north.
+~
+~
+0 -1 8515
+D1
+A room full of computer cores is to the west.
+~
+~
+0 -1 8525
+D3
+~
+air duct grille~
+1 -1 8538
+S
+#8525
+Computer cores.~
+This room is filled with banks of computer cores.
+The corridor is to the west, and Medlabs is to the north.
+~
+0 D 0
+D0
+Medlabs is through a door to the north.
+~
+~
+0 -1 8509
+D2
+There is an intersection to the south.
+~
+~
+0 -1 8526
+D3
+The corridor is to the west.
+~
+~
+0 -1 8524
+S
+#8526
+An intersection.~
+You are standing in an intersection in the corridor. The
+way to the east and south is blocked by doors. The
+corridor continues north and west.
+~
+0 CD 0
+D0
+Medlabs is through a door to the north.
+~
+~
+0 -1 8525
+D1
+The corridor goes west of here.
+~
+~
+1 -1 8527
+D2
+The corridor is through a door to the north.
+~
+~
+1 -1 8529
+D3
+The corridor goes west of here.
+~
+~
+0 -1 8511
+S
+#8527
+Operations.~
+This is a big room, with computer terminals and large
+sloping windows along the walls. This looks like a
+control room of some sort. The door to the corridor is
+to the west, and the rest of Operations is south of here.
+~
+0 D 0
+D0
+A small office is through the door on the north wall of Operations.
+~
+office door~
+1 -1 8540
+D2
+The main part of Operations lies to the south.
+~
+~
+0 -1 8528
+D3
+The corridor is west of here.
+~
+~
+1 -1 8526
+S
+#8528
+Operations.~
+Jammed with computer terminals, technicians, displays...
+most of the business of running the colony flows through
+here. It's high tech but used and scrungy.  Papers
+piled up. Coffee cup rings.
+~
+0 D 0
+D0
+The rest of Operations is north of here.
+~
+~
+0 -1 8527
+D3
+Operations continues to the west.
+~
+~
+0 -1 8529
+S
+#8529
+Operations.~
+This is a big room, with computer terminals and large
+sloping windows along the walls. This looks like a
+control room of some sort. The door to the corridor is
+to the west, and the rest of Operations is south of here.
+~
+0 D 0
+D0
+The corridor is through a door to the north.
+~
+~
+1 -1 8526
+D1
+The rest of Operations is east of here.
+~
+~
+0 -1 8528
+S
+#8530
+The sub-level.~
+The staircase brings you down to the sub-level,
+a dark corridor leads east.
+~
+0 AD 0
+D1
+The walkway leads east.
+~
+~
+0 -1 8531
+D4
+A metal staircase leads up to the next level.
+~
+~
+0 -1 8504
+S
+#8531
+A sub-level walkway.~
+The floor is a metal grille, underneath you can hear
+the sound of running water. It is probably from all
+the rain outside.
+~
+0 AD 0
+D1
+The walkway leads east.
+~
+~
+0 -1 8532
+D3
+A staircase to west leads up to ground level.
+~
+~
+0 -1 8530
+S
+#8532
+A sub-level intersection.~
+The floor is a metal grille, underneath you can hear
+the sound of running water. It is probably from all
+the rain outside. You can see the walkway continues
+to the north, west and south.
+~
+0 AD 0
+D0
+The walkway leads north.
+~
+~
+0 -1 8533
+D2
+A welded up pressure door leads south.
+~
+pressure door~
+2 -1 8536
+D3
+The walkway leads west.
+~
+~
+0 -1 8531
+S
+#8533
+A sub-level walkway.~
+The floor is a metal grille, underneath you can hear
+the sound of running water. It is probably from all the
+rain outside. The walkway goes north and south of here.
+~
+0 AD 0
+D0
+The walkway leads north.
+~
+~
+0 -1 8534
+D2
+The walkway continues south.
+~
+~
+0 -1 8532
+S
+#8534
+A sub-level walkway.~
+The floor is a metal grille, underneath you can hear
+the sound of running water. It is probably from all
+the rain outside. The walkway to the south and east.
+~
+0 AD 0
+D1
+The walkway continues to the east.
+~
+~
+0 -1 8521
+D2
+The walkway continues south.
+~
+~
+0 -1 8533
+S
+#8535
+A laboratory.~
+A white room with uncleaned medical equipment strewn around on benches
+and the floor. Near the centre of the room, impossible to miss, are seven
+vertical glass cylinders. The contents of these do not look very appealing.
+~
+0 D 0
+D3
+Medlabs is to the west.
+~
+~
+0 -1 8509
+E
+cylinder glass~
+These stasis tubes look pretty strong,
+you are glad of this because inside them are cat sized spidery-shaped things.
+Most of these look dead and atrophied, two however look pink and healthy.~
+S
+#8536
+A sub-level walkway.~
+The floor is a metal grille, underneath you can hear
+the sound of running water. It is probably from all the rain outside.
+The walkway goes south and the pressure door to the north has been welded up.
+~
+0 AD 0
+D0
+A welded up pressure door is north.
+~
+pressure door~
+2 -1 8532
+D2
+~
+~
+0 -1 8541
+S
+#8537
+A broad corridor.~
+This corridor leads through to an overpass between this building and the next.
+The door leading to it, however, has been welded shut.
+You have no idea why anyone should want to do such a thing.
+~
+0 AD 0
+D1
+The corridor goes east of here.
+~
+~
+0 -1 8511
+S
+#8538
+An air duct.~
+What a squeeze! This duct is very cramped.
+The narrow passage goes west and east.
+~
+0 ADJ 0
+D1
+The corridor is to the east.
+~
+air duct grille~
+1 -1 8524
+D3
+~
+~
+0 -1 8539
+S
+#8539
+Airway E.~
+The air duct opens out into this small room, which serves some purpose
+in the buildings air reconditioning system. It is a nest.
+A nest built by a child. Wadded up blankets and pillows line the space,
+mixed up with a haphazard array of toys, stuffed animals, dolls, cheap jewelry,
+comic books, empty food packets, even a battery operated tape player.
+All foraged from the wrecked colony.
+~
+0 ADJ 0
+D1
+The air duct is the only way out.
+~
+~
+0 -1 8538
+E
+photo award~
+A framed photograch of a young girl, dressed up and smiling,
+a ribbon in her hair. In embossed gold letters underneath it says:
+                    FIRST GRADE CITIZENSHIP AWARD
+                           REBECCA JORDEN
+~
+S
+#8540
+Manager's office.~
+This is the office of the Operating Manager of the colony.
+It looka unoccupied at the moment.
+~
+0 AD 0
+D2
+Operations is to the south.
+~
+~
+1 -1 8527
+S
+#8541
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+A welded up pressure door is north.
+~
+pressure door~
+0 -1 8536
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8542
+S
+#8542
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8541
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8543
+S
+#8543
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8542
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8544
+S
+#8544
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8543
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8545
+S
+#8545
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8544
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8546
+S
+#8546
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8545
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8547
+S
+#8547
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8546
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8548
+S
+#8548
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8547
+D2
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8549
+S
+#8549
+A service tunnel.~
+This tunnel links the colony complex with the
+Atmosphere Processor a kilometre away. It runs north-south.
+~
+0 AD 0
+D0
+The service tunnel runs long and straight in a north-south orientation.
+~
+~
+0 -1 8548
+D3
+A walkway leads west.
+~
+~
+1 -1 8557
+S
+#8550
+The colony compound.~
+The muddy road through the compound turns to to the south here.
+The depot is east.
+~
+0 0 2
+D1
+The rest of the depot is east.
+~
+~
+0 -1 8516
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8551
+S
+#8551
+A road through the compound.~
+This muddy road goes south and around a building to the north.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8550
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8552
+S
+#8552
+A road through the compound.~
+This muddy road goes south-north between featureless buildings.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8551
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8553
+S
+#8553
+A road through the compound.~
+This muddy road goes south-north between featureless buildings.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8552
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8554
+S
+#8554
+A road through the compound.~
+The muddy road passes between colourless buildings to the east and west
+the upper levels of which are connected by an enclosed footbridge overhead.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8553
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8559
+S
+#8555
+Medlabs.~
+This well lit room is the main part of medlabs. There is a vast
+array of scientific looking instruments and medical apparatus lying
+around the room. The infirmary is visible to the east through a large
+perspex window and Medlabs continues to the south.
+~
+0 D 0
+D1
+The infirmary is through a door to the east.
+~
+door~
+1 -1 8556
+D2
+You see the rest of Medlabs.
+~
+~
+0 -1 8509
+S
+#8556
+The Infirmary.~
+This is where ill colonists would stay so their conditions could be monitored.
+There are a few beds here against the walls. They are unoccupied.
+~
+0 D 0
+D3
+The main part of Medlabs is west.
+~
+door~
+1 -1 8555
+S
+#8557
+A sublevel access walkway.~
+This gantry connects the station to the access tunnel east of here.
+A staircase leads down to sub-level 3 and there are two elevators here.
+The one directly to the south looks convenient.
+~
+0 AD 1
+D1
+The service tunnel to the east runs all the way to the colony.
+~
+~
+1 -1 8549
+D2
+Elevator #28 is south of here.
+~
+elevator safety cage~
+1 -1 8583
+D5
+The staircase leads down into darkness.
+~
+~
+0 -1 8582
+S
+#8558
+The causeway.~
+This road connects the colony and the atmosphere processor  to the south.
+You can see it vaguely through the fog, like a vast foundry the conical exhaust
+tower flickers with spectral light.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8561
+D2
+The road leads south through the colony.
+~
+~
+0 -1 8562
+S
+#xx59
+A road through the colony.~
+This muddy road goes north between featureless buildings.
+To the south there is an open gate, the road goes through it to the
+atmosphere processor a kilometre away.
+~
+0 0 2
+D0
+The road leads north through the colony.
+~
+~
+0 -1 8554
+D2
+The road leads south out of the colony.
+~
+gate~
+1 -1 8560
+S
+#8560
+Outside the colony.~
+The gate to the north leads out to this causeway which traverses the stygian
+landscape. Out of the fog looms a large mountainous outline that looks like a
+volcano, lightning strikes it every few seconds and arcs down to the ground.
+~
+0 0 2
+D0
+The road leads north into the colony.
+~
+gate~
+1 -1 8559
+D2
+The road leads south to the atmosphere station.
+~
+~
+0 -1 8561
+S
+#8561
+The causeway.~
+This road connects the colony and the atmosphere processor  to the south.
+You can see it vaguely through the fog, like a vast foundry the conical exhaust
+tower flickers with spectral light.
+~
+0 0 2
+D0
+The road leads north to the colony.
+~
+~
+0 -1 8560
+D2
+The road leads south to the atmosphere station.
+~
+~
+0 -1 8558
+S
+#8562
+The causeway.~
+This road connects the colony and the atmosphere processor  to the south.
+You can see it vaguely through the fog, like a vast foundry the conical exhaust
+tower flickers with spectral light.
+~
+0 0 2
+D0
+The road leads north to the colony.
+~
+~
+0 -1 8558
+D1
+An easement off the causeway is east.~
+~
+0 -1 8519
+D2
+The road leads south to the atmosphere station.
+~
+~
+0 -1 8563
+S
+#8563
+The causeway.~
+This road connects the colony and the atmosphere processor  to the south.
+You can see it vaguely through the fog, like a vast foundry the conical exhaust
+tower flickers with spectral light.
+~
+0 0 2
+D0
+The road leads north to the colony.
+~
+~
+0 -1 8562
+D2
+The road leads south to the atmosphere station.
+~
+~
+0 -1 8564
+S
+#8564
+The atmosphere station.~
+The vast structure towers above you.
+The base of the station is a depthless maze of conduits and pressure vessels,
+like an oil refinery. Or a Dantean version of one.
+The THRUM of functioning machine systems echoes through the labyrinth.
+~
+0 0 2
+D0
+The road leads north to the colony.
+~
+~
+0 -1 8563
+D2
+Access ramp 11 leads into the station.
+~
+lock~
+1 -1 8565
+S
+#8565
+Access ramp 11.~
+This ramp is used for vehicle access to the atmosphere station.
+Light filters down through several levels of steel mesh floor, catwalks and pipes.
+~
+0 D 1
+D0
+Out through the lock is the landscape of Acheron.
+~
+lock~
+1 -1 8564
+D3
+A stairwell is west.
+~
+~
+0 -1 8566
+S
+#8566
+A stairwell.~
+Light filters down through several levels of steel mesh floor, catwalks and pipes.
+Below that is darkness. Painted on the wall is "LEVEL 01".
+The staircase leads down, and the way out of the station is east.
+~
+0 D 1
+D1
+Access ramp 11 is to the east.
+~
+~
+0 -1 8565
+D5
+The stairs lead down into darkness.
+~
+~
+0 -1 8567
+S
+#8567
+The stairwell.~
+The wall proclaims this to be sub-level 01.
+The staircase goes up, and down deeper into the station.
+~
+0 AD 1
+D4
+The stairs lead up to ground level.
+~
+~
+0 -1 8566
+D5
+The stairs lead down into darkness.
+~
+~
+0 -1 8568
+S
+#8568
+The stairwell.~
+The wall proclaims this to be sub-level 02.
+The staircase goes up, and down deeper into the station.
+~
+0 AD 1
+D4
+The stairs lead up to SUB-LEVEL 01.
+~
+~
+0 -1 8567
+D5
+The stairs lead down into darkness.
+~
+~
+0 -1 8569
+S
+#8569
+The stairwell.~
+The wall proclaims this to be sub-level 03.
+The staircase goes up and a corridor opens out into a work area to the east.
+~
+0 AD 1
+D1
+A sub-level work area is east.
+~
+~
+0 -1 8570
+D4
+The stairs lead up to SUB-LEVEL 02.
+~
+~
+0 -1 8568
+S
+#8570
+Sub-Level 03.~
+You stand before a bizarre tableau. Among the refinery
+like lattice of pipes and conduits something new
+and not of human design had been added.
+What is that?
+You tell me man, I only work here.
+The stairwell is west, and to the south the walkway(?) continues.
+~
+0 AD 1
+D2
+~
+~
+0 -1 8571
+D3
+~
+~
+0 -1 8569
+S
+#8571
+Inside the alien structure.~
+It is a structure of some sort, extending from and crudely imitating
+the complex of plumbing, but made of some strange encrusted substance.
+It vaguely resembles the chambered nests of swallows on a much larger scale,
+and it attenuates so gradually into the original hardware that it is hard to
+see where one ends and the other begins.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8570
+D2
+~
+~
+0 -1 8572
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8572
+The alien structure.~
+The alien structure seems to extend far back into the complex of machinery.
+The plant thrums loudly, its functioning seemingly not impaired.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8571
+D1
+~
+~
+0 -1 8575
+D2
+~
+~
+0 -1 8573
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8573
+The alien structure. (R)~
+As you enter the organic labyrinth, your lights play over the walls,
+revealing a bio-mechanical lattice, like the marrow of some vast bone.
+The air is thick with steam. Trickling water. The place seems almost alive.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8572
+D1
+~
+~
+0 -1 8576
+D2
+~
+~
+0 -1 8574
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8574
+The alien structure.(R)~
+As you enter the organic labyrinth, your lights play over the walls,
+revealing a bio-mechanical lattice, like the marrow of some vast bone.
+The air is thick with steam. Trickling water. The place seems almost alive.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8573
+D1
+~
+~
+0 -1 8580
+D2
+~
+~
+0 -1 8577
+D3
+~
+~
+0 -1 8575
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8575
+The alien structure.~
+As you enter the organic labyrinth, your lights play over the walls,
+revealing a bio-mechanical lattice, like the marrow of some vast bone.
+The air is thick with steam. Trickling water. The place seems almost alive.
+~
+0 AD 1
+D1
+~
+~
+0 -1 8574
+D2
+~
+~
+0 -1 8576
+D3
+~
+~
+0 -1 8572
+S
+#8576
+The alien structure.~
+As you enter the organic labyrinth, your lights play over the walls,
+revealing a bio-mechanical lattice, like the marrow of some vast bone.
+The air is thick with steam. Trickling water. The place seems almost alive.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8575
+D1
+~
+~
+0 -1 8577
+D2
+~
+~
+0 -1 8580
+D3
+~
+~
+0 -1 8573
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8577
+Living horror.~
+The entire walls and ceiling are like a bas-relief of detritus
+from the colony: furniture, wiring, human bones, skulls...
+Fused together with a translucent, epoxylike substance.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8574
+D1
+~
+~
+0 -1 8578
+D2
+~
+~
+0 -1 8580
+D3
+~
+~
+0 -1 8576
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8578
+Living horror.~
+The entire walls and ceiling are like a bas-relief of detritus
+from the colony: furniture, wiring, human bones, skulls...
+Fused together with a translucent, epoxylike substance.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8582
+D2
+You face a wall of living horror.
+The colonists have been brought here and entombed alive...~
+~
+0 -1 8579
+D3
+~
+~
+0 -1 8577
+S
+#8579
+Cocoons.~
+Cocoons protrude from the niches and interstices of the structure.
+The cocoon material is the same translucent epoxy. The bodies are
+frozen in carelessly twisted positions. Macabre image of frozen agony.
+Many are desiccated. Skeletal. Rip-cages burst outward, as if exploded
+from within. Paralyzed, brought here, entombed in living death as
+hosts for the embryos growing within then.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8578
+D2
+~
+~
+0 -1 8581
+D3
+~
+~
+0 -1 8580
+S
+#8580
+The alien structure.(R)~
+As you enter the organic labyrinth, your lights play over the walls,
+revealing a bio-mechanical lattice, like the marrow of some vast bone.
+The air is thick with steam. Trickling water. The place seems almost alive.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8576
+D1
+~
+~
+0 -1 8579
+D2
+~
+~
+0 -1 8577
+D3
+~
+~
+0 -1 8574
+E
+substance resin secreted encrusted~
+Looks like some sort of secreted resin.
+Yeah, but secreted from what?~
+S
+#8581
+Cocoons.~
+Cocoons protrude from the niches and interstices of the structure.
+The cocoon material is the same translucent epoxy. The bodies are
+frozen in carelessly twisted positions. Macabre image of frozen agony.
+Many are desiccated. Skeletal. Rip-cages burst outward,
+as if exploded from within. Paralyzed, brought here, entombed
+in living death as hosts for the embryos growing within them.
+~
+0 AD 1
+D0
+~
+~
+0 -1 8579
+D3
+~
+~
+0 -1 8512
+S
+#8582
+A staircase.~
+This staircase leads up to a catwalk area. Like the rest of the 'hive'
+the walls and ceiling are covered in a strange resinous coating.
+~
+0 AD 1
+D2
+You face a wall of living horror.
+The colonists have been brought here and entombed alive...~
+~
+0 -1 8578
+D4
+~
+~
+0 -1 8557
+S
+#8583
+An elevator.~
+The elevator door closes slowly, and you begin to ascend.
+The walls are of a coarse metal grille, very industrial.
+You eventually feel the motion slow down and the doors open.
+~
+0 D 1
+D0
+Outside the elevator is an aerial platform.~
+elevator safety cage~
+1 -1 8584
+S
+#8584
+Aerial platform.~
+High above the surface of Acheron, this platform is possibly for maintenance
+of the atmosphere station. In a halting mechanical voice comes over the loadspeaker:
+"Attention. Emergency. You now have two minutes to reach minimum safe distance."
+All of a sudden, the second dropship rises into view from below the platform,
+the gangway steps lead up into the cockpit.
+~
+0 C 1
+D2
+Elevator #28 is south.~
+elevator safety cage~
+1 -1 8586
+D4
+~
+hatch~
+1 -1 8585
+E
+dropship ship~
+Written on the second drop ship is "Smart Ass" and just below is "We aim by P.F.M."~
+S
+#8585
+The dropship.~
+You are inside dropship 2. From outside, you hear sirens,
+barely audible through the cacophony of explosions and twisting metal.
+~
+0 D 0
+D5
+The gangway leads back out to the platform.~
+hatch~
+1 -1 8584
+S
+#8586
+An elevator.~
+The elevator door closes slowly, and you begin to descend.
+The walls are of a coarse metal grille, very industrial.
+You eventually feel the motion slow down and the doors open.
+~
+0 D 0
+D0
+~
+elevator safety cage~
+1 -1 8557
+S
+#8587
+Cargo bay.~
+An enormous chamber, cavernous and dark. This is where all the
+military equipment is stored and organised on the Sulaco.
+Heavy machinery is all around you... cranes, loading equipment.
+The floor has several hatches which facilitate the loading of cargo,
+one of these is open.
+~
+0 D 1
+D3
+The locker room is west from here.~
+~
+0 -1 8591
+D4
+The gangway steps lead up into the dropship.~
+gangway hatch~
+1 -1 8597
+D5
+~
+loading lock~
+1 -1 8588
+E
+dropship ship~
+Written on the second drop ship is "Smart Ass" and just below is "We aim by P.F.M."~
+S
+#8588
+A loading lock.~
+This well in the floor of the cargo bay is enclosed by hatches above
+and below, you get the distict impression that these are for your safety.
+~
+0 CD 1
+D4
+~
+loading lock~
+1 -1 8587
+D5
+The outer lock beneath your feet is, thankfully, closed.~
+outer lock~
+1 -1 8589
+S
+#8589
+The void of space.~
+You have been sucked out of the Sulaco!
+(Actually Sir, the term is 'blown out'. Yes, thankyou Data.)
+And you find yourself flailing about in a vacuum.
+~
+0 0 10
+D4
+~
+loading lock~
+2 -1 8588
+S
+#8590
+The mess hall.~
+This is where the marines eat on board the Sulaco.
+Some food trays have been left on the tables messily,
+it's a good thing there are no flies on the ship.
+~
+0 D 0
+D0
+This corridor leads to a room full of lockers.~
+~
+0 -1 8591
+E
+table marks~
+At one corner of this table there are five clusters of nicks
+that look like they have been inflicted by a knife.
+~
+E
+cornbread food~
+~
+S
+#8591
+A locker room.~
+This is where the marines store their personal effects when they
+come on long missions. It is also where they prepare for battle.
+The cargo bay is east, and the mess hall is south through a short corridor.
+~
+0 D 0
+D1
+The cargo bay is to the east.~
+~
+0 -1 8587
+D2
+Through a short corridor you see the mess hall.~
+~
+0 -1 8590
+D3
+To the west is the hypersleep vault.~
+~
+0 -1 8592
+S
+#8592
+Hypersleep vault.~
+Lit up, white and sterile. When the marines are on their way to missions,
+they sleep in these capsules for weeks at a time. The room is big and
+there are all kinds of apparatus that allow people to sleep so long.
+Damn this floor is cold!
+~
+0 D 1
+D1
+The locker room is to the east a bit.~
+~
+0 -1 8591
+S
+#8593
+Offstage~
+This room is used to hold actors until they are needed.
+~
+0 0 0
+S
+#8594
+A broad corridor.~
+This long dark corridor goes deeper into the colony.
+~
+0 AD 0
+D1
+The intersection is east.~
+~
+0 -1 8510
+D3
+The corridor continues west for a long way.~
+~
+0 -1 8594
+S
+#8595
+A broad corridor.~
+This long dark corridor goes deeper into the colony.
+~
+0 AD 0
+D0
+An intersection is north of here.~
+~
+0 -1 8510
+D2
+The corridor goes south for a long way.~
+~
+0 -1 8595
+S
+#8596
+A broad corridor.~
+This long dark corridor goes deeper into the colony.
+~
+0 AD 0
+D1
+The corridor goes a long way east.~
+~
+0 -1 8596
+D3
+An intersection is west of here.~
+~
+0 -1 8510
+S
+#8597
+Dropship 2.~
+You have made it!
+Back on the Sulaco, safe.
+Hicks lies here, uncounscious, in a layed back seat.
+You also notice an insulated container in the corner.
+~
+0 D 0
+D5
+The gangway steps lead down to the deck of the cargo bay.~
+gangway hatch~
+1 -1 8587
+E
+container eggs~
+ In a corner of the cargo bay, is a container,
+some sort of portable freezer. You open the lid and peek inside. There are two of
+those horrid leathery eggs(worth millions to the Bio-weapons division),
+and a folded up piece of paper shoved between them.
+~
+E
+note paper~
+The note reads:
+ 
+ There is a theory among cult fans of the trilogy,
+ that the eggs that caused the events in Alien^3
+ were brought aboard the Sulaco by Bishop.
+
+Mull
+~
+S
+
+#RESETS
+
+M 0 8522 1 8511		Lydecker to Scene 13
+G 1 8510 -1			pdt
+*
+M 0 8523 1 8511		Simpson to Scene 13
+G 1 8510 -1			pdt
+*
+M 0 8504 1 8508		Gorman to The APC
+E 1 8517 -1 16		pistol
+E 1 8522 -1 8		boots
+G 1 8505 -1			flare
+*
+M 0 8505 1 8506		Apone to A broad corridor
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+E 1 8522 -1 8		boots
+*
+M 0 8510 1 8507		Hudson to The depot
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+E 1 8519 -1 17		motion-tracker
+E 1 8522 -1 8		boots
+*
+M 0 8509 1 8506		Vasquez to A broad corridor
+E 1 8507 -1 5		breastplate
+E 1 8503 -1 6		headband
+E 1 8508 -1 7		legplates
+E 1 8501 -1 16		smart-gun
+E 1 8522 -1 8		boots
+*
+M 0 8506 1 8505		Hicks to Upper level
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8509 -1 10		armplates
+E 1 8511 -1 16		12-gauge
+E 1 8522 -1 8		boots
+E 1 8500 -1 16		pulse-rifle
+*
+M 0 8512 1 8505		Frost to Upper level
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+E 1 8522 -1 8		boots
+G 1 8521 -1			ammo bag
+G 1 8502 -1			incinerator
+*
+M 0 8515 1 8507		Crowe to The depot
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+E 1 8522 -1 8		boots
+G 1 8502 -1			incinerator
+*
+M 0 8511 1 8515		Drake to A broad corridor
+E 1 8507 -1 5		breastplate
+E 1 8508 -1 7		legplates
+E 1 8522 -1 8		boots
+E 1 8501 -1 16		smart-gun
+*
+M 0 8507 1 8518		Ferro to The cockpit
+E 1 8517 -1 16		pistol
+E 1 8524 -1 6		sunglasses
+*
+M 0 8513 1 8517		Spunkmeyer to payload bay
+E 1 8517 -1 16		pistol
+G 1 8505 -1			marker flare
+G 1 8505 -1			marker flare
+*
+M 0 8508 1 8504		Dietrich to A broad corridor
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8522 -1 8		boots
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+*
+M 0 8514 1 8507		Wierzbowski to The depot
+E 1 8507 -1 5		breastplate
+E 1 8513 -1 6		helmet
+E 1 8508 -1 7		legplates
+E 1 8522 -1 8		boots
+E 1 8509 -1 10		armplates
+E 1 8500 -1 16		pulse-rifle
+G 1 8502 -1			incinerator
+*
+M 0 8516 1 8504		Ripley to A broad corridor
+E 1 8514 10 12		flight jacket
+E 1 8523 10 8		reeboks
+*
+M 0 8519 1 8539		Newt to Airway E
+E 1 8504 100 17		Casey
+*
+M 0 8517 1 8508		Burke to The APC
+*
+M 0 8503 1 8590		Jones to mess hall
+G 1 8526 1			cornbread
+*
+M 0 8527 1 8588		lock mechanism
+*
+M 0 8530 1 8585		2nd bishop to 2nd dropship
+*
+M 0 8502 4 8510		A gun
+*
+M 0 8502 4 8510		B gun
+*
+M 0 8502 4 8536		C gun
+*
+M 0 8502 4 8536		D gun
+*
+M 0 8524 1 8519		Harley to Roadside trouble
+E 1 8515 10 16		VW jack
+*
+O 1 8516 3 8519		a Volkswagen to Roadside trouble
+*
+M 0 8529 1 8513		Queen to egg chamber
+E 1 8518 1 -1		skull
+*
+M 0 8528 1 8593		2nd Ripley to Offstage
+E 1 8525 2 12		power loader
+*
+M 0 8529 1 8593		2nd Queen to Offstage
+E 1 8518 1 -1		skull
+*
+M 0 8521 1 8579		Cocooned colonist to Cocoons
+G 1 8510 -1
+*
+M 0 8501 3 8512		face huggers
+M 0 8501 3 8513	
+*
+M 0 8500 1 8512		aliens
+M 0 8525 1 8512
+M 0 8500 1 8513
+M 0 8525 1 8513
+M 0 8500 1 8581
+M 0 8525 1 8581
+M 0 8500 1 8581
+M 0 8525 1 8581
+M 0 8500 1 8578
+M 0 8500 1 8577
+M 0 8500 1 8540
+M 0 8500 1 8575
+M 0 8500 1 8572
+M 0 8500 1 8573
+M 0 8500 1 8580
+*
+O 1 8520 1 8512		eggs
+O 1 8520 1 8513
+*
+O 1 8528 1 8597		freezer
+P 0 8527 1 8528		eggs
+*
+D 0 8520 3 0		An elevator. Open West
+D 0 8522 3 0		An elevator. Open West
+D 0 8521 1 1		A walkway. Close East
+D 0 8515 3 0		A broad corridor. Open West
+D 0 8523 1 0		An office. Open East
+D 0 8527 3 1		Operations. Close West
+D 0 8529 0 1		Operations. Close North
+D 0 8526 2 1		An intersection. Close South
+D 0 8526 1 1		An intersection. Close East
+D 0 8502 0 1		Inside the compound. Close North
+D 0 8502 2 1		Inside the compound. Close South
+D 0 8517 0 1		The payload bay of the dropship. Close North
+D 0 8536 0 2		A sub-level walkway. Lock North
+D 0 8510 0 2		An intersection. Lock North
+D 0 8556 3 1		The Infirmary. Close West
+D 0 8555 1 0		Medlabs. Open East
+D 0 8549 3 1		A service tunnel. Close West
+D 0 8506 2 2		A broad corridor. Lock South
+D 0 8532 2 2		A sub-level intersection. Lock South
+D 0 8559 2 0		A road through the colony. Open South
+D 0 8559 2 0		A road through the colony. Open South
+D 0 8501 2 1		A huge gate. Close South
+D 0 8565 0 1		Access ramp 11. Close North
+D 0 8564 2 1		The atmosphere station. Close South
+D 0 8524 3 1		A broad corridor. Close West
+D 0 8503 1 1		Landing grid. Close East
+D 0 8557 1 1		A sublevel access walkway. Close East
+D 0 8585 5 1		The dropship. Close Down
+D 0 8557 2 1		A sublevel access walkway. Close South
+D 0 8584 2 1		Aerial platform. Close South
+D 0 8588 5 1		A loading lock. Close Down
+D 0 8597 5 1		Dropship 2. Close Down
+*
+R 0 8573 4			randomize The Alien Structure
+R 0 8574 4			randomize The Alien Structure
+R 0 8580 4			randomize The Alien Structure
+*
+S
+
+#SPECIALS
+M  8500 spec_fido	aliens
+M  8525 spec_fido
+M  8526 spec_fido
+S
+
+#0
+

@@ -1,0 +1,1436 @@
+#AREA
+sfield.are~
+Fields~
+{ 2 100} Yaegar Fields~
+31100 31174
+
+
+#HELPS
+62 fields vnums~
+31163 31164 31165 all used in tcwnn.are
+for donations. Dont fucking use them or it will crash us.
+~
+0 $~
+
+
+#MOBILES
+#31100
+pilgrim~
+a lonely pilgrim~
+A lonely pilgrim wanders on a quest of his own choosing.
+~
+This ragged fellow looks exhausted, yet he still plods on.
+~
+human~
+GH F 400 0
+5 0 1d12+59 1d1+99 1d7+0 hit
+7 7 7 12
+0 0 0 0
+dead dead male 50
+0 0 medium 0
+#31101
+bandit~
+a bandit~
+An evil-looking bandit glares menacingly at you.
+~
+These Bandits are the scourge of the Fields.
+~
+human~
+CFGH 0 -400 0
+5 0 1d12+59 1d1+99 1d7+0 hit
+7 7 7 12
+0 0 0 0
+dead dead male 50
+0 0 medium 0
+#31102
+knight~
+a Knight of Anon~
+A Knight of Anon patrols for bandits.
+~
+These vigilant fellows are ever on guard for bandit incursions.
+~
+human~
+DG N 500 0
+10 1 1d12+119 1d1+99 1d10+2 hit
+4 4 4 9
+0 0 0 0
+dead dead male 100
+0 0 medium 0
+#31103
+bird~
+a bird~
+A single bird cries out as it flies overhead.
+~
+These birds, the Red-tailed Scubbergins, are indigenous to these Fields.
+~
+human~
+CGH T 0 0
+2 0 1d12+23 1d1+99 1d5+-1 hit
+9 9 9 14
+0 0 0 0
+dead dead female 20
+0 0 medium 0
+#31104
+deer~
+a deer~
+A deer panics as it spies you and tries to flee.
+~
+This harmless beast would make an EXCELLENT meal.
+~
+human~
+GH 0 0 0
+4 0 1d12+47 1d1+99 1d6+0 hit
+8 8 8 13
+0 0 0 0
+dead dead female 40
+0 0 medium 0
+#31105
+wolf~
+a wolf~
+A gray wolf slinks silently by.
+~
+These famed creatures are superb hunters.
+~
+human~
+CGH PQ 0 0
+8 1 1d12+95 1d1+99 1d9+1 hit
+5 5 5 10
+0 0 0 0
+dead dead male 80
+0 0 medium 0
+#31106
+figure dark shadowy pkill~
+a dark and shadowy figure~
+A dark form lurks in the shadows, beckoning you to do evil.
+~
+The form looks back at you and whispers, "I have a secret to sell you".
+~
+human~
+G DFJP -1000 0
+100 16 1d201+9999 1d1+99 1d70+32 hit
+-56 -56 -56 -51
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+#31107
+figure forgiver unpkill~
+the forgiver~
+The forgiver is here to save your soul.
+~
+The forgiver is dressed in flowing white robes, and seems to hover about.
+~
+human~
+G CDFJNT 1000 0
+100 16 1d201+9999 1d1+99 1d70+32 hit
+-56 -56 -56 -51
+0 0 0 0
+stand stand female 1000
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#31100
+archway stone~
+a stone archway~
+Before you stands an archway made of large carved stones.~
+nothingness~
+'lemonade' 0 0
+0 0 0 0 0
+-1 1 -100 P
+E
+stone~
+The stone seems smooth and warm to the touch.
+~
+E
+archway~
+The air in the arch itself seems to be alive!
+~
+#31101
+archway steel~
+a steel archway~
+A HUGE steel archway has formed here.~
+nothingness~
+'lemonade' 0 0
+0 0 0 0 0
+-1 1 -100 P
+E
+steel~
+The steel is warm to the touch.
+~
+E
+archway~
+The archway appears to you almost as a mirage...perhaps it is truly there,
+perhaps not.
+~
+#31102
+archway~
+an archway~
+The outline of a mysterious archway seems to beckon you.~
+nothingness~
+'lemonade' 0 0
+0 0 0 0 0
+-1 1 -100 P
+E
+archway~
+The shape seems to be all knowing and omnipotent. As you examine it further
+you realize that it is formless. You can reach into it. What secrets does
+it contain?
+~
+E
+outline~
+The form of the archway seems to hover as if it were alive!
+~
+#31103
+document~
+a document~
+A worn and tattered document was dropped here.~
+nothingness~
+trash E AO
+0 0 0 0 0
+-1 1 -100 P
+E
+document~
+PKILL REGISTRATION DOCUMENT
+This form outlines the basic rules for optional player killing in our world.
+To be a pkiller, you must register. To register you need to do the following:
+1. You must read 'HELP PKILL'
+2. The registration costs an undisclosed amount of gold.
+3. To begin the process, give a corpse to the figure that provided these instru
+ctions.
+If you later change your mind, you will be given one opportunity to be forgiven
+ by the
+gods. Once you have unregistered, you may never pkill again.
+~
+#31104
+scroll~
+a scroll~
+A beautiful white scroll was most certainly misplaced here.~
+nothingness~
+trash E AO
+0 0 0 0 0
+-1 1 -100 P
+E
+scroll~
+REPENT!
+The dark one sells lies and untruths!
+I can help you to save yourself from the ways of the misguided:
+1. You must read 'HELP UNPKILL'
+2. I will charge you gold for my services.
+3. Give me a corpse so that I may resurrect it.
+
+Your salvation will be permanent.
+~
+#0
+
+
+#ROOMS
+#31100
+The South Fields~
+You are marching across the South Fields, a broad expanse of grassy plains
+that extends south to the Red Hills, which are barely visible in the
+distance. A small forest looms to the east of the trail you are following.
+The city of Anon looms large to the north. At this point you cross over a
+small wooden bridge that spans the river Anon, which flows east and west
+past the great city.
+~
+0 C 2
+D0
+The Circuit Road~
+~
+0 -1 31030
+D2
+~
+~
+0 -1 31101
+D5
+~
+~
+0 -1 17514
+S
+#31101
+The South Fields~
+You are marching across the South Fields, a broad expanse of grassy plains
+that extends south to the Red Hills, which are barely visible in the
+distance. Forest looms to each side of the trail you are following.
+~
+0 0 2
+D0
+~
+~
+0 -1 31100
+D2
+~
+~
+0 -1 31102
+S
+#31102
+The South Fields~
+You are marching across the South Fields, a broad expanse of grassy plains
+that extends south to the Red Hills, which are barely visible in the
+distance. A large forest lies west of here.
+~
+0 0 2
+D0
+~
+~
+0 -1 31101
+D2
+~
+~
+0 -1 31103
+D3
+Haon Dor~
+~
+0 -1 6000
+S
+#31103
+The South Fields~
+You are marching across the South Fields, a broad expanse of grassy plains
+that extends south to the Red Hills, which are barely visible in the
+distance. The foothills of the Red Hills lie south of here.
+~
+0 0 2
+D0
+~
+~
+0 -1 31102
+D2
+~
+~
+0 -1 31104
+S
+#31104
+The South Fields~
+You are marching across the South Fields, a broad expanse of grassy plains
+that extends south to the Red Hills, which are barely visible in the
+distance. The foothills of the Red Hills lie directly south of here.
+~
+0 0 2
+D0
+~
+~
+0 -1 31103
+D2
+~
+~
+0 -1 31105
+S
+#31105
+The Foothills~
+You have reached the foothills of the Red Hills. From here you may proceed
+east or west, skirting the hills, or back north. Heading south THROUGH the
+hills is not possible here.
+~
+0 0 4
+D0
+~
+~
+0 -1 31104
+D1
+~
+~
+0 -1 31107
+D3
+~
+~
+0 -1 31106
+S
+#31106
+A Side Path~
+You are skirting the hills by following a narrow westward path. In the
+distance you can see the southern edge of a large forest. There is a narrow
+trail running into the hills toward the slopes of a mountain just south of
+here.
+~
+0 0 4
+D1
+~
+~
+0 -1 31105
+D2
+~
+~
+0 -1 31108
+D3
+~
+~
+0 -1 31109
+S
+#31107
+A Side Path~
+You are skirting the hills by following a narrow eastward path. In the
+distance you can see the southern edge of a large forest. There is a bend in
+the path to the south just ahead.
+~
+0 0 4
+D1
+~
+~
+0 -1 31111
+D3
+~
+~
+0 -1 31105
+S
+#31108
+A Rocky Trail~
+The path you are on proceeds toward a narrow path that works its way up the
+steep slope of a mountain.
+~
+0 0 5
+D0
+~
+~
+0 -1 31106
+D2
+~
+~
+0 -1 9201
+S
+#31109
+A Side Path~
+You are skirting the hills by following a narrow westward path. In the
+distance you can see the southwestern edge of a large forest. This place is
+strangely devoid of all animal life. Everywhere, there is silence.
+~
+0 0 4
+D1
+~
+~
+0 -1 31106
+D3
+~
+~
+0 -1 31110
+S
+#31110
+A Side Path~
+You are skirting the hills by following a narrow westward path. In the
+distance you can see the southwestern edge of a large forest. This place is
+strangely devoid of all animal life. Everywhere, there is silence.
+
+A path heads north into the forest. It looks dim and foreboding...
+~
+0 0 4
+D0
+~
+~
+0 -1 29020
+D1
+~
+~
+0 -1 31109
+S
+#31111
+A Bend in the Path~
+Here the path bends sharply to the south, still following the contours of
+the land, cutting through the hills at their lowest point. The forest you
+spied on the east earlier is right next to the trail.
+~
+0 0 4
+D2
+~
+~
+0 -1 31112
+D3
+~
+~
+0 -1 31107
+S
+#31112
+A Bend in the Path~
+Here the path bends sharply to the east, still following the contours of
+the land, cutting through the hills at their lowest point. The forest you
+spied on the east earlier is right in front of you. You may enter it by
+going north at the junction ahead, or ignore it and head south through the
+hills.
+~
+0 0 4
+D0
+~
+~
+0 -1 31111
+D1
+~
+~
+0 -1 31113
+S
+#31113
+A Junction~
+You are standing at a T-junction, where you may head north, into a dark wood,
+south, into the hills, or west, back toward a huge city barely visible in the
+distance.
+~
+0 0 4
+D0
+~
+~
+0 -1 31114
+D2
+~
+~
+0 -1 31117
+D3
+~
+~
+0 -1 31112
+S
+#31114
+The Forest~
+You are treading carefully through a deep forest. Aside from the occasional
+bird or fox, the place is totally still. You soon reach a fork where you
+can head north or east.
+~
+0 0 3
+D0
+~
+~
+0 -1 31116
+D1
+~
+~
+0 -1 31115
+D2
+~
+~
+0 -1 31113
+S
+#31115
+A Dead End~
+At first this appears to be a dead end, but upon closer inspection you
+notice a narrow path that cuts through the forest.
+~
+0 0 3
+D1
+~
+~
+0 -1 31126
+D3
+~
+~
+0 -1 31114
+S
+#31116
+Apporaching the Forest Arden~
+You are drawing nearer to a section of the wood known as the Forest Arden.
+Here the trees are tall and magnificent, and you are impressed that such
+things still prosper in such a land of troubles.
+~
+0 0 3
+D2
+~
+~
+0 -1 31114
+D3
+Before the Forest Arden~
+~
+0 -1 17301
+S
+#31117
+Path Through The Hills~
+You are treading south through the Red Hills. To the north there is a large
+forest, while to the far east you imagine you can see the ocean.
+~
+0 0 4
+D0
+~
+~
+0 -1 31113
+D2
+~
+~
+0 -1 31118
+S
+#31118
+Path Through The Hills~
+You are treading south through the Red Hills. To the north there is a large
+forest, while to the far east you imagine you can see the ocean.
+~
+0 0 4
+D0
+~
+~
+0 -1 31117
+D2
+~
+~
+0 -1 31120
+D3
+~
+~
+0 -1 -1
+S
+#31120
+Bend On The Path Through The Hills~
+You are treading east through the Red Hills. To the north there is a large
+forest, while to the far east you imagine you can see the ocean. A small
+path runs south into the hills.
+~
+0 0 4
+D0
+~
+~
+0 -1 31118
+D1
+~
+~
+0 -1 31121
+D2
+~
+~
+0 -1 31129
+S
+#31121
+Path Through The Hills~
+You are travelling east through the Red Hills. To the north there is a large
+forest, while to the far east you imagine you can see the ocean.
+~
+0 0 4
+D1
+~
+~
+0 -1 31122
+D3
+~
+~
+0 -1 31120
+S
+#31122
+The Plains~
+At this point the path emerges from the hills, heading across the plains to
+the sea, clearly visible to the east. The hills to the south are now
+impenetrable.
+~
+0 0 4
+D1
+~
+~
+0 -1 31123
+D3
+~
+~
+0 -1 31121
+S
+#31123
+Path to the Ocean~
+You are heading out along a long, broad featureless path that leads to
+the Ocean you can see to the east. The occasional farmhouse is visible to
+the north, while the Red Hills loom to the south.
+~
+0 0 2
+D1
+~
+~
+0 -1 31124
+D3
+~
+~
+0 -1 31122
+S
+#31124
+Path to the Ocean~
+You are heading out along a long, broad featureless path that leads to
+the Ocean you can see to the east. The occasional farmhouse is visible to
+the north, while the Red Hills loom to the south.
+~
+0 0 2
+D1
+~
+~
+0 -1 31125
+D3
+~
+~
+0 -1 31123
+S
+#31125
+Path to the Ocean~
+You are heading out along a long, broad featureless path that leads to
+the Ocean you can see to the east. The occasional farmhouse is visible to
+the north, while the Red Hills loom to the south.
+~
+0 0 2
+D0
+~
+~
+0 -1 17013
+D3
+~
+~
+0 -1 31124
+S
+#31126
+Out of the Woods...~
+Soon you find yourself free of the woods and on a gently sloping plain that
+leads down to the ocean to the east. A path to the north leads back into
+a particularly dark patch of the woods.
+~
+0 0 2
+D0
+~
+~
+0 -1 31128
+D1
+~
+~
+0 -1 31127
+D3
+~
+~
+0 -1 31115
+S
+#31127
+Path to the Ocean~
+You are heading out along a long, broad featureless path that leads to
+the Ocean you can see to the east. The forest looms to the north, while
+rolling fields extend to the south.
+~
+0 0 2
+D1
+~
+~
+0 -1 21200
+D3
+~
+~
+0 -1 31126
+S
+#31128
+A Dark Patch of the Woods~
+The howls and shrieks of animals angered or in pain reaches you ears as you
+enter this dark area. Darkness enfolds you almost immediately as you pass
+beneath a canopy of dark branches that completely cuts out any light from
+above. Some sort of structure lies to the north.
+~
+0 A 3
+D0
+~
+~
+0 -1 2700
+D2
+~
+~
+0 -1 31126
+S
+#31129
+A Path Through the Hills~
+You clamber over the rocky terrain, bearing generally south. In the distance
+you can see some sort of structure.
+~
+0 0 4
+D0
+~
+~
+0 -1 31120
+D2
+~
+~
+0 -1 31130
+S
+#31130
+Rugged Terrain~
+The path comes down into a small depression in the hills, a flat, if rugged,
+stretch of land that runs to the east toward the structure you glimpsed
+earlier.
+~
+0 0 4
+D0
+~
+~
+0 -1 31129
+D1
+~
+~
+0 -1 1701
+S
+#31131
+The Path West~
+You are marching steadily along a path that runs east to the City of Anon
+and west over rolling plains toward a distant mountain range.
+~
+0 C 2
+D1
+~
+~
+0 -1 31018
+D3
+~
+~
+0 -1 31132
+S
+#31132
+The Plains~
+The climate here is dry and sticky, with little wind to relieve the humidity.
+Pressing on, you march for some time before spying a dusty crossroads up
+ahead.
+~
+0 0 2
+D1
+~
+~
+0 -1 31131
+D3
+~
+~
+0 -1 31133
+S
+#31133
+A Dusty Crossroads~
+This was once a crossroads, but the southern path has apparently disappeared,
+leaving you with only three choices of direction. The northern path skirts
+these plains, heading for higher (and cooler) country, while the western
+path plunges right on through. To the east the City of Anon is barely
+visible.
+~
+0 0 2
+D0
+~
+~
+0 -1 31134
+D1
+~
+~
+0 -1 31132
+D3
+~
+~
+0 -1 31148
+S
+#31134
+The Northern Path~
+This path quickly reaches a higher, more grassy savannah, which runs north
+for miles. The land is so flat that you can see smoke rising from settlements
+many miles away to the north and east. A small forest grows in the same
+direction.
+~
+0 0 2
+D0
+~
+~
+0 -1 31135
+D2
+~
+~
+0 -1 31133
+S
+#31135
+The Northern Path~
+This path continues across the grassy savannah, which runs north for miles.
+The land is so flat that you can see smoke rising from settlements many
+miles away to the north and east.
+
+It has been rumored that magical archways occasionally materialize here.
+~
+0 0 2
+D0
+~
+~
+0 -1 31136
+D2
+~
+~
+0 -1 31134
+E
+ground~
+There is a circular scorch mark in the dirt here.
+~
+S
+#31136
+The Northern Path~
+At this point the path bends to the west, heading back toward the distant
+mountains. The settlement you spied earlier is directly northwest of here,
+in the small wood.
+~
+0 0 2
+D1
+~
+~
+0 -1 -1
+D2
+~
+~
+0 -1 31135
+D3
+~
+~
+0 -1 31137
+S
+#31137
+The Western Path~
+This path runs toward a small group of foothills just before it hits the
+mountains, which are much closer now.
+
+A dimly lit path runs to the north of here, directly into the wood.
+~
+0 0 2
+D0
+~
+~
+0 -1 1100
+D1
+~
+~
+0 -1 31136
+D3
+~
+~
+0 -1 31138
+S
+#31138
+The Western Path~
+This path runs toward a small group of foothills just before it hits the
+mountains, which are much closer now. The path now begins to ascend slightly,
+and the terrain gradually gets rougher. A rocky outcropping is visible
+ahead, near a large valley to the south.
+~
+0 0 4
+D1
+~
+~
+0 -1 31137
+D3
+~
+~
+0 -1 31139
+S
+#31139
+The Western Path~
+This path runs toward a small group of foothills just before it hits the
+mountains, which are much closer now. A valley lies to the south. There is
+a rock outcropping just south of here.
+~
+0 0 4
+D1
+~
+~
+0 -1 31138
+D2
+~
+~
+0 -1 10001
+D3
+~
+~
+0 -1 31140
+S
+#31140
+The Western Path~
+You have reached the foothills of the mountains now, and must prepare for
+the long haul upwards. A chill wind blows at your unprotected face, and you
+wonder how cold it will be at the summit.
+
+A path heads north here towards an ancient city.
+~
+0 0 5
+D0
+~
+~
+0 -1 31170
+D1
+~
+~
+0 -1 31139
+D4
+~
+~
+0 -1 31141
+S
+#31141
+Ascending the Mountains~
+You start your arduous climb up the steep slope of the mountains. After
+half an hour or so, you actually find the going gets easier, and soon after
+you are astonished to find a man-made trail leading upward, which makes
+climbing significantly easier.
+~
+0 0 5
+D4
+~
+~
+0 -1 31142
+D5
+~
+~
+0 -1 31140
+S
+#31142
+Ascending the Mountains~
+At this point, the trail you were following heads east along the slope of
+the mountain toward what looks like a monastery of some sort. However, you
+are almost at the summit, and continuing further would not be impossible.
+~
+0 0 5
+D1
+~
+~
+0 -1 31143
+D4
+~
+~
+0 -1 31144
+D5
+~
+~
+0 -1 31141
+S
+#31143
+Approaching the Temple~
+Who on earth would want to live up HERE?? Perhaps some weird religious cult
+has its headquarters here? Or some rigid order of warrior monks? You'll soon
+find out.
+~
+0 0 5
+D2
+~
+~
+0 -1 10701
+D3
+~
+~
+0 -1 31142
+S
+#31144
+The Summit~
+You've reached the summit! Hurrah!. Looking around you can see much of the
+world you inhabit. Broad, grassy plains to the north, beyond them the dark
+forest of Mirkwood. The city of Anon is visible in the middle distance, and
+beyond that lies the Seas of the Pirate Lords. South of Anon lie the Red
+Hills, and all that live there. To the west of the mountains lies a scorching
+desert, where fantastic treasures are said to be abundant.
+~
+0 0 5
+D0
+~
+~
+0 -1 31145
+D5
+~
+~
+0 -1 31142
+S
+#31145
+The Summit~
+You are at the western end of the summit, where you can begin your descent
+toward the Great Western Desert if you wish. Alternatively, you may return
+the other way.
+
+Above you, a great castle hovers in the sky, suspended by a field of magical
+energy. A drawbridge allows access.
+~
+0 0 5
+D2
+~
+~
+0 -1 31144
+D4
+~
+~
+0 -1 21094
+D5
+~
+~
+0 -1 31146
+S
+#31146
+The Western Side~
+You are on the western side of the great mountain range that runs along the
+entire western coast of the Continent of Anon. To the west, the Great
+Western Desert begins, but a series of jagged ridges would make it
+impossible to access from the base...
+~
+0 0 5
+D4
+~
+~
+0 -1 31145
+D5
+~
+~
+0 -1 31147
+S
+#31147
+The Western Base~
+You have reached the base of the mountain. The shimmering sands of the desert
+almost blind you. Few people have traversed its lengths and lived to tell
+the tale. Do you wish to risk it? A Gap in the base of the mountain allows
+you to enter an underground chamber from which you hear the sound of running
+water that may take you to the desert.
+~
+0 0 10
+D4
+~
+~
+0 -1 31146
+D5
+~
+~
+0 -1 5001
+S
+#31148
+The Dusty Plain~
+You are heading along a dusty plain dotted with the occasional tree or low
+hill. Clouds skid across overhead, offering little protection from the hot
+sun.
+~
+0 0 2
+D1
+~
+~
+0 -1 31133
+D3
+~
+~
+0 -1 31149
+S
+#31149
+The Dusty Plain~
+You are heading along a dusty plain dotted with the occasional tree or low
+hill. Clouds skid across overhead, offering little protection from the hot
+sun.
+~
+0 0 2
+D1
+~
+~
+0 -1 31148
+D2
+~
+~
+0 -1 31150
+S
+#31150
+The Dusty Plain~
+You are heading along a dusty plain dotted with the occasional tree or low
+hill. Clouds skid across overhead, offering little protection from the hot
+sun.
+~
+0 0 2
+D0
+~
+~
+0 -1 31149
+D3
+~
+~
+0 -1 31151
+S
+#31151
+The Dusty Plain~
+You are heading along a dusty plain dotted with the occasional tree or low
+hill. Clouds skid across overhead, offering little protection from the hot
+sun. Up ahead some sort of settlement is visible.
+~
+0 0 2
+D1
+~
+~
+0 -1 31150
+D3
+~
+~
+0 -1 31152
+S
+#31152
+The Dusty Plain~
+You are heading along a dusty plain dotted with the occasional tree or low
+hill. Clouds skid across overhead, offering little protection from the hot
+sun. There is a village to the south of here.
+
+The foothills of the mountains are visible ahead.
+~
+0 0 2
+D1
+~
+~
+0 -1 31151
+D2
+~
+~
+0 -1 1501
+D3
+~
+~
+0 -1 31153
+S
+#31153
+The Foothills~
+You have reached the foothills of the massive mountain range that cuts off
+the west coast of the Continent of Anon from the rest of it. Due to this
+isolation, many strange and mysterious creatures live and prosper in this
+section.
+~
+0 0 4
+D1
+~
+~
+0 -1 31152
+D3
+~
+~
+0 -1 31154
+S
+#31154
+The Base of the Mountains~
+You have reached the base of the mountains, and now will have to start
+climbing. Hope you're not scared of heights.
+~
+0 0 2
+D1
+~
+~
+0 -1 31153
+D4
+~
+~
+0 -1 31155
+S
+#31155
+The Path Divides~
+A little way up the mountain the path divides, heading north and south along
+a ledge that surrounds this mountain. Progress further upward is impossible.
+It is snowing heavily. Don't you wish you'd kept that scarf your grandma
+knitted for you on your 16th birthday now?
+~
+0 0 5
+D0
+~
+~
+0 -1 31156
+D2
+~
+~
+0 -1 31158
+D5
+~
+~
+0 -1 31154
+E
+ground earth~
+There is a circular scorch mark in the earth here.
+~
+S
+#31156
+The Northern Trail~
+Slick as it is with ice, this trail is quite treacherous, and more than once
+you feel as if you're about to fall to your death hundreds of feet below.
+~
+0 0 5
+D0
+~
+~
+0 -1 31157
+D2
+~
+~
+0 -1 31155
+S
+#31157
+The Northern Trail~
+Slick as it is with ice, this trail is quite treacherous, and more than once
+you feel as if you're about to fall to your death hundreds of feet below.
+To the east hovers a very strange cloud...
+~
+0 0 5
+D1
+~
+~
+0 -1 9101
+D2
+~
+~
+0 -1 31156
+S
+#31158
+The Southern Trail~
+Slick as it is with ice, this trail is quite treacherous, and more than once
+you feel as if you're about to fall to your death hundreds of feet below.
+The dusty plains you crossed to get here are barely visible from this height.
+You begin to feel quite dizzy.
+~
+0 0 5
+D0
+~
+~
+0 -1 31155
+D2
+~
+~
+0 -1 31159
+S
+#31159
+A Bend in the Southern Trail~
+At this point the trail takes a sudden bend to the west and begins to slowly
+descend. You can't be sure, but you think you can see a forest through
+the snow.
+~
+0 0 5
+D0
+~
+~
+0 -1 31158
+D3
+~
+~
+0 -1 31160
+S
+#31160
+The Slow Descent~
+At this point the path begins a real descent, heading down to a plateau in
+the mountains. A dark wood has grown on this platform, testimony to the
+milder temperatures down there. You hurry on.
+~
+0 0 5
+D1
+~
+~
+0 -1 31159
+D5
+~
+~
+0 -1 31161
+S
+#31161
+The Slow Descent~
+At this point the path continues its descent, heading down to a plateau in
+the mountains. A dark wood has grwon on this platform, testimony to the
+milder temperatures down there. You hurry on.
+~
+0 0 5
+D4
+~
+~
+0 -1 31160
+D5
+~
+~
+0 -1 2300
+S
+#31162
+A Grove~
+You appearto have entered some sort of mysterious glade. A path leads to
+the south of here.
+~
+0 D 0
+D2
+~
+~
+0 -1 2400
+S
+#31170
+The Path to Midgaard~
+Up ahead loom the impressive city walls of the city of Midgaard. At this
+point the path splits, allowing you to head west or east around the city,
+to one of the two gates.
+~
+0 0 2
+D1
+~
+~
+0 -1 31173
+D2
+~
+~
+0 -1 31140
+D3
+~
+~
+0 -1 31171
+S
+#31171
+A Bend in the Path~
+At this point the path bends to the north, heading past several battered
+statues towards the west gate.
+~
+0 0 2
+D0
+~
+~
+0 -1 31172
+D1
+~
+~
+0 -1 31170
+S
+#31172
+Outside the West Gate~
+The West Gate of the ancient city of Midgaard, first city established in the
+world of man, rise to the east of here.
+~
+0 C 2
+D1
+~
+~
+0 -1 3052
+D2
+~
+~
+0 -1 31171
+S
+#31173
+A Bend in the Path~
+At this point the path bends to the north, heading past several battered
+statues towards the east gate.
+~
+0 0 2
+D0
+~
+~
+0 -1 31174
+D3
+~
+~
+0 -1 31170
+S
+#31174
+Outside the East Gate~
+The East Gate of the ancient city of Midgaard, first city established in the
+world of man, rise to the west of here.
+~
+0 C 2
+D2
+~
+~
+0 -1 31173
+D3
+~
+~
+0 -1 3053
+S
+#0
+
+
+#RESETS
+M 0 31100     6 31118     6      LOADS PILGRIMS
+M 0 31100     6 31149     6      
+M 0 31101     6 31109     6      LOADS BANDITS
+M 0 31101     6 31138     6      
+M 0 31102     3 31107     3      LOADS KNIGHTS
+M 0 31102     3 31153     3      
+M 0 31103     8 31122     8      LOADS BIRDS
+M 0 31103     8 31141     8      
+M 0 31104     4 31108     4      LOADS DEER
+M 0 31104     4 31134     4      
+M 0 31105     2 31126     2      LOADS WOLVES
+M 0 31106     1 31128     1      loads pkill figure
+G 0 31103     0                    gives pkill document
+M 0 31107     1 31158     1      loads unpkill forgiver
+G 0 31104     0                    
+S
+
+
+#SHOPS
+ 31106    0  0  0  0  0   100 100    0 23    pkill figure sells pkill registration
+ 31107    0  0  0  0  0   100 100    0 23    unpkill forgiver sells white scroll
+0
+
+
+#SPECIALS
+M 31100 spec_cast_cleric	
+M 31101 spec_thief	
+M 31102 spec_guard	
+M 31105 spec_fido	
+R 31100 specr_anon_portals  * This is the biggie! - Argh
+S
+
+
+#$

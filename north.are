@@ -1,0 +1,950 @@
+#AREADATA
+Name Northern Road~
+Builders Grehyton~
+VNUMs 1600 1699
+Credits { 5 35} Grehyton Northern Road~
+Security 8
+End
+
+
+
+#MOBILES
+#1600
+pilgrim~
+the pilgrim~
+The pilgrim moves on towards a destination.
+~
+The pilgrims travel to the northern road to look
+at the great firetop mountain, and to visit the
+guardian city to the north.
+~
+unique~
+ACG 0 -400 0
+4 0 2d5+60 0d0+0 1d6+1 pound
+8 8 8 8
+EIN 0 0 0
+stand stand male 4
+0 0 medium unknown
+#1601
+mangy mutt~
+the mangy mutt~
+The mangy mutt wants some food.
+~
+He is dirty and covered with disease, who could
+want such a beast.
+~
+unique~
+AG 0 0 0
+1 0 2d6+10 0d0+0 1d4+0 scratch
+8 8 8 9
+F 0 0 0
+stand stand male 0
+0 0 medium unknown
+#1602
+dark hunter~
+a dark hunter~
+A dark figure is here standing on the edge of the trail.
+~
+She has strange looking armor and dark colored clothes.
+She looks fairly tough.
+~
+unique~
+ACG 0 0 0
+10 0 2d10+121 0d0+0 2d8+2 punch
+7 7 7 9
+EIN 0 0 0
+stand stand female 0
+0 0 medium unknown
+#1604
+fighting fish~
+a small fighting fish~
+A small but fast fighting fish is here
+~
+All in mail never blinking.
+~
+snake~
+AF 0 0 0
+2 0 1d3+15 0d0+0 1d3+2 none
+0 0 0 0
+0 0 L I
+stand stand none 0
+AGXYc ADEFKLQVX medium unknown
+#1605
+swarm flies biting~
+a swarm of biting flies~
+A swarm of biting flies is here.
+~
+~
+unique~
+AF TX 0 0
+1 0 1d2+6 0d0+0 1d2+0 bite
+0 0 0 0
+H 0 0 H
+stand stand none 0
+0 0 medium unknown
+#0
+
+
+
+#OBJECTS
+#1600
+green ring~
+a green ring~
+A dark green circlet sits in the shadows.~
+gold~
+treasure P AB
+0 0 0 0 0
+10 2 0 P
+A
+19 5
+E
+ring~
+It has a vicious spike that looks like it hurts.
+~
+#1601
+darkened leather armor~
+darkened leather armor~
+A darkened leather chest armor rests here.~
+bamboo~
+armor 0 AD
+AB C C 0 B
+6 15 0 P
+F
+V 0 0 H
+#1602
+small candle~
+a small candle~
+A small candle rests here.~
+crystal~
+light A AO
+0 0 BDEFGH 0 0
+3 10 0 P
+#1603
+deer bladder~
+a deer bladder~
+The gut of some animal sits here.~
+bone~
+drink 0 A
+60 60 'water' 0 0
+0 1 0 P
+#1604
+green dust~
+some green dust~
+Some green dust rests here.~
+ash~
+pill P A
+10 'cure blindness' '' '' ''
+10 0 0 P
+#1605
+sack skin~
+a sack made of skin~
+A sack made of human skin is here.~
+cloth~
+container 0 AO
+50 0 0 5 100
+3 3 0 P
+E
+woven bag~
+Its a tight weave that looks quite sturdy.~
+#1606
+gebal leaf~
+a gebal leaf~
+A gebal leaf sits here.~
+bread~
+food P A
+ABCD D 0 0 0
+0 0 0 P
+E
+gorp~
+This is a raisen and nut mix used by rangers
+and adventurers.~
+#1607
+thick steak~
+a thick steak~
+A sweet thick steak sits here.~
+cream~
+food P A
+BEF BEF 0 0 0
+0 0 0 P
+#1608
+meat jerky~
+a meat jerky~
+A meat jerky sits here.~
+hard leather~
+food P A
+DE D 0 0 0
+0 0 0 P
+E
+meat jerky~
+Hmmm meat jerky, you wonder what kind of meat
+it is.~
+#1609
+bench~
+a bench~
+A forest bench sits here.~
+bamboo~
+furniture 0 0
+B DGH BEHKN CFG CFG
+0 300 0 P
+E
+bench~
+Some nice person built a bench here, to help
+you rest on your long journey.~
+#1610
+wicked dagger~
+a wicked dagger~
+A wicked looking dagger is here.~
+metal~
+weapon 0 AN
+dagger 1 6 pierce 0
+5 5 0 P
+E
+dagger curved~
+A sharp curved dagger with a blue blade.~
+#0
+
+
+
+#ROOMS
+#1600
+{YOutside The North Gate{x~
+You are standing outside the Northern Gate of Calinth.
+People travel in and out on their ways to parts unknown.
+Guards can be seen to the south in side the gate. Further
+north the road leads to the distant mountains.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1601
+D2
+~
+~
+0 0 20175
+S
+#1601
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. Further along south a
+large city can be seen. To the east is a river and
+beyond that the infamous dearthwood.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1602
+D1
+~
+~
+0 0 1622
+D2
+The Northern Road.
+~
+~
+0 -1 1600
+S
+#1602
+{YNorthern Road{x~
+You are on the Northern Road. Dark clouds loom
+over some mountains far to the north. The forest
+here is getting darker and thicker.  To the west
+you can spot firetop volcano, rising high above
+the other mountains.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1603
+D1
+~
+~
+0 0 1623
+D2
+The Northern Road.
+~
+~
+0 -1 1601
+S
+#1603
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. Far off to the east the
+ocean beats against the cliffs.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1604
+D1
+~
+~
+0 0 1624
+D2
+The Northern Road.
+~
+~
+0 -1 1602
+S
+#1604
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1605
+D1
+~
+~
+0 0 1625
+D2
+The Northern Road.
+~
+~
+0 -1 1603
+S
+#1605
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1606
+D1
+~
+~
+0 0 1626
+D2
+The Northern Road.
+~
+~
+0 -1 1604
+S
+#1606
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1607
+D1
+~
+~
+0 0 1627
+D2
+The Northern Road.
+~
+~
+0 -1 1605
+S
+#1607
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. Off to the east you can
+see a small ford heading to a trail leading into
+the DearthWood.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1608
+D1
+~
+~
+0 0 1628
+D2
+The Northern Road.
+~
+~
+0 -1 1606
+S
+#1608
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1609
+D1
+~
+~
+0 0 1629
+D2
+The Northern Road.
+~
+~
+0 -1 1607
+S
+#1609
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1610
+D1
+~
+~
+0 0 1630
+D2
+The Northern Road.
+~
+~
+0 -1 1608
+S
+#1610
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1611
+D2
+The Northern Road.
+~
+~
+0 -1 1609
+S
+#1611
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1612
+D2
+The Northern Road.
+~
+~
+0 -1 1610
+S
+#1612
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 8192 11
+D0
+The Northern Road.
+~
+~
+0 -1 1613
+D2
+The Northern Road.
+~
+~
+0 -1 1611
+S
+#1613
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1614
+D2
+The Northern Road.
+~
+~
+0 -1 1612
+S
+#1614
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1615
+D2
+The Northern Road.
+~
+~
+0 -1 1613
+S
+#1615
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1616
+D2
+The Northern Road.
+~
+~
+0 -1 1614
+S
+#1616
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1617
+D2
+The Northern Road.
+~
+~
+0 -1 1615
+S
+#1617
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1618
+D2
+The Northern Road.
+~
+~
+0 -1 1616
+S
+#1618
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1619
+D2
+The Northern Road.
+~
+~
+0 -1 1617
+S
+#1619
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. A large mountain lies to the
+north.
+~
+0 0 11
+D0
+The Northern Road.
+~
+~
+0 -1 1620
+D2
+The Northern Road.
+~
+~
+0 -1 1618
+S
+#1620
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. The road stops suddenly
+here in a pile of rock.
+~
+0 0 11
+D0
+~
+~
+0 0 1621
+D2
+The Northern Road.
+~
+~
+0 -1 1619
+S
+#1621
+{YNorthern Road{x~
+You are on the Northern Road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. A large mountain lies to the
+north.
+~
+0 0 11
+D2
+~
+~
+0 0 1620
+S
+#1622
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1623
+D3
+~
+~
+0 0 1601
+S
+#1623
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1624
+D2
+~
+~
+0 0 1622
+D3
+~
+~
+0 0 1602
+S
+#1624
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1625
+D2
+~
+~
+0 0 1623
+D3
+~
+~
+0 0 1603
+S
+#1625
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1626
+D2
+~
+~
+0 0 1624
+D3
+~
+~
+0 0 1604
+S
+#1626
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1627
+D2
+~
+~
+0 0 1625
+D3
+~
+~
+0 0 1605
+S
+#1627
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1628
+D2
+~
+~
+0 0 1626
+D3
+~
+~
+0 0 1606
+S
+#1628
+Durgas Ford~
+This is a smaller section of the durgas river,
+although you still have to wade through or 
+perhaps jump across some stones, you can make
+it across without swimming. To the west is the
+Northern Road, while to the east is a small
+path entering the DearthWood.
+~
+0 0 2
+D0
+~
+~
+0 0 1629
+D1
+~
+~
+0 0 31050
+D2
+~
+~
+0 0 1627
+D3
+~
+~
+0 0 1607
+S
+#1629
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1630
+D2
+~
+~
+0 0 1628
+D3
+~
+~
+0 0 1608
+S
+#1630
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1631
+D1
+~
+~
+0 0 31030
+D2
+~
+~
+0 0 1629
+D3
+~
+~
+0 0 1609
+S
+#1631
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1632
+D2
+~
+~
+0 0 1630
+S
+#1632
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D0
+~
+~
+0 0 1633
+D1
+~
+~
+0 0 31000
+D2
+~
+~
+0 0 1631
+S
+#1633
+Durgas River~
+This flowing channel marks the edge of the Northern
+road and the beginning of the DearthWood. The river
+heads north to its beginnings and south to Calinth
+bay.
+~
+0 0 6
+D2
+~
+~
+0 0 1632
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 1602 5 1601 1
+G 0 1606 0
+G 0 1605 0
+M 0 1605 3 1601 1
+M 0 1601 1 1604 1
+G 0 1607 0
+M 0 1602 5 1604 1
+E 0 1601 0 5
+E 0 1602 0 17
+M 0 1605 4 1605 1
+O 0 1609 0 1609
+M 0 1600 3 1612 3
+E 0 1610 0 16
+M 0 1600 3 1612 3
+E 0 1610 0 16
+M 0 1600 3 1612 3
+E 0 1610 0 16
+G 0 1604 0
+G 0 1605 0
+M 0 1602 5 1612 1
+E 0 1600 0 1
+E 0 1600 0 2
+E 0 1601 0 5
+E 0 1610 0 16
+G 0 1608 0
+G 0 1604 0
+G 0 1603 0
+M 0 1602 5 1615 1
+E 0 1601 0 5
+G 0 1606 0
+G 0 1605 0
+G 0 1603 0
+M 0 1602 5 1618 1
+M 0 1604 5 1622 1
+M 0 1604 5 1624 1
+M 0 1604 5 1626 1
+M 0 1604 5 1630 1
+M 0 1604 5 1631 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

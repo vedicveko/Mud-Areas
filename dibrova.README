@@ -1,0 +1,61 @@
+WHAT IS THIS?
+
+Dibrova. Imagine a mud rich in history, rich in play value; with a
+world so massive it will take you years to explore fully. That is Dibrova.
+
+WHAT IS INCLUDED?
+
+The complete source code, areas, and utilities. Here are some of the
+features at a glance:
+
+-	243 Zones
+-	19105 Rooms
+-	6417 Objects
+-	5687 Mobiles
+-	Limited/Unlimited Levels.
+-	Clans
+-	Clan run stores, zones, clan halls, tollbooths, mini-bars, ect
+-	Automated quest system
+-	More classes and races than you can shake a stick at
+-	Multi-classing
+-	Immortal classing
+-	Mob classes, races, skills, semi-intelligent combat
+
+Honestly, Dibrova has been around for so long and has had so many people
+contributing to it that we do not have a complete feature list. 
+
+We are releasing everything. This is all you need to run Dibrova.
+
+EVERYTHING?
+
+Everything.
+
+WHAT IS IN THE ZIP FILES?
+
+dibrova-lib.tar.gz - This comprises the lib/ directory for Dibrova, all of the zones are in here.
+dibrova-src.tar.gz - All of Dibrova's source code.
+dibrova-bp.tar.gz  - Dibrova's builder port. Many half-finished zones can be found in here.
+dibrova-x.tar.gz   - Extra stuff, utilities, documentation, ect.
+
+HOW DO I MAKE IT WORK?
+
+Download all of the zip files unto any UNIX type computer.
+Unzip/untar all of the zip files. (tar zxvf filename)
+Type 'cd dibrova/src'
+Type 'make'
+Wait about twenty minutes.
+Type 'cd ../'
+Type './autorun'.
+Open your favourite mud client and point it towards the computer you did all of this on at port 4000.
+Enjoy yourself.
+
+ANYTHING ELSE I NEED TO KNOW?
+
+Dibrova is offered with no warranty of any sort. No guarantee of fitness is provided. It may work, it may not. You may give homage and beer to anyone listed in
+the credits file.
+
+
+-- Dean Vaughan
+   October 25, 2002
+   vedic@thevedic.net
+

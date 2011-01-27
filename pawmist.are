@@ -1,0 +1,3992 @@
+#AREA
+Area1~
+Pawmist~
+{15 51} Twilight City of Pawmist~
+11000 11156
+
+#MOBILES
+#11000
+field master gnoll~
+the field master~
+The field master is working here.
+~
+The field master is a scruffy looking gnoll.  He is fairly well dressed and
+carrying a sword.  He does not look like he has much of a sence of humor.
+~
+human~
+ABGRe CDEF 200 0
+30 5 807d1+0 500d6+500 4d4+5 none
+-8 -8 -8 -3
+CEFI 0 B A
+stand stand male 500
+AMV ABCDEFGH medium 0
+#11001
+gnoll field masters wife~
+the fild master's wife~
+The field master's wife is here.
+~
+The field master's wife is a petite gnoll and pretty by gnoll standards.  She
+is here prepairing her husbands dinner before he returns from working.
+~
+human~
+ABGR CDEF 200 0
+25 2 688d1+0 500d6+500 3d4+5 none
+-5 -5 -5 -1
+FI 0 B A
+stand stand female 50
+AMV ABCDEFGH small 0
+#11002
+gnoll farmer~
+a gnoll farmer~
+A gnoll farmer is here.
+~
+A gnoll farmer is wearing a pair of overalls.  He is returning from working in
+the fields.
+~
+human~
+ABG 0 200 0
+20 1 505d1+0 500d6+500 4d4+0 none
+-2 -2 -2 0
+CEF 0 B A
+stand stand male 0
+AMV ABCDEFGH medium 0
+#11003
+gnoll female~
+a gnoll female~
+A gnoll female is going about her business here.
+~
+A gnoll female.
+~
+human~
+AG 0 200 0
+18 1 416d1+0 500d6+500 4d4+2 none
+-1 -1 -1 1
+FI 0 B A
+stand stand female 20
+AMV ABCDEFGH medium 0
+#11004
+gnoll child~
+a gnoll child~
+A gnoll child is playing here.
+~
+A gnoll child.
+~
+human~
+AGHQ 0 500 0
+15 0 234d1+0 500d6+500 4d3+0 none
+0 0 0 0
+FN 0 B A
+stand stand male 0
+AMV ABCDEFGH tiny 0
+#11005
+barkeep gnoll~
+a gnoll barkeep~
+A gnoll barkeep is serving drinks.
+~
+A short fellow.  He is well liked by his customers.  He is zipping around the
+small bar serving drinks to his clients as fast as he can manage.
+~
+human~
+ABCGVe CDEFG 800 0
+51 0 1138d1+0 500d6+500 10d10+10 none
+-21 -21 -21 -11
+CDEFHI ABCD 0 0
+stand stand male 5000
+AMV ABCDEFGH medium 0
+#11006
+gnoll grocer~
+a gnoll grocer~
+A gnoll grocer is advertising his wares.
+~
+A gnoll grocer stands in front of you advertising his wares.  He is wearing a
+clean white apron and has a pencil behind his ear and a pad of paper in his
+hand to write down orders on.
+~
+human~
+ABGVe CDEFG 0 0
+51 0 2846d1+0 500d6+500 10d10+10 none
+-21 -21 -21 -21
+CEF ABCD 0 0
+stand stand male 0
+AMV ABCDEFGH medium 0
+#11007
+baker pawmists~
+a baker~
+The baker of Pawmist is here baking bread.
+~
+A middle aged human with slight gray at his temples.  The baker must be a
+master at his art.
+~
+human~
+ABGVe CDEFG 1000 0
+51 0 2012d1+0 500d6+500 10d10+10 none
+-21 -21 -21 -21
+CEF ABCD 0 0
+stand stand male 5000
+AMV ABCDEFGH large 0
+#11008
+dwarven armorer~
+a dwarven armorer~
+A dwarven armorer stands here polishing his wares.
+~
+A sturdy little dwarf in his late-middle years.  He has the look of a great
+artist and his work is testament to his ability.
+~
+dwarf~
+ABGVe CDEFGJ 1000 0
+51 10 1848d1+0 500d6+500 10d10+10 none
+-21 -21 -21 -21
+CDEF ABCD 0 0
+stand stand male 50000
+AMV ABCDEFGH small 0
+#11009
+gnoll weaponsmith~
+a gnoll weaponsmith~
+A gnoll weaponsmith is sharpening a sword.
+~
+A gnoll weaponsmith stands here sharpening a sword.  He seems too young to be
+the artisan who made these wares.  He may be a partner with the dwarf around
+the corner.
+~
+human~
+ABGVe CDEFG 800 0
+51 10 2329d1+0 500d6+500 10d10+10 none
+-21 -21 -21 -21
+CEF ABCD 0 0
+stand stand male 5000
+AMV ABCDEFGH large 0
+#11010
+gnoll peddler~
+a gnoll peddler~
+A gnoll peddler stands on the side of the street shouting his wares.
+~
+A scruffy looking gnoll just trying to make an honest living in a big city.
+~
+human~
+ABGV CDEFG 800 0
+51 10 2088d1+10 500d6+500 10d10+10 none
+-21 -21 -21 -21
+CEF ABCD 0 0
+stand stand male -218
+AMV ABCDEFGH medium 0
+#11011
+drunken dwarf~
+a drunken dwarf~
+A drunken dwarf is sleeping here.
+~
+This guy is sad.  He has slobbered all over himself in his drunken sleep and
+stinks to high heaven.  He does not look to have seen water in almost a year.
+Typical dwarf.
+~
+dwarf~
+ABGTYe J -200 0
+38 5 15d15+1500 500d6+500 8d8+5 none
+-13 -13 -13 -7
+CDFIKN 0 EHQ IR
+sleep stand male 0
+AMV ABCDEFGH medium 0
+#11012
+gnoll sheriff~
+the sheriff~
+The sheriff sits at his desk in front of you.
+~
+A force to be reconned with, the sheriff looks like he would sooner run you
+through than take any harrassment from you.  Keep it legal while in his city
+and you will have no problem with him.
+~
+human~
+ABGYe CDEFGN 800 0
+42 6 2500d1+0 500d6+500 5d5+5 none
+-18 -18 -18 -10
+CDEFIK 0 C E
+sit stand male 500
+0 ABCDEFGH large 0
+#11013
+merchant's wife~
+the merchant's wife~
+The merchant's wife is standing here looking at you.
+~
+She is dressed in a fine gown of high quality.  She is very petite and very
+pretty by  gnoll standards.
+~
+human~
+AGHRb H 500 0
+36 6 1454d1+0 500d6+500 5d5+3 none
+-12 -12 -12 -12
+FK 0 BC H
+stand stand female 2000
+AM ABCDEFGH small 0
+#11014
+gnoll merchant male~
+a gnole merchant~
+A gnoll merchant is going about his business.
+~
+He is dressed in A clees pair of pants and a white collared shirt.
+~
+human~
+AGW 0 0 0
+32 5 10d50+100 500d6+500 5d6+4 none
+-10 -10 -10 -5
+EFK 0 BI H
+stand stand male 500
+AMV ABCDEFG medium 0
+#11015
+gnoll merchant female~
+a female merchant~
+A female gnoll merchant is going about her business.
+~
+She is wearing a nicely embroidered dress and has a light scarf on her head to
+protect herself from the sun.
+~
+human~
+AGH 0 0 0
+29 4 10d50+300 500d6+500 5d5+4 none
+-8 -8 -8 -8
+FIK 0 I H
+stand stand female 565
+AMV ABCDEFGH medium 0
+#11016
+guard dog oblong~
+Clan Oblongs guard dog~
+The guard dog for Clan Oblong stands here.
+~
+This furry beast is a mastiff wieghing in at about 150 pounds.  He is sniffing
+at you curiously wondering why you are here.
+~
+dog~
+ABGVYe S 0 0
+18 10 300d10+1000 500d6+500 8d8+10 none
+-30 -30 -30 -30
+CFO ACD I H
+rest stand male 0
+AGV ABCDEFHQ large 0
+#11017
+dracolich~
+a dracolich~
+A dracolich stares down his boney snout with glowing red eyes at you preparing to attack.
+~
+This dracolich is huge.  By looks, he must have been a black at one time.
+~
+dragon~
+ABCGOe JZc -1000 0
+50 12 4500d1+0 500d6+500 6d10+10 none
+-25 -25 -25 -25
+AEFKMN AKQ B HN
+stand stand male 10000
+CIZ ABCHIKPQUVWX giant 0
+#11018
+death knight~
+a death knight~
+A death knight stands before you.
+~
+A death knight with glowing red eyes is about to attempt to have you join his
+ranks.
+~
+human~
+ABFGOe DJZ -800 0
+42 8 10d100+1000 500d6+500 6d10+5 none
+-18 -18 -18 -18
+CEFKT IKQ ABC H
+stand stand male 500
+DIV ABCDEFGH large 0
+#11019
+errtu demon~
+the demon Errtu~
+The demon Errtu appears out of the swirling mist.
+~
+The demon Errtu stands before you looking to dismember someone for disturbing
+his slumber.
+~
+human~
+ABFGe JTZ -800 0
+45 6 999d4+999 500d6+500 5d8+0 none
+-18 -18 -18 -18
+CEFIK H BC N
+stand stand male 500
+CHX ABCDEFGHPQUVW huge 0
+#11020
+imp wandering~
+a wandering imp~
+A wandering imp has stumbled upon you.
+~
+This small creature is pure evil.  He kills and takes what he wants with no
+regard for who is around.  You are his next target.
+~
+human~
+ACFGH DFZ -1000 0
+40 7 500d3+800 500d6+500 6d6+0 none
+-15 -15 -15 -15
+BFKU AB H I
+stand stand male 545
+CGX ABCDEFGHPUW medium 0
+#11021
+temple guardian~
+a temple guardian~
+A temple guardian stands before you.
+~
+The temple guardian is a stoic looking soul who's sole mission is to protect
+the temple from desecration.
+~
+human~
+ABGe H 1000 0
+40 10 2000d1+0 500d6+500 6d6+0 none
+-15 -15 -15 -15
+EFKU 0 0 0
+stand stand male 0
+AMV ABCDEFGH large 0
+#11022
+thief gnoll~
+a gnoll thief~
+A gnoll thief is trying to relieve you of some extra weight.
+~
+A tiny gnoll and quick too.  You did not even notice him at first.
+~
+human~
+AHW EPQ 0 0
+29 4 1041d1+0 0d0+0 4d4+2 none
+-8 -8 -8 -8
+EFK 0 I H
+stand stand male 354
+AMV ABCDEFGH small 0
+#0
+
+#OBJECTS
+#11000
+sign~
+a wooden sign~
+A wooden sign with some writing on it is pushed into the grass.~
+~
+furniture 0 0
+0 0 0 0 0
+0 1 0 P
+E
+sign~
+Welcome to Pawmist.  Visitors beware the forbidden area.  Concider yourself
+warned.
+~
+#11001
+rocking chair~
+a rocking chair~
+A rocking chair sits here.~
+wood~
+furniture 0 0
+1 0 288 0 0
+1 1 0 P
+#11002
+canopy bed~
+a canopy bed~
+A canopy bed sits against the wall.~
+wood~
+furniture G 0
+2 0 1168 150 0
+5 500 0 P
+#11003
+sturdy bed~
+a sturdy bed~
+A sturdy bed sits against the wall.~
+wood~
+furniture G 0
+2 0 1168 0 150
+5 500 0 P
+#11004
+tarnished sword~
+a tarnished sword~
+A tarnished sword lies here.~
+metal~
+weapon 0 AN
+sword 4 5 slash 0
+15 50 5000 P
+#11005
+stew wheat beef~
+wheat and beef stew~
+A pot of grain and beef stew is sitting here.~
+food~
+food 0 A
+30 20 0 0 0
+5 50 150 P
+#11006
+pile grain~
+a pile of grain~
+A huge pile of grain is sitting here.~
+grain~
+container 0 0
+500 AC 0 6000 50
+5 5000 10000 P
+#11007
+tarnished ring~
+a tarnished ring~
+A tarnished ring has been lost here.~
+~
+armor G AB
+6 6 6 8 0
+25 5 2050 P
+A
+4 1
+A
+3 1
+#11008
+bastard sword silver~
+a silver bastard sword~
+A silver bastard sword has been left behind.~
+silver~
+weapon AG AN
+sword 3 12 slash D
+30 100 2500 P
+A
+18 1
+#11009
+sickle field~
+a sickle~
+A farmer's sickle has been left here.~
+metal~
+weapon 0 AN
+dagger 5 5 stab 0
+15 30 1000 P
+#11010
+paper tattered riddle~
+a piece of tattered paper~
+A piece of tattered paper blows past you.~
+none~
+trash 0 AO
+0 0 0 0 0
+1 5 16 P
+F
+A 23 -2 0
+F
+A 24 -2 0
+E
+paper~
+"Where the golden waves cease to exist you will find enlightenment and
+protection."
+~
+#11011
+bag rune stitched~
+a rune stitched bag~
+A rune stitched bag has been lost.~
+leather~
+container GOSY AK
+750 A 0 50 70
+25 50 50000 P
+A
+1 1
+#11012
+oil lamp~
+an oil lamp~
+An oil lamp has been discarded.~
+brass~
+light A A
+0 0 200 0 0
+1 20 600 P
+#11013
+raft folding~
+A folding raft~
+A folding raft has been abandoned.~
+wood~
+boat G A
+0 0 0 0 0
+20 100 10000 P
+#11014
+field utensils~
+a set of field utensils~
+A nice set of field utensils has been lost by some unfortunate adventurer.~
+metal~
+treasure 0 AO
+0 0 0 0 0
+5 20 300 P
+#11015
+potion light green~
+a light green potion~
+A light green potion sits here.~
+~
+potion G A
+20 'pass door' 'reserved' 'reserved' 'reserved'
+15 1 5000 P
+#11016
+misty potion~
+a misty potion~
+A misty potion sits here.~
+~
+potion AG A
+35 'protection evil' 'pass door' 'reserved' 'reserved'
+30 20 8500 P
+#11017
+scroll knowledge~
+a scroll of knowledge~
+A scroll of knowledge lies here.~
+paper~
+scroll GUY AO
+20 'identify' 'reserved' 'reserved' 'reserved'
+8 10 1500 P
+#11018
+scroll safety~
+a scroll of safety~
+A scroll is lting on the ground.~
+paper~
+scroll GUY AO
+30 'sanctuary' 'reserved' 'reserved' 'reserved'
+25 10 10000 P
+#11019
+scroll speed~
+a scroll of speed~
+A scroll is rolled up and lying on the ground.~
+paper~
+scroll GUY AO
+25 'haste' 'refresh' 'reserved' 'reserved'
+20 10 7575 P
+#11020
+sword gold worked giant slayer~
+Giant Slayer~
+A gold worked sword with the name Giant Slayer engraved on the blade lies here.~
+steel~
+weapon ABG AN
+sword 7 10 slash G
+45 100 7000000 P
+A
+10 3
+A
+19 4
+A
+18 4
+#11021
+battle Axe~
+a battle axe~
+A finely crafted battle axe lies here.~
+metal~
+weapon G AN
+axe 4 8 slash F
+39 70 7000 P
+A
+19 2
+A
+18 2
+#11022
+shortsword sword~
+a shortsword~
+A shortsword has been lost.~
+metal~
+weapon AG AN
+sword 5 7 frbite B
+38 50 100000 P
+A
+18 1
+A
+19 1
+#11023
+whole wheat bread~
+a loaf of whole wheat bread~
+A loaf of whole wheat bread lies here.~
+food~
+food 0 A
+30 25 0 0 0
+5 10 100 P
+#11024
+delicate pastery~
+a delicate pastery~
+A delicate pastery lies here.~
+food~
+food 0 A
+15 10 0 0 0
+5 5 30 P
+#11025
+juicy apple~
+a juicy apple~
+A juicy apple has been left here.~
+food~
+food 0 A
+15 10 0 0 0
+5 5 10 P
+#11026
+apple pie~
+an apple pie~
+An apple pie with a flakey wheate crust sits here.~
+food~
+food 0 A
+20 18 0 0 0
+5 15 75 P
+#11027
+leather chaps~
+a pair of leather chaps~
+A pair of leather chaps lie here.~
+leather~
+armor S AF
+4 5 4 0 0
+15 50 500 P
+#11028
+finely woven chainmail shirt~
+a finely woven chainmail shirt~
+A finely woven chainmail shirt lies here.~
+metal~
+armor GY AD
+6 6 6 2 0
+28 60 2025 P
+A
+2 1
+A
+18 1
+#11029
+gauntlets dwarven~
+dwarven gauntlets~
+A pair of dwarven gauntlets lie here.~
+metal~
+armor GI AH
+4 5 6 1 0
+32 30 3500 P
+#11030
+dwarven ale~
+a Dwarven ale~
+A Dwarven ale sits in front of you.~
+drink~
+drink 0 A
+1 1 ale 0 0
+5 10 500 P
+#11031
+wheat beer~
+a wheat beer~
+A strange smelling wheat beer sits in front of you.~
+~
+drink 0 A
+2 2 ale 0 0
+5 10 300 P
+#11032
+shot vodka~
+a shot of vodka~
+A shot of vodka sits in front of you.~
+liqued~
+drink 0 A
+1 1 vodka 0 0
+0 5 800 P
+#11033
+oak desk~
+an oak desk~
+An oak desk is sitting here.~
+wood~
+furniture 0 A
+1 0 8 0 0
+5 1500 10000 P
+#11034
+sheriff's star~
+a sheriff's star~
+A sheriff's star lies here.~
+silver~
+armor GK AJ
+5 5 6 2 0
+40 10 2000 P
+F
+A 25 1 C
+A
+19 3
+A
+18 3
+#11035
+plush red chair~
+a plush velvet chair~
+A plush red velvet chair sits in the corner of the room.~
+wood~
+furniture 0 0
+1 0 2336 200 0
+5 500 1 P
+#11036
+reading table~
+a reading table~
+A finely crafted reading table with a drawer in the front is sitting here. ~
+wood~
+container 0 0
+400 BCD 11037 50 100
+5 300 1 P
+#11037
+brass key~
+a small brass key~
+A small brass key has been lost.~
+brass~
+treasure F A
+1 0 0 0 0
+5 2 1 P
+#11038
+large brass key~
+a large brass key~
+A large brass key lies here.~
+brass~
+key PU A
+0 0 0 0 0
+5 15 1 P
+#11039
+oblong key~
+an oblong key~
+An oblong key lies here.~
+metal~
+treasure O A
+1 0 0 0 0
+5 5 500 P
+#11040
+skeleton key~
+a skeleton key~
+AA skeleton key has been carelessly dropped here.~
+metal~
+key 0 A
+0 0 0 0 0
+5 10 1 P
+#11041
+prismatic stone~
+a prismatic stone~
+A prismatic stone lies here.~
+new~
+trash ABGSY AQ
+0 0 0 0 0
+45 1 44000 P
+F
+A 25 1 DEF
+A
+18 3
+A
+19 3
+A
+17 -6
+#11042
+marble hewn well water~
+a marble hewn well~
+A marble hewn well sits in the middle of the walkway.~
+stone~
+fountain 0 0
+0 0 water 0 0
+1 2000 100000 P
+#11043
+shimmering portal~
+a shimmering portal~
+A shimmering portal dances in the air in front of you..~
+none~
+portal BO P
+100000 0 0 6900 0
+5 100 220000 P
+E
+portal~
+Through the portal you can see a shimmering image of the Roji in Midgaard
+~
+#0
+
+#ROOMS
+#11000
+On a Dirt Road~
+You have found a dirt road leading to the north.  It does not seem to be very
+travelled.  Off in the distance to the north, you can see the walls of a large
+city.  Part of the city appears to be covered with a dark cloud.  The
+surrounding area is nothing but fields of wheat.
+~
+0 0 2
+D0
+The road continues.
+~
+~
+0 0 11001
+D2
+The plains.
+~
+~
+0 0 4036
+S
+#11001
+On a Dirt Road~
+Following the dirt road toward the city, you are getting a better view of the
+walls.  The place looks to be deserted and uncared for.  Someone must tend to
+these fields though.
+~
+0 0 2
+D2
+The road continues.
+~
+~
+0 0 11000
+D0
+You are aproaching the gates.
+~
+~
+0 0 11002
+S
+#11002
+At the Gates.~
+You are at long last, standing in front of the gates of the city.  There is a
+small wooden sign pushed into the grass to the side of the gate.
+~
+0 0 2
+D2
+A dirt road away from the city.
+~
+~
+0 0 11001
+D0
+A tunnel leading into the city.
+~
+~
+0 0 11003
+S
+#11003
+City Entrance~
+You are standing just inside a long tunnel leading into the city.  The tunnel
+has a slight downgrade. You can see a reflection of light filtering in from
+the other end though.
+~
+0 ADI 13
+D2
+Outside the city gates.
+~
+~
+0 0 11002
+D0
+The other end of the tunnel.
+~
+~
+0 0 11004
+S
+#11004
+City Entrance~
+You are emerging from the tunnel.  A huge gate has been dropped down across the
+entrance but there is a small access door in the side.
+~
+0 ACDI 13
+D2
+The end of the tunnel.
+~
+~
+0 0 11003
+D0
+A crossroads
+~
+~
+1 0 11005
+S
+#11005
+Inside the city Gates~
+You are just inside the city gates and standing at a crossroads within the
+city's walls.  To the north is a broad boulevard ending at a town square.  You
+can hear sounds coming from there.  You also notice that the cloud you saw
+from a distance is in fact sitting over the northwest corner of the city.  To
+the east and west is a road that follows the wall of the city.  The city
+appears to be inhabited by a society of gnolls.
+~
+0 0 1
+D2
+A tunnel leading out of the city.
+~
+~
+1 0 11004
+D1
+Wall road continues to the east.
+~
+~
+0 0 11011
+D3
+The road continues away from the gates.
+~
+~
+0 0 11012
+D0
+You see the town square and further on the temple looms over the north of
+the
+city.
+~
+~
+0 0 11020
+S
+#11006
+Wall Road~
+You are standing at the southeast corner of the city.  The wall road continuse
+north and west from here.
+~
+0 0 1
+D3
+The road continues toward the gates.
+~
+~
+0 0 11007
+D0
+The road continues north toward the merchant district.
+~
+~
+0 0 11018
+S
+#11007
+Wall Road~
+This section of the road leads west toward the city gates and east to the
+southeast corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D1
+You see a turn in the road ahead.
+~
+~
+0 0 11006
+D3
+The road continues toward the gates.
+~
+~
+0 0 11008
+S
+#11008
+Wall Road~
+This section of the road leads west toward the city gates and east to the
+southeast corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+
+~
+0 0 1
+D1
+The road continues away from the gates.
+~
+~
+0 0 11007
+D3
+The road continues toward the gates.
+~
+~
+0 0 11009
+S
+#11009
+Wall Road~
+This section of the road leads west toward the city gates and east to the
+southeast corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D1
+The road continues away from the gates.
+~
+~
+0 0 11008
+D3
+The road continues toward the gates.
+~
+~
+0 0 11010
+S
+#11010
+Wall Road~
+This section of the road leads west toward the city gates and east to the
+southeast corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D1
+The road continues away from the gates.
+~
+~
+0 0 11009
+D3
+The road continues toward the gates.
+~
+~
+0 0 11011
+S
+#11011
+Wall Road~
+This section of the road leads west toward the city gates and east to the
+southeast corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D1
+The road continues away from the gates.
+~
+~
+0 0 11010
+D3
+The city gates.
+~
+~
+0 0 11005
+S
+#11012
+Wall Road~
+This section of the road leads east toward the city gates and west to the
+southwest corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D1
+The city gates.
+~
+~
+0 0 11005
+D3
+The road continues away from the gates.
+~
+~
+0 0 11013
+S
+#11013
+Wall Road~
+This section of the road leads east toward the city gates and west to the
+southwest corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D3
+The road continues away from the gates.
+~
+~
+0 0 11014
+D1
+The road continues toward the gates.
+~
+~
+0 0 11012
+S
+#11014
+Wall Road~
+This section of the road leads east toward the city gates and west to the
+southwest corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D3
+The road continues away from the gates.
+~
+~
+0 0 11015
+D1
+The road continues toward the gates.
+~
+~
+0 0 11013
+S
+#11015
+Wall Road~
+This section of the road leads east toward the city gates and west to the
+southwest corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D3
+The road continues away from the gates.
+~
+~
+0 0 11016
+D1
+The road continues toward the gates.
+~
+~
+0 0 11014
+S
+#11016
+Wall Road~
+This section of the road leads east toward the city gates and west to the
+southwest corner of the city.  You are occaisionally passed by a citizen of
+the city.  The road is close to the north by the backs of houses and to the
+south by the huge wall surrounding the city.
+~
+0 0 1
+D3
+You see a turn in the road ahead.
+~
+~
+0 0 11017
+D1
+The road continues toward the gates.
+~
+~
+0 0 11015
+S
+#11017
+Wall Road~
+You are standing at the southwest corner of the city.  The wall road continuse
+north and east from here.
+~
+0 0 1
+D1
+The road continues toward the gates.
+~
+~
+0 0 11016
+D0
+You see the cloud over the forbidden area.
+~
+~
+0 0 11022
+S
+#11018
+Wall Road~
+This section of wall road leads north toward the merchant section of town and
+south to the southern wall.  The road is flanked on the east by the city wall
+and on the west by the backs of houses.
+~
+0 0 1
+D2
+The southeast corner of the city.
+~
+~
+0 0 11006
+D0
+The road continues north toward the merchant district.
+~
+~
+0 0 11023
+S
+#11019
+Plow Drive In Front of the Field Master's House~
+You are standing in front of the field master's home.  The house seems to be a
+little larger than the rest in this section of town yet it too is still run
+down.  Steps lead up to a porch and the front door of the house.
+~
+0 0 1
+D0
+The driveway leads toward Aquaduct Way.
+~
+~
+0 0 11024
+D2
+Steps lead up to the porch.
+~
+~
+0 0 11129
+S
+#11020
+Temple Boulevard South~
+This wide street must have one been quite the site to see.  Most of the paving
+stones are weather-worn and chipped with age.  Posts stick out of the groud
+sporadically high into the air.  They look to have been a form of torch.  You
+wonder how someone got up there to light them at night.
+~
+0 0 1
+D2
+The gates of the city.
+~
+~
+0 0 11005
+D0
+The boulevard leads to the town square.
+~
+~
+0 0 11025
+S
+#11021
+Scimitar Street In Front of Blade Dancer's Inn~
+To the south is the Blade Dancer's Inn.  This seems to be the establishment of
+choice for the non-gnoll visitors to the city.
+~
+0 0 1
+D2
+An inviting looking common room.
+~
+~
+1 0 6950
+D0
+A residential Area.
+~
+~
+0 0 11026
+S
+#11022
+Wall Road~
+This section of wall road leads north toward the Forbidden section of town and
+south to the southern wall.  The road is flanked on the west by the city wall
+and on the east by the backs of houses.
+~
+0 0 1
+D2
+The southwest corner of the city.
+~
+~
+0 0 11017
+D0
+You see the cloud over the forbidden area.
+~
+~
+0 0 11027
+S
+#11023
+Wall Road~
+This section of wall road leads north toward the merchant section of town and
+south to the southern wall.  The road is flanked on the east by the city wall
+and on the west by the backs of houses.
+~
+0 0 1
+D2
+Heading toward the south wall.
+~
+~
+0 0 11018
+D0
+The road continues north toward the merchant district.
+~
+~
+0 0 11028
+S
+#11024
+Plow Drive~
+This is a small private drive leading to the field master's house.  Obviously,
+he cares more for the fields than he does for his house as it is overgron with
+brush.
+~
+0 0 0
+D2
+The field master's residence.
+~
+~
+0 0 11019
+D0
+An intersection.
+~
+~
+0 0 11031
+S
+#11025
+Temple Boulevard South~
+Heading down Temple Boulevard toward the town square, you pass gnolls going
+about their daily routine.  A few of them look at you oddly but most seem to
+pay you no attention at all.
+~
+0 0 1
+D2
+heading toward the city gates.
+~
+~
+0 0 11020
+D0
+Heading north toward town square.
+~
+~
+0 0 11034
+S
+#11026
+Scimitar Street~
+A residential area in front of a small well-kept home.  To the north is an
+intersection and to the south is a nice looking inn.  It must be the one the
+locals suggested you stay in.
+~
+0 0 1
+D0
+An intersection
+~
+~
+0 0 11037
+D2
+An inn.
+~
+~
+0 0 11021
+S
+#11027
+Wall Road~
+This section of wall road leads north toward the Forbidden section of town and
+south to the southern wall.  The road is flanked on the west by the city wall
+and on the east by the backs of houses.
+~
+0 0 1
+D2
+The road continues south.
+~
+~
+0 0 11022
+D0
+You see the cloud over the forbidden area.
+~
+~
+0 0 11040
+S
+#11028
+Wall Road~
+This section of wall road leads north toward the merchant section of town and
+south to the southern wall.  The road is flanked on the east by the city wall
+and on the west by the backs of houses.
+~
+0 0 1
+D2
+Heading toward the south wall.
+~
+~
+0 0 11023
+D0
+The road continues north toward the merchant district.
+~
+~
+0 0 11041
+S
+#11029
+Aquaduct Way~
+To the north is a small run down house belonging to one of the field hands.
+~
+0 0 1
+D0
+A small rundown house.
+~
+~
+1 0 11119
+D3
+The street continues west.
+~
+~
+0 0 11030
+S
+#11030
+Aquaduct Way~
+To the south is a small run down house belonging to one of the field hands.
+~
+0 0 1
+D1
+The street comes to a dead end ahead.
+~
+~
+1 0 11029
+D3
+Approaching an intersection.
+~
+~
+0 0 11031
+D2
+a small house.
+~
+~
+1 0 11123
+S
+#11031
+Plow Drive at Aquaduct Way~
+Looking east you see a few run down houses.  To west you can see the city's
+warehouse at the end of the block and south is the private drive belonging to
+the field master's residence.
+~
+0 0 0
+D1
+A dead end street with some small houses.
+~
+~
+0 0 11030
+D2
+The field master's privatte road.
+~
+~
+0 0 11024
+D3
+You see the warehouse at the end of the block.
+~
+~
+0 0 11032
+D0
+Heading back toward Pawmist Avenue.
+~
+~
+0 0 11042
+S
+#11032
+Aquaduct Way~
+To the north is a small run down house belonging to one of the field hands.
+Further down this street is a warehouse presumably for storing the grain
+reaped from the fields outside the city.
+~
+0 0 1
+D1
+An intersection.
+~
+~
+0 0 11031
+D3
+The warehouse.
+~
+~
+0 0 11033
+D0
+A small house.
+~
+~
+1 0 11121
+S
+#11033
+Aquaduct Way~
+You are standing in front of a rundown but servicable warehouse.  There are a
+few grain wagons parked out front waiting to be unloaded by the workers
+inside.
+~
+0 0 1
+D1
+A small house.
+~
+~
+0 0 11032
+D3
+The door to the warehouse.
+~
+~
+1 0 11046
+S
+#11034
+Temple Boulevard South~
+Up ahead lies the town square.  Further on is the temple which looms over the
+city.
+~
+0 0 1
+D2
+Heading toward the gates.
+~
+~
+0 0 11025
+D0
+The town square.
+~
+~
+0 0 11049
+S
+#11035
+Dagger Lane~
+You are standing in front of the city jail.  It is a small but secure looking
+building with bars on the windows and a solid looking front door.
+~
+0 0 1
+D3
+A residential Area.
+~
+~
+0 0 11036
+D1
+The lobby of the local jail.
+~
+~
+1 0 11138
+S
+#11036
+Dagger Lane~
+This street deadends to the east at the city jail or goes west to the
+intersection and the governor's mansion beyond.
+~
+0 0 1
+D3
+An intersection.
+~
+~
+0 0 11037
+D1
+The jail.
+~
+~
+0 0 11035
+S
+#11037
+Scimitar Street at Dagger Lane~
+You are in the middle of an intersection in the residential area.  A sign-post
+states that to the east is the city jail, to the west is the old governor's
+mansion (note scribbled under that says it's haunted) and to the south is the
+Blade Dancer's Inn.
+~
+0 0 1
+D0
+A residential Area.
+~
+~
+0 0 11044
+D1
+Toward the jail.
+~
+~
+0 0 11036
+D3
+Toward the old mansion.
+~
+~
+0 0 11038
+D2
+A residential Area.
+~
+~
+0 0 11026
+S
+#11038
+Dagger Lane~
+This street is desolate with no activity.  At the end of the street is a
+boarded up mansion.
+~
+0 0 1
+D1
+An intersection.
+~
+~
+0 0 11037
+D3
+An old mansion.
+~
+~
+0 0 11039
+S
+#11039
+Dagger Lane~
+You are standing in fron of a run down boarded up mansion.  This place isa
+said to be haunted so the locals boarded it up long ago.  To the is the
+intersection with Scimitar Street.
+~
+0 0 1
+D1
+Toward a residential Area.
+~
+~
+0 0 11038
+D2
+The haunted house.
+~
+~
+4 11039 11091
+S
+#11040
+Wall Road~
+This section of wall road leads north toward the Forbidden section of town and
+south to the southern wall.  The road is flanked on the west by the city wall
+and on the east by the backs of houses.
+~
+0 0 1
+D2
+The road continues south.
+~
+~
+0 0 11027
+D0
+You see the cloud over the forbidden area.
+~
+~
+0 0 11045
+S
+#11041
+Wall Road~
+This section of wall road leads north toward the merchant section of town and
+south to the southern wall.  The road is flanked on the east by the city wall
+and on the west by the backs of houses.
+~
+0 0 1
+D2
+heading toward the south wall.
+~
+~
+0 0 11028
+D0
+An intersection.
+~
+~
+0 0 11053
+S
+#11042
+Plow Drive~
+To the west is a small run down house belonging to one of the commoners of
+this city.  To the south is an intersection.
+~
+0 0 0
+D2
+An intersection.
+~
+~
+0 0 11031
+D0
+Heading back toward Pawmist Avenue.
+~
+~
+0 0 11047
+D3
+Exit description~
+~
+1 0 11125
+S
+#11043
+The Armorer's Shop~
+You are standing inside a small armor shop.  IThe shop keeper is a gruff
+looking dwarf.  he seems to be making a living for himself in this town with
+out having any serious competition for his trade.
+~
+0 D 0
+D2
+Back into the street.
+~
+~
+0 0 11079
+S
+#11044
+Scimitar Street~
+You are standing in front of one of the nicer homes in the area.  The house is
+in good repair with a small picket fence surrounding the yard.  To the south
+lies an intersection.
+~
+0 0 1
+D0
+A residential Area.
+~
+~
+0 0 11051
+D2
+An intersection
+~
+~
+0 0 11037
+D1
+Into the house.
+~
+~
+2 11037 11141
+S
+#11045
+Wall Road~
+This section of wall road leads north toward the Forbidden section of town and
+south to the southern wall.  The road is flanked on the west by the city wall
+and on the east by the backs of houses.
+~
+0 0 1
+D2
+The road continues south.
+~
+~
+0 0 11040
+D0
+You see the cloud over the forbidden area.
+~
+~
+0 0 11052
+S
+#11046
+Entrance to the Warehouse~
+You ar standing just inside the warehouse.  The place is stacked   high with
+piles of grain from the fields.  Off to your right is a small office belonging
+to the warehouse foreman.
+~
+0 D 0
+D1
+Back outside.
+~
+~
+1 0 11033
+D0
+A closed door with the word "BOSS" hand painted on the glass.
+~
+~
+1 0 11127
+D3
+the back of the warehouse.
+~
+~
+0 0 11128
+S
+#11047
+Plow Drive~
+You are entering a run down section of the city.  The area looks fairly safe
+but not well kept.  To the north is Pawmist Avenue.
+~
+0 C 0
+D2
+Exit description
+~
+~
+0 0 11042
+D0
+An intersection.
+~
+~
+0 0 11056
+S
+#11048
+Town Square Southeast~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the west
+and north.  You can see roads leading away from the square in all four
+cardinal directions.  In the center of the square is a statue of sorts like
+you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D3
+The town square continues.
+~
+~
+0 0 11049
+D0
+The town square continues.
+~
+~
+0 0 11058
+S
+#11049
+Town Square South~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the east,
+west and north.  You can see roads leading away from the square in all four
+cardinal directions.  To the south is a road leading toward the city gates.
+In the center of the square is a statue of sorts like you have never seen.  It
+may warrant a closer inspection.
+~
+0 0 1
+D2
+Leaving town square heading south to the gates.
+~
+~
+0 0 11034
+D0
+You see a sculpture.
+~
+~
+0 0 11059
+D1
+The town square continues.
+~
+~
+0 0 11048
+D3
+The town square continues.
+~
+~
+0 0 11050
+S
+#11050
+Town Square Southwest~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the east
+and north.  You can see roads leading away from the square in all four
+cardinal directions.  In the center of the square is a statue of sorts like
+you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D1
+The town square continues.
+~
+~
+0 0 11049
+D0
+The town square continues.
+~
+~
+0 0 11060
+S
+#11051
+Scimitar Street~
+You are entering into a residential area of the city.  The houses here seem to
+be better maintained than the rest of the city which isn't saying much.  Well
+dressed merchants and house wives stroll through the streets to the south.
+~
+0 C 1
+D0
+An intersection.
+~
+~
+0 0 11062
+D2
+A residential Area.
+~
+~
+0 0 11044
+S
+#11052
+Wall Road~
+This section of wall road leads north toward the Forbidden section of town and
+south to the southern wall.  The road is flanked on the west by the city wall
+and on the east by the backs of houses.  To the north lies an intersection
+~
+0 0 1
+D2
+The road continues south.
+~
+~
+0 0 11045
+D0
+You see an intersection ahead.
+~
+~
+0 0 11065
+S
+#11053
+Wall Road at Pawmist Avenue~
+You are at the intersection of Pawmist and wall road.  Looking to the west,
+you can the the town square in the distance and some other side streets
+leading off of Pawmist.
+~
+0 0 1
+D2
+The road continues to the south wall
+~
+~
+0 0 11041
+D0
+Heading toward the north wall.
+~
+~
+0 0 11066
+D3
+Pawmist heads east toward the town square.
+~
+~
+0 0 11054
+S
+#11054
+Pawmist Avenue East~
+Pawmist Avenue runs east to the city wall and west to the town square.
+~
+0 0 1
+D1
+an intersection.
+~
+~
+0 0 11053
+D3
+An intersection.
+~
+~
+0 0 11055
+S
+#11055
+Pawmist Avenue East at Merchants Path~
+The area to the north is obviously the business district.  You see several
+store fronts and many people scurrying about their business buying and selling
+wares.
+~
+0 0 1
+D3
+An intersection.
+~
+~
+0 0 11056
+D1
+Heads toward the eastern wall.
+~
+~
+0 0 11054
+D0
+The street leads into the merchant district.
+~
+~
+0 0 11067
+S
+#11056
+Pawmist Avenue East at Plow Drive~
+A subdivision of the city lies to the south.  It looks to be very run down.
+To the east is the city wall and to the west lies the town square.
+~
+0 0 1
+D2
+A run down area of the city that appears to be reserved for those who tend
+the fields outside the walls.
+~
+~
+0 0 11047
+D1
+An intersection
+~
+~
+0 0 11055
+D3
+You are approaching the town square.
+~
+~
+0 0 11057
+S
+#11057
+Pawmist Avenue East~
+Pawmist Avenue runs east to the city wall and west to the town square.
+~
+0 0 1
+D1
+An intersection
+~
+~
+0 0 11056
+D3
+The town square.
+~
+~
+0 0 11058
+S
+#11058
+Town Square East~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the west,
+south, and north.  You can see roads leading away from the square in all four
+cardinal directions.  A road leading est from here will take you to the
+eastern wall and the merchant district.  In the center of the square is a
+statue of sorts like you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D1
+Pawmist Avenue leads off toward the business district.
+~
+~
+0 0 11057
+D2
+The town square continues.
+~
+~
+0 0 11048
+D0
+The town square continues.
+~
+~
+0 0 11068
+D3
+You see a sculpture.
+~
+~
+0 0 11059
+S
+#11059
+Town Square Center~
+You are in the center of the town square.  A large metal sculpture of sorts
+has been placed here.  Looking at it, it appears to be some sort of wagon,
+possibly gnome built.  Oddly, you can't seem to find a place to hook up the
+horses though.  The wagon itself is enclosed with two rows of seats one
+behind the other.  There are doors on either side that probably once opened up
+to allow passengers to get in and out but they have long rusted shut.  Peering
+into the front seat of the wagon, you notice a glass panel with several
+buttons.  A post sticks up out of the floor and a wheel has been mounted to
+the front wall. Odd place to keep a spare wagon wheel.
+~
+0 0 1
+D2
+The town square continues.
+~
+~
+0 0 11049
+D1
+The town square continues.
+~
+~
+0 0 11058
+D3
+The town square continues.
+~
+~
+0 0 11060
+D0
+The town square continues.
+~
+~
+0 0 11069
+S
+#11060
+Town Square West~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the east,
+south and north.  You can see roads leading away from the square in all four
+cardinal directions.  West is the road leading to the western wall and the
+forbidden areas.  Glancing at the forbidden area, A passerby or two curtly
+warns you about going in there.  In the center of the square is a statue of
+sorts like you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D3
+Pawmist leaves the square heading west.
+~
+~
+0 0 11061
+D2
+The town square continues.
+~
+~
+0 0 11050
+D1
+You see a sculpture.
+~
+~
+0 0 11059
+D0
+The town square continues.
+~
+~
+0 0 11070
+S
+#11061
+Pawmist Avenue West~
+The road leads west toward the wealthier section of town and the forbidden
+area.  At the end of the road you can see the city wall.  To the east is the
+town square.
+~
+0 0 1
+D1
+The town square.
+~
+~
+0 0 11060
+D3
+An intersection.
+~
+~
+0 0 11062
+S
+#11062
+Pawmist Avenue West at Scimitar Street~
+The area to the south is a residential area.  The some of the locals you have
+passed mentioned an inn that caters to out of town folks such as yourself.
+~
+0 0 1
+D3
+An intersection.
+~
+~
+0 0 11063
+D1
+Toward the town square.
+~
+~
+0 0 11061
+D2
+A residential Area.
+~
+~
+0 0 11051
+S
+#11063
+Pawmist Avenue West~
+The area to the north is shrouded in clouds and mist.  It is known as the
+forbidden area by the locals.  It has been blocked off to prevent someone such
+as yourself from accidently strolling to your death.
+~
+0 0 1
+D3
+Toward the west wall.
+~
+~
+0 0 11064
+D1
+An intersection.
+~
+~
+0 0 11062
+D0
+The forbidden area.
+~
+~
+0 0 11071
+S
+#11064
+Pawmist Avenue West~
+Pawmist Avenue runs west to the city wall and east to the town square.
+~
+0 0 1
+D3
+Toward the west wall.
+~
+~
+0 0 11065
+D1
+An intersection.
+~
+~
+0 0 11063
+S
+#11065
+Wall Road at Pawmist Avenue~
+You are at the intersection of Pawmist and wall road.  Looking to the east,
+you can the the town square in the distance and some other side streets
+leading off of Pawmist.
+~
+0 0 1
+D2
+The road continues south.
+~
+~
+0 0 11052
+D0
+Toward the north wall.
+~
+~
+0 0 11072
+D1
+Toward the town square.
+~
+~
+0 0 11064
+S
+#11066
+Wall Road~
+Wall road leads north to the North east corner of the city and south to the
+intersection of Pawmist.  The road is flanked on the east by the great wall of
+the city and on the west by the backs of shops in the merchant district.
+~
+0 0 1
+D2
+An intersection.
+~
+~
+0 0 11053
+D0
+Heading toward the north wall.
+~
+~
+0 0 11078
+S
+#11067
+Merchants Path~
+you are entering the merchant distict of the city of Pawmist.  This is the
+business center of the city and ahead o fyou you can see several shops and
+venders displaying  their wares.  To the south lies Pawmist Avenue.
+~
+0 C 1
+D2
+An intersection
+~
+~
+0 0 11055
+D0
+A bar is up ahead on the left.
+~
+~
+0 0 11074
+S
+#11068
+Town Square Northeast~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the west
+and south.  You can see roads leading away from the square in all four
+cardinal directions.  In the center of the square is a statue of sorts like
+you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D2
+The town square continues.
+~
+~
+0 0 11058
+D3
+The town square continues.
+~
+~
+0 0 11069
+S
+#11069
+Town Square North~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the east,
+west and south.  You can see roads leading away from the square in all four
+cardinal directions.  The road to the north will take you to the temple.  In
+the center of the square is a statue of sorts like you have never seen.  It
+may warrant a closer inspection.
+~
+0 0 1
+D0
+The temple lies up the road in the distance.
+~
+~
+0 0 11075
+D1
+The town square continues.
+~
+~
+0 0 11068
+D3
+The town square continues.
+~
+~
+0 0 11070
+D2
+You see a sculpture.
+~
+~
+0 0 11059
+S
+#11070
+Town Square Northwest~
+You are in the town square.  This is a center of activity within the city.  A
+few merchants are here selling foods and small trinkets and many of the locals
+are milling around talking to each other.  The square continues to the east
+and south.  You can see roads leading away from the square in all four
+cardinal directions.  In the center of the square is a statue of sorts like
+you have never seen.  It may warrant a closer inspection.
+~
+0 0 1
+D2
+The town square continues.
+~
+~
+0 0 11060
+D1
+The town square continues.
+~
+~
+0 0 11069
+S
+#11071
+Forbidden Area~
+A barricade has been constructed by the locals accross the street leading
+north into the forbidden area.  Looking at it, it is pretty much impassable.
+Better to turn around now.
+~
+0 ACN 5
+D2
+An intersection.
+~
+~
+0 0 11063
+D0
+The forbidden area is shrouded in a heavy mist.
+~
+~
+1 0 11076
+S
+#11072
+Wall Road~
+Wall road leads north to the Northwest corner of the city and to the south
+lies the intersection with Pawmist.  The road is flanked on the west by the
+great wall of the city and on the east by the forbidden area.
+~
+0 0 1
+D0
+Toward the north wall.
+~
+~
+0 0 11090
+D2
+The intersection with Pawmist Avenue.
+~
+~
+0 0 11065
+S
+#11073
+General Store~
+You are in the general store.  The shop keeper stocks a wide variety of items
+from the seemingly useless the the everyday water skin.
+~
+0 D 0
+D0
+Back into the street.
+~
+~
+0 0 11082
+S
+#11074
+Merchants Path~
+To the west of you is a local bar.  The normal clientel seems to be gnolls but
+there are other races milling around this are of the city also.   North is an
+intersection at the center of the merchant district.
+~
+0 0 1
+D0
+An intersection at the center of the merchant district.
+~
+~
+0 0 11080
+D2
+the entrance to the merchant district.
+~
+~
+0 0 11067
+D3
+The Dragon's Nest bar.
+~
+~
+0 0 11077
+S
+#11075
+Temple Boulevard North~
+This section of road leads north toward the temple or south back into the town
+square.
+~
+0 0 1
+D2
+The town square.
+~
+~
+0 0 11069
+D0
+The temple lies up the road in the distance.
+~
+~
+0 0 11093
+S
+#11076
+Forbidden Area~
+The area ahead is entirely shrouded in mist.  You can barely see what is next
+to you let alone down the street.  All the buildings in the area are collapsed
+into piles of rubble.  You occaissionally see a fleeting movement out of the
+corner of your eye.....you think.
+~
+0 AN 5
+D2
+The forbidden area is shrouded in a heavy mist.
+~
+~
+1 0 11071
+D0
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11088
+S
+#11077
+the Dragon's nest Bar~
+This is a small establishment.  Nothing more than a long wooden bar and a few
+stools.  The bar is predominantly visited by the gnolls of the city.  A
+barkeep is serving drinks to the patrons as fast as he can.
+~
+0 D 0
+D1
+Back into the street.
+~
+~
+0 0 11074
+S
+#11078
+Wall Road~
+Wall road leads north to the North east corner of the city and south to the
+intersection of Pawmist.  The road is flanked on the east by the great wall of
+the city and on the west by the backs of shops in the merchant district.
+~
+0 0 1
+D2
+Further south lies Pawmist Avenue.
+~
+~
+0 0 11066
+D0
+Heading toward the north wall.  The road leads to the west up ahead.
+~
+~
+0 0 11101
+S
+#11079
+Craftsman's Row~
+The only store at this end of Craftsman's Row is an armorer.  Looking through
+the window, a sturdy Dwarf is tending to his wares.  Judging by his dress, he
+has a successful business.  You may wish to check out his wares.
+~
+0 0 1
+D0
+You see an armor shop.
+~
+~
+0 0 11043
+D3
+An intersection at the center of the merchant district.
+~
+~
+0 0 11080
+S
+#11080
+Craftsman's Row at Merchants Path~
+You are at the intersection of Craftsman's Row and Merchants Path.  Off to the
+north you spy a weapons shop, east you can see an armor shop, and to the west
+is a bakery and general store.  A few peddlers who can not afford a shop have
+set them selves up here in the focal point of the merchant district.
+~
+0 0 1
+D3
+Looking down the street, you can see a bakery and general store.
+~
+~
+0 0 11081
+D0
+A Weaponsmith lies at the end of the block.
+~
+~
+0 0 11102
+D1
+You can see a Armorer down this block.
+~
+~
+0 0 11079
+D2
+there is a bar and further down Pawmist Avenue intersects.
+~
+~
+0 0 11074
+S
+#11081
+Craftsman's Row~
+Heading west down Craftsman's Row, the first shop you pass is the bakery.  The
+baker must be a master of his trade as the bread you smell cooking inside is
+probably the best you have encountered in your travels.  Further down the
+street is a general store.
+~
+0 0 1
+D0
+A bakery.
+~
+~
+0 0 11083
+D3
+A dead end housing a general store.
+~
+~
+0 0 11082
+D1
+An intersection at the center of the merchant district.
+~
+~
+0 0 11080
+S
+#11082
+Craftsman's Row~
+At the west end of Craftsman's Row is the general store.  Here you can
+purchase everyday travelling and household items.  The gnoll merchant that
+runs the shop seems to be a friendly sort as he beakons you into his store.
+~
+0 0 1
+D2
+A general store.
+~
+~
+0 0 11073
+D1
+A bakery lies further down the street.
+~
+~
+0 0 11081
+S
+#11083
+Bakery~
+You are in a very well kept bakery.  Looking around at the shelves, you see a
+wide variety of foods to choose from.  The baker, a short plump human (odd) is
+smiling at you and waiting for your order.
+~
+0 D 0
+D2
+Craftsman's Row.
+~
+~
+0 0 11081
+S
+#11084
+A Weapons Shop~
+You are standing in the middle of a weapons shop.  Looking around at the
+wares, you find it hard to believe that the gnoll running the store could have
+crafted these fine weapons.
+~
+0 D 0
+D3
+Back into the street.
+~
+~
+0 0 11102
+S
+#11085
+Forbidden Area~
+RUN FOR YOUR LIFE!!!!
+
+You are face to face with the largest Dracolich you have had the misfortune of
+meeting.  Milling around him are his Death Knights.  They don't seem to like you either.
+~
+0 AN 5
+D3
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11086
+S
+#11086
+Forbidden Area~
+Not as much rubble lies in this area.  The scraping sounds are getting louder
+though.  Ahead in the mist you  think you see sets of glowing red eyes staring
+back at you.  They appear to be milling around something quite large.
+~
+0 AN 5
+D3
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11087
+D1
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11085
+S
+#11087
+Forbidden Area~
+You have to climb over fallen walls and around boulders to get past this area.
+You see occaissional skeletons lying on the ground that used to belong to an
+animal and even an occaissional biped.  The poor souls.
+~
+0 AN 5
+D3
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11088
+D1
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11086
+S
+#11088
+Forbidden Area~
+You appear to be at a crossroads in the area.  Watch your back.  Scrapin
+sounds can be heard coming from the east.
+~
+0 AN 5
+D2
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11076
+D0
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11094
+D1
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11087
+D3
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11089
+S
+#11089
+Forbidden Area~
+This is a dead end.  The rubble has fallen so deep at this end of the street
+that you can continue no further.
+~
+0 AN 5
+D1
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11088
+S
+#11090
+Wall Road~
+Wall road leads north to the Northwest corner of the city and south to the
+intersection of Pawmist.  The road is flanked on the west by the great wall of
+the city and on the east by the forbidden area.
+~
+0 0 1
+D0
+Toward the north wall.
+~
+~
+0 0 11107
+D2
+Toward the intersevction at Pawmist.
+~
+~
+0 0 11072
+S
+#11091
+The Oblong Table Clan House~
+You have to duck your head as you enter this small house.  The enteranceway
+possesses a set of short wooden steps, not intended for tall people.  The room
+is oblong shaped with two boarded up windowsand a set of stairs going down
+into the lower portion of the house, which you realize is just as cramped as
+the upper portion.
+
+You can take the stairs down, go east into the kitchen, or enter the clan
+meeting room through the western doorway.
+~
+0 D 0
+D0
+Back into the street.
+~
+~
+4 11039 11039
+D1
+The kitchen.
+~
+~
+0 0 11092
+D3
+The clan meeting room.
+~
+~
+0 0 11095
+D5
+The basement.
+~
+~
+0 0 11105
+C oblng~
+S
+#11092
+The Kitchen~
+A large oblong table sets in the middle of the room with a flower vase placed
+in the center.  Unfortunately, the owners of this house have not taken care of
+the flowers, which have wilted.
+A small stove sets in this room with a stack of firewood beside it It smells
+surprisingly nice.
+A small closed door can be seen in the eastern wall, and by the smell of it
+you think it is the bathing room.
+~
+0 0 0
+D3
+The main enterance.
+~
+~
+0 0 11091
+D1
+The bathing room.
+~
+~
+0 0 11103
+C oblng~
+S
+#11093
+Temple Boulevard North~
+You are approaching the temple gates.  You can see from here there are two
+sentries guarding the temple gates, but you can be sure there are more inside.
+Back to the south, you can't make out the din of the town square.
+~
+0 0 1
+D2
+Exit description~
+~
+0 0 11075
+D0
+The temple gates.
+~
+~
+0 0 11098
+S
+#11094
+Forbidden Area~
+Stumbling over the rubble, you are heading north into who knows what.  The way
+out is to the south.
+~
+0 AN 5
+D2
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11088
+D0
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11106
+S
+#11095
+Clan Meeting Room~
+This room has a seven foot ceiling so at least you are not squatting anymore,
+but you can't find a chair made for your size.
+This room is rather large, but it is inhibited by the large oblong table in
+the middle of the room.  The table is made of the finest oak and has each clan
+member's name etched into its surface corresponding to his or her seat at the
+table.  There is even a small basket here for the only dog member, Bear.
+Strange goblin and dwarven statues line the shelves found around the room, and
+even stranger paintings hang on the walls.
+If you are not a member of a short race, this place is probably not for you!
+
+~
+0 0 0
+D1
+The main enterance.
+~
+~
+0 0 11091
+C oblng~
+S
+#11096
+Savior Circle~
+Savior Circle turns to the north where it intersects with Wall Road.  The road
+is bordered to the south by the merchant district.
+~
+0 0 1
+D0
+The intersection with Wall Road.
+~
+~
+0 0 11112
+D3
+Heading in the direction of the temple gates.
+~
+~
+0 0 11097
+S
+#11097
+Savior Circle~
+Savior Circle wraps around the outside of the temple.  A sign posted
+identifies that the road is named in honor of the Gnoll who rescued the city
+from ruin and freed his slave breatherine from thier former masters.
+~
+0 0 1
+D1
+Savior Circle turns north.
+~
+~
+0 0 11096
+D3
+The temple gates.
+~
+~
+0 0 11098
+S
+#11098
+Temple Boulevard North at Savior Circle~
+You stand at the outer gates of the temple.  They stand open to the public but
+are guarded by two heavily armored gnolls in temple garb.  Being an outsider,
+they watch you very carefully.  Up ahead through the gates is the towns well.
+Off to the east and west is a road that wraps around the outside of the
+temple's walls.
+~
+0 0 1
+D1
+Savior Circle circles the temple.
+~
+~
+0 0 11097
+D3
+Savior Circle circles the temple.
+~
+~
+0 0 11099
+D2
+Toward the town square.
+~
+~
+0 0 11093
+D0
+The town well.
+~
+~
+0 0 11104
+S
+#11099
+Savior Circle~
+Savior Circle wraps around the outside of the temple.  A sign posted
+identifies that the road is named in honor of the Gnoll who rescued the city
+from ruin and freed his slave breatherine from thier former masters.
+~
+0 0 1
+D1
+The temple gates.
+~
+~
+0 0 11098
+D3
+Savior Circle turns north.
+~
+~
+0 0 11100
+S
+#11100
+Savior Circle~
+Savior Circle turns to the north where it intersects with Wall Road.  The road
+is bordered to the south by the forbidden area.
+~
+0 0 1
+D1
+Heading toward the temple gates.
+~
+~
+0 0 11099
+D0
+Savior intersects with Wall Road.
+~
+~
+0 0 11114
+S
+#11101
+Wall Road~
+Wall road leads north to the North east corner of the city and south to the
+intersection of Pawmist.  The road is flanked on the east by the great wall of
+the city and on the west by the backs of shops in the merchant district.
+~
+0 0 1
+D2
+Further south lies Pawmist Avenue.
+~
+~
+0 0 11078
+D0
+The road up ahead turns to the west.
+~
+~
+0 0 11108
+S
+#11102
+Merchants Path~
+You find yourself standing in front of the weapons shop.  In the window there
+is a display of finely crafted weapons including items as simple as slings to
+as extravegant as a gold worked bastard sword.  Looking into the shop, you see
+a gruff looking gnoll tending the store.
+~
+0 0 1
+D1
+A weapons shop.
+~
+~
+0 0 11084
+D2
+An intersection at the center of the merchant district.
+~
+~
+0 0 11080
+S
+#11103
+The Bathing Room~
+This room is merely a small room with an even smaller and seldom used bathing
+pool in the center.  A couple of small dusty towels can be found hanging on a
+nail in the wall.  A never opened bottle of bathing oil is also sitting next
+to the pool..... What kind of people live here?
+~
+0 0 0
+D3
+The kitchen.
+~
+~
+0 0 11092
+C oblng~
+S
+#11104
+The Temple Walkway~
+You are on the walkway leading up to the temple.  Here is the middle of the
+walkway is the city well.  Some of the residents of the city are here drawing
+water for their homes.
+To the north are the stairs leading up to the door of the temple.
+~
+0 0 1
+D2
+The temple gates.
+~
+~
+0 0 11098
+D0
+The temple entrance.
+~
+~
+0 0 11113
+S
+#11105
+The Study~
+The first room in the basement is a small reading room and library.  A short
+shelf of books lies on the eastern wall.
+You can now see who the owners of the house are as their pictures are hanging
+on the wall next to the bookshelf.  They are goblins by their general looks,
+but there is something awe inspiringabout them......
+Naw....it must be the artist's work.
+There is a small dart board on the wall also filled with several multi-colored
+darts.around it's center.
+There are three doors leading to the north, west and south as well as the
+winding staircase heading back upstairs.
+~
+0 D 0
+D4
+The first floor.
+~
+~
+0 0 11091
+D0
+A bedroom.
+~
+~
+0 0 11109
+D3
+A bedroom.
+~
+~
+0 0 11117
+D2
+A bedroom.
+~
+~
+1 0 11156
+H 200
+M 200
+C oblng~
+S
+#11106
+Forbidden Area~
+This area has been cleared and set up as a summonning chamber.  A glowing
+pentagram has been drawn in the middle of the street.  The mist is swirling
+above the pentagram.
+~
+0 AN 5
+D2
+The forbidden area is shrouded in a heavy mist.
+~
+~
+0 0 11094
+S
+#11107
+Wall Road~
+Wall road leads north to the Northwest corner of the city and south to the
+intersection of Pawmist.  The road is flanked on the west by the great wall of
+the city and on the east by the forbidden area.
+~
+0 0 1
+D0
+The road turns east ahead.
+~
+~
+0 0 11118
+D2
+Toward Pawmist Avenue.
+~
+~
+0 0 11090
+S
+#11108
+Wall Road~
+You are at the northeast corner of the city.  to the west, the road continues
+on to the temple.
+~
+0 0 1
+D2
+Further south lies Pawmist Avenue.
+~
+~
+0 0 11101
+D3
+The road heads west toward the temple.
+~
+~
+0 0 11110
+S
+#11109
+Yakov's Bedroom.~
+This room is pretty simple compared to that of most you have ever seen, but
+there is something about the simplicity of it that makes it appealing.  A
+small comfortable bed lies in the corner with a large wooden chest at its foot.
+ A closet filled with goblin clothing lies on the other side of the room.
+The name Yakov is scratched over the door frame in Goblin.
+~
+0 0 0
+D2
+The study.
+~
+~
+0 0 11105
+C oblng~
+S
+#11110
+Wall Road~
+You are on the northern wall road.  The road leads east to the eastern wall
+and west toward the temple.  The backs of shops flank your path to the south.
+~
+0 0 1
+D1
+The road heads east toward the eastern wall.
+~
+~
+0 0 11108
+D3
+The road heads west toward the temple.
+~
+~
+0 0 11111
+S
+#11111
+Wall Road~
+You are on the northern wall road.  The road leads east to the eastern wall
+and west toward the temple.  The backs of shops flank your path to the south.
+~
+0 0 1
+D1
+The road heads east toward the eastern wall.
+~
+~
+0 0 11110
+D3
+The road turns to the south up ahead.
+~
+~
+0 0 11112
+S
+#11112
+Wall Road at Savior Circle~
+You are on the northern wall road.  The road leads east to the eastern wall
+and becomes Savior Circle to the south.  The backs of shops flank your path to
+the south.
+~
+0 0 1
+D1
+The road heads east toward the eastern wall.
+~
+~
+0 0 11111
+D2
+Savior road leads south circling the temple.
+~
+~
+0 0 11096
+S
+#11113
+Temple Entrance~
+A huge set of stairs lead up to the equally huge door of the temple.  There
+are two guards watching the front door.  The door to the temple is secured
+with a brass lock  so large it must weigh five pounds.
+Approaching the door, the guards step in front of you and ask your business
+with the temple.  They don't seem too friendly with outsiders.
+~
+0 0 1
+D2
+The town well.
+~
+~
+0 0 11104
+D0
+The temple doors.
+~
+~
+2 11038 11146
+S
+#11114
+Wall Road at Savior Circle~
+You are on the northern wall road.  The road leads east to the eastern wall
+and west toward the temple.  The forbidden area flanks your path to the south.
+~
+0 0 1
+D2
+Savior Circle continues around the temple.
+~
+~
+0 0 11100
+D3
+Wall road continues to the western wall.
+~
+~
+0 0 11115
+S
+#11115
+Wall Road~
+You are on the northern wall road.  The road leads east to the eastern wall
+and west toward the temple.  The forbidden area flanks your path to the south.
+~
+0 0 1
+D1
+Toward the temple.
+~
+~
+0 0 11114
+D3
+Toward the west wall.
+~
+~
+0 0 11116
+S
+#11116
+Wall Road~
+You are on the northern wall road.  The road leads east to the eastern wall
+and west toward the temple.  The forbidden area flanks your path to the south.
+~
+0 0 1
+D1
+Toward the temple.
+~
+~
+0 0 11115
+D3
+Toward the west wall.
+~
+~
+0 0 11118
+S
+#11117
+Estellios' Bedroom~
+This room is pretty simple compared to that of most you have ever seen, but
+there is something about the simplicity of it that makes it appealing.  A
+small comfortable bed lies in the corner with a large wooden chest at its
+foot.  A closet, filled with goblin clothing lies  on the other side of the
+room.
+Another small bookshelf is also found in the room.  Somehow you think that
+maybe this goblin might be the more intelligent of the residents.
+A small basket lined with fur lies next to the bed.  It is probably the bed of
+the large house dog named Bear.  A small hole in the lower portion of the wall
+here must be Bear's way outside when his masters are not at home.
+The name Estellios is scratched into the wood above the door in Goblin.
+~
+0 0 0
+D1
+The study.
+~
+~
+0 0 11105
+C oblng~
+S
+#11118
+Wall Road~
+You are at the northwest corner of the city.  To the east, the road continues
+on to the temple.
+~
+0 0 1
+D1
+Toward the temple.
+~
+~
+0 0 11116
+D2
+South toward Pawmist.
+~
+~
+0 0 11107
+S
+#11119
+A Small House~
+You are standing in the living area of a small house.  It has very sparce
+furnishings and a stairway leading up to the sleeping area.
+~
+0 D 0
+D4
+A stairwell leading up into the sleeping area.
+~
+~
+0 0 11120
+D2
+Back out into the street.
+~
+~
+1 0 11029
+S
+#11120
+Sleeping Quarters.~
+The sleeping quarters are furnished with a small bed and a chest of drawers.
+A small window faces north.
+~
+0 D 0
+D5
+Stairs lead back down to the first floor.
+~
+~
+0 0 11119
+D0
+Looking out the window, you see the temple of in the distance looming
+over the city.
+~
+~
+0 0 -1
+S
+#11121
+A Small House~
+You are standing in the living area of a small house.  It has very sparce
+furnishings and a stairway leading up to the sleeping area.
+~
+0 D 0
+D4
+A stairwell leading up into the sleeping area.
+~
+~
+0 0 11122
+D2
+Back into the street.
+~
+~
+1 0 11032
+S
+#11122
+Sleeping Quarters.~
+The sleeping quarters are furnished with a small bed and a chest of drawers.
+A small window faces north.
+~
+0 D 0
+D5
+Stairs lead back down to the first floor.
+~
+~
+0 0 11121
+D0
+Looking out the window, you see the temple of in the distance looming
+over the city.
+~
+~
+0 0 -1
+S
+#11123
+A Small House~
+You are standing in the living area of a small house.  It has very sparce
+furnishings and a stairway leading up to the sleeping area.
+~
+0 D 0
+D4
+A stairwell leading up into the sleeping area.
+~
+~
+0 0 11124
+D0
+Back into the street.
+~
+~
+1 0 11030
+S
+#11124
+Sleeping Quarters.~
+The sleeping quarters are furnished with a small bed and a chest of drawers.
+A small window faces north.
+~
+0 D 0
+D5
+Stairs lead back down to the first floor.
+~
+~
+0 0 11123
+D2
+Looking out the window, you see the southern wall of the city and the
+wheat fields beyond the wall.
+~
+~
+0 0 -1
+S
+#11125
+A Small House~
+You are standing in the living area of a small house.  It has very sparce
+furnishings and a stairway leading up to the sleeping area.
+~
+0 D 0
+D4
+A stairwell leading up into the sleeping area.
+~
+~
+0 0 11126
+D1
+back into the street.
+~
+~
+1 0 11042
+S
+#11126
+Sleeping Quarters.~
+The sleeping quarters are furnished with a small bed and a chest of drawers.
+A small window faces north.
+~
+0 D 0
+D5
+Stairs lead back down to the first floor.
+~
+~
+0 0 11125
+D3
+Looking out the window, you see the gloom that hangs over the northwest
+corner of the city.  From this vantage, you can almost make out some
+movement in that area of the city.
+~
+~
+0 0 -1
+S
+#11127
+Foreman's Office~
+This is a messy office with a scruffy looking gnoll sitting behind the desk
+shuffling through some papers.  He looks up long enough to scowl at you and
+ask what your business is in here.
+~
+0 D 0
+D2
+The warehouse.
+~
+~
+1 0 11046
+S
+#11128
+Warehouse~
+Deeper into the warehouse, all you see is grain.  A few gnolls are working
+here and there stacking the grain for processing.  They ignor you and go about
+their business.
+~
+0 D 0
+D1
+The front of the warehouse.
+~
+~
+0 0 11046
+S
+#11129
+The Porch~
+You are standing on the front porch of the fieldmaster's house.  A railing
+runs the length of the porch.  Sitting to one side are two rocking chairs.  A
+double door leads into the house.
+~
+0 C 1
+D0
+A path leads north away from the house.
+~
+~
+0 0 11019
+D2
+A huge double door leading into the house.
+~
+~
+1 0 11130
+S
+#11130
+The Halway~
+You are standing in a hallway.  The house is not very large but it is huge
+compared to the rest in this area of the city.  There is a doorway leading off
+to the east.  You hear someone farther down the hallway.  From the sounds,
+it must be in the kitchen.
+~
+0 0 0
+D0
+Outside to the porch.
+~
+~
+1 0 11129
+D1
+The sitting room
+~
+~
+0 0 11131
+D2
+Toward the rear of the house.
+~
+~
+0 0 11132
+S
+#11131
+Sitting Room~
+You have found the sitting room.  There is a comfortable chair, a sofa and a
+table with a few books stacked on it.
+~
+0 D 0
+D3
+Into the hallway.
+~
+~
+0 0 11130
+S
+#11132
+The Hallway~
+You are at the back of the hallway.  There is a doorway to the east and a
+circular stairway leading upto the second level.
+~
+0 D 0
+D0
+Toward the front of the house.
+~
+~
+0 0 11130
+D1
+A dining room.
+~
+~
+0 0 11133
+D4
+Stairs lead up to the second floor.
+~
+~
+0 0 11135
+S
+#11133
+Dining Area~
+This must be the dining room.  A table sits squarely in the middle of the room
+with a white linen cloth draped across it.  A door leads to the south into the
+kitchen.  You can hear someone cooking in there.
+~
+0 D 0
+D3
+The hallway.
+~
+~
+0 0 11132
+D2
+The Kitchen.
+~
+~
+0 0 11134
+S
+#11134
+The Kitchen~
+The ktichen is filled with pots and pans and a small stove.  There is a petite
+female gnoll standing in here tending to a pot of stew on the stove.  She
+glances your way and gives you a smile and asks if she can be of assistance.
+~
+0 D 0
+D0
+The dining room
+~
+~
+0 0 11133
+S
+#11135
+Upstairs Landing.~
+There are two doors leading off the landing, one north and one east.  There is
+a stairway leading down to the first floor.
+~
+0 0 0
+D5
+The stairs lead down to the first floor.
+~
+~
+0 0 11132
+D1
+A bedroom.
+~
+~
+1 0 11136
+D0
+A bedroom.
+~
+~
+1 0 11137
+S
+#11136
+Bedroom~
+This bedroom is identicle to the first but obviously belongs to the woman of
+the house.  A bed with a conopy sits against the wall and a vase with flowers
+is on the nightstand.
+~
+0 D 0
+D3
+Into the hallway.
+~
+~
+1 0 11135
+S
+#11137
+Bedroom~
+This bedroom is identicle to the first but obviously belongs to the man of
+the house.  A bed with sits against the wall and a  rack holding a tarnished
+sword hangs over the nightstand.
+~
+0 D 0
+D2
+The hallway.
+~
+~
+1 0 11135
+S
+#11138
+Jail Lobby~
+You are in the lobby of the local jail.  in front of you is a large dest with
+a large gnoll sitting behind it.  The gnoll is fairly clean cut and does not
+look like a force to be taken lightly.  on his chest is a shariff's star which
+glistens in the sunlight.
+Behind the desk is a small door that leads to the holding facilities
+~
+0 D 0
+D3
+Back into the street.
+~
+~
+1 0 11035
+D1
+Hallway leading to the cell.
+~
+~
+1 0 11139
+S
+#11139
+Jail Hallway~
+This is a short hallway with a single jail cell at the end.  The door to the
+cell is made from iron bars running floor to ceiling.  Inside the cell is a
+drunken dwarf sleeping off his party from the night before.
+~
+0 D 0
+D3
+The jail obby.
+~
+~
+1 0 11138
+D1
+the cell.
+~
+~
+4 11040 11140
+S
+#11140
+Jail Cell~
+You are standing inside a small jail cell about 10 feet by 10 feet square.
+There is a single cot in the corner holding a drunken dwarf.  He is sleeping
+off the night before.
+~
+0 DN 0
+D3
+Jail Hallway
+~
+~
+4 0 11139
+S
+#11141
+Merchant's House~
+You are in the entryway to one of the local merchant's houses.  Is is nicely
+kept to fit his status in the community.  The house Has imported furnishings
+from far off lands some of which you have seen in your travels.
+Ther eare two doors leading off into the house.  The first leads into a
+library and the second into the Hallway leading toward the kitchen and the
+stairs up to the second level.
+~
+0 D 0
+D3
+Back into the street.
+~
+~
+1 0 11044
+D0
+The library.
+~
+~
+0 0 11142
+D1
+Toward the back of the house.
+~
+~
+0 0 11143
+S
+#11142
+The Library~
+This is the library and sitting room.  The walls are covered with cases of
+books.  Browsing the shelves,  you find books of every type imaginable, some
+of which you can't even read the writing of.
+A plush red velvet chair sits off to one corner next to a small table with a
+reading lamp on it.
+Against one wall is a fireplace with a pile of seasoned firewood.
+~
+0 0 0
+D2
+Back to the front door.
+~
+~
+0 0 11141
+S
+#11143
+Hallway~
+You are in a short hallway that leads north to the kitchen and up the stairs
+to the bedroom.  A picture of a merchant and his wife hangs on the wall.  The
+painting is of them standing in front of the general store.
+~
+0 D 0
+D3
+toward the exit.
+~
+~
+0 0 11141
+D0
+The kitchen
+~
+~
+0 0 11144
+D4
+The bedroom.
+~
+~
+0 0 11145
+S
+#11144
+The Kitchen~
+The ktichen is filled with pots and pans and a small stove.  There is a petite
+female gnoll standing in here tending to a pot of stew on the stove.  She
+glances your way and gives you a smile and asks if she can be of assistance.
+~
+0 D 0
+D2
+The hallway.
+~
+~
+0 0 11143
+S
+#11145
+The bedroom~
+This is a remarkably large bedroom.  It takes up the entire second floor and
+has a huge four-post bed in the center.  The curtains and tapestries are from
+a far off land judging by the patterns and pictures.  The floor is covered
+with a woven floor covering that must have cost the owner a life savings to
+have made.
+~
+0 D 0
+D5
+Downstairs.
+~
+~
+0 0 11143
+S
+#11146
+Inside the Temple Doors~
+Inside the temple doors You begin to realize just how big the temple
+really is.  The central area of the temple is lined with pews for followers to
+pray at.  Along the walls are smaller alcoves set up as shrines to the various
+gods of the realm.
+To the east is the shrine dedicated to Shatter and to the west lies a shrine
+dedicated to Toot.
+~
+0 D 0
+D2
+The temple walkway.
+~
+~
+0 0 11113
+D0
+~
+~
+0 0 11147
+D1
+The shrine to Shatter.
+~
+~
+0 0 11150
+D3
+The shrine to Toot
+~
+~
+0 0 11149
+S
+#11147
+Inside the Temple~
+Just inside the temple doors You begin to realize just how big the temple
+really is.  The central area of the temple is lined with pews for followers to
+pray at.  Along the walls are smaller alcoves set up as shrines to the various
+gods of the realm.
+To the east is the shrine dedicated to Magellan and to the west lies a shrine
+dedicated to Dewshine.
+~
+0 D 0
+D2
+~
+~
+0 0 11146
+D0
+~
+~
+0 0 11148
+D1
+The shrine to Magellan.
+~
+~
+0 0 11152
+D3
+The shrine to Dewshine
+~
+~
+0 0 11151
+S
+#11148
+Inside the Temple~
+Just inside the temple doors You begin to realize just how big the temple
+really is.  The central area of the temple is lined with pews for followers to
+pray at.  Along the walls are smaller alcoves set up as shrines to the various
+gods of the realm.
+To the east is the shrine dedicated to Noah, to the west lies a shrine
+dedicated to Twilight and north is the shrine dedicated to Oishii.
+~
+0 D 0
+D2
+~
+~
+0 0 11147
+D3
+The shrine of Twilight.
+~
+~
+0 0 11155
+D0
+The shrine to Oishii.
+~
+~
+0 0 11154
+D1
+The shrine to Noah.
+~
+~
+0 0 11153
+S
+#11149
+Shrine~
+This shrine is dedicated to the goddess Toot.  The shrine is colorful with no
+discernable form to it.  In the center of the shrine a  glowing orb radiating
+the colors of the rainbow casting a prismatic effect on the walls.  Followers
+have left behind multiple kinds and cuts of brilliant gems in honor of her.
+~
+0 D 0
+D1
+~
+~
+0 0 11146
+S
+#11150
+Shrine~
+This shrine is dedicated to the god Shatter.  Shatter, is depicted in a statue
+of a spellcasting battle-mage wearing platinum armor.  His followers have left
+offerings of various spell components and  an occaissional coin or two.
+~
+0 0 0
+D3
+~
+~
+0 0 11146
+S
+#11151
+Shrine~
+This shrine is dedicated to the goddess Dewshine.  The statue on the dias
+depicts a young archon woman wearing a flowing white robe dispensing food,
+water, and healing to the mortals at her feet.
+~
+0 0 0
+D1
+~
+~
+0 0 11147
+S
+#11152
+Shrine~
+This shrine is dedicated to the god Magellan.  His statue is of a man standing
+on a rocky point staring at a map or scroll.  The winds from the ocean are
+buffetting his hair and beard.  If you listen closely, you can hear the sounds
+of the ocean in the alcove.
+~
+0 0 0
+D3
+~
+~
+0 0 11147
+S
+#11153
+Shrine~
+This shrine is dedicated to the god Noah.  The statue of Noah depicts a
+prankster and story teller.  His spends his time playing jokes on the mortals.
+~
+0 0 0
+D3
+~
+~
+0 0 11148
+S
+#11154
+Shrine~
+This shrine is dedicated to the goddess Oishii.  This shrine seems slightly
+larger than the rest.  The impressive statue in the center depicts a Kyrie
+with coppery hair that is spiked high and streaked with indigo.  She has
+enormous coal black eyes that seem to sparkle playfully on an oval face.  The
+statue almost seems to move to a light tune you can barely hear carried on the
+air.  She is dressed in a black long sleeved yakuta wrapped with a blue obi.
+~
+0 0 0
+D2
+~
+~
+0 0 11148
+S
+#11155
+Shrine~
+This shrine is dedicated to the god Twilight.  Twilight is depicted as being
+dark and quiet.  He is dressed in a flowing black robe and has no face.  A
+smooth crystal in the face of the statue seems to be swimming with stars.  The
+statue is wielding a huge scythe that at the right angle, appears to be
+dripping blood.
+~
+0 0 0
+D1
+~
+~
+0 0 11148
+S
+#11156
+Falconhand's Bedroom.~
+This room is pretty simple compared to that of most you have ever seen, but
+there is something about the simplicity of it that makes it appealing.  A
+small comfortable bed lies in the corner with a large wooden chest at its foot.
+ A closet filled with goblin clothing lies on the other side of the room.
+The name Falconhand is scratched over the door frame in Goblin.
+~
+0 0 0
+D0
+The study.
+~
+~
+1 0 11105
+S
+#0
+
+#RESETS
+O 0 11000 1 11002                 ; Object: #11000 a wooden sign => #11002 At the Gates.
+O 0 11006 1 11128                 ; Object: #11006 a pile of grain => #11128 Warehouse
+P 1 11007 1 11006 1              	; Object: #11007 a tarnished ring => #11006 a pile of grain
+O 0 11004 1 11137                 ; Object: #11004 a tarnished sword => #11137 Bedroom
+O 0 11001 2 11129                 ; Object: #11001 a rocking chair => #11129 The Porch
+O 0 11002 1 11136                 ; Object: #11002 a canopy bed => #11136 Bedroom
+O 0 11003 1 11137                 ; Object: #11003 a sturdy bed => #11137 Bedroom
+O 0 11005 1 11134                 ; Object: #11005 wheat and beef stew => #11134 The Kitchen
+O 0 11010 1 11041                 ; Object: #11010 a piece of tattered paper => #11041 Wall Road
+O 0 11033 1 11138                 ; Object: #11033 an oak desk => #11138 Jail Lobby
+O 0 11035 1 11142                 ; Object: #11035 a plush velvet chair => #11142 The Library
+O 0 11036 1 11142                 ; Object: #11036 a reading table => #11142 The Library
+P 1 11017 1 11036 1              	; Put: #11017 a scroll of knowledge => #11036 a reading table
+O 0 11037 1 11073                 ; Object: #11037 a small brass key => #11073 General Store
+O 0 11042 1 11104                 ; Object: #11042 a marble hewn well => #11104 The Temple Walkway
+D 0 11004 0 1                     ; Door: #11004 City Entrance/north => closed
+D 0 11005 2 1                     ; Door: #11005 Inside the city Gates/south => closed
+D 0 11042 3 1                     ; Door: #11042 Plow Drive/west => closed
+D 0 11125 1 1                     ; Door: #11125 A Small House/east => closed
+D 0 11032 0 1                     ; Door: #11032 Aquaduct Way/north => closed
+D 0 11121 2 1                     ; Door: #11121 A Small House/south => closed
+D 0 11033 3 1                     ; Door: #11033 Aquaduct Way/west => closed
+D 0 11046 1 1                     ; Door: #11046 Entrance to the Warehouse/east => closed
+D 0 11046 0 1                     ; Door: #11046 Entrance to the Warehouse/north => closed
+D 0 11127 2 1                     ; Door: #11127 Foreman's Office/south => closed
+D 0 11030 2 1                     ; Door: #11030 Aquaduct Way/south => closed
+D 0 11123 0 1                     ; Door: #11123 A Small House/north => closed
+D 0 11029 0 1                     ; Door: #11029 Aquaduct Way/north => closed
+D 0 11119 2 1                     ; Door: #11119 A Small House/south => closed
+D 0 11129 2 2                     ; Door: #11129 The Porch/south => closed
+D 0 11130 0 2                     ; Door: #11130 The Halway/north => closed and locked
+D 0 11044 1 1                     ; Door: #11044 Scimitar Street/east => closed
+D 0 11141 3 1                     ; Door: #11141 Merchant's House/west => closed
+D 0 11039 2 2                     ; Door: #11039 Dagger Lane/south => closed
+D 0 11091 0 2                   	; Door: #11091 The Oblong Table Clan House/north => closed and locked
+D 0 11021 2 1                    	; Door: #11021 Scimitar Street In Front of Blade Dancer's Inn/south => closed
+D 0 11071 0 2                   	; Door: #11071 Forbidden Area/south => closed and locked
+D 0 11076 2 2                   	; Door: #11076 Forbidden Area/south => closed and locked
+D 0 11035 1 1                     ; Door: #11035 Dagger Lane/east => closed
+D 0 11138 1 1                     ; Door: #11138 Jail Lobby/east => closed
+D 0 11139 1 2                    	; Door: #11139 Jail Hallway/east => closed and locked
+D 0 11140 3 2                   	; Door: #11140 Jail Cell/west => closed and locked
+D 0 11139 3 1                   	; Door: #11139 Jail Hallway/west => closed
+D 0 11138 3 1                   	; Door: #11138 Jail Lobby/west => closed
+M 0 11011 1 11140 1              ; Mob: #11011 a drunken dwarf => #11140 Jail Cell
+M 0 11012 1 11138 1              ; Mob: #11012 the sheriff => #11138 Jail Lobby
+E 0 11021 -1 16                         	; -- Equip: #11021 a tarnished sword (wield)
+E 0 11034 -1 11                           ; -- Equip: #11034 a sheriff's star (wrist-l)
+M 0 11016 1 11117 1           	; Mob: #11016 Clan Oblongs guard dog => #11117 Estellios' Bedroom
+G 1 11039 1           					; -- Give:  #11039 an oblong key
+M 0 11020 5 11088 1         		; Mob: #11020 a wandering imp => #11088 Forbidden Area
+M 0 11020 5 11088 1         		; Mob: #11020 a wandering imp => #11088 Forbidden Area
+M 0 11020 5 11089 1         		; Mob: #11020 a wandering imp => #11089 Forbidden Area
+M 0 11020 5 11094 1         		; Mob: #11020 a wandering imp => #11094 Forbidden Area
+M 0 11020 5 11086 1         		; Mob: #11020 a wandering imp => #11086 Forbidden Area
+M 0 11019 1 11106 1         		; Mob: #11019 the demon Errtu => #11106 Forbidden Area
+M 0 11018 2 11085 2         		; Mob: #11018 a death knight => #11085 Forbidden Area
+M 0 11017 1 11085 1         		; Mob: #11017 a dracolich => #11085 Forbidden Area
+M 0 11021 4 11113 2         		; Mob: #11021 a temple guardian => #11113 Temple Entrance
+M 0 11021 4 11098 2         		; Mob: #11021 a temple guardian => #11098 Temple Boulevard North at Savior Circle
+M 0 11006 1 11073 1              ; Mob: #11006 a gnoll grocer => #11073 General Store
+G 1 11011 10                         	; -- Give:  #11011 a rune stitched bag
+G 1 11012 10                         	; -- Give:  #11012 an oil lamp
+G 1 11013 10                         	; -- Give:  #11013 A folding raft
+G 1 11014 10                         	; -- Give:  #11014 a set of field utensils
+M 0 11007 1 11083 1              ; Mob: #11007 a baker => #11083 Bakery
+G 1 11005 1                          	; -- Give:  #11005 wheat and beef stew
+G 1 11026 1                    			; -- Give:  #11026 an apple pie
+G 1 11025 1                    			; -- Give:  #11025 a juicy apple
+G 1 11024 1                    			; -- Give:  #11024 a delicate pastery
+G 1 11023 1                    			; -- Give:  #11023 a loaf of whole wheat bread
+M 0 11009 1 11084 1              ; Mob: #11009 a gnoll weaponsmith => #11084 A Weapons Shop
+G 1 11009 1                    			; -- Give:  #11009 a sickle
+G 1 11004 1                    			; -- Give:  #11004 a tarnished sword
+G 1 11022 1                    			; -- Give:  #11022 a shortsword
+G 1 11021 1                    			; -- Give:  #11021 a battle axe
+G 1 11020 1                    			; -- Give:  #11020 Giant Slayer
+M 0 11008 1 11043 1              ; Mob: #11008 a dwarven armorer => #11043 The Armorer's Shop
+G 1 11029 1                    			; -- Give:  #11029 dwarven gauntlets
+G 1 11028 1                    			; -- Give:  #11028 a finely woven chainmail shirt
+G 1 11027 1                    			; -- Give:  #11027 a pair of leather chaps
+G 1 11011 1                    			; -- Give:  #11011 a rune stitched bag
+M 0 11005 1 11077 1              ; Mob: #11005 a gnoll barkeep => #11077 the Dragon's nest Bar
+G 1 11032 1                   			; -- Give:  #11032 a shot of vodka
+G 1 11031 1                   			; -- Give:  #11031 a wheat beer
+G 1 11030 1                   			; -- Give:  #11030 a Dwarven ale
+M 0 11010 1 11080 1              ; Mob: #11010 a gnoll peddler => #11080 Craftsman's Row at Merchants Path
+G 1 11015 5                   	    	; -- Give:  #11015 a light green potion
+G 1 11016 5                   	    	; -- Give:  #11016 a misty potion
+G 1 11017 5                   	    	; -- Give:  #11017 a scroll of knowledge
+G 1 11018 5                   	    	; -- Give:  #11018 a scroll of safety
+G 1 11019 5                   	    	; -- Give:  #11019 a scroll of speed
+M 0 11000 1 11127 1              ; Mob: #11000 the field master => #11127 Foreman's Office
+E 0 11008 -1 16                           		; Equip: a silver bastard sword
+M 0 11001 1 11134 1              ; Mob: #11001 the fild master's wife => #11134 The Kitchen
+M 0 11013 1 11144 1              ; Mob: #11013 the merchant's wife => #11144 The Kitchen
+M 0 11003 5 11121 1              ; Mob: #11003 a gnoll female => #11121 A Small House
+M 0 11003 5 11123 1              ; Mob: #11003 a gnoll female => #11123 A Small House
+M 0 11003 5 11125 1              ; Mob: #11003 a gnoll female => #11125 A Small House
+M 0 11003 5 11119 1              ; Mob: #11003 a gnoll female => #11119 A Small House
+M 0 11003 5 11080 1              ; Mob: #11003 a gnoll female => #11080 Craftsman's Row at Merchants Path
+M 0 11022 2 11022 1      	    ; Mob: #11022 a gnoll thief => #11022 Wall Road
+M 0 11022 2 11110 1              ; Mob: #11022 a gnoll thief => #11110 Wall Road
+M 0 11002 8 11128 1              ; Mob: #11002 a gnoll farmer => #11128 Warehouse
+E 0 11009 -1 16                      		; Equip: a sickle
+M 0 11002 8 11128 1              ; Mob: #11002 a gnoll farmer => #11128 Warehouse
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 8 11032 1              ; Mob: #11002 a gnoll farmer => #11032 Aquaduct Way
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 8 11033 1              ; Mob: #11002 a gnoll farmer => #11033 Aquaduct Way
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 8 11029 1              ; Mob: #11002 a gnoll farmer => #11029 Aquaduct Way
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 8 11046 1              ; Mob: #11002 a gnoll farmer => #11046 Entrance to the Warehouse
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 8 11047 1              ; Mob: #11002 a gnoll farmer => #11047 Plow Drive
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11007 1  			; Mob: #11002 a gnoll farmer => #11007 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11009 1  			; Mob: #11002 a gnoll farmer => #11009 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11011 1  			; Mob: #11002 a gnoll farmer => #11011 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11014 1  			; Mob: #11002 a gnoll farmer => #11014 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11016 1  			; Mob: #11002 a gnoll farmer => #11016 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11023 1  			; Mob: #11002 a gnoll farmer => #11023 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11040 1  			; Mob: #11002 a gnoll farmer => #11040 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11034 1  			; Mob: #11002 a gnoll farmer => #11034 Temple Boulevard South
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11058 1  			; Mob: #11002 a gnoll farmer => #11058 Town Square East
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11059 1  			; Mob: #11002 a gnoll farmer => #11059 Town Square Center
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11070 1  			; Mob: #11002 a gnoll farmer => #11070 Town Square Northwest
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11052 1  			; Mob: #11002 a gnoll farmer => #11052 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11054 1  			; Mob: #11002 a gnoll farmer => #11054 Pawmist Avenue East
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11064 1  			; Mob: #11002 a gnoll farmer => #11064 Pawmist Avenue West
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11107 1  			; Mob: #11002 a gnoll farmer => #11107 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11115 1  			; Mob: #11002 a gnoll farmer => #11115 Wall Road
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11112 1  			; Mob: #11002 a gnoll farmer => #11112 Wall Road at Savior Circle
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11002 1 11104 1  			; Mob: #11002 a gnoll farmer => #11104 The Temple Walkway
+E 0 11009 -1 16                           ; Equip: a sickle
+M 0 11014 5 11026 1              ; Mob: #11014 a gnole merchant => #11026 Scimitar Street
+M 0 11014 5 11036 1              ; Mob: #11014 a gnole merchant => #11036 Dagger Lane
+M 0 11014 5 11036 1              ; Mob: #11014 a gnole merchant => #11036 Dagger Lane
+M 0 11014 5 11080 1              ; Mob: #11014 a gnole merchant => #11080 Craftsman's Row at Merchants Path
+M 0 11014 5 11080 1              ; Mob: #11014 a gnole merchant => #11080 Craftsman's Row at Merchants Path
+M 0 11014 1 11048 1  			; Mob: #11014 a gnole merchant => #11048 Town Square Southeast
+M 0 11014 1 11050 1  			; Mob: #11014 a gnole merchant => #11050 Town Square Southwest
+M 0 11014 1 11059 1  			; Mob: #11014 a gnole merchant => #11059 Town Square Center
+M 0 11014 1 11068 1  			; Mob: #11014 a gnole merchant => #11068 Town Square Northeast
+M 0 11014 1 11060 1  			; Mob: #11014 a gnole merchant => #11060 Town Square West
+M 0 11014 1 11070 1  			; Mob: #11014 a gnole merchant => #11070 Town Square Northwest
+M 0 11004 6 11032 1              ; Mob: #11004 a gnoll child => #11032 Aquaduct Way
+M 0 11004 6 11030 1              ; Mob: #11004 a gnoll child => #11030 Aquaduct Way
+M 0 11004 6 11031 1              ; Mob: #11004 a gnoll child => #11030 Aquaduct Way
+M 0 11004 6 11042 1              ; Mob: #11004 a gnoll child => #11042 Plow Drive
+M 0 11004 6 11047 1              ; Mob: #11004 a gnoll child => #11047 Plow Drive
+M 0 11004 6 11044 1              ; Mob: #11004 a gnoll child => #11044 Scimitar Street
+M 0 11004 1 11049 1  			; Mob: #11004 a gnoll child => #11049 Town Square South
+M 0 11004 1 11059 1  			; Mob: #11004 a gnoll child => #11059 Town Square Center
+M 0 11004 1 11058 1  			; Mob: #11004 a gnoll child => #11058 Town Square East
+M 0 11004 1 11060 1  			; Mob: #11004 a gnoll child => #11060 Town Square West
+M 0 11004 1 11069 1  			; Mob: #11004 a gnoll child => #11069 Town Square North
+M 0 11004 1 11104 1  			; Mob: #11004 a gnoll child => #11104 The Temple Walkway
+M 0 11015 3 11026 1              ; Mob: #11015 a female merchant => #11026 Scimitar Street
+M 0 11015 3 11080 1              ; Mob: #11015 a female merchant => #11080 Craftsman's Row at Merchants Path
+M 0 11015 3 11080 1              ; Mob: #11015 a female merchant => #11080 Craftsman's Row at Merchants Path
+M 0 11015 1 11048 1  			; Mob: #11015 a female merchant => #11048 Town Square Southeast
+M 0 11015 1 11050 1  			; Mob: #11015 a female merchant => #11050 Town Square Southwest
+M 0 11015 1 11059 1  			; Mob: #11015 a female merchant => #11059 Town Square Center
+M 0 11015 1 11068 1  			; Mob: #11015 a female merchant => #11068 Town Square Northeast
+M 0 11015 1 11070 1  			; Mob: #11015 a female merchant => #11070 Town Square Northwest
+M 0 11015 1 11104 1  			; Mob: #11015 a female merchant => #11104 The Temple Walkway
+O 0 11043 1 11105  ; Object: #11043 a shimmering portal => #11105 The Study
+S
+
+#SHOPS
+11006 22 12 8 0 0 120 90 0 23 ; a gnoll grocer
+11010 10 2 3 30 0 120 90 0 23 ; a gnoll peddler
+11009 5 0 0 0 0 120 90 0 23 ; a gnoll weaponsmith
+11007 19 0 0 0 0 120 90 0 23 ; a baker
+11008 9 15 0 0 0 120 90 0 23 ; a dwarven armorer
+11005 0 0 0 0 0 120 90 0 23 ; a gnoll barkeep
+11016 0 0 0 0 0 120 90 0 23 ; Clan Oblongs guard dog
+0
+
+#SPECIALS
+M 11005 spec_janitor   ; a gnoll barkeep
+M 11012 spec_guard   ; the sheriff
+M 11013 spec_cast_mage   ; the merchant's wife
+M 11015 spec_cast_cleric   ; a female merchant
+M 11017 spec_cast_mage   ; a dracolich
+M 11019 spec_cast_mage   ; the demon Errtu
+M 11020 spec_cast_undead   ; a wandering imp
+M 11021 spec_guard   ; a temple guardian
+M 11022 spec_thief   ; a gnoll thief
+S
+
+#HELPS
+1 pawmist~
+Area written by Twilight (twlthunter@faynet.com) for telnet://blades.wolfpaw.net:1234.  Area is for levels 15-50.  Special thanks to Estellios for providing ideas and insight into the area.
+~
+0 $~
+
+#$

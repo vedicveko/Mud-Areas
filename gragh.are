@@ -1,0 +1,976 @@
+#AREADATA
+Name Graghtok's Lair~
+Builders None~
+VNUMs 13100 13153
+Credits {60 91} Twig    Graghtok's Lair~
+Security 9
+End
+
+
+
+#MOBILES
+#13101
+monk~
+Monk of Graghtok~
+A monk is here with a blank look on his face.
+~
+As you look closer, you see that this monk has no eyes, nose, or ears.
+~
+Human~
+AG AK -1000 0
+80 0 600d20+1000 1d1+99 10d5+20 pound
+-40 -40 -40 -40
+CEFIKMNP 0 0 0
+stand stand male 200
+AHMV ABCDEFGHIJK tiny unknown
+#13102
+blood beast~
+The Blood Beast~
+A beast stands here drenched in blood, ready to attack.
+~
+Looking closer, this beast resembles that of a dragon.
+~
+Dragon~
+ABF CDEFHJKTV -1000 0
+100 0 800d20+1000 1d1+99 15d5+15 thwack
+-50 -50 -50 -50
+ACEFHIKLOP HIK K HJO
+stand stand male 1000
+AHMV ABCDEFGHIJK large unknown
+M KILL 13101 100~
+M FIGHT 13102 75~
+M SURRENDER 13103 100~
+M DEATH 13104 100~
+#13103
+heart~
+A Figure~
+A dark figure holding a key is floating above the water.
+~
+This figure appears to be only an illusion.
+~
+Unique~
+AB HT 1000 0
+50 0 500d20+10 1d1+99 10d5+10 wrath
+-20 -15 -15 -20
+EFIKL C 0 D
+stand stand male 1000
+A 0 medium unknown
+#13104
+elder monk~
+An Elder Monk of Graghtok~
+An elder monk is here, overseeing things.
+~
+This monk wears a symbol similar to a pentagran brandished on his forehead.
+~
+Human~
+AFG K -1000 0
+90 0 700d18+5 1d1+99 12d5+20 beating
+-45 -45 -45 -45
+BCEFIKP 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#13105
+hound graghtok~
+Hound of Graghtok~
+A huge hound is here showing his six inch teeth at you.
+~
+This hound has definately been bread for killing.
+~
+Unique~
+ACF CDEFK -1000 0
+120 0 1000d18+1000 1d1+99 15d8+13 bite
+-55 -55 -55 -55
+EFIKMNP 0 0 0
+stand stand male 1000
+A 0 large unknown
+#13106
+Graghtok~
+Graghtok~
+The evil Graghtok stands before you.
+~
+You don't dare look any closer.
+~
+Dragon~
+ABCF CDEFHJKTV -1000 0
+150 0 29999d1+1 1d1+99 10d20+45 wrath
+-150 -150 -150 -150
+ADEFIKMP HIK C J
+stand stand male 0
+AHMV ABCDEFGHIJK large unknown
+#0
+
+
+
+#OBJECTS
+#13101
+ruby key~
+A ruby key~
+A ruby in formed into a key rests here.~
+adamantite~
+key B AO
+0 0 0 0 0
+1 2 1 P
+#13102
+blood~
+Fountain of Blood~
+An evil looking fountain of blood is here.~
+stone~
+drink EO 0
+10 10 'blood' 0 0
+0 1 0 P
+#13103
+ruby blade~
+A Ruby Blade~
+A beautiful ruby blade is stuck in the ground.~
+adamantite~
+weapon BCM AN
+exotic 11 10 none 0
+96 20 1 P
+A
+18 20
+A
+19 20
+#13104
+ruby helm~
+A Ruby Helm~
+A ruby helm rests here.~
+adamantite~
+armor BC AE
+BCDE BCDE BCDE BCDE 0
+96 8 1 P
+A
+2 2
+A
+13 50
+#13105
+ruby cape~
+A Ruby Cape~
+A ruby red cape rests here.~
+adamantite~
+armor BC AK
+CE ADE ABDE ADE 0
+96 6 1 P
+A
+12 100
+A
+13 100
+#13106
+ruby leggings~
+Ruby Leggings~
+A beautiful pair of ruby leggings rests here.~
+adamantite~
+armor BC AF
+ADE ADE ADE ADE 0
+96 15 1 P
+A
+2 1
+A
+18 5
+A
+19 5
+#13107
+ruby boots~
+Ruby Boots~
+A pair of ruby boots rests here.~
+adamantite~
+armor BC AG
+CDE CDE CDE CDE 0
+96 10 1 P
+A
+1 1
+A
+14 200
+#13108
+ruby bracer~
+A Ruby Bracer~
+A bracer made of rubies rests here.~
+adamantite~
+armor BC AM
+ADE DE CDE CE 0
+96 8 1 P
+A
+13 50
+A
+18 10
+A
+19 5
+#13109
+ruby gauntlets~
+Ruby Gauntlets~
+A pair of ruby gauntlets rests here.~
+adamantite~
+armor BC AH
+BEF BEF BEF BEF 0
+96 10 1 P
+A
+1 2
+A
+13 50
+A
+14 -50
+#13110
+ruby pendant~
+A Ruby Pendant~
+A ruby pendant rests here.~
+adamantite~
+container BC AC
+100000 0 0 300 30
+96 5 1 P
+A
+17 -26
+A
+24 -50
+#13111
+ruby ring~
+A Ruby Ring~
+A ruby ring rests here.~
+adamantite~
+armor BC AB
+ADE ADE ADE ADE 0
+96 10 1 P
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+A
+12 150
+A
+13 100
+A
+14 100
+A
+17 150
+A
+18 20
+A
+19 20
+#13112
+ruby armor~
+Ruby Armor~
+A set of ruby armor rests here.~
+adamantite~
+armor BC AD
+BCDE BCDE BCDE BCDE 0
+96 20 1 P
+A
+12 50
+A
+13 50
+A
+19 10
+#13113
+ruby belt~
+A Ruby Belt~
+A belt lined with rubies rests here.~
+adamantite~
+armor BC AL
+ADE BCE BCE BCDE 0
+96 8 1 P
+A
+2 2
+A
+12 200
+#13114
+scroll illusion~
+Scroll of Illusion~
+A scroll that doesn't quite look like the rest lies here.~
+adamantite~
+scroll U A
+200 'change sex' 'wraithform' 'ethereal form' ''
+96 3 1 P
+#13115
+scroll divinity~
+Scroll of Divinity~
+A scroll made of parchment is on the ground.~
+adamantite~
+scroll U A
+150 'holy word' '' '' ''
+96 3 1 P
+#13116
+scroll life~
+Scroll of Life~
+A warm glow comes from a wrapped up scroll on the ground.~
+adamantite~
+scroll U A
+150 'mass healing' 'mass healing' '' ''
+96 3 1 P
+#13117
+scroll protection~
+Scroll of Protection~
+A scroll is here emitting a white aura.~
+adamantite~
+scroll U A
+150 'sanctuary' 'steel skin' '' ''
+96 3 1 P
+#13118
+scroll weakening~
+Scroll of Weakening~
+A piece of paper with foriegn writing lies on the ground here.~
+adamantite~
+scroll U A
+200 'dispel magic' '' '' ''
+96 3 1 P
+#13119
+scroll mass suffering~
+Scroll of Mass Suffering~
+A foul stench comes from a scroll in the corner.~
+adamantite~
+scroll U A
+150 'gas breath' '' '' ''
+96 3 1 P
+#13120
+scroll aggresion~
+Scroll of Aggression~
+This scroll seems larger then the others.~
+adamantite~
+scroll U A
+150 'sleep' 'infrablast' 'acid rain' ''
+96 3 1 P
+#13121
+scroll reversal~
+Scroll of Reversal~
+A tightly rolled up scroll rests here.~
+adamantite~
+scroll U A
+201 'cancellation' '' '' ''
+96 3 1 P
+#13122
+Bookcase~
+Bookcase~
+An odd looking bookcase is in the corner.~
+adamantite~
+container A 0
+15 ABCD 13125 0 0
+0 0 0 P
+#13123
+ruby chest~
+Ruby Chest~
+A sparkling ruby chest is in the middle of the room.~
+adamantite~
+container A 0
+15 ABCD 13101 0 0
+0 0 0 P
+#13124
+graghtok thumb~
+Graghtok's left thumb.~
+The left thumb of the evil Graghtok has been left here.~
+adamantite~
+key 0 AU
+0 0 0 0 0
+96 2 1 P
+A
+12 100
+A
+13 100
+A
+18 50
+A
+19 50
+#13125
+small key~
+A small key~
+A small key lies here.~
+adamantite~
+key 0 A
+0 0 0 0 0
+1 2 1 P
+#13126
+corpse adventurer~
+A corpse~
+The corpse of a dead adventurer lies here.~
+adamantite~
+container 0 0
+-1 0 0 0 0
+1 64 1 P
+#13127
+map~
+An incomplete map to Graghtok's Lair~
+A tattered piece of paper sits in the corner.~
+adamantite~
+map 0 AU
+0 0 0 0 0
+1 1 10 P
+E
+map~
+Base of Stairs                                      
+ (to top of Stairs)
+	|                        Graghtok's Pit
+   Long Hallway                        |       
+	|                         Dark Hallway 
+   Long Hallway                        |       
+	|                         Dark Hallway 
+   Long Hallway                        |                                               
+	|                   A Pond--Top of--Slavemaster's Room
+   Long Hallway                      Stairs     
+	|                              |       
+   Long Hallway                   Dark Hallway 
+	|                              |       
+   Long Hallway                   Dark Hallway 
+	|                              |       
+     Entrance                      The Nursery
+				 (To Meeting Hall)
+									      
+									    
+									     
+									    
+									      
+									  
+									     
+									    
+		  Above the Pit--Shrine to Graghtok--Graghtok's Room
+			|       
+		  Dirty Hallway 
+			|       
+		  Dirty Hallway 
+			|       
+		  Dirty Hallway 
+			|       
+		  Dirty Hallway 
+			|       
+		  Dirty Hallway 
+			|       
+		  Elder's Study 
+			|       
+		  Meeting Hall  
+									   
+~
+#0
+
+
+
+#ROOMS
+#13101
+Entrance to the lair~
+Before you is a large cast iron gate, and beyond lies a dimly lit hallway
+leading into the lair of Graghtok.  The wind seems to whistle out a warning
+to you to not proceed any further.  A wretched smell of decaying flesh fills
+your nostrils.  As you think of what lies inside this unholy place you hear
+a shriek of a hideous nature from behind.  Looking back you see only the
+trail from which you have travelled.  Then the shriek is heard again, this
+time from inside the lair, followed by a death cry.  There are words
+engraved on a metal plate on the gate.  
+~
+0 AD 0
+E
+engraving~
+_________________________
+|                        |
+|   Beyond this gate     |
+| lies the foul Graghtok |
+|  where he is to spend  |
+|  eternity in torment   |
+|     for his sins.      |
+|________________________|
+~
+D0
+~
+~
+1 -1 13102
+D2
+~
+~
+0 -1 5279
+S
+#13102
+A Long Hallway~
+The stagnant air inside this hallway provides only enough oxygen for a
+dim light from the torches adorning the walls.  The only sounds heard are
+your footsteps and your steady heartbeat.  Scattered throughout the hallway
+are various bones from the previous adventurers.  North takes you deeper
+into the lair, and south leads to the outside.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13103
+D2
+~
+~
+1 -1 13101
+S
+#13103
+A Long Hallway~
+The stagnant air inside this hallway provides only enough oxygen for a
+dim light from the torches adorning the walls.  The only sounds heard are
+your footsteps and your steady heartbeat.  Scattered throughout the hallway
+are various bones from the previous adventurers.  North takes you deeper
+into the lair, and south leads to the outside.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13104
+D2
+~
+~
+0 -1 13102
+S
+#13104
+A Long Hallway~
+The stagnant air inside this hallway provides only enough oxygen for a
+dim light from the torches adorning the walls.  The only sounds heard are
+your footsteps and your steady heartbeat.  Scattered throughout the hallway
+are various bones from the previous adventurers.  North takes you deeper
+into the lair, and south leads to the outside.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13105
+D2
+~
+~
+0 -1 13103
+S
+#13105
+A Long Hallway~
+The stagnant air inside this hallway provides only enough oxygen for a
+dim light from the torches adorning the walls.  The only sounds heard are
+your footsteps and your increasingly steady heartbeat.  Scattered throughout
+the hallway are various bones from the previous adventurers.  You pick up
+what appears to be an arm and it crumbles in your hand.  North takes you
+deeper into the lair, and south leads to the outside.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13106
+D2
+~
+~
+0 -1 13104
+S
+#13106
+A Long Hallway~
+The hallway seems to end abruptly here.  Leaving you facing a large stone
+wall with an out of place torch.  Except for a painting of a creature of an
+unfamiliar race the wall is barren.  The light from the south has seemed to
+die out leaving nothing but blackness.  Of course there must be a way to go
+further, maybe this is a premonition warning you not to look?  South takes
+you back through the hallway.  
+~
+0 AD 0
+E
+painting~
+There is a painting of a foul looking dragon with red eyes here.
+~
+E
+torch~
+This torch is unlike the others.  It appears to be stuck more deeply 
+into the wall, and glows a dull blue.
+~
+D0
+~
+torch~
+1 -1 13107
+D2
+~
+~
+0 -1 13105
+S
+#13107
+Base of Stairs~
+You are in a small room with barely enough space to walk through.  In the
+center of this room you see a shaky spiral staircase leading into a small
+hole in the ceiling.  The floor is covered with a crimson liquid which
+appears to be dripping down from a large crack in the east wall.  Other then
+that this room is completely empty.  
+~
+0 AD 0
+E
+crack~
+There is blood flowing through a crack in the wall.
+~
+D1
+~
+crack~
+1 -1 13109
+D2
+~
+~
+1 -1 13106
+D4
+~
+~
+0 -1 13108
+S
+#13108
+Spiral Staircase~
+Walking up this staircase makes your heart beat rapidly, every step you
+take makes it shake unsteadily.  The hand rail is made of brittle bones, and
+break with the smallest amount of pressure.  The steps appear to be of an
+ancient wood no longer around.  There is a red light coming from the top of
+the stairs, and a black abyss below.  
+~
+0 AD 0
+D4
+~
+~
+0 -1 13110
+D5
+~
+~
+0 -1 13107
+S
+#13109
+Blood Room~
+As you open the way to this room you are drenched with a flow of blood. 
+After clearing your eyes you see nothing but red, and a large creature
+staring at you from the far corner.  His eyes glow red and his grin is foul.
+It quickly becomes apperant that you have disturbed his bath as he attacks! 
+~
+0 AD 0
+D3
+~
+~
+1 -1 13107
+S
+#13110
+Top of the Stairs~
+Stepping into this room you are blessed with a blast of fresh air coming
+from a barred hole high above.  The little creatures here don't appear to
+notice you, and go about their business.  In the center of this enourmous
+room is a large fountain, but you don't think you should drink from it
+because of the dark red liquid it provides.  There are exits in all the
+cardinal directions and down.  However, the you don't see the little monks
+using the exits to the east and west.  
+~
+0 AD 0
+E
+fountain~
+Engraved on the fountain are the words:
+
+	"I have hidden my riches in
+	a place of death.  To which
+	the key is kept close to my
+	heart...."
+			-Graghtok
+~
+D0
+~
+~
+0 -1 13111
+D1
+~
+~
+0 -1 13115
+D2
+~
+~
+0 -1 13117
+D3
+~
+~
+0 -1 13116
+D5
+~
+~
+0 -1 13108
+S
+#13111
+Dark Hallway~
+Walking into this hallway you start hearing sounds of torture.  
+Screams and cries of pain.  The monks surrounding you are steadfast 
+in their ways and do not seem to notice you or each other.  At the
+end of this torchless hallway is a bright light.  For some unknown 
+reason you feel drawn to it.  The walls seem to get narrow as you 
+proceed.  South takes you back to the fountain, and north is still 
+unknown.
+~
+0 AD 0
+D0
+~
+~
+0 -1 13112
+D2
+~
+~
+0 -1 13110
+S
+#13112
+Dark Hallway~
+Walking into this hallway you start hearing sounds of torture.  
+Screams and cries of pain.  The monks surrounding you are steadfast
+in their ways and do not seem to notice you or each other.  At the 
+end of this torchless hallway is a bright light.  For some unknown 
+reason you feel drawn to it.  The walls seem to  get narrow as you 
+proceed.  South takes you back to the fountain, and north is still 
+unknown.
+~
+0 AD 0
+D0
+~
+~
+0 -1 13113
+D2
+~
+~
+0 -1 13111
+S
+#13113
+Graghtok's Pit~
+Once inside this ghastly room you can see a large candelabra hanging 
+from the ceiling, lighting the room with a brilliant yellow.  A large 
+podium is on the north wall where an important looking monks of Graghtok 
+sits.  In the center of this room appears to be a bottomless pit in 
+which the mindless monks are falling into without hesitation.  You 
+can hear the sound of death coming from below.  Suddenly, you feel 
+drawn toward the pit, and almost let the feeling overwhelm you before 
+stapping out of it.  You had better get out of here fast.
+~
+0 AD 0
+E
+pit~
+It is surprising that since this room is so well lit, the light will 
+not penetrate the pit even a crack.  Giving the it an illusion of be 
+without a bottom, but is it really?
+~
+D2
+~
+~
+0 -1 13112
+D5
+~
+~
+0 -1 13114
+S
+#13114
+In the Pit~
+After a plunge of about fifty hands you find yourself in a blood stained
+room of death.  Looking around you see massives hounds with teeth like
+razors tearing the monks to shreds, and piling the remains in a corner.  You
+see no way back out of this pit, and realize that even if you could handle
+the hounds you will not be able to climb back out.  It would appear
+hopeless.  
+~
+0 AD 0
+D1
+~
+remains~
+2 -1 13132
+S
+#13115
+Slavemaster's Room~
+This room is decorated with shackles and chains hanging from the wall. 
+Except for a bed and torture rack, this room is empty.  The torches lined in
+the wall do little to give this room light.  Looking around, you wonder why
+you are wasting your time here.  West takes you back out.  
+~
+0 AD 0
+E
+rack~
+This torture rack is old and rusty, and probably doesn't work anymore.  
+Would you like to find out?
+~
+E
+bed~
+A small cot is here.
+~
+D3
+~
+~
+0 -1 13110
+S
+#13116
+A Pond~
+In the middle of this room is a majestic looking pond with sparkling blue
+water.  The water is clear and placid.  The calm atmosphere is welcome, and
+invites you to rest and heal your wounds.  In the middle of this pond,
+however, is a figure holding a key.  The figure doesn't move, and appears
+lost within itself.  The walls are all lined with beautiful jewels
+reflecting your light to one center point, which lies on the key in the
+figures grasp.  
+~
+0 D 0
+E
+figure~
+The figure before you looks as though it could be an illusion caused 
+from the crystals, but that key looks very real.
+The figure is in excellent condition.
+
+You peek at the inventory:
+     (Humming) A {RRuby{x key.
+
+~
+D1
+~
+~
+0 -1 13110
+S
+#13117
+Dark Hallway~
+In this hallway there are no torches, and even with your light it is hard
+to what lies ahead.  A steady flow of mindless monks is coming from the
+south, each one identical to the others.  Your heart seems to beat in heavy
+throbs as you feel the evil to the south.  You get the feeling you should be
+going north, but a light draws your attention to the opposite.  North will
+take you away, and south is still unknown.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13110
+D2
+~
+~
+0 -1 13118
+S
+#13118
+Dark Hallway~
+In this hallway there are no torches, and even with your light it is hard
+to what lies ahead.  A steady flow of mindless monks is coming from the
+south, each one identical to the others.  Your heart seems to beat in heavy
+throbs as you feel the evil to the south.  You get the feeling you should be
+going north, but a light draws your attention to the opposite.  North will
+take you away, and south is still unknown.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13117
+D2
+~
+~
+0 -1 13119
+S
+#13119
+The Nursery~
+This room is covered with cacoon-like things hanging from the ceiling. 
+You watch in fascination as they open up dropping a small little black
+creature, and within minutes the creature grows into a full grown monk of
+Graghtok, each looking exactly like the rest.  At the rear of the room are
+unique looking monks with symbols brandished into their foreheads guarding a
+ladder leading up to a trap door.  North takes you back.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13118
+D4
+~
+~
+1 -1 13120
+S
+#13120
+Meeting Hall~
+It seems as though you have stumbled into a meeting hall for the elder
+monks.  There is a large onyx table here with thirteen wooden chairs
+surrounding it.  On the walls are tapestries of Graghtok slaying and
+tortmenting his followers.  A large bowl sits in the middle of the table,
+filled with rotten meat.  Down takes you back to the Nursery.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13121
+D5
+~
+~
+1 -1 13119
+S
+#13121
+Elder's Study~
+This room houses a rather large library of books.  All dust covered from
+lack of use.  There are bookcases on every wall, each overfilled with such
+material as "Blodgeoning For Pleasure".  Your attention is drawn to one
+bookcase on the west wall in which is a large untouched book.  An unpleasant
+musty smell fills your nose urging you to leave.  South goes back to the
+meeting room.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13122
+D2
+~
+~
+0 -1 13120
+D3
+This book appears to be made of wood.
+~
+book~
+2 -1 13127
+S
+#13122
+Dirty Hallway~
+You find yourself walking through a hallway without any defined walls or
+floor.  Instead, it looks more like a big hole dug into the earth.  It is
+hard to see ahead of you, and breathing is difficult due to the inordinate
+amount of dust present in the air.  As you walk further in you feel the
+temperature rise with every step.  Ahead of you you hear footsteps and
+jarbled voices.  South leads you out of this hole, and north takes you even
+deeper.  
+~
+0 AD 0
+D0
+~
+~
+0 -1 13123
+D2
+~
+~
+0 -1 13121
+S
+#13123
+Dirty Hallway~
+You find yourself walking through a hallway without any defined walls 
+or floor. Instead, it looks more like a big hole dug into the earth.  
+It is hard to see ahead of you, and breathing is difficult due to the 
+inordinate amount of dust present in the air.  As you walk further in 
+you feel the temperature rise with every step. Ahead of you you hear 
+footsteps and jarbled voices.  South leads you out of this hole, and 
+north takes you even deeper.
+~
+0 AD 0
+D0
+~
+~
+0 -1 13124
+D2
+~
+~
+0 -1 13122
+S
+#13124
+Dirty Hallway~
+You find yourself walking through a hallway without any defined walls or 
+floor. Instead, it looks more like a big hole dug into the earth.  It is 
+hard to see ahead of you, and breathing is difficult due to the inordinate 
+amount of dust present in the air.  As you walk further in you feel the 
+temperature rise with every step. Ahead of you you hear footsteps and 
+jarbled voices.  South leads you out of this hole, and north takes you 
+even deeper.
+~
+0 AD 0
+D0
+~
+~
+0 -1 13125
+D2
+~
+~
+0 -1 13123
+S
+#13125
+Dirty Hallway~
+You find yourself walking through a hallway without any defined walls
+or floor.  Instead, it looks more like a big hole dug into the earth.  
+It is hard to see ahead of you, and breathing is difficult due to the 
+inordinate amount of dust present in the air.  As you walk further in 
+you feel the temperature rise with every step.  Ahead of you you hear 
+footsteps and jarble

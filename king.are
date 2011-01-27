@@ -1,0 +1,2147 @@
+#AREA
+king.are~
+King's Castle~
+{30 50} Anon    King's Castle~
+15200 15299
+
+#MOBILES
+#15201
+king welmar~
+King Welmar~
+The wise King Welmar sits here in his throne.
+~
+In his later middle-age, with his beard starting to grey, King Welmar
+is still very powerfully built, and wouldn't take kindly to an attack.
+Despite that, you know he is well-loved throughout the land, and has
+a reputation as a wise and just ruler.
+~
+human~
+B DH 1000 0
+48 0 25d10+3750 479d1+11 6d6+18 punch
+-18 -18 -18 3
+ADEK 0 0 D
+stand stand male 10000
+0 0 medium 0
+#15202
+ghost horrible~
+the horrible ghost~
+You hear a frightening wail, and see a horrible Ghost approaching.
+~
+The Ghost is almost translucent, and looks really SCARY!
+~
+modron~
+CFHR BDFITU -900 0
+30 0 6d12+778 299d1+1 5d4+7 wrath
+-9 -9 -9 1
+FGK A 0 D
+stand stand either 0
+0 0 small 0
+#15203
+jim guard royal~
+Jim the Royal guard~
+Jim the Royal guard is here on duty.
+~
+As all members of the Guard, Jim wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+human~
+G 0 800 0
+35 0 10d10+1300 349d1+1 4d7+11 punch
+-11 -11 -11 5
+CEFIKR 0 0 0
+stand stand male 5500
+0 0 medium 0
+#15204
+brian guard royal~
+Brian~
+Brian the Royal guard is here, training with the Master.
+~
+Human
+~
+As all members of the Guard, Brian wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+BG 0 800 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 4
+DEFIKR 0 0 0
+stand stand male 5600
+0 0 medium 0
+#15205
+mick guard royal~
+Mick~
+Mick the Royal guard is here, training with the Master.
+~
+As all members of the Guard, Mick wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+human~
+BG 0 800 0
+37 0 10d10+1500 367d1+1 3d10+12 punch
+-12 -12 -12 4
+CDFIKR 0 0 0
+stand stand male 5700
+0 0 medium 0
+#15206
+matt guard royal~
+Matt the Royal guard~
+Matt the Royal guard is here on duty.
+~
+As all members of the Guard, Matt wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+human~
+G 0 800 0
+38 0 10d10+1600 379d1+1 5d6+12 punch
+-13 -13 -13 4
+CDEIKR 0 0 0
+stand stand male 5800
+0 0 medium 0
+#15207
+jochem guard royal~
+Jochem the Royal guard~
+Jochem the Royal guard sits here, off duty.
+~
+As all members of the Guard, Jochem wears the chain mail required of
+them as uniform. He seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+~
+human~
+G 0 900 0
+39 0 15d10+1700 389d1+1 5d6+13 punch
+-13 -13 -13 4
+CDEFKR 0 0 0
+stand stand male 5900
+0 0 medium 0
+#15208
+anne guard royal~
+Anne the Royal guard~
+Anne the Royal guard is here on duty.
+~
+As all members of the Guard, Anne wears the chain mail required of
+them as uniform. She seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+~
+human~
+G 0 900 0
+40 0 15d10+1850 399d1+1 4d8+13 punch
+-13 -13 -13 4
+CDEFIR 0 0 0
+stand stand female 6000
+0 0 medium 0
+#15209
+andrew guard royal~
+Andrew the Royal guard~
+Andrew the Royal guard is here on duty.
+~
+As all members of the Guard, Andrew wears the chain mail required of
+them as uniform. He seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+~
+human~
+G 0 900 0
+40 0 15d10+1850 399d1+1 4d8+13 punch
+-13 -13 -13 4
+CDEFIKR 0 0 0
+stand stand male 6000
+0 0 medium 0
+#15210
+bertram bert guard royal~
+Bertram the Royal guard~
+Bertram the Royal guard is here on duty.
+~
+As all members of the Guard, Bertram wears the chain mail required of
+them as uniform. He seems very well trained, and carries his scars
+with pride. This guy seems tough...
+~
+human~
+G 0 900 0
+35 0 10d10+1300 349d1+1 4d7+11 punch
+-11 -11 -11 6
+EFIKR 0 0 0
+stand stand male 5500
+0 0 medium 0
+#15211
+jeanette guard royal~
+Jeanette the Royal guard~
+Jeanette the Royal guard is here on duty.
+~
+As all members of the Guard, Jeanette wears the chain mail required of
+them as uniform. She seems very well trained, and carries her scars
+with pride. This girl could be nasty if she wanted to...
+~
+human~
+G 0 900 0
+42 0 25d10+1250 339d1+1 3d12+14 punch
+-14 -14 -14 4
+CDIKR 0 0 0
+stand stand female 5400
+0 0 medium 0
+#15212
+peter captain guard royal~
+Peter, the Captain of the Royal guard~
+Peter, the Captain of the Royal guard, walks around inspecting.
+~
+As all members of the Guard, Peter wears the chain mail required of
+them as uniform. Even though all the other guards seem well trained,
+you realise none of them would stand a chance against this man in a
+fight. He stands at least two metres tall, but still moves with an
+almost feline grace. He actually radiates strength and confidence,
+and you have to fight a sudden urge to come to attention as you see
+him.
+~
+human~
+G 0 900 0
+51 0 50d10+5000 469d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFIKR 0 0 0
+stand stand male 9700
+0 0 medium 0
+#15213
+master trainingmaster~
+the Training Master~
+The Training Master is here, supervising.
+~
+Aged, but experienced, the Training Master is skilled in the use
+of virtually every weapon type invented by Man.
+~
+human~
+BGT 0 950 0
+48 0 25d10+3500 459d1+1 6d6+17 punch
+-17 -17 -17 3
+CDEFHIKNR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15214
+herald royal~
+the Royal Herald~
+The Royal Herald is standing here.
+~
+This is a young, powerfully built man, whose primary function
+is to make Royal Announcements.
+~
+human~
+0 0 800 0
+31 0 6d12+928 309d1+1 4d6+9 punch
+-10 -10 -10 5
+CDEFIKR 0 0 0
+stand stand male 3000
+0 0 medium 0
+#15215
+ergan murderer~
+Ergan the Murderer~
+Slumped in a corner you see Ergan, the Murderer of Townsbridge.
+~
+You remember a time almost a decade ago, when the news of the day
+was how this man had slaughtered the entire population of the little
+village of Townsbridge. He was imprisoned, and here he is: a shadow
+of the undoubtedly great warrior he once was, but still to be reckoned
+with.
+~
+giant~
+BCFH 0 -1000 0
+42 0 25d10+2250 419d1+1 3d12+14 punch
+-14 -14 -14 4
+BDJ A 0 C
+stand stand male 1000
+0 0 medium 0
+#15216
+butler james~
+James the Butler~
+James the Butler is standing here, looking pompous.
+~
+The typical perfect butler: upper middle age, a bit bald and with
+an impressive belly.
+~
+human~
+0 0 500 0
+33 0 10d10+1100 229d1+1 6d4+10 punch
+-11 -11 -11 6
+0 0 0 0
+stand stand male 5300
+0 0 large 0
+#15217
+woman cleaning~
+the Cleaning Woman~
+There is a Cleaning Woman here, trying not be noticed.
+~
+Although she has a menial job, she seems to like it.
+~
+elf~
+0 0 800 0
+20 -1 3d9+333 199d1+1 2d8+5 punch
+-4 -4 -4 7
+I 0 0 D
+stand stand female 100
+0 0 medium 0
+#15218
+cockroach roach~
+the Cockroach~
+A large Cockroach is crawling by the wall.
+~
+Very large indeed, and they say cockroaches are hard to kill...
+~
+centipede~
+0 0 -550 0
+28 0 6d12+703 279d1+1 2d12+7 thrust
+-8 -8 -8 6
+E 0 0 D
+stand stand either 10000
+0 0 medium 0
+#15219
+astrologer~
+the Astrologer~
+The Astrologer is sitting here, studying a book.
+~
+Lizard
+~
+He is old and white-haired, with a long beard. As you see him, you
+can almost believe the rumours about stars deciding Fate, and
+that astrology is capable of seeing the future.
+~
+BR 0 900 0
+45 0 25d10+2750 449d1+1 3d12+14 wrath
+-15 -15 -15 -2
+FG 0 0 CD
+stand stand male 10000
+0 0 tiny 0
+#15220
+tim guard lifeguard~
+Tim, the King's Lifeguard~
+Tim, the King's Lifeguard, is standing here.
+~
+This guy looks just like his twin, Tom. There seems to be no
+doubt that he is completely prepared to give his life
+for the King, if necessary.
+~
+human~
+B D 900 15201
+51 0 50d10+5000 509d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFHIKR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15221
+tom guard lifeguard~
+Tom, the King's Lifeguard~
+Tom, the King's Lifeguard, is standing here.
+~
+This guy looks just like his twin, Tim. There seems to be no
+doubt that he is completely prepared to give his life
+for the King, if necessary.
+~
+human~
+B D 900 15201
+51 0 50d10+5000 509d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFHIKR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15222
+chef cook~
+the Chef~
+The Chef is here, shouting orders to the other cooks.
+~
+It seems he has been tasting his own food a bit too enthusiastically.
+He is, in other words, a bit fat.
+~
+human~
+H 0 500 0
+45 0 25d10+3000 449d1+1 8d4+16 punch
+-15 -15 -15 4
+EH 0 0 C
+stand stand male 4000
+0 0 medium 0
+#15223
+cook~
+the Cook~
+There is a Cook here, making himself busy with a pot.
+~
+A junior cook, eager to do the Chef's bidding.
+~
+human~
+BH 0 300 0
+41 0 25d10+2000 409d1+1 4d8+14 ounch
+-14 -14 -14 4
+EH 0 0 C
+stand stand male 3000
+0 0 medium 0
+#15224
+david guard~
+David~
+David, a big, mean-looking man, stands here, guarding the door.
+~
+He really is big, and you get the feeling he wouldn't take kindly
+to an attempt to get past him.
+~
+human~
+B D 250 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 5
+CDEFIKR 0 0 0
+stand stand male 3600
+0 0 medium 0
+#15225
+dick guard~
+Dick~
+Dick, a big, mean-looking man, stands here, guarding the door.
+~
+He really is big, and you get the feeling he wouldn't take kindly
+to an attempt to get past him.
+~
+human~
+B D 250 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 5
+CEFIKR 0 0 0
+stand stand male 3600
+0 0 medium 0
+#15226
+jerry guard royal~
+Jerry the Royal guard~
+Jerry the Royal guard is here off duty, playing dice.
+~
+As all members of the Guard, Jerry wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+human~
+G 0 800 0
+43 0 25d10+2500 429d1+1 3d12+15 punch
+-15 -15 -15 4
+CDFIKR 0 0 0
+stand stand male 6700
+0 0 medium 0
+#15227
+michael guard royal~
+Michael the Royal guard~
+Michael the Royal guard is here off duty, playing dice.
+~
+As all members of the Guard, Michael wears the chain mail required of
+them as uniform. He seems very well trained, and moves like an
+experienced fighter.
+~
+human~
+G 0 800 0
+42 0 25d10+2250 419d1+1 3d12+14 punch
+-14 -14 -14 4
+CDFIKR 0 0 0
+stand stand male 6200
+0 0 medium 0
+#15228
+hans guard royal~
+Hans the Royal guard~
+Hans the Royal guard is here on duty.
+~
+As all members of the Guard, Hans wears the chain mail required of
+them as uniform. He seems very well trained, and moves like a fighter
+who has seen more than one battle, and longs to see the next!
+~
+human~
+G 0 900 0
+44 0 25d10+2750 439d1+1 8d4+15 punch
+-15 -15 -15 4
+DEFIKR 0 0 0
+stand stand male 6400
+0 0 medium 0
+#15229
+boris guard royal~
+Boris the Royal guard~
+Boris the Royal guard is here on duty.
+~
+As all members of the Guard, Boris wears the chain mail required of
+them as uniform. He seems very well trained, and carries his scars
+with pride. This guy seems tough...
+~
+human~
+G 0 900 0
+41 0 25d10+2000 409d1+1 4d8+14 punch
+-14 -14 -14 4
+DEIKR 0 0 0
+stand stand male 6100
+0 0 medium 0
+#15230
+executioner~
+the Executioner~
+Executioner is here on duty.
+~
+Big. Very big. Not stupid like Hassan but dangerous like one.
+~
+giant~
+BFT CDEFGNO 1000 0
+60 0 50d10+9500 599d1+1 8d6+28 punch
+-30 -30 -30 0
+CDEFGHIJKN 0 0 C
+stand stand male 18457
+0 0 large 0
+#0
+
+
+#OBJECTS
+#15201
+universal~
+sapowox's Universal Nothingness~
+You are quite unable to perceive Sapowox's Universal Nothingness here.~
+nothingness~
+weapon BGM AN
+exotic 6 4 peck 0
+45 70 16750 G
+A
+18 5
+A
+19 5
+E
+nothingness~
+You are not sure, but you do not seem not able to figure out what it isn't, 
+because it doesn't much resemble anything you haven't ever seen. You feel 
+a bit of mortal confusion, but you notice a small inscription on it.
+~
+E
+text writing inscription~
+It just says: ' (void *) '.
+Not very enlightening.
+~
+#15202
+sceptre royal golden~
+a golden sceptre~
+A golden Royal sceptre lies on the ground.~
+gold~
+furniture GK AO
+0 0 0 0 0
+50 200 27225 G
+A
+18 2
+#15203
+crown golden~
+a golden crown~
+A magnificently jewelled golden crown has been left here.~
+gold~
+armor GK AE
+14 14 14 0 1
+50 400 28244 G
+A
+12 30
+A
+3 1
+#15204
+apple golden~
+a golden apple~
+There is a golden apple here.~
+gold~
+light GK A
+0 0 -1 0 0
+50 50 27720 G
+#15205
+telescope scope~
+a large telescope~
+There is a large telescope here, pointing at the sky.~
+glass~
+furniture 0 0
+0 0 0 0 0
+0 0 0 G
+E
+telescope scope~
+A small sign says: Made in Siberia.
+~
+#15206
+sword training~
+a training sword~
+A training sword with blunt edges is leaned against a wall.~
+iron~
+weapon G AN
+sword 5 10 scratch 0
+35 70 9000 G
+A
+18 -2
+#15207
+key huge~
+a huge key~
+There is a huge, heavy-looking key on the floor here.~
+metal~
+key M AO
+0 0 0 0 0
+36 10 1000 G
+#15208
+key butlers butler~
+the Butler's key~
+The Butler's key is here.~
+metal~
+key M AO
+0 0 0 0 0
+35 20 100 G
+#15209
+key small~
+a small key~
+A small key lies here.~
+metal~
+key M AO
+0 0 0 0 0
+40 200 0 G
+#15210
+chest wooden~
+a large wooden chest~
+A large wooden chest stands here in a corner.~
+wood~
+container 0 A
+400 ABCD 15209 100 60
+40 400 17389 G
+E
+chest~
+It is equipped with a small lock, that any self-respecting thief
+should be able to pick.
+~
+#15211
+vial large potion brown~
+a large vial~
+A large vial has been left here.~
+glass~
+potion G A
+15 'cure critical' 'cure light' '' ''
+40 200 15500 G
+E
+vial large brown potion~
+It is filled with a disgusting brown liquid.~
+#15212
+banner royal~
+a royal banner~
+The royal banner has been firmly planted in the ground here.~
+velvet~
+furniture AG AO
+0 0 0 0 0
+40 300 25000 G
+A
+18 2
+A
+19 1
+E
+banner royal standard~
+It is large and very heavy. On top of it flutters King Welmar's flag
+proudly.
+~
+E
+flag~
+On the flag is the symbol of King Welmar's house, the rampant stag.
+~
+#15213
+key~
+a key~
+A key lies on the floor.~
+metal~
+key M A
+0 0 0 0 0
+50 300 2000 G
+E
+key~
+It has a finely carved letter 'W' inscribed on it.
+~
+#15214
+mail chain hauberk~
+a guard's chain mail hauberk~
+A chain mail hauberk lies on the floor~
+steel~
+armor 0 AD
+8 8 8 0 3
+37 600 6240 G
+#15215
+sword large broadsword~
+a large broadsword~
+There is a large broadsword lying here.~
+steel~
+weapon 0 AN
+sword 5 12 pierce 0
+50 140 27216 G
+#15216
+lobster~
+a delicious-looking lobster~
+A delicious-looking lobster is lying here, tempting your appetite.~
+food~
+food 0 A
+7 7 0 0 0
+30 50 5088 G
+#15217
+caviar~
+some Russian caviar~
+There is some delicious-looking Russian caviar here, making your mouth water.~
+food~
+food 0 A
+2 2 0 0 0
+31 250 5189 G
+#15218
+flail large~
+a large flail~
+There is a large flail lying here.~
+steel~
+weapon 0 AN
+flail 5 9 pound 0
+35 140 16216 G
+#15219
+large halberd protector~
+a large halberd named "Protector"~
+There is a large halberd named "Protector" lying here.~
+steel~
+weapon G AN
+polearm 5 11 stab 0
+48 140 19716 G
+A
+18 2
+A
+19 2
+#15220
+mail chain hauberk~
+a lifeguard's chain mail hauberk~
+A chain mail hauberk lies on the floor~
+steel~
+armor G AD
+14 14 14 7 3
+48 300 26240 G
+A
+17 -30
+#15221
+mail chain hauberk~
+a chain mail hauberk~
+A chain mail hauberk lies on the floor~
+steel~
+armor G AD
+12 12 12 3 3
+40 400 16278 G
+A
+17 -15
+#15222
+sword short broadsword~
+a short broadsword~
+There is a short broadsword lying here.~
+steel~
+weapon 0 AN
+sword 5 10 pierce 0
+40 140 17276 G
+#15223
+gold silver coins~
+the silver and gold coins~
+A lot of silver and gold is here.~
+gold~
+money 0 A
+100000 0 0 0 0
+0 0 0 P
+E
+silver~
+Looks like at least a thousand coins.
+~
+#15224
+weapon~
+the Executioner's evil weapon~
+There is a big evil weapon lying here.~
+steel~
+weapon 0 AN
+exotic 10 11 blast CG
+60 400 3284 G
+#15225
+chest iron~
+a large iron chest~
+A large iron chest stands here in a corner.~
+iron~
+container 0 0
+400 ABCD 15226 400 100
+40 400 0 G
+#15226
+key great~
+a great key~
+A great key lies here.~
+metal~
+key M AO
+0 0 0 0 0
+60 200 0 G
+#0
+
+
+#ROOMS
+#15201
+The King's Road~
+You come out onto the great King's Road. The road is very well
+built, and goes in a straight line due east-west.
+   There is a small (Glowing) (Humming) tablet.
+~
+0 C 1
+D1
+The King's Road continues in a straight line to the east.
+~
+~
+0 -1 15202
+D2
+You see the steep foothills.
+~
+~
+0 -1 325
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++                      in cold sunday, june'96                       +
++                            by jaceks                               +
++                                                                    +
++   PS. Thank you Zeb for your help.                                 +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#15202
+The King's Road~
+You stand on the King's Road, which leads east and west. The
+skill of the builders is apparent, since it is impossible to notice
+any turn or irregularity in the road.
+~
+0 0 1
+D1
+You see a Castle in the far east.
+~
+~
+0 -1 15203
+D3
+The King's Road continues in a straight line to the west.
+~
+~
+0 -1 15201
+S
+#15203
+On the King's Road outside the Castle~
+You are standing on the King's Road. Before you is a large
+Castle, evidently built not so much for strength as for beauty.
+It is not totally without defences, though, for it is surrounded
+by a deep moat, and its windows are just narrow slits for archers
+to shoot through. To the north there is a drawbridge across the moat.
+~
+0 0 1
+D0
+You see the drawbridge.
+~
+~
+0 -1 15204
+D3
+The King's Road continues in a straight line to the west.
+~
+~
+0 -1 15202
+S
+#15204
+On the Drawbridge~
+You have arrived at the drawbridge leading into the Castle. Before
+you is a huge, double-doored gate. It seems very strong. You see some
+whirls in the moat.
+~
+0 C 1
+D0
+The gate has huge, but intricately carved hinges. As the Castle itself,
+it seems designed not only for strength, but also for beauty.
+~
+gate door~
+0 -1 15207
+D2
+You see the King's Road.
+~
+~
+0 -1 15203
+E
+whirls whirl moat~
+You can't see much, but it seems that something beneath the surface
+is creating them.
+~
+S
+#15205
+The Kitchen~
+You are in the Kitchen. Lots of helpers hurry to do the Chief Cook's
+bidding, and there is a wonderful smell that makes you feel very hungry.
+All around the room, there are shelves with different kinds of cooking
+gear stacked on them. There is an exit to the north, and one to the east;
+both leading to small passages.
+~
+0 D 0
+D0
+You see a small, dimly lit passage.
+~
+~
+0 -1 15210
+D1
+You see a small, dimly lit passage.
+~
+~
+0 -1 15206
+S
+#15206
+A small passage.~
+You are standing in a small passage, that is clearly intended mostly
+for the servants of the Castle. It is only dimly lit and quite narrow.
+The passage leads west, and to the east there is a small door.
+~
+0 D 0
+D1
+The door is small and uninteresting.
+~
+door small~
+1 -1 15207
+D3
+You hear clanging of pots, and smell cooking meat.
+~
+~
+0 -1 15205
+S
+#15207
+The Entrance Hall~
+You are standing in the impressive Entrance Hall of the Castle.
+To the north is an exit into the Great Hall. There is also an exit
+east, and a small door to the west.
+~
+0 D 0
+D0
+You see the King's Great Hall.
+~
+~
+0 -1 15212
+D1
+There seems to be a small guard room to the east.
+~
+~
+0 -1 15208
+D2
+To the south, there is a gate, that leads to the Drawbridge.
+~
+gate~
+0 -1 15204
+D3
+The door is small and uninteresting.
+~
+door small~
+1 -1 15206
+S
+#15208
+The Guard Room~
+You are in a small room, evidently meant for guards currently
+not on duty. There is only one exit, back to the entrance hall.
+~
+0 D 0
+D3
+You see the Castle Entrance.
+~
+~
+0 -1 15207
+S
+#15209
+Under the Tower~
+You are below one the three mighty towers of the Castle. There are
+no guards here, and you sense that this part of the Castle is largely
+unused. There are stairs going up to the tower, and there is also an
+exit to the north.
+~
+0 CD 0
+D0
+You see a small, dimly lit passage.
+~
+~
+0 -1 15214
+D4
+The stairs are old, but in good repair. They lead up into the tower.
+~
+~
+0 -1 15234
+E
+stairs~
+The stairs are old, but in good repair. They lead up into the tower.
+~
+S
+#15210
+The Small Passage~
+You are standing in a small passage, that is clearly intended
+mainly for the servants of the Castle. The passage leads north
+and south.
+~
+0 D 0
+D0
+You see a small, dimly lit passage.
+~
+~
+0 -1 15215
+D2
+You hear the clanging of pots, and smell cooking meat.
+~
+~
+0 -1 15205
+S
+#15211
+The Great Hall~
+You are standing in the south-west end of the Great Hall. It
+is truly vast; the roof is so high above your head, that it seems no
+closer than the clouds outside. The roof is beautifully painted, by
+someone who must have been a true master. The hall is very large,
+and could easily seat several hundred people at a banquet.
+~
+0 D 0
+D0
+You see the King's Great Hall.
+~
+~
+0 -1 15216
+D1
+You see the King's Great Hall.
+~
+~
+0 -1 15212
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful evil Wizard Tharoecon.
+~
+S
+#15212
+The Great Hall~
+You are standing in the southern end of the Great Hall. It
+is truly vast; the roof is so high above your head, that it seems no
+closer than the clouds outside. The roof is beautifully painted, by
+someone who must have been a true master. The hall is very large,
+and could easily seat several hundred people at a banquet. To your
+north, you see King Welmar's great throne, and to the south is the
+Castle Entrance.
+~
+0 D 0
+D0
+You see the part of the Great Hall where the throne is.
+~
+~
+0 -1 15217
+D1
+You see the King's Great Hall.
+~
+~
+0 -1 15213
+D2
+You see the Castle Entrance.
+~
+~
+0 -1 15207
+D3
+You see the King's Great Hall.
+~
+~
+0 -1 15211
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful evil Wizard Tharoecon.
+~
+S
+#15213
+The Great Hall~
+You are standing in the south-east end of the Great Hall. It
+is truly vast; the roof is so high above your head, that it seems no
+closer than the clouds outside. The roof is beautifully painted, by
+someone who must have been a true master. The hall is very large,
+and could easily seat several hundred people at a banquet.
+~
+0 D 0
+D0
+You see the King's Great Hall.
+~
+~
+0 -1 15218
+D3
+You see the King's Great Hall.
+~
+~
+0 -1 15212
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful, evil Wizard Tharoecon.
+~
+S
+#15214
+A passage~
+You are standing in a passage, that leads north and south. To the south
+it leads towards one of towers.
+~
+0 D 0
+D0
+You see the small passage continue.
+~
+~
+0 -1 15219
+D2
+~
+~
+0 -1 15209
+S
+#15215
+The passage~
+You are in a passage, that leads north and south. To the east there
+is an exit to the Great Hall.
+~
+0 D 0
+D0
+You see the passage continue.
+~
+~
+0 -1 15220
+D1
+You see the King's Great Hall.
+~
+~
+0 -1 15216
+D2
+You see the passage continue.
+~
+~
+0 -1 15210
+S
+#15216
+The Great Hall~
+You are standing in the north-west end of the Great Hall. It
+is truly vast; the roof is so high above your head, that it seems no
+closer than the clouds outside. The roof is beautifully painted, by
+someone who must have been a true master. The hall is very large,
+and could easily seat several hundred people at a banquet. To your
+east, you see King Welmar's great throne, and to the west there is
+an exit to a passage.
+~
+0 D 0
+D1
+You see the part of the Great Hall where the throne is.
+~
+~
+0 -1 15217
+D2
+You see the King's Great Hall.
+~
+~
+0 -1 15211
+D3
+You see a passage.
+~
+~
+0 -1 15215
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful evil Wizard Tharoecon.
+~
+S
+#15217
+By the Throne in the Great Hall~
+You are standing by the King's huge ivory throne. The throne is, to
+an even greater degree than the Hall itself, a masterpiece. It is
+intricately and beautifully carved, and it seems to be made out of a
+single block of ivory, though you shiver at the thought of meeting
+the animal that died to yield a piece of that size. The Hall continues
+to the east, west and south.
+~
+0 D 0
+D1
+You see the King's Great Hall.
+~
+~
+0 -1 15218
+D2
+You see the King's Great Hall.
+~
+~
+0 -1 15212
+D3
+You see the King's Great Hall.
+~
+~
+0 -1 15216
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful evil Wizard Tharoecon.
+~
+E
+throne ivory~
+It is large and very beautiful. The carvings are mainly of animals and
+magic beasts.
+~
+S
+#15218
+The Great Hall~
+You are standing in the north-east end of the Great Hall. It
+is truly vast; the roof is so high above your head, that it seems no
+closer than the clouds outside. The roof is beautifully painted, by
+someone who must have been a true master. The hall is very large,
+and could easily seat several hundred people at a banquet. To your
+west, you see King Welmar's great throne, and to the east there is
+an exit to a small passage.
+~
+0 D 0
+D1
+You see a passage.
+~
+~
+0 -1 15219
+D2
+You see the King's Great Hall.
+~
+~
+0 -1 15213
+D3
+You see the part of the Great Hall where the throne is.
+~
+~
+0 -1 15217
+E
+roof paintings paint~
+The paintings on the roof depict the great heroes and gods. One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive beard.
+Also among them are the great enemies and wrongdoers, such as the evil
+Goddess Yochlol and the powerful evil Wizard Tharoecon.
+~
+S
+#15219
+The small passage~
+You are standing in a small passage, that leads north and south.
+To the west, there is an exit into the Great Hall.
+~
+0 D 0
+D0
+The passage continues to the north.
+~
+~
+0 -1 15224
+D2
+The passage continues to the south.
+~
+~
+0 -1 15214
+D3
+To the west you see the Great Hall.
+~
+~
+0 -1 15218
+S
+#15220
+The passage~
+You are standing in a north-south leading passage. There is a door
+to the east.
+~
+0 D 0
+D0
+The passage leads to a staircase.
+~
+~
+0 -1 15225
+D1
+The door is quite small and unobtrusive.
+~
+door~
+1 -1 15221
+D2
+The passage continues to the south.
+~
+~
+0 -1 15215
+S
+#15221
+The servants' corridor~
+You are standing in a corridor, that stretches further to the east.
+There are doors to the north and west. The corridor itself is mainly
+used by servants, and lacks some of the beauty of the rest of the
+castle.
+~
+0 D 0
+D0
+There is door there!!!
+~
+door~
+1 -1 15226
+D1
+The corridor seems to come to its end a bit further east.
+~
+~
+0 -1 15222
+D3
+The door is made out of wood.
+~
+door wood~
+1 -1 15220
+S
+#15222
+The end of the servants' corridor~
+The corridor leads only west from here, but there is a door to
+the north.
+~
+0 D 0
+D0
+The door leads to a room intended for the butler.
+~
+door~
+1 15208 15227
+D3
+You see the corridor continue.
+~
+~
+0 -1 15221
+S
+#15223
+The Training Room~
+This is the Training Room of the men of the Castle guard. It is
+very large, with weapons standing in racks by all the walls. Most
+of the weapons seem to be intended for training only, with blunt
+edges and the like, but there are some that might be useful for
+real fighting. There is a door to the north.
+~
+0 D 0
+D0
+The door is large and heavy.
+~
+door large heavy~
+1 -1 15228
+D1
+You see a small passage.
+~
+~
+0 -1 15224
+S
+#15224
+The small passage~
+You are standing in a small passage leading north and south. There
+is also an exit to the west, from which grunts, cheers and heavy
+blows can be heard.
+~
+0 D 0
+D0
+The passage leads north to some stairs.
+~
+~
+0 -1 15229
+D2
+You see the passage continuing.
+~
+~
+0 -1 15219
+D3
+You see the Training Room.
+~
+~
+0 -1 15223
+S
+#15225
+The Stair Room~
+You are standing below a great staircase, that leads up to the
+second floor of the Castle. The stairs are made of marble, and there
+are pillars carved in the likenesses of trees with little animals running
+up and down the trunks.
+~
+0 D 0
+D2
+You see the passage.
+~
+~
+0 -1 15220
+D4
+The stairs lead up to the second floor.
+~
+~
+0 -1 15249
+E
+stairs stair~
+Made out of marble, and as all the rest of the Castle made primarily
+for beauty and with great skill.
+~
+E
+pillar pillars tree trees~
+Very nice. Squirrels and little birds all over.
+~
+S
+#15226
+The servants' quarters~
+You are standing in a large room, that seems to house many of the
+servants. The room is full of comfortable-looking beds. There is also
+a large chest, probably containing some of the servants' belongings.
+~
+0 D 0
+D2
+The door is made out of wood.
+~
+door wood~
+1 -1 15221
+E
+bed~
+The beds all look comfortable, despite the fact that this is just
+the servants' place.
+~
+S
+#15227
+The butler's quarters~
+You see at once that this must be the butler's room, for it lies
+in the servants' wing, and still it is large and comfortable; almost
+luxurious, in fact. There is a large bed and a drawer in the room.
+The only exit is via the door to the south.
+~
+0 D 0
+D2
+You see the corridor.
+~
+door~
+1 15208 15222
+E
+bed~
+Looks very comfortable indeed.
+~
+S
+#15228
+The Guards' Barracks~
+You are standing in a very large room with bunks all over. It is
+obvious, that this is where the guards off duty spend most of their
+time, drinking and gambling or, probably, mostly sleeping.
+~
+0 D 0
+D2
+The door is large and heavy.
+~
+door large heavy~
+1 -1 15223
+E
+bunk bunks~
+They look a bit hard, but you could sleep in them.
+~
+S
+#15229
+The stairs~
+You are standing by a staircase leading down. As you look down,
+you notice that for the first time since you entered the castle,
+things are not aesthetically made. Instead it looks more functional
+and prison-like.
+~
+0 D 0
+D2
+You see the small passage.
+~
+~
+0 -1 15224
+D5
+The stairs go down to a dimly lit room.
+~
+~
+0 -1 -1
+E
+stairs stair staircase~
+They seem to be made of granite, and stretch down into a more dimly
+lit area than where you come from.
+~
+S
+#15230
+At a bend in the corridor~
+You are standing where the corridor bends from east to north.
+~
+0 D 0
+D0
+You see the corridor continue.
+~
+~
+0 -1 15235
+D1
+You see the corridor continue.
+~
+~
+0 -1 15231
+S
+#15231
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. It leads east and west.
+~
+0 D 0
+D1
+You see the corridor continue.
+~
+~
+0 -1 15232
+D3
+You see the corridor continue.
+~
+~
+0 -1 15230
+S
+#15232
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. It leads east and west.
+~
+0 D 0
+D1
+You see the corridor continue.
+~
+~
+0 -1 15233
+D3
+You see the corridor continue.
+~
+~
+0 -1 15231
+S
+#15233
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. The corridor continues west,
+and to the north you see the luxurious guest wing.
+~
+0 D 0
+D0
+You see the guest wing.
+~
+~
+0 -1 15238
+D3
+You see the corridor continue.
+~
+~
+0 -1 15232
+S
+#15234
+In the south-east tower.~
+This part of the tower is fairly uninteresting, but it leads further
+upwards...
+~
+0 D 0
+D4
+The room at the top of the tower seems darkish for some reason.
+~
+~
+0 -1 15252
+D5
+You see the stairs at the bottom of the tower.
+~
+~
+0 -1 15209
+S
+#15235
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. It leads north and south. There
+is also an exit to the east here.
+~
+0 D 0
+D0
+You see the corridor continue.
+~
+~
+0 -1 15240
+D1
+You see a small room.
+~
+~
+0 -1 15236
+D2
+You see the corridor continue.
+~
+~
+0 -1 15230
+S
+#15236
+By the treasure room~
+You are standing by a great iron door. The door is very large, and
+seems very solid indeed. There is a sign posted by it.
+~
+0 D 0
+D1
+You see a large steel door.
+~
+door steel large~
+2 15207 15237
+D3
+You see the corridor.
+~
+~
+0 -1 15235
+E
+sign~
+TREASURE ROOM
+
+   Authorized personnel only - all others keep out.
+   ANY trespassing will be SEVERELY punished!!
+~
+S
+#15237
+The Great Treasury~
+As you enter this room, you are astonished by the riches that
+are stowed away here; not so much in gold, but paintings, tapestries,
+skillful carvings and sculptures all over the vast room. You realise,
+however, that most of these things are too well known to be sold
+anywhere, without branding yourself as a thief, and condemning yourself
+to instant death at the hands of the Royal Guard.
+~
+0 DN 0
+D3
+You see a large steel door.
+~
+door large steel~
+2 15207 15236
+E
+painting paintings carving carvings sculptures tapestries~
+It seems they are stored here temporarily to enable changing
+of the decoration in the Castle on a regular basis.
+~
+S
+#15238
+The Guest Wing~
+You have arrived at the part of the Castle where prominent
+guests are housed. To the east there is a large, ornamented
+door, and a somewhat smaller one leads north.
+~
+0 D 0
+D0
+The door seems to lead to a guest room.
+~
+door small~
+1 -1 15243
+D1
+You see the guest suite behind the door.
+~
+door ornament ornamented~
+1 -1 15239
+D2
+You see the corridor.
+~
+~
+0 -1 15233
+S
+#15239
+The Guest Suite~
+This must be where only the most highly regarded guests stay, since
+it is luxurious beyond your wildest imagination. This is only the living
+room of the suite, but it is huge and tastefully decorated. All the
+furniture is not only beautiful, but also made for comfort. To the
+north, there is an exit to the bedroom, and there is a door to the west.
+~
+0 D 0
+D0
+You see the bedroom.
+~
+~
+0 -1 15244
+D3
+Behind the door you see the entrance to the Guest Wing.
+~
+door~
+1 -1 15238
+S
+#15240
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. It leads north and south.
+~
+0 D 0
+D0
+You see the corridor continue.
+~
+~
+0 -1 15245
+D2
+You see the corridor continue.
+~
+~
+0 -1 15235
+S
+#15241
+The Ball Room~
+You are standing in the great Ball Room. It is a truly large room,
+with a stage for an orchestra in the south-east end.
+~
+0 D 0
+D0
+You see the Ball Room.
+~
+~
+0 -1 15246
+D1
+To the east you see the stage.
+~
+~
+0 -1 15242
+S
+#15242
+By the stage~
+Before you you see the stage. It is large enough for some 40
+musicians to play on at the same time. The Ball Room continues
+to the west and north.
+~
+0 D 0
+D0
+You see the Ball Room.
+~
+~
+0 -1 15247
+D3
+You see the Ball Room.
+~
+~
+0 -1 15241
+E
+stage~
+~
+S
+#15243
+A Guest Room~
+You are standing in a large room. Although it is comfortable enough,
+you can tell it is not meant for any of the most illustrious guests,
+since it lacks that extreme luxury found elsewhere in the Castle.
+~
+0 D 0
+D2
+Behind the door, you see the entrance to the Guest Wing.
+~
+door~
+1 -1 15238
+S
+#15244
+The Bedroom~
+This room is dominated by the huge four-poster bed, that stands
+against the northern wall. The room is large and cosy, and the bed
+virtually begs you to lie down in it and sleep.
+~
+0 D 0
+D2
+You see the living room of the suite.
+~
+~
+0 -1 15239
+E
+bed~
+Large, comfortable, bolstered... Invites you to sleep in it.
+~
+S
+#15245
+The corridor~
+You are standing in a long corridor, decorated with tapestries
+depicting old times and old heroes. It leads north and south. There
+is an exit to the east, that leads to a large room.
+~
+0 D 0
+D0
+You see the corridor continue.
+~
+~
+0 -1 15249
+D1
+You see the Ball Room.
+~
+~
+0 -1 15246
+D2
+You see the corridor continue.
+~
+~
+0 -1 15240
+S
+#15246
+The Ball Room~
+You are standing in the great Ball Room. It is a truly large room,
+with a stage for an orchestra in the south-east end.
+~
+0 D 0
+D1
+You see the Ball Room.
+~
+~
+0 -1 15247
+D2
+You see the Ball Room.
+~
+~
+0 -1 15241
+D3
+You see the corridor.
+~
+~
+0 -1 15245
+S
+#15247
+The Ball Room~
+You are standing in the great Ball Room. It is a truly large room,
+with a stage for an orchestra in the south-east end.
+~
+0 D 0
+D1
+To the east, you can enter a tower.
+~
+~
+0 -1 15248
+D2
+To the south you see the stage.
+~
+~
+0 -1 15242
+D3
+You see the Ball Room.
+~
+~
+0 -1 15246
+S
+#15248
+In the Tower~
+You are standing in the north-eastern of the three great watch-
+towers of the Castle. To the west, you can enter the Ball Room and
+there are stairs leading up into the Tower.
+~
+0 D 0
+D3
+You see the Ball Room.
+~
+~
+0 -1 15247
+D4
+The stairs lead a long way up to the top of the Tower.
+~
+~
+0 -1 15254
+E
+stairs~
+The stairs are made out of granite, and seem solid enough.
+~
+S
+#15249
+The Grand Staircase~
+You are standing on a great staircase, that leads up and down. To
+the east, there is a large oak door, and a corridor leads south.
+~
+0 D 0
+D1
+The door is large and made out of oak.
+~
+door oak large~
+1 15213 15250
+D2
+You see the corridor.
+~
+~
+0 -1 15245
+D4
+The stairs continue up to the top of the tower.
+~
+~
+0 -1 15253
+D5
+The stairs lead down to the first floor of the Castle.
+~
+~
+0 -1 15225
+E
+stairs~
+The stairs are made of marble, and there are pillars carved in the
+likenesses of trees with little animals running up and down the trunks.
+~
+S
+#15250
+The Cosy Room~
+You have entered a large, cosy living room. There is a fireplace
+with a fire burning, and a few comfortable chairs around a little
+table. There is a door to the west, and also an exit to the east.
+~
+0 D 0
+D1
+You see a large bedroom.
+~
+~
+0 -1 15251
+D3
+The door is large, and made out of oak.
+~
+door large oak~
+1 15213 15249
+E
+fire fireplace~
+The fire is built out of logs, and seems to be able to burn for
+quite a while longer.
+~
+E
+table~
+The table is made of mahogany, and elegant in a cosy way(!)
+~
+E
+chairs~
+The chairs are arranged around the fireplace.
+~
+S
+#15251
+The King's Bedroom~
+This is a large room, with a wonderful view. To one side of the
+room, stands a large four-poster bed. All around the room there are
+massive bookshelves, filled with all kinds of books. The titles include
+works such as: 'A Treatise on the History of Midgaard and surrounding
+areas', 'Magic - A Beginner's Introduction' and many others. There is
+an exit to the west.
+~
+0 D 0
+D3
+There is a large and cosy room to the west.
+~
+~
+0 -1 15250
+E
+books book shelf shelves bookshelf bookshelves~
+Most of the books seem worn, as if thoroughly studied. The King
+evidently is interested in keeping himself educated.
+~
+E
+bed~
+Seems nice enough to sleep in, though you would never dare to, since
+it is a Royal Bed!
+~
+E
+history midgaard~
+A dry tome, filled with boring knowledge.
+~
+E
+magic~
+Beginner? This book goes beyond most of what YOU know about magic
+anyway. But then, there are levels of magical knowledge, it seems.
+~
+S
+#15252
+Up in the Tower~
+After a long climb, you finally reach the top of the tower. This
+room is small, and the only light source is a flickering candle, on
+a cluttered table, in the middle of the room. The only obvious exit
+is back down the stairs.
+~
+0 D 0
+D5
+The stairs go down the tower.
+~
+~
+0 -1 15234
+E
+table~
+On the table are various objects, all very strange-looking.
+~
+E
+candle~
+Small, uninteresting... A candle that is as normal as can be.
+~
+S
+#15253
+The Top of the Tower~
+You have arrived at the top of the tower. This tower is pretty
+uninteresting, and seems made purely for reasons of defence and
+guarding. The windows are slits for bowmen, very narrow on the
+outward side and broad inwards to allow a wide shooting angle.
+The only evident exit is down the stairs again.
+~
+0 D 0
+D5
+The stairs go down to the second floor.
+~
+~
+0 -1 15249
+E
+window slit~
+As you look out the windows, you are granted a view of the country..
+(To be filled in when I have YOUR part of the area..:-) ggg )
+~
+S
+#15254
+The Top of the Tower~
+This is the highest of all the towers, and is obviously used for
+lookout purposes. The view is splendid in all four directions. All
+around you, the rich countryside spreads out to the horizon. To the
+north and east you see a vast mountain range, and far to the west
+a beautiful lake. A bit closer, the town of Midgaard lies at the
+end of the King's Road. The only exit you can see is down again.
+~
+0 D 0
+D0
+To the north, the tall White Mountains have their highest peaks.
+The mountaintops disappear in the white clouds, far above the
+plains. The sight of those high, far mountains fills you with a
+desire to scale them, to see the world from that vantage.
+~
+~
+0 -1 -1
+D1
+In the east you see an arm of the dominating mountain range on this
+continent, the White Mountains. Though not as high as those in the
+north, the sight of those mountains fills you with awe.
+~
+~
+0 -1 -1
+D2
+To the south, rolling hills stretch away, as far as you can see.
+~
+~
+0 -1 -1
+D3
+As you look west, you see a river flowing through all of Midgaard
+and continuing beyond it towards a great lake. Still further
+away, you can glimpse something silvery that has to be the Sea.
+~
+~
+0 -1 -1
+D5
+You see the stairs going back down to the second floor.
+~
+~
+0 -1 15248
+S
+#0
+
+
+#RESETS
+*
+M 1 15201 1 15217 1 *                    King Welmar
+E 1 15201 -1 16
+E 1 15202 -1 17
+E 1 15203 -1 6
+E 1 15204 -1 0
+G 1 15213 1
+*
+M 1 15203 1 15242 1			Loads of guards..
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15204 1 15223 1			Two in the Training Room.
+E 1 15206 -1 16 .. both wielding training swords.
+E 1 15214 -1 5
+M 1 15205 1 15223 1
+E 1 15206 -1 16
+E 1 15214 -1 5
+*
+M 1 15206 1 15235 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15207 1 15228 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15208 1 15223 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15209 1 15208 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15210 1 15232 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15220 1 15217 1
+E 1 15219 -1 16
+E 1 15220 -1 5
+*
+M 1 15221 1 15217 1
+E 1 15219 -1 16
+E 1 15220 -1 5
+*
+M 1 15211 1 15219 1
+E 1 15222 -1 16
+E 1 15214 -1 5
+*
+M 1 15228 1 15247 1			*  The next four are recent!
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15229 1 15209 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15226 1 15208 1			*   Two guards in the Guard Room.
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15227 1 15208 1			*  (These guys are sitting)
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15212 1 15223 1			*  Peter
+E 1 15220 -1 5  *  Also swapped these two lines so he will wear something.
+E 1 15215 -1 16 *  Changed max(broadsword) to 10.
+*
+M 1 15213 1 15223 1			*   The Training Master
+E 1 15219 -1 16
+*
+M 1 15214 1 15217 1			*  The Herald
+*
+M 1 15216 1 15227 1			*  The Butler
+G 1 15208 1        * .. with his key
+*
+M 1 15217 5 15210 1			*  Some Cleaning Women
+M 1 15217 5 15210 1
+M 1 15217 5 15241 1
+M 1 15217 5 15241 1
+M 1 15217 5 15238 1
+*
+M 1 15219 1 15252 1			*  The Astrologer
+G 1 15211 10       * .. with a brown potion
+* G 1 3042 100        .. a recall scroll
+* G 1 3040 100        .. and an identify scroll
+*
+M 1 15222 1 15205 1			*  The Chef and some cooks
+G 1 15216 50       *.. Lobster
+G 1 15217 50       *.. Some Russian Caviar
+M 1 15223 2 15205 1
+G 1 15209 1        *.. the Cook has the key to the chest.
+M 1 15223 2 15205 1
+*
+M 1 15224 1 15236 1			*  Dick & David + EQ
+E 1 15218 -1 16
+E 1 15214 -1 5
+G 1 15207 1        *  And David has the key.
+M 1 15225 1 15236 1			*
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+O 1 15225 1 15237			1 * iron chest
+P 1 15223 1 15225 1			* A huge treasure in iron chest.
+*
+O 1 3021 1 15223			1  * Some weapons in training room.
+O 1 3021 1 15223			1
+O 1 3023 1 15223
+O 1 3020 1 15223
+O 1 15210 1 15226			1 *  And the chest in the servants' quarters.
+O 1 15205 1 15252			1 *  The telescope by the Astrologer.
+*
+M 1 15230 1 15237 1			* executioner
+E 1 15224 1 16     * evil weapon 10d11
+E 1 15226 1 17     * great key
+M 1 15202 1 15254 1			* ghost
+*
+M 1 15215 1 15235 1			* murder
+*
+D 1 15206 1 1      *   Closing doors
+D 1 15207 3 1
+D 1 15220 1 1
+D 1 15221 3 1
+D 1 15221 0 1
+D 1 15226 2 1
+D 1 15222 0 2
+D 1 15227 2 2      * (Tog bort d|rr mellan 23/24)
+D 1 15223 0 1      * (Och la till en mellan 23/28)
+D 1 15228 2 1
+D 1 15236 1 2
+D 1 15237 3 2
+D 1 15238 0 1
+D 1 15243 2 1
+D 1 15238 1 1
+D 1 15239 3 1
+D 1 15249 1 2
+D 1 15250 3 2
+S
+
+
+#SPECIALS
+M  15219 spec_cast_mage           * astrologer
+S
+
+
+#$

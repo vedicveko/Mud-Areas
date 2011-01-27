@@ -1,0 +1,1852 @@
+#AREA	{1 65} Yaegar Kendermore~
+
+
+#HELPS
+0 Kendermore~
+Welcome to Kendermore! This is a li'l town I threw together around a pub ;)
+The town is based on the Kender of Krynn (Dragonlance fame), and on the
+Kender history and ideology as espoused in Anonymud, the mud this area was
+originally written for.
+
+- Yaegar March 1996
+
+~
+
+0 $~
+
+
+#MOBILES
+#14900
+kender scout~
+a kender scout~
+A kender scout patrols for enemies.
+~
+Kender scouts are respected by the whole community for their role in
+detecting potential threats to their village. They are rather serious by
+Kender standards, as recent attacks have made them constantly alert for
+any invaders. They thus glare at you VERY suspiciously.
+~
+64|8388608 32|512 400 S
+14 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14901
+kender adult male~
+an adult male kender~
+An adult male kender rushes past you, topknot bobbing madly.
+~
+He sure seemed to be in a hurry. Doubtless he'd just discovered something
+curious he wanted to examine as soon as possible... Hey! Didn't you have
+TWO of those silver bracelets???
+~
+64|128|8388608 512 400 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14902
+kender adult female~
+an adult female kender~
+An adult female kender smiles at you and curtseys.
+~
+She seems friendly enough. In fact she seems quite nice. Imagine people
+thinking such sweet people could be THIEVES... You smile as you reach for
+a trinket to give to her, only to notice that your trinkets are all gone...
+~
+64|128|8388608 512 400 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#14903
+kender child~
+a kender child~
+A small kender child gazes at you curiously.
+~
+Younger kender, unused to the outside world, find strangers and the strange
+items they bear of GREAT interest...
+~
+64|128|8388608 512 400 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14904
+kender healer~
+the kender healer~
+An ancient kender smiles benevolently at you.
+~
+This fellow cures the ailments of the locals and travellers alike. He seems
+to be a sweet old fellow... WAIT! Did you just see him steal a loaf of bread
+off an elderly woman? No, that's ok... he just BORROWED it.
+~
+2|64|2048 4|8|16|32|128|512|8192 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14905
+kender warrior~
+a kender warrior~
+A kender warrior swaggers past you, chased by a flock of young girls.
+~
+Kender warriors as a scary lot, scary in the way that it's scary to trust
+nuclear weapons in the hands of people with the minds of eight year olds-
+WAIT! We do that anyway! Ah well... Kender warriors, indeed all Kender, are
+most feared (to them, other races consider it avoiding) for their taunt
+ability, with which they can stoke the temper of the most placid of foes into
+a raging fury.
+~
+8|64|8388608 512 400 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14906
+kender storyteller~
+the kender storyteller~
+The kender storyteller is amusing a horde of children with his tales.
+~
+Kender fairytales are quite fascinating and very humorous. Unfortunately,
+you don't have time to sit and listen to one (and I don't have the time to
+sit here and write one :P).
+~
+2|64|128|8388608 128|512 500 S
+39 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14907
+kender chief~
+the kender chief~
+The chief of Kendermore greets you.
+~
+The chief is a cheery fellow, full of energy and humor. He grabs your hand
+and shakes it rapidly, then pounds you on the back (or more likely your
+buttocks if you are over four feet tall) and invites you to the tavern for
+a drink and a chat. What a splendid fellow! You find yourself suddenly
+reaching for your wallet. You could have SWORN you had it in your back
+pocket...
+~
+8|64|8388608 128|512 400 S
+55 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14908
+kender tas tasslehoff burrfoot~
+Tasslehoff Burrfoot~
+A particularly inquisitive kender introduces himself as Tas.
+~
+Everyone knows Tas, that most famous of Kender. Guard your possessions
+carefully.
+~
+2|64|8388608 128|512 1000 S
+44 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14909
+kender drunk~
+a drunk kender~
+A drunk kender staggers into you.
+~
+Watch your wallet!
+~
+64|128|8388608 512 400 S
+11 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14910
+kender baker~
+the kender baker~
+A kender baker greets you.
+~
+This fellow stocks a wide variety of goods.
+~
+2|64 0 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14911
+kender grocer~
+the kender grocer~
+A kender grocer greets you.
+~
+This woman stocks a wide variety of goods.
+~
+2|64 0 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#14912
+kender armorer~
+the kender armorer~
+A kender armorer greets you.
+~
+This fellow stocks a wide variety of goods.
+~
+2|64 0 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14913
+kender herbalist~
+the kender herbalist~
+A kender herbalist greets you.
+~
+This woman stocks a wide variety of goods.
+~
+2|64 0 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#14914
+kender bartender~
+the kender bartender~
+The bartender smiles and offers you a drink.
+~
+This rotund fellow was once an adventurer like yourself. As he pours your
+beers he recounts a tale of a time when he slew two dragons.
+~
+2|64 0 1000 S
+109 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#14915
+wild boar~
+a wild boar~
+A wild boar charges at you!
+~
+These boar are hunted by the Kender. They deserve it.
+~
+32|64|8388608 0 0 S
+11 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#14916
+hunting dog~
+a hunting dog~
+A hunting dog barks at you.
+~
+Don't kill it- it's a natural reaction ;)
+~
+64|128 0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#14900
+hoopak~
+a hoopak~
+A hoopak lies here.~
+~
+5 0 1|8192
+0 0 0 0 
+5 0 0
+A
+18 2
+E
+hoopak~
+A hoopak is a staff-sling, that can be used to bash your opponent or hurl
+a rock at it. Not being familiar with such a weapon, you can only use it
+to bash.
+~
+#14901
+topknot~
+a kender's topknot~
+Kender topknots are a source of pride and status.~
+~
+9 0 1|16
+0 0 0 0 
+1 0 0
+A
+2 1
+A
+4 -1
+A
+14 10
+#14902
+breeches~
+a pair of breeches~
+A pair of blue breeches lie here.~
+~
+9 0 1|32
+0 0 0 0 
+1 0 0
+#14903
+fur jacket~
+a fur jacket~
+This fur jacket will help keep the chill november wind out.~
+~
+9 0 1|8
+0 0 0 0 
+2 0 0
+A
+17 -10
+#14904
+cloak~
+a brown cloak~
+A brown cloak is crumpled up on the floor here.~
+~
+9 0 1|4
+0 0 0 0 
+1 0 0
+A
+5 2
+#14905
+toy~
+a child's toy~
+This toy could do you an injury if you stood on it.~
+~
+13 0 1|16384
+0 0 0 0 
+1 0 0
+#14906
+pouch~
+a pouch~
+This pouch would hang well at your belt.~
+~
+15 0 1|4096
+25 1 0 0 
+1 0 0
+#14907
+spear~
+a short spear~
+These spear are ideal for hunting boar.~
+~
+30 0 1|8192|16384
+0 0 0 0 
+1 0 0
+#14908
+short sword~
+a magic short sword~
+A magical short sword is here.~
+~
+5 1|64 1|8192
+0 0 0 11 
+10 0 0
+A
+18 4
+A
+19 4
+#14909
+gem~
+a gem~
+A pretty emerald lies here.~
+~
+8 0 1|16384
+0 0 0 0 
+1 1000 0
+#14910
+potion~
+a dark potion~
+A dark potion rests here.~
+~
+10 2 1|16384
+10 16 16 43 
+1 0 0
+#14911
+loaf wheat bread~
+a loaf of wheat bread~
+A loaf of freshly-baked wheat bread sits here.~
+~
+19 0 1
+12 0 0 0 
+1 0 0
+#14912
+sweet roll~
+a sweet roll~
+*>MMM<* a sweet roll that looks DELICIOUS!~
+~
+19 0 1
+3 0 0 0 
+1 0 0
+#14913
+sponge cake~
+a sponge cake~
+A sponge cake sits neglected here.~
+~
+19 0 1
+6 0 0 0 
+1 0 0
+#14914
+black currant pie~
+a black currant pie~
+(Steaming) A black currant pie steams away here.~
+~
+19 0 1
+5 0 0 0 
+1 0 0
+#14915
+backpack~
+a small backpack~
+A small backpack lies on its side here.~
+~
+15 0 1|8
+50 1 0 0 
+1 0 0
+#14916
+torch~
+a torch~
+A torch sits here.~
+~
+1 0 1|16384|65536
+0 0 24 0 
+1 0 0
+#14917
+tent~
+a camping tent~
+A camping tent has been pitched here.~
+~
+15 262144 1
+1000 1 0 0 
+10 1000 0
+#14918
+blanket~
+a coarse blanket~
+A coarse blanket lies here.~
+~
+9 0 1|1024
+0 0 0 0 
+2 0 0
+#14919
+waterskin water skin~
+a waterskin~
+A full waterskin is here.~
+~
+17 0 1|16384
+5 5 0 0 
+1 0 0
+#14920
+leather jerkin~
+a stout leather jerkin~
+A stout leather jerkin can be seen here.~
+~
+9 0 1|8
+0 0 0 0 
+4 0 0
+A
+5 1
+#14921
+hoopak~
+a hoopak~
+A hoopak lies here.~
+~
+5 0 1|8192
+0 0 0 0 
+5 0 0
+A
+18 1
+A
+19 1
+E
+hoopak~
+A hoopak is a staff-sling, that can be used to bash your opponent or hurl
+a rock at it. Not being familiar with such a weapon, you can only use it
+to bash.
+~
+#14922
+sling~
+a sling~
+A sling has been left here.~
+~
+5 0 1|8192
+0 0 0 7 
+1 0 0
+A
+18 3
+A
+19 -3
+#14923
+boots~
+a pair of hiking boots~
+A pair of hiking boots sit here.~
+~
+9 0 1|64
+0 0 0 0 
+3 0 0
+A
+14 50
+#14924
+yellow herb~
+a yellow herb~
+A yellow herb is here.~
+~
+26 64 1
+10 1 3 0 
+1 500 0
+E
+yellow herb~
+This herb will increase your defenses and engender the blessing of the Gods.
+~
+#14925
+red herb~
+a red herb~
+A red herb is here.~
+~
+26 64 1
+10 77 19 44 
+1 500 0
+E
+red herb~
+This herb will greatly increase your powers of perception.
+~
+#14926
+green herb~
+a green herb~
+A green herb is here.~
+~
+26 64 1
+10 29 34 0 
+1 500 0
+E
+green herb~
+This herb will conceal and protect you.
+~
+#14927
+white herb~
+a white herb~
+A white herb is here.~
+~
+26 64 1
+10 61 81 0 
+1 500 0
+E
+white herb~
+This herb will heal and refresh you.
+~
+#14928
+pint beer~
+a pint of beer~
+A pint of beer foams here.~
+~
+17 0 1|16384
+2 2 1 0 
+1 0 0
+#14929
+glass whiskey~
+a glass of whiskey~
+A glass of whiskey sits here.~
+~
+17 0 1|16384
+1 1 5 0 
+1 0 0
+#14930
+glass wine~
+a glass of wine~
+A glass of wine is here. Nice head.~
+~
+17 0 1|16384
+1 1 2 0 
+1 0 0
+#14931
+pint ale~
+a pint of ale~
+A pint of ale is here.~
+~
+17 0 1|16384
+2 2 3 0 
+1 0 0
+#14932
+counter~
+a shop counter~
+A shop counter rests here.~
+~
+12 0 0
+0 0 0 0 
+1 0 0
+#14933
+chair~
+a comfy chair~
+A comfy chair rests near a fireplace here.~
+~
+12 0 0
+0 0 0 0 
+1 0 0
+E
+comfy chair~
+It is indeed a very comfortable-looking chair.
+~
+#14934
+hearth fireplace~
+a fireplace~
+A fire crackles merrily away in the hearth.~
+~
+12 1 0
+0 0 0 0 
+1 0 0
+E
+hearth fireplace~
+You feel all toasty and warm!
+~
+#14935
+keg ale~
+a keg of ale~
+A keg of ale rests here.~
+~
+17 0 1
+25 25 3 0 
+25 0 0
+E
+keg ale~
+It has BASS in gold letters on one side...
+~
+#14936
+keg beer~
+a keg of beer~
+A keg of beer rests here.~
+~
+17 0 1
+25 25 1 0 
+25 0 0
+E
+keg beer~
+It has Kilkenny in gold letters on one side...
+~
+#14937
+keg spirits~
+a keg of spirits~
+A keg of spirits rests here.~
+~
+17 0 1
+25 25 5 0 
+25 0 0
+E
+ale~
+It has Johnny Walker in gold letters on one side...
+~
+#14938
+bottle white wine~
+a bottle of white wine~
+A bottle of white wine is in a rack here.~
+~
+17 0 1
+5 5 2 0 
+5 0 0
+E
+bottle white wine~
+Mmm! A good year!
+~
+#14939
+bottle red wine~
+a bottle of red wine~
+A bottle of red wine is in a rack here.~
+~
+17 0 1
+5 5 2 0 
+5 0 0
+E
+bottle red wine~
+Mmm! A good year!
+~
+#14940
+desk~
+an ornate desk~
+An ornate desk sits in the center of the room.~
+~
+12 0 0
+0 0 0 0 
+1 0 0
+E
+desk~
+It looks to be very old and expensive. You wonder who it was borrowed from...
+~
+#14941
+papers~
+some papers~
+Some papers are scattered about here.~
+~
+2 0 1|16384
+20 38 0 0 
+1 0 0
+E
+papers~
+All figures and other accounting stuff... very dull.
+~
+#14942
+chair~
+an office chair~
+An office chair rests near a desk here.~
+~
+12 0 0
+0 0 0 0 
+1 0 0
+E
+chair~
+It is indeed a very comfortable-looking chair.
+~
+#14943
+bed~
+a four poster bed~
+A four poster bed sits near the center of the room.~
+~
+12 0 0
+0 0 0 0 
+1 0 0
+E
+bed~
+It is very comfortale looking, made with silk sheets and all.
+~
+#0
+
+
+#ROOMS
+#14900
+The Path Leading to Kendermore~
+You are skipping along a narrow trail lined with white stones toward a small
+village in a light wood. From here, all you can see is the wooden barricade
+surrounding the hamlet, and the smoke of many fires coming from the chimneys
+of the houses. There is, of course, a sign here.
+~
+0 4 2
+D1
+~
+~
+0 -1 10020
+D3
+~
+~
+0 -1 14901
+E
+sign~
+The sign says-
+
+Hi! Welcome to the Village of Kendermore. Please don't be aggressive or we'll
+set the dogs on you.
+
+                    Regards,
+                            The Chief
+    
+PS Type Help Kendermore for more info.
+~
+S
+#14901
+The Path Leading to Kendermore~
+You are skipping along a narrow trail lined with white stones toward a small
+village in a light wood. From here, you think you can see signs of activity
+in the wood, which is directly to the east of hear. Listening carefully, you
+hear grunts and squeals, followed by triumphant cries.
+~
+0 0 2
+D1
+~
+~
+0 -1 14900
+D3
+~
+~
+0 -1 14902
+S
+#14902
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+~
+0 0 3
+D0
+~
+~
+0 -1 14903
+D1
+~
+~
+0 -1 14901
+D2
+~
+~
+0 -1 14907
+D3
+~
+~
+0 -1 14905
+S
+#14903
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+~
+0 0 3
+D2
+~
+~
+0 -1 14902
+D3
+~
+~
+0 -1 14904
+S
+#14904
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+~
+0 0 3
+D1
+~
+~
+0 -1 14903
+D2
+~
+~
+0 -1 14905
+S
+#14905
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+
+The entrance to the village is directly west of here.
+~
+0 0 3
+D0
+~
+~
+0 -1 14904
+D1
+~
+~
+0 -1 14902
+D2
+~
+~
+0 -1 14906
+D3
+~
+~
+0 -1 14908
+S
+#14906
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+~
+0 0 3
+D0
+~
+~
+0 -1 14905
+D1
+~
+~
+0 -1 14907
+S
+#14907
+A Light Wood~
+You are passing through a lightly forested area that lies before the kender
+village. You see shapes moving through the trees on either side of you, and
+you feel rather uneasy, as if you were being watched.
+~
+0 0 3
+D0
+~
+~
+0 -1 14902
+D3
+~
+~
+0 -1 14906
+S
+#14908
+Out of the Woods~
+You emerge once more onto a narrow, stone-lined path. The gates of the kender
+village are directly before you. From here you can peer down the main street
+of the village. You see elderly kender seated upon porches watching their
+grandchildren play, while older kender youths stride about with their hoopaks,
+showing off to a group of giggling kender schoolgirls.
+~
+0 0 1
+D1
+~
+~
+0 -1 14905
+D3
+~
+~
+1 0 14909
+S
+#14909
+Main Street~
+Streets head off in all directions from here; north and south toward private
+residences, west toward the village square, and east back out of town.
+~
+0 0 1
+D0
+~
+~
+0 -1 14910
+D1
+~
+~
+1 0 14908
+D2
+~
+~
+0 -1 14914
+D3
+~
+~
+0 -1 14918
+S
+#14910
+A Side Street~
+You are walking along a side street, past the doors of several private
+residences. You can enter them if you want- trespassing is rude (not to
+mention illegal) but what do you care?
+~
+0 0 1
+D0
+~
+~
+1 0 14912
+D1
+~
+~
+1 0 14913
+D2
+~
+~
+0 -1 14909
+D3
+~
+~
+1 0 14911
+S
+#14911
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D1
+~
+~
+1 0 14910
+S
+#14912
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D2
+~
+~
+1 0 14910
+S
+#14913
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D3
+~
+~
+1 0 14910
+S
+#14914
+A Side Street~
+You are walking along a side street, past the doors of several private
+residences. You can enter them if you want- trespassing is rude (not to
+mention illegal) but what do you care?
+~
+0 0 1
+D0
+~
+~
+1 0 14909
+D1
+~
+~
+1 0 14915
+D2
+~
+~
+1 0 14916
+D3
+~
+~
+1 0 14917
+S
+#14915
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D3
+~
+~
+1 0 14914
+S
+#14916
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D0
+~
+~
+1 0 14914
+S
+#14917
+A Private Residence~
+You have entered the home of some kender family. Not surprisingly it is
+crammed full of useless junk that the family has "acquired" over the years,
+then cast aside in boredom a few days later. Other than that the home looks
+quite comfortable.
+~
+0 8 0
+D1
+~
+~
+1 0 14914
+S
+#14918
+Main Street~
+You are heading along a cobbled path that runs through the center of the
+kender village. The town square lies to the west of here, while the village
+gates lie east.
+~
+0 0 1
+D1
+~
+~
+0 -1 14909
+D3
+~
+~
+0 -1 14919
+S
+#14919
+The Village Square~
+Here, the kender gather for meetings, festivals, markets and general
+entertainment. There is always something happening here. You gaze admiringly
+at the neatly pruned hedges that line the stone floored area, and at the
+intricately carved fountain that sits in the center of the square (a "gift"
+from the elves; doubtless the elves didn't give it consciously).
+~
+0 0 1
+D0
+~
+~
+0 -1 14920
+D1
+~
+~
+0 -1 14918
+D2
+~
+~
+0 -1 14921
+D3
+~
+~
+0 -1 14922
+S
+#14920
+The Healer's Lodge~
+Here the kender cleric heals the injuries of his god's flock as well as any
+ailments visitors such as yourself may have. He stands behind a carved stone
+altar, grinning impishly (kender are NEVER truly serious) at you.
+~
+0 8 0
+D2
+~
+~
+0 -1 14919
+S
+#14921
+The Chief's Lodge~
+The Chief of the village resides here. He is a cheerful fellow who is very
+fond of his drink, and can more often than not be found at the pub.
+~
+0 8 0
+D0
+~
+~
+0 -1 14919
+S
+#14922
+Main Street~
+You are heading along a cobbled path that runs through the center of the
+kender village. The town square lies to the east of here, while the Grande
+Pub lies to the east. Shops lie to the north of here, and there are some
+barracks to the south.
+~
+0 0 1
+D0
+~
+~
+0 -1 14926
+D1
+~
+~
+0 -1 14919
+D2
+~
+~
+0 -1 14923
+D3
+~
+~
+1 0 14932
+S
+#14923
+Kender Barracks~
+Here the standing militia of the village reside. This militia constitutes all
+able bodied males over the age of majority for one year of their lives. The
+presence of such a force is necessitated by the constant raids by hobgoblins
+and goblins recently.
+~
+0 0 1
+D0
+~
+~
+0 -1 14922
+D2
+~
+~
+1 0 14924
+D3
+~
+~
+1 0 14925
+S
+#14924
+Barracks~
+This room is piled high with unwashed clothing and loads of stuff filched
+from passing merchant caravans. Evidently the militia don't take their job
+too seriously, but then again when has a kender ever been known to take
+things seriously...?
+~
+0 8 0
+D0
+~
+~
+1 0 14923
+S
+#14925
+Barracks~
+This room is piled high with unwashed clothing and loads of stuff filched
+from passing merchant caravans. Evidently the militia don't take their job
+too seriously, but then again when has a kender ever been known to take
+things seriously...?
+~
+0 8 0
+D1
+~
+~
+1 0 14923
+S
+#14926
+Shopper's Row~
+This lane is lined with quaint little shops that cater largely to outsiders
+(kender aren't known for paying for their possessions). You will be able
+to buy and sell a variety of items here.
+~
+0 0 1
+D0
+~
+~
+0 -1 14928
+D2
+~
+~
+0 -1 14922
+D3
+~
+~
+0 -1 14927
+S
+#14927
+A Grocery Store~
+The shelves of this establishment are piled high with goodies of all sorts.
+Kender passing by each stop to stare longingly for a few seconds before they
+are shooed on by the good-natured proprietor.
+~
+0 8 0
+D1
+~
+~
+0 -1 14926
+S
+#14928
+Shopper's Row~
+This lane is lined with quaint little shops that cater largely to outsiders
+(kender aren't known for paying for their possessions). You will be able
+to buy and sell a variety of items here.
+~
+0 0 1
+D0
+~
+~
+0 -1 14930
+D1
+~
+~
+0 -1 14931
+D2
+~
+~
+0 -1 14926
+D3
+~
+~
+0 -1 14929
+S
+#14929
+The Bakery~
+The mouth-watering aroma emanating from this place of business is enough
+to drive you mad! You suddenly realize how hungry you are, and decide to
+sample a few locally-baked items (or maybe more...:P).
+~
+0 8 0
+D1
+~
+~
+0 -1 14928
+S
+#14930
+The Herbalist~
+This store is crammed with sacks, jars, bags and baskets of freshly-picked
+herbs. Grown by the proprietor herself, these herbs have a wide variety of
+magical effects, though you won't know what until you buy and examine them.
+~
+0 8 0
+D2
+~
+~
+0 -1 14928
+S
+#14931
+The Armory~
+Not a very popular destination for the locals, being as kender aren't the
+most aggressive of races, but perhaps it will be of interest to you.
+~
+0 8 0
+D3
+~
+~
+0 -1 14928
+S
+#14932
+The Grande Pub~
+At last! The place you were searching for all along (well, if you weren't,
+you are now ;P). This magnificent pub is over 500 years old. Fashioned from
+the finest cedar, its shining floors, massive benches, long, stein-covered
+bars and intricately-carved stools make you just want to drink yourself to
+death. You elbow your way through the crowd that always fills this pub, and
+have a good look around. Tapestries adorn the walls, as do massive portraits
+of kender of bygone years. A huge iron chandelier hangs from the massive
+crossbeams that support the 20' high roof, and you estimate that at least
+500 candles are currently burning in it.
+~
+0 8 0
+D1
+~
+~
+1 0 14922
+D3
+~
+~
+0 -1 14933
+E
+floors~
+These polished wooden floors have been painstakingly waxed every morning for
+centuries now, and they look as new as they did the day they were laid.
+~
+E
+benches~
+Long, polished wooden benches line the walls, serving as support for the
+food and drink (and usually inebriated bodies) of the many patrons here.
+~
+E
+bar bars~
+There are several bars in this place, all crowded with drunk patrons, though
+the main bar lies further in, near the central hall.
+~
+E
+stools~
+These stools were hand-carved by Thessala the patient nearly 200 years ago
+to replace the original stools, which were lost in the Great Brawl of '96.
+~
+E
+tapestries portraits~
+These depict many famous kender, as well as scenes of nature and village life.
+The tapestries are all quite rustic and atypical for kender, and you surmise
+that they were "borrowed" from some poor hobbit community.
+~
+E
+chandelier~
+This iron behemoth originally hung in the hall of Lord Garrison, commander of
+the Human armies at the Battle of the Blood Plains, but he "gave it to the
+kender as a reward for their services in the war" (it was actually to make
+them bugger off).
+~
+S
+#14933
+The Central Hall~
+Dozens of patrons gather here day in and day out to drink, sing loud songs
+and swap tall stories. You see denizens of practically every known race (and
+a few unknown) standing arm in arm singing "Auld Lang Syne", or challenging
+each other to arm wrestles, games of darts or cards, or drinking contests.
+A HUGE bar lies to the north of here, staffed by a very busy bartender.
+~
+0 8 0
+D0
+~
+~
+0 -1 14934
+D1
+~
+~
+0 -1 14932
+D3
+~
+~
+0 -1 14935
+S
+#14934
+The Bar~
+The main bar of the pub lies here. It is at least forty feet long, perhaps
+more, and though it is only 3 feet high (on account of the little folk), it
+is still impressive. A burly kender is busy serving drinks, and though he
+is being practically run off his feet, he still manages to find time for
+a quick chat with every patron. Such is the way of the Grande Pub.
+~
+0 8 0
+D2
+~
+~
+0 -1 14933
+D5
+~
+~
+1 0 14942
+S
+#14935
+The Dance Hall~
+In this part of the Pub, the Kender and their guests gather for dances,
+accompanied by a 7 piece band seated upon a dais in the corner of this huge
+room. It is currently deserted, but when the moment is right, it will be
+flooded with inebriated customers enthusiastically throwing each other about
+to the tune of kender and dwarven reels, or swaying softly to the
+accompaniment of an elven waltz. An elegantly carved staircase winds its
+way up to the next level in another corner here.
+~
+0 8 0
+D1
+~
+~
+0 -1 14933
+D4
+The staircase is quite beautiful. It goes UP.~
+staircase~
+0 -1 14936
+S
+#14936
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+~
+0 8 0
+D0
+~
+~
+1 0 14937
+D2
+~
+~
+1 0 14945
+D3
+~
+~
+0 -1 14938
+S
+#14937
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D2
+~
+~
+1 0 14936
+S
+#14938
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+~
+0 8 0
+D0
+~
+~
+1 0 14939
+D1
+~
+~
+0 -1 14936
+D2
+~
+~
+1 0 14944
+D3
+~
+~
+0 -1 14940
+S
+#14939
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D2
+~
+~
+1 0 14938
+S
+#14940
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+~
+0 8 0
+D0
+~
+~
+1 0 14941
+D1
+~
+~
+0 -1 14938
+D2
+~
+~
+1 0 14943
+D3
+~
+~
+0 -1 14946
+S
+#14941
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D2
+~
+~
+1 0 14940
+S
+#14942
+The Cellar~
+This cramped room is stuffed with keg after keg full of every type of
+alcohol known to sentient life. You are sorely tempted to attempt to steal
+all of it, but you know you could never hope to carry it all. Perhaps you
+could manage a couple of kegs, though...? ;)
+~
+0 1|8 0
+D4
+~
+~
+1 0 14934
+S
+#14943
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D0
+~
+~
+1 0 14940
+S
+#14944
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D0
+~
+~
+1 0 14938
+S
+#14945
+A Guest Room~
+You have barged into a guest room, a quaint affair nicely furnished with a
+well-carved bed, several comfortable chairs, a fireplace and a four poster
+bed. Better hope no one is in here...
+~
+0 8 0
+D0
+~
+~
+1 0 14936
+S
+#14946
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+~
+0 8 0
+D0
+~
+~
+1 0 14947
+D1
+~
+~
+0 -1 14940
+S
+#14947
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+~
+0 8 0
+D1
+~
+~
+1 0 14948
+D2
+~
+~
+0 -1 14946
+S
+#14948
+Guest Rooms and Function Rooms~
+Several doors line this corridor, leading to the various guest rooms,
+function rooms and offices of the pub.
+
+The door to the north reads- "OWNER"
+~
+0 8 0
+D0
+It says "Owner"~
+door~
+1 0 14950
+D1
+~
+~
+1 0 14949
+D3
+~
+~
+0 -1 14947
+S
+#14949
+A Function Room~
+This room is used by clubs and societies to hold functions. It is strewn with
+balloons, streamers, ashtrays full of butts and half empty beers. It also
+smells pretty bad. No wonder the cleaner didn't show up for work today.
+~
+0 1|8 0
+D3
+~
+~
+1 0 14948
+S
+#14950
+The Owner's Office~
+You have entered the office of the owner of the Grande Pub. He is currently
+downstairs living it up with the rest of the town, so you can rifle through
+his office at will.
+~
+0 1|8 0
+D2
+~
+~
+1 0 14948
+S
+#0
+
+
+#RESETS
+D 1 14910 0 1
+D 1 14910 1 1
+D 1 14910 3 1
+D 1 14911 1 1
+D 1 14912 2 1
+D 1 14913 3 1
+D 1 14914 1 1
+D 1 14914 2 1
+D 1 14914 3 1
+D 1 14915 3 1
+D 1 14916 0 1
+D 1 14917 1 1
+D 1 14923 2 1
+D 1 14923 3 1
+D 1 14924 0 1
+D 1 14925 1 1
+D 1 14934 5 1
+D 1 14936 0 1
+D 1 14936 2 1
+D 1 14937 2 1
+D 1 14938 0 1
+D 1 14938 2 1
+D 1 14939 2 1
+D 1 14940 0 1
+D 1 14940 2 1
+D 1 14941 2 1
+D 1 14942 4 2
+D 1 14943 0 1
+D 1 14944 0 1
+D 1 14945 0 1
+D 1 14948 0 1
+D 1 14948 1 1
+D 1 14949 3 1
+D 1 14950 2 1
+*
+O 1 14932 1 14927                      loads counters in shops
+O 1 14932 1 14929
+O 1 14932 1 14930
+O 1 14932 1 14931
+*
+O 1 14933 1 14937                      loads chair
+O 1 14934 1 14937                      loads hearth
+O 1 14943 1 14937                      loads bed
+O 1 14933 1 14939                      loads chair
+O 1 14934 1 14939                      loads hearth
+O 1 14943 1 14939                      loads bed
+O 1 14933 1 14941                      loads chair
+O 1 14934 1 14941                      loads hearth
+O 1 14943 1 14941                      loads bed
+O 1 14933 1 14943                      loads chair
+O 1 14934 1 14943                      loads hearth
+O 1 14943 1 14943                      loads bed
+O 1 14933 1 14944                      loads chair
+O 1 14934 1 14944                      loads hearth
+O 1 14943 1 14944                      loads bed
+O 1 14933 1 14945                      loads chair
+O 1 14934 1 14945                      loads hearth
+O 1 14943 1 14945                      loads bed
+*
+O 1 14935 1 14942                      booze in cellar
+O 1 14936 1 14942
+O 1 14937 1 14942
+O 1 14938 1 14942
+O 1 14939 1 14942
+*
+O 1 14933 1 14949                      loads chair
+O 1 14934 1 14949                      loads hearth
+*
+O 1 14934 1 14950                      loads hearth
+O 1 14940 1 14950                      loads desk
+O 1 14941 1 14950                      loads papers
+O 1 14942 1 14950                      loads chair
+*
+M 1 14900 4 14905                      loads scouts
+E 1 14900 1 16                       wields hoopak
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14906 1 13                       wears pouch
+E 1 14907 1 17                       holds spear
+M 1 14900 4 14902                      loads scouts
+E 1 14900 1 16                       wields hoopak
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14906 1 13                       wears pouch
+E 1 14907 1 17                       holds spear
+*
+M 1 14915 2 14904                      loads boars
+M 1 14915 2 14906                      loads boars
+*
+M 1 14904 1 14920                      loads healer
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14906 1 13                       wears pouch
+*
+M 1 14907 1 14921                      loads chief
+E 1 14908 1 16                       wields sword
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14906 1 13                       wears pouch
+G 1 14910 0			0                          gives potion
+*
+M 1 14905 4 14924                      loads warriors
+E 1 14900 1 16                       wields hoopak
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14907 1 17                       holds spear
+M 1 14905 4 14925                      loads warriors
+E 1 14900 1 16                       wields hoopak
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14907 1 17                       holds spear
+*
+M 1 14906 1 14919                      loads storyteller
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14906 1 13                       wears pouch
+G 1 14910 0			0                          gives potion
+*
+M 1 14908 1 14941                      loads tas
+E 1 14900 1 16                       wields hoopak
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14904 1 3                        wears cloak
+E 1 14906 1 13                       wears pouch
+G 1 14909 0			0                          gives gem
+G 1 14910 0			0                          gives potion
+*
+M 1 14909 10 14933                     loads drunks
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14906 1 13                       wears pouch
+*
+M 1 14910 1 14929                      loads baker
+G 1 14911 0			0
+G 1 14912 0			0
+G 1 14913 0			0
+G 1 14914 0			0
+*
+M 1 14911 1 14927                      loads grocer
+G 1 14915 0			0
+G 1 14916 0			0
+G 1 14917 0			0
+G 1 14918 0			0
+G 1 14919 0			0
+*
+M 1 14912 1 14931                      loads armorer
+G 1 14920 0			0
+G 1 14921 0			0
+G 1 14922 0			0
+G 1 14923 0			0
+*
+M 1 14913 1 14930                      loads herbalist
+G 1 14924 0			0
+G 1 14925 0			0
+G 1 14926 0			0
+G 1 14927 0			0
+*
+M 1 14914 1 14934                      loads bartender
+G 1 14928 0			0
+G 1 14929 0			0
+G 1 14930 0			0
+G 1 14931 0			0
+*
+M 1 14901 8 14912                      loads males
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14901 8 14916                      loads males
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14901 8 14918                      loads males
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14901 8 14919                      loads males
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14901 8 14922                      loads males
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+*
+M 1 14902 8 14911                      loads females
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14902 8 14913                      loads females
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14902 8 14917                      loads females
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14902 8 14919                      loads females
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+M 1 14902 8 14922                      loads females
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+*
+M 1 14903 6 14918                      loads kids
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14905 1 17                       holds toy
+M 1 14903 6 14919                      loads kids
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14905 1 17                       holds toy
+M 1 14903 6 14922                      loads kids
+E 1 14901 1 6                        wears topknot
+E 1 14902 1 7                        wears breeches
+E 1 14903 1 5                        wears jacket
+E 1 14905 1 17                       holds toy
+*
+M 1 14916 4 14919                      loads dogs
+*
+S
+
+#SHOPS
+14910 19 0 0 0 0 180 20 0 23 
+14911 1 15 17 18 22 150 50 0 23
+14912 5 9 0 0 0 150 50 0 23
+14913 10 26 0 0 0 180 20 0 23
+14914 17 8 0 0 0 190 10 0 23
+0
+
+#SPECIALS
+M  14900 spec_guard			a kender scout
+M  14901 spec_thief			an adult male kender
+M  14902 spec_thief			an adult female kender
+M  14903 spec_thief			a kender child
+M  14904 spec_cast_adept			the kender healer
+M  14905 spec_guard			a kender warrior
+M  14906 spec_cast_mage			the kender storyteller
+M  14907 spec_thief			the kender chief
+M  14908 spec_thief			Tasslehoff Burrfoot
+M  14909 spec_thief			a drunk kender
+M  14915 spec_fido			a wild boar
+M  14916 spec_fido			a hunting dog
+S
+
+
+#$

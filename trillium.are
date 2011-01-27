@@ -1,0 +1,1863 @@
+#AREA
+DSA Format~
+trillium.are~
+Trillium Caverns~
+{55 90} Alecca Trillium Caverns~
+18800 18899
+Descr
+No description.
+~
+Sec 9
+Levels 1 101
+Flags 0
+End
+#HELPS
+Trillium was once famous for the armor and weapon's that it made, but now
+it's a forgotten city, mostly spoken of in children's stories.  The city
+above was destroyed in a battle long long ago, and the citizens migrated
+to the caverns underneath the city, where they have lived ever since.
+
+Trillium Caverns was written by Alecca for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact, only changes to hp/weapon
+dice/armor class and the like are allowed.  Names and descriptions will
+not change.
+-1 $~
+
+#MOBILES
+#18800
+serving woman~
+A serving woman~
+A woman walks around sweeping up dust.
+~
+She is actually kind of attractive under all the dust and grime.  Too bad 
+she doesn't have time for you, as her master keeps her very busy, 
+day and night.
+~
+human~
+ACHT b 0 0 0
+62 52 5d10+600 1d1+99 3d7+7 whip
+-7 -7 -7 -5
+DFIN BN 0 D
+stand stand female 15
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 4
+End
+#18801
+religious zealot~
+A religious zealot~
+A religious zealot preaches about faith.
+~
+His faith makes him seem to glow under any kind of pressure.  Unthwarted 
+by non-believers, he strives to convert them to his beliefs.
+~
+human~
+ACHQ KY 0 0 0
+65 55 5d10+690 1d1+99 5d4+9 stab
+-8 -8 -8 -6
+CEFK Q B DK
+stand stand male 30
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 3
+End
+#18802
+mikayla~
+Mikayla~
+A gorgeous woman looks around wistfully. 
+~
+Mikayla looks melancholy.  A thin veil covers her face from prying eyes, 
+but it seems she's crying.
+~
+human~
+ABR RY H 1000 0
+66 56 6d12+703 1d1+99 2d12+6 stab
+-6 -6 -6 -10
+BEFHQ 0 C D
+stand stand female 75
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#18803
+fiolon~
+Fiolon~
+A woman stands in front of an unfinished tapestry.
+~
+Fiolon looks at the tapestry wondering what she can add to it.
+~
+human~
+ABT Kbd H 0 0
+68 58 6d12+853 1d1+99 2d12+8 wrath
+-8 -9 -9 -9
+CDEFK HJ K B
+stand stand female 50
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18804
+sandra chef~
+Sandra the Chef~
+The chef is busy making sure everything is ready for the meal later.
+~
+What a large woman!  Obviously, she's been doing a little too much sampling 
+of the food she's been cooking over the years.  Her kitchen is neat 
+and tidy, too bad she isn't.
+~
+human~
+ABHS Xbd H -300 0
+69 10 6d12+820 1d1+99 4d6+8 stab
+-10 -10 -10 -7
+BCDEFN EQ B N
+stand stand female 75
+AHMV ABCDEFGHIJK huge none
+~
+MaxWorld 1
+End
+#18805
+ailynn~
+Ailynn, the sous-chef~
+Ailynn sits at a table dicing potatoes.
+~
+Ailynn looks very tired.  It is clear that Sandra keeps her on her toes at 
+all times, and makes her do most of the work.
+~
+dwarf~
+ABT JMY HI -220 0
+70 60 6d12+853 1d1+99 4d6+9 cleave
+-7 -7 -7 -7
+BCDEFN EQ BLPQ NR
+stand stand female 80
+AHMV ABCDEFGHIJK huge none
+~
+MaxWorld 1
+End
+#18806
+elysindra~
+Elysindra~
+A little girl is hiding from her brothers in the storeroom.
+~
+She keeps giggling and teasing that her brothers will never find her in here.
+~
+human~
+ACFS MPQbd BH -400 0
+71 10 6d12+910 1d1+99 4d6+9 bite
+-11 -9 -11 -9
+DEHN AB D EHK
+stand stand female 10
+AHMV ABCDEFGHIJK huge none
+~
+MaxWorld 1
+End
+#18807
+manfred~
+Manfred~
+A little man is pacing around the room.
+~
+There is a strange little man pacing quickly back and forth across the room, 
+wringing his hands together and muttering to himself.
+~
+unique~
+ABFT JKQVbd 0 -400 0
+65 55 6d10+690 1d1+99 5d4+9 beating
+-8 -8 -8 -8
+CDE KV BQ BZ
+stand stand male 25
+AHMV ABCDEFGHIJK small none
+~
+MaxWorld 1
+End
+#18808
+gidris~
+Gidris the swordsman~
+A swordsman practices his stances.
+~
+He yells out an ancient battle cry and switches to attack stance.  He is a 
+master at the sword.
+~
+human~
+ABFT Vbd 0 -300 0
+86 56 6d12+703 1d1+99 2d12+8 claw
+-8 -8 -8 -8
+D C J D
+stand stand male 20
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18809
+drudge~
+A drudge~
+A drudge takes a needed break in the corner.
+~
+He looks tired to the bones as he rests here, hoping no one will see him 
+anytime soon.
+~
+human~
+ACHS b H -250 0
+62 62 6d12+928 1d1+99 4d6+9 claw
+-9 -9 -9 -9
+D C J D
+stand stand male 20
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 3
+End
+#18810
+tower guard~
+A tower guard~
+An tower guard is here keeping a close eye on everything.
+~
+This man will defend the tower with his life.  He was born a soldier, and 
+will die one.
+~
+unique~
+AHT VWY H -400 0
+85 65 10d10+1050 1d1+99 6d4+10 crush
+-11 -9 -14 -11
+EFHKN B E 0
+stand stand male 40
+0 0 huge none
+~
+MaxWorld 3
+End
+#18811
+rytessa~
+Rytessa~
+Rytessa, the head maid, makes sure the tower is dirt free.
+~
+Rytessa is busy looking for cobwebs and dust that might have been missed 
+during cleaning.  Her long blonde hair looks silken to the touch.  She 
+is a very cleanily woman.
+~
+human~
+ABQ Kbd H 700 0
+75 60 10d10+1050 1d1+99 6d4+10 pierce
+-11 -11 -11 -11
+EFHN BHN Q 0
+stand stand female 65
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#18812
+aramissa~
+Aramissa~
+Aramissa wonders what she should wear to the dance later.
+~
+Aramissa is surrounded by silken gowns tossed aside, she can't seem to 
+decide what to wear.
+~
+human~
+ABT MVXY H 600 0
+66 66 10d10+1100 1d1+99 6d4+10 stab
+-11 -11 -11 -11
+BEFHIN AB CEJ K
+stand stand female 150
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18813
+fela~
+Fela, the concubine~
+Fela smiles softly, thinking of pleasing men.
+~
+Fela is a true beauty.  Men fall at her feet.  How could she degrade herself 
+like this, by letting nameless men touch her body?
+~
+human~
+ABHT b H 0 0
+67 67 10d10+1150 1d1+99 4d7+9 pound
+-9 -11 -13 -11
+CDE JKQ CD 0
+stand stand female 10
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18814
+var~
+Var, the dashing knight~
+A knight stands here resplendent in his glory
+~
+Var is a legend here in Trillium Caverns.  His boasts of many battles and 
+conquered lands, tho, have yet to be proven.
+~
+human~
+ABHT Wd DEFH 750 0
+88 68 10d10+1200 1d1+99 4d7+10 stab
+-11 -11 -11 -9
+CEFN BIN 0 0
+stand stand male 250
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18815
+talissandre~
+Talissandre~
+Talissandre, the maiden warrior, is getting ready to go sparring.
+~
+Talissandre is a lithe, yet powerful warrior.  Scars on her body show that she's lived past many a battle.  She doesn't look like someone to 
+mess with.
+~
+gryphon~
+ABFT LTVZab H -550 0
+92 67 6d10+1150 1d1+99 6d4+10 claw
+-11 -11 -11 -11
+CEFHN BIN GJ FRSa
+stand stand female 15
+AGHMV ABCDEFGHIJKP medium none
+~
+MaxWorld 1
+End
+#18816
+lana~
+Lana~
+A beautiful maiden is here practicing her smile.
+~
+Her smile changes from coy to seductive.  She doesn't seem to be satisfied 
+with either.  "Practice makes perfect," she says to herself.
+~
+unique~
+ABFT b H -450 0
+77 67 10d10+1150 1d1+99 6d4+10 smash
+-11 -11 -11 -11
+C E B 0
+stand stand female 25
+0 0 giant none
+~
+MaxWorld 1
+End
+#18817
+braydn~
+Braydn~
+Braydn looks around for trouble
+~
+Braydn is one of the oldest guards around.  He is a role model for all the 
+others, people strive to be like him.
+~
+human~
+ABT VWb H 800 0
+89 69 10d10+1250 1d1+99 4d7+11 pound
+-11 -11 -11 -11
+CDEF B E 0
+stand stand male 80
+AHMV ABCDEFGHIJK giant none
+~
+MaxWorld 1
+End
+#18818
+princess vanya~
+Princess Vanya~
+A regal maiden is here.
+~
+Princess Vanya tries to duck her many suitors.  It is rumored that the man 
+who she marries will get undiscovered treasures, including herself, 
+which she wants to avoid at all costs.
+~
+human~
+ABFQ IVb H -400 0
+90 70 10d10+1300 1d1+99 4d7+11 charge
+-12 -9 -11 -12
+DE J 0 C
+stand stand female 15
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18819
+froyo~
+Froyo~
+Froyo, the master thief-catcher.
+~
+Froyo is fabled to be the best thief-catcher in the surrounding lands.  
+People from Midgaard and other towns often call on him for his services.  
+His first priority is Trillium Caverns, and he will only hire out when not 
+needed here.
+~
+human~
+ABR K H 0 0
+71 71 10d10+1350 1d1+99 4d7+12 wrath
+-12 -12 -12 -12
+BEFH AN Q 0
+stand stand male 200
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18820
+varnia~
+Varnia~
+Varnia looks around for treasure.
+~
+Varnia is a treasure hunter.  It is surprising she has made it past the 
+guards.  It is reported that her head is wanted in over fifteen cities!
+~
+human~
+ABT K H -1000 0
+75 75 10d10+1550 1d1+99 3d10+12 slice
+-13 -13 -13 -13
+BEINU Q D CN
+stand stand female 65
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#18821
+zimmer~
+Zimmer~
+Zimmer watches from the shadows.
+~
+Zimmer is a bounty hunter who's stalked Varnia over three continents.
+He's finally found her!  He  perfect opportunity to nab her.
+~
+human~
+ABHS KY H -1000 0
+78 78 15d10+1700 1d1+99 5d6+13 wrath
+-14 -12 -12 -13
+DEIN AB NQ 0
+stand stand male 50
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18822
+pahseen~
+Pahseen~
+Pahseen guards his post viligantly
+~
+Everyone is a threat to Pahseen.  He's been tricked too many times by people 
+of all sorts.  He trusts no one.
+~
+human~
+ABFT bd H -1000 0
+90 80 15d10+1850 1d1+99 4d8+13 claw
+-13 -13 -13 -13
+DEFN H 0 N
+stand stand male 40
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18823
+jaysahn~
+Jaysahn~
+Jaysahn, the tower insane man, walks around drooling.
+~
+Jaysahn drools all over himself.  People stay far away from his as possible.  H
+He is known to have uncontrollable fits of rage, and spews off lousy
+poetry to anyone who will listen.
+~
+unique~
+ABFT bd H -1000 0
+89 79 15d10+1775 1d1+99 5d6+13 smash
+-14 -13 -13 -12
+C 0 0 0
+stand stand male 40
+0 0 giant none
+~
+MaxWorld 1
+End
+#18824
+dahmia~
+Dahmia~
+Dahmia looks around for Jaysahn.
+~
+Dahmia is Jaysahn's nurse.  No one envies her her task.  She sighs, wondering 
+where he got to now.
+~
+human~
+ABT bd H -1000 0
+82 82 25d10+2000 1d1+99 4d8+14 bite
+-14 -14 -14 -14
+0 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18825
+paras~
+Paras~
+A man looks around cockily.
+~
+Paras, the self-titled master of combat, tries to impress anyone who will pay a
+attention to him.
+~
+human~
+ABFT Vb H -1000 0
+88 88 25d10+2750 1d1+99 8d4+15 slice
+-15 -15 -15 -15
+BEF C JK 0
+stand stand male 35
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#18826
+giles~
+Giles~
+Giles looks bored.
+~
+It is said that Giles has travelled to every city known to man.  This is the 
+only place that he's stayed in for more than three months, but even boredom 
+is inescapable to him here.
+~
+human~
+ABF K H -1000 0
+90 90 25d10+3000 1d1+99 8d4+20 pierce
+-15 -15 -17 -15
+CDEFHIKNO N B 0
+stand stand male 75
+AHMV ABCDEFGHIJK giant none
+~
+MaxWorld 1
+End
+#18827
+king gydon~
+King Gydon~
+A regal man is here signing treaties.
+~
+How dare you disturb the king!  His face turns red in anger.  Retreat now, 
+if possible, it is said his wrath is incomparable!
+~
+dragon~
+ABFT DFJTb DEFH -1000 0
+110 110 50d10+9500 1d1+1999 10d10+25 drain
+-45 -45 -45 -45
+ABCDEFHIJKMNO 0 BEH FI
+stand stand male 500
+AHZ ACDEFGHIJKPQUVX large none
+~
+MaxWorld 1
+End
+#0
+
+
+
+#OBJECTS
+#18800
+grimy rag~
+A {8grimy{0 rag{0~
+A {8grimy{0 rag lies on the ground~
+cloth~
+weapon H AN
+whip 8 9 whip B
+50 10 20 P
+A
+6 -1
+A
+5 1
+A
+1 1
+A
+19 15
+A
+18 13
+E
+rag~
+This thing is covered with dust and dirt.
+~
+~
+End
+#18801
+holy robe~
+{3holy robes{0~
+{3A brown rag lies on the floor{0~
+cloth~
+armor K AD
+AB AB AB AB 0
+53 1 100 P
+A
+2 2
+A
+5 1
+A
+12 40
+A
+19 10
+E
+robe~
+Cheap, but well made.
+~
+~
+End
+#18802
+brown pants~
+{3brown pants{0~
+{3Brown pants{0 lie on the floor.~
+cloth~
+armor K AF
+CD CD ACD BD 0
+52 1 200 P
+A
+4 -2
+A
+13 45
+E
+pants~
+Cheap, but well made.
+~
+~
+End
+#18803
+holy mace~
+a {choly{0 mace~
+A mace lies in the corner.~
+steel~
+weapon AK AN
+mace 3 28 pound B
+53 10 150 P
+A
+13 30
+A
+19 14
+A
+18 13
+E
+mace~
+Runes run across the handle of ths mace.
+~
+~
+End
+#18804
+crystal necklace~
+A {ccrystal{0 necklace~
+Shiny crystals catch your eye.~
+silver~
+armor ABK AC
+ACD BCD ACD BD 0
+55 1 1500 P
+A
+3 3
+A
+18 12
+A
+19 12
+E
+crystal~
+The colors catch in the light reflecting a rainbow on the floor.
+~
+~
+End
+#18805
+handkerchief~
+a wet handkerchief~
+A wet handkerchief is crumpled into a ball.~
+glass~
+wand G AO
+75 15 15 'heal' 0
+55 1 2000 P
+E
+hankie~
+Small embroidery spells out the name Mikayla.
+~
+~
+End
+#18806
+picture landscape~
+A picture of a sunny landscape~
+A gorgeous landscape is in a picture frame.~
+paper~
+armor AG AO
+ABD ABD ABD ABC 0
+45 1 1000 W
+A
+3 2
+A
+4 4
+A
+12 45
+A
+19 12
+E
+landscape~
+A gorgeous landscape from lands far away catches your eyes.  Maybe you
+will travel there one day.
+~
+~
+End
+#18807
+silken slippers~
+silken slippers~
+A pair silk slippers.~
+cloth~
+armor G AG
+ACD ACD ACD BD 0
+55 1 1000 P
+A
+13 50
+A
+4 1
+A
+3 1
+A
+1 2
+E
+slippers~
+These look very comfortable.
+~
+~
+End
+#18808
+peppery spices~
+some peppery spices~
+Some spices lie here in a bag~
+none~
+pill GM AO
+40 'haste' 'shield' 'bless' ''
+58 0 0 A
+E
+spices~
+Spices from the land of Dargozian are here.  They are so rare, yet Sandra 
+uses them freely in her cooking.
+~
+~
+End
+#18809
+knife~
+kitchen knife~
+A sharp knife~
+iron~
+weapon B AN
+dagger 9 10 slice A
+59 30 1600 P
+A
+1 1
+A
+19 20
+A
+18 20
+E
+knife~
+This knife is kept as sharp as possible.
+~
+~
+End
+#18810
+walking staff~
+A walking staff~
+A smooth stick lies in the corner.~
+steel~
+weapon AGL AN
+polearm 5 19 pierce A
+60 10 2000 P
+A
+13 20
+A
+18 13
+A
+19 12
+E
+staff~
+It's a nice, sturdy walking stick.
+~
+~
+End
+#18811
+trillium helmet~
+A Trillium helmet~
+A strong helmet lies on the floor.~
+iron~
+armor I AE
+ACD ACD ACD AD 0
+55 1 2000 P
+A
+19 12
+A
+1 2
+A
+3 1
+E
+trillium~
+It is said that Trillium armor is some of the best in the world.
+~
+~
+End
+#18812
+manacles~
+manacles~
+Some steel manacles have been dropped here.~
+steel~
+armor L AM
+BCD ABCD BCD BD 0
+60 1 1000 P
+A
+18 12
+A
+13 20
+E
+manacles~
+A guard must have dropped these.  He's probably in a lot of trouble.
+~
+~
+End
+#18813
+blue potion~
+A {ccrystal{0 blue potion~
+A small vial of bright blue liquid.~
+glass~
+potion BL A
+60 'cure blindness' 'cure disease' 'cure poison' 'remove curse'
+60 1 2000 P
+E
+vial potion blue~
+a clear vial filled with a thick blue liquid.
+~
+~
+End
+#18814
+feather duster~
+A {7feather{0 duster~
+A fluffy feather duster is here.~
+gold~
+weapon AK AN
+mace 10 10 slice B
+65 30 3600 P
+A
+12 -10
+A
+13 45
+A
+19 13
+A
+18 13
+A
+17 50
+E
+feather~
+A feather duster looks well used.
+~
+~
+End
+#18815
+closet~
+A locked closet~
+A large locked closet is in the corner of the room.~
+steel~
+container I 0
+55 ABCD 18816 50 100
+0 40 500 P
+E
+closet~
+Aramissa has locked the closet.  It's empty anyhow, all her clothes are on 
+the floor anyhow.
+~
+~
+End
+#18816
+key~
+brass key~
+A small key made of brass.~
+brass~
+key L A
+0 0 0 0 0
+0 1 1 P
+E
+key~
+The little key that opens the closet.
+~
+~
+End
+#18817
+aspirin pill bottle~
+A pill bottle~
+A small bottle of aspirin.~
+none~
+container L A
+50 0 0 5 100
+0 1 1000 P
+E
+bottle~
+The label on the bottle says, "Take in small doses only".
+~
+~
+MaxWorld 1
+End
+#18818
+aspirin~
+some aspirin~
+An aspirin pill.~
+gold~
+pill GL A
+80 'sanctuary' 'shield' 'armor' 'stone skin'
+85 1 2000 P
+E
+pill~
+A small green and white capsule.
+~
+~
+MaxWorld 9
+End
+#18819
+silken robe~
+Silk Robe~
+A silken robe, that doesn't leave much to the imagination.~
+cloth~
+armor G AK
+E E E CD 0
+67 2 1500 P
+A
+19 12
+A
+2 1
+A
+12 100
+E
+robe~
+It's a man's delight to see a woman in one of these.
+~
+~
+End
+#18820
+dominatrix paddle~
+A dominatrix paddle~
+An mean looking paddle lies on the floor.~
+wood~
+weapon B AN
+mace 10 11 thwack C
+70 10 2000 P
+A
+19 16
+A
+18 13
+E
+paddle~
+Too many men have been "pleasured" with this thing.
+~
+~
+End
+#18821
+trillium bracer~
+A Trillium bracer~
+A strong bracer lies on the floor~
+iron~
+armor AIK AM
+E E AE ACD 0
+68 1 5000 P
+A
+19 11
+A
+13 25
+A
+1 2
+E
+bracer~
+It is said that Trillium armor is among the best in the world.
+~
+~
+End
+#18822
+throwing knife~
+A steel throwing knife~
+A knife lies on the floor~
+steel~
+weapon A AN
+dagger 10 11 slice A
+70 30 2000 P
+A
+19 21
+A
+18 11
+E
+knife~
+An effective looking throwing knife.
+~
+~
+End
+#18823
+edible lipstick~
+some edible lipstick~
+A tube of {1ruby red{0 lipstick is here.~
+food~
+food L A
+BD BD 0 0 0
+0 1 10 P
+E
+lipstick~
+{1Ruby Red{0 lipstick is unique to Lana.  Her color is known everywhere.
+~
+~
+End
+#18824
+delicate sandwich~
+A delicious looking sandwich~
+A delicious sandwich is on the table.~
+food~
+food L A
+DE CE 0 0 0
+0 1 10 P
+E
+sandwich~
+A pile of smoked ham on wheat bread with a slice of swiss cheese and a 
+touch of dijon mustard.
+~
+~
+End
+#18825
+divan~
+A comfortable divan~
+A green silk covered divan chair is in the corner~
+silk~
+furniture AG 0
+AB EGHIJK EHK BCEH BCEH
+0 0 0 P
+E
+divan~
+A divan used for many trysts is here.
+~
+~
+End
+#18826
+steel dagger~
+a steel dagger~
+A steel dagger lies on the floor.~
+steel~
+weapon AH AN
+dagger 10 12 slice C
+75 10 2000 P
+A
+18 13
+A
+19 14
+E
+dagger~
+It looks ancient, but well made.
+~
+~
+End
+#18827
+huge axe~
+A huge axe~
+A huge axe has extremely sharp blades.~
+steel~
+weapon AHL AN
+axe 10 12 slice C
+75 10 1000 P
+A
+24 -5
+A
+19 13
+A
+18 15
+E
+axe~
+This axe has seen many battles.  Glowing runes are etched into the surface 
+of the blade.
+~
+~
+End
+#18828
+sickly looking doll~
+A sickly looking doll~
+A child's toy lies on the ground~
+wood~
+weapon L AN
+mace 7 19 crush 0
+80 5 10 P
+A
+19 15
+A
+18 12
+E
+doll~
+This used to be a little girls doll...but since Jaysahn has been playing 
+with her, the face seems contorted in pain, and all her hair has been 
+ripped out.
+~
+~
+End
+#18829
+cudgel~
+A cudgel~
+A cudgel used for disciplining raving idiots lies on the floor.~
+flesh~
+weapon L AN
+flail 9 15 wrath C
+82 10 0 R
+A
+18 13
+A
+19 13
+E
+cudgel~
+It has Jaysahn's name on it.  He must get hit by it a LOT!
+~
+~
+End
+#18830
+knife dagger~
+a dagger~
+A slim dagger lies on the floor~
+steel~
+weapon L AN
+dagger 10 14 pierce D
+85 30 100 P
+A
+18 13
+A
+19 13
+E
+dagger~
+A dagger used by Paras.
+~
+~
+End
+#18831
+bonecrusher~
+Bonecrusher~
+A huge weapon lies on the floor.~
+steel~
+weapon AL AN
+hand 13 11 cleave A
+88 70 1000 P
+A
+18 15
+A
+19 13
+E
+bonecrusher~
+Bonecrusher has crushed many bones.
+~
+~
+End
+#18832
+armageddon sword~
+A sword named Armageddon~
+A sword named Armageddon lies on the floor~
+none~
+weapon AGHI AN
+sword 8 19 slice BH
+90 80 10000 P
+A
+1 3
+A
+17 -10
+A
+18 19
+A
+19 17
+E
+sword~
+This is an incredibly beautiful weapon.  The blade is cut from an
+enourmous diamond, finely crafted and sharpened to a razor edge.  It
+catches the light as you move it about, sending sparkling arcs of rainbow 
+color in every direction.
+~
+~
+End
+#18833
+trillium patch~
+a Trillium Patch~
+A Trillium Patch, worn by the Trillium Craftsmen lies here.~
+leather~
+armor ABGI AW
+ABCD E ABCD BCD 0
+65 20 20000 P
+A
+1 1
+A
+19 8
+A
+18 8
+A
+2 2
+A
+5 5
+~
+End
+#18834
+shimmering anklet with a bell~
+a shimmering anklet with a bell~
+A shimmering anklet with a bell is here.~
+silver~
+armor ABG AT
+ABCD ABCD ABCD ABD 0
+63 10 12445 P
+A
+14 20
+A
+12 20
+A
+13 20
+A
+4 3
+A
+3 3
+A
+19 8
+A
+18 8
+~
+End
+#18835
+silver earrings~
+{DSilver Earrings{0~
+Some earrings lie on a table.~
+silver~
+armor ABGI AS
+BD BCD BCD BCD 0
+58 10 10000 P
+A
+13 20
+A
+20 -4
+A
+19 10
+A
+18 10
+~
+End
+#0
+
+
+
+#ROOMS
+#18800
+Entrance to the Trillium Caverns~
+The entrace to the fabled Trillium Caverns is here.  The land of Trillium 
+used to extend beyond Midgaard, past New Thalos, but now it has been reduced 
+to just the caverns.  It is still a monarchy, albeit a lesser one, compared 
+to the Trillium of the past.
+~
+0 12 0
+D1
+~
+~
+0 0 18801
+End
+D2
+~
+~
+0 0 6154
+End
+D3
+~
+~
+0 -1 18807
+End
+S
+End
+#18801
+The Foyer~
+The foyer is grand and majestic.  Who would have thought that in a cavern 
+such gold and silver and jewels would be so rampant?  The walls are lined 
+in rich tapestries, depicting great battles of yore.  All the furniture is 
+well-made, and bejewelled.  Exits are to the east and west.
+~
+0 8 0
+D1
+~
+~
+0 -1 18802
+End
+D3
+~
+~
+0 0 18800
+End
+S
+Reset M 18800 4 100 0 Load A serving woman.
+Reset E 18800 16 100 0 A {8grimy{0 rag{0 is loaded wielded of A {8grimy{0 rag{0
+Reset M 18801 3 100 0 Load A religious zealot.
+Reset E 18801 5 100 0 {3holy robes{0 is loaded on the body of {3holy robes{0
+Reset E 18802 7 100 0 {3brown pants{0 is loaded on the legs of {3brown pants{0
+Reset E 18803 16 100 0 A {choly{0 mace is loaded wielded of a {choly{0 mace
+End
+#18802
+The Ladies Sitting Room~
+The women of trillium come here to chat and sew the day away.  The laughter 
+is lively, yet subdued as loud noises tend to echo endlessly through out 
+the caverns.  Sewing baskets filled with yarn line the walls.  Soft 
+comfortable sofas look plush enough to sleep on.  There are exits in every 
+direction.
+~
+0 8 0
+D0
+~
+~
+0 -1 18803
+End
+D1
+~
+~
+0 -1 18805
+End
+D2
+~
+~
+0 -1 18804
+End
+D3
+~
+~
+0 -1 18801
+End
+S
+Reset M 18800 4 100 0 Load A serving woman.
+Reset E 18800 16 100 0 A {8grimy{0 rag{0 is loaded wielded of A {8grimy{0 rag{0
+Reset M 18801 3 100 0 Load A religious zealot.
+Reset E 18801 5 100 0 {3holy robes{0 is loaded on the body of {3holy robes{0
+Reset E 18802 7 100 0 {3brown pants{0 is loaded on the legs of {3brown pants{0
+Reset E 18803 16 100 0 A {choly{0 mace is loaded wielded of a {choly{0 mace
+Reset M 18802 1 100 0 Load Mikayla.
+Reset E 18804 3 100 0 A {ccrystal{0 necklace is loaded around the neck (1) of A {ccrystal{0 necklace
+Reset G 18805 1 100 0 A wet handkerchief into inventory of a wet handkerchief
+Reset M 18803 1 100 0 Load Fiolon.
+Reset E 18806 17 100 0 A picture of a sunny landscape is loaded held in the hands of A picture of a sunny landscape
+Reset E 18807 8 100 0 Silken slippers is loaded on the feet of silken slippers
+End
+#18803
+The Summer Room~
+The Summer Room is decorated with bright depictions of suns, trees, and 
+flowers.  It seems to be a restful place, where the ladies come to gossip 
+about the Caverns supposedly best kept secrets.  The women seem to know 
+all that is going on, at all times.
+~
+0 8 0
+D2
+~
+~
+0 -1 18802
+End
+S
+Reset M 18800 4 100 0 Load A serving woman.
+Reset E 18800 16 100 0 A {8grimy{0 rag{0 is loaded wielded of A {8grimy{0 rag{0
+Reset M 18801 3 100 0 Load A religious zealot.
+Reset E 18801 5 100 0 {3holy robes{0 is loaded on the body of {3holy robes{0
+Reset E 18802 7 100 0 {3brown pants{0 is loaded on the legs of {3brown pants{0
+Reset E 18803 16 100 0 A {choly{0 mace is loaded wielded of a {choly{0 mace
+Reset M 18807 1 100 0 Load Manfred.
+End
+#18804
+The Spring Room~
+The room is covered in tapestries depicting Spring Rituals. A sense of 
+rebirth is emananent here.  The tapestries depict women dancing around 
+maypoles, flowers coming into bloom, and all things imaginable having to do 
+with regeneration.
+~
+0 8 0
+D0
+~
+~
+0 -1 18802
+End
+S
+Reset M 18808 1 100 0 Load Gidris the swordsman.
+Reset E 18811 6 100 0 A trillium helmet is loaded over the head of A Trillium helmet
+End
+#18805
+The Official Dining Room~
+This is where powerful men and women wine and dine the night away.  A long 
+table accomodates one hundred and fifty chairs.  The table is covered with 
+expensive dishes and silverware.  The floral arrangement is incomparable in 
+beauty, and extends about fifteen feet!  The Ladies Sitting Room is back to 
+the west, and delicious smells eminate from the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 18806
+End
+D3
+~
+~
+0 -1 18802
+End
+S
+Reset M 18804 1 100 0 Load Sandra the Chef.
+Reset G 18808 1 100 0 Some peppery spices into inventory of some peppery spices
+Reset E 18809 16 100 0 Kitchen knife is loaded wielded of kitchen knife
+End
+#18806
+An extremely busy kitchen~
+People bustle about busily preparing for the feast later.  Delicious smells 
+emanate from the oven and from every area in this room.  Huge piles of 
+potatos and miscellanous vegetables lie in a corner of the room.  Various 
+meats hang from the rafters in the ceiling to be kept fresh, where the air 
+stays very cool.
+~
+0 8 0
+D1
+~
+cupboard east door~
+1 -1 18827
+Flags AB
+End
+D3
+~
+~
+0 -1 18805
+End
+S
+Reset M 18805 1 100 0 Load Ailynn, the sous-chef.
+Reset E 18810 16 100 0 A walking staff is loaded wielded of A walking staff
+End
+#18807
+The Descent to the Second Story~
+This takes people to the second story of the Trillium Caverns.  The second 
+story is the living areas of the Caverns.
+~
+0 12 0
+D1
+~
+~
+0 -1 18800
+End
+D5
+~
+~
+0 -1 18808
+End
+S
+End
+#18808
+Second Story of the Trillium Caverns~
+You are in the stairwell on the second level.  You can enter the
+hallway to the east or continue down the stairs to the third level.
+~
+0 12 0
+D1
+~
+~
+0 -1 18809
+End
+D4
+~
+~
+0 -1 18807
+End
+D5
+~
+~
+0 -1 18818
+End
+S
+End
+#18809
+The long hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 8 0
+D0
+~
+~
+0 -1 18810
+End
+D1
+~
+~
+0 -1 18811
+End
+D3
+~
+~
+0 -1 18808
+End
+S
+Reset M 18809 3 100 0 Load A drudge.
+Reset E 18812 14 100 0 Manacles is loaded on the left wrist of manacles
+Reset M 18810 3 100 0 Load A tower guard.
+Reset G 18813 1 100 0 A {ccrystal{0 blue potion into inventory of A {ccrystal{0 blue potion
+Reset M 18811 1 100 0 Load Rytessa.
+Reset E 18814 16 100 0 A {7feather{0 duster is loaded wielded of A {7feather{0 duster
+End
+#18810
+Aramissa's Bedchamber~
+This is the room of Aramissa.  She is known to be the role model, fashion 
+wise, in the caverns.  Styles she wears stay in the mode for months and 
+months.  She is certainly the best dressed woman in the Caverns.  Her room 
+would be neat if it weren't covered in dresses strewn all over the floor.
+~
+0 8 0
+D2
+~
+~
+0 -1 18809
+End
+S
+Reset M 18812 1 100 0 Load Aramissa.
+Reset E 18835 21 100 0 {dsilver earrings{0 is loaded on the left ear of {DSilver Earrings{0
+Reset E 18816 17 100 0 Brass key is loaded held in the hands of brass key
+Reset O 18815 1 100 0 Load A locked closet.
+Reset P 18817 1 100 0 Put A pill bottle inside A pill bottle.
+Reset P 18818 4 100 0 Put Some aspirin inside some aspirin.
+End
+#18811
+The Long Hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 8 0
+D1
+~
+~
+0 -1 18812
+End
+D3
+~
+~
+0 -1 18809
+End
+S
+Reset M 18809 3 100 0 Load A drudge.
+Reset E 18812 15 100 0 Manacles is loaded on the right wrist of manacles
+Reset M 18810 3 100 0 Load A tower guard.
+Reset G 18813 1 100 0 A {ccrystal{0 blue potion into inventory of A {ccrystal{0 blue potion
+Reset M 18813 1 100 0 Load Fela, the concubine.
+Reset E 18819 12 100 0 Silk robe is loaded about the shoulders of Silk Robe
+Reset E 18820 16 100 0 A dominatrix paddle is loaded wielded of A dominatrix paddle
+End
+#18812
+The Long Hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 8 0
+D0
+~
+~
+0 -1 18813
+End
+D1
+~
+~
+0 -1 18815
+End
+D2
+~
+~
+0 -1 18814
+End
+D3
+~
+~
+0 -1 18811
+End
+S
+Reset M 18809 3 100 0 Load A drudge.
+Reset E 18812 14 100 0 Manacles is loaded on the left wrist of manacles
+Reset M 18810 3 100 0 Load A tower guard.
+Reset G 18813 1 100 0 A {ccrystal{0 blue potion into inventory of A {ccrystal{0 blue potion
+Reset M 18814 1 100 0 Load Var, the dashing knight.
+Reset E 18821 15 100 0 A trillium bracer is loaded on the right wrist of A Trillium bracer
+Reset E 18822 16 100 0 A steel throwing knife is loaded wielded of A steel throwing knife
+End
+#18813
+Talissandra's Chambers~
+Tapestries of battles won and lost adorn the chambers of Talissandra.  War 
+trophies she has looted off her victims adorn the shelves and mantlepieces.  
+Various weapons lie scattered in corners around the room.
+~
+0 8 0
+D2
+~
+~
+0 -1 18812
+End
+S
+Reset M 18815 1 100 0 Load Talissandre.
+End
+#18814
+Lana's Chambers~
+Lana is Aramissa's biggest competitor within the Caverns.  She is known for 
+her beauty.  She likes beautiful things, and her room reflects this love.  
+Everything is well made, and gorgeous in here.  Her dresser is full of 
+cosmetics to make her into the perfect woman.
+~
+0 8 0
+D0
+~
+~
+0 -1 18812
+End
+S
+Reset M 18816 1 100 0 Load Lana.
+Reset G 18823 1 100 0 Some edible lipstick into inventory of some edible lipstick
+Reset G 18824 1 100 0 A delicious looking sandwich into inventory of A delicious looking sandwich
+End
+#18815
+End of the Hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 8 0
+D0
+~
+~
+0 -1 18816
+End
+D2
+~
+~
+0 -1 18817
+End
+D3
+~
+~
+0 -1 18812
+End
+S
+Reset M 18817 1 100 0 Load Braydn.
+Reset E 18805 17 100 0 A wet handkerchief is loaded held in the hands of a wet handkerchief
+End
+#18816
+Princess Vanya's Royal Chambers~
+All the furniture in here is covered in gold and jewels.  This is truly a 
+bedroom fit for royalty.  A large canopied bed is draped with the finest 
+silks made from Araman tailors.  The bedchamber is well lit and extremly 
+clean.
+~
+0 8 0
+D2
+~
+~
+0 -1 18815
+End
+S
+Reset M 18818 1 100 0 Load Princess Vanya.
+End
+#18817
+King Gydon's Royal Bedchamber~
+King Gydon's chambers are very large and spacious.  Truly a bedroom made 
+for a king.  Everything down to the very fixtures are bejewelled.  A 
+comfortable divan is in this room....he probably uses it for trysts with 
+the lovely women of the Caverns.
+~
+0 8 0
+D0
+~
+~
+0 -1 18815
+End
+S
+Reset M 18819 1 100 0 Load Froyo.
+Reset E 18822 16 100 0 A steel throwing knife is loaded wielded of A steel throwing knife
+Reset O 18825 1 100 0 Load A comfortable divan.
+End
+#18818
+The deepest Caverns of Trillium~
+This is the lowest level of the Trillium Caverns.  Meetings and trysts are 
+the main use of this level.  It is very quiet on this level.
+~
+0 12 0
+D1
+~
+~
+0 -1 18819
+End
+D4
+~
+~
+0 -1 18808
+End
+S
+End
+#18819
+The long hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 9 0
+D0
+~
+~
+0 -1 18820
+End
+D1
+~
+~
+0 -1 18822
+End
+D2
+~
+~
+0 -1 18821
+End
+D3
+~
+~
+0 -1 18818
+End
+S
+Reset M 18820 1 100 0 Load Varnia.
+Reset E 18826 16 100 0 A steel dagger is loaded wielded of a steel dagger
+Reset M 18821 10 100 0 Load Zimmer.
+Reset E 18834 23 100 0 A shimmering anklet with a bell is loaded on the left ankle of a shimmering anklet with a bell
+End
+#18820
+The Treasure Room~
+All of the unsued treasures of Trillium are in this room.  Piles and piles 
+of jewels of all  colors reflect in the light provided by the torches, 
+creating a rainbow glow in the cavern.  The piles are higher than five 
+tall men.  This is a true treasure trove.
+~
+0 9 0
+D2
+~
+~
+0 -1 18819
+End
+S
+Reset M 18822 1 100 0 Load Pahseen.
+Reset E 18833 25 100 0 A trillium patch is loaded as a patch of a Trillium Patch
+Reset E 18827 16 100 0 A huge axe is loaded wielded of A huge axe
+End
+#18821
+Jaysahn's Cell~
+This room is covered with caked blood.  Huge holes have been punched into 
+the wall in what must have been fits of utter insanity.  This is the home of 
+Jaysahn, Trillium Caverns raving lunatic.
+~
+0 9 0
+D0
+~
+~
+0 -1 18819
+End
+S
+Reset M 18823 1 100 0 Load Jaysahn.
+Reset E 18828 16 100 0 A sickly looking doll is loaded wielded of A sickly looking doll
+End
+#18822
+The Long Hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 9 0
+D1
+~
+~
+0 -1 18823
+End
+D3
+~
+~
+0 -1 18819
+End
+S
+Reset M 18824 1 100 0 Load Dahmia.
+Reset E 18829 16 100 0 A cudgel is loaded wielded of A cudgel
+End
+#18823
+The Long Hallway~
+The hallway is well lit and well guarded.  Most people keep their treasures 
+within their rooms, in well hidden locations.  King Gydon hates thieves, so 
+he keeps this level well guarded from trouble makers.
+~
+0 9 0
+D0
+~
+~
+0 -1 18824
+End
+D1
+~
+~
+0 -1 18826
+End
+D2
+~
+~
+0 -1 18825
+End
+D3
+~
+~
+0 -1 18822
+End
+S
+End
+#18824
+The Sparring Chambers~
+Battered practice dummies are abundant in this room.  Weapons of all
+styles and types hang on the walls.  This is a true practice room.  It is
+no wonder that the Trillium fighters are known as some of the best in the 
+realms.
+~
+0 9 0
+D2
+~
+~
+0 -1 18823
+End
+S
+Reset M 18825 1 100 0 Load Paras.
+Reset E 18830 16 100 0 A dagger is loaded wielded of a dagger
+End
+#18825
+The Library~
+The library is jammed full of books from every city in the Realm.  The 
+oldest books lie in protective cases to keep them available to future 
+generations.  Maps of all every known city to man adorn the walls.
+~
+0 9 0
+D0
+~
+~
+0 -1 18823
+End
+S
+Reset M 18826 1 100 0 Load Giles.
+Reset E 18831 16 100 0 Bonecrusher is loaded wielded of Bonecrusher
+End
+#18826
+King Gydon's Meeting Chambers~
+This is where the King meets with audiences from all over.  Important 
+treaties are framed on the walls.  King Gydon is known for his goodness, 
+yet the man has a huge temper when bothered unnecissarily.
+~
+0 9 0
+D3
+~
+~
+0 -1 18823
+End
+S
+Reset M 18827 1 100 0 Load King Gydon.
+Reset E 18832 16 100 0 A sword named armageddon is loaded wielded of A sword named Armageddon
+End
+#18827
+The Kitchen's Cupboard~
+Various food products lie heaping in this cupboard.  Spices of every type 
+are available in large quantities.  Bags of flour lie stacked on the floor, 
+surrounded with similar bags of wheat and rice.  Someone could live in
+this closet for years before it ran out.
+~
+0 9 0
+D3
+~
+door west cupboard~
+1 -1 18806
+Flags AB
+End
+S
+Reset M 18806 1 100 0 Load Elysindra.
+End
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

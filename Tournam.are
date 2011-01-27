@@ -1,0 +1,1062 @@
+#AREA
+tournam.are~
+Tournament Ground~
+{ 1 10} Kandahar Tournament Ground~
+100 199
+
+#MOBILES
+#101
+spectator~
+a spectator~
+A spectator cranes his head to try to see better.
+~
+This spectator is here for the tournament.  He has wagered a bet on
+his favourite jouster.  Woe betide him if it loses.  His wife will be
+none too pleased.  
+~
+human~
+AGHSY DF 100 0
+1 0 2d6+10 2d50+50 1d4+0 none
+9 9 9 9
+BEFJNU 0 0 O
+stand stand male 50
+AHMV ABCDEFGHIJK medium 0
+#102
+spectator~
+a spectator~
+A spectator cheers bawdily!
+~
+This spectator has no compunctions about yelling and cheering the
+knight she most likes on to win the tourney.  
+~
+human~
+AGSY DF 100 0
+1 0 2d6+10 2d50+50 1d4+0 slap
+9 9 9 9
+BEFJNU 0 N 0
+stand stand female 50
+AHMV ABCDEFGHIJK medium 0
+#103
+knight jouster white~
+a knight~
+A knight of the {WWhite Rose{x jousts with an opponent.
+~
+This knight of the {WWhite Rose{x is jousting with an opponent from
+the house of the {RRed Rose{x.  He looks extremely formidable.  
+~
+human~
+AGHTW DF 100 0
+4 0 2d6+60 1d9+100 1d5+1 thrust
+6 6 6 6
+EFJN 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium 0
+#104
+knight jouster red~
+a knight~
+A knight of the {RRed Rose{x jousts with an opponent.
+~
+This knight from the house of the {RRed Rose{x seeks to win thy
+contest of jousting and so seek victory for thine house.  
+~
+human~
+AGHTW DF 100 0
+4 0 2d6+60 2d50+50 1d5+1 thrust
+6 6 6 6
+EFJN 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium 0
+#105
+ed lying man~
+{xLying Ed~
+Lying Ed tots up his profits for today.
+~
+This shrewd looking businessman will always wager a bet on something. 
+If the tournament looks to be making him poor, he'll start bets on
+something else.  You can bet that he'll not go home empty handed, for
+sure.  
+~
+human~
+ABGHS DF 100 0
+4 0 2d7+46 2d50+50 1d5+1 punch
+6 6 6 6
+BEFJN 0 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#106
+runaway horse~
+a runaway horse~
+A runaway horse tramples the lists.
+~
+This runaway horse has lost its rider.  It is acting very bewildered
+and confused.  
+~
+quad~
+AGHSW DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+EFJN 0 0 0
+stand stand none 1
+AGHMV ABCDEFGHIJKQ medium 0
+#107
+groom stablehand~
+a groom~
+A groom busily mucks out the stables.
+~
+This groom is employed by the {RRed Rose{x stables to keep all the
+horses and their owners happy.  {RRed Rose{x have a fine reputation which
+they don't want sullied.  
+~
+human~
+ABHST DF 100 0
+3 0 2d6+35 2d50+50 1d6+0 punch
+7 7 7 7
+EFJN 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium 0
+#108
+groom stablehand~
+a groom~
+A groom busily clears out dirty straw.
+~
+This groom is employed by the {WWhite Rose{x stables to ensure all the
+horses and their owners are kept happy.  {WWhite Rose{x have an excellent
+reputation which they don't want soiled.  
+~
+human~
+ABGT DF 100 0
+3 0 2d6+35 2d50+50 1d6+0 punch
+7 7 7 7
+EFJN 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium 0
+#109
+runaway horse~
+a runaway horse~
+A runaway horse tramples the lists.
+~
+This horse has unseated its rider and now trots around the lists
+looking extremely bewildered.  
+~
+quad~
+AGHSW DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+EFJN 0 0 0
+stand stand none 1
+AGHMV ABCDEFGHIJKQ medium 0
+#110
+rider unseated~
+an unseated rider~
+An unseated rider rubs his back ruefully.
+~
+This rider has come a cropper.  Not only has he suffered the indignity
+of losing the contest but he has become unseated to boot.  
+~
+human~
+AGHRW 0 100 0
+5 0 2d6+60 2d50+50 1d5+0 punch
+8 8 8 8
+FI 0 0 0
+stand stand male 30
+AHMV ABCDEFGHIJK medium 0
+#111
+rider unseated~
+an unseated rider~
+An unseated rider dusts himself down.
+~
+This rider has come a cropper.  Not only has he suffered the indignity
+of losing the contest but he has become unseated to boot.  
+~
+human~
+AGHQW 0 -100 0
+5 0 2d6+60 2d50+50 1d6+0 slap
+5 5 5 5
+EIK 0 0 0
+stand stand male 30
+AHMV ABCDEFGHIJK medium 0
+#112
+barmaid busty~
+a busty barmaid~
+A busty barmaid asks if you want refreshment.
+~
+This big-eyed beauty could be what or who is drawing the crowds to
+this tent.  Especially when she bends over to pull another mug of ale. 
+The eyes of all her customers fair boggle out at the display.  
+~
+human~
+ABGTV 0 -100 0
+250 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU ABCDLQ 0 0
+stand stand female 50
+AHMV ABCDEFGHIJK medium 0
+#150
+white stag~
+A {WGleaming White Stag{X~
+A noble {Wwhite stag{X with long {Ygolden{X horns guards the pass
+~
+This stag glows with its own inner light. Everything about this stag speaks of nobility.
+~
+unique~
+AB HN 1000 0
+0 0 25d10+11750 2d50+50 19d3+33 pierce
+-50 -50 -50 -50
+CFHIKN N CS MZ
+stand stand none 5000
+0 0 medium unknown
+#0
+
+
+
+#OBJECTS
+#100
+cheese slab~
+a slab of {Ycheese{x~
+A slab of {Wcreamy {Ycheese {xwith a thick {yrind{x.~
+cheese~
+pill 0 A
+8 'frenzy' 'calm' '(null)' '(null)'
+0 20 180 P
+#101
+helm plumed~
+a plumed helm~
+A helm with a {Wwhite{x feather.~
+steel~
+armor A AE
+2 2 1 2 0
+3 20 270 P
+A
+4 1
+A
+2 -1
+#102
+handkerchief hankie~
+a handkerchief~
+A handkerchief looks a bit grubby.~
+cotton~
+armor 0 AO
+3 3 3 0 0
+3 20 310 P
+#103
+helm plumed~
+a plumed helm~
+A helm with a {Rred{x feather.~
+steel~
+armor A AE
+2 2 1 2 0
+3 20 270 P
+F A 4 -1 0
+F A 2 1 0
+#104
+cloak~
+a {Ybrightly {Gcol{Mou{Cred {Bcloak{x~
+A {Ybrightly {Gcol{Mou{Cred {Bcloak{x looks a bit dusty.~
+satin~
+armor A AC
+1 1 2 1 0
+5 20 550 P
+A
+3 1
+#105
+pink potion~
+a pink potion~
+A pink potion is barely visible on the ground.~
+glass~
+potion 0 A
+6 'armor' 'cure blindness' '(null)' '(null)'
+0 20 160 P
+#106
+lance~
+a {Ybrightly {Gfes{Mtoo{Cned {Blance{x~
+A {Ybrightly {Gfes{Mtoo{Cned {Blance{x looks sharp.~
+wood~
+wand 0 AO
+10 5 5 'electrify' 0
+5 20 540 P
+#107
+rose~
+a rose~
+A wilted rose.~
+rose~
+trash 0 AO
+0 0 0 0 0
+1 1 0 P
+F A 6 -1 0
+#108
+mug ale~
+a mug of ale~
+A mug of ale froths busily.~
+ceramic~
+drink 0 AO
+20 20 'ale' 0 0
+1 5 25 P
+F A 1 1 0
+#109
+bread food~
+{Wfreshly baked bread{x~
+{WFreshly baked bread{x is warm to the touch.~
+bread~
+food 0 A
+40 40 0 0 0
+1 20 35 P
+#112
+dried meat~
+a strip of dried meat~
+A strip of dried meat looks most unappetising.~
+beef~
+pill 0 A
+10 'cure light' 'cure blindness' 'reserved' 'reserved'
+7 1 10 P
+#0
+
+
+
+#ROOMS
+#101
+A Well-Worn Path~
+This is a well-worn rutted path which continues to the north and leads
+to the main eastern road to the south.  The path has several hoofprints
+embedded into the earth.  
+~
+0 0 3
+D0
+~
+~
+0 -1 102
+D2
+The path heads back toward the eastern road.
+~
+~
+0 -1 3525
+S
+#102
+A Well-Worn Path~
+This section of the path is deeply rutted with hoofprints and the
+remains of old and dried horse manure.  Clumps of grass sprout along the
+sides of the path only to be pulled out and chewed by passing equines. 
+The path continues to the north and south.  
+~
+0 4 3
+D0
+The path is well trodden here.
+~
+~
+0 -1 103
+D2
+The path leads back to the main eastern road to the south.
+~
+~
+0 -1 101
+S
+#103
+A Well-Worn Path~
+This section of the path is really trampled down with hoofprints and
+footprints alike.  More horse manure lies in the path and shouts and
+cheers can be heard to the north.  The path leads back to the main
+eastern road to the south.  
+~
+0 4 3
+D0
+The entrance to the tournament ground.
+~
+~
+0 -1 104
+D2
+The path to the south leads ultimately to the main eastern road.  
+~
+~
+0 -1 102
+S
+#104
+Entrance to the Tournament Ground~
+This is the entrance to the tournament ground.  The path gets wider
+here and more hoofprints and footprints alike are embedded into the dry
+ground.  Shouts and cheers come from the north where there is a great
+cluster of spectators who appear to be watching something with great
+interest.  
+~
+0 8 2
+D0
+The tournament ground continues to the north.
+~
+~
+0 -1 105
+D2
+A well-worn path lies to the south.
+~
+~
+0 -1 103
+S
+#105
+The Tournament Ground~
+The path disintegrates into a widely trodden down area with clumps of
+grass growing intermittently.  Hoofprints and footprints alike weave
+around dried into the ground.  Shouts and cheers come from the north. 
+The grassy area around the lists continues to the east and west and the
+entrance lies to the south.  
+~
+0 8 2
+D0
+~
+~
+0 -1 106
+D1
+~
+~
+0 -1 110
+D2
+The entrance to the tournament ground.
+~
+~
+0 -1 104
+D3
+~
+~
+0 -1 111
+S
+#106
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the east and north, whereas the spectator area lies outside the rope. 
+~
+0 0 2
+D0
+~
+~
+0 -1 107
+D1
+~
+~
+0 0 119
+D2
+~
+~
+0 -1 105
+D3
+~
+~
+0 -1 112
+S
+#107
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the north and south, whereas the spectator area lies outside the rope.
+~
+0 0 2
+D0
+~
+~
+0 -1 108
+D1
+~
+~
+0 -1 116
+D2
+~
+~
+0 -1 106
+D3
+~
+~
+0 0 125
+S
+#108
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the east and south, whereas the spectator area lies outside the rope. 
+~
+0 0 2
+D0
+~
+~
+0 -1 109
+D1
+The lists continues to the east.
+~
+~
+0 -1 117
+D2
+~
+~
+0 -1 107
+D3
+The spectator area lies to the west.  
+~
+~
+0 -1 113
+S
+#109
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the north and south.  The grassy
+area around the lists continues to the east and west.  
+~
+0 8 1
+D0
+~
+~
+0 0 124
+D1
+~
+~
+0 -1 118
+D2
+~
+~
+0 -1 108
+D3
+~
+~
+0 -1 114
+S
+#110
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the north.  The grassy area
+around the lists continues to the east and west.  The lists lies to the
+north.  
+~
+0 8 2
+D0
+The lists lie to the north.
+~
+~
+0 -1 119
+D1
+~
+~
+0 0 121
+D3
+~
+~
+0 -1 105
+S
+#111
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the north east.  The grassy area
+around the lists continues to the north and east.  
+~
+0 8 2
+D0
+~
+~
+0 -1 112
+D1
+~
+~
+0 -1 105
+S
+#112
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the east and loud murmurs to the
+west.  The grassy area around the lists continues to the north and south.
+~
+0 8 1
+D0
+~
+~
+0 0 125
+D1
+~
+~
+0 -1 106
+D2
+~
+~
+0 -1 111
+D3
+~
+~
+0 -1 122
+S
+#113
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the east and the stamping of
+hooves comes from the west.  The grassy area around the lists continues
+to the north and south.  
+~
+0 8 2
+D0
+~
+~
+0 0 114
+D1
+~
+~
+0 -1 108
+D2
+~
+~
+0 0 125
+D3
+The stables lie to the west.
+~
+stabledoor~
+1 -1 123
+S
+#114
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the south east.  The grassy area
+around the lists continues to the east and south.  
+~
+0 8 2
+D1
+~
+~
+0 -1 109
+D2
+~
+~
+0 0 113
+S
+#115
+White Rose Stables~
+These are the stables for the knights of the {WWhite Rose{x.  All
+knights who come to the tournament to joust on behalf of the {WWhite
+Rose{x can stable their mounts here.  The stables are filled with hay for
+the horses and straw and wood shavings lie on the ground.  The grooms for
+these stables are meticulous in their work, picking up manure and
+cleaning out dirty straw regularly.  
+~
+0 8 2
+D3
+~
+stabledoor~
+1 0 127
+S
+#116
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the north and south, whereas the spectator area lies outside the rope.
+~
+0 0 2
+D0
+~
+~
+0 -1 117
+D1
+~
+~
+0 0 128
+D2
+~
+~
+0 0 119
+D3
+~
+~
+0 -1 107
+S
+#117
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the west and south, whereas the spectator area lies outside the rope. 
+~
+0 0 2
+D0
+~
+~
+0 -1 118
+D1
+~
+~
+0 0 127
+D2
+~
+~
+0 -1 116
+D3
+~
+~
+0 -1 108
+S
+#118
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the south.  The grassy area
+around the lists continues to the east and west.  
+~
+0 8 1
+D1
+~
+~
+0 0 126
+D2
+The lists lies to the south.
+~
+~
+0 -1 117
+D3
+~
+~
+0 -1 109
+S
+#119
+The Lists~
+This area is known as the lists.  It is the area where the jousting
+takes place.  It is closed off by means of a rope, which doesn't stop
+spectators from wandering inside it occasionally.  Here the jousts take
+place, usually of two opposing knights at a time, one from the {RRed
+Rose{x and the other from the {WWhite Rose{x houses.  The lists continues
+to the west and north, whereas the spectator area lies outside the rope. 
+~
+0 0 2
+D0
+~
+~
+0 0 116
+D1
+~
+~
+0 0 129
+D2
+~
+~
+0 -1 110
+D3
+~
+~
+0 0 106
+S
+#120
+none~
+~
+0 4 0
+S
+#121
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the north west.  The grassy area
+around the lists continues to the north and west.  
+~
+0 8 2
+D0
+~
+~
+0 0 129
+D3
+~
+~
+0 0 110
+S
+#122
+The Wagering Tent~
+This tent has been set up by a scoundrel known to everyone as 'Lying
+Ed'.  Quite why he has got this nickname is unclear.  The tent is
+relatively small and smells of stale beer and other unpleasant aromas. 
+Scraps of paper lie tossed onto the ground and stubs of charcoal have
+been ground into the earth.  
+~
+0 8 2
+D1
+~
+~
+0 -1 112
+S
+#123
+Red Rose Stables~
+These are the stables for the knights of the {RRed Rose{x.  All
+knights who come to the tournament to joust on behalf on the {RRed Rose{x
+can stable their mounts here.  The stables are filled with hay for the
+horses and straw and wood shavings lie on the ground.  The grooms for
+these stables are meticulous in their work, picking up manure and
+cleaning out dirty straw regularly.  
+~
+0 8 2
+D1
+~
+stabledoor~
+1 -1 113
+S
+#124
+The Refreshment Tent~
+This is the area of the tournament ground which seems to be in great
+demand.  The refreshment tent is large and the ground well stamped down
+from the milling around of the spectators who eagerly come here to sample
+the ale and freshly baked bread, before they rush out to see the rest of
+the contests.  
+~
+0 8 2
+D2
+~
+~
+0 0 109
+S
+#125
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the east.  The grassy area
+around the lists continues to the north and south.  
+~
+0 8 2
+D0
+~
+~
+0 0 113
+D1
+~
+~
+0 0 107
+D2
+~
+~
+0 0 112
+S
+#126
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the south west.  The grassy area
+around the lists continues to the south and west.  
+~
+0 8 2
+D2
+~
+~
+0 0 127
+D3
+~
+~
+0 0 118
+S
+#127
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the west and the stamping of
+hooves comes from the east.  The grassy area around the lists continues
+to the north and south.  
+~
+0 8 2
+D0
+~
+~
+0 0 126
+D1
+~
+stabledoor~
+1 0 115
+D2
+~
+~
+0 0 128
+D3
+~
+~
+0 0 117
+S
+#128
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the west.  The grassy area
+around the lists continues to the north and south.  
+~
+0 8 2
+D0
+~
+~
+0 0 127
+D2
+~
+~
+0 0 129
+D3
+~
+~
+0 0 116
+S
+#129
+The Tournament Ground~
+This is a widely trodden area with clumps of grass growing
+intermittently.  Hoofprints and footprints alike weave around dried into
+the ground.  Shouts and cheers come from the west.  The grassy area
+around the lists continues to the north and south.  
+~
+0 8 2
+D0
+~
+~
+0 0 128
+D2
+~
+~
+0 0 121
+D3
+~
+~
+0 0 119
+S
+#150
+Heavy fog.~
+The fog is very thick here. The path behind you is covered by this magical fog. 
+Ahead, you notice a light guiding you forward. It seems to beckon you onward.
+~
+0 0 0
+D0
+~
+~
+0 0 151
+S
+#151
+A rolling hillside~
+The green hills seem to span on forever. The area is peaceful. The birds sing as the sun is shining brightly. A trail opens up to the north.
+~
+0 0 2
+D0
+~
+~
+0 0 152
+D2
+~
+~
+0 0 150
+S
+#152
+A steep trail downward~
+The hills end abruptly as the ground seems to drop away. There is a steep winding trail that leads down to a sandy beach.
+~
+0 0 2
+D2
+~
+~
+0 0 151
+D5
+~
+~
+0 0 153
+S
+#153
+A steep trail~
+The path winds down this cliff erratically. Although steep, the path is not very difficult.  However, ahead of you is a white stag with golden horns. Just standing there, waiting.
+~
+0 0 0
+D4
+~
+~
+0 0 152
+D5
+~
+~
+0 0 154
+S
+#154
+The base of the cliff~
+This sandy alcove, neslted peacefully at the base of the cliff seems very peaceful. To the south is a wide cave mouth.
+~
+0 0 0
+D4
+~
+~
+0 0 153
+S
+#0
+
+
+
+#SPECIALS
+M 101 spec_thief Load to: a spectator
+M 102 spec_thief Load to: a spectator
+M 105 spec_thief Load to: {xLying Ed
+M 106 spec_thief Load to: a runaway horse
+M 109 spec_thief Load to: a runaway horse
+M 110 spec_cast_mage Load to: an unseated rider
+M 111 spec_cast_cleric Load to: an unseated rider
+S
+
+
+
+#RESETS
+D 0 113 3 1
+D 0 115 3 1
+D 0 123 1 1
+D 0 127 1 1
+M 1 101 8 104 1
+E 0 102 0 17
+M 1 101 8 105 1
+E 0 102 0 17
+M 1 106 1 106 1
+M 1 111 1 107 1
+E 0 104 0 3
+M 1 103 1 108 1
+E 0 101 0 6
+M 1 101 8 109 1
+G 0 107 0
+M 1 101 8 110 1
+G 0 102 0
+M 1 101 8 111 1
+M 1 101 8 112 1
+G 0 102 0
+M 1 102 3 114 1
+G 0 100 0
+M 1 108 1 115 1
+M 1 110 1 116 1
+E 0 106 0 17
+M 1 104 1 117 1
+E 0 103 0 6
+M 1 102 3 118 1
+G 0 100 0
+M 1 109 1 119 1
+M 1 105 1 122 1
+G 0 105 0
+M 1 107 1 123 1
+M 1 112 1 124 1
+G 0 112 0
+G 0 100 0
+G 0 108 0
+G 0 109 0
+M 1 102 3 125 1
+G 0 100 0
+M 1 101 8 126 1
+E 0 102 0 17
+M 1 101 8 127 1
+E 0 102 0 17
+M 1 150 1 153 1
+S
+
+
+
+#SHOPS
+112 0 0 0 0 0 110 95 0 23
+0
+
+
+
+#$
+
+
+

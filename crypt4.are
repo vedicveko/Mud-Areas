@@ -1,0 +1,1149 @@
+#AREA   {T15 45} Niblit  The Crypt~
+
+#MOBILES
+#2001
+Vicar~
+The Vicar~
+The vicar sleeps happily here, better not wake him up.
+~
+The vicar look happy when he sleeps, better not wake him.
+~
+human~
+BTQ HN 1000 S
+48 6 6D80+4000 1d1+400 6d6+18 1
+-26 -28 -27 -24
+F N 0 M
+4 8 1 2000
+AHMV ABCDEFGHIJK 2 0
+#2002
+Nun~
+A Nun~
+A nun smiles at you and says: May God bless you.
+~
+The nun smiles and looks back at you.
+~
+human~
+BQ cc 1000 S
+25 -1 5d10+550 1d1+150 2d10+5 1
+-7 -7 -7 -7
+EQ N S GM
+8 8 1 0
+AHMV ABCDEFGHIJK 2 0
+#2003
+Settra the Tomb King~
+Settra the Tomb King~
+The Tomb King stands here looking at you behind his rotting bandage.
+~
+Those bandages are becoming a bit old, not mentioning his breath, phew!
+~
+human~
+BT DZ -1000 S
+57 17 50d10+9200 1d1+150 5d8+30 3
+-26 -28 -27 -25
+ACDKO LRQ I HN 
+8 8 1 5000
+HIMV ABCDEFGHIJK 3 0
+#2004
+Heinrich~
+Heinrich Count of Death~
+Heinrich The Count of Death draws his weapon and laughs.
+~
+Heinrich looks back at you with his terrible green eyes.
+~
+human~
+BTR DVZcc -900 S
+60 5 50d10+9600 1d1+900 8d8+34 3
+-30 -30 -30 -20
+DEFKJ M ID FY
+8 8 1 3000
+ABHIMV ABCDEFGHIJK 2 0
+#2005
+Skeleton~
+A Skeleton~
+The skeleton stands here grinning and champing with its teeth.
+~
+The skeleton shouts and points at you with a bony finger.
+~
+human~
+CFT 0 -400 S
+25 5 5d10+600 1d1+1 2d10+8 3
+-7 -7 -7 -7
+EFJK LQR F E
+8 8 1 100
+DHIMV ABCDEFGHIJK 2 0
+#2006
+Mummy~
+A Mummy~
+A mummy stands here breathing through its decomposing chest.
+~
+The rotting veins creaks as the mummy turns his head to look at you with its empty eye sockets.
+~
+human~
+T Z -400 S
+38 1 10d10+1600 1d1+1 5d6+12 1
+-13 -13 -13 -13
+CO L Q NS
+4 8 1 4000
+HIMV ABCDEFGHIJK 3 0
+#2007
+Zombie~
+A Zombie~
+A Zombie walks towards you with its hands aiming for your throat.
+~
+The sight of worms burrowing through its rotting eyes makes you want to run away.
+~
+human~
+T Z -300 S
+18 -1 3d9+285 1d1+1 2d7+4 2
+-3 -3 -3 0
+DFOP LQ LQ KL
+8 8 1 0
+ABIMV ABCDEFGHIJK 2 0
+#2008
+Bat~
+A Bat~
+A giant bat dives towards you showing his sharp white teeth.
+~
+The giant bat almost the size of a dog, with white razor sharp teeth
+and black leathery wings. The bat dives at you neck! Take cover!
+~
+bat~
+0 TZ -200 S
+28 1 6d12+710 1d1+1 2d12+8 2
+-8 -8 -8 -8
+DFH 0 L ST
+8 8 0 0
+AGV ACDEFHJKP 2 0
+#2009
+Snake~
+A Snake~
+A long enormous snake slithers across the floor in hunt of rats.
+~
+The snake looks back at you with its pale eyes.
+~
+snake~
+0 VZ 100 S
+24 -1 5d10+500 1d1+1 2d10+7 8
+-6 -6 -6 -6
+0 0 L I
+8 8 1 0
+AGXYcc ADEFKLQVX 2 0
+#2010
+Spider~
+A Spider~
+A giant hairy spider hangs in a web just above you.
+~
+The spider looks back at you with its eight eyes.
+~
+spider~
+0 Z 100 S
+18 5 3d9+260 1d1+1 4d4+9 8
+-3 -3 -3 -3
+0 0 L HR
+8 8 2 0
+AGP ABCFIKV 1 0
+#2011
+Black Rat~
+A Black Rat~
+A giant black rat scuttles over the floor as you approaches.
+~
+The rat looks back at you with his red eyes, before showing its yellow teeth.
+~
+rat~
+C Z 0 S
+17 -1 3d9+200 1d1+1 4d4+5 13
+-3 -3 -3 -2
+0 0 RL HI
+8 8 1 0
+AGV ABCDEFHJKUV 1 0
+#2012
+Ghost~
+A Ghost~
+A ghost is hovering before you making a scary grimace. 
+~
+Oh well that's it, you'll have nightmares for the rest of your life.
+~
+human~
+T BUZ -500 S
+22 1 5d10+400 1d1+1 3d6+6 2
+-5 -5 -5 -7
+CDEFGKP ABIQ BDHI CNZ
+8 8 0 100
+CIK 0 3 0
+#2013
+Bell-Ringer~
+The Bell-ringer~
+The bell-ringer stands here waiting eagerly to strike the bell.
+~
+The bellringer looks a lot like Marty Feldman, if you know who that is...
+~
+human~
+HT 0 500 S
+38 1 10d10+1600 1d1+1 5d6+12 3
+-13 -13 -13 -13
+CDEFNT AB K Q
+8 8 1 1000
+AHMV ABCDEFGHIJKL 2 0
+#2014
+necromancer~
+A Necromancer~
+A necromancer stands here preparing to cast a spell on you.
+~
+The necromancer's dark evil eyes examines you closely.
+~
+human~
+R DZ -900 S
+40 -1 15d10+1700 1d1+350 5d8+14 1
+-12 -12 -12 -10
+CEFN M N FG
+8 8 1 0
+AM ABCDEFGHIJKL 2 0
+#2015
+Stork~
+A large stork~
+A large stork is defending his nest from intruders like you.
+~
+The stork dives towards you in anger.
+~
+bird~
+BF T 200 S
+17 -1 3d9+250 1d1+1 4d4+8 1
+-3 -3 -3 -3
+E 0 0 H
+8 8 2 0
+AGW ACDEFHKP 2 0
+#2016
+Goul~
+A Goul~
+A goul is leaning over a dead body, chewing on its head.
+~
+The goul looks back at you and want you as breakfast.
+~
+human~
+CS Z -700 S
+27 1 5d10+650 10d27+100 2d12+8 3
+-8 -8 -8 -8
+DF Q L S
+8 8 1 0
+ABIM ABCDEFGHIJK 2 0
+#2017
+Zombie Dragon~
+The Zombie Dragon~
+The zombie dragon lies here.
+~
+The dragon looks at you with its empty eyes sockets,
+the sight almost makes you want to throw up.
+~
+dragon~
+B Zcc -900 S
+50 5 10d100+3200 5d50+400 5d4+35 4
+-26 -26 -27 -30
+ACEFK ABH CKR I
+8 8 1 0
+AHIZ ABCDEFGHIJKPQUVX 5 0
+#2018
+Believer~
+A Believer~
+A believer sits here praying.
+~
+The believer is too busy to notice you.
+~
+human~
+C 0 1000 S
+21 -1 4d10+360 10d20+100 4d4+10 3
+-5 -5 -5 -5
+CI 0 N M
+8 8 1 100
+AHMV ABCDEFGHIJKL 2 0
+#2019
+Adventurer~
+An Adventurer~
+An adventurer just like you is here searching for treasures.
+~
+The adventurer draws his sword and says with a mad glimpse in his eye:
+I was here first, the treasure is mine!
+~
+human~
+HT 0 400 S
+38 1 10d10+1600 1d1+1 5d6+12 3
+-13 -13 -13 -13
+BCDEFKN A E Q
+8 8 1 500
+AHMV ABCDEFGHIJKL 2 0
+#2020
+gardener~
+the Gardener~
+The gardener does some gardening.
+~
+The gardener shows you one of his favourite flowers, awwww ain't it nice.
+~
+human~
+BQ 0 1000 S
+40 5 25d10+2700 1d1+100 8d4+18 3
+-15 -15 -15 -13
+CEFO ABL S I
+8 8 1 2000
+AHMV ABCDEFGHIJKL 2 0
+#0
+
+
+#OBJECTS
+#2001
+Sword of Bones~
+Sword of Bones~
+A sword made of yellow bone lies here.~
+bone~
+5 AJ AN
+1 2 40 3 0
+60 25 40000 G
+A
+18 2
+A
+19 4
+#2002
+mace~
+The Vicar's Mace~
+A white mace with a cross on it lies here.~
+steel~
+5 K AN
+4 1 70 7 0  
+41 15 2000 G
+A
+4 2
+A
+12 50
+#2003
+sword~
+The Bloodbane~
+A black sword is lying in a pool of blood.~
+steel~
+5 ABEJ AN
+1 1 78 1 0 
+50 25 5000 G
+A
+18 4
+A
+19 4
+#2004
+club~
+brass Club~
+A heavy looking club made of brass lies here.~
+brass~
+5 0 AN
+4 2 20 6 0 
+27 10 500 G
+A
+13 2
+#2005
+bible~
+a bible~
+A nice looking bible lies here.~
+paper~
+9 K AO
+2 2 2 4 0 
+5 5 50 G
+A
+3 3
+#2006
+scimitar~
+a rusty scimitar~
+A rusty scimitar lies here.~
+steel~
+5 0 AN
+1 1 24 1 0 
+12 15 0 G
+#2007
+ring~
+heinrich's ring~
+A great ruby ring with small bat wings set around it lies here.~
+gold~
+9 J AO
+9 9 9 9 0
+60 3 12000 G
+A
+5 4
+A
+1 -1
+A
+4 4
+#2008
+flail~
+a rusty flail~
+A rusty flail lies here.~
+steel~
+5 B AN
+6 1 34 18 0 
+22 20 200 G
+#2009
+mace~
+a rune covered mace~
+A mace covered with lots of strange runes on it lies here.~
+steel~
+5 H AN
+4 1 30 8 0 
+15 10 500 G
+A
+18 3
+#2010
+armour~
+the death plate~
+The thorax of some giant bird lies here.~
+bone~
+9 BFJ AD
+12 12 12 12 0
+70 15 5000 G
+A
+14 100
+A
+12 150
+#2011
+key~
+a small golden key~
+A small golden key lies here.~
+gold~
+18 A A
+0 0 0 0 0
+5 3 80 G
+#2012
+crucifix~
+a golden crucifix~
+A golden crucifix lies here.~
+~
+9 AK AO
+6 6 6 7 0 
+30 5 800 G
+A
+12 100
+A
+9 5
+#2013
+Key~
+a rusty key~
+A rusty key lies here.~
+steel~
+18 0 A
+0 0 0 0 0
+5 3 0 G
+#2014
+mushroom~
+white mushrooms~
+Some small white mushrooms are here.~
+~
+19 0 A
+5 0 0 1 0 
+5 1 0 G
+#2015
+sword~
+the sword of hope.~
+A sword with a heart at it's pommel lies here.~
+steel~
+5 A AN
+1 1 25 18 0  
+20 10 2000 G
+A
+19 2
+#2016
+secateurs~
+a pair of secateurs~
+A pair of secateurs lies here.~
+~
+5 K AN
+0 2 20 32 0 
+30 5 400 G
+A
+12 50
+A
+18 3
+#0
+
+
+#ROOMS
+#2001
+Church entrance.~
+You are stand at an open gate. Beyond the gate a path leads eastward to a small stone church with a square tower and a slate roof. 
+A rare species of ivy crawls over sections of the wall framing the coloured glass windows with ragged patches of green.
+To the south you see a ancient churchyard with its tombstones and white monuments.
+~
+0 K 2
+D1
+A path towards the church goes to the east
+~
+~
+0 -1 2002
+D2
+A path stretches south to the churchyard
+~
+~
+0 -1 2030
+S
+#2002
+Path.~
+You are standing in the path between the gate and the church.
+The birds are singing and the grass is green, what a day!
+~
+0 0 2
+D1
+A path 
+~
+~
+0 -1 2003
+D3
+A path goes to the church entrance
+~
+~
+0 -1 2001
+S
+#2003
+Vestibule.~
+You are standing in the vestibule of the church. To the west the way leads out to a path.
+To the east some doors lead out to the nave and to the north. The odour of candle wax and wood polish flows out from the nave.
+~
+0 D 0
+D0
+To the stairs
+~
+~
+1 -1 2031
+D1
+Entrance to the nave
+~
+~
+1 -1 2004
+D3
+A path leads out of the church
+~
+~
+0 -1 2002
+S
+#2004
+West Nave.~
+You are standing in the west end of the nave, coloured light filters through the windows and splashes among pews and columns.
+Most of the walls are covered by ancient wall paintings picturing all sorts of heavenly creatures.
+~
+0 D 0
+D1
+The east nave
+~
+~
+0 -1 2005
+D3
+Entrance to the vestibule
+~
+~
+1 -1 2003
+S
+#2005
+East Nave.~
+You are standing in the east end of the nave.
+A transept wing open to the north. A platform with an altar rises to the east.
+You see a large cross hanging above the altar.
+~
+0 D 0
+D1
+The altar.
+~
+~
+0 -1 2006
+D3
+The west nave
+~
+~
+0 -1 2004
+S
+#2006
+The Altar.~
+You are standing on a platform and upon it stands a stone altar under a large bright coloured window.
+The nave stretches out to the west. Narrow openings are in the walls to north and south.
+~
+0 D 0
+D0
+A corridor
+~
+~
+0 -1 2007
+D2
+The staircase down to the crypt
+~
+~
+0 -1 2009
+D3
+The east nave
+~
+~
+0 -1 2005
+S
+#2007
+A dimly lit corridor.~
+You are standing in a dim curving corridor.
+You hear a loud snoring behind a door to the north.
+A large wool carpet covers the chilly stone floor.
+~
+0 D 0
+D0
+The vicar's room
+~
+~
+1 -1 2008
+D2
+The altar
+~
+~
+0 -1 2006
+S
+#2008
+Vicar's Room~
+You are standing in a small room cluttered with small cute trappings.
+A man with a long black robe sits asleep on a comfortable couch, snoring very loudly.
+He must be the vicar. The only exit is to the south.
+~
+0 D 0
+D2
+A corridor
+~
+~
+1 -1 2007
+S
+#2009
+Staircase.~
+You are in a cylindrical room containing a spiral stone staircase.
+Lots of small white candles light up the room.
+You see a narrow opening to the north.
+~
+0 D 0
+D0
+You see a altar to the north
+~
+~
+0 -1 2006
+D5
+Staircase to the crypt
+~
+~
+0 -1 2010
+S
+#2010
+Cellar.~
+You are at the bottom of a spiral stone staircase.
+You see a narrow curving passage leads into darkness to the north.
+A cold musty odour flows out from the darkness.
+~
+0 AD 0
+D0
+The Crypt entrance
+~
+~
+0 -1 2011
+D4
+Staircase to the church
+~
+~
+0 -1 2009
+S
+#2011
+Crypt Entrance.~
+You are standing in the crypt entrance. There is a narrow passage leading south.
+An ancient steel door blocks your way to the north.
+There are dark chambers off to the east and west.
+~
+0 AD 0
+D0
+You see a door to the north
+~
+~
+2 2011 2014
+D1
+Side chamber
+~
+~
+0 -1 2012
+D2
+Side chamber
+~
+~
+0 -1 2010
+D3
+Staircase to the church
+~
+~
+0 -1 2013
+S
+#2012
+Side Chamber.~
+You are standing in a side chamber of the crypt next to a huge sarcophagus.
+Cob webs covers the mossy stone walls. The only exit is to the west.
+~
+0 AD 0
+D3
+Crypt entrance
+~
+~
+0 -1 2011
+S
+#2013
+Side Chamber.~
+You are standing in a sidechamber of the crypt next to a huge sarcophagus.
+Cob webs covers the mossy stone walls. The only exit is to the east.
+~
+0 AD 0
+D1
+Crypt entrance
+~
+~
+0 -1 2014
+S
+#2014
+Central aisle.~
+You are standing in the central aisle of the crypt,
+surrounded by an eerie darkness. Green moss cover the ancient stone walls.
+There are dark chambers off to the west and east.
+~
+0 AD 0
+D0
+You see a hall to the north
+~
+~
+0 -1 2015
+D1
+You see a dark chamber to the east
+~
+~
+0 -1 2018
+D2
+Crypt entrance
+~
+~
+2 -1 2011
+D3
+You see a dark chamber to the east
+~
+~
+0 -1 2017
+S
+#2015
+Hall.~
+You are standing in a large room. Mouldering hangings cover the chill walls.
+From a wall a enormous portrait of an tall and elegantly clad man glare down at you.
+There's a brass plate under the painting. You see a stone staircase going down and a way to the south.
+~
+0 AD 0
+D2
+Central aisle
+~
+~
+0 -1 2014
+D5
+You see the beginning of a corridor at the end of the stairs
+~
+~
+0 -1 2016
+E
+brass plate~
+You rub away the dust from the plate and read:
+
+  Heinrich von Liech - Count of Death~
+E
+portrait~
+The count looks like a handsome man, but there's something feral and predatory about his features.
+On his fingers you see a great ruby ring set among black bat wings.
+~
+S
+#2016
+A gloomy corridor.~
+You are standing in a gloomy corridor.
+Yellow boned skeletons stand alongside the grey withering stone walls.
+You can go east or up the stairs. You think you see some light further ahead...
+You hear some chanting to the east. 
+
+~
+0 D 0
+D1
+You see some light to the east
+~
+~
+0 -1 2019
+D4
+Stairs to hall
+~
+~
+0 -1 2015
+S
+#2017
+Side Chamber~
+You are standing in a side chamber of the crypt next to a huge sarcophagus.
+You try to open it but the lid remains closed. The only exit is to the east.
+Small mushrooms grow in a dark and moist corner of the room.
+~
+0 AD 0
+D1
+Central aisle
+~
+~
+0 -1 2014
+S
+#2018
+Side Chamber~
+You are standing in a sidechamber of the crypt next to a huge sarcophagus.
+You try to open it but the lid remains closed. The only exit is to the west.
+~
+0 AD 0
+D3
+Central aisle
+~
+~
+0 -1 2014
+S
+#2019
+Sacrificial room.~
+You are standing in a room, black candles are placed alongside the walls spreading their yellow sick light.
+A black stone altar rises at the northern end of the room. A staircase leads down into utter darkness.
+A corridor stretches to the west. A foul stench of decay and corruption rises out from the darkness.
+~
+0 D 0
+D3
+You see a corridor to the west
+~
+~
+0 -1 2016
+D5
+A staircase into darkness...
+~
+~
+0 -1 2020
+S
+#2020
+Staircase.~
+You stand on the top of the staircase, leading down into utter darkness,
+you wonder what hideous things live down there. The foul stench gets stronger.
+~
+0 D 0
+D4
+You see some light at the beginning of the stairs
+~
+~
+0 -1 2019
+D5
+Down into darkness...
+~
+~
+0 -1 2021
+S
+#2021
+The Bottom of the Staircase.~
+You stand at the bottom of this giant staircase.
+A pair of rats looks at you with their glowing small red eyes.
+A foul stench flows from the east. You see a door to the north.
+~
+0 AD 0
+D0
+You see a door to the north
+~
+~
+1 -1 2022
+D1
+Side chamber
+~
+~
+0 -1 2024
+D4
+Up the stairs
+~
+~
+0 -1 2020
+S
+#2022
+Hall.~
+You are standing in enormous hall.
+Firmly mounted torches expose the wet and mouldy walls.
+You hear water drip from some unseen roof.
+Large statues of long forgotten kings look upon you with their stony gaze.
+It smell like smoke in here.
+~
+0 D 0
+D0
+You see a large metal door to the north
+~
+~
+2 2013 2023
+D2
+To the stairs
+~
+~
+1 -1 2021
+S
+#2023
+Heinrich's Chamber~
+You are in chamber of Heinrich, the Count of Death. A huge throne made of
+skulls and other boneparts sits in the centre of the room and upon it rests Heinrich.
+He doesn't notice you at first but your trembling makes him annoyed.
+He looks down at you and with a dark voice says: Welcome to my chamber,
+prepare to meet your maker... You draw your weapon and prepare to fight for your life...
+~
+0 D 0
+D2
+You see a large hall to the south
+~
+~
+2 -1 2022
+S
+#2024
+Side Chamber.~
+You stand in a sidechamber of the crypt next to a sarcophagus.
+The stench of decay is overwhelming.
+The remains of a poor unfortunate adventurer like you lies scattered
+on the ground. Small mushrooms grow in a dark corner of the room.
+The only exit is to the west. There's a light breeze from the north...
+~
+0 AD 0
+D0
+
+~
+~
+1 -1 2025
+D3
+To the bottom of the stairs
+~
+~
+0 -1 2021
+S
+#2025
+A secret passage.~
+You are standing in a secret passage going north.
+Cobwebs and moss covers the grey stone walls.
+A thick layer of dust covers the floor making the air stuffy and dry.
+The passage stretches further north.
+~
+0 AD 0
+D0
+The passage stretches further north
+~
+~
+0 -1 2026
+D2
+To the side chamber
+~
+~
+1 -1 2024
+S
+#2026
+A secret passage.~
+You have come to a point where the passage splits in two directions:
+to the east and to the west. You see some light to the west.
+~
+0 AD 0
+D1
+Treasury chamber
+~
+~
+0 -1 2028
+D2
+Another passage
+~
+~
+0 -1 2025
+D3
+and another
+~
+~
+0 -1 2027
+S
+#2027
+A secret passage.~
+You are standing in a passage, there is a light in front of you.
+Strange ancient hieroglyphs are engraved in the walls.
+You hear sounds of scampering rats. There are exits to the east and north.
+~
+0 AD 0
+D0
+The Tomb
+~
+~
+0 -1 2029
+D1
+You see a passage to the east
+~
+~
+0 -1 2026
+S
+#2028
+Treasury chamber.~
+As you enter a trapdoor opens beneath you and you fall down to a place
+with thousands of rats, you try to defend yourself but they are too many.
+The rats rip you apart and have you as lunch.
+You are DEAD. Sorry no fame and fortune here..
+~
+0 AD 0
+D3
+
+~
+~
+0 -1 -1
+S
+#2029
+The Tomb.~
+You are standing in a tomb.
+Red sick light radiates from a large black chandelier hanging in the ceiling.
+A huge sarcophagus stands in the middle of the room.
+The ceiling is covered with black bats looking down at you with their blood red eyes.
+As you walk forth the lid of the sarcophagus is thrown away by some magical force,
+and out of it rises a mummy so big that he casts you in shadows.
+You feel a very strong motivation to run away.
+~
+0 D 0
+D2
+You see a passage to the south
+~
+~
+0 -1 2027
+S
+#2030
+The Churchyard.~
+You are in the churchyard.
+Lots of beautiful flowers decorate the dull tombstones and monuments.
+There are some nuns here taking care of the graves.
+The only exit is to the north.
+~
+0 0 2
+D0
+You see a path that leads to the church entrance
+~
+~
+0 -1 2001
+S
+#2031
+Staircase.~
+You are standing in a cylindrical room containing a spiral staircase going up to the tower bell.
+A wooden door leads out to the vestibule.
+~
+0 D 0
+D2
+You see an open door that leads out to the vestibule
+~
+~
+1 -1 2003
+D4
+You see a staircase going upwards
+~
+~
+0 -1 2032
+S
+#2032
+The tower.~
+You are standing in the tower. What a view! You can see your house from here.
+A large bell made of brass hangs here.
+The bell-ringer stands here waiting patiently for you to go down.
+You see some nuns in the churchyard below.
+A large stork have it's nest here and don't like your intrusion.
+~
+0 0 0
+D5
+You see some stairs going down
+~
+~
+0 -1 2031
+S
+#0
+
+
+#RESETS
+*
+M 1 2003 1 2029                   Settra the Tomb King to The Tomb.
+E 1 2001 100 16
+*
+M 1 2002 3 2030                   A Nun to The Churchyard.
+E 1 2005 100 17
+*
+M 1 2008 6 2029                   A Bat to The Tomb.
+*
+M 1 2011 2 2027                   A Black Rat to Passage.
+*
+M 1 2008 1 2026                   A Bat to Passage.
+*
+M 1 2010 1 2026                   A Spider to Passage.
+*
+M 1 2010 1 2025                   A Spider to Secret passage.
+*
+M 1 2004 1 2023                   Heinrich to Heinrich's Chamber
+E 1 2003 100 16
+E 1 2010 100 5
+E 1 2007 100 2
+*
+*
+*
+M 1 2011 3 2021                   A Black Rat to The Bottom of the Staircase.
+*
+M 1 2009 1 2018                   A Snake to Side Chamber
+*
+M 1 2010 5 2016                   A Skeleton to Corridor.
+E 1 2006 100 16
+*
+M 1 2001 1 2008                   The Vicar to Vicar's Room
+E 1 2002 100 16
+E 1 2012 100 17
+*
+M 1 2002 2 2005                   A Nun to East Nave.
+E 1 2005 100 17
+*
+M 1 2020 1 2002                   A Nun to Path.
+E 1 2005 100 16
+*
+*
+M 0 2006 2 2029                   A Zombie to The Tomb.
+E 1 2009 100 16
+*
+M 0 2009 1 2012                   A Snake to Side Chamber.
+*
+M 0 2007 2 2015                   A Zombie to Hall.
+E 1 2008 100 16
+*
+M 0 2014 1 2019                   A necromancer to Sacrificial room.
+G 1 2013 100
+*
+M 0 2007 2 2024                   A Zombie to Side Chamber.
+E 1 2008 100 16
+*
+M 0 2013 1 2032                   The Bell-ringer to Tower.
+E 1 2004 100 16
+D 1 2003 1 0                     ; Vestibule. Open East
+D 1 2021 0 1                     ; The Bottom of the Staircase. Close North
+D 1 2024 0 1                     ; Side Chamber. Close North
+D 1 2031 2 1                     ; Staircase. Close South
+D 1 2003 0 1                     ; Vestibule. Close North
+*
+M 0 2015 1 2032                   A Stork to Tower.
+G 1 2011 100
+D 1 2007 0 0                     ; A dimly lit corridor. Open North
+D 2011 2011 0 2                  ; Crypt Entrance. Lock North
+*
+M 0 2017 1 2022                   The Zombie Dragon to Hall.
+D 2013 2022 0 2			 ; Hall. Lock North
+*
+*
+M 0 2018 5 2004                   A Believer to West Nave.
+*
+M 0 2018 3 2005                   A Believer to East Nave.
+*
+M 0 2019 1 2014                   An Adventurer to Central aisle.
+E 1 2015 100 16
+*
+M 0 2020 1 2002                   A Gardener to path.
+E 1 2016 100 16
+*
+*
+O 1 2014 5 2017		          Mushrooms to side chamber
+*
+M 0 2012 1 2015			  A ghost to hall
+S
+
+
+#SPECIALS
+M  2001 spec_cast_cleric                 The Vicar
+M  2003 spec_cast_mage                   Settra the Tomb King
+M  2004 spec_cast_undead                 Heinrich 
+M  2009 spec_poison                      A Snake
+M  2010 spec_poison                      A Spider
+M  2014 spec_cast_undead                 A necromancer
+M  2016 spec_poison                      The Goul
+S
+
+
+#$

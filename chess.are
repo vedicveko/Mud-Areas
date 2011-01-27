@@ -1,0 +1,1585 @@
+#AREA   {45 60} Garth  Chessboard~
+
+
+#MOBILES
+#30600
+white pawn~
+the white Pawn~
+A white Pawn is looking around in fear for anything black.
+~
+The white Pawn looks at you and tries to flee.
+~
+64|128 32768 750 S
+44 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30601
+black pawn~
+the black Pawn~
+A black Pawn is looking around in fear of anything white.
+~
+The black Pawn looks at you and tries to flee.
+~
+32|64|128 32768 -750 S
+46 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30602
+white king~
+the white King~
+The King of the white army stands here in all his royalty.
+~
+He is not afraid of anyone except the black Queen.
+~
+64 8|32|128|512|8192 1000 S
+56 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30603
+black king~
+the black King~
+The King of the black army stands here in all his royalty.
+~
+He is not afraid of anyone except the white Queen.
+~
+64 8|32|128|512|8192 -1000 S
+57 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30604
+white queen~
+the white Queen~
+A Queen carved of ivory is here looking for the black King.
+~
+The Queen is very feminine for a piece of rock.
+~
+64 8|32|512|8192|32768 750 S
+61 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#30605
+black queen~
+the black Queen~
+A Queen carved of ebony is here looking for the white King.
+~
+The Queen is very feminine for a piece of rock.
+~
+64 8|32|512|8192|32768 -750 S
+60 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#30606
+black rook~
+the black Rook~
+A black castle is here to protect his King.
+~
+The rook is strong and formidable enough to protect his King from anyone the 
+white army might send to assassinate him.
+~
+64 8|32|512|8192 -600 S
+54 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30607
+white rook~
+the white Rook~
+A white castle is here to protect his King.
+~
+The rook is strong and formidable enough to protect his King from anyone the 
+black army might send to assassinate him.
+~
+64 8|32|512|8192 600 S
+53 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30608
+black knight~
+the black Knight~
+A black Knight mounted on his steed is in search of the white King.
+~
+He is strong and covered in armor.  His mighty horse neighs and lifts its 
+forelegs off the ground to pound you.
+~
+64 8|32|512|8192 -350 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30609
+white knight~
+the white Knight~
+A white Knight mounted on his steed is in search of the black King.
+~
+He is strong and covered in armor.  His mighty steed neighs and lifts his 
+forelegs off the ground to pound you.
+~
+64 8|32|512|8192 350 S
+49 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30610
+the black bishop~
+the black Bishop~
+A black Bishop is here protecting his King.
+~
+The black Bishop prepares a spell to harm you.
+~
+64|128 8|32|512|8192 -650 S
+49 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30611
+white bishop~
+the white Bishop~
+A white Bishop is here protecting his King.
+~
+The white Bishop prepares a spell to heal his King.
+~
+64|128 8|32|512|8192 650 S
+48 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30612
+white pawn~
+the white Pawn~
+A white Pawn is looking around in fear for anything black.
+~
+The white Pawn looks at you and tries to flee.
+~
+64|128 32768 750 S
+48 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#30613
+black pawn~
+the black Pawn~
+A black Pawn is looking around in fear of anything white.
+~
+The black Pawn looks at you and tries to flee.
+~
+32|64|128 32768 -750 S
+45 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#30600
+king's sceptre~
+the King's sceptre~
+A rod of gold with an ornate ball on the end was left on the ground.~
+~
+1 1|64 1
+0 0 -1 0 
+2 0 0
+A
+4 3
+A
+12 50
+A
+13 35
+#30601
+knight's armor~
+knight's armor~
+The armor of a knight is on the ground.~
+~
+9 0 1|8
+4 0 0 0 
+5 0 0
+A
+19 4
+#30602
+crown marble~
+a marble crown~
+A crown of marble was dropped here.~
+~
+9 64 1|16
+4 0 0 0 
+5 0 0
+A
+5 3
+A
+19 3
+#30603
+rosary pearl string~
+a pearl rosary~
+A string of small white pearls lie tangled on the ground.~
+~
+9 1|64 1|4
+3 0 0 0 
+5 0 0
+A
+12 75
+#0
+
+
+#ROOMS
+#30600
+Entrance to the Chessboard~
+As you step out of the forest into a clearing,  you see many black and 
+white squares.  On them are a bunch of wierdly cut ebony and ivory figurines, 
+running and fighting.
+~
+0 4 1
+D0
+~
+~
+0 -1 30601
+S
+#30601
+A Black Square~
+You are standing on the southeast corner of a battlefield.  As far as 
+you can see are black and white squares.
+~
+0 0 1
+D0
+~
+~
+0 -1 30602
+D2
+~
+~
+0 -1 30600
+D3
+~
+~
+0 -1 30609
+S
+#30602
+A White Square~
+You are standing on a white square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30603
+D2
+~
+~
+0 -1 30601
+D3
+~
+~
+0 -1 30610
+S
+#30603
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30604
+D2
+~
+~
+0 -1 30602
+D3
+~
+~
+0 -1 30611
+S
+#30604
+A White Square~
+You are standing on a white square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30605
+D2
+~
+~
+0 -1 30603
+D3
+~
+~
+0 -1 30612
+S
+#30605
+A Black Square~
+You are standing on a black square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30606
+D2
+~
+~
+0 -1 30604
+D3
+~
+~
+0 -1 30613
+S
+#30606
+A White Square~
+You are standing on a white square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30607
+D2
+~
+~
+0 -1 30605
+D3
+~
+~
+0 -1 30614
+S
+#30607
+A Black Square~
+You are standing on a black square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30608
+D2
+~
+~
+0 -1 30606
+D3
+~
+~
+0 -1 30615
+S
+#30608
+A White Square~
+You are standing on a white square on the northeast corner of the 
+battlefield.
+~
+0 0 0
+D2
+~
+~
+0 -1 30607
+D3
+~
+~
+0 -1 30616
+S
+#30609
+A White Square~
+You are standing on a white square on the south side of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30610
+D1
+~
+~
+0 -1 30601
+D3
+~
+~
+0 -1 30617
+S
+#30610
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30611
+D1
+~
+~
+0 -1 30602
+D2
+~
+~
+0 -1 30609
+D3
+~
+~
+0 -1 30618
+S
+#30611
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30612
+D1
+~
+~
+0 -1 30603
+D2
+~
+~
+0 -1 30610
+D3
+~
+~
+0 -1 30619
+S
+#30612
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30613
+D1
+~
+~
+0 -1 30604
+D2
+~
+~
+0 -1 30611
+D3
+~
+~
+0 -1 30620
+S
+#30613
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30614
+D1
+~
+~
+0 -1 30605
+D2
+~
+~
+0 -1 30612
+D3
+~
+~
+0 -1 30621
+S
+#30614
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30615
+D1
+~
+~
+0 -1 30606
+D2
+~
+~
+0 -1 30613
+D3
+~
+~
+0 -1 30622
+S
+#30615
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30616
+D1
+~
+~
+0 -1 30607
+D2
+~
+~
+0 -1 30614
+D3
+~
+~
+0 -1 30623
+S
+#30616
+A Black Square~
+You are standing on a black square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30608
+D2
+~
+~
+0 -1 30615
+D3
+~
+~
+0 -1 30624
+S
+#30617
+A Black Square~
+You are standing on a black square on the south side of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30618
+D1
+~
+~
+0 -1 30609
+D3
+~
+~
+0 -1 30625
+S
+#30618
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30619
+D1
+~
+~
+0 -1 30610
+D2
+~
+~
+0 -1 30617
+D3
+~
+~
+0 -1 30626
+S
+#30619
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30620
+D1
+~
+~
+0 -1 30611
+D2
+~
+~
+0 -1 30618
+D3
+~
+~
+0 -1 30627
+S
+#30620
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30621
+D1
+~
+~
+0 -1 30612
+D2
+~
+~
+0 -1 30619
+D3
+~
+~
+0 -1 30628
+S
+#30621
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30622
+D1
+~
+~
+0 -1 30613
+D2
+~
+~
+0 -1 30620
+D3
+~
+~
+0 -1 30629
+S
+#30622
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30623
+D1
+~
+~
+0 -1 30614
+D2
+~
+~
+0 -1 30621
+D3
+~
+~
+0 -1 30630
+S
+#30623
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30624
+D1
+~
+~
+0 -1 30615
+D2
+~
+~
+0 -1 30622
+D3
+~
+~
+0 -1 30631
+S
+#30624
+A White Square~
+You are standing on a white square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30616
+D2
+~
+~
+0 -1 30623
+D3
+~
+~
+0 -1 30632
+S
+#30625
+A White Square~
+You are standing on a white square on the south side of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30626
+D1
+~
+~
+0 -1 30617
+D3
+~
+~
+0 -1 30633
+S
+#30626
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30627
+D1
+~
+~
+0 -1 30618
+D2
+~
+~
+0 -1 30625
+D3
+~
+~
+0 -1 30634
+S
+#30627
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30628
+D1
+~
+~
+0 -1 30619
+D2
+~
+~
+0 -1 30626
+D3
+~
+~
+0 -1 30635
+S
+#30628
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30629
+D1
+~
+~
+0 -1 30620
+D2
+~
+~
+0 -1 30627
+D3
+~
+~
+0 -1 30636
+S
+#30629
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30630
+D1
+~
+~
+0 -1 30621
+D2
+~
+~
+0 -1 30628
+D3
+~
+~
+0 -1 30637
+S
+#30630
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30631
+D1
+~
+~
+0 -1 30622
+D2
+~
+~
+0 -1 30629
+D3
+~
+~
+0 -1 30638
+S
+#30631
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30632
+D1
+~
+~
+0 -1 30623
+D2
+~
+~
+0 -1 30630
+D3
+~
+~
+0 -1 30639
+S
+#30632
+A Black Square~
+You are standing on a black square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30624
+D2
+~
+~
+0 -1 30631
+D3
+~
+~
+0 -1 30640
+S
+#30633
+A Black Square~
+You are standing on a black square on the south side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30634
+D1
+~
+~
+0 -1 30625
+D3
+~
+~
+0 -1 30641
+S
+#30634
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30635
+D1
+~
+~
+0 -1 30626
+D2
+~
+~
+0 -1 30633
+D3
+~
+~
+0 -1 30642
+S
+#30635
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30636
+D1
+~
+~
+0 -1 30627
+D2
+~
+~
+0 -1 30634
+D3
+~
+~
+0 -1 30643
+S
+#30636
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30637
+D1
+~
+~
+0 -1 30628
+D2
+~
+~
+0 -1 30635
+D3
+~
+~
+0 -1 30644
+S
+#30637
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30638
+D1
+~
+~
+0 -1 30629
+D2
+~
+~
+0 -1 30636
+D3
+~
+~
+0 -1 30645
+S
+#30638
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30639
+D1
+~
+~
+0 -1 30630
+D2
+~
+~
+0 -1 30637
+D3
+~
+~
+0 -1 30646
+S
+#30639
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30640
+D1
+~
+~
+0 -1 30631
+D2
+~
+~
+0 -1 30638
+D3
+~
+~
+0 -1 30647
+S
+#30640
+A White Square~
+You are standing on a white square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30632
+D2
+~
+~
+0 -1 30639
+D3
+~
+~
+0 -1 30648
+S
+#30641
+A White Square~
+You are standing on a white square on the south side of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30642
+D1
+~
+~
+0 -1 30633
+D3
+~
+~
+0 -1 30649
+S
+#30642
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30643
+D1
+~
+~
+0 -1 30634
+D2
+~
+~
+0 -1 30641
+D3
+~
+~
+0 -1 30650
+S
+#30643
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30644
+D1
+~
+~
+0 -1 30635
+D2
+~
+~
+0 -1 30642
+D3
+~
+~
+0 -1 30651
+S
+#30644
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30645
+D1
+~
+~
+0 -1 30636
+D2
+~
+~
+0 -1 30643
+D3
+~
+~
+0 -1 30652
+S
+#30645
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30646
+D1
+~
+~
+0 -1 30637
+D2
+~
+~
+0 -1 30644
+D3
+~
+~
+0 -1 30653
+S
+#30646
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30647
+D1
+~
+~
+0 -1 30638
+D2
+~
+~
+0 -1 30645
+D3
+~
+~
+0 -1 30654
+S
+#30647
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30648
+D1
+~
+~
+0 -1 30639
+D2
+~
+~
+0 -1 30646
+D3
+~
+~
+0 -1 30655
+S
+#30648
+A Black Square~
+You are standing on a black square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30640
+D2
+~
+~
+0 -1 30647
+D3
+~
+~
+0 -1 30656
+S
+#30649
+A Black Square~
+You are standing on a black square on the south side of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30650
+D1
+~
+~
+0 -1 30641
+D3
+~
+~
+0 -1 30657
+S
+#30650
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30651
+D1
+~
+~
+0 -1 30642
+D2
+~
+~
+0 -1 30649
+D3
+~
+~
+0 -1 30658
+S
+#30651
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30652
+D1
+~
+~
+0 -1 30643
+D2
+~
+~
+0 -1 30650
+D3
+~
+~
+0 -1 30659
+S
+#30652
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30653
+D1
+~
+~
+0 -1 30644
+D2
+~
+~
+0 -1 30651
+D3
+~
+~
+0 -1 30660
+S
+#30653
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30654
+D1
+~
+~
+0 -1 30645
+D2
+~
+~
+0 -1 30652
+D3
+~
+~
+0 -1 30661
+S
+#30654
+A White Square~
+You are standing on a white square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30655
+D1
+~
+~
+0 -1 30646
+D2
+~
+~
+0 -1 30653
+D3
+~
+~
+0 -1 30662
+S
+#30655
+A Black Square~
+You are standing on a black square.
+~
+0 0 1
+D0
+~
+~
+0 -1 30656
+D1
+~
+~
+0 -1 30647
+D2
+~
+~
+0 -1 30654
+D3
+~
+~
+0 -1 30663
+S
+#30656
+A White Square~
+You are standing on a white square on the north side of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30648
+D2
+~
+~
+0 -1 30655
+D3
+~
+~
+0 -1 30664
+S
+#30657
+A White Square~
+You are standing on a white square on the southwest corner of the 
+battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30658
+D1
+~
+~
+0 -1 30649
+S
+#30658
+A Black Square~
+You are standing on a black square on the west side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30659
+D1
+~
+~
+0 -1 30650
+D2
+~
+~
+0 -1 30657
+S
+#30659
+A White Square~
+You are standing on a white square on the west side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30660
+D1
+~
+~
+0 -1 30651
+D2
+~
+~
+0 -1 30658
+S
+#30660
+A Black Square~
+You are standing on a black square on the east side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30661
+D1
+~
+~
+0 -1 30652
+D2
+~
+~
+0 -1 30659
+S
+#30661
+A White Square~
+You are standing on a white square on the west side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30662
+D1
+~
+~
+0 -1 30653
+D2
+~
+~
+0 -1 30660
+S
+#30662
+A Black Square~
+You are standing on a black square on the west side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30663
+D1
+~
+~
+0 -1 30654
+D2
+~
+~
+0 -1 30661
+S
+#30663
+A White Square~
+You are standing on a white square on the west side of the battlefield.
+~
+0 0 1
+D0
+~
+~
+0 -1 30664
+D1
+~
+~
+0 -1 30655
+D2
+~
+~
+0 -1 30662
+S
+#30664
+A Black Square~
+You are standing on a black square on the northwest corner of the 
+battlefield.
+~
+0 0 1
+D1
+~
+~
+0 -1 30656
+D2
+~
+~
+0 -1 30663
+S
+#0
+
+
+#RESETS
+M 1 30600 1 30609                the white pawn to A White Square
+M 1 30600 1 30610                the white pawn to A Black Square
+M 1 30600 1 30611                the white pawn to A White Square
+M 1 30600 1 30612                the white pawn to A Black Square
+M 1 30600 1 30613                the white pawn to A White Square
+M 1 30600 1 30614                the white pawn to A Black Square
+M 1 30600 1 30615                the white pawn to A White Square
+M 1 30600 1 30616                the white pawn to A Black Square
+M 1 30601 1 30649                the black pawn to A Black Square
+M 1 30601 1 30650                the black pawn to A White Square
+M 1 30601 1 30651                the black pawn to A Black Square
+M 1 30601 1 30653                the black pawn to A Black Square
+M 1 30601 1 30654                the black pawn to A White Square
+M 1 30601 1 30655                the black pawn to A Black Square
+M 1 30601 1 30656                the black pawn to A White Square
+M 1 30607 1 30601                the white Rook to A Black Square
+M 1 30609 1 30602                the white Knight to A White Square
+E 1 30601 100 5
+M 1 30611 1 30603                the white Bishop to A Black Square
+E 1 30603 100 3
+M 1 30604 1 30604                the white Queen to A White Square
+E 1 30602 100 6
+M 1 30602 1 30605                the white King to A Black Square
+E 1 30600 100 0
+M 1 30611 1 30606                the white Bishop to A White Square
+E 1 30603 100 3
+M 1 30609 1 30607                the white Knight to A Black Square
+E 1 30601 100 5
+M 1 30607 1 30608                the white Rook to A White Square
+M 1 30601 1 30652                the black Pawn to A White Square
+M 1 30606 1 30657                the black Rook to A White Square
+M 1 30608 1 30658                the black Knight to A Black Square
+E 1 30601 100 5
+M 1 30610 1 30659                the black Bishop to A White Square
+E 1 30603 100 3
+M 1 30605 1 30660                the black Queen to A Black Square
+E 1 30602 100 6
+M 1 30603 1 30661                the black King to A White Square
+E 1 30600 100 0
+M 1 30608 1 30663                the black Knight to A White Square
+E 1 30601 100 5
+M 1 30606 1 30664                the black Rook to A Black Square
+M 1 30610 1 30662                the black Bishop to A Black Square
+E 1 30603 100 3
+S
+
+
+#SPECIALS
+M  30610 spec_cast_cleric                        the black Bishop
+M  30611 spec_cast_cleric                        the white Bishop
+S
+
+
+#$

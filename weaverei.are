@@ -1,0 +1,3555 @@
+#AREADATA
+Credits     {r< 35- 55> {bEirin    {gDreamWeaver's Path{x~
+Name        The DreamWeaver's Path~
+Filename    weaverei.are~
+Builders    Eirin~
+VNUMs       22200 22299
+Security    9
+End
+
+
+
+#MOBILES
+#22203
+mosquito~
+A mosquito~
+A mosquito buzzes around you.
+~
+This little pest seems hungry.  What's worse is that he's not alone.  
+~
+bat~
+AB TVZ -1000 1
+35 14 5d82+534 35d10+100 5d12+18 none
+-11 -11 -11 0
+FH 0 0 S
+stand stand either 0
+AGOV ACDEFHJKP M 0
+#22205
+sage storyteller prophet~
+the Storyteller~
+The storyteller, a renowned sage and prophet, meditates.
+~
+This man is busy, restful.  His eyes are closed in deep thought, his mind
+relaxed.  Time passes, and yet he doesn't speak.  
+~
+human~
+AB H 1000 0
+40 20 10d108+648 40d10+100 5d14+20 magic
+-15 -15 -15 -2
+AFK 0 0 0
+sit sit male 1600
+AHMV ABCDEFGHIJK M 0
+#22207
+Estephan Torymyr~
+Estephan~
+Estephan Torymyr, Squire of Revels, practices his lute.
+~
+His eyes are steely-grey and his hair is as auburn as it's said his
+ancestor was.  His blood's been diffused since the legendary days of yore,
+but his cheekbones remain high, and his nose remains long.  Of all the
+generations past of squires, he resembles the last Reveller, Sir Corwyn
+Torymyr, the most.  You wonder if he'll be the one to break the curse.  
+~
+human~
+ABR DHc 1000 0
+45 23 10d136+786 45d10+100 5d15+26 magic
+-18 -18 -18 -4
+FK 0 B CZ
+stand stand male 1750
+AHMV ABCDEFGHIJK M 0
+#22209
+horse ridge runner~
+a ridge runner~
+A ridge-runner horse darts past you, nearly bowling you over.
+~
+This is a powerful horse, whether stallion or mare.  One eye is a flaring
+bright golden color, while the other is the deepest black of night.  The
+mane shimmers black, with specks of silver dashing within it.  It glistens
+against the ruddy red coloring of the body.  Each hoof sends sparks as it
+hits the ground.  It sends crimson sparks when it hits you - oh, that's
+blood.  
+~
+fox~
+ABF JVZa -1000 0
+41 21 10d113+678 41d10+100 5d14+22 crush
+-15 -15 -15 -2
+FHIM 0 0 0
+stand stand either 100
+AGV ACDEFHJKQV M 0
+#22212
+Scorpia~
+Scorpia~
+Within the desert, Scorpia, Dream-Mistress of Scorpions, stands guard.
+~
+This woman is a hideous combination of scorpion and woman.  Her lower
+half is like a scorpion, hardened armor, stinger, many legs.  But her upper
+portion is a woman's body, with arms flailing angrily at you as you
+accidently step on one of her "Subjects."  
+~
+centipede~
+ABT Z -1000 0
+35 17 10d82+534 35d10+100 5d12+18 sting
+-11 -11 -11 0
+HM L FI E
+stand stand female 1440
+ABGHO ABCGIKQU L 0
+#22213
+quicksand dune~
+the quicksand~
+A sand dune sweeps elegantly before your blurring eyes.
+~
+Hey!  This isn't a sand dune!  It's - QUICKSAND!  
+~
+human~
+ABF KVc -1000 0
+35 15 10d82+534 35d10+100 5d12+18 suction
+-11 -11 -11 0
+FGR BP 0 DINR
+stand stand none 7650
+ABDHMV ABCDEFGHIJKQV S 0
+#22214
+Tanzin Patrol~
+The Tanzin Patrol~
+The Tanzin Patrol paces back and forth here.
+~
+This Tanzin paces the area and watches you coldly.  His tail swishes
+behind him, and you notice it's got a nasty spike on the end.  You'd never
+be able to wield it, because it's made to fit his tail only, but you find
+yourself drawn to it.  It could be the way it moves.  You'd not want to get
+into a fight with him, you are certain.  He catches a glance at you, bares
+his teeth in a wide grin, and lets his forked tongue pop through.  He then
+asks you what your "Buisssssnessss" is here.  
+~
+snake~
+ABT DFc 0 0
+38 17 10d97+603 38d10+100 5d13+20 crush
+-13 -13 -13 -1
+CEFH 0 L I
+stand stand either 1240
+AGHMXYc ABCDEFGHIKLQVX M 0
+#22215
+tanzin boy~
+A Tanzin boy~
+A cold Tanzin boy shivers and whines to his mommy.
+~
+This boy's blue.  His deep brown eyes seem to plead up at you for heat. 
+His hands shiver, and you return the favor as you see the snake-scales that
+line the backs of his arms.  His hair is likewise thin levels of shimmering
+scales, and you notice a thin slit in his eyes.  The more you look at him,
+the more uncomfortable you get.  
+~
+snake~
+ABCH O -1000 0
+36 16 10d87+555 36d10+100 5d12+21 thwack
+-12 -12 -12 -1
+FHM H L IM
+stand stand male 1080
+AGHMXYc ABCDEFGHIKLQVX S 0
+#22216
+dezzia~
+A Dezzia woman~
+A silk-clothed Dezzia dances around you.
+~
+Swirls of colorful silk brush against your legs, and you look up.  Before
+you is a beautiful woman, her eyes the deepest black you've ever seen, red
+lips blazing like passion untamed.  Her hair glitters, all colors and none
+at all.  Her tail swirls around her, a thin strip of flesh with bright
+silken scarves and bells.  Her moves are graceful, and her dance seems to
+sing to your very soul.  
+~
+draconian~
+ABQ FTZc 1000 0
+36 16 10d87+555 72d10+100 5d12+21 flbite
+-12 -12 -12 -1
+AJ L H S
+stand stand female 1080
+ABGZ ACDEFHJKQVX M 0
+#22219
+scream~
+A scream~
+A scream comes from your eyes.
+~
+This has no appearance.  It looks like everything and nothing.  It sounds
+like you.  It sounds like nothing.  
+~
+bat~
+ABCSU TZ 0 0
+45 22 10d136+786 45d10+100 5d15+26 drain
+-18 -18 -18 -4
+FH D 0 CS
+stand stand none 2550
+AGV ACDEFHJKP M 0
+#22220
+Night Mare~
+a Night Mare~
+A Night Mare blows mist out its nostrils.
+~
+This mare tosses her head in fury, eyes blazing teal, hooves sparking
+with fire.  It looks pretty angry...  
+~
+dog~
+AGT ITUVXZ -1000 0
+53 26 10d189+1019 53d10+100 5d18+29 none
+-23 -23 -23 -6
+DHIMN BH 0 I
+stand stand female 2100
+AGV ACDEFHJKUV M 0
+#22221
+Lullabye~
+a lullabye~
+A sweet lullabye croons past you.
+~
+Soft music mixes with a drowsy feeling as you look at this lullabye.  
+~
+human~
+AGQ Ncd 1000 0
+54 26 10d196+1053 108d10+100 5d18+31 none
+-23 -23 -23 -6
+FKLS BI 0 O
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#22222
+Professional Beggar~
+a Professional Beggar~
+A professional beggar shoves his hat in your face.
+~
+Grungy and pox-marked, this beggar seems to have a heart beneath the
+ugliness.  
+~
+dwarf~
+AS JN 1000 0
+49 25 10d162+893 49d10+100 5d17+25 punch
+-20 -20 -20 -5
+AHIV 0 LQ R
+stand stand male 2010
+AHMV ABCDEFGHIJK M 0
+#22223
+cutthroat~
+a cutthroat~
+A cutthroat sizes you up.
+~
+The cutthroat sizes you up, seeing if you're worth her time.  
+~
+pixie~
+AS MOPQTUVZ -1000 0
+50 25 10d168+930 50d10+100 5d17+27 none
+-21 -21 -21 -5
+ABEFHIJKV 0 H KO
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#22227
+Head Dreamkeeper Oriolle~
+Oriolle~
+The head Dreamkeeper, Oriolle, watches through you.
+~
+The left side of Oriolle's face is gorgeous, beautiful enough to make the
+strongest woman melt and the most stubborn man yearn friendship.  The right
+side of his face, however, sends brave folk screaming in fear.  But
+something tells you this man can tell you your dreams.  
+~
+dryad~
+ABR DJNOPQ 0 0
+55 28 10d204+1078 55d10+100 5d19+28 wrath
+-24 -24 -24 -7
+AFHIJKN 0 BLP Z
+stand stand male 2400
+AHMV ABCDEFGHIJK M 0
+#22228
+wistful lover~
+a wistful lover~
+A wistful lover seems to flit by you.
+~
+This is one of many wistful lovers travelling the road of the romantic. 
+You hope this lover manages to earn a "tree," but one never knows.  
+~
+dryad~
+AH JNQTd 1000 0
+52 26 10d182+988 52d10+100 5d18+27 scratch
+-22 -22 -22 -6
+ILQ J B Z
+stand stand either 2100
+AHMV ABCDEFGHIJK M 0
+#22231
+Jealousy~
+Jealousy~
+Jealousy is here.
+~
+Big, green, mean, and ugly.  This thing breaks more relationships than
+death.  
+~
+troll~
+AFT FJK -1000 0
+53 25 10d189+1019 53d10+100 5d18+29 crush
+-23 -23 -23 -6
+CNO 0 BE HK
+stand stand either 2000
+ABHMV ABCDEFGHIJKUV H 0
+#22233
+Chaperone~
+the Chaperone~
+The Chaperone makes sure nothing "Funny" goes on here.
+~
+The Chaperone is an imposing figure, but also possesses the glint of
+mischief.  Despite the duties of keeping young lovers from falling to Lust
+to swiftly, the Chaperone manages to prod them into action should their
+progress be too slow.  Armed with strength and humor, the Chaperone is a
+formidable foe against loneliness.  
+~
+elf~
+ABQ DFHJV 0 0
+54 27 10d196+1053 108d10+100 5d18+31 cleave
+-23 -23 -23 -6
+AHL 0 B Z
+stand stand either 2230
+AHMV ABCDEFGHIJK M 0
+#22238
+Locksmith~
+the Locksmith~
+The Locksmith sneers at you.
+~
+This man stands before you, dressed immaculately in teal and black.  Each
+twitch of his lips seems condescending, and his eyes sparkle with amusement.
+He knows something, but won't say it to any.  
+~
+elf~
+ABSU CDEFGJPUVZ 0 0
+55 27 10d204+1078 55d10+100 5d19+28 stab
+-24 -24 -24 -7
+FHKNV 0 B Z
+stand stand none 1200
+AHMV ABCDEFGHIJK M 0
+#22239
+Snowman~
+a snowman~
+An amazingly realistic snowman dances here.
+~
+This snowman is realistically made, if you can accept the overly-wide
+legs that seem to glide more than they walk.  Its eyes are made of coal, as
+is the smile.  His nose is a carrot, and he wears a sopping wet tunic.  You
+know it looks comical, but he seems quite content.  
+~
+human~
+AR ENP 1000 0
+49 24 10d162+893 49d10+100 5d17+25 thwack
+-20 -20 -20 -5
+CG I R H
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#22240
+Ice Queen~
+Narl'tannaka~
+Nar'tannaka, the Ice Queen, follows her Lord's commands.
+~
+Gather your wits, for this Queen is wry,
+She can freeze to save, a chilling eye,
+Never doubt her, she will not lie,
+Her honor's true as a lover's sigh.
+~
+elf~
+ABQU CDFJVc 0 0
+48 24 10d155+869 48d10+100 5d16+28 magic
+-20 -20 -20 -5
+0 0 B Z
+stand stand female 3000
+AHMV ABCDEFGHIJK M 0
+#22243
+Frostbite~
+Frostbite~
+Frostbite waits to get you.
+~
+Frostbite hurts.  It doesn't really *look* like anything until it hits
+YOU.  
+~
+human~
+AF DEFGX -1000 0
+44 22 10d130+759 44d10+100 5d15+24 frbite
+-17 -17 -17 -3
+0 I 0 H
+stand stand none 1000
+AHMV ABCDEFGHIJK M 0
+#22244
+G clef~
+a G Clef~
+You blink to see a G clef before you.
+~
+The G-clef crosses the G line 4 times, theoretically.  It looks funny,
+especially sans any music lines, without paper, just standing there before
+you, as if it expects you to play it.  
+~
+human~
+AC DVc 1000 0
+46 23 10d142+815 46d10+100 5d16+23 grep
+-18 -18 -18 -4
+AGH AB 0 0
+stand stand none 1200
+ADEHMV ABCDEFGHIJKMY T 0
+#22245
+Conductor~
+the Conductor~
+The Conductor leads her musical family.
+~
+Her eyes are white, her hair is blue.  This elf is the oddest thing
+you've ever seen.  Her body swerves elegantly, though you'd swear she has
+gills.  In her hand, she holds a slim baton, which she waves, gracefully,
+conducting.  Her heart-shaped face is lost with the bliss of the music.  
+~
+elf~
+ABR HJV 0 0
+50 25 10d168+930 100d10+100 5d17+27 wrath
+-21 -21 -21 -5
+EHK 0 B Z
+stand stand female 2000
+AHMV ABCDEFGHIJK M 0
+#22248
+Sour Note~
+a sour note~
+You wince at a sour note.
+~
+This thing is so bitter, so sour, and so off that it scowls at you in a
+way that curdles your blood.  You feel compelled to try to rid it of your
+misery.  
+~
+human~
+AT Ja -1000 0
+47 24 10d149+836 47d10+100 5d16+25 crush
+-19 -19 -19 -4
+O I KL 0
+stand stand none 1600
+AHMV ABCDEFGHIJK L 0
+#22293
+The Don~
+The Don~
+The Don watches *his* "Family" play.
+~
+You can almost hear the music playing.  The Don's chilly grey eyes watch
+the other members of the family, as he coldly calculates their next move. 
+His hair is thinning, brushed back and slicked cleanly.  One hand rests
+casually at his side, and none dare dream of asking where his other hand is.
+Though he's not one of the largest men you'll ever see, he's definitely one
+of the most powerful.  He isn't arrogant, and need not ask for respect. 
+There isn't a single person, Family or not, who wouldn't give it to him
+without question.  
+Or Else.
+~
+modron~
+A CDEFGHJZacd 0 0
+200 100 10d2700+10440 200d10+100 5d70+100 beating
+-115 -115 -115 -52
+ADEFINOQR BMNPQ HIK 0
+stand stand male 10000
+AHMV ABCEFGHJK M 0
+#22294
+Seamus O'Malley-DoVerda~
+Seamus O'Malley-DoVerda~
+Seamus O'Malley-DoVerda stands by the door reading a newspaper.
+~
+Seamus is a poor victim of the odd birth.  His father, Roberto DoVerda,
+was taken by a bright woman named Moira O'Malley.  The father was killed in
+the line of "duty" while saving the Don's life, which left the widow and her
+child alone.  Seamus loves his mother, and his dark black eyes glitter when
+he speaks of her, but she's left him in a predicament.  The grateful Don
+insists that he be treated as a full-blooded member of the "Family" despite
+hiz his frail body and flaming red curls, but the rest just can't trust him.
+~
+dryad~
+AQS HJNc 1000 0
+199 0 10d2673+10343 398d10+100 5d69+102 magic
+-114 -114 -114 -52
+AFHJKL Q B Z
+stand stand male 7960
+AHMV ABCDEFGHIJK S 0
+#22295
+Vincini Arronzini~
+Vincini Arronzini~
+The great Vincini Arronzini waits for you to kneel.
+~
+Vincini Arronzini was one of the great warriors in the family.  He
+commands respect by all, and typically waits for everyone in the room to
+kneel in his prescence before entering further.  His arrogance makes up for
+his lack of wits, though, since he was ambushed during the siege of N'lki,
+and a glancing blow cleaved the surface of his scalp.  The battle tactics
+possessed by Vincini Arronzini are stilll first-rate, though, and therefore
+still manages to deliver top-notch performance to the family.  His cyclops
+nature allows him to tower over other members of the family, except Luigi
+Antonelli, allowing him to spot any intruders before any other member.  His
+ruby eye glares at you, and begins focusing on your armor and weapons.  
+~
+cyclops~
+ABT BDFV 0 0
+199 50 10d2673+10343 199d10+100 5d69+102 blast
+-114 -114 -114 -52
+0 0 CDHI JP
+stand stand male 9581
+ABHMV ABCDEFGHIJKUV H 0
+#22296
+Sario Gridoniti~
+Sario Gridoniti~
+The great Sario Gridonini waits impatiently for you.
+~
+Sario Gridoniti is an impatient member of the family.  He is a large
+lizardman, a species not known for posessing large amounts of patience.  He
+scratches his head and ponders the meaning of your words for a minute.  He's
+tall, even for a lizardman, and skilled at fencing and spell casting.  His
+emerald eyes begin glaring at you the moment you step into the room, and as
+his mouth suddenly contorts into an evil grin at you, two sharp fangs
+protrude from his mouth.  These fangs are useful for eating, as well as
+other unpleasent buisnesses like ripping and shreading his opponents.  You
+notice how light seems to make the fangs shine, making them even more
+menacing.  
+~
+lizardman~
+ABT PVa -1000 0
+199 30 10d2673+10343 199d10+100 5d69+102 charge
+-114 -114 -114 -52
+FIJK CD L I
+stand stand male 15952
+AGXc ACDEFHKQV L 0
+#22297
+Guido Dimarchi~
+Guido Dimarchi~
+Guido leans against the wall to clean his nails.
+~
+Guido's big, but he ain't dumb.  He's got the slower form of speech, but
+he can switch to perfect grammar on a whim.  He's the Don's second-hand man,
+and gives most of the orders to the others.  Oddly, only Luigi *really*
+listens to him, but he doesn't care - it gives him a chance to have a brawl.
+~
+dwarf~
+AST BJZc -1000 0
+199 99 10d2673+10343 199d10+100 5d69+102 punch
+-114 -114 -114 -52
+BCEHIN L BHLQ R
+stand stand male 7960
+AHMV ABCDEFGHIJK M 0
+#22298
+Mario Luz~
+Mario Luz~
+The giant Mario Luz waits patiently for you.
+~
+Mario Luz is a proud, tall man.  Through some bizzare twist, though, you
+see tiny wings in the small of his back, and in his nose two tiny holes
+protrude from the sides.  This places him as a half-human, half-dragon, and
+you wonder how such a thing could happen.  He also is powerful enough to
+slice most mere mortals with just his fists, although his weapon always
+rests nearby.  He walks, though, with the proud feeling of an aristocrat,
+instead of the lumbering and crude walk of a giant or troll.  
+~
+draconian~
+ABc DFHNOTVc 1000 0
+199 200 10d2673+10343 199d10+100 5d69+102 divine
+-114 -114 -114 -52
+BCDEFHIK L CD S
+stand stand male 30000
+ABGZ ACDEFHJKQVX H 0
+#22299
+Luigi Antonelli~
+Luigi Antonelli~
+Luigi Antonelli towers silently over you.
+~
+Luigi is a big grunt.  He hovers over the rest of the "Family" like an
+oak tree does a group of saplings.  He doesn't say much, and what he *does*
+say is nearly incomprehensible.  His "speech" is more aptly understood when
+he implements his own form of "Hand-talk."  This is something people run
+from.  
+~
+giant~
+AT DVWZc 0 0
+199 99 10d2673+10343 199d10+100 5d69+102 crush
+-114 -114 -114 -52
+CDEFHO 0 HI JP
+stand stand male 7960
+AHMV ABCDEFGHIJK G 0
+#0
+
+
+#OBJECTS
+#22200
+Lockpick~
+a lockpick~
+A dark lockpick is here.~
+none~
+trash C AO
+0 0 0 0 0
+55 1 0 P
+F A 2 5 0
+F A 14 120 0
+E
+lockpick~
+On the side, the word "Aenel" is printed.
+~
+#22201
+Gold~
+the Golden and Ruby Arch to Aenel's Realm~
+A tall Golden and Ruby Arch glows to the left of you.~
+none~
+portal A P
+0 0 0 ADEFHJKMO 0
+35 100 2000 P
+E
+gold~
+This arch is spectacular, constructed of gold and inlaid with rubies of
+all sizes.  It glitters at you, full of promises.  You have an overwhelming
+desire to ENTER it.  
+~
+#22202
+Wood~
+a Wood and String Arch~
+This Wood and String construction of an Arch looks dark and foreboding.~
+none~
+portal C P
+EIJKN 0 0 BDEFHJKMO 0
+35 100 2000 P
+E
+wood~
+This arch is a ramshackle construction, looking as if it were about to
+collapse on you.  You figure if you plan to ENTER it, you'd better hurry -
+though it doesn't look promising.  
+~
+#22203
+mosquito wing~
+a mosquito's wing~
+A mosquito's wing futters between your fingertips.~
+none~
+pill G A
+35 'fly' 'pass door' 'bark skin' 'kind light'
+35 1000 1205 P
+#22204
+Crusher~
+the Crusher of the Soul's Desire~
+The Crusher of the Soul's Desire gleams with ethereal beauty.~
+none~
+weapon ABG AN
+exotic 7 8 crush ABC
+39 30 1600 P
+F A 19 4 0
+F A 18 4 0
+F A 13 100 0
+F A 12 30 0
+#22205
+book fairy tales~
+a book of fairy tales~
+This book of fairy tales flies open as you hold it. Look at the contents.~
+none~
+trash A AO
+0 0 0 0 0
+40 20 1600 P
+F A 4 3 0
+F A 12 50 0
+F A 23 -2 0
+F A 24 -2 0
+E
+contents~
+Page one (ONE) The tale of the Garderner
+Page two (TWO) The tale of the Thief of Hearts
+Page three (THREE) The tale of Shastromm's Lust
+Page four (FOUR) The tale of the Sea-Snag
+Page five (FIVE) The tale of the Lightheart
+Page six (SIX) The tale of the Wolf
+Page seven (SEVEN) The tale of the Mother
+~
+E
+one~
+Death, dear listener, is the stopper of all our pains.  But what purpose
+would life have if Death would be our only answer and goal?  Our Lady Bluten
+tells the tale of the Gardener, a choice of two ways.  To choose the first
+is the path of Life.  To tread this path one must strive for the best.  One
+need not be good, nor wise, nor talented.  One must simply do the most they
+can with what they have.  Bluten approves of effort, as her Bereavers will
+tell.  I shall now tell you of Jonaran, a small boy who tread the Path of
+Life.  Jonaran was ill from the day he came to life, cursed perhaps by a
+maliscious demon, or maybe granted the blindness to give him a new form of
+sight.  His parents cried for him, begging for aid, to no avail.  Each day
+they would take him out and describe the sun, describe the flowers, describe
+the moon.  They could not, however, describe colors.  Jonaran did not cry,
+however.  His path lay with his joy.  He reveled in the scent of the rose,
+danced with the warmth of the sun, and gloried in the tingling feel of
+mystery when the moon danced in the skies above.  He was a good boy.  His
+illness continued, however, and as the years passed it grew worse.  His
+family knew he would not survive, and people feared friendship with him. 
+But he retained his smile, and strove on.  "I shall grow in the Garden,
+mommy."  He would say.  A year before his final breath was cast he found
+himself on his hands and feet in the mud.  His fingers worked deftly amongst
+it, and a seed was in a pouch at his side.  The plant was a to be a rose,
+and he worked with effort, tongue lolling from the side of his mouth.  He
+was panting with the effort, but he managed to plant the seed.  No sooner
+did he water it, than it sprung to be a strong, healthy bush.  He smelled
+the aroma and he howled with joy.  His parents came running.  He exclaimed:
+"So beautiful they are!"  And his parents smiled, with new hope.  A year
+later, as he lay on his deathbed, his mother handed him one of his roses,
+and kissed his forehead.  He held it close, and it pricked his finger.  He
+died with a touch of blood on his thumb, a smile on his lips, and the final
+word he breathed was "Red."  Live the best you can, and you shall bloom
+eternally.  Else, shall you be forced to try again.  
+~
+E
+two~
+One might wonder why Aenel is the Deity of Thieving as well as Romance. 
+It seems an unusual mixture.  But consider this tale, my dear friends, and
+the answer soon will be yours.  Many years ago there were two young people,
+sworn enemies, and the most beautiful in the lands.  The girl roamed the
+country stealing for her life, filching bread and slitting the purses of the
+rich.  Her name was Denara.  The boy was a noble's son, blazing golden eyes
+proudly aloof, as each meal was served to him upon plates of the finest
+Xenium-plate.  Each of these youngsters was bound by a curse.  His was that
+he was not permitted to touch the skin of one whose heart was pure.  And she
+was forbidden to taste the lips of an honest man of means.  Their love was
+instantaneous upon meeting, and they fell into conversation.  He, never
+knowing who might be pure of heart, wore thin gloves.  She, always afraid of
+the honest noble, refused to kiss any.  But the conversations were never
+stifled.  They would talk for hours about all topics, ignoring the fact that
+she was a peasant, and he a noble, sworn to argue.  And yet, they were
+honest with each other.  They knew each other for the class level they were.
+So it was that he knew she was a thief, and she knew that he was nobility. 
+But one day the inevitable happened.  The conversation grew intimate, their
+hearts pounded deeply with passion, and he bent over towards her.  She,
+however, initiated the kiss, forgetting her curse.  And thus did both
+violate the terms of their constraints.  For with the kiss did he touch her
+skin.  And he was forced to live.  She died, slowly, before his eyes.  Her
+final words were "You call me a thief, but 'tis you who stole my heart
+away."  Since that time, it is known that Romance without the physical, is
+the sole province of the Thief of Hearts.  
+~
+E
+three~
+O, dear friends, there is a time when Shastromm, Goddess of Chaos and
+Lust was fooled within her own area.  As it is known, the grande dame of the
+fire and passion has a rather random manner.  Very few constants run her. 
+The first being that there are very few constants.  The second being her
+desire for a "good time."  There was a time, however, where she refused this
+"Good time."  Or rather, it was refused to her.  Shastromm had been playing
+with the affections of a young elf, tall and thin, with chestnut hair and
+eyes the color of malachite.  This elf, stubborn and angry, began to melt,
+as all must do.  But it came to him in a dream that it was a game.  And
+though he never believed in dreams, his mind began to question her
+attentions.  Each day she'd come, and each day he'd lose a little more
+ground.  Aenel decided to have some fun with her, at this point, and stepped
+in, distracting her for a length of time.  So it was that Shastromm was
+denied a "Good time" for weeks on end.  She was in need.  And she returned. 
+She would have given the elf what he desired.  She was ready.  But the elf
+had given thought to the attentions, and felt used.  So when she lay upon
+his bed, he grinned, and turned the tables on her.  He played it up, got her
+"excited" then simply said "I don't think so."  It is said that there was a
+rash of newborn babies that next year.  
+~
+E
+four~
+The lightening rumbles, o my friend, upon the sea, and it is a horrifying
+thing.  When the winds howl, and your sails threaten to crack, you scream to
+the warriors to pull the rigging in, and you begin to pray for your lives. 
+Some fear the beasts of the great ocean, but they are not, in any way, the
+worst one may know.  One of the priests of Romiere (known henceforth as
+Romiere's General) was aboard one of the grand pirate ships during one of
+these storms.  They had just "liberated" a shipfull of the finest wines
+which they planned to sell in Antyr, when a great storm threatened to regain
+the very bottles, and the lives of those who'd carried the prize.  The
+General was a fighting woman, though, and she stood on board the ship,
+braced against the winds, a skin of the wine at her side (for she'd enjoyed
+it mere hours before), and called out to her Goddess.  The answer came
+moments later, when a large sea creature sprang up from the depths of the
+ocean.  At first, all the members of the ship, fine Pirates they were: Bold,
+brave, secure - screamed.  But the Sea-Nag bent and picked the ship up
+between its massive jaws, lifted it high into the air, and held it there,
+safe from harm, until the storm abated.  So know this friends: Next time you
+are in a storm, think, drink, and pray to be lifted by what you fear the
+most.  
+~
+E
+five~
+From the mouths of babes, o dear friend, come the world's best comments. 
+Peun, sweet child of Innocence, and god of Light, knows this so well, that
+he wanders the lands as an orphan, gathering the comments into a box of
+heavenly colored chalk.  Each comment you make might have been caught when
+you were a child, and kept in this ever-increasing rainbow of chalk.  And as
+the god cannot speak a lie, he will tell you, in detail, if your words are
+there.  It's said that the funniest comment is Purple, and the saddest is
+blue.  The wittiest is yellow, and the most confusing is red.  Green is not
+in the chalk.  Wonder what the comment will be?  One could watch who the boy
+god is with now.  It is said the child is hidden amongst the leaves of the
+young, and travels the road of the old.  The problem is, though Peun speaks
+the truth, one knows that the truth often does not make sense.  
+~
+E
+six~
+In most places, o dear friend, one would consider wolves to be creatures
+of impulse.  But this was not always so.  The first wolf, who bears no name
+in life or soul, still wanders at M'jor's side.  M'jor calls him "He who
+finds the truth."  But our dear God of Wisdom does not record merely truth. 
+He recalls the future and anticipates the past.  His present is lost amongst
+his annals, and his knowledge is for all.  The original wolf paces the lands
+with his wise friend, and he possesses a strange duty.  As M'jor knows all
+that was and is, as well as will be, the wolf must be with him to keep him
+from insanity, and to aid him in keeping the secrets.  Rumor says that when
+M'jor slips, the wolf bites his ankle.  There is one time, however, that the
+wolf was not at M'jor's side.  He was, instead, at the foot of a baby's bed.
+The baby was unique, born to power and knowledge, an artist of the sublime. 
+From birth, the child spoke in full sentences.  He performed unusual feats
+of magic before he turned twelve.  And he burned like a flame as his
+knowledge grew.  M'jor had sent the wolf, for fear the child would be
+harmed.  It is known that people fear those wiser than they.  The child was
+wiley, though, and managed to avoid the dangers.  The wolf paced beside the
+youth as he grew, and would pounce on the boy when he would be about to
+speak too much.  The boy grew fast, but came to a faster end.  Before the
+boy died, however, the wolf cried.  A single howl escaped his throat, the
+first that wolf, or any wolf, ever let forth.  He opened his jaws, and
+swallowed the boy whole.  From this point, mothers fear wolves, fear they'll
+eat their young babies.  But this is not what happened, o dear friend.  The
+wolf ate the boy, but the boy is still alive.  For the boy is now the wolf. 
+~
+E
+seven~
+Kendra, o dear friend, is the Mother of the Gods of Steab.  Back in the
+time of the Rift, she was the only goddess of the lands, just after the
+continents settled.  She looked upon the land and knew it was full of chaos
+and confusion.  She saw the inconsistencies, and she saw the needs.  It
+cried for more.  From the pits of the land drew she up five forms.  And of
+this energy did she mold the deities.  Shastromm and M'jor, at once, were
+the oldest.  Then sprung forth Romiere, of a root of rebellion.  Bluten
+wisped from a seedling, and burned as a flameberry.  And the glow of the
+sun's ray became Peun.  But she knew the land was still lacking.  Say It was
+without music, mystery, and the element of risk.  It had no cold, and it had
+no romance.  Animals rutted, without meaning.  And she knew she needed
+something not of the land.  So the mother drew forth a form, already alive,
+from another land, and brought it through her into the lands.  To this day
+it is said that Aenel cannot stand any travel but that on foot.  She gave
+this mortal being a spirit and a power.  And it is said he begged against
+it.  But sometimes need outweighs desire.  He is the most loyal to the
+mother, but it is his duty to question, to refuse.  He is her son, in more
+ways than the others, and yet, he is less of her than the others.  And in
+return, she grants the world the music of Nature.  Her Druids care for all,
+good or evil.  Her presence is sometimes seen, as an elderly or middle-aged
+woman.  Dryads and Nyads revere her, and Trolls fear her.  For is not life
+itself Nature?  And Kendra, mother of the Gods and Life in Steab, is Nature.
+~
+#22207
+Flute Revelers~
+the Flute of the Revellers~
+The Flute of the Revellers glistens with writing.~
+none~
+staff ABITY AO
+50 25 25 'cure critical' 0
+45 20 2250 P
+F A 12 20 0
+F A 17 -4 0
+F A 24 4 0
+E
+writing~
+Sole the Reveller makes me Sing.  
+~
+#22208
+lute~
+the Lute of Aenel's Tenor~
+An elegantly engraved red mahogany lute rests in your fingers.~
+none~
+weapon BY AN
+exotic 5 10 divine BG
+45 55 2010 P
+F A 13 20 0
+F A 17 -2 0
+F A 24 -2 0
+#22209
+water sea ocean~
+the water~
+~
+none~
+furniture T P
+BD FHJKPQ FI BCDFG BCDFG
+40 1000 100 P
+E
+water~
+Salt and brine is in this perfect water, and you long to bathe in it.  
+~
+#22210
+tail spike~
+a tail spike~
+This tail-spike looks like it would be a nasty weapon if you could wield it.~
+none~
+trash Ma AQ
+0 0 0 0 0
+38 20 1200 P
+F A 13 20 0
+F A 12 30 0
+F A 19 2 0
+F A 18 2 0
+F A 17 -5 0
+F A 3 -2 0
+#22211
+leap faith~
+a Leap of Faith~
+The mists are so deep here that it would take a Leap of Faith to escape.~
+none~
+portal C P
+KNOPQRTace 0 0 ACDGHJKMO 0
+35 100 2000 P
+E
+leap~
+The mists grow dark and thick, and you begin to lose your way again. 
+It's tough to see how to go back, forward, or where.  You figure your best
+route would be to close your eyes and ENTER a Leap of Faith.  
+~
+#22212
+Stinger~
+a scorpion's stinger~
+A scorpion's stinger flies off Scorpia and lands at your feet.~
+none~
+wand C AO
+0 5 5 'poison' 0
+35 10 1050 P
+E
+stinger~
+This stinger's long and hard, but it looks like you might still be able
+to squeeze some poison out of it.  
+~
+#22213
+blanket~
+a warm blanket~
+A tattered, but warm blanket is crumpled in a heap here.~
+none~
+wand A AO
+35 10 10 'fireball' 0
+38 10 1200 P
+#22214
+tree~
+a tree~
+~
+none~
+furniture KY P
+AB EGHIJK GJ BCDFG BCDFG
+40 100 1200 P
+E
+tree~
+A scrawny tree might stand here.  
+~
+#22215
+oasis~
+an oasis~
+~
+none~
+fountain KY P
+0 0 'water' 0 0
+40 100 1200 P
+E
+oasis~
+The oasis you look at is thin, barely alive.  That is, if it's real. 
+Which you doubt.  
+~
+#22216
+dancer scarf~
+a dancer's long scarf~
+A dancer's long scarf seems to go on forever with swirling bright silk colors.~
+none~
+container IK AC
+250 AC 0 10 90
+40 10 1600 P
+F A 17 -7 0
+F A 12 20 0
+F A 3 2 0
+F A 4 2 0
+#22217
+Source~
+a light source~
+This source of light is all around you, but intangible.~
+none~
+light FR P
+0 0 999 0 0
+40 30 1400 P
+#22219
+nose plugs~
+some nose plugs~
+A pair of nose plugs might help keep out the sounds.~
+none~
+armor Q AE
+BE AE E ABCD 0
+45 30 2050 P
+F A 12 30 0
+F A 4 5 0
+F A 2 -5 0
+#22220
+Flaming Saddlebags~
+flaming saddlebags~
+These saddlebags are flaming with dark fire.~
+none~
+container C AC
+500 0 0 10 90
+52 5 293 P
+F A 1 4 0
+F A 5 3 0
+F A 17 -15 0
+F A 13 10 0
+F A 14 100 0
+#22221
+beggar hat~
+a beggar's hat~
+A beggar's hat is filled with lice.~
+none~
+armor A AE
+ABCE ADE ABCE BCE 0
+48 10 10 P
+F A 17 -2 0
+F A 13 30 0
+F A 5 2 0
+F A 1 -2 0
+F A 2 2 0
+#22223
+Portal~
+the portal to Steab~
+The portal seems to be the way to wake up.~
+none~
+portal C 0
+GJOQRST 0 0 CEFKMO 0
+55 0 0 P
+#22227
+Dream~
+a dream~
+A dream in your hands? Odd.~
+none~
+trash H A
+0 0 0 0 0
+54 1 0 P
+E
+dream~
+Myst, mist, Missed.
+Time to pass your visions far.
+The god, the God, the Master night,
+What is his name, go to the light.
+~
+#22228
+lover's heart~
+a lover's heart~
+A lover's heart sits on your shoulder.~
+none~
+armor BY AI
+BD ABF BCDE CF 0
+52 40 1200 P
+F A 13 20 0
+F A 12 30 0
+F A 18 3 0
+E
+heart~
+A lover's heart may sit on your shoulder, but you learn the truth that a
+lover's heart is a heavy one.  
+~
+#22229
+glint hope~
+a glint of hope~
+You hold a glint of hope.~
+none~
+trash AI AO
+0 0 0 0 0
+50 5 1200 P
+F A 12 50 0
+F A 3 2 0
+F A 4 3 0
+F A 24 -4 0
+#22230
+broken heart~
+a broken heart~
+The broken hearts Jealousy gives are heavy and worth little.~
+none~
+container C AG
+250 ABC 0 25 80
+50 50 10 P
+F A 17 -15 0
+F A 13 30 0
+F A 12 -30 0
+#22231
+eyes suspicion~
+the Eyes of Suspicion~
+The eyes of suspicion are tainted green.~
+none~
+pill CYa AR
+52 'blindness' 'curse' 'teleport' 'kind light'
+50 10 1240 P
+F A 13 10 0
+F A 12 10 0
+F A 14 100 0
+F A 18 4 0
+F A 19 3 0
+E
+suspicion~
+The eyes of suspicion are best swallowed and forgotten.  
+~
+#22232
+Gloves Purity~
+the Gloves of Purity~
+A pair of Gloves, pure as snow, snug tightly around your hands.~
+none~
+armor AI AH
+ACDE CDE ABDE BDE 0
+51 5 1750 P
+F A 13 10 0
+F A 18 5 0
+F A 19 4 0
+#22233
+book manners~
+a book of manners~
+This book looks like long, boring reading.~
+none~
+treasure A AO
+0 0 0 0 0
+54 10 1200 P
+F A 23 4 0
+F A 12 20 0
+F A 17 -5 0
+E
+book~
+CONTENTS:
+   Romantic Encounters
+   Eating
+   Breathing
+   Sleeping
+   Dying
+   Escaping this Realm.
+~
+E
+romantic~
+Blah blah blah don't rush blah blah love isn't lust blah blah blah blah
+BLAH!  Blah blah?  Blah blah blah and other boring rules.  
+~
+E
+eating~
+Do it when your hungry, but never let others see the food or hear it once
+it's entered your mouth.  
+~
+E
+breathing~
+In and out. Repeat.
+~
+E
+sleeping~
+Don't snore. It's rude.
+~
+E
+dying~
+When you do it, have clean underwear.
+~
+E
+escaping~
+The way out is a portal as unseen as the emotion of love.  Though it's
+there, it's intangible.  You must find it.  Finding it might be a chore,
+though if you listen for the song of the heart, you might get a clue.  Once
+found, you must gain advice from the chilly fear, the stolen glance, and the
+dreams of wakening to apply it.  Best manners of this sort involve saying
+"Please" and "Thank you."  
+~
+#22234
+Aenel~
+the Aenel portal~
+~
+none~
+portal 0 0
+INOPQSUVWXYa 0 0 BDFGHJKMO 0
+55 0 0 P
+#22238
+carrot nose~
+a carrot nose~
+This carrot nose looks frozen, but edible.~
+none~
+food 0 A
+BEF BEF 0 0 0
+5 2 100 P
+#22239
+Coal Eye~
+a coal eye~
+This piece of coal was once the snowman's eye.~
+none~
+potion C AR
+49 'invisibility' 'sprout wings' 'frost breath' 'kind light'
+49 4 1000 P
+F A 12 50 0
+F A 5 3 0
+F A 13 10 0
+#22240
+clue~
+a clue~
+This might be a clue to how to wake up.~
+none~
+trash U A
+0 0 0 0 0
+55 1 10 P
+E
+clue~
+When the dreaming is all done,
+And the winter's come and gone.
+Music has no left us bare,
+And romance does no longer care.
+Travel down into the night,
+Past the thieve's land, cold with fright.
+There in one place dark and dank,
+Aenel's blessings you will thank.
+Enter what you think the word,
+And you'll be free just like a bird.
+Careful, though freedom holds pain,
+And where you come out may hurt again.
+~
+#22243
+half rest~
+a half rest~
+A half rest waits for the next note.~
+none~
+furniture TY A
+A EIJKN H DEFG DEFG
+45 15 1200 P
+#22244
+G Lines~
+a pair of G Lines~
+A pair of G Lines wrap your legs with sound.~
+none~
+armor BYa AF
+0 0 0 0 0
+46 20 1400 P
+F A 2 2 0
+F A 12 12 0
+#22245
+Conductor's baton~
+a Conductor's baton~
+The baton seems to beg to be waved about.~
+none~
+weapon SY AN
+dagger 6 8 thrust G
+50 10 1200 P
+F A 12 -20 0
+F A 13 20 0
+F A 1 1 0
+F A 19 5 0
+F A 18 3 0
+#22246
+tight shoes~
+some tight shoes~
+A pair of tight shoes looks very uncomfortable.~
+none~
+armor CE AG
+ADE ABCE DE F 0
+50 20 1200 P
+F A 12 50 0
+F A 13 -20 0
+#22247
+Hote Water Bottle~
+a hot water bottle~
+Maybe if you put this hot water bottle on your head...~
+none~
+armor KM AE
+ACDE CDE DE ABDE 0
+47 25 1750 P
+F A 5 2 0
+F A 13 30 0
+F A 12 30 0
+#22248
+asprin~
+a couple of asprin~
+Two asprin might relieve that headache.~
+none~
+pill A A
+50 'cure serious' 'cure blindness' 'protection evil' 'kind light'
+47 2 1200 P
+#22249
+Flaky Skin~
+flaky skin~
+The flaky skin seems stuck on you.~
+none~
+armor MQRUa AI
+BCDE DE BCE CE 0
+44 1 1300 P
+F A 12 20 0
+F A 17 -2 0
+F A 13 -50 0
+#22250
+Slumber portal~
+the Slumber Portal~
+The Slumber Portal seems mysterious...and has a sign attached to it.~
+none~
+portal A 0
+FHJKPQ 0 0 ABDFGHJKMO 0
+25 0 0 P
+E
+sign~
+Aenel's Realm created by Eirin for levels 35-55.
+All names, creatures, and stories found within are copywrited in real life.
+~
+#22251
+Frozen Ice Rose~
+a frozen ice rose.~
+The frozen ice rose oddly doesn't melt, even in heat.~
+none~
+treasure H AO
+0 0 0 0 0
+48 23 3200 P
+F A 17 -10 0
+F A 4 3 0
+F A 12 20 0
+F A 14 100 0
+E
+rose~
+The frozen petals don't burn your skin, nor do they seem wet, or as if
+they would melt.  You know it's ice, though.  It smells like ice.  It tastes
+like ice.  It is cold.  By the petals are odd, and advice is etched within. 
+~
+E
+advice~
+Find the room where creatures fear,
+Not hell not heaven seeks the path,
+Careful, wary, all is clear
+And if you find it, know its wrath.
+Here's the place, and learn it well,
+Where you come out...one can tell.
+~
+#22292
+huge chocolate double tiered mocha frosted cake~
+a cake~
+This is a slice of a huge, double-tiered, chocolate, mocha-frosted cake.~
+none~
+food 0 A
+DFGHIJ DFGHIJ 0 0 0
+40 0 1000 P
+E
+cake~
+This cake is so heavenly that you want to die.  It's so rich that you can
+buy a mansion with it.  It's so creamy that cows get jealous.  And it's made
+JUST to get Wink HUNGRY.  
+~
+#22293
+The Don's Ring~
+the Don's Ring~
+This is the Don's Family Ring and Crest.~
+none~
+armor 0 AB
+EG ABCDG BCDG ACDG 0
+200 10 10000 P
+F A 18 25 0
+F A 19 25 0
+F A 13 200 0
+#22294
+Newspaper Prop~
+a newspaper prop~
+This newspaper has tiny slots for the wearer to see through.~
+none~
+armor HY AE
+CGHIJKLMNOPQRSTUVWXYZabcdef ACGHIJKLMNOPQRSTUVWXYZabcdef BCGHIJKLMNOPQRSTUVWXYZabcdef ABCGHIJKLMNOPQRSTUVWXYZabcdef 0
+199 20 7960 P
+F A 13 150 0
+F A 12 150 0
+F A 4 5 0
+F A 3 5 0
+#22295
+sominex~
+sominex~
+Enter sominex~
+none~
+portal Aa A
+ADE 0 C DEFHJKMO 0
+35 25 1000 P
+E
+aura~
+This aura contains arrogance as a substance, but the odd part is that it
+also seems to make you a bit humbler as you get closer to it.  Perhaps the
+aura funnels all the arrogance into the room into itself, making Vincini
+Arronzini the pompus bastard he is, by taking the arrogance from everyone
+else and using it inside him.  The aura glows slightly as you peer intently
+at it.  
+~
+#22296
+tried-and-true mace~
+tried-and-true mace~
+A heavy, sharp tried-and-true mace rests here.~
+none~
+weapon ABE AN
+mace 18 18 beating ABD
+199 1000 0 P
+E
+tried-and-true~
+This mace is slightly rusted, although the spikes on the ball still
+possess a sharp edge to them.  Sario Gridonini could choose any possible
+weapon the family possesses, and would be skilled in any form of weaponry,
+but he prefers the ball-and-chain which he carried on long marches and
+battles throughout his life, and the weapon which saved his life many times
+over.  
+~
+E
+mace~
+This mace is slightly rusted, although the spikes on the ball still
+possess a sharp edge to them.  Sario Gridonini could choose any possible
+weapon the family possesses, and would be skilled in any form of weaponry,
+but he prefers the ball-and-chain which he carried on long marches and
+battles throughout his life, and the weapon which saved his life many times
+over.  
+~
+#22297
+Broken beer bottle~
+a broken beer bottle~
+This broken beer bottle is dripping with red liquid. Amber beer, or is it blood?~
+none~
+weapon CY AN
+exotic 23 9 slash BCEH
+199 0 7960 P
+F A 13 50 0
+F A 12 100 0
+F A 18 15 0
+F A 19 30 0
+F A 2 5 0
+#22298
+silver bullet~
+a silver bullet~
+A large silver bullet awaits a new owner.~
+none~
+weapon ABIa AN
+exotic 100 4 divine ABCDGH
+199 200 1000 P
+E
+silver~
+This bullet mysteriously has your initials engraved on it, for some
+strange reason.  It's silver, and glistens in the sun.  Unfortunantly, guns
+don't seem to be commonly available within this region of the planet.  That,
+of course, makes this bullet rather useless, except to the great Mario Luz. 
+~
+#22299
+.45 Auto-Load Crossbow~
+a .45 auto-load crossbow~
+This HUGE .45 auto-load crossbow belongs to Luigi.~
+none~
+weapon CYa AN
+exotic 21 10 blast ADGH
+199 80 7960 P
+F A 13 100 0
+F A 18 20 0
+F A 19 20 0
+F A 24 10 0
+F A 23 10 0
+F A 5 3 0
+F A 1 3 0
+F A 2 3 0
+F A 4 -8 0
+F A 3 -10 0
+#0
+
+
+
+#ROOMS
+#22200
+The Arches to Aenel's Realm~
+You have come to stand just outside Aenel's realm.  There are two arches
+that stand before you, leading you to have to choose.  The mists lick around
+your feet even here, and you hear practically nothing but a soft drone which
+could be the sound of snoring.  
+~
+0 AC 0
+E
+mist~
+The mist at your feet barely covers them.  You can easily see where you
+are, and that lends you some sparse comfort.  
+~
+S
+#22201
+Mist of Aenel's Realm~
+Engulfing everything around you is a thick mist which manages to make you
+pause, stretch your arms out, and feel your way.  The sound of howling is
+heard in the distance, and sometimes a faint scream as well.  If you really
+strain, you might catch a sound of bells, a distant song, or even a child's
+tears.  While the most you can see is the thick greyness of the ethereal
+substance that surrounds you, the sense of touch is still functioning
+perfectly.  Right now, for example, you could swear you feel the mist
+caressing you, brushing your hair back, and pushing you onward.  
+~
+0 A 9
+E
+mist~
+The mist here is so thick it seems alive.  You jump once or twice as you
+*think* you see a pair of golden eyes, but soon reassure yourself that you
+are sane, and continue on.  
+~
+E
+east~
+Though you see nothing ahead of you, you are absolutely certain you hear
+voices to the east.  You presume that might be the way to go.  
+~
+D1
+~
+~
+0 0 22212
+S
+#22202
+Mist of Aenel's Realm~
+Engulfing everything around you is a thick mist which manages to make you
+pause, stretch your arms out, and feel your way.  The sound of howling is
+heard in the distance, and sometimes a faint scream as well.  If you really
+strain, you might catch a sound of bells, a distant song, or even a child's
+tears.  While the most you can see is the thick greyness of the ethereal
+substance that surrounds you, the sense of touch is still functioning
+perfectly.  Right now, for example, you could swear you feel the mist
+caressing you, brushing your hair back, and pushing you onward.  
+~
+0 A 9
+E
+east~
+Though you see nothing ahead of you, you are absolutely certain you hear
+voices to the east.  You presume that might be the way to go.  
+~
+E
+mist~
+The mist here is so thick it seems alive.  You jump once or twice as you
+*think* you see a pair of golden eyes, but soon reassure yourself that you
+are sane, and continue on.  
+~
+D1
+~
+~
+0 0 22203
+S
+#22203
+Aenel's Realm-The Path of Truth~
+The hills you stand upon have the most pleasant aroma.  The sun beats
+down upon your cheeks, and you find a smile coming to your lips.  At your
+feet, you hear a soft slithering sound.  You glance down to see a snake. 
+Everything around you is so real.  Even the mosquitoes.  You do, however,
+wish those mosquitoes wouldn't bite so hard, and suck so much blood from
+you.  
+~
+0 0 4
+E
+sun~
+Didn't your mother ever teach you not to look directly at the sun?  
+~
+E
+snake~
+This thin critter slithers by your feet, over it, then looks up.  It sees
+you, and darts down a tiny hole in the ground.  
+~
+E
+west~
+To the west you see swirling mists.  It's so thick that you realize you
+can't see anything else.  
+~
+E
+east~
+You see the hills give way to wide fields to the east.  
+~
+D1
+~
+~
+0 0 22204
+D3
+~
+~
+0 0 22202
+S
+#22204
+Aenel's Realm-The Path of Truth~
+The fields are all lain out in nice, even rows.  Each portion is
+dedicated to a different kind of food essential to the surroundings. 
+Considering that this is a dream, the foods are bizarre, though they are
+labelled.  You notice a label on one, a sign on another, a post on the
+third, and a marker on a fourth.  The rest lie fallow or tilled, waiting for
+their time to be planted.  
+~
+0 0 2
+E
+row~
+There is nothing natural about the evenness of these rows.  
+~
+E
+label~
+The label states that this portion of the fields is dedicated to Scarely,
+a grain essential for nightmares.  
+~
+E
+sign~
+This section of fields contains lines of bushes.  Each bush has a
+plethora of berries.  The name on the sign reads: Sweet Dreamsberry.  
+~
+E
+post~
+This post holds scratchings indicating that the section it represents is
+for cotton.  What else would one use for that fuzzy feeling that makes you
+forget your dream?  
+~
+E
+marker~
+This marker states that the portion of field around it is dedicated to
+Claritus Maximus, a large corn-like vegetable that is ground into the sands
+of dream.  
+~
+E
+west~
+To the west you may return into the hills.  Though it's a pleasant idea,
+you remember the mosquitoes and think twice.  
+~
+E
+east~
+Mountains rise up high into the air to the east.  It's an exhilerating
+feeling to be amongst them, yet they do give pause, and cause for fear.  
+~
+D1
+~
+~
+0 0 22205
+D3
+~
+~
+0 0 22203
+S
+#22205
+Aenel's Realm-The Path of Truth~
+You begin to climb the mountain, struggling over each step, feeling the
+cold wind on your face.  Snow caps the top, and you struggle past it, hoping
+your fingers and toes don't freeze off.  When you finally reach the top, you
+see a single figure sitting there, his legs crossed, eyes closed in thought.
+You also see a vulture hovering high above you.  Perhaps the nest is nearby.
+~
+0 0 5
+E
+nest~
+This nest is made of human, troll, and giant hair.  It holds nothing
+(yet.)  There is a slight odor coming from it, but you force yourself to
+walk by it as you see the vulture's glare.  
+~
+E
+vulture~
+This is a huge bird who looks angry with your intrusion.  
+~
+E
+snow~
+Cold.  Very cold.  Wet.  
+~
+E
+west~
+Behind you lie fields to be cultivated for the Dreaming.  
+~
+E
+up~
+Above you the snow is blurry.  As you look up, you feel a strange
+shimmering.  You realize the lands above you alter.  They flatten out, and
+regain the warmth of the sun.  The trees roots barely peek down through the
+stone cliff, and you assume that there's a forest up there.  
+~
+D3
+~
+~
+0 0 22204
+D4
+~
+~
+0 0 22206
+S
+#22206
+Aenel's Realm-The Path of Truth~
+The forest that surrounds you is very diverse.  From the tall birch to
+the short Kalnoren tree, you find yourself gasping with pleasure.  A path
+stretches to the north, and you hear a soft song coming from there.  In
+front of you is the largest Oak you've ever seen, which seems to take
+control of the forest.  At your feet, pine leaves and smaller plants rustle
+or soften your step.  Some moss clambers up one of the trees, concealing a
+hole towards the bottom.  The sounds pervade the air, as if competing with,
+or joining in with, the song you noticed before.  
+~
+0 0 3
+E
+birch~
+This birch has the most silken white bark you've ever seen.  
+~
+E
+kalnoren~
+Like all Kalnoren, this tree has a fat base which tapers nearly to a
+point.  The branches and leaves seem to gather from that point and "explode"
+in all directions.  The red flowers dangle at the end of some leaf clusters,
+bobbing just around your eye level.  You see the brown-colored fruits, and
+manage to stop yourself before plucking one.  Though it's very sweet, you
+recall, the fruit of the Kalnoren can kill in seconds.  
+~
+E
+fruit~
+This oblong fruit is very sweet - and very deadly.  
+~
+E
+flowers~
+It is said many women squeeze the juices of this flower to make a face cream.
+~
+E
+oak~
+This Queen of the forest towers over the rest of the trees, and seems to
+invite you to climb.  You can almost picture the knots and branches calling
+to you.  
+~
+E
+leaves~
+These pine leaves make a nice blanket for the forest floor.  You'd think
+they should be needles, but oddly, they are not.  
+~
+E
+plants~
+There are more different kinds of plants than can be described in one
+lifetime.  
+~
+E
+moss~
+The moss looks comfortable.  Bright green, with a rich soil base, it
+climbs up the tree, molding against it, and becoming part of it.  
+~
+E
+hole~
+You peek in this small hole, and two eyes blink out at you.  After some
+chittering noises, a furry paw BATS your nose angrily, making you back up,
+and away, giggling.  
+~
+E
+down~
+Below you you see snow, and the fields farther.  
+~
+E
+up~
+Climbing the tree might lead you to a new plateau.  Everything else is
+odd here, why not go up?  
+~
+E
+north~
+To the north you see a small cabin.  Smoke drifts from the chimney, and
+music surrounds the area.  
+~
+D0
+~
+~
+0 0 22207
+D4
+~
+~
+0 0 22208
+D5
+~
+~
+0 0 22205
+S
+#22207
+Aenel's Realm-The Path of Truth~
+This darkened room is the home of a young man.  Its gentle feel is
+enhanced by instruments that hang upon the wall and lean against furniture. 
+On the table are scattered sheets of parchment, with illegible writing on
+them.  A single candle flickers in the center of the room, illuminating the
+face of the youthful owner of the cottage.  He's bent over in concentration,
+strumming a few notes on a lute.  His bed is nothing more than a blanket
+tossed over straw, and a small kitten rests upon it.  There is something
+loving about the man's expression.  He's honest and yet conceals something. 
+The very feeling is echoed in the room, right down to the four paintings
+that line the walls.  
+~
+0 A 0
+E
+south~
+Exiting this comfy abode will bring you back into the forest.  
+~
+E
+thorin~
+The most merry and mischieveous painting of them all is that of Thorin. 
+Though he remained in seclusion here on the Path of Truth, as does his son,
+Estephan, there are tales in reality that lead to him.  Because of him, it
+is said that the Revelers still haunt the cities of the local lands.  It is
+believed that Revelers have the power to curdle the milk of the wicked, and
+sweeten the cream of the kind.  Of course, as he wasn't a Reveler, it's not
+possible, but he did have his - moments.  
+~
+E
+kerel~
+You wonder how old Kerel was when he died.  He looks so young in the
+painting, a flitting butterfly in life.  His eyes were grey, a mixture of
+laughter and sorrow, but touched with a deep understanding.  Something tells
+you that you'd be afraid to try to outwit him.  
+~
+E
+stolforn~
+When you gaze at the thick paints and heavy strokes used in Stolforn's
+portrait you almost smile.  Large where the others were petite, he seems to
+bound out of the painting and greet you.  In this light, the style was
+appropriate.  
+~
+E
+dannin~
+The portrait of Dannin looks the oldest.  His piercing purple eyes
+glitter outward, and almost seem to cry at you.  A sorrow touches your heart
+at the pain.  
+~
+E
+paintings~
+There are four paintings here.  You look at them by name: Dannin,
+Stolforn, Kerel, and Thorin.  
+~
+E
+kitten~
+The one warm thing that has nothing to do with music is curled up asleep
+on the so-called bed.  She peeks a furry head up at you, one eye slitting
+open from between her paws.  Her mouth stretches out, and bends back so far
+her nose almost touches her back, in the largest yawn you've ever seen. 
+Then she licks her paw a couple times, stretches her tongue along her jowls,
+and goes back to sleep.  
+~
+E
+bed~
+This is very uncomfortable looking.  You wonder how this young man
+survives like this.  
+~
+E
+candle~
+The candle is marked with thin lines.  It flickers, melted down so only
+three large marks are left.  
+~
+E
+parchment~
+Each sheet of the parchments is different.  Some have dots and lines
+strewn all over them, and some have words you can read.  Most are boring
+legends, but you do catch one with something more pleasant.  It reads: 
+ 
+In truth the swallow grows to fly,
+A free and easy gait:
+And yet when one has deigned to try,
+To gather hope and emulate,
+They waver still, and fall.
+ 
+What use is it to try to soar,
+When all you have are arms?
+Should music silence evermore,
+Lost for useless charms?
+I beg you heed my call.
+ 
+Sing out, and join the merry tune,
+Sing out and dance with me,
+For dancing with the swallow's croon
+Is what shall set you free.
+It grows grand things from small.
+~
+E
+table~
+The table is as plain as plain can be.  
+~
+E
+furniture~
+The furniture is sparse and boring.  Plain wooden utilitarian items with
+no decoration.  You wonder if you could live in such barren surroundings.  
+~
+E
+instrument~
+The instruments are of every kind, shape, and tone known in this or any
+other world.  One, a silver flute, seems to call to you, but you think the
+man would get to it first, and he wouldn't be pleased if you took it.  
+~
+D2
+~
+~
+0 0 22206
+S
+#22208
+Aenel's Realm-The Path of Truth~
+Again you stand on a mountain, this time on the very top, a ledge.  The
+rock is oddly flat here, and wide.  A winding bridge of rock extends towards
+the east, but that hardly seems safe, as it's not supported by anything, and
+you can't see the other side.  You hear whispers in the wind, and feel a
+chill of apprehension.  A single horse speeds across the stone in front of
+you, nearly bowling you over.  You notice that one of its eyes flares
+golden.  That doesn't sit well with you.  The whispers grow louder, and form
+words.  They seem to say "The sight is a two-edged sword.  Be wary."  
+~
+0 0 5
+E
+down~
+Down the tree-trunk you see a beautiful forest.  
+~
+E
+east~
+Is that a tree at the end of the bridge to the east?  
+~
+E
+bridge~
+The bridge winds into the east, and loses its destination there.
+~
+E
+rock~
+The rock you stand on seems to go on forever, a buffed, smooth stone
+table atop the mountain.  It makes you feel insignificant.  
+~
+D1
+~
+~
+0 0 22209
+D5
+~
+~
+0 0 22206
+S
+#22209
+Aenel's Realm-The Path of Truth~
+You find it absolutely amazing that the terrain on this path can shift so
+often.  From barren rock to bright forest, from forest to rock, you never
+know what will come next.  In this case, a forest.  Trees tower over you. 
+Or you think these are trees.  The leaves seem odd.  As does the fruit.  At
+least they don't pinch you.  
+~
+0 0 3
+E
+up~
+You hear music of the sea from above you.  
+~
+E
+west~
+To the west lies the barren rock, but that means trudging over that
+spooky rock-bridge again.  
+~
+E
+fruit~
+Long, tubular fruits that look delicious.  You wonder if these are the
+legendary Tonin trees farmers dream of.  
+~
+E
+leaves~
+Each leaf is long and tubular, like a string of beads hanging from the
+branch high above.  You push by the curtain of leaves and fruit.  
+~
+E
+tree~
+Each tree is exactly the same.  Ringed and rounded trunks shoot up like
+palms, and then branch out in many different directions.  It makes you think
+of volcanoes exploding.  The fruits are long and thin, dragging almost to
+the ground.  You can barely tell the difference between them and the leaves,
+as you push past them to go to the next step of the journey.  
+~
+D3
+~
+~
+0 0 22208
+D4
+~
+~
+0 0 22210
+S
+#22210
+Aenel's Realm-The Path of Truth~
+Fiddler's Green is the land where sailors dream of going when they die. 
+Some say it's a section of Bluten's realm, and others believe it's a part of
+Aenel's.  Both are right and wrong.  None know why.  The music is abounding,
+the island is green, and the water smells of salt and brine.  A lone fiddle
+plays from around you, with bagpipe music joining in.  You see old sailors
+pacing around a rickety wharf, but the more you approach them, the further
+they are.  There's truth to the belief that Fiddler's Green is a joyous
+place that you cannot find unless you belong.  And since you're still alive,
+you really don't belong.  
+~
+0 N 6
+E
+sailors~
+Indistinct forms of sailors bustle about, but remain unapproacheable.  
+~
+E
+island~
+In the distance is an island green,
+On its shores I long to roam,
+Where with my ship-mates I will dream,
+Of glorious nights on th'Ocean's foam.
+Take me hence to the Fiddler's Green,
+Take me where I long to be.
+For no more in life shall I be seen.
+Not death, but Fiddler's Green for me.
+~
+E
+wharf~
+Though rickety, you have a feeling this wharf will never die.  
+~
+E
+water~
+Salt and brine is in this perfect water, and you long to bathe in it.  
+~
+E
+north~
+Before you is air.  Can you fly north?  
+~
+E
+down~
+Below you is the forest.  You must have climbed high, but you don't
+recall.  
+~
+D0
+~
+~
+0 0 22211
+D5
+~
+~
+0 0 22209
+S
+#22211
+Aenel's Realm-End of the Path of Truth~
+You come to the end of the Path of Truth.  You think back on what you've
+learned, the people you've met.  You wonder to the purpose of it all.  And
+as you decide that there's much you'd wish to recall when you wake - if
+you're asleep, you realize you're trapped.  The only thing visible is the
+mist.  And that's so thick you're afraid to move.  
+~
+0 C 9
+E
+mist~
+The mist is so thick you'd think it alive.  Maybe it would be best just
+to jump.  
+~
+S
+#22212
+Aenel's Realm-Path of Illusion~
+You pass through the mists, and find yourself gasping for air.  Sand is
+all around you, and the sun beats strongly against your skin.  At your feet,
+you hear a slithering sound, and you stifle your screams when you look and
+see a scorpion.  The area also has some random tumbleweed which bounces by
+you, taunting you with a promise of a false destination, and a couple
+scrawny cactii.  
+~
+0 0 10
+E
+sun~
+OUCH!  Didn't your mother ever tell you not to look right at the sun?  
+~
+E
+sand~
+The sand is a golden yellow.  It goes on and on.  It's worse than the
+energizer bunny.  
+~
+E
+west~
+West is covered with the mists you just left.
+~
+E
+down~
+Looking down, you notice a small hole in the sands.  You *might* be able
+to fit through it.  
+~
+E
+tumbleweed~
+The tumbleweed is as dead as the sands around you.  It bounces
+sporadically across your feet and vanishes out into the distance.  
+~
+E
+cactus~
+The cactii are weak-looking, as if they haven't been able to get water in
+ages, but one of them has managed to bloom a gorgeous pink flower.  
+~
+E
+flower~
+This flower is huge, pink, and has a blue spiney center.  The scent pours
+from it, and you can almost hear it begging for water.  
+~
+E
+scorpion~
+These poison killers are small enough to step on, if you want to risk
+getting stung.  You opt for the wiser move and dodge around them in your
+trek through the sand.  
+~
+D3
+~
+~
+0 0 22201
+D5
+~
+~
+0 0 22213
+S
+#22213
+Aenel's Realm-Path of Illusion~
+The sand waves into dunes here, and each step is a chore.  The
+tumbleweeds have long since vanished, leaving you with nothing but the heat
+and dunes.  At least, that's what you think.  
+~
+0 0 10
+E
+west~
+The sand blinds your eyes so much that when you look in that direction,
+you wince, close your eyes, and choose.  
+~
+E
+north~
+The sand blinds your eyes so much when you look in that direction, that
+you wince, close your eyes, and choose.  
+~
+E
+dunes~
+The dunes swirl up and down.  Sometimes you can even feel your feet
+sinking into the sand.  You claw your way out, trudging more than walking,
+wondering if you'll ever see water again.  
+~
+D0
+~
+~
+0 0 22201
+D3
+~
+~
+0 0 22214
+S
+#22214
+Aenel's Realm-Path of Illusion~
+This area is beautiful!  You're certain you've never seen something so
+lovely in your life.  The trees that droop over the oasis seem to beckon you
+to rest beneath them, and the wind brushes gently, albeit hotly, over your
+cheeks.  If you stare a little longer, you think you can see rubies in the
+water, or emeralds.  And more than that, there's fruits hanging from the
+trees, to eat!  You're in heaven!  You're happy!  You're - imagining things.
+~
+0 0 10
+E
+down~
+Your eyes are already blurry and you're imagining things.  Do you really
+trust what you see in that direction?  
+~
+E
+north~
+Your eyes are already blurry and you're imagining things.  Do you really
+trust what you see in that direction?  
+~
+E
+fruits~
+Hm.  Want some illusionary bread to go with that non-existant fruit?  
+~
+E
+emeralds~
+Emeralds would probably add to your weight.  And hot, tired, and thirsty
+as you are, that's not a good thing.  Thankfully, there are no emeralds,
+anyhow.  
+~
+E
+rubies~
+Rubies?  You want rubies?  You'd be lucky for water!  
+~
+E
+oasis~
+Don't you just hate mirages?  
+~
+E
+trees~
+Oh, there would be trees to sit beneath in an ideal world.  Too bad not
+everything's ideal on the Path of Illusion.  
+~
+D0
+~
+~
+0 0 22201
+D5
+~
+~
+0 0 22215
+S
+#22215
+Aenel's Realm-Path of Illusion~
+Can you believe it?  Another Mirage of an Oasis!  Each muscle in your
+body groans with the thought of it.  As if this oasis really is there.  It's
+not even as nice as the last mirage.  It's just a plain pool of water.  And
+that tree to rest under.  Scrawny.  Such a pitiful jest your mind is playing
+on you!  
+~
+0 0 10
+E
+west~
+Ha!  As if you'd be dumb enough to believe that's the end!  Now you see
+mist!  
+~
+E
+north~
+Ha!  As if you'd be dumb enough to believe it's the end of the desert! 
+Now you see mist!  
+~
+D0
+~
+~
+0 0 22201
+D3
+~
+~
+0 0 22216
+S
+#22216
+Aenel's Realm-Path of Illusion~
+This part of the desert is truly bizarre.  You feel hotter than usual,
+and you notice that some of the sand glows and is transparant.  In fact,
+some of it has turned to glass.  As you gaze upwards, you see that the
+portion of the desert you stand in is inside a huge bubble.  Tents line the
+desert, brightly colored, with camels standing or laying beside them.  You
+see silk-clothed women dancing in circles and heavily covered men in black
+pacing the area.  As you approach, you hear soft voices beckoning you to
+turn back before it's too late.  
+~
+0 0 10
+E
+camel~
+Be careful - they spit.  
+~
+E
+tents~
+Each tent is a different bright color, which boggles the mind.  One would
+expect that it would just make things hotter for the people who live there,
+but oddly, a single complaining child looks up and whines to his mother who's
+inside an orange one: "Why's it so COLD, Mommy?  Why is it always so cold?" 
+~
+E
+bubble~
+You gaze above you and wonder how you entered this bubble of the desert,
+how it came to be, and how the people in the tents manage to survive it. 
+Then again, you are in the dream, so it's possible this is all illusion. 
+Wouldn't it be nice to wake up cool and cozy in your bed at home?  
+~
+E
+glass~
+Both above and below you, as well as all around you, the glass enhances
+the degree of the heat.  
+~
+E
+north~
+You see the edge of the bubble, which blurs your view of the outside.  
+~
+E
+down~
+You see the bottom of the bubble, which blurs your view of the outside.  
+~
+D0
+~
+~
+0 0 22201
+D5
+~
+~
+0 0 22217
+S
+#22217
+Aenel's Realm-Path of Illusion~
+The desert finally ends, leaving you grateful and at the foot of some
+rolling hills.  The hills have the most lovely yellow flowers shooting
+upwards like honking geese, each one leaning toward the sun.  The only odd
+thing is, you don't see the sun.  It's just - light out.  And the flowers
+have no scent.  And the hills seem alive.  You hear a faint echo of music
+around you, but cannot pin the source.  A small pebble tumbles down the
+nearest hill and lands beside your feet.  As you look at it, you notice it
+shifts.  
+~
+0 0 4
+E
+flower~
+These flowers are similar to honking geese, as they stretch upward toward
+the sun that's not there.  Each one is thin around the "neck" and opens wide
+at the tip of the "beak."  You can almost picture the leaves flapping, and
+the flower taking off in flight.  
+~
+E
+hills~
+The very hills seem alive, almost willing to laugh at you.  
+~
+E
+pebble~
+As you look at the pebble, it begins to shimmer and shift.  When it stops
+moving, you gasp to realize that what was a pebble is now a small door.  You
+try the door, and discover it's frail.  The handle breaks off, crumbling in
+your hands.  The door screams at you, yelling "MURDERER!"  And then
+vanishes.  
+~
+E
+north~
+Hills are everywhere around you.  
+~
+E
+east~
+Hills are everywhere around you.  
+~
+D0
+~
+~
+0 0 22201
+D1
+~
+~
+0 0 22218
+S
+#22218
+Aenel's Realm-Path of Illusion~
+Though the hills still surround you, there's no fear of getting lost. 
+This could have something to do with the path you're walking.  Speaking of
+the path, it won't let you off.  Every time you try to stray, a blade of
+long grass slaps you, and puts you back on it.  
+~
+0 0 4
+E
+path~
+The path heads north through the hills.  It's thin, and you're beginning
+to get bruised from the slaps the grass gives you when you stray.  
+~
+E
+grass~
+The grass here is mean.  Better not walk on it.  
+~
+E
+north~
+To the north you see a path continuing over the next hill.  
+~
+D0
+~
+~
+0 0 22219
+S
+#22219
+Aenel's Realm-Path of Illusion~
+The path now leads you through/over/under/around the hill.  At once. 
+Don't ask how.  Nothing around you makes sense.  Nothing is real.  It all is
+true.  You feel like screaming.  You do.  No sound comes out.  You feel like
+crying.  You do.  A scream comes from your eyes.  You start running, hoping
+to escape as fast as possible.  
+~
+0 0 4
+E
+path~
+You don't even want to *think* about it.  
+~
+E
+north~
+Escape!  Sweet escape!  You run faster!  
+~
+D0
+~
+~
+0 0 22220
+S
+#22220
+Aenel's Realm-End of the Path of Illusion~
+Finally you reach the end of this path (you hope.)  Everything you've
+ever believed is in question.  Everything you've hoped for seems odd.  You
+feel as if you've been through every dream you've ever had - and came out
+wanting.  As you look around this mist-filled room, you realize you're
+floating on air.  And you realize that any move you make could take you to
+your death.  That's when you realize there's no real way out.  (You think.) 
+~
+0 AC 9
+E
+air~
+It's all around you.  Better watch your step.  
+~
+S
+#22221
+Center of Aenel's Realm~
+All five of Aenel's circles of power converge here, melding into the
+Center of his realm.  Each step you take leads you no further, yet no closer
+to any answers.  You wonder why you would dream of such a place.  Then you
+realize that Aenel is the God of Dreams.  You hear a melody in your head,
+and recall he runs that.  You never remembered what his other realms were. 
+Perhaps now is a good time to discover.  
+~
+0 AC 0
+H 150 M 150
+E
+down~
+Is that a line I see?  
+~
+E
+secret~
+The secret door below you looks interesting.  
+~
+E
+north~
+The mists of the dream that you're now familiar from wisp to the north.  
+~
+E
+east~
+Something sweet, something sort of grandish stirs your soul when you look
+east.  
+~
+E
+south~
+From the south you feel a cold, wintery breeze.  
+~
+E
+west~
+You hear the sounds of blissful music, alive and whole coming from the
+west.  You blink as your feet start to dance, pulling you along with them.  
+~
+E
+secret~
+The secret door is almost invisible, and you would have missed it if it
+didn't buckle beneath you, as if inviting you to come explore.  
+~
+D0
+~
+~
+0 0 22222
+D1
+~
+~
+0 0 22228
+D2
+~
+~
+0 0 22239
+D3
+~
+~
+0 0 22244
+D5
+~
+secret~
+1 0 22234
+S
+#22222
+The Dreaming~
+The mists swirl heavy but intangible, here.  You can't see three inches
+ahead of you, nor can you imagine what's there.  Howls of laughter and howls
+of pain intermingle making a cacophany of horrid sounds to play in your
+ears.  Your eyes barely adjust to the greyness of it all when you feel a tap
+on your shoulder.  When you spin about, however, all you see is the mist.  
+~
+0 A 9
+D0
+~
+~
+0 0 22223
+D2
+~
+~
+0 0 22221
+S
+#22223
+The Center of the Dreaming~
+The power surrounds you, almost lifting you into the air.  You notice
+faint lights to the east, north, west, and a very ominous purple above you. 
+There's a path that forms as you move, and vanishes behind you.  You'd fear
+to stray off of it.  
+~
+0 A 9
+D0
+~
+~
+0 0 22226
+D1
+~
+~
+0 0 22225
+D2
+~
+~
+0 0 22222
+D3
+~
+~
+0 0 22224
+D4
+~
+~
+0 0 22227
+S
+#22224
+Creation Mists-Nightmare Division~
+SHRIEEEEEEEEEK!  HOWL...  Arooooooo....  Cackle....  Flashing lights,
+swirling sights...  Everything you ever dreamed about and wished you hadn't.
+Every sound raises prickles up your spine, every brush of air makes you
+quiver.  A vampire floats from the shadows and vanishes, you see your head
+floating before you, being dangled by a horseman with heads at his belt. 
+Mirrors are all about you, reflecting thousands of faces of fear.  
+~
+0 A 9
+D1
+~
+~
+0 0 22223
+S
+#22225
+Creation Mists-Dreams of Prophecy Division~
+The future is fleeting, swiftly becoming the present.
+The present is never seen, because it becomes the past too soon.
+To dwell in the past is to lose the future and present.
+What will be your future? What is your present? Why did you see but the past?
+Your dreams can tell you, and only they know.
+~
+0 A 0
+D3
+~
+~
+0 0 22223
+S
+#22226
+Creation Mists-Pleasant Dreams Division~
+Sweet dreams are made of this, who am I to disagree.  I've travelled the
+world and the seven seas (or more)...  Everyone is looking for something. 
+Some of them want to use you.  Some of them want to be abused...  All of
+them, however, are made here.  
+~
+0 A 9
+D2
+~
+~
+0 0 22223
+S
+#22227
+The Throne of the Dreaming~
+Here, in the throne room, you see the head Dreamkeeper standing next to
+the empty throne.  The throne is built tall and oddly, wisping and yet
+solid.  There are mists which seem to move like servants, cleaning the room,
+setting it up for the god.  The light flashes dull around you, teal curtains
+flutter, mingling with the black.  A glint of silver seems to flow through
+the moon on the throne, momentarily blinding you as you stagger about,
+curiously.  
+~
+0 A 9
+D5
+~
+~
+0 0 22223
+S
+#22228
+Romance-The Meeting~
+Along the fields of Aenel's lands,
+Where the lovers first held hands,
+And though I'd never seen you there,
+We met once then, and learned to care.
+ 
+With the sun to witness all,
+And the trees so bright and tall,
+When our eyes met I knew the truth,
+That you were my life, age or youth.
+ 
+A song sung swiftly in my ear
+I knew no sorrow nor of fear,
+My hunger grew, my life was filled
+Where our first meeting's fields were tilled.
+~
+0 0 2
+E
+field~
+The fields seem to shimmer with promise of love.
+~
+E
+tree~
+Each tree curls over you, whispering of beauty.  Some have initials in
+their trunks, naturally grown there.  It seems as if the trees with initials
+are romances Aenel's blessed - that have succeeded.  
+~
+E
+sun~
+The sun itself stands as chaperone to young lovers.
+~
+E
+west~
+Away from romance, you see the center of Aenel's realm.
+~
+E
+up~
+Up seems to pull at you.
+~
+D3
+~
+~
+0 0 22221
+D4
+~
+~
+0 0 22229
+S
+#22229
+Romance-The Yearning~
+Each pang of desire gathers your will, causes your heart to smoulder. 
+You have to remind yourself that it's not your desire you feel, but that of
+those around you.  You yearn for a partner of your own, and look around for
+one.  Then you move on, anxious for the end of the path.  
+~
+0 0 2
+E
+down~
+Downwards leads you to the start of the path to the Heart, where trees
+grow high.  
+~
+E
+east~
+Looking ahead, you think you see one lover confessing his desire to
+another.  
+~
+D1
+~
+~
+0 0 22230
+D5
+~
+~
+0 0 22228
+S
+#22230
+Romance-The Confession of Love~
+Here, one young passionate boy falls to his knees, holding one
+long-stemmed rose upwards to a beautiful young woman.  He whispers to her,
+confessing his desire, his passion, and his love to her.  She pretends
+boredom, but it's obvious there's a glint of a flame in her own eyes.  Trees
+line the path here, and some flat benches.  It's so romantic that it almost
+is nauseating.  
+~
+0 0 2
+E
+bench~
+The benches here are low and wide, though shaped in a way that permits
+only two to sit at a time.  They are made of a white stone that seems to
+sparkle.  
+~
+E
+boy~
+He's so cute you end up staring.  On one knee, the velvet of his
+pantaloons getting filthy in the mud, he gazes upwardly, causing moonlight
+to shine his face.  
+~
+E
+girl~
+Dressed primly, this girl seems anything but interested, but somewhere
+behind the violet eyes you see the glisten of desire.  She plays
+hard-to-get, and her pouty lips twitch every once in a while at the young
+boy's antics.  
+~
+E
+trees~
+Like all the other trees here, initials are carved - grown is more
+appropriate- on the bark on the side, declaring the names of lovers who have
+succeeded in romance.  
+~
+E
+west~
+The yearning sparks from there.
+~
+E
+down~
+You sense dissention from below.
+~
+D3
+~
+~
+0 0 22229
+D5
+~
+~
+0 0 22231
+S
+#22231
+Romance-The Obstacle~
+That which does not kill us makes us stronger.  No Romance is true
+without the difficulties, the bumps to overcome.  This part of the trail is
+full of these obstacles.  Some you stumble on.  Some frighten you.  All of
+them give pause.  
+~
+0 A 2
+E
+bump~
+This bump seems to be the bump of someone slighted.  An insult was given.
+You wonder if all will end up resolved.  
+~
+E
+obstacle~
+Trying to sort it out sets your head spinning.  
+~
+E
+north~
+North leads you to the resolution and the make-up.
+~
+E
+up~
+Confessing love, the youth from above does not see where you are now.
+~
+D0
+~
+~
+0 0 22232
+D4
+~
+~
+0 0 22230
+S
+#22232
+Romance-The Discussion and Resolution~
+Here's a nice, quiet spot for young romantics to talk their problems out.
+With conversation comes forgiveness, and the ability to move on or split up.
+~
+0 0 2
+E
+south~
+You just came from the obstacles there.  Do you really want to risk it?  
+~
+E
+up~
+Something pleasant that way lies.
+~
+D2
+~
+~
+0 0 22231
+D4
+~
+~
+0 0 22233
+S
+#22233
+Romance-The First Date~
+The first date has finally come!  Your heart beats with excitement, and
+you yearn to move to the next stage, but know it must be earned in time. 
+That's when you realize, it's not your romance, your first date, but that of
+those you have passed on this path.  You see a new tree sprout before you,
+and the branches meld into the bark of the trunk, twisting into the shape of
+a pure circle.  Within the circle a pair of initials form.  Between the
+initials, a tiny "+" sign appears.  You smile as the leaves seem to sprout
+from the circle that holds the lovers together on the tree, knowing that it
+is to be blessed.  
+~
+0 0 2
+E
+tree~
+This tree is a white birch, proud and beautiful.  You'd assume that this
+means the love is of the purest kind.  This makes you smile more than you
+did before.  
+~
+E
+branch~
+The branches become part of the trunk in an elegant circle.
+~
+E
+circle~
+A perfectly round circle, it's decorated with leaves that sprout from it.  
+~
+E
+leaves~
+The leaves seem natural sprouting from the semi-unnatural circle.  
+~
+E
+trunk~
+The trunk is strong, as is the romance.  
+~
+E
+initials~
+K. T.
+ +
+J. V.
+~
+E
+down~
+Downward returns you backwards through the journey of the heart.  
+~
+D5
+~
+~
+0 0 22232
+S
+#22234
+Thieves-The Challenge~
+You step into this spartan room and find a thin knife at your throat. 
+You can't tell who or what holds the knife...  If anything or anyone does,
+but it's there.  And pressed against your throat, it makes you a bit afraid
+to swallow.  Eventually though, you hear a whisper, and it challenges you
+for the password.  Do you know it?  
+~
+0 0 1
+D4
+~
+~
+1 0 22221
+D5
+~
+~
+0 0 22235
+S
+#22235
+Thieves-Shadows~
+You stand amongst the shadows, dark and thick.
+What lies within them, none can tell.
+Is it living, is it sick?
+Are you in heaven, or more likely in hell?
+~
+0 A 0
+D2
+~
+~
+0 0 22236
+D4
+~
+~
+0 0 22234
+D5
+~
+~
+0 0 22237
+S
+#22236
+Thieves-Breaking and Entering~
+This isn't a room, it's a large wall with a window in it.  Wouldn't it be
+fun to break it open and see what's beyond?  
+~
+0 A 0
+D0
+~
+~
+0 0 22235
+S
+#22237
+Thieves-Cutpurses, Beggars, and Swindlers~
+Every eye turns to you as you enter.  Some look and lick their lips with
+anticipation...  And some jut their hats out at you.  The stench of the area
+is of booze and stale air.  
+~
+0 0 1
+D0
+~
+~
+0 0 22238
+D4
+~
+~
+0 0 22235
+S
+#22238
+Thieves-Honor Among Thieves~
+Here, you see the thieves relaxing and aiding each other.  They share
+secrets, tips, and laughs while tossing their coins into the main pot.  Not
+one seems afraid that another would take the coins and run.  They trust each
+other as none else can.  
+~
+0 A 0
+D2
+~
+~
+0 0 22237
+S
+#22239
+Winter-The Grande Festival~
+You stand within the entrance which (oddly) has a roof over it.  Snow
+doesn't enter this spot, but a small fireplace crackles with energy. 
+Children gather around it, warming cold hands and feet.  The air is scented
+with peppermint.  You hear laughter from outside, and hear a cough from
+somewhere.  
+~
+0 0 0
+E
+roof~
+This roof keeps the snow from becoming your hat.
+~
+E
+fireplace~
+This fireplace crackles with the heat of a fire. What a glorious sound!
+~
+E
+children~
+Children squabble over seats for the fire.  Each one is bundled from
+waist down, and the wet jackets warm on a rack.  
+~
+E
+north~
+North leads you to the Center of Aenel's Realm.
+~
+E
+west~
+Snow glistens to the west.
+~
+E
+down~
+You hear a howl from below - one that no animal makes.  
+~
+D0
+~
+~
+0 0 22221
+D3
+~
+~
+0 0 22240
+D5
+~
+~
+0 0 22243
+S
+#22240
+Winter-The Glistening Snow~
+The snow glistens brightly in the darkened lights of the night, stars
+within it, as well as above.  Tiny footprints fade swiftly as the new snow
+falls, and drifts rise above your shoulder.  In the distance, you see a
+village made of snow, but the closer you get to it, the more it seems far.  
+~
+0 0 5
+E
+east~
+To the east is the grandest Winter Festival ever.
+~
+E
+south~
+Oooooh, what a bitter wind doth blow.
+~
+E
+west~
+Peppermint drifts from the west.
+~
+E
+up~
+ACHOOOOOOOOOOOOOOOOOOOOOOO, the FLU!
+~
+D1
+~
+~
+0 0 22239
+D2
+~
+~
+0 0 22243
+D3
+~
+~
+0 0 22241
+D4
+~
+~
+0 0 22242
+S
+#22241
+Winter-The Scent of Peppermint~
+The scent of peppermint wafts through your nostrils, and even seems to
+cling to your clothes and skin.  Children dart about handing out globs of
+the candy molded into miniature musical instruments, coins, horrid-looking
+creatures, and hearts.  You even see trees and flowers made of candy, with
+peppermint being the flavor of the day.  
+~
+0 0 0
+E
+children~
+They look so happy, you could almost find yourself joining them.  
+~
+E
+candy~
+YUM!
+~
+E
+trees~
+You wonder if someone would notice you if you took a lick.  
+~
+E
+flower~
+Wanna pluck?
+~
+E
+up~
+The bitter chill freezes from above.
+~
+E
+east~
+Snow glistens to your east.
+~
+E
+south~
+Got a hanky?
+~
+D1
+~
+~
+0 0 22240
+D2
+~
+~
+0 0 22242
+D4
+~
+~
+0 0 22243
+S
+#22242
+The Winter Flu~
+Du yew dthing tha' yew cood feel adda worse? Dis is de flu, common bug of the ba' weather.
+Mebbe dtea ad sleep wood hep?
+~
+0 A 0
+E
+down~
+Below the flu is the glistening snow.
+~
+E
+east~
+Bitter wind? Wonder why there's a flu...
+~
+E
+north~
+Peppermint might soothe that sore throat.
+~
+D0
+~
+~
+0 0 22241
+D1
+~
+~
+0 0 22243
+D5
+~
+~
+0 0 22240
+S
+#22243
+Winter-The Bitter Wind~
+Icy chill runs up and down your spine.  You feel the bitterness of the
+wind, and wonder how long you can stand it.  Footprints mark the snow.  When
+you can slit your eyes open, you can see little else but that.  The greyness
+of the sky is oppressing, though.  
+~
+0 0 5
+E
+west~
+AAAAAaaaaaaaaaaaaaaaaaaaaachoooooooooooooooooooooo!
+~
+E
+down~
+The scent of peppermint wafts from below.
+~
+E
+up~
+Above you sounds noises of festivity.
+~
+E
+north~
+You see glistening snow to the north.
+~
+E
+sky~
+You see several new shades of grey.
+~
+E
+wind~
+It stings your eyes.
+~
+E
+footprints~
+These footprints are very - large!
+~
+D0
+~
+~
+0 0 22240
+D3
+~
+~
+0 0 22242
+D4
+~
+~
+0 0 22239
+D5
+~
+~
+0 0 22241
+S
+#22244
+Music-The Composition~
+Composition: the finished product.  All pieces must be fit just so, and
+the music will thrive.  This room is the cultivated completion of music, but
+it's beckoning you to find the parts.  While intrigued with the soft music
+of the harp in the corner, you find yourself seeking the melody.  
+~
+0 0 4
+E
+east~
+Back to the Center of the Realm, and out of this musical menagerie.  
+~
+E
+down~
+Melody, melody, sweet melody from below.  
+~
+E
+west~
+The tone you hear from the west keeps shifting, as if experimenting with
+possibility.  
+~
+E
+north~
+Harmonic tones come from the north.
+~
+E
+harp~
+This harp is immense and gorgeous.  A man's figure is carved into the
+main bar, and the strings themselves are made of silver.  As the harp
+strings move (on their own), the man's arms move towards you, fingers
+expressing the mood of the music.  
+~
+D0
+~
+~
+0 0 22245
+D1
+~
+~
+0 0 22221
+D3
+~
+~
+0 0 22246
+D5
+~
+~
+0 0 22247
+S
+#22245
+Music-Harmony~
+Harmony fills this room, and all is at peace.  The conductor of this
+symphony of Aenel's realm stands before you.  You are awed.  You find
+yourself scampering to a seat, getting lost in the ups and downs of the
+concerto.  You imagine you hear the Castrato singing, but when you look,
+there is none.  
+~
+0 0 4
+E
+down~
+The tones played below seem to grab you.  
+~
+E
+west~
+Sweet melody drifts in from the west.  
+~
+E
+south~
+South brings you to the Composition, the finished piece.  
+~
+E
+seat~
+Hard fold up chairs line the walls.  
+~
+D2
+~
+~
+0 0 22244
+D3
+~
+~
+0 0 22247
+D5
+~
+~
+0 0 22246
+S
+#22246
+Music-Tone~
+Tone is important, for without it, there's no real tune.  And as the tune
+fades, so does the music.  You get the feeling you're being lectured, but
+shake yourself out of it.  Then you glance around the room, at the
+blackboard with chalk, at the small table with notes.  You see several
+instruments playing themselves.  Each plays one note, trying for the right
+tone.  
+~
+0 0 4
+E
+down~
+Percussion drills you from below.  
+~
+E
+up~
+Moving up leads you to a harmonic area.
+~
+E
+west~
+Balance teeters to the west.
+~
+E
+east~
+The composition, finished product, leads out to the east.
+~
+E
+north~
+To the north lies the melody.
+~
+E
+instruments~
+Each instrument is floating, perched, or hanging in a manner that allows
+it to play itself.  You gawk for a while, shake your head, then gawk some
+more.  
+~
+E
+notes~
+The bass trombone is flat.
+Tune the piano.
+Add a flute.
+Adjust the C minor. C major's getting jealous.
+~
+E
+table~
+This table is awfully tiny.  It really holds no more than a few pages.  
+~
+E
+chalk~
+Long pieces broken in half rest near the chalkboard.  
+~
+E
+blackboard~
+Big and dirty, it's obviously been used quite often.  Right now, there's
+no real writing on it.  
+~
+D0
+~
+~
+0 0 22247
+D1
+~
+~
+0 0 22244
+D3
+~
+~
+0 0 22248
+D4
+~
+~
+0 0 22245
+D5
+~
+~
+0 0 22249
+S
+#22247
+Music-Melody~
+Melody: An agreeable succession of musical sounds.  In other words, a
+pattern of music.  You bask in the pattern that engulfs you, wishing you
+never had to leave, but sadly, the melody ends - just to start again, with a
+new song.  You garner up your will and trudge on.  
+~
+0 0 4
+E
+down~
+Balance, listeners.  That's below.  
+~
+E
+south~
+Experimental tones resound to the south.  
+~
+E
+west~
+Percussion.  Rhythm.  Perfection from the west.  
+~
+E
+east~
+Harmonic sounds waft towards you from the east.  
+~
+E
+up~
+Up leads to the final composition.  
+~
+D1
+~
+~
+0 0 22245
+D2
+~
+~
+0 0 22246
+D3
+~
+~
+0 0 22249
+D4
+~
+~
+0 0 22244
+D5
+~
+~
+0 0 22248
+S
+#22248
+Music-Balance~
+For every note there is a counternote, for every sound a silence. 
+Between the two, you have a room that is perfectly symmetrical, right down
+to the two identical pianos.  
+~
+0 0 4
+E
+up~
+Sweet melody wafts above you.  
+~
+E
+east~
+A sweet tone rings to the east, then another to try to balance it.  
+~
+E
+north~
+Percussion bounds from the north.  
+~
+E
+piano~
+Both pianos are large, Grand pianos.  They face each other with barely a
+pass between them.  
+~
+D0
+~
+~
+0 0 22249
+D1
+~
+~
+0 0 22246
+D4
+~
+~
+0 0 22247
+S
+#22249
+Music-Rhythm~
+Got to have percussion.  And this room has it in droves.  Drums
+everywhere march you in.  A snare flares a roll at you, then the Cymbals
+crash in greeting.  You almost laugh-until you see the Gong.  You see your
+picture on the gong.  When you blink, the picture's gone, but it still
+scares you.  
+~
+0 0 4
+E
+up~
+Each tone matches the next above you.  
+~
+E
+south~
+The balance is strong to the south.  
+~
+E
+east~
+Melody wafts sweetly from the east.  
+~
+E
+gong~
+This thing is huge, and looks as if it might hurt you...  Or your
+picture...  Which fades before your eyes.  
+~
+E
+cymbal~
+Crash!  BANG BOOM!  
+~
+E
+snare~
+This elegant drum seems to grin as it plays a roll at you.  
+~
+E
+drums~
+Big drums, little drums, bodhrans, and snares.  Triangles, zylophones,
+every kind of percussion instrument you can imagine lay at your feet. 
+Tiptoe carefully.  
+~
+D1
+~
+~
+0 0 22247
+D2
+~
+~
+0 0 22248
+D4
+~
+~
+0 0 22246
+S
+#22250
+Waking up~
+You feel a twitch in your nose, and try to ignore it.  It's not easy. 
+Every time you almost fall asleep again, something happens.  An alarm, a
+dog, the rooster.  It's time to wake up.  Before you, there's another
+portal...  But it looks so DANGEROUS!  
+~
+0 C 9
+S
+#22251
+Falling Asleep~
+You enter the portal, and a heaviness descends upon you.  You're tired,
+so sleepy you can barely remain awake.  In fact, you might already be
+sleeping.  The only way you can go is forward.  
+~
+0 0 0
+D5
+~
+~
+0 0 22200
+S
+#22252
+Inn room~
+This room is a grizzly mess, probably the storage room.  There is a small
+bed lying by the wall, however, and it looks inviting.  As you turn to
+leave, you notice a portal against the wall.  Curiousity makes you look at
+it.  
+~
+0 0 0
+D5
+~
+~
+1 0 15136
+S
+#22299
+Immortal's Mob Waiting Lounge~
+This room is where all the "Family" waits until their Immortals call for
+them.  The room's decorated in deep red velour and gold, and there are
+tables and drinks aplenty for the Family.  The chairs are comfortably
+padded, and the conversation's light.  You see a sign hanging on the wall. 
+You also see a Controller List.  
+~
+0 AP 0
+E
+sign~
+Immortals!  These members of the Family are here for your enjoyment. 
+Feel free to grab yours at will.  Please leave the other immortal's Family
+member here, to prevent confusion.  You can, however, feel free to let them
+talk from their spots here.  
+Thank you!
+The Management
+~
+E
+controller~
+This is the list of controllers.
+ 
+Family Member                    Immortal
+-------------                    --------
+Luigi Antonelli                  Eirin
+Guido Dimarchi                   Chipper
+Mario Luz                        Maverick
+The Don                          Wink
+Vincini Arrozini                 Qwerty
+Dominic Ordanza                  Dimi
+Sario Gridoniti                  Chance
+Mercutio Gordini                 Obz
+Seamus O'Malley-DoVerda          Kayal
+Ronald Bellagosi                 Rizzen
+~
+D4
+~
+~
+1 0 21760
+S
+#0
+
+
+
+#SPECIALS
+M 22205 spec_cast_druid Load to: the Storyteller
+M 22207 spec_cast_judge Load to: Estephan
+M 22212 spec_poison Load to: Scorpia
+M 22214 spec_guard Load to: The Tanzin Patrol
+M 22216 spec_fido Load to: A Dezzia woman
+M 22219 spec_cast_necromancer Load to: A scream
+M 22227 spec_cast_mage Load to: Oriolle
+M 22233 spec_guard Load to: the Chaperone
+M 22239 spec_breath_frost Load to: a snowman
+M 22240 spec_breath_frost Load to: Narl'tannaka
+M 22243 spec_breath_frost Load to: Frostbite
+M 22245 spec_cast_mage Load to: the Conductor
+M 22293 spec_cast_adept Load to: The Don
+M 22294 spec_cast_druid Load to: Seamus O'Malley-DoVerda
+M 22298 spec_breath_any Load to: Mario Luz
+M 22299 spec_ogre_member Load to: Luigi Antonelli
+S
+
+
+
+#RESETS
+D 0 22221 5 1               * The down door of Center of Aenel's Realm is closed
+D 0 22234 4 1               * The up door of Thieves-The Challenge is closed
+D 0 22252 5 1               * The down door of Inn room is closed
+D 0 22299 4 1               * The up door of Immortal's Mob Waiting Lounge is closed
+O 0 22201     0 22200         * The golden and ruby arch to aenel's realm loaded to The Arches to Aenel's Realm
+O 0 22202     0 22200         * A wood and string arch loaded to The Arches to Aenel's Realm
+M 0 22203     6 22203     1   * Load A mosquito
+G 0 22203    -1               * A mosquito's wing is given to A mosquito
+M 0 22203     6 22203     5   * Load A mosquito
+M 0 22205     1 22205     1   * Load the Storyteller
+E 0 22205    17    17         * A book of fairy tales is loaded held in the hands of the Storyteller
+M 0 22207     1 22207     1   * Load Estephan
+G 0 22207    -1               * The flute of the revellers is given to Estephan
+E 0 22208    16    16         * The lute of aenel's tenor is loaded wielded of Estephan
+M 0 22209     1 22208     1   * Load a ridge runner
+O 0 22209     0 22210         * The water loaded to Aenel's Realm-The Path of Truth
+O 0 22211     0 22211         * A leap of faith loaded to Aenel's Realm-End of the Path of Truth
+M 0 22212     1 22212     1   * Load Scorpia
+G 0 22212    -1               * A scorpion's stinger is given to Scorpia
+M 0 22213     1 22213     1   * Load the quicksand
+O 0 22214     0 22215         * A tree loaded to Aenel's Realm-Path of Illusion
+O 0 22215     0 22215         * An oasis loaded to Aenel's Realm-Path of Illusion
+M 0 22216     1 22216     1   * Load A Dezzia woman
+E 0 22216     3     3         * A dancer's long scarf is loaded around the neck (1) of A Dezzia woman
+M 0 22215     1 22216     1   * Load A Tanzin boy
+E 0 22213    17    17         * A warm blanket is loaded held in the hands of A Tanzin boy
+M 0 22214     1 22216     1   * Load The Tanzin Patrol
+E 0 22210    18    18         * A tail spike is loaded floating of The Tanzin Patrol
+O 0 22217     0 22217         * A light source loaded to Aenel's Realm-Path of Illusion
+M 0 22219     1 22219     1   * Load A scream
+G 0 22219    -1               * Some nose plugs is given to A scream
+O 0 22211     0 22220         * A leap of faith loaded to Aenel's Realm-End of the Path of Illusion
+M 0 22220     5 22223     2   * Load a Night Mare
+E 0 22220     4     4         * Flaming saddlebags is loaded around the neck (2) of a Night Mare
+M 0 22221     5 22223     2   * Load a lullabye
+G 0 22295    -1               * Sominex is given to a lullabye
+M 0 22220     5 22224     3   * Load a Night Mare
+E 0 22220     3     3         * Flaming saddlebags is loaded around the neck (1) of a Night Mare
+M 0 22221     5 22225     1   * Load a lullabye
+G 0 22295    -1               * Sominex is given to a lullabye
+M 0 22221     5 22226     2   * Load a lullabye
+G 0 22295    -1               * Sominex is given to a lullabye
+M 0 22227     1 22227     1   * Load Oriolle
+G 0 22227    -1               * A dream is given to Oriolle
+M 0 22228     5 22228     1   * Load a wistful lover
+E 0 22228    10    10         * A lover's heart is loaded on the arms of a wistful lover
+M 0 22228     5 22229     2   * Load a wistful lover
+E 0 22229    17    17         * A glint of hope is loaded held in the hands of a wistful lover
+M 0 22231     5 22229     1   * Load Jealousy
+E 0 22231    19    19         * The eyes of suspicion is loaded on the eyes of Jealousy
+M 0 22228     5 22230     1   * Load a wistful lover
+E 0 22228    10    10         * A lover's heart is loaded on the arms of a wistful lover
+M 0 22231     5 22230     1   * Load Jealousy
+E 0 22230     8     8         * A broken heart is loaded on the feet of Jealousy
+M 0 22228     5 22231     1   * Load a wistful lover
+M 0 22231     5 22231     2   * Load Jealousy
+E 0 22231    19    19         * The eyes of suspicion is loaded on the eyes of Jealousy
+M 0 22231     5 22232     1   * Load Jealousy
+M 0 22233     1 22233     1   * Load the Chaperone
+E 0 22233    17    17         * A book of manners is loaded held in the hands of the Chaperone
+E 0 22232     9     9         * The gloves of purity is loaded on the hands of the Chaperone
+M 0 22223     5 22234     1   * Load a cutthroat
+M 0 22222     5 22235     2   * Load a Professional Beggar
+G 0 22221    -1               * A beggar's hat is given to a Professional Beggar
+M 0 22223     5 22235     1   * Load a cutthroat
+O 0 22234     0 22235         * The aenel portal loaded to Thieves-Shadows
+M 0 22222     5 22236     1   * Load a Professional Beggar
+E 0 22221     6     6         * A beggar's hat is loaded over the head of a Professional Beggar
+M 0 22223     5 22236     1   * Load a cutthroat
+M 0 22222     5 22237     2   * Load a Professional Beggar
+E 0 22221     6     6         * A beggar's hat is loaded over the head of a Professional Beggar
+M 0 22223     5 22237     2   * Load a cutthroat
+M 0 22238     1 22238     1   * Load the Locksmith
+E 0 22200    17    17         * A lockpick is loaded held in the hands of the Locksmith
+M 0 22239     5 22240     1   * Load a snowman
+G 0 22238    -1               * A carrot nose is given to a snowman
+M 0 22243     5 22240     1   * Load Frostbite
+E 0 22249    10    10         * Flaky skin is loaded on the arms of Frostbite
+M 0 22239     5 22241     1   * Load a snowman
+E 0 22239    19    19         * A coal eye is loaded on the eyes of a snowman
+M 0 22239     5 22242     2   * Load a snowman
+G 0 22238    -1               * A carrot nose is given to a snowman
+M 0 22243     5 22242     2   * Load Frostbite
+E 0 22249    10    10         * Flaky skin is loaded on the arms of Frostbite
+M 0 22240     1 22242     1   * Load Narl'tannaka
+E 0 22251    17    17         * A frozen ice rose. is loaded held in the hands of Narl'tannaka
+M 0 22239     5 22243     1   * Load a snowman
+E 0 22239    19    19         * A coal eye is loaded on the eyes of a snowman
+M 0 22243     5 22243     2   * Load Frostbite
+E 0 22249    10    10         * Flaky skin is loaded on the arms of Frostbite
+M 0 22244     5 22244     2   * Load a G Clef
+E 0 22244     7     7         * A pair of g lines is loaded on the legs of a G Clef
+M 0 22245     1 22245     1   * Load the Conductor
+E 0 22245    16    16         * A conductor's baton is loaded wielded of the Conductor
+E 0 22246     8     8         * Some tight shoes is loaded on the feet of the Conductor
+G 0 22240    -1               * A clue is given to the Conductor
+M 0 22244     5 22246     1   * Load a G Clef
+M 0 22248     5 22246     2   * Load a sour note
+G 0 22247    -1               * A hot water bottle is given to a sour note
+M 0 22244     5 22247     2   * Load a G Clef
+G 0 22243    -1               * A half rest is given to a G Clef
+M 0 22248     5 22248     2   * Load a sour note
+G 0 22248    -1               * A couple of asprin is given to a sour note
+M 0 22248     5 22249     1   * Load a sour note
+O 0 22223     0 22250         * The portal to steab loaded to Waking up
+O 0 22250     0 22252         * The slumber portal loaded to Inn room
+M 0 22299     1 22299     1   * Load Luigi Antonelli
+G 0 22299    -1               * A .45 auto-load crossbow is given to Luigi Antonelli
+M 0 22298     1 22299     1   * Load Mario Luz
+E 0 22298    16    16         * A silver bullet is loaded wielded of Mario Luz
+M 0 22297     1 22299     1   * Load Guido Dimarchi
+E 0 22297    16    16         * A broken beer bottle is loaded wielded of Guido Dimarchi
+M 0 22296     1 22299     1   * Load Sario Gridoniti
+E 0 22296    16    16         * Tried-and-true mace is loaded wielded of Sario Gridoniti
+M 0 22294     1 22299     1   * Load Seamus O'Malley-DoVerda
+E 0 22294     6     6         * A newspaper prop is loaded over the head of Seamus O'Malley-DoVerda
+M 0 22295     1 22299     1   * Load Vincini Arronzini
+E 0 22295    18    18         * Sominex is loaded floating of Vincini Arronzini
+M 0 22293     1 22299     1   * Load The Don
+E 0 22293     1     1         * The don's ring is loaded on the left finger of The Don
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

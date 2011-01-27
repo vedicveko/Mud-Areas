@@ -1,0 +1,3625 @@
+#AREADATA
+Name NewTown~
+Builders Grehyton~
+VNUMs 1900 2100
+Credits { 0 5 } Grehyton Newbie Town~
+Security 8
+End
+
+
+
+#MOBILES
+#1900
+manager~
+the store manager~
+The manager of the general store stands here.
+~
+He is wearing simple leather pants and a cotton
+shirt. He has short leather shoes on. A red
+apron covers his thighs.
+~
+unique~
+ABG 0 600 0
+15 2 3d9+208 0d0+0 2d6+3 pound
+-2 -2 -2 -2
+N 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+#1901
+master trainer jerrod~
+jerrod the trainer~
+Jerrod the master trainer stands here.
+~
+Jerrod the master trainer is wearing patent 
+leather pants and heavy riding boots. He is
+sweaty and shirtless.
+~
+unique~
+ABGJ 0 800 0
+45 5 25d10+3000 0d0+0 8d4+16 pound
+-15 -15 -15 -15
+HIT ABHI 0 K
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1902
+master armorer ktef~
+ktef the master amorer~
+Ktef, the master armorer stands here.
+~
+Ktef is wearing nothing but a loin clothe and
+is covered in grime and sweat.
+~
+unique~
+ABG 0 0 0
+15 0 0d0+0 0d0+0 0d0+0 pound
+0 0 0 0
+0 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+#1903
+yules weapon smith~
+yules the weapon smith~
+Yules the weapon smith is standing here grinning.
+~
+He is wearing a cotton shirt, and black leather
+pants. On his feet a pair of heavy brass boots.
+~
+unique~
+ABG 0 300 0
+15 0 3d9+150 0d0+0 2d6+3 pound
+-1 -1 -1 -1
+CJ 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1904
+john fat pumpmaster~
+john the fat pumpmaster~
+John the fat pumpmaster sits here.
+~
+He is sitting on a small tool. His body is
+covered in a cotton shirt and he is wearing
+leather pants.
+~
+unique~
+ABG 0 0 0
+8 0 2d7+100 0d0+0 2d4+2 pound
+2 2 2 2
+E 0 0 0
+sit sit male 100
+AHMV ABCDEFGHIJK large unknown
+#1905
+yurians guildmaster~
+yurians the guildmaster~
+Yurians the local guildmaster stands here.
+~
+A fine figure, trained in the skills of many
+guilds. He is wearing leather pants, a brass
+breast piece and heavy boots.
+~
+unique~
+ABGK 0 1000 0
+60 6 50d10+9000 0d0+0 8d6+28 smash
+-25 -25 -25 -25
+CEFHIJKNT 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1906
+thar healer~
+thar the healer~
+Thar, the local healer smiles at you.
+~
+He is a friendly sort wearing long white robes.
+~
+unique~
+ABGa DF 0 0
+20 0 3d9+333 0d0+0 2d8+5 pound
+-4 -4 -4 -4
+P 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1907
+virginia cook~
+virginia the cook~
+Virginia, the head cook stands here.
+~
+She is wearing an cotton shirt that is kinda
+sweaty from being over the spits.
+~
+unique~
+ABG J 300 0
+10 0 2d7+121 0d0+0 2d4+2 scratch
+1 2 1 2
+J 0 B Z
+stand stand female 500
+AHMV ABCDEFGHIJK medium unknown
+#1908
+smiling citizen~
+a filthy serf~
+A filthy looking serf is here.
+~
+The serf has been stuck out on this island town for years
+never able to get enough moeny to leave.
+~
+school monster~
+AGHU 0 0 0
+1 -3 2d6+6 0d0+0 1d3+0 slap
+9 9 9 9
+0 AB 0 C
+stand stand female 0
+AHMV ABCDEFHJKQU medium unknown
+#1909
+plump citizen~
+a plump male citizen~
+A plump male citizen stands here smiling.
+~
+He is wearing a cotton shirt, and leather pants.
+He looks like a friendly sort.
+~
+school monster~
+AGHU 0 0 0
+1 -2 2d6+10 0d0+0 1d4+0 smash
+9 9 9 9
+0 AB 0 C
+stand stand male 0
+AHMV ABCDEFHJKQU medium unknown
+#1910
+deputy soldier~
+a deputy soldier~
+A deputy soldier stands here, looking for trouble.
+~
+He looks quite angry that he is stuck out working
+on this island, he might take it out on you.
+~
+school monster~
+AGHU 0 0 0
+4 0 1d17+42 0d0+0 2d5+2 pound
+8 8 8 8
+0 AB 0 C
+stand stand male 5
+AHMV ABCDEFHJKQU medium unknown
+#1911
+kitten~
+a cute kitten~
+A cute kitten stands here meowing.
+~
+He is black and furry and very cute.
+~
+cat~
+AGHU Z 0 0
+1 0 2d6+6 0d0+0 1d3+0 scratch
+9 9 9 9
+FH 0 0 0
+stand stand male 0
+AGHMV ABCDEFHJKQUV medium unknown
+#1912
+puppy~
+A small puppy~
+A small puppy is here.
+~
+He is covered in brown fur and has a wet black
+nose.
+~
+dog~
+AGHU 0 0 0
+1 -1 2d6+7 0d0+0 1d3+0 bite
+9 9 9 9
+H 0 0 0
+stand stand male 0
+AGHMV ABCDEFHJKUV medium unknown
+#1913
+street cleaner~
+a street cleaner~
+A street cleaner stands here, cleaning up the streets.
+~
+He looks like a friendly sort, and spends his
+time picking up other peoples trash.
+~
+unique~
+ACGHU 0 0 0
+1 -2 2d5+7 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 2
+AHMV ABCDEFGHIJK medium unknown
+#1914
+guard cavalier~
+a cavalier guard~
+A cavalier guard is here, watching and waiting.
+~
+He is big and tough as doesnt tolerate trouble.
+~
+unique~
+AGU 0 600 1900
+20 2 2d7+121 0d0+0 2d8+5 pound
+1 1 1 1
+EIT 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1915
+beaten slave~
+a beaten slave~
+A badly beaten slave sits here.
+~
+An unfortunate elf, who has been enslaved for
+some strange reason.
+~
+unique~
+AGU J 1000 1901
+1 -2 2d6+15 0d0+0 1d8+0 pound
+9 9 9 9
+0 0 B Z
+sit sit male 0
+AHMV ABCDEFGHIJK medium unknown
+#1916
+new slave~
+a new slave~
+A new slave stands here, still angry at his bondage.
+~
+He is filthy and angry. He doesnt like being
+a slave.
+~
+unique~
+AGU 0 800 1901
+1 -2 2d6+10 0d0+0 1d10+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1917
+skinny slave~
+a skinny slave~
+A skinny slave stands here, looking for something to eat.
+~
+He looks rather hungry, perhaps if he behaved
+they would feed him.
+~
+school monster~
+AGU 0 400 1901
+1 -2 2d6+5 0d0+0 1d4+0 pound
+9 9 9 9
+0 AB 0 C
+stand stand male 0
+AHMV ABCDEFHJKQU medium unknown
+#1918
+huge slave~
+a huge slave~
+A huge slave stands here, he is obviously well worked.
+~
+He has rippling muscles and bulging eyes. He
+would make an excellent worker.
+~
+unique~
+AG 0 300 0
+1 0 2d6+13 0d0+0 1d8+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 2
+AHMV ABCDEFGHIJK medium unknown
+#1919
+angry slave master~
+the angry slave master~
+The angry slave master is here, tired of low profits.
+~
+He looks fairly mean and tough, his only 
+concern is for profit. He is obivously a
+goblin.
+~
+goblin~
+ABG J -400 0
+5 0 2d6+50 0d0+0 1d12+1 pound
+7 7 9 8
+0 0 Q C
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1920
+enslaved secretary~
+the enslaved secretary~
+An enslave female secretary stands here.
+~
+She looks horrible, bruised and her clothes
+are ripped in the most improper of places.
+~
+unique~
+ABG J 500 0
+3 0 2d6+35 0d0+0 0d0+0 scratch
+7 7 7 7
+0 0 B Z
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+#1921
+slaver lord~
+the slaver lord~
+The goblin slaver lord stands here, happy to do business in town.
+~
+He is ugly and very mean, with obviously 
+goblin like tendencies.
+~
+goblin~
+ABG J -800 0
+7 0 2d6+85 0d0+0 1d8+1 pound
+5 5 7 5
+0 0 Q C
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1922
+jail guard~
+a jail guard~
+A jail guard stands here, guarding the jail.
+~
+He looks sorta friendly but his years of taking
+people prisoner have had their toll.
+~
+unique~
+ABG 0 200 1900
+5 0 2d6+60 0d0+0 1d5+0 pound
+8 8 7 5
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1923
+old prisoner~
+an old prisoner~
+An old prisoner sits here, waiting for his day of freedom.
+~
+He is sorta wirey and sick looking. You wonder
+how long he has been here.
+~
+unique~
+AG J 0 1902
+1 -2 2d6+10 1d4+0 0d0+0 pound
+9 9 9 9
+0 0 LQ R
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1924
+young prisoner~
+a young prisoner~
+A young prisoner stands here defiant at his capture.
+~
+He is very angry at having been caught during
+his crime.
+~
+unique~
+AG J 0 1902
+1 -1 2d6+10 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 B Z
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1925
+fat prisoner~
+a fat prisoner~
+A fat prisoner stands here, wanting more food.
+~
+He is a bit chubby, by the time he gets out you
+doubt that will be the case.
+~
+unique~
+AG J 0 1902
+1 -2 2d6+5 0d0+0 1d3+0 pound
+9 9 9 9
+0 0 B Z
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1926
+tough prisoner~
+a tough prisoner~
+A tough prisoner stands here looking mean.
+~
+He has been pumping iron while in jail, in order
+to make him a better criminal.
+~
+unique~
+AG J 0 1902
+3 0 2d6+10 0d0+0 1d5+0 pound
+8 8 8 8
+0 0 LQ R
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1927
+leroy gang leader~
+leroy the gang leader~
+Leroy the jail gang leader stands here defiantly.
+~
+He is a big mutha, boy he looks tough.
+~
+unique~
+ABG 0 -400 0
+5 0 2d6+60 0d0+0 1d6+1 pound
+7 7 7 7
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1928
+leroys jail bitch~
+leroys jail bitch~
+A jail bitch stands here, waiting for his man leroy.
+~
+He is a sick sight, a male but covered in 
+makeup and girls clothes.
+~
+unique~
+ABG 0 0 0
+1 0 2d6+4 0d0+0 1d3+0 scratch
+9 9 9 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1929
+small rat~
+a small rat~
+A small rat stands here, avoiding the prisoners.
+~
+He is small but would make an excellent treat
+for leroy.
+~
+rabbit~
+AG 0 0 0
+1 0 2d6+5 0d0+0 1d2+0 bite
+9 9 9 9
+FH 0 0 0
+stand stand male 0
+AGHMV ABCDEFHJK medium unknown
+#1930
+wandering gypsy~
+a wandering gypsy~
+A wandering gypsy stands here.
+~
+He is wearing odd clothes and a strange hat.
+~
+unique~
+AG 0 300 0
+6 0 2d7+71 0d0+0 1d8+1 pound
+7 7 7 7
+0 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium unknown
+#1931
+dirty kid~
+a dirty kid~
+A dirty little kid is here, his eyes are shifty.
+~
+He looks like a brat and he is covered in dirt and grime.
+~
+unique~
+AGS 0 0 0
+1 0 2d6+10 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#1932
+ugly orc~
+a ugly orc~
+An ugly orc stands here.
+~
+He is big and ugly. He looks dazed though, must
+be the magic that holds him here.
+~
+orc~
+ABG J -500 0
+1 0 2d6+10 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 HIQ JPS
+stand stand male 0
+ABHMV ABCDEFGHIJK medium unknown
+#1933
+filthy kobold~
+a filthy kobold~
+A filthy kobold stands here.
+~
+He is looking a bit dazed, must be the magic
+that keeps him here.
+~
+kobold~
+ABG J 0 0
+1 0 2d6+10 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 L C
+stand stand male 0
+ABHMV ABCDEFGHIJKQ medium unknown
+#1934
+strange modron~
+a strange modron~
+An odd square shaped creature stands here.
+~
+Now this thing is odd, it has a wierd geometric
+shape. It is still from the magic that holds
+it here.
+~
+modron~
+ABG J 0 0
+1 0 2d6+5 0d0+0 1d2+0 pound
+9 9 9 9
+QR BMNPQ HIK 0
+stand stand male 0
+ABHMV ABCDEFGHJK medium unknown
+#1935
+giant hobgoblin~
+a giant hobgoblin~
+A giant hobgoblin stands here.
+~
+He would normally attack you on sight, but the
+magic keeps him docile.
+~
+hobgoblin~
+ABG J 0 0
+1 0 2d6+15 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 LQ 0
+stand stand male 0
+ABHMV ABCDEFGHIJKY medium unknown
+#1936
+lizard man~
+the lizard man~
+A lizard man stands here, dazed.
+~
+He is under some heavy spell that keeps him
+docile.
+~
+lizard~
+ABG J 0 0
+1 0 2d6+8 0d0+0 1d3+0 sting
+9 9 9 9
+0 0 L I
+stand stand male 0
+ABGHMVXc ABCDEFHKQV medium unknown
+#1937
+war pig~
+a war pig~
+A war pig, trained in the arts of war sits here.
+~
+He is obviously under some heavy spell.
+~
+pig~
+ABG J 0 0
+1 0 2d6+0 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 0 0
+sit sit male 0
+AGHMV ABCDEFHJK medium unknown
+#1938
+deadly snake~
+a deadly snake~
+A deadly snake is here, obviously dazed.
+~
+It is under some spell, but you can tell it 
+must be poisonous.
+~
+snake~
+ABG J 0 0
+1 0 2d6+6 0d0+0 1d3+0 bite
+8 8 8 8
+0 0 L I
+stand stand male 0
+ABGHMVXYc ABCDEFKLQVX medium unknown
+#1939
+grizzly bear~
+a grizzly bear~
+A large black grizzly bear sleeps here.
+~
+He is sleeping, but looks very mean.
+~
+bear~
+ABG 0 0 0
+1 0 2d6+10 0d0+0 1d5+0 smash
+9 9 9 9
+DEO 0 EI 0
+sleep sleep male 0
+AGHMV ABCDEFHJKUV huge unknown
+#1940
+black wolf~
+a black wolf~
+A black wolf sits here.
+~
+He has a dazed look in his eyes.
+~
+wolf~
+ABG Z 0 0
+1 0 2d6+3 0d0+0 1d3+0 bite
+9 9 9 9
+FH 0 0 0
+sit sit male 0
+AGHMV ABCDEFJKQV medium unknown
+#1941
+rachel~
+rachel~
+Rachel the pawn store owner.
+~
+She has short leather skirt on and fishnet stockings.
+Her hands are covered in gold rings and jewelry.
+~
+unique~
+ABG 0 600 0
+15 2 3d9+208 0d0+0 2d6+3 pound
+-2 -2 -2 -2
+N 0 0 0
+stand stand female 600
+AHMV ABCDEFGHIJK medium unknown
+#1942
+raitan bartender barkeep~
+raitan the barkeep~
+Raitan the barkeep and pubowner is here.
+~
+He is wearing a leather smock and has fat rings on his
+chubby little fingers. His cheeks are red and he has
+a funny smirk on his face..
+~
+unique~
+ABG 0 600 0
+15 2 3d9+208 0d0+0 2d6+3 pound
+-2 -2 -2 -2
+N 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium unknown
+#1943
+suave merchant~
+the suave looking merchant~
+A suave looking merchant is here.
+~
+He is wearing velvet slippers and has a gold waist
+chain. His hair is slicked back and his nails are 
+polished.
+~
+unique~
+ABG 0 600 0
+15 2 3d9+208 0d0+0 2d6+3 pound
+-2 -2 -2 -2
+N 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium unknown
+#1944
+jackass~
+A brown jackass~
+A brown jackass is here
+~
+A fur covered jackass is here.
+~
+dog~
+AE 0 0 0
+5 0 1d17+42 1d1+1 2d5+2 bite
+0 0 0 0
+0 0 I 0
+stand stand none 1
+AGV ACDEFHJKUV medium unknown
+F off H
+#1945
+Stable Hand~
+A innocent stablehand~
+An innocent looking stablehand is here
+~
+He has on short pants and long socks that are covered with some
+brown substance.  He is wearing no shirt, and lash marks cover
+his back. He works at the stable renting mounts.
+~
+unique~
+AG 0 600 0
+15 2 3d9+208 0d0+0 2d6+3 pound
+-2 -2 -2 -2
+N 0 0 0
+stand stand male 200
+AHMV ABCDEFGHIJK medium unknown
+#1946
+Street Punk~
+A vicious street punk~
+A vicious looking street punk is here
+~
+This character has the look of a wanted man.
+His dark clothes look rough and well used.
+He has scabbards for two daggers strapped
+under his arms.
+~
+unique~
+ABCFGS PQ -400 0
+7 0 3d30+96 0d0+0 2d6+5 pound
+7 7 7 7
+I 0 0 0
+stand stand male 40
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#1900
+pouch~
+a large blue pouch~
+A large belt pouch rests here.~
+canvas~
+container 0 AO
+70 A 0 30 100
+0 20 30 P
+#1901
+red pouch~
+a small red pouch~
+A small red belt pouch rests here.~
+canvas~
+container 0 AO
+50 A 0 20 100
+0 10 20 P
+#1902
+leather backpack~
+a leather backpack~
+A leather backpack rests here.~
+hard leather~
+container 0 AD
+150 A 0 60 100
+0 100 110 P
+#1903
+clear vial~
+a clear vial of liquid.~
+A clear vial of liquid rests here.~
+glass~
+potion 0 AO
+3 'cure poison' '' '' ''
+0 10 78 P
+E
+vial~
+A small label on the side says, ANTI-TOXIN.~
+#1904
+candle~
+a wax candle~
+A wax candle sits here.~
+wax~
+light 0 AO
+0 0 AC 0 0
+0 10 5 P
+#1905
+bamboo torch~
+a bamboo torch~
+A bamboo torch sits here.~
+bamboo~
+light 0 AO
+0 0 CD 0 0
+0 20 10 P
+#1906
+oil lantern~
+an oil lantern~
+An oil lantern rests here.~
+brass~
+light 0 AO
+0 0 DE 0 0
+0 30 50 P
+#1907
+leather pants~
+a pair of leather pants.~
+A pair of leather pants.~
+hard leather~
+armor 0 AF
+A A A A AC
+0 40 10 P
+#1908
+leather shoes~
+a pair of leather shoes~
+A pair of leather shoes sits here.~
+kid leather~
+armor 0 AG
+A A A A AB
+0 20 7 P
+#1909
+cotton shirt~
+a white cotton shirt~
+A white cotton shirt sits here.~
+canvas~
+armor 0 AD
+A A A A B
+0 20 9 P
+#1910
+red apron~
+a red apron~
+A red apron sits here.~
+canvas~
+armor 0 AL
+A A A A B
+0 10 5 P
+#1911
+patent leather pants~
+a pair of patent leather pants~
+A pair of black patent leather pants sits here.~
+rubber~
+armor 0 AF
+AC AC AC ABC BC
+0 60 50 P
+#1912
+heavy riding boots~
+a pair of heavy riding boots~
+A pair of heavy riding boots sits here.~
+hard leather~
+armor 0 AG
+C AC AB B BC
+0 50 80 P
+#1913
+brass boots~
+a pair of brass boots~
+A pair of shiny brass boots rest here.~
+brass~
+armor 0 AG
+AB AB AB A D
+0 100 110 P
+#1914
+brass ring~
+a brass ring~
+A brass ring rests here.~
+brass~
+armor 0 AB
+B B B A AB
+0 10 45 P
+#1915
+brass collar~
+a brass collar~
+A brass collar rests here.~
+brass~
+armor 0 AC
+B B B A B
+0 20 30 P
+#1916
+brass breast piece~
+a brass breast piece~
+A brass breast piece rests here.~
+brass~
+armor 0 AD
+AB AB AB B ABCD
+0 400 200 P
+#1917
+brass pot helmet~
+a brass pot helmet~
+A brass pot helmet rests here.~
+brass~
+armor 0 AE
+B B AB A C
+0 40 25 P
+#1918
+brass leggings~
+a set of brass leggings~
+A set of brass leggings rest here.~
+brass~
+armor 0 AF
+B AB B C C
+0 50 38 P
+#1919
+loin clothe~
+a loin clothe~
+A light dirty loin clothe rests here.~
+canvas~
+armor 0 AL
+A A A A A
+0 10 1 P
+#1920
+heavy dagger iron~
+a heavy iron dagger~
+A heavy iron dagger sits here.~
+iron~
+weapon 0 AN
+dagger 1 4 slash 0
+0 70 25 P
+E
+dagger~
+A cheaply made dagger although it is quite 
+heavy.~
+#1921
+bone sword~
+a bone sword ~
+a bone sword sits here.~
+bone~
+weapon 0 AN
+sword 1 6 slash 0
+0 30 35 P
+E
+sword~
+A ivory like sword made of some large creatures
+thigh bone.~
+#1922
+crystal club~
+a crystal club~
+A crystal club sits in the dirt.~
+crystal~
+weapon 0 AN
+mace 1 8 crush 0
+0 100 55 P
+E
+club~
+A heavy clear crystal club, soaked in some
+sort of resin to keep it from shattering.~
+#1923
+barbed whip~
+a barbed whip~
+A barbed whip sits here.~
+cloth~
+weapon 0 AN
+whip 1 4 slash 0
+0 30 15 P
+E
+whip~
+A black leather coiled length with vicious 
+little barbed teeth covering it.~
+#1924
+reinforced staff~
+a reinforced staff~
+A reinforced staff sits here.~
+wood~
+weapon 0 AN
+staff 1 6 pound 0
+0 100 45 P
+E
+staff~
+A long length of wood reinforced with metal
+tie offs.~
+#1925
+glass water~
+a glass of water~
+A glass of water sits here.~
+glass~
+drink 0 A
+2 2 'water' 0 0
+0 10 5 P
+#1926
+small canteen~
+a small canteen~
+A small canteen rests here.~
+canvas~
+drink 0 A
+5 5 'water' 0 0
+0 20 25 P
+#1927
+large canteen~
+a large canteen~
+A large canteen sits here.~
+hard leather~
+drink 0 A
+15 15 'water' 0 0
+0 50 35 P
+#1928
+roasted duck~
+a roasted duck~
+A roasted duck sits here.~
+balm~
+food 0 A
+BD BD 0 0 0
+0 10 20 P
+#1929
+spare ribs~
+a pile of spare ribs~
+A pile of tasty looking spare ribs sits here.~
+balm~
+food 0 A
+BD BD 0 0 0
+0 10 22 P
+#1930
+venison burger~
+a venison burger~
+A venison burger sits here.~
+balm~
+food 0 A
+CD CD 0 0 0
+0 10 15 P
+#1931
+smoked corn~
+a pile of smoked corn~
+A smile of smoked corn sits here.~
+balm~
+food 0 A
+BD BD 0 0 0
+0 10 10 P
+#1932
+dried meat~
+a strip of dried meat~
+A strip of dried meat rests here.~
+balm~
+food 0 A
+CE CE 0 0 0
+0 10 40 P
+#1933
+gurgling fountain~
+a gurgling fountain~
+A gurgling fountain is here.~
+black dragonscale~
+fountain 0 0
+10000 10000 'water' 0 0
+0 100 0 P
+E
+fountain~
+This is a beautifully carved fountain in the
+shape of a large black dragon. The water flows
+from its gaping jaws.~
+#1934
+green oak tree~
+a green oak tree~
+A large green oak tree stands here.~
+wood~
+furniture 0 0
+AC EFGIJKM CFIL 0 0
+0 5 0 P
+E
+oak tree~
+Its a very large tree with nice green leaves
+covering it. Its branches are situated so it
+is easy to sit it.~
+#1935
+medical bed~
+a medical bed~
+A white medical bed is here, waiting for a patient.~
+brass~
+furniture 0 0
+A EGHIJK EHK DGH BCEH
+0 5 0 P
+#1936
+flower dress~
+a flower dress~
+A flower dress sits here on the ground.~
+cloth~
+armor 0 AF
+A A A A A
+0 20 5 P
+#1937
+trash bucket~
+a trash bucket~
+A trash bucket sits here.~
+bone~
+container 0 AO
+500 A 0 200 100
+0 50 1 P
+#1938
+trash poker~
+a trash poker~
+A trash poker rests here.~
+brass~
+weapon 0 AN
+sword 1 4 pierce 0
+0 20 5 P
+E
+poker~
+Its made of brass and has two pointy prongs at
+the end of it.~
+#1939
+torn family picture~
+a torn family picture~
+A torn family picture rests here.~
+canvas~
+trash 0 AO
+0 0 0 0 0
+0 5 0 P
+A
+5 2
+E
+picture~
+It shows a friendly meadow in the deep woods
+where a family of elves stands smiling. You
+notice the women who looks familiar.~
+#1940
+slaver shackles~
+a pair of slave shackles~
+A pair of slaver shackles rest here.~
+brass~
+armor A AM
+A A A A B
+0 50 5 P
+A
+14 -100
+#1941
+burnt wand~
+a burnt wand ~
+A burnt wand sits here on the ground.~
+clay~
+wand 0 AO
+5 5 5 'charm person' 0
+0 20 500 P
+#1942
+guard badge~
+a guard badge~
+A guard badge rests here on the ground.~
+brass~
+armor 0 AD
+B B B B A
+0 5 250 P
+A
+13 20
+#1943
+small map~
+a small map~
+A small map sits here.~
+bamboo~
+trash 0 AO
+0 0 0 0 0
+0 5 0 P
+E
+map~
+-----------WHERE IVE BEEN--------------
+
+------------------------------------------~
+#1944
+walking boots~
+walking boots~
+A pair of walking boots sits here.~
+felt~
+armor 0 AG
+B B B B B
+0 30 1000 P
+A
+14 50
+E
+boots~
+They look very very comfortable.~
+#1945
+slim dagger~
+a slim dagger~
+A slim dagger rests here.~
+bone~
+weapon 0 AN
+dagger 2 4 pierce 0
+0 5 500 P
+A
+18 3
+#1946
+glowing marble~
+a glowing marble~
+A glowing marble rests here.~
+electrum~
+light A AO
+0 0 BCG 0 0
+0 5 1 P
+#1947
+black pumps~
+a pair of black pumps~
+A pair of black pumps rest here.~
+hard leather~
+trash 0 AG
+0 0 0 0 0
+0 5 1 P
+#1948
+blue garter belt~
+a blue garter belt~
+A blue garter belt rests here.~
+bone~
+trash 0 AM
+0 0 0 0 0
+0 5 1 P
+#1949
+gold necklace~
+a gold necklace~
+A gold necklace sits here.~
+brass~
+trash 0 AC
+0 0 0 0 0
+0 5 1 P
+E
+necklace~
+In big gold letters it says.
+
+LEROYS WOMAN!~
+#1950
+bottle~
+a dark earthen bottle~
+A dark earthen bottle is here.~
+glass~
+drink 0 A
+20 20 'absinthe' 1 0
+1 2 10 P
+#0
+
+
+
+#ROOMS
+#1900
+{YCenter Of The New District{x~
+You are standing in the the center square of the new section of town. 
+All the streets and buildings are in very good condition.  From here you can
+go north or south on Wen road or go east and west on Eib road.  In the very
+center of this square is a beautiful bubbling fountain, the water looks very
+refreshing.  Citizens gather around this fountain discussing events and
+looking at the young adventurers wandering through.  
+~
+0 131072 11
+D0
+You see Wen road.
+~
+~
+0 -1 1901
+D1
+You see Eib road.
+~
+~
+0 -1 1914
+D2
+You see Wen road.
+~
+~
+0 -1 1907
+D3
+You see Eib road.
+~
+~
+0 -1 1920
+S
+#1901
+{YWen Road{x~
+You are on a newly paved street known as Wen Road.  To the south of here
+is Center square and the local fountain.  Beautiful trees and shrubs line
+the street and a fragrant smell comes down from the north.  From here you
+can go north or south.  There is a big wooden board covering a pothole here.
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1902
+D2
+You see Wen road.
+~
+~
+0 -1 1900
+S
+#1902
+{YWen Road{x~
+You are standing on the beautifully landscaped Wen Road.  All around are
+nice cooling trees and warm looking flowers and shrubs.  A smokey barbecue
+smell fills the air and is coming from the east where you see a small shop. 
+Wen Road continues north and south from here.  You can also go east to the
+small shop that smells good.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1903
+D1
+You see a barbacue stand.
+~
+~
+0 -1 1964
+D2
+You see Wen road.
+~
+~
+0 -1 1901
+S
+#1903
+{YWen Road{x~
+You are moving along Wen Road one of the main streets that goes through
+this district of Calinth.  From here you can head north and south along Wen
+Road.  From the south comes a fragrant appetizing smell.  To the north you
+see a small T-intersection.  
+~
+0 0 11
+D0
+You see a small T intersection.
+~
+~
+0 -1 1904
+D2
+You see Wen road.
+~
+~
+0 -1 1902
+S
+#1904
+{YWen Road and Jail Avenue{x~
+You are standing at a small T-intersection of Wen Road and Jail avenue. 
+The local jail is off to the east while Wen Road continues north and south. 
+On the west side of the street are rows of quaint cottages for the locals.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1905
+D1
+You see Jail avenue.
+~
+~
+0 -1 1936
+D2
+You see Wen road.
+~
+~
+0 -1 1903
+S
+#1905
+{YWen Road{x~
+You are standing on Wen road, beautiful shrubs and trees line
+both sides of the streets. Small cottages are on either side
+belonging to the locals, all of which are painted and in
+very good condition. Wen road continues north of here to a
+corner or south from here to a small intersection. There is
+a very unpleasant smell in the air.
+~
+0 0 11
+D0
+You see a corner.
+~
+~
+0 -1 1906
+D2
+You see a small intersection.
+~
+~
+0 -1 1904
+S
+#1906
+{YCorner of Wen Road{x~
+You are standing on the corner of Wen road, from here it curves to the
+west.  Around you are small cottages and gardens of the locals in this
+section.  Well kept trees and flowers line the street here.  To the east is
+a small alley.  
+~
+0 0 11
+D1
+~
+~
+0 0 2008
+D2
+You see Wen road heading south.
+~
+~
+0 -1 1905
+D3
+You see Wen road heading west.
+~
+~
+0 -1 1943
+S
+#1907
+{YWen Road{x~
+You are standing just south of the center square in the New district of
+Calinth.  Around you are small friendly looking cottages with well kept
+gardens and shrubs around their white picket fences.  From here you can
+continue north to center square or go south where you here the splashing of
+water.  
+~
+0 0 11
+D0
+You see center square.
+~
+~
+0 -1 1900
+D2
+You see Wen road.
+~
+~
+0 -1 1908
+S
+#1908
+{YWen Road{x~
+You are on the beautifully landscaped, Wen road.  To the east of here you
+see a small pump house with a pleasant looking waterwheel spinning away at
+its side.  You can go north or south from here as well.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1907
+D1
+You see a small pumphouse.
+~
+~
+0 -1 1965
+D2
+You see Wen road.
+~
+~
+0 -1 1909
+S
+#1909
+{YWen Road{x~
+You are on the very well kept, Wen road.  Small cottages are on the east
+and west of you.  Each has a small garden and some well kept shrubs near it.
+To the north you can hear the splashing of water.  And to the south you see
+a small intersection.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1908
+D2
+You see a small intersection.
+~
+~
+0 -1 1910
+S
+#1910
+{YWen Road and Wealthy Avenue{x~
+You are standing on a small intersection where Wealthy Avenue meets Wen
+road.  To the east Wealthy Avenue begins and to the south Wen Road continues
+onward.  There is a strange smell in the air.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1909
+D1
+You see Wealthy avenue.
+~
+~
+0 -1 1929
+D2
+You see Wen road.
+~
+~
+0 -1 1911
+D3
+~
+~
+0 0 2013
+S
+#1911
+{YWen Road{x~
+You are standing between some humble village houses lined up along Wen
+road.  Chirping birds and friendly voices greet you.  You can continue by
+going north or south along Wen road.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1910
+D2
+You see Wen road.
+~
+~
+0 -1 1912
+S
+#1912
+{YWen Road{x~
+You are standing between some humble village houses lined up along Wen
+road.  Chirping birds and friendly voices greet you.  You can continue by
+going north or south along Wen road.  
+~
+0 0 11
+D0
+You see Wen road.
+~
+~
+0 -1 1911
+D2
+You see Wen road.
+~
+~
+0 -1 1913
+S
+#1913
+{YThe South End of Wen Road{x~
+You are standing on the southern end of Wen road.  The cottages and
+houses are not around you here.  To the east is a grey and dismal looking
+city {bwall{x the same is to the south.  To the west you see a small weapons
+shop.  You can return to the north as well.  There is a loud banging coming
+from somewhere.  
+~
+0 0 11
+E
+wall~
+--------
+The town wall of Calinth. Erected by the Overlord to
+keep out his enemys, and to keep the populace in. Its
+grey chipped mortar is a sign of hard oppression to many.
+~
+D0
+You see Wen road.
+~
+~
+0 -1 1912
+D3
+You see a weapons shop.
+~
+~
+0 -1 1967
+S
+#1914
+{YEib Road{x~
+You are standing on Eib road, the main street heading east and west
+through the new section of town.  To the west of you lies center square or
+you can continue east to the gateway into Calinth.  To the north is a small
+pub and to the south is a store of some sorts.  
+~
+0 0 11
+D0
+~
+~
+0 0 2000
+D1
+You see Eib road.
+~
+~
+0 -1 1915
+D2
+~
+~
+0 0 2001
+D3
+You see center square.
+~
+~
+0 -1 1900
+S
+#1915
+{YEib Road{x~
+You are standing on the main east and west road through the new section
+of town.  You can head east towards the goodwill and the gate leaving this
+district of Calinth, or you can head west towards the center square.  
+~
+0 0 11
+D0
+~
+~
+0 0 2002
+D1
+You see Eib road.
+~
+~
+0 -1 1916
+D3
+You see Eib road.
+~
+~
+0 -1 1914
+S
+#1916
+{YEib Road{x~
+You are standing on a well used section of Eib road.  To the south of you
+a couple of quaint cottages sit peacefully in the trees.  To the north you
+see a large warehouse like building.  You can continue east towards the gate
+leaving this district or head west further into the center of town.  
+~
+0 0 11
+D0
+You see a GOODWILL.
+~
+~
+0 -1 1969
+D1
+You see Eib road.
+~
+~
+0 -1 1917
+D3
+You see Eib road.
+~
+~
+0 -1 1915
+S
+#1917
+{YEib Road and Jail Avenue{x~
+You are at the instersection of two roads.  To the south of you a small
+alley leads away between a couple of quaint cottages.  You can continue east
+on Eib Road towards the older section of Calinth or head west further into
+the new section of town.  To the north Jail Avenue stretches off into the
+distance.  The air smells clean and pleasant here.  You can hear voices
+coming from the alley.  
+~
+0 0 11
+D0
+~
+~
+0 0 1942
+D1
+You see Eib road.
+~
+~
+0 -1 1918
+D2
+~
+~
+0 0 2005
+D3
+You see Eib road.
+~
+~
+0 -1 1916
+S
+#1918
+{YEib Road{x~
+You are standing on a well used section of Eib road.  To the south of you
+a couple of quaint cottages sit peacefully in the trees.  Eib road continues
+east and west from here.
+~
+0 0 11
+D0
+~
+~
+0 0 2006
+D1
+You see Eib road.
+~
+~
+0 -1 1919
+D3
+You see Eib road.
+~
+~
+0 -1 1917
+S
+#1919
+{YEib Road{x~
+You are standing on a well used section of Eib road.  To the south of you
+a couple of quaint cottages sit peacefully in the trees.  You can continue
+east and leave this district or head west back towards the center of the
+district.  
+~
+0 0 11
+D1
+~
+~
+0 0 20184
+D3
+You see Eib road.
+~
+~
+0 -1 1918
+S
+#1920
+{YEib Road{x~
+You are standing on a clean section of Eib road.  From here you can head
+east to the center square, or you can go west down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  There are children
+laughing in the distance.  
+~
+0 0 11
+D1
+You see center square.
+~
+~
+0 -1 1900
+D3
+You see Eib road.
+~
+~
+0 -1 1921
+S
+#1921
+{YEib Road{x~
+You are standing on a quaint section of Eib road.  From here you can head
+east to the center square, or you can go west down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  There are birds
+singing in the distance.  
+~
+0 0 11
+D1
+You see Eib road.
+~
+~
+0 -1 1920
+D3
+You see Eib road.
+~
+~
+0 -1 1922
+S
+#1922
+{YEib Road{x~
+You are standing on a quaint section of Eib road.  From here you can head
+east to the center square, or you can go west down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  There is a small
+shop to the south with a banging sound coming from it.  
+~
+0 0 11
+D1
+You see Eib road.
+~
+~
+0 -1 1921
+D2
+You see the Armorer.
+~
+~
+0 -1 1966
+D3
+You see Eib road.
+~
+~
+0 -1 1923
+S
+#1923
+{YEib Road{x~
+You are standing on a quaint section of Eib road.  From here you can head
+east to the center square, or you can go west down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  
+~
+0 0 11
+D1
+You see Eib road.
+~
+~
+0 -1 1922
+D3
+You see Eib road.
+~
+~
+0 -1 1924
+S
+#1924
+{YEib Road{x~
+You are standing on a corner section of Eib road.  From here you can head
+east to the center square, or you can go south down Eib road.  Small
+cottages and houses occupy the tree filled lots all around you.  
+~
+0 0 11
+D1
+You see Eib road.
+~
+~
+0 -1 1923
+D2
+You see Eib road.
+~
+~
+0 -1 1925
+S
+#1925
+{YEib Road{x~
+You are standing on a corner section of Eib road.  From here you can head
+north towards the corner, or you can go south down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  To the west of here
+you see a General Store.  
+~
+0 0 11
+D0
+You see a corner of Eib road.
+~
+~
+0 -1 1924
+D2
+You see Eib road.
+~
+~
+0 -1 1926
+D3
+You see a General Store.
+~
+~
+0 -1 1999
+S
+#1926
+{YEib Road{x~
+You are standing on a corner section of Eib road.  From here you can head
+north towards the store, or you can go south down Eib road.  Small cottages
+and houses occupy the tree filled lots all around you.  
+~
+0 0 11
+D0
+You see Eib road.
+~
+~
+0 -1 1925
+D2
+You see Eib road.
+~
+~
+0 -1 1927
+S
+#1927
+{YEib Road{x~
+You are standing on a corner section of Eib Road. From here you 
+can head north towards a street corner or you can head further
+south. A dark and dangerous looking alley heads to the east.
+The buildings in this area are decaying and very old looking.
+Although deserted an occasional face peers out from a window.
+~
+0 0 11
+D0
+You see Eib road.
+~
+~
+0 -1 1926
+D1
+~
+~
+0 0 2015
+D2
+You see Eib road.
+~
+~
+0 -1 1928
+S
+#1928
+{YEib Road{x~
+You are at a dead end portion of Eib road.  The city wall of Calinth lies
+directly to the south of you while a small training yard lies to the east,
+you can also return north.  
+~
+0 0 11
+D0
+You see Eib road.
+~
+~
+0 -1 1927
+D1
+You see a training yard.
+~
+~
+0 -1 1971
+S
+#1929
+{YWealthy Avenue{x~
+This section road known as Wealthy avenue was built by an exotic old man
+who lives in a mansion in the main part of Calinth.  He built this road that
+leads to a large structure where he keeps an exotic collection of beasts
+from around Rylelia.  You can visit this place by heading east, or return to
+the west 
+~
+0 0 11
+D1
+You see Wealthy avenue.
+~
+~
+0 -1 1930
+D3
+You see Wen road.
+~
+~
+0 -1 1910
+S
+#1930
+{YWealthy Avenue{x~
+This section road known as Wealthy avenue was built by an exotic old man
+who lives in a mansion in the main part of Calinth.  He built this road that
+leads to a large structure where he keeps an exotic collection of beasts
+from around Rylelia.  You can visit this place by heading east, or return to
+the west 
+~
+0 0 11
+D1
+You see Wealthy avenue.
+~
+~
+0 -1 1931
+D3
+You see Wealthy ave.
+~
+~
+0 -1 1929
+S
+#1931
+{YWealthy Avenue{x~
+This street is lined with the best of stones and bricks gold could buy. 
+Exotic trees and bushes are on the north and south pruned daily by some
+hired hands.  You can head east to a corner or back west down Wealthy ave.  
+~
+0 0 11
+D1
+You see A corner.
+~
+~
+0 -1 1932
+D3
+You see Wealthy ave.
+~
+~
+0 -1 1930
+S
+#1932
+{YWealthy Avenue{x~
+You are standing on a turn in Wealthy avenue.  From here it heads on to
+the south.  A building lies to the east of you but the entrance must be
+further down.  A pungent smell is in the air.  To the north is a small
+alley.  
+~
+0 0 11
+D0
+~
+~
+0 0 2005
+D2
+You see Wealthy ave.
+~
+~
+0 -1 1933
+D3
+You see Wealthy ave.
+~
+~
+0 -1 1931
+S
+#1933
+{YWealthy Avenue{x~
+There is a very pungent smell coming from the east where the entrance to
+the large building is.  You notice that there are no houses on this street,
+the builder must want to keep people away from his strange collection.  You
+can continue south or go north as well.  
+~
+0 0 11
+D0
+You see Wealthy ave.
+~
+~
+0 -1 1932
+D1
+You see a large building.
+~
+~
+1 -1 1989
+D2
+You see Wealthy ave.
+~
+~
+0 -1 1934
+S
+#1934
+{YWealthy Avenue{x~
+You are nearing the end of Wealthy avenue.  From here you can head north
+towards the large building or you can go south towards a lavish inn.  On
+either side of the street are large oak trees that sway in the breeze.  To
+the east is a small alley.  
+~
+0 0 11
+D0
+You see Wealthy ave.
+~
+~
+0 -1 1933
+D1
+~
+~
+0 0 2003
+D2
+You see Wealthy ave.
+~
+~
+0 -1 1935
+S
+#1935
+{YThe End Of Wealthy Avenue{x~
+You have reached the end of Wealthy ave.  To the east lies a lavish Inn
+where you can get a room and some food for the night, Or you can head back
+north along the avenue.  The city wall of Calinth lies to the south of you. 
+~
+0 0 11
+D0
+You see Wealthy ave.
+~
+~
+0 -1 1934
+D1
+You see a lavish inn.
+~
+~
+0 -1 1970
+S
+#1936
+{YJail Avenue{x~
+You are walking along Jail Avenue, named so because the local jail lies
+off of it to the east and south.  Residents do not build houses along this
+street for fear and escaping prisoner might attack them.  Further to the
+east and to the north lies the healer.  He is known to help all, he even
+frequently visits the jail to lift spirits and help the sick.  
+~
+0 0 11
+D1
+You see Jail ave.
+~
+~
+0 -1 1937
+D3
+You see Wen road.
+~
+~
+0 -1 1904
+S
+#1937
+{YJail Avenue{x~
+You are walking on the only desolate stretch in the new section of town. 
+Trees have been cleared and the plants are brown and dead.  You would figure
+being so close to the jail would lower the value of the properties, and you
+were right.  
+~
+0 0 11
+D1
+You see Jail ave.
+~
+~
+0 -1 1938
+D3
+You see Jail ave.
+~
+~
+0 -1 1936
+S
+#1938
+{YJail Avenue{x~
+You are walking on the only desolate stretch in the new section of town. 
+Trees have been cleared and the plants are brown and dead.  You would figure
+being so close to the jail would lower the value of the properties, and you
+were right.  To the north of here is the town healer.  
+~
+0 0 11
+D0
+You see the local healer.
+~
+~
+0 -1 1968
+D1
+You see Jail ave.
+~
+~
+0 -1 1939
+D3
+You see Jail ave.
+~
+~
+0 -1 1937
+S
+#1939
+{YJail Avenue{x~
+You are walking on the only desolate stretch in the new section of town. 
+Trees have been cleared and the plants are brown and dead.  You would figure
+being so close to the jail would lower the value of the properties, and you
+were right.  Jail Avenue curves to the south here.  
+~
+0 0 11
+D2
+You see Jail ave.
+~
+~
+0 -1 1940
+D3
+You see Jail ave.
+~
+~
+0 -1 1938
+S
+#1940
+{YJail Avenue{x~
+You are walking on the only desolate stretch in the new section of town. 
+Trees have been cleared and the plants are brown and dead.  You would figure
+being so close to the jail would lower the value of the properties, and you
+were right.  Jail Avenue heads north and south here.  A large Jailhouse lies
+to your east but the entrance is further south.  
+~
+0 0 11
+D0
+You see Jail ave.
+~
+~
+0 -1 1939
+D2
+You see Jail ave.
+~
+~
+0 -1 1941
+S
+#1941
+{YJail Avenue{x~
+You are walking on the only desolate stretch in the new section of town. 
+Trees have been cleared and the plants are brown and dead.  You would figure
+being so close to the jail would lower the value of the properties, and you
+were right.  Jail Avenue heads north and south here.  A large Jailhouse lies
+to your east.  
+~
+0 0 11
+D0
+You see Jail ave.
+~
+~
+0 -1 1940
+D1
+You see the Jailhouse.
+~
+~
+1 -1 1973
+D2
+You see Jail ave.
+~
+~
+0 -1 1942
+S
+#1942
+{YJail Avenue{x~
+You are at what used to be the end of Jail Avenue.  To the south is where
+there used to be a fence but it has been removed and the wreckage left
+carelessly on the side of the road.  Beyond the the remnants of the fence
+you can see Eib Road while to the north Jail Avenue continues on its way.  
+~
+0 0 11
+D0
+You see Jail ave.
+~
+~
+0 -1 1941
+D2
+~
+~
+0 0 1917
+S
+#1943
+{YWen Road{x~
+You are on a more run down looking section of Wen road.  To the north of
+here you see a local guildhouse that is willing to teach all the guild
+skills needed.  To the east you see Wen road slowly turning to the south and
+to the west you hear a busy marketplace.  
+~
+0 0 11
+D0
+You a local guildhouse.
+~
+~
+0 -1 1972
+D1
+You see Wen road.
+~
+~
+0 -1 1906
+D3
+You see Wen road.
+~
+~
+0 -1 1944
+S
+#1944
+{YWen Road{x~
+You are on standing on a run down section of Wen road.  It doesnt look
+quite so nice here.  The road is potholed and broken.  The normal houses you
+see are rather run down and shabby looking.  You can head east or west from
+here.  
+~
+0 0 11
+D1
+You see Wen road.
+~
+~
+0 -1 1943
+D3
+You see Wen road.
+~
+~
+0 -1 1945
+S
+#1945
+{YWen Road{x~
+You are on standing on a run down section of Wen road.  It doesnt look
+quite so nice here.  The road is potholed and broken.  The normal houses you
+see are rather run down and shabby looking.  You can head east or west from
+here.  
+~
+0 0 11
+D1
+You see Wen road.
+~
+~
+0 -1 1944
+D3
+You see Wen road.
+~
+~
+0 -1 1946
+S
+#1946
+{YWen Road's Slave Pens{x~
+You are on standing on a run down section of Wen road.  It doesnt look
+quite so nice here.  The road is potholed and broken.  The normal houses you
+see are rather run down and shabby looking.  To the south of here you see
+the entrance to a slavers guild.  To the east you can return down Wen road. 
+~
+0 0 11
+D1
+You see Wen road.
+~
+~
+0 -1 1945
+D2
+You see a Slavers Guild.
+~
+~
+1 -1 1947
+S
+#1947
+{YEntrance To The Slavers Guild{x~
+You are standing in the coatroom of the Slavers guild.  A sick smell
+assaults your nostrils and you can hear the sounds of torture in the
+distance.  You wonder how they were able to build this place in the new
+section.  To The west are the main offices and to the east is the auction
+block.  
+~
+0 12 0
+D0
+You see Wen road.
+~
+~
+1 -1 1946
+D1
+You see the auction block.
+~
+~
+0 -1 1948
+D3
+You see the Offices.
+~
+~
+1 -1 1950
+S
+#1948
+{YThe Auction Block{x~
+This rooms reeks of human bondage.  Shackles and and stocks are on the
+walls.  Fat and smelly merchants from the various wealthy familys fill the
+room.  A raised platform is on the south wall where the deeds are done.  To
+the east are the pens, and to the west is the entrance hall.  
+~
+0 0 0
+D1
+You see the slave pens.
+~
+~
+1 -1 1949
+D3
+You see the entrance hall.
+~
+~
+0 -1 1947
+S
+#1949
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D2
+You see the slave pens.
+~
+~
+0 -1 1954
+D3
+You see the auction block.
+~
+~
+1 -1 1948
+S
+#1950
+{YFront Office{x~
+You are standing in an opulent front office of the Slave guild.  The
+riches provided from bondage are quite rewarding.  A large oak desk fills
+the room.  To the west you see the entrance to a back office.  
+~
+0 0 0
+D1
+You see the entrance hall.
+~
+~
+1 -1 1947
+D3
+You see a back office.
+~
+~
+0 -1 1951
+S
+#1951
+{YBack Office{x~
+You are in the back office of the Slaver guild.  Large file cabinets line
+all the walls along with various instruments of torture and bondage.  A
+leather smell fills this room.  
+~
+0 8192 0
+D1
+You see the front office.
+~
+~
+0 -1 1950
+S
+#1952
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D2
+You see the slave pens.
+~
+~
+0 -1 1955
+S
+#1953
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D2
+You see the slave pens.
+~
+~
+0 -1 1957
+S
+#1954
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1949
+D2
+You see the slave pens.
+~
+~
+0 -1 1958
+S
+#1955
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1952
+D1
+You see the slave pens.
+~
+~
+0 -1 1956
+S
+#1956
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D1
+You see the slave pens.
+~
+~
+0 -1 1957
+D2
+You see the slave pens.
+~
+~
+0 -1 1959
+D3
+You see the slave pens.
+~
+~
+0 -1 1955
+S
+#1957
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1953
+D1
+You see the slave pens.
+~
+~
+0 -1 1958
+D3
+You see the slave pens.
+~
+~
+0 -1 1956
+S
+#1958
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1954
+D3
+You see the slave pens.
+~
+~
+0 -1 1957
+S
+#1959
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1956
+D2
+You see the slave pens.
+~
+~
+0 -1 1960
+S
+#1960
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D0
+You see the slave pens.
+~
+~
+0 -1 1959
+D1
+You see the slave pens.
+~
+~
+0 -1 1961
+S
+#1961
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D1
+You see the slave pens.
+~
+~
+0 -1 1962
+D3
+You see the slave pens.
+~
+~
+0 -1 1960
+S
+#1962
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D1
+You see the slave pens.
+~
+~
+0 -1 1963
+D3
+You see the slave pens.
+~
+~
+0 -1 1961
+S
+#1963
+{RSlave Pens{x~
+Sick remains of human and humanoid creatures cover the floor along with
+excrement and blood.  Chains are attached to the walls along with smoldering
+torch stubs which provide a small amount of light.  
+~
+0 0 0
+D3
+You see the slave pens.
+~
+~
+0 -1 1962
+S
+#1964
+{YBar-B-Que Stand{x~
+A large fire pit occupies the majority of this room, good smells waft up
+from the many cuts of meat cooking in the 'special' sauce.  A few patrons
+sit at wood picnic style benches placed around the room.  If you want to see
+what is for sale type {blist{x.  
+~
+0 0 0
+D3
+You see Wen Road.
+~
+~
+0 -1 1902
+S
+#1965
+{YThe PumpHouse{x~
+You are standing in an oldstyle pumphouse, on the outside a large
+waterwheel turns with the current pouring over it.  Inside here you see a
+large pump mechanism hooked up to a faucet that is used to fill skins and
+buckets that are for sale to the townsfolk and wandering adventurers.  Type
+{blist{x to see what is for sale.  
+~
+0 0 0
+D3
+You see Wen road.
+~
+~
+0 -1 1908
+S
+#1966
+{YThe Armor Shop{x~
+You are standing inside a very very HOT armor shop.  A large furnace
+burns in the rear of the building where the young helpers of the master
+armorer hammer away at new and strange designs.  Different styles of metal
+work hang about the walls.  Type {blist{x to see what is for sale.  
+~
+0 8 0
+D0
+You see Eib road.
+~
+~
+0 -1 1922
+S
+#1967
+{YSharp As A Razor Weapon Shop{x~
+You are standing inside a rather odd weapons shop.  There are various
+practice dummys lining the walls with stab and slash wounds covering them. 
+The owner is here cheering on some young fellow as they hack apart a dummy. 
+Type {blist{x to see what is for sale.  
+~
+0 0 0
+D1
+You see Eib road.
+~
+~
+0 -1 1913
+S
+#1968
+{YThe Fountain Of Life{x~
+You are in a quiet and peaceful white chamber.  A large sign bearing the
+Healers guild insignia is on the back wall.  Beds and comfy chairs are all
+around.  The aroma of strange herbs and medicines fill the air.  
+~
+0 0 0
+D2
+You see Jail ave.
+~
+~
+0 -1 1938
+S
+#1969
+{YG{rO{BO{RD{bW{yI{GL{gL{x~
+You are in the local goodwill.  Here items can be purchased with the five
+finger discount thanx to local helpful souls.  Please take what you want but
+do not be to greedy as others are in need as well.  
+~
+0 0 0
+D2
+You see Eib road.
+~
+~
+0 -1 1916
+S
+#1970
+{YThe Incomplete Inn{x~
+You are standing on the construction site of a lavish inn.  It isnt quite
+done yet, so you are not required to stay here.  
+~
+0 0 0
+D3
+You see Wealthy ave.
+~
+~
+0 -1 1935
+S
+#1971
+{GThe Training Yard{x~
+You are in a large cleared area designed to help you train your skills. 
+The various workout tools and practice dummys line the yard.  Some tough
+trainers helpers will spar with you and a master trainer is here to teach
+you.  Type {bhelp train{x to learn more.  
+~
+0 0 2
+D3
+You see Eib road.
+~
+~
+0 -1 1928
+S
+#1972
+{GThe GuildHouse{x~
+This is one of the few guildhouses in all of Rylelia that trains the
+skills of all the guilds.  The setting is quaint and humble as they try and
+keep it quiet as not to upset the real guildhouses by showing wealth.  You
+can practice your skills here if you wish.  Type {bhelp practice{x to learn
+more.  
+~
+0 0 0
+D2
+You see Wen road.
+~
+~
+0 -1 1943
+S
+#1973
+{yThe Entrance To The Jail{x~
+You are standing in the entrance to the jail.  Strangely enough their are
+no doors or bars covering the entrance.  Their is a guard room to the north
+and the way out is to the west.  
+~
+0 1036 0
+D0
+You see the guard room
+~
+~
+0 -1 1974
+D3
+You see Jail road.
+~
+~
+1 -1 1941
+S
+#1974
+{yGuard Room To The Jail{x~
+You are in the guard room of the new section minimum security jailhouse. 
+Their are no bars or doors to this jail but the prisoners would have to get
+through this guard room to get out.  Most dont ever try.  To the north lies
+the beginning of the jail yard.  
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+1 -1 1975
+D2
+You see the Entrance hall.
+~
+~
+0 -1 1973
+S
+#1975
+{yOpen Jail Yard{x~
+You are in an open jail yard.  Cots and piles of straw are on the ground,
+there is a shithole in the corner and a few small fires keep the prisoners
+somewhat warm.  
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1976
+D2
+You see the guard room.
+~
+~
+1 -1 1974
+S
+#1976
+{yOpen Jail Yard{x~
+You are in an open jail yard.  Cots and piles of straw are on the ground,
+there is a shithole in the corner and a few small fires keep the prisoners
+somewhat warm.  
+~
+0 0 0
+D1
+You see an open jail yard.
+~
+~
+0 -1 1977
+D2
+You see the jail yard.
+~
+~
+0 -1 1975
+S
+#1977
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1987
+D1
+You see an open jail yard.
+~
+~
+0 -1 1978
+D2
+You see the jail yard.
+~
+~
+0 -1 1986
+D3
+You see the jail yard.
+~
+~
+0 -1 1976
+S
+#1978
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1988
+D2
+You see an open jail yard.
+~
+~
+0 -1 1979
+D3
+You see the jail yard.
+~
+~
+0 -1 1977
+S
+#1979
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1978
+D2
+You see an open jail yard.
+~
+~
+0 -1 1980
+D3
+You see the jail yard.
+~
+~
+0 -1 1986
+S
+#1980
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1979
+D2
+You see an open jail yard.
+~
+~
+0 -1 1981
+D3
+You see the jail yard.
+~
+~
+0 -1 1985
+S
+#1981
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1980
+D2
+You see an open jail yard.
+~
+~
+0 -1 1982
+D3
+You see the jail yard.
+~
+~
+0 -1 1984
+S
+#1982
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1981
+D3
+You see the jail yard.
+~
+~
+0 -1 1983
+S
+#1983
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1984
+D1
+You see an open jail yard.
+~
+~
+0 -1 1982
+S
+#1984
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1985
+D1
+You see an open jail yard.
+~
+~
+0 -1 1981
+S
+#1985
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1986
+D1
+You see an open jail yard.
+~
+~
+0 -1 1980
+S
+#1986
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D0
+You see an open jail yard.
+~
+~
+0 -1 1977
+D1
+You see an open jail yard.
+~
+~
+0 -1 1979
+S
+#1987
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D2
+You see an open jail yard.
+~
+~
+0 -1 1977
+S
+#1988
+{yOpen Jail Yard{x~
+You are in an open jail yard. Cots and piles of straw are
+on the ground, there is a shithole in the corner and a few
+small fires keep the prisoners somewhat warm.
+~
+0 0 0
+D2
+You see an open jail yard.
+~
+~
+0 -1 1978
+S
+#1989
+{BEntrance To The Strange Collection{x~
+You are standing in the entrance hall the the wealthy mans
+strange collection of creatures. A pungent smell of dirt
+and filth fill this room. A sign says, be careful of using
+anti-magics as the creatures are held in place using some
+sort of spell. To the north is the start of the exhibits.
+To the west lies Wealthy ave.
+~
+0 1036 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1990
+D3
+You see Wealthy ave.
+~
+~
+1 -1 1933
+S
+#1990
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1991
+D2
+You see the entrance hall.
+~
+~
+0 -1 1989
+S
+#1991
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1992
+D2
+You see an exhibit.
+~
+~
+0 -1 1990
+S
+#1992
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1993
+D2
+You see an exhibit.
+~
+~
+0 -1 1991
+S
+#1993
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D1
+You see an exhibit.
+~
+~
+0 -1 1994
+D2
+You see an exhibit.
+~
+~
+0 -1 1992
+S
+#1994
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D2
+You see an exhibit.
+~
+~
+0 -1 1995
+D3
+You see an exhibit.
+~
+~
+0 -1 1993
+S
+#1995
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1994
+D2
+You see an exhibit.
+~
+~
+0 -1 1996
+S
+#1996
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1995
+D2
+You see an exhibit.
+~
+~
+0 -1 1997
+S
+#1997
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1996
+D2
+You see an exhibit.
+~
+~
+0 -1 1998
+S
+#1998
+{BCreature Exhibit{x~
+This is the exhibit room of some wierd creature. It looks
+as though it hasnt been cleaned in a while. Different
+types of bedding lie strewn about as well as rotting pieces
+of food. You think the creatures must be changed around
+quite a bit.
+~
+0 0 0
+D0
+You see an exhibit.
+~
+~
+0 -1 1997
+D3
+You see the entrance hall.
+~
+~
+0 -1 1989
+S
+#1999
+{YThe General Store{x~
+Welcome to the general store.  Here you can buy various utilitarian items
+you might need along your trips and adventures.  The shelves are lined with
+things so to take a look around just type {blist{x.  
+~
+0 0 0
+D1
+You see Eib road.
+~
+~
+0 -1 1925
+S
+#2000
+{YRaitan's Pub{x~
+You are inside a small but comfortable looking pub.  There are various
+tables and chairs around the room and a small fireplace on the east wall.  A
+long oak bar lines the back wall and a row of bottles can be seen.  
+~
+0 8 0
+D2
+~
+~
+0 0 1914
+S
+#2001
+{YRachel's Pawn Shop{x~
+This the inside of a medium sized building.  Along the walls are various
+items that look like they are in slight disrepair.  Long glass topped
+cabinets line the walls and are filled with various trinkets.  A main
+counter is on the back wall.  
+~
+0 0 0
+D0
+~
+~
+0 0 1914
+S
+#2002
+{YMalik's Shop Of Shop's{x~
+A beautifully sized shop with large shelves and many tables and displays.
+He seems to carry some of the best furniture and exotic supplies available
+on this end of town.  A large counter is at the back if you wish to make a
+purchase, or you can just browse.  
+~
+0 8 0
+D2
+~
+~
+0 0 1915
+S
+#2003
+{YA Small Alley{x~
+This small alley runs alongside an Inn to the south.  To the north is the
+south wall of a large building that looks like a warehouse of some sort. 
+The ground is moist and wet, and frequently a small mouse runs out from
+behind a trash can.  East of here is a main road of Calinth.  
+~
+0 0 1
+D1
+~
+~
+0 0 2004
+D3
+~
+~
+0 0 1934
+S
+#2004
+{YA Small Alley{x~
+This small alley runs alongside an Inn to the south.  To the north is the
+south wall of a large building that looks like a warehouse of some sort. 
+The ground is moist and wet, and frequently a small mouse runs out from
+behind a trash can.  East of here is a main road of Calinth.  
+~
+0 0 1
+D1
+~
+~
+0 0 20188
+D3
+~
+~
+0 0 2003
+S
+#2005
+{YA Small Alley{x~
+A small alley runs north from the corner of wealthy road towards the main
+road through the new section of town.  Dirty piles of garbage, and small
+rats run back and forth.  
+~
+0 0 1
+D0
+~
+~
+0 0 1917
+D2
+~
+~
+0 0 1932
+S
+#2006
+{YNew District StableHouse{x~
+A room full of hay and stalls surrounds you.  An overpowering stench of
+animal flesh and manure fills your nostrils and assaults you from all sides.
+Each stall is built to contain a horse sized creature, saddles and tack line
+the beams seperating each space.  
+~
+0 4194312 0
+D2
+~
+~
+0 0 1918
+S
+#2007
+Stable Store Room~
+Do Not Connect Or Mess With This Room.
+~
+0 4 0
+S
+#2008
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east towards the main northeast
+section of calinth.  The city wall can be seen to the north and a thick maze
+of buildings is to the south.  Piles of excrement and filth line the small
+street.  
+~
+0 0 1
+D1
+~
+~
+0 0 2009
+D3
+~
+~
+0 0 1906
+S
+#2009
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east towards the main northeast
+section of calinth.  The city wall can be seen to the north and a thick maze
+of buildings is to the south.  Piles of excrement and filth line the small
+street.  
+~
+0 0 1
+D1
+~
+~
+0 0 2010
+D2
+~
+~
+0 0 2011
+D3
+~
+~
+0 0 2008
+S
+#2010
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east towards the main northeast
+section of calinth.  The city wall can be seen to the north and a thick maze
+of buildings is to the south.  Piles of excrement and filth line the small
+street.  
+~
+0 0 1
+D3
+~
+~
+0 0 2009
+S
+#2011
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east towards the main northeast
+section of calinth.  The city wall can be seen to the north and a thick maze
+of buildings is to the south.  Piles of excrement and filth line the small
+street.  
+~
+0 0 1
+D0
+~
+~
+0 0 2009
+D1
+~
+~
+0 0 2012
+S
+#2012
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east towards the main northeast
+section of calinth.  The city wall can be seen to the north and a thick maze
+of buildings is to the south.  Piles of excrement and filth line the small
+street.  
+~
+0 0 1
+D1
+~
+~
+0 0 20181
+D3
+~
+~
+0 0 2011
+S
+#2013
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east west through
+the backsides of the new districts buildings.
+Various piles of trash and garbage are laying about, and
+every now and then you hear a muffled cry.
+~
+0 0 1
+D1
+~
+~
+0 0 1910
+D3
+~
+~
+0 0 2014
+S
+#2014
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east west through
+the backsides of the new districts buildings.
+Various piles of trash and garbage are laying about, and
+every now and then you hear a muffled cry.
+~
+0 0 1
+D1
+~
+~
+0 0 2013
+D3
+~
+~
+0 0 2015
+S
+#2015
+{YA Small Alley{x~
+This twisting and narrow alleyway heads east west through
+the backsides of the new districts buildings.
+Various piles of trash and garbage are laying about, and
+every now and then you hear a muffled cry.
+~
+0 0 1
+D1
+~
+~
+0 0 2014
+D3
+~
+~
+0 0 1927
+S
+#0
+
+
+
+#SPECIALS
+M 1906 spec_cast_adept
+S
+
+
+
+#RESETS
+D 0 1933 1 1
+D 0 1941 1 1
+D 0 1946 2 1
+D 0 1947 0 1
+D 0 1947 3 1
+D 0 1948 1 1
+D 0 1949 3 1
+D 0 1950 1 1
+D 0 1973 3 1
+D 0 1974 0 1
+D 0 1975 2 1
+D 0 1989 3 1
+O 0 1933 0 1900
+M 0 1914 5 1900 5
+M 0 1908 3 1901 3
+E 0 1909 0 5
+E 0 1936 0 7
+E 0 1908 0 8
+O 0 1934 0 1902
+M 0 1913 1 1903 1
+E 0 1938 0 16
+E 0 1937 0 17
+M 0 1912 3 1904 3
+M 0 1909 6 1905 6
+E 0 1909 0 5
+E 0 1907 0 7
+O 0 1934 0 1906
+M 0 1914 5 1908 1
+M 0 1909 1 1909 1
+M 0 1911 3 1910 3
+O 0 1934 0 1912
+O 0 1934 0 1916
+M 0 1910 5 1917 5
+E 0 1909 0 5
+E 0 1907 0 7
+E 0 1913 0 8
+M 0 1914 5 1918 1
+M 0 1913 1 1922 1
+E 0 1909 0 5
+E 0 1907 0 7
+E 0 1938 0 16
+E 0 1937 0 17
+O 0 1934 0 1923
+M 0 1908 1 1926 1
+O 0 1934 0 1932
+M 0 1914 5 1932 1
+O 0 1934 0 1937
+M 0 1910 1 1938 1
+M 0 1931 1 1942 1
+G 0 1946 0
+M 0 1919 1 1948 1
+E 0 1911 0 7
+E 0 1912 0 8
+M 0 1920 1 1950 1
+E 0 1909 0 5
+E 0 1936 0 7
+G 0 1939 0
+M 0 1921 1 1951 1
+G 0 1940 0
+G 0 1941 0
+M 0 1915 4 1952 1
+E 0 1919 0 13
+M 0 1915 4 1953 1
+E 0 1919 0 13
+M 0 1916 4 1954 1
+E 0 1919 0 13
+M 0 1917 4 1954 1
+E 0 1919 0 13
+M 0 1917 4 1956 1
+E 0 1919 0 13
+M 0 1916 4 1957 1
+M 0 1915 4 1958 1
+E 0 1919 0 13
+M 0 1916 4 1958 1
+M 0 1917 4 1958 1
+M 0 1915 4 1961 1
+E 0 1919 0 13
+M 0 1917 4 1961 1
+M 0 1918 5 1962 5
+E 0 1908 0 8
+E 0 1919 0 13
+M 0 1916 4 1963 1
+E 0 1919 0 13
+M 0 1907 1 1964 1
+M 0 1904 1 1965 1
+E 0 1909 0 5
+E 0 1907 0 7
+E 0 1908 0 8
+G 0 1925 0
+G 0 1926 0
+G 0 1927 0
+M 0 1902 1 1966 1
+E 0 1914 0 1
+E 0 1914 0 2
+E 0 1919 0 13
+G 0 1913 0
+G 0 1914 0
+G 0 1915 0
+G 0 1916 0
+G 0 1917 0
+G 0 1918 0
+M 0 1903 1 1967 1
+E 0 1909 0 5
+E 0 1911 0 7
+E 0 1913 0 8
+G 0 1920 0
+G 0 1921 0
+G 0 1922 0
+G 0 1923 0
+G 0 1924 0
+M 0 1906 1 1968 1
+O 0 1935 0 1968
+O 0 1935 0 1968
+O 0 1935 0 1968
+M 0 1930 1 1970 1
+E 0 1944 0 8
+E 0 1945 0 16
+G 0 1943 0
+M 0 1901 1 1971 1
+E 0 1911 0 7
+E 0 1912 0 8
+M 0 1905 1 1972 1
+E 0 1914 0 1
+E 0 1915 0 3
+E 0 1916 0 5
+E 0 1907 0 7
+E 0 1912 0 8
+M 0 1922 9 1974 9
+E 0 1942 0 5
+M 0 1922 9 1974 9
+M 0 1922 9 1974 9
+M 0 1923 5 1976 5
+M 0 1929 9 1979 9
+M 0 1924 9 1980 9
+M 0 1925 9 1983 9
+M 0 1926 9 1986 9
+M 0 1927 1 1987 1
+M 0 1928 1 1988 1
+E 0 1936 0 7
+E 0 1949 0 3
+E 0 1947 0 8
+E 0 1948 0 15
+M 0 1932 1 1990 1
+M 0 1933 1 1991 1
+M 0 1934 1 1992 1
+M 0 1935 1 1993 1
+M 0 1936 1 1994 1
+M 0 1937 1 1995 1
+M 0 1938 1 1996 1
+M 0 1939 1 1997 1
+M 0 1940 3 1998 3
+M 0 1900 1 1999 1
+E 0 1909 0 5
+E 0 1907 0 7
+E 0 1908 0 8
+E 0 1910 0 13
+G 0 1900 0
+G 0 1901 0
+G 0 1902 0
+G 0 1903 0
+G 0 1904 0
+G 0 1905 0
+G 0 1906 0
+E 0 1909 0 5
+E 0 1907 0 7
+E 0 1908 0 8
+E 0 1910 0 13
+G 0 1928 0
+G 0 1929 0
+G 0 1930 0
+G 0 1931 0
+G 0 1932 0
+M 0 1942 1 2000 1
+G 0 3601 0
+G 0 20288 0
+G 0 20290 0
+M 0 1941 1 2001 1
+G 0 3600 0
+G 0 3611 0
+G 0 3612 0
+G 0 3613 0
+M 0 1943 1 2002 1
+M 0 1946 1 2004 1
+M 0 1945 1 2006 1
+M 0 1944 1 2007 1
+M 0 1946 2 2009 1
+O 0 1950 0 2012
+M 0 1946 3 2014 1
+S
+
+
+
+#SHOPS
+1900 15 8 0 13 0 100 100 0 23
+1902 9 5 0 0 0 100 100 0 23
+1903 5 0 0 0 0 100 100 0 23
+1904 17 10 0 0 0 110 50 0 12
+1907 19 0 0 0 12 100 100 0 10
+1941 0 15 9 1 5 200 100 0 23
+1942 0 17 28 19 0 100 100 0 23
+1943 32 8 33 0 0 100 100 0 23
+1945 0 0 0 0 0 100 100 8 8
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

@@ -1,0 +1,4130 @@
+#AREA   The Plottings of Keraptis~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+40 50 0 65
+$
+
+#RESETMSG You suddenly feel as if are being watched...~
+
+#FLAGS
+0 25
+
+#ECONOMY 0 123574919
+
+#MOBILES
+#8800
+ctenmiir vampire~
+Ctenmiir~
+A pale faced man clad all in black steps out of the shadows.
+~
+Compelled by a curse to remain here, Ctenmiir will fanatically attack
+any who enter his tomb and/or attempt to steal the treasures he guards,
+including, perhaps, one of the three fabled artifacts stolen by
+Keraptis.
+~
+35 6300328 -800 C
+50 0 -200 1d1+8000 22d3+33
+1000000 0
+8 8 1
+18 18 13 18 13 18 5
+-5 -5 -10 10 -10
+0 4 0 0 1 1 0
+0 0 264191 1048584 2109190 17 1107302466 10242
+> death_prog 100~
+if rand(60)
+mpe As Ctenmiir collapses to the floor, he grabs a hammer from his robes.
+mpe Uttering a single word, he hurls the hammer out the door, and into
+mpe the mud! Horrified, you leap to the door and watch as it melts into
+mpe the boiling mud. Curses!
+mpe Ctenmiir snickers softly, then expires.
+else
+mpe As Ctenmiir collapses to the floor, he grabs a hammer from his robes.
+mpe Raising it, he attempts to hurl it out into the mud, but is too weak.
+mpe With a final curse on your house, he perishes.
+mpoload 8802
+drop whelm
+endif
+~
+> fight_prog 66~
+if rand(25)
+mea $n $I rakes his clawed hand across your face!
+gouge
+mpdamage $n 200
+else
+if rand(40)
+mea $r $I stares deep into your eyes... you lose the will to fight!
+t $r Flee, flee, while you may!
+mpechoar $r A glazed look fills $r' eyes...
+mpforce $r scream
+mpdamage $r 400
+else
+if rand(60)
+mpe $I unleashes a volley of vampiric magicks.
+c chill $r
+c curse $r
+c weaken $r
+c 'faerie fire' $r
+c 'energy drain $r
+else
+c blindness $n
+c blindness $r
+endif
+endif
+endif
+~
+> greet_prog 100~
+if class($n) == cleric
+say Priests! Holy sanctimonious killjoy that you are, perish by
+say my touch! And may your soul be damned for all eternity!
+mea $n Ctenmiir drives his hand through your chest!
+mpechoar $n $I drives his hand through $n's chest!
+mea $n With a dreadful wrenching sound, he yanks your heart free.
+mea $n The last thing you see as you die is Ctenmiir devouring the organ.
+mpechoar $n With a dreadful sound, $I rips $n's heart from $s chest!
+mpslay $n
+mpe Grinning evilly, $I devours the still beating organ in a single gulp!
+lick
+else
+if ispc($n)
+say Foolish creature of light and life, you have entered the domain
+say of the dead, and shall pay the consequences as is appropriate
+say for your foolish misdemeanour- DEATH!
+mpe His cape billowing about him, $I leaps forward and begins the battle!
+murder $n
+cackle
+else
+say MmmMMMmmm tasty, an after-dinner snack!
+mpslay $n
+sac $n
+lick 
+endif
+endif
+~
+> rand_prog 25~
+c heal
+glare
+~
+|
+#8801
+giant crab~
+a giant crab~
+A gargantuan crustacean, over forty feet long, rears before you.
+~
+This crustacean is by far the largest you have ever seen. Truly a
+fitting guardian for one of the stolen artifacts, this mighty beast
+would make gumbo for thousands if you could find a pot big enough.
+~
+35 552 0 C
+50 0 -300 1d1+15000 10d12+20
+1000000 0
+8 8 0
+25 13 13 13 13 13 13
+0 0 0 -20 -20
+0 3 0 0 1 1 0
+0 0 263212 1048783 2100512 16 2 8192
+> fight_prog 75~
+if rand(20)
+gouge
+stun
+endif
+if rand(25)
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+mpe The crab's thick shell repels many fo your blows.
+else
+if rand(45)
+disarm
+poke $n
+bash
+else
+if rand(60)
+mpe The crab turns suddenly, directing its anger at $r!
+mpgoto 8825
+murder $r
+else
+mea $n The crab closes a giant pincer about you and squeezes!
+mpdamage $n 400
+endif
+endif
+endif
+~
+> death_prog 100~
+if rand(40)
+mpe As the great crab perishes, it stumbles to one side, having lost
+mpe its balance due to many of its legs having been hewn off. As it
+mpe does so, it bumps into the forcefield, rupturing it! The chamber
+mpe begins to fill with boiling water! Quickly you head back to the doorway,
+mpe but in the process fail to retrieve Wave, which is swept into the lake.
+else
+mpe The crab dies, collapsing forward, landing on top of its slayers!
+mpdamage $r 200
+mpdamage $r 200
+mpdamage $r 200
+mpe When the dust settles, you see a glint of metal beneath its corpse.
+mpoload 8801
+endif
+~
+> act_prog p pierce misses you.~
+mea $n Your weapon fails to penetrate the thick shell of the crustacean.
+~
+> act_prog p stab misses you.~
+mea $n Your weapon fails to penetrate the thick shell of the crustacean.
+~
+|
+#8802
+gynosphinx~
+the Gynosphinx~
+A rather wet and bedraggled sphinx squats in the water before you.
+~
+This sodden sentinel has been placed here by Keraptis to deter casual
+intruders; its riddle is easy and it is not a serious threat to more
+experienced adventurers.
+~
+3 552 -200 C
+42 0 -200 11d11+5678 0d0+0
+122500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 -10 -10
+85 3 0 0 1 1 0
+0 0 33915049 3145728 3072 0 515 1064900
+> act_prog p from the south.~
+if isnpc($n)
+bow $n
+else
+say Stranger, you have invaded the haven of my master, Keraptis.
+say But he is a fair man...
+snicker
+say And you have a choice; to proceed you must answer my riddle,
+say else defeat me in battle. What do you choose, riddle or battle?
+, raises an eyebrow expectantly.
+endif
+~
+> speech_prog p riddle~
+lick
+say Very well, here 'tis-
+cough
+say Round she is, yet flat as a board.
+say Altar of the Lupine Lords.
+say Jewel on black velvet, pearl in the sea.
+say Unchanged but e'erchanging, eternally.
+nod
+say Speak your answer, and ye may pass.
+~
+> speech_prog p moon~
+smile
+say Well done! You may pass!
+mpe The sphinx steps aside, and the forcefield disappears.
+mpopenpassage 8802 8826 0
+bow
+~
+> speech_prog p the moon~
+smile
+say Well done! You may pass!
+mpe The sphinx steps aside, and the forcefield disappears.
+mpopenpassage 8802 8826 0
+bow
+~
+> speech_prog p battle~
+frown
+say How did I know you would say that...
+say Rather use your fists than think your way out of a situation eh?
+snicker
+say Well, have it your way then!
+, roars with a ferocity that shakes the earth!
+c 'fire breath' $n
+~
+> fight_prog 18~
+c 'fire breath'
+stun
+~
+> death_prog 100~
+mpe As the sphinx dies, the forcefield flickers then disappears.
+mpopenpassage 8802 8826 0
+~
+|
+#8803
+air elemental~
+an air elemental~
+The air in a section of the room coalesces into a translucent humanoid form.
+~
+Summoned by Keraptis, this confused and angry elemental was thrown in
+here and kept within by a series of magical wards until the demented
+mage could make up his mind what to do with it. It is quite mindless,
+and will lash out at anything it perceives to be alien.
+~
+35 269058602 -222 C
+44 0 -200 0d0+0 0d0+0
+250000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 -20 -20
+85 3 0 0 8192 8192 0
+0 0 0 528 11526 0 80 2
+> greet_prog 100~
+close n
+lock n
+c gas
+~
+|
+#8804
+flesh golem~
+a flesh golem~
+A crude amalgamation of mismatched body parts comes to life!
+~
+Another of Keraptis' half finished projects, this semi intelligent
+brute has been left to wander the halls aimlessly, with no further
+instructions than to kill any intruders it perceives with its dim
+senses.
+~
+35 512 0 C
+45 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 1056798 3840 0 400 0
+> greet_prog 100~
+say GAAAAAAAHHHH!
+, stumbles clumsily towards you, fists raised!
+~
+> death_prog 100~
+mpe A look of peace and relief crosses the brute's features as it dies.
+~
+|
+#8805
+burket~
+Burket~
+A well-armored man-at-arms raises his crossbow to fire at you.
+~
+A former adventurer who has become trapped here, Burket has decided to
+eke out a living by preying on adventurers who wander in here in search
+of treasure.
+~
+3 552 -400 C
+43 0 -222 2d2+2200 0d0+0
+135000 0
+8 8 0
+18 13 13 18 18 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 608 2621443
+> all_greet_prog 100~
+if inroom($i) == 8835
+mpe As you enter, a stout man at arms drops a burning rag on the oil!
+mpe Cackling, he bolts to the east, leaving you in the blaze!
+mpe _red Fires crackle and lick at the spinning cylinder, and at you!
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+mpgoto 8827
+else
+if inroom($i) == 8827
+mpe Angered at your escape from the tube, Burket fires a crossbow at you!
+mea $r The bolt thuds into your chest!
+mpechoar $r A crossbow bolt slams into $r's chest, piercing flesh and bone.
+mpdamage $r 250
+mpe Flinging open the northern door, Burket dashes through and slams it shut.
+mpgoto 8828
+else
+if inroom($i) == 8828
+say You still follow me!?! Begone, knaves!
+mpe $I grabs ahold of the bookshelf and heaves, sending it tumbling down!
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+mpe Turning about, he dashes through a door in the far wall.
+mpgoto 8829
+else
+if inroom($i) ==8829
+mpe Cornered, Burket turns to face his pursuers in one last battle.
+snarl
+else
+endif
+endif
+endif
+endif
+~
+|
+#8806
+snarla werewolf mage~
+Snarla~
+An attractive woman clad in gossamer undergoes a startling transformation!
+~
+Burket's lover and accomplice, Snarla is a mage who suffered an
+unfortunate encounter with a werewolf some time ago, and is now a fully
+fledged member of the lycanthrope species. She is brave, but not stupid,
+and will attempt to flee if the odds go against her.
+~
+163 680 -760 C
+44 0 -150 0d0+0 0d0+0
+200000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 -10
+47 0 0 0 513 1 0
+0 0 264127 0 11264 0 515 2
+> hitprcnt_prog 20~
+op s
+flee
+op s
+s
+flee
+~
+> all_greet_prog 100~
+snarl
+say Fools! You dare threaten my love and invade my sanctum!
+c fireball $r
+c fireball $r
+c fireball $r
+~
+> fight_prog 20~
+mpe As Snarla becomes more bestial, the strength of her attacks intensifies!
+mpat 3 c kin
+mpat 3 c slink
+mpat 3 c antimagic
+mpdamage $r 150
+~
+> fight_prog 45~
+disarm
+get all
+wear all
+wink
+~
+|
+#8807
+kelpie~
+a kelpie~
+An alluring naked woman swims gracefully through the water.
+~
+At first glance this woman is quite stunning, but upon -ahem- closer
+examination, you see that her skin is mottled and green. Almost like
+seaweed, clumped together in a humanoid form. Something is amiss here...
+~
+39 -2145385944 -555 C
+42 0 0 0d0+0 0d0+0
+137500 0
+8 8 0
+13 13 13 22 13 22 13
+0 0 0 0 0
+84 3 0 0 1 1 0
+0 0 0 0 3842 1 515 2
+> greet_prog 100~
+if wis($n) < 15
+mea $n You feel utterly smitten by this beautiful creature!
+mea $n Lacking willpower, you strip off your clothing and prepare for
+mea $n exquisite pleasure!
+mpforce $n remove all
+mpforce $n drop all
+cackle
+murder $n
+get all 
+mpat 8834 drop all
+get all 
+mpat 8834 drop all
+get all 
+mpat 8834 drop all
+else
+mea $n You see the vile creature in its true form, and prepare to fight!
+snarl
+endif
+~
+> fight_prog 25~
+disarm
+get all
+mpat 8834 drop all
+~
+> rand_prog 25~
+mpat 8834 drop all
+~
+|
+#8808
+keraptis mad mage~
+Keraptis~
+A deranged mage screams and gibbers madly.
+~
+Once an evil warlock and ruler of a kingdom that he held in sway with
+his legions of fanatical gnomes, Keraptis was overthrown, and fled
+to this mountain retreat, where he has slowly gone quite mad, to the
+point where much of his evil nature has been replaced by a simply crazy
+one. He stole the three artifacts in a fit of pique, and is unlikely
+to return them; having people perish in search of them amuses him to
+no end.
+~
+35 386400956 -200 C
+55 0 0 1d1+22500 11d4+66
+7654321 0
+8 8 1
+13 18 13 18 18 13 13
+-10 -10 -10 -10 -30
+0 0 0 0 1 1 0
+0 0 2047 7 2100224 0 1073742336 10247
+> rand_prog 66~
+c heal
+c heal
+c heal
+wield blackrazor
+~
+> greet_prog 100~
+if ispc($n)
+chuckle
+t $n Well, well well. You made it! Took your time, didn't you?
+snicker
+t $n No matter. You found me, you found the 'razor, you made it.
+t $n Now, you only have one final task remaining- you must try and
+t $n defeat me!
+cackle
+else
+endif
+~
+> hitprcnt_prog 20~
+say No! This cannot be! I cannot be defeated! Not like this!
+scream
+mpe Keraptis' manic gleam intensifies, and bolts of energy shoot forth!
+mpdamage $r 200
+mpdamage $r 200
+mpdamage $r 200
+mpat 8898 mpforce efreet e
+~
+> fight_prog 75~
+wield blackrazor
+disarm
+if rand(25)
+mpat 3 c heal
+wink
+gouge
+feed
+lick
+endif
+if rand(33)
+disarm
+say Ha! Try to fight without your weapons, fools!
+chuckle
+else
+if rand(66)
+c weaken $r
+c blindness $r
+c 'dispel magic' $r
+c 'faerie fire' $r
+c poison $r
+else
+if rand(99)
+say Pretty magic, pretty magic, burn my foes!
+c fireball $r
+c fireball $r
+c fireball $r
+else
+c q 
+endif
+endif
+endif
+~
+> death_prog 100~
+mpe _lbl Keraptis says 'NNNNNNNNOOOOOOOOO......'
+mpe With a final indignant splutter, the mag mage perishes, collapsing
+mpe into a slowly spreading pool of his own blood, guts and urine.
+mea $n Jubilant at striking the killing blow, you scream wildly!
+mpechoar $n $n screams jubilantly at the victory over the mad mage!
+~
+|
+#8809
+qesnef ogre mage~
+Qesnef~
+A doughty halfling warrior stands in the center of the room.
+~
+As you peer closely at this halfling, his image shimmers and distorts.
+No longer a halfling, he has transformed back to his true form- an ogre
+mage, a servant of Keraptis and perhaps the arbiter of your fate!
+~
+35 335545000 -800 C
+50 0 -150 1d1+6000 0d0+0
+1000000 0
+8 8 1
+18 18 13 22 13 13 13
+-6 -6 -6 0 -6
+6 0 0 0 16 16 0
+0 0 1050623 1049428 2100224 0 514 524291
+> fight_prog 66~
+wield glaive
+disarm
+if rand(25)
+mpe _lbl A wave of intense cold radiates from the ogre mage.
+mpdamage $r 100
+mpdamage $r 100
+mpdamage $r 100
+else
+if rand(40)
+mea $n The ogre mage strikes you with a blast of frost!
+mpdamage $n 400
+else
+if rand(60)
+mpe The ogre mage shimmers out of existence, then reappears elsewhere!
+mpgoto 8896
+murder $r
+cackle
+else
+if rand(80)
+c 'frost breath' $r
+else
+endif
+endif
+endif
+endif
+~
+> greet_prog 100~
+if ispc($n)
+t $n Oh, good, adventurers! You are just in time to rescue me!
+mea $n $I runs forward, hoping that you will rescue him from the mad mage.
+mea $n At the last second, he undergoes a startling transformation!
+mea $n No longer a halfling, he is now a hulking ogre mage, intent on 
+mea $n slaying you!
+else
+endif
+~
+> rand_prog 25~
+sneak
+hide
+c invis
+close curtain
+close s
+lock s
+~
+|
+#8810
+ghoul~
+a fiendish ghoul~
+A horrid, slavering ghoul leaps out at you!
+~
+This vile undead creature exists only to slay and devour those who
+are lured this far into the lair of its master, Keraptis. 
+~
+35 73898 -800 C
+47 0 0 0d0+0 0d0+0
+200000 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+36 2 0 0 1 1 0
+0 0 985343 82 3328 131073 403440167 524291
+> speech_prog p BANZAI!~
+scream
+nw
+murder $r
+cackle
+drool
+mpat 8841 mpmload 8810
+~
+> fight_prog 20~
+c poison
+stun
+~
+|
+#8811
+giant crayfish~
+a giant crayfish~
+A crayfish the size of a bull swims towards you.
+~
+~
+33 -2145287640 0 C
+45 0 -100 1d1+6000 4d15+55
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1024 1024 0
+0 0 263212 3145824 0 0 514 1
+#8812
+sea lion~
+a sea lion~
+A fish with the forequarters of a large lion snarls in anger.
+~
+~
+101 -2145287512 0 C
+50 0 -300 1d1+8500 5d20+65
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 512 512 0
+0 0 345657 1044 2100480 33 0 524291
+#8813
+giant scorpion~
+A Giant Scorpion~
+A heavily armored scorpion the size of a mule scuttles along the corridor.
+~
+~
+97 98856 0 C
+20 0 -300 20d22+6000 11d6+10
+0 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+83 0 0 0 256 256 0
+0 0 327725 96 2099457 0 786442 3
+#8814
+henchman~
+a henchman~
+A burly henchman stands ready with net and club.
+~
+Nothing more than common thugs, these foul tempered brutes serve Bluto
+in his plottings and schemings, and thoroughly enjoy pummeling people
+for him.
+~
+35 512 -400 C
+44 0 0 0d0+0 0d0+0
+50000 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 0 0 0 80 3
+#8815
+water elemental~
+an angry water elemental~
+An angry water elemental rises from the pool!
+~
+~
+99 -1876950360 0 C
+50 0 -200 11d11+4000 0d0+0
+225001 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3153920 3858 5 336 6
+#8820
+efreet~
+an efreet~
+A fanatical efreet servant of Keraptis is waiting for you!
+~
+~
+35 34079272 -750 C
+48 0 -100 0d0+0 0d0+0
+750000 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 3154464 1 2 268435968 2
+#8821
+manticore~
+manticore~
+A human-headed lion with a massive pair of wings stalks through its lair.
+~
+A human head on a lion's body, the manticore is a savage, cruel beast
+and is thus popular as a bodyguard for various evil types. Huge black
+wings sprout from its back, and its long tail is barbed with spikes
+dripping with venom.
+~
+35 552 -200 C
+45 0 0 1d1+3500 0d0+0
+100000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1 1 0
+0 0 33916477 0 0 0 262159 2
+> greet_prog 100~
+mpe The manticore releases a volley of spikes from its tail!
+mpdamage $n 50
+~
+> fight_prog 20~
+mpe The manticore releases a volley of spikes from its tail!
+mpdamage $r 50
+~
+|
+#8822
+sir bluto sans pite~
+Sir Bluto Sans Pite~
+A burly, hirsute man with a full black beard roars in anger.
+~
+A former knight of the realm, Bluto is now a disgraced murderer, and
+has fallen in with bad company, most notably the company of the vile
+Keraptis and his fell minions.
+~
+35 8872 -666 C
+48 0 -300 1d1000+10000 0d0+0
+500000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 2097264 3148800 32768 272 2621443
+> fight_prog 20~
+if rand(50)
+mea $n Bluto smashes his large fist into your abdomen!
+mpechoar $n $n doubles up in pain as Bluto slams his fist into $s gut!
+mpdamage $n 250
+else
+mpe _lbl Sir Bluto Sans Pite roars 'Stitch this Jimmy!'
+mea $n With a cackle, he rams his forehead into your face, HARD.
+mpechoar $n Bluto headbutts $n with such force that teeth are sent flying!
+mpdamage $n 400
+stun
+cackle
+endif
+~
+> fight_prog 45~
+mea $n Bluto jabs two stubby digits into your eyes!
+gouge
+mpdamage $n 100
+mpforce $n say Ugh, I can't see!
+snicker
+~
+> fight_prog 65~
+wield sword
+disarm
+sac sword
+sac axe
+sac mace
+sac club
+sac spear
+sac dagger
+mpat 3 c heal
+~
+> greet_prog 100~
+if ispc($n)
+cackle
+say Ho! Fresh victims of my watery trap! Couldn't resist seeing
+say where the river led to eh? Predictable adventurer swine!
+, coughs up a glob of phlegm and expectorates on the greasy stone.
+mea $n Reaching forward, $I drags you out of the stream and draws his sword!
+say Pay attention, swine, and prepare to die!
+else
+mpe $I yanks $N out of the stream and smashes $m into the stone!
+mpslay $n
+mutter
+endif
+~
+|
+#8823
+Tetnaobylgus~
+Tetnaobylgus~
+A rather deranged looking vampire screams incoherently.
+~
+A former employee of Keraptis, leader of his fanatic gnomes, Tet has
+fallen on hard times, and gone as insane as his master (not like they
+were ever exactly stable people in the first place...). He now wanders
+the halls of his master's lair, aimlessly and with great anger at the
+world that he sees as having betrayed him. Still, he cries out his old
+battlecry, even now; the haunting sound of 'STONE!' rings in your ears.
+~
+147493 302097066 -666 C
+52 0 -300 22d10+22500 20d10+20
+1750933 0
+8 8 1
+25 13 13 25 13 3 3
+-22 -22 -22 -22 -22
+38 4 0 0 1 1 0
+0 0 264191 0 3149574 0 4611 524291
+> rand_prog 2~
+say STONE!
+mutter
+~
+> fight_prog 20~
+yell STONE!
+mpe $I charges maniacally forward, assaulting $r!
+mpgoto $r
+murder $r
+cackle
+~
+> fight_prog 33~
+mea $n $I sinks his clawed fingers into your eyes!
+gouge
+mpdamage $n 400
+muhaha
+~
+> fight_prog 50~
+if rand(25)
+mmm
+feed
+feed
+lick
+mpe Refreshed by $n's blood, $I leaps forward with renewed vigor!
+endif
+if rand(40)
+mpe $I utters an incantation, and releases a volley of spells!
+c chill $r
+c weaken $r
+c curse $r
+c 'energy drain' $r
+else
+if rand(60)
+disarm
+get all
+snicker
+ooo
+say STONE! You will all perish by STONE!
+cackle
+stun
+else
+if rand(80)
+c 'faerie fire' $r
+c blazebane $r
+c winter $r
+c blindness $r
+stun
+else
+c nec $r
+endif
+endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#8800
+blackrazor~
+Blackrazor~
+A sword with a blade that resembles the night sky hums quietly.~
+~
+5 538 8193
+0 0 0 6
+8 1200000 120000
+A
+3 3
+A
+17 -30
+A
+13 100
+A
+12 100
+A
+18 15
+A
+19 15
+A
+26 16777228
+A
+28 2048
+A
+27 1049088
+A
+24 -25
+A
+21 -25
+> wear_prog 100~
+if isevil($n)
+mea $n You feel power course through your veins as you heft Blackrazor.
+say Yes, wield me, take arms against all living things! 
+mea $n Blackrazor exists for the sole purpose of draining life!
+mpforce $n cackle
+mpforce $n grin
+else
+if isneutral ($n)
+mea $n You feel power course through your veins as you heft Blackrazor.
+say Yes, wield me, take arms against all living things! 
+mea $n Blackrazor exists for the sole purpose of draining life!
+mpforce $n cackle
+mpforce $n grin
+else
+mea $n As you grasp the sword, it sucks your soul from your body!
+mpslay $n
+endif
+endif
+~
+|
+#8801
+trident wave~
+Wave~
+A bronze trident has been thrust into the ground.~
+~
+5 525824 8193
+0 0 0 6
+6 750000 75000
+A
+1 1
+A
+4 2
+A
+17 -30
+A
+13 75
+A
+12 150
+A
+18 14
+A
+19 14
+A
+24 -5
+A
+27 2
+A
+26 -2147483648
+> wear_prog 100~
+if isneutral($n)
+mea $n The purity of impartiality flows through your body and mind.
+mpechoar $n A peaceful look crosses $n's face as $e grasps Wave.
+c shield $n
+c armor $n
+else
+endif
+~
+|
+#8802
+whelm hammer~
+Whelm~
+A finely made dwarven hammer awaits a wielder.~
+~
+5 25739273 8193
+0 0 0 8
+55 500000 50000
+A
+1 2
+A
+5 2
+A
+13 200
+A
+18 12
+A
+19 12
+A
+24 -5
+A
+23 -5
+A
+27 2097152
+A
+26 8389152
+> wear_prog 100~
+if race($n) == dwarf
+mea $n Tears of joy stream down your face as you grasp this fabled relic!
+mpechoar $n $n weeps with joy as $e grasps this relic of $s people.
+else
+mea $n You cannot wield this, only a Dwarf may lay hands 'pon it!
+mpdamage $n 800
+mpforce $n remove whelm
+mpforce $n drop whelm
+endif
+~
+> get_prog 100~
+if race($n)
+mea $n Praise the Gods! 'Tis the fabled dwarven hammer of legend!
+mpechoar $n A reverent look comes over $n as $e handles Whelm.
+else
+endif
+~
+|
+#8803
+potion clear~
+a clear potion~
+A potion bottle filled with clear fluid lies here.~
+~
+10 64 1
+50 44 91 19
+1 4000 400
+#8804
+black potion~
+a black potion~
+A potion bottle filled with a murky black liquid is here.~
+~
+10 64 1
+50 66 28 208
+1 4000 400
+#8805
+spell scroll~
+a spell scroll~
+A scroll covered in magical runes lies here, unwanted.~
+~
+2 262208 1
+50 59 22 4
+1 5000 500
+#8806
+robes vampire~
+robes of the vampire~
+Flowing black robes billow about the room.~
+~
+9 17023572 1025
+40 0 0 0
+1 50000 5000
+A
+3 1
+A
+2 1
+A
+18 7
+A
+19 7
+A
+24 -3
+A
+27 2560
+A
+26 32770
+A
+13 75
+#8807
+key chest~
+the chest key~
+A large key lies here.~
+~
+18 0 1
+0 0 0 0
+1 400 40
+#8808
+large metal chest~
+a large metal chest~
+This large metal chest appears to be waterproof.~
+~
+15 524288 0
+10000 13 8807 0
+1 0 0
+#8809
+ring infravision~
+a ring of infravision~
+With this ring, the wearer has the vision of an elf or dwarf.~
+~
+9 524352 3
+5 0 0 0
+1 10000 1000
+A
+18 2
+A
+26 512
+#8810
+luckstone~
+luckstone~
+An innocuous looking rock has been dropped here.~
+~
+9 64 16385
+7 0 0 0
+1 10000 1000
+A
+31 3
+A
+20 -3
+A
+22 -3
+A
+21 -3
+A
+23 -3
+A
+24 -3
+#8811
+wand frost~
+a wand of frost~
+A slim black metal wand is covered with a thin film of ice.~
+~
+3 65 16385
+40 7 7 221
+1 76500 7650
+A
+27 2
+#8812
+silver potion~
+a silver potion~
+A potion of silvery fluid lies here.~
+~
+10 96 1
+60 225 36 207
+1 15740 1574
+#8813
+heavy crossbow~
+a heavy crossbow~
+A heavy wooden crossbow rests against one wall.~
+~
+5 311296 8193
+0 0 0 6
+25 1570 157
+A
+1 1
+A
+2 2
+A
+13 50
+A
+18 7
+A
+19 6
+#8814
+splint mail~
+splint mail~
+A suit of well used splint mail lies here.~
+~
+9 17317888 9
+12 0 0 0
+17 3500 350
+A
+17 -20
+A
+13 30
+A
+18 5
+A
+19 5
+A
+22 -5
+#8815
+metal bracer~
+a metal bracer~
+A shiny metal bracer was dropped by a warrior in a hurry.~
+~
+9 17351168 4097
+9 0 0 0
+1 500 50
+A
+2 -1
+A
+13 10
+A
+18 2
+A
+19 2
+#8816
+mail coif~
+a mail coif~
+A pile of tightly linked chain meant to be worn on the head is here.~
+~
+9 17350656 17
+9 0 0 0
+3 2550 255
+A
+13 25
+A
+18 4
+A
+19 4
+#8817
+brass bound chest~
+a brass bound chest~
+A magical brass chest lies in the corner.~
+~
+15 524352 16385
+600 5 -1 2
+1 75000 150
+#8818
+jewelry~
+expensive jewelry~
+A pile of expensive jewelry is heaped on the floor.~
+~
+8 0 5
+0 0 0 0
+1 26000 2600
+#8819
+silvered mail~
+silvered mail~
+A suit of silvered mail has been carefully placed here.~
+~
+9 525633 9
+22 0 0 0
+4 172599 17500
+A
+2 2
+A
+3 1
+A
+12 100
+A
+18 6
+A
+19 6
+A
+24 -3
+A
+22 -3
+#8820
+door key~
+the door key~
+This key unlocks the cell door.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#8821
+robes of the magi~
+Robes of the Magi~
+Scarlet robes embroidered with gold billow in some magical wind.~
+~
+9 25395264 1025 128
+32 0 0 0
+1 175000 17500
+A
+3 3
+A
+12 125
+A
+13 75
+A
+18 8
+A
+19 8
+A
+17 -28
+A
+24 -5
+A
+21 -5
+A
+26 524304
+> wear_prog 100~
+if class($n) == mage
+mea $n You smile with confidence as you don these fabled robes.
+mpechoar $n A confident beam crosses the mage $n's features.
+c 'dragon wit' $n
+else
+endif
+~
+> remove_prog 100~
+if class($n) == mage
+mea $n You sigh with disappointment as you reluctantly remove the robes.
+mpechoar $n $n looks downcast as $e reluctantly removes $s robes.
+else
+endif
+~
+> sac_prog 100~
+mpe _blu Wild magical energies fill the air, seeping into people nearby.
+c 'restore mana' $r
+c 'restore mana' $r
+c 'restore mana' $r
+c 'restore mana' $r
+c 'restore mana' $r
+~
+> damage_prog 100~
+mpe _blu Portions of the magical weave of the robe break free.
+c 'restore mana' $r
+~
+> repair_prog 100~
+mpe _whi A brilliant luminescense surrounds the robe as it is mended.
+~
+|
+#8822
+bracers magical prowess~
+Bracers of Magical Prowess~
+A pair of shiny metal bracers lies here.~
+~
+9 9011265 257
+15 0 0 0
+2 17500 1750
+A
+3 3
+A
+4 3
+A
+12 75
+A
+24 -10
+A
+27 1048576
+#8823
+twisted nails fate~
+Twisted Nails of Fate~
+A pile of twisted, blackened fingernails is heaped here.~
+~
+9 1604 129
+17 0 0 0
+1 0 0
+A
+1 1
+A
+2 1
+A
+17 -10
+A
+13 25
+A
+12 25
+A
+18 7
+A
+19 7
+A
+27 64
+#8824
+glaive~
+a glaive~
+A wickedly sharp pole arm gleams evilly.~
+~
+5 524818 8193
+0 0 0 1
+20 34600 3460
+A
+13 50
+A
+12 50
+A
+18 8
+A
+19 6
+#8825
+ring shielding~
+ring of shielding~
+A small band of metal has lodged in a crack in the floor.~
+~
+9 524352 3
+9 0 0 0
+1 6000 600
+A
+17 -20
+A
+12 10
+A
+13 10
+A
+18 2
+A
+19 2
+> wear_prog 100~
+c shield $n
+~
+|
+#8826
+ring illusions~
+ring of illusions~
+A translucent band of metal can barely be seen.~
+~
+9 524384 3
+5 0 0 0
+1 17500 1750
+A
+2 1
+A
+12 45
+A
+18 4
+A
+24 -3
+> wear_prog 100~
+c invis $n
+~
+|
+#8827
+armor vulnerability~
+armor of vulnerability~
+A suit of shining steel plate looks capable of affording remarkable protection.~
+~
+9 17354944 9
+22 0 0 0
+66 0 0
+A
+17 30
+A
+2 -3
+A
+14 -200
+A
+23 3
+A
+24 3
+A
+21 3
+A
+22 3
+A
+20 3
+A
+56 17
+> get_prog 100~
+mea $n You snatch up the valuable looking armor, and try it on!
+mpforce $n wear vulnerability
+~
+> drop_prog 100~
+mea $n You try to rid yourself of the item, but can't quite do it.
+mpforce $n get vulnerability
+mpforce $n wear vulnerability
+~
+> remove_prog 100~
+mea $n You can't stand to remove the unusual armor.
+mpforce $n wear vulnerability
+~
+|
+#8828
+potion healing~
+potion of super healing~
+This mightly elixir will heal the most horrific of injuries.~
+~
+10 66 1
+50 28 28 28
+2 10000 1000
+#8829
+scroll protection~
+a scroll of protection~
+A blindingly white sheet of parchment gleams here.~
+~
+2 321 1
+66 34 36 208
+1 15750 1575
+#8830
+knight shield~
+the knight's shield~
+A solid metal shield rests against one wall.~
+~
+9 524352 513
+30 0 0 0
+5 50000 5000
+A
+17 -20
+A
+13 20
+A
+12 20
+A
+18 4
+A
+19 4
+A
+22 -5
+#8831
+knight plate~
+the knight's plate~
+A suit of polished metal plate armor is laid out on the floor.~
+~
+9 524352 9
+30 0 0 0
+30 75000 7500
+A
+17 -20
+A
+13 100
+A
+18 6
+A
+19 6
+A
+23 -3
+#8832
+hard leather boots~
+hard leather boots~
+These hard leather boots have trod more trails than a legion of pikemen.~
+~
+9 262208 65
+11 0 0 0
+5 500 50
+A
+1 1
+A
+2 1
+A
+13 20
+A
+18 4
+A
+19 2
+A
+14 222
+#8833
+knight sword~
+the knight's sword~
+A shining steel broadsword has been dropped here.~
+~
+5 524352 8193
+0 0 0 3
+7 50000 5000
+A
+21 -3
+A
+17 -22
+A
+12 50
+A
+13 50
+A
+18 8
+A
+19 8
+#8834
+silver key~
+the silver key~
+A rather small key has been dropped on the ground.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#8835
+rune covered copper band~
+a rune covered copper band~
+This copper band is ensorcelled with ancient magicks.~
+~
+9 524866 257
+11 0 0 0
+1 157500 15750
+#8836
+amulet dead~
+amulet of the dead~
+A black steel amulet bearing red glyphs hums evilly.~
+~
+9 655890 5
+8 0 0 0
+1 27000 2700
+A
+5 2
+A
+12 25
+A
+13 25
+A
+18 2
+A
+26 8196
+A
+19 2
+#8837
+leggings fanatic~
+Leggings of the Fanatic~
+A pair of black leggings, fashioned from human skin, lies here.~
+~
+9 598 33
+22 0 0 0
+4 98000 9800
+E
+leggings fanatic~
+Fashioned from the skin flayed from the backs of a score of fanatics,
+these items are of great benefit to those obsessive enough to wear them,
+but many find that the mental aggravation that accompanies them is not
+worth bearing, even for the great powers the leggings bestow.
+~
+A
+1 1
+A
+2 1
+A
+13 25
+A
+12 25
+A
+18 5
+A
+19 5
+A
+22 -5
+A
+4 -3
+> wear_prog 100~
+if isgood($n)
+else
+mea $n A manic gleam creeps into your eyes as you don the leggings.
+mpechoar $n A manic gleam creeps into $n's eyes as $e dons the leggings.
+mpforce $n cackle
+endif
+~
+> remove_prog 100~
+if isgood($r)
+else
+mea $r You recover from your fanatic state as you remove the leggings.
+mpechoar $r $r calms down and loses the manic look as $e removes the leggings.
+endif
+~
+> sac_prog 100~
+mpe The leggings cackle frightfully as the are destroyed!
+mpdamage $r 333
+mpdamage $r 666
+mpdamage $r 333
+mpdamage $r 666
+~
+> damage_prog 100~
+mpe A frightful cackling echoes all around you!
+mpdamage $r 66
+~
+> exa_prog 100~
+mea $n A bolt of energy smites you, as you gaze into the heart of fanaticism.
+mpdamage $n 250
+~
+> get_prog 100~
+mea $n The second you grasp the fleshlike leggings, you scowl menacingly.
+mpechoar $n $n scowls menacingly as $e grabs ahold of the leggings.
+~
+> drop_prog 100~
+say Pick me up! Pick me up!
+mpe The leggings cackle in insane glee!
+~
+> speech_prog p fanatic~
+say Am not!
+mpe The leggings appear to be sulking, and slink off of their own accord!
+mpe Someone better grab them before the escape!
+mpforce $r get fanatic
+~
+|
+#8838
+key keraptis~
+the key to Keraptis~
+A dull iron key lies on the floor.~
+~
+18 524288 1
+0 0 0 0
+25 100 10
+#8839
+widowmaker~
+Widowmaker~
+Yes, it is the Widowmaker.~
+~
+5 524818 8193
+0 0 0 3
+1 2147483647 214748364
+A
+1 8
+A
+3 8
+A
+4 8
+A
+2 8
+A
+5 8
+A
+25 8
+A
+31 8
+A
+17 -300
+A
+13 1000
+A
+12 1000
+A
+14 1000
+A
+18 100
+A
+19 100
+A
+21 -100
+A
+22 -100
+A
+20 -100
+A
+23 -100
+A
+24 -100
+A
+26 4825276
+A
+28 1575942
+A
+27 2097768
+A
+32 100
+A
+48 100
+A
+30 314
+A
+40 100
+A
+53 100
+#8840
+mist manic gleam~
+a manic gleam~
+A strange sense of insanity pervades this swirling mist.~
+~
+9 16916 131073
+8 0 0 0
+1 0 0
+A
+4 -3
+A
+1 1
+A
+13 50
+A
+18 3
+A
+19 3
+A
+24 -5
+A
+29 1024
+> wear_prog 100~
+if isgood($n)
+else
+mea $n A crazed look graces your twisted features!
+mpechoar $n A crazed look graces $n's twisted features!
+mpforce $n drool
+endif
+~
+> remove_prog 100~
+if isgood($n)
+else
+mea $n A semblance of normalcy returns to your deranged mind.
+mpechoar $n A semblance of normalcy returns to $n's deranged mind.
+endif
+~
+|
+#8841
+portal~
+a shimmering portal~
+A shimmering portal covers the ceiling of this chamber.~
+~
+12 65 0
+0 0 0 0
+1 0 0
+#8842
+bronze bracer~
+bronze bracer~
+A heavy bronze bracer gleams dully.~
+~
+9 576064 4097
+11 0 0 0
+10 5000 500
+A
+2 -2
+A
+13 10
+A
+12 10
+A
+18 4
+A
+19 2
+A
+27 1
+A
+29 2
+A
+56 67
+#8843
+shamsheer~
+a shamsheer~
+A long, broad bladed two handed scimitar rests here.~
+~
+5 576066 8193
+0 0 0 3
+25 18000 1800
+A
+1 2
+A
+18 -2
+A
+13 50
+A
+19 8
+A
+22 -3
+#8844
+kayak~
+a kayak~
+A small kayak has been left here.~
+~
+22 0 1
+0 0 0 0
+33 1750 175
+#8845
+club~
+a henchman's club~
+This metal studded shaft of oak serves as an excellent bludgeon.~
+~
+5 262144 8193
+0 0 0 7
+20 50 5
+A
+1 1
+A
+2 -2
+A
+13 50
+A
+18 5
+A
+19 5
+#8846
+wooden shield~
+a wooden shield~
+A sturdy wooden shield with a metal boss has been dropped.~
+~
+9 0 513
+10 0 0 0
+5 300 30
+A
+17 -10
+A
+22 -3
+A
+13 10
+A
+23 2
+A
+24 2
+#8847
+leather jack~
+a leather jack~
+A suit of hardened leather fashioned into armor lies here.~
+~
+9 0 9
+13 0 0 0
+10 500 50
+A
+1 1
+A
+13 35
+A
+18 5
+A
+19 3
+A
+22 -2
+#0
+
+
+#ROOMS
+#8800
+Base of the Rusted Stair~
+The staircase descends about thirty or forty yards into the depths
+of the mountain, arriving finally in a small stone chamber, knee deep
+in scum-coated water. The air is damp, humid and reeks of various odors.
+A variety of fungi and molds thrive in this damp atmosphere coating
+the stone walls with their slick growth. Your feet sink into ankle deep
+mud that covers the floor, causing you to check for purchase with each
+step lest you lose your footing and slip on the muck. White algae gives
+off a dim luminescense, insufficient to see by, but enough to distract
+you when viewed from the corner of your eye. A narrow passage heads east
+from here.
+~
+0 3153933 0
+D1
+~
+~
+0 -1 8801
+S
+#8801
+Scummy Water~
+You progress, with a small degree of difficulty, down the wet passage,
+sloshing through mud and water in irritation; besides the awful smell
+and the disgusting growths, this has to be the most disgusting part of
+this expedition. The passage continues north into the darkness, and
+whatever it contains. Surely a mage, even an insane one, such as Keraptis
+could find a better place to lair?
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8802
+D3
+~
+~
+0 -1 8800
+S
+#8802
+Barred Passage~
+The passage ends abruptly here, at a shimmering force field, which
+blocks the tunnel northwards. Beyond it you can see a junction, with
+several passages leading deeper into the mountain, though you cannot
+see any way past this particular obstacle. Deep claw marks on the wall
+indicate that something else is here, however, perhaps a guardian or
+a creature trapped and confused like you?
+~
+0 3153929 0
+D2
+~
+~
+0 -1 8801
+S
+#8803
+An Unpleasant Surprise~
+You trudge sullenly along the northeast branch, sloshing through the
+water, which gradually rises to waist height as the passage descends
+slightly. Terrific. The slime is only a foot or two away from your
+face now, as is the horrid odor. You try to ignore the feeling that
+strange things are brushing against your feet in the water, and put
+the tingling sensation down to nerves. But when the tingling sensation
+intensifies to a burning pain, you wrench a leg from the water, and are
+horrified to see green slime eating through the sole of your boot!
+Fortunately you react in time, scraping it off with a spare dagger,
+and the damage to you (or your equipment) is not as great as it could
+have been.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 8804
+D9
+~
+~
+0 -1 8826
+> act_prog p from the south-west.~
+if ispc($n)
+mea $n Green slime eats at clothing and flesh!
+mpdamage $n 50
+else
+endif
+~
+> act_prog p from the north-east.~
+if ispc($n)
+mea $n Green slime eats at clothing and flesh!
+mpdamage $n 50
+else
+endif
+~
+|
+S
+#8804
+A Turn in the Passage~
+The passage turns here, and rises slightly, lowering the water back
+to your knees, which is a tremendous blessing in and of itself. Bones
+and rotting corpses protrude from the water at random intervals, the
+remnants of past adventurers fallen pray to various foes. Bits of flesh
+bob on the water, slowly putrefying and releasing a horrendous stench.
+Gagging, you put one sleeve over your mouth and continue.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8805
+D9
+~
+~
+0 -1 8803
+S
+#8805
+A Dark Junction~
+The passage branches here, affording the traveller three choices of
+direction- north, west and south. The northern and western branches
+disappear into the darkness, while the southern passage ends after
+a short distance before a wooden door. Curious that you have not thus
+far encountered terribly many guardians; surely a wizard's domicile would
+have tighter security measures?
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8808
+D2
+~
+~
+0 -1 8806
+D3
+~
+~
+0 -1 8804
+S
+#8806
+A Water Swollen Door~
+The door to the south is soaked and damp, and has swollen in its frame,
+making it difficult to open. The water level may not even be constant
+inside the room, meaning you take the risk of engulfing whatever may
+lie within in a deluge of filthy water. But you see no other alternative
+should you wish to examine the interior of this chamber.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8805
+D2
+~
+~
+8389667 -1 8807
+S
+#8807
+A Damp Cell~
+Giving the door a good shove, you force it open enough to squeeze
+into the room within. A small gush of water accompanies you, but the
+water level inside is only slightly lower than without and the effect
+is not dramatic. The water bobs with broken glass spheres, smashed by
+some unknown intruder, and the contents float about alongside them
+on the muck-covered surface. Most of it appears to be junk, though
+you think you see the glint of gold in one of the spheres. You also
+think you detect movement within and around this particular object...
+~
+0 3153929 0
+D0
+~
+~
+8389671 8820 8806
+S
+#8808
+A Wooden Door~
+The passage north is barred by a thick wooden door bound with rusted
+iron. Slight swelling has occured in the wood, causing it to bulge
+unnaturally in the frame, which will make it difficult to open. There
+is no way of knowing what may lie behind this portal; as with all areas
+of the deranged mage's refuge, there is a surprise around every corner.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 8809
+D2
+~
+~
+0 -1 8805
+S
+#8809
+Another Failed Experiment~
+The door opens onto what was once a laboratory of some sort. Empty
+wooden boxed and glass jars bob on the knee deep water, in and around
+several tables and benches that protrude from the scummy water. Jars
+of body parts, on shelves set high along the barren stone walls, and
+the remnants of a badly burned corpse laden with electrodes is strapped
+to a wooden rack near the far wall, partially obscuring a second door
+in the far wall. Obviously the site of some failed experiment to create
+artificial life, this place has not been used in some time, save by
+whatever deranged beast still lives here to rampage in abandon through.
+Anything of value that once existed here has long since been demolished.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 8810
+D2
+~
+~
+3 -1 8808
+S
+#8810
+A Turnstile~
+At this point, a narrow set of stairs leads up about three feet, to a
+section of floor that is dry and relatively clean. Eager to be free of
+the muck, you jump up the stairs and are happy when the sound of leather
+meeting hard, solid stone greets your ears instead of the soft squishy
+sound you had grown accustomed to as they sunk into the muck. Pausing to
+gather your bearings, you note that the passage bends sharply, heading
+east. This way is barred by a solid steel turnstile, remarkably devoid of
+rust. Some wag has jammed the turnstile, welding several iron bars at odd
+angles, which prevents it from turning. The onyl way past would be to
+use brute force, or magic.
+~
+0 3153929 0
+D1
+~
+turnstile~
+39 -1 8811
+D2
+~
+~
+3 -1 8809
+S
+#8811
+Another Bend~
+The passage beyond the turnstile bends again, heading south. The dry
+stone floor is covered in dust, dust which shows no recent tracks.
+Either most adventurers were stopped by the turnstile, or whatever lurks
+to the south of here was considered too difficult to handle! No matter,
+press on you must, for the thrill of adventure is in your blood, and be
+damned if you will be dissuaded by simple fears and superstitions! A
+slight red glow can be seen to the south, emanating around the edges and
+between the panels of an oaken door.
+~
+0 3153929 0
+D2
+~
+~
+3 -1 8812
+D3
+~
+turnstile~
+39 -1 8810
+S
+#8812
+A Slippery Ledge~
+The door opens onto a narrow ledge, slick with moisture. Perched
+rather precariously at the northwestern end of a long, narrow chasm,
+you reel back as you stride in, almost toppling over the edge into the
+river of bubbling mud that fills the bottom of the chasm. Even from here
+the heat is intense, and you don't like to think of what might befall you
+should you topple down into the muck below. Bubbles of air rise through the
+mud, exploding with loud squishy pops, and occasionally a gout of boiling
+water and mud will erupt from the surface, a few stray drops of water 
+stinging you as they land on your arms. There doesn't appear to be any way
+across, unless you can fly, in which case you could head for a similar ledge
+to the southeast.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 8811
+D8
+~
+~
+0 -1 8813
+S
+#8813
+Soaring Above the Mud~
+It is with great trepidation that you begin your journey across the
+chasm, ever aware of the possibility of a geyser erupting and catching
+you fair in the chest, slamming you into the ceiling, and then your
+stunned form plummeting into the boiling mud far, far below. Pushing
+such thoughts from your mind, you concentrate on the far platform, some
+eighty yards away, pushing yourself to get there as quickly as possible.
+~
+0 19931145 9
+D5
+~
+~
+0 -1 8836
+D7
+~
+~
+0 -1 8812
+D8
+~
+~
+0 -1 8814
+> rand_prog 100~
+if ispc($r)
+mea $r A geyser suddenly erupts, spraying you with boiling mud and water!
+mpechoar $r $r screams as $e is struck by a geyser of boiling mud and water!
+mpdamage $r 400
+mea $r Stunned, you collapse into the mud below...
+mpechoar $r Stunned, $r plummets down into the boiling mud below.
+mpforce $r down
+mpe Bye Bye...
+else
+endif
+~
+|
+S
+#8814
+Safety?~
+The ledge on the far side of the river of mud is much wider than its
+neighbor to the northwest. It is with a sigh of relief that you set down
+on this stony precipice, and consider your options. Safe for the moment
+from the boiling geysers, you turn to examine your surroundings and notice
+a stone colored door set in the south wall, barely noticeable from more
+than a few feet away. A small handle is set into the center, which turns
+easily at your touch. A strange chill, noticeable even in the vicinity
+of the heat radiating from below, emanates from the door; or more accurately
+from around the door.
+~
+0 3153929 0
+D2
+~
+~
+3 -1 8815
+D7
+~
+~
+0 -1 8813
+S
+#8815
+A Cramped Crawlspace~
+The door opens onto a narrow crawlspace, no wider than a few feet,
+which would make even a dwarf feel a little claustrophobic. The gloom
+is resistant to the penetration of your light, and you cannot see further
+than a foot or two in any direction within the crawlspace. A second door,
+similar to the first, lies at the far end. Creeping cautiously through
+the darkness, you press on.
+~
+0 3154569 0
+D0
+~
+~
+3 -1 8814
+D2
+~
+~
+1031 -1 8816
+S
+#8816
+The Tomb of Ctenmiir~
+Inky blackness beckons at the end of the crawlspace, cold, loathsome
+darkness that envelops and threatens to engulf you; you shudder at the
+imagined deathly cold touch. Then you realize that the touch was not
+imagined. Something lives here, in this room filled with darkness that
+no light may dispel. Something vile, something dark and wicked, older
+and more evil than the passing of countless centuries can measure or
+compare. And you have no doubt that the primary goal of this heinous
+unseen foe is to extinguish all light and life.
+~
+0 3153929 0 0 0 6
+D0
+~
+~
+1031 -1 8815
+> act_prog p has entered the game.~
+mea $n You stagger blindly northwards from the tomb.
+mptrans $n 8815
+~
+|
+S
+#8817
+A Water Filled Passageway~
+The water here rises to waist depth as the passage descends slightly,
+heading north towards a place where it ends in a large water filled room.
+The scum floating on the surface of the water exudes a powerful, rotting
+odor that makes you feel rather ill and dizzy. Various other objects bob
+in the water or brush against your legs. The whole journey is extremely
+unpleasant, and you find yourself fervently hoping for dry ground soon.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8818
+D2
+~
+~
+0 -1 8826
+S
+#8818
+The Water-Filled Chamber~
+The passage ends here, on a ledge that circles the edge of a large
+water filled chamber. The stone of the ledge can be seen beneath your
+feet, even through this murky water, and the point where it disappears,
+giving way to the depth of the chamber is clearly visible. It would be
+possible to circle the chamber, sticking to the ledge that heads around
+the western edge, and reach the exit on the northern wall, or you could
+brave a trip across the deeper section to the north, significantly
+reducing the time the journey would take, but also meaning you would have
+to brave whatever perils may lurk here.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8830
+D2
+~
+~
+0 -1 8817
+D3
+~
+~
+0 -1 8819
+S
+#8819
+A Slippery Ledge~
+Various growths on the walls and floor make progress, when combined
+with the fact you have to wade through filthy thigh deep water, rather
+difficult. You fancy you can see strange shapes moving about in the
+depths of the pool, and feel glad that you decided to stick to the 
+ledge. To the north, the ledge narrows significantly, enabling but one
+person to make their way through at a time.
+~
+0 3153929 0 0 0 2
+D0
+~
+~
+0 -1 8820
+D1
+~
+~
+0 -1 8818
+S
+#8820
+The Narrow Section~
+The ledge narrows to less than one foot here, making it quite difficult
+to continue without slipping and sinking into the depths of the pool
+below, where thousands of imagined fates may lie. The glint of gold
+is visible below, attracting your ever-avaricious eye. Perhaps where
+there is great peril there is also great treasure to be found? You are
+halfway through the room, and are reluctant to give that up, but the
+thought of treasure and magical items is a strong lure to explore deeper.
+~
+0 3153929 0 0 0 1
+D0
+~
+~
+0 -1 8821
+D1
+~
+~
+0 -1 8830
+D2
+~
+~
+0 -1 8819
+D5
+~
+~
+0 -1 8832
+S
+#8821
+The Northwestern Corner~
+The ledge bends here again, and to the east it ends before the northern
+exit, an open passage containing several steps that head up to dry
+corridor! Breathing a sigh of relief, you gather yourself and prepare
+to edge along the last few feet to the ledge that leads out of this
+dirty waterlogged chamber. Strange cries can suddenly be heard, cries
+of frustration and anger; they appear to be coming from below the surface
+of the murky waters...
+~
+0 0 1 0 0 2
+D1
+~
+~
+0 -1 8822
+D2
+~
+~
+0 -1 8820
+S
+#8822
+The Far Side~
+You made it! Reaching the far side, you bound up the short flight of
+steps and turn to stare back over the waters and the hidden dangers 
+they contain. Another perilous situation survived; the familiar rush
+of adrenalin still unused causes you to tremble. Cries of frustration
+arise from the murky waters, sending shivers up your spine. To the
+north, the dry stone passage continues into the darkness.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8823
+D2
+~
+~
+0 -1 8830
+D3
+~
+~
+0 -1 8821
+S
+#8823
+Dry at Last~
+It is a welcome relief to be away from the dark and murky wetness of
+the passages to the south, and back on dry, solid ground. Whatever
+perils may lie ahead, you feel safer facing them on more familiar 
+terrain. Sniffing at the air, you catch the smell of oil, lantern oil
+to be precise, from somewhere nearby. A solid wooden door is set in
+the eastern wall, and from behind it you can detect a low rumbling
+sound.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8824
+D1
+~
+~
+3 -1 8835
+D2
+~
+~
+0 -1 8822
+S
+#8824
+The End of the Passage~
+The corridor ends here, before a thick metal door to the north, which
+has been designed with an overlapping metal edge on the northern side,
+flanging it so that it can only open to the north, i.e, it must be
+pushed from this side; any attempt to pull it or to push it from the 
+far side would be futile. You can hear a loud scraping sound to the
+north, even through the door, as of some large creature dragging itself
+across a stone floor. At least the area beyond doesn't appear to be 
+filled with water.
+~
+0 0 1
+D0
+~
+~
+1027 -1 8825
+D2
+~
+~
+0 -1 8823
+S
+#8825
+A Curious Lair~
+The metal door opens onto a rather strange sight. A narrow stone
+platform protrudes to the north, heading into the depths of a lake
+of boiling water! Panicking, you turn to flee, when you realize that
+a translucent field of soft, resilient material, of a magical nature,
+is keeping the water out. You cautiously proceed further, heading into
+a large dome shaped area, a circular "clearing" in the lake, protected
+from the volcano-heated waters by the elastic material of the magical
+field. The attraction of this anomaly as the prime feature of this area
+is overridden by the profusion of bones and broken weapons that lie
+scattered across the floor. Some fell beast lairs here, experienced in
+fighting without damaging the dome, and intent on adding to its grisly
+collection!
+~
+0 3153929 0
+D2
+~
+~
+1027 -1 8824
+S
+#8826
+A Watersoaked Junction~
+Several paths meet here, beyond the forcefield, which shimmers back
+into place as you pass through. Knee deep muck sloshes around your feet
+and splashes onto your body, leaving a slimy residue that smells awful.
+Passages head away in three directions, heading deeper into the dark,
+murky undermountain. Wherever Keraptis lurks, or the stolen artifacts,
+you will find him!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8817
+D6
+~
+~
+0 -1 8803
+D7
+~
+~
+0 -1 8837
+S
+#8827
+The End of the Tunnel~
+The dizzying tunnel ends here, spitting the reeling travellers into this
+small chamber, which boasts only a single wooden door, set in the north
+wall, as a feature of interest. But knowing this dungeon, anything may
+lie beyond that seeminly innocuous portal. 
+~
+0 3153929 0
+D0
+~
+~
+7 -1 8828
+D3
+~
+~
+0 -1 8835
+S
+#8828
+A Well-Appointed Apartment~
+This small chamber is remarkly clean and well furnished for this dungeon.
+It seems some of Keraptis' minions have kept their wits sufficiently to
+maintain a reasonable standard of living. Several chairs surround a small
+dining table, behind which rests a massive bookshelf overburdened with
+heavy books of little value. Incense smolders in a small clay pot resting
+on the table, near which the remains of a half-eaten meal are arranged. It
+seems the diners here were interrupted, recently too for the meals are still
+warm.
+~
+0 3153928 0
+D0
+~
+~
+7 -1 8829
+D2
+~
+~
+7 -1 8827
+S
+#8829
+Inner Sanctum~
+This room is a luxurious boudoir, the domain of some rich noble, surely,
+or an opulent merchant. Lewd tapestries depicting scenes of explicit
+sexual congress between woman and demon, or woman and animal, cover the
+walls, while the floor is lined with thick, intricately woven rugs of
+oriental make. Low tables are arranged near sumptuous divans and couches,
+and soft pillows of silk abound. A fire crackles in a small, low hearth,
+and next to it rests a solid wooden chest, bound in brass.
+~
+0 3153928 0
+D2
+~
+~
+7 -1 8828
+S
+#8830
+Floating in a void~
+The murky waters beneath you ripple, disturbed by your passage, and
+you imagine you can see humanoid shapes moving beneath the surface,
+beckoning to you. Also present is the familiar glint of gold; a significant
+amount of wealth has undoubtedly fallen into these waters, perhaps you
+might be able to acquire some for yourself? To the north, you can see
+the far side, another ledge, this one containing a short flight of steps
+that heads up to a dry passage, a tempting destination indeed. To the
+west lies a narrower section of the ledge, where you might head instead
+of continuing in this direction.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 8822
+D2
+~
+~
+0 -1 8818
+D3
+~
+~
+0 -1 8820
+D5
+~
+~
+0 -1 8831
+S
+#8831
+Plunging into the Depths~
+Your first thought as you plunge deep into the water is that it is a
+lot deeper than you imagined; your ears ache as you head deeper, reaching
+an eventual depth of fifteen feet, worried that you can no longer see
+the glint of gold, or much else in the murky waters for that matter. A
+dark opening leads into an underwater chamber to the east, but the shadowy
+figures you glimpsed from the surface may be of a more immediate concern...
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8833
+D3
+~
+~
+0 -1 8832
+D4
+~
+~
+0 -1 8830
+S
+#8832
+Plunging into the Depths~
+The pool is much deeper than you imagined from the narrow ledge above,
+and your ears ache as you dive down to a depth of fifteen feet, weighed
+down by your heavy equipment. It is impossible to see terribly far in
+these filthy waters, and you find yourself eager to be out of this murky
+water. Shapes move about in the water to the east, seeming to beckon
+to you.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8831
+D4
+~
+~
+0 -1 8820
+S
+#8833
+An Underwater Chamber~
+Piles of vegetation float in the water here, making it impossible to
+move quickly without becoming entangled. You feel as if the weeds are
+almost groping at you, attempting to drag you down and drown you.
+Shuddering, you cast off the thought and try to press for another dark
+entrance in the north wall, where you presume whatever lurks in these
+waters stores their loot.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8834
+D3
+~
+~
+0 -1 8831
+S
+#8834
+The Hidden Lair~
+This tiny chamber contains the accumulated loot of the Kelpies, those
+vile, sentient creatures that lurk in the waters, luring travellers
+to a watery grave, and storing their belongings here. Who knows what
+treasures may lie here, taken from past adventurers who met their fates
+here? Truly this is a prime opportunity to acquire significant wealth!
+~
+0 3154441 8
+D2
+~
+~
+0 -1 8833
+S
+#8835
+A Spinning Cylinder~
+The door opens onto a strange passage; a spinning cylinder, approximately
+thirty feet long, decorated with a nausea-inducing spiral pattern, spins
+rapidly, confusing and dizzying travellers. A slick substance, most likely
+oil, coats the surface of the cylinder, making travel even more awkward.
+You cannot take three steps without falling to the ground, nauseated and
+sick, unable to concentrate properly.
+~
+0 0 1
+D1
+~
+~
+0 -1 8827
+D3
+~
+~
+3 -1 8823
+> act_prog p from the west.~
+if ispc($n)
+mea $n You fall to the ground, unable to keep your feet in this cylinder.
+mpforce $n sit
+mpdamage $n 75
+else
+endif
+~
+> act_prog p from the east.~
+if ispc($n)
+mea $n You fall to the ground, unable to keep your feet in this cylinder.
+mpforce $n sit
+mpdamage $n 75
+else
+endif
+~
+> rand_prog 100~
+if ispc($r)
+mpe _red The ignited oil burns fiercely, flames licking at you!
+mpdamage $r 100
+else
+endif
+~
+|
+S
+#8836
+A Painful Death~
+Screaming in horror, you plummet downwards into the boiling mud,
+the flesh being boiled from your bones in seconds, an agonizing and
+particularly messy fate. Your death cry echoes around the cavern for
+several more seconds, the final act of your now destroyed body. What
+little remains sinks into the mud, to join the hundreds of others
+who have perished in a similar fashion.
+~
+0 3153935 0
+S
+#8837
+A Dreary Journey~
+Trudging through the thigh deep muck that has half flooded this dank
+dungeon is far from one of the most pleasant things you have done, and
+the tedium of splashing laboriously through several hundred yards of
+waterlogged passageways is not helped by the uniformly grey stone walls,
+mottled with unpleasant growths, offering no features of interest 
+whatsoever. Not a single inhabitant seems to reside in this long stretch
+of passage.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 8838
+D8
+~
+~
+0 -1 8826
+S
+#8838
+The End of the Tunnel~
+At this point the dreary passage ends, at the southern end of a regular
+stone corridor, measuring ten by eight feet, heading north as far as you
+can see (admittedly not a great distance in these corridors). The walls
+of this corridor are lined with a series of copper plates, for whatever
+purpose, that dimly reflect the illumination from your light source.
+Steam can be seen rising from the water in the distance; not a good sign.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8839
+D8
+~
+~
+0 -1 8837
+S
+#8839
+The Induction Field~
+As you proceed warily down the corridor, you notice a slight, but 
+definite, increase in the air temperature. At first a welcome relief
+from the damp chill, it quickly becomes unpleasant enough that you pause
+to wipe beads of sweat from your face, and cringe at contact with the 
+metal in your equipment. Small blisters are beginning to form on the
+areas of skin closest to the metal, and you realize that proceeding
+further will only mean suffering even greater temperatures.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8840
+D2
+~
+~
+0 -1 8838
+> rand_prog 100~
+if ispc($r)
+mea $r The heat is becoming unbearable!
+mpdamage $r 50
+else
+endif
+~
+|
+S
+#8840
+The Induction Field~
+You proceed, sweating and swearing as the temperature soars. Water
+steams around your feet, and you tear at the items of equipment scalding
+your skin. Damn its hot! Finally it becomes too much; fuming, you 
+tear the equipment from your back and dash north, eager to be out of
+this accursed heat trap as quickly as possible!
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8841
+D2
+~
+~
+0 -1 8839
+> rand_prog 100~
+if ispc($r)
+mea $r The heat is becoming unbearable!
+mpdamage $r 100
+else
+endif
+~
+> act_prog p from the south.~
+mea $n You can't stand it! Roaring, you tear off your equipment!
+mpforce $n rem all
+mea $n Blinded by anger and pain, you dash forwards, to the end!
+mpforce $n n
+~
+> act_prog p from the north.~
+mea $n You can't stand it! Roaring, you tear off your equipment!
+mpforce $n rem all
+mea $n Blinded by anger and pain, you dash forwards, to the end!
+mpforce $n n
+~
+|
+S
+#8841
+The End?~
+At last! Free from the blistering heat, you pause in the water, which
+is only ankle deep here, and collect your wits. But your rest is to be
+very short-lived; many predators are eager to strike at unwary adventurers
+when they are least prepared, and in your exhausted and naked condition
+you are a prime target! A possible escape route to the north, up a set
+of stairs to a dry corridor, is your only other option.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 8840
+D4
+~
+~
+0 -1 8843
+> act_prog p from the south.~
+mea $n As you dash into the room, several assailants pour out of a secret
+mea $n panel in the east wall, eager to rend your exposed flesh!
+mpat 8842 say BANZAI!
+~
+|
+S
+#8842
+Ghoul Lair~
+~
+0 3153929 0
+D7
+~
+~
+0 -1 8841
+S
+#8843
+A Dry Corridor~
+The stairs end in a small corridor, which runs south for a short distance
+to a point where it ends at a wooden door, devoid of markings or trappings.
+Its metal handle is free of corrosion, and it appears as if it will open
+easily, though your frayed nerves and suspicious nature lead you to imagine
+all sorts of hidden threats behind its seemingly innocuous surface. 
+~
+0 3153929 0
+D2
+~
+~
+3 -1 8844
+D5
+~
+~
+0 -1 8841
+S
+#8844
+An Empty Hall~
+Flinging the door open, you leap in with weapons drawn, expecting (and
+fearing) the very worst. But all that greets you is an empty hall, the
+walls and floor of which are lined with shiny metal. Not a speck of dust
+nor trace of any markings mars the surface; it shines with an unrivaled
+sheen that would make the most devoted dwarven metalsmith jealous. To
+the west it ends in a dead end, with no obvious exits, though that is a
+good thirty yards away; a lot can happen in thirty yards...
+~
+0 3153929 0
+D0
+~
+~
+3 -1 8843
+D3
+~
+~
+0 -1 8845
+S
+#8845
+The Frictionless Room~
+Relaxing slightly when a thorough examination from the entrance revealed
+no potential threat, you are taken totally by surprise when on your first
+step you slip and land on your behind, bruising it badly! But you don't
+stop there; as you connect you begin to slide, bouncing into one of the 
+walls, then rebounding into another, skidding across the floor with no
+control over your movements whatsoever. Confused and a little frightened,
+you put your hands out in an attempt to slow your movement, but to no avail.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8844
+D3
+~
+~
+2048 -1 8846
+> act_prog p from the west.~
+mpdamage $n 50
+~
+> act_prog p from the east.~
+mpdamage $n 50
+~
+> act_prog p leaves east.~
+if rand(50)
+mpat $n mea $n Your feet slip on the frictionless surface and you slide back.
+mptrans $n
+mpdamage $n 50
+else
+mpat $n mea $n You manage to slide out of the room.
+endif
+~
+|
+S
+#8846
+Safety?~
+You slide through the illusory wall that barred the end of the eastern
+corridor, and land in a room with a more conventional surface- that of
+cold, hard grey stone. The walls, floor and ceiling are uniform in their
+similarity and their lack of interesting features. Only a plain wooden
+door, set in the north wall, affords any variety.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 8847
+D1
+~
+~
+2048 -1 8845
+S
+#8847
+A Short Corridor~
+This short, even corridor runs west a short distance from the door to
+a junction. The air here is still, and musty; not many intruders make
+it this far into the dungeons of Keraptis. You can sense, even here,
+the eyes of the mad mage upon you, watching your every move with mild
+(but growing) interest. You do not doubt that he will be totally prepared
+for your arrival when you do finally find him. And find him you will!
+~
+0 3153929 0
+D2
+~
+~
+3 -1 8846
+D3
+~
+~
+0 -1 8848
+S
+#8848
+A Dark Junction~
+Gloomy stone passageways head into the darkness to the north, east and
+south, none of them standing out from the others in any way, visually
+at least; the sound of running water can be distinctly heard to the
+north. The floor here is covered in muddy footprints, heading from the
+north southwards, along the passageway towards whatever may lie in 
+that direction.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8849
+D1
+~
+~
+0 -1 8847
+D2
+~
+~
+0 -1 8861
+S
+#8849
+A Curious Anomaly~
+Reaching the end of the corridor, you stop short in the large chamber
+that lies at the northern end, staring in wonder at the fascinating
+feature it contains. Running through the center of the room, with no
+visible means of support, is a small river, complete with fish and various
+other forms of marine life, flowing swiftly from a hole in the east wall,
+through the center of the chamber, and into a hole in the west wall. It is
+possible to walk underneath the river, which "flows" about three feet off
+the floor, and is approximately five feet wide. Surely this is one of the
+most unusual sights you have seen yet! The hole that admits the water is
+large enough that it could well accomodate a brave mariner in a small
+watercraft, though the strength of the current is such that travel would
+only be possible in one direction, i.e, to the east.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8850
+D2
+~
+~
+0 -1 8848
+S
+#8850
+The Swiftly Flowing Stream~
+The stream disappears into the darkness ahead of you, rushing swiftly along
+its winding route, through the rough hewn tunnel. At no time does the water
+actually rest on the rocks; it is as if it is held in place by some magical
+field. Blind subterranean fish dash here and there, disturbed by your
+presence. You have no choice but to continue with the current.
+~
+0 3153929 7 0 0 2
+D6
+~
+~
+0 -1 8851
+S
+#8851
+The Swiftly Flowing Stream~
+Further into the bedrock of the mountain the stream takes you, dashing down
+this rough hewn tunnel of volcanic rock. Occasionally you bruise an arm or
+your head as the boat takes a corner unexpectedly fast, bashing you against
+the rocky wall. Wincing, yuo hold onto your helmet and keep your head down,
+eager for this rocky ride to be over.
+~
+0 3153929 7 0 0 2
+D7
+~
+~
+0 -1 8852
+S
+#8852
+The Swiftly Flowing Stream~
+Onwards and onwards the stream continues, rushing around sharp corners and
+sudden bends, dipping and swaying as it gushes on its magically predetermined
+course. You realize now that the stream is shaped into a roughly circular
+circuit, ploughing through several chambers and corridors joined by the
+waterfilled tunnel. The purpose of it is beyond you; you ascribe it as yet
+another sign of the truly insane mind of Keraptis.
+~
+0 3153929 7 0 0 2
+D3
+~
+~
+0 -1 8853
+S
+#8853
+The Swiftly Flowing Stream~
+The stream disappears into the darkness ahead of you, rushing swiftly along
+its winding route, through the rough hewn tunnel. At no time does the water
+actually rest on the rocks; it is as if it is held in place by some magical
+field. Blind subterranean fish dash here and there, disturbed by your
+presence. You have no choice but to continue with the current.
+~
+0 3153929 7 0 0 2
+D3
+~
+~
+0 -1 8854
+S
+#8854
+The Swiftly Flowing Stream~
+Further into the bedrock of the mountain the stream takes you, dashing down
+this rough hewn tunnel of volcanic rock. Occasionally you bruise an arm or
+your head as the boat takes a corner unexpectedly fast, bashing you against
+the rocky wall. Wincing, yuo hold onto your helmet and keep your head down,
+eager for this rocky ride to be over.
+~
+0 3153929 7 0 0 2
+D9
+~
+~
+0 -1 8855
+S
+#8855
+The Swiftly Flowing Stream~
+Onwards and onwards the stream continues, rushing around sharp corners and
+sudden bends, dipping and swaying as it gushes on its magically predetermined
+course. You realize now that the stream is shaped into a roughly circular
+circuit, ploughing through several chambers and corridors joined by the
+waterfilled tunnel. The purpose of it is beyond you; you ascribe it as yet
+another sign of the truly insane mind of Keraptis.
+ 
+Light shines from an opening to the south.
+~
+0 3153929 7 0 0 2
+D2
+~
+~
+0 -1 8856
+S
+#8856
+Ambush!~
+The stream pours into and through another stone chamber, this one dully
+lit and boasting greasy stone walls and floor. The ceiling is caked with
+thick red paint, some of which has peeled off, revealing the original grey
+stone beneath. The river bends in the center, heading through another hole
+in the east wall, which the current drags you irresistably towards. There
+is little else of interest in the chamber, save a faded mural on the
+southern wall.
+~
+0 3153933 0
+D1
+~
+~
+0 -1 8857
+D2
+~
+mural~
+8389679 8834 8858
+E
+mural~
+The mural depicts the gnomes of Keraptis constructing this fell lair for
+their master, in days of old, using all manner of beasts as slave labor.
+In the center of the diagram rises a ziggurat, shaped much like the 
+mountain of White Plume! Perhaps some magical force has covered this old
+structure with stone, to deter unwanted visitors. A keyhole can be seen in
+the center of the Ziggurat.
+~
+S
+#8857
+The Swiftly Flowing Stream~
+The stream disappears into the darkness ahead of you, rushing swiftly along
+its winding route, through the rough hewn tunnel. At no time does the water
+actually rest on the rocks; it is as if it is held in place by some magical
+field. Blind subterranean fish dash here and there, disturbed by your
+presence. You have no choice but to continue with the current.
+ 
+You think you can see an opening to the east.
+~
+0 3153929 7 0 0 2
+D1
+~
+~
+0 -1 8849
+S
+#8858
+A Dark Tunnel~
+Floundering through a sudden wave of darkness that fills the area, you
+shake your light source fervently, wondering why you cannot see far in
+the gloom even with its aid. Peering intently around you, you cannot see
+more than a few inches, barely able to even see your own hands in front
+of your face. Small, unknown creatures brush against your legs, causing
+you to cringe in revulsion. It is impossible to see what directions you
+can head in.
+~
+0 3153929 0
+D0
+~
+~
+8391719 8834 8856
+D2
+~
+~
+2048 -1 8859
+S
+#8859
+A Dark Tunnel~
+Floundering through a sudden wave of darkness that fills the area, you
+shake your light source fervently, wondering why you cannot see far in
+the gloom even with its aid. Peering intently around you, you cannot see
+more than a few inches, barely able to even see your own hands in front
+of your face. Small, unknown creatures brush against your legs, causing
+you to cringe in revulsion. It is impossible to see what directions you
+can head in.
+~
+0 3153929 0
+D0
+~
+~
+2048 -1 8858
+D1
+~
+~
+2048 -1 8860
+S
+#8860
+A Dark Tunnel~
+Floundering through a sudden wave of darkness that fills the area, you
+shake your light source fervently, wondering why you cannot see far in
+the gloom even with its aid. Peering intently around you, you cannot see
+more than a few inches, barely able to even see your own hands in front
+of your face. Small, unknown creatures brush against your legs, causing
+you to cringe in revulsion. It is impossible to see what directions you
+can head in.
+~
+0 3153929 0
+D1
+~
+~
+8391719 8834 8861
+D3
+~
+~
+2048 -1 8859
+S
+#8861
+The Southern Corridor~
+This plain grey stone corridor heads due south, sloping downwards as
+it goes. Presently you find yourself once more wading in knee deep water
+as it passes below the water table. As you splash noisily southwards,
+your eyes catch sight of a faded mural on the western wall. To the south
+you can see a heavy wooden door, swollen by moisture, barring the end of
+the passage.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8848
+D2
+~
+~
+39 -1 8862
+D3
+~
+mural~
+8389679 8834 8860
+E
+mural~
+The mural depicts the gnomes of Keraptis constructing this fell lair for
+their master, in days of old, using all manner of beasts as slave labor.
+In the center of the diagram rises a ziggurat, shaped much like the 
+mountain of White Plume! Perhaps some magical force has covered this old
+structure with stone, to deter unwanted visitors. A keyhole can be seen in
+the center of the Ziggurat.
+~
+> act_prog p bashes open the door!~
+mpe As $n smashes the door asunder, water pours in from the south!
+mpe A large pool forms, and from it arises an angry water elemental!
+mpmload 8815
+~
+|
+S
+#8862
+Undersea Community~
+The door opens onto a lower corridor, totally submerged in salt water,
+which splashes around the doorway as you enter. Thriving with all manner
+of aquatic life, you are given the distinct impression that you just arrived
+at the bottom of the ocean. Breathing could be a problem, without magical
+means of sustaining yourself. The passage winds away eastward.
+~
+0 3153933 8
+D0
+~
+~
+39 -1 8861
+D1
+~
+~
+0 -1 8863
+S
+#8863
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8864
+D3
+~
+~
+0 -1 8862
+S
+#8864
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+~
+0 3153929 8
+D2
+~
+~
+0 -1 8865
+D3
+~
+~
+0 -1 8863
+S
+#8865
+An Underwater Passage~
+Marine life virtually abounds in this waterlogged section of the dungeon.
+The water is quite clear and extremely salty, unlike the dirty, murky fresh
+water that filled the entrance tunnels. The growths on the walls are more
+like those you would expect at the bottom of the ocean, not in a stone walled
+dungeon passageway. Deep claw marks scar the walls at intervals, near piles
+of skulls and other debris.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8864
+D2
+~
+~
+0 -1 8866
+S
+#8866
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8865
+D2
+~
+~
+0 -1 8867
+S
+#8867
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8866
+D2
+~
+~
+0 -1 8868
+S
+#8868
+An Underwater Passage~
+Marine life virtually abounds in this waterlogged section of the dungeon.
+The water is quite clear and extremely salty, unlike the dirty, murky fresh
+water that filled the entrance tunnels. The growths on the walls are more
+like those you would expect at the bottom of the ocean, not in a stone walled
+dungeon passageway. Deep claw marks scar the walls at intervals, near piles
+of skulls and other debris.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8867
+D2
+~
+~
+0 -1 8869
+S
+#8869
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8868
+D3
+~
+~
+0 -1 8870
+S
+#8870
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8869
+D3
+~
+~
+0 -1 8871
+S
+#8871
+An Underwater Passage~
+Marine life virtually abounds in this waterlogged section of the dungeon.
+The water is quite clear and extremely salty, unlike the dirty, murky fresh
+water that filled the entrance tunnels. The growths on the walls are more
+like those you would expect at the bottom of the ocean, not in a stone walled
+dungeon passageway. Deep claw marks scar the walls at intervals, near piles
+of skulls and other debris.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8870
+D3
+~
+~
+0 -1 8872
+S
+#8872
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8871
+D3
+~
+~
+0 -1 8873
+S
+#8873
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8874
+D1
+~
+~
+0 -1 8872
+S
+#8874
+An Underwater Passage~
+Marine life virtually abounds in this waterlogged section of the dungeon.
+The water is quite clear and extremely salty, unlike the dirty, murky fresh
+water that filled the entrance tunnels. The growths on the walls are more
+like those you would expect at the bottom of the ocean, not in a stone walled
+dungeon passageway. Deep claw marks scar the walls at intervals, near piles
+of skulls and other debris.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8875
+D2
+~
+~
+0 -1 8873
+S
+#8875
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8876
+D2
+~
+~
+0 -1 8874
+S
+#8876
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8877
+D2
+~
+~
+0 -1 8875
+S
+#8877
+An Underwater Passage~
+Marine life virtually abounds in this waterlogged section of the dungeon.
+The water is quite clear and extremely salty, unlike the dirty, murky fresh
+water that filled the entrance tunnels. The growths on the walls are more
+like those you would expect at the bottom of the ocean, not in a stone walled
+dungeon passageway. Deep claw marks scar the walls at intervals, near piles
+of skulls and other debris.
+~
+0 3153929 8
+D0
+~
+~
+0 -1 8878
+D2
+~
+~
+0 -1 8876
+S
+#8878
+An Underwater Passage~
+The walls of the corridor are slick with various underwater growths, such
+as algae and clumps of seaweed; not only has this section of the dungeon
+been submerged, it has also been filled with items indigenous to maritime
+regions. None of these growths, nor the clam shells that litter the floor,
+could have made their way here naturally. Unless of course you have passed
+through some invisible barrier unknowingly and are actually in some under-
+water ruin.
+~
+0 3153929 8
+D1
+~
+~
+0 -1 8879
+D2
+~
+~
+0 -1 8877
+S
+#8879
+An Underwater Passage~
+The waterfilled corridor continues, a slight current tugging you forwards,
+and away from the entrance. Various small fish and other creatures swim past
+you, seemingly oblivious to your rather unusual presence. Evidence of larger
+inhabitants is also present, most notably in the form of partially devoured
+corpses, lying in various states of decomposition at random intervals along
+the corridor.
+ 
+The passage bends here, heading to the base of a stairwell that heads
+up out of the water.
+~
+0 3153929 8
+D2
+~
+~
+0 -1 8880
+D3
+~
+~
+0 -1 8878
+S
+#8880
+A Way Out...?~
+The waterfilled passageway ends here, at the base of a corroded iron
+stairwell, mostly overgrown with mold and other marine growths. Peering
+upwards, you can see a yellow stone chamber, apparently dry, which lies
+above the water level, and forms the second tier of this section of the
+dungeon. Proceeding here will take you one step closer to the summit of
+the mountain, and presumably one step closer to Keraptis.
+~
+0 3153933 8
+D0
+~
+~
+0 -1 8879
+D4
+~
+~
+0 -1 8881
+S
+#8881
+A Sandy Passage~
+The floor of this dry stone passage is covered in sand, stained at various
+intervals with blood and other substances. The air is hot and dry, and you
+find yourself wishing for a bit of water, even so shortly after having been
+immersed in it. A faint scuttling sound can be heard, as of spiny, bony
+legs scraping on the floor, scratching at the yellow stone beneath the sand.
+Accompanying this is a deep, booming laughter that reverberates through the
+passage, which is beginning to feel like a tomb. You are close to the source
+of the madness now, close to Keraptis himself.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8882
+D5
+~
+~
+0 -1 8880
+S
+#8882
+A Sandy Passage~
+The walls here are of a yellow stone, not dissimilar to the color of the
+sand, which looks out of place here, in this damp subterranean lair. But
+you find it hard, despite knowing full well where you are, to dispel the
+feeling that you have been magically transported to some ancient ruin in
+the Western Desert, there to be entombed with the rotting remains of the
+ancient pharaohs of that wasteland.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 8883
+D3
+~
+~
+0 -1 8881
+S
+#8883
+A Sandy Passage~
+The walls in this section bear simple murals, two dimensional representations
+of women being ravaged by jackal-headed men of immense proportions, and
+giving issue to vile half-human half-canine hybrids that rampage wantonly
+through the streets of some unknown city. Keraptis is a wicked man, and has
+many wicked deeds in his past. He is also apparently much older than you at
+first realized; several images of a laughing man clad in robes of crimson
+dominate many of the murals, a figure you can only assume to be the mad mage
+himself.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8882
+D2
+~
+~
+0 -1 8884
+S
+#8884
+A Sandy Passage~
+The floor of this dry stone passage is covered in sand, stained at various
+intervals with blood and other substances. The air is hot and dry, and you
+find yourself wishing for a bit of water, even so shortly after having been
+immersed in it. A faint scuttling sound can be heard, as of spiny, bony
+legs scraping on the floor, scratching at the yellow stone beneath the sand.
+Accompanying this is a deep, booming laughter that reverberates through the
+passage, which is beginning to feel like a tomb. You are close to the source
+of the madness now, close to Keraptis himself.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8883
+D2
+~
+~
+0 -1 8885
+S
+#8885
+A Sandy Passage~
+The walls here are of a yellow stone, not dissimilar to the color of the
+sand, which looks out of place here, in this damp subterranean lair. But
+you find it hard, despite knowing full well where you are, to dispel the
+feeling that you have been magically transported to some ancient ruin in
+the Western Desert, there to be entombed with the rotting remains of the
+ancient pharaohs of that wasteland.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8884
+D2
+~
+~
+0 -1 8886
+S
+#8886
+A Sandy Passage~
+The walls in this section bear simple murals, two dimensional representations
+of women being ravaged by jackal-headed men of immense proportions, and
+giving issue to vile half-human half-canine hybrids that rampage wantonly
+through the streets of some unknown city. Keraptis is a wicked man, and has
+many wicked deeds in his past. He is also apparently much older than you at
+first realized; several images of a laughing man clad in robes of crimson
+dominate many of the murals, a figure you can only assume to be the mad mage
+himself.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8885
+D3
+~
+~
+0 -1 8887
+S
+#8887
+A Sandy Passage~
+The floor of this dry stone passage is covered in sand, stained at various
+intervals with blood and other substances. The air is hot and dry, and you
+find yourself wishing for a bit of water, even so shortly after having been
+immersed in it. A faint scuttling sound can be heard, as of spiny, bony
+legs scraping on the floor, scratching at the yellow stone beneath the sand.
+Accompanying this is a deep, booming laughter that reverberates through the
+passage, which is beginning to feel like a tomb. You are close to the source
+of the madness now, close to Keraptis himself.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8886
+D3
+~
+~
+0 -1 8888
+S
+#8888
+A Sandy Passage~
+The walls here are of a yellow stone, not dissimilar to the color of the
+sand, which looks out of place here, in this damp subterranean lair. But
+you find it hard, despite knowing full well where you are, to dispel the
+feeling that you have been magically transported to some ancient ruin in
+the Western Desert, there to be entombed with the rotting remains of the
+ancient pharaohs of that wasteland.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8889
+D1
+~
+~
+0 -1 8887
+S
+#8889
+A Sandy Passage~
+The walls in this section bear simple murals, two dimensional representations
+of women being ravaged by jackal-headed men of immense proportions, and
+giving issue to vile half-human half-canine hybrids that rampage wantonly
+through the streets of some unknown city. Keraptis is a wicked man, and has
+many wicked deeds in his past. He is also apparently much older than you at
+first realized; several images of a laughing man clad in robes of crimson
+dominate many of the murals, a figure you can only assume to be the mad mage
+himself.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8890
+D2
+~
+~
+0 -1 8888
+S
+#8890
+A Sandy Passage~
+The floor of this dry stone passage is covered in sand, stained at various
+intervals with blood and other substances. The air is hot and dry, and you
+find yourself wishing for a bit of water, even so shortly after having been
+immersed in it. A faint scuttling sound can be heard, as of spiny, bony
+legs scraping on the floor, scratching at the yellow stone beneath the sand.
+Accompanying this is a deep, booming laughter that reverberates through the
+passage, which is beginning to feel like a tomb. You are close to the source
+of the madness now, close to Keraptis himself.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8891
+D2
+~
+~
+0 -1 8889
+S
+#8891
+A Sandy Passage~
+The walls here are of a yellow stone, not dissimilar to the color of the
+sand, which looks out of place here, in this damp subterranean lair. But
+you find it hard, despite knowing full well where you are, to dispel the
+feeling that you have been magically transported to some ancient ruin in
+the Western Desert, there to be entombed with the rotting remains of the
+ancient pharaohs of that wasteland.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 8892
+D2
+~
+~
+0 -1 8890
+S
+#8892
+The End of the Passage~
+The passage bends here, ending at a small set of stairs, that winds
+upward into the darkness, towards the highest tier of this series of
+spirtalling corridors. You presume that you have gradually worked your
+way up into the mountain, and must be near the peak now; yet there is
+no real way of telling just exactly where you are, or how far you have
+travelled. All that remains is the next step, each time seeming to be
+the end, but in reality only an entrance to a series of new trials.
+~
+0 3153933 0
+D2
+~
+~
+0 -1 8891
+D4
+~
+~
+0 -1 8893
+S
+#8893
+A Sandy Arena~
+The stairs open onto a large chamber, a yellow stone affair with a
+high domed roof supported by iron statues of jackal, ibis and leopard,
+standing on their hind legs and supporting the roof with upraised arms
+or their heads. Strange black tendrils of magical energy writhe around
+and between the statues, radiating cold and evil. Only the southern wall
+is devoid of trappings or tendrils. The sand on the floor is stained 
+crimson with blood, and is littered with dozens of half devoured corpses
+in various states of decomposition. What manner of vile beast would lair
+here?
+~
+0 3153929 0
+D2
+~
+wall~
+1035 0 8894
+> act_prog p from below.~
+mea $n A sliding panel closes the stairway behind you as you enter!
+~
+|
+S
+#8894
+Corridor of Peril~
+You pass from the dry heat of the arena into the damp chill of a 
+narrow tunnel, the likes of which you had grown accustomed to in the
+earlier sections of the dungeon. The walls are of black stone, slick with
+moisture and various growths. A dull, booming sound reverberates through
+this section of the corridor, and you begin to detect the unmistakable
+stench of Chaos in all of this.
+~
+0 3220105 0
+D0
+~
+wall~
+1035 -1 8893
+D2
+~
+~
+0 -1 8895
+S
+#8895
+The Final Curtain?~
+The tunnel ends here, suddenly and without warning, in a dead end. 
+Only a thick purple curtain is of note; the rest of the area is without
+interesting features. The booming sound is louder now, and the laughter
+has returned, high-pitched and maniacal. Waves of nausea pass over you as
+you stand here, and you double over, clutching at your stomach, hoping 
+the sensation will pass. It doesn't. Gritting your teeth, you look for a
+way to continue.
+~
+0 3220105 0
+D0
+~
+~
+0 -1 8894
+D2
+~
+curtain~
+1035 -1 8896
+S
+#8896
+An Opulent Gaol~
+Flinging open the curtain, you stride forth not into the dismal
+lair you expected, but rather into a very well apportioned chamber,
+replete with lavish furnishings, ornate sculptures, intricately woven
+tapestries, and a sumptuous divan, upon which the "prisoner" of this
+chamber reclines. A pile of treasure has been shoved underneath the
+divan, and the glint of gold is an irresistible lure to investigate
+this place further. A large metal door, with an ugly iron lock, is
+subtlely concealed by gossamer veils and strips of soft cloths. 
+~
+0 0 1
+D0
+~
+curtain~
+1035 -1 8895
+D2
+~
+~
+8389671 8838 8897
+S
+#8897
+A Filthy Den~
+You had no idea what to expect, as you journeyed here in search of the
+mad mage, at the end of your quest, but you are certain that you certainly
+didn't expect Keraptis to be living in such abject squalor as this. Ruined
+furniture, draped with the shredded remains of moldering tapestries, fills
+the small, damp chamber, which drips constantly with water. Torn, stained
+carpet crunches underfoot as you crush broken glass into it. Torn spellbooks
+lie on the scorched remains of wooden bookshelves, lining each wall. A
+gaping hole in the west wall leads to another section of the study, while
+a similar wound in the stonework of the ceiling reveals a crumbling stair
+leading up- a possible escape from this lair if needed. Somewhere within 
+this mess lurks the mad mage himself, living up to his name at least.
+~
+0 3153929 0
+D0
+~
+~
+8389671 -1 8896
+D3
+~
+~
+0 -1 8898
+D4
+~
+~
+0 -1 8899
+S
+#8898
+A Fiery Chamber~
+The rubble strewn chamber revealed by the hole in the wall contains
+very little of interest, save for several small smoldering braziers,
+arranged at the points of a pentacle graven into the black stone floor.
+The air here is dry, and hot, hurting your throat as you gasp for breath.
+The unmistakable stench of sulfur compounds your breathing difficulties.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 8897
+S
+#8899
+The Crumbling Stair~
+A narrow, partially ruined staircase wends its way up here, through
+the hole and up towards a glowing, shimmering portal, through which 
+you see a very familiar sight. The air is dry here, and rather hot,
+causing pain when you gasp for breath. The stench of sulfur is strong,
+and you occasionally feel waves of heat, similar to those you felt in
+the heart of the volcano while battling the Crab. 
+~
+0 3153933 0
+D5
+~
+~
+0 -1 8897
+S
+#0
+
+
+#RESETS
+M 1 8802 1 8802
+D 0 8806 2 1
+M 1 8803 1 8807
+G 1 8812 1
+G 1 8820 1
+D 0 8807 0 2
+D 0 8808 0 1
+M 1 8804 1 8809
+D 0 8809 0 1
+D 0 8809 2 1
+D 0 8810 1 2
+D 0 8810 2 1
+D 0 8811 2 1
+D 0 8811 3 2
+D 0 8812 0 1
+D 0 8814 2 1
+D 0 8815 0 1
+D 0 8815 2 2
+M 1 8800 1 8816
+G 1 8803 1
+G 1 8804 1
+G 1 8805 1
+E 1 8806 1 12
+D 0 8816 0 2
+D 0 8823 1 1
+D 0 8824 0 1
+M 1 8801 1 8825
+G 1 8807 1
+O 1 8808 1 8825
+P 1 8809 1 8808
+P 1 8810 1 8808
+P 1 8811 1 8808
+P 1 8812 1 8808
+D 0 8825 2 1
+D 0 8827 0 2
+D 0 8828 0 2
+D 0 8828 2 2
+M 1 8806 1 8829
+O 1 8817 1 8829
+D 0 8829 2 2
+M 1 8807 2 8831
+M 1 8807 2 8833
+O 1 8819 1 8834
+O 1 8818 1 8834
+M 1 8805 1 8835
+E 1 8813 1 16
+E 1 8814 1 5
+E 1 8815 1 14
+E 1 8815 1 15
+E 1 8816 1 6
+D 0 8835 3 1
+M 1 8810 3 8842
+M 1 8810 3 8842
+M 1 8810 3 8842
+D 0 8843 2 1
+D 0 8844 0 1
+D 0 8846 0 1
+D 0 8847 2 1
+O 1 8844 1 8849
+M 1 8822 1 8856
+E 1 8830 1 11
+E 1 8831 1 5
+E 1 8832 1 8
+E 1 8833 1 16
+G 1 8834 1
+M 1 8814 2 8856
+E 1 8845 1 16
+E 1 8846 1 11
+E 1 8847 1 5
+M 1 8814 2 8856
+E 1 8845 1 16
+E 1 8846 1 11
+E 1 8847 1 5
+D 0 8856 2 2
+D 0 8858 0 2
+M 1 8823 1 8859
+E 1 8837 1 7
+E 1 8840 1 20
+D 0 8860 1 2
+M 1 8815 1 8861
+D 0 8861 2 2
+D 0 8861 3 2
+D 0 8862 0 2
+M 1 8811 6 8863
+M 1 8812 4 8864
+M 1 8811 6 8866
+M 1 8812 4 8869
+M 1 8811 6 8870
+M 1 8811 6 8873
+M 1 8812 4 8873
+M 1 8811 6 8875
+M 1 8811 6 8878
+M 1 8812 4 8878
+M 1 8813 6 8881
+M 1 8813 6 8883
+M 1 8813 6 8885
+M 1 8813 6 8887
+M 1 8813 6 8889
+M 1 8813 6 8891
+M 1 8821 3 8893
+M 1 8821 3 8893
+M 1 8821 3 8893
+D 0 8893 2 1
+D 0 8894 0 1
+D 0 8895 2 1
+M 1 8809 1 8896
+E 1 8824 1 16
+E 1 8825 1 1
+E 1 8826 1 2
+E 1 8827 1 5
+G 1 8828 1
+G 1 8829 1
+G 1 8838 1
+D 0 8896 0 1
+D 0 8896 2 2
+M 1 8808 1 8897
+E 1 8822 1 10
+E 1 8821 1 12
+E 1 8800 1 16
+E 1 8823 1 9
+D 0 8897 0 2
+M 1 8820 4 8898
+E 1 8842 1 14
+E 1 8843 1 16
+M 1 8820 4 8898
+E 1 8842 1 14
+E 1 8843 1 16
+M 1 8820 4 8899
+E 1 8842 1 14
+E 1 8843 1 16
+M 1 8820 4 8899
+E 1 8842 1 14
+E 1 8843 1 16
+O 1 8841 1 8899
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8800 spec_poison
+M  8801 spec_fido
+M  8802 spec_breath_fire
+M  8803 spec_breath_gas
+M  8806 spec_cast_mage
+M  8807 spec_poison
+M  8808 spec_cast_mage
+M  8809 spec_cast_mage
+M  8810 spec_poison
+M  8813 spec_poison
+M  8815 spec_cast_mage
+M  8820 spec_breath_fire
+M  8821 spec_poison
+M  8823 spec_cast_mage
+S
+
+
+#$

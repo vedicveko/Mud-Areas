@@ -1,0 +1,7185 @@
+#AREA   Asgard~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+40 50 10 65
+$
+
+#RESETMSG A horn, winded far away, echoes a long single note across Gladsheim.~
+
+#FLAGS
+0 
+
+#ECONOMY 0 210270799
+
+#MOBILES
+#12000
+heimdall~
+Heimdall~
+A towering guardian clad in brilliant white armor stands guarding Bifrost.
+~
+Sworn guardian of Bifrost, the rainbow bridge, Heimdall is stalwart,
+loyal and brave to a fault. Nothing save his utter destruction will 
+cause him to forsake his sworn duty.
+~
+3 20979884 1000 C
+48 0 0 1d1+17999 6d7+42
+1000000 0
+8 8 1
+22 13 13 22 22 13 13
+0 0 0 0 0
+90 3 0 0 36865 1 2
+0 0 2047 1048596 2100482 0 240 530439
+> all_greet_prog 100~
+if name($n) == loki
+scream
+Say Loki! My mortal enemy! You will perish for daring to come here!
+mpforce loki snarl
+mpforce loki cackle
+say Die!
+murder loki
+else
+if isimmort($n)
+bow $n
+say Welcome, immortal, to Asgard.
+else
+if ispc($n)
+frown
+say Mortal, know you stand before the home of the Aesir.
+say Mind that you act in a manner befitting a creature of Law, and
+say not in a manner that would befit a giant or other foul beasts.
+flex
+else
+cough
+endif
+endif
+endif
+~
+> fight_prog 40~
+wield hofud
+disarm
+if rand(10)
+, brings Gjaller to his lips and winds it, alerting all of Valhalla!
+yell $n is attempting to invade us! To arms, Aesir!
+mpe _whi A thunderous cry can be heard from the far side of Bifrost.
+mpasound A thunderous cry can be heard from the far side of Bifrost. 
+mpe _red A burly berserker warrior charges to aid Heimdall!
+mpmload 12012
+mpforce berserker scream
+mpforce beserker murder $n
+endif
+~
+|
+#12001
+thor~
+Thor~
+A heavily muscled man clad in black and gold armor roars with laughter.
+~
+God of thunder and slayer of the mortal enemies of Asgard, the frost
+and fire giants, his name alone is enough to inspire the friends and
+cast dread into the hearts of the enemies of Asgard.
+~
+3 71836328 800 C
+51 0 0 1d1+16000 10d10+100
+1000000 0
+8 8 1
+25 13 13 13 25 13 13
+-22 -22 -22 -22 -22
+0 3 0 0 32769 1 2
+0 0 1791 1048666 2104580 32 16 524291
+> all_greet_prog 100~
+if ispc($n)
+say Ho! Hark, mortal! You are a long way from home, in truth!
+mpe Thor's booming laughter echoes about his home.
+mpasound Booming laughter echoes around the dwelling.
+say What is it you require from me, resident of Midgaard?
+else
+mpforce $n e
+endif
+~
+> fight_prog 75~
+wield mjolnir
+if rand(10)
+, twirls his hammer thrice about his head, and slams it into the ground!
+c earthquake
+else
+if rand(20)
+mea $r A surge of lightning shoots forth from Mjolnir, striking you!
+mpechoar $r $r screams as a blast of lightning strikes them!
+c 'lightning breath' $r
+cackle
+else
+if rand(25)
+say You dare invoke the wrath of a GOD!?!
+mea $n Thor hurls Mjolnir at you, bouncing the Uru hammer off your chest!
+mechoar $n Thor hurls Mjolnir at $n, who is struck in the chest by the hammer!
+stun
+else
+if rand(30)
+, launches into a berserk assault!
+kick
+punch
+gouge
+disarm
+cackle
+else
+if rand(35)
+mpe _blu A multitude of small lightning bolts surge forth from Mjolnir.
+c 'lightning bolt' $n
+c 'lightning bolt' $r
+else
+endif
+endif
+endif
+endif
+endif
+~
+> act_prog p lightning bolt misses you.~
+mea $n Your lightning bolt is reflected back at you!
+mpdamage $n 125
+~
+> fight_prog 15~
+yell Tanngrisner! Tanngjost! Aid me against my foes!
+mptrans tanngrisner
+mpforce tanngrisner murder $n
+mptrans tanngjost
+mpforce tanngjost murder $n
+~
+|
+#12002
+odin~
+Odin~
+A bearded, one eyed man clad in heavy armor sits upon the throne.
+~
+Supreme ruler of the Gods, Odin is by far the most powerful and wise of
+their lot, and is respected accordingly. He is a brave, honest and inspiring
+god who genuinely cares about those who worship him, even if his gruff exterior
+may oft indicate impassiveness or downright disdain.
+~
+3 390078652 500 C
+55 0 0 1000d3+19999 12d8+60
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 1 0 0 32773 1 3
+0 0 2047 8272 3153807 0 201409024 524423
+> all_greet_prog 100~
+if inroom($i) == 12099
+mea $n As you enter, Odin regards you with a deep, knowing gaze.
+hmm
+say Mortal, you have trespassed 'pon Valkaskialf, my private domain.
+say State your business, and quickly; else, begone from my sanctum.
+else
+if inroom($i) == 12098
+mea $n Odin turns to regard you as you come before him.
+say Welcome, mortal, to Gladshelf; you are free to remain, providing 
+say that you remain silent and leave me to my contemplation.
+else
+if inroom($i) == 12097
+mutter
+say Mortal, you have trespassed 'pon my Council Hall. State what it is
+say that brings you here, and be brief and quick.
+glare $r
+else
+say Greetings, $n. Heed me not, I am merely observing the goings on of the worl
+endif
+endif
+endif
+~
+> rand_prog 2~
+if inroom($i) == 12099
+say I must depart for my Council Chambers.
+, waves an arm and disappears!
+mpgoto 12097
+, appears in the room and mutters to himself.
+else
+if inroom($i) == 12097
+say Methinks I shall retire to Gladshelf for a spell.
+, utters an incantation, and steps through a portal, which closes behind him.
+mpgoto 12098
+smile
+else
+if inroom($i) == 12098
+nod
+say I desire to return to my private hall. Sleipner, heed my call!
+mpe An eight legged steed suddenly appears!
+, mounts Sleipner, and rides off.
+mpgoto 12099
+, rides into the room upon Sleipner, dismounts and dismisses his steed.
+else
+say I must needs depart for home!
+mpgoto 12099
+endif
+endif
+endif
+~
+> fight_prog 100~
+wield gungnir
+if rand(10)
+mea $n Odin raises his spear, and points it at you. Terror grips your heart!
+mpechoar $n Odin points Gungnir at $n, who shivers and trembles in fear.
+mpforce $n flee
+endif
+if rand(10)
+mpgoto $i
+c 'frost breath' $r
+endif
+~
+> fight_prog 50~
+if rand(50)
+yell Sleipner, my faithful steed, aid me against $r!
+mptrans sleipner
+mpforce sleipner murder $r
+else
+if rand(50)
+yell Freke, Gere, aid me in vanquishing $r!
+mptrans freke
+mptrans gere
+mpforce freke murder $r
+mpforce gere murder $r
+else
+endif
+endif
+~
+> give_prog dark heart fenris~
+gasp
+say You are truly a most remarkable mortal, $n
+bow $n
+say For your bravery, I award thee the Shield of the Aesir!
+smile
+mpjunk heart
+mpoload 12039 50
+give shield $n
+~
+|
+#12003
+sif~
+Sif~
+A woman clad in robes of silver practices with her swords.
+~
+A skilful and respected warrior, Sif is also known as the wife of Thor,
+and can often be seen dancing about her slower husband in mock battles
+they engage in to maintain their skills. She is an expert with all forms
+of weapons, thlough she favors twin sword style.
+~
+3 8872 400 C
+48 0 0 1d1+8000 8d8+40
+1000000 0
+8 8 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 3 0 0 32769 1 3
+0 0 1791 3145728 7424 0 544 524291
+> fight_prog 50~
+wield steel
+wield steel
+disarm
+gouge
+~
+> fight_prog 20~
+yell Thor! My husband! I am being attacked!
+mpat thor mpforce thor up
+mpforce thor emote roars in anger!
+mpforce thor scream
+mpforce thor yell $n, you die for touching my wife!
+mpforce thor murder $n
+~
+|
+#12004
+frey~
+Frey~
+A handsome, long haired elf stands here smiling happily.
+~
+Frey is a Vanir, and ruler of Alfheim, the domain of the elves. His
+parents were Njord and Skadi; thus he differs from most of the Gods,
+who are Aesir. A handsome, noble god, Frey is the epitome of the people
+who live under his rule and worship him.
+~
+3 4727464 600 C
+52 0 0 1d1+19999 9d4+72
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 2 0 0 32771 1 3
+0 0 1791 1048684 3153153 0 1342177792 515
+> all_greet_prog 100~
+if name($n) == skirnir
+smile
+say Ahh, my companion Skirner; how may I help thee old friend?
+else
+if name($n) == fire giant
+scream
+yell Enemy of the Vanir and Fey! Feel my wrath!
+mpslay $n
+mutter
+else
+if race($n) == elf
+smile
+bow
+say Greetings, elf. Welcome to Alfheim, and my domain.
+c bless $n
+else
+if ispc($n)
+say Greetings, $n. Mind you remain peaceful within my realm!
+wink
+ruffle $n
+else
+endif
+endif
+endif
+endif
+~
+> fight_prog 75~
+if name($n) == skirnir
+say My friend! What have they done to you?
+cry
+say Leave me, I shall dispel the enchantment surrounding you!
+mpforce $n nod
+mppurge skirnir
+snarl
+say Now, as for YOU who did this to him...
+c gas
+endif
+if rand(10)
+mpe _yel $I swings his sword thrice about his head, causing a brilliant glow
+mpe _yel to fill Alfheim. You suddenly feel a great deal of discomfort...
+mpdamage $n 400
+mpdamage $r 400
+else
+if rand(20)
+say Frost and Fire, integral to our world, aid me against my foe!
+c 'frost breath' $r
+c 'fire breath' $r
+else
+if rand(25)
+disarm
+gouge
+mpdamage $r 125
+else
+if rand(30)
+c weaken $r
+c 'faerie fire' $r
+c blindness $r
+c blazebane $r
+else
+c chill $r
+c chill $r
+c chill $r
+endif
+endif
+endif
+endif
+~
+> rand_prog 100~
+wield frey
+mprestore self 50
+~
+> fight_prog 100~
+wield frey
+~
+> fight_prog 25~
+yell Blodug-Hofi! Come, I am in need of you!
+mpat blodug-hofi mpforce blodug-hofi east
+mpforce blodug-hofi emote comes charging to his master's aid!
+mpforce blodug-hofi murder $n
+~
+> rand_prog 5~
+if ispc($r)
+   if sex($r) == 2
+   wink $
+   c 'restore mana' $r
+   endif
+endif
+~
+|
+#12005
+freya~
+Freya~
+A beautiful elven woman clad in well crafted armor smiles coyly.
+~
+The beautiful twin of the handsome Vanir Frey, Freya is the god of all
+things associated with love, lust and fertility (especially the good 
+bits :P). A mighty spellcaster as well as a mighty lover, Freya is 
+equally famous for her victories on the battlefield as in the bedchamber.
+Freya is leader of the Valkyries, and often accompanies them.
+~
+3 38281384 600 C
+51 0 0 1d1+15999 7d7+50
+1000000 0
+8 8 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 0 0 0 32771 1 3
+0 0 1791 1048576 2108673 0 1543503872 642
+> fight_prog 60~
+if isnpc($n)
+say You don't really want to fight me, do you?
+mpforce $n shake
+smile
+wave $n
+mptrans $n 12024
+else
+if rand(10)
+yell Valkyries! Aid me in my battle!
+mpforce valkyrie murder $n
+else
+if rand(15)
+say Witness my command of fire, $n!
+c blazebane $n
+c fireball $n
+c flame $n
+c 'fire breath' $n
+mpechoar $n $n bursts into flames!
+mpdamage $n 200
+else
+if rand(20)
+, throws spells randomly about the area!
+c 'faerie fire' $r
+c weaken $r
+c blindness $r
+c unravel $r
+c blazebane $r
+c curse $r
+else
+if rand(25)
+, unleashes a volley of minor but potent magicks!
+c 'magic missile' $r
+c 'galvanic whip' $r
+c 'black fist' $r
+c 'acetum primus' $r
+c 'sulfurous spray' $r
+else
+disarm
+gouge
+endif
+endif
+endif
+endif
+endif
+~
+> all_greet_prog 100~
+if name($n) == valkyrie
+smile
+say Welcome home, my servant... now there is another service I require...
+wink $n
+mpforce $n blush
+mpforce $n giggle
+else
+if name($n) == fire giant
+scream
+say GIANTS! IN ALFHEIM!
+mpslay $n
+mutter
+else
+if race($n) == elf
+wink $n
+say Welcome, Faeriekin, to the home of all Faerie.
+say Stay, and "entertain" me a while...
+mea $n She doesn't seem too particular about gender or appearance...
+else
+smile $n
+say Welcome, stranger, to Alfheim. Pray be on your best behaviour!
+endif
+endif
+endif
+~
+|
+#12006
+loki~
+Loki~
+A wiry, black haired man slinks past you.
+~
+Blood brother of Odin, Loki is a cruel, manipulative trickster and
+schemer, constantly at odds with the other gods, and usually banished
+or outcast because of it.
+~
+193 21602474 -1000 C
+51 0 0 1d1+17000 11d4+80
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 -10 -10
+90 2 0 0 32769 1 3
+0 0 1791 0 3153152 0 1107301440 524291
+> act_prog p DISARMS you!~
+snicker
+mpe Loki flips the weapon into the air as it is removed, and catches it again!
+wield ebony
+wink $n
+~
+> rand_prog 2~
+sneak
+hide
+mpat 3 c invis
+mpat 3 wield ebony
+~
+> fight_prog 10~
+mpgoto $i
+murder $r
+circle $r
+~
+> fight_prog 33~
+gouge
+disarm
+disarm
+~
+|
+#12007
+hel~
+Hel~
+A woman whose face is a visage of youth and decrepitude glares at you.
+~
+One side of Hel's face is that of a comely, attractive maiden who eyes
+you with obvious lust (regardless of your gender or race); the other half
+is of a withered old crone who glares balefully at all.
+~
+3 371196584 -200 C
+53 0 -300 50d50+17500 20d5+66
+1000000 0
+8 8 2
+20 20 20 20 20 20 20
+0 0 0 0 0
+90 1 0 0 1 1 4
+0 0 1791 8224 3153807 0 1109397504 524359
+> all_greet_prog 100~
+if isimmort($n)
+say One day your soul too shall be mine, $n...
+cackle
+else
+if ispc($n)
+cackle
+say Welcome, mortal, welcome ...to HELL!
+muhaha
+say May Niflheim devour your soul and damn you here for all eternity!
+, utters an unearthly incantation, and strikes at you!
+c earthquake
+else
+endif
+endif
+~
+> fight_prog 10~
+c 'frost breath' $r
+c 'lightning breath' $r
+cackle
+~
+> fight_prog 20~
+c 'winter mist' $r
+c 'charged beacon' $r
+~
+> death_prog 20~
+mpe _dch As $I dies, a small burst of black light escapes from her grasp.
+mpoload 12017 
+drop taint
+~
+> act_prog flees~
+yell You cannot escape your fate, $n!
+mpe _red Hel utters an incantation, and $n is dragged back by two demons!
+mpat 0.$n mea 0.$n Two small demons grab ahold of you and drag you back to Hel!
+mpat 0.$n mpechoar 0.$n $n is dragged away screaming by two demons.
+mptrans 0.$n
+cackle
+say NOW I shall give you something to be TRULY afraid of!
+c gas
+~
+|
+#12008
+jormungand serpent~
+Jormungand~
+The massive head of a serpent of infinite size arises from the waters.
+~
+~
+97 6292136 -1000 C
+55 0 -300 50d80+26000 12d6+80
+1000000 0
+8 8 1
+25 13 13 13 25 13 13
+0 0 0 0 0
+62 3 0 0 1024 1024 2
+0 0 8585257 590 3149249 0 303361 2
+> fight_prog 10~
+mpe $I's amazing regenerative powers heal many of his wounds, as you watch!
+mprestore self 500
+~
+> hitprcnt_prog 10~
+, redoubles his efforts, aware of how close to death he is.
+c gas
+~
+> death_prog 100~
+mpe As the mighty world serpent writhes and dies, a scale is torn loose.
+mpoload 12023
+drop scale
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+c 'acid breath' $n
+endif
+~
+|
+#12010
+frigga~
+Frigga~
+A beautiful woman clad in flowing robes stands staring out the window.
+~
+The wife of Odin and goddess of the atmosphere, Frigga is a beloved and
+caring deity, often invoked by women seeking a marriage. Her temper is
+quick, however, and her power great.
+~
+35 336077480 700 C
+50 0 0 1d1+14999 2d20+40
+1000000 0
+8 8 2
+20 20 20 20 20 25 25
+0 0 0 0 0
+90 5 0 0 32769 1 2
+0 0 1791 233 3149574 0 1218531328 134
+> fight_prog 10~
+if isnpc($n)
+say Raise not your hand against Frigga, creature!
+mpforce $n flee
+endif
+yell Come Fulla, come Vara, come Lofon, come Vor! Valkyries aid me!
+mpe A valkyrie appears in the room, ready to protect her mistress.
+mpmload 12018
+mpforce valkyrie murder $r
+~
+> all_greet_prog 100~
+if isnpc($n)
+mpforce $n grovel
+mpforce $n drool
+else
+glare $n
+say You dare intrude upon my private bedchambers?
+mpe $I's eyes flash in anger, and within them you see the power of the air.
+endif
+~
+|
+#12011
+tyr~
+Tyr~
+A one handed god rests here in silent meditation.
+~
+Honred as God of trust and law for his selfless actions with Fenris,
+Tyr is probably the most respected of the Aesir, if not one of the more
+powerful.
+~
+3 2106024 1000 C
+50 0 -200 1d1+14500 8d8+66
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 3 0 0 32769 1 3
+0 0 1727 3146240 15616 0 304 2621447
+> act_prog p DISARMS you!~
+wield tyr
+disarm
+stun
+~
+|
+#12012
+berserker~
+a berserker~
+An enraged berserker foams at the mouth.
+~
+~
+97 512 0 C
+38 0 0 40d10+800 4d4+20
+0 0
+8 8 1
+20 6 6 20 20 6 6
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 47 2105090 1048576 0 656 2
+> fight_prog 20~
+drool
+stun
+bash
+mpdamage $n 33
+~
+|
+#12013
+hugin raven~
+Hugin~
+A black feathered raven perches here, eyeing you cautiously.
+~
+These ravens are used by Odin as scouts and messengers. Loyal and highly
+intelligent, they are invaluable allies to the God.
+~
+3 21537320 200 C
+30 0 -200 60d10+600 1d10+10
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 2 0 0 1 1 0
+0 0 553944105 0 3072 0 3 2
+> rand_prog 2~
+, caws loudly.
+~
+> fight_prog 10~
+mea $I pecks you viciously, right near your eye!
+gouge
+~
+|
+#12014
+munin raven~
+Munin~
+A black feathered raven perches here, eyeing you cautiously.
+~
+These ravens are used by Odin as scouts and messengers. Loyal and highly
+intelligent, they are invaluable allies to the God.
+~
+3 21537320 200 C
+30 0 -200 60d10+600 1d10+10
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 2 0 0 1 1 0
+0 0 553944105 0 3072 0 3 2
+> fight_prog 10~
+, screeches loudly and flaps madly in your face!
+gouge
+~
+|
+#12015
+freke wolf~
+Freke~
+A huge black wolf with a grey muzzle sniffs at you suspiciously.
+~
+Faithful pets of Odin, these giant black wolves are used by him to punish
+sinful mortals, or to scout out the movements of his enemies.
+~
+3 41640 200 C
+42 0 0 20d20+1000 10d2+20
+0 0
+8 8 2
+22 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 513 512 3
+0 0 167839292 0 3072 0 3 2
+> fight_prog 20~
+bite
+bite
+bite
+gouge
+~
+|
+#12016
+gere~
+Gere~
+A huge black wolf with a grey muzzle sniffs at you suspiciously.
+~
+Faithful pets of Odin, these giant black wolves are used by him to punish
+sinful mortals, or to scout out the movements of his enemies.
+~
+3 41640 200 C
+42 0 0 20d20+1000 10d2+20
+0 0
+8 8 2
+22 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 513 512 3
+0 0 167839292 0 3072 0 3 2
+> fight_prog 20~
+bite
+bite
+bite
+gouge
+~
+|
+#12017
+sleipner~
+Sleipner~
+A muscular, eight legged horse waves its legs about nervously.
+~
+This noble beast carries Odin, and people whom he bestows the honour upon,
+across any plane or place, to his or her destination in mere seconds.
+~
+262147 268960424 600 C
+46 0 -120 2d100+4000 7d3+30
+0 0
+8 8 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 513 512 4
+0 0 100664893 0 3153155 0 417 70
+> fight_prog 20~
+c heal
+c 'dispel magic' $n
+stun
+bash
+kick
+kick
+kick
+kick
+kick
+~
+> act_prog p mounts you.~
+if name($n) == odin
+else
+, whinnies in anger!
+mea $n Sleipner hurls you from his back, and kicks you savagely!
+mpforce $n dismount
+mpechoar $n Sleipner kicks $n savagely with six legs!
+mpdamage $n 275
+mpforce $n wince
+endif
+~
+|
+#12018
+valkyrie~
+a valkyrie~
+A muscular woman clad in glowing armor glares at you.
+~
+These are the chosen servants of Odin and Frigga, who escort the souls
+of those slain in battle to Valhalla, where they become members of the
+Einheriar.
+~
+3 631466 1000 C
+44 0 0 10d20+2000 5d5+25
+0 0
+8 8 2
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 47 0 2104576 0 560 524290
+#12019
+norn urd~
+Urd~
+The Norns tend to Yggdrasil, the Tree of Life.
+~
+The norns tend to Yggdrasil, and also dispense wisdom, on occasion;
+usually in the form of cryptic responses. They know the fate of all
+mortal men, being able to see past, present and future all at once.
+~
+3 369631912 0 C
+46 0 -100 10d10+3990 10d2+20
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 11264 0 1109397504 2
+> fight_prog 50~
+if isnpc($n)
+mpe $I unleashes a withering array of spells, destroying $n!
+mpslay $n
+else
+if rand(30)
+c fireball
+c sul
+c 'acid blast'
+c 'faerie fire'
+else
+if rand(15)
+c 'dispel magic' $r
+else
+if rand(40)
+c 'magic missile'
+c galvanic
+c 'lightning bolt'
+c blindness
+else
+endif
+endif
+endif
+endif
+~
+|
+#12020
+verdandi norn~
+Verdandi~
+The Norns tend to Yggdrasil, the Tree of Life.
+~
+The norns tend to Yggdrasil, and also dispense wisdom, on occasion;
+usually in the form of cryptic responses. They know the fate of all
+mortal men, being able to see past, present and future all at once.
+~
+3 369631912 0 C
+46 0 -100 10d10+3990 10d2+20
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 11264 0 1109397504 2
+> fight_prog 50~
+if isnpc($n)
+mpe $I unleashes a withering array of spells, destroying $n!
+mpslay $n
+else
+if rand(30)
+c fireball
+c sul
+c 'acid blast'
+c 'faerie fire'
+else
+if rand(15)
+c 'dispel magic' $r
+c 'dispel magic' $r
+c 'dispel magic' $r
+else
+if rand(40)
+c 'magic missile'
+c galvanic
+c 'lightning bolt'
+c blindness
+else
+endif
+endif
+endif
+endif
+~
+|
+#12021
+skuld norn~
+Skuld~
+The Norns tend to Yggdrasil, the Tree of Life.
+~
+The norns tend to Yggdrasil, and also dispense wisdom, on occasion;
+usually in the form of cryptic responses. They know the fate of all
+mortal men, being able to see past, present and future all at once.
+~
+3 369631912 0 C
+46 0 -100 10d10+3990 10d2+20
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 47 0 11264 0 1109397504 2
+> fight_prog 50~
+if isnpc($n)
+mpe $I unleashes a withering array of spells, destroying $n!
+mpslay $n
+else
+if rand(30)
+c fireball
+c sul
+c 'acid blast'
+c 'faerie fire'
+else
+if rand(15)
+c 'dispel magic' $r
+c 'dispel magic' $r
+c 'dispel magic' $r
+else
+if rand(40)
+c 'magic missile'
+c galvanic
+c 'lightning bolt'
+c blindness
+else
+endif
+endif
+endif
+endif
+~
+|
+#12022
+goat tanngrisner~
+Tanngrisner~
+A massive white goat nibbles at some fresh grass.
+~
+~
+3 533120 400 C
+42 0 0 40d40+200 8d2+20
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 2
+0 0 101779004 0 3072 0 800 2
+#12023
+goat tanngjost~
+Tanngjost~
+A massive black goat nibbles at some fresh grass.
+~
+~
+3 533120 -400 C
+42 0 0 40d40+200 8d2+20
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 2
+0 0 101779004 0 3072 0 672 2
+#12024
+magni~
+Magni~
+A child of about eleven sits here lifting stone monoliths for practice.
+~
+Magni, the son of Thor, is the strongest being ever, stronger even than
+his father. There is nothing he cannot lift, including Mjolnir.
+~
+3 8832 1000 C
+49 0 0 1d1+7999 6d6+80
+1000000 0
+8 8 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+90 3 0 0 1 1 0
+0 0 1791 0 2104592 0 400 2
+> fight_prog 33~
+wield hammer
+disarm
+mea $n Magni slams a fist the size of a small dog into your stomach!
+mpdamage $n 400
+cackle
+c earthquake
+~
+|
+#12025
+garm~
+Garm~
+A huge, hideous wolflike being stands before the gates of Hel.
+~
+~
+35 33563176 -500 C
+48 0 0 100d2+4750 6d8+40
+0 0
+8 8 1
+25 13 13 22 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 2
+0 0 168101433 0 2099457 0 266499 2
+> fight_prog 20~
+, bares his huge fangs and bites!
+mpdamage $n 125
+~
+> death_prog 100~
+if inroom($i) == 12181
+mpe As Garm perishes, the gates swing open.
+mpopenpassage 12180 12181 2
+else
+endif
+~
+> rand_prog 50~
+mpclosepassage 12180 2
+~
+|
+#12026
+durin smith~
+the Smith~
+The greatest of the Durin smiths stands here.
+~
+This burly dwarf has muscles of iron, and fists that can bend tempered
+steel. He is inured to the blistering heat of his forge, and can work
+unbothered for several weeks without rest.
+~
+3 8872 400 C
+48 0 0 11d50+2200 3d8+40
+100000 0
+8 8 1
+25 13 13 13 25 13 13
+0 0 0 0 0
+2 3 0 0 4 4 3
+0 0 47 0 3153153 0 144 524291
+> give_prog scale jormungand~
+gasp
+say Incredible! You slew the world serpent? Truly, you are a great hero.
+say Well, I can forge this into a suit of powerful armor, for a price of
+say course!
+wink $n
+say Say....20 million coins of your gold....
+if goldamt($n) > 20000000
+say Which you have on you right now! Excellent!
+mpforce $n give 20000000 coins $i
+mpecho The smith gets to work, and returns sometime later with a suit of armor.
+mpoload 12024 46
+give armor $n
+mpat 2 drop 20000000 coins
+mpjunk scale
+smile
+else
+say Which you don't seem to have.
+give scale $n
+shrug
+endif
+~
+> fight_prog 20~
+stun
+~
+> rand_prog 2~
+whistle
+mpe $I holds a newly finished blade up to the light, inspecting it closely.
+mpasound The clink of hammer on steel echoes from nearby.
+~
+> all_greet_prog 100~
+if isnpc($n)
+bow $n
+else
+eye $n
+say You are a stranger to this realm, Midgaardian.
+say What do you want? Do you have materials you want forged?
+endif
+~
+|
+#12027
+fjalar durin~
+Fjalar~
+A mighty dwarf stands here, weapons ready.
+~
+Hero of the Durin race, Fjaler stands ready to defend them from the
+scourge of Jotunheim. Using his magical gauntlets, Fjalar can deliver
+blows of incredible strength and speed.
+~
+65 8872 300 C
+46 0 -100 50d50+8000 9d5+72
+750000 0
+8 8 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+2 3 0 0 4 4 3
+0 0 1791 1048592 2104576 0 592 524291
+> greet_prog 100~
+if name($n) == frost giant
+yell Lackey of Thrym! You err in daring to invade this place!
+murder frost
+else
+if name($n) == fire giant
+yell Murderous slave of Surtur! You will die for your trespass!
+murder fire
+else
+if race($n) == dwarf
+smile
+bow $n
+say Welcome fellow dwarf, fair tidings and peaceful journeys to ye.
+else
+snarl
+mutter
+say MORE strangers!
+endif
+endif
+endif
+~
+> fight_prog 33~
+mea $n $I slams his gauntleted fist into you, hurting you badly!
+mpdamage $n 200
+mpforce $n puke
+chuckle
+say Can't hold ye ale in a fair fight, eh?
+wink
+~
+> fight_prog 15~
+stun
+~
+> hitprcnt_prog 20~
+mprestore self 100
+~
+> rand_prog 2~
+mprestore self 100
+~
+|
+#12028
+blodug-hofi~
+Blodug-Hofi~
+A magnificent brown horse rears up as you come near.
+~
+The steed of Frey, it is a magnificent beast which serves its master
+loyally; even though it is no match for some of the greater enemies of
+the Vanir, it will still stand over its master until slain.
+~
+3 33596032 0 C
+40 0 0 20d30+1000 7d7+40
+0 0
+8 8 0
+22 13 13 22 22 13 13
+0 0 0 0 0
+86 3 0 0 2 2 3
+0 0 100730413 2097920 3073 2 161 2
+#12029
+gullin-bursti boar~
+Gullin-bursti~
+A massive boar grunts at your intrusion.
+~
+A gift from the dwarves, Gullin-Bursti the golden boar pulls Frey's
+chariot into battle, and aids him against his foes, usually giants or
+similar.
+~
+1 8832 0 C
+40 0 -122 20d30+1000 7d7+40
+0 0
+8 8 1
+22 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 2 2 2
+0 0 69207612 0 2112512 0 833 2
+> fight_prog 100~
+if rand(10)
+mpat 3 c heal
+else
+if rand(15)
+stun
+bash
+gouge
+else
+if rand(20)
+bite
+kick
+gouge
+else
+endif
+endif
+endif
+~
+|
+#12030
+valkyrie~
+a valkyrie~
+A muscular woman clad in glowing armor glares at you.
+~
+These are the chosen servants of Odin and Frigga, who escort the souls
+of those slain in battle to Valhalla, where they become members of the
+Einheriar.
+~
+3 631466 1000 C
+44 0 0 1d1+2000 1d15+35
+0 0
+8 8 2
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2 2 2
+0 0 47 0 2104576 0 560 2
+#12031
+balder~
+Balder~
+An incredibly handsome man smiles as you enter.
+~
+The God of beauty, Baldur's appearance is virtually irresistable to
+mortal females, who have often fallen under his spell, never to return
+to their previous lives. Be careful before agreeing to any of his pacts,
+however...
+~
+3 533160 800 C
+52 0 0 1d1+14999 6d6+60
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 7 0 0 32769 1 2
+0 0 1791 2105855 1055744 0 142622720 7
+> fight_prog 66~
+if sex($n) == 2
+say No female may do battle with me!
+mea $n Balder stares at you, and you lose the will to battle him.
+mpechoar $n $n drops her guard and leaves the room.
+mea $n You leave the room.
+mptrans $n 12062
+endif
+if rand(10)
+say Villianous foes, feel the wrath of an Aesir!
+c 'frost breath' $r
+else
+if rand(15)
+mpe Balder strikes the ground with his foot!
+c earthquake
+c earthquake
+else
+if rand(20)
+mpe Balder's beauty conceals his incredible ability in battle.
+gouge
+disarm
+stun
+else
+c 'chill touch' $r 
+endif
+endif
+endif
+~
+> all_greet_prog 100~
+if isnpc($n)
+mpforce $n e
+else
+if sex($n) == 2
+say Ho, what do we have here? What a beauty!
+t $n You are an incredibly beauty, I am honored to stand before you.
+bow $n
+c heal $n
+c sanc $n
+c elv $n
+t $n Tell me, do you wish to serve me in my holdings?
+else
+smile
+say Greetings mortal, and welcome to the council hall!
+endif
+endif
+~
+> speech_prog p yes~
+if sex($n) == 2
+t $n Excellent! Remove your worldly vestments and sit with me!
+mpforce $n remove all
+mpforce $n drop all
+t $n You won't be needing these!
+wink $n
+get all
+mpjunk all
+get all
+mpjunk all
+get all
+mpjunk all
+mpforce $n sit
+mpforce $n smile
+mpoload 12034
+else
+endif
+~
+> rand_prog 100~
+wield sword
+mprestore self 100
+~
+> act_prog p flees head over heels!~
+cackle
+mpat $n tell $n Coward! HA!
+wield sword
+mprestore self 500
+~
+> death_prog 100~
+if rand(40)
+mpe As Balder perishes, a piece of his essence slips free.
+mpoload 12035
+else
+endif
+~
+|
+#12032
+bragi skald~
+Bragi~
+A skald sits here strumming a golden harp.
+~
+Bragi is a peaceful god of music and poetry, and such is his influence
+that no mortal may commit an act of violence in his presence. His harp
+is a valued item, and he will not part with it, except for an exceptional
+reason.
+~
+3 533160 1000 C
+48 0 0 0d0+0 0d0+0
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 7 0 0 32769 1 3
+0 0 1791 0 1051648 0 0 0
+> rand_prog 2~
+mpasound You hear the clear tenor of an Aesir skald from nearby.
+~
+> all_greet_prog 100~
+if ispc($n)
+smile
+say Greetings, $n. Stay awhile, and listen to the stories of the Aesir.
+c refresh $n
+mea $n You suddenly feel peaceful and quite at ease.
+mpforce $n rest
+pat $n
+else
+endif
+~
+> rand_prog 2~
+say Harken, ye listeners, to the tale of Tyr, and the Fenris Wolf.
+, clears his throat and begins to chant.
+say When the wolf was captured, and the Durin made his chains,
+say he would not submit to wear them, else an Aesir offered a hand
+say to place in his mouth, which Tyr bravely did. When the chains
+say were affixed, Fenris tore off Tyr's right arm, but the chains
+say held, and Tyr's sacrifice allowed for the vile beast to be bound.
+~
+> rand_prog 2~
+say Listen now to the tale of Jormungand, vile serpent of the seas.
+say As you know, it is prohibited to destroy divine progency, and
+say so when the beast known as Jormungand was born, of Loki like
+say the Fenris Wolf, it could not be slain; more's the pity for
+say Loki's evil children cause us no end of trouble. So Odin 
+say cast it into the sea, where it grew to such an immense size
+say that it now encircles Midgaard, and there it will remain until...
+say Ragnarok...
+~
+> rand_prog 5~
+if ispc($r)
+c 'restore mana' $r
+c heal $r
+endif
+~
+|
+#12033
+fenris wolf~
+the Fenris Wolf~
+A wolf of mammoth proportions towers over you.
+~
+This "wolf" is actually the demonic offspring of Loki. Standing at over
+fifty feet high, it is a wonder that even the Aesir managed to capture it.
+They are not allowed to slay the offspring of a god, so they had to bind it
+here instead. Odin would not be displeased, however, were he to find out it
+was dead.
+~
+35 680 -1000 C
+55 0 -100 1d1+18999 22d5+80
+0 0
+8 8 1
+25 13 13 25 25 13 13
+-30 -30 -30 -30 -30
+69 3 0 0 512 512 3
+0 0 167839277 1114112 2112786 1 262211 2
+> fight_prog 5~
+mea $n $I opens its titanic maw wide, and snaps you up, swallowing you!
+mpechoar $n $I leaps upon $n and devours them in a single bite!
+mpdamage $n 800
+~
+> fight_prog 15~
+mea $n $I snaps at you with its titanic jaws!
+mpechoar $n $n screams as $I bites deep into $m!
+mpdamage $n 600
+~
+> fight_prog 20~
+c 'frost breath' $r
+~
+> fight_prog 25~
+mpgoto $i
+c 'frost breath' $r
+~
+> death_prog 100~
+mpe As the beast perishes, its dark heart explodes from its chest.
+mpe A voice screams in rage from somewhere far away.
+mpat loki mpforce loki mpat $n yell You shall pay for this, mortals!
+mpoload 12038
+drop heart
+if rand(10)
+mpe _lbl A voice says 'Ask to be taken to Odin to receive your reward'.
+endif
+~
+|
+#12034
+idun~
+Idun~
+A muscular Aesir woman clad in silvery armor stands here.
+~
+This stout ranger is loyal to her duty and to Odin, whom entrusted her
+the task many centuries ago. She will protect the apples until the day
+of Ragnarak, at which point it will no longer be necessary.
+Idun is also the beloved wife of Bragi, who can be found in the Chambers
+of the Aesir at most times.
+~
+65 101196456 400 C
+48 0 -100 200d20+12000 17d4+50
+1000000 0
+8 8 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 6 0 0 32769 1 3
+0 0 1791 3146247 3328 0 201327360 524295
+> rand_prog 100~
+wield spear
+mpat 3 c 'cure blindness'
+~
+> fight_prog 33~
+wield spear
+disarm
+bash
+~
+> all_greet_prog 100~
+smile
+if ispc($n)
+curtsey $n
+say Be at peace in the orchid of Asgard, $n.
+say But woe betide you should you seek to do it harm!
+endif
+~
+|
+#12035
+aegir sea god~
+Aegir~
+A massive man with a long grey beard cackles in glee.
+~
+Aegir is an enormous giant, over sixty feet tall, and almost as broad.
+He is a violent, unpredictable deity, whose cruelty is oft unmatched
+by any of those who stand with (or against even) the Aesir.
+~
+3 -1811414360 -400 C
+50 0 0 1d1+16999 8d10+60
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 3 0 0 32769 1 3
+0 0 1791 1048576 2104582 0 81920 524291
+> all_greet_prog 100~
+if isimmort($n)
+chuckle
+say Welcome, Immortal, to my palace.
+else
+growl
+say NO ONE enters my realm without permission, NO ONE!
+c 'lightning breath' $n
+endif
+~
+> fight_prog 66~
+wield club
+c earthquake
+c earthquake
+c earthquake
+~
+|
+#12036
+forseti~
+Forseti~
+Forseti, son of Balder, sits in judgement here.
+~
+~
+3 4727464 1000 C
+48 0 0 1d1+11999 8d5+60
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 1 0 0 335565995 335544321 3
+0 0 1791 0 2104320 0 201334800 524295
+> rand_prog 10~
+mprestore self 100
+wield justice
+if ispc($r)
+c know $r
+   if isevil($r)
+   say I deduce you to be of dark heart, $r... perish!
+      if isimmort($r)
+      else
+      murder $r
+      endif
+   else
+   smile $r
+   endif
+endif
+~
+> all_greet_prog 100~
+if isimmort($n)
+nod
+else
+if isevil($n)
+say Evil in the Halls of Justice! Your dogma will not be tolerated here!
+snarl
+, leaps up and draws his holy sword, striding forth intending to do battle.
+murder $n
+else
+nod
+say Welcome to Glitner, stranger. Be at peace under the guidance of Law.
+endif
+endif
+~
+|
+#12037
+skirnir shieldbearer~
+Skirner~
+A sturdy norse warrior stands ready to serve his master.
+~
+Frey's shieldbearer, Skirnir is a norse warrior whose dedication to
+his elven master is legendary.
+~
+65 8832 745 C
+38 0 -80 1d1+6999 4d4+30
+111111 0
+8 8 1
+20 13 13 20 20 13 13
+0 0 0 0 0
+0 6 0 0 1 1 2
+0 0 47 2100480 0 0 816 3
+> fight_prog 25~
+disarm
+wield two
+stun
+~
+> hitprcnt_prog 10~
+if inroom($i) == 12020
+, grits his teeth and redoubles his efforts!
+disarm
+bash
+gouge
+stun
+mpdamage $n 45
+else
+mpe Seconds before he is dealt a mortal wound, Skirnir disappears!
+mpgoto 12020
+say Frey! Master! Save me from the accursed adventurers!
+bleed
+endif
+~
+|
+#12038
+modi~
+Modi~
+A berserker warrior of incredible strength strides boldly past.
+~
+A son of Thor, Modi is the god of courage, as well as a patron of
+berserkers. It is said that if he is ever in dire straits, he can launch
+himself into a berserk rage of incredible magnitude.
+~
+65 8872 400 C
+50 0 0 1d1+9999 11d4+60
+1000000 0
+8 8 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+90 3 0 0 32769 1 4
+0 0 1791 1581056 2105090 0 432 2621443
+> fight_prog 75~
+if rand(50)
+mpat 3 c 'cure blindness'
+endif
+if rand(10)
+mea $n $I marshalls his strength and lands a devastating blow upon you!
+mpechoar $n $I marshalls his strength and smashes into $n!
+scream
+mpdamage $n 300
+stun
+else
+if rand(25)
+stun
+bash
+punch
+disarm
+gouge
+wield blade
+else
+mpat 3 c heal
+wield blade
+endif
+endif
+~
+> hitprcnt_prog 45~
+snarl
+yell You have not bested me yet, $n!
+, launches into a terrific berserker fury!
+mpe The effect is truly terrifying; you feel the urge to flee!
+mpforce $r flee
+mpforce $r flee
+mpforce $r flee
+cackle
+stun
+~
+> act_prog flees~
+mpat 0.$n t 0.$n Cowardly mortal! Flee while ye may, else I destroy thee!
+mpe $I hurls a hand axe at the back of fleeing $n.
+mpat 0.$n mea 0.$n A hand axe strikes you in the back!
+mpat 0.$n mpdamage 0.$n 125
+cackle
+~
+|
+#12039
+surtur~
+Surtur~
+A massive fire giant bellows in anger.
+~
+Lord of the fire giants of Jotunheim, and sworn enemy of the Aesir,
+Surtur is not a god as much as a giant of incredible stature and strength.
+Nevertheless he is a significant foe, such that few amongst the Aesir apart
+from Thor would challenge his wrath without ample precaution.
+~
+3 34087592 -1000 C
+46 0 0 1d1+12999 11d4+50
+1000000 0
+8 8 1
+25 13 13 25 25 13 13
+0 0 0 -23 0
+90 3 0 0 32768 32768 2
+0 0 1791 76 2100481 2 343933072 524291
+> all_greet_prog 100~
+if name($n) == fire giant
+say Kneel before your master, peon!
+mpforce $n kneel
+else
+if ispc($n)
+cackle
+Say Foolish mortal, know this- you have secured your doom!
+, roars in anger, and the very earth trembles!
+else
+endif
+endif
+~
+> fight_prog 66~
+if rand(10)
+, roars in anger, and large chunks of masonry fall from the ceiling!
+mpdamage $n 250
+mpdamage $r 250
+endif
+if rand(20)
+wield sword
+disarm
+stun
+else
+if rand(30)
+c blazebane $r
+else
+wield flaming
+endif
+endif
+~
+|
+#12040
+fire giant~
+a fire giant~
+A fire giant strides the halls of his master.
+~
+The beards and hair of these creatures are as fire, crackling and burning
+perpetually atop their reddish skin all over their muscular torsos. Their
+eyes glint with a low, but cunning and malicious, intelligence, and their
+arms bulge with the strength of ten humans.
+~
+65 512 -1000 C
+44 0 0 1d1+3999 5d5+30
+100000 0
+8 8 1
+22 13 13 13 22 13 13
+0 0 0 0 0
+6 3 0 0 16 16 0
+0 0 47 0 2097153 0 272 3
+#12041
+thrym~
+Thrym~
+A bearded, muscular frost giant hefts a massive axe.
+~
+Lord of the frost giants of Jotunheim, Thrym is a vile and evil being,
+and a sworn enemy of the Aesir and Vanir, and awaits Ragnarak, the day
+that the icy wastes will cover all of Gladsheim.
+~
+3 268968616 -1000 C
+50 0 0 20d50+7500 7d4+30
+1000000 0
+8 8 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+90 3 0 0 32768 32768 3
+0 0 1791 1049088 2100482 1 16528 524291
+> greet_prog 100~
+if name($n) == frost giant
+say Welcome, brother, to my home.
+cackle
+pat $n
+else
+if ispc($n)
+, roars in anger!
+say Mortals! In Jotunheim no less!
+say The nerve! Brothers to arms! We have intruders!
+, swings his axe in a wide circle, and strides forth to do battle.
+else
+endif
+endif
+~
+> fight_prog 33~
+if isnpc($n)
+say Strike me not, lesser creature!
+, punches $n in the face with tremendous strength!
+mpdamage $n 5750
+else
+if rand(40)
+c winter $r
+c 'frost breath' $r
+c chill $r
+stun
+disarm
+mpdamage $r 125
+else
+wield axe
+endif
+endif
+~
+|
+#12042
+frost giant~
+a frost giant~
+A frost giant stomps past you.
+~
+The beards and hair of these creatures are as ice, glistening coldly
+atop their pale blue skin all over their muscular, chilly torsos. Their
+eyes glint with a low, but cunning and malicious, intelligence, and their
+arms bulge with the strength of ten humans.
+~
+97 512 -1000 C
+44 0 0 1d1+3999 5d5+30
+100000 0
+8 8 1
+22 13 13 13 22 13 13
+0 0 0 0 0
+6 3 0 0 16 16 0
+0 0 47 0 2097154 1 272 3
+#12043
+vidar~
+Vidar~
+A strong, silent man strides the halls of Valaskialf.
+~
+The son of Odin and Frigga, Vidar is the god of silence and strength, and
+is a loyal ally of the Aesir, who know they can depend upon him. He is
+fearless, and dedicated to the destruction of evil wherever he may encounter
+it.
+~
+65 335553192 1000 C
+49 0 0 1d1+10999 6d6+40
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 3 0 0 32769 1 2
+0 0 1791 1179648 2104320 0 288 134
+> hitprcnt_prog 20~
+, stamps his iron shod feet down hard, sending tremors through the earth!
+c earthquake
+mpe _yel Noxious gases emerge from the cracks in the ground!
+c gas
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+if isevil($n)
+snarl
+say Scion of evil! Thou hast perpetuated thy last foul act!
+murder $n
+else
+mea $n $I ignores you, intent on other matters.
+endif
+endif
+~
+> fight_prog 10~
+if isnpc($n)
+mpe $I slams his iron shod feet into $n!
+mpdamage $n 1000
+endif
+~
+> fight_prog 10~
+mea $n $I slams his iron shod feet into you!
+mer $n $I slams his iron shod feet into $n!
+mpdamage $n 200
+kick
+kick
+kick
+~
+|
+#12044
+uller~
+Uller~
+A man clad in green buckskins jogs past.
+~
+~
+65 107176 400 C
+48 0 0 1d1+7999 7d7+30
+1000000 0
+8 8 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+90 6 0 0 32769 1 2
+0 0 1791 3 2100480 0 134218304 524290
+> all_greet_prog 100~
+if level($n) < 30
+smile $n
+vis
+say You are a little young to be wandering these places.
+say Let's have you back home, eh?
+mptrans $n talus
+else
+endif
+~
+> rand_prog 30~
+wield bow
+sneak
+hide
+mpat 3 c invis
+mpat 3 c 'cure blindness'
+mprestore self 100
+~
+> fight_prog 50~
+if isnpc($n)
+mpe $I sends an arrow flying into the chest of $n!
+mpdamage $n 800
+endif
+if rand(20)
+mea $n $I sends an arrow flying straight into your chest!
+mpdamage $n 100
+else
+if rand(45)
+disarm
+c blindness
+else
+stun
+wield bow
+endif
+endif
+~
+|
+#12045
+damned soul~
+a damned soul~
+A damned soul screams in eternal torment.
+~
+~
+97 34079392 -400 C
+42 0 0 40d20+800 6d3+20
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 4096 4096 0
+0 0 0 8224 2100480 1048578 1140859392 2
+> greet_prog 100~
+if ispc($n)
+, screams in anger, jealous of all that lives!
+else
+moan
+endif
+~
+|
+#12046
+einheriar~
+an Einheriar~
+A strong norse warrior roars in bloodlust!
+~
+The souls of those slain in battle and gathered by valkyries, the
+Einheriar do battle daily upon the bloodsoaked battlefield of Valhalla,
+being reborn daily to do battle again, all in preperation for Ragnarok,
+when they will march under the command of the Aesir against the giants
+of Jotunheim.
+~
+97 512 0 C
+38 0 0 20d50+1000 2d8+20
+0 0
+8 8 1
+20 6 6 20 20 6 6
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 47 2105090 1048576 0 592 524291
+> greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+murder $n
+else
+mpkill $n
+endif
+endif
+~
+|
+#12047
+sylvan elf~
+a sylvan elf~
+A slender elf flits silenty through the trees.
+~
+These slender but hardly elfin folk reside under the protection of 
+Frey, in the forests of Alfheim.
+~
+65 107008 500 C
+38 0 0 40d20+600 3d3+11
+10000 0
+8 8 1
+13 13 13 22 13 13 13
+0 0 0 0 0
+0 2 0 0 2 2 0
+0 0 1791 0 2100224 0 576 2
+> fight_prog 20~
+c 'faerie fire' $r
+c blindness $r
+c weaken $r
+~
+|
+#12048
+valkyrie~
+a valkyrie~
+An armored woman supervises the proceedings.
+~
+These are the chosen servants of Odin and Frigga, who escort the souls
+of those slain in battle to Valhalla, where they become members of the
+Einheriar.
+~
+3 631466 1000 C
+44 0 0 20d50+2000 5d5+30
+0 0
+8 8 2
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 47 0 2104576 0 624 2
+> greet_prog 100~
+if ispc($n)
+snicker
+say $n, I cannot guarantee your safety while you wander these fields.
+, snorts in derision.
+say Only a fool would wander a field full of berserk einheriar!
+cackle
+, slaps a nearby Einheriar upside the head.
+say Get your back into it!
+else
+if rand(25)
+say You call THAT a blow, moron? Bah! My MOTHER could do better!
+slap $n
+mutter
+else
+if rand(40)
+say Come on! FIGHT! How will you fare against the giants otherwise?
+roll
+else
+snarl
+say If you cannot fight properly, I shall show you how!
+mpforce $n cringe
+snicker
+endif
+endif
+endif
+~
+> rand_prog 25~
+c heal $r
+~
+|
+#12049
+electric eel~
+an electric eel~
+A writhing black creature alive with energy swims past.
+~
+This underwater menace is a hazard to ships as well as swimmers foolish
+enough to brave the icy depths; the powerful current it unleashes could
+fell a troll.
+~
+97 -2078277120 0 C
+42 0 0 1d200+2200 20d2+20
+0 0
+8 8 0
+13 13 13 22 13 13 13
+0 0 0 0 0
+81 3 0 0 1024 1024 0
+0 0 65568 0 6 0 1 2
+#12050
+giant crab~
+a giant crab~
+A crab the size of a horse scuttles past.
+~
+The thick shell of this sturdy crustacean makes it very difficult to
+damage, especially with stabbing weapons. The crab could crush a large
+human with little effort in those pincers.
+~
+101 -2147483136 0 C
+42 0 -200 200d10+2000 22d22+28
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1024 1024 0
+0 0 263204 0 34 16 642 2
+#12051
+shark great~
+the great shark~
+A monstrous white shark glides through the water.
+~
+One of the most feared and hated marine predators, sharks are at the
+best of times worthy opponents. This monster, however, is the size of
+three normal sharks, nearly thirty feet in length, and with several
+rows of teeth that could bite an armored knight in half like a twig.
+That is, if it didn't just swallow them whole...
+~
+97 -2145385944 -400 C
+44 0 0 40d20+3200 10d8+78
+0 0
+8 8 0
+22 13 13 22 13 13 13
+0 0 0 0 0
+81 3 0 0 1024 1024 0
+0 0 82976 64 2050 0 5 2
+> all_greet_prog 100~
+if ispc($n)
+mea $n The great shark is able to sense your presence!
+mea $n A dim malevolent intelligence gleams in its dead black eyes.
+endif
+~
+|
+#12052
+durin guard~
+a Durin guard~
+A stocky, muscular dwarf stands near the tunnel entrance.
+~
+The Durin are the most ancient and powerful of the dwarven races, 
+possessed of strength and skill far surpassing dwarves of later and
+earlier ages. Rigid and inflexible in their ways, they are unlikely
+to extend a great deal of hospitality to strangers.
+~
+3 512 200 C
+44 0 0 1d1+2999 5d5+20
+20000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 2
+0 0 2047 3149056 0 0 144 3
+> all_greet_prog 100~
+if name($n) == fire giant
+yell Thralls of Surtur come to make war! To arms, Durin!
+snarl
+murder $n
+else
+if name($n) == frost giant
+yell Lackeys of Thrym have invaded our homes! To arms, Durin!
+snarl
+murder $n
+else
+mpe The dwarf's hands tighten on his weapons as you approach.
+endif
+endif
+~
+> rand_prog 2~
+peer
+if ispc($r)
+poke $r
+say Move along, Midgaardian.
+endif
+~
+> fight_prog 20~
+wield hammer
+~
+|
+#12053
+durin miner ~
+a Durin miner~
+A Durin miner toils endlessly at the mineral rich rock.
+~
+The Durin are the most ancient and powerful of the dwarven races, 
+possessed of strength and skill far surpassing dwarves of later and
+earlier ages. Rigid and inflexible in their ways, they are unlikely
+to extend a great deal of hospitality to strangers.
+~
+3 512 200 C
+40 0 0 1d1+2999 5d5+20
+20000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 2
+0 0 2047 3149056 0 0 144 3
+> rand_prog 2~
+grunt
+~
+|
+#12054
+durin dwarf ~
+a Durin~
+A doughty dwarf strides boldly through the tunnels.
+~
+The Durin are the most ancient and powerful of the dwarven races, 
+possessed of strength and skill far surpassing dwarves of later and
+earlier ages. Rigid and inflexible in their ways, they are unlikely
+to extend a great deal of hospitality to strangers.
+~
+65 512 200 C
+40 0 0 1d1+2999 5d5+20
+20000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 2
+0 0 2047 3149056 0 0 144 3
+#12200
+final mobile~
+a newly created final mobile~
+Some god abandoned a newly created final mobile here.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#12000
+hofud~
+Hofud~
+A massive broadsword gleams in the crisp, clear light of dawn.~
+~
+5 8965184 8193
+0 0 0 3
+30 75000 7500
+A
+1 3
+A
+13 75
+A
+18 8
+A
+19 8
+#12001
+gjaller~
+Gjaller~
+A massive horn carved with scenes of the hunt lies here.~
+~
+9 8440896 16385
+9 0 0 0
+43 322332 32233
+A
+5 2
+A
+13 50
+A
+19 5
+#12002
+white armor brightness~
+Armor of Brightness~
+This suit of armor glows with a blinding white light.~
+~
+9 8965441 9
+30 0 0 0
+75 125000 12500
+A
+17 -50
+A
+1 1
+A
+5 1
+A
+31 1
+A
+13 100
+A
+12 100
+A
+18 7
+A
+19 7
+A
+23 -8
+> damage_prog 100~
+mpe _whi A sphere of light explodes from the armor as it is damaged.
+c 'continual light'
+c 'cure light' $n
+c refresh $n
+~
+> wear_prog 100~
+if isgood($n)
+mea $n You are encased in an aura of dazzling white light.
+mpe _whi A blinding aura of light suffuses $n.
+endif
+~
+|
+#12003
+mjolnir uru hammer~
+Mjolnir~
+A magnificent hammer of dwarven make is imbedded in the ground.~
+~
+5 8440897 8193
+0 0 0 8
+30 0 0
+A
+13 125
+A
+12 125
+A
+18 12
+A
+19 12
+A
+27 4
+#12004
+black and gold chainmail~
+black and gold chainmail~
+A suit of finely crafted chainmail lies on the floor.~
+~
+9 8440896 9
+20 0 0 0
+44 0 0
+A
+17 -30
+A
+18 6
+A
+19 6
+A
+20 -3
+A
+22 -3
+A
+21 -3
+A
+23 -3
+A
+24 -3
+#12005
+girdle meginjarder~
+Meginjarder~
+A rough leather girdle lies on the floor.~
+~
+9 25349184 2049
+12 0 0 0
+22 444522 44452
+A
+1 4
+A
+13 45
+A
+12 -75
+A
+18 3
+A
+19 4
+A
+21 -5
+> wear_prog 100~
+c kin $n
+c troll $n
+c val $n
+~
+|
+#12006
+jarn grieper glove~
+Jarn Grieper~
+A magical glove of leather and steel has been left here.~
+~
+9 25349440 129
+13 0 0 0
+12 50000 5000
+A
+2 3
+A
+13 25
+A
+18 7
+A
+19 5
+> wear_prog 100~
+c slink $n
+~
+|
+#12007
+gungnir spear~
+Gungnir~
+A long shaft of polished wood is stuck in the ground.~
+~
+5 8422728 8193
+0 0 0 11
+18 50000 5000
+A
+1 2
+A
+13 50
+A
+12 125
+A
+18 9
+A
+19 10
+#12008
+rune wand~
+Odin's Rune Wand~
+'Tis said that any mortal who dares grasp this wand will be slain.~
+~
+9 64 16385
+10 0 0 0
+45 120000 12000
+A
+13 200
+A
+12 200
+A
+18 10
+A
+19 10
+A
+24 -10
+> wear_prog 100~
+if isimmort($n)
+mpforce $n chuckle
+else
+if ispc($n)
+mpslay $n
+else
+endif
+endif
+~
+|
+#12009
+corselet mail~
+a corselet of mail~
+A suit of sturdy mail armor lies on the floor.~
+~
+9 8947008 9
+45 0 0 0
+100 100000 10000
+A
+17 -60
+A
+18 5
+A
+19 5
+A
+23 -5
+#12010
+helm odin~
+the Helm of Odin~
+A metal helm with but one eye hole rests here.~
+~
+9 8504384 17
+20 0 0 0
+4 74500 7450
+A
+4 4
+A
+12 50
+A
+13 50
+A
+18 -2
+A
+19 5
+A
+26 16777216
+#12011
+draupnir ring~
+Draupnir~
+A plain band of silver lies in a small pile of snow.~
+~
+9 8946754 3
+11 0 0 0
+3 150000 15000
+A
+2 1
+A
+1 1
+A
+13 30
+A
+18 3
+A
+19 3
+> sac_prog 100~
+mpe As Draupnir is destroyed, a twin appears on the ground.
+mpoload 12012
+drop twin
+~
+|
+#12012
+draupnir twin~
+Draupnir~
+A silver band lies on the ground.~
+~
+8 1 3
+0 0 0 0
+1 30000 3000
+#12013
+hlidskialf~
+Hlidskialf~
+Odin's All-Seeing throne, Hlidskialkf, rests in the center of the chamber.~
+~
+12 321 0
+0 0 0 0
+9999 3333333 333333
+> act_prog p sits down.~
+mea $n You are overwhelmed by sensation, as the whole world becomes 
+mea $n visible to you, all at once. It is too much for your mortal mind
+mea $n to comprehend!
+mpslay $n
+~
+|
+#12014
+necklace black opal~
+necklace of black opals~
+A necklace fashioned from huge black opals is here.~
+~
+9 1088 5
+12 0 0 0
+10 1000000 100000
+A
+12 40
+A
+18 4
+A
+19 4
+#12015
+norn dagger~
+a Norn dagger~
+A small dagger can be seen on the ground.~
+~
+5 99904 8193
+0 0 0 11
+1 1265443 126544
+A
+12 100
+A
+18 10
+A
+19 10
+A
+13 100
+A
+27 8192
+#12016
+disease sword~
+Disease~
+A thin, razor sharp sword lies on the ground.~
+~
+5 624146 8193
+0 0 0 11
+5 1200000 120000
+A
+1 -2
+A
+5 -2
+A
+13 75
+A
+12 125
+A
+18 10
+A
+19 10
+A
+27 256
+A
+56 33
+> wear_prog 100~
+if isneutral($n)
+mea $n You feel vaguely nauseous as you grasp the blade of Hel.
+mpdamage $n 100
+endif
+~
+|
+#12017
+taint hel~
+the taint of Hel~
+A glowing aura surrounds a small section of the floor.~
+~
+9 1554 17
+14 0 0 0
+5 0 0
+A
+13 60
+A
+12 60
+A
+18 6
+A
+19 5
+A
+27 1048576
+#12018
+chariot~
+Thor's chariot~
+A large chariot rests in one corner.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#12019
+hammer magni~
+Magni's hammer~
+A massive stone hammer rests here.~
+~
+5 64 8193
+0 0 0 0
+55 5000 500
+A
+18 7
+A
+19 11
+#12020
+steel sword~
+a steel sword~
+A finely crafted steel sword lies here.~
+~
+5 525312 8193
+0 0 0 3
+8 21220 2122
+A
+13 50
+A
+18 9
+A
+19 8
+#12021
+white silver robes~
+robes of white and silver~
+Robes of white and silver shimmer in the light.~
+~
+9 3136 1025 1
+22 0 0 0
+1 333333 33333
+A
+25 4
+A
+12 75
+A
+18 7
+A
+19 4
+#12022
+boots loki~
+black heeled boots~
+A pair of black, heeled boots rests here.~
+~
+9 16990816 65
+18 0 0 0
+3 5000 500
+A
+2 3
+A
+13 25
+A
+18 5
+A
+19 5
+A
+26 32768
+#12023
+scale jormungand~
+a scale of jormungand~
+A massive snake's scale lies on the ground.~
+~
+13 80 1
+0 0 0 0
+12 0 0
+#12024
+serpent armor jormungand hide~
+Armor of the Serpent~
+A suit of armor crafted from a scale of Jormungand lies here.~
+~
+9 262144 9
+20 0 0 0
+55 0 0
+A
+17 -40
+A
+13 100
+A
+18 7
+A
+19 7
+A
+27 145
+A
+23 -10
+#12025
+fjalar gauntlets iron~
+Gauntlets of Fjalar~
+A pair of plain iron gauntlets have been left here.~
+~
+9 25740352 129
+18 0 0 0
+33 500000 50000
+A
+1 2
+A
+2 -2
+A
+13 45
+A
+18 4
+A
+19 4
+> wear_prog 100~
+if isevil($n)
+else
+if race($n) != dwarf
+mea $n Only a descendant of the Durin may wear these gauntlets!
+mpforce $n rem $o
+else
+mea $n The gauntlets fit snugly on your hands.
+mer $n _whi $I is bathed in a dwarven blessing as $e dons the gauntlets.
+c bless $n
+endif
+endif
+~
+|
+#12026
+frey two handed broadsword sun~
+the Sword of the Sun~
+A massive two handed broadsword rests against one wall.~
+~
+5 527683 8193
+0 0 0 3
+33 2000000 1000000
+A
+31 2
+A
+25 2
+A
+13 100
+A
+12 100
+A
+18 10
+A
+19 10
+A
+23 -10
+A
+27 513
+> wear_prog 100~
+if isgood($n)
+mea $n _red A field of flame flickers briefly about the light blade.
+mer $n _red A field of flame flickers briefly about the light blade.
+if rand(10)
+c fireshield $n
+endif
+endif
+~
+> repair_prog 100~
+mpe _yel A brilliant light courses through Frey's sword as it is repaired.
+~
+> sac_prog 100~
+c sanc $r
+~
+|
+#12027
+brisingamen necklace~
+Brisingamen~
+A glowing metal necklace shimmers with magic.~
+~
+9 9012321 5
+20 0 0 0
+1 1000000 100000
+A
+25 3
+A
+31 3
+A
+12 50
+A
+13 50
+A
+18 2
+A
+19 2
+#12028
+sword frost brand~
+Brand of Frost~
+A sword of ice slowly melts away.~
+~
+5 65 8193
+0 0 0 6
+12 223000 22300
+A
+12 50
+A
+31 2
+A
+18 9
+A
+19 9
+> wear_prog 100~
+c iceshield $n
+c inner $n
+~
+|
+#12029
+spear valkyrie~
+spear of the valkyrie~
+A long metal shaft is imbedded in the hard ground.~
+~
+5 524360 8193
+0 0 0 2
+10 10000 1000
+A
+1 1
+A
+13 25
+A
+12 25
+A
+18 8
+A
+19 8
+#12030
+shield valkyrie~
+shield of the valkyrie~
+A glowing metal shield lies here.~
+~
+9 525376 513
+21 0 0 0
+22 10000 1000
+A
+13 30
+A
+12 30
+A
+19 3
+A
+25 4
+A
+22 -2
+A
+21 -2
+A
+23 -2
+#12031
+sword tyr~
+the Sword of Tyr~
+A broad bladed sword lies here.~
+~
+5 525386 8193
+0 0 0 3
+22 44433 4443
+A
+5 2
+A
+13 100
+A
+18 5
+A
+19 8
+A
+27 1048576
+#12032
+nest~
+a large nest~
+A large nest filled with shiny objects dominates the roof.~
+~
+15 0 0
+10000 1 -1 0
+1 0 0
+#12033
+silvery bag~
+a silvery bag~
+A bag woven from pure silver lies here.~
+~
+15 96 1
+650 5 -1 0
+4 12222 1222
+#12034
+two handed sword~
+a two handed sword~
+A two handed sword can be seen here.~
+~
+5 524288 8193
+0 0 0 3
+25 15000 1500
+A
+18 6
+A
+19 6
+#12035
+sigil balder~
+the sigil of Balder~
+A glowing sphere of light bobs along.~
+~
+1 8391745 1
+0 0 -1 0
+1 500 50
+A
+13 50
+A
+12 50
+A
+18 2
+A
+19 2
+A
+25 3
+> damage_prog 10~
+mpoload 12035
+drop balder
+mpforce $n get balder
+mpforce $n wear balder
+mpforce $n say The light of beauty can never be extinguished!
+~
+|
+#12036
+harp of bragi~
+the Harp of Bragi~
+A glowing golden harp rests here.~
+~
+4 1089 16385
+55 10 10 221
+1 1000000 100000
+#12037
+bindings thought concepts~
+Bindings of Thought and Concepts~
+A colossal metal collar lies on the floor.~
+~
+9 531136 5
+15 15 0 0
+50 56000 5600
+A
+3 -3
+A
+4 -3
+A
+13 50
+A
+18 4
+A
+19 4
+> wear_prog 100~
+if isevil($n)
+mea $n You feel your will and wit sapped as you slip into the collar.
+mer $n $n's face goes slack as $e dons the collar.
+endif
+~
+> remove_prog 100~
+if isevil($n)
+mea $n You regain control of your faculties as you escape the collar.
+mer $n $n suddenly looks more alert as $e escapes the collar.
+endif
+~
+> damage_prog 100~
+mpe _blu Sparks fly from the collar as it is struck!
+~
+|
+#12038
+dark heart fenris~
+the Dark Heart of the Fenris Wolf~
+A blackened heart pulses with an evil energy.~
+~
+9 2642 16385
+15 0 0 0
+22 0 0
+A
+1 1
+A
+5 -2
+A
+13 50
+A
+12 150
+A
+18 4
+A
+19 7
+#12039
+shield aesir~
+the Shield of the Aesir~
+The holder of this shield is beloved of the Aesir.~
+~
+9 525632 513
+40 0 0 0
+25 400000 40000
+A
+17 -40
+A
+13 75
+A
+18 5
+A
+19 5
+A
+12 50
+A
+27 578
+#12040
+hearth fire fireplace~
+the hearth~
+A fire blazes away in the hearth.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#12041
+spear harvester~
+the Spear of the Harvester~
+A glowing spear is imbedded in the dirt.~
+~
+5 8569921 8193
+0 0 0 6
+18 500000 50000
+A
+4 3
+A
+12 75
+A
+18 7
+A
+19 7
+A
+20 -5
+A
+22 -5
+A
+21 -5
+#12042
+apple youth~
+an apple of youth~
+A glowing red apple floats here.~
+~
+26 321 1
+55 28 36 81
+5 50000 5000
+#12043
+wicker chest~
+a wicker chest~
+A wicker chest full of apples rests here.~
+~
+15 262208 1
+500 5 -1 0
+40 400 40
+#12044
+silver armor~
+silver armor~
+A suit of silver armor has been laid out.~
+~
+9 8389952 9
+17 0 0 0
+5 23233 2323
+A
+25 3
+A
+31 3
+A
+13 55
+A
+12 55
+A
+14 55
+A
+23 -8
+A
+24 -8
+#12045
+apple tree~
+an apple tree~
+A magical apple tree blooms perpetually.~
+~
+12 65 0
+0 0 0 0
+1 0 0
+#12046
+club seas~
+Club of the Seas~
+A rotting chunk of wood covered in barnacles lies here.~
+~
+5 16960 8193
+0 0 0 8
+20 1002 100
+A
+26 -2147483648
+A
+1 2
+A
+5 2
+A
+13 130
+A
+18 10
+A
+19 10
+#12047
+sword justice~
+the sword of Justice~
+A glowing white sword lies here.~
+~
+5 8965440 8193
+0 0 0 3
+25 1000000 100000
+A
+4 2
+A
+12 65
+A
+13 65
+A
+18 11
+A
+19 8
+A
+27 3072
+#12048
+shield law~
+the Shield of Law~
+A glowing white shield rests on the ground.~
+~
+9 8965441 513
+20 0 0 0
+33 400533 40053
+A
+17 -20
+A
+13 30
+A
+12 30
+A
+18 3
+A
+19 3
+A
+27 512
+#12049
+chainmail~
+chain mail~
+A suit of magical chain mail is here.~
+~
+9 1345 9
+12 0 0 0
+8 11200 1120
+A
+5 2
+A
+13 30
+A
+19 3
+A
+24 -4
+A
+23 -4
+#12050
+two handed sword~
+a two handed sword~
+A sturdy two handed broadsword lies on the ground.~
+~
+5 524288 8193
+0 0 0 3
+25 15000 1500
+A
+18 4
+A
+19 7
+#12051
+berserker blade~
+the Blade of the Berserker~
+A sword dripping with gore hums loudly.~
+~
+5 17482817 8193
+0 0 0 3
+45 50000 5000
+A
+1 3
+A
+13 125
+A
+12 -100
+A
+19 11
+A
+24 -3
+A
+3 -3
+A
+4 -3
+A
+25 -3
+> wear_prog 100~
+mea $n A fierce bloodlust consumes you as you grasp the Blade.
+mpechoar $n $n is consumed by a fierce bloodlust!
+mpforce $n scream
+if isgood($n)
+c fireshield $n
+else
+c kin $n
+endif
+~
+> sac_prog 100~
+mpe _red A fiery aura surrounds the blade as it is destroyed.
+c fireshield $r
+~
+> remove_prog 100~
+mea $n You cannot bear to part with the blade!
+mpechoar $n $n tries to remove the Blade of the Berserker, but cannot.
+mpforce $n wield blade
+~
+|
+#12052
+iron armor~
+heavy iron armor~
+A suit of red hot iron armor is scorching the ground.~
+~
+9 8962640 9
+30 0 0 0
+75 456000 45600
+A
+1 1
+A
+5 1
+A
+12 30
+A
+13 80
+A
+18 7
+A
+19 7
+A
+23 -8
+A
+27 1
+A
+29 2
+#12053
+flaming sword~
+a flaming sword~
+Flames writhe and dance along the edges of this iron sword.~
+~
+5 8438353 8193
+0 0 0 6
+40 556440 55644
+A
+12 60
+A
+18 9
+A
+19 9
+A
+24 -5
+A
+26 512
+#12054
+broadsword~
+a broadsword~
+A giant broadsword has been discarded here.~
+~
+5 524288 8193
+0 0 0 3
+30 10000 1000
+A
+18 5
+A
+19 5
+#12055
+axe thrym~
+the Axe of Thrym~
+A massive twin bladed battle axe is buried in the dirt.~
+~
+5 17482320 8193
+0 0 0 1
+45 234000 23400
+A
+2 -2
+A
+13 100
+A
+18 9
+A
+19 10
+A
+23 -5
+#12056
+coat white fur~
+a coat of white fur~
+A long coat of polar bear fur is spread over the floor.~
+~
+9 576 1025
+22 0 0 0
+7 50000 5000
+A
+5 2
+A
+13 75
+A
+18 5
+A
+19 7
+A
+27 2
+> wear_prog 10~
+c inner $n
+~
+|
+#12057
+chain mail~
+chain mail~
+A suit of frosty white mail rests here.~
+~
+9 574017 9
+25 0 0 0
+45 23400 2340
+A
+17 -30
+A
+22 -3
+A
+21 -3
+A
+23 -3
+A
+24 -3
+#12058
+iron shoes~
+the iron shoes~
+A pair of iron shoes looks rather heavy...~
+~
+9 25740352 65
+17 0 0 0
+30 500000 50000
+A
+17 -20
+A
+1 2
+A
+13 20
+A
+18 2
+A
+19 3
+A
+2 -2
+#12059
+frey ship skidbladnir~
+Skidbladnir~
+A massive viking longboat, Frey's vessel, is moored here.~
+~
+22 65 0
+0 0 0 0
+100 1000000 100000
+> exa_prog 100~
+mea $n As you examine the vessel, a voice speaks-
+mpe _lbl To avail yourself of Skidbladnir, simply speak the name of
+mpe _lbl the place you wish to sail to, and if it is near the water you
+mpe _lbl will be taken there.
+~
+> speech_prog p the gates of hel~
+mea $n You step into the craft, and are whisked away!
+mea $n In a split second, you arrive at your chosen destination...
+mpechoar $n $n steps into the craft and is whisked away!
+mptrans $n 12180
+~
+|
+#12060
+long bow~
+a long bow~
+A stout bow of yew rests against a wall.~
+~
+5 1344 8193
+0 0 0 6
+10 225000 22500
+A
+2 3
+A
+12 50
+A
+13 50
+A
+18 6
+A
+19 6
+A
+26 16777216
+#12061
+giant skull~
+a giant skull~
+The skull of a horned giant sits perched atop a massive femur.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> pull_prog 100~
+mea $n As you grasp the skull and pull, a section of stone slowly opens.
+mpopenpassage 12171 12172 0
+~
+> push_prog 100~
+mea $n As you push the skull back into place, you hear a grating noise.
+mpclosepassage 12171 0
+~
+|
+#12062
+battle axe~
+a battle axe~
+A heavy axe is imbedded in a log.~
+~
+5 524288 8193
+0 0 0 3
+20 500 50
+A
+1 1
+A
+18 4
+A
+19 4
+#12063
+oak shield~
+an oak shield~
+An oak shield has fallen from the arm of its owner.~
+~
+9 0 513
+14 0 0 0
+8 200 20
+A
+17 -10
+A
+13 40
+A
+19 2
+#12064
+scale mail~
+scale mail~
+A suit of scale mail lies here.~
+~
+9 524288 9
+10 0 0 0
+12 800 80
+A
+5 2
+A
+13 30
+A
+22 -2
+A
+20 -2
+A
+23 -2
+#12065
+horned helm~
+a horned helm~
+A horned helm rests here.~
+~
+9 0 17
+8 0 0 0
+5 245 24
+A
+19 3
+#12066
+gold statue~
+a gold statue~
+A heavy golden statue rests in one corner.~
+~
+8 1 1
+0 0 0 0
+225 750000 75000
+> get_prog 100~
+mea $n As you lay your thieving hands on the statue, a voice bellows!
+say FORSETI! $n seeks to steal me from you!
+mpe From far away, a voice bellows in anger!
+mptrans $n forseti
+mpat $n mpforce forseti snarl
+mpat $n mpforce forseti say Thief! You shall pay dearly, mortal!
+mpat $n mpforce $n drop statue
+mpat $n mea $n Forseti is unimpressed...
+mpat $n mpforce forseti c gas
+~
+|
+#12067
+ebony dagger~
+ebony dagger~
+A nasty shard of ebony has been crafted into a wicked weapon.~
+~
+5 17498642 8193
+0 0 0 11
+1 0 0
+A
+18 8
+A
+19 8
+A
+13 30
+A
+21 -8
+#12068
+barnacle encrusted pillar~
+a barnacle-encursted pillar~
+A single pillar, encrusted with pillars, stands here.~
+~
+37 16 0
+0 0 0 0
+1 0 0
+> rand_prog 50~
+mpclose 12159 0
+~
+> push_prog 100~
+mea $n Shoving the pillar aside, you see a narrow cave opening.
+mer $n As $n shoves the pillar side, a narrow cave opening is revealed.
+mpopenpassage 12159 12160 0
+~
+> pull_prog 100~
+mea $n Hauling at the pillar, you pull it back into place.
+mpclosepassage 12159 0
+~
+|
+#12069
+fire fury axe ~
+axe of fire and fury~
+A smoldering battle axe scorches the very air.~
+~
+5 525315 8193
+0 0 0 6
+22 575000 57500
+A
+18 6
+A
+19 6
+A
+27 1
+> wear_prog 100~
+if isevil($n)
+else
+if race($n) != dwarf
+mea $n Only a descendant of the Durin may wield this weapon!
+mpforce $n rem $o
+else
+mea $n The axe fits snugly into your grasp.
+endif
+endif
+~
+|
+#12070
+girth forge~
+girth of the forge~
+A bronze girth covered in runes lies here.~
+~
+9 525378 2049
+11 0 0 0
+20 72500 7250
+A
+1 3
+A
+18 3
+A
+19 3
+> wear_prog 100~
+if isevil($n)
+else
+if race($n) != dwarf
+mea $n Only a descendant of the Durin may wear this device!
+mpforce $n rem $o
+else
+mea $n The girth fits snugly about your waist.
+endif
+endif
+~
+|
+#12071
+durin mail~
+Durin mail~
+A suit of finely forged dwarven chainmail is laid here.~
+~
+9 524288 9
+14 0 0 0
+10 50000 5000
+A
+13 30
+A
+18 6
+A
+19 5
+#12072
+durin war hammer~
+a Durin hammer~
+A dwarven war hammer awaits a wielder.~
+~
+5 0 8193
+0 0 0 7
+17 7500 750
+A
+1 1
+A
+18 5
+A
+19 5
+#12073
+durin shield~
+Durin shield~
+A mithril shield inlaid with platinum runes glows brightly.~
+~
+9 8913985 513
+12 0 0 0
+12 34000 3400
+A
+4 2
+A
+13 10
+A
+12 10
+A
+18 4
+A
+19 2
+A
+24 -3
+#12074
+miner pick~
+a miner's pick~
+A pick lies abandoned on the ground.~
+~
+5 0 8193
+0 0 0 5
+7 600 60
+A
+19 3
+#12200
+final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#12000
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12000
+D1
+~
+~
+0 -1 12000
+D2
+~
+~
+0 -1 12000
+D3
+~
+~
+0 -1 12000
+D6
+~
+~
+0 -1 12000
+D7
+~
+~
+0 -1 12004
+D9
+~
+~
+0 -1 12000
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12001
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12002
+D1
+~
+~
+0 -1 12001
+D2
+~
+~
+0 -1 12001
+D3
+~
+~
+0 -1 12001
+D6
+~
+~
+0 -1 12001
+D7
+~
+~
+0 -1 12005
+D9
+~
+~
+0 -1 12001
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12002
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D1
+~
+~
+0 -1 12002
+D2
+~
+~
+0 -1 12001
+D3
+~
+~
+0 -1 12002
+D6
+~
+~
+0 -1 12002
+D7
+~
+~
+0 -1 12002
+D8
+~
+~
+0 -1 12002
+D9
+~
+~
+0 -1 12004
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12003
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12003
+D1
+~
+~
+0 -1 12003
+D2
+~
+~
+0 -1 12003
+D3
+~
+~
+0 -1 12003
+D6
+~
+~
+0 -1 12003
+D7
+~
+~
+0 -1 12003
+D9
+~
+~
+0 -1 12002
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12004
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12004
+D1
+~
+~
+0 -1 12004
+D2
+~
+~
+0 -1 12004
+D3
+~
+~
+0 -1 12004
+D6
+~
+~
+0 -1 12002
+D7
+~
+~
+0 -1 12004
+D8
+~
+~
+0 -1 12000
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12005
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12005
+D2
+~
+~
+0 -1 12005
+D3
+~
+~
+0 -1 12007
+D6
+~
+~
+0 -1 12005
+D7
+~
+~
+0 -1 12005
+D8
+~
+~
+0 -1 12001
+D9
+~
+~
+0 -1 12005
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12006
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12171
+D2
+~
+~
+0 -1 12007
+D3
+~
+~
+0 -1 12008
+D6
+~
+~
+0 -1 12006
+D7
+~
+~
+0 -1 12006
+D8
+~
+~
+0 -1 12006
+D9
+~
+~
+0 -1 12006
+> rand_prog 100~
+mppurge 
+~
+> entry_prog 25~
+mptrans $n 12003
+~
+|
+S
+#12007
+The Icy Wastes~
+You wander blindly through the blizzard, your footsteps being completely
+covered in seconds behind you, making it impossible to judge exactly how
+far you have travelled. Anything dropped here is quickly buried under tons
+of fresh snow. A creature howls somewhere nearby; you doubt these barren
+wastes are home to anything benign...
+~
+0 3153921 1
+D0
+~
+~
+0 -1 12006
+D1
+~
+~
+0 -1 12005
+D3
+~
+~
+0 -1 12007
+D6
+~
+~
+0 -1 12007
+D7
+~
+~
+0 -1 12007
+D8
+~
+~
+0 -1 12007
+D9
+~
+~
+0 -1 12007
+> rand_prog 100~
+mppurge 
+~
+|
+S
+#12008
+The Icy Wastes~
+The blizzard is less fierce at this point, and as you peer through the
+blinding snow you think you can make out a glittering bridge in the
+distance. But no matter how much you try to reach it, it always seems
+to be too far away. At a loss, you wander aimlessly, not knowing what
+to do.
+~
+0 3153924 1
+> rand_prog 100~
+mea $r Strange energies tug at you...
+mptrans $r 12009
+~
+|
+S
+#12009
+Before Bifrost~
+You arrive suddenly, at the eastern end of Bifrost, the mighty rainbow
+bridge that allows entrance into Asgard, realm of the Aesir. Standing
+upon this bridge is Heimdall, sworn guardian of the Rainbow Bridge,
+protecting Asgard from the giants of Jotunheim or other foes who might
+seek to cross it and enter the home of the gods.
+~
+0 3145728 1
+D3
+~
+~
+0 -1 12010
+S
+#12010
+Bifrost~
+The rainbow bridge shimmers beneath your feet, sending shivers through
+your frame, and you pause more than once to stare in awe out over the
+starry expanse it spans. To the west lies a small collection of lodges,
+homes of the Aesir, gods of Midgaard. In the center of these houses arises
+a mighty tree- Yggdrasil, the tree of life, the one tree, the tree that
+joins all.
+~
+0 3145728 1
+D1
+~
+~
+0 -1 12009
+D3
+~
+~
+0 -1 12011
+S
+#12011
+Asgard~
+The bridge ends at a cobbled road that runs west towards a series of
+wooden lodges, arranged about the boughs of Yggdrasil. A narrow path
+runs up from here to the edge of a cliff; you think you can smell the
+sea. The streets of the realm of the Aesir are quiet; few footprints
+mark the light coating of snow that covers most of the region. 
+~
+0 3145728 1
+D1
+~
+~
+16777216 -1 12010
+D3
+~
+~
+0 -1 12013
+D4
+~
+~
+0 -1 12012
+S
+#12012
+The Shores of the Sea~
+You are standing at the edge of a wind driven sea; choppy waves break
+over the rocky shoreline near your feet. A chill wind numbs your bones
+and you shiver as you try to peer across the foggy depths. An occasional
+roar, as of some behemoth uttering its own particular profanity, echoes
+across the sea, and you imagine you can see something- something large,
+very large- shifting about under the waters.
+~
+0 3145732 4
+D0
+~
+~
+16777216 -1 12152
+D5
+~
+~
+0 -1 12011
+S
+#12013
+Yggdrasil~
+You are standing at the middle branches of Yggdrasil, holy tree upon
+which all the planes converge. By ascending or descending the mighty
+boughs of this magnificent tree, you may reach various other sections of
+Asgard, including Valhalla, Vanaheim, Alfheim, Hel and Gladsheim.
+A cobbled path continues west into the main streets of the homes of the
+Aesir.
+~
+0 3145744 3
+D0
+~
+~
+0 -1 12026
+D1
+~
+~
+0 -1 12011
+D2
+~
+~
+16777216 -1 12120
+D3
+~
+~
+0 -1 12064
+D4
+~
+~
+16777216 -1 12014
+D5
+~
+~
+16777216 -1 12195
+S
+#12014
+Vanaheim~
+You find it remarkably easy to scale the mighty boughs of Yggrdrasil,
+achieving a considerable rate of ascent as you clamber ever upward into
+the top levels of the Tree of Life. At various points, branches run away
+from the tree, heading into various parts of the Realm of the Gods; one
+such branch extends into a leafy forest to the south.
+~
+0 3145732 3
+D2
+~
+~
+0 -1 12015
+D4
+~
+~
+0 -1 12084
+D5
+~
+~
+0 -1 12013
+S
+#12015
+Entering Alfheim~
+Towering trees, their branches heavy with snow, loom to either side of
+a narrow dirt track that bears the imprints of many pairs of booted 
+feet and animal hooves. The air here is sharp, and fresh, and you inhale
+great gusts with pleasure. Small songbirds chirp loudly as they flutter
+about the massive oaks, pines and aspens of Alfheim, realm of the elves
+and their ruler, Frey.
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12014
+D1
+~
+~
+0 -1 12016
+S
+#12016
+Alfheim~
+The path continues into the depths of this famous glade, widening
+considerably as it passes more stretches of forest, the trees extending
+as far as you can see. Laughter and song is carried in on the wind from
+the east, and you feel several pairs of eyes watching you from the safety
+of the trees at all times.
+~
+0 3145728 3
+D1
+~
+~
+0 -1 12017
+D3
+~
+~
+0 -1 12015
+S
+#12017
+Alfheim~
+At this point a clear bubbling stream cuts across the path, which
+diverts to the south accordingly to avoid the plesant obstruction.
+A variety of small fish swim in its clear flowing waters, oblivious
+to your presence. Occasionally a bird will flutter down to investigate
+the wake caused by a fish passing close to the surface, then return,
+disinterested, to the haven of its nest.
+~
+0 3145728 3
+D2
+~
+~
+0 -1 12018
+D3
+~
+~
+0 -1 12016
+S
+#12018
+Alfheim~
+The path bends again here, heading east once more, the stream having
+emptied into a large depression in the soft ground between some large
+trees to the north. This curious sinkhole descends to other parts of
+Valhalla, places not meant to be seen by mortal eyes. Nor is Alfheim
+really, actually. 
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12017
+D1
+~
+~
+0 -1 12019
+S
+#12019
+Alfheim~
+You cannot remember having ever been in a more peaceful forest than
+this one; strolling casually beneath the protective overhanging boughs
+of the mighty trees of Vanaheim you feel totally at ease. You know that
+no harm will come to you in this place, unless of course you provoke 
+such an action from the realm's inhabitants, who will react with
+understandable zeal to protect their haven.
+~
+0 3145728 3
+D1
+~
+~
+0 -1 12021
+D3
+~
+~
+0 -1 12018
+S
+#12020
+The Heart of Alfheim~
+The path ends in a small clearing, from which several lodges lead,
+each housing a lord of Alfheim or one of their many allies and minions,
+though Frey and Freya would be loathe to label their friends as the 
+latter. Music fills the air, the clear tenor of a superb skald raised
+in harmonious praise of this wondrous realm. Small animals such as
+squirrels, badgers and dogs rush about, scampering and frolicking in
+abandon, confident in the protection of their elven lord. Frey is indeed
+fortunate in his residence; what god could want for a more peaceful
+domicile?
+~
+0 3145728 2
+D0
+~
+~
+0 -1 12024
+D1
+~
+~
+0 -1 12023
+D2
+~
+~
+0 -1 12021
+D3
+~
+~
+0 -1 12022
+S
+#12021
+Approaching the Wooden Lodges~
+The ground becomes harder here, and the path much wider, as it approaches
+a small collection of wooden lodges to the north, undoubtedly the
+residences of the lords of this realm. Few mortals indeed have traversed
+this far into the home of Frey and Freya, and it is with not a small
+degree of trepidation that you advance upon those known to most as gods.
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12020
+D3
+~
+~
+0 -1 12019
+S
+#12022
+Stables of Blodug-Hofi~
+Although these magnificent stables that you have entered appear to be
+capable of housing three score of mighty warhorses, there is evidence
+of but one steed being quartered here; the steed of Frey and thus considered
+worthy of such accommodations. Stout oak rafters support a thatched roof,
+while the whitewashed walls are filled with hooks that bear various tack
+and saddle care items, as well as several mammoth sacks of oats.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12020
+S
+#12023
+Stables of Gullin-Bursti~
+Equally magnificent as the counterpart to the west, these stables
+contain a single chariot, large enough to easily carry a dozen men,
+and a large pile of fresh straw, upon which Gullin-Bursti, boar of
+Frey, rests when weary, which is seldom indeed for the sturdy porcine
+pet. He draws Frey's chariot when the mood takes Frey to travel about
+in it, and is never far from his master's side.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 12020
+S
+#12024
+The Lodge of Frey and Freya~
+The interior of this long wooden lodge is filled with all manner of
+trappings, from pelts taken from wild animals slain in the hunt to
+a range of trophies sequestered away from their giant and orcish owners,
+whom where all slain or driven away by Frey and his pets. A series of
+crossed spears topped by boarhide shields line a narrow ledge set three
+feet below the ceiling signifies this as the home of a norse god, who
+despite his peaceful demeanour and surrounds is quite capable of performing
+admirably alongside his peers when battling enemies of Asgard.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12025
+D2
+~
+~
+0 -1 12020
+S
+#12025
+The Lodge of Frey and Freya~
+This spacious room contains beds and furniture aplenty, more than you
+would think was normally required by two people, and also contains a
+massive mirror through which the Vanir may observe goings-on in other
+parts of the world. Freya spends much of her time here, attended by her
+Valkyries, watching over the world or weaving magical garments.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12024
+S
+#12026
+A Side Street~
+This narrow cobbled lane leads north towards a small shrine, where the
+Aesir may spend time in quiet contemplation, a rare occurence for the
+naturally boisterous gods. 
+~
+0 3145744 1
+D0
+~
+~
+0 -1 12027
+D2
+~
+~
+0 -1 12013
+S
+#12027
+A Shrine~
+This small chamber is barely large enough for three adults to stand
+side by side, before the flickering torchlit mural that depicts
+ragnarok, the fate all Aesir cannot avoid, which will mean their dooms
+and the end of their reign. Such fatalism seems ignorant to you, but you
+have little understanding of the ways of gods.
+~
+0 3211288 0 0 0 3
+D2
+~
+~
+0 -1 12026
+S
+#12060
+Outside the Chambers~
+The stairs end before a solid wooden door, which speaks in volumes
+by its closed and locked state of those within's desire not to be
+disturbed. Especially by upstarts from Midgaard! Warmth radiates through
+the wooden portal, presumably from a blazing fire within. Shaking your
+head, you wonder if it might not be worth risking the wrath of the Aesir
+to share a little of that warmth.
+~
+0 3145752 0
+D3
+~
+~
+7 -1 12097
+D5
+~
+~
+0 -1 12061
+S
+#12061
+The Western End of the Hall~
+At this point a broad stair ascends to the second level of the lodge,
+wherein the private council chambers of the Aesir and Odin himself are
+located. Barred at all times to non-aesir, those who do somehow manage
+to gain entrance can expect a rough reception if they are caught in the
+midst of their transgression. A few small chairs have been arranged here,
+for those Aesir who desire a bit of peace and quiet.
+~
+0 3145752 0
+D1
+~
+~
+0 -1 12062
+D4
+~
+~
+0 -1 12060
+S
+#12062
+The Halls of the Aesir~
+You pass into a low ceilinged lodge, the interior of which is heavily
+decorated with various trophies, mementoes and a profusion of animal
+hides. It is in this hall, bathed in firelight, that the Aesir gather
+to sing songs, listen to tales, and drink copious quantities of ale as
+the mood takes them.
+~
+0 3408904 0
+D1
+~
+~
+0 -1 12063
+D3
+~
+~
+0 -1 12061
+S
+#12063
+Before the Halls of the Aesir~
+To the west of here lies the impressive lodge that serves as the gathering
+place for the Aesir, in times of war as well as peace. It is an elaborate 
+affair, decorated with ornate carvings of the gods at work and play,
+including events such as the coming of the Aesir, the defeat of the giants
+of Jotunheim, and the eventual coming of Ragnarak, which is the inevitable
+fate of the fate-obsessed Aesir.
+~
+0 3145728 1
+D1
+~
+~
+0 -1 12064
+D3
+~
+~
+0 -1 12062
+S
+#12064
+A Second Path~
+At this point the main road is joined by a second path that runs north
+towards a large lodge house, which is the residence of Thor, god of
+thunder and mightiest of the Aesir warriors. Southwards lies a grove
+of apple trees, tended by Idun, who protects the source of the Aesir's
+immortality with her life.
+~
+0 3145728 1
+D0
+~
+~
+0 -1 12065
+D1
+~
+~
+0 -1 12013
+D2
+~
+~
+16777216 -1 12101
+D3
+~
+~
+0 -1 12063
+S
+#12065
+Thor's Lodge~
+The cobbled path ends outside a small lodge, within which one of the
+greatest of the Aesir, Thor, resides with his wife Sif, goddess of
+ skill in battle. The thunder god is an open, friendly sort, and is
+always happy to have visitors, provided they do not threaten his home
+or his beloved family.
+~
+0 3145728 1
+D2
+~
+~
+0 -1 12064
+D3
+~
+~
+0 -1 12066
+S
+#12066
+Thor's Home~
+The interior of this small lodge is plain, but practical. A small fire
+burns in a stone fireplace, above which hang items such as a hunting
+spear, a skald's lyre, a boarhide shield, a horned helm, and many, many
+giant skulls, most of them bearing evidence of the sledgehammer blows that
+felled them. Large bearskin rugs cover the walls and floor, which is of
+dressed stone.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12067
+D1
+~
+~
+0 -1 12065
+D3
+~
+~
+0 -1 12068
+D4
+~
+~
+0 -1 12069
+S
+#12067
+A Stables~
+This small chamber houses Thor's magical goats, which bear his chariot
+when he is at war or journeying across the planes. They are rare, magical
+beasts that can never be slain; each morning they regenerate to their
+previous forms, and thus provide an endless source of nourishment for
+the thunder god and whoever dines with him.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12066
+S
+#12068
+A Bedroom~
+Thor and his wife Sif were recently blessed with a son, who lives in
+this sparsely furnished chamber. At first you think it rather cold of
+the child's parents not to provide him with toys or furniture, but you
+quickly realize that the child's strength is so great that he 
+inadvertently breaks almost anything they give him.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12066
+S
+#12069
+A Bed Chamber~
+This is the room where Thor lies with his wife, the beautiful warrior
+goddess Sif, whose skill with the sword and spear is legendary. Few
+indeed will stand before her twin blades; even amongst the Aesir her
+skill is respected and acknowledged. Sif does not adventure as much as
+she used to these days, but she still keeps practicing her legendary
+battle skills.
+~
+0 3145736 0
+D5
+~
+~
+0 -1 12066
+S
+#12084
+Yggdrasil~
+Yggdrasil soars high into the heavens, reaching up as far as you can
+see, though your view is obscured by the many leafy branches, most of
+them as thick as an elephant. Climbing is remarkably easy, and you
+suspect that some enchantment may facilitate this. Up above lies the
+top branches of the tree, and the residence of Odin himself, the ruler
+of the Aesir.
+~
+0 3145728 3
+D4
+~
+~
+0 -1 12085
+D5
+~
+~
+0 -1 12014
+S
+#12085
+The Top of Yggdrasil~
+You have climbed as high as is humanly possible up Yggdrasil; to go
+any higher than this would take you into the airless void that surrounds
+the plane of Asgard. To the east, a massive wooden lodge looms. This must
+be the home of Odin and Frigga, and their servants and family. Undoubtedly
+they would not appreciate any intrustion into this, their most private
+place.
+~
+0 3145728 3
+D1
+~
+~
+0 -1 12086
+D5
+~
+~
+0 -1 12084
+S
+#12086
+Valaskialf~
+Looming before you to the north, across a broad snowfield, is the
+impressive abode of Odin, known to man and god alike as Valaskialf. 
+In here, Odin keeps his most treasured possessions and closest allies,
+as well as his legendary throne. Who knows what treasures may be found
+within these mighty wooden walls?
+~
+0 3145728 2
+D0
+~
+~
+0 -1 12090
+D3
+~
+~
+0 -1 12085
+S
+#12087
+A Small Bedchamber~
+Odin's resting place, where he lies with Frigga when he is in need
+of rest, is a simple affair, consisting of a bed covered in thick
+animal furs, and a small fireplace which perpetually burns at various
+temperatures when commanded thusly by Frigga, who is a master of the
+elements.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12088
+S
+#12088
+The Private Quarters of Odin and Frigga~
+The stairs end in a small chamber, lit by a small fire blazing away
+in the hearth, and decorated with various trophies of Odin and Frigga.
+There is little here of real value; they do not seek to acquire loads
+of booty or treasure. Instead, the majority of the items take the form
+of trinkets and personal mementos, as well as gifts from their friends
+amongst the Aesir and Vanir, and the Modsogner and Durin dwarves.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 12087
+D5
+~
+~
+0 -1 12089
+S
+#12089
+A Stairway to the Next Level~
+Located behind Hlidskialf is a small stair, heading up to the second
+level, where the private chambers of Odin and Frigga are located.
+No mortals are welcome here; you can expect resistance if you continue
+in this direction. An eerie whistling sound can be heard at irregular
+intervals; it is the icy winds gusting past the solid walls of the palace.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12099
+D4
+~
+~
+0 -1 12088
+S
+#12090
+Before the Gates of Valaskialf~
+The gates of Valaskialf are of wood bound with mithril, and glow 
+oddly, the result of an enchantment that prevents them being forced
+open by strength, thus deterring any giants who feel brave enough to
+challenge the ruler of the Aesir. Runes carved into the rough hewn
+surface label the place as Valaskialf, and as the Home of Odin. They
+give off a brilliant glow, almost blinding in its intensity, and almost
+unbearable for your mortal eyes to behold. There is no sign of a lock
+or bar, yet the doors remain firm and refuse to yield when you push against
+them.
+~
+0 3145732 2
+D0
+~
+gates~
+8388647 -1 12091
+D2
+~
+~
+0 -1 12086
+S
+#12091
+The Entrance Hall~
+The gates open onto a long hallway, lit by guttering torches that belch
+forth volumes of smoke from their metal sconces set in the wood support
+beams of the walls. Bearskins line the stone floor, and various weapons
+line the walls, interspersed by other trophies and ornaments; most notably
+various artifacts of the giants, taken in war by Odin or his legions.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12099
+D2
+~
+~
+8388647 -1 12090
+S
+#12092
+A Stables~
+This stable has but a single stall, but it is wide enough to house
+three war horses. The space is necessary, however, to quarter Odin's
+mighty steed Sleipner, a muscular eight legged beast that bears Odin
+upon its broad back in war and in peace. Capable of traversing great
+distances in seconds, Sleipner is Odin's most trusted pet.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12094
+S
+#12093
+A Kennels~
+This section of Odin's palace houses his great wolves, Freke and Gere,
+who serve Odin as companions, bodyguards, scouts and sometimes even
+as steeds, for they are ten feet in length and as strong as ten horses.
+Odin also sets them upon miscreant or blasphemous mortals, when the 
+need arises for such punishment.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12094
+S
+#12094
+The Eastern Wing of the Palace~
+This half of the palace houses the various pets of Odin, whom he regards
+as close friends as well as servants, and quarters them accordingly, as
+would befit the friends of a god. Despite the presence of animals, there is
+no distinctive odor as one would normally associate with such places; further
+testimony to the magical nature of these creatures.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12093
+D2
+~
+~
+0 -1 12092
+D3
+~
+~
+0 -1 12099
+S
+#12095
+A Lofty Nest~
+Odin's ravens reside here, in a large nest which has been constructed
+to suit their simple needs. They are frequently send abroad by Odin
+to spy on Jotunheim, Midgaard or other parts of Gladsheim. Various
+shiny objects of the sort birds are attracted by are woven into the
+nest.
+ 
+Peering over the edge, you can see the snowy plains of Asgard far
+below, and the towering branches of Yggdrasil, the top of which is
+not far from here.
+~
+0 3145736 1
+D5
+~
+trapdoor~
+3 -1 12096
+S
+#12096
+A Stairway to...~
+A small stair heads up to a trapdoor here, opening onto the roof of
+Valaskialf and whatever it quarters. Magical forces here prevent the
+trapdoor remaining open, and thus protect the interior from the elements.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12099
+D4
+~
+trapdoor~
+3 -1 12095
+> rand_prog 100~
+close trapdoor
+~
+|
+S
+#12097
+Odin's Private Council Chambers~
+It is here that Odin confers with his fellow Aesir on matters of
+grave import, seated about the oak table that rests before the hearth.
+Papers and maps are scattered all over the table along with the occasional
+sword or hammer scar, where an angry Aesir has vented his wrath more than
+once on the hapless furniture. Statues rest in each corner of the room
+depicting each of the four elements. Large bearskins have been nailed to
+the walls, and a white dragon hide dominates the high wooden ceiling.
+~
+0 3145740 0
+D1
+~
+~
+7 -1 12060
+E
+white dragon hide~
+The hide was taken from the body of a large white dragon, slain by
+Thor and his sons, and was brought here as a gift to Odin and the other
+Aesir. Large patches of the skin are heavily abraded, evidence of the
+mighty blows struck it by Mjolnir.
+~
+E
+statue element~
+Each bear a small inscription-
+Fire, Earth, Wind and Water; take me to my sacred altar
+~
+> speech_prog p fire, earth, wind and water; take me to my sacred altar~
+if level($n) < 50
+mpe A voice chuckles somewhere far away.
+mpat odin mpforce odin mpat 12097 say I think not!
+else
+mptrans $n 12099
+endif
+~
+|
+S
+#12098
+Gladshelf~
+This is Odin's private place of reflection. You shouldn't be here...
+~
+0 3410948 1
+S
+#12099
+Before Hlidskialf~
+Few people indeed outside the Aesir have been inside Valaskialf, and
+Odin likes it that way. This is his private residence; he prefers to
+conduct official business in his council chambers, or, more rarely, at
+appointed places in Midgaard. The interior of the main hall is similar
+to most Aesir lodges, save that the main chamber bears a massive throne,
+placed before a roaring fireplace.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12089
+D1
+~
+~
+0 -1 12094
+D2
+~
+~
+0 -1 12091
+D3
+~
+~
+0 -1 12096
+S
+#12100
+The Durin Forge~
+This chamber is bathed in a reddish glow, its source the roaring blaze
+that provides the great heat necessary to forge the many weapons these
+ancient and proud dwarves produce. It was in these fires that Mjolnir
+itself was forged, for Thor, and other wondrous relics of the Aesir and
+Vanir alike. The heat is oppressive and unbearable for long periods of
+time.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12111
+S
+#12101
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D0
+~
+~
+16777216 -1 12064
+D1
+~
+~
+0 -1 12103
+D2
+~
+~
+0 -1 12102
+D3
+~
+~
+0 -1 12106
+S
+#12102
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12101
+S
+#12103
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D2
+~
+~
+0 -1 12104
+D3
+~
+~
+0 -1 12101
+S
+#12104
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12103
+D1
+~
+~
+0 -1 12105
+D9
+~
+~
+0 -1 12109
+S
+#12105
+A Clearing in the Grove~
+At this point there is a small clearing in the grove, a circular grassy
+area surrounded by a ring of the same magical apple trees found everywhere
+else in this unusual place. A magical aura so strong that even nonspellcasters
+can sense it pervades this entire area.
+~
+0 3220608 2
+D3
+~
+~
+0 -1 12104
+S
+#12106
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D1
+~
+~
+0 -1 12101
+D2
+~
+~
+0 -1 12107
+S
+#12107
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D0
+~
+~
+0 -1 12106
+D3
+~
+~
+0 -1 12108
+D8
+~
+~
+0 -1 12109
+S
+#12108
+A Clearing in the Grove~
+At this point there is a small clearing in the grove, a circular grassy
+area surrounded by a ring of the same magical apple trees found everywhere
+else in this unusual place. A magical aura so strong that even nonspellcasters
+can sense it pervades this entire area.
+~
+0 3219584 2
+D1
+~
+~
+0 -1 12107
+S
+#12109
+The Apple Orchard~
+Apple trees of all shapes and sizes, each surrounded by white auras of
+magical energies, surround you on all sides, each bearing a heavy load
+of the magical apples that sustain the immortality of the Aesir. Thus
+this grove is of significant importance to the Aesir; should their many
+enemies somehow sabotage the growth of these apples their very existences
+would be in dire jeopardy.
+~
+0 3145728 3
+D6
+~
+~
+0 -1 12104
+D7
+~
+~
+0 -1 12107
+S
+#12110
+The Chambers of Fjalar~
+This large stony hall houses Flajar, the greatest of the Durin and a
+fearsome warrior and giantslayer. Feared and respected by friend and
+foe alike, his power in combat is not to be scoffed at, despite his
+diminutive stature. His abode is simple, and spartan, as you'd expect
+of this sworn soldier of the Durin. Relics from previous victories are
+his only vanities- several giant skulls, and weapons, plus the hide of
+a polar bear and a white dragon.
+~
+0 3145736 0
+D7
+~
+~
+0 -1 12111
+S
+#12111
+The End of the Tunnel~
+The long tunnel ends here, at a junction, where two large chambers lie
+to the west and southeast. The gothic architecture of this place never
+ceases to amaze you; intricate stonework inlaid over the centuries 
+with complex patterns and sculptings. Ancient banners hang from dark
+metal rods, while suits of armor and crossed axes line a ledge at head
+height (to a dwarf). Despite the fact that the inhabitants are rarely
+over five feet in height, the ceiling is a good twenty feet above you.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12112
+D3
+~
+~
+0 -1 12100
+D8
+~
+~
+0 -1 12110
+S
+#12112
+A Junction~
+Several tunnels meet here, branching off into the gloom of the Durin
+cave complex. Inhabitants are few; war and time have ravaged their
+numbers, and they know that one day their race will die out, as all
+things eventually do. These halls are a testament, however, to this 
+race's long and glorious history, of war and of excellence in the art
+of smithing and stonemasonry.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12111
+D1
+~
+~
+0 -1 12117
+D3
+~
+~
+0 -1 12113
+S
+#12113
+A Bend in the Tunnel~
+The tunnel bends here, heading east towards a junction. Smoldering
+brands thrust into iron cressets mounted on the finished walls cast
+a little light through the pervasive subterranean gloom, while a dim
+glow, from light reflecting off uncut gemstones piled near the walls,
+is also visible. The dwarves live where they work, here in the mines
+of their ancestors.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12112
+D2
+~
+~
+0 -1 12114
+S
+#12114
+The Tunnels of the Durin~
+The Durin live in vast subterranean complexes, like their sworn enemy
+the giants, though it is there that the similarity ends. For while
+giant lairs are dark, grim places with little to recommend them, the
+tunnels of the Durin are of finished stone, inlaid with intricately
+carved murals that are indicative of the superb skill of the artisans.
+Statues of their ancestors line the walls, seeming to support the roof
+of the tunnels that serve as their income and their residences.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12113
+D4
+~
+~
+0 -1 12115
+S
+#12115
+Descending into the Darkness~
+The tunnel descends steeply, the walls showing signs of working with
+tools, though only in parts, where a vein of minerals has been found
+by these expert miners and stonemasons. Few dwarves can be found in
+here; their numbers are small, and dwindling by the decade. One day
+these halls will be the sole reminder that this proud and ancient 
+race ever existed.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 12116
+D5
+~
+~
+0 -1 12114
+S
+#12116
+A Guard Cave~
+A small cave, of unworked stone, contains but a single visible exit-
+a tunnel that descends sharply into the darkness below and whatever
+it contains. There is a small campfire here, doubtless used by the
+alert sentry posted here by the doughty Durin, to stand guard here.
+Raids by the giants are undoubtedly frequent, and thus the need for
+tight security.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 12161
+D5
+~
+~
+0 -1 12115
+S
+#12117
+The Mines~
+Rich veins of copper, silver and mithril are visible even to the novice
+miner's eye in the rough walls of this section of tunnel. The Durin are
+in the process of mining this section, thus the rough surfaces, and are
+hoping to extract the wealth from here before the giants drive them out
+yet again, forcing them to seek another new lair. It is hoped that the
+wealth accumulated here will enable them to fund their seemingly futile
+effort to defeat all giantkind.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 12112
+D8
+~
+~
+0 -1 12118
+S
+#12118
+The Mines~
+This rough hewn tunnel is dimly lit, and thus you stumble more than
+once on a pick or pile of ore, or bang into a mine cart as you make
+your way through the mine. Workers ignore you, intent on salvaging
+what they may from the natural reserves of precious metals before it
+is too late.
+~
+0 0 1
+D2
+~
+~
+0 -1 12119
+D7
+~
+~
+0 -1 12117
+S
+#12119
+The Mines~
+This point marks the limit of Durin excavation; the wall to the south
+shows signs of having been dug at, though not extensively as there is
+sufficient to keep the miners occupied in the veins already unearthed.
+Piles of metal awaiting refinement lie next to several carts, ready to
+be taken to the smith.
+~
+0 0 1
+D0
+~
+~
+0 -1 12118
+S
+#12120
+The Hall of Forseti~
+You stride into the protective shelter of a hall that appears to be
+composed entirely of gold and other precious metals; the effect is quite
+dazzling and you blink in disbelief. All this gold! So little time to
+try and steal it... Shaking yourself free of such delusions, you peer about
+and note the many representations of Law and Order, and realize that the
+owner of this mighty hall is undoubtedly of honorable mein and equally
+undoubtedly quite capable of preventing vandalism or theft of his wealth.
+~
+0 3145752 0
+D0
+~
+~
+0 -1 12013
+D2
+~
+~
+0 -1 12121
+S
+#12121
+Glitner~
+The hall that serves as home to Balder's son certainly lives up to its
+name. Every surface gleams in your light, and you cannot help but be
+impressed by the casual display of such an abundance of precious metals.
+No wonder that mortals speak in awestruck tones of Forseti's golden,
+glittering hall. The god himself sits in a simple wooden chair, from
+which he dispenses justice or advice as requested by his companions and
+family.
+~
+0 3145752 0
+D0
+~
+~
+0 -1 12120
+D1
+~
+~
+0 -1 12122
+D3
+~
+~
+0 -1 12123
+S
+#12122
+A Wing of the Hall~
+Forseti stores a variety of items here, of value ranging from mundane
+to fantastic. The majority of the items are quite large and bulky, and
+would be impossible to move without pack animals. Some of the items,
+however, appear to be more portable...
+~
+0 3145752 0
+D3
+~
+~
+0 -1 12121
+S
+#12123
+A Wing of the Hall~
+Forseti stores a variety of items here, of value ranging from mundane
+to fantastic. The majority of the items are quite large and bulky, and
+would be impossible to move without pack animals. Some of the items,
+however, appear to be more portable...
+~
+0 3145752 0
+D1
+~
+~
+0 -1 12121
+S
+#12124
+Valhalla~
+Gazing eastward, your eyes widen as you see a broad plain littered
+with corpses, their blood staining the snow a deep crimson. You suddenly
+realize that you are gazing upon the fields of Valhalla, where the fabled
+Einheriar do battle daily, in preparation for Ragnarok. Long wooden lodges
+encircle the plain, where the Einheriar rest between their neverending 
+series of battles.
+~
+0 3145732 2
+D1
+~
+~
+0 -1 12125
+D3
+~
+~
+0 -1 12195
+S
+#12125
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12126
+D1
+~
+~
+0 -1 12129
+D2
+~
+~
+0 -1 12127
+D3
+~
+~
+0 -1 12124
+S
+#12126
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D1
+~
+~
+0 -1 12128
+D2
+~
+~
+0 -1 12125
+S
+#12127
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12125
+D1
+~
+~
+0 -1 12130
+S
+#12128
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D1
+~
+~
+0 -1 12131
+D2
+~
+~
+0 -1 12129
+D3
+~
+~
+0 -1 12126
+S
+#12129
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12128
+D1
+~
+~
+0 -1 12132
+D2
+~
+~
+0 -1 12130
+D3
+~
+~
+0 -1 12125
+S
+#12130
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12129
+D1
+~
+~
+0 -1 12133
+D3
+~
+~
+0 -1 12127
+S
+#12131
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D2
+~
+~
+0 -1 12132
+D3
+~
+~
+0 -1 12128
+S
+#12132
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12131
+D2
+~
+~
+0 -1 12133
+D3
+~
+~
+0 -1 12129
+S
+#12133
+The Fields of Valhalla~
+The bloodsoaked snowfields echo with the clash of sword on shield and the
+cries of men in the midst of bloodlust rages, intent on slaughtering each
+other, preparing for Ragnarok, when they will be led in final battle against
+the giants. Every day, at dawn, their spirits arise from the halls of
+Valhalla, where they are brought by the Valkyries, and they do battle with
+each other till the sun sets, when they rest and engage in revelry.
+~
+0 3145872 2
+D0
+~
+~
+0 -1 12132
+D3
+~
+~
+0 -1 12130
+S
+#12134
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D1
+~
+~
+0 -1 12159
+D2
+~
+~
+0 -1 12135
+S
+#12135
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D0
+~
+~
+0 -1 12134
+D1
+~
+~
+0 -1 12158
+D2
+~
+~
+0 -1 12136
+S
+#12136
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D0
+~
+~
+0 -1 12135
+D1
+~
+~
+0 -1 12157
+S
+#12137
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D2
+~
+~
+0 -1 12138
+D3
+~
+~
+0 -1 12159
+S
+#12138
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D0
+~
+~
+0 -1 12137
+D2
+~
+~
+0 -1 12139
+D3
+~
+~
+0 -1 12158
+S
+#12139
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 4 1
+D0
+~
+~
+0 -1 12138
+D3
+~
+~
+0 -1 12157
+S
+#12140
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12141
+D1
+~
+~
+0 -1 12143
+D2
+~
+~
+0 -1 12147
+D3
+~
+~
+0 -1 12155
+S
+#12141
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12142
+D1
+~
+~
+0 -1 12144
+D2
+~
+~
+0 -1 12140
+D3
+~
+~
+0 -1 12154
+S
+#12142
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12147
+D1
+~
+~
+0 -1 12145
+D2
+~
+~
+0 -1 12141
+D3
+~
+~
+0 -1 12153
+S
+#12143
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12144
+D1
+~
+~
+0 -1 12152
+D2
+~
+~
+0 -1 12146
+D3
+~
+~
+0 -1 12140
+S
+#12144
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153924 7
+D0
+~
+~
+0 -1 12145
+D1
+~
+~
+0 -1 12151
+D2
+~
+~
+0 -1 12143
+D3
+~
+~
+0 -1 12141
+S
+#12145
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12146
+D1
+~
+~
+0 -1 12150
+D2
+~
+~
+0 -1 12144
+D3
+~
+~
+0 -1 12142
+S
+#12146
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12143
+D1
+~
+~
+0 -1 12149
+D2
+~
+~
+0 -1 12145
+D3
+~
+~
+0 -1 12147
+S
+#12147
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12140
+D1
+~
+~
+0 -1 12146
+D2
+~
+~
+0 -1 12142
+D3
+~
+~
+0 -1 12148
+S
+#12148
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12155
+D1
+~
+~
+0 -1 12147
+D2
+~
+~
+0 -1 12153
+D3
+~
+~
+0 -1 12149
+S
+#12149
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12152
+D1
+~
+~
+0 -1 12148
+D2
+~
+~
+0 -1 12150
+D3
+~
+~
+0 -1 12146
+S
+#12150
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153924 7
+D0
+~
+~
+0 -1 12149
+D1
+~
+~
+0 -1 12153
+D2
+~
+~
+0 -1 12151
+D3
+~
+~
+0 -1 12145
+S
+#12151
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12150
+D1
+~
+~
+0 -1 12154
+D2
+~
+~
+0 -1 12152
+D3
+~
+~
+0 -1 12144
+S
+#12152
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12151
+D1
+~
+~
+0 -1 12155
+D2
+~
+~
+0 -1 12149
+D3
+~
+~
+0 -1 12143
+S
+#12153
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam. A truly foolhardy salt
+could dive overboard and swim into the depths.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12148
+D1
+~
+~
+0 -1 12142
+D2
+~
+~
+0 -1 12154
+D3
+~
+~
+0 -1 12150
+D10
+~
+depths~
+657408 -1 12156
+S
+#12154
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12153
+D1
+~
+~
+0 -1 12141
+D2
+~
+~
+0 -1 12155
+D3
+~
+~
+0 -1 12151
+S
+#12155
+The Storm-Tossed Sea~
+Adrift on the churning, frigid waters, you cannot see land anywhere
+you look. The icy spray freezes on your face, and your hands turn
+blue as you grip onto whatever is keeping you afloat. Only a fool
+would attempt to negotiate these waters; and it is a fool you must
+be, to be out here. Long, dark shapes move silently beneath the
+salty brine, barely visible through the foam.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 12154
+D1
+~
+~
+0 -1 12140
+D2
+~
+~
+0 -1 12148
+D3
+~
+~
+0 -1 12152
+S
+#12156
+Plunging into the Depths~
+You sink like a stone as you hit the water, quickly swept under by the
+raging sea, which quickly becomes apparent is a blessing; if you can 
+survive here, it is much more pleasant than the surface. Schools of 
+fish swim past while larger predators dart here and there, snapping at
+them as they flee into the deep blue waters. The water is cold, but is
+kept from freezing you by a warm current that rises from far below the
+surface. This haven from the tempest atop is welcome indeed!
+~
+0 3153929 8
+D4
+~
+~
+0 -1 12153
+D5
+~
+~
+0 -1 12157
+S
+#12157
+The Marine Court~
+You reach the bottom of the sea, sooner than you expected, and look around.
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 3153929 12
+D0
+~
+~
+0 -1 12158
+D1
+~
+~
+0 -1 12139
+D3
+~
+~
+0 -1 12136
+D4
+~
+~
+16777216 -1 12156
+S
+#12158
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 3153929 12
+D0
+~
+~
+0 -1 12159
+D1
+~
+~
+0 -1 12138
+D2
+~
+~
+0 -1 12157
+D3
+~
+~
+0 -1 12135
+S
+#12159
+The Marine Court~
+A stone courtyard, encrusted with barnacles that tear at your clothing as
+you pass, stretches before you, teeming with all manner of marine life. A
+sense of peace, after escaping the storm, is soon supplanted by a growing
+unease as you regard some of the dark horrors of the depths, never meant
+to be seen by surface dwellers. The master of this domain appears to be
+well guarded.
+~
+0 3153929 12
+D1
+~
+~
+0 -1 12137
+D2
+~
+~
+0 -1 12158
+D3
+~
+~
+0 -1 12134
+> rand_prog 50~
+mpe A strong, warm current pushes against you from the north...
+~
+> entry_prog 25~
+mea $n _dbl A strong, warm current pushes against you from the north...
+~
+|
+S
+#12160
+The Throne of the Sea God~
+A rather ominous cave is revealed by shoving the pillar away, and it
+is suddenly difficult to move forwards; a strong current, its source
+magical, pushes at you, and warming you; evidently this is the source
+of the warmth you felt earlier. The cave boasts little of interest, 
+save for a large throne of barnacles, that have covered the original
+stone one. To sit on it would invite agony, though its owner appears
+to be able to do so without discomfort. 
+~
+0 3145741 12
+S
+#12161
+A Massive Cavern Complex~
+You pass into a huge cavern, from which numerous passages branch off,
+into the subterranean lairs of the many races that battle over the
+bloody fields of Jotunheim. An uncharacteristically warm breeze wafts
+in from the passages on this level, while the upper and lower exits
+lead to icy dark passages. Skulls and broken weapons litter the floor
+here, the site of many battles between giant and dwarf.
+~
+0 3145740 0
+D4
+~
+~
+0 -1 12172
+D5
+~
+~
+0 -1 12116
+D6
+~
+~
+0 -1 12162
+D7
+~
+~
+0 -1 12163
+S
+#12162
+The Realm of Fire~
+A narrow twisting tunnel lit by flaming gases winds into the bowels of
+the earth, the heat causing you to sweat profusely, it is entirely
+unexpected after the freezing cold of the rest of Asgard. Long shadows
+cast by the tall inhabitants of this lair loom menacingly up ahead.
+~
+0 3145736 0
+D7
+~
+~
+0 -1 12164
+D9
+~
+~
+0 -1 12161
+S
+#12163
+The Realm of Fire~
+You wander into a twisting tunnel, of yellowed stone, lit by flaming
+gases, their source tiny holes in the wall through which they escape
+from some hidden source. Skulls covered in bronze line the walls, and
+grin evilly at those who pass by, heading further into this grim lair.
+~
+0 3145736 0
+D6
+~
+~
+0 -1 12164
+D8
+~
+~
+0 -1 12161
+S
+#12164
+The Realm of Fire~
+A larger section of the tunnels widens into a cavern, lit by torches
+set in iron cressets, while braziers stacked with coals warm the whole
+room to an uncomfortable temperature. Long, giantish weapons hang on
+the walls, ready to be taken up against the many enemies of the giants
+in times of strife, most commonly when Thor arrives for his regular
+sortie against his mortal enemies.
+~
+0 3145736 0
+D5
+~
+~
+0 -1 12165
+D8
+~
+~
+0 -1 12162
+D9
+~
+~
+0 -1 12163
+S
+#12165
+The Realm of Fire~
+Downwards the tunnels twist, further into the depths of the mountain,
+heading towards its molten core, which is paradise to the cold hating
+fire giants. Footsteps echo all around you, as giants make their way
+through their subterranean lair, on business of their own. There are
+little decorations in this abode; the giants possess less skill than
+the dwarves in stonemasonry, and less interest.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 12166
+D4
+~
+~
+0 -1 12164
+D6
+~
+~
+0 -1 12167
+S
+#12166
+The Realm of Fire~
+The tunnel ends in a dead end here, in a cavern used to store various
+supplies taken by the giants when they emerge from their lair to make
+war on Asgard or the Durin. Occasionally a giant force will travel as
+far as Midgaard, to aid their cousins there, though if truth be known 
+the giants of your realm are more advanced than these barbaric tribes
+men.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 12165
+S
+#12167
+The Realm of Fire~
+The tunnel slopes down sharply again; the walls here are smooth and
+featureless, as if they had been worn smooth by water... or lava. It
+would make sense for the fire giants to lair in or near the greatest
+source of heat they could find, and what better source than a rocky
+cave system atop (or within) a volcano? Giants of your own realm are
+similarly inclined.
+~
+0 3145736 0
+D5
+~
+~
+0 -1 12168
+D9
+~
+~
+0 -1 12165
+S
+#12168
+The Realm of Fire~
+The lava tube continues downwards, before at last levelling out to
+head northeast towards a large cavern, which is so brightly lit as
+to be visible from here, the reddish glow bathing this whole tunnel
+in light. Giants mill about, semi-alert for intruders, but mostly
+impatiently awaiting the next raid.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 12167
+D6
+~
+~
+0 -1 12169
+S
+#12169
+The Realm of Fire~
+As the tunnel approaches the bright cave it widens, to a point where
+six giants could walk abreast. It is frightening to consider the sheer
+volume of lava it would take to fashion this tunnel, as it melted its
+way through the softer rock, before erupting onto the surface, there
+to add a new layer to the mountain. The master of this realm cannot be
+far from here now.
+~
+0 0 1
+D6
+~
+~
+0 -1 12170
+D9
+~
+~
+0 -1 12168
+S
+#12170
+The Infernal Throne of Surtur~
+Here lies the throne of Surtur, lord of the fire giants. It is a towering
+chair of iron, ablaze with magical flame of brilliant hues of red and blue,
+which cast a blinding light throughout the cavernous halls. Large stone statues
+of fire giants wielding massive swords flank the throne, and line the hall,
+which is a deep red, and is shot through with rivulets of molten lava, the heat
+from which is almost unbearable. The ceiling is of dark stone, and appears to
+have once been the mouth of an active volcano or cinder cone.
+~
+0 3145736 0
+D9
+~
+~
+0 -1 12169
+S
+#12171
+Jotunheim!~
+You stagger out of the blizzard into a large cave, set in the side
+of a massive mountain that was nearly invisible in the raging blizzard.
+Bones are scattered across the floor, some of them twice the size of you.
+A dreadful, keening wail echoes about the cave, from some unknown source.
+Presumably you have stumbled inadvertently upon the realm of the giants;
+Jotunheim. But how to proceed...?
+~
+0 3153928 0
+D2
+~
+~
+0 -1 12000
+> rand_prog 50~
+mpclosepassage 12171 0
+~
+|
+S
+#12172
+Ascending the Mountain~
+This tunnel rises sharply, heading away from the hot interior back up
+to the chilly upper tunnels of the mountain you are within. You must
+be approaching the lair of the frost giants, who prefer the cold and
+ice more than any native of Asgard and its neighboring realms. It is
+with some reluctance you continue; frost giants of Jotunheim are far
+more powerful than those of Midgaard.
+~
+0 3145736 0
+D4
+~
+~
+0 -1 12173
+D5
+~
+~
+0 -1 12161
+S
+#12173
+The Icy Caverns~
+The tunnel evens out on an icy ledge, which is not dissimilar to those
+of the legendary realm of the frost giants of Midgaard, known as the
+Glacial Rift. Here, the ice is all that is beneath your feet; it has
+been carved from the frozen water that filled the open spaces in the
+mountain to create tunnels to allow the inhabitants to move through.
+~
+0 3145736 0
+D5
+~
+~
+0 -1 12172
+D6
+~
+~
+0 -1 12174
+S
+#12174
+The Icy Caverns~
+The ice tunnel continues, winding through the top of the mountain,
+heading presumably towards the master of this icy realm, the mighty
+frost giant known as Thrym, sworn enemy of Aesir and Vanir, and he
+also who it is predicted will with his armies one day slay Thor in
+battle at Ragnarok. Actually, this is Thrym's skewed version of the
+prophecy; the Aesir believe Thor will fall at the hands of the world
+serpent, Jormungand.
+~
+0 3145736 0
+D3
+~
+~
+0 -1 12176
+D9
+~
+~
+0 -1 12173
+S
+#12175
+The Center of the Blizzard~
+You clamber up the sink hole, and emerge back into the icy wastes,
+though at this point there is a curious lull in the continual storms.
+A massive icy clearing is here, atop a mountain, bearing a massive iron
+spike driven deep into the mountain, to which something of immense size
+is presumably meant to be tethered.
+~
+0 3145733 2
+> speech_prog p take me to odin~
+if isfight($n)
+mea $n You are far too busy to speak the correct phrase!
+else
+mea $n _blu The watchful Aesir summon you, eager to hear of your feat.
+mptrans $n 12090
+endif
+~
+|
+S
+#12176
+The Icy Caverns~
+At this point an icy chute ascends sharply, heading up to a ledge on
+top of this massive peak. Snow drifts are piled here, where snow has
+entered the lair from above. Footprints of giants and wolves mark it,
+though few head upwards into the shaft itself, which is accessible
+via a series of hand- and footholds.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 12178
+D1
+~
+~
+0 -1 12174
+D4
+~
+~
+128 -1 12177
+S
+#12177
+The Icy Chute~
+Onwards and upwards the chute ascends; progress is hampered by frostbite
+in your aching hands, and a constant chill breeze that assaults you,
+blowing ice and snow into your reddened face. When you emerge, snowblind
+and dazed, you hope you can muster enough energy to do battle with what
+awaits.
+~
+0 3145736 0
+D4
+~
+~
+16777344 -1 12175
+D5
+~
+~
+128 -1 12176
+S
+#12178
+The Icy Throne of Thrym~
+The chambers of the Frost Giant King, Thrym, lie before you, where the giant
+rests in between battles against the Aesir and the Vanir, with or without his
+sometime ally Surtur. Thrym is a strong giant, nowhere near as strong as
+Surtur, but what he lacks in comparison to the fire giant he more than makes
+up for with his cunning and guile. While Surtur is quite happy to mindlessly
+assault Asgardians in direct combat, Thrym tries to plan and make much more
+intelligent tactical decisions. However, he is still but a giant, and often
+fails in his efforts to outsmart the Aesir, though Loki has been known to aid
+him from time to time.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 12176
+S
+#12179
+Niflheim~
+The second you step down onto this blackened branch you instinctively
+know you have reached the underworld, where Hel and her minions receive
+the souls of the dishonorable dead, to torment them for eternity. Flame
+has scorched the surrounding foilage here, creating a canopy of ash and
+cinder, which frames a gaping cave entrance to the east, within which you
+will encounter the most malevolent residents of the Tree.
+~
+0 3145728 3
+D1
+~
+~
+0 -1 12180
+D4
+~
+~
+0 -1 12196
+D5
+~
+~
+0 -1 12197
+S
+#12180
+The Gates of Niflheim~
+Blackened, mangled metal gates rise here, out of a dark field of 
+enveloping gloom. A chill runs up and down your spine, despite the
+heat that emanates from blazing fires that fill braziers to either side
+of the gate. Thick smoke chokes your lungs and clouds your vision, and
+the stench of brimstone is strong. Were that you were anywhere but here
+in this fell domain! You can see no way of opening the gate, which is too
+hot to touch and bears no handle or lock besides. Perhaps it is better
+that you do not continue, for to do so could well mean your end.
+~
+0 3145737 1
+D3
+~
+~
+0 -1 12179
+S
+#12181
+Niflheim~
+Blasted, twisted trees sprout haphazardly from broken, uneven ground
+littered with decaying corpses and burnt skulls. Impaled humans howl
+and scream in pain as they dangle from the horrid implements thrust
+through their bellies. Blood drips from the blackened walls, flowing
+into large pools at your feet. The smell is as diabolical as one would
+expect in such a dire place.
+~
+0 3153929 0
+D8
+~
+~
+0 -1 12182
+D9
+~
+~
+0 -1 12183
+S
+#12182
+Niflheim~
+Fell shapes and shadows hurl themselves at you out of the bloody gloom,
+eager to feast on your body and soul. No mortal would sanely venture
+here unless they were one of the fallen who were deemed unworthy of
+Valhalla. But undaunted you press on, mostly because the edit that you
+passed through to enter this infernal realm has disappeared...
+~
+0 3153929 0
+D7
+~
+~
+0 -1 12181
+D9
+~
+~
+0 -1 12184
+S
+#12183
+Niflheim~
+Your every sense is assaulted and offended by this realm of the dead;
+it is more than that even, it is a realm of the damned, those totally
+devoid of any hope of redemption. No one would willingly reside in
+such a place, except as its dark master, which Hel is. She is aware
+of all who pass through her realm, and most likely lies in wait not
+far away, eager to teach you a well-deserved lesson.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 12181
+D8
+~
+~
+0 -1 12184
+> entry_prog 100~
+mpe _lbl A ghostly voice speaks from the shadows-
+mpe _lbl 'It is too late to escape now, mortal. Your fate is sealed!'
+~
+|
+S
+#12184
+Niflheim~
+Onwards the corpse-strewn path of bone contines, past blasted trees
+which support the weight of mutilated souls in their branches, who
+cry out for an end to this torment as you pass, an end that no one
+save Hel herself can grant, and there is little hope of her doing so.
+The flayed, limbless trunks of the damned flail about at your feet,
+driven insane by the pain inflicted on their crippled forms.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 12187
+D6
+~
+~
+0 -1 12182
+D7
+~
+~
+0 -1 12183
+S
+#12185
+A Fiery Death~
+You stumble and topple forwards into the fiery pit, screaming as the
+flesh is blasted from your bones by an immense wave of heat, reducing
+your idiotic mortal form to ash in milliseconds. And while the death
+may have been mercifully quick, the repurcussions of the destruction 
+of your mortal form will haunt you for some time...
+~
+0 3416071 0
+S
+#12186
+Niflheim~
+The path ends abruptly here, before the bottomless pit, from which red
+flames lick at the edge. To proceed in this direction would mean you
+have to plunge into the middle of this fiery pit; an unpalatable choice
+at best. Perhaps you'd prefer the safer course to suicide, which lies 
+back to the east, where you may proceed down the bone bridge.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 12188
+D5
+~
+~
+0 -1 12185
+S
+#12187
+Niflheim~
+The path here skirts a bottomless gorge that looms to the left, filled
+partially by searing flame, into which a multitude of sinners are thrust
+by tiny, grinning imps with pitchforks. The stench of burning flesh is
+overpowering, and threatens to induce nausea, though the sickening odor
+is overshadowed by the sight of bags of naked, screaming children, the
+offspring of the damned, being flung into pits of fire and trampled by
+grinning fiery giants, who take a disturbing pride in their work.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 12184
+D3
+~
+~
+0 -1 12188
+S
+#12188
+Niflheim~
+At this point a narrow path winds downwards to the southeast, a thin
+frame of bones covered with stretched skin, that descends into the
+gorge, towards whatever may lie at the bottom. The path continues to
+the west along the gorge, but appears to end abruptly at a sheer drop
+into the fiery pit.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 12187
+D3
+~
+~
+0 -1 12186
+D8
+~
+~
+0 -1 12189
+S
+#12189
+The Bridge of Bone~
+The bone path you are following stretches across the gorge, the flames
+failing to reach the bridge itself, though the immense heat is still
+almost overwhelming. On the far side, it reaches a dark hole which 
+plunges down into the gloomy depths, towards whatever may lie there in
+wait for you. Shrieking, flaming bats circle the bridge, soaring far
+above and below, not coming too close.
+~
+0 3153929 0
+D5
+~
+~
+0 -1 12190
+D7
+~
+~
+0 -1 12188
+> rand_prog 100~
+if ispc($r)
+mea $r _red A blast of flame strikes you!
+mpdamage $r 400
+endif
+~
+|
+S
+#12190
+The Dark Pit~
+You plunge downwards into the pit, striking the soft earth at the very
+bottom, sinking in to your knees in the bloodsoaked dirt. Peering up,
+you see that the top of the pit is some distance away, and a magical
+enchantment would be required to head back that way. Footprints in the
+dirt show that you are not the first to have ventured this far.
+~
+0 3153929 13
+D3
+~
+~
+0 -1 12191
+D4
+~
+~
+64 -1 12189
+S
+#12191
+Niflheim~
+The earth hardens here, forcing you out as it compresses into a hard,
+stony substance that yields little underfoot. A dank, dusty odor fills
+the air, though the area is devoid of corpses; only blank stone walls
+are visible, stretching far to the south. The odor from the pit to the
+east makes you keen to press on. More bodies can be seen to the south;
+the respite was only brief.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 12190
+D2
+~
+~
+0 -1 12194
+S
+#12192
+A Lonely Death~
+As you step into the cave, the entrance mysteriously disappears, leaving
+you trapped in the darkness, with no means of escape. You try every spell
+and trick you know, but all is in vain. Eventually malnutrition gets the
+better of you and you slowly perish in this; one of Hel's favorite death
+traps, your body never to be seen again.
+~
+0 3153935 1
+S
+#12193
+A Dead End~
+The tunnel ends here, before the entrance to more caves, a couple of
+them to the east large enough for you to crawl into, if you don't mind
+having to slither amongst the foul pale humanoids that reside within,
+exuding a thick grey mucous from their pores that renders them slick
+and lubricated. The stench is, not surprisingly, quite unbearable, and
+you find yourself desperately wishing to be away from here, away from
+Niflheim, away from Asgard, away from all things not of Midgaard.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 12194
+D1
+It would be INADVISABLE to continue.
+~
+~
+0 -1 12192
+S
+#12194
+An Infernal Junction~
+Several dark tunnels meet here, heading into the dark, dismal depths of
+Niflheim. Bursts of flame explode from small holes in the floor at
+random intervals, of too brief duration to injure you, but sufficient to
+cause you to start in surprise and fear. Dark cave entrances abound
+everywhere, most of them crawling with the pale bodies of the damned,
+writhing like maggots over and around each other, doomed to spend milennia
+in this form, as partial attrition for their sins.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 12191
+D2
+~
+~
+0 -1 12193
+D7
+~
+~
+0 -1 12198
+S
+#12195
+Yggdrasil~
+At this point, cries of pain and anger combined with the sounds of
+combat echo across the boughs of the trees, coming from a snowfield to
+the east. You can barely make out many warriors, battling fiercely
+with each other, and wonder if it would be safe to enter this place,
+seeing as the comforting surrounds of Yggdrasil feel so safe and secure.
+~
+0 3145732 3
+D1
+~
+~
+0 -1 12124
+D4
+~
+~
+0 -1 12013
+D5
+~
+~
+0 -1 12196
+S
+#12196
+Yggdrasil~
+The tree continues, the myriad of branches twisting and weaving their
+way through the fabric of time and space, allowing access to various
+planes, including the homes of the Aesir, the Vanir and other lesser
+races. A foul stench arises from the branches below you, which are all
+twisted and blackened, and soaked with blood.
+~
+0 3145728 3
+D4
+~
+~
+0 -1 12195
+D5
+~
+~
+0 -1 12179
+S
+#12197
+Yggdrasil~
+You are nearing the base of this mighty tree; just below you a field
+of shimmering magical energy obfuscates whatever may lurk there. The
+bark of the tree here is blackened and charred, as it was above, though
+not as badly. A musty smell fills the air.
+~
+0 3145728 3
+D4
+~
+~
+0 -1 12179
+D5
+~
+~
+2048 -1 12200
+S
+#12198
+The River of Blood~
+A river of the blood of the damned flows through Niflheim, and many
+of the foul inhabitants of this realm draw strength from its waters.
+Beyond this river lies the twisted metal throne of Hel herself, ruler
+of Niflheim and impartial observer over the dead. She will be angered
+by your intrusion into her realm; you can expect a rather violent 
+reception.
+~
+0 3153997 7
+D0
+~
+~
+0 -1 12199
+D8
+~
+~
+0 -1 12194
+S
+#12199
+Before the Goddess of Hel~
+Here Hel sits in judgement over those who have been damned to spend all of
+eternity in the infernal region that bears her name. A vile, malicious and
+utterly evil god, she delights in the torment and suffering of others,
+especially mortals from Midgaard who wander into her domain inadvertently!
+Tall columns of flame flicker to either side of a throne of bone, upon which
+the unholy god sits, and a multitude of small demons and imps scurry here and
+there, dragging in fresh corpses, piles of intestines, and other pleasant
+accoutrements to add to her hellish demesne.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 12198
+S
+#12200
+The Base of Yggdrasil~
+You have finally reached the roots of the Tree of Life, the base from
+which all knowledge and wisdom sprouts. Here the Norns- Urd, Verdandi
+and Skuld- tend the tree, and prophesise the future. It was here that 
+Odin gained his ability of prophesy, and paid the terrible price for the
+gift. The Norns remain absolutely impartial in all affairs of mortal and
+god, and favor neither side in any conflict. Their abode is encased in
+a shimmering sphere of grey energy, which obscures the rest of the tree.
+A large scrying device- a pool of glistening water that looks strangely
+attuned to magical energies- covers the floor, through which the Norn
+may observe the goings-on of Midgaard.
+~
+0 3145752 0
+D4
+~
+~
+2048 -1 12197
+S
+#0
+
+
+#RESETS
+M 1 12000 1 12010
+E 1 12000 1 16
+E 1 12001 1 17
+E 1 12002 1 5
+O 1 12059 1 12012
+M 1 12047 3 12017
+M 1 12047 3 12017
+M 1 12047 3 12017
+M 1 12004 1 12020
+E 1 12026 1 16
+M 1 12028 1 12022
+M 1 12029 1 12023
+M 1 12037 1 12024
+E 1 12049 1 5
+E 1 12050 1 16
+M 1 12005 1 12025
+E 1 12027 1 3
+E 1 12028 1 16
+M 1 12030 2 12025
+E 1 12029 1 16
+E 1 12030 1 11
+M 1 12030 2 12025
+E 1 12029 1 16
+E 1 12030 1 11
+M 1 12011 1 12027
+E 1 12031 1 16
+D 0 12060 3 2
+M 1 12031 1 12061
+E 1 12034 1 16
+M 1 12032 1 12062
+E 1 12036 1 17
+O 1 12040 1 12062
+M 1 12038 1 12065
+E 1 12051 1 16
+M 1 12001 1 12066
+E 1 12004 1 5
+E 1 12005 1 13
+E 1 12006 1 9
+E 1 12003 1 16
+O 1 12040 1 12066
+M 1 12022 1 12067
+M 1 12023 1 12067
+O 1 12018 1 12067
+M 1 12024 1 12068
+E 1 12019 1 16
+M 1 12003 1 12069
+E 1 12020 1 16
+E 1 12020 1 18
+E 1 12021 1 12
+M 1 12010 1 12087
+E 1 12014 1 3
+D 0 12090 0 2
+D 0 12091 2 2
+M 1 12017 1 12092
+M 1 12015 1 12093
+M 1 12016 1 12093
+M 1 12043 1 12094
+E 1 12058 1 8
+M 1 12013 1 12095
+M 1 12014 1 12095
+O 1 12032 1 12095
+P 0 12033 1 0
+D 0 12095 5 1
+D 0 12096 4 1
+M 1 12002 1 12097
+E 1 12007 1 16
+E 1 12008 1 17
+E 1 12009 1 5
+E 1 12010 1 6
+E 1 12011 1 1
+O 1 12040 1 12097
+D 0 12097 1 2
+O 1 12013 1 12099
+O 1 12040 1 12099
+M 1 12026 1 12100
+E 1 12069 1 16
+E 1 12070 1 13
+O 1 12045 1 12101
+O 1 12045 1 12102
+O 1 12045 1 12103
+O 1 12045 1 12104
+O 1 12045 1 12106
+O 1 12045 1 12107
+M 1 12044 1 12108
+E 1 12060 1 16
+M 1 12034 1 12109
+E 1 12041 1 16
+G 1 12043 1
+P 0 12042 1 0
+E 1 12044 1 5
+O 1 12045 1 12109
+M 1 12027 1 12110
+E 1 12025 1 9
+M 1 12054 3 12111
+E 1 12071 1 5
+M 1 12054 3 12113
+E 1 12071 1 5
+M 1 12054 3 12115
+E 1 12071 1 5
+M 1 12052 2 12116
+E 1 12071 1 5
+E 1 12072 1 16
+E 1 12073 1 11
+M 1 12052 2 12116
+E 1 12071 1 5
+E 1 12072 1 16
+E 1 12073 1 11
+M 1 12053 4 12117
+E 1 12074 1 16
+M 1 12053 4 12118
+E 1 12074 1 16
+M 1 12053 4 12118
+E 1 12074 1 16
+M 1 12053 4 12119
+E 1 12074 1 16
+M 1 12036 1 12121
+E 1 12047 1 16
+E 1 12048 1 11
+O 1 12040 1 12121
+O 1 12066 1 12122
+O 1 12066 1 12123
+M 1 12046 7 12126
+E 1 12062 1 16
+E 1 12063 1 11
+E 1 12064 1 5
+E 1 12065 1 6
+M 1 12046 7 12127
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12063 1 11
+E 1 12064 1 5
+M 1 12046 7 12129
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12064 1 5
+E 1 12063 1 11
+M 1 12046 7 12129
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12064 1 5
+E 1 12063 1 11
+M 1 12048 1 12129
+E 1 12030 1 11
+E 1 12029 1 16
+M 1 12046 7 12129
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12064 1 5
+E 1 12063 1 11
+M 1 12046 7 12131
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12063 1 11
+E 1 12064 1 5
+M 1 12046 7 12133
+E 1 12065 1 6
+E 1 12062 1 16
+E 1 12063 1 11
+E 1 12064 1 5
+M 1 12050 2 12134
+M 1 12051 1 12136
+M 1 12050 2 12139
+M 1 12008 1 12150
+M 1 12049 2 12157
+M 1 12049 2 12158
+O 1 12068 1 12159
+M 1 12035 1 12160
+E 1 12046 1 16
+M 1 12040 5 12163
+E 1 12054 1 16
+M 1 12040 5 12164
+E 1 12054 1 16
+M 1 12040 5 12166
+E 1 12054 1 16
+M 1 12040 5 12167
+E 1 12054 1 16
+M 1 12040 5 12169
+E 1 12054 1 16
+M 1 12039 1 12170
+E 1 12052 1 5
+E 1 12053 1 16
+O 1 12061 1 12171
+M 1 12042 4 12172
+E 1 12054 1 16
+M 1 12042 4 12173
+E 1 12054 1 16
+M 1 12033 1 12175
+E 1 12037 1 3
+M 1 12042 4 12176
+E 1 12054 1 16
+M 1 12042 4 12177
+E 1 12054 1 16
+M 1 12041 1 12178
+E 1 12055 1 16
+E 1 12056 1 12
+E 1 12057 1 5
+M 1 12025 1 12180
+M 1 12045 1 12181
+M 1 12006 1 12190
+E 1 12022 1 8
+E 1 12067 1 16
+M 1 12007 1 12199
+E 1 12016 1 16
+M 1 12019 1 12200
+E 1 12015 1 16
+M 1 12020 1 12200
+E 1 12015 1 16
+M 1 12021 1 12200
+E 1 12015 1 16
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  12000 spec_cast_cleric
+M  12001 spec_breath_lightning
+M  12002 spec_cast_cleric
+M  12003 spec_cast_cleric
+M  12004 spec_cast_mage
+M  12005 spec_cast_mage
+M  12006 spec_cast_mage
+M  12007 spec_cast_cleric
+M  12008 spec_breath_gas
+M  12010 spec_cast_cleric
+M  12011 spec_guard
+M  12013 spec_thief
+M  12014 spec_thief
+M  12017 spec_cast_cleric
+M  12019 spec_cast_mage
+M  12020 spec_cast_mage
+M  12021 spec_cast_mage
+M  12025 spec_breath_any
+M  12030 spec_breath_frost
+M  12031 spec_cast_cleric
+M  12032 spec_cast_adept
+M  12034 spec_cast_cleric
+M  12035 spec_cast_mage
+M  12036 spec_executioner
+M  12038 spec_guard
+M  12039 spec_breath_fire
+M  12041 spec_breath_frost
+M  12043 spec_cast_cleric
+M  12047 spec_cast_mage
+M  12048 spec_cast_adept
+M  12049 spec_breath_lightning
+S
+
+
+#$

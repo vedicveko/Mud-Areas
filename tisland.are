@@ -1,0 +1,1822 @@
+#AREADATA
+Credits     {r< 30- 50> {bInsane   {gTreasure Isle{x~
+Name        Treasure Island~
+Filename    tisland.are~
+Builders    Shaggy~
+VNUMs       16900 16999
+Security    9
+End
+
+
+
+#MOBILES
+#16900
+large crab~
+a large crab~
+A large crab with claws big enough to take off your head is here.
+~
+A large blue crab crawls about in the sand looking for a tasty morsel of
+food.  I hope he doesn't choose you.  
+~
+lizardman~
+AGT V 0 0
+35 0 10d82+534 35d10+100 5d12+18 claw
+-11 -11 -11 0
+0 0 L I
+stand stand either 1200
+AGXc ACDEFHKQV M 0
+#16901
+insect mosquito~
+a mosquito~
+A small annoying insect buzzes around you occasionally biting your neck..
+~
+Darn things are everywhere....
+~
+pixie~
+AGT T 0 0
+30 0 10d60+426 30d10+100 5d10+17 sting
+-8 -8 -8 0
+FPU 0 H KO
+stand stand none 1000
+AHMV ABCDEFGHIJK M 0
+#16902
+turtle~
+a turtle~
+A turtle runs up to you at 1/100 mph here.
+~
+You see before you a fast turtle with a slow but deadly bite.
+~
+lizardman~
+AT V 0 0
+31 0 10d64+448 31d10+100 5d10+19 bite
+-9 -9 -9 0
+0 0 L I
+stand stand either 900
+AGXc ACDEFHKQV M 0
+#16903
+parrot~
+a green parrot~
+A small green parrot sits on the captain's desk..
+~
+The parrot continually squalks about wanting a cracker...
+Put him out of his misery..
+~
+water fowl~
+ABT TVb 0 0
+35 0 10d82+534 35d10+100 5d12+18 none
+-11 -11 -11 0
+PU 0 R 0
+sit sit none 500
+AGW ACDEFHKP S 0
+#16904
+mosquito~
+an indifferent mosquito~
+This mosquito wont help anyone except itself
+~
+This insect will suck your blood and try to drain you of it completely.
+~
+pixie~
+AT TV -500 0
+33 0 10d73+487 33d10+100 5d11+19 suction
+-10 -10 -10 0
+0 0 H KO
+stand stand none 1000
+AHMV ABCDEFGHIJK M 0
+#16905
+ghost pirate~
+a ghost pirate~
+You barely see the form of an ancient pirate floating about.
+~
+This ghost pirate seems to be bored.  He's probably been floating here
+for century's.  Why don't you put him out of his misery, or at least killing
+you will end his boredom...  
+~
+human~
+ART NOTV -250 0
+40 0 10d108+648 80d10+100 5d14+20 slash
+-15 -15 -15 -2
+0 0 ILQ 0
+stand stand male 1450
+AHMV ABCDEFGHIJK M 0
+#16906
+Gorilla~
+a Gorilla~
+You get the feeling that this Gorilla wants to eat you.
+~
+This animal usually eats bananas for dinner and adventurers for dessert.
+~
+draconian~
+AT FTV 0 0
+53 0 10d189+1019 53d10+100 5d18+29 none
+-23 -23 -23 -6
+F AL 0 S
+stand stand male 2000
+ABGZ ACDEFHJKQVX M 0
+#16907
+monkey~
+a monkey~
+This monkey loves gorillas more than gorillas love her.
+~
+This monkey loves to swing to the aid of the ones she loves.
+~
+draconian~
+AT FTV 0 0
+47 0 10d149+836 47d10+100 5d16+25 thwack
+-19 -19 -19 -4
+FR AL 0 S
+stand stand female 1700
+ABGZ ACDEFHJKQVX M 0
+#16908
+restless pirate spirit~
+a pirate spirit~
+A restless spirit in the form of a pirate floats near you.
+~
+You see a ghost that looks like a pirate in pirate attire.
+~
+human~
+ART V -250 0
+44 0 10d130+759 88d10+100 5d15+24 none
+-17 -17 -17 -3
+0 A 0 0
+stand stand none 1500
+AHMV ABCDEFGHIJK M 0
+#16909
+sleepy pirate~
+a sleepy pirate~
+A tired pirate is here in his bunk.
+~
+This ghost pirate has been awake for to many centuries.  Looks like he's
+finally getting a nap.  I wouldn't wake him, he may get cranky.  
+~
+human~
+ABT V -200 0
+38 0 10d97+603 38d10+100 5d13+20 pound
+-13 -13 -13 -1
+0 A LQ 0
+sleep sleep male 1300
+AHMV ABCDEFGHIJK M 0
+#16911
+ghost chef cook~
+a ghost chef~
+A ghost stands here chopping vegetables and putting them into the bubbling pot.
+~
+Wearing a chef's hat, the cook is here chopping carrots and onions.  You
+approach him but then back away when you see the giant meat cleaver he is
+using.  
+~
+human~
+ABCT HV -500 0
+48 0 10d155+869 48d10+100 5d16+28 chop
+-20 -20 -20 -5
+0 A BLQ 0
+stand stand male 1500
+AHMV ABCDEFGHIJK H 0
+#16912
+captain micron~
+Captain Micron~
+The shadowy form of Captain Micron is sitting at his desk.
+~
+The captain turns toward you...  You shudder as you notice the patch over
+his right eye.  The other you stares at you blankly...  As if no thought is
+in his ghostly brain..
+Then he speaks to you in a low voice saying:
+"Aye me matey!...you here to sign up as cabin boy?.."
+~
+human~
+ABQRT BHOV -750 0
+50 0 10d168+930 100d10+100 5d17+27 slice
+-21 -21 -21 -5
+0 AB L N
+sit sit male 2000
+AHMV ABCDEFGHIJK L 0
+#16913
+tentacle monster~
+a toilet tentacle~
+A monster with a long grungy tentacle spurting juices.
+~
+This monster seem to live in the ghostly latrine.  His long tentacle
+pokes its way out once in a while trying to grab unsuspecting passerbyers.. 
+WOh...  You just barely avoid his swing!..  
+~
+snake~
+ACFS QVc -50 0
+35 0 10d82+534 35d10+100 5d12+18 digestion
+-11 -11 -11 0
+0 0 KL I
+stand stand none 1000
+AGXYac ADEFKLNQVX L 0
+#16914
+roach~
+a small roach~
+A tiny bug scurries along the floor...eeeekkk..a roach.
+~
+These tiny bugs have been able to last for centuries....  Are you the one
+thats gonna kill em?  
+~
+centipede~
+ACT QZ 0 0
+35 0 10d82+534 35d10+100 5d12+18 bite
+-11 -11 -11 0
+FPU 0 FI E
+stand stand none 500
+ABGO ACK T 0
+#16916
+pirrahna fish~
+a pirrahna~
+A small fish with jutting teeth aproaches you as you enter the water.
+~
+Uh Oh its a pirrahna...  You'd better get the heck outta here before he
+sees you..  Its to late...  Here he comes!  
+~
+snake~
+ABCF Jb 0 0
+35 0 10d82+534 35d10+100 5d12+18 chomp
+-11 -11 -11 0
+PU AB LR CIS
+stand stand none 1000
+AGVXYc ADEFKLOQVX S 0
+#16922
+tiger cub~
+a small tiger cub~
+A small furry tiger cub hissing at you..
+~
+The small furball is still growing his teeth and claws.  He may not be
+much of a match for ya...  But watch out for his mother..  
+~
+cat~
+AGT PVZ 0 0
+30 0 10d60+426 30d10+100 5d10+17 claw
+-8 -8 -8 0
+FH 0 0 0
+stand stand either 1200
+AGV ACDEFHJKQUV M 0
+#16923
+sabre tooth tiger cat~
+the sabretooth tiger~
+Purrring in the corner you notice a cat with large teeth approach you.
+~
+Gee..  And all this time I thought they extinct.  This sabretooth tiger
+seems to have survived through the centuries by hunting from this cave.  As
+it seems he just ate, he looks as though he could go for another meal.  
+~
+cat~
+AB HJQZ 250 0
+45 0 10d136+786 45d10+100 5d15+26 scratch
+-18 -18 -18 -4
+CFHMR 0 HI 0
+rest stand female 1500
+AGV ACDEFHJKQUV L 0
+#16925
+pelican~
+a pelican~
+A large pelican swoops down at your head..
+~
+This bird has a rather large mouth which its using to try and take off
+your head!  
+~
+water fowl~
+ABT TVb 0 0
+39 0 10d102+629 39d10+100 5d13+22 bite
+-14 -14 -14 -2
+0 0 R 0
+stand stand either 1200
+AGW ACDEFHKP M 0
+#16928
+unknown guardian monster~
+the guardian~
+A unknown monster with an evil grin floats here..
+~
+As you walk into the room the monster turns to face you...  He grins
+showing his five rows of yellow teeth...  Then opening his mouth he speaks
+in a slow, raspy voice..  Beware...  You should not be here...  If you
+manage to defeat me...  You will face your greatest challenge 
+~
+draconian~
+ABRT FHTV 0 0
+50 5 15d175+945 50d10+100 7d18+30 claw
+-21 -21 -21 -5
+0 ABL 0 S
+stand stand none 1900
+ABGZ ACDEFHJKQVX L 0
+#16930
+head~
+a human head~
+The head of a human sacrifice sits here blinking..
+~
+The head of a poor human who was captured and fed to the evil monster..
+~
+human~
+ABR 0 0 0
+40 0 10d108+648 80d10+100 5d14+20 bite
+-15 -15 -15 -2
+DF 0 0 0
+stand stand none 1200
+AHMV ABCDEFGHIJK S 0
+#16931
+arm~
+a hairy arm~
+The hairy arm of some creature
+~
+The remains of some creature...it seems to be still twitching..
+~
+human~
+ABCS 0 0 0
+40 0 10d108+648 40d10+100 5d14+20 slap
+-15 -15 -15 -2
+CER E 0 0
+stand stand none 1250
+AHMV ABCDEFGHIJK S 0
+#16933
+black bat~
+a black bat~
+A winged mouse blends in with the walls...EEK its a bat!
+~
+This small dirty creature hangs on the wall...  I wouldn't wake them.... 
+They might get angry 
+~
+bat~
+ABC BQTZ -250 0
+38 0 10d97+603 38d10+100 5d13+20 drain
+-13 -13 -13 -1
+FHR 0 LS HS
+sleep sleep none 1200
+AGV ACDEFHJKP S 0
+#16937
+lava blob~
+a lava blob~
+The floor begins to swirl up into a blob of mobile lava..
+~
+This blob seems to have formed from the rock floor your standing on.... 
+He has no eyes yet you feel him glaring at you evily...  
+~
+dwarf~
+ABT JV 0 0
+45 0 10d136+786 45d10+100 5d15+26 flbite
+-18 -18 -18 -4
+F HL LQ IR
+stand stand none 1900
+AHMV ABCDEFGHIJK M 0
+#16939
+lava lord~
+the Lava Lord~
+A giant creature made completely of Lava...
+~
+The Lava Lord seems to just radiate a personal aura of control...  He
+screams out orders to someone who you cannot see....  Suddenly the room
+moves to fit his orders..  
+~
+dwarf~
+ABT HJV -500 0
+50 0 10d168+930 50d10+100 5d17+27 thwack
+-21 -21 -21 -5
+0 H LQ IR
+sit sit none 1700
+AHMV ABCDEFGHIJK L 0
+#16940
+treasure monster~
+the treasure monster~
+The treasure's guardian sees you and bashes you into the ground.
+~
+This large creature was placed here millions of years ago to protect Lava
+Lord's monetary investment in case he was ever killed and his treasure key
+taken.  He glares at you evily as you stand in front of the chest 
+~
+dwarf~
+ABFT JV 0 0
+45 0 10d136+786 45d10+100 5d15+26 crush
+-18 -18 -18 -4
+F H ELQ R
+stand stand male 2400
+AHMV ABCDEFGHIJK L 0
+#16943
+electric eel~
+an electric eel~
+A long snakelike eel swims around occasionally glowing..
+~
+The small eel rubs up against your boat occasionally sending a charge of
+electricity through the water.  I don't think its a good idea to go for a
+dip..  
+~
+snake~
+AT Vb -100 0
+35 0 10d82+534 35d10+100 5d12+18 shbite
+-11 -11 -11 0
+0 0 L I
+stand stand either 1500
+AGXYc ADEFKLQVX S 0
+#16945
+robert louis stevenson~
+Mr. Stevenson~
+The writer Robert Louis Stevenson sits here reading the book Treasure Island.
+~
+Its really him!....he looks up at you with glaring eyes....
+Uh oh..i don't think you shoulda disturbed him..
+~
+human~
+ABRT HV -250 0
+52 0 10d182+988 104d10+100 5d18+27 divine
+-22 -22 -22 -6
+CINO A 0 N
+stand stand male 2500
+AHMV ABCDEFGHIJK M 0
+#16947
+salamander~
+a salamander~
+An icky salamander crawls among the leaves of the forest floor.
+~
+The small lizard creeps along the forest floor...  Looking for the
+occasion fly.  Strangely he looks up at you and seems to grin..  
+~
+lizardman~
+ACGT QV 0 0
+40 0 10d108+648 40d10+100 5d14+20 acbite
+-15 -15 -15 -2
+0 0 L I
+stand stand none 750
+AGXc ACDEFHKQV S 0
+#16948
+long john silver~
+Long John Silver~
+A man sits in front of the tree...its Long John Silver!
+~
+He looks very old....but still seems to be able to handle a sword!
+~
+human~
+ABT HV -500 0
+50 0 10d168+930 50d10+100 5d17+27 slice
+-21 -21 -21 -5
+CFIKN 0 0 C
+sit sit none 1800
+AHMV ABCDEFGHIJK M 0
+#16974
+light elf mage apprentice~
+a mage apprentice~
+A light elf mage apprentice asks, "Want to learn a spell?"
+~
+You see a very thin, tall elf clothed in a white, Amity, training mage's
+robe.  His eyes fill you with a sense of peace when you peer at them.  
+~
+elf~
+AR HJ 1000 0
+1 0 1d2+6 2d10+100 1d2+0 none
+9 9 9 9
+0 0 B Z
+stand stand male 4200
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#16901
+tarnished bronze key~
+a small tarnished bronze key~
+A small bronze key with the Micron emblem on it.~
+none~
+key TU A
+0 0 0 0 0
+20 10 1 P
+#16902
+note~
+a note~
+A note~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+E
+note~
+Beware!  All who dare venture onto my ship....  There is a great horror
+within the toilet....  But if you dare venture to the horror you must enter
+the toilet!  
+~
+#16903
+toilet~
+the toilet and are flushed into another dimension..or just another place..~
+A toilet is here.~
+none~
+portal R 0
+ABCFGHIJ 0 0 ABCDEJO 0
+15 0 0 P
+#16905
+decapitated head~
+the decapitated head of Insane~
+The bloodied head of Insane full of liquid.~
+none~
+drink BC A
+115 50 'schnapps' 0 0
+15 15 15 P
+#16906
+guardian key~
+the guardian's key~
+A plastick key with the guardian emblem sits here..~
+none~
+key BPU A
+0 0 0 0 0
+1 0 0 P
+#16907
+lava key~
+a lava key~
+A key made from lava bubbles on the floor..~
+none~
+key PU A
+0 0 0 0 0
+0 0 0 P
+#16908
+gold treasure~
+the lava lord's gold treasure~
+A large golden treasure..~
+none~
+money 0 A
+FHIJKL 0 0 0 0
+0 0 0 P
+#16909
+blanket blankee~
+a pirate blankee~
+A cloth with the jolly roger lays on the ground.~
+none~
+furniture BG A
+B DFIJN K CDH BH
+25 30 100 P
+#16910
+lava exit pool portal~
+the portal and are killed instantly.......just kidding...~
+The portal that takes you outta this place..~
+none~
+portal 0 0
+ABCFGHIJ 0 0 CJO 0
+0 0 0 P
+#16911
+pot~
+a rusty iron pot~
+An old rusty pot sits here on the cooking fire.~
+none~
+container 0 A
+20 AC 0 20 95
+15 15 10 P
+#16912
+desk~
+a rotting desk~
+An old wooden desk rotting away.~
+none~
+container DR 0
+100 ACD 16901 100 100
+15 0 0 P
+#16913
+sink~
+a grimy sink~
+A grimy sink full of green drinkable liquid..~
+none~
+fountain R 0
+0 0 'slime mold juice' 0 0
+0 0 0 P
+#16914
+long john silver cutlass~
+long john silver's cutlass~
+A large cutlass with the initials L.J.S. inscribed on the scabbard..~
+none~
+weapon ABGIL AN
+sword 6 12 slice DF
+50 100 2700 P
+F A 19 6 0
+F A 18 4 0
+#16915
+lava dagger~
+the lava dagger~
+A small firey dagger forged of lava lays here.~
+none~
+weapon AG AN
+dagger 6 10 stab D
+50 50 2500 P
+F A 19 6 0
+F A 18 4 0
+#16916
+jolly roger flag~
+a black jolly roger~
+A small black flag with the skull and crossbones.~
+none~
+armor AGS AC
+CE CE CE BCD 0
+50 35 2500 P
+F A 1 1 0
+F A 19 1 0
+F A 18 1 0
+F A 4 1 0
+F A 13 25 0
+F A 12 25 0
+#16917
+well portal~
+the well and drop for what seems like forever~
+A small well that seems to go down thousands of feet..~
+none~
+portal 0 0
+ABCFGHIJ 0 0 ABCDFJO 0
+0 0 0 P
+#16918
+ghost chef hat~
+a ghost chef's hat~
+A fadded old chef's hat covered with lard.~
+none~
+armor 0 AE
+CE CE CE ABCD 0
+48 35 1800 A
+F A 5 1 0
+F A 13 30 0
+F A 19 2 0
+#16919
+micron hook arm~
+micron's hook arm~
+A small hook with the remains of an arm sit on the ground..~
+none~
+weapon BH AN
+exotic 7 9 claw DH
+50 60 3000 P
+F A 19 4 0
+F A 18 5 0
+#16920
+coins~
+coins~
+Coins~
+none~
+money 0 A
+EGIJOP 0 0 0 0
+0 0 0 P
+#16923
+ball keep-away~
+a glowing ball~
+GET IT! GET IT!  It's the keep-away ball!~
+none~
+trash ABY AQ
+0 0 0 0 0
+1 1 1 P
+#16924
+deadly dagger~
+a small deadly dagger~
+A tiny dagger sits here..~
+none~
+trash AGHI AN
+0 0 0 0 0
+7 1 1 P
+#16935
+death armor~
+armor of Death~
+A glowing pile of metal sits here.~
+none~
+trash ABFGIY AD
+0 0 0 0 0
+45 1 1 P
+#16939
+lava portal pool~
+the Lava Lords portal..~
+A swirling pool of lava...Do you dare dive in..?~
+none~
+portal B 0
+ABCFGHIJ 0 0 CDFJO 0
+0 0 0 P
+#16940
+gold chest~
+the lava lord's golden chest~
+A gold chest sits on a pedistal in the middle of the room..~
+none~
+container 0 0
+0 ACD 16907 1000 0
+15 0 0 P
+#16942
+pool~
+a small pool~
+A small pool formed along the side of the lake you can drink from.~
+none~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 P
+#16943
+shimmering water pool portal~
+a shimmering pool of water~
+The surface of the water forms a shimmering portal to another place..~
+none~
+portal 0 0
+ABCFGHIJ 0 0 EFJO 0
+0 0 0 P
+#16945
+book treasure island~
+the book Treasure island~
+An oldy dusty book lays on the ground with the title Treasure Island~
+none~
+treasure AGHST AO
+0 0 0 0 0
+50 40 2000 P
+F A 19 1 0
+F A 18 1 0
+F A 4 1 0
+F A 3 1 0
+F A 12 30 0
+F A 5 1 0
+#16946
+portal exit~
+the exit~
+A portal back into the jungle..~
+none~
+portal A 0
+ABCFGHIJ 0 0 CJO 0
+0 0 0 P
+#16948
+tree~
+a tree~
+~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+tree~
+Inscibed in the tree are the words:
+Insane wuz here!
+M.S. loves L.P.
+~
+#16949
+ring penmanship~
+{W the ring of great penmanship{x~
+{W You see a ring with ink on it here.{x~
+none~
+jewelry B AB
+0 0 0 0 0
+52 1 2500 P
+F A 18 1 0
+F A 19 1 0
+F A 3 1 0
+#16950
+eye patch~
+{b the eye patch of treachery{x~
+{b An eye patch is here.{x~
+none~
+armor A AR
+CE ACE ABE BE 0
+50 1 2500 P
+#16951
+bracer molten lava~
+{r a molten lava bracer{x~
+{r A bracer made of molten lava is here{x~
+none~
+armor A AM
+BE ACE ACE E 0
+50 10 2500 P
+F A 18 1 0
+F A 12 28 0
+F A 13 25 0
+F A 19 2 0
+#16952
+cooking lantern~
+{Y a seven seas cooking lantern{x~
+{Y A lantern is here.{x~
+none~
+light A A
+0 0 999 0 0
+48 30 2430 P
+F A 13 29 0
+F A 12 25 0
+F A 19 1 0
+F A 18 2 0
+#16953
+lava club~
+{m a spiked, molten, lava club{x~
+{m A club made of molten lava is here.{x~
+none~
+weapon B AN
+mace 6 9 pierce D
+45 50 2371 P
+F A 19 5 0
+F A 18 4 0
+#16954
+lava breastplate~
+{y a molten lava breastplate{x~
+{y A breastplate made of molten lava is here.{x~
+none~
+armor A AD
+E BE AE BCD 0
+45 50 2183 P
+F A 20 -1 0
+F A 24 -1 0
+F A 5 1 0
+#16955
+spiked polearm~
+{B a poison tipped, spiked polearm{x~
+{B A spiked polearm is here.{x~
+none~
+weapon B AN
+polearm 8 9 sting FH
+50 70 2417 P
+F A 19 3 0
+F A 18 7 0
+#16956
+monstrous-looking boots~
+{C a pair of monstrous-looking boots{x~
+{C You see a pair of boots here.{x~
+none~
+armor A AG
+BCE ABE BCE BE 0
+50 24 2475 P
+F A 2 3 0
+F A 13 43 0
+F A 14 54 0
+#16957
+pirate's pants~
+{c a pair of pirate's pants{x~
+{c You see a pair of pirate's pants here.{x~
+none~
+armor A AF
+BCD E ABCD ABD 0
+40 30 1214 P
+F A 19 2 0
+#16958
+mosquito wings~
+{G a pair of mosquito wings{x~
+{G A pair of mosquito wings are here.{x~
+none~
+armor B AI
+CD BD ABD D 0
+30 20 1163 P
+F A 18 1 0
+F A 13 10 0
+#16959
+nordic shield~
+{g a moss-covered nordic shield{x~
+{g A shield covered with moss is here.{x~
+none~
+armor A AJ
+E ABCD BCD ACD 0
+44 40 1493 P
+F A 24 -5 0
+#16960
+eel skin~
+{R the slippery skin of an eel{x~
+{R You see some eel skin here.{x~
+none~
+armor A AK
+CD ACD BCD AD 0
+35 20 1479 P
+F A 13 29 0
+#16961
+monkey tail~
+{M a painted monkey tail{x~
+{M You see a tail here.{x~
+none~
+weapon B AN
+exotic 7 7 sting H
+40 40 2495 P
+F A 19 2 0
+F A 18 6 0
+#16962
+salamander slime~
+{C some salamander slime{x~
+{C You see some slime here.{x~
+none~
+armor A AH
+BCD ABCD ACD BD 0
+40 10 1839 P
+F A 19 2 0
+F A 13 10 0
+#16963
+bat ears~
+{y a pair of bat ears{x~
+{y A pair of bat ears are here.{x~
+none~
+armor B AS
+D AD BD ABC 0
+38 10 2662 P
+F A 19 2 0
+F A 18 1 0
+#16964
+dragon quest portal~
+{R the dragon quest portal{x~
+{R The level 30+ dragon quest portal (look portal) is here.{x~
+none~
+portal R 0
+0 0 0 EFHJLO 0
+30 0 0 P
+E
+portal~
+Warning: many no_recall rooms in this quest made by Grunt.  The prize is
+a held object.  Good Luck, Dimi.  
+~
+#16980
+cape shiver-me-timbers~
+{Ca shiver-me-timbers cape{x~
+{CA wet, ultra-light blue cape is here.{x~
+none~
+container BGY AK
+62 0 0 16 24
+44 10 1965 P
+F A 17 -32 0
+F A 12 24 0
+F A 19 2 0
+#0
+
+
+
+#ROOMS
+#16900
+Edge of Jungle~
+You come to the edge of the dense jungle.  Quickly taking a deep breath
+of fresh air you realize you're on a sandy beach.  
+~
+0 0 3
+D1
+~
+~
+0 0 16901
+D2
+~
+~
+0 0 16902
+S
+#16901
+Inside the Jungle~
+Taking a few steps into the brush you are now deep within the Jungle. 
+Your path continues to shrink.  I hope you're not claustraphobic.  
+~
+0 A 3
+D1
+~
+~
+0 0 16919
+D2
+~
+~
+0 0 16903
+D3
+~
+~
+0 0 16900
+S
+#16902
+Along the Shoreline~
+Large waves crash along the shoreline as you walk along the sand.  To the
+west there is what looks like the wreckage of a pirate ship.  The north and
+east lead back into the jungle.  
+~
+0 0 2
+D0
+~
+~
+0 0 16900
+D1
+~
+~
+0 0 16903
+D3
+~
+~
+0 0 16904
+S
+#16903
+Inside the Jungle~
+Ouch...  A small mosquito bites your neck.  The jungle continues to the
+north and there is a beach to the west.  You also notice a trail to the east
+leading to the base of a dormant volcano.  
+~
+0 A 3
+D0
+~
+~
+0 0 16901
+D1
+~
+~
+0 0 16915
+D2
+~
+~
+0 0 16950
+D3
+~
+~
+0 0 16902
+S
+#16904
+Wreckage of a Pirate Ship~
+The bulk of the ship sits on the beach but a portion still rocks back and
+forth amongst the waves.  But i'd be careful, Who knows when the rest may
+give away.  
+~
+0 C 0
+D1
+~
+~
+0 0 16902
+D3
+~
+~
+0 0 16905
+S
+#16905
+The Poop Deck~
+The rotting wood continues to fall into the rumbling Ocean.  At times you
+feel as though you to will fall into the Ocean.  You should have brought the
+sea sick pills.  
+~
+0 0 0
+D1
+~
+~
+0 0 16904
+D2
+~
+~
+0 0 16906
+S
+#16906
+Beneath the ship's sail~
+Above you the ships sail flaps in the wind.  If not for the millions of
+holes, the ship could probably still move.  You also notice a hole in the
+floor.  
+~
+0 0 0
+D0
+~
+~
+0 0 16905
+D5
+~
+~
+0 0 16907
+S
+#16907
+Inside the Pirate Ship~
+You are now inside the wreckage.  The smell of salt and rotting wood
+fills your lungs.  You also get the scent of rotting flesh.  To the east you
+see a boarded up hole in the side of the ship.  To the south the ship
+continues on.  
+~
+0 AD 0
+D1
+~
+boarded-up-hole~
+1 0 16916
+D2
+~
+~
+0 0 16908
+D4
+~
+trap~
+0 0 16906
+S
+#16908
+Continuing inside the Ship~
+As you walk on the condition of the ship seems to improve.  To the east
+you see a door with a sign saying "Sleeping Quarters".  To the south you
+smell a cooking fire.  
+~
+0 AD 0
+D0
+~
+~
+0 0 16907
+D1
+~
+~
+1 0 16909
+D2
+~
+~
+0 0 16910
+S
+#16909
+Crew Quarters~
+There are bunks on either wall of the sleeping quarters.  A small
+bathroom is to the east.  The ship seems to sway as you walk through the
+room.  
+~
+0 D 0
+D1
+~
+~
+1 0 16913
+D3
+~
+~
+1 0 16908
+S
+#16910
+A small hallway within the ship~
+The ship begins to get fancier as you walk deeper into it.  The torches
+along the wall begin to ignite as you walk by them.  East you hear boiling
+water.  To the south is a door with a sign saying "Captain Micron".  
+~
+0 AD 0
+D0
+~
+~
+0 0 16908
+D1
+~
+~
+0 0 16911
+D2
+~
+~
+1 0 16912
+S
+#16911
+The Ship Kitchen~
+Pots and pans hand all around the room.  You see a cooking fire in the
+middle of the room with a boiling pot in the center.  
+~
+0 D 0
+D1
+~
+~
+0 0 16914
+D3
+~
+~
+0 0 16910
+S
+#16912
+Captain's Quarters~
+As you enter the room you notice just a small desk and a bed.  All along
+the walls are maps of the Seven Seas.  On the desk sit an ink blotter and
+some notes.  
+~
+0 CD 0
+D0
+~
+~
+1 0 16910
+S
+#16913
+Latrine~
+Awwww man the SMELL!  You are barely able to fit yourself in the room. 
+The walls are covered with a green slime.  As for the toilet and sink.... 
+You don't wanna know...  I'd get out quick...  
+~
+0 D 0
+D3
+~
+~
+1 0 16909
+S
+#16914
+Storage Closet~
+There is little space here..  You notice a roach scurry behind a broom.  
+~
+0 AD 0
+D3
+~
+~
+0 0 16911
+S
+#16915
+Edge of Volcano~
+You have come to a clearing at what looks like the foothills of a
+Volcano.  Even though the volcano is said to be dormant you see spurts of
+ash from the top.  A trail continues around the volcano to the east.  You
+can also attempt the steep cliffs to north.  
+~
+0 0 3
+D0
+~
+~
+0 0 16919
+D1
+~
+~
+0 0 16917
+D3
+~
+~
+0 0 16903
+S
+#16916
+IN THE OCEAN~
+You take a few steps to the east and suddenly the entire floor gives way.
+You fall into the ocean and are washed away by the crashing waves.  
+~
+0 AC 0
+S
+#16917
+Trail along side the Volcano~
+You are walking on a well trodden trail around the volcano.  As you
+continue along the smell of ash increases.  
+~
+0 0 2
+D1
+~
+~
+0 0 16918
+D3
+~
+~
+0 0 16915
+S
+#16918
+Trail along side the Volcano~
+The trail branches here.  To the north is a tunnel into the volcano. 
+Continuing east is a trail back into the jungle.  
+~
+0 0 2
+D0
+~
+~
+0 0 16920
+D3
+~
+~
+0 0 16917
+S
+#16919
+Below a steep cliff~
+You are standing on a pebbled landing of a steep cliff.  It appears as
+though you could climb the cliff up the volcano.  
+~
+0 C 3
+D2
+~
+~
+0 0 16915
+D3
+~
+~
+0 0 16901
+D4
+~
+~
+0 0 16921
+S
+#16920
+Tunnel entering the Volcano~
+The tunnel seems to lead into the center of the volcano...  You feel the
+heat as you continue north.  
+~
+0 A 0
+D0
+~
+~
+0 0 16935
+D2
+~
+~
+0 0 16918
+S
+#16921
+Hanging from the Cliff~
+As you climb higher and higher you feel the wind become stronger.  You
+begin thinking this may have been a mistake.  
+~
+0 0 5
+D1
+~
+~
+0 0 16923
+D4
+~
+~
+0 0 16922
+D5
+~
+~
+0 0 16919
+S
+#16922
+Almost the top of the Volcano~
+You have almost reached the top of the volcano....Don't look down!
+~
+0 0 5
+D4
+~
+~
+0 0 16924
+D5
+~
+~
+0 0 16921
+S
+#16923
+Strange Dark Cave~
+You hear a deep resounding noice coming from within the cave.  You go to
+take a closer look and find nothing but a few bloody bones and what appears
+to be animal fur.  
+~
+0 A 5
+D3
+~
+~
+0 0 16921
+S
+#16924
+Top Edge of the Volcano~
+You've done it...you've reached the top..
+Now where??
+~
+0 0 5
+D1
+~
+~
+0 0 16925
+D5
+~
+~
+0 0 16922
+S
+#16925
+Top of Volcano~
+The ground is covered with soot and ash...
+You can hardly breath and the smell is unbearable...
+~
+0 0 5
+D0
+~
+~
+0 0 16929
+D3
+~
+~
+0 0 16924
+S
+#16926
+Flying inside the Volcano~
+Inside the Volcano you see blackened walls....  Looking down some ash
+blows into your eyes...  Up you see the open sky..  
+~
+0 0 9
+D4
+~
+~
+0 0 16929
+D5
+~
+~
+0 0 16933
+S
+#16927
+Prison of the Unknown..~
+You have travelled far through the toilet to end up in this damp desolate
+cavern...  There is only one exit which leads to the east...  Farther down
+the hall you hear screaming..  
+~
+0 0 0
+D1
+~
+~
+0 0 16928
+S
+#16928
+Guardian's Room~
+Blood and guts run down the wall of the guardian's room...  Body parts
+lay strewn across the room from past victims...  Where do you think your
+body will land?  
+~
+0 A 0
+D3
+~
+~
+0 0 16927
+D5
+~
+~
+1 16906 16930
+S
+#16929
+Volcano Opening~
+You are flying above the hole that descends into the volcano..  Lets hope
+it doesn't explode while you're up here..  
+~
+0 0 9
+D2
+~
+~
+0 0 16925
+D5
+~
+~
+0 0 16926
+S
+#16930
+Who knows where?~
+After defeating the guardian you continue down the path...  Where the
+hell have you gone to now?  
+~
+0 C 0
+D1
+~
+~
+0 0 16931
+D4
+~
+~
+1 0 16928
+S
+#16931
+Feeding Room~
+Body parts are strewn everywhere...
+This seems to be the feeding place for the unknown monster down the hallway..
+Hmm...looks like some of his food is still alive..
+~
+0 0 0
+H 80 M 100
+D1
+~
+~
+0 0 16932
+D3
+~
+~
+0 0 16930
+S
+#16932
+Last chance...~
+In the next room you hear the much talked about monster....  Now is your
+only chance to turn back...  
+~
+0 C 0
+D1
+~
+~
+0 0 16946
+D2
+~
+~
+0 0 16945
+D3
+~
+~
+0 0 16931
+S
+#16933
+Flying inside the Volcano~
+The walls seem to be moving...  You cannot tell what it is..  But i'd get
+outta here..  
+~
+0 C 9
+D4
+~
+~
+0 0 16926
+D5
+~
+~
+0 0 16934
+S
+#16934
+The center of the Volcano~
+You have reached the center of the volcano...  The walls glow a dim red
+and seem to seep some lava...  
+~
+0 C 0
+D2
+~
+~
+0 0 16935
+D4
+~
+~
+0 0 16933
+D5
+~
+~
+0 0 16936
+S
+#16935
+Lower entrance to the Volcano~
+You walk on a soot covered floor....a hot breeze blows into your face...
+The occasional blast of ash blinds you...
+~
+0 0 0
+D0
+~
+~
+0 0 16934
+D2
+~
+~
+0 0 16920
+S
+#16936
+Under the Volcano~
+You descend a small ledge into the volcano...  To the east you see a
+bright red room with a moving floor..  You can continue down..  If you
+wish..  
+~
+0 C 0
+D1
+~
+~
+0 0 16937
+D4
+~
+~
+0 0 16934
+D5
+~
+~
+0 0 16941
+S
+#16937
+Lava covered room~
+As you enter the room the lava caves in the entrance...  It seems a new
+entrance has formed though...  
+~
+0 C 0
+D2
+~
+~
+0 0 16938
+S
+#16938
+Lava Room~
+Another room full of lava...  Again..  The entrance behind you caves
+in...  A new one to the east opens..  
+~
+0 A 0
+D1
+~
+~
+0 0 16939
+S
+#16939
+Office of the Lava Lord~
+The room is made entirely of lava yet you are able to survive...  The
+furniture constantly change with the flowing lava making it hard to describe
+what it looks like..  
+~
+0 C 0
+S
+#16940
+Lava Lord's Treasure Room~
+This room is made completely of gold, silver, and platinum.  The heat and
+pressure over the years has formed large diamonds which glitter along the
+walls..  A large chest sits in the center of the room made completely of
+gold.  
+~
+0 C 0
+S
+#16941
+Deep below the ground.~
+You are travelling way below the ground now...  The air has a thick musty
+smell and you can hardly breath.  You see a small underground lake farther
+down.  
+~
+0 0 0
+D4
+~
+~
+0 0 16936
+D5
+~
+~
+0 0 16942
+S
+#16942
+Underground Lake~
+After coming down the rest of the trail you have reached a small
+underground lake.  The water seems pure yet the room seems to have an evil
+aura to it...  
+~
+0 0 0
+D0
+~
+~
+0 0 16943
+D4
+~
+~
+0 0 16941
+S
+#16943
+On the underground lake~
+You are floating in the middle of the underground lake.
+You see a beach to the north and south.....
+~
+0 A 6
+D0
+~
+~
+0 0 16949
+D2
+~
+~
+0 0 16942
+S
+#16944
+Small secret forest..~
+You have discovered a small underground forest...  Its made up of maple
+trees and oak trees..  
+~
+0 0 0
+D2
+~
+~
+0 0 16947
+S
+#16945
+His Writing Room~
+You have finnally arrived to the evil creature which created this
+realm...  Be prepared to die!  
+~
+0 AN 0
+D0
+~
+~
+0 0 16932
+S
+#16946
+Exit!~
+This is your way back to reality...  Take it while you can..  
+~
+0 0 0
+D3
+~
+~
+0 0 16932
+S
+#16947
+Exploring the forest~
+As you travel through the forest the brush begins to thicken.  You also
+hear the crunching of leaves as if a small creature is beneath them.  
+~
+0 0 0
+D0
+~
+~
+0 0 16944
+D1
+~
+~
+0 0 16948
+S
+#16948
+a clearing in the forest~
+The forest has seemed to cleared out a little section..
+In the middle of the clearing a single tree stands...
+~
+0 0 0
+D3
+~
+~
+0 0 16947
+S
+#16949
+Northern underground Beach~
+The sand has a blackish tint from the volcano's ash...  The waves crashes
+along the shore seem to lul you to sleep...  It is such a peaceful area..  
+~
+0 C 0
+H 110 M 110
+D2
+~
+~
+0 0 16943
+S
+#16950
+Treasure Island Shoreline~
+You are on a sandy shore filled with crabs.  To the north you see a
+jungle teeming with wildlife.
+ 
+    An injured warrior limps toward you and says:
+        An evil man with a book has created a nasty man with an eye-patch,
+        a volcano beast, and an old sailor.  I had no luck bringing peace
+        to the island because I was not able to kill the evil man and his
+        creations.  Maybe you will fare better than I did.
+~
+0 C 0
+D0
+~
+~
+0 0 16903
+D2
+~
+~
+0 0 13310
+S
+#0
+
+
+
+#SPECIALS
+M 16905 spec_cast_mage Load to: a ghost pirate
+M 16908 spec_cast_mage Load to: a pirate spirit
+M 16909 spec_cast_mage Load to: a sleepy pirate
+M 16912 spec_breath_any Load to: Captain Micron
+M 16913 spec_thief Load to: a toilet tentacle
+M 16914 spec_poison Load to: a small roach
+M 16928 spec_cast_mage Load to: the guardian
+M 16930 spec_cast_mage Load to: a human head
+M 16931 spec_thief Load to: a hairy arm
+M 16933 spec_poison Load to: a black bat
+M 16939 spec_breath_fire Load to: the Lava Lord
+M 16940 spec_breath_gas Load to: the treasure monster
+M 16945 spec_cast_mage Load to: Mr. Stevenson
+M 16974 spec_cast_mage Load to: a mage apprentice
+S
+
+
+
+#RESETS
+D 0 16907 1 1               * The east door of Inside the Pirate Ship is closed
+D 0 16910 2 1               * The south door of A small hallway within the ship is closed
+D 0 16912 0 1               * The north door of Captain's Quarters is closed
+D 0 16928 5 2               * The down door of Guardian's Room is closed and locked
+D 0 16930 4 2               * The up door of Who knows where? is closed and locked
+M 0 16900     4 16900     2   * Load a large crab
+M 0 16906     4 16900     1   * Load a Gorilla
+M 0 16900     4 16901     2   * Load a large crab
+M 0 16904     4 16901     1   * Load an indifferent mosquito
+M 0 16907     2 16901     1   * Load a monkey
+M 0 16902     4 16901     1   * Load a turtle
+M 0 16908     4 16901     1   * Load a pirate spirit
+E 0 16959    11    11         * {g a moss-covered nordic shield{x is loaded as a shield of a pirate spirit
+E 0 16980    12    12         * {ca shiver-me-timbers cape{x is loaded about the shoulders of a pirate spirit
+M 0 16904     4 16902     1   * Load an indifferent mosquito
+M 0 16908     4 16902     1   * Load a pirate spirit
+E 0 16980    12    12         * {ca shiver-me-timbers cape{x is loaded about the shoulders of a pirate spirit
+M 0 16902     4 16902     1   * Load a turtle
+M 0 16906     4 16903     1   * Load a Gorilla
+M 0 16901     2 16903     1   * Load a mosquito
+E 0 16958    10    10         * {g a pair of mosquito wings{x is loaded on the arms of a mosquito
+M 0 16905     4 16905     2   * Load a ghost pirate
+E 0 16957     7     7         * {c a pair of pirate's pants{x is loaded on the legs of a ghost pirate
+M 0 16905     4 16906     2   * Load a ghost pirate
+E 0 16957     7     7         * {c a pair of pirate's pants{x is loaded on the legs of a ghost pirate
+M 0 16914     2 16907     1   * Load a small roach
+M 0 16909     4 16909     4   * Load a sleepy pirate
+G 0 16909    -1               * A pirate blankee is given to a sleepy pirate
+O 0 16911     0 16911         * A rusty iron pot loaded to The Ship Kitchen
+P 0 16905     0 16911     1   * The decapitated head of insane put inside a rusty iron pot
+M 0 16911     1 16911     1   * Load a ghost chef
+E 0 16918     6     6         * A ghost chef's hat is loaded over the head of a ghost chef
+G 0 16952    -1               * {y a seven seas cooking lantern{x is given to a ghost chef
+M 0 16912     1 16912     1   * Load Captain Micron
+G 0 16902    -1               * A note is given to Captain Micron
+E 0 16919    16    16         * Micron's hook arm is loaded wielded of Captain Micron
+E 0 16950    19    19         * {b the eye patch of treachery{x is loaded on the eyes of Captain Micron
+M 0 16903     1 16912     1   * Load a green parrot
+O 0 16913     0 16913         * A grimy sink loaded to Latrine
+O 0 16903     0 16913         * The toilet and are flushed into another dimension..or just another place.. loaded to Latrine
+M 0 16913     1 16913     1   * Load a toilet tentacle
+O 0 16964     0 16913         * {r the dragon quest portal{x loaded to Latrine
+M 0 16914     2 16914     1   * Load a small roach
+M 0 16904     4 16915     1   * Load an indifferent mosquito
+M 0 16902     4 16915     1   * Load a turtle
+M 0 16916     2 16916     2   * Load a pirrahna
+M 0 16916     2 16916     2   * Load a pirrahna
+M 0 16901     2 16917     1   * Load a mosquito
+M 0 16906     4 16917     1   * Load a Gorilla
+M 0 16904     4 16918     1   * Load an indifferent mosquito
+M 0 16907     2 16918     1   * Load a monkey
+M 0 16908     4 16918     1   * Load a pirate spirit
+E 0 16959    11    11         * {g a moss-covered nordic shield{x is loaded as a shield of a pirate spirit
+M 0 16902     4 16920     1   * Load a turtle
+M 0 16923     1 16923     1   * Load the sabretooth tiger
+M 0 16922     5 16923     5   * Load a small tiger cub
+M 0 16925     1 16925     1   * Load a pelican
+M 0 16928     1 16928     1   * Load the guardian
+G 0 16906    -1               * The guardian's key is given to the guardian
+E 0 16955    16    16         * {b a poison tipped, spiked polearm{x is loaded wielded of the guardian
+E 0 16956     8     8         * {c a pair of monstrous-looking boots{x is loaded on the feet of the guardian
+M 0 16930     2 16931     2   * Load a human head
+M 0 16931     2 16931     2   * Load a hairy arm
+E 0 16961    16    16         * {m a painted monkey tail{x is loaded wielded of a hairy arm
+M 0 16933     2 16933     2   * Load a black bat
+G 0 16963    -1               * {y a pair of bat ears{x is given to a black bat
+M 0 16906     4 16935     1   * Load a Gorilla
+M 0 16908     4 16935     1   * Load a pirate spirit
+E 0 16959    11    11         * {g a moss-covered nordic shield{x is loaded as a shield of a pirate spirit
+M 0 16937     4 16937     2   * Load a lava blob
+M 0 16937     4 16938     2   * Load a lava blob
+O 0 16939     0 16939         * The lava lords portal.. loaded to Office of the Lava Lord
+M 0 16939     1 16939     1   * Load the Lava Lord
+G 0 16907    -1               * A lava key is given to the Lava Lord
+E 0 16915    16    16         * The lava dagger is loaded wielded of the Lava Lord
+E 0 16951    14    14         * {r a molten lava bracer{x is loaded on the left wrist of the Lava Lord
+O 0 16940     0 16940         * The lava lord's golden chest loaded to Lava Lord's Treasure Room
+P 0 16908     0 16940     0   * The lava lord's gold treasure put inside the lava lord's golden chest
+O 0 16910     0 16940         * The portal and are killed instantly.......just kidding... loaded to Lava Lord's Treasure Room
+M 0 16940     1 16940     1   * Load the treasure monster
+G 0 16908    -1               * The lava lord's gold treasure is given to the treasure monster
+E 0 16953    16    16         * {m a spiked, molten, lava club{x is loaded wielded of the treasure monster
+E 0 16954     5     5         * {y a molten lava breastplate{x is loaded on the torso of the treasure monster
+O 0 16942     0 16942         * A small pool loaded to Underground Lake
+M 0 16943     4 16942     1   * Load an electric eel
+O 0 16943     0 16943         * A shimmering pool of water loaded to On the underground lake
+M 0 16943     4 16943     3   * Load an electric eel
+E 0 16960    12    12         * {r the slippery skin of an eel{x is loaded about the shoulders of an electric eel
+M 0 16945     1 16945     1   * Load Mr. Stevenson
+E 0 16945    17    17         * The book treasure island is loaded held in the hands of Mr. Stevenson
+E 0 16949     2     2         * {w the ring of great penmanship{x is loaded on the right finger of Mr. Stevenson
+O 0 16946     0 16946         * The exit loaded to Exit!
+M 0 16947     3 16947     3   * Load a salamander
+E 0 16962     9     9         * {c some salamander slime{x is loaded on the hands of a salamander
+O 0 16948     0 16948         * A tree loaded to a clearing in the forest
+O 0 16917     0 16948         * The well and drop for what seems like forever loaded to a clearing in the forest
+M 0 16948     1 16948     1   * Load Long John Silver
+E 0 16916     3     3         * A black jolly roger is loaded around the neck (1) of Long John Silver
+E 0 16914    16    16         * Long john silver's cutlass is loaded wielded of Long John Silver
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

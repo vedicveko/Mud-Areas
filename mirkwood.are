@@ -1,0 +1,1646 @@
+#AREA
+mirkwood.are~
+Mirkwood~
+{ 5 15} Yaegar Mirkwood~
+8800 8869
+
+
+#HELPS
+0 mirkwood~
+Written by Yaegar using MZF and a DOS text Editor in December 1995. Based
+loosely on the forest mentioned in the works of Tolkien of the same name.
+
+Thanks to J.R.R. Tolkien and the gang at AM.
+~
+0 $~
+
+
+#MOBILES
+#8800
+sylvan elf scout~
+a sylvan elf scout~
+A Sylvan Elf scout is offended at your intrusion!
+~
+The Sylvan Elves are a good people, but centuries of subjection to the
+violences and prejudices of other races have made them wary and very
+hostile toward outsiders. However, if you're tough enough, perhaps he'll
+back down. As natives of Mirkwood, they are virtually imposssible to see
+if they don't want to be seen.
+~
+human~
+BDFG FJQ 400 0
+5 0 1d12+59 1d1+99 1d7+0 hit
+7 7 7 12
+0 0 0 0
+dead dead male 50
+0 0 medium 0
+#8801
+sylvan elf warrior~
+a sylvan elf warrior~
+A Sylvan Elf warrior lunges at you with his sword!
+~
+The Sylvan Elves are a good people, but centuries of subjection to the
+violences and prejudices of other races have made them wary and very
+hostile toward outsiders. However, if you're tough enough, perhaps he'll
+back down.
+~
+human~
+BDFG J 400 0
+7 1 1d12+83 1d1+99 1d8+1 hit
+6 6 6 11
+0 0 0 0
+dead dead male 70
+0 0 medium 0
+#8802
+orc scout~
+an orc scout~
+An Orcish scout screams and attacks!
+~
+These foul creatures have been sent in advance by Orcish forces to scout
+out the defenses of Mirkwood. So far, their attempts have resulted only
+in their own demise, but eventually the Elves will be worn down by the
+sheer weight of numbers of the immense Orcish hordes.
+~
+human~
+CFH J -400 0
+5 0 1d12+59 1d1+99 1d7+0 hit
+7 7 7 12
+0 0 0 0
+dead dead male 50
+0 0 medium 0
+#8803
+orc warrior~
+an orc warrior~
+An Orcish warrior screams and attacks!
+~
+These fell minions of Sauron have been sent in an attempt to subjugate
+Mirkwood. So far, their attempts have resulted only in their own demise,
+but eventually the Elves will be worn down by the
+sheer weight of numbers of the immense Orcish hordes.
+~
+human~
+CF J -400 0
+5 0 1d12+59 1d1+99 1d7+0 hit
+7 7 7 12
+0 0 0 0
+dead dead male 50
+0 0 medium 0
+#8804
+guard~
+a wood elf guard~
+A Wood Elf guard angrily accosts you.
+~
+This angry guard is incensed at your trespass in the hall of his king, and
+will attempt to forcibly eject you.
+~
+human~
+DF J 400 0
+8 1 1d12+95 1d1+99 1d9+1 hit
+5 5 5 10
+0 0 0 0
+dead dead male 80
+0 0 medium 0
+#8805
+chief guard~
+the chief of the guard~
+A Wood Elf chief of the guard lunges at you with his sword!
+~
+The Wood Elves are a good people, but centuries of subjection to the
+violences and prejudices of other races have made them wary and very
+hostile toward outsiders. However, if you're tough enough, perhaps he'll
+back down.
+~
+human~
+BDFG J 400 0
+12 2 1d12+143 1d1+99 1d11+3 hit
+2 2 2 7
+0 0 0 0
+dead dead male 120
+0 0 medium 0
+#8806
+galion butler~
+Galion the butler~
+A Wood Elf butler glares at you accusingly.
+~
+Galion has a tremenous fondness for Dorwinion Wine, and he is now well and
+truly inebriated. However that does not mean he won't react to your
+intrusion.
+~
+human~
+BDFG J 400 0
+10 1 1d12+119 1d1+99 1d10+2 hit
+4 4 4 9
+0 0 0 0
+dead dead male 100
+0 0 medium 0
+#8807
+thranduil~
+Thranduil, king of the Wood Elves~
+Thranduil, King of the Wood Elves, eyes you suspiciously.
+~
+While not immune to the prejudices of his brethren, Thranduil is a trifle
+wiser (and more civilized) and he will not attack without provocation.
+~
+human~
+BDG HJ 500 0
+15 2 1d31+224 1d1+99 1d13+4 hit
+0 0 0 5
+0 0 0 0
+dead dead male 150
+0 0 medium 0
+#8808
+wood elf~
+a male wood elf~
+A male Wood Elf glares angrily at you.
+~
+This person won't attack you like the guards will, but that doesn't mean
+he likes you any more than they do...
+~
+human~
+H J 400 0
+6 1 1d12+71 1d1+99 1d7+1 hit
+6 6 6 11
+0 0 0 0
+dead dead male 60
+0 0 medium 0
+#8809
+wood elf~
+a female wood elf~
+A female Wood Elf glares angrily at you.
+~
+This person won't attack you like the guards will, but that doesn't mean
+ahe likes you any more than they do...
+~
+human~
+H J 400 0
+6 1 1d12+71 1d1+99 1d7+1 hit
+6 6 6 11
+0 0 0 0
+dead dead female 60
+0 0 medium 0
+#8810
+turnkey elf~
+the turnkey~
+The turnkey sleeps here.
+~
+This surly fellow is almost always passed out from copious alcohol
+consumption.
+~
+human~
+BCG JR 0 0
+9 1 1d12+107 1d1+99 1d9+2 hit
+4 4 4 9
+0 0 0 0
+dead dead male 90
+0 0 medium 0
+#8811
+thorin oakenshield~
+Thorin Oakenshield~
+Thorin Oakenshield politely bows before you.
+~
+This Dwarf is descended from noble blood. He and his fellows were waylaid
+by the Wood Elves while journeying to avenge their brethren against the
+dragon Smaug.
+~
+human~
+C N 500 0
+14 2 1d29+195 1d1+99 1d13+3 hit
+1 1 1 6
+0 0 0 0
+dead dead male 140
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#8800
+pool~
+a pool~
+A pool of crystal-clear water fills this clearing.
+~
+nothingness~
+fountain 0 0
+10000 10000 'water' 0 0
+-4 1 -400 P
+E
+pool~
+It looks tasty. Have a drink!
+~
+#8801
+sword~
+an elvish sword~
+A beautiful sword has been left here.
+~
+nothingness~
+weapon G AN
+dagger 0 -1 pierce 0
+-4 15 -400 P
+A
+18 2
+#8802
+cloak~
+a plain elven cloak~
+A plain, but practical, Elven cloak lies here.
+~
+nothingness~
+armor 0 AK
+0 0 0 0 1
+-4 5 -400 P
+A
+13 5
+A
+17 -2
+#8803
+boots~
+a pair of plain elven boots~
+A plain, but practical, pair of Elven boots.
+~
+nothingness~
+armor 0 AG
+0 0 0 0 1
+-4 5 -400 P
+A
+2 1
+A
+14 50
+#8804
+water flask~
+a water flask~
+An Elven water flask. It is rumored that they can provide water for days.
+~
+nothingness~
+drink 0 AO
+10 10 'water' 0 0
+-4 5 -400 P
+#8805
+shield~
+a spiked metal shield~
+An Orcish spiked metal shield has been left here.
+~
+nothingness~
+armor 0 AJ
+0 0 0 0 1
+-4 10 -400 P
+#8806
+scimitar~
+an orcish scimitar~
+An Orcish scimitar has been left here.
+~
+nothingness~
+weapon 0 AN
+sword 0 -1 slash 0
+-4 20 -400 P
+A
+1 1
+A
+19 1
+#8807
+helm~
+an ugly spiked helm~
+An ugly Orcish spiked helm has been left here.
+~
+nothingness~
+weapon 0 AE
+staff 0 -1 hit 0
+-4 5 -400 P
+A
+17 -5
+#8808
+flask wine~
+a flask of Dorwinion wine~
+A half-drunk flask of fine Dorwinion wine lies here.
+~
+nothingness~
+drink 0 AO
+4 2 'wine' 0 0
+-4 5 -400 P
+#8809
+barrel wine~
+a barrel of Dorwinion wine~
+A barrel of Dorwinion wine is here.
+~
+nothingness~
+drink 0 A
+10 10 'wine' 0 0
+-4 25 -400 P
+#8810
+barrel~
+an empty barrel~
+This empty barrel would make a fine boat.
+~
+nothingness~
+container ST A
+500 0 0 500 100
+-4 25 -400 P
+#8811
+sword~
+a fine elven sword~
+A fine Elven sword glimmers softly here.
+~
+nothingness~
+weapon A AN
+dagger 0 -1 pierce 0
+-4 18 -400 P
+A
+2 1
+A
+18 2
+A
+19 3
+#8812
+key~
+a key~
+A key to a cell door is here.
+~
+nothingness~
+key 0 AO
+0 0 0 0 0
+-4 1 -400 P
+#8813
+key~
+a key~
+A key to a cave door is here.
+~
+nothingness~
+key 0 AO
+0 0 0 0 0
+-4 1 -400 P
+#0
+
+
+#ROOMS
+#8800
+Entrance to Mirkwood~
+You have entered the quasi-magical Elven forest of Mirkwood, populated by
+Sylvan Elves and their mysterious allies. Strangers are frowned upon here,
+so be on your guard. It is rumored that many different races of Elves
+actually inhabit this forest, in various parts and sometimes they are
+carefully hidden, away from the prying eyes of strangers.
+
+There is a sign tacked to a tree nearby.
+~
+0 0 3
+D0
+~
+~
+0 -1 8801
+D2
+~
+~
+0 -1 8855
+E
+sign~
+This area serves as a connector for many areas with an Elven or Faerie
+flavour, favored areas of the Immortal Yaegar. Tread carefully, and remember
+to keep track of where you have been.
+
+--Yaegar
+~
+S
+#8801
+The Path Through Mirkwood~
+You are advancing along a narrow path that runs deep into the forest of
+Mirkwood. Giant, ancient trees tower over you to either side, and sweet
+songbirds sing in their lofty branches. However, despite this serene scene,
+you can't shake the feeling that you're being watched.
+~
+0 0 3
+D0
+~
+~
+0 -1 8802
+D2
+~
+~
+0 -1 8800
+S
+#8802
+The Path Through Mirkwood~
+You are advancing along a narrow path that runs deep into the forest of
+Mirkwood. Giant, ancient trees tower over you to either side, and sweet
+songbirds sing in their lofty branches. However, despite this serene scene,
+you can't shake the feeling that you're being watched.
+~
+0 0 3
+D0
+~
+~
+0 -1 8803
+D2
+~
+~
+0 -1 8801
+S
+#8803
+A Fork in the Path~
+You have reached a point where the path branches, with paths running to the
+east and west. A wild animal suddenly howls angrily some distance away, and
+you involuntarily jump.
+~
+0 0 3
+D1
+~
+~
+0 -1 8804
+D2
+~
+~
+0 -1 8802
+D3
+~
+~
+0 -1 8820
+S
+#8804
+A Broad Path~
+This branch of the path widens out after a short distance, and you notice
+signs of heavy use, evidently by non-Elves, as Elves do not leave footprints.
+The trees are thinner and smaller in this part of the forest, giving the
+impression that it has been recently cleared.
+~
+0 0 3
+D1
+~
+~
+0 -1 8805
+D3
+~
+~
+0 -1 8803
+S
+#8805
+Another Junction~
+The path once again divides, this time into northern and southern branches.
+To the north an impressive-looking citadel looms over the treetops, while
+to the south the trail becomes significantly narrower, and overgrown.
+~
+0 0 3
+D0
+~
+~
+0 -1 8806
+D2
+~
+~
+0 -1 8808
+D3
+~
+~
+0 -1 8804
+S
+#8806
+A Bend in the Road~
+The northern road bends to the east at this point, allowing you to gaze
+upon a wondrous Elven Fortress. Although you are more than a mile away,
+it still looms large ahead of you.
+~
+0 0 3
+D1
+~
+~
+0 -1 8807
+D2
+~
+~
+0 -1 8805
+S
+#8807
+Plains~
+The road opens onto an area cleared of trees here, a broad plain dotted with
+the occasional hedge or distant farmhouse. There is a marked path running
+due east toward the west gate of the distant fortress.
+~
+0 0 2
+D1
+the plains of malathar~
+~
+0 -1 400
+D3
+~
+~
+0 -1 8806
+S
+#8808
+The Southern Trail~
+Progress along this narrow, overgrown path is next to impossible, and you
+find yourself having to stop several times for a rest. There doesn't seem to
+be any quick end to it either.
+~
+0 0 15
+D0
+~
+~
+0 -1 8805
+D2
+~
+~
+0 -1 8809
+S
+#8809
+The Southern Trail~
+Progress along this narrow, overgrown path is next to impossible, and you
+find yourself having to stop several times for a rest. There doesn't seem to
+be any quick end to it either.
+
+You spy a rope ladder ascending to a platform in a nearby tree.
+~
+0 0 15
+D0
+~
+~
+0 -1 8808
+D2
+~
+~
+0 -1 8811
+D4
+~
+~
+0 -1 8810
+S
+#8810
+A Guard Post~
+You have stumbled into a Sylvan Elf guard post, from which they carefully
+watch out for intruding Orcs or Goblins. They dislike strangers in general,
+and detest interlopers into their personal areas even more. Expect a violent
+reception if there is a guard present...
+~
+0 0 3
+D5
+~
+~
+0 -1 8809
+S
+#8811
+The Southern Trail~
+Progress along this narrow, overgrown path is next to impossible, and you
+find yourself having to stop several times for a rest. There doesn't seem to
+be any quick end to it either.
+
+At this point you may follow a side trail which runs to the east. It seems
+to be a little less overgrown.
+~
+0 0 15
+D0
+~
+~
+0 -1 8809
+D1
+~
+~
+0 -1 8813
+D2
+~
+~
+0 -1 8812
+S
+#8812
+A Dead End~
+WHAT? After all that exertion, the path ends at a DEAD END??? Ah well, I
+guess you had better turn back...
+~
+0 0 15
+D0
+~
+~
+0 -1 8811
+S
+#8813
+The Eastern Path~
+This path is certainly less overgrown than the north-south one. You actually
+find yourself able to move relatively quickly through the forest, stopping
+only occasionally to hack away an overhanging branch or vine.
+~
+0 0 3
+D1
+~
+~
+0 -1 8814
+D3
+~
+~
+0 -1 8811
+S
+#8814
+The Eastern Path~
+This path is certainly less overgrown than the north-south one. You actually
+find yourself able to move relatively quickly through the forest, stopping
+only occasionally to hack away an overhanging branch or vine.
+~
+0 0 3
+D1
+~
+~
+0 -1 8815
+D3
+~
+~
+0 -1 8813
+S
+#8815
+A Bend in the Path~
+You have reached a point where the path bends to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 8816
+D3
+~
+~
+0 -1 8814
+S
+#8816
+The Northern Path~
+The path here is fairly clear and free of vegetation. It actually looks
+fairly well-maintained. You think you can hear a distant singing to the
+north.
+~
+0 0 3
+D0
+~
+~
+0 -1 8817
+D2
+~
+~
+0 -1 8815
+S
+#8817
+The Northern Path~
+The path here is fairly clear and free of vegetation. It actually looks
+fairly well-maintained. You think you can hear a distant singing to the
+north.
+
+Another path runs to the east of here.
+~
+0 0 3
+D0
+~
+~
+0 -1 8819
+D1
+~
+~
+0 -1 8818
+D2
+~
+~
+0 -1 8816
+S
+#8818
+The End of the Path~
+The path ends here in a small clearing with a small shallow pool of crystal
+clear water. You feel strangely at ease here.
+~
+0 0 3
+D3
+~
+~
+0 -1 8817
+S
+#8819
+Approaching the Holy Grove~
+The singing is clearly audible here, and it is coming from a well-tended
+grove to the east. Dimly visible are all manner of man and beast, and
+although they would usually feed upon each other, they all seem to be at
+peace.
+~
+0 0 3
+D1
+~
+~
+0 -1 8904
+D2
+~
+~
+0 -1 8817
+S
+#8820
+The Western Path~
+This path is rather overgrown but it is still easily navigable. You fancy
+you can see a rope ladder ascending into the brances of a tall oak near the
+eastern side of the road.
+~
+0 0 3
+D1
+~
+~
+0 -1 8803
+D3
+~
+~
+0 -1 8822
+D4
+~
+~
+0 -1 8821
+S
+#8821
+A Guard Post~
+You have stumbled into a Sylvan Elf guard post, from which they carefully
+watch out for intruding Orcs or Goblins. They dislike strangers in general,
+and detest interlopers into their personal areas even more. Expect a violent
+reception if there is a guard present...
+~
+0 0 3
+D5
+~
+~
+0 -1 8820
+S
+#8822
+A Bend to the North~
+The path bends to the north here, running for some distance toward a stream.
+~
+0 0 3
+D0
+~
+~
+0 -1 8823
+D1
+~
+~
+0 -1 8820
+S
+#8823
+A Northern Path~
+This path is fairly even and well-used, so going is not as rough as the
+previous paths. There is a wide stream dead ahead.
+~
+0 0 3
+D0
+~
+~
+0 -1 8824
+D2
+~
+~
+0 -1 8822
+S
+#8824
+A Stream~
+This stream is too wide and deep to wade across. You'll need a boat or a
+spell. Mind you, you could always whip out your rod and start angling :)
+~
+0 0 6
+D0
+~
+~
+0 -1 8825
+D1
+~
+~
+0 -1 8866
+D2
+~
+~
+0 -1 8823
+S
+#8825
+A Northern Path~
+This path is fairly even and well-used, so going is not as rough as the
+previous paths. There is a wide stream to the south.
+
+A broad, tree-lined path runs to the east.
+~
+0 C 3
+D0
+~
+~
+0 -1 8826
+D1
+~
+~
+0 -1 8856
+D2
+~
+~
+0 -1 8824
+S
+#8826
+A Junction~
+You have reached a point where you can proceed either north or west. Your
+choice. You still have the feeling you're being watched...
+~
+0 0 3
+D0
+~
+~
+0 -1 8830
+D2
+~
+~
+0 -1 8825
+D3
+~
+~
+0 -1 8827
+S
+#8827
+The Western Path~
+The path you are on here runs down a gently sloping hill, to the base of a
+beautiful valley below.
+~
+0 0 4
+D1
+~
+~
+0 -1 8826
+D5
+~
+~
+0 -1 8828
+S
+#8828
+The Hill~
+The path you are on here runs down a gently sloping hill, to the base of a
+beautiful valley below.
+~
+0 0 4
+D4
+~
+~
+0 -1 8827
+D5
+~
+~
+0 -1 8829
+S
+#8829
+The Base of the Hill~
+You can proceed north toward the valley from here, or return to the summit
+above.
+~
+0 0 4
+D0
+~
+~
+0 -1 7800
+D4
+~
+~
+0 -1 8828
+S
+#8830
+A Northern Path~
+This path is fairly even and well-used, so going is not as rough as the
+previous paths. There is a narrow path to the east.
+~
+0 0 3
+D0
+~
+~
+0 -1 8832
+D1
+~
+~
+0 -1 8831
+D2
+~
+~
+0 -1 8826
+S
+#8831
+A Narrow Path~
+You are walking along a narrow path that runs from the major northern path
+through Mirkwood. Up ahead the path ends in a dead end.
+~
+0 0 3
+D1
+~
+~
+0 -1 29001
+D3
+~
+~
+0 -1 8830
+S
+#8832
+A Northern Path~
+This path is fairly even and well-used, so going is not as rough as the
+previous paths.
+~
+0 0 3
+D0
+~
+~
+0 -1 8833
+D2
+~
+~
+0 -1 8830
+S
+#8833
+A Northern Path~
+This path is fairly even and well-used, so going is not as rough as the
+previous paths. There is a broad junction to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 8834
+D2
+~
+~
+0 -1 8832
+S
+#8834
+A Broad Junction~
+You have come to another junction in the forest. The path to the east runs
+through some handsome aspen and pine, but the northern passage is lined by
+sickly-looking, dying trees of unidentifiable type.
+~
+0 0 3
+D0
+~
+~
+0 -1 8835
+D1
+~
+~
+0 -1 8841
+D2
+~
+~
+0 -1 8833
+S
+#8835
+An Evil Section of the Forest~
+There is a palpable evil in this area that causes you to shiver as you pass
+by the blighted vegetation that lines this twisted gray path. The sky can
+no longer be seen overhead- instead a canopy of decaying leaves and rotten
+branches obscures your view.
+~
+0 0 15
+D0
+~
+~
+0 -1 8836
+D2
+~
+~
+0 -1 8834
+S
+#8836
+An Evil Section of the Forest~
+There is a palpable eveil in this area that causes you to shiver as you pass
+by the blighted vegetation that lines this twisted gray path. The sky can
+no longer be seen overhead- instead a canopy of decaying leaves and rotten
+branches obscures your view.
+~
+0 0 15
+D2
+~
+~
+0 -1 8835
+D3
+~
+~
+0 -1 8837
+S
+#8837
+An Evil Section of the Forest~
+There is a palpable eveil in this area that causes you to shiver as you pass
+by the blighted vegetation that lines this twisted gray path. The sky can
+no longer be seen overhead- instead a canopy of decaying leaves and rotten
+branches obscures your view.
+
+The dying screams of some animal can be heard.
+~
+0 0 15
+D1
+~
+~
+0 -1 8836
+D3
+~
+~
+0 -1 8838
+S
+#8838
+An Evil Section of the Forest~
+There is a palpable eveil in this area that causes you to shiver as you pass
+by the blighted vegetation that lines this twisted gray path. The sky can
+no longer be seen overhead- instead a canopy of decaying leaves and rotten
+branches obscures your view.
+
+Maggots crawl from a decaying Elven corpse hanging from an overhead branch.
+The stench is unbearable.
+
+To the north you see a shadowy area of the forest.
+~
+0 0 15
+D0
+~
+~
+0 -1 1300
+D1
+~
+~
+0 -1 8837
+D3
+~
+~
+0 -1 8839
+S
+#8839
+An Evil Section of the Forest~
+There is a palpable eveil in this area that causes you to shiver as you pass
+by the blighted vegetation that lines this twisted gray path. The sky can
+no longer be seen overhead- instead a canopy of decaying leaves and rotten
+branches obscures your view.
+
+At this point the twisting turning path runs sharply downward toward a large
+gash in the side of a grey cliff face.
+~
+0 0 15
+D1
+~
+~
+0 -1 8838
+D2
+~
+~
+0 -1 8840
+S
+#8840
+The Cliff Face~
+You are standing before the gash in the cliff-face now, wondering whether
+you should continue into the inky darkness beyond...
+~
+0 0 4
+D0
+~
+~
+0 -1 8839
+D5
+~
+~
+0 -1 14000
+S
+#8841
+A Bend in the Path~
+You reach a bend in the path, where you can head north or west.
+~
+0 0 3
+D0
+~
+~
+0 -1 8842
+D3
+~
+~
+0 -1 8834
+S
+#8842
+A Bend in the Path~
+You reach a bend in the path, where you can head south or east.
+~
+0 0 3
+D1
+~
+~
+0 -1 8843
+D2
+~
+~
+0 -1 8841
+S
+#8843
+A Junction~
+The path once again divides, this time into northern and southern branches.
+To the north lies another bend in the trail, while to the south the trail
+becomes significantly narrower, and overgrown.
+~
+0 0 3
+D0
+~
+~
+0 -1 8845
+D2
+~
+~
+0 -1 8844
+D3
+~
+~
+0 -1 8842
+S
+#8844
+A Dead End~
+The passage ends in a dead end, but you see a small rope ladder hanging down
+from a nearby oak tree, disappearing in its bushy branches above.
+~
+0 0 15
+D0
+~
+~
+0 -1 8843
+D4
+~
+~
+0 -1 8846
+S
+#8845
+A Bend in the Path~
+Here, the path bends sharply to the east, heading toward an area of the
+forest that is very different from the previous section. A second path
+runs to the north.
+~
+0 0 3
+D0
+~
+~
+0 -1 8868
+D1
+~
+~
+0 -1 8847
+D2
+~
+~
+0 -1 8843
+S
+#8846
+A Guard Post~
+You have stumbled into a Sylvan Elf guard post, from which they carefully
+watch out for intruding Orcs or Goblins. They dislike strangers in general,
+and detest interlopers into their personal areas even more. Expect a violent
+reception if there is a guard present...
+~
+0 0 3
+D5
+~
+~
+0 -1 8844
+S
+#8847
+A T-Junction~
+You have come out of Mirkwood onto a rather dusty trail. At this point you
+may proceed east toward some well-cultivated fields, or south and west back
+into the forest.
+~
+0 0 2
+D1
+~
+~
+0 -1 8848
+D2
+~
+~
+0 -1 8849
+D3
+~
+~
+0 -1 8845
+S
+#8848
+Cultivated Field~
+This field borders on a neatly-tended area with several small farmhouses and
+a small watch-tower near a wide stream.
+~
+0 0 2
+D1
+~
+~
+0 -1 5600
+D3
+~
+~
+0 -1 8847
+S
+#8849
+A Desolate Section of the Forest~
+You have entered a rather forlorn section of the forest, littered with dead
+and dying trees, plus the occasional corpse. Howls and cries of pain sound
+far off to the south.
+~
+0 0 3
+D0
+~
+~
+0 -1 8847
+D1
+~
+~
+0 -1 8850
+S
+#8850
+A Desolate Section of the Forest~
+You have entered a rather forlorn section of the forest, littered with dead
+and dying trees, plus the occasional corpse. Howls and cries of pain sound
+far off to the south.
+~
+0 0 3
+D2
+~
+~
+0 -1 8851
+D3
+~
+~
+0 -1 8849
+S
+#8851
+A Desolate Section of the Forest~
+You have entered a rather forlorn section of the forest, littered with dead
+and dying trees, plus the occasional corpse. Howls and cries of pain sound
+far off to the south.
+
+To the south is a particularly dark patch of forest.
+~
+0 0 3
+D0
+~
+~
+0 -1 8850
+D2
+~
+~
+0 -1 3505
+S
+#8852
+The Path to Firetop Mountain~
+The path runs past the rubble and up into the foothills of an immense
+mountain range. far in the distance looms Firetop Mountain.
+~
+0 0 4
+D0
+~
+~
+0 -1 8853
+D2
+~
+~
+0 -1 5649
+S
+#8853
+The Path Continues~
+You continue for what seems like an eternity, drawing slowly closer to the
+distant peak.
+~
+0 0 4
+D0
+~
+~
+0 -1 8854
+D2
+~
+~
+0 -1 8852
+S
+#8854
+The Path Continues~
+You continue for what seems like an eternity, drawing slowly closer to the
+distant peak.
+~
+0 0 4
+D0
+~
+~
+0 -1 5735
+D2
+~
+~
+0 -1 8853
+S
+#8855
+Approaching Mirkwood~
+The forest begins to surround you as you step into its depths. The path
+abruptly turns to the north and you continue.
+~
+0 0 3
+D0
+~
+~
+0 -1 8800
+D3
+~
+~
+0 -1 338
+S
+#8856
+A Broad Tree-Lined Path~
+This path runs for some distance toward a huge cave, entrance to which is
+restricted by a massive, handsome door that glows with magic. Magnificent
+oaks tower high to either side, and everywhere there is light and beauty.
+However, intruders are frowned upon here, so be on your guard.
+~
+0 0 3
+D1
+~
+~
+0 -1 8857
+D3
+~
+~
+0 -1 8825
+S
+#8857
+A Broad Tree-Lined Path~
+This path runs for some distance toward a huge cave, entrance to which is
+restricted by a massive, handsome door that glows with magic. Magnificent
+oaks tower high to either side, and everywhere there is light and beauty.
+However, intruders are frowned upon here, so be on your guard.
+
+The entrance is directly before you.
+~
+0 H 3
+D1
+~
+~
+1 8813 8858
+D3
+~
+~
+0 -1 8856
+S
+#8858
+Inside the Cave~
+You are in the castle of the Wood Elven King Thranduil. The corridor here
+is usually deserted. It would be advisable to keep a low profile, as the
+natives are hostile...
+
+The enchantments here prohibit spellcasting of any form.
+~
+0 DH 0
+D0
+~
+~
+0 -1 8859
+D2
+~
+~
+0 -1 8864
+D3
+~
+~
+1 8813 8857
+S
+#8859
+Inside the Cave~
+You are in the castle of the Wood Elven King Thranduil. The corridor here
+is usually deserted. It would be advisable to keep a low profile, as the
+natives are hostile...
+~
+0 DH 0
+D1
+~
+~
+1 0 8860
+D2
+~
+~
+0 -1 8858
+S
+#8860
+A Guard Room~
+You have stumbled into the guard room! The guards will definitely not
+be happy to see you. You fancy you can hear muffled cries for help.
+~
+0 DH 0
+D0
+~
+~
+1 8812 8867
+D1
+~
+~
+1 0 8861
+D3
+~
+~
+1 0 8859
+S
+#8861
+Storage Room~
+In this room the Elves store their foodstuffs and beloved Dorwinion Wine.
+A trapdoor in the floor allows access to the river, and it is through here
+that the Elves deposit their empty barrels, so that the river may carry
+them down to Lake Town.
+~
+0 DH 0
+D3
+~
+~
+1 0 8860
+D5
+~
+~
+1 0 8862
+S
+#8862
+The River~
+You are floating along a river that will carry you back through the forest,
+and eventually to Lake Town.
+~
+0 C 7
+D2
+~
+~
+0 -1 8863
+D4
+~
+~
+1 0 8861
+S
+#8863
+The River~
+You are floating along a river that will carry you back through the forest,
+and eventually to Lake Town.
+~
+0 C 7
+D0
+~
+~
+0 -1 8862
+D2
+~
+~
+0 -1 8866
+S
+#8864
+Inside the Cave~
+You are in the castle of the Wood Elven King Thranduil. The corridor here
+is usually deserted. It would be advisable to keep a low profile, as the
+natives are hostile...
+~
+0 DH 0
+D0
+~
+~
+0 0 8858
+D1
+~
+~
+1 0 8865
+S
+#8865
+The Throne Room of Thrandul~
+Now you've blown it. You've gone and stumbled into the King's Throne Room.
+He is seated upon an intricately-carved wooden throne at the end of the hall.
+Dour guards glare at you on all sides.
+~
+0 DH 0
+D3
+~
+~
+1 0 8864
+S
+#8866
+The River~
+You are floating along a river that will carry you back through the forest,
+and eventually to Lake Town.
+~
+0 C 7
+D0
+~
+~
+0 -1 8863
+D3
+~
+~
+0 -1 8824
+S
+#8867
+A Cell~
+This damp cell is small and cramped, and offers little comfort to its
+single inhabitant.
+~
+0 ADH 0
+D2
+~
+~
+1 0 8860
+S
+#8868
+A Northern Path~
+This path runs more or less directly north toward a rather old-looking
+section of the woods.
+~
+0 0 3
+D0
+~
+~
+0 -1 8869
+D2
+~
+~
+0 -1 8845
+S
+#8869
+A Northern Path~
+You are progressing along a long, straight northern path. Up ahead, you can
+see some sort of clearing.
+~
+0 0 3
+D0
+~
+~
+0 -1 9001
+D2
+~
+~
+0 -1 8868
+S
+#0
+
+
+#RESETS
+*
+D 0  8857     1     2            LOCKS DOOR TO HALL
+D 0  8858     3     2            LOCKS FROM OTHER SIDE
+D 0  8859     1     1            CLOSES DOOR TO GUARD ROOM
+D 0  8860     3     1            CLOSES FROM OTHER SIDE
+D 0  8860     0     2            LOCKS DOOR TO CELL
+D 0  8867     2     2            LOCKS FROM OTHER SIDE
+D 0  8860     1     1            CLOSES DOOR TO STORE ROOM
+D 0  8861     3     1            CLOSES FROM OTHER SIDE
+D 0  8861     5     1            CLOSES DOOR TO RIVER
+D 0  8862     4     1            CLOSES DOOR FROM RIVER
+D 0  8864     1     1            CLOSES DOOR TO THRONE ROOM
+D 0  8865     3     1            CLOSES FROM OTHER SIDE
+*
+M 0  8800     4  8810     4      LOADS SCOUTS
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+*
+O 0  8800     0  8818            LOADS POOL
+*
+M 0  8801     4  8821     4      LOADS WARRIOR
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+*
+M 0  8802     3  8836     3      LOADS ORC SCOUTS
+E 0  8805     0    11              shield
+E 0  8806     0    16              scimitar
+E 0  8807     0     6              helmet
+*
+M 0  8803     3  8839     3      LOADS ORC WARRIORS
+E 0  8805     0    11              shield
+E 0  8806     0    16              scimitar
+E 0  8807     0     6              helmet
+*
+M 0  8800     4  8846     4      LOADS SCOUTS
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+*
+M 0  8804     4  8857     4      LOADS GUARDS
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+G 0  8813     0                    0        GIVES KEY TO HALL
+M 0  8808     2  8859     2      LOADS MALE ELVES
+M 0  8810     1  8860     1      LOADS TURNKEY
+G 0  8812     0                    0        GIVES KEY TO CELL
+G 0  8808     0                    0        GIVES WINE
+M 0  8805     1  8861     1      LOADS BUTLER
+G 0  8808     0                    0        GIVES WINE
+M 0  8806     1  8861     1      LOADS CHIEF
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+O 0  8809     0  8861            LOADS BARREL OF WINE
+O 0  8810     0  8861            LOADS EMPTY BARREL
+M 0  8809     2  8864     2      LOADS FEMALE ELVES
+M 0  8807     1  8865     1      LOADS THRANDUIL
+E 0  8811     0    16              WIELDS SWORD
+M 0  8804     4  8865     4      LOADS GUARDS
+E 0  8801     0    16              sword
+E 0  8802     0    12              cloak
+E 0  8803     0     8              boots
+G 0  8804     0                    0          water flask
+M 0  8811     1  8867     1      LOADS THORIN OAKENSHIELD
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M  8800 spec_elf	
+M  8801 spec_elf	
+M  8802 spec_thief	
+M  8804 spec_elf	
+M  8805 spec_elf	
+M  8806 spec_elf	
+M  8807 spec_elf	
+M  8808 spec_elf	
+M  8809 spec_elf	
+M  8801 spec_elf	
+S
+
+
+#$

@@ -1,0 +1,954 @@
+#AREA
+The Miskatonic Asylum~
+K asyluminside~
+L {50 RM}~
+N 47
+I 50 80
+V 16000 16099
+X 0
+F 8
+U A large puddle of slime drips from the ceiling.~
+O zenithar~
+R loren~
+W loren~
+#ROOMS
+#16002
+The Administrator's Chambers~
+Apparently, someone was looking for something here..the room is a shambles, desk torn apart and papers and books scattered everywhere.
+Off in the corner, another pile of lumber has been stacked.
+~
+8 0
+D1
+~
+~
+0 -1 16001
+E
+books~
+Many tombs of the insanities of man, and the needs of the emotionally
+disturbed lie scattered about.
+~
+E
+papers~
+Searching through the papers, the only thing of any interest you find is a
+page torn out of an ancient book.
+~
+E
+page~
+<. .. .. is summonable, but only after great preperation, and the sacrifice of..>
+<. .. ... ..#X#XX#X can bring the summoner great power, but demands the souls of many to enhance...>
+~
+S
+#16001
+The Secretary's Room~
+A very old and rotten wooden desk has been left here, apparently abandoned by
+it's original owner. A few piles of lumber have recently been placed to one
+side, apparently to rework the desk into A suitable work area.
+~
+8 0
+D1
+~
+~
+0 -1 16000
+D3
+~
+~
+0 -1 16002
+E
+desk~
+Searching the desk, you notice nothing of any value.  However, a slight
+ slime appears to have been smeared all over the drawers.  It appears
+fresh.
+~
+S
+#16000
+The Entryway~
+Dark shadows veil deeper darkness, as you catch a glimpse of eyes peering
+at you.  While this building seems to have been forgotten, recent construction
+seems to have been performed. It appears as if the Asylum is back in business.
+
+~
+12 0
+D0
+~
+~
+0 -1 16003
+D2
+~
+~
+0 0 3966
+D3
+~
+~
+0 -1 16001
+S
+#16003
+A Marble Arch~
+Your footsteps echo loudly down a long hallway as you step through the arch
+Many doors can be seen to the east and west, each appearing unused for quite
+some time.
+ 
+Layers upon layers of dust cover the marble of the floor here, disturbed only by tracks of human footsteps, and something....else.
+~
+8 0
+D0
+~
+~
+0 -1 16004
+D2
+~
+~
+0 0 16000
+E
+tracks~
+You can tell that several humanoids have traversed these hallways in the
+recent past.  You also wonder what sort of creature would leave a large set of
+3-toed paw marks, every 10 feet or so.  Either something VERY large, or
+something with an unusual method of walking.
+
+~
+S
+#16004
+A Hallway~
+The marble is ancient and cracked in several places. The wooden frame of the
+doors around you is mostly rotted, and apparently covered with a dark
+substance in several places.
+~
+8 0
+D0
+~
+~
+0 -1 16010
+D1
+~
+~
+0 -1 16005
+D2
+~
+~
+0 -1 16003
+E
+substance~
+Slimy streaks of a gelatinous substance have been left staining the wooden
+frames of the doors, as if a large creature had carelessly brushed against
+them.
+~
+S
+#16005
+The Cafeteria~
+Several tables are carlessly strewn about, apparently abandoned from the
+time when the Asylum had many patients.
+~
+8 0
+D0
+~
+~
+0 -1 16006
+D3
+~
+~
+0 -1 16004
+S
+#16006
+The Cafeteria~
+The dust in this section of the cafeteria is very disturbed, and the stacked chairs against the wall show that someone is attempting to clean up the Cafeteria for future use.
+~
+8 0
+D1
+~
+~
+0 -1 16007
+D2
+~
+~
+0 -1 16005
+S
+#16007
+The Buffet Line~
+A wooden table, almost 15 feet long contains many bowls and trays of dust
+and refuse, obviously remains of decade old food for the inmates.
+~
+8 0
+D2
+~
+~
+0 -1 16008
+D3
+~
+~
+0 -1 16006
+S
+#16008
+The Buffet Line~
+This portion of the line has been recently cleaned up, and no dust appears
+on the floor. Several bowls are filled with a mush that while appearing
+unappetizing, would at least be nourishing.
+~
+8 0
+D0
+~
+~
+0 -1 16007
+D1
+~
+~
+0 -1 16009
+S
+#16009
+The Asylum Kitchen~
+The kitchen has recently been readied for the preperation of food.
+Utensils line the walls, and cooking bowls and pots are stacked near the large
+oven.
+~
+0 0
+D3
+~
+~
+0 -1 16008
+S
+#16010
+The Hallway~
+The dust on the marble shows heavy tracks to the north and south, and
+a somewhat less used path goes to the west.
+~
+8 0
+D0
+~
+~
+0 -1 16015
+D2
+~
+~
+0 -1 16004
+D3
+~
+~
+0 -1 16011
+S
+#16011
+The Recreation Room~
+Apparently some sort of recreation room for the inmates, this room stores many games of the sort that would occupy the time of the mentally impaired.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 16012
+D1
+~
+~
+0 -1 16010
+D3
+~
+~
+0 -1 16014
+S
+#16012
+The Recreation Room~
+A few uncomfortable looking chairs are placed in a circle here.
+Pictures obviously drawn by inmates line the walls.  Several
+books lie scattered about.
+~
+8 0
+D2
+~
+~
+0 -1 16011
+D3
+~
+~
+0 -1 16013
+E
+pictures~
+As you would expect, the pictures are very...unusual.  The products of
+deformed minds, they depict various strange and unusual scenes.
+~
+E
+books~
+Coloring books, picture books, Simple stories.  However, in one book, you come
+accross an unusual passage:
+~
+E
+passage~
+I've hidden this note in the hopes that The Adminstrator will never find it, but that someone not a part of this evil Asylum may.  BEWARE!!!! 
+The staff of this nightmarish institution are not what they seem. I dream of strange things at night:  Nurses with frog eyes, Therapists with slimy skin, and evil experiements gone insane in the bowels of this evil structure.  The Administrator MUST be stopped!
+Xylanor
+~
+S
+#16013
+The Recreation Room~
+A small desk stands here, completely empty.  More pictures line the walls, the
+proud efforts of the hopelessly insane.
+~
+8 0
+D1
+~
+~
+0 -1 16012
+D2
+~
+~
+0 -1 16014
+S
+#16014
+The Recreation Room~
+This corner of the recreation area is rather empty.  No pictures line the
+walls, no chairs or rugs are here.  However, you do notice a pair of shackles
+on the wall, with darkened stains on them.
+~
+8 0
+D0
+~
+~
+0 -1 16013
+D1
+~
+~
+0 0 16011
+S
+#16015
+The Hallway~
+Some slight depressions have been pressed into the marble of the floor, most
+likely from ages of inmates being led about the Asylum.
+~
+8 0
+D0
+~
+~
+0 -1 16016
+D2
+~
+~
+0 -1 16010
+S
+#16016
+The Northern Arch~
+The marble hallway ends in another arch.
+ 
+You can hear an occasional wail of a miserable inmate from the east.
+~
+8 0
+D1
+~
+~
+0 -1 16017
+D2
+~
+~
+0 -1 16015
+D3
+~
+~
+0 -1 16026
+S
+#16017
+The Inmate's Rooms~
+Several locked rooms line this hallway, the homes of past and present
+victims of this instiution.
+~
+8 0
+D0
+~
+~
+225 16004 16019
+D1
+~
+~
+0 -1 16020
+D2
+~
+~
+225 16004 16018
+D3
+~
+~
+0 -1 16016
+S
+#16018
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D0
+~
+~
+225 16004 16017
+S
+#16019
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D2
+~
+~
+225 16004 16017
+S
+#16020
+The Inmate's Rooms~
+Several locked rooms line this hallway, the homes of past and present
+victims of this instiution.
+~
+8 0
+D0
+~
+~
+225 16004 16021
+D1
+~
+~
+0 -1 16023
+D2
+~
+~
+225 16004 16022
+D3
+~
+~
+0 -1 16017
+S
+#16021
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D2
+~
+~
+225 16004 16020
+S
+#16022
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D0
+~
+~
+225 16004 16020
+S
+#16023
+The Inmate's Rooms~
+Several locked rooms line this hallway, the homes of past and present
+victims of this instiution.
+~
+8 0
+D0
+~
+~
+225 16004 16024
+D2
+~
+~
+225 16004 16025
+D3
+~
+~
+0 -1 16020
+S
+#16024
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D2
+~
+~
+225 16004 16023
+S
+#16025
+A Small Cell~
+This miserable cell is the entire world of a poor inmate.
+~
+90201 0
+D0
+~
+~
+225 16004 16023
+S
+#16026
+The Surgery~
+The Asylum surgery seems to be the most complete portion of the
+Institution's remodelling.  Cots are organized into rows, medical items of all
+sorts are lined neatly on tables. Apparently, the heart of The Administrator's
+Project has something to do with medical research.
+~
+12 0
+D0
+~
+~
+0 -1 16027
+D1
+~
+~
+0 -1 16016
+D3
+~
+~
+257 -1 16029
+S
+#16027
+The Infirmary~
+Cots lined up in neat rows fill this small alcove, ready to handle sick
+inmates. As would be expected, restraints are attached to the cots,
+better to deal with insane patients.
+~
+8 0
+D0
+~
+~
+0 -1 16028
+D2
+~
+~
+0 -1 16026
+S
+#16028
+The Infirmary~
+More cots line the walls in the northern portion of this alcove.  Counting
+them quickly, it appears as if there are at least 2 cots for each inmate
+that you have seen so far, which seems rather excessive for normal health
+maintainence.
+~
+8 0
+D2
+~
+~
+0 -1 16027
+S
+#16029
+The Surgeon's Office~
+This office is most modern, with medical charts, sculptures,
+and various textbooks on the bookshelf on the far wall.
+~
+8 0
+D1
+~
+~
+257 -1 16026
+E
+charts~
+Pictures of the anatomy of several humanoid races, and some animals, line the
+walls.
+~
+E
+sculptures~
+Skulls, arms, body cavities, and hands are included in this collection.  In
+addition, there is also a small model of a frog.
+~
+E
+textbooks~
+Many texts and tomes of a medical nature adorn the office.  Of a more
+interesting note, an ancient magical tome relating to transforming people into
+mythical demons, and experimenting on summoning devils is also here.
+~
+S
+#16030
+A dark stairwell~
+The stairwell leads down into the depths of the Asylum.
+~
+13 0
+D5
+~
+~
+0 -1 5100
+S
+#0
+#MOBILES
+#16003
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+57 1
+-160 120 100
+! 0 0 0 7 6158 0 0
+#16000
+chef cook~
+The Asylum Chef~
+A Chef is busily preparing mush for the inmates.
+~
+~
+36700163 168 -750 S
+73 1
+-250 100 100
+! 3 0 0 7 23054 4128 4
+#16001
+instructor~
+An Asylum Instructor~
+~
+~
+3145803 232 -750 S
+72 1
+-280 150 140
+! 0 0 0 7 154126 1081472 8
+#16002
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+60 1
+-160 120 100
+! 0 0 0 7 71726 0 0
+#16004
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+58 1
+-160 120 100
+! 0 0 0 7 6158 0 0
+#16005
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+59 1
+-160 120 100
+! 0 0 0 7 6158 0 0
+#16006
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+60 1
+-160 120 100
+! 0 0 0 7 6158 0 0
+#16007
+inmate~
+An imprisoned Inmate~
+An inmate of the Asylum lies here looking miserable.
+~
+~
+36700163 65536 250 S
+63 1
+-160 120 100
+! 0 0 0 7 6158 0 0
+#16008
+monitor~
+An Asylum Monitor~
+An Asylum Monitor  ensures obedience within the Institution.
+~
+~
+3145801 32936 -500 S
+74 1
+-280 105 100
+! 7 0 0 7 6150 2 0
+#16010
+therapist~
+An Asylum Therapist~
+A pretty therapist smiles at you.
+~
+~
+3145737 16552 -500 S
+71 2
+-210 160 150
+! 0 0 0 7 22862 16384 16
+#16009
+surgeon~
+The Asylum Surgeon~
+A tall and evil looking man stares at you with interest.
+~
+~
+36700171 66218 -1000 S
+79 1
+-550 350 250
+! 0 0 0 7 415758 16777216 48
+#0
+#OBJECTS
+#16000
+ring turquoise~
+A Turquoise Ring~
+A small turquoise ring glitters here in the light.
+~
+9 0 3 1
+0 0 0 0
+1
+A
+13 60
+A
+18 11
+A
+19 9
+A
+12 100
+A
+17 -50
+L
+60
+#16001
+cleaver~
+A Viscious cleaver~
+A razor-edged cleaver lies here.
+~
+5 2 8193 257
+0 0 0 3
+10
+A
+18 12
+A
+19 18
+L
+60
+#16002
+rod~
+the rod of discipline~
+A nasty ribbed rod lies here.
+~
+9 8388688 16385 257
+0 0 0 0
+15
+A
+19 14
+A
+18 15
+A
+12 75
+A
+17 -90
+A
+24 -10
+A
+13 60
+L
+70
+#16003
+spectacles~
+a pair of spectacles~
+A small pair of spectacles is almost crushed by your foot!
+~
+9 0 32769 1
+0 0 0 0
+1
+A
+12 100
+A
+24 -15
+A
+13 75
+A
+17 -100
+L
+70
+#16004
+key cell cellkey~
+An Asylum Cell Key~
+A small stone key lies here.
+~
+18 0 1 1
+0 0 0 0
+1
+L
+60
+#16005
+jerkin~
+A Leather and turquoise Jerkin~
+A leather jerkin, studded with turquoise plates lies here in a
+heap.
+~
+9 66 9 4113
+0 0 0 0
+14
+A
+17 -110
+A
+13 80
+A
+24 -7
+A
+19 10
+A
+1 2
+A
+2 -1
+A
+18 12
+L
+65
+#16006
+enforcer~
+A Turquoise Enforcer~
+A spiked mace with turquoise bands has been left here.
+~
+5 4194324 270337 257
+0 0 0 8
+22
+A
+19 14
+A
+18 12
+A
+17 -70
+A
+13 50
+L
+69
+#16007
+scalpel~
+A Surgeon's Scalpel~
+A razor sharp scalpel lies here, begging to draw blood.
+~
+5 33554452 8193 257
+0 0 0 11
+5
+A
+19 17
+A
+18 13
+A
+13 90
+L
+75
+#16008
+medallion~
+A turquoise and Obsidian Medallion~
+A turquoise and Obsidian medallion lies here.~
+9 0 5 1
+0 0 0 0
+5
+A
+17 -100
+A
+13 80
+A
+12 80
+A
+18 13
+A
+19 16
+L
+75
+#16009
+circle~
+A Thaumatergic Circle~
+A pulsing circle floats in mid air.
+~
+1 161 1 3593
+0 0 -1 0
+1
+A
+12 100
+A
+13 75
+A
+18 10
+A
+19 15
+A
+24 -12
+L
+75
+#16010
+^bookshelf~
+A large wooden bookshelf~
+~
+14 0 0 1
+9 0 16030 0
+10000
+E
+bookshelf~
+Noting something unusual, you may want to examine the bookshelf a little
+closer.
+~
+L
+10
+#0
+#RESETS
+M 0 16000 1 16009 (null)
+
+E 0 16001 0 16 (null)
+
+E 0 16000 0 1 (null)
+
+M 0 16001 1 16013 (null)
+
+E 0 16003 0 18 (null)
+
+E 0 16002 0 17 (null)
+
+E 0 16000 0 1 (null)
+
+M 0 16002 1 16019 (null)
+
+M 0 16003 1 16018 (null)
+
+M 0 16004 1 16022 (null)
+
+M 0 16005 1 16021 (null)
+
+M 0 16006 1 16024 (null)
+
+M 0 16007 1 16025 (null)
+
+D 0 16025 0 2 (null)
+
+D 0 16024 2 2 (null)
+
+D 0 16021 2 2 (null)
+
+D 0 16022 0 2 (null)
+
+D 0 16018 0 2 (null)
+
+D 0 16019 2 2 (null)
+
+D 0 16017 0 2 (null)
+
+D 0 16017 2 2 (null)
+
+D 0 16020 0 2 (null)
+
+D 0 16020 2 2 (null)
+
+D 0 16023 0 2 (null)
+
+D 0 16023 2 2 (null)
+
+M 0 16008 10 16016 (null)
+
+E 0 3904 0 9 (null)
+
+G 0 16004 0 (null)
+
+E 0 16005 0 5 (null)
+
+E 0 16006 0 16 (null)
+
+E 0 16000 0 1 (null)
+
+M 0 16010 4 16028 (null)
+
+E 0 3903 0 5 (null)
+
+E 0 16000 0 1 (null)
+
+D 0 16026 3 1 (null)
+
+M 0 16009 1 16029 (null)
+
+E 0 16007 0 16 (null)
+
+E 0 16008 0 3 (null)
+
+E 0 16009 0 0 (null)
+
+O 0 16010 0 16029 (null)
+
+S
+#SPECIALS
+M 16001 spec_cast_mage
+S
+#OBJFUNS
+O 16006 objfun_cast_fight
+S
+#$

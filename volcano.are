@@ -1,0 +1,3856 @@
+#AREADATA
+Name Volcano~
+Builders None~
+VNUMs 17000 17199
+Credits {20 35} Blizzard Volcano~
+Security 9
+End
+
+
+
+#MOBILES
+#17000
+Nightmarish Beast~
+Nightmarish Beast~
+The nightmarish beast is here.
+~
+The beast is like something from your worst nightmares!  Its nose is
+like that of a pig, and it has a rotten stench that forces you to
+take a step backward.
+~
+bear~
+ABFGT 0 0 0
+27 2 6d12+703 0d0+0 5d4+7 bite
+-8 -8 -8 2
+CDEHMO 0 EI CFH
+stand stand male 10
+AGHMV ABCDEFHJKLQUVY giant 0
+#17001
+Unlucky Wanderer~
+Unlucky Wanderer~
+An old wanderer sleeps here.
+~
+This wanderer faced the beast in the room above here.  He escaped, and
+hides down here, scavenging the cave until he can escape.  He looks
+mean.
+~
+human~
+ABS H -430 0
+29 1 6d12+778 20d15+10 2d12+8 pierce
+-9 -9 -9 1
+BCEFIJKN CEH M IJKL
+sleep sleep male 20
+ABHMV ABCDEFGHIJK medium 0
+#17002
+Nerd~
+Nerd~
+A nerd is working on some extra credit assignment.
+~
+They threaten to go back to their laboratory to avoid interruptions
+that could possibly ruin their train of thought and quite possibly
+their future.  Go figure.
+~
+human~
+ABG 0 20 0
+20 25 3d9+333 0d0+0 2d6+4 punch
+-4 -4 -4 6
+U 0 0 CDEFGHIJKLMNOPQRSXYZ
+sit sit either 0
+AHMV ABCDEFGHIJK medium 0
+#17003
+Bully~
+Bully~
+The bully is here beating up children smaller than them.
+~
+He sneers at you, but realizing your power backs off and pretends
+not to see you.
+~
+human~
+ABG 0 -42 0
+27 1 5d10+650 0d0+0 5d4+7 beating
+-8 -8 -8 2
+0 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK medium 0
+#17004
+Teacher~
+Teacher~
+The teacher is trying to get her class to calm down.
+~
+The teacher smiles politely at you. "Excuse me." She says, "I have
+to go and quiet down the children.  Be a dear and sit down."
+~
+human~
+ABG 0 23 0
+25 1 5d10+550 0d0+0 2d10+7 slap
+-7 -7 -7 3
+0 0 0 0
+stand stand female 5
+AHMV ABCDEFGHIJK medium 0
+#17005
+Friendly Shopkeeper~
+Friendly Shopkeeper~
+The shopkeeper waits to sell you something.
+~
+The shopkeeper tells you a tale of the ruined city of Honeygrove, which
+is the sister city of Honeyglade.  He tells you about the lava flow that
+destroyed it and killed all of it's inhabitants.  Since then, strange
+creature have been seen in the area.
+~
+human~
+ABG 0 0 0
+19 1 3d9+308 0d0+0 2d7+5 pound
+-4 -4 -4 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium 0
+#17006
+Woods Goblin~
+Woods Goblin~
+The woods goblin searches the area for dead animals.
+~
+The woods goblin is the ugliest thing you have ever seen.  It has two large
+eyes and battle scars on it's face.  It's rusted-out armor gives you some
+impression of it's renegade life.
+~
+goblin~
+ACFGT J -120 0
+24 4 5d10+500 0d0+0 2d10+6 slash
+-6 -6 -6 4
+CJNR 0 IQ CH
+stand stand either 4
+AHMV ABCDEFGHIJK medium 0
+#17007
+Woods Goblin~
+Woods Goblin~
+The woods goblin searches the area for dead animals.
+~
+The wood goblin is the ugliest thing you have ever seen.  It has two
+large eyes and battle scars on it's face.  It's rusted-out armor gives
+you some impression of it's renegade life.
+~
+goblin~
+ACFGT J -120 0
+24 4 5d10+500 0d0+0 2d10+6 slash
+-6 -6 -6 4
+CJNR 0 IQ CH
+stand stand either 4
+AHMV ABCDEFGHIJK medium 0
+#17008
+Vending Machine~
+Vending Machine~
+Strangely enough, the vending machine was never looted.
+~
+You can buy boats from the vending machine.  It is a magical invention
+forged by the elves many centuries ago.  Only 3 of them are known to
+exist, and this one has been lost for a lot of years.
+~
+unique~
+ABG 0 400 0
+32 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRS 0 0
+stand stand none 0
+MV 0 medium 0
+#17009
+Lava Beast~
+Lava Beast~
+A lava beast dives in and out of the lava.
+~
+The lava beast looks like something from myths.  Hey, it IS something from
+myths!  Before you get a good chance to look at it, it dives back down into
+the molten lava.
+~
+water fowl~
+ABFG Tb -34 0
+27 1 6d12+703 0d0+0 4d6+8 bite
+-9 -9 -9 -1
+MNO 0 R 0
+stand stand none 0
+ABGMOQWc ABCDEFHKNOPQ small 0
+#17010
+Awful Monster~
+Awful Monster~
+A monster from the lava stream is wandering around.
+~
+The monster has no eyes, ears mouth or arms leaving one to wonder where
+it came from.  Perhaps it is of magical origin.  If so, its owner is bound
+to be near . . .
+~
+school monster~
+AGU 0 -210 0
+29 12 6d12+853 20d90+350 4d6+8 sting
+-10 -10 -10 -2
+AHIMN AB 0 C
+stand stand none 0
+ABGMV ABCDEFHJKQU large 0
+#17011
+Mother Monster~
+Mother Monster~
+The mother of the monsters sits here laying eggs.
+~
+The monster screams and attacks!  She will give her life to defend the
+eggs that she holds so dear.
+~
+unique~
+ABFGT a -670 0
+32 1 10d10+1000 0d0+0 6d4+9 peckb
+-10 -10 -10 -4
+ACDFHIJKMNO AL B CQRS
+sit sit female 0
+ABGHMZ ABCDEFGHJKLMNPQUVW huge 0
+#17012
+Crewman's Ghost~
+Crewman's Ghost~
+A crewman who had died when the ship sunk floats here.
+~
+This was once the proud soul of a sailor who had died on this fated
+voyage.  His face is twisted and he seems to be indifferent to the
+world around him.
+~
+human~
+AFGO T 0 0
+29 7 6d12+778 0d0+0 2d12+8 shock
+-9 -9 -9 1
+0 IKM C HJN
+stand stand male 0
+ADHIMV ABCDEFGHIJK medium 0
+#17013
+Captain's Ghost~
+Captain's Ghost~
+The captain's ghost continues to man the wheel.
+~
+The captain was a strong and surely fellow who obviously would never let
+down his crew.  Something went wrong and he is here, chained to the
+steering wheel of this boat, forever tormented by whatever bad
+judgement call he made that fated his crew and his ship to death by
+drowning.
+~
+dwarf~
+ABFGT J 0 0
+31 3 6d12+853 0d0+0 4d6+8 cleave
+-10 -10 -10 0
+CDEHIKQ 0 LQ R
+stand stand male 0
+ADHIMV ABCDEFGHIJK medium 0
+#17014
+Guard~
+The Hobgoblin Guard~
+The Hobgoblin is guarding this room with deadly skill and his life.
+~
+He is ugly and mean.  Don't mess with him.
+~
+hobgoblin~
+ABCGHQRSTb JO -340 0
+29 1 6d12+778 0d0+0 2d12+8 crush
+-9 -9 -9 1
+BCDEFHINORT 0 LQ 0
+stand stand none 0
+AHMV ABCDEFGHIJKY medium 0
+#17015
+Goblin Climber~
+the Goblin Climber~
+The goblin climber is struggling here.
+~
+The goblin climber smells of perspiration from its trek to impress whatever
+leader it is trying to follow.  He looks pitiful, and you don't even
+really feel like wasting your time killing him.
+~
+goblin~
+AG J 0 10
+25 3 3d9+208 0d0+0 2d6+3 bite
+1 1 1 11
+RU 0 Q C
+stand stand male 1
+AHMV ABCDEFGHIJK small 0
+#17016
+Apprentice Healer~
+the Apprentice Healer~
+A small little man is here, asking for your help in his studies.
+~
+He seems nice, and obviously his talent is considerable.  He heals and he
+trains and he helps you to practice your skills.  What more could you
+want from a man?
+~
+human~
+ABJKQRad 0 300 0
+27 34 1d1+2999 1d1+2999 1d1+299 divine
+-13 -13 -13 -3
+0 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium 0
+#17017
+Volcano Beast~
+the Volcano Beast~
+There is a small volcano beast swimming in the water here.
+~
+The volcano beast bobs down into the water before you get a
+chance to look at it closely.
+~
+unique~
+A b -20 0
+36 3 10d10+1400 0d0+0 3d10+11 digestion
+-12 -12 -12 -2
+Q 0 0 0
+stand stand none 10
+ABGMb ADEFKOQUVWXY small 0
+#17018
+Fireball~
+the Fireball~
+A fire elemental jumps out of the lava and attacks!
+~
+The fire is hot and bright.  It hurts your eyes just to face it.  Magical
+energies radiate from its center, but the energy is evil, and it hurts your
+soul to be this near.
+~
+unique~
+ABFG 0 -450 0
+40 1 25d10+2000 0d0+0 4d8+2 flame
+-15 -15 -15 -15
+AEGHM HJLO 0 I
+stand stand none 300
+CD ABCDEFGHJKMNPQUVWX large 0
+#17019
+Slave~
+the slave~
+The slave is mining here, obviously worked to death.
+~
+The slave is so skinny you can see their bones.  Obviously they haven't been
+treating the slaves very well here, but what did you expect?  Inn service
+perhaps?
+~
+human~
+ABG 0 -25 0
+28 1 5d10+550 0d0+0 2d10+7 beating
+-7 -7 -7 3
+LSU 0 0 CDEFGHIJKLMNOPQRSXYZ
+stand stand either 2
+AHMV ABCDEFGHIJK medium 0
+#17020
+slave master~
+the slave master~
+The slave master stands here, torturing the slaves.
+~
+The slave master is a large troll who doesn't care about anyone or anything
+except his gold.
+~
+troll~
+ABCFGT DFJc -450 0
+33 7 10d10+1000 0d0+0 6d4+10 punch
+-11 -11 -11 -1
+CDIU BE BEHK HK
+stand stand male 400
+ABHMV ABCDEFGHIJKUV large 0
+#17021
+Wizard~
+the wizard~
+The wizard walks around behind the counter, trying to clean up his scrolls.
+~
+The wizard smiles and waves happily.  Obviously the shopkeepers are as
+happy as the rest of the town.
+~
+dragon~
+ABGRd JT 200 0
+34 1 1d1+1999 1d1+3999 1d1+1999 shock
+-56 -56 -56 0
+MS ABCDEFGHIJKLMNOPQRS BEH FI
+stand stand either 700
+AHMZ ABCDEFGHIJKPQUVX medium 0
+#17022
+alligator~
+the alligator~
+The alligator is here.
+~
+The alligator looks mean.  It wouldn't be a good to be it's prey, even
+if you were training it how to hunt.
+~
+lizard~
+ABGJKV 0 0 0
+20 8 3d9+333 0d0+0 2d8+5 bite
+-4 -4 -4 6
+CJM 0 LR I
+stand stand either 0
+AGHMVXc ABCDEFHKQUV medium 0
+#17023
+priest~
+the priest~
+The priest is here helping people.
+~
+The priest's job is to promote peace in the city and help people.  He has
+some servants that wander around the world on errands of bringing glory
+to Tahkien.  You would be very lucky if you could actually see one of these
+individuals, for they do not appear any different from normal people.
+~
+dragon~
+ABGJKa JT 1000 0
+35 0 1d1+2999 1d1+9999 1d1+299 slap
+0 0 0 0
+S 0 BEH FI
+stand stand either 0
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17024
+small dinosaur~
+the small dinosaur~
+A small dinosaur is here.
+~
+It is a small dinosaur with extremely sharp teeth that could tear through
+your armor as easily as peeling a banana.
+~
+lizard~
+AG 0 200 0
+25 5 4d10+550 0d0+0 2d10+7 bite
+-7 -7 -7 3
+JMO 0 L I
+stand stand either 0
+AGHMVXc ABCDEFHKQV medium 0
+#17025
+large dinosaur~
+the large dinosaur~
+A large dinosaur is here.
+~
+This dinosaur isn't full-grown, but it could still probably kill you with
+ease.
+~
+lizard~
+AG 0 200 0
+30 4 6d12+853 0d0+0 4d6+8 bite
+-9 -9 -9 1
+M 0 L I
+stand stand either 0
+AGHMVXc ABCDEFHKPQUVX huge 0
+#17026
+adult dinosaur~
+the adult dinosaur~
+An adult dinosaur is here.
+~
+You are only up to the dinosaur's knee.  Hopefully you are its master.
+If not...
+~
+lizard~
+AG 0 220 0
+35 2 10d10+1300 0d0+0 4d7+11 bite
+-11 -11 -11 -1
+0 0 L I
+stand stand either 0
+AGHMVXc ABCDEFHKQUVX giant 0
+#17027
+pet shop keeper~
+the pet shop keeper~
+The pet shop keeper is here, whistling a happy tune.
+~
+He looks at you, smiles, and then goes back to whistling.
+~
+dragon~
+ABG JT 210 0
+34 1 1d1+399 0d0+0 1d1+799 bite
+-23 -34 -43 -33
+M ABCDEFGIJKLMNOPQRS BEH FI
+stand stand either 0
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17028
+store keeper~
+the store keeper~
+The curiosity shopkeeper is here.
+~
+He is a curiosity himself.  He is probably the only human in this city.
+~
+human~
+ABG 0 150 0
+35 0 1d1+1299 0d0+0 0d0+0 pound
+0 0 0 0
+0 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium 0
+#17029
+city guard~
+a city guard~
+The city guard stands here guarding the gates.
+~
+The city guard looks just like any in Midgaard, except that here everyone
+is a dragon.
+~
+dragon~
+ABGT DJT 150 0
+34 1 15d10+1850 0d0+0 4d8+13 slice
+-13 -13 -13 -3
+CEFKMNPT ABC BEH FI
+stand stand either 70
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17030
+city guard~
+a city guard~
+The city guard stands here guarding the city.
+~
+The city guard is intent on keeping the city safe from intruders.  Their
+muscles bulge, and the site of them makes you back away.  Do not mess
+with the city guards, because it wouldn't be good for your health.
+~
+dragon~
+AGT DJT 250 0
+35 1 25d10+2000 0d0+0 4d8+14 slice
+-14 -14 -14 -4
+CEFIKMNPT ABC BEH FI
+stand stand either 0
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17031
+hospital director~
+the hospital director~
+The hospital director sneers, sick of his job.
+~
+The director is old and worn out.  He has obviously been working
+in the hospital for many years.  Perhaps it's time to give him a break.
+~
+dragon~
+ABFG DJT -230 0
+25 23 5d10+450 0d0+0 3d6+6 bite
+-6 -6 -6 4
+JKO A BEH FIL
+stand stand male 70
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17032
+doctor~
+a doctor~
+There is a doctor running to get to his patient here.
+~
+The doctor is in a hurry to reach his patient, because if he doesn't
+help him soon, he could die.
+~
+dragon~
+AG JT 120 0
+28 7 6d12+708 30d20+100 2d12+8 bite
+-6 -6 -6 4
+HLMRU 0 BEH FI
+stand stand male 5
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17033
+patient~
+a patient~
+A patient is lying in the bed, injured.
+~
+The patient is suffering from some disease that you've never seen
+before.  Hopefully, it isn't contagious.
+~
+dragon~
+ABGH JTX 25 0
+22 1 1d1+99 0d0+0 1d1+9 scratch
+-1 -1 -1 15
+R 0 BEH CDEFGHIJKLMNOPQRSXYZ
+rest rest either 0
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17034
+patient~
+a patient~
+A patient lies here, dying in their bed.
+~
+The patient is asleep and doesn't notice your presence.  They
+are being killed by some injury or illness.
+~
+bat~
+ABGH TXZ 35 0
+22 12 1d1+129 0d0+0 1d1+4 bite
+3 2 3 23
+FHR 0 0 CDEFGHIJKLMNOPQRSXYZ
+sleep sleep either 0
+AGHMVZ ABCDEFHJKPQUX giant 0
+#17035
+punk~
+a punk~
+There is a punk teenager here hanging out.
+~
+This person is just a normal human being, except for the fact
+that they are hanging out and being cool with all of their
+friends.
+~
+human~
+ABFGHS 0 -50 5
+32 13 6d12+928 0d0+0 4d6+9 beating
+-10 -10 -10 0
+BR 0 0 C
+stand stand either 9
+AHMV ABCDEFGHIJK medium 0
+#17036
+gardener~
+the gardener~
+The gardener is here putting great pride into his work.
+~
+The gardener is a well kept individual.  He is obviously
+very happy with what he does.  From the look of the way
+he's dressed, his boss is a very picky person.  The
+gardener's clothes match perfectly, and he has excellent
+posture.  He doesn't look to be one that's afraid of a fight.
+~
+dragon~
+ABFGb JT 25 0
+33 2 10d10+1100 0d0+0 6d4+10 punch
+-11 -11 -11 -1
+EFHIJMNOR 0 BEH FI
+stand stand male 25
+AHMZ ABCDEFGHIJKLPQUVX giant 0
+#17037
+cook~
+the cook~
+The cook is here babbling about the mess.
+~
+The cook is complaining about the mess in this house and
+ordering the servants to clean.  It seems strange, especially
+because there IS no messes anywhere that you can see.
+~
+dragon~
+ABG JT 50 0
+33 7 1d1+399 0d0+0 1d1+49 pound
+1 2 1 17
+0 0 BEHL FIZ
+stand stand female 0
+AHMZ ABCDEFGHIJKPQUVX giant 0
+#17038
+teddy bear~
+a teddy bear~
+A cute and fuzzy teddy bear stands here.
+~
+This is a tiny little bear with a heart on his chest.
+~
+doll~
+ABC 0 200 0
+1 0 1d10+10 1d1+99 1d4+0 beating
+8 5 9 10
+NR ILMNPQR ES GHJKO
+stand stand male 0
+EJMc ABCGHK small cloth
+#17039
+doll raggedy anne~
+a raggedy Anne doll~
+A raggedy Anne doll is sitting here.
+~
+You see a small little cute rag doll.
+~
+doll~
+ABC 0 300 0
+2 0 2d5+19 1d1+99 1d5+0 beating
+7 4 8 10
+FHR ILMNPQR ES GHJKO
+sit stand female 0
+EJMc ABCGHK small cloth
+#17040
+soldier toy~
+a toy soldier~
+A toy soldier is standing here.
+~
+The toy is looking for target practice.
+~
+doll~
+ABCT 0 300 0
+3 1 3d5+36 1d1+99 1d4+3 punch
+6 7 6 9
+IR ILMNPQR EGS EGHJKO
+stand stand male 0
+EJMc ABCGHK small tin
+#17041
+bear stuffed~
+the stuffed bear~
+A stuffed bear stands here.
+~
+This bear is obviously made with care and precision.  He really
+cares about the girl.
+~
+doll~
+ABC 0 200 0
+3 0 3d4+29 1d1+99 1d6+1 chomp
+5 5 5 -5
+DJNR ILMNPQR ES GHJKO
+stand stand male 5
+EJMc ABCGHK small cloth
+#17042
+doll old~
+an old doll~
+An old doll is here.
+~
+This doll has been hugged and played with until there is almost nothing
+left.
+~
+doll~
+ABC 0 2 0
+1 0 1d10+1 1d1+99 1d4+0 beating
+8 5 9 10
+R ILMNPQR ES GHJKO
+stand stand none 0
+EJMc ABCGHK small cloth
+#17043
+little girl~
+a little girl~
+A little girl is here, weeping.
+~
+The girl has been locked in this room almost all of her life.
+She has pretty baby-blue eyes and braided blond hair.
+~
+human~
+AB 0 25 0
+33 0 10d10+1000 0d0+0 6d4+9 slap
+-10 -10 -10 0
+0 0 0 CD
+sit sit female 0
+AHMV ABCDEFGHIJK medium 0
+#17044
+mansion owner~
+the mansion owner~
+The owner of this mansion is standing here, and he sure is mad
+with your intrusion.
+~
+The owner of the mansion is a gruff business man.  He is wearing
+a full suit, and his nametag identifies him as R. Taylor.  He is
+mean because of his years of trading experience.
+~
+human~
+ABF 0 250 0
+33 0 10d10+1100 0d0+0 6d4+10 punch
+-11 -11 -11 -1
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#17000
+bone dagger~
+a bone dagger~
+Here lies a dagger made of bone.~
+bone~
+weapon PSU AN
+dagger 2 8 pierce D
+24 0 50 B
+#17001
+rocky key~
+a rocky key~
+A key crafted of rock is here.~
+stone~
+key 0 AO
+0 0 0 0 0
+0 0 20 P
+#17002
+creek~
+a creek~
+A small creek comes running through this cavern.~
+water~
+fountain S 0
+-1 -1 'water' 0 0
+0 0 0 P
+#17003
+pen~
+a pen~
+A pen is here, looking for a pocket to help protect.~
+stone~
+weapon 0 AN
+dagger 6 3 poke 0
+20 0 80 P
+#17004
+lava lamp~
+a lava lamp~
+The bubbles inside a lava lamp here are making you naseous.~
+tin~
+light ABSY AO
+0 0 999 0 0
+15 0 8000 P
+#17005
+paper~
+a piece of paper~
+A piece of paper is here, drifting in the wind.~
+parchment~
+trash 0 AO
+0 0 0 0 0
+0 0 100 P
+#17006
+potion~
+an odd potion~
+An odd potion is here, should you quaff it?~
+unknown~
+potion C AO
+0 'poison' '' '' ''
+15 0 800 P
+#17007
+pamphlet~
+a pamphlet~
+An old pamphlet is here, but its writing has been rubbed by time.~
+parchment~
+trash 0 AO
+0 0 0 0 0
+0 0 1 P
+#17008
+rations~
+some rations~
+Some travelling rations are here.~
+meat~
+food 0 AO
+1 0 0 0 0
+0 0 80 P
+#17009
+goblin shield~
+an old goblin shield~
+An old goblin shield is here trampled on the ground.~
+wood~
+armor 0 AJ
+6 6 6 1 0
+22 1 350 W
+#17010
+goblin sword~
+an old goblin sword~
+An old beat up goblin sword is here.~
+iron~
+weapon 0 AN
+sword 5 3 slash 0
+21 0 0 A
+#17011
+goblin sleeves~
+a pair of old goblin sleeves~
+An old pair of goblin sleeves rests here.~
+felt~
+armor 0 AI
+6 5 4 0 0
+21 0 450 W
+#17012
+lava flow~
+a lava flow~
+A small stream of lava runs through here.~
+water~
+fountain 0 0
+-1 -1 'firebreather' 0 0
+0 0 0 P
+#17013
+heat resistan boat~
+a heat-resistant boat~
+A heat-resistant boat is here.~
+jelly~
+boat 0 A
+0 0 0 0 0
+0 0 450 P
+#17014
+ship badge~
+a ship's badge~
+The ship's badge is here on the ground.~
+gold~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#17015
+rotted meat~
+some rotted meat~
+Some rotted meat is here, being feasted on by maggots.~
+meat~
+food 0 AO
+0 0 0 A 0
+0 0 0 P
+#17016
+ale container~
+a container of ale~
+An ale container is here, half empty too!~
+glass~
+drink 0 AO
+50 25 'ale' 1 0
+21 0 10 P
+#17017
+captains sword~
+a captain's sword~
+A captain's sword is here in a puddle.~
+steel~
+weapon 0 AN
+sword 5 4 pierce DF
+26 0 950 P
+#17018
+goblin key~
+a goblin key~
+A small key is here in some dirt.~
+bronze~
+key 0 AN
+0 0 0 0 0
+0 0 40 P
+#17019
+rope~
+a rope~
+A long rope is here.~
+wood~
+trash 0 AO
+0 0 0 0 0
+10 0 10 P
+#17020
+demon sword~
+a demon sword~
+A huge, evil sword is here vibrating on the ground.~
+fire~
+weapon ABE AN
+exotic 7 4 flame AG
+34 0 6500 P
+A
+13 15
+A
+12 10
+A
+1 1
+A
+24 2
+#17021
+slave pick~
+a slave pick~
+A slave's pick is here.~
+wood~
+weapon 0 AN
+flail 1 1 peckb 0
+12 0 50 P
+#17022
+silver coins~
+some silver coins~
+Some silver coins are here in a corner.~
+silver~
+money 0 A
+1 0 0 0 0
+0 0 140 P
+#17023
+gold nugget~
+a gold nugget~
+A shiny nugget is by your feet.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+5 0 0 P
+#17024
+slavemasters whip~
+a slavemaster's whip~
+(no description)~
+hard leather~
+weapon 0 AN
+whip 4 7 whip 0
+31 0 760 P
+#17025
+slave masters vest~
+a slavemaster's vest~
+A comforatble vest is here.~
+lead~
+armor 0 AD
+9 9 9 7 0
+31 0 590 P
+#17026
+scrol sex change~
+a scroll of sex change~
+A silly-looking scroll is here.~
+parchment~
+scroll 0 AO
+37 'change sex' '' '' ''
+25 0 4500 P
+#17027
+combat scroll~
+a combatant's scroll~
+A scroll of combat is here, lost in the fray.~
+unknown~
+scroll 0 AO
+37 'cause serious' 'burning hands' 'shocking grasp' 'flamestrike'
+25 0 6800 P
+#17028
+farsight farseeing scroll~
+a scroll of farseeing farsight~
+A high-seeing scroll is here.~
+parchment~
+scroll 0 AO
+37 'fly' 'farsight' '' ''
+25 0 3400 P
+#17029
+wand enchant armor~
+a wand of enchant armor~
+A glowing wand is here.~
+crystal~
+wand A AO
+37 10 3 'enchant armor' 0
+27 0 5600 P
+#17030
+pet rock~
+a pet rock~
+Someone's pet rock is sitting here lonely.~
+stone~
+trash 0 AO
+0 0 0 0 0
+0 0 585 P
+#17031
+cloud guard sword~
+a cloud guard's sword~
+A sword made of. . . AIR!~
+air~
+weapon 0 AN
+sword 5 5 cleave 0
+33 0 0 P
+A
+19 3
+A
+18 3
+#17032
+cloud guard shield~
+a cloud guard's shield~
+A shield made of. . . air!~
+air~
+armor 0 AJ
+10 10 10 5 0
+31 0 6500 P
+A
+2 1
+#17033
+marbles~
+some marbles~
+Some children's marbles have been lost here.~
+stone~
+trash 0 AO
+0 0 0 0 0
+0 0 50 P
+#0
+
+
+
+#ROOMS
+#17000
+Northern Forests~
+You step through the mirror and find that you are standing in a forest
+path that doesn't seem to have been used in years.  The overgrown area makes
+it impossible to locate your enemies, and you are forced to proceed with an
+uncanny caution.  
+~
+0 532484 3
+D0
+~
+~
+0 -1 17001
+D2
+Back through the mirror~
+~
+0 -1 1652
+S
+#17001
+Northern Forests~
+As you continue toward the forests, you feel an unwavering sense of
+danger lurking.  It is impossible to see anything through the growth of the
+trees.  
+~
+0 532480 3
+D0
+~
+~
+0 -1 17002
+D2
+~
+~
+0 -1 17000
+S
+#17002
+Forest Path~
+As you enter this area, you hear the chirping of some unkown animal, then
+the growling of another, bigger one.  The hair on your back rises as you
+hear the roar of an unseen predator.  
+~
+0 532480 3
+D0
+~
+~
+0 -1 17006
+D2
+~
+~
+0 -1 17001
+D5
+~
+~
+1 -1 17003
+S
+#17003
+Beast's Cave~
+The cave is dark and forboding, and the sight of rotten bones by the
+entrance gives you an unwelcome idea of the owner.
+~
+0 1 0
+D3
+~
+~
+0 -1 17004
+D4
+~
+~
+1 -1 17002
+S
+#17004
+Beast's Lair~
+This small room is laiden with treasure centuries old.  A few
+corpses are here, but most of them were at the entrance.  You feel
+a foreboding feeling about being here.
+~
+0 1 0
+D1
+~
+~
+0 -1 17003
+D5
+~
+~
+1 17001 17005
+S
+#17005
+Hidden Hideout~
+This place is loaded with treasure and small rats. The entrance to
+here is unkown by the beast, and those fortuneate enough to find
+it usually soon die of starvation.
+~
+0 1 0
+D4
+~
+~
+1 17001 17004
+S
+#17006
+Intersection~
+The old path here splits to form two seperate roads.  One seems to be
+widely used because the shrubbery and grass around it seems to have been
+freshly cut.  The other leads toward the mountains.  
+~
+0 532480 3
+D1
+~
+~
+0 -1 17007
+D2
+~
+~
+0 -1 17002
+D3
+~
+~
+0 -1 17013
+S
+#17007
+Stone Road~
+You are standing on a long, narrow stone road, kept very clear and
+dust-free by someone.  You hear the sounds of a small village to the east,
+so that is probably who cleans the road, to make it easier for visitors to
+come.  
+~
+0 532480 3
+D1
+~
+~
+0 -1 17008
+D3
+~
+~
+0 -1 17006
+S
+#17008
+Stone Road~
+Just to the south is the entrance to what seems like a cozy little town. 
+The road here is wide and scratched, but it doesn't deter from your
+enjoyment of the hike.  There is a sign here talking about the village to
+the south.  
+~
+0 532484 3
+E
+roadsign road sign~
+________________________
+|                        |
+|       Honeyglade       |
+|        Pop. 500        |
+|________________________|
+             |
+             |
+             |
+             |
+_____________|____________~
+D2
+~
+~
+0 -1 17009
+D3
+~
+~
+0 -1 17007
+S
+#17009
+Entrance to Honeyglade~
+Honeyglade seems to be a queit little town.  In fact, when you get older
+this might be a good place to set up a life in retirement.  Right now
+though, you want to go find something to kill.  
+~
+0 0 1
+D0
+~
+~
+0 -1 17008
+D1
+~
+~
+0 -1 17010
+D3
+Blocked off part of town.~
+~
+0 -1 17030
+S
+#17010
+Main Street~
+The people in this town are very friendly to you, and are all very
+outgoing and informative.  They have been telling you different points of
+uninteresting, unimportant gossip about their everyday lives, but just
+seeing people so friendly is enough to make a person feel they belong.  
+~
+0 4 1
+D0
+~
+~
+0 -1 17011
+D2
+~
+~
+0 -1 17012
+D3
+~
+~
+0 -1 17009
+S
+#17011
+One Room School~
+You are inside the shoolhouse.  It smells strange in here, almost like
+your grand mother's house.  There are various educational books strewn
+about, and desks line up from one end to the other in perfect order.  On
+almost everyone of them you can see a returned paper.  
+~
+0 0 0
+E
+paper~
+On nearly every desk you can see a marked paper, each with a huge 'A'
+labeled on the front.  
+~
+E
+desks~
+On nearly every desk you can see a marked paper, each with a huge 'A'
+labeled on the front.  
+~
+D2
+~
+~
+0 -1 17010
+S
+#17012
+Town Store~
+This is a very small town.  The only places to go are this store and
+the schoolroom.  Nevertheless, you can get some half-decent supplies
+here.
+~
+0 0 0
+D0
+~
+~
+0 -1 17010
+S
+#17013
+Overgrown Path~
+This path has some kind of strange, warm dirt on it.  You don't feel any
+immediate sense of danger, but you feel cautious regardeless.  
+~
+0 532480 3
+D1
+~
+~
+0 -1 17006
+D3
+~
+~
+0 -1 17014
+S
+#17014
+Lava Stream~
+You are on a deadly and treacherous path overlooking a vicious stream of
+lava.  One wrong move and you could die.  
+~
+0 532480 3
+D0
+~
+~
+0 -1 17016
+D1
+~
+~
+0 -1 17013
+D2
+~
+~
+0 -1 17017
+D3
+Rocky Cliff~
+~
+0 -1 17015
+S
+#17015
+Lucky Catch~
+You fall!
+
+Luckily, you hold on to one of the vines.  Any closer and you
+would have been swallowed whole by the rivers of molten lava.
+~
+0 524292 0
+S
+#17016
+Rocky Outcropping~
+You are on another ledge overlooking the lava.  One more step
+north will be instant death.
+~
+0 532480 3
+D0
+Rocky Cliff~
+~
+0 -1 17015
+D2
+~
+~
+0 -1 17014
+S
+#17017
+Rock Cliff~
+Now you are on top of the delicate balancing rocks.  One wrong
+move and you could fall to your molten-rocky death.
+~
+0 532480 3
+D0
+~
+~
+0 -1 17014
+D1
+Rocky Cliff~
+~
+0 -1 17015
+D2
+Rocky Cliff~
+~
+0 -1 17015
+D3
+~
+~
+0 -1 17019
+S
+#17018
+Goblin Hideout~
+This is where all the goblins hide out.  Just the fact that you found
+your way here could mean that you are a very wise and brave adventurer.  
+~
+0 0 0
+D1
+~
+~
+0 -1 17049
+D2
+The path south of the Lava Flow~
+~
+0 -1 17024
+D5
+~
+~
+0 -1 17001
+S
+#17019
+Rock Cliff~
+So far so good!  You see signs of a village somewhere to the west.
+Now all you have to do is get there.
+~
+0 532480 3
+D0
+Rocky Cliff~
+~
+0 -1 17015
+D1
+~
+~
+0 -1 17017
+D2
+Rocky Cliff~
+~
+0 -1 17015
+D3
+~
+~
+0 -1 17020
+S
+#17020
+Rocky Cliff~
+The village is surprisingly close.  Still, one wrong move and you
+face certain death by the lava many feet below.
+~
+0 532480 3
+D1
+~
+~
+0 -1 17019
+D2
+~
+~
+0 -1 17021
+S
+#17021
+Rocky Cliff~
+You are standing at the top of the rocky cliff.  The village
+is below you and to the west, but a fall will surely be death.
+~
+0 532480 5
+D0
+Rocky Cliff~
+~
+0 -1 17020
+D1
+Rocky Cliff~
+~
+0 -1 17015
+D2
+Rocky Cliff~
+~
+0 -1 17015
+D3
+Rocky Cliff~
+~
+0 -1 17015
+D5
+~
+~
+0 -1 17022
+S
+#17022
+The Path Down~
+So far so good.  Soon you will be at the village and all your
+troubles will be over.
+~
+0 532480 5
+D0
+Path~
+~
+0 -1 17020
+D1
+Path~
+~
+0 -1 17015
+D2
+Path~
+~
+0 -1 17015
+D3
+Path~
+~
+0 -1 17015
+D4
+~
+~
+0 -1 17021
+D5
+~
+~
+0 -1 17023
+S
+#17023
+Fall!~
+Oh no!  You fell down the path with no hope of climbing back up!
+Whatever will you do now?  Well, there is a path to a village south
+of here, so that might be a good place to start.
+~
+0 4 5
+D2
+~
+~
+0 -1 17024
+M 500 H 500
+S
+#17024
+Path To Village~
+Well, you've come out of the mountains and gone back into the
+forest.  Things from here on seem to be getting a LOT more difficult.
+~
+0 0 3
+D0
+~
+~
+0 -1 17023
+D2
+~
+~
+0 -1 17025
+S
+#17025
+Abandoned Village~
+When you get here, the first thought that comes to your mind is that the
+people are unfriendly.  Then, as you see the death and decay, your mind
+changes.  Perhaps there IS something odd going on around here.
+The torn welcome sign is here.  This place doesn't seem too
+welcoming to you.
+~
+0 0 1
+E
+welcome sign~
+_____________________
+|                    /
+|          Honeygrov|
+|               Pop: \
+|____________________/
+                |
+                |
+                |
+                |
+                |
+                |
+                |
+________________|___________________~
+D0
+~
+~
+0 -1 17024
+D1
+~
+~
+0 -1 17026
+D2
+~
+~
+0 -1 17032
+S
+#17026
+Ruined Main Street~
+This place is giving you the creeps.  Sometimes, it just doesn't
+pay off to be an adventurer.  You hear odd howls and animalistic
+cries.
+~
+0 0 1
+D1
+~
+~
+0 -1 17027
+D2
+~
+~
+0 -1 17031
+D3
+~
+~
+0 -1 17025
+S
+#17027
+Ruined Main Street~
+In this section of town, lava from the exploded volcano still
+flows freely.  If you follow the flow, than perhaps you can find
+the volcano itself.  The flow continues to the south and comes
+from the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 17028
+D2
+~
+~
+0 -1 17029
+D3
+~
+~
+0 -1 17026
+S
+#17028
+Lava River~
+The molten lava is hot, but your armor seems to protect you from
+the heat.  Continuing south will take you back to the ruined
+village.  You see the tip of a tall mountain to the north.
+~
+0 0 7
+D0
+~
+~
+0 -1 17048
+D2
+~
+~
+0 -1 17027
+S
+#17029
+Lava Stream~
+As you continue south through the lava stream, the flow starts
+moving faster and stronger.  You hear a loud rumbling noise and
+realize that you are approaching some kind of waterfall.
+~
+0 0 7
+D0
+~
+~
+0 -1 17027
+D2
+~
+~
+0 -1 17035
+S
+#17030
+Entrance to Honeyglade~
+That part of town has been blocked off.
+
+Honeyglade seems to be a queit little town.  In fact, when you
+get older this might be a good place to set up a life in
+retirement.  Right now though, you want to go find something to
+kill.
+~
+0 0 1
+D0
+~
+~
+0 -1 17008
+D1
+~
+~
+0 -1 17010
+S
+#17031
+Abandoned Building~
+This was obviously the store once.  The shopkeeper fled and the
+items were looted.
+~
+0 8 0
+D0
+~
+~
+0 -1 17026
+S
+#17032
+Back Alley~
+This place is really scary!  You wonder what happened to all
+the people.
+~
+0 0 1
+D0
+~
+~
+0 -1 17025
+D2
+~
+~
+0 -1 17033
+S
+#17033
+Back Alley~
+Yes, this town is always covered in darkness because of the
+ash clouds looming above.  In years, perhaps the ash will
+dissipate, leaving this town habitible again.  But for now,
+the only things that can live here are monsters from the volcano.
+~
+0 0 1
+D0
+~
+~
+0 -1 17032
+S
+#17034
+Monster Nest~
+This is where all the volcano monsters come from.  You hope
+that you can get out of here before you get found.
+~
+0 8 0
+D4
+~
+~
+0 -1 17033
+S
+#17035
+Waterfall~
+Your reactions before appear to have been correct. WATERFALL!
+Your boat tips over the side and falls.  Luckily, some type of
+magic keeps you afloat, so you can navigate freely.
+~
+0 0 7
+D0
+~
+~
+0 -1 17029
+D5
+~
+~
+0 -1 17036
+S
+#17036
+On the Waterfall~
+It is SO much nicer when you can control your descent down a waterfall
+instead of just falling.  The lava has been washed out and only water
+remains.
+~
+0 0 7
+D4
+~
+~
+0 -1 17035
+D5
+~
+~
+0 -1 17037
+S
+#17037
+At the Bottom of the Waterfal~
+It's nicer when you reach the bottom, for instead of the murky
+black place of Honeygrove, the sun actually shines here.  Of course,
+this could lead to dangers of its own, but lets just be happy where
+we are.  Since you dont like being on the water, you might want to
+try and get out of here.
+~
+0 0 7
+D1
+~
+~
+0 -1 17038
+D4
+~
+~
+0 -1 17036
+S
+#17038
+Small Lake~
+This lake is small, and you can see a shore on all sides.
+Somewhere to the south, you notice air bubbles hitting the
+surface.  Perhaps you might want to examine that.
+~
+0 0 7
+D2
+~
+~
+0 -1 17039
+D3
+~
+~
+0 -1 17037
+S
+#17039
+Air Bubbles~
+It is truly a strange site to see here.  Air bubbles are
+emergin from the water in an endless stream.  You notice a large
+dark mass at the bottom of the clear water, but you can't make out
+what it is.  Perhaps you should go investigate.
+~
+0 0 7
+D0
+~
+~
+0 -1 17038
+D5
+~
+~
+0 -1 17040
+S
+#17040
+Under the Water~
+You hold your breath here, and the effort hurts your lungs after
+only a few seconds.  Looking down, you cannot see the bottom of the
+lake, because the light doesn't reach that depth.
+~
+0 0 7
+D4
+~
+~
+0 -1 17039
+D5
+~
+~
+0 -1 17041
+S
+#17041
+Sunken Ship~
+You are floating right next to the hull of an old ship.  You
+wonder how it got here, because there aren't any oceans or rivers
+that it could have sailed from nearby.
+~
+0 0 7
+D1
+~
+~
+0 -1 17042
+D4
+~
+~
+0 -1 17040
+S
+#17042
+Captain's Cabin~
+The Captain's room is nicely decorated, even if the furnishings are
+hundreds of years old.  There is air in here, so you don't have to
+hold your breath any more.
+~
+0 12 0
+D2
+~
+~
+0 -1 17043
+D3
+~
+~
+0 -1 17041
+S
+#17043
+Inside the Sunken Ship~
+As you walk around the interior of the old sunken ship, a chill
+runs through your bones.  You can just imagine the cries of torment
+and anguish as the crewmembers were drowned or crushed by falling
+objects.
+~
+0 8 0
+D0
+~
+~
+0 -1 17042
+D1
+~
+~
+0 -1 17045
+D3
+~
+~
+0 -1 17044
+S
+#17044
+Treasure Stores~
+The treasure room of this ship was once laiden with gold and
+valuables of unspeakable beauty.  Now all that remains is an
+empty storeroom.
+~
+0 8 6
+D1
+~
+~
+0 -1 17043
+S
+#17045
+Inside the Sunken Ship~
+A section of the cieling has caved in here, making the rest
+of the ship inacessable.  You can continue upward to the deck
+or down into the hold.
+~
+0 8 0
+D3
+~
+~
+0 -1 17043
+D4
+~
+~
+0 -1 17047
+D5
+~
+~
+0 -1 17046
+S
+#17046
+Ship's Hold~
+The hold of the ship still contains a few of the items that
+once filled it, but nothing is of value to one such as yourself.
+Still, if this ship was risen to the surface, it could act as a very
+successfull museum.
+~
+0 8 0
+D4
+~
+~
+0 -1 17045
+S
+#17047
+Ship's Deck~
+This is as far as you can go on the ship's deck without being drowned.
+The water is up to your waist, and the current threatens to pull you
+under the ship where there is no hope of reaching the surface for air.
+~
+0 8 0
+D5
+~
+~
+0 -1 17045
+S
+#17048
+Lava Source~
+You have floated into a small river of lava.  The heat is almost
+unbearable, and you feel you can't breath.  Still, if you jump you
+can probably make it to the ledge on the side of the mountain to the
+north.
+~
+0 0 7
+D0
+~
+~
+0 -1 17049
+D2
+~
+~
+0 -1 17028
+S
+#17049
+Ledge on the Mountain~
+You are now standing on the fairly cool rock ledge on the side of an
+active volcano.  By now, you have no worries about the lava falling on you,
+because you remember reading on a scroll in mud school that lava can't get
+at your location.  
+~
+0 0 5
+D1
+~
+~
+0 -1 17050
+D2
+~
+~
+0 -1 17048
+D4
+~
+~
+0 -1 17051
+S
+#17050
+Outer Ledge of the Mountain~
+You are standing on a natural yet narrow ledge overlooking a
+river of hot lava.  From here it looks beautiful, with it's
+shades of yellow and orange.
+~
+0 0 5
+D3
+~
+~
+0 -1 17049
+S
+#17051
+Side of the Mountain~
+You are struggling to keep your balance on the side of the volcano.
+The rocks under your feet slip, and you dangle periously, but still,
+you continue your journey.
+~
+0 4 5
+D0
+~
+~
+1 17018 17018
+D4
+~
+~
+0 -1 17052
+D5
+~
+~
+0 -1 17049
+S
+#17052
+Halfway up the Mountain~
+You stop for a breather here.  Even with your incredible adventurer's
+stamina, this is probably the most dificult travel that you have ever
+done in your lifetime.
+~
+0 0 5
+D4
+~
+~
+0 -1 17053
+D5
+~
+~
+0 -1 17051
+S
+#17053
+3/4 of the way up the mountain~
+You're really getting there now!  The crisp, high-rise air lifts your
+spirit and eases your muscles.  Your thoughts are cleared and you feel on
+top of the world.  When you look down you see that you ARE on top of the
+world!  
+~
+0 0 5
+D2
+~
+~
+0 -1 17054
+D4
+~
+~
+0 -1 17056
+D5
+~
+~
+0 -1 17052
+M 200 H 200
+S
+#17054
+In the Air~
+You just had to come out here, didn't you.  Well, at this height,
+everything makes you dizzy.  Still, the cloud to the near south looks
+aweful funny.  
+~
+0 4 9
+D0
+~
+~
+0 -1 17053
+D2
+~
+~
+0 -1 17055
+S
+#17055
+Inside the cloud~
+You are inside a small cloud.  Everything seems to be in place
+here, but the citygates to the south make this place more imposing.
+Is it possible that a city this big can be here in the sky?
+~
+0 8 0
+D0
+~
+~
+0 -1 17054
+D2
+~
+~
+0 -1 17106
+M 300 H 300
+S
+#17056
+The Top of the Volcano~
+You stand up here in truimph.  you have done what very few have
+done before.  You have mastered the volcano.  The air here is
+even more crisp and refreshing, adding to your feeling of
+accomplishment.  Continue north to the ridge of the mountain, where
+you can start your descent into the heart of the Earth.
+~
+0 0 5
+D0
+~
+~
+0 -1 17057
+D5
+~
+~
+0 -1 17053
+M 250 H 250
+S
+#17057
+The Top of the Ridge~
+As you stand here, you look down into the volcano.  The smoke
+rising up makes it look very unattractive.  Still, if you want
+to know what treasures could be hidden down there, there's only
+one way to find out.
+~
+0 0 5
+D2
+~
+~
+0 -1 17056
+D5
+~
+~
+0 -1 17058
+M 200 H 200
+S
+#17058
+Above the Steam Vents~
+You choke as soon as you fall down the ridge.  The steam
+comes up and burns your face.  If you don't hurry, the sulphuric
+acid pummelling you could eat you alive.
+~
+0 4 5
+D4
+~
+~
+0 -1 17057
+D5
+~
+~
+0 -1 17059
+M -100 H -100
+S
+#17059
+Inside the Volcano~
+You are swimming in a pool of warm water, and the feel of it
+relaxes your muscles.  Looking around, you see several lava
+flows, but nothing threatning.
+~
+0 8 6
+D1
+~
+~
+0 -1 17060
+D4
+~
+~
+0 -1 17058
+S
+#17060
+Inside the Volcano~
+You climb onto a rock ledge and dry yourself off.  The heat
+steadily increases now, but it isn't uncomfortable.  You
+hear the sound of rushing water echoeing through the caverns.
+~
+0 12 0
+D0
+~
+~
+0 -1 17062
+D1
+~
+~
+0 -1 17061
+D3
+~
+~
+0 -1 17059
+S
+#17061
+Small Drop~
+You have reached a dead end.  When you examine the rocks, you
+relize that you can probably get to a lower ledge if you jump.
+~
+0 12 0
+D3
+~
+~
+0 -1 17060
+D5
+~
+~
+0 -1 17067
+S
+#17062
+A long, narrow hallway~
+You are traversing through a long, rocky hallway in the heart of
+the volcano.  The danger of a cave-in is ever present, and you
+keep looking behind you at the sound of shuffling feet.
+~
+0 8 0
+D0
+~
+~
+0 -1 17063
+D2
+~
+~
+0 -1 17060
+S
+#17063
+Passage~
+You are traversing through a long, rocky hallway in the heart
+of the volcano.  The danger of a cave-in is ever present, and
+you keep looking behind you at the sound of shuffling feet.
+~
+0 8 0
+D0
+~
+~
+0 -1 17064
+D2
+~
+~
+0 -1 17062
+S
+#17064
+Passage~
+You are traversing through a long, rocky hallway in the heart
+of the volcano.  The danger of a cave-in is ever present, and
+you keep looking behind you at the sound of shuffling feet.
+~
+0 8 0
+D0
+~
+~
+0 -1 17065
+D2
+~
+~
+0 -1 17063
+S
+#17065
+Passage~
+You have reached a set of natural stairs.  They look long
+and trecherous, but after all you've been through, you can
+probably make it down.
+~
+0 8 0
+D0
+~
+~
+0 -1 17141
+D2
+~
+~
+0 -1 17064
+D5
+~
+~
+0 -1 17066
+S
+#17066
+Lower Ledge~
+Now you are perched periously over a sea of lava.  The heat burns
+your face, and you look away to protect your eyes from the intense
+light.  There is no way you can continue now.
+~
+0 8 0
+D4
+~
+~
+0 -1 17065
+S
+#17067
+Under the lake of Lava~
+You are now underneath a lake of lava.  Out of the cieling, the
+hot stuff drips down, almost burning you.  It would surely not
+be pleasant to come in contact with it.  You can barely see in
+the darkness.
+~
+0 9 0
+D0
+~
+~
+0 -1 17068
+D1
+~
+~
+0 -1 17069
+D2
+~
+~
+0 -1 17070
+D4
+~
+~
+0 -1 17061
+S
+#17068
+Dead End~
+You have reached a dead-end in the maze-like caverns here.  The
+darkness overwelms you, and your puny light does little to
+penetrate the blackness.  You hear the rumble of rocks as
+they cave in at different sections of the tunnel.  You could be
+next...
+~
+0 8 0
+D2
+~
+~
+0 -1 17067
+S
+#17069
+Under the Earth~
+The heat dies down quickly now.  Obviously, you aren't under the
+volcano anymore.  You hear the banging of steel and the groan of
+laborors nearby.
+~
+0 8 0
+D1
+~
+~
+0 -1 17071
+D3
+~
+~
+0 -1 17067
+S
+#17070
+Dead End~
+You have reached a dead-end in the maze-like caverns here.  The
+darkness overwelms you, and your puny light does little to
+penetrate the blackness.  You hear the rumble of rocks as they
+cave in at different sections of the tunnel.  You could be next...
+~
+0 8 0
+D0
+~
+~
+0 -1 17067
+S
+#17071
+Slave Mine~
+You are standing on the high catwalk over a mine.  It is being
+worked by slaves, and by the looks of things they aren't kept
+very well.
+~
+0 8 0
+D1
+~
+~
+0 -1 17072
+D3
+~
+~
+0 -1 17069
+S
+#17072
+The Catwalk~
+You are still walking on the catwalk.  The smell of the over-
+worked slaves fills your nostrils, almost making you sick.
+~
+0 8 0
+D1
+~
+~
+0 -1 17105
+D3
+~
+~
+0 -1 17071
+D5
+~
+~
+0 -1 17073
+S
+#17073
+West Wing~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17074
+D1
+~
+~
+0 -1 17089
+D4
+~
+~
+0 -1 17072
+S
+#17074
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17077
+D1
+~
+~
+0 -1 17075
+D2
+~
+~
+0 -1 17073
+D3
+~
+~
+0 -1 17076
+S
+#17075
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17074
+S
+#17076
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17074
+S
+#17077
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17078
+D1
+~
+~
+0 -1 17087
+D2
+~
+~
+0 -1 17074
+D3
+~
+~
+0 -1 17088
+S
+#17078
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17079
+D1
+~
+~
+0 -1 17085
+D2
+~
+~
+0 -1 17077
+D3
+~
+~
+0 -1 17086
+S
+#17079
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17080
+D1
+~
+~
+0 -1 17083
+D2
+~
+~
+0 -1 17078
+D3
+~
+~
+0 -1 17084
+S
+#17080
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17081
+D2
+~
+~
+0 -1 17079
+D3
+~
+~
+0 -1 17082
+S
+#17081
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17080
+S
+#17082
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17080
+S
+#17083
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17079
+S
+#17084
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17079
+S
+#17085
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17078
+S
+#17086
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17078
+S
+#17087
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17077
+S
+#17088
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17077
+S
+#17089
+East Wing~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17090
+D3
+~
+~
+0 -1 17073
+S
+#17090
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17093
+D1
+~
+~
+0 -1 17091
+D2
+~
+~
+0 -1 17089
+D3
+~
+~
+0 -1 17092
+S
+#17091
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17090
+S
+#17092
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17090
+S
+#17093
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17094
+D1
+~
+~
+0 -1 17103
+D2
+~
+~
+0 -1 17090
+D3
+~
+~
+0 -1 17104
+S
+#17094
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17095
+D1
+~
+~
+0 -1 17101
+D2
+~
+~
+0 -1 17093
+D3
+~
+~
+0 -1 17102
+S
+#17095
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D0
+~
+~
+0 -1 17096
+D1
+~
+~
+0 -1 17099
+D2
+~
+~
+0 -1 17094
+D3
+~
+~
+0 -1 17100
+S
+#17096
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17097
+D2
+~
+~
+0 -1 17095
+D3
+~
+~
+0 -1 17098
+S
+#17097
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17096
+S
+#17098
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17096
+S
+#17099
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17095
+S
+#17100
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17095
+S
+#17101
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17094
+S
+#17102
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17094
+S
+#17103
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D3
+~
+~
+0 -1 17093
+S
+#17104
+Mine~
+You are in the mine tunnels.  It is rocky and hot, and you
+are having a hard time breathing.  The humidity hurts your
+face, and sweat flows freely from your body.
+~
+0 8 0
+D1
+~
+~
+0 -1 17093
+S
+#17105
+End of the Catwalk~
+You have reached the end of the wooden catwalk.  You see light to
+the north, and you can probably make it there, but keep in mind that
+it would be impossible to make your hike back.
+~
+0 0 1
+D0
+~
+~
+0 -1 17052
+D3
+~
+~
+0 -1 17072
+S
+#17106
+Main Street~
+You are standing at the entrance of main street in cloud city.  The
+people here seem to be very friendly.  They smile at you and bid you
+a fair day as they walk by, even though they have absolutely no idea
+who in the heck you are.  They probably don't get too many visitors
+and so are not worried about what you might do, since they can easily
+keep track of you.  There is a magic shop to the north.  
+~
+0 0 1
+D0
+~
+~
+0 -1 17107
+D1
+~
+~
+0 -1 17108
+D3
+~
+~
+0 -1 17055
+S
+#17107
+Magic Shop~
+The cloud city's magic shop is small, but it's cramped space is lined
+with books of many kinds.  
+~
+0 8 0
+D2
+~
+~
+0 -1 17106
+S
+#17108
+Market Square~
+The more you are in this place, the more it reminds you of Midgaard.  The
+layout is pretty much the same, only it is built much smaller, and you
+cannot see very many people on the streets.  
+~
+0 0 1
+D0
+~
+~
+0 -1 17109
+D1
+~
+~
+0 -1 17111
+D2
+~
+~
+0 -1 17115
+D3
+~
+~
+0 -1 17106
+S
+#17109
+Temple Square~
+You are now in the Temple Square of Cloud City.  The temple of
+Bosco is to the north of here, and it looks much smaller than the one
+in Midgaard.
+~
+0 0 1
+D0
+~
+~
+0 -1 17110
+D2
+~
+~
+0 -1 17108
+S
+#17110
+Temple of Bosco~
+You are standing inside the Temple of Bosco.  There is a plaque here
+describing this city, and you are amazed at the craftmanship here.
+~
+0 1024 0
+E
+city plaque~
+Welcome to Uahn-Torin, city of the dragons.  Please be welcome here,
+and may your belief in Tahkien bring Redemption to your soul.
+
+-Uahn-Torin Welcomeing Committee~
+D2
+~
+~
+0 -1 17109
+M 500 H 500
+S
+#17111
+Main Street~
+You are at the eastern-most section of main street.  There is a pet
+shop to the north, and a curiosity shop to the south.
+~
+0 0 1
+D0
+~
+~
+0 -1 17112
+D1
+~
+~
+0 -1 17131
+D2
+~
+~
+0 -1 17114
+D3
+~
+~
+0 -1 17108
+S
+#17112
+Pet Shop~
+This shop is very nicely laid out, as far as a dragon is concerned.
+It has visious lizards and reptiles of all kinds.
+~
+0 266248 0
+D2
+~
+~
+0 -1 17111
+S
+#17113
+Pet Shop Storage Room~
+This is where the pet shop owner stores his pets.  They look very mean
+and don't appreciate your presence.
+~
+0 262156 0
+S
+#17114
+Curiosity Store~
+There are different strange things here.  You really don't find
+anything you need as an adventurer.
+~
+0 0 0
+D0
+~
+~
+0 -1 17111
+S
+#17115
+Common Square~
+You are in the common square, much like the one that lies in Midgaard
+many miles away.  The only difference is that here the people are friendly,
+in Midgaard they are not.
+~
+0 4 1
+D0
+~
+~
+0 -1 17108
+D1
+~
+~
+0 -1 17125
+D3
+~
+~
+1 -1 17116
+S
+#17116
+Hospital~
+The dragons have it pretty nice up here.  There are clean
+hospitals where the doctors can easily bleed the bad blood
+out of the wounded or injured.
+~
+0 8 0
+D0
+~
+~
+0 -1 17117
+D1
+~
+~
+1 -1 17115
+D2
+~
+~
+0 -1 17118
+D3
+~
+~
+0 -1 17119
+S
+#17117
+Hospital Room~
+You are inside a nice room furnished with different pieces of
+art.  The patients are obviously kept very comfortable here.
+~
+0 8 0
+D0
+~
+~
+1 17036 17123
+D2
+~
+~
+0 -1 17116
+S
+#17118
+Hospital Room~
+You are inside a nice room furnished with different pieces of art.
+The patients are obviously kept very comfortable here.
+~
+0 8 0
+D0
+~
+~
+0 -1 17116
+S
+#17119
+Hospital~
+You are in the busy main hall of the hospital.  Dragon doctors
+run around, getting from room to room to help their patients.
+~
+0 8 0
+D0
+~
+~
+0 -1 17120
+D1
+~
+~
+0 -1 17116
+D2
+~
+~
+0 -1 17121
+D3
+~
+~
+1 -1 17122
+S
+#17120
+Hospital Room~
+You are inside a nice room furnished with different pieces of art.
+The patients are obviously kept very comfortable here.
+~
+0 8 0
+D2
+~
+~
+0 -1 17119
+S
+#17121
+Hospital Room~
+You are inside a nice room furnished with different pieces of art.
+The patients are obviously kept very comfortable here.
+~
+0 8 0
+D0
+~
+~
+0 -1 17119
+S
+#17122
+Director's Office~
+The director of the hospital works here, keeping an eye on
+operations and things.  His office shows how prestigious his job is,
+because he had a beautifully carved oak desk, probably the
+workmanship of a dwarven clan.
+~
+0 8 0
+D1
+~
+~
+1 -1 17119
+S
+#17123
+Storage Room~
+You are in a secret storage room known only to the director of
+the hospital.  It's very strange that this place is empty.  Why
+would he keep it hidden from the doctors?
+~
+0 0 0
+D2
+~
+~
+1 -1 17117
+D5
+~
+~
+1 17001 17124
+S
+#17124
+Under the Hospital~
+You are underneath the hospital.  You can't see your hand
+infront of your face here.  You feel around for an exit, but
+you don't find any obvious escapes.  The fact that you found
+your way here is a mystery on it's own.  How could a key that
+you found from a beast thousands of miles away be used to open
+the door you came through?
+~
+0 5 0
+S
+#17125
+Clan Road~
+You are at the beginning of the clan road.  The longer you
+spend time in this city, the more you realize how much
+different it is from Midgaard after all.  There is an old,
+abandoned building to the north.
+~
+0 0 1
+D0
+~
+~
+1 -1 17126
+D1
+~
+~
+0 -1 17130
+D3
+~
+~
+0 -1 17115
+S
+#17126
+Abandoned Building~
+You are inside the abandoned building.  This appears to
+have at one time been a clan hall.  There is a plaque
+here describing the residents of the hall, and the people
+who dwelled here.
+There is also a welcoming sign.
+~
+0 8 0
+E
+sign welcome~
+Welcome to Dawn~
+D0
+~
+~
+0 -1 17127
+D2
+~
+~
+1 -1 17125
+D3
+~
+~
+0 -1 17128
+S
+#17127
+Ruined Office~
+You are standing in a ruined office that once belonged to the leader of
+Dawn.  Looking around, you see that all that has survived whatever
+disaster happened is the bronze desk that is in the center of the room.
+~
+0 8 0
+D2
+~
+~
+0 -1 17126
+S
+#17128
+Sancturary of Dawn~
+You are in the sancturary of the ruined clan Dawn.  This room seems
+intact after many, many years of abandonment.
+~
+0 8 0
+D1
+~
+~
+0 -1 17126
+D5
+~
+~
+2 17041 17129
+M 350 H 350
+S
+#17129
+Under Dawn~
+You are standing underneath the Dawn hall.  This is where the
+members escaped many years ago.  Strangly, you see the void to
+the north!
+~
+0 8 0
+D0
+~
+~
+0 -1 1
+D4
+The Limbo~
+~
+0 -1 17128
+S
+#17130
+Clan Road~
+You are now standing at the end of clan road.  Different stores
+are here, but none like anything you've ever seen before.
+~
+0 0 1
+D1
+~
+~
+0 -1 17132
+D3
+~
+~
+0 -1 17125
+S
+#17131
+East Main Street~
+You are on the Easternmost section of the flying city.  South of here is
+the Easternmost part of the Common Square, and the city brings itself to a
+halt.  It seems to be a nice little town, and you can't help but notice that
+at this part it is only about 300 feet from the ground.  
+~
+0 0 1
+D0
+~
+~
+0 -1 17134
+D2
+~
+~
+0 -1 17132
+D3
+~
+~
+0 -1 17111
+S
+#17132
+East Clan Road~
+You are at the south-east part of town.  There is nothing else here, except
+a closed bar to the south.  Continuing east, you can travel along the
+deserted clan road.
+~
+0 0 1
+D0
+~
+~
+0 -1 17131
+D2
+~
+~
+0 -1 17133
+D3
+~
+~
+0 -1 17130
+S
+#17133
+Deserted Bar~
+You are standing inside an old deserted bar.  The bar itself is built
+of ancient craftmanship with wood, but years of decay -- and recent
+vandalism -- has ruined its once nice homey feel.
+~
+0 8 0
+D0
+~
+~
+0 -1 17132
+S
+#17134
+Mansion Doors~
+You are at the entrance of an obviously rich family.  This part of the
+house is neatly trimmed, and there is no evidence that anyone ever walks
+here.  Being here in your adventuring gear makes you feel dirty and out of
+place.  
+~
+0 4 1
+D0
+~
+~
+1 17042 17136
+D1
+~
+~
+0 -1 17135
+D2
+~
+~
+0 -1 17131
+S
+#17135
+The Mansion Garden~
+You are now just beside the front doors of the mansion.  There are a
+number of trees and shrubs here, neatly cut to be different shapes.  
+~
+0 4 0
+D3
+~
+~
+0 -1 17134
+S
+#17136
+Mansion Foyer~
+You are inside the beautifully decorated foyer of the mansion.  It smells
+rich, and whoever lives here definately lives in style.  All the doors are
+kept closed, and you can't see anywhere else.  
+~
+0 8 0
+D0
+~
+~
+0 -1 17140
+D2
+~
+~
+1 -1 17134
+D3
+~
+~
+1 -1 17137
+D4
+~
+~
+0 -1 17138
+S
+#17137
+Kitchen~
+You are inside the kitchen of the mansion.  Like the rest of the house,
+this is a very dignant place to be.  The counter is clean, the floor is
+polished, and there is always food cooking.  
+~
+0 8 0
+D1
+~
+~
+1 -1 17136
+S
+#17138
+Upstairs~
+You are standing at the top of the mansion's stairwell.  There is a door
+to the north, behind which you can hear soft sobing.  
+~
+0 8 0
+D0
+~
+~
+1 17042 17139
+D5
+~
+~
+0 -1 17136
+S
+#17139
+Girl's Room~
+You are in the room of a young girl.  Her parents locked her here to
+protect her from the evil in the outside world.  She's very lonely, as you
+can tell from all the toys strewn around.  
+~
+0 8 0
+D2
+~
+~
+1 -1 17138
+S
+#17140
+Bedroom~
+You are standing in the bedroom of the mansion.  This is where the owner
+spends most of his time, and he has a good excuse for it too!  The furniture
+is laid out perfectly, and the place is spotless.  The walls are decorated
+with beautiful wood paneling.  
+~
+0 8 0
+D2
+~
+~
+1 -1 17136
+S
+#17141
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17142
+D2
+~
+~
+0 -1 17065
+S
+#17142
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this part
+of it is almost impossible to navigate, still if you're carefull,
+you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17143
+D2
+~
+~
+0 -1 17141
+D3
+~
+~
+0 -1 17151
+S
+#17143
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17144
+D1
+~
+~
+0 -1 17156
+D2
+~
+~
+0 -1 17142
+D3
+~
+~
+0 -1 17158
+S
+#17144
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17145
+D1
+~
+~
+0 -1 17159
+D2
+~
+~
+0 -1 17143
+S
+#17145
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D2
+~
+~
+0 -1 17144
+D3
+~
+~
+0 -1 17146
+S
+#17146
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17145
+D3
+~
+~
+0 -1 17147
+S
+#17147
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17146
+D3
+~
+~
+0 -1 17148
+S
+#17148
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17147
+D3
+~
+~
+0 -1 17149
+S
+#17149
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17148
+D2
+~
+~
+0 -1 17150
+S
+#17150
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17149
+D2
+~
+~
+0 -1 17161
+S
+#17151
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17142
+D3
+~
+~
+0 -1 17152
+S
+#17152
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17153
+D1
+~
+~
+0 -1 17151
+S
+#17153
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17154
+D2
+~
+~
+0 -1 17152
+S
+#17154
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17155
+D2
+~
+~
+0 -1 17153
+S
+#17155
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D3
+~
+~
+0 -1 17154
+S
+#17156
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D2
+~
+~
+0 -1 17157
+D3
+~
+~
+0 -1 17143
+S
+#17157
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D0
+~
+~
+0 -1 17156
+S
+#17158
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17143
+S
+#17159
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D1
+~
+~
+0 -1 17160
+D3
+~
+~
+0 -1 17144
+S
+#17160
+Rocky Maze~
+Because of the nature of the cave-ins in this volcano, this
+part of it is almost impossible to navigate, still if you're
+carefull, you know you can probably make it through.
+~
+0 8 0
+D3
+~
+~
+0 -1 17159
+S
+#17161
+End of the Maze~
+You've reached the end of the volcanic caverns, and you are sure glad of it.  Th
+e eerie light of the fungus growing on the rocky walls gives way to the brillian
+t glare of the sun here, and you can begin your ascent of the volcano.
+~
+0 0 5
+D0
+~
+~
+0 -1 17150
+D4
+Halfway up the Volcano~
+~
+0 -1 17052
+S
+#0
+
+
+
+#SPECIALS
+M 17001 spec_nasty
+M 17009 spec_breath_fire
+M 17010 spec_cast_mage
+M 17012 spec_cast_undead
+M 17021 spec_cast_mage
+M 17023 spec_executioner
+M 17029 spec_guard
+M 17031 spec_breath_gas
+M 17032 spec_cast_cleric
+S
+
+
+
+#RESETS
+D 0 17002 5 1
+D 0 17003 4 1
+D 0 17051 0 2
+D 0 17115 3 1
+D 0 17116 1 1
+D 0 17117 0 2
+D 0 17119 3 1
+D 0 17122 1 1
+D 0 17123 2 1
+D 0 17123 5 2
+D 0 17125 0 1
+D 0 17128 5 2
+D 0 17134 0 2
+D 0 17136 2 1
+D 0 17136 3 1
+D 0 17137 1 1
+D 0 17138 0 2
+D 0 17139 2 1
+D 0 17140 2 1
+M 0 17000 1 17004 1
+M 0 17001 1 17005 1
+O 0 17033 0 17008
+M 0 17002 3 17011 3
+E 0 17003 0 16
+M 0 17003 1 17011 1
+M 0 17004 1 17011 1
+M 0 17005 1 17012 1
+G 0 17008 0
+G 0 17007 0
+G 0 17006 0
+G 0 17005 0
+G 0 17004 0
+M 0 17006 10 17018 10
+E 0 17009 0 11
+E 0 17010 0 16
+E 0 17011 0 10
+M 0 17007 10 17018 10
+E 0 17009 0 11
+E 0 17010 0 16
+E 0 17011 0 10
+M 0 17014 1 17018 1
+E 0 17011 0 10
+E 0 17009 0 11
+E 0 17010 0 16
+M 0 17009 1 17028 1
+M 0 17009 1 17029 1
+M 0 17008 1 17031 1
+M 0 17010 20 17034 20
+M 0 17011 1 17034 1
+M 0 17012 3 17046 3
+M 0 17013 1 17047 1
+M 0 17012 2 17047 2
+M 0 17015 10 17052 10
+G 0 17019 0
+M 0 17016 1 17055 1
+M 0 17029 2 17055 2
+E 0 17032 0 11
+E 0 17031 0 16
+M 0 17015 10 17057 10
+M 0 17017 1 17059 1
+M 0 17018 1 17066 1
+M 0 17019 1 17071 1
+M 0 17020 1 17072 1
+M 0 17020 1 17073 1
+M 0 17019 1 17075 1
+M 0 17019 1 17076 1
+M 0 17019 1 17081 1
+M 0 17019 1 17082 1
+M 0 17019 1 17082 1
+M 0 17019 1 17083 1
+M 0 17019 1 17084 1
+M 0 17019 1 17085 1
+M 0 17019 1 17086 1
+M 0 17019 1 17087 1
+M 0 17019 1 17088 1
+M 0 17020 1 17089 1
+M 0 17019 1 17091 1
+M 0 17019 1 17092 1
+M 0 17019 1 17097 1
+M 0 17019 1 17098 1
+M 0 17019 1 17099 1
+M 0 17019 1 17100 1
+M 0 17019 1 17101 1
+M 0 17019 1 17102 1
+M 0 17021 1 17107 1
+M 0 17023 1 17110 1
+M 0 17027 1 17112 1
+M 0 17024 1 17113 1
+M 0 17022 1 17113 1
+M 0 17025 1 17113 1
+M 0 17028 1 17114 1
+M 0 17030 3 17115 3
+M 0 17033 1 17117 1
+M 0 17032 2 17117 2
+M 0 17034 1 17118 1
+M 0 17033 1 17120 1
+M 0 17034 1 17121 1
+M 0 17032 2 17121 2
+M 0 17031 1 17122 1
+M 0 17000 1 17124 1
+M 0 17035 10 17133 10
+M 0 17036 1 17135 1
+M 0 17037 1 17137 1
+M 0 17043 1 17139 1
+M 0 17042 1 17139 1
+M 0 17041 1 17139 1
+M 0 17040 1 17139 1
+M 0 17039 1 17139 1
+M 0 17038 1 17139 1
+M 0 17044 1 17140 1
+S
+
+
+
+#SHOPS
+17005 5 9 10 1 26 90 200 0 23
+17008 0 0 0 0 0 10 60 0 23
+17021 2 3 4 0 0 50 400 0 23
+17027 0 0 0 0 0 100 250 9 20
+17028 13 0 0 0 0 70 140 0 23
+0
+
+
+
+#$

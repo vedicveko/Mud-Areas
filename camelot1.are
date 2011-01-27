@@ -1,0 +1,2919 @@
+#AREADATA
+Credits     {r<  5- 25> {bChipper  {gCamelot      {x~
+Name        Camelot~
+Filename    camelot1.are~
+Builders    Chipper~
+VNUMs       20900 20999
+Security    8
+End
+
+
+
+#MOBILES
+#20900
+page~
+a page~
+A page of Camelot
+~
+A young child stands before you dressed in the reds and golds of Camelot.
+~
+human~
+AGH 0 0 0
+5 2 1d16+42 5d10+100 2d4+3 stab
+6 6 6 8
+CFK 0 0 0
+stand stand either 20
+AHMV ABCDEFGHIJK M 0
+#20901
+Rose Guard~
+a Rose Guard~
+A guard of the Royal Rose patrols here.
+~
+A guard standing proudly in the red and gold of King Arthur
+strolls in front of you.
+~
+human~
+AG 0 1000 0
+10 5 2d33+96 10d10+100 3d5+7 stab
+3 3 3 6
+CEFK 0 0 0
+stand stand male 35
+AHMV ABCDEFGHIJK M 0
+#20902
+squire rose~
+a squire of the Rose Guard~
+A Squire of the Royal Rose Guard stands here.
+~
+This young man proudly wears the device of a squire of the Royal Rose
+Guard.
+~
+human~
+AG 0 1000 0
+7 3 1d33+61 7d10+100 2d6+3 slash
+5 5 5 7
+EIN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20903
+guard gambling~
+a gambling guard~
+A guard kneels on the floor here, dicing with his companions.
+~
+A guard in a rumpled uniform kneels on the flagstones before the fireplace,
+rolling a set of dice in his hands and praying for luck.
+~
+human~
+ABT 0 750 0
+8 4 2d21+73 8d10+100 2d7+4 none
+5 5 5 7
+CEN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20904
+officer guard rose~
+an officer of the Rose Guard~
+An officer of the Rose Guard rests here on his bunk.
+~
+This officer rests on his bunk here, quietly drinking a toast to the health
+of the king and queen.
+~
+human~
+ABT 0 1000 0
+9 5 2d27+83 9d10+100 2d7+6 none
+4 4 4 7
+CEN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20905
+guard off duty~
+an off-duty guardsman~
+An off duty guardsman is drinking here.
+~
+An off duty guardsman raises his glass in a toast to the new queen.
+~
+human~
+AB 0 1000 0
+6 3 1d24+51 6d10+100 2d5+3 slash
+6 6 6 8
+CKN 0 0 0
+stand stand male 45
+AHMV ABCDEFGHIJK M 0
+#20906
+drunken guard~
+a drunken Dragon Guard~
+A drunken Dragon Guard lounges here.
+~
+A drunk guard lounges on a chair here, nursing a drink and leering at the serving wenches
+~
+human~
+AB 0 -1000 0
+6 3 1d24+51 6d10+100 2d5+3 slash
+6 6 6 8
+CEK 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#20907
+Dragon guard~
+a Dragon Guard~
+A Dragon Guard is patrolling the hall here.
+~
+A Dragon Guard looks at you suspiciously as you pass by him.
+~
+human~
+A 0 -1000 0
+10 5 2d33+96 10d10+100 3d5+7 stab
+3 3 3 6
+CEN 0 0 0
+stand stand male 45
+AHMV ABCDEFGHIJK M 0
+#20908
+guard violent~
+a violent guard~
+A violent Dragon Guard roars in anger at your intrusion.
+~
+A drunk and disorderly Dragon Guard looks up from what he was doing
+and roars in anger at your intrusion.
+~
+human~
+AB 0 -1000 0
+8 4 2d21+73 8d10+100 2d7+4 punch
+5 5 5 7
+CEN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20909
+officer dragon~
+an officer of the Dragon Guard~
+An officer of the Dragon Guard sleeps here.
+~
+You have wandered in on a sleeping officer of the
+Dragon Guard. You wonder if you can sneak back out
+before he wakes up.
+~
+human~
+AB 0 -1000 0
+9 5 2d27+83 9d10+100 2d7+6 crush
+4 4 4 7
+CEKN 0 0 0
+stand stand male 200
+AHMV ABCDEFGHIJK M 0
+#20910
+servant kitchen~
+a kitchen servant~
+A kitchen servant hurries along on an errand.
+~
+A kitchen servant hurries along here.  He glances up as he passes you and smiles
+merrily at you.
+~
+human~
+AR 0 1000 0
+12 6 3d32+120 12d10+100 3d7+6 slash
+2 2 2 6
+CN 0 H L
+stand stand either 55
+AHMV ABCDEFGHIJK M 0
+#20911
+Cabal dog~
+a white dog~
+A white dog lies by the hearth, sleeping peacefully
+~
+Cabal, the king's favorite hound, lies sleeping by the hearth.
+~
+dog~
+AB a 0 0
+14 7 4d33+145 14d10+100 4d6+7 bite
+1 1 1 5
+HN 0 E 0
+stand stand male 0
+AGV ACDEFHJKUV M 0
+#20912
+cat~
+a cat~
+A cat lies sleeping on the hearth here.
+~
+You stumble across a grey and white cat, who opens its eyes and glares
+at you with the arrogance only a cat can truly achieve.
+~
+cat~
+AB Z 1000 0
+15 7 4d37+162 15d10+100 4d6+9 claw
+0 0 0 5
+FH I 0 0
+stand stand either 0
+AGV ACDEFHJKQUV M 0
+#20913
+Cook~
+a cook~
+One of Camelot's cooks is chopping vegetables here.
+~
+A cook, dressed impeccably in white linen, is chopping onions
+here.  Tears fill your eyes as the fumes hit you and you wonder
+how he can stand it.
+~
+human~
+AB 0 1000 0
+13 7 3d38+131 13d10+100 3d7+8 slash
+1 1 1 6
+CN 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK M 0
+#20914
+monk~
+a monk~
+A monk glares up at you from the folds of his robe.
+~
+A monk, dressed in the brown robes of his order, glares up at you
+in accusation as you walk past him.
+~
+human~
+AQ 0 -1000 0
+12 6 3d32+120 12d10+100 3d7+6 slash
+2 2 2 6
+CN 0 H L
+stand stand male 55
+AHMV ABCDEFGHIJK M 0
+#20915
+brother~
+a brother~
+A brother of the cloth intones "God destroys the wicked"
+~
+A franciscan brother raises a cross in the air and spouts some nonsense
+about God destroying this world to create a new one.
+~
+human~
+AB 0 -1000 0
+13 7 3d38+131 13d10+100 3d7+8 slash
+1 1 1 6
+CN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20916
+Galahad~
+Sir Galahad~
+Sir Galahad pours out his sins to the priest.
+~
+Sir Galahad is a handsome young man with golden hair and a sweet smile.
+He is looking particularly hag-ridden right now, probably due to some imagined
+sin he has committed.
+~
+human~
+ABT 0 1000 0
+15 8 4d37+162 15d10+100 4d6+9 pierce
+0 0 0 5
+CEN N 0 M
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20917
+priest father john~
+Father John~
+Father John, the castle priest, sits listening to Galahad with a bored expression.
+~
+~
+human~
+AB 0 -1000 0
+15 7 4d37+162 15d10+100 4d6+9 slash
+0 0 0 5
+0 M 0 N
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20918
+altar boy~
+an altar boy~
+An altar boy lounges here, waiting for the priest's return.
+~
+An altar boy, dressed in the white and crimson of the priesthood,
+lounges here, waiting for Father John to return and give him some-
+thing to do.
+~
+human~
+AB 0 -1000 0
+13 7 3d38+131 13d10+100 3d7+8 stab
+1 1 1 6
+CN 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20919
+footman~
+a king's footman~
+A footman hurries along on an errand.
+~
+A young man, dressed in the red and gold of Camelot, hurries along on an errand
+here.
+~
+human~
+AGH 0 0 0
+16 8 5d34+175 16d10+100 4d7+8 stab
+0 0 0 5
+CFK 0 0 0
+stand stand male 200
+AHMV ABCDEFGHIJK M 0
+#20920
+King Arthur~
+King Arthur~
+King Arthur sits on his throne, watching over the wedding festivities.
+~
+King Arthur sits on his throne, watching over the wedding festivities.  He
+is a young man with brown hair and eyes, and a ready smile.
+~
+human~
+ABT H 1000 0
+25 13 10d42+322 25d10+100 5d8+16 pierce
+-5 -5 -5 2
+0 ABN 0 O
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#20921
+queen guenhuevere~
+Queen Guenhuevere~
+Queen Guenhuevere sits here, ready to take insult at anything you say to her.
+~
+Queen Guenhuevere glares at you suspiciously, ready to be insulted
+by anything you say to her.  She has long golden hair and blue eyes.
+~
+human~
+ABQ H -1000 0
+25 13 10d42+322 25d10+100 5d8+16 pierce
+-5 -5 -5 2
+0 ABM 0 O
+stand stand female 1000
+AHMV ABCDEFGHIJK M 0
+#20922
+knights errant~
+a knight-errant~
+A knight intent upon errantry stands here.
+~
+A knight dressed in shining plate mail stands before you.  He
+raises a hand as you pass by and says "Ho, traveller.  Have
+you heard any tales of injustice that I might take action
+against?"
+~
+human~
+AT 0 1000 0
+17 8 5d39+187 17d10+100 4d7+10 stab
+0 0 0 4
+CEFKN 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#20923
+knight black~
+a black knight~
+A black knight glares at you as you pass by him.
+~
+A knight dressed in shining plate mail stands before you.  He
+raises a hand as you pass by and says "Ho, traveller.  Have
+you heard of any tales of injustice I might join in?"
+~
+human~
+AT 0 -1000 0
+17 8 5d39+187 17d10+100 4d7+10 stab
+0 0 0 4
+CEFKN 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#20924
+wench serving~
+a serving wench~
+A serving wench is cleaning the room here.
+~
+A serving wench is cleaning the room here.  She picks up a glass, give it a quick
+polish, then smiles at you.
+~
+human~
+AB 0 1000 0
+18 9 6d36+205 18d10+100 4d7+12 thwack
+-1 -1 -1 4
+N 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#20925
+butler~
+a king's butler~
+A king's butler supervises the arrangment of the room.
+~
+One of the king's butlers stands in the center of the room, ordering
+its arrangement.
+~
+human~
+A 0 1000 0
+22 11 9d36+270 22d10+100 5d7+14 slash
+-3 -3 -3 3
+C 0 0 0
+stand stand male 900
+AHMV ABCDEFGHIJK M 0
+#20926
+lady queen~
+the queen's lady~
+The queen's lady sits in her chair here, happily embroidering and gossiping.
+~
+One of the queen's ladies sits here, gossiping with her friends.
+~
+human~
+AB 0 1000 0
+19 9 7d34+223 19d10+100 5d6+12 thwack
+-1 -1 -1 4
+EKN 0 0 0
+stand stand female 1200
+AHMV ABCDEFGHIJK M 0
+#20927
+Tristan~
+Sir Tristan~
+Sir Tristan drinks a toast to the queen's health.
+~
+Sir Tristan stands before you, a tall man with flowing golden hair
+and mustache.  He has a look about him, though, as if he is seeking
+something more.
+~
+human~
+ABT 0 1000 0
+21 11 8d37+252 21d10+100 5d7+12 pierce
+-3 -3 -3 3
+CEKN 0 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK M 0
+#20928
+Lancelot~
+Sir Lancelot~
+Sir Lancelot sits sighing in a corner.
+~
+Sir Lancelot, a short man with black hair, sits in a corner moping.
+~
+human~
+ABT 0 1000 0
+21 11 8d37+252 21d10+100 5d7+12 pierce
+-3 -3 -3 3
+CEKN 0 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK M 0
+#20929
+Kay~
+Sir Kay~
+Sir Kay lounges on a chair here, drinking heavily.
+~
+Sir Kay sits on a chair, propping his lame leg up. He
+is a sullen looking man with dark hair and eyes.
+~
+human~
+ABT 0 1000 0
+23 11 9d39+290 23d10+100 5d8+11 pierce
+-4 -4 -4 2
+CEKN 0 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK M 0
+#20930
+Mordred~
+Sir Mordred~
+Sir Mordred looks at you sardonically.
+~
+Sir Mordred, a small dark man with icey black eyes, glares at you
+from the chair he rests in.
+~
+human~
+ABR 0 -1000 0
+23 11 9d39+290 23d10+100 5d8+11 pierce
+-4 -4 -4 2
+CEKN 0 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK M 0
+#20931
+butler~
+a king's butler~
+A king's butler supervises the arrangment of the room.
+~
+One of the king's butlers stands in the center of the room, ordering
+its arrangement.
+~
+human~
+AB 0 -1000 0
+22 11 9d36+270 22d10+100 5d7+14 slash
+-3 -3 -3 3
+C 0 0 0
+stand stand male 900
+AHMV ABCDEFGHIJK M 0
+#20932
+squire king~
+the king's squire~
+One of the king's squires stands here ready to serve him.
+~
+A king's squire stands here, eager and ready to serve the king at his whim.
+~
+human~
+AB 0 -1000 0
+19 9 7d34+223 19d10+100 5d6+12 stab
+-1 -1 -1 4
+EKN 0 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK M 0
+#20933
+merlin~
+Merlin~
+Merlin, the king's wizard, is working here.
+~
+Merlin stands here, trying to get an experiment of his to work.
+~
+human~
+ABR H 1000 0
+25 0 10d42+322 50d10+100 5d8+16 wrath
+-5 -5 -5 2
+FN C 0 Z
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20934
+Morgause~
+Morgause~
+Morgause, the King's sister, sits learning from Merlin.
+~
+Morgause sits at Merlin's feet, intent on learning everything she can from him.
+~
+human~
+ABR H -1000 0
+25 0 10d42+322 25d10+100 5d8+16 none
+-5 -5 -5 2
+FK 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#20935
+lady queen~
+the queen's lady~
+The queen's lady sits in her chair her, happily embroidering and gossiping.
+~
+One of the queen's ladies is here, gossiping with her friends.
+~
+human~
+AB 0 -1000 0
+18 9 6d36+205 18d10+100 4d7+12 thwack
+-1 -1 -1 4
+EKN 0 0 0
+stand stand female 1200
+AHMV ABCDEFGHIJK M 0
+#20936
+butler bedevere~
+Sir Bedevere~
+Sir Bedevere, the king's butler and cupbearer, stands here looking distraught.
+~
+Sir Bedevere grabs your arm as you enter the castle and begins telling
+you a story of woe and distress.  King Arthur (after having slept with his
+sister, Morgause, and conceived a bastard son by her, Mordred), has married
+Guenhuevere, who is in love with Lancelot.  Guenhuevere and Lancelot are not
+sleeping with each other yet, but it can only be a matter of time, and
+meanwhile Mordred (who is a snake) is sneaking around behind the king's
+back, stirring up trouble, and Morgause is with Merlin, trying to learn all
+the sorcerer's secrets.  
+~
+human~
+AB 0 0 0
+5 2 1d16+42 5d10+100 2d4+3 none
+6 6 6 8
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK M 0
+#20945
+rose virgin~
+a virgin~
+A rose virgin is here.
+~
+She looks so good!
+~
+human~
+AB 0 0 0
+1 0 1d6+23 3d10+100 1d5+1 none
+8 8 8 9
+0 AB 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#20955
+darth~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#20996
+maroon tunes~
+a maroon tune~
+A maroon tune bounces here
+~
+~
+human~
+A 0 0 0
+250 0 5d5+0 250d10+100 5d87+127 pierce
+-146 -146 -146 -68
+0 0 0 J
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#20999
+piss ass asshole shit fuck damn crap cunt pussy dick penis dickhead tit tits titty fag crap smartass~
+a gainer~
+A gainer stands here.
+~
+~
+human~
+Ab 0 0 0
+200 0 10d2700+10440 200d10+100 5d70+100 none
+-115 -115 -115 -52
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#20900
+dagger page~
+a page's dagger~
+A page's dagger rests on the floor here.~
+none~
+weapon 0 AN
+dagger 2 4 stab 0
+8 2 200 P
+F A 18 1 0
+#20901
+rose earrings~
+a pair of rose earrings~
+A pair of rose earrings rests on the table here.~
+none~
+jewelry A AS
+0 0 0 0 0
+9 1 230 P
+F A 14 50 0
+F A 18 1 0
+#20902
+mace rose~
+a rose mace~
+A mace of the royal Rose Guard lies on the ground.~
+none~
+weapon 0 AN
+mace 4 5 thwack A
+10 2 230 P
+#20903
+dragon earrings~
+a pair of dragon earrings~
+A pair of dragon earrings rests on the table here.~
+none~
+jewelry A AS
+0 0 0 0 0
+9 1 230 P
+F A 18 1 0
+#20904
+boots riding~
+a pair of riding boots~
+A pair of riding boots lie crumpled in the corner~
+none~
+armor 0 AG
+C C AB B 0
+10 3 290 P
+#20905
+dice~
+a pair of bone dice~
+You roll this pair of dice in your hands reflectively.~
+none~
+light 0 A
+0 0 999 0 0
+12 1 300 P
+F A 2 2 0
+#20906
+shield honor~
+a shield of honor~
+A shield of honor catches your attention in the corner.~
+none~
+armor 0 AJ
+C AC AB AB 0
+13 3 310 P
+F A 5 2 0
+#20907
+dragon whip~
+a dragon whip~
+A dragon whip is hanging on the wall here.~
+none~
+weapon 0 AN
+whip 4 5 whip G
+10 2 230 P
+#20908
+shield gain~
+a shield of gain~
+A shield of gain hangs on the wall here.~
+none~
+armor 0 AJ
+C AC AB AB 0
+13 3 310 P
+F A 5 2 0
+#20909
+knee britches~
+a pair of knee britches~
+A pair of knee britches done in a tasteful black lie here.~
+none~
+armor B AF
+BC C ABC AB 0
+15 4 340 P
+F A 1 2 0
+#20910
+cat collar~
+a cat's collar~
+A cat's collar has fallen off of a cat.~
+none~
+armor 0 AC
+AC BC ABC C 0
+17 2 420 P
+F A 4 1 0
+#20911
+white gloves~
+a pair of white gloves~
+A pair of dog-eaten white gloves lie here.~
+none~
+armor 0 AH
+ABC AC BC AB 0
+18 2 380 P
+F A 3 2 0
+#20912
+apron servant's~
+a servant's apron~
+A servant's apron lies crumpled on the floor~
+none~
+armor 0 AD
+ABC BC D C 0
+20 4 400 P
+F A 13 20 0
+#20913
+hatchet~
+a onion hatchet~
+A hatchet used for chopping up onions is here.~
+none~
+weapon B AN
+exotic 5 5 chop H
+20 3 420 P
+#20914
+white kerchief~
+a white kerchief~
+A white kerchief has been tossed onto the floor.~
+none~
+armor 0 AC
+AC BC ABC C 0
+17 2 420 P
+F A 4 1 0
+#20915
+monk robe~
+a monk's robe~
+A brown, sackcloth robe lies here.~
+none~
+armor A AK
+ABC AC D C 0
+20 4 500 P
+F A 12 20 0
+#20916
+stole brother~
+a brother's stole~
+A stole of the brotherhood of Christ lies here.~
+none~
+armor 0 AD
+ABC BC D C 0
+20 4 400 P
+F A 13 20 0
+#20917
+cross~
+a holy cross~
+A holy cross lies abandoned here.~
+none~
+gem 0 AO
+0 0 0 0 0
+22 2 520 P
+F A 13 20 0
+F A 4 2 0
+#20918
+ruby ring~
+a ruby ring~
+A ruby ring, part of the spoils of tithe, rests  here.~
+none~
+jewelry 0 AB
+0 0 0 0 0
+22 1 550 P
+F A 12 10 0
+F A 13 20 0
+#20919
+caliburn sword~
+caliburn~
+Caliburn, King Arthur's famous sword, lies here.~
+none~
+weapon AB AN
+sword 6 7 slash A
+30 5 800 P
+F A 19 3 0
+F A 18 1 0
+#20920
+crown golden ~
+a golden crown~
+Queen Guenhuevere's golden crown~
+none~
+armor 0 AE
+ABD AD AD AC 0
+30 3 700 P
+F A 18 3 0
+F A 2 3 0
+#20921
+white belt~
+a white belt~
+A knight's white belt is rolled up here.~
+none~
+armor 0 AL
+D ABC AD AB 0
+25 4 720 P
+F A 13 30 0
+F A 1 2 0
+#20922
+cleaning rag~
+a cleaning rag~
+A cleaning rag perfect for wrapping about the wrist sits here.~
+none~
+armor 0 AM
+D AD ABC AB 0
+24 2 800 P
+F A 18 2 0
+F A 12 10 0
+#20923
+flowered lance~
+a flowered lance~
+A lance here has been covered with flowers to celebrate the wedding.~
+none~
+weapon A AN
+polearm 5 6 none 0
+26 5 800 P
+#20924
+Isobel ring~
+isobel's Ring~
+Isobel's ring, her gift to Tristan, is laying on a table here.~
+none~
+jewelry 0 AB
+0 0 0 0 0
+26 1 920 P
+F A 19 2 0
+F A 18 2 0
+#20925
+Guenhuevere's favor~
+queen Guenhuevere's Favor~
+Queen Guenhuevere's favor, her gift to Lancelot, is resting here.~
+none~
+armor B AI
+AD D BD AC 0
+27 2 920 P
+F A 13 40 0
+F A 19 5 0
+#20927
+glasses kay~
+kay's glasses~
+Kay's glasses rest on the table here.~
+none~
+gem B AR
+0 0 0 0 0
+0 1 920 P
+F A 4 1 0
+F A 3 2 0
+F A 12 20 0
+#20928
+flail innocents~
+flail of the innocents~
+Mordred's flail of the innocents rests here.~
+none~
+weapon 0 AN
+flail 5 7 crush C
+28 3 940 P
+#20930
+ladies scarf~
+a ladies' scarf~
+A ladies' scarf lies abandoned on the floor.~
+none~
+armor 0 AC
+AD ABC D ABC 0
+27 2 920 P
+F A 3 2 0
+F A 12 15 0
+#20931
+towel linen~
+a linen towel~
+A linen towel, faintly damp, lies here.~
+none~
+armor 0 AM
+D AD ABC AB 0
+24 2 800 P
+F A 12 10 0
+#20933
+bracelet ruby~
+a ruby bracelet~
+A ruby bracelet scrolled with the royal Pendragon rests here.~
+none~
+jewelry A AM
+0 0 0 0 0
+29 3 780 P
+F A 4 2 0
+F A 12 50 0
+#20934
+owl merlin's~
+an owl~
+An owl sits on Merlin's shoulder, peering around intently.~
+none~
+gem B AQ
+0 0 0 0 0
+29 2 950 P
+F A 3 2 0
+F A 12 30 0
+#20935
+Siege Perilous~
+the Siege Perilous~
+The Siege Perilous, perhaps the most (in)famous chair of Camelot, rests here.~
+none~
+furniture AB 0
+A EGHIJK EHK BEF BEF
+0 0 0 P
+#20945
+plague pill~
+a plague pill~
+A plague pill~
+none~
+pill 0 A
+100 'plague' 'none' 'none' 'kind light'
+0 0 0 P
+#20946
+blue rose lantern~
+a{b blue rose{x lantern~
+A blue lantern is here.~
+none~
+light AY A
+0 0 999 0 0
+45 0 0 P
+F A 18 5 0
+F A 19 5 0
+F A 1 4 0
+F A 4 3 0
+F A 17 -30 0
+#20947
+pink rose lantern~
+a{M pink rose{x lantern~
+A pink lantern is here.~
+none~
+light AY A
+0 0 999 0 0
+30 0 0 P
+F A 23 -4 0
+F A 18 3 0
+F A 19 3 0
+F A 3 2 0
+F A 4 2 0
+#20948
+golden rose lantern~
+a{y golden rose{x lantern~
+A golden lantern is here.~
+none~
+light Y A
+0 0 999 0 0
+60 0 0 P
+F A 13 200 0
+F A 12 100 0
+F A 4 5 0
+F A 3 5 0
+F A 1 5 0
+F A 19 5 0
+#20949
+yellow rose lantern~
+a{Y yellow rose{x lantern~
+A yellow lantern is here.~
+none~
+light Y A
+0 0 999 0 0
+60 0 0 P
+F A 13 150 0
+F A 12 75 0
+F A 23 -5 0
+F A 24 -5 0
+F A 4 4 0
+F A 3 4 0
+#20950
+rose virgin portal~
+a rose virgin portal~
+A rose virgin portal is here.~
+none~
+portal Y A
+ABCDEFGHNOPQSUVWXYa 0 C ABCJMO 0
+1 0 0 P
+#20971
+friendship charm~
+a {RF{Cr{Bi{Ce{Yn{Rd{Cs{Bh{Ci{Yp{x Charm~
+A {RF{Cr{Bi{Ce{Yn{Rd{Cs{Bh{Ci{Yp{x Charm~
+none~
+jewelry AGY AM
+0 0 0 0 0
+0 0 0 P
+F A 12 150 0
+F A 17 -75 0
+F A 19 15 0
+F A 18 15 0
+F A 1 5 0
+#20973
+cloak many colors~
+a cloak of many {Rc{Bo{Gl{Yo{Mr{Rs{s~
+A cloak of many {Rc{Bo{Gl{Yo{Mr{Rs{s~
+none~
+armor B AC
+ADE ADE ADE ABCE 0
+30 0 0 P
+F A 12 25 0
+F A 23 -3 0
+#20975
+potion~
+quest potion~
+Quest potion~
+none~
+potion 0 A
+200 'blindness' 'curse' 'teleport' 'kind light'
+0 0 0 P
+#20976
+nether stormseeker~
+{Rthe Nether Stormseeker of Sylvan Spririts{x~
+{RYou see a spear with Darkmoon's insignia here.{x~
+none~
+weapon 0 AN
+spear 10 12 shbite BCDGH
+50 40 2500 P
+F A 17 -20 0
+F A 12 200 0
+F A 19 7 0
+F A 18 7 0
+#20977
+license kill~
+a license to kill~
+Qwerty's approved and stamped license to kill.~
+none~
+jewelry 0 AO
+0 0 0 0 0
+50 0 0 P
+F A 2 25 0
+F A 4 25 0
+F A 1 25 0
+F A 5 25 0
+F A 3 25 0
+F A 12 1000 0
+F A 17 -1000 0
+E
+stamp~
+Dated this the 26th day fo February, 1996.
+~
+#20978
+expresso~
+expresso~
+A cup of expresso~
+none~
+potion 0 A
+200 'calm' 'refresh' 'giant strength' 'kind light'
+0 0 0 P
+#20979
+sword~
+a sword~
+A sword~
+none~
+weapon 0 AN
+sword 25 25 none 0
+298 0 0 P
+#20980
+peasant cloak~
+a peasant cloak~
+A peasant cloak~
+none~
+armor 0 AC
+EIJKN EIJKN EIJKN EIJKN 0
+0 0 0 P
+F A 13 10000 0
+#20981
+dagger darkness~
+a sliver of darkness~
+A dagger with a blade like a sliver of darkness rests here.~
+none~
+weapon 0 AN
+dagger 6 12 flame C
+50 0 0 P
+F A 19 5 0
+F A 18 5 0
+#20983
+cookie~
+a cookie~
+A cookie is here.  Better eat it before cookie monster does.~
+none~
+pill 0 A
+200 'heal' 'bless' 'sanctuary' 'kind light'
+0 0 0 P
+#20984
+red rose lantern~
+a{R red rose{x lantern~
+A{R red rose{x lantern is here.~
+none~
+light AY A
+0 0 999 0 0
+15 0 0 P
+F A 23 -4 0
+F A 17 -50 0
+F A 5 3 0
+F A 13 100 0
+F A 12 25 0
+#20985
+red wine~
+a bottle of red wine~
+A bottle of vintage red wine.~
+none~
+potion 0 A
+20 'refresh' 'giant strength' 'heal' 'kind light'
+0 0 0 P
+#20986
+stir fry~
+stir fry~
+Chipper's Special Edition Stir Fry~
+none~
+pill 0 A
+0 'teleport' 'high explosive' 'general purpose' 'kind light'
+20 0 0 P
+#20987
+tortellini~
+tortellini~
+A batch of Chipper's homemade tortellini~
+none~
+pill 0 A
+20 'general purpose' 'vine strike' 'teleport' 'kind light'
+20 0 0 P
+#20988
+ice cream~
+some chocolate ice cream~
+A batch of Chipper's Edition Special Chocolate Ice Cream.~
+none~
+pill 0 A
+300 'high explosive' 'teleport' 'chain lightning' 'kind light'
+0 0 0 P
+#20989
+valentine ring~
+a {Rvalentine ring{x~
+A {Rvalentine ring{x~
+none~
+jewelry A AB
+0 0 0 0 0
+0 0 0 P
+F A 19 3 0
+F A 18 5 0
+F A 5 2 0
+F A 13 100 0
+F A 3 2 0
+F A 4 2 0
+#20990
+white rose orb~
+a {WWhite Rose{x Orb~
+A{W White Rose{x orb is here.~
+none~
+jewelry AY AQ
+0 0 0 0 0
+0 0 0 P
+F A 19 5 0
+F A 1 2 0
+F A 4 2 0
+F A 13 100 0
+F A 12 50 0
+#20992
+bracelet birthday~
+a {RB{BI{CR{GT{YH{RD{BA{CY{x Bracelet~
+A {RB{BI{CR{GT{YH{RD{BA{CY{x Bracelet rests on the table.~
+none~
+jewelry 0 AM
+0 0 0 0 0
+0 0 0 P
+F A 12 100 0
+F A 1 2 0
+F A 3 2 0
+F A 4 2 0
+#20994
+sword obsidian silence~
+the Obsidian Sword of Silence~
+The Obsidian Sword of Silence~
+none~
+weapon AB AN
+sword 6 9 slice ACDH
+30 0 0 P
+F A 19 3 0
+F A 18 3 0
+F A 18 12 0
+F A 19 13 0
+#20995
+haggis~
+haggis~
+A special edition haggis by Chipper.~
+none~
+pill 0 A
+200 'change sex' 'faerie fire' 'teleport' 'kind light'
+0 0 0 P
+#20996
+milk glass~
+a glass of milk~
+A glass of milk is here.~
+none~
+fountain 0 A
+0 0 'milk' 0 0
+0 0 0 P
+#20997
+ring mana~
+a ring of mana~
+A ring of mana lies here~
+none~
+jewelry 0 AB
+0 0 0 0 0
+1 0 0 P
+#20998
+moon well fountain~
+{CMoon {BWell{x~
+The well of the Moon sits here, bubbling happily.~
+none~
+fountain 0 A
+0 0 'absinthe' 0 0
+0 0 0 P
+#20999
+pillow~
+a huge pillow~
+A huge pillow, covered with cat fur, lies here.~
+none~
+furniture 0 A
+B GJOQRST EHK DGH DGH
+290 0 0 P
+#0
+
+
+
+#ROOMS
+#20900
+A Marble Road~
+You have left the forest and entered on a winding road paved with white
+{gmarble{x.  Gentle fields of barley and oats spread out to either side of the
+road, and {bfreemen{x and peasants work amidst the grain.  You can hear faint
+noises to the south where a graceful castle rises over the plains.  
+~
+0 C 2
+H 85 M 85
+E
+freemen~
+{W                         _______
+                        | ^  ^ |
+                       \| *  * |/
+                        |   >  |
+                        | \__/ |
+                         \____/
+                          /  \
+                    _____/    \_____
+                   /     \____/     \
+                  /                  \
+{x
+~
+E
+marble~
+{W    |             |
+{g;;;{W |             | {g;;;
+;;;{W  \             \ {g;;;
+ ;;;{W  \             \ {g;;;
+ ;;;{W  |             | {g;;;
+ ;;;{W  |             | {g;;;
+ ;;;{W  |             | {g;;;
+ ;;;{W /             / {g;;;
+ ;;;{W/             / {g;;;
+;;;{W |             | {g;;;
+;;;{W |             | {g;;;{x
+~
+D0
+~
+~
+0 0 3584
+D2
+The smooth, white marble road wends it way to the south.
+~
+~
+0 0 20901
+S
+#20901
+A Marble Road~
+The road continues it way south, weaving gently around a small{b
+village{x  at the foot of the{W  castle,{x   and ending abrupty at a silver{r
+gate{x set into the wall of the enormous white castle rising above you.  Carts
+and horses move in and out of the castle, and as you stand here, several{G
+knights{x  ride by, their pinnoned lances proudly held aloft.  
+~
+0 0 2
+H 85 M 85
+E
+castle~
+{W               /\
+              /__\
+              |  |
+              |  |
+ _            |  |             _
+| |___________|__|____________| |
+|                               |
+|                               |
+|                               |
+|              ___              |
+|             | | |             |
+|             | | |             |
+|             | | |             |
+|_____________|_|_|_____________|{x
+~
+E
+village~
+{b     /\     /\     /\     /\
+    /  \   /  \   /  \   /  \
+   /____\ /____\ /____\ /____\
+   |  _ | |  _ | |  _ | |  _ |
+   |__||| |__||| |__||| |__|||{x
+~
+E
+knight~
+{R              /|-{B :
+{R             / | {B :
+{R            /  | {B :
+{R           /   | {B :
+{R          /____|-{B :{x
+{B                  :
+{B                  :
+{B                  :
+{B                  :      {G ____
+{B                  :     {G |    |
+{G                  @^^\  {G < *  |
+      /\          {G    \{G  |=   | 
+     /  \         {G     \{G  \  /
+    /    @         {G     \{G  --
+   /  *    @        {G     \{G /  \
+  /         @       {G      / | |
+  \_/-\------@___{G @_______|/  |{x
+~
+E
+gate~
+{W         @@@@@@@@@@@@@@@
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * *[ ]* * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @ * * * * * * * @
+{W        @_*_*_*_*_*_*_*_@{x
+~
+D0
+The road leads away from the castle, wending its way to the north.
+~
+~
+0 0 20900
+D2
+The silver gates to the south lead into the castle proper.
+~
+~
+0 0 20902
+S
+#20902
+Entrance Hall~
+You have entered the main hall of the castle of Camelot.  The castle
+itself is formed of smooth white marble, and everything is polished to a
+high gleam.  Within the hallway to the south, you can hear the sounds of
+festivity as the king's vassals celebrate his marriage to Lady Gwenhuevere. 
+The king's butler stands here, looking distraught.  He seizes your arm as
+you enter and demands that you assist him.  
+~
+0 D 0
+H 85 M 85
+D0
+The great silver gates of Camelot lead out onto a white marble road.
+~
+~
+0 0 20901
+D1
+Rose Hall lies to the east, where the barracks of the castle guard are
+located.
+~
+~
+0 0 20903
+D2
+The main hall leads to the south.
+~
+~
+0 0 20919
+D3
+~
+~
+0 0 20911
+S
+#20903
+Rose Hall~
+You walk through a hall set with smooth, rose-latticed marble.  The flag
+stones beneath your feet are a soothing pink-veined marble, and the scent of
+blooming flowers hangs heavy in the air.  Muffled sounds of boots and
+laughter come from the south and east, and the room to the east is filled
+with drinking men.  
+~
+0 CD 0
+H 85 M 85
+E
+marble~
+{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{x
+{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @
+{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /
+{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @
+{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \
+{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @
+{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{m @{g \{m @{g /{x
+~
+D1
+The door to the east leads into a room filled with drinking and laughing men.
+~
+~
+0 0 20904
+D2
+Rose Hall continues to the south.
+~
+~
+0 0 20905
+D3
+The archway to the west leads into the entrance hall of Camelot.
+~
+~
+0 0 20902
+S
+#20904
+Rose Mess Hall~
+You have entered into a full-blown party.  Men stand around drinking and
+laughing.  The occasional toast to to the king is raised, and more often a
+toast to the new queen.  Everyone seems in very good spirits, and the wine
+flows freely.  You are hailed over and handed a glass of wine 'for luck'.  
+~
+0 D 0
+H 70 M 70
+D3
+The Rose Hall lies to the west.  The scent of flowers
+drifts in from that direction.
+~
+~
+0 0 20903
+S
+#20905
+Rose Hall~
+You follow the hall around the curve, and glance around.  The rose arbors
+trail off here, though the lattices are still present.  Of course, Camelot
+was just built two years ago, so the roses probably have not had time to
+cover the walls, yet.  The flagstones are not as smooth here, having been
+pitted and worn by footsteps, and the scents in the air are of sweat and
+rusty metal.  
+~
+0 D 0
+H 80 M 80
+D0
+The roses trail a delicate line back to the hall to the north.
+~
+~
+0 0 20903
+D1
+The hallway continues to the east, where you can hear faint sounds.
+~
+~
+0 0 20906
+S
+#20906
+Rose Hall~
+The lattices continue along the walls as you enter this room, and
+disappear to the east.  An occasional servant hurries along the hallway,
+carrying buckets and mops and brooms.  You step aside to allow them to pass,
+and duck the occasional waving handle.  You can hear faint sounds of snoring
+to the east, leading you to believe that the barracks must lie in that
+direction.  
+~
+0 D 0
+H 85 M 85
+D1
+You can hear the sounds of snoring, and very faintly, the sounds of men
+laughing from the east.  
+~
+~
+0 0 20907
+D3
+You can hear the sounds of a party coming from the west.
+~
+~
+0 0 20905
+S
+#20907
+Rose Hall~
+You have reached the end of the Rose Hall.  The lattices meant for roses
+trail off and end at the archway to the east.  The flagstones beneath your
+feet are highly polished, though scarred and worn through heavy use.  You
+can hear the sounds of soft voices coming from the door to the north, and
+snores and slightly louder voices from the east.  
+~
+0 D 0
+H 85 M 85
+D0
+~
+~
+0 0 20910
+D1
+The archway to the east leads into an darkened room filled with
+snoring men.
+~
+~
+0 0 20908
+D3
+The lattices trail in from the west and end here.
+~
+~
+0 0 20906
+S
+#20908
+Rose Barracks~
+You have entered a dark hall, filled with bunks.  A few of the bunks
+contain snoring men.  All of the bunks are made up with clean, fresh
+smelling linen, and there is a chest at the foot of each.  The hall extends
+further north, where you see a fireplace, and a few men gathered around it,
+laughing.  
+~
+0 D 0
+H 110 M 50
+D0
+You can see the flicker of firelight and hear the sounds of men
+to the north.
+~
+~
+0 0 20909
+D3
+The arched doorway to the west leads into the Rose Hall.
+~
+~
+0 0 20907
+S
+#20909
+Rose Barracks~
+You have stumbled across of group of soldiers dicing in front of the
+fire.  Wagering is heavy as they roll the polished bones across the floor,
+and groans or cheers are heard as the dice settle in place.  The fireplace
+itself is a huge affair, hung with banners and trophies of war.  A banked
+fire sizzles quietly in the center, and occasional sparks fly up into the
+air.  
+~
+0 D 0
+H 95 M 75
+E
+fireplace~
+{W            _________________________
+{W           /  _  _              _ _  \
+{W           | |   | ___________ |  |  |
+{W           | \   //           \ \/   |
+{W           |  \_/ |           |      |
+{W           |      | {R *   * {W   |      |
+{W           |      | {R  * *  {W   |      |
+{W           |      | {R *   * {W   |      |
+{W           |______| {R *___* {W   |______|{x
+~
+D2
+The hall to the south is dim and silent.  A faint light creeps
+from the archway to the southwest.
+~
+~
+0 0 20908
+S
+#20910
+Officer's Quarters~
+This room is lined with cubicles that hold beds and chests.  There are
+seven beds, and the eighth cubicle on the eastern wall holds a small stove. 
+There are tasteful{r pictures{x decorating the walls, and a carpet thrown across
+the floor.  
+~
+0 CD 0
+H 110 M 75
+E
+pictures~
+_____________________________
+   /                             \
+   |@____________________________@|
+   |@          _____             @|
+   |@         /     \            @|
+   |@         | & & |            @|
+   |@         |  <  |            @|
+   |@         | \_/ |            @|
+   |@          \___/             @|
+   |@       ___/   \___          @|
+   |@      /   \___/   \         @|
+   |@      |           |         @|
+   |@      |  \     /  |         @|
+   |@      \   \   /   /         @|
+   |@       \__ \$/ __/          @|
+   |@       |   |*|   |          @|
+   |@       \   | |   /          @|
+   |@       |---| |---|          @|
+   |@____________________________@|
+   \______________________________/
+~
+D2
+The door to the south opens into the Rose Hallway.
+~
+~
+0 0 20907
+S
+#20911
+Dragon Hall~
+You have entered the Dragon Hall of Camelot.  The barracks within this
+hall are filled by the troops given to King Arthur as a wedding gift by his
+sister, Morgan Le Fay.  You can hear the sound of a brawl to the west, and
+the floor is littered with debris and the remains of food.  
+~
+0 CD 0
+H 75 M 75
+D1
+The entrance hall to Camelot lies to the east.
+~
+~
+0 0 20902
+D2
+Dragon Hall continues to the south.  You can see a mural on the
+far southern wall, but cannot make out any details.
+~
+~
+0 0 20913
+D3
+You look to the west into what appears to be a barroom
+brawl of some sort.
+~
+~
+0 0 20912
+S
+#20912
+Dragon's Mess Hall~
+The room is filled with drinking, brawling men.  You narrowly avoid a mug
+hurled across the room, and duck aside as a man is thrown across a table at
+you.  The room is covered with food debris, and there is garbage all over
+the floor.  Loud singing can be heard from the corner of the room, where
+several men sit getting drunk.  
+~
+0 D 0
+H 65 M 65
+D1
+~
+~
+0 0 20911
+S
+#20913
+Dragon Hall~
+Dragon Hall continues here.  There is a large mural on the southern wall,
+that depicts two dragons battling over an underground lake.  You recall a
+story once told by your village bard, about how Merlin predicted such a
+thing to King Vortigern, and that story eventually brought the Saxon King to
+his knees.  
+~
+0 D 0
+H 85 M 85
+E
+mural~
+|\D D D D D D D D
+     / * D D D D D D D
+    /  
+    \_/----\  
+            \__________  
+~
+D0
+Dragon Hall ends to the north, leading back into the entrance hall.
+~
+~
+0 0 20911
+D3
+Dragon Hall continues to the west.  You can smell the scent of stale
+beer and unwashed clothes from that direction.
+~
+~
+0 0 20914
+S
+#20914
+Dragon Hall~
+You walk along Dragon Hall, amazed that in just a few, short years, such
+damage could have been done to such a place of beauty.  Huge gouges have
+been hacked out of the walls, probably by an axe, and the floor is pitted
+and stained.  The mural to the south shows the dragons rising up from the
+bed of the lake.  
+~
+0 D 0
+H 85 M 85
+E
+mural~
+___               ___
+           |   |             |   |
+            \   \             \   \
+             |  *|             |  *|
+             /   /             /   /
+             \   \            /   /
+              \   \          /   /
+               \   \        /   /
+                \   \      /   /
+                 \   \    /   /
+                  \   \  /   /
+                   \   \/   /
+                    \  /   /
+                     \/   /\
+^^^^^^^^^^^^^^^^^^^^^/   / \^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~
+D1
+Dragon Hall continues to the west, with the head of the mural.
+~
+~
+0 0 20913
+D3
+The hallway to the west looks, if anything, more damaged than the one you
+are currently standing in.
+~
+~
+0 0 20915
+S
+#20915
+Dragon Hall~
+You have reached the end of the Dragon Hall.  Tables lie overturned here
+and the floor is pitted and scarred.  Obscene words (misspelled) are carved
+in the walls, and scrawled across the wall hangings.  The stench of unwashed
+bodies and clothing hangs thickly in the air here, and you gag slightly at
+the stink.  
+~
+0 D 0
+H 85 M 85
+D0
+The doorway to the north leads into the officer's quarters of the Dragon Guard
+~
+~
+0 0 20916
+D1
+You gaze back towards the east at the beginning of Dragon Hall.
+~
+~
+0 0 20914
+D3
+You look with trepidition to the west, where you can see a series of bunks
+with snoring men on them.
+~
+~
+0 0 20917
+S
+#20916
+Officer's Quarters~
+The officer's quarters you have entered remind you more of some of the
+finer pig stys you have visited.  The smell in the air is reminiscent of old
+laundry and mold.  The beds are unmade, and the linen looks as if it hadn't
+been changed in several weeks.  There is dirty clothing strewn about the
+room, and you spot several dirty dishes in one corner.  
+~
+0 CD 0
+H 95 M 75
+D2
+The doorway to the south leads into the (comparatively) neat Dragon Hall.
+~
+~
+0 0 20915
+S
+#20917
+Dragon Barracks~
+You have truly entered the lion's den (or dragon's den, as the case may
+be) of iniquity.  All around you, bunks are filled with snoring men, who
+perhaps last saw a bath at the beginning of this decade.  To the north you
+can see a small group of men, laughing about a small form that is trapped in
+the midst of their circle.  
+~
+0 0 0
+H 95 M 70
+D0
+You can see a group of men and and a small, struggling form to the north.
+~
+~
+0 0 20918
+D1
+Dragon Hall lies to the east, into relatively cleaner air than what you've
+encountered in this hall.
+~
+~
+0 0 20915
+S
+#20918
+Dragon Barracks~
+You have stumbled upon a scene that you swore could never again happen
+under the reign of King Arthur.  As you walk into the room, you interrupt
+the assault and near violation of a young serving girl being tormented by
+several of the guardsmen.  They look up as you enter and roar in anger at
+the intrusion.  
+~
+0 D 0
+H 95 M 70
+D2
+The room to the south is filled with snoring, unwashed men.
+~
+~
+0 0 20917
+S
+#20919
+Main Hall~
+The main hall of Camelot is truly one of the wonders of the world.  The
+floor is carpeted (truly amazing, since most castles make do with rushes for
+the floors) and the walls are hung with priceless{b egyptian{x hangings.  Tables
+rest against the wall, bearing upon them priceless pieces of art, some of
+which look as if a breath might shatter them.  
+~
+0 D 0
+H 85 M 85
+E
+egyptian~
+{R    $____________________________$
+{W    |                            |
+{W    |    {B &               {W       |
+{W    |    {R  ---       {W            |
+{W    |    {R     \       {W           |
+{W    |    {R     /       {W           |
+{W    |    {R    \ /      {W           |
+{W    |    {R     |        {W          |
+{W    |    {R    /|\       {W          |
+{R     ____________________________ {x
+~
+D0
+The entrance to the castle of Camelot lies to the north.
+~
+~
+0 0 20902
+D2
+The main hall continues to the south, where you can hear the faint sounds of a party.
+~
+~
+0 0 20920
+S
+#20920
+Main Hall~
+You continue south along the main hall of the castle.  Servants hurry by
+you occasionally, barely glancing up as they hurry along on their various
+errands.  This section of the hall is filled with weapons displays.  Swords
+of ancient kings hang from the walls, and other types of weapons hang in
+racks or rest in display cases.  
+~
+0 CD 0
+H 85 M 85
+E
+sword~
+@
+                         +++++
+                           $
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+                           ^
+~
+D0
+The hall to the north is filled with priceless antiques and artifacts.
+~
+~
+0 0 20919
+D2
+The main hall of Camelot stretches out before you to the south.
+~
+~
+0 0 20921
+S
+#20921
+Main Hall~
+The main hall of Camelot gracefully enters into an intersection here. 
+The smooth white marble of the floor is polished to a high sheen, and the
+walls have been scrubbed til they shine.  To the south somewhere you can
+hear the sounds of celebration.  Chapel Hall lies to the west, and Servant's
+Hall lies to the east.  
+~
+0 D 0
+H 85 M 85
+D0
+You can see a weapons display to the north.
+~
+~
+0 0 20920
+D1
+The doorway to the east leads into the Servant's Hall.
+~
+~
+0 0 20930
+D2
+The main hall of Camelot continues south from here.
+~
+~
+0 0 20938
+D3
+The archway to the west leads to chapel hall.  All of the
+castle inhabitants are faithful children of the church.
+~
+~
+0 0 20922
+S
+#20922
+Chapel Hall~
+You have left the busy main hall, and turned off into the Chapel Hall of
+Camelot.  The occasional acolyte hurries past you, and a group of ladies
+walks through, back towards the main hall.  The air is quiet here, and you
+can smell the faintest hint of incense.  The priest's rooms are to the
+north, and Chapel Hall continues to the west.  
+~
+0 CD 0
+H 85 M 95
+E
+archway~
+{W                   _____________________
+{W                  /{R @{B &{R @{B &{R @{B &{R @{B &{R @{B &{W \
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |
+{W                  |{R @                {B &{W |
+{W                  |{B &                {R @{W |{x
+~
+D0
+The doorway to the north leads into the private chambers of
+Camelot's priest.
+~
+~
+0 0 20923
+D1
+The archway to the east leads back into the main hall of Camelot.
+The archway is decorated with fleur-di-lies and roses.
+~
+~
+0 0 20921
+D3
+Chapel Hall continues to the west.
+~
+~
+0 0 20925
+S
+#20923
+Sitting Room~
+Everything about this room has obviously been picked for the amount of
+guilt it will inspire in the leadership of Camelot.  From the wall hangings
+of Mary in childbirth (as the queen was raised in a christian nunnery) to
+the statues of Oedipus (to remind the king of his guilt with his sister),
+everything here has obviously been carefully planned and arranged.  
+~
+0 D 0
+H 105 M 85
+D2
+The doorway to the south leads into a less guilt-inspiring
+room that this.
+~
+~
+0 0 20922
+D3
+The doorway west leads into the bedroom of Father Benedict.
+~
+~
+0 0 20924
+S
+#20924
+Father Benedict's Bedroom~
+Everything about this room defies the normal perception of priests as
+"celibate" or "austere".  The huge, king sized bed sitting in the middle of
+the room is obviously intended for (and has obviously been used for) more
+than just sleeping.  Richly carved chests and drawers are strewn about the
+room, some of them lying open to reveal the treasures within.  This one is
+full of rich clothing, obviously for use by the good priest when he's not on
+call or duty, while that one is filled wrist deep with large, sparkling
+gemstones.  
+~
+0 D 0
+H 125 M 95
+D1
+The doorway to the west leads to the sitting room.
+~
+~
+0 0 20923
+S
+#20925
+Chapel Hall~
+Chapel Hall continues here, leading east and west into further sections. 
+This area is dedicated to the display of every kind of cross available on
+the market today.  Huge ones, tiny ones, ones made out of gold, even a cross
+made out of seaweed.  
+~
+0 D 0
+H 95 M 85
+E
+cross~
+Okay, for those of you who are confused:
+                               +
+                               +
+                            ===+===
+                               +
+                               +
+                               +
+                               +
+~
+D1
+The beginning of Chapel Hall lies to the east.
+~
+~
+0 0 20922
+D3
+Chapel hall ends to the west.
+~
+~
+0 0 20926
+S
+#20926
+Chapel Hall~
+You have reached the end of Chapel Hall.  All around you, the hall is
+silent, except for the quiet murmur of voices from the west.  The
+occassional acolyte hurries by, intent upon his own errands.  The floor is
+polished to a smooth sheen, and the walls are covered by wall hangings
+depicting the fall from paradise.  
+~
+0 CD 0
+H 95 M 85
+D1
+Chapel hall continues the east.
+~
+~
+0 0 20925
+D3
+To the west you can see the entrance to the chapel.  The archway is
+adorned with flowers and spring branches.  
+~
+~
+0 0 20927
+S
+#20927
+Chapel Entrance~
+The entrance to the chapel is lined with votive candles and donation
+boxes.  Several of the candles have been lit, and the donation boxes sag
+with the offerings that have been placed here.  Servants hurry back and
+forth, cleaning up the chapel area after the wedding.  The scent of incense
+is heavy in the air, and you breath shallowly, hoping to be away from here
+before you pass out from the fumes.  
+~
+0 D 0
+H 105 M 85
+E
+candles~
+~
+D0
+To the north you can see the altar and pews of the chapel.
+~
+~
+0 0 20928
+D1
+The archway to the east leads into Chapel Hall.
+~
+~
+0 0 20926
+S
+#20928
+Chapel~
+The chapel of Camelot is a truly wondrous room.  The walls are carved in
+bas-relief with scenes from the bible....  Moses descending from the
+mountain with the ten commandments, Noah leading the animals into the ark,
+and so on.  The pews are carved out of cherrywood, and shined to a high
+polish.  The altar is covered with a heavily embroidered altar cloth,
+jeweled with rubies and sewn with gold.  
+~
+0 CD 0
+H 110 M 95
+D1
+The door to the east leads into the chapel's confessional.  You can hear faint
+sounds from that direction.
+~
+~
+0 0 20929
+D2
+The chapel entry lies to the south in a blaze of candles.
+~
+~
+0 0 20927
+S
+#20929
+Confessional~
+You have intruded upon a confession taking place in this confessional.  A
+young man that you identify as Sir Galahad kneels here, sobbing out his
+sins to the priest.  You catch something about the queen in his ramblings,
+and wonder what the queen has to do with him.  The priest is listening to
+the confession with a rather calculating expression on his face, and you
+have a feeling that whatever Galahad is telling him, the priest will use it
+to his advantage in the future.  
+~
+0 D 0
+H 105 M 105
+D3
+The door to the west opens into the chapel proper.
+~
+~
+0 0 20928
+S
+#20930
+Servant's Hall~
+You have entered the Servant's Hall of Camelot.  Looking around you can
+see that even the servants here live in luxury.  Small carpets are thrown
+across the floor, which shines like a jewel in the lamplight.  No rude
+torches line the walls here, the hall instead being lit by oil lamps set in
+holders lining the walls.  To the north you can see the servants quarters,
+and the hall continues to the east.  
+~
+0 CD 0
+H 85 M 85
+D0
+This doorway leads into the servant's quarters.
+~
+~
+0 0 20931
+D1
+The Servant's Hallway continues on to the east.
+~
+~
+0 0 20932
+D3
+This archway leads out into the main hall of Camelot.
+~
+~
+0 0 20921
+S
+#20931
+Servant's Quarters~
+You have entered the servant's quarters of Camelot.  Bunk beds line the
+walls of this room, and chests and wardrobes rest beside them.  The room is
+empty of all life, save for a cat and her kittens resting by the hearth. 
+The room is neatly made up, and all of the bunks are freshly made with clean
+linen.  The room smells of polish and soap, and you are reminded of your
+mother's bedroom at home.  
+~
+0 C 0
+H 105 M 105
+D2
+The doorway to the south leads into the Servant's Hall.
+~
+~
+0 0 20930
+S
+#20932
+Servant's Hallway~
+This section of the hallway is relatively quiet, with only occasional
+servants passing you, bearing platters and flagons toward the dining hall,
+where the marriage celebration is in full swing.  The floors are smooth and
+clean, and the walls are hung with pictures and hangings.  
+~
+0 D 0
+H 85 M 85
+D0
+The doorway to the north enters into a messy, private room.
+~
+~
+1 0 20933
+D1
+Servant's Hallway continues on to the east.
+~
+~
+0 0 20934
+D3
+Servant's Hallway continues its path to the west.
+~
+~
+0 0 20930
+S
+#20933
+Cook's Quarters~
+This well-appointed room is obviously the home of the castle's cook. 
+Every around you, half carved cooking implements, and cookbooks are
+scattered acroos the room.  There is no one here but a large white dog that
+raises its head as you enter and happily wags its tail.  
+~
+0 CD 0
+H 95 M 95
+D2
+The doorway to the south leads into the the Servant's Hallway.
+~
+~
+1 0 20932
+S
+#20934
+Servant's Hallway~
+You have reached the end of Servant's Hallway.  The hall here is
+extremely busy as servant's hurry from the kitchen to the storerooms to the
+main hall with dishes and flagons and towels.  The floor here is slightly
+greasy from the kitchen activities, and footing is slightly treacherous.  
+~
+0 D 0
+H 85 M 85
+D0
+The kitchen of Camelot rests to the north.
+~
+~
+0 0 20936
+D1
+The door to the east opens into what appears to be a storage room.
+~
+~
+0 0 20935
+D3
+Servant's Hallway continues on a slightly cleaner path to the west.
+~
+~
+0 0 20932
+S
+#20935
+Storage Room~
+This storage room is filled with a large variety of foodstuffs and basic
+castle supplies.  Against the back walls the wine racks rest, and other
+types of alcohol.  Dishes and pots and pans all are stored here, as well,
+and an impressive variety of utensils.  Servants hurry in and out of this
+room, gathering supplies necessary for the festivities.  
+~
+0 AD 0
+H 75 M 75
+D3
+The doorway enters into the Servant's Hallway.
+~
+~
+0 0 20934
+S
+#20936
+Kitchen~
+The kitchen is a madhouse of activity, due to the wedding festivities
+that are taking place.  Servants are running madly about, organizing
+platters, filling flagons with mead, wine, beer and water, and carrying food
+out and empty plates in.  There are cats weaving in and out of the tables
+and legs, snatching bites of food whereever they can find them.  
+~
+0 CD 0
+H 75 M 75
+D1
+The insanity of the kitchen continues to the east.
+~
+~
+0 0 20937
+D2
+The archway to the south leads a slightly greasy trail into Servant's Hallway.
+~
+~
+0 0 20934
+S
+#20937
+Kitchen~
+The kitchen here is dedicated to several large tables, filled with food
+and serving utensils.  Servants line the table, chopping and preparing
+dishes, and two large fireplaces host huge joints of roasting meat.  The
+floor is slippery here with grease and other food particles and footing is
+hazardous.  
+~
+0 D 0
+H 70 M 70
+D3
+The kitchen extends on to the west.
+~
+~
+0 0 20936
+S
+#20938
+Main Hall~
+The main hall comes to an end here, with the Throne room to the south. 
+Armor lines the walls of this corridor, some of it dating back to the first
+Roman conquerers of Britain.  The floor is polished smooth, but you can see
+the marks of many boots that have passed over it in the last few hours.  To
+the south you can see a great party going on.  
+~
+0 D 0
+H 85 M 85
+D0
+The hallway extends far to the north, pausing only at intersections.
+~
+~
+0 0 20921
+D2
+The hallway ends here, leaving the Throne Room to the south.
+~
+~
+0 0 20939
+S
+#20939
+Throne Room~
+You enter into the throne room off Camelot and stare around you in awe. 
+Everywhere, lamplight shines of the mellowness of gold trimming and jeweled
+fittings.  The white marble floor has been buffed to an incredibly high
+shine, and the walls are hidden behind the rich hangings from all around the
+world.  King Arthur, and his new Queen, Guenhuevere, sit on their golden
+thrones, watching over the festivities of the wedding feast.  
+~
+0 CD 0
+H 75 M 75
+E
+banner~
+The castle is only part of the world.  So much lies in the great
+outdoors.  The makers of this banner believe that some clues to life can be
+found outside.  You see a small picture featuring two boats and two trees. 
+A rock lies nearby, and it is quite unusual, better look at it.  
+~
+D0
+The main hall of Camelot begins to the north.
+~
+~
+0 0 20938
+D1
+There is a doorway to the east that leads into the Queen's Hall.
+~
+~
+0 0 20940
+D2
+~
+~
+0 0 21000
+D3
+King's Hall lies to the west.
+~
+~
+0 0 20948
+S
+#20940
+Queen's Hall~
+You emerge from the sound and light into the relative calm of Queen's
+Hall, so named for the Queen's Council Chamber that lies off of it.  The
+flagstones beneath your feet are of a mellow golden color, and the walls are
+hung with clothes embroidered with scenes of spring.  
+~
+0 D 0
+H 85 M 85
+D1
+Queen's Hall continues to the east.
+~
+~
+0 0 20941
+D3
+The doorway to the west leads into the Throne Room, where the wedding
+festivities are taking place.  
+~
+~
+0 0 20939
+S
+#20941
+Queen's Hall~
+You glance around as you continue down Queen's Hall.  You notice that the
+flagstones are darkening as you walk to a golden brown, very close to the
+shade of the Queen's hair.  The wall's are hung here with tapestries covered
+with the pictures of a perfect summertime, and there is not a speck of dust
+to be seen.  
+~
+0 D 0
+H 85 M 85
+D0
+You look to the north, where you can see what appears to be a private
+dining chamber.
+~
+~
+0 0 20942
+D1
+Queen's Hall continues to the east.
+~
+~
+0 0 20945
+D3
+Queen's Hall begins to the west.
+~
+~
+0 0 20940
+S
+#20942
+Private Dining Room~
+This room contains a small table, laid with servings for two.  Obviously
+it is intended to give the King and Queen a private dinner before they
+retire to their bedchambers.  The settings on the table are of silver and
+gold, and the glasses are carved out of solid pieces of ruby.  
+~
+0 CD 0
+H 85 M 85
+D2
+The doorway to the south opens back into the Queen's Hall.
+~
+~
+0 0 20941
+D3
+The archway to the west leads into a private council chamber.
+~
+~
+0 0 20943
+S
+#20943
+Private Council Chamber~
+This council chamber contains a small table and three chairs.  It is
+obviously intended for very private meetings (unless the accounts of the
+Round Table have been grieviously exaggerated).  The walls are panelled with
+a dark, soothing wood, and the floor beneath your feet is carpeted.  
+~
+0 D 0
+H 75 M 75
+D1
+There is a private dining chamber lying to the east.
+~
+~
+0 0 20942
+S
+#20944
+Queen's Council Chamber~
+You have entered the Queen's Council Chamber.  There is no table in this
+room, rather a large selections of comfortable chairs, each with a pile of
+knitting or embroidery beside it.  The impression that you get from this
+room is that very little serious discussion goes on here, but rather a lot
+of gossip and girl talk.  
+~
+0 CD 0
+H 75 M 105
+D3
+Queen's Hallway lies to the east, and past that, the Throne
+Room.
+~
+~
+0 0 20945
+S
+#20945
+Queen's Hall~
+Queen's Hall comes to an end here, with archways leading off north and
+east.  The stones here are a dark brown with faint streaks of gold running
+through them.  The walls are hung with hangings depicting the woodlands in
+autumn, the riot of red, brown and orange almost bringing you the scent of
+falling leaves.  
+~
+0 D 0
+H 75 M 75
+D0
+The archway to the north leads into a small dining hall, filled with drinking men.
+~
+~
+0 0 20946
+D1
+The Queen's Council Chamber lies to the east.
+~
+~
+0 0 20944
+D3
+Queen's Hall continues to the west.
+~
+~
+0 0 20941
+S
+#20946
+Dining Hall~
+You enter a room filled with men laughing and talking cheerfully amidst
+themselves.  Flagons off mead are passed freely as the knights of the Round
+Table celebrate their king's marriage.  You look around and see many famous
+(and imfamous) faces...  Mordred, the king's nephew (or is he?)  , Perces,
+Pellinore, Tristan, and many others.  To the east lies a drinking room,
+where the men can retire once the dinner is done.  
+~
+0 CD 0
+H 85 M 85
+D1
+You look into the room to the east and see several comfortable couches
+and a few end tables.
+~
+~
+0 0 20947
+D2
+Queen's Hall, the jewel of Camelot, lies to the south.
+~
+~
+0 0 20945
+S
+#20947
+Drinking Lounge~
+This drinking lounge is filled with comfortable chairs (most of which are
+in very poor condition, possibly due to men sitting on them while wearing
+sharp implements).  The walls are lined with shelves, full of all sorts of
+alcohol and liquor.  The floor is hardwood, with a few rugs thrown over it
+to relieve the boredom.  The floor, carpets and furniture are all covered
+with burn marks.  
+~
+0 D 0
+H 85 M 85
+D3
+The archway to the west leads into a dining hall filled with drinking
+men.
+~
+~
+0 0 20946
+S
+#20948
+King's Hall~
+You have entered King's Hall, truly the crown of the castle.  Golden
+flagstones beneath your feet give off a mellow shine, and the walls appear
+to be carved from a single gemstone, though where such a stone could be
+found, you have not idea.  To the north is the room containing the Round
+Table, and King's Hall continues to the west.  
+~
+0 0 0
+H 85 M 85
+D0
+The doorway to the north leads into the hall that contains the Round
+Table.
+~
+~
+0 0 20949
+D1
+The archway to the east opens back into the throne room.
+~
+~
+0 0 20939
+D3
+King's Hall continues to the west.
+~
+~
+0 0 20950
+S
+#20949
+Round Table~
+You stop with awe as you look upon the Round Table, truly the epitome of
+King Arthur's castle.  As its name states, it is round, with chairs seated
+along it's edge.  The king's chair is obvious by its golden trimmings, and
+the Siege Perilous also, by the roped off area around it.  The floor has
+been brightly polished, and the walls are scrubbed to a shine.  
+~
+0 CD 0
+H 85 M 85
+D2
+The hall to the south leads into the King's Hall.
+~
+~
+0 0 20948
+S
+#20950
+King's Hall~
+You continue down King's Hall, pausing now and again to examine a wall
+hanging or a suit of armor.  Everything here speaks of good taste and
+elegance.  The golden floor is adorned with the occasional rug from the far
+east, and the walls and floor have been scrubbed to a bright shine.  
+~
+0 D 0
+H 85 M 85
+D0
+The archway to the north leads into the king's bedchamber, where
+you can see the king's squire preparing the room.
+~
+~
+0 0 20951
+D1
+King's Hall begins to the east.
+~
+~
+0 0 20948
+D3
+King's Hall continues to the west.
+~
+~
+0 0 20952
+S
+#20951
+King's Bedchamber~
+You have entered the king's bedchamber.  The first thing that draws your
+eyes is the huge bedstand, easily big enough for several people to sleep in.
+You glance around and also notice a plethora of chests and wardrobes, all
+neatly closed and shined.  A huge bearskin rug is thrown across the foot of
+the bed.  The king's squire is here, straightening the room.  
+~
+0 CD 0
+H 85 M 85
+D2
+The doorway to the south leads back into the King's Hallway.
+~
+~
+0 0 20950
+S
+#20952
+King's Hall~
+You stroll along King's Hall, admiring the mellow shine of gold beneath
+your feet and the ruby shine from the walls.  From the east you can hear
+faint sounds of laughter.  You step back in startlement as a loud explosion
+from the archway to the north rocks the hallway.  The laughter from the east
+doesn't pause at the sudden noise, so you assume that it must be a normal
+occurance, and look north to try and determine the cause.  
+~
+0 D 0
+H 85 M 85
+D0
+You peer to the north into a maze of tubing and strange experiments.
+~
+~
+0 0 20953
+D1
+You can hear the sounds of a party going on to the east.
+~
+~
+0 0 20950
+D3
+King's Hallway ends to the west.
+~
+~
+0 0 20954
+S
+#20953
+Merlin's Laboratory~
+You have walked into a madhouse of color and sound.  Tubes and vials and
+wires and piping run throughout the room, making footing and head room
+rather hazardous.  A lumpy bed lies along one wall, piled high with papers
+and gadgets.  A short man with greying hair peers into a tangle of wires
+sitting on a table in front of him.  
+~
+0 CD 0
+H 65 M 115
+D2
+The archway to the south leads to the relatively peaceful King's Hallway.
+~
+~
+0 0 20952
+S
+#20954
+King's Hallway~
+You have reached the end of King's Hallway.  There is a huge golden
+chandelier hanging from the ceiling here, casting weird shadows from the
+wall hangings.  You can hear the faint sounds of laughter to the east, where
+the wedding feast is taking place, and you can see the Queen's Bedchamber to
+the north.  
+~
+0 D 0
+H 85 M 85
+D0
+You look to the north into the Queen's Bedchamber.  You can see a 
+woman moving around the room.
+~
+~
+0 0 20955
+D1
+King's Hallway continues to the east.
+~
+~
+0 0 20952
+S
+#20955
+Queen's Bedchamber~
+You have entered the Queen's bedchamber, an austere room that reminds you
+of a nun's cubicle.  Your eyes are drawn to the far wall, where a cross
+hangs above the bed, the articulated carving of the Christ staring down at
+you in accusation.  The floor is bare of coverings, and the walls are
+covered with religious paintings rather than wall hangings.  A young woman
+bustles about the room, straightening it up.  
+~
+0 CD 0
+H 105 M 100
+D2
+The doorway to the south leads into the King's Hallway.
+~
+~
+0 0 20954
+S
+#20987
+Nimue's Room~
+~
+0 ACD 0
+H 75 M 125
+S
+#20994
+Healer's Room~
+~
+0 C 0
+S
+#20995
+Raven's Room~
+~
+0 ACD 0
+H 120 M 120
+S
+#20997
+Pkill Arena~
+~
+0 C 0
+S
+#20998
+Pkill Arena~
+~
+0 CN 0
+S
+#20999
+Rose Clan Vestibule~
+Love fills your heart in this room.  A portrait of the rose clan leaders
+of past and present is on the wall.  Many a virgin have offered themslves as
+a sacrifice for the good of the clan here.  Rose recall is north.  
+ 
+  A sign says:
+      Please leave extra clan orbs and lanterns on the floor after you kill
+      the virgin, and don't forget your portal.
+ 
+You see the Greyhaven alter to the north and a hallway to the south.
+Type 'look list' for a list of what lantern goes with which clevel.
+~
+0 0 0
+C rose~
+H 0 M 0
+E
+portal~
+All the leaders have a halo aura because of the good deeds they have
+performed.  
+~
+E
+list~
+The following lanterns are to be used for the clevels.  Clevel 1 (Vassal)
+is to get a red rose lantern.  Clevel 2 (Knight) is to get a pink lantern. 
+Clevel 3 (Templar) is to get a blue lantern.  Clevel 4 is to get a yellow
+lantern, and the gold ones are for clevel 5.  
+ 
+Naturally, white rose orbs are for anyone in the clan.
+ 
+Thanks for looking after these,
+Ulf
+~
+D0
+~
+~
+0 0 16805
+D2
+~
+~
+0 0 19141
+S
+#0
+
+
+
+#SPECIALS
+M 20910 spec_cast_mage Load to: a kitchen servant
+M 20914 spec_cast_cleric Load to: a monk
+M 20921 spec_cast_cleric Load to: Queen Guenhuevere
+M 20930 spec_cast_mage Load to: Sir Mordred
+M 20933 spec_cast_mage Load to: Merlin
+M 20934 spec_cast_mage Load to: Morgause
+S
+
+
+
+#RESETS
+M 0 20900     6 20901     2   * Load a page
+E 0 20900    16    16         * A page's dagger is loaded wielded of a page
+M 0 20900     6 20902     2   * Load a page
+E 0 20900    16    16         * A page's dagger is loaded wielded of a page
+M 0 20936     1 20902     1   * Load Sir Bedevere
+M 0 20905     5 20904     5   * Load an off-duty guardsman
+G 0 20901    -1               * A pair of rose earrings is given to an off-duty guardsman
+M 0 20901     5 20905     1   * Load a Rose Guard
+E 0 20902    16    16         * A rose mace is loaded wielded of a Rose Guard
+M 0 20902     5 20905     1   * Load a squire of the Rose Guard
+E 0 20904     8     8         * A pair of riding boots is loaded on the feet of a squire of the Rose Guard
+M 0 20901     5 20906     1   * Load a Rose Guard
+E 0 20902    16    16         * A rose mace is loaded wielded of a Rose Guard
+M 0 20902     5 20906     1   * Load a squire of the Rose Guard
+E 0 20904     8     8         * A pair of riding boots is loaded on the feet of a squire of the Rose Guard
+M 0 20901     5 20907     1   * Load a Rose Guard
+E 0 20902    16    16         * A rose mace is loaded wielded of a Rose Guard
+M 0 20902     5 20907     1   * Load a squire of the Rose Guard
+E 0 20904     8     8         * A pair of riding boots is loaded on the feet of a squire of the Rose Guard
+M 0 20901     5 20908     1   * Load a Rose Guard
+E 0 20902    16    16         * A rose mace is loaded wielded of a Rose Guard
+M 0 20902     5 20908     1   * Load a squire of the Rose Guard
+E 0 20904     8     8         * A pair of riding boots is loaded on the feet of a squire of the Rose Guard
+M 0 20901     5 20909     1   * Load a Rose Guard
+E 0 20902    16    16         * A rose mace is loaded wielded of a Rose Guard
+M 0 20902     5 20909     1   * Load a squire of the Rose Guard
+E 0 20904     8     8         * A pair of riding boots is loaded on the feet of a squire of the Rose Guard
+M 0 20903     1 20909     1   * Load a gambling guard
+E 0 20905     0     0         * A pair of bone dice is loaded as a light of a gambling guard
+M 0 20904     5 20910     5   * Load an officer of the Rose Guard
+E 0 20906    11    11         * A shield of honor is loaded as a shield of an officer of the Rose Guard
+M 0 20906     5 20912     5   * Load a drunken Dragon Guard
+G 0 20903    -1               * A pair of dragon earrings is given to a drunken Dragon Guard
+M 0 20907     5 20913     1   * Load a Dragon Guard
+M 0 20907     5 20914     1   * Load a Dragon Guard
+E 0 20907    16    16         * A dragon whip is loaded wielded of a Dragon Guard
+M 0 20907     5 20915     1   * Load a Dragon Guard
+E 0 20907    16    16         * A dragon whip is loaded wielded of a Dragon Guard
+M 0 20909     4 20916     4   * Load an officer of the Dragon Guard
+E 0 20908    11    11         * A shield of gain is loaded as a shield of an officer of the Dragon Guard
+M 0 20907     5 20917     1   * Load a Dragon Guard
+E 0 20907    16    16         * A dragon whip is loaded wielded of a Dragon Guard
+M 0 20907     5 20918     1   * Load a Dragon Guard
+E 0 20907    16    16         * A dragon whip is loaded wielded of a Dragon Guard
+M 0 20908     5 20918     5   * Load a violent guard
+E 0 20905     0     0         * A pair of bone dice is loaded as a light of a violent guard
+M 0 20900     6 20919     2   * Load a page
+E 0 20900    16    16         * A page's dagger is loaded wielded of a page
+M 0 20919     4 20921     2   * Load a king's footman
+E 0 20909     7     7         * A pair of knee britches is loaded on the legs of a king's footman
+M 0 20918     4 20923     2   * Load an altar boy
+E 0 20914     3     3         * A white kerchief is loaded around the neck (1) of an altar boy
+M 0 20918     4 20924     2   * Load an altar boy
+E 0 20914     3     3         * A white kerchief is loaded around the neck (1) of an altar boy
+M 0 20914     6 20925     2   * Load a monk
+E 0 20915    12    12         * A monk's robe is loaded about the shoulders of a monk
+M 0 20914     6 20926     2   * Load a monk
+E 0 20915    12    12         * A monk's robe is loaded about the shoulders of a monk
+M 0 20914     6 20927     2   * Load a monk
+E 0 20915    12    12         * A monk's robe is loaded about the shoulders of a monk
+M 0 20915     4 20928     2   * Load a brother
+E 0 20916     5     5         * A brother's stole is loaded on the torso of a brother
+M 0 20917     1 20929     1   * Load Father John
+M 0 20915     1 20929     1   * Load a brother
+E 0 20916     5     5         * A brother's stole is loaded on the torso of a brother
+M 0 20916     1 20929     1   * Load Sir Galahad
+E 0 20917    17    17         * A holy cross is loaded held in the hands of Sir Galahad
+M 0 20917     1 20929     1   * Load Father John
+E 0 20918     2     2         * A ruby ring is loaded on the right finger of Father John
+M 0 20912     5 20931     5   * Load a cat
+E 0 20910     3     3         * A cat's collar is loaded around the neck (1) of a cat
+M 0 20910     6 20932     2   * Load a kitchen servant
+E 0 20912     5     5         * A servant's apron is loaded on the torso of a kitchen servant
+M 0 20911     1 20933     1   * Load a white dog
+G 0 20911    -1               * A pair of white gloves is given to a white dog
+M 0 20910     6 20934     2   * Load a kitchen servant
+E 0 20912     5     5         * A servant's apron is loaded on the torso of a kitchen servant
+M 0 20910     6 20935     2   * Load a kitchen servant
+E 0 20912     5     5         * A servant's apron is loaded on the torso of a kitchen servant
+M 0 20913     4 20936     2   * Load a cook
+E 0 20913    16    16         * A onion hatchet is loaded wielded of a cook
+M 0 20913     4 20937     1   * Load a cook
+M 0 20913     4 20937     2   * Load a cook
+E 0 20913    16    16         * A onion hatchet is loaded wielded of a cook
+M 0 20919     4 20938     2   * Load a king's footman
+E 0 20909     7     7         * A pair of knee britches is loaded on the legs of a king's footman
+M 0 20921     1 20939     1   * Load Queen Guenhuevere
+M 0 20920     1 20939     1   * Load King Arthur
+E 0 20919    16    16         * Caliburn is loaded wielded of King Arthur
+M 0 20921     1 20939     1   * Load Queen Guenhuevere
+E 0 20920     6     6         * A golden crown is loaded over the head of Queen Guenhuevere
+M 0 20922     6 20940     2   * Load a knight-errant
+E 0 20921    13    13         * A white belt is loaded around the waist of a knight-errant
+M 0 20922     6 20941     2   * Load a knight-errant
+E 0 20921    13    13         * A white belt is loaded around the waist of a knight-errant
+M 0 20924     4 20942     2   * Load a serving wench
+E 0 20922    15    15         * A cleaning rag is loaded on the right wrist of a serving wench
+M 0 20925     2 20942     1   * Load a king's butler
+E 0 20923    16    16         * A flowered lance is loaded wielded of a king's butler
+M 0 20924     4 20943     2   * Load a serving wench
+E 0 20922    15    15         * A cleaning rag is loaded on the right wrist of a serving wench
+M 0 20925     2 20943     1   * Load a king's butler
+E 0 20923    16    16         * A flowered lance is loaded wielded of a king's butler
+M 0 20926     4 20944     4   * Load the queen's lady
+E 0 20930     3     3         * A ladies' scarf is loaded around the neck (1) of the queen's lady
+M 0 20922     6 20945     2   * Load a knight-errant
+E 0 20921    13    13         * A white belt is loaded around the waist of a knight-errant
+M 0 20927     1 20946     1   * Load Sir Tristan
+E 0 20924     2     2         * Isobel's ring is loaded on the right finger of Sir Tristan
+M 0 20928     1 20946     1   * Load Sir Lancelot
+E 0 20925    10    10         * Queen guenhuevere's favor is loaded on the arms of Sir Lancelot
+M 0 20929     1 20947     1   * Load Sir Kay
+E 0 20927    19    19         * Kay's glasses is loaded on the eyes of Sir Kay
+M 0 20930     1 20947     1   * Load Sir Mordred
+E 0 20928    16    16         * Flail of the innocents is loaded wielded of Sir Mordred
+M 0 20923     6 20948     2   * Load a black knight
+E 0 20921    13    13         * A white belt is loaded around the waist of a black knight
+M 0 20931     4 20949     4   * Load a king's butler
+M 0 20931     4 20949     4   * Load a king's butler
+E 0 20923    16    16         * A flowered lance is loaded wielded of a king's butler
+O 0 20935     0 20949         * The siege perilous loaded to Round Table
+M 0 20923     6 20950     2   * Load a black knight
+E 0 20921    13    13         * A white belt is loaded around the waist of a black knight
+M 0 20932     4 20951     4   * Load the king's squire
+E 0 20931    15    15         * A linen towel is loaded on the right wrist of the king's squire
+M 0 20923     6 20952     2   * Load a black knight
+E 0 20921    13    13         * A white belt is loaded around the waist of a black knight
+M 0 20934     1 20953     1   * Load Morgause
+M 0 20933     1 20953     1   * Load Merlin
+E 0 20934    18    18         * An owl is loaded floating of Merlin
+E 0 20933    15    15         * A ruby bracelet is loaded on the right wrist of Merlin
+M 0 20935     4 20955     4   * Load the queen's lady
+E 0 20930     3     3         * A ladies' scarf is loaded around the neck (1) of the queen's lady
+M 0 20945     1 20999     1   * Load a virgin
+G 0 20946    -1               * A{b blue rose{x lantern is given to a virgin
+G 0 20947    -1               * A{m pink rose{x lantern is given to a virgin
+G 0 20948    -1               * A{y golden rose{x lantern is given to a virgin
+G 0 20949    -1               * A{y yellow rose{x lantern is given to a virgin
+G 0 20984    -1               * A{r red rose{x lantern is given to a virgin
+G 0 20990    -1               * A {wwhite rose{x orb is given to a virgin
+G 0 20990    -1               * A {wwhite rose{x orb is given to a virgin
+G 0 20990    -1               * A {wwhite rose{x orb is given to a virgin
+O 0 20990     0 20999         * A {wwhite rose{x orb loaded to Rose Clan Vestibule
+O 0 20946     0 20999         * A{b blue rose{x lantern loaded to Rose Clan Vestibule
+O 0 20947     0 20999         * A{m pink rose{x lantern loaded to Rose Clan Vestibule
+O 0 20948     0 20999         * A{y golden rose{x lantern loaded to Rose Clan Vestibule
+O 0 20949     0 20999         * A{y yellow rose{x lantern loaded to Rose Clan Vestibule
+O 0 20984     0 20999         * A{r red rose{x lantern loaded to Rose Clan Vestibule
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

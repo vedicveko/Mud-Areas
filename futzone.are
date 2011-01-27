@@ -1,0 +1,1642 @@
+#AREA { 1 65} Yaegar Future Zone~
+
+#MOBILES
+#22100
+bum homeless~
+a homeless bum~
+A homeless bum begs you for a dime.
+~
+Go on. Give him a few coins.
+~
+2|4|64|128 4096 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22101
+bum homeless~
+a homeless bum~
+A homeless bum clutches a baby to her and begs you for a dime.
+~
+Go on. Give her a few coins.
+~
+2|4|64|128 4096 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#22102
+citizen~
+a male citizen~
+A male citizen of this place pretends to ignore you as he pushes past.
+~
+These pushy, rude, sullen folk are certainly no boost to tourism. You feel
+like punching a couple of them, when they run into you. And the heat, and the
+crowds, and the smells- AAAAGHH! I need AIR!
+~
+64|128 0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22103
+citizen~
+a female citizen~
+A female citizen of this place glares at you icily as she brushes past.
+~
+These pushy, rude, sullen folk are certainly no boost to tourism. You feel
+like punching a couple of them, when they run into you. And the heat, and the
+crowds, and the smells- AAAAGHH! I need AIR!
+~
+64|128 0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#22104
+businessman~
+a wealthy businessman~
+A wealthy businessman sniffs derisively at you.
+~
+Why the hell does HE think he's so good??? Just because HE has a Rolex and
+and Armani Suit and a cute mistress and lots of money and- WAIT! Those ARE
+pretty good reasons...:)
+~
+64|128 8192 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22105
+businessman~
+a wealthy businessman~
+A wealthy businessman sniffs derisively at you.
+~
+A Signourney Weaver clone in a very expensive suit and wearing very 
+expensive perfume barely spares you a glance as she rushes off to close a
+multi-million dollar deal.
+~
+64|128 8192 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#22106
+pigeon~
+a pigeon~
+A psychotic pigeon angrily demands some bread crumbs!
+~
+What's the matter? Haven't you seen Mary Poppins? You are meant to FEED
+the pigeons that congregate in public parks. These pigeons look especially
+expectant of their rightful feed, and may resort to violence if they don't
+get it...
+~
+4|64|128 524288 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#22107
+old lady~
+an old lady~
+An old bag lady patiently feeds the pigeons that gather here.
+~
+Don't you DARE! :)
+You wouldn't get any xp anyway... she's a wimp.
+~
+4|64|128 0 400 S
+7 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#22108
+dog~
+a mangy dog~
+A mangy dog searches for food scraps here.
+~
+This poor mongrel hasn't been fed in days. Put it out of its misery...
+~
+4|64|128 0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#22109
+policeman cop~
+a policeman~
+A policeman politely asks you what your business is.
+~
+This upholder of law and order in this place gazes at you inquisitively,
+doubtless concerned by your bizarre accoutrements, and the two large weapons
+you hold casually in each hand...
+~
+8|64 512|8192 400 S
+15 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22110
+hunter thompson~
+Hunter S. Thompson~
+Hunter S. Thompson considers you for his new article.
+~
+Fresh from the success of "Fear and loathing in Las Vegas", Hunter eyes
+you apprasingly as a possible subject for his next volume of the Gonzo
+Papers.
+~
+64|128 128|512|8192 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22111
+dealer~
+a drug dealer~
+A sleazy drug dealer tries to sell you some pills.
+~
+This sleazy sort looks like Aod the dealer.
+~
+64|128 256|512|4096 -400 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#22112
+lou reed~
+Lou Reed~
+Lou Reed encourages you to "Take a walk on the wild side".
+~
+He must be researching material for an album...
+~
+2|64|2048 128|512 400 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+#OBJECTS
+#22100
+oil drum~
+a flaming oil drum~
+This flaming oil drum helps keep the homeless people warm.~
+~
+12 1 0
+0 0 0 0
+1 0 0
+#22101
+bottle cheap booze~
+a bottle of cheap booze~
+A bottle of "Hobo's Special" lies here.
+~
+~
+17 0 1|16384
+5 5 16 0
+5 0 0
+E
+bottle~
+This stuff will make you VERY drunk...
+~
+#22102
+plastic baby~
+a plastic baby~
+Someone uses this to fool people into thinking they have a child.
+~
+~
+13 2 1|16384
+0 0 0 0
+5 0 0
+#22103
+suit~
+an expensive suit~
+While very attractive and well cut, this suit would prove to be poor armor.
+~
+~
+13 0 1|8
+0 0 0 0
+5 0 0
+#22104
+pigeon food~
+a bag of pigeon food~
+Someone has dropped a bag of pigeon food here.
+~
+~
+19 0 1|16384
+1 0 0 0
+1 0 0
+E
+bag~
+This stuff might be good for birds, but it wouldn't keep YOU full for very
+long...
+~
+#22105
+bone~
+a chewed bone~
+Some hungry animal has already chewed this bone to death.
+~        
+~
+5 0 1|8192
+0 0 0 7
+10 0 0
+A 18 -4
+A 19 -4
+#22106
+badge~
+a policeman's badge~
+Some policeman has left his badge here.
+~
+~
+18 1024 1|16384
+0 0 0 0
+1 0 0
+A 17 -10
+#22107
+uniform~
+a policeman's uniform~
+Some policeman has left his uniform here.
+~
+~
+9 1024 1|8
+0 0 0 0
+5 0 0
+A 1 1
+A 19 2
+#22108
+fountain~
+a fountain~
+A beautifully-carved fountain is in the center of the square.
+~
+~
+25 1 0
+0 0 0 0 
+1000 0 0
+E
+fountain~
+This ornate structure is formed of two stone fish spouting water into a 
+huge bowl shaped like the bottom half of some huge clam.
+~
+#22109
+trash can~
+a trash can~
+A trash can sits here smelling the place up.
+~
+~
+15 0 1|16384
+50 1 0 0
+50 0 0
+#22110
+garbage~
+eeyew! garbage~
+Eeyew! Garbage!
+~
+~
+13 0 1|16384
+0 0 0 0
+25 0 0
+E
+garbage~
+there sure is a LOT of it!
+~
+#0
+#ROOMS
+#22100
+Corner of First Street and Emerald Avenue~
+You are strolling through a seemingly infinitely huge city, surrounded on
+all sides by incredibly tall buildings fashioned of glass and steel. 
+Strangely attired people rush to and fro, busy on errands unfathomable to
+you. You hear strange roars, as of huge beasts, and blaring sirens in the
+distance.
+~
+0 0 1
+D 0
+corner of second street and emerald avenue~
+~
+0 -1 22106
+D 1
+corner of first street and sapphire avenue~
+~
+0 -1 22101
+D 2
+a strange road~
+~
+0 -1 22136
+S
+#22101
+Corner of First Street and Sapphire Avenue~
+You wander, amazed, through this incredible dimension made of wholly
+artificial substances, dying to spy a tree or even some grass. Indeed, the
+surrounding structures are so impossibly high that they even occasionally
+block the sun, casting the lower streets into perpetual shadow.
+
+Sapphire Avenue runs one-way to the north.
+~
+0 0 1
+D 0
+corner of second street and sapphire avenue~
+~
+0 -1 22107
+D 1
+corner of first street and ruby avenue~
+~
+0 -1 22102
+D 3
+corner of first street and emeral avenue~
+~
+0 -1 22100
+S
+#22102
+Corner of First Street and Ruby Avenue~
+In this section of this dimension, there are several scruffy-looking
+individuals gathered round a flaming oil drum, warming thier rag-clad forms.
+You wonder how, in a dimension of such obvious wealth, these poor fellows
+can be abandoned by their fellows to live like this.
+~
+0 0 1
+D 0
+corner of second street and ruby avenue~
+~
+0 -1 22108
+D 1
+corner of first street and diamond avenue~
+~
+0 -1 22103
+D 3
+corner of first street and sapphire avenue~
+~
+0 -1 22101
+S
+#22103
+Corner of First Street and Diamond Avenue~
+You are standing just north of a narrow alley that seems to run into some
+sort of industrial area. You can hear sounds of construction and occasional
+shouts. A very strong odor wafts from this direction.
+~
+0 0 1
+D 0
+corner of second street and diamond avenue~
+~
+0 -1 22109
+D 1
+corner of first street and topaz avenue~
+~
+0 -1 22104
+D 2
+a narrow alley~
+~
+0 -1 22137
+D 3
+corner of first street and ruby avenue~
+~
+0 -1 22102
+S
+#22104
+Corner of First Street and Topaz Avenue~
+Several people rush back and forth here in front of a building the sort of
+which you would recognize anywhere- a BANK. If you wish to conduct any
+financial transfers whilst tarrying in this dimension, then this is the 
+place to visit.
+
+There is an ATM in the wall near you.
+
+Progress back north is impossible as Topaz is a one-way road going south.
+~
+0 16384 1
+D 1
+corner of first street and agate avenue~
+~
+0 -1 22105
+D 3
+corner of first street and diamond avenue~
+~
+0 -1 22103
+E
+atm bank~
+The ATM has a small metal plaque inset, which reads-
+
+     "Welcome to FutureZone International Bank.
+
+To Withdraw Funds in your account, simply type in WITHDRAW <amount>.
+
+To Deposit Funds into your account, simply type in DEPOSIT <amount>.
+
+To check your Balance, type in BALANCE.
+
+      Thank You For banking with FIB."
+~
+S
+#22105
+Corner of First Street and Agate Avenue~
+You have come to the far eastern end of First Street. Here you may proceed
+up Agate Avenue, or back the way you came. Alternatively, you may proceed
+south into a small grassy field, toward what sounds like a circus...
+~
+0 0 1
+D 0
+corner of second street and topaz avenue~
+~
+0 -1 22111
+D 2
+grass!~
+~
+0 -1 22138
+D 3
+corner of first street and topaz avenue~
+~
+0 -1 22104
+S
+#22106
+Corner of Second Street and Emerald Avenue~
+You are heading along Emerald Avenue, past rows of what look like metal
+animals, with black circular objects for legs, and blank glass screens for
+faces. Shuddering, you move on, pretending not to notice as two people run
+past and leap INTO the belly of one...
+
+Second street is a one-way street heading east.
+~
+0 0 1
+D 0
+corner of third street and emerald avenue~
+~
+0 -1 22112
+D 1
+corner of second street and sapphire avenue~
+~
+0 -1 22107
+D 2
+corner of first street and emerald avenue~
+~
+0 -1 22100
+S
+#22107
+Corner of Second Street and Sapphire Avenue~
+People rush back and forth in front of a massive building that does not 
+look entirely dissimilar to the estate of a lord or baron in your own
+world. Thus you (correctly) surmise that this is where the politicians of
+this realm reside.
+
+Sapphire Avenue runs one-way to the north.
+Second Street runs one-way to the east.
+~
+0 0 1
+D 0
+corner of third street and sapphire avenue~
+~
+0 -1 22113
+D 1
+corner of second street and ruby avenue~
+~
+0 -1 22108
+S
+#22108
+Corner of Second Street and Ruby Avenue~
+There is a line of elegant mansions in this section of the zone; beautiful
+structures running along a tree-lined boulevard. However, you seem to be
+the only person amazed by these structures- all other passers-by continue
+without even a glance at these houses.
+
+Second Street runs one-way to the east.
+~
+0 0 1
+D 0
+corner of third street and ruby avenue~
+~
+0 -1 22114
+D 1
+corner of second street and diamond avenue~
+~
+0 -1 22109
+D 2
+corner of first street and ruby avenue~
+~
+0 -1 22102
+S
+#22109
+Corner of Second Street and Diamond Avenue~
+The business premises of what must be a huge merchant's guild take up this
+entire block- the signs of wealth are apparently consistent in all cultures.
+No-one seems to be actually conversing with the merchants right now, though
+if you have the cash, he has the goods.
+
+Second Street runs one-way to the east.
+~
+0 0 1
+D 0
+corner of third street and diamond avenue~
+~
+0 -1 22115
+D 1
+corner of second street and topaz avenue~
+~
+0 -1 22110
+D 2
+corner of first street and diamond avenue~
+~
+0 -1 22103
+S
+#22110
+Corner of Second Street and Topaz Avenue~
+Sunlight reflected off the huge glass panels to your left and right dazzle
+you temporarily as you pass this block. Blinking in astonishment, you
+suddenly realise why all the people nearby are wearing black eye coverings.
+
+Topaz Avenue is a one-way road heading south.
+Second Street runs one-way to the east.
+~
+0 0 1
+D 1
+corner of second street and agate avenue~
+~
+0 -1 22111
+D 2
+corner of first street and topaz avenue~
+~
+0 -1 22104
+S
+#22111
+Corner of Second Street and Agate Avenue~
+You are strolling through a lagre, relatively deserted square, dotted with
+park benches and the occasional stunted tree. Pidgeons scoot away as you 
+approach, glaring sullenly when you don't feed them.
+
+In the eastern part of the square, there is a small stone archway that seems
+to allow escape from this urban environment.
+
+Progress back west is impossible as Second Street is a one-way street running
+east.
+~
+0 0 1
+D 0
+corner of third street and agate avenue~
+~
+0 -1 22117
+D 1
+a path outside~
+~
+0 -1 22140
+D 2
+corner of first street and agate avenue~
+~
+0 -1 22105
+S
+#22112
+Corner of Third Street and Emerald Avenue~
+You are standing outside what appears to be the headquarters of an
+establishment known as "Rolling Stone". There are several characters of
+dubious nature strolling in and out of this tall structure.
+
+~
+0 0 1
+D 0
+corner of fourth street and emerald avenue~
+~
+0 -1 22118
+D 1
+corner of third street and sapphire avenue~
+~
+0 -1 22113
+D 2
+corner of second street and emerald avenue~
+~
+0 -1 22106
+S
+#22113
+Corner of Third Street and Sapphire Avenue~
+Several figures clad in outrageously ostentatious clothing swarm out of a
+loud, brightly-lit building named "The Bees' Knees". Extremely loud, 
+discordant music barrages your eardrums and you hurry on.
+
+Sapphire Avenue runs one-way to the north.
+~
+0 0 1
+D 0
+corner of fourth street and sapphire avenue~
+~
+0 -1 22119
+D 1
+corner of third street and ruby avenue~
+~
+0 -1 22114
+D 3
+corner of third street and emerald avenue~
+~
+0 -1 22112
+S
+#22114
+Corner of Third Street and Ruby Avenue~
+More of the gargantuan metal monstrosities you witnessed earlier debvour
+people here too, at an even greater rate and a point called a "Taxi Rank".
+The People both inside and outside these beasts both ignore your attempts
+to warn them of their impending fate, so you walk on.
+~
+0 0 1
+D 1
+corner of third street and diamond avenue~
+~
+0 -1 22115
+D 2
+corner of second street and ruby avenue~
+~
+0 -1 22108
+D 3
+corner of third street and sapphire avenue~
+~
+0 -1 22113
+S
+#22115
+Corner of Third Street and Diamond Avenue~
+You are passing through a crowded area where the roads are lined with stalls
+selling various types of food and drink. They shout at you as you pass by,
+imploring you to sample their products.
+~
+0 0 1
+D 0
+corner of fourth street and siamond avenue~
+~
+0 -1 22121
+D 1
+corner of third street and topaz avenue~
+~
+0 -1 22116
+D 2
+corner of second street and diamond avenue~
+~
+0 -1 22109
+D 3
+corner of third street and ruby avenue~
+~
+0 -1 22114
+S
+#22116
+Corner of Third Street and Topaz Avenue~
+You are passing through a crowded area where the roads are lined with stalls
+selling various types of clothing and miscellaneous items. They shout at you 
+as you pass by, imploring you to buy their products.
+
+Topaz Avenue is a one-way road heading south.
+~
+0 0 1
+D 1
+corner of third street and agate avenue~
+~
+0 -1 22117
+D 2
+corner of second street and topaz avenue~
+~
+0 -1 22110
+D 3
+corner of third street and diamond avenue~
+~
+0 -1 22115
+S
+#22117
+Corner of Third Street and Agate Avenue~
+You are standing near something the locals identify as a "fire hydrant".
+Children run about in front of it, laughing and yelling loudly as it 
+inundates them in water.
+~
+0 0 1
+D 0
+corner of fourth street and agate avenue~
+~
+0 -1 22123
+D 2
+corner of second street and agate avenue~
+~
+0 -1 22111
+D 3
+corner of third street and topaz avenue~
+~
+0 -1 22116
+S
+#22118
+Corner of Fourth Street and Emerald Avenue~
+You see several shady-looking characters standing around a bus stop peddling
+small red, blue and white capsules to small children. The policemen nearby
+seem not to notice...
+
+A dirty-looking lane runs to the west from here.
+
+~
+0 0 1
+D 0
+corner of fifth street and emerald avenue~
+~
+0 -1 22124
+D 1
+corner of fourth street and sapphire avenue~
+~
+0 -1 22119
+D 2
+corner of third street and emerald avenue~
+~
+0 -1 22112
+D 3
+a dirty lane~
+~
+0 -1 22149
+S
+#22119
+Corner of Fourth Street and Sapphire Avenue~
+You enter a rather wide section of the area where lots of raggedy children
+huddle together for warmth, and tired-looking old men stumble past drunks
+and addicts. There is a sign that reads- "Dirty Blvd".
+
+Sapphire Avenue runs one-way to the north.
+~
+0 4 0
+D 0
+corner of fifth street and sapphire avenue~
+~
+0 -1 22125
+D 1
+a dead end.~
+~
+0 -1 22120
+D 3
+corner of fourth street and emerald avenue~
+~
+0 -1 22118
+S
+#22120
+A Dead End~
+This is a particlarly deserted area of town, consisting only of vacant lots
+overgrown with weeds and deserted warehouses and cars. A stray cat runs past,
+staring sullenly at you before continuing on its own private mission.
+~
+0 1 1
+D 3
+corner of fourth street and sapphire avenue~
+~
+0 -1 22119
+S
+#22121
+Corner of Fourth Street and Diamond Avenue~
+A shady-looking house to the left here is marked "Leisha's House of Pleasure",
+but it has been boarded up and marked with yellow tape. A uniformed cop 
+ushers you on when you stop to gawk.
+~
+0 0 1
+D 0
+corner of fifth street and diamond avenue~
+~
+0 -1 22127
+D 1
+corner of fourth street and topaz avenue~
+~
+0 -1 22122
+D 2
+corner of third street and diamond avenue~
+~
+0 -1 22115
+S
+#22122
+Corner of Fourth Street and Topaz Avenue~
+More abandoned derelict homes and derelict people congregate here. You find
+the whole area rather depressing and quickly move along.
+
+Topaz Avenue is a one-way road heading south.
+~
+0 0 1
+D 1
+corner of fourth street and agate avenue~
+~
+0 -1 22123
+D 2
+corner of third street and topaz avenue~
+~
+0 -1 22116
+D 3
+corner of fourth street and diamond avenue~
+~
+0 -1 22121
+S
+#22123
+Corner of Fourth Street and Agate Avenue~
+You have reached a particularly run-down part of this area. There is a dirty-
+looking lane running to the west that seems particularly dangerous.
+~
+0 0 1
+D 0
+corner of fifth street and agate avenue~
+~
+0 -1 22129
+D 2
+corner of third street and agate avenue~
+~
+0 -1 22117
+D 3
+corner of fourth street and topaz avenue~
+~
+0 -1 22122
+S
+#22124
+Corner of Fifth Street and Emerald Avenue~
+This area of town is certainly much nicer than fourth street. Nice homes and
+well-manicured gardens are visible to the north. To the east are some rather
+dull office blocks.
+
+Progress back to the east is impossible as Fifth Street is a one-way street
+heading west.
+~
+0 0 1
+D 0
+corner of sixth street and emerald avenue~
+~
+0 -1 22130
+D 2
+corner of fourth street and emerald avenue~
+~
+0 -1 22118
+S
+#22125
+Corner of Fifth Street and Sapphire Avenue~
+You are passing by a group of rather dull-looking office blocks populated
+by rather dull-looking people. There is little joy in their faces or their
+actions- it is just a job.
+
+Sapphire Avenue runs one-way to the north.
+Fifth Street runs one-way to the west.
+~
+0 0 1
+D 0
+corner of sixth street and sapphire avenue~
+~
+0 -1 22131
+D 3
+corner of fifth street and emerald avenue~
+~
+0 -1 22124
+S
+#22126
+Corner of Fifth Street and Ruby Avenue~
+You pass by a particlarly impressive-looking building marked as being
+"Microsoft". You ponder what this may mean, and as you stand bemused on
+the sidewalk you are almost run over by a speeding automobile, loaded with
+cursing businessmen.
+
+Fifth Street runs one-way to the west.
+~
+0 0 1
+D 0
+corner of sixth street and ruby avenue~
+~
+0 -1 22132
+D 3
+corner of fifth street and sapphire avenue~
+~
+0 -1 22125
+S
+#22127
+Corner of Fifth Street and Diamond Avenue~
+Restaurants, Schools and Parking Lots surround you in this part of the area.
+People rush to and fro from more of those metal beasts known as automobiles.
+In the distance you can see a huge flying version flying into the sky.
+
+Fifth Street runs one-way to the west.
+~
+0 0 1
+D 0
+corner of sixth street and diamond avenue~
+~
+0 -1 22133
+D 2
+corner of fourth street and diamond avenue~
+~
+0 -1 22121
+D 3
+corner of fifth street and ruby avenue~
+~
+0 -1 22126
+S
+#22128
+Corner of Fifth Street and Topaz Avenue~
+More of the airplanes you saw to the west are here, some on the ground, some
+in the process of taking off or landing. All in all it looks rather dull and
+uncomfortable for the passengers, and you are thankful that YOUR world has
+the Fly spell...
+
+Topaz Avenue is a one-way road heading south.
+Fifth Street runs one-way to the west.
+~
+0 0 1
+D 2
+corner of fourth street and topaz avenue~
+~
+0 -1 22122
+D 3
+corner of fifth street and diamond avenue~
+~
+0 -1 22127
+S
+#22129
+Corner of Fifth Street and Agate Avenue~
+You are standing in a place lined with structures known as cinemas and 
+theaters... There is a very interesting-looking one that you can head toward
+to the east of here.
+
+Fifth Street runs one-way to the west, but you can enter the cinema to the 
+east if you wish...
+~
+0 0 1
+D 0
+corner of sixth street and agate avenue~
+~
+0 -1 22135
+D 1
+outside a movie theater~ 
+~
+0 -1 5475
+D 2
+corner of fourth street and agate avenue~
+~
+0 -1 22123
+D 3
+corner of fifth street and topaz avenue~
+~
+0 -1 22128
+S
+#22130
+Corner of Sixth Street and Emerald Avenue~
+You haev entered a suburban area, lined with small places of residence. 
+People sporadically appear to empty metal boxes in front of their houses,
+or to fill other metal boxes with green bags filled with smelly substances.
+Water sprays across green lawns, projected by spinning metal devices.
+
+There is a well-paved, even road running to the north.
+~
+0 0 1
+D 0
+a well-paved road~
+~
+0 -1 22144
+D 1
+corner of sixth street and sapphire avenue~
+~
+0 -1 22131
+D 2
+corner of fifth street and emerald avenue~
+~
+0 -1 22124
+S
+#22131
+Corner of Sixth Street and Sapphire Avenue~
+The suburbs continue along this street. More nice houses with nice cars with
+nice couples with 1.7 nice children live in this nice neighborhood. How
+sickening. You fancy that you can see Andy Griffith.
+
+Progress south is impossible as Sapphire Avenue is a one way street.
+~
+0 0 1
+D 1
+corner of sixth street and ruby avenue~
+~
+0 -1 22132
+D 3
+corner of sixth street and emerald avenue~
+~
+0 -1 22130
+S
+#22132
+Corner of Sixth Street and Ruby Avenue~
+A restaurant of sorts lies up ahead, called "McSweeneys". People rush in and
+out, some clutching red metal canisters and paper packages labelled "McSweeney
+Burger".
+
+Going north through the drive-through, you can head into the suburbs.
+~
+0 0 1
+D 0
+a well-paved road~
+~
+0 -1 22148
+D 1
+corner of sixth street and diamond avenue~
+~
+0 -1 22133
+D 2
+corner of fifth street and ruby avenue~
+~
+0 -1 22126
+D 3
+corner of sixth street and sapphire avenue~
+~
+0 -1 22131
+S
+#22133
+Corner of Sixth Street and Diamond Avenue~
+You pass by a rather remarkable statue of the founder of this city area, 
+pushing past dozens of curious tourists taking photographs and posing with
+the statue. 
+~
+0 0 1
+D5
+~
+~
+1 0 30538
+D 1
+corner of sixth street and topaz avenue~
+~
+0 -1 22134
+D 2
+corner of fifth street and diamond avenue~
+~
+0 -1 22127
+D 3
+corner of sixth street and ruby avenue~
+~
+0 -1 22132
+E
+statue~
+This is a statue of a tall, youngish-looking Elf with finely chiseled features
+and a broad grin.
+~
+S
+#22134
+Corner of Sixth Street and Topaz Avenue~
+Dozens of small stores selling trinkets of absolutely no worth or usefulness
+are crammed in here, and the locals mutter "tourist traps" when they walk
+by (whatever that means...).
+
+Topaz Avenue is a one-way road heading south.
+~
+0 0 1
+D 1
+corner of sixth street and agate avenue~
+~
+0 -1 22135
+D 2
+corner of fifth street and topaz avenue~
+~
+0 -1 22128
+D 3
+corner of sixth street and diamond avenue~
+~
+0 -1 22133
+S
+#22135
+Corner of Sixth Street and Agate Avenue~
+You have reached the limits of the city. There is no way to progress any
+further right now, though construction crews are frantically erecting more
+buildings and paving more roads here even now.
+
+A road to the north heads through an industrial estate.
+~
+0 0 1
+D0
+~
+~
+0 -1 22155
+D 2
+corner of fifth street and agate avenue~
+~
+0 -1 22129
+D 3
+corner of sixth street and topaz avenue~
+~
+0 -1 22134
+D 5
+yaegar's room~
+~
+1 0 22150
+S
+#22136
+A Strange Road~
+The road here suddenly transforms from bitumen to hard plassteel, and the
+buildings suddenly appear to be even taller and more crowded, if that is
+possible. Indeed, there is no sky visible in the area you are entering- the
+whole place appears to be lit by artificial light.
+
+There is an onramp onto the massive Circuit Megway west of here, and a 
+large sign.
+~
+0 0 1
+D 0
+corner of first street and emerald avenue~
+~
+0 -1 22100
+D 2
+entrance to mega-city one~
+~
+0 -1 8001
+D3
+~
+~
+0 -1 14232
+E
+sign~
+The sign says-
+
+FUTZONE- north exit
+MEGACITY ONE- south exit
+ANONOPOLIS- west exit
+~
+S
+#22137
+A Narrow Alley~
+The road you are on suddenly becomes even narrower at this point, and you
+find it hard squeezing past the trash cans stuffed with waste lining this
+dog run. The sounds of construction are even louder now, seeming to come
+from around a bend to the east.
+~
+0 1 0
+D 0
+corner of first street and diamond avenue~
+~
+0 -1 22103
+D 1
+entrance to the mob factory~
+~
+0 -1 9400
+S
+#22138
+Grass!~
+Wow! Incredible. Grass actually DOES exist here after all. You are strolling
+along a broad grassy plain, towards a large red-and-white striped tent, into
+which dozens of families are entering.
+~
+0 4 2
+D 0
+corner of first street and agate avenue~
+~
+0 -1 22105
+D 2
+more grass~
+~
+0 -1 22139
+S
+#22139
+More Grass~
+You can't get enough of this. After being holed up in that concrete and steel
+monstrosity where no life could ever flourish, you are indeed happy to be
+wandering here. The circus is much closer now, due south in fact, and you
+see the beginnings of a small path.
+~
+0 4 2
+D 0
+grass!~
+~
+0 -1 22138
+D 2
+the path to the circus~
+~
+0 -1 4401
+S
+#22140
+A Path Outside~
+Stepping through the arch, you are astonished to find yourself outside the
+megalopolis, standing on a high windswept ridge that runs for about half a 
+mile towards what looks like a small village.
+~
+0 4 2
+D 1
+along the path~
+~
+0 -1 22141
+D 3
+corner of second street and agate avenue~
+~
+0 -1 22111
+S
+#22141
+Along the Path~
+You continue along the path, feeling quite relaxed. Clouds skid across a
+grey sky, and far away you can hear the faint sound of birds chirping. You
+also imagine you detect a faint whiff of the sea.
+~
+0 4 2
+D 1
+a strange sight~
+~
+0 -1 22142
+D 3
+a path outside~
+~
+0 -1 22140
+S
+#22142
+A Strange Sight~
+After a leisurely stroll along the ridge, the path curves away and heads
+directly for the settlement you spied earlier. And it appears to be a very
+curious place indeed.
+~
+0 0 2
+D 1
+entrance to pepperland~
+~
+0 -1 9425
+D 3
+along the path~
+~
+0 -1 22141
+S
+#22143
+A Rather Dark Alley~
+You have entered a rather dark alley.
+~
+0 1|4|8 0
+S
+#22144
+A Well-Paved Road~
+You are strolling along a broad, well-paved asphalt road lined with more of
+the houses you saw earlier.
+
+A second road runs to the east of here.
+~
+0 0 1
+D 0
+a well-paved road~
+~
+0 -1 22145
+D 1
+a well-paved road~
+~
+0 -1 22147
+D 2
+corner of sixth street and emerald avenue~
+~
+0 -1 22130
+S
+#22145
+A Well-Paved Road~
+You are strolling along a broad, well-paved asphalt road lined with more of
+the houses you saw earlier.
+~
+0 0 1
+D 0
+a well-paved road~
+~
+0 -1 22146
+D 2
+a well-paved road~
+~
+0 -1 22144
+S
+#22146
+A Well-Paved Road~
+You are strolling along a broad, well-paved asphalt road lined with more of
+the houses you saw earlier.
+
+There is a parking lot up ahead, near what looks like a grocery store.
+~
+0 0 1
+D 0
+a parking lot~
+~
+0 -1 22091
+D 2
+a well-paved road~
+~
+0 -1 22145
+S
+#22147
+A Well-Paved Road~
+You are strolling along a broad, well-paved asphalt road lined with more of
+the houses you saw earlier.
+~
+0 0 1
+D 1
+a well-paved road~
+~
+0 -1 22148
+D 3 
+a well-paved road~
+~
+0 -1 22144
+S
+#22148
+A Well-Paved Road~
+You are strolling along a broad, well-paved asphalt road lined with more of
+the houses you saw earlier.
+
+To the east is a rather unique neighborhood.
+
+There is another road to the south.
+~
+0 0 1
+D 1
+neighborhood street~
+~
+0 -1 17400
+D 2
+corner of sixth street and ruby avenue~
+~
+0 -1 22132
+D 3 
+a well-paved road~
+~
+0 -1 22147
+S
+#22149
+The Dirty Lane~
+This Lane runs between two graffiti-covered abandoned warehouses. Several
+broken beer bottles and rusted bottle-tops have been left here, as have
+some broken knives and pipes. Dried blood covers one wall.
+~
+0 1|4 0
+D 2
+a dark alleyway~ 
+~
+0 -1 22154
+D 1
+corner of first street and emerald avenue~
+~
+0 -1 22118
+S
+#22150
+Yaegar's Room~
+You have entered Yaegar's Room, the one he uses to reside in temporarily
+while he is building areas. It is full of maps, plans, notes and cases of
+beer. A packet of chili-flavored chips is always at hand, as is a loud 
+stereo.
+~
+0 1|8 0
+D 1
+yaegar's bedroom~
+~
+0 -1 22151
+D 4
+corner of sixth street and agate avenue~
+~
+1 0 22135
+S
+#22151
+Yaegar's Bedroom~
+You have entered Yaegar's temporary bedroom. He only uses this when he is
+forced from his castle. There is a small military cot in one corner, as well
+as a large wooden chest full of clothing that he never wears.
+~
+0 1|8 0
+D 1
+transporter pad~
+~
+0 -1 22152
+D 2
+storage room~
+~
+0 -1 22153
+D 3
+yaegar's room~
+~
+0 -1 22150
+S
+#22152
+Transporter Pad~
+Yaegar stole this off of the Enterprise D after it crashed. It enables him
+to beam directly back to his castle, though as there is but one in his
+possession and it is here, he cannot beam back.
+~
+0 1|8 0
+D 3
+~
+~
+0 -1 22151
+D 4
+~
+~
+0 -1 -1
+S
+#22153
+Storage Room~
+This room is full of the crap that accumulates when you are busy building
+areas. Right now it serves absolutely no purpose, but when Yaegar has more
+time (ahh, TIME) he will turn it into something other than wasted vnums.
+~
+0 1|8 0
+D 0
+yaegar's bedroom~
+~
+0 -1 22151
+S
+#22154
+A Dark Alleyway~
+You are entering a dark alleyway that bends to the east towards a seedy-
+looking part of town.
+~
+0 1|8 0
+D 0
+~
+~
+0 -1 22149
+D 1
+~
+~
+0 -1 2101
+S
+#22155
+A Road~
+This road runs through an Industrial Estate. Factories and warehouses line
+it to either side.
+~
+0 4 1
+D0
+~
+~
+0 -1 22156
+D2
+~
+~
+0 -1 22135
+S
+#22156
+A Road~
+This road runs through an Industrial Estate. Factories and warehouses line
+it to either side.
+~
+0 0 1
+D0
+~
+~
+0 -1 23500
+D1
+~
+~
+0 -1 22157
+D2
+~
+~
+0 -1 22155
+S
+#22157
+A Road~
+The Road heads out of the estate here, toward a junction, where a wide road
+heads south toward some strangely shaped buildings.
+~
+0 0 1
+D1
+~
+~
+0 -1 22158
+D3
+~
+~
+0 -1 22156
+S
+#22158
+A Junction~
+You may head south from here toward the strange buildings, east toward a
+large studio lot, or west toward an industrial estate.
+~
+0 0 1
+D1
+~
+~
+0 -1 22159
+D2
+~
+~
+0 -1 22162
+D3
+~
+~
+0 -1 22157
+S
+#22159
+A Path The Studios~
+You are approaching a large conglomeration of structures collectively known
+as studios.
+~
+0 0 1
+D0
+~
+~
+0 -1 22161
+D3
+~
+~
+0 -1 22158
+S
+#22161
+A Path The Studios~
+You are approaching a large conglomeration of structures collectively known
+as studios. You see signs with emblems such as "Warner Bros", "Paramount" and
+"Disney".
+~
+0 0 1
+D0
+~
+~
+0 -1 17600
+D2
+~
+~
+0 -1 22159
+S
+#22162
+Suburbia~
+You are heading past endless rows of identical houses with identical cars,
+identical dogs, identical kids, identical fences, identical driveways and
+identical satellite dishes.
+~
+0 0 1
+D0
+~
+~
+0 -1 22158
+D2
+~
+~
+0 -1 22163
+S
+#22163
+Suburbia~
+You are heading past endless rows of identical houses with identical cars,
+identical dogs, identical kids, identical fences, identical driveways and
+identical satellite dishes.
+~
+0 0 1
+D0
+~
+~
+0 -1 22162
+D2
+~
+~
+0 -1 22164
+S
+#22164
+Suburbia~
+You are heading past endless rows of identical houses with identical cars,
+identical dogs, identical kids, identical fences, identical driveways and
+identical satellite dishes. However, a house to the south stands out, being
+differently colored and furnished than its bland neighbors. The front door
+beckons...
+~
+0 0 1
+D0
+~
+~
+0 -1 22163
+D2
+~
+~
+1 0 22165
+S
+#22165
+Inside the House~
+You have entered a perfectly marvellous dwelling. It MUST be Cookie's. There 
+is a large kitchen, a kewl stereo, and lots of records.
+~
+0 8 0
+D0
+~
+~
+1 0 22164
+D2
+~
+~
+1 0 16061
+S
+#22180
+Yaegar's Punishment Chamber~
+Uh Oh. You're in trouble now. You've been sent to Yaegar's Punishment
+Chamber. You'll probably be left here to slowly die as the acid gradually
+dissolves your flesh. Then your corpse will be devoured and you will be
+cast, naked and shivering, back into the world of the living at recall.
+Consider yourself lucky. Most IMMs woul have fed you to Xor.
+~
+0 1|8|128|8192 0
+S
+#0
+#RESETS
+D 0 22133 5 1    
+D 0 22164 2 1
+D 0 22165 0 1
+D 0 22165 2 1
+*
+M 0 22100 2 22102      LOADS BUMS
+G 0 22101 0 0          GIVES BOOZE
+M 0 22101 2 22102      LOADS BUMS
+G 0 22102 0 0          GIVES BABY
+O 0 22100 0 22102      LOADS OIL DRUM
+M 0 22108 1 22102      LOADS DOG
+M 0 22104 1 22109      LOADS BUSINESSMAN
+E 0 22103 0 5          WEARS SUIT
+M 0 22105 1 22109      LOADS BUSINESSWOMAN
+E 0 22103 0 5          WEARS SUIT
+M 0 22106 5 22111      LOADS PIGEONS
+O 0 22108 0 22111      LOADS FOUNTAIN
+M 0 22107 1 22111      LOADS OLD LADY
+G 0 22104 0 0          GIVES FOOD
+M 0 22110 1 22112      LOADS HUNTER
+M 0 22102 6 22114      LOADS MALE CITIZEN
+M 0 22103 6 22115      LOADS FEMALE CITIZEN
+M 0 22109 4 22118      LOADS POLICEMAN
+E 0 22106 0 17         HOLDS BADGE
+E 0 22107 0 5          WEARS UNIFORM
+M 0 22111 4 22118      LOADS DEALERS
+M 0 22100 2 22119      LOADS BUMS
+G 0 22101 0 0          GIVES BOOZE
+M 0 22101 2 22119      LOADS BUMS
+G 0 22102 0 0          GIVES BABY
+O 0 22100 0 22119      LOADS OIL DRUM
+M 0 22108 1 22119      LOADS DOG
+G 0 22105 0 0          GIVES BONE
+M 0 22112 1 22119      LOADS LOU REED
+M 0 22109 2 22135      LOADS POLICEMAN
+E 0 22106 0 17         HOLDS BADGE
+E 0 22107 0 5          WEARS UNIFORM
+M 0 22108 1 22137      LOADS DOG
+G 0 22105 0 0          GIVES BONE
+O 0 22109 0 22137      LOADS TRASH CAN
+P 0 22110 0 22109      PUTS TRASH IN TRASH CAN
+D 0 22135 5 1          CLOSES DOOR DOWN
+S
+#SPECIALS
+M 22100 spec_poison       bum
+M 22101 spec_poison       bum
+M 22108 spec_fido         mongrel
+M 22109 spec_guard        policeman
+M 22110 spec_breath_any   hunter s. thompson
+M 22111 spec_poison       dealer
+M 22112 spec_cast_adept   lou reed
+S
+#$
+
+
+

@@ -1,0 +1,2225 @@
+#AREA
+mudschool.are~
+mud school~
+{ 1  5} Kandahar  Mud School~
+3700 3799
+
+#MOBILES
+#3700
+partridge~
+a partridge~
+A {cpar{Wtri{cdge {xpecks around the ground for seeds.
+~
+It clucks occasionally and looks up now and then.
+~
+song bird~
+AGHTU T 50 0
+1 0 1d1+10 1d1+99 1d3+0 scratch
+10 10 10 10
+FH 0 0 0
+stand stand either 0
+AGHVW ABCDEFGHIJKP small 0
+#3701
+quail~
+a quail~
+A {mquail{x flies around from branch to branch.
+~
+It would probably make a really good stew.
+~
+song bird~
+AGHU T 0 0
+5 0 2d7+71 2d50+50 1d6+1 peck
+5 5 5 5
+FHJN 0 0 0
+stand stand either 0
+AGW ACDEFHKP small 0
+#3702
+charlatan mob monster~
+a charlatan~
+A charlatan promises an infallible cure.
+~
+This shrewd looking young man poses as skilled in surgery or medicine
+and plays on the health fears of the citizenry with promises of
+infallible cures.  
+~
+school monster~
+ABU 0 0 0
+1 0 1d1+7 1d1+99 1d3+0 claw
+10 10 10 10
+0 AB 0 C
+stand stand male 10
+AMV ABCDEFHJKQU medium 0
+#3703
+victualler mob~
+a victualler~
+A victualler tries to sell you tainted food.
+~
+This uncouth looking person offers you a selection of food which
+appears to be extremely good value.  
+~
+school monster~
+ABHU 0 0 0
+1 0 1d1+7 1d1+99 1d2+0 claw
+10 10 10 10
+O AB 0 C
+stand stand female 10
+AMV ABCDEFHJKQU medium 0
+#3704
+outlawed priest mob~
+an outlawed priest~
+An outlawed priest holds a knife to your throat.
+~
+This priest is wanted by the law several times over for crimes
+committed against the citizens of the town.  
+~
+school monster~
+ABFU 0 0 0
+1 0 1d1+7 1d1+99 1d4+0 claw
+10 10 10 10
+EK AB 0 C
+stand stand male 10
+AMV ABCDEFHJKQU medium 0
+#3705
+sly merchant mob~
+a sly merchant~
+A sly merchant hides illegal weights and measures.
+~
+This shrewd trader uses weights and measures which aren't quite
+standard.  
+~
+school monster~
+ABFHU 0 0 0
+1 0 1d1+7 1d1+99 1d3+0 claw
+10 10 10 10
+J AB 0 C
+stand stand male 10
+AMV ABCDEFHJKQU medium 0
+#3706
+dark form mob~
+a dark form~
+A dark form moves toward you.
+~
+You could run...  Or you could fight!  Just be careful, he looks mean!  
+~
+school monster~
+ABU JZ 0 0
+2 1 2d2+20 1d1+99 1d4+1 claw
+8 8 8 10
+FN AB 0 C
+stand stand male 25
+AMV ABCDEFHJKQU medium 0
+#3707
+follower adept~
+a follower of {GKandahar{x~
+A follower of {GKandahar{x is here to watch over you.
+~
+This ardent follower is here to ensure your safety...  Kill the
+criminals, not her!  
+~
+human~
+ABGQTV CH 0 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCDLQ 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium 0
+#3708
+follower adept~
+a follower of {bThora{x~
+A follower of {bThora{x lends you a helping hand.
+~
+I wouldn't attack her if I were you, she looks pretty powerful.  On the
+other hand, she seems like a nice person.  
+~
+human~
+ABGJQV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCDLQ 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium 0
+#3709
+hare~
+a hare~
+A {yhare {xdarts from its burrow.
+~
+It sits on its haunches and looks at you.
+~
+rabbit~
+AGHU 0 100 0
+1 0 1d1+10 1d1+99 1d3+0 bite
+10 10 10 10
+FH 0 0 0
+stand stand either 0
+AGV ACDEFHJK tiny 0
+#3710
+deer fallow~
+a fallow deer~
+A {Wfallow{r deer{x looks up, startled.
+~
+Its ears twitch nervously as it looks set to spring away.
+~
+quad~
+AGU 0 -100 0
+2 0 2d2+20 1d1+99 1d4+1 stab
+8 8 8 10
+R 0 L I
+stand stand either 0
+AGV ACDEFGHIJKQ medium 0
+#3711
+boar wild~
+a wild boar~
+A wild {yboar{x grunts and stamps its hooves.
+~
+It doesn't look very happy.
+~
+pig~
+AGU 0 0 0
+3 1 3d3+30 1d1+99 1d6+1 charge
+7 7 7 9
+CDFR 0 0 0
+stand stand either 0
+AGV ACDEFHJK medium 0
+#3712
+fox red~
+a red fox~
+A {Rred fox{x peeks out from behind a tree.
+~
+This fox has bright eyes and a bushy red tail.
+~
+fox~
+AGHU Z 100 0
+1 1 1d1+12 1d1+99 1d3+1 bite
+8 8 8 10
+FHNR 0 0 0
+stand stand either 0
+AGV ACDEFHJKQV small 0
+#3713
+deer roe~
+a roe deer~
+A {rroe{W deer {xgrazes unperturbed.
+~
+Awwwh... what a pretty sight.
+~
+quad~
+AGU 0 0 0
+0 0 1d1+0 1d1+99 1d1+0 none
+10 10 10 10
+0 0 0 0
+stand stand either 0
+AGQVc ACEFGHIJKQ medium 0
+#3714
+beast rampaging rampage~
+a rampaging beast~
+A {Rbeast{x opens its mouth and roars!
+~
+Those sharp yellow teeth look mean....  Well don't just stand there...
+RUN!  
+~
+school monster~
+AFTU Z 0 0
+5 1 5d5+55 1d1+99 1d6+3 bite
+5 5 5 8
+EKM AB HI C
+stand stand none 50
+AMV ABCDEFHJKQU large 0
+#3715
+bear brown~
+a brown bear~
+A {ybrown{x bear growls meaningfully at you.
+~
+The bear has a glossy coat... and very sharp looking claws.
+~
+bear~
+AGU 0 0 0
+4 1 4d4+44 1d1+99 1d6+2 claw
+6 5 6 7
+CDEOR 0 EI 0
+stand stand either 0
+AGV ABCDEFHJKUV large 0
+#3716
+wolf silver~
+a silver wolf~
+A {Wsilver{x wolf bares its fangs and snarls.
+~
+This wolf is on the hunt for food for its young.  Its probably not a
+good time to disturb it.  
+~
+wolf~
+AGU Z 0 0
+4 0 4d4+44 1d1+99 1d6+2 bite
+7 7 7 10
+FHNR 0 0 0
+stand stand either 0
+AGV ACDEFJKQV medium 0
+#3717
+shady character~
+a shady character~
+A {Dshady{x character merges with the {Dshadows{x.
+~
+Wonder what this guy has to offer?
+~
+human~
+ABCTV CH 1000 0
+5 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+CEFHIKN ABCDLQ 0 0
+stand stand male 50000
+AHMV ABCDEFGHIJK medium 0
+#3718
+follower apprentice cleric~
+a follower of {RKashimar{x~
+A follower of {RKashimar{x is here to train you.
+~
+~
+human~
+ABCJQTV CH -1000 0
+250 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium 0
+#3719
+follower priest~
+a follower of {YMandalay{x~
+A follower of {YMandalay{x is here to help you practice.
+~
+~
+human~
+ABCKQTV CH 1000 0
+250 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium 0
+#3720
+poacher shifty~
+a shifty poacher~
+A shifty poacher looks unhappy at being caught.
+~
+This shifty poacher would really rather not have been caught.  Wonder
+what goodies he is carrying?  
+~
+school monster~
+ABU J 0 0
+3 1 2d4+30 1d1+99 1d6+1 claw
+8 8 8 10
+EFN AB 0 C
+stand stand male 30
+AMV ABCDEFHJKQU medium 0
+#3721
+hart stag~
+a hart~
+A {Whart {xstands erect and proud, the king of the forest.
+~
+The hart or stag, also known as red deer, are sought by hunters
+because they are swift, strong and clever animals.  
+~
+quad~
+AGHU J -100 0
+4 1 2d7+46 0d0+0 1d5+1 pound
+6 6 6 12
+JN 0 L C
+stand stand either 40
+AGHV ABCDEFGHIJKQ large unknown
+#0
+
+
+
+#OBJECTS
+#3700
+mace sub medieval~
+a medieval mace~
+A medieval mace of stout proportions.~
+bronze~
+weapon U AN
+mace 1 6 pound 0
+1 60 0 P
+A
+18 1
+#3701
+dagger sub medieval~
+a medieval dagger~
+A medieval dagger looks sharp.~
+bronze~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 0 P
+A
+18 1
+#3702
+sword sub medieval~
+a medieval sword~
+A medieval sword of stout proportions.~
+bronze~
+weapon U AN
+sword 1 6 slash 0
+1 30 0 P
+A
+18 1
+#3703
+tunic sub~
+a tight-fitting {mtunic{x~
+A tight-fitting {mtunic {xwhich buttons down the front.~
+cloth~
+armor U AD
+1 1 1 0 0
+0 50 144 P
+#3704
+shield sub~
+a {ywooden {xshield~
+A {ywooden{x shield with a handle on the inside.~
+wood~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+A
+18 2
+#3705
+scarf sub~
+a {Dcloth {Wscarf{x~
+A {Dcloth{W scarf {xkeeps the neck warm.~
+cloth~
+armor U AC
+1 1 1 0 1
+0 40 72 P
+#3706
+cowl sub~
+a simple {ycowl{x~
+A simple {ycowl{x conceals the face in shadow.~
+leather~
+armor U AE
+1 1 1 0 0
+0 30 72 P
+#3707
+chausses particolored pair sub~
+a pair of {Gparti{Ycolored {gchausses{x~
+A pair of {Gparti{Ycolored {gchausses{x fits snugly.~
+cloth~
+armor U AF
+1 1 1 0 0
+0 30 72 P
+#3708
+shoes sub~
+a pair of {Ybuckled {cshoes{x~
+A pair of {Ybuckled{c shoes {xhas pointed toes.~
+leather~
+armor U AG
+1 1 1 0 0
+0 30 72 P
+#3709
+gloves bejewelled sub~
+a pair of {Mbe{Rjewel{Med {xgloves~
+A pair of {Mbe{Rjewel{Med {xgloves are rather becoming.~
+cloth~
+armor U AH
+1 1 1 0 0
+0 10 72 P
+#3710
+sleeves bag sub~
+a pair of {yfur{x-{ylined {mbag{x-sleeves~
+A pair of {yfur{x-{ylined {mbag{x-sleeves, buttoned at the wrist. ~
+fur~
+armor U AI
+1 1 1 0 0
+0 20 72 P
+#3711
+surcoat coat sub~
+a {gsurcoat{x~
+A {gsurcoat{x conceals all.~
+cloth~
+armor U AK
+1 1 1 0 0
+0 20 72 P
+#3712
+girdle sub~
+a {Rr{richly {Yw{yoven {xgirdle~
+A {Rr{richly {Yw{yoven {xgirdle hangs down to the ground.~
+leather~
+armor U AL
+1 1 1 0 0
+0 10 72 P
+#3713
+bracelet sub~
+a {Ygold {ybracelet{x~
+A {Ygold {ybracelet{x shines and glitters.~
+gold~
+armor U AM
+0 1 1 0 0
+0 10 48 P
+#3714
+key rusty~
+a rusty key~
+An important but rusty looking key.~
+copper~
+key P A
+0 0 0 0 0
+0 10 0 P
+#3715
+brace pheasants game bird~
+a {cbrace{x of {gphe{Yasa{ynts{x~
+A couple of pheasants with their necks broken.~
+flesh~
+treasure G AO
+0 0 0 0 0
+0 10 100 P
+A
+5 1
+A
+4 1
+#3716
+lamp hanging~
+a hanging {Ylamp{x~
+A {Ylamp {xhanging on a pole, which burns {Woil{x.~
+glass~
+light AG A
+0 0 200 0 0
+0 20 380 P
+A
+20 -1
+A
+17 -1
+#3717
+spear sub medieval~
+a medieval spear~
+A medieval spear with a sharp point.~
+wood~
+weapon U AN
+staff 1 6 thrust 0
+1 50 111 P
+A
+18 1
+#3718
+polearm sub medieval~
+a medieval polearm~
+A medieval polearm of stout proportions.~
+wood~
+weapon U AN
+polearm 1 5 pound F
+1 40 0 P
+A
+19 1
+A
+18 2
+#3719
+axe sub medieval~
+a medieval axe~
+A medieval axe of stout proportions.~
+bronze~
+weapon U AN
+axe 1 6 chop 0
+1 50 350 P
+A
+18 1
+#3720
+flail sub medieval~
+a medieval flail~
+A medieval flail of stout proportions.~
+bronze~
+weapon U AN
+flail 1 5 crush 0
+1 50 310 P
+A
+19 1
+#3721
+whip sub medieval~
+a medieval whip~
+A medieval whip is flexible and supple.~
+leather~
+weapon U AN
+whip 2 2 whip 0
+1 20 330 P
+A
+18 2
+#3722
+glaive sub medieval~
+a medieval glaive~
+A medieval glaive of stout proportions.~
+wood~
+weapon U AN
+polearm 1 7 slash F
+1 80 183 P
+A
+19 1
+#3723
+ring ruby~
+a {rruby {xring~
+A silver ring with a large {rruby {xglistening in the centre.~
+silver~
+jewelry 0 AB
+0 0 0 0 0
+2 5 100 P
+F A 3 1 0
+#3724
+ointment salve~
+some ointment~
+A jar of foul smelling ointment.~
+cream~
+pill 0 A
+10 'haste' 'armor' 'reserved' 'reserved'
+2 5 50 P
+#3725
+gypciere bag~
+a {ygypciere{x~
+A square {ybag{x which can be hung from the waist.~
+unknown~
+container 0 AL
+100 A 0 50 100
+1 5 35 P
+#3726
+goblet pewter~
+a {Dpewter {Wgoblet{x~
+An engraved {Dpewter {Wgoblet{x. ~
+pewter~
+drink 0 A
+150 150 'water' 0 0
+1 10 100 P
+#3750
+fountain water~
+a fountain~
+A fountain gushes {Cice{W-{Ccold {Wsparkling {xwater here.~
+unknown~
+fountain 0 0
+125000 125000 'water' 0 0
+0 1000 0 P
+#3751
+crust bread~
+a crust of bread~
+A crust of bread has been left here.~
+unknown~
+food 0 A
+60 60 0 0 0
+0 5 0 P
+#3752
+bench~
+a bench~
+A {Dwrought-iron {xbench stands under a lamp post.~
+unknown~
+furniture 0 0
+5 1000 EHK 150 150
+0 500 0 P
+#3753
+foggy haze~
+a {cfoggy {Whaze{x~
+A {cfoggy {Whaze{x floats around you.~
+unknown~
+armor 0 AQ
+1 1 1 1 0
+1 0 60 P
+F A 5 1 0
+#3754
+knife~
+a {rblood{x stained knife~
+A knife covered in {rblood{x.~
+unknown~
+weapon 0 AN
+dagger 1 4 stab 0
+0 5 30 P
+#0
+
+
+
+#ROOMS
+#3700
+The Start~
+{cHere is where it all begins - the adventure, the kinship, the addiction...{x
+ 
+{CM{cud {CS{cchool{x lies to the north (total beginners to muds should start
+here), the {gforest{x lies to the south.  Explore!
+ 
+{W     For the new player, here is the SECRET to the entire game :{x
+{Y     -------------> {RRead and Look at Everything!{Y <-------------{x
+ 
+{CIf you have a color monitor, you should type {c'{WCOLOR{c'{C now.  Color
+makes the game easier to read and also helps you to distinguish what is going 
+on around you.
+ 
+{YGo NORTH to begin your learning experience{x.
+~
+0 12 0
+D0
+~
+~
+0 0 3757
+D2
+You see the one way door into the Arena of Mud School.
+~
+door~
+1 -1 3744
+D3
+You see the way into the Chessboard.
+~
+~
+0 0 11100
+D4
+You see the registration for {CK{camp {CX{caos{x beginning.
+~
+~
+0 0 11000
+D5
+~
+~
+0 0 3001
+S
+#3701
+Equipment Check Room~
+Type '{Bequipment{x' or '{Beq{x' to see what you are currently wearing.  At
+the beginning when you first start, you will have just the bare minimum
+of equipment.  As you work your way through {CM{cud {CS{cchool{x, you will 
+acquire a complete set of equipment.
+ 
+To pick up items on the ground as you see them, type '{BGET item{x'.
+To wear a piece of armor, type '{BWEAR item{x'.
+To hold a light source, type '{BHOLD item{x'.
+To wield a weapon, type '{BWIELD weapon{x'.
+To wear, hold and wield everything you have, type '{BWEAR ALL{x'.
+To stop using a piece of equipment, type '{BREMOVE item{x'.
+Finally, to see the items in your inventory, type '{Binventory{x' or '{Bi{x'.
+ 
+To drop an item you have removed, type '{BDROP item{x'.
+To drop everything in your inventory, type '{BDROP ALL{x'.
+To pick up everything on the floor, type '{BGET ALL{x'.
+ 
+Note that the equipment that you start with, {Bdissolves{x when you drop it.
+Some of it does have a value though, so it is worth keeping to sell at the 
+shops in town.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 0
+D0
+~
+~
+0 0 3702
+S
+#3702
+Learn About Movement~
+Firstly, type '{Gauto{x'.  Make sure you have toggled '{Gautoexit{x' on.  To
+do this, type '{Gautoexit{x'.  It should have 'ON' next to it.  Don't worry about
+the rest of the settings just now, you'll learn about those in another room.
+ 
+The directions in this mud that you can walk/travel in are : {Gnorth{x, {Gsouth{x,
+{Geast{x, {Gwest{x, {Gup{x and {Gdown{x.  Of course not all rooms have all exits available.
+ 
+To see the obvious exits in a room, type '{Gexits{x'.
+ 
+Sometimes doors are {Gclosed{x, {Glocked{x or {Gsecret{x.  If the autoexit
+message shows '{c[none]{x', try looking for clues in the room description which
+may lead to secret doors, or simply try just going in different directions to
+see if a '{Gsecret{x' door exists.  You might get 'The secret is closed.' or another
+similar answer.  If there ARE no exits, type '{Grecall{x' or '{G/{x'.
+ 
+{YGo NORTH to continue with your learning experience{x.
+~
+0 131084 0
+E
+sign~
+This is the direction practicing room.  The directions you can go in any
+room are: north, south, east, west, up, or down.  Of course, not all rooms
+have all exits available.
+
+To see the obvious exits in a room, type 'EXITS'.
+
+Sometimes doors are closed, or locked, or secret.  Then you have to notice
+clues in the room description, or try going into that direction and seeing
+if you bump into a door.
+
+Try going into each direction from here.  When you are done, go NORTH.
+~
+D0
+~
+~
+0 0 3703
+S
+#3703
+Learn About Auto~
+Type '{Cauto{x' again.  '{CAutoassist{x' and '{Cautosplit{x' are concerned with being in
+group.  To group someone, they must follow you and then you can '{Cgroup <player>{x'.
+If you have toggled '{Cautoassist{x' on, you will automatically assist in the
+fight when they attack a mob.  If you have toggled '{Cautosplit{x' on, if you make
+the killing blow, you will split the proceeds with your group.  You might like
+to check that your group also has these two toggled on.
+ 
+'{CAutogold{x', if toggled on, means you automatically take the coins from the
+corpse.  '{CAutoloot{x' if toggled on, means you automatically loot whatever is on
+the corpse, i.e. equipment.  '{CAutosac{x' if toggled on, means you automatically
+sacrifice the corpse to {CX{caos{x.
+ 
+'{CCompact mode{x' should be toggled OFF until you get to know the mud, and even
+then, turning 'compact mode' on means you don't get any of the descriptions
+which means you might miss secret exits.  '{CPrompt{x' should be toggled on, so you
+can see the prompt that you made earlier.  '{CCombine items{x' should be toggled on,
+otherwise if you are carrying 10 daggers, each time you look at your inventory,
+you will be spammed with 10 lines of 'a dagger' instead of '(10) a dagger'.
+ 
+'{CNosummon{x' should be kept on at lower levels - it prevents other players
+from summoning or gating to you.  '{CNofollow{x' needs to be turned off if you
+want to group someone or want to show someone around.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 0
+D0
+~
+~
+0 0 3704
+S
+#3704
+Learn About Channels~
+Type '{Mchan{x' for a list of the channels that you can toggle on or off :
+ 
+'{MGossip{x'  - the roleplaying channel for in-character messages only.
+'{MOoc{x'     - the 'out of character' channel for everyday messages.
+'{MAuction{x' - the channel for auctioning items.
+'{MMusic{x'   - for reciting off your favourite songs or when listening to the 
+                minstrels or jukeboxes played 'LOUD' on the game.
+'{MQ/A{x'     - the Question/Answer channel where questions are more likely to
+                be answered.
+'{MQuote{x'   - for (clean) quotations you just can't keep to yourself.
+'{MGrats{x'   - the congratulations channel to cheer levelling players.
+ 
+'{MShouts{x'  - can be toggled off.
+'{MInfo{x'    - for information broadcasts.  
+'{MTells{x'   - can be turned off by typing '{Mdeaf{x'.
+'{Mquiet{x'   - mode can be toggled on for complete peace and quiet.
+                (Imm/Imps can still talk to you though).
+ 
+And your current prompt is also shown here.  
+As on all the channels, profanity is not allowed and is punishable.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 0
+E
+sign~
+Just go east to the central room.
+~
+D0
+~
+~
+0 0 3705
+S
+#3705
+Learn About Score~
+Type '{cscore{x'.  This table of information is what you will be referring 
+to throughout your mudding.  If you type '{csho{x' the affects which are 
+currently on you, will be shown as well, added to the bottom of the score.
+Type '{csho{x' again to remove the affects from the bottom of the score.
+ 
+Your '{cTitle{x' is shown on the first line along with the suffix you have 
+chosen to add.  To add a suffix, type '{ctitle <text>{x' or '{ctitle none{x'
+to remove your suffix totally.
+ 
+Your '{cLevel{x', '{cAge{x' and '{cHours{x' are shown on the second line.
+Your '{cRace{x', '{cSex{x' and '{cClass{x' are shown on the third line.
+Your '{RAttributes{x' are shown on the fourth line.
+Your '{RTrains{x', '{YPractices{x' and '{cAlignment{x' are on the fifth line.
+Your '{cExperience per level{x' and '{cTotal exp so far{x' are on the next line.
+Typing '{cworth{x' or '{cwo{x' will show your current money and xp to level.
+Your '{cCreation points{x' and '{cQuest Points{x' are on the next line.
+The totals of '{cItems carried{x' and '{cWeight{x' are on the next line.
+Your total '{cWorth{x' in {Ygold{x and {Wsilver{x is on the next line.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 0
+D0
+~
+~
+0 0 3707
+S
+#3707
+Learn About Score~
+Type '{gscore{x' again.  As you gain levels, your score table will expand to
+show more information.  Eventually, you will be able to see your '{gHitroll{x'
+and '{gDamroll{x' as well as your '{gWimpy{x' on the first line of {ggreen{x.
+Now is probably a good time to set your '{gWimpy{x'.  If you set it to '{g8{x',
+this means that when your '{ghps{x' or '{ghitpoints{x' get down to 8, you will flee.
+If you set it too low, you might not get away in time...and you might {WDIE{x.
+ 
+If you {WDIE{x, your corpse automatically goes to the {Wmorgue{x, at least until you 
+reach level 20.  You also lose all the experience you gained in this 'sitting'.
+After you pass level 20, your corpse stays where you died even though you go to
+the healer in Midgaard.
+ 
+The next line shows your '{gArmor Class{x' against '{gpiercing{x', '{gbashing{x',
+'{gslashing{x' and '{gmagic{x'.  Eventually you will be able to see the actual
+figures in the '{G[{gsquare brackets{G]{x'.  In this instance, {gnegative{x is good.
+ 
+On the next line, your '{ghitpoints{x', '{gmana{x' and '{gmovement{x' is shown.
+Your movement is adjusted depending on the type of terrain you are moving in.
+ 
+{YGo NORTH to continue with your learning experience{x.
+~
+0 131084 0
+D0
+~
+~
+0 0 3708
+S
+#3708
+Learn About Hunger, Thirst and Sleeping~
+Type '{yscore{x' again.  The very last line deals with your current state.
+ 
+{yHunger{x - if you are hungry, you need to either buy something to eat
+             or kill something and eat a body part.  Be careful though, not
+             all body parts are edible... think about what you are eating.
+{yThirst{x - if you are thirsty, you need to find a fountain, a magical
+             spring or a container with non-poisoned liquid in it, to drink
+             from.  If the liquid in your container has been poisoned, you 
+             can 'pour <container> out' at any fountain or spring and 
+             'fill <container>' until it is full again.
+{ySleep{x  - sleeping is the best way of recuperating your hitpoints, mana and
+             movement.  Sleeping at a healer is the best place to sleep because
+             this room is usually a 'safe' room and no other mob or player
+             can attack you.
+{yRest{x   - resting is the next best thing to sleeping, as you can watch what
+             is going on around you, talk and not be attacked unawares.  You 
+             don't recuperate quite as fast as sleeping.  You can also '{ysit{x'.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 132108 0
+D0
+~
+~
+0 0 3709
+S
+#3709
+Learn About Consider~
+{CW{celcome to {CC{combat {CT{craining{C!{x
+ 
+In fighting mobs, it is important to learn about the command '{Cconsider{x'.  This
+tells you what your chances are of killing a character.  The estimated response
+is based on the level and hitpoints and {CNOT{x on the weapon the character is
+wielding or the armor it is wearing.
+ 
+The responses can be found by typing 'help consider' or reading them below :
+ 
+        You can kill them naked and weaponless. (easy)
+        They are no match for you.              (easy)
+        They would have to get lucky.           (easy)
+        They are an easy kill.                  (medium)
+        They are the perfect match!             (medium)
+        Do you feel lucky, punk?                (medium)
+        You'd need more than a little luck.     (hard)
+        They laugh mercilessly at you.          (hard)
+        Death will thank you for the gift.      (crazy to take it on)
+        You have COMPLETELY lost your mind.     (crazy to take it on)
+ 
+{YGo DOWN to continue your learning experience{x.
+~
+0 131084 0
+D5
+~
+~
+0 0 3712
+S
+#3710
+none~
+~
+0 131084 0
+S
+#3711
+none~
+~
+0 131084 0
+S
+#3712
+A Dimly Lit Cobbled Street~
+This unevenly cobbled street is dimly lit by wrought-iron street lamps
+whose wicks scutter and dance in the wind, as if threatening to blow out
+and leave the street in utter darkness.  The street continues to the east
+and west and a dark alley leads north and south.  A manhole cover lies to
+one side on the ground.  
+~
+0 131077 0
+D0
+~
+~
+0 -1 3713
+D1
+~
+~
+0 -1 3716
+D2
+~
+~
+0 0 3715
+D3
+~
+~
+0 -1 3714
+D5
+~
+~
+0 -1 3717
+S
+#3713
+A Dark Alley~
+This is a dark and creepy alley.  Blood stains the walls and drips to
+the cobbles and forms in small pools on the floor.  The light is almost
+non-existent coming from the street lamp to the south.  The tall walls on
+either side of the alley almost threaten to swamp that light.  The street
+lies to the south.  
+~
+0 131073 0
+D2
+~
+~
+0 -1 3712
+S
+#3714
+A Dead End~
+This is a dead end.  The street is very dimly lit and cobbled.  The
+cobbles are uneven underfoot and it would be easy to trip up.  Shadows
+are cast from the blowing wick of the street lamp and they create all
+sorts of strange figures leaping and dancing here.  The street continues
+to the east.  
+~
+0 131073 0
+D1
+~
+~
+0 -1 3712
+S
+#3715
+A Dark Alley~
+This is a darkened alleyway.  The light cast from the street lamp to
+the north sends dancing shadows down here making it seem almost ghostly. 
+The cobbles are uneven underfoot with the occasional pothole.  The tall
+walls of the alleyway don't do much for your confidence.  There is a pool
+of something dark lying on the floor at the end of the alley...  Is it
+rainwater or could it be something more sinister?  
+~
+0 131073 0
+D0
+~
+~
+0 0 3712
+S
+#3716
+A Dead End~
+This is a dead end.  The street is very dimly lit and cobbled.  The
+cobbles are uneven underfoot and it would be easy to trip up.  Shadows
+are cast from the blowing wick of the street lamp and they create all
+sorts of strange figures leaping and dancing here.  The street continues
+to the west.  
+~
+0 131073 0
+D3
+~
+~
+0 -1 3712
+S
+#3717
+In a Tunnel~
+This dark and damp tunnel is at the bottom of the manhole.  A small
+circle of light lies above and a few metal rungs are set into the wall
+here.  The tunnel leads to the south.  There is also another exit
+here....  
+~
+0 131084 0
+D1
+~
+door~
+1 -1 3719
+D2
+~
+~
+0 0 3718
+D4
+~
+~
+0 -1 3712
+S
+#3718
+Dark Corner~
+This is a dark corner of the tunnel.  Light, which shines in from the
+north, only vaguely light up the area.  Something moves in the shadows. 
+Could it be someone or something....?  There is something written on the
+wall here.  
+~
+0 131080 0
+E
+wall~
+Read the writing, not the wall.
+~
+E
+writing~
+The writing on the wall says :
+ 
+   Buy   - Buy something from the shady character.
+   List  - The shady character will tell you what's for sale.
+   Value - The shady character will tell you how much he will give you for
+           that item.
+   Sell  - Sell that item to the shady character.
+~
+D0
+~
+~
+0 0 3717
+S
+#3719
+Another Tunnel~
+This is a continuation of the tunnel.  It too is dark and damp and
+there is the sound of running water coming from somewhere.  The tunnel
+turns to the north here and there is a hatchway to the east.  It appears
+to be locked.  There must be a key somewhere....  
+~
+0 131084 0
+D0
+~
+~
+0 0 3720
+D1
+~
+door~
+2 3714 3721
+D3
+~
+door~
+1 -1 3717
+S
+#3720
+A Dead End in the Tunnel~
+The tunnel comes to a halt here.  Water cascades down the walls from
+above and flows into a drain in the ground.  The noise of the water makes
+it hard to hear anything let alone see.  Yet it doesn't feel like you are
+alone....  
+~
+0 131081 0
+D2
+~
+~
+0 0 3719
+S
+#3721
+A Cobbled Courtyard~
+The tunnel opens out into a cobbled courtyard.  Torches line the walls
+and burn fiercely casting light into the centre of the enclosure.  The
+cobbles are uneven but the potholes non-existent.  A large gate lies to
+the north and beyond that a forest full of game.  There is a scroll
+nailed to the wall.  
+~
+0 131072 0
+E
+scroll~
+To graduate from {CM{cud {CS{cchool{x, you must first kill this wicked poacher.
+Take your prize...if you can.  Open the gate and go NORTH from here to
+visit the forest and help Xaos to cull the game.  There are plenty of
+low-level creatures, but DON'T attack other players.
+ 
+If you want to go directly back to the temple at any time, type '{CRECALL{x'.
+ 
+After you have passed level 5 and can no longer train or practice in the 
+mud school, find your guild in Midgaard and the sailor who will train you.
+ 
+And above all, have fun!
+~
+D0
+The forest lies beyond the gate.
+~
+gate~
+1 -1 3722
+S
+#3722
+The {gForest {Gof {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3729
+D1
+~
+~
+0 0 3725
+D3
+~
+~
+0 0 3723
+D4
+~
+~
+0 0 3001
+S
+#3723
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3728
+D1
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3724
+D4
+~
+~
+0 0 3001
+S
+#3724
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3727
+D1
+~
+~
+0 0 3723
+D4
+~
+~
+0 0 3001
+S
+#3725
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3730
+D1
+~
+~
+0 0 3726
+D3
+~
+~
+0 0 3722
+D4
+~
+~
+0 0 3001
+S
+#3726
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3725
+D4
+~
+~
+0 0 3001
+S
+#3727
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3732
+D1
+~
+~
+0 0 3728
+D2
+~
+~
+0 0 3724
+D4
+~
+~
+0 0 3001
+S
+#3728
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3733
+D1
+~
+~
+0 0 3729
+D2
+~
+~
+0 0 3723
+D3
+~
+~
+0 0 3727
+D4
+~
+~
+0 0 3001
+S
+#3729
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3734
+D1
+~
+~
+0 0 3730
+D2
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3728
+D4
+~
+~
+0 0 3001
+S
+#3730
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3735
+D1
+~
+~
+0 0 3731
+D2
+~
+~
+0 0 3725
+D3
+~
+~
+0 0 3729
+D4
+~
+~
+0 0 3001
+S
+#3731
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3726
+D3
+~
+~
+0 0 3730
+D4
+~
+~
+0 0 3001
+S
+#3732
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3737
+D1
+~
+~
+0 0 3733
+D2
+~
+~
+0 0 3727
+D4
+~
+~
+0 0 3001
+S
+#3733
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3738
+D1
+~
+~
+0 0 3734
+D2
+~
+~
+0 0 3728
+D3
+~
+~
+0 0 3732
+D4
+~
+~
+0 0 3001
+S
+#3734
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  There is
+something carved into an oak tree here.  
+~
+0 0 0
+E
+tree~
+Look at the carving, not the tree.
+~
+E
+carving~
+The carving reads :
+ 
+Lo brave adventurers who dare to seek the horrors lying in yonder
+hole down below.  Fare thee well for thee cannot leave as easily as here.
+ 
+~
+E
+sign~
+Those with high bravery or low senses of cautiousness might wish to go below
+to the Dungeon.  However, know that there are aggressive monsters down there,
+and there is no quick escape back out of here when you are in the dungeon.
+~
+D0
+~
+~
+0 0 3739
+D1
+~
+~
+0 0 3735
+D2
+~
+~
+0 0 3729
+D3
+~
+~
+0 0 3733
+D4
+~
+~
+0 0 3001
+D5
+What kind of horrors lie down this hole?
+~
+hole~
+1 -1 3748
+S
+#3735
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3740
+D1
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3730
+D3
+~
+~
+0 0 3734
+D4
+~
+~
+0 0 3001
+S
+#3736
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3735
+D4
+~
+~
+0 0 3001
+S
+#3737
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3742
+D1
+~
+~
+0 0 3738
+D2
+~
+~
+0 0 3732
+D4
+~
+~
+0 0 3001
+S
+#3738
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3743
+D1
+~
+~
+0 0 3739
+D2
+~
+~
+0 0 3733
+D3
+~
+~
+0 0 3737
+D4
+~
+~
+0 0 3001
+S
+#3739
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3744
+D1
+~
+~
+0 0 3740
+D2
+~
+~
+0 0 3734
+D3
+~
+~
+0 0 3738
+D4
+~
+~
+0 0 3001
+S
+#3740
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3745
+D1
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3735
+D3
+~
+~
+0 0 3739
+D4
+~
+~
+0 0 3001
+S
+#3741
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D0
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3736
+D3
+~
+~
+0 0 3740
+D4
+~
+~
+0 0 3001
+S
+#3742
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D1
+~
+~
+0 0 3743
+D2
+~
+~
+0 0 3737
+D4
+~
+~
+0 0 3001
+S
+#3743
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D1
+~
+~
+0 0 3744
+D2
+~
+~
+0 0 3738
+D3
+~
+~
+0 0 3742
+D4
+~
+~
+0 0 3001
+S
+#3744
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D1
+~
+~
+0 0 3745
+D2
+~
+~
+0 0 3739
+D3
+~
+~
+0 0 3743
+D4
+~
+~
+0 0 3001
+S
+#3745
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D1
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3740
+D3
+~
+~
+0 0 3744
+D4
+~
+~
+0 0 3001
+S
+#3746
+The {gForest{G of {CX{caos{x~
+This is a large forest or hunting preserve which belongs to
+{CX{caos{x.  The creatures who live in this forest have to be culled
+regularly according to the head gamekeeper.  Large tall oak trees grow in
+this forest, spreading their branches far and wide, creating a leafy
+canopy under which deer and other animals like to graze.  Type '{CUP{x'
+to be magically transported by {CX{caos{x to the Temple.  
+~
+0 0 0
+D2
+~
+~
+0 0 3741
+D3
+~
+~
+0 0 3745
+D4
+~
+~
+0 0 3001
+S
+#3748
+An Underground Tunnel~
+This is a narrow dark tunnel.  A faint light is coming from somewhere
+but all that is visible are the earthen walls of the tunnel and the
+occasional tree root growing through the wall.  Tunnels lead off in all
+directions.  Safety lies up in the forest through the hole above you.  
+~
+0 12 0
+D0
+~
+~
+0 0 3750
+D1
+~
+~
+0 0 3753
+D2
+~
+~
+0 0 3755
+D3
+~
+~
+0 0 3752
+D4
+Up is the safety of the forest!
+~
+hole~
+1 -1 3734
+S
+#3749
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the east
+and south.  
+~
+0 9 0
+D1
+~
+~
+0 0 3750
+D2
+~
+~
+0 0 3752
+S
+#3750
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the east,
+south and west.  
+~
+0 9 0
+D1
+~
+~
+0 0 3751
+D2
+~
+~
+0 0 3748
+D3
+~
+~
+0 0 3749
+S
+#3751
+A Dark Cavern~
+The tunnel widens out into a dark cavern here.  The earthen walls are
+no different, just further apart.  The smell is atrocious...  Wonder what
+lives here?  Tree roots hang down from the ceiling and brush your
+shoulders as you pass.  Tunnels lead off to the south and west.  
+~
+0 9 0
+D2
+~
+~
+0 0 3753
+D3
+~
+~
+0 0 3750
+S
+#3752
+A Dark Cavern~
+The tunnel widens out into a dark cavern here.  The earthen walls are
+no different, just further apart.  The smell is atrocious...  Wonder what
+lives here?  Tree roots hang down from the ceiling and brush your
+shoulders as you pass.  Tunnels lead off to the north, east and south.  
+~
+0 9 0
+D0
+~
+~
+0 0 3749
+D1
+~
+~
+0 0 3748
+D2
+~
+~
+0 0 3754
+S
+#3753
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the north,
+west and south.  
+~
+0 9 0
+D0
+~
+~
+0 0 3751
+D2
+~
+~
+0 0 3756
+D3
+~
+~
+0 0 3748
+S
+#3754
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the north
+and east.  
+~
+0 9 0
+D0
+~
+~
+0 0 3752
+D1
+~
+~
+0 0 3755
+S
+#3755
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the north,
+east and west.  
+~
+0 9 0
+D0
+~
+~
+0 0 3748
+D1
+~
+~
+0 0 3756
+D3
+~
+~
+0 0 3754
+S
+#3756
+An Underground Tunnel~
+This is a narrow dark tunnel.  The earthen walls of the tunnel
+surround you and you feel trapped.  Tree roots wind along the floor
+making it difficult to avoid tripping up.  Tunnels lead off to the north
+and west.  
+~
+0 9 0
+D0
+~
+~
+0 0 3753
+D3
+~
+~
+0 0 3755
+S
+#3757
+First Things First~
+{CSet Up Your Prompt{x - type 'help prompt' and study the options
+carefully.  If you're stuck, try this one :
+ 
+prompt {{c<%h/%Hhp %m/%Mm %v %Xxp to level> {{x
+ 
+{CHiding Your Level{x - Next, do you want to hide your level?  This
+means that no one in the game sees what level you are.  All they see in 
+the 'who' list is {W???{x.  This means that each time you level, no one 
+knows about it except the immortals and yourself.  No one will grats you 
+on your level because they didn't see it.  If you want this, type 
+'hidelevel'.  It is a toggle, so if you want to take it off again, just 
+type 'hidelevel' again.
+ 
+{CSeeing When Others Level{x - type 'infochan' and it will toggle on so 
+that you will see all information broadcasts which are possible at your 
+level.  You won't see other players level if they have 'hidelevel' toggled 
+on.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 1
+D0
+~
+~
+0 0 3758
+S
+#3758
+{RVale{x'{Rs {GTraining Room{x~
+This is where you {RTRAIN{x.  Training is very important.  Type 'score' now.
+On the first line is your title.  On the second line is your level, age
+and hours.  On the third line is your race, sex and class.  On the fourth
+line are your {RATTRIBUTES{x.  These are {RStr{x (Strength), {RInt{x (Intelligence),
+{RWis{x (Wisdom), {RDex{x (Dexterity) and {RCon{x (Constitution).  Type '{ghelp stat{x' to see
+how high these can be trained for your race.  Your class adds an extra point to
+one attribute dependent on the class you chose.  Attributes can be increased
+using armor too.
+ 
+If you didn't customise to 40 creations points (cps), you will have more
+trains in the beginning.  Each time you level, you gain 1 train.
+ 
+To {Rtrain{x an attribute, type '{Rtrain <attribute>{x' i.e. train wis.  The
+attribute you picked will then increase by one point.  You can continue
+training until each attribute can no longer increase or you have run out
+of trains.  It is best to train '{Rwis{x' to the maximum to start with as this
+attribute accounts for how many 'practices' you achieve per level.  Likewise,
+'{Rcon{x' accounts for how many hps you achieve per level, '{Rint{x' accounts for how
+many % points you achieve per practice, '{Rdex{x' affects your armor class
+and '{Rstr{x' affects how much weight you can carry.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 1
+D0
+~
+~
+0 0 3759
+S
+#3759
+{YSolaris{x' {GPracticing Room{x~
+This is where you {YPRACTICE{x.  Type 'prac' now.  You will see a list of
+all the spells and/or skills that you are able to practice now.  You
+may wish to just practice a weapon skill until your intellience is higher
+whereby you can gain more % points per practice and increase your 'knowledge'
+in that skill or spell with less practices, or you may want to practice what 
+you can now.
+ 
+When you first start, you will be given 5 'free' practices.  To practice a skill
+or spell, type '{Yprac <skill/spell>{x' where the skill or spell is the one you
+wish to practice, i.e. prac sword.
+ 
+The highest percentage you can practice skills and spells up to is 75%.  To
+increase the percentage above that level, you must use the skill/spell in 
+question, and gradually your knowledge of that spell or skill will increase.
+You will gain experience for increasing your knowledge of each spell/skill 
+through usage.
+ 
+{YGo NORTH to continue your learning experience{x.
+~
+0 131084 1
+D0
+~
+~
+0 0 3701
+S
+#3760
+none~
+~
+0 0 0
+S
+#0
+
+
+
+#SPECIALS
+M 3707 spec_cast_adept Load to: a follower of {GKandahar{x
+M 3708 spec_cast_adept Load to: a follower of {bValkrist{x
+M 3714 spec_fido Load to: a rampaging beast
+M 3718 spec_mudschool1 Load to: a follower of {RVale{x
+S
+
+
+
+#RESETS
+D 0 3700 2 1
+D 0 3717 1 1
+D 0 3719 1 2
+D 0 3719 3 1
+D 0 3721 0 1
+D 0 3734 5 1
+D 0 3748 4 1
+O 0 3750 0 3708
+O 0 3751 0 3708
+M 1 3707 1 3712 1
+E 0 1218 0 20
+O 0 3752 0 3712
+M 1 3704 1 3713 1
+E 0 3707 0 7
+E 0 3712 0 13
+E 0 3754 0 17
+M 1 3705 1 3714 1
+E 0 3708 0 8
+E 0 3713 0 14
+M 1 3703 1 3715 1
+E 0 3706 0 6
+E 0 3711 0 12
+M 1 3702 1 3716 1
+E 0 3705 0 3
+E 0 3725 0 13
+P 0 3726 1 3725 1
+M 1 3717 1 3718 1
+G 0 3138 0
+G 0 3031 0
+G 0 3009 0
+G 0 3753 0
+G 0 3723 0
+M 1 3706 1 3720 1
+E 0 3709 0 9
+E 0 3710 0 10
+E 0 3714 0 17
+G 0 3724 0
+M 1 3720 1 3721 1
+E 0 3715 0 17
+M 1 3708 1 3721 1
+M 1 3721 7 3722 1
+M 1 3721 7 3723 1
+M 1 3711 4 3723 1
+M 1 3713 5 3724 1
+M 1 3700 3 3725 1
+M 1 3713 5 3725 1
+M 1 3721 7 3726 1
+M 1 3713 5 3727 1
+M 1 3700 3 3728 1
+M 1 3721 7 3728 1
+M 1 3712 4 3729 1
+M 1 3712 4 3730 1
+M 1 3709 5 3730 1
+M 1 3709 5 3731 1
+M 1 3701 3 3732 1
+M 1 3711 4 3732 1
+M 1 3721 7 3733 1
+M 1 3709 5 3734 1
+M 1 3710 3 3734 1
+M 1 3709 5 3735 1
+M 1 3712 4 3736 1
+M 1 3700 3 3737 1
+M 1 3711 4 3738 1
+M 1 3721 7 3738 1
+M 1 3701 3 3739 1
+M 1 3713 5 3740 1
+M 1 3701 3 3741 1
+M 1 3710 3 3742 1
+M 1 3713 5 3742 1
+M 1 3709 5 3743 1
+M 1 3712 4 3744 1
+M 1 3710 3 3745 1
+M 1 3711 4 3746 1
+M 1 3721 7 3746 1
+M 1 3714 1 3749 1
+M 1 3715 2 3751 2
+M 1 3716 2 3754 2
+M 1 3718 1 3758 1
+E 0 9090 0 20
+M 1 3719 1 3759 1
+E 0 1217 0 20
+S
+
+
+
+#SHOPS
+3717 9 5 17 19 1 110 95 0 23
+0
+
+
+
+#$
+
+

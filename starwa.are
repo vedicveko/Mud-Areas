@@ -1,0 +1,4218 @@
+
+#AREA {50 91} PaulAnka  Star Wars~
+#MOBILES
+#17200
+uncle Owen~
+Uncle Owen Skywalker~
+A well-built middle-aged man named Owen Skywalker stands here, repairing 
+an old land speeder.~
+~
+human~
+ABGT DFJ 1000 S
+65 5 45d11+8250 1d1+99 8d8+30 3
+-25 -20 -20 -15
+CDEFJKNQ ABR EH 0
+8 8 1 12
+GHMV ABCDEFGHIJK 2 0
+#17201
+aunt Beru~
+Aunt Beru Skywalker~
+A quiet woman by the name of Beru Skywalker, tends a small garden here.~
+~ 
+human~
+ABGT DFJ 1000 S
+65 3 45d11+8250 1d1+99 8d6+25 17
+-22 -20 -18 -20
+CDEFJKNQ ABR H 0
+8 8 2 73
+GHMV ABCDEFGHIJK 2 0
+#17202
+jawa~
+A Jawa~
+A small creature in a brown robe is here, with glowing eyes.~
+~
+unique~
+ACGR F 1000 S
+55 2 35d10+4575 10d10+450 6d6+20 11
+-20 -20 -20 -25
+CDEFGJKNU ABR CLPQ S
+8 8 0 3954
+GHMV ABCDEFGHIJK 1 0
+#17203
+C3P0 droid~
+C3P0~
+C3P0 stands here, telling you all about his 14 million languages.~
+~
+droid~
+ACHQ DFJN 1000 S
+60 4 45d11+6725 1d1+99 8d8+25 2
+-25 -25 -23 -22
+CDEFGHJKN ABCHI K JO
+8 8 0 0
+DM 0 2 0
+#17204
+R2D2 droid unit~
+R2D2~
+R2D2 is here, beeping away, and projecting holograms of Princess Leia.~
+~
+droid~
+ABGT DFJV 0 S
+60 3 45d11+6500 1d1+99 8d6+30 2
+-25 -25 -18 -15
+CDEFGHJKN ABCHI K JO
+8 8 0 0 
+DM 0 2 0
+#17205
+Han Solo smuggler~
+Han Solo~
+An experienced-looking pilot, named Han Solo stands here, looking around 
+suspiciously.~
+~
+human~
+ABGT DFJV 0 S
+65 20 50D10+9000 1d1+99 8d8+30 1
+-30 -30 -30 -20
+CEFKQ ABLMNOPQRS D K
+8 8 1 4328
+AGHMV ABCDEFGHIJK 2 0
+#17206
+chewbacca wookie~
+Chewbacca~
+Chewbacca the Wookie stands beside Han Solo, growling at you warily.  He 
+is a large furry creature who looks VERY strong.~
+~
+wookie~
+ABGT FJV 0 S
+70 20 55D12+10000 1D1+99 12D12+10 11
+-28 -30 -35 -40
+CDEFHKOQ ABCIKLMNOPQRS E G
+8 8 0 3875
+AGHMV ABCDEFGHIJKU 3 0
+#17207
+storm trooper stormtrooper~
+A Stormtrooper~
+A white-armoured Imperial Stormtrooper is here, checking the pilots' 
+papers and cargo manifests.~
+~
+human~
+ACGT DFJ -1000 S
+60 10 45D10+6000 1D1+99 8D6+20 17
+-22 -24 -22 -20 
+CEFU AGHILMNQRS C 0
+8 8 1 1349
+AGHMV ABCDEFGHIJK 2 0
+#17208
+storm trooper commander stormtrooper~
+Stormtrooper Commander~
+The Stormtrooper Commander is here, giving orders to his troopers, and 
+eyeing everyone suspiciously.~
+~
+human~
+ACGR DFJ -1000 S
+70 15 55D12+12000 15D12+500 8D10+30 3
+-30 -35 -35 -20
+CDEFKNQ ABHILMNPQRS C EF
+8 8 1 8376
+AGHMV ABCDEFGHIJK 2 0
+#17209
+Obi Wan Kenobi jedi~
+Obi Wan Kenobi~
+An old hermit, named Obi Wan Kenobi stands before you, with his 
+Lightsabre glowing.~
+~
+human~
+ABGT DEFJcc 1000 S
+70 15 55d12+10000 1d1+99 8d8+25 15
+-20 -20 -25 -30
+EFK ABJMNOPQR C H
+8 8 1 8734
+AGHMV ABCDEFGHIJK 2 0
+#17210
+Yoda jedi~
+Yoda~
+A very old jedi, named Yoda, talks backwards to you and leans on his staff.~
+~
+troll~
+ABGQ CDEFHIJ 1000 S
+70 10 60d12+9500 10d50+500 8d8+25 6
+-30 -32 -30 -40
+FIJK ABHIJLMNOPQRS CD G
+8 8 1 756
+AGHMV ABCDEFGHIJK 1 0
+#17211
+swamp wraith~
+The Swamp Wraith~
+A translucent Wraith of formidible size, appears out of nowhere and 
+blasts you into oblivion~
+~
+ghost~
+ABCFGO BDEFHJQTVaacc 0 S
+100 35 65d20+25000 20d50+5000 12d12+50 9
+-50 -50 -50 -50
+ACDEFGHK ABCLMNOPQRS DEFG 0
+8 8 0 0
+CIL 0 5 0
+#17212
+dragon green swamp~
+A Green Swamp Dragon~
+A lithe Green Dragon looks at you angrily, then attacks!!~
+~
+dragon~
+ABFG DEFJT -1000 S
+70 15 55d12+9500 10d20+500 8d8+35 7
+-35 -35 -35 -35
+ACEFK ABGKRS EH FIJ
+8 8 2 4857
+BZ ABCDEFGHIJKLPQUVX 5 0
+#17213
+snake swamp~
+A Swamp Snake~
+A slippery Swamp Snake (too many S's?) slips near your leg and hisses at 
+you vehemently.~
+~
+snake~
+A DFM -1000 S
+70 5 30D10+2500 1D1+99 6D6+15 8
+-15 -15 -15 -15
+U ABL F CD
+8 8 0 0
+AY LQVX 1 0
+#17214
+Newt killer giant~
+A Giant Killer Newt~
+A giant Killer Newt, indigenous only to Degobah, runs by at an incredible 
+speed.~
+~
+unique~
+AG V -1000 S
+75 2 35d15+3000 1d1+99 5d6+25 7
+-20 -15 -15 -20
+HU LRS BC D
+8 8 0 1500
+DV ABCDEFGHIJKXY 2 0
+#17215
+ skywalker jedi~
+Luke Skywalker~
+A young rebel pilot, Luke Skywalker, rumored to be the last living Jedi 
+Knight, stands here observing the preparations.~
+~
+human~
+ABGRT CDEFcc 1000 S
+90 15 65d15+15000 100d20+5000 10d8+30 3
+-50 -50 -50 -40
+DEFK ABLMNOPQRS CD 0
+8 8 1 4853
+AGHMV ABCDEFGHIJK 2 0
+#17216
+princess leia~
+Princess Leia~
+Princess Leia, leader of the Rebel Alliance, stands here with wierd buns 
+on her ears.~
+~
+human~
+ABGQT CDEF 1000 S
+90 10 65d15+13000 100d20+5000 8d8+25 2
+-40 -45 -45 -50
+EFK ABIJMNRS EG K
+8 8 2 7534
+AGHMV ABCDEFGHIJK 2 0
+#17217
+lando calrissian~
+Lando Calrissian~
+An astute commander, Lando Calrissian, stands here, discussing strategy 
+with Admiral Akabar.~
+~
+human~
+ABGT cc 1000 S
+85 10 60d12+13250 1d1+99 8d10+28 15
+-35 -45 -45 -15
+EFKR AB EF IOR
+8 8 1 3943
+AGHMV ABCDEFGHIJK 2 0
+#17218
+admiral akabar~
+Admiral Akabar~
+Admiral Akabar, a strange looking alien, instructs the rebel troops on 
+attack strategy.~
+~
+unique~
+ABGH DJ 1000 S
+85 10 60d12+8950 1d1+99 6d10+25 13
+-40 -40 -40 -60
+CKO ABKLRS EJ HI
+8 8 1 3983
+AGHMV ABCDEFGHIJK 2 0
+#17219
+droid worker~
+A Worker Droid~
+A small worker droid rolls by, beeping and humming.~
+~
+unique~
+ACGcc F 1000 S
+85 4 50d10+3500 1d1+99 5d6+25 16
+-25 -25 -30 -10
+F ABCLMNOPQRS 0 F
+8 8 0 0
+DH ABC 1 0
+#17220
+guard rebel~
+A Rebel Guard~
+A Rebel Guard stands here, eyeing everyone suspiciously.~
+~
+human~
+ACGTcc C 1000 S
+90 5 50d10+5500 1d1+99 6d8+21 3
+-30 -30 -45 -15
+CDEFKU ARS BF HLMNOQ
+8 8 1 3875
+AGHMV ABCDEFGHIJK 2 0
+#17221
+rebel pilot~
+A Rebel Pilot~
+A Rebel Pilot walks by, heading for the docking bay to leave for the 
+Death Star~
+~
+human~
+AGcc 0 0 S
+85 9 50d15+7500 1d1+99 8d8+23 4
+-25 -25 -25 -25
+CDEFKU ARS BF HLMNOQ
+8 8 1 3974
+AGHMV ABCDEFGHIJK 2 0
+#17222
+rebel soldier~
+A Rebel Soldier~
+A warmly-dressed Rebel Soldier walks hurredly past you, with a pistol in 
+his hand.~
+~
+human~
+AGT 0 1000 S
+95 10 65d15+15000 1d1+99 7d8+25 4
+-25 -25 -25 -25
+CDEFKU ARS BF HLMNOQ
+8 8 1 3853
+AGHMV ABCDEFGHIJK 2 0
+#17223
+stormtrooper imperial~
+An Imperial Stormtrooper~
+An Imperial Stormtrooper runs by, shooting at Rebels, and shouting orders.~
+~
+human~
+ACGT FJ -1000 S
+95 8 65d15+15000 1d1+99 7d8+25 4
+-25 -25 -25 -25
+CDEFKU ARS BF HLMNOQ
+8 8 1 3734
+AGHMV ABCDEFGHIJK 2 0
+#17224
+tonton tame~
+A Tame TonTon~
+A trained, tame Tonton is standing here, awaiting a rider for the battle.~
+~
+unique~
+AGH CJZ 0 S
+90 2 45d10+7000 1d1+99 8d8+22 1
+-20 -25 -25 -20
+IMR AILMQRS E F
+8 8 0 0
+AGHV ABCDEFGHIJKQU 3 0
+#17225
+tonton wild~
+A Wild TonTon~
+A Wild TonTon, guarding its nest looks at you, rears its head and attacks!~
+~
+unique~
+AFGH CJZ 0 S
+90 2 45d10+8500 1d1+99 7d8+25 1
+-25 -30 -28 -25
+IMR AILMQRS E F
+8 8 0 0 
+AGHV ABCDEFGHIJKQU 3 0
+#17226
+at-at imperial atat~
+An Imperial At-At~
+A 10-storey Imperial At-At walks over everything in its path, firing 
+large-calibre lasers into crowds of Rebel soldiers.~
+~
+unique~
+AG DFJ -1000 S
+96 8 50d12+8000 1d1+99 6d10+25 4
+-35 -35 -35 -45
+AOQ ABGLMNPQRS C 0
+8 8 0 5873
+0 0 5 0 
+#17227
+stormtrooper imperial~
+An Imperial Stormtrooper~
+An Imperial Stormtrooper, having heard about the Rebel assault, runs to a 
+battle station.~
+~
+human~
+AGT FJV -1000 S
+100 10 65d15+12500 1d1+99 10d10+30 3
+-35 -35 -30 -25
+FKQ ABLMNPQRS GHI 0
+8 8 1 9384
+AGHMV ABCDEFGHIJK 2 0
+#17228
+red guard~
+A Royal Red Guard~
+A Royal Red Guard stands here, guarding a door in silence.~
+~
+human~
+ABGR DFJN -1000 S
+102 15 65d15+14000 50d15+4000 8d8+35 17
+-40 -40 -40 -35
+AFKU AB C 0
+8 8 1 3987
+AGHMV ABCDEFGHIJK 2 0
+#17229
+commander imperial~
+The Imperial Commander~
+The Imperial Commander stands on the bridge, shouting orders to the crew.~
+~
+human~
+ABG NV -1000 S
+100 10 65d15+12000 1d1+99 9d8+25 2
+-32 -33 -34 -22
+FKQ AB EFGQS 0
+8 8 1 3948
+AGHMV ABCDEFGHIJK 2 0
+#17230
+darth vader~
+Darth Vader~
+Darth Vader, dark lord of the Empire, stands before you, guarding his 
+masters chambers...with his life.~
+~
+human~
+ABCGRTcc DEFJNZ -1000 S
+104 15 65d20+22000 150d10+5000 10d10+40 3
+-40 -38 -38 -32
+DEFIKN ABLPQRS HIK J
+8 8 1 25000
+AGHMV ABCDEFGHIJK 3 0
+#17231
+emperor imperial~
+The Emperor~
+The Emperor, a withered, ugly, repulsive old man, grins toothlessly as 
+you enter.~
+~
+human~
+ABFGQRTcc DEFJNZ -1000 S
+105 18 70d20+25000 10d20+5000 10d12+45 6
+-45 -45 -45 -50
+AFHK ABHJK CD 0
+8 8 1 50000
+AGHMV ABCDEFGHIJK 2 0
+#17232
+force guardian~
+The Force Guardian~
+A powerful entity, made up of all the minds of all the Jedi knights 
+everywhere, awaits in silence for the one true Jedi.~
+~
+unique~
+ABCGRTUV BDEFHN 0 S
+110 20 50d100+48000 20d50+10000 12d10+55 17
+-65 -65 -65 -75
+AE ABHIJLMNOPQRS 0 0 
+8 8 0 250000
+CHM A 5 0
+#17233
+BLACKNESS~
+THE BLACKNESS~
+The blackness surrounds you the only way to get past it is to die~
+~
+human~
+ABFGQRTcc DEFJNZ -1000 S
+105 18 70d20+25000 10d20+5000 10d12+45 6
+-45 -45 -45 -50
+AFHK ABCDEFGHIJKLMNOPQRST 0 0
+8 8 1 50000
+AGHMV ABCDEFGHIJK 2 0
+#17234
+BLACKNESS~
+THE BLACKNESS~
+The blackness surrounds you the only way to get past it is to die~
+~
+human~
+ABFGQRTcc DEFJNZ -1000 S
+105 18 70d20+25000 10d20+5000 10d12+45 6
+-45 -45 -45 -50
+AFHK ABCDEFGHIJKLMNOPQRST 0 0
+8 8 1 50000
+AGHMV ABCDEFGHIJK 2 0
+#0 
+#OBJECTS
+#17200
+key Hans steel~
+Han Solo's key~
+A small steel key belonging to Han Solo is here.~
+steel~
+18 P A
+0 0 0 0 0 
+1 1 10 G
+#17201
+chest wooden~
+A wooden chest~
+An old wooden chest sits in the corner of the room.~
+wood~
+15 DMO 0
+1000 2 17207 0 0
+1 1000 500 G
+#17202
+light sabre lightsabre blue~
+The Blue Lightsabre~
+Anakin Skywalkers Blue Lightsabre is here.~
+steel~
+5 AK AN
+1 9 9 28 0
+65 25 10000 G
+A
+19 4
+#17203 
+crossbow laser~
+A Laser Crossbow~
+Chewbacca's Laser Crossbow is a sleek black metal rail gun...very cool.~
+steel~
+5 B AN
+0 9 8 6 0
+65 25 10000 G
+A
+19 5
+#17204
+pistol laser~
+A Laser Pistol~
+Han Solo's Laser Pistol sits unused here.~
+steel~
+5 B AN
+0 9 9 6 0
+60 25 10000 G
+A
+18 4
+#17205
+belt ammunition ammo~
+Chewbacca's Ammunition Belt~
+A large ammunition belt, dropped by Chewbacca the Wookie is here.~
+leather~
+9 K AK
+13 13 9 10 0
+60 10 5000 G
+A
+17 -5
+A
+19 6
+#17206
+leather vest~
+Han Solo's Leather Vest~
+Han Solo's leather vest has been left here.~
+leather~
+9 G AD
+16 16 14 10 0
+70 10 5000 G
+A
+20 -5
+A
+21 -5
+A
+22 -5
+A
+23 -5
+A
+24 -5
+A
+25 -5
+#17207
+key wooden~
+Obi Wan's key~
+Obi Wan's wooden key is here.~
+wood~
+18 P 0
+0 0 0 0 0 
+1 1 500 G
+#17208
+amulet jedi ancient~
+An ancient Jedi Amulet~
+A silver Amulet with the sign of The Jedi, dating back to the clone wars, 
+lies forgotten in the dust.~
+metal~
+9 ABIJ AC
+14 14 16 15 0
+65 5 5000 G
+A
+3 2
+A
+4 2
+A
+12 80
+A
+13 50
+#17209
+staff jedi~
+Yoda's Staff~
+Yoda's Staff has been left here.~
+wood~
+9 AG AO
+17 17 18 18 0
+75 5 5000 G
+A
+12 75
+A
+18 5
+A
+19 5
+#17210
+jedi armor~
+Ancient Jedi Armor~
+Ancient Jedi Battle Armor, used in the times of the clone wars, gave good 
+protection to the Jedi Knights in battle.~
+adamantium~
+9 BJ AD
+18 19 19 18 0
+75 20 5000 G
+A
+18 4
+A
+19 4
+A
+13 150
+#17211
+key black~
+A Black Key~
+A Black Key on a string is here.~
+steel~
+18 A A
+0 0 0 0 0 
+65 1 10000 G
+#17212
+key silver x-wing~
+A Silver X-Wing key~
+A Silver Key belonging to an X-Wing lies here.~
+silver~
+18 A A
+0 0 0 0 0 
+65 1 10000 G
+#17213
+gold chest~
+A Gold Chest~
+A large Gold Chest sits here, gleaming.~
+gold~
+15 M 0
+10000 2 17211 0 0
+65 1 10000 G
+#17214
+gem glowing ruby~
+A Glowing Red Gem~
+A large fiery red Gem sits here, gleaming brightly.~
+ruby~
+20 A A
+20000 0 0 0 0 
+1 20 20000 G
+#17215
+key card code~
+A Coded Key Card~
+A Coded Key Card, which is unlabelled sits here.~
+steel~
+18 A A
+0 0 0 0 0 
+50 5 10 G
+#17216
+crate weapon~
+A small Weapon Crate~
+A Weapon Crate sits here, gathering dust.~
+wood~
+15 MO 0 
+10000 2 17215 0 0
+50 100000 1 G
+#17217
+helmet pilot's~
+A Rebel Pilot's Helmet~
+An orange helmet belonging to a Rebel Pilot has been dropped here.~
+metal~
+9 GK AE
+15 18 18 19 0
+85 10 2000 G
+A
+2 3
+A
+5 2
+A
+13 100
+A
+19 4
+#17218
+comm-link radio wrist~
+A Wrist Comm-Link~
+A pilot's Comm-Link is here, squawking with interference.~
+metal~
+9 0 AM
+13 15 16 12 0
+80 10 23948 G
+#17219
+earmuffs leia's ear muff~
+Princess Leia's Earmuffs~
+A pair of round hair-bun earmuffs sit here.~
+hair~
+9 A AE
+18 19 17 17 0
+80 10 4875 G
+A
+4 2
+A
+5 2
+A
+6 2
+A
+23 -10
+#17220
+ring council rebel~
+A Rebel Council Ring~
+A golden ring, bearing the signet of Princess Leia sits here.~
+gold~
+9 AFGK AB
+18 20 18 20 0
+90 2 9587 G
+A
+13 150
+A
+17 -15
+A
+18 4
+A
+19 4
+#17221
+map death-star death star~
+A map of the Death Star~
+A map of one floor of the Death Star is here, and everyone wants to see it.~
+paper~
+28 0 A
+0 0 0 0 0 
+60 2 4875 G
+E
+map~
+Technical Reference #5347YU-A1
+
+Level 1
+       Docking---Docking---Docking
+          |         |         
+        Hall------Hall----> Level 2
+
+Level 2 
+ from    Hall----Hall----Hall----Shield Panel
+ level 2  |
+  ---->  Hall    Hall----Hall----Hall----Bridge
+          |       |               |
+         Hall----Hall    Exit----Hall
+                  |               |
+                 Hall----Hall----Hall
+~
+#17222
+boots black~
+Black Boots~
+A pair of new Black Boots, shine in the light here.~
+leather~
+9 A AG
+18 18 19 18 0
+83 10 3984 G
+A
+1 3
+A
+2 2
+A
+14 250
+A
+17 -20
+#17223
+gold coins~
+A pile of gold Credits~
+A large pile of gold is here.~
+gold~
+20 0 A
+25000 0 0 0 0 
+0 10 25000 G
+#17224
+laser pistol~
+A Laser Pistol~
+A standard issue laser pistol is here.~
+metal~
+5 0 AN
+0 10 10 6 0
+95 10 500 G
+A
+18 5
+#17225
+tonton horn~
+A TonTon's Horn~
+A gory horn, ripped from the TonTon's head in battle sits here in blood.~
+ivory~
+9 A AO
+18 19 19 20 0
+99 5 500 G
+A
+17 -20
+A
+18 4
+A
+19 6
+#17226
+keycard digital~
+A Digital Keycard~
+A small digital keycard is here.~
+metal~
+18 0 A
+0 0 0 0 0 
+1 1 19 G
+#17227
+sleeves black leather~
+Darth Vader's Black Arm Guards~
+A very flexible pair of black arm guards are here.~
+leather~
+9 MQ AI
+18 18 20 15 0
+100 10 1000 G
+A
+1 5
+A
+13 100
+A
+17 -20
+A
+18 5
+A
+19 5
+#17228
+lightsabre red~
+A Red Lightsabre~
+Darth Vader's red Lightsabre lies here.~
+metal~
+5 A AN
+1 10 11 21 0
+102 10 1000 G
+A
+19 10
+#17229
+key nexus~
+The Nexus Key~
+An almost transparent key is here, fading in and out of existence.~
+metal~
+18 0 A
+0 0 0 0 0 
+1 1 1000 G
+#17230
+ring emperor's dark~
+The Emperor's Dark Ring~
+A twisted black ring, which emanates power drawn from the dark side of 
+the force is here.~
+metal~
+9 A AB
+20 20 20 20 0
+102 5 1000 G
+A
+3 5
+A
+9 20
+A
+17 5
+A
+18 10
+A
+20 -5
+A
+21 -5
+A
+22 -5
+A
+23 -5
+A
+24 -5
+#17231
+force power~
+The Force of the Jedi~
+A warm glowing nexus of power, which connects everything in the universe 
+surrounds you.~
+unknown~
+9 ABFGHM AK
+20 20 20 20 0
+103 20 1 G
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+12 100
+A
+13 100
+A
+17 -40
+A
+19 10
+A
+20 -8
+A
+21 -8
+A
+22 -8
+A
+23 -8
+A
+24 -8
+#0
+#ROOMS
+#17200
+A Farm~
+You stand in a dusty farmyard, surrounded by low-built metal sheds.  
+Scrap metal pieces lay scattered on the ground, and humming sounds can be 
+heard all around you.  A small door leads somewhere underground to the 
+east, and more of the yard can be seen to the south.  A large range of 
+mountains blocks the passage north or west.
+~
+0 0 10
+D1
+More farmyard lies east.
+~
+~
+0 -1 17201
+D2
+More of the farm is south.
+~
+~
+0 -1 17208
+D5
+~
+~
+0 -1 9369
+S
+#17201
+A Farm~
+Standing in a dusty farmyard, you wonder who the heck could live in a 
+desert like this...then a small sign catches your eye, leaning against a 
+metal shed.  A decrepit old fence marks the end of the farmyard and the 
+beginning of the harsh Tattooine desert due east of here, while the 
+farmyard continues to the south.
+~
+0 0 10
+D1
+A vast rolling desert is east.
+~
+~
+0 -1 17202
+D2 
+The farmyard continues south.
+~
+~
+0 -1 17209
+D3
+The farmyard continues west.
+~
+~
+0 -1 17200
+E
+sign~
+The sign reads one word...'Skywalker'.
+~
+S
+#17202
+Desert~
+The cast rolling desert of Tattooine spreads like a plague before you.  
+You wonder if this planet has anything but sand on it.  If you started 
+digging, could you make it all the way to the other side?  A glint of 
+metal catches your eye to the west, mountains block your passage to the 
+north, and the desert continues in all other directions.
+~
+0 0 10
+D1
+Rolling sand can be seen east of here.
+~
+~
+0 -1 17203
+D2
+Rolling sand can be seen to the south.
+~
+~
+0 -1 17210
+D3
+A small farmyard can be seen to the west.
+~
+~
+0 -1 17201
+S
+#17203
+Desert~
+The vast rolling desert continues on in all directions, except for the 
+mountains to the north, which are impassable.
+~
+0 0 10
+D1
+Rolling desert can be seen to the east.
+~
+~
+0 -1 17204
+D2
+Rolling sand lies to the south.
+~
+~
+0 -1 17211
+D3
+More sand lies west of here.
+~
+~
+0 -1 17202
+S
+#17204
+Desert~
+The vast rolling desert continues in all directions, except for the 
+mountains to the north which are impassable.
+~
+0 0 10
+D1
+The desert continues to the east.
+~
+~
+0 -1 17205
+D2
+The desert continues to the south.
+~
+~
+0 -1 17212
+D3 
+The desert continues to the west.
+~
+~
+0 -1 17203
+S
+#17205
+Desert~
+The vast rolling desert continues in all directions, except for the 
+mountains to the north, which are impassable.
+~
+0 0 10
+D1
+The desert continues to the east.
+~
+~
+0 -1 17206
+D2
+The desert continues to the south.
+~
+~
+0 -1 17213
+D3
+The desert continues to the west.
+~
+~
+0 -1 17204
+S
+#17206
+Desert~
+The vast rolling desert continues in all directions, except for the 
+mountains to the north, which are impassable.
+~
+0 0 10
+D1
+The desert continues to the east.
+~
+~
+0 -1 17207
+D2
+The desert continues to the south.
+~
+~
+0 -1 17222
+D3
+The desert continues to the west.
+~
+~
+0 -1 17205
+S
+#17207
+Desert~
+The vast rolling desert continues in all directions, except for the 
+mountains to the north, which are impassable.
+~
+0 0 10
+D1
+The desert continues to the east.
+~
+~
+0 -1 17207
+D2
+The desert continues to the south.
+~
+~
+0 -1 17215
+D3 
+The desert continues to the west.
+~
+~
+0 -1 17206
+S
+#17208
+Farmyard~
+Here, the farmyard seems to end.  A rotting wood fence lines what appears 
+to be the southern and western boundaries of the property.  The empty 
+desert begins south of here, and mountains block the way west.  More of 
+the farm lies east and north.
+~
+0 0 10
+D0
+More farmyard lies to the north.
+~
+~
+0 -1 17200
+D1
+More farmyard lies to the east.
+~
+~
+0 -1 17209
+D2
+The desert lies to the south.
+~
+~
+0 -1 17216
+S
+#17209
+Farm~
+This appears to be the south-east corner of a desert farmyard.  Equipment 
+sheds run along the south boundary, acting also as a wind barrier.  The 
+sounds of someone working can be heard nearby.  The farmyard continues to 
+the north and west, while the desert stretches out behind you to the 
+south and east.
+~
+0 0 10
+D0
+The farmyard lies to the north.
+~
+~
+0 -1 17201
+D1
+The desert lies to the east.
+~
+~
+0 -1 17210
+D2
+The desert lies to the south.
+~
+~
+0 -1 17217
+D3
+The farmyard lies to the west.
+~
+~
+0 -1 17208
+S
+#17210
+Desert~
+The vast rolling desert continues to the north, east, and south.  A glint 
+of metal can be seen west of here, but you aren't sure what it could be.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17202
+D1
+The desert continues to the east.
+~
+~
+0 -1 17211
+
+D2
+The desert continues to the south.
+~
+~
+0 -1 17218
+D3
+A small farm lies west of here.
+~
+~
+0 -1 17209
+S
+#17211
+Desert~
+The vast rolling desert continues in all directions.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17203
+D1
+The desert continues to the east.
+~
+~
+0 -1 17212
+D2
+The desert continues to the south.
+~
+~
+0 -1 17219
+D3 
+The desert continues to the west.
+~
+~
+0 -1 17210
+S
+#17212
+Desert~
+The vast rolling desert continues in all directions.  Some faint beeping 
+and tweeting noises carry this way from the south, and you can make out 
+the faint glint of the sunlight off metal.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17204
+D1
+The desert continues to the east.
+~
+~
+0 -1 17213
+D2
+The desert continues to the south.
+~
+~
+0 -1 17220
+D3
+The desert continues to the west.
+~
+~
+0 -1 17211
+S
+#17213
+Desert~
+The vast rolling desert continues in all directions, except north, where 
+you can barely make out a small cave entrance.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17205
+D1
+A small cave lies to the east.
+~
+~
+0 -1 17214
+D2
+The desert continues to the south.
+~
+~
+0 -1 17221
+D3
+The desert continues to the west.
+~
+~
+0 -1 17212
+S
+#17214
+Cave Opening~
+You stumble into the entrance to a small cave.  The remains of a fire sit 
+in one corner, and indication of someone having used this place for 
+shelter from the harsh desert nights.  Tracks in the floor of the cave 
+are fresh, and lead back out of the cave.  Perhaps you should try and 
+find out who these tracks belong to.  The cave leads west out to the desert.
+~
+0 0 0
+D3
+The cave exits west, out to the desert.
+~
+~
+0 -1 17213
+S
+#17215
+Desert~
+The vast rolling desert continues in all directions.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17207
+D1
+The desert continues to the east.
+~
+~
+0 -1 17215
+D2
+The desert continues to the south.
+~
+~
+0 -1 17223
+D3
+The desert continues to the west.
+~
+~
+0 -1 17215
+S
+#17216
+Desert~
+The desert continues to the east.  Mountains block your path southwards 
+and westwards, and you can see a small farm to the north.
+~
+0 0 10
+D1
+A small farm lies to the north.
+~
+~
+0 -1 17208
+D1
+The desert continues to the east.
+~
+~
+0 -1 17217
+S
+#17217
+Desert~
+The desert stretches out to the east and west, while a small farm lies to 
+the north.  A huge mountain range blocks any possibility of going south.
+~
+0 0 10
+D0
+A small farm lies to the north.
+~
+~
+0 -1 17209
+D1
+The desert continues to the east.
+~
+~
+0 -1 17218
+D3
+The desert continues to the west.
+~
+~
+0 -1 17216
+S
+#17218
+Desert~
+The vast rolling desert continues in all directions.  You can make out 
+large tread tracks in the sand here, but they are quickly being blown 
+over with fresh sand.  The tracks head in an easterly direction.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17210
+D1
+The desert continues to the east.
+~
+~
+0 -1 17219
+D2
+The desert continues to the south.
+~
+~
+0 -1 17224
+D3
+The desert continues to the north.
+~
+~
+0 -1 17217
+S
+#17219
+Desert~
+The vast rolling desert continues in all directions.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17211
+D1
+The desert continues to the east.
+~
+~
+0 -1 17220
+D2
+The desert continues to the south.
+~
+~
+0 -1 17225
+D3
+The desert continues to the west.
+~
+~
+0 -1 17218
+S
+#17220
+Jawa Camp~
+You have found the source of the tracks.  A large scrap trailer, run by 
+the Jawa's moves slowly through the desert sands.  You notice what appear 
+to be two new additions to the droid stock that these Jawa's carry with 
+them.  The Jawa's quickly hustle the droids into their tractor, and eye 
+you suspiciously.  The desert continues in every direction, or you can go 
+up the ladder into the Jawa's tractor.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17212
+D1
+The desert continues to the east.
+~
+~
+0 -1 17221
+D2
+The desert continues to the south.
+~
+~
+0 -1 17226
+D3
+The desert continues to the west.
+~
+~
+0 -1 17219
+D4
+A small ladder leads up into the Jawa tractor.
+~
+~
+0 -1 17237
+S
+#17221
+Desert~
+The vast rolling desert continues in all directions.  Tread tracks can be 
+made out in the quickly filling sand.  The seem to lead west.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17213
+D1
+The desert continues to the east.
+~
+~
+0 -1 17222
+D2
+The desert continues to the south.
+~
+~
+0 -1 17227
+D3
+The desert continues to the west.
+~
+~
+0 -1 17220
+S
+#17222
+Desert~
+The vast rolling desert continues to the north, west, and east.  A small 
+sign points to the south.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17206
+D1
+The desert continues to the east.
+~
+~
+0 -1 17223
+D2
+A small, well worn trail leads south.
+~
+~
+0 -1 17228
+D3
+The desert continues to the west.
+~
+~
+0 -1 17221
+E
+sign~
+The sign says 'Mos Eisley Space Port, please have all papers ready.'
+~
+S
+#17223
+Desert~
+The vast rolling desert continues to the north, east, and west.  Land 
+speeders can be seen kicking up dust to the south.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17215
+D1
+The desert continues to the east.
+~
+~
+0 -1 17223
+D2
+A well worn speeder trail leads south.
+~
+~
+0 -1 17229
+D3
+The desert continues to the west.
+~
+~
+0 -1 17222
+S
+#17224
+Desert~
+The vast rolling desert continues to the north and east.  Mountains block 
+your passage the south and west.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17218
+D1
+The desert continues to the east.
+~
+~
+0 -1 17225
+S
+#17225
+Desert~
+Uh-oh...you knew wandering around in this ugly desert was going to get 
+you into trouble sooner or later.  You find yourself waist deep in 
+fast-moving sand, and you are sinking quickly...There is no way to pull 
+yourself out of this...just hold your breath and hope.
+~
+0 0 10
+D5
+Sand..nothing but sand...
+~
+~
+0 -1 17232
+S
+#17226
+Desert~
+The vast rolling desert continues in all directions, except for the 
+mountains blocking the way south.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17220
+D1 
+The desert continues to the east.
+~
+~
+0 -1 17227
+D3
+The desert continues to the west.
+~
+~
+0 -1 17225
+S
+#17227
+Desert~
+The desert continues to the north and west, while you can make out 
+activity to the east.  You vaguely remember a spaceport being out this 
+direction somewhere... Mountains block the way south.
+~
+0 0 10
+D0
+The desert continues to the north.
+~
+~
+0 -1 17221
+D1
+A well worn trail leads east.
+~
+~
+0 -1 17228
+D3
+The desert continues to the south.
+~
+~
+0 -1 17226
+S
+#17228
+Mos Eisley Space Port~
+You walk through what appears to be a small desert town, but the troops 
+of Imperial Stormtroopers betray the importance of this location as a 
+major stopover for trading ships from other planets.  Careful not to look 
+suspicious, you quickly look around for somewhere to hide.  A docking 
+platform and fuel station lies to the east, and music can  be heard from 
+the south.  Otherwise, the desert welcomes you to the north and west.
+~
+0 0 1
+D0 
+The desert lies to the north.
+~
+~
+0 -1 17222
+D1
+A docking platform is east.
+~
+~
+0 -1 17229
+D2
+More of the town is south of here.
+~
+~
+0 -1 17230
+D3
+The desert lies to the west.
+~
+~
+0 -1 17227
+S
+#17229
+Docks~
+This is the platform where all of the trading ships sit while being 
+refueled or loaded with cargo.  Imperial stormtroopers inspect all of the 
+cargo being loaded and check all of the pilot's papers.  It would 
+probably be very difficult to leave Tattooine on one of these ships.  
+More of the space port is south or west of here.
+~
+0 0 1
+D2
+A dusty trail leads south.
+~
+~
+0 -1 17231
+D3
+A trail leads west.
+~
+~
+0 -1 17228
+S
+#17230
+Mos Eisley Cantina~
+You have entered a smoke-filled noisy cantina.  The vast array of 
+creatures from other planets startles you for a minute.  Suddenly you see 
+another reasonably normal looking person.  He is however sitting beside a 
+large furry creature that growls incoherently once in a while.  He looks 
+like he might be able to get you off of this forsaken planet.  The exit 
+to the outside is to the north, while the smuggler points carefully to a 
+small hatch in the south wall.
+~
+0 0 0
+D0
+The exit is north.
+~
+~
+0 -1 17228
+D2
+A small hatch leads south.
+~
+~
+2 17200 17234
+S
+#17231
+Trading Post~
+This area of the port is reserved for those merchants who wish to try and 
+sell some of their wares before moving on to another planet.  Several 
+small stands catch your eye, each of the sellers calling to you in one language
+or another.  The docks are north of here.
+~
+0 0 1
+D0
+The docks are north.
+~
+~
+0 -1 17229
+S
+#17232
+Underground Cave~
+
+
+You 
+
+	Are
+
+		F
+		
+		A
+
+		L
+
+		L
+
+		I
+
+		N
+
+		G
+
+		!
+
+		!
+
+		!
+
+			*THUD*
+
+You land hard on your desert-weary butt, and look around to find a small 
+cave, hidden underneath the sand!  The sounds of someone moving around 
+can be heard from the east.
+~
+0 0 1
+D1
+Warm light spills from a room to the east.
+~
+~
+0 -1 17233
+S
+#17233
+Cave~
+Light fills the room, the result of a small fire in the centre of the 
+room.  The hermit who lives here is very neat, and keeps a tidy cave.  
+Suddenly someone speaks to you, 'Welcome, young Jedi.', and you turn in 
+time to see an old man in a brown robe standing there, holding what looks 
+like a flashlight.  'You must chose between the two sides of the force.  
+This was your fathers, he told me to give it to you. In order to get it, you 
+must defeat me, however. You must then leave the planet, go up out of this room,
+and you will be directly west of the Mos Eisley Space Port, there you 
+will find someone to take you to another planet.'  With that, the old man 
+holds up the silver wand, and a bright light shoots up from the handle.
+~
+0 0 1
+D3
+The cave entrance is west of here.
+~
+~
+0 -1 17232
+D4
+A small opening leads up to the surface.
+~
+~
+0 -1 17227
+S
+#17234
+Smugglers Cove~
+You crawl into a cave, just barely large enough for the ship that it 
+shelters.  There are two ships here, one is heading for Hoth, the ice 
+planet, and the other is heading to the Degobah system.  The Hoth ship is 
+east, and the Degobah ship is west.  A sign has been placed on the wall here.
+~
+0 0 1
+D1
+The ship leaving for Hoth is east.
+~
+~
+0 -1 17235
+D3
+The ship leaving for the Degobah system is west.
+~
+~
+0 -1 17236
+E
+sign~
+The sign reads: 
+
+		/----------------------------\
+		|                            |
+		|			     |
+		|  Hoth is meant for levels  |
+		|			     |
+		|  60-75, while Degobah is   |
+		|                            |
+		|  still 50-60.  Be careful, |
+                |                            |
+		|  it gets harder :-)        |
+		|                            |
+		|            -PaulAnka       |
+		|                            |
+		\----------------------------/
+~
+S
+#17235
+Mellenium Falcon~
+You are on board a Mellenium Falcon, heading for the Hoth system.  The 
+trip is long and uneventful.  You fold out of hyperspace and immediately 
+see the harch white and blue planet that is called Hoth.  Imperial Star 
+Destroyers can be seen orbiting the planet.  The Falcon lands on a plain 
+of ice near a small rebel encampment.  You may exit north to the landing 
+field.
+~
+0 0 1
+D0
+The field is north.
+~
+~
+0 -1 17290
+S
+#17236
+Mellenium Falcon~
+You are on board a Mellenium Falcon, headed for the Degobah system.  As 
+you fall out of hyperspace, you clearly see the green and brown planet 
+that is the only hospitable planet of this system.  The Falcon makes a 
+landing rather roughly on some swampland, and you decide to exit to the 
+north, and take a look around.
+~
+0 0 1
+D0
+The exit is north.
+~
+~
+0 -1 17238
+S
+#17237
+Tractor~
+You climb on board the Jawa tractor, and several of the small creatures 
+crowd around you and shove you towards their new acquisitions.  Two 
+droids stand before you, a tall golden humanoid form droid, and an R2 
+unit.  The golden droid introduces himself as C3PO, an ambassador droid, 
+and his companion is R2D2.  The R2 unit begins to shake, and a holgram of 
+a beautiful woman appears from his sensor.  'Help me Obi Wan Kenobi, you 
+are my only hope...' Then it fades out.  The Jawa's are obviously trying 
+to sell you these droids.  You can leave the way you came, down.
+~
+0 0 1
+D5
+The exit is down.
+~
+~
+0 -1 17220
+S
+#17238
+Swamp~
+You are standing in the murky swamps of the planet Degobah.  You can see 
+a sunken ship in the brown ooze here, the sign of a bad landing.  More 
+swamp can be found to the north, and you ship waits for you to go back to 
+Tattoine to the south.
+~
+0 0 3
+D0
+More swamp is north.
+~
+~
+0 -1 17241
+D2
+Your ship lies to the south.
+~
+~
+0 -1 17239
+S
+#17239
+Flats~
+This part of the swamp is one of the few good places for a ship to land 
+on this squishy planet.  Your Mellenium Falcon is waiting here to take 
+you back to Tattooine.  You can climb aboard the Falcon by going up the 
+ramp leading to the hatch.  The only way out is west.
+~
+0 0 3
+D3
+The swamp lies to the west.
+~
+~
+0 -1 17238
+D4
+Your ship's ramp leads up.
+~
+~
+0 -1 17240
+S
+#17240
+Mellenium Falcon~
+You are on board the Mellenium Falcon, headed to Tattooine.  You enter 
+hyperspace, and a short while later, decellerate out of hyperspace, near 
+the desert planet.  After landing near the space port, you decide to exit 
+to your west.
+~
+0 0 0
+D3
+The Tattooine space port is west.
+~
+~
+0 -1 17229
+S
+#17241
+Swamp~
+You are walking through the seemingly endless murky swamps of Degobah.  
+Creatures of all sizes and shapes dart near and around you, making you 
+very jumpy and nervous.  The small trail cut in the dense vines continues 
+to the north and south.
+~
+0 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 17242
+D2
+The trail continues south.
+~
+~
+0 -1 17238
+S
+#17242
+Swamp~
+The trail through the swamp comes to a four-way intersection here.  The 
+land to the east seems to get a little dryer, but all other directions 
+appear to remain very wet.
+~
+0 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 17254
+D1
+A small hill lies to the east.
+~
+~
+0 -1 17244
+D2
+The trail continues to the south.
+~
+~
+0 -1 17241
+D3
+The trail continues to the west.
+~
+~
+0 -1 17243
+S
+#17243
+Swamp~
+The swamp trail seems to end here, and suddenly the foliage behind you 
+moves together and covers the only exit.  You frantically search all 
+sides of the clearing, but find no exit.  Gurgling noises come from all 
+directions, and you wonder if you are alone....
+~
+0 ATNU 3
+S
+#17244
+A small hill~
+You manage to dry off a bit as you climb up a small hill.  It is actually 
+just a strange mound of earth, and growing from the very top of it is a 
+tree which looks sturdy enough to climb.  It seems you would be able to 
+see over the tops of the dense swamp trees if you climbed it.  You can 
+also go east or west, back to the low-ground of the swamp.
+~
+0 0 3
+D1
+The swamp trail continues east.
+~
+~
+0 -1 17246
+D3
+The swamp trail continues to the west.
+~
+~
+0 -1 17242
+D4
+A tree leads up above the canopy.
+~
+~
+0 -1 17245
+S
+#17245
+The Tree~
+You rest yourself on a large branch of the tree, and take a look out over 
+the treetops.  You can barely make out a small column of smoke rising 
+above the trees to the north-east.  That seems to be the only sign of 
+civilization.  The only way out of this tree is, well, down.  There is 
+also a small carving in this tree near the top of the branch though.
+~
+0 0 3
+D5
+The ground is down. Don't fall.
+~
+~
+0 -1 17244
+E
+carving branch~
+A heart shaped carving is here:
+
+                   /---\      /---\
+                  /     \    /     \
+                 /       \  /       \
+                /         \/         \
+               |                      |
+               |  To what once was,   | 
+               |                      |
+               |       Paulanka       |
+               \          |           /
+                \        ---         /
+                 \        |         /
+                  \      Sass      /
+                   \              /
+                    \ But now is /
+                     \   lost.  /
+                      \        /
+                       \      /
+                        \    /
+                         \  /
+                          \/
+~
+S
+#17246
+Swamp~
+The trail through the swampy vines continues in an east-west direction.
+~
+0 0 3
+D1
+The trail continues east.
+~
+~
+0 -1 17247
+D3
+The trail continues to the west.
+~
+~
+0 -1 17244
+S
+#17247
+Swamp~
+The deep Degobhan swamp runs along a trail which heads north and west.
+~
+0 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 17248
+D3
+The trail continues west.
+~
+~
+0 -1 17246
+S
+#17248
+Swamp~
+Eyes seem to peer at you from all sides, but you can't exactly make out 
+anything in this dense foliage.  The trail leads you in a north-south 
+direction.
+~
+0 0 3
+D0 
+The trail leads north.
+~
+~
+0 -1 17249
+D2
+More swamp to the south.  Great.
+~
+~
+0 -1 17247
+S
+#17249
+Swamp~
+You are completely sick of this bloody green-brown swamp everywhere.  The 
+swamp gas in beginning to make you want to vomit.  Good thing you don't 
+smoke, because if you tried to light a match, the whole planet might 
+become a fireball.  The trail leads south and west.
+~
+0 0 3
+D2
+The trail leads south.
+~
+~
+0 -1 17248
+D3
+The trail continues west.
+~
+~
+0 -1 17250
+S
+#17250
+Swamp~
+Guess what?  More swamp.  The trail is still here, but seems to be 
+fading... You can go in any of the 4 cardinal directions, but there is 
+some shuffling noises coming from the south.
+~
+0 0 3
+D0
+The trail turns north.
+~
+~
+0 -1 17255
+D1
+The trail leads east.
+~
+~
+0 -1 17249
+D2
+The trail leads south.
+~
+~
+0 -1 17251
+D3
+The trail continues west.
+~
+~
+0 -1 17252
+S
+#17251
+Swamp Lair~
+Whoops!  Seems that dragons live in these swamps...and you just found 
+one.  Its scaly green neck rears up at the sight of you and it looks at you 
+with a definite gleam in its cat-like eyes.  It almost appears to smile 
+as it leans forward and takes a deep breath...
+~
+0 0 3
+D0
+Run north you moron, before you get fried.
+~
+~
+0 -1 17250
+S
+#17252
+Swamp~
+The swamp trail continues to the east and west.  Creatures lurk in all 
+directions, and you have an impending sense of doom.
+~
+0 0 3
+D1
+The trail leads east.
+~
+~
+0 -1 17250
+D3
+The trail leads west.
+~
+~
+0 -1 17253
+S
+#17253
+Swamp~
+The trail leading thorugh the dense swamp leads east and south.  You feel 
+the skin on your back prickle as thousands of eyes watch you.
+~
+0 0 3
+D1
+The trail leads east.
+~
+~
+0 -1 17252
+D2
+The trail leads south.
+~
+~
+0 -1 17254
+S
+#17254
+Swamp~
+The swamp leads you in a north-south direction.  The north seems to bend 
+east, and the south leads you to a four-way intersection.
+~
+0 0 3
+D0
+The trail leads north.
+~
+~
+0 -1 17253
+D2
+The trail leads south.
+~
+~
+0 -1 17242
+S
+#17255
+Swamp~
+The swamp leads now in three directions.  You can go either north, west, 
+or south from here.
+~
+0 0 3
+D0
+The trail leads north.
+~
+~
+0 -1 17256
+D2
+The trail leads south.
+~
+~
+0 -1 17250
+D3
+The trail leads west.
+~
+~
+0 -1 17260
+S
+#17256
+Swamp~
+The swamp trail fades into nothingness here, but instead of sinking into 
+the swamp, you find yourself on solid rock.  As well, you have found the 
+source of the smoke in the air, there is a cave in the rock face in front 
+of you.  You can follow the swamp trail south, or go east into the cave.
+~
+0 0 3
+D1
+A cave is east.
+~
+~
+0 -1 17257
+D2
+The trail leads south.
+~
+~
+0 -1 17255
+S
+#17257
+Cave Entrance~
+You are standing in the entrance to a dimly lit cave.  You can hear no 
+noise coming from within the cave, but there is a fire lit further 
+inside.  You can keep going into the cave by goinf east, or leave the 
+cave for the swamps to the west.
+~
+0 0 0
+D1
+The cave leads east.
+~
+~
+0 -1 17258
+D3
+The cave exits west.
+~
+~
+0 -1 17256
+S
+#17258
+Cave~
+You enter a small room, in which the cave's occupant has placed furs 
+along the walls to make it a little homier.  You have to duck in here, as 
+this room seems to have been made for a very short person.  The cave 
+continues to the east, or the exit is back to the west.
+~
+0 0 0 
+D1
+The cave continues east.
+~
+~
+0 -1 17259
+D3
+The cave continues west.
+~
+~
+0 -1 17257
+S
+#17259
+Warm Room~
+You enter a very low-built room, with a small fire crackling in one 
+corner.  It is a quaint room, with very little decoration.  'Mmmm Jedi 
+welcome you are.'  a small green creature with pointy ears says to you.  
+'The Force you are strong in, yes.  Darth Vader kill you must.'  Yoda 
+looks at you and you can feel your soul exposed to him. 'Decided your 
+fate have you not.  Evil or Good must you choose.'  He leans heavily on 
+his staff and looks intently at you.  The only way out is west.
+~
+0 0 0 
+D3
+The cave leads west.
+~
+~
+0 -1 17258
+S
+#17260
+Swamp~
+The swampy path leads you in an east-west direction.
+~
+0 0 3
+D1
+The trail leads east.
+~
+~
+0 -1 17255
+D3
+The trail leads west.
+~
+~
+0 -1 17261
+S
+#17261
+Swamp~
+You decide to walk more quickly because of all the wildlife you can hear 
+murking in the vines around you.  The trail continues east and west.
+~
+0 0 3
+D1
+The trail leads east.
+~
+~
+0 -1 17260
+D3
+The trail leads west.
+~
+~
+0 -1 17262
+S
+#17262
+Swamp Flat~
+Youa re standing on a swamp flat that has been used to land a rebel 
+X-Wing fighter.  There is a hatch leading up into the craft. The only way 
+off this flat is east, into the swamp.
+~
+0 0 3
+D1
+The swamp lies to the east.
+~
+~
+0 -1 17261
+D4
+The hatch of the X-Wing is up.
+~
+~
+2 17212 17263
+S
+#17263
+X-Wing~
+You are onboard a Rebel X-Wing fighter which is set for autopilot to the 
+secret Rebel Headquarters in an uncharted part of the galaxy.  You come 
+out of hyperspace and land on a small landing port, and exit the 
+spacecraft into a docking bay.  You can climb down your ladder to the bay 
+below.
+~
+0 0 0 
+D5
+The ladder leads down.
+~
+~
+0 -1 17266
+S
+#17264
+X-Wing~
+You travel in your X-Wing fighter to the planet Degobah, and pick out a 
+landing spot on a small dry swamp flat.  You can exit you spacecraft down 
+the ladder, into the swamps below.
+~
+0 0 0
+D5
+The ladder leads down.
+~
+~
+0 -1 17262
+S
+#17265
+Docking Bay~
+You are standing in a docking bay in the Rebellion's secret Headquarters.  
+Your X-Wing, set to leave for Degobah, is here, and you need only climp 
+up the ladder to be on your way. Another section of the docking bay can 
+be seen to the south.
+~
+0 0 0 
+D2
+The docking bay is south.
+~
+~
+0 -1 17266
+D4
+A ladder leads up into the X-Wing.
+~
+~
+0 -1 17264
+S
+#17266
+Docking Bay~
+You are standing in the Rebellion's secret headquarters, in a docking bay 
+for X-Wings and other space craft.  Your X-Wing which you brought with 
+you from Degobah is here, being repaired.  IF you need to go back to 
+Degobah, you have been assigned another fighter, which is ready to the 
+north.  The main hallway through the compound is to the east.
+~
+0 0 0 
+D0
+Another docking bay is north.
+~
+~
+0 -1 17265
+D1
+The hallway leads east.
+~
+~
+0 -1 17267
+S
+#17267
+Corridor~
+You are walking down a long white corridor, lined with panels and 
+hatches.  Working your way along this corridor, you notice a docking bay 
+to the west, and more of the hallway continues east.
+~
+0 0 0 
+D1
+The corridor leads east.
+~
+~
+0 -1 17272
+D3
+The docking bay is west.
+~
+~
+0 -1 17266
+S
+#17268
+Barracks~
+This large section of the guard barracks is lined on both sides with beds 
+and single lockers.  Several guards eye you suspiciously.  Everyone seems 
+tense with the upcoming assault on the Death Star.  You can exit east.
+~
+0 0 0 
+D1
+The barracks continue east.
+~
+~
+0 -1 17269
+S
+#17269
+Barracks~
+The south wall of this room is lined with beds and single lockers for the 
+rebel forces residing here at the headquarters.  Everyone is moving 
+around quickly, preparing for the briefing on the assault on the Imperial 
+Death Star.  The barracks continue to the east and west, while tha main 
+hall lies to the north.
+~
+0 0 0 
+D0
+A hallway leads north.
+~
+~
+0 -1 17272
+D1
+The barracks continue east.
+~
+~
+0 -1 17270
+D3
+The barracks continue west.
+~
+~
+0 -1 17268
+S
+#17270
+Barracks~
+The walls of this room contain more beds (well, cots really) and lockers 
+for the troops staying here at the base.  Everyone is nervous, and you 
+wonder how the attack on the Death Star will go.  More barracks lie to 
+the east and west.
+~
+0 0 0 
+D1
+The barracks continue east.
+~
+~
+0 -1 17271
+D3
+The barracks continue west.
+~
+~
+0 -1 17269
+S
+#17271
+Barracks~
+The barracks end here, once more with beds and lockers on either side of 
+the room.  The barracks lead back west.
+~
+0 0 0 
+D1
+?
+~
+~
+1 -1 17289
+D3
+The barracks leads west.
+~
+~
+0 -1 17270
+S
+#17272
+Corridor~
+The corridor through the headquarters comes to a 3-way intersection 
+here.  The plain halls leads west and north, while the barracks are to 
+the south.
+~
+0 0 0 
+D0
+The hall leads north.
+~
+~
+0 -1 17273
+D2
+An open door leads to the barracks.
+~
+~
+0 -1 17269
+D3
+The halllway leads west.
+~
+~
+0 -1 17267
+S
+#17273
+Hallway~
+The hallway turns here again, and leads either south or east.  Excited 
+voices can be heard from behind large doors to the east.
+~
+0 0 0 
+D1
+Large doors lead east.
+~
+~
+1 0 17274
+D2
+The hallway leads south.
+~
+~
+0 -1 17272
+S
+#17274
+Briefing Room~
+You are standing in a large room filled with Rebel soldiers and Officers, 
+all talking excitedly.  A large hologram of the Death Star revolves in 
+the centre of the room, and Admiral Akabar is briefing the pilots on the 
+assault.  'The Power Core of the Death star must be destroyed in order to 
+begin a chain reaction which will destroy the Star itself...'  A light 
+cuts through the centro of the hologram and pinpoints the core of the 
+space station.  'Admiral Lando Callrissian has the stolen plans for the 
+Death Star and will transmit them en route to the attack point.'  
+Everyone stands and begins to file towards the eastern shuttle bays.  Exits 
+lead north and east, further into the room, or west to the hallway.
+~
+0 0 0 
+D0
+The room continues north.
+~
+~
+0 -1 17276
+D1
+The room continues east.
+~
+~
+0 -1 17275
+D3
+The hallway leads west.
+~
+~
+0 -1 17273
+S
+#17275
+Briefing Room~
+This part of the room contains the tactical displays for all of the Rebel 
+ships in combat.  Preparations are just being made to begin the 
+hyperspace journey to the Death Star.  Technical crews work at a frenzied 
+pace to get everything in order for the long-awaited assault on the 
+Imperial Space Station. You may leave north or west.
+~
+0 0 0 
+D0
+The room continues to the north.
+~
+~
+0 -1 17277
+D3
+The room continues to the west.
+~
+~
+0 -1 17274
+S
+#17276
+Briefing Room~
+More maps and displays can be seen in this section of the Briefing Room.  
+Pilots and their R2 units are moving quickly to the hallway leading to 
+the eastern shuttle bay which is to  the north.  The room continues east 
+and south.
+~
+0 0 0 
+D0
+The hallway leads north.
+~
+~
+0 -1 17278
+D1
+The room continues to the east.
+~
+~
+0 -1 17277
+D2
+The room continues to the south.
+~
+~
+0 -1 17274
+S
+#17277
+Equipment Room~
+In this part of the room, pilots file past an Officer who is distributing 
+flight recorders and special sight toggles for the pilots to use when in 
+the trench of the Death Star.  They then follow a hallway which leads to 
+the Docking bay to the east.  The room continues to the south and west.
+~
+0 0 0 
+D1
+The hallway leads east.
+~
+~
+0 -1 17281
+D2
+The room continues to the south.
+~
+~
+0 -1 17275
+D3
+The room continues to the west.
+~
+~
+0 -1 17276
+S
+#17278
+Hallway~
+You walk down a large plain corridor which leads you either east, or 
+through two large doors to the south.  Pilots are filing out of these 
+doors and walking past you down the eastern hallway.
+~
+0 0 0 
+D1
+The hallway leads east.
+~
+~
+0 -1 17279
+D2
+Open doors leads south.
+~
+~
+0 -1 17276
+S
+#17279
+Hallway~
+The hallway leads you in an east-west direction.  Rebel pilots jog 
+towards the east. Another section of hallway leads west.
+~
+0 0 0 
+D1
+The hallway leads east.
+~
+~
+0 -1 17280
+D3
+The hallway leads west.
+~
+~
+0 -1 17278
+S
+#17280
+Hallway~
+The hallway comes to a corner, which turns either south or west.  The 
+pilots keep moving south, towards the east docking bay.  You can go 
+either west or south.
+~
+0 0 0 
+D2
+The hallway continues south.
+~
+~
+0 -1 17281
+D3
+The hallway continues west.
+~
+~
+0 -1 17279
+S
+#17281
+Intersection~
+The hallway intersects here with another hallway leading from the 
+briefing room.  You can go north or west back to the briefing room, or 
+east to the east docking bay.
+~
+0 0 0 
+D0
+The hallway leads north.
+~
+~
+0 -1 17280
+D1
+The hallway leads east.
+~
+~
+0 -1 17282
+D3
+The briefing room is west.
+~
+~
+0 -1 17277
+S
+#17282
+Hallway~
+This hallway leads in an east-west direction.  Rebel pilots scramble 
+eastwards to the Docking bay.
+~
+0 0 0 
+D1
+The hallway leads east.
+~
+~
+0 -1 17283
+D3
+The hallway leads west.
+~
+~
+0 -1 17281
+S
+#17283
+Hallway Intersection~
+The hallway comes to a corner, and a door is set in the east wall.  The 
+hallway leads south or west.  There is a sign over the west door, and a 
+very intricate lock can be seen on it.
+~
+0 0 0 
+D1
+A sturdy door is east.
+~
+~
+2 
+17215 17284
+D2
+The hallway leads south.
+~
+~
+0 -1 17285
+D3
+The hallway leads west.
+~
+~
+0 -1 17282
+E
+sign~
+The sign reads: 'Weapons Depot, Authorized Personnel Only'
+~
+S
+#17284
+Weapons Depot~
+The Rebel Headquarters Weapon Depot contains crates and crates of rebel 
+parts and weaponry.  Much of this equipment is meant for the repair of 
+the X-Wing fighters, but you do notice some smaller crates lying around.
+~
+0 0 0 
+D3
+The door leads west.
+~
+~
+0 -1 17283
+S
+#17285
+Preparation Room~
+This room is used by the pilots for their final preparation, and they can 
+be seen here putting on their helmets and checking their uniforms.  The 
+door to the Docking Bay leads south, and the hallway is to the north.
+~
+0 0 0 
+D0
+The hallway leads north.
+~
+~
+0 -1 17283
+D2
+The Docking Bay is south.
+~
+~
+0 -1 17286
+S
+#17286
+Docking Bay~
+You walk out into the docking bay of The Rebel Headquarters.  A 
+technician approaches you and tells you that they have two ships ready 
+for you, and you can leave here for Hoth, where the rebels need 
+reinforcements, or you can join the assault on the Death Star.  The 
+hallway leading into the headquarters is north of here.  The ship to Hoth 
+is west, and the ship to the Death Star is east.
+~
+0 0 0 
+D0
+The hallway is north.
+~
+~
+0 -1 17285
+D1
+A ship headed for the Death Star is east.
+~
+~
+0 -1 17287
+D3
+A ship ready to go to Hoth is west.
+~
+~
+0 -1 17288
+S
+#17287
+X-Wing~
+You are on board a rebel X-Wing fighter, on your way to join the rebel 
+assault on the Imperial Death Star.  Instead of joining the fight outside 
+the space station, you decide to try and infiltrate the interior of the 
+Death Star.  You manage to sneak your X-Wing into a docking bay amidst 
+the confusion of the rebel attack, and you land carefully behind a row of 
+Imperial ships.  You can exit your ship down.
+~
+0 0 0 
+D5
+The ladder leads down to the floor of the landing bay.
+~
+~
+0 -1 17315
+S
+#17288
+X-Wing~
+You are on board an X-Wing fighter bound for Hoth.  You arrive near the 
+small white planet, and land on an ice flat, near a rebel camp.  You can 
+exit your craft by decending the ladder.
+~
+0 0 0 
+D5
+The ladder leads down.
+~
+~
+0 -1 17290
+S
+#17289
+Alcove~
+You have stumbled into a small alcove hidden in the wall of the 
+barracks.  It would seem as though some of the soldiers who use these 
+barracks decided to store some funds here.  The only way out is west.
+~
+0 0 0 
+D3
+The exit is west.
+~
+~
+0 -1 17271
+S
+#17290
+Ice Field~
+You are standing in an ice field near a Rebel outpost.  Ships of various 
+shapes and sizes are parked around the compound.  You can hear distant 
+sounds of fighting to the south, and other ships are fueled and ready for 
+departure to the east and west.  Here there is a ship ready to head to 
+the Rebel Headquarters, and a ladder leads up into its interior.
+~
+0 0 2 
+D1
+A shuttle bound for the Death Star is east.
+~
+~
+0 -1 17292
+D2
+The camp lies to the south.
+~
+~
+0 -1 17293
+D3
+Another ship, bound for Tattooine is west.
+~
+~
+0 -1 17291
+D4
+A ladder leads up into the ship bound for Rebel HQ.
+~
+~
+0 -1 17286
+S
+#17291
+Ice Field~
+On this section of the landing field, a ship sits fueled and ready for 
+departure to Tattooine.  A ladder leads up into it, and Rebel technicians 
+are ready to help you into it.  Another section of the field is to the east.
+~
+0 0 2 
+D1
+More ships lie to the east.
+~
+~
+0 -1 17290
+D4
+A ship bound for Tattooine is up.
+~
+~
+0 -1 17229
+S
+#17292
+Ice Field~
+You stand in an ice field landing area for Rebel ships.  There are more 
+ships to the west, and there is one standing here ready to go to join the 
+assault on the Imperial Death Star.  The ladder leads up into the ship.
+~
+0 0 2
+D3
+The field continues west.
+~
+~
+0 -1 17290
+D4
+A ladder leads up into the ship.
+~
+~
+0 -1 17316
+S
+#17293
+Camp~
+Several tents and equipment crates lie about this Rebel outpost.  Most of 
+the men have left and gone to join the fight against the attacking 
+Imperial soldiers.  The sounds of battle grow thick to the south east.
+~
+0 0 2
+D0
+The landing field is north.
+~
+~
+0 -1 17290
+D1
+The rebel camp continues east.
+~
+~
+0 -1 17294
+S
+#17294
+Camp~
+More tents and equipment can be seen here.  Energy flashes and screams of 
+dying soldiers can be seen and heard to the immediate south. More of the 
+camp lies to the west, and the battlefield is south.
+~
+0 0 2
+D2
+The battle is to the south.
+~
+~
+0 -1 17295
+D3
+The camp continues to the west.
+~
+~
+0 -1 17293
+S
+#17295
+Battlefield~
+Rebel soldiers and Imperial Stormtroopers clash in open battle here.  
+Laser fire criss-crosses the open ice as they fire at each other from 
+bunkers in the ice.  Rebel fighters streak around the camp, firing at the 
+huge Imperial AT-AT land walkers which are decimating the Rebel troops.  
+A cheer flies up from the rebels as one of the AT-AT's is brought down 
+with a grappling cable.  The camp lies to the north, while the 
+battlefield grows to your east, south and west.
+~
+0 0 2
+D0
+The rebel camp lies to the north.
+~
+~
+0 -1 17294
+D1
+The battlefield continues to the east.
+~
+~
+0 -1 17300
+D2
+The battlefield continues to the south.
+~
+~
+0 -1 17298
+D3
+The battlefield continues to the west.
+~
+~
+0 -1 17296
+S
+#17296
+Battlefield~
+Charred bodies and pieces of metal lie around this battlefield.  Rebels 
+run in every direction, and blasts of laser fire hit the ground inches 
+>from your feet.  More shouts can be heard from the south and east.
+~
+0 0 2
+D1
+The battlefield continues to the east.
+~
+~
+0 -1 17295
+D2
+The battlefield continues to the south.
+~
+~
+0 -1 17297
+S
+#17297
+Battlefield~
+Rebels on tame Ton-ton's ride on the open plains here, shooting at 
+Imperial Troopers trying to cross the flat ice to the camp.  Orders are 
+being shouted from every direction, and chaos seems to reign everywhere.  
+The only way out is to the east and north.
+~
+0 0 2
+D0
+More of the battle can be seen to the north.
+~
+~
+0 -1 17296
+D1
+The battlefield continues to the east.
+~
+~
+0 -1 17298
+S
+#17298
+Battlefield~
+Don't look around!! Just run!  Lasers streak around you, nearly cutting 
+you in half....all around you the battle continues.
+~
+0 0 2
+D0
+The battle is north.
+~
+~
+0 -1 17295
+D1
+The battle is east.
+~
+~
+0 -1 17299
+D2
+The battle is south.
+~
+~
+0 -1 17304
+D3
+The battle is west.
+~
+~
+0 -1 17297
+S
+#17299
+Battlefield~
+Much to your dismay, you realize that you are standing in the very centre 
+of the battle between the Rebels and the Imperials.  Quickly checking 
+that all of your major organs are intact, you decide to pick a direction, 
+and run that way...very quickly!
+~
+0 0 2
+D0
+The battlefield continues to the north.
+~
+~
+0 -1 17300
+D1
+The battlefield continues to the east.
+~
+~
+0 -1 17303
+D2
+The battlefield continues to the south.
+~
+~
+0 -1 17305
+D3
+The battlefield continues to the west.
+~
+~
+0 -1 17298
+S
+#17300
+Ridge~
+The battle here stretches down the ridge along the cliff face of this ice 
+field.  North is impassable, unless you like 500 foot drops straight 
+down.  All other directions lead to more of the battle.
+~
+0 0 2
+D1
+The battle continues to the east.
+~
+~
+0 -1 17302
+D2
+The battle continues to the south.
+~
+~
+0 -1 17299
+D3
+The battle continues to the west.
+~
+~
+0 -1 17295
+S
+#17301
+Avalanche~
+Good one!  All this noise from the battle has caused an avalanche to fall 
+>from the eastern mountains.  Guess where all that snow fell?  You guessed 
+it...right on top of you.  Thats gonna hurt in the morning.  Feeling 
+slightly claustrophobic as the snow presses in against you, you lose 
+conciousness, and fade to black.
+~
+0 0 0 
+S
+#17302
+Snow Field~
+You are standing in a bleak snowfield.  The only break in the whiteness 
+is the yells and screams of fighting soldiers all around you. Mountains 
+block your path east, but it is clear in all other directions.
+~
+0 0 2
+D0 
+More field lies north.
+~
+~
+0 -1 17301
+D2
+More field lies south.
+~
+~
+0 -1 17303
+D3
+More field lies west.
+~
+~
+0 -1 17300
+S
+#17303
+Snow Field~
+White everywhere...stained with pools of blood, and charred remains of 
+rebel and empirial soldiers.  Smoke fills you lungs as you stumble 
+around.  The large mountain range continues to the east.  But all other 
+directions are passable.  There is a large cave mouth to the south.
+~
+0 0 2
+D0
+More snow lies to the north.
+~
+~
+0 -1 17302
+D2
+A cave entrance is south.
+~
+~
+0 -1 17306
+D3
+More field lies to the west.
+~
+~
+0 -1 17299
+S
+#17304
+Battle Field~
+The screams of battle fly all around you...and smoke fills your eyes with 
+tears, which quickly freeze to your cheeks.  You seem to be pinned in 
+between both armies, the only way out is north.
+~
+0 0 2
+D0
+More field lies north.
+~
+~
+0 -1 17298
+S
+#17305
+Battle Field~
+All around, clashing soldiers fire laser pistols at one another, and huge 
+At-At's walk around, looking for Rebels to crush.  One approaches from 
+the south, and Empirial troopers lie to the east and west....better go 
+north.
+~
+0 0 2
+D0
+A snow field lies north.
+~
+~
+0 -1 17299
+S
+#17306
+Cave Entrance~
+You feel a little warmer after getting out of the wind swept field of 
+Hoth.  The cave is extremely tall, and well carved out of the ice.  It 
+seems as though the walls have been scraped out very carefully.  You can 
+gear quiet shuffling noises to the east and south.  The cave exit is north.
+~
+0 0 0
+D0
+The field lies to the north.
+~
+~
+0 -1 17303
+D1
+The cave continues east.
+~
+~
+0 -1 17307
+D2
+The cave continues south.
+~
+~
+0 -1 17313
+S
+#17307
+Cave Passage~
+The cave continues east and west.  The sounds grow louder to the east.
+~
+0 0 0 
+D1
+The cave continues to the east.
+~
+~
+0 -1 17308
+D3
+The cave continues to the west.
+~
+~
+0 -1 17306
+S
+#17308
+Cave~
+The cave turns to the south and west here.  Loud grumbling noises can be 
+heard from the south.  As well, a foul odor drifts to you from that 
+direction as well.
+~
+0 0 0 
+D2
+The cave continues to the south.
+~
+~
+0 -1 17309
+D3
+The cave continues to the west.
+~
+~
+0 -1 17307
+S
+#17309
+Cave~
+The cave continues straight here...to the north and to the south.
+~
+0 0 0 
+D0
+The cave continues to the north.
+~
+~
+0 -1 17308
+D2
+The cave continues to the south.
+~
+~
+0 -1 17310
+S
+#17310
+Bend in the Cave~
+The Cave turns here once again, and you can go either north or west.  The 
+noises are very close now, and they are coming from the west.  The smell 
+is so bad, it reminds you of your combat boots after a week of training.
+~
+0 0 0
+D0
+The cave continues north.
+~
+~
+0 -1 17309
+D3
+The cave continues west.
+~
+~
+0 -1 17311
+S
+#17311
+Cave~
+Another quick turn in the cave here.  It follows a trail north and east 
+now.  A high-pitched scream can be heard from the north...
+~
+0 0 0 
+D0
+The cave continues to the north.
+~
+~
+0 -1 17312
+D1
+The cave continues to the east.
+~
+~
+0 -1 17310
+S
+#17312
+Ton-Ton lair~
+You have walked into a den of wild Ton-Ton's!  The large beasts mill 
+about, then suddenly turn and stare at you.  These are not the same tame 
+animals used so frequently by the rebels for transportation.  The only 
+exit is south.
+~
+0 0 0 
+D2
+The cave continues south.
+~
+~
+0 -1 17311
+S
+#17313
+Cave~
+The cave continues in a north-south direction.  The noises can hardly be 
+heard this far into the cave.
+~
+0 0 0 
+D0
+The cave continues north.
+~
+~
+0 -1 17306
+D2
+The cave continues south.
+~
+~
+0 -1 17314
+S
+#17314
+Cave End~
+You have reached what seems to be the end of the cave.  It is very warm 
+here, and it looks safe to rest for a while.  The only way out is to the 
+north.
+~
+0 0 0 
+D0
+The cave continues to the north.
+~
+~
+0 -1 17313
+S
+#17315
+Death Star~
+You approach the giant space station, aware that you are being set up for 
+a trap.  The landing is far too easy, and you meet no resistance as you 
+climb from your shuttle to the floor of the landing bay.  Exits lead 
+south and east.
+~
+0 D 0
+D1
+The shuttle bay lies east.
+~
+~
+0 -1 17316
+D2
+A hallway leads south.
+~
+~
+0 -1 17318
+S
+#17316
+Death Star~
+You arrive in another landing bay in the Death Star.  Exits lead east, 
+south, and west.
+~
+0 D 0
+D1
+Another shuttle bay is east.
+~
+~
+0 -1 17319
+D2
+A hallway leads south.
+~
+~
+0 -1 17317
+D3
+Another shuttle bay is west.
+~
+~
+0 -1 17315
+S
+#17317
+Ladder~
+A sturdy-looking ladder leads up to the second level of the Death Star. 
+You can hear muffled voices and movement coming from above you.  The only 
+other exits are north and west.
+~
+0 D 0
+D0
+A shuttle bay is north.
+~
+~
+0 -1 17316
+D3
+A hallway leads west.
+~
+~
+0 -1 17318
+D4
+A ladder leads up.
+~
+~
+0 -1 17320
+S
+#17318
+Hallway~
+A small grey hallway leads north and east.  A ladder can be seen to the east.
+~
+0 D 0
+D0
+A shuttle bay is north.
+~
+~
+0 -1 17315
+D1
+The hallway leads east.
+~
+~
+0 -1 17317
+S
+#17319
+Shuttle Bay~
+In this section of the shuttle bay, you notice a small imperial craft 
+which looks ready for take-off.  If you feel this is time for an escape, 
+this might be just the way to do it!  The shuttle lies north, while the 
+exit is west.
+~
+0 D 0
+D0 
+The shuttle is north.
+~
+~
+0 -1 17290
+D3
+The shuttle bay continues west.
+~
+~
+0 -1 17316
+S
+#17320
+Ladder~
+You are standing at the top of a ladder which extends down to Level 1 of 
+the Death Star.  The hallway here is a dull grey, with various control 
+panels and alarm buttons scattered around.  The hallway leads north and 
+south, or the ladder goes down.
+~
+0 D 0
+D0
+The hallway continues north.
+~
+~
+0 -1 17321
+D2
+The hallway continues south.
+~
+~
+0 -1 17325
+S
+#17321
+Hallway~
+The hallway turns here, leading in an eastern direction, as well as going 
+south.
+~
+0 D 0
+D1
+The hall continues east.
+~
+~
+0 -1 17322
+D2
+The hall continues south.
+~
+~
+0 -1 17320
+S
+#17322
+Hallway~
+You begin to hear several alarms echoing through the hallway, as you 
+wander through the Death Star.  Stormtroopers run in various directions 
+at the shouted orders of their commanding officers.  This hallway leads 
+east and west.
+~
+0 D 0
+D1
+The hall continues east.
+~
+~
+0 -1 17323
+D3
+The hall continues west.
+~
+~
+0 -1 17321
+S
+#17323
+Hallway~
+More stormtroopers run past you, attempting to deal with the impending 
+Rebel attack.  This hall runs in an east-west direction.
+~
+0 D 0
+D1
+The hall continues east.
+~
+~
+0 -1 17324
+D3
+The hall continues west.
+~
+~
+0 -1 17322
+S
+#17324
+Control Panel~
+You arrive at the end of a long hallway and discover a control panel 
+which appears to run the Death Star's shield reactor.  Someone has been 
+here before you it would seem, because only the charred remains of the 
+master switch remain. This will help the rebels get through the space 
+station's defenses.
+~
+0 D 0
+D3
+The only exit is west.
+~
+~
+0 -1 17323
+S
+#17325
+Hallway~
+The hallway turns here, leading you north or east.
+~
+0 D 0
+D0
+The hall continues north.
+~
+~
+0 -1 17320
+D1
+The hall continues east.
+~
+~
+0 -1 17326
+S
+#17326
+Intersection~
+The hallway splits here, and exits lead north, south or west.
+~
+0 D 0
+D0
+The hall continues north.
+~
+~
+0 -1 17327
+D2
+The hall continues south.
+~
+~
+0 -1 17334
+D3
+The hall continues west.
+~
+~
+0 -1 17325
+S
+#17327
+Hallway~
+You seem to be making your way deeper into the heart of the Death Star, 
+because much of the activity around you is intensifying.  The Rebel 
+attack must take precedence over intruders because very few of the 
+Stormtroopers are paying much attention to you.  Exits lead east or south.
+~
+0 D 0
+D1
+The hallway continues east.
+~
+~
+0 -1 17328
+D2
+The hallway continues south.
+~
+~
+0 -1 17326
+S
+#17328
+Hallway~
+As soldiers pass by you hurriedly in the hallway, you notice that you 
+must be headed in the right direction, because they are all running down 
+the hall behind you.  The hall continues east or west.
+~
+0 D 0
+D1
+The hallway continues east.
+~
+~
+0 -1 17329
+D3
+The hallway continues west.
+~
+~
+0 -1 17327
+S
+#17329
+Intersection~
+The hallway here bends west and south, and a large double set of doors 
+are east.  Periodically you can see Stormtroopers stream from the double 
+doors to the east and it looks like these doors lead to the bridge.
+~
+0 D 0
+D1
+A large set of doors lie to the east.
+~
+~
+0 -1 17330
+D2
+The hallway continues to the south.
+~
+~
+0 -1 17331
+D3
+The hallway continues to the west.
+~
+~
+0 -1 17328
+S
+#17330
+Bridge~
+You have arrived on the Main Bridge of the Imperial Death Star.  Several 
+commanders discuss strategy, and several officers hold positions at the 
+various control sections.  The only way out is west.
+~
+0 D 0
+D3
+The hallway is west.
+~
+~
+0 -1 17329
+S
+#17331
+Hallway~
+You are standing in yet another intersection.  This one leads north, 
+south, and west.  You can make out a ladder to the west, through a set of 
+glass doors.
+~
+0 D 0
+D0
+The hallway continues to the north.
+~
+~
+0 -1 17329
+D2
+The hallway continues to the south.
+~
+~
+0 -1 17332
+D3
+A ladder lies to the west.
+~
+~
+2 17226 17335
+S
+#17332
+Hallway~
+The hallway here leads north and west.
+~
+0 D 0
+D0
+The hallway continues to the north.
+~
+~
+0 -1 17331
+D3
+The hallway continues to the west.
+~
+~
+0 -1 17333
+S
+#17333
+Hallway~
+Troops of Imperial soldiers file past you, armed for the Rebel attack.  
+Exits leads east and west.
+~
+0 D 0
+D1
+The hallway continues to the east.
+~
+~
+0 -1 17332
+D3
+The hallway continues to the west.
+~
+~
+0 -1 17334
+S
+#17334
+Hallway~
+The hallway turns here, leading you either north or east.
+~
+0 D 0
+D0
+The hallway continues to the north.
+~
+~
+0 -1 17320
+D1
+The hallway continues to the east.
+~
+~
+0 -1 17333
+S
+#17335
+Ladder~
+You are standing in a small room with a set of glass doors to the east, 
+and a ladder leading up to the third level of the Death Star.
+~
+0 D 0
+D1
+A hallway lies to the east.
+~
+~
+0 -1 17331
+D4
+A ladder leads up to Level 3.
+~
+~
+0 -1 17336
+S
+#17336
+Dark Corridor~
+You are in a dark corridor leading in an east-west direction.  A ladder 
+leads down to Level 2.
+~
+0 D 0
+D1
+A dark Corridor is east.
+~
+~
+0 -1 17337
+D5
+The ladder leads down to level 2.
+~
+~
+0 -1 17335
+S
+#17337
+Corridor~
+This long, poorly-lit corridor seem to continue forever, in a boring 
+east-west direction.
+~
+0 D 0
+D1
+The corridor continues east.
+~
+~
+0 -1 17338
+D3
+The corridor continues to the west.
+~
+~
+0 -1 17336
+S
+#17338
+Hallway~
+This corridor conitnues east and west, with light coming from both ends.
+~
+0 D 0
+D1
+The hallway continues east.
+~
+~
+0 -1 17339
+D3 
+The hallway continues west.
+~
+~
+0 -1 17337
+S
+#17339
+Hallway~
+Faint light can be seen in both directions, east and west.  As well, you 
+think you can make out a figure in the distance to the east.
+~
+0 D 0
+D1 
+The hallway continues to the east.
+~
+~
+0 -1 17340
+D3
+The hallway continues to the west.
+~
+~
+0 -1 17338
+S
+#17340
+Corridor~
+For the first time, the hallway is interrupted by a small door in the 
+north wall.  Other that than, the only way to go is east or west.  You 
+can definitely make out someone standing at the end of the hall to the east.
+~
+0 D 0
+D0
+A small door is here.
+~
+~
+0 -1 17343
+D1
+The hallway continues to the east.
+~
+~
+0 -1 17341
+D3
+The hallway continues to the west.
+~
+~
+0 -1 17339
+S
+#17341
+Corridor~
+The hallway extends further east and west, but to the immediate east you 
+can make out a door with a dark-robed figure standing directly in front 
+of it.
+~
+0 D 0
+D1
+The hall leads east.
+~
+~
+0 -1 17342
+D3
+The hall leads west.
+~
+~
+0 -1 17340
+S
+#17342
+End of the Corridor~
+At last you have reached the end of the corridor.  Here there are only 
+two exits, east through a large elevator, and west back the way you 
+came.  The door to the elevator is blocked however, by a masked figure in 
+a black cape.  Darth Vader.  He hisses at your presence... 'You shall die 
+here, young Jedi.'  and he draws his Lighsabre.
+~
+0 D 0
+D1
+The elevator is east.
+~
+~
+0 -1 17344
+D3
+The hall leads west.
+~
+~
+0 -1 17341
+S
+#17343
+Garbage Dump~
+Whoops!  You have fallen into a smelly garbage dump...you can see no way 
+out.  This really sucks.
+~
+0 D 0
+S
+#17344
+Throne Room~
+You enter the Emperor's throne room, and notice that he is very well 
+guarded.  The Emperor stands at the far end of this ramp, and guards 
+block you passage east.  The elevator is back west.
+~
+0 D 0
+D1
+The ramp leads east.
+~
+~
+0 -1 17345
+D3
+The elevator is west.
+~
+~
+0 -1 17342
+S
+#17345
+Ramp~
+This long ramp extends over a broad pit, charged with electrical energy.  
+At the far end you can make out the griseled, stooped figure of the 
+Emperor, who stands laughing at your progress.  Exits lie in all directions.
+~
+0 D 0
+D0
+A balcony lies north.
+~
+~
+0 -1 17346
+D1
+The ramp lies east.
+~
+~
+0 -1 17348
+D2
+A balcony is south.
+~
+~
+0 -1 17347
+D3
+The ramp ends west.
+~
+~
+0 -1 17344
+S
+#17346
+Balcony~
+You stand upon a small outcropping of metal which looks over the large 
+pit extending down into the core of the Death Star.  The ramp lies to the 
+south.
+~
+0 D 0
+D2
+The ramp lies south.
+~
+~
+0 -1 17345
+S
+#17347
+Balcony~
+You stand upon a small outcropping of metal which looks over the large 
+pit extending down into the core of the Death Star.  The ramp lies to the 
+north.
+~
+0 D 0
+D0
+The ramp is north.
+~
+~
+0 -1 17345
+S
+#17348
+Ramp~
+You apprach the end of the ramp bravely.  The Emperor laughs harder as 
+more guards attack you.  Fending them off you slowly make your way east, 
+and stand before the cackling old man.  'Good young Jedi...give into your 
+anger...strike me down, and replace your father at my side.' He laughs a 
+toothless grin and blue sparks shoot out of withered hands and strike 
+you, causing unbearable agony!  West leads to the elevator, east leads to 
+a shimmering portal.
+~
+0 D 0
+D0
+A balcony is north.
+~
+~
+0 -1 17349
+D1
+The ramp continues to the east.
+~
+~
+0 -1 17351
+D2
+A balcony is south.
+~
+~
+0 -1 17350
+D3
+The ramp lies west.
+~
+~
+0 -1 17345
+S
+#17349
+Pit~
+Running from the energy bolts of the Emperor, you stumble and fall down 
+the long shaft into the core of the Death Star.  Thats what you get for 
+running away.
+~
+0 ADNU 0
+S
+#17350
+Pit~
+Running away from the energy bolts of the Emperor, you stumble and fall 
+down the long shaft into the core of the Death Star.  Thats what you get 
+for running away.
+~
+0 ADNU 0
+S
+#17351
+Ramp~
+You arrive at the end of the long ramp, and you can see to the east a 
+shimmering portal.  The colors mystify you, and you are drawn toward 
+them.  The ramp continues west, and balconies extend north and south.
+~
+0 D 0
+D0
+The balcony is north.
+~
+~
+0 -1 17352
+D1
+The portal lies to the east.
+~
+~
+2 17229 17354
+D2
+The balcony is south.
+~
+~
+0 -1 17353
+D3
+The ramp lies west.
+~
+~
+0 -1 17348
+S
+#17352
+Balcony~
+You can see almost to the core of the Death Star on this metal railing.  
+The ramp lies south.
+~
+0 D 0
+D2
+The ramp is south.
+~
+~
+0 -1 17351
+S
+#17353
+Balcony~
+Bolts of electricity streak downwards through the long shaft leading down 
+to the core of the space station.  the ramp is north.
+~
+0 D 0
+D0 
+The ramp is north.
+~
+~
+0 -1 17351
+S
+#17354
+Swirling Colors~
+You seem to float in a void of color.  You feel no pain, no emotion, only 
+a great sense of purpose.  You cannot make out any exits, but feel pulled 
+naturally in an upwards direction.
+~
+0 D 0
+D4
+Swirling colors.
+~
+~
+0 -1 17355
+S
+#17355
+Nexus~
+You stand in a large void, surrounded by empty space.  This is the 
+legendary Nexus, a place of great power, known to hold the collective 
+conciousness of all of the Jedi Knights.  A gigantic floating entity 
+hovers near you, and you sense great power coming from it.  'Welcome 
+Jedi.  Prepare yourself for your reward.'  There are no exits from here.
+~
+0 D 0
+S
+#0
+#RESETS
+D 17200 17230 2 2      Door to Shuttle Cove
+*
+D 17212 17262 4 2      Door to X-Wing
+*
+D 17215 17283 1 2      Door to Weapons Depot
+*
+D 0 17273 1 1         Door to briefing room
+*
+M 0 17200 1 17201      Uncle Owen
+*
+M 0 17233 1 17349
+M 0 17234 1 17350
+
+M 0 17201 1 17208      Aunt Beru
+G 0 27 1
+*
+M 0 17202 2 17211      Jawas in desert
+*
+M 0 17202 2 17219      Jawas
+*
+M 0 17202 4 17220      Jawas
+*
+M 0 17202 2 17218      Jawas
+*
+M 0 17202 1 17206      Jawas
+*
+M 0 17202 2 17223      Jawas
+*
+M 0 17202 3 17212      Jawas
+*
+M 0 17202 2 17224      Jawas
+*
+M 0 17203 1 17220     C3P0 in desert
+*
+M 0 17204 1 17220     R2D2 in Desert
+*
+M 0 17205 1 17230     Han Solo in Cantina
+G 1 17200 1          Key for Han
+E 1 17204 1 16          Han's Pistol
+E 1 17206 1 5         Han's Vest
+*
+M 0 17206 1 17230     Chewie in Cantina
+E 1 17203 1  16        Chewie's Crossbow
+E 1 17205 1  13        Chewie's Belt
+*
+M 0 17207 5 17229     Stormtroopers in Space Port
+*
+M 0 17207 4 17231
+*
+M 0 17207 2 17228
+*
+M 0 17207 1 17230
+*
+M 0 17208 1 17229     Trooper Commander in port.
+*
+M 0 17209 1 17233     Obi Wan in Cave
+G 1 17207 1          Ben's chest key
+E 1 17202 1 16         Anakins Lightsabre
+O 0 17201 1 17233     Chest in Obi Wan's cave
+P 0 17208 1 17201     Amulet in chest
+*
+M 0 17210 1 17259     Yoda in cave
+E 1 17209 1 16         Yoda's Staff
+E 1 17210 1 16         Jedi Armor
+G 1 17212 1          Key to Xwing
+*
+M 0 17212 1 17251     Swamp Dragon
+G 1 17211 1          Key to Chest
+O 0 17213 1 17251     Chest with Dragon
+P 0 17214 1 17213     Gem in Chest
+*
+M 0 17211 1 17243     Swamp Wraith (Hehheheh)
+*
+M 0 17213 2 17242     Snakes
+*
+M 0 17213 2 17244     Snakes
+M 0 17214 1 17244     Newt
+*
+M 0 17213 4 17252     Snakes
+*
+M 0 17214 3 17260     Newts
+*
+M 0 17213 3 17254     Snakes
+*
+M 0 17214 2 17255     Newts
+*
+M 0 17215 1 17274     Luke Skywalker
+E 1 17217 1 6         Pilots Helmet
+E 1 17218 1 14         Comm-link
+*
+M 0 17216 1 17274     Princess Leia
+E 1 17219 1 6         Earmuffs
+E 1 17220 1 1         Council Ring
+*
+M 0 17217 1 17276     Lando Calrissian
+G 1 17221 1          Map of Death Star
+*
+M 0 17218 1 17276     Admiral Akabar
+G 1 17215 1          Key to Weapon Depot
+*
+O 0 17216 1 17284     Chest in Weapons Depot
+P 0 17222 1 17216     Boots in chest
+*
+D 0 17271 1 1
+*
+O 0 17223 1 17289     Gold in secret room
+*
+M 0 17219 2 17266     Droids in Bay
+M 0 17220 2 17266     Guards
+*
+M 0 17219 1 17272     Droid
+M 0 17220 2 17272     Guards
+*
+M 0 17219 1 17279     Droid
+*
+M 0 17219 3 17286     Droid
+*
+M 0 17219 2 17282     Droid
+*
+M 0 17220 2 17283     Guards
+*
+M 0 17220 2 17268     Guards
+*
+M 0 17220 3 17270     Guards
+M 0 17221 1 17270     Pilot
+*
+M 0 17221 2 17274     Pilots
+*
+M 0 17221 2 17275     Pilots
+*
+M 0 17221 3 17276     Pilots
+*
+M 0 17221 1 17277     Pilot
+*
+M 0 17221 2 17288     Pilots
+*
+M 0 17221 3 17287     Pilots
+*
+M 0 17221 2 17279     Pilots
+*
+M 0 17221 4 17282     Pilots
+*
+M 0 17222 2 17293     Rebels
+E 1 17224 1 16         laser
+*
+M 0 17222 2 17298
+E 1 17224 1 16         laser
+*
+M 0 17222 4 17303
+E 1 17224 1 16         laser
+*
+M 0 17222 1 17296
+E 1 17224 1 16         laser
+*
+M 0 17223 2 17300     Troopers
+E 1 17224 1 16         laser
+*
+M 0 17223 2 17299
+E 1 17224 1 16         laser
+*
+M 0 17223 2 17305
+*
+M 0 17224 1 17294     TonTon
+*
+M 0 17224 2 17295
+*
+M 0 17224 2 17296
+*
+M 0 17225 1 17312     Wild TonTon
+E 1 17225 1 6         Horn
+*
+M 0 17226 1 17300     AT AT
+*
+M 0 17226 1 17303
+*
+M 0 17226 1 17304
+*
+M 0 17227 2 17318     DS Stormtroopers
+E 1 17224 1 16           laser
+*
+M 0 17227 2 17217     
+E 1 17224 1 16
+*
+M 0 17227 2 17320
+M 0 17227 2 17326
+M 0 17227 2 17333
+M 0 17227 2 17329
+M 0 17227 3 17330
+M 0 17227 2 17337
+M 0 17227 1 17340
+M 0 17227 2 17345
+*
+D 17226 17331 3 2     Door to level 3
+*
+D 17229 17351 1 2     Door to portal
+*
+M 0 17228 2 17335     Red Guards
+*
+M 0 17229 1 17330     Commander
+G 1 17226 1          Keycard
+*
+M 0 17230 1 17342     Darth Vader
+E 1 17227 1 10         Armguards
+E 1 17228 1 16         Red lightsabre
+*
+M 0 17231 1 17348     Emperor
+E 1 17230 1 1         Ring
+G 1 17229 1          Nexus Key
+*
+S
+#SPECIALS
+M 17202 spec_thief
+M 17208 spec_cast_mage
+*
+M 17210 spec_cast_cleric
+M 17211 spec_breath_any
+M 17212 spec_breath_acid
+*
+M 17215 spec_cast_mage
+M 17216 spec_cast_cleric
+*
+M 17228 spec_cast_mage
+M 17230 spec_cast_mage
+M 17231 spec_cast_cleric
+M 17232 spec_breath_any
+S
+
+#$
+
+

@@ -1,0 +1,31 @@
+WHAT IS THIS?
+
+Functions to give mobiles the ability to use skills.
+
+INSTALLING
+
+Just stick mob_skills.c in your src directory and edit your Makefile to
+get it to compile. I also stuck the functions in utils.h because I'm lazy.
+
+Dibrova has a sweet skill system courtesy of Rodger so in order to get this to
+work you'll probably have to strip the ABT_SKILL part off of all of the damage
+functions.
+
+You could also setup a little case statement in the perform_violence function
+and have it switch between the various NPC classes calling skill and spell
+functions along the way. (See the NPC Giant Crap snippet on my site.)
+
+DISTRIBUTING/CHANGING
+
+Do what ever you want, just please put my name in your builder credits file
+so I have something to stroke my ego with. Also, a nice email saying you use
+my stuff would be nice.
+
+I also got the idea for this off a Winter Mute snippet.
+They have some really cool stuff at http://mute.starweb.net
+
+AUTHOR
+
+Dean Vaughan (Vedic) vedic@thevedic.net
+
+Homepage: http://thevedic.net/computer/circlemud/

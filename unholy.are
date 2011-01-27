@@ -1,0 +1,2693 @@
+#AREA {60 65} Yaegar The Unholy Abbey~
+
+#MOBILES
+#30800
+evil monk~
+an evil monk~
+A robed monk snarls in hatred when he sees you!
+~
+The fanatic monks of the Unholy Abbey despise all other people, especially
+intruders in their sanctum! And you can rest assured they will do their
+utmost to eject you!
+~
+32|64 8|32|8192 -400 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30801
+clay golem~
+a clay golem~
+A statue fashioned from clay stands motionless here.
+~
+This statue isn't very well-fashioned, and isn't very attractive. You wonder
+why even the unholy monks would use such art in their abbey. Shrug.
+~
+2|64 8|32|8192 0 S
+64 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#30802
+monk master~
+a master~
+A monk clad in black robes with silver edging sneers contemptously at you.
+~
+The master monks are the teachers and supervisors of the monks of the abbey,
+and answer only to the abbot himself. They are if anything more diabolical
+than their demented pupils, and twice as deadly.
+~
+32|64 8|32|128 -800 S
+63 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30803
+necromancer~
+a necromancer~
+A frail old man clad in purple robes casts evil incantations here.
+~
+The abbey employs several necromancers to create their legions of undead,
+with which they one day intend to conquer the kingdom of Malathar. They are
+horrid, twisted, decrepit old men, who have incredible magical powers.
+~
+2|64|128 8|32|512 -800 S
+62 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30804
+abbot~
+the abbot~
+The unholy abbot screams vile curses at you and attacks!
+~
+The abbot is a vile, despicable old tyrant who rules his damned abbey with
+an iron fist and a lust for conquest and death bordering on the maniacal.
+He may be a shrivelled old man, but he is still immensely powerful.
+~
+2|32|64 4|8|16|32|128|512|8192 -1000 S
+65 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30805
+wight~
+a wight~
+A leering wight leaps to attack you.
+~
+The necromancers of the abbey have animated the remains of Knights of
+Malathar slain by the monks and transformed them into horrid wights, and
+additionally infusing them with a manic desire to slay everyone they behold.
+~
+2|32|64 512 0 S
+63 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#30806
+bone devil~
+a bone devil~
+A devil that seems to be naught but bones and gristle leers at you.
+~
+The monks frequently summon devils to aid them in their evil schemes, and
+their favorite is the bone devil, who only demands seven virgins rather than
+the many scores other devils demand.
+~
+2|64 8|32|512|8192 -1000 S
+66 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#30807
+elven virgin~
+an elven virgin~
+A scraming, naked young elven maiden is chained to the altar.
+~
+The monks capture and sacrifice female elven virgins to summon devils from
+the Hells. This one has gone quite insane from the pain and shock of capture
+and subsequent subjection to the cruel rituals of the monks.
+~
+2|64 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#30808
+dwarven dwarf slave~
+a dwarven slave~
+A dwarf pounds away at a pile of rocks here.
+~
+The monks may be powerful warriors but they are no engineers, so they capture
+dwarves from the north and use them in this capacity, to expand and strengthen
+their abbey.
+~
+
+64 512 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30809
+ogre slavemaster master~
+an ogre slavemaster~
+A huge, scarred ogre cracks his whip at you and orders to to surrender.
+~
+This overconfident brute is one of many employed by the monks to keep their
+slaves in line. He rashly expects you to just lie down and die for him. Hmmm.
+~
+2|64 512 -500 S
+61 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30810
+paladin~
+a paladin~
+A paladin shakes his head and struggles to regain consciousness.
+~
+This hapless fellow was captured by the old Dragon Clan many centuries ago
+and imprisoned here. The new clan has not dared to disturb him, for they
+know of his power.
+~
+2|64 4|8|16|32|128|8192 1000 S
+75 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30811
+black dragon~
+a black dragon~
+(Sleeping) A massive black dragon is curled up on the floor here.
+~
+They aren't called the dragon clan for nothing, pal.
+~
+2|64 4|8|16|32|128|512|8192|524288 -1000 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30812
+old elf~
+an old elf~
+An old elf sits upon the rock here.
+~
+This old elf, one Felthesres by name, is one of the bards of Malathar who has
+vowed to remain here and await the return of the Paladin Grimafax from his
+missions. He has been waiting several centuries, and will be waiting for
+much longer before Grimafax returns.
+~
+2|64 128 1000 S
+62 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30813
+bone golem~
+a bone golem~
+A bone golem tirelessly works the bellows here.
+~
+This creature was created to keep the dragon noises continually echoing
+from the cavern entrance. It will not attack, but it will move to defend
+itself.
+~
+2|64 8192 0 S
+62 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#30814
+wyvern~
+a wyvern~
+A massive wyvern is hovering just above you.
+~
+This wyvern is a scout for the monks of the abbey, you surmise. Then again
+it could be a perfectly normal wyvern that just happens to be wearing a
+massive green amulet with "dragon clan" written on it...
+~
+2|64 524288 -234 S
+61 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#30815
+pit beast~
+a pit beast~
+A pit beast lunges at you!
+~
+These savage mutant hounds are horrors feared the world over. Only the monks
+have managed to tame these beasts, much to the displeasure of civilized
+folk everywhere.
+~
+2|32|64 32768 0 S
+62 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+#OBJECTS
+#30800
+monk habit~
+a monk's habit~
+A long brown monk's robe stained with blood lies crumpled on the floor.~
+~
+9 0 1|1024
+0 0 0 0
+5 0 0
+#30801
+master robe habit~
+a master's habit~
+A black monk's robe trimmed with silver lies here.~
+~
+9 0 1|1024
+0 0 0 0
+5 0 0
+A
+12 60
+#30802
+necromancer robes~
+necromancer's robes~
+Some purple robes lie here.~
+~
+9 0 1|1024
+0 0 0 0
+5 0 0
+A
+3 4
+A
+12 50
+#30803
+dagger~
+a mithril dagger~
+A dagger made from mithril lies here. It looks evil.~
+~
+5 2|16|512 1|8192
+0 0 0 11
+8 0 0
+A
+18 12
+A
+19 12
+#30804
+altar~
+a bloodstained altar~
+A large marble bloodstained altar rests in the center of the chapel.~
+~
+12 0 0
+0 0 0 0
+10000 0 0
+A
+12 10000
+#30805
+abbot ring~
+the abbot's ring~
+A black ring that glows with an unholy light lies here.~
+~
+9 1|16|512 1|2
+0 0 0 0
+1 0 0
+A
+1 3
+A
+18 6
+A
+19 6
+#30806
+abbot robes~
+the abbot's robes~
+Some crimson robes lie here.~
+~
+9 1|16|512 1|1024
+0 0 0 0
+5 0 0
+A
+13 60
+A
+23 -6
+#30807
+bracers might~
+bracers of might~
+A pair of sturdy metal bracers lie here, unclaimed.~
+~
+9 1|64 1|256
+0 0 0 0
+10 0 0
+A
+1 4
+A
+18 2
+A
+19 6
+#30808
+sword elven~
+an elven longsword~
+An ornately-fashioned sword lies here.~
+~
+5 1|64 1|8192
+0 0 0 11
+10 0 0
+A
+2 4
+A
+18 12
+#30809
+suit elven chainmail~
+a suit of elven chainmail~
+A suit of well-crafted chain lies here.~
+~
+9 1|64 1|8
+0 0 0 0
+5 0 0
+A
+17 -30
+#30810
+shield~
+a rune-covered shield~
+A shield covered with mithril runes is propped up against a wall here.~
+~
+9 1|64 1|512
+0 0 0 0
+8 0 0
+A
+5 5
+A
+17 -30
+#30811
+tattered cloak~
+a tattered cloak~
+A tattered old cloak lies here.~
+~
+9 0 1|4
+0 0 0 0
+1 0 0
+#30812
+scythe~
+a scythe~
+A scythe lies here, glowing.~
+~
+5 1|2|16|64|512 1|32768
+0 0 0 2
+20 0 0
+A
+18 15
+A
+19 15
+#30813
+manacles~
+a pair of manacles~
+A pair of iron manacles lies here.~
+~
+9 4096 1|256
+0 0 0 0
+15 0 0
+A
+2 -4
+#30814
+pick~
+a mining pick~
+A pick is lying here.~
+~
+9 0 1|8192
+0 0 0 11
+5 0 0
+#30815
+whip~
+a whip~
+A whip is curled up on the floor here.~
+~
+5 0 1|8192
+0 0 0 4
+10 0 0
+#30816
+iron key~
+an iron key~
+An iron key is lying here.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#30817
+silver key~
+a silver key~
+A sliver key is lying here.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#30818
+gold key~
+a gold key~
+A gold key is lying here.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#30819
+chest key~
+a chest key~
+A chest key is lying here.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#30820
+chest~
+an iron chest~
+An iron chest sits here.~
+~
+15 0 0
+1500 13 30819 0
+1000 0 0
+#30821
+suit unholy armor~
+a suit of unholy armor~
+A suit of unholy armor lies here.~
+~
+9 1|2|16|64|512|4096 1|8
+20 0 0 0
+25 0 0
+A
+1 3
+A
+2 3
+A
+5 3
+A
+13 30
+A
+17 -30
+A
+18 6
+A
+19 6
+A
+23 -3
+A
+24 -3
+A
+25 -8
+#30822
+sack~
+a sack~
+A sack lies here.~
+~
+15 0 1|16384
+25 1 0 0
+1 0 0
+#30823
+gold~
+some gold~
+Some gold has been scattered here. Quite a lot actually.~
+~
+20 0 1
+25000 0 0 0
+1 0 0
+#30824
+bellows~
+a bellows~
+A bellows sits here.~
+~
+12 0 0
+0 0 0 0
+4 0 0
+#30825
+green amulet~
+a bright green amulet~
+A bright green amulet is lying here.~
+~
+18 0 1|4
+0 0 0 0
+1 0 0
+E
+amulet~
+It has "DRAGON CLAN" scribed upon it.
+~
+#30826
+portal~
+a glowing green portal~
+A green portal floats here.~
+~
+33 1 0
+30827 0 0 0
+1 0 0
+#30827
+portal~
+a glowing green portal~
+A green portal floats here.~
+~
+33 1 0
+30825 0 0 0
+1 0 0
+#30828
+portal~
+a glowing red portal~
+A red portal floats here.~
+~
+33 1 0
+30839 0 0 0
+1 0 0
+#30829
+sack~
+a sack~
+A sack lies on the floor here.~
+~
+15 0 1|16384
+15 1 0 0
+1 0 0
+#30830
+lantern~
+a lantern~
+A lantern in excellent condition sits here.~
+~
+1 0 1|16384|65536
+0 0 100 0
+1 0 0
+#30831
+chest~
+a small chest~
+A small chest sits here.~
+~
+15 0 1
+50 5 -1 0
+5 0 0
+#30832
+wineskin~
+a wineskin~
+A wineskin hangs from a hook on one wall.~
+~
+17 0 1|16384
+5 5 2 0
+2 0 0
+#30833
+waterskin~
+a waterskin~
+A waterskin hangs from a hook on one wall.~
+~
+17 0 1|16384
+5 5 0 0
+2 0 0
+#30834
+iron rations~
+some iron rations~
+Some unopened iron rations sit here.~
+~
+19 0 1|16384
+24 0 0 0
+2 0 0
+#30835
+backpack~
+a backpack~
+A backpack sits here.~
+~
+15 0 1|8
+25 1 0 0
+3 0 0
+#30836
+hand axe~
+a hand axe~
+A hand axe hangs by a thong from a hook on one wall.~
+~
+5 0 1|8192
+0 0 0 3
+5 0 0
+#30837
+throwing axe~
+a throwing axe~
+A throwing axe hangs by a thong from a hook on one wall.~
+~
+30 0 1|8192
+0 0 0 0
+5 0 0
+#30838
+bo stick~
+a bo stick~
+A bo stick rests against one wall here.~
+~
+5 0 1|32768
+0 0 0 7
+5 0 0
+#30839
+jo stick~
+a jo stick~
+A bo stick rests against one wall here.~
+~
+5 0 1|32768
+0 0 0 7
+5 0 0
+#30840
+quarterstaff~
+a quarterstaff~
+A quarterstaff is lying on the floor here.~
+~
+5 0 1|32768
+0 0 0 8
+5 0 0
+#30841
+crossbow~
+a crossbow~
+A crossbow is resting against one wall here.~
+~
+5 0 1|32768
+0 0 0 11
+10 0 0
+#30842
+quiver~
+a quiver~
+A large quiver is hanging from a hook opposite the door.~
+~
+29 0 1|8
+50 1 0 0
+3 100 0
+#30843
+shield~
+a white shield~
+A white shield bearing a white hart on a green field lies here.~
+~
+9 1|64|256|1024 1|512
+12 0 0 0
+7 0 0
+A
+5 4
+A
+13 50
+A
+17 -30
+A
+23 -3
+A
+24 -3
+A
+25 3
+#30844
+surcoat~
+a white surcoat~
+A surcoat bearing the coat of arms of Malathar lies here.~
+~
+9 1|64|256|1024 1|8
+12 0 0 0
+5 0 0
+A
+1 4
+A
+18 5
+A
+19 5
+A
+25 3
+#30845
+throne~
+a throne~
+A throne sits here.~
+~
+12 0 0
+0 0 0 0
+1000 0 0
+E
+throne~
+You think you can see a secret door beneath it...
+~
+#30846
+skeleton~
+a skeleton~
+A skeleton is seated upon the throne.~
+~
+13 0 0
+0 0 0 0
+25 0 0
+E
+skeleton~
+This skeleton appears to be humanoid...
+~
+E
+.trigo_dooropen~
+down~
+#30847
+sarcophagus~
+a massive sarcophagus~
+A masive sarcophagus rests here.~
+~
+15 0 0
+15000 1 0 0
+15000 0 0
+#30848
+red amulet~
+a glowing red amulet~
+A glowing red amulet lies here.~
+~
+18 0 1|4
+0 0 0 0
+1 0 0
+#30849
+portal~
+a glowing red portal~
+A red portal floats here.~
+~
+33 1 0
+30827 0 0 0
+1 0 0
+#30850
+desk~
+a small desk~
+A small desk sits in front of the shelves.~
+~
+12 0 0
+0 0 0 0
+100 0 0
+#30851
+letter~
+a partially-drafted letter~
+An unfinished letter lies on the desk.~
+~
+13 0 1|16384
+0 0 0 0
+1 0 0
+E
+letter~
+The letter reads-
+
+"We must make our move soon! Already the elves of Malathar have become aware
+of our presence, and are seeking to stop us! Oh but when we call upon the
+power of the DRAGON, how they will suffer! If only the Demon Lord could offer
+us more -"
+~
+#30852
+book~
+a book on ritual sacrifice~
+A particularly large book detailing ritual sacrifice sits here.~
+~
+13 16|512|128|4096 1|16384
+0 0 0 0
+25 0 0
+A
+3 -3
+A
+4 -3
+A
+12 -50
+#30853
+portal~
+a glowing blue portal~
+A blue portal floats here.~
+~
+33 1 0
+30883 0 0 0
+1 0 0
+#30854
+portal~
+a glowing blue portal~
+A blue portal floats here.~
+~
+33 1 0
+30839 0 0 0
+1 0 0
+#30855
+portal~
+a glowing black portal~
+A black portal floats here.~
+~
+33 1 0
+30819 0 0 0
+1 0 0
+#30856
+bath~
+a bath~
+A bath is slowly filling with natural spring water here.~
+~
+25 0 0
+0 0 0 0
+30800 0 0
+#30857
+blue amulet~
+a blue amulet~
+A blue amulet glows with an unearthly light here.~
+~
+18 0 1|4
+0 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#30800
+The Path to the Craggy Tor~
+You are ascending steadily upwards through rough terrain towards a large,
+jagged mountain far to the north. There is a small rock resting here, near
+the path, which could serve as a passable chair. There is a sign nailed to
+a dead tree that hangs over the rock.
+~
+0 0 4
+D0
+~
+~
+0 -1 30801
+D2
+~
+~
+0 -1 4035
+S
+#30801
+The Path to the Craggy Tor~
+You continue up the path, only vaguely noticing the bleak terrain around
+you as the climb is quite exerting. Birds circle far overhead, taking only
+a casual interest in you. The path bends sharply to the east at this point.
+~
+0 4 4
+D1
+~
+~
+0 -1 30802
+D2
+~
+~
+0 -1 30800
+S
+#30802
+The Path to the Craggy Tor~
+The path bends back to the north here, heading straight for the base of the
+Tor. However, there appears to be a deep chasm dividing the path from the
+base, and you wonder how you will pass it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30805
+D3
+~
+~
+0 -1 30801
+S
+#30803
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30808
+D1
+~
+~
+0 -1 30804
+S
+#30804
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30809
+D1
+~
+~
+0 -1 30805
+D3
+~
+~
+0 -1 30803
+S
+#30805
+The Edge of the Chasm~
+You reach the edge of the chasm, and stare across at the Tor. Sure enough,
+you can see the abbey, nestled in a small crack that divides the top third
+of the tor in two. It appears to have no doors or windows, and you can't
+see any way across. You think you can see a black shape nestled atop the
+abbey.
+~
+0 0 4
+D0
+~
+~
+0 -1 30810
+D1
+~
+~
+0 -1 30806
+D2
+~
+~
+0 -1 30802
+D3
+~
+~
+0 -1 30804
+S
+#30806
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30811
+D1
+~
+~
+0 -1 30807
+D3
+~
+~
+0 -1 30805
+S
+#30807
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30812
+D3
+~
+~
+0 -1 30806
+S
+#30808
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30813
+D1
+~
+~
+0 -1 30809
+D2
+~
+~
+0 -1 30803
+S
+#30809
+Flying Above the Chasm~
+You soar into the air and fly over the chasm, which yawns below you,
+descending to a depth of about 200 feet. You can see a small ledge outside
+the abbey to the north.
+~
+0 0 9
+D0
+~
+~
+0 -1 30814
+D1
+~
+~
+0 -1 30810
+D2
+~
+~
+0 -1 30804
+D3
+~
+~
+0 -1 30808
+D5
+~
+~
+0 -1 30820
+S
+#30810
+Flying Above the Chasm~
+You soar into the air and fly over the chasm, which yawns below you,
+descending to a depth of about 200 feet. You can see a small ledge outside
+the abbey to the north. You hear what sounds like a dragon roaring far below.
+~
+0 0 9
+D0
+~
+~
+0 -1 30815
+D1
+~
+~
+0 -1 30811
+D2
+~
+~
+0 -1 30805
+D3
+~
+~
+0 -1 30809
+D5
+~
+~
+0 -1 30821
+S
+#30811
+Flying Above the Chasm~
+You soar into the air and fly over the chasm, which yawns below you,
+descending to a depth of about 200 feet. You can see a small ledge outside
+the abbey to the north.
+~
+0 0 9
+D0
+~
+~
+0 -1 30816
+D1
+~
+~
+0 -1 30812
+D2
+~
+~
+0 -1 30806
+D3
+~
+~
+0 -1 30810
+D5
+~
+~
+0 -1 30822
+S
+#30812
+The Edge of the Chasm~
+You are heading round the edge of the chasm. You can see no way across it
+from here, though you could perhaps proceed across or down if you could
+fly. You can still see the Tor, and the abbey at its summit. The black
+shape is still hovering atop it.
+~
+0 0 4
+D0
+~
+~
+0 -1 30817
+D2
+~
+~
+0 -1 30807
+D3
+~
+~
+0 -1 30811
+S
+#30813
+The End of the Path~
+The path ends here in a dead end at a high cliff face. You have no choice
+but to turn back.
+~
+0 0 4
+D2
+~
+~
+0 -1 30808
+S
+#30814
+Outside the Abbey~
+You are standing on a narrow ledge that runs along the south wall of the
+abbey. You see no doors, windows or other places where you could enter or
+exit. Baffled, you move on.
+~
+0 0 4
+D1
+~
+~
+0 -1 30815
+D2
+~
+~
+0 -1 30809
+S
+#30815
+Outside the Abbey~
+You are standing on a narrow ledge that runs along the south wall of the
+abbey. You see no doors, windows or other places where you could enter or
+exit. You can fly up to the roof from here if you wish, though.
+~
+0 0 4
+D1
+~
+~
+0 -1 30816
+D2
+~
+~
+0 -1 30810
+D3
+~
+~
+0 -1 30814
+D4
+~
+~
+0 -1 30818
+S
+#30816
+Outside the Abbey~
+You are standing on a narrow ledge that runs along the south wall of the
+abbey. You see no doors, windows or other places where you could enter or
+exit. Baffled, you move on.
+~
+0 0 4
+D2
+~
+~
+0 -1 30811
+D3
+~
+~
+0 -1 30815
+S
+#30817
+The End of the Path~
+The path ends here in a dead end at a high cliff face. You have no choice
+but to turn back.
+~
+0 0 4
+D2
+~
+~
+0 -1 30812
+S
+#30818
+Flying up the Abbey Walls~
+You are flying swiftly upwards, passing parallel to the sheer cliff-like
+walls of the abbey. There appears to be no possible entrance to this place.
+Nor is there any sign of life, save the massive black shape you spied earlier
+perched atop the roof.
+~
+0 0 9
+D4
+~
+~
+0 -1 30819
+D5
+~
+~
+0 -1 30815
+S
+#30819
+The Roof of the Abbey~
+The roof is dominated by a huge pile of rocks and assorted rubble, which
+serves as a perch for a rather large black dragon, the Clan's "mascot" for
+want of a better word. Have fun.
+~
+0 0 1
+D5
+~
+~
+0 -1 30818
+S
+#30820
+The Bottom of the Chasm~
+The floor of the chasm is littered with assorted debris that has accumulated
+over several centuries as many dragon clans rose and fell in the abbey. You
+hear a dread howling that echoes about you.
+~
+0 0 4
+D1
+~
+~
+0 -1 30821
+S
+#30821
+The Bottom of the Chasm~
+The floor of the chasm is littered with assorted debris that has accumulated
+over several centuries as many dragon clans rose and fell in the abbey. You
+hear a dread howling that echoes about you. A cavern opens up in front of
+you and bright red eyes glare sullenly at you from within!
+~
+0 0 4
+D0
+~
+~
+0 -1 30823
+D1
+~
+~
+0 -1 30822
+D3
+~
+~
+0 -1 30820
+S
+#30822
+The Bottom of the Chasm~
+The floor of the chasm is littered with assorted debris that has accumulated
+over several centuries as many dragon clans rose and fell in the abbey. You
+hear a dread howling that echoes about you.
+~
+0 0 4
+D3
+~
+~
+0 -1 30821
+S
+#30823
+The Eyes Have It~
+The "eyes" turn out to be red lamps hung from long chains attached to a
+wooden crossbeam set in the ceiling of this cavern. The roaring can still
+be heard, louder than ever. It appears to be emanating from the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 30824
+D2
+~
+~
+0 -1 30821
+S
+#30824
+The Bellows Golem~
+You have found the source of the dread howling- a giant bellows, being slowly
+worked by a bone golem. It seems a rather puerile protective measure,
+considering most intelligent adventurers wouldn't be fooled. YOU weren't
+fooled, were you?
+
+A greenish glow is coming from the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 30825
+D2
+~
+~
+0 -1 30823
+S
+#30825
+The Portal Chamber~
+You enter a large square room, 40'x40', with a glowing green portal in the
+ceiling. However, a large grate is blocking entry to it. There is a bright
+green padlock depending from the grate. Do you have a key?
+~
+0 8 0
+D2
+~
+~
+0 -1 30824
+D4
+~
+grate~
+293 30825 30826
+S
+#30826
+The Portal~
+The portal is flowing right in front of you. You may enter it if you wish.
+~
+0 8 0
+D5
+~
+grate~
+293 30825 30825
+S
+#30827
+Level One~
+You emerge from the portal into a square room identical to the one you just
+left. Two portals lie here, one green, and one red. A passage runs away to
+the east. A grate with a red lock blocks access upward to the red portal.
+~
+0 8 0
+D1
+~
+~
+0 -1 30828
+D4
+~
+~
+1 30848 30838
+S
+#30828
+The Passage~
+This passage has been recently swept clean, and shows no trace of passage.
+Doors line it to either side, as well as at the eastern end. There is a
+glowing portal to the west.
+~
+0 8 0
+D0
+~
+~
+1 0 30829
+D1
+~
+~
+0 -1 30831
+D2
+~
+~
+1 0 30830
+D3
+~
+~
+0 -1 30827
+S
+#30829
+A Storage Room~
+You have entered a small room containing all manner of supplies- ropes,
+lanterns, tinderboxes, wineskins, waterskins, sacks, bags, chests and such.
+You can search through the items if you wish, or return to the passage
+outside.
+~
+0 8 0
+D2
+~
+~
+1 0 30828
+S
+#30830
+A Storage Room~
+You have entered a small room containing all manner of supplies- ropes,
+lanterns, tinderboxes, wineskins, waterskins, sacks, bags, chests and such.
+You can search through the items if you wish, or return to the passage
+outside.
+~
+0 8 0
+D0
+~
+~
+1 0 30828
+S
+#30831
+The Passage~
+This passage has been recently swept clean, and shows no trace of passage.
+Doors line it to either side, as well as at the eastern end. There is a
+glowing portal to the west.
+~
+0 8 0
+D0
+~
+~
+1 0 30832
+D1
+~
+~
+1 -1 30834
+D2
+~
+~
+1 0 30833
+D3
+~
+~
+0 -1 30828
+S
+#30832
+An Armory~
+A small room lies beyond the door, filled with all sorts of weapons
+commonly used by monks, especially militant fanatic ones. They are in good
+condition, but appear to be perfectly ordinary.
+~
+0 8 0
+D2
+~
+~
+1 -1 30831
+S
+#30833
+An Armory~
+A small room lies beyond the door, filled with all sorts of weapons
+commonly used by monks, especially militant fanatic ones. They are in good
+condition, but appear to be perfectly ordinary.
+~
+0 8 0
+D0
+~
+~
+1 -1 30831
+S
+#30834
+A Strange Room~
+You enter a small, dimly-lit room, containing naught but a throne, upon
+which is seated a skeleton. There appears to be nothing else of interest
+in the chamber.
+~
+0 8 0
+D3
+~
+~
+1 0 30831
+D5
+~
+throne~
+385 0 30835
+S
+#30835
+A Tunnel~
+You enter a tunnel which is lined with foot- and hand-holds on one wall,
+allowing you to descend. The air is damp and chill, and you shiver.
+~
+0 1|4|8 0
+D4
+~
+~
+1 0 30834
+D5
+~
+~
+0 -1 30836
+S
+#30836
+The Bottom of the Tunnel~
+You reach the bottom and shiver again as a blast of cold air hits you. There
+is nothing in this cramped space save a massive door to the east covered in
+mystic runes.
+~
+0 1|8 0
+D1
+~
+~
+97 -1 30837
+D4
+~
+~
+0 -1 30835
+E
+door runes~
+The runes read- "RELEASE NOT THE SPIRIT THAT SHALL SLAY US ALL"
+~
+S
+#30837
+The Tomb~
+The tomb is icy cold, almost dangerously so, and is dominated by a huge
+sarcophagus, inside which rests the corpse of an elven paladin. Maybe it
+wasn't such a good idea releasing him...
+~
+0 1|8 0
+D3
+~
+~
+1 0 30836
+S
+#30838
+The Portal~
+The red portal floats in front of you. Enter it to continue...
+~
+0 8 0
+D5
+~
+~
+1 30848 30827
+S
+#30839
+The Portal Chamber~
+You emerge into yet another 40'x40' chamber, this one containing a red
+portal and a blue portal behind a grate with a blue lock. Doors lead out
+of this chamber in all directions.
+~
+0 8 0
+D0
+~
+~
+1 0 30840
+D1
+~
+~
+1 0 30841
+D2
+~
+~
+1 0 30843
+D3
+~
+~
+1 0 30842
+D4
+~
+~
+1 30857 30882
+S
+#30840
+A Long Dark Passage~
+This corridor is pitch-black- even with your light you can scarcely see a
+thing! You think you can feel a door to the north.
+~
+0 1|8 0
+D0
+~
+~
+1 0 30844
+D2
+~
+~
+1 0 30839
+S
+#30841
+A Long Dark Passage~
+This corridor is pitch-black- even with your light you can scarcely see a
+thing! You think you can feel a door to the east.
+~
+0 1|8 0
+D1
+~
+~
+1 0 30847
+D3
+~
+~
+1 0 30839
+S
+#30842
+A Long Dark Passage~
+This corridor is pitch-black- even with your light you can scarcely see a
+thing! You think you can feel a door to the west.
+~
+0 1|8 0
+D1
+~
+~
+1 0 30839
+D3
+~
+~
+1 0 30845
+S
+#30843
+A Long Dark Passage~
+This corridor is pitch-black- even with your light you can scarcely see a
+thing! You think you can feel a door to the south.
+~
+0 1|8 0
+D0
+~
+~
+1 0 30839
+D2
+~
+~
+1 0 30846
+S
+#30844
+Barracks~
+You emerge into a room that appears to be some sort of barracks. Normally
+several monks can be found here, practicing their katas and meidtating.
+Perhaps you'll be lucky and find none...
+~
+0 8 0
+D1
+~
+~
+1 0 30848
+D2
+~
+~
+1 0 30840
+D3
+~
+~
+1 0 30852
+S
+#30845
+Barracks~
+You emerge into a room that appears to be some sort of barracks. Normally
+several monks can be found here, practicing their katas and meidtating.
+Perhaps you'll be lucky and find none...
+~
+0 8 0
+D0
+~
+~
+1 0 30853
+D1
+~
+~
+1 0 30842
+D2
+~
+~
+1 0 30854
+S
+#30846
+A Chamber~
+this appears to be some sort of relaxation chamber- it would seem even
+diabolically evil fanatic megalomanical demon-worshipping monks need to
+relax every now and again. However, in true monk style, the room is devoid
+of funriture- only a few straw mats and some simple tapestries provide any
+comfort.
+~
+0 8 0
+D0
+~
+~
+1 -1 30843
+D1
+~
+~
+1 0 30856
+D3
+~
+~
+1 0 30855
+S
+#30847
+A Study~
+This is apparently the study of one of the master monks. Bookcases full of
+texts detailing ritual sacrifice and such line the walls, and a small desk
+sits in front of them, though it doesn't look as if it gets much use.
+~
+0 8 0
+D0
+~
+~
+1 0 30857
+D2
+~
+~
+1 0 30858
+D3
+~
+~
+1 0 30841
+S
+#30848
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30849
+D3
+~
+~
+1 0 30844
+S
+#30849
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. Belatedly, you notice the floor doesn't feel quite
+right here...
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30850
+D3
+~
+~
+0 0 30848
+D5
+~
+~
+0 -1 30851
+S
+#30850
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. You feel a door to the east.
+~
+0 1|8 0
+D1
+~
+~
+1 -1 30859
+D3
+~
+~
+0 0 30849
+S
+#30851
+A Pit Trap~
+You stumble into a pit. The fall isn't great, and you quickly leap back up,
+wondering why the monks would make such a harmless trap. Then you notice
+the stench and hear the growling...
+~
+0 1|8|8192 0
+D4
+~
+~
+0 -1 30849
+S
+#30852
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door lies to the east.
+~
+0 1|8 0
+D1
+~
+~
+1 -1 30844
+D3
+~
+~
+0 0 30860
+S
+#30853
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30864
+D2
+~
+~
+1 0 30845
+S
+#30854
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the north.
+~
+0 1|8 0
+D0
+~
+~
+1 -1 30845
+D2
+~
+~
+0 0 30866
+S
+#30855
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the east.
+~
+0 1|8 0
+D1
+~
+~
+1 -1 30846
+D3
+~
+~
+0 0 30868
+S
+#30856
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the west.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30871
+D3
+~
+~
+1 0 30846
+S
+#30857
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30873
+D2
+~
+~
+1 0 30847
+S
+#30858
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the north.
+~
+0 1|8 0
+D0
+~
+~
+1 -1 30847
+D2
+~
+~
+0 0 30875
+S
+#30859
+A Study~
+This is apparently the study of one of the master monks. Bookcases full of
+texts detailing ritual sacrifice and such line the walls, and a small desk
+sits in front of them, though it doesn't look as if it gets much use.
+~
+0 8 0
+D2
+~
+~
+1 0 30874
+D3
+~
+~
+1 0 30850
+S
+#30860
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30852
+D3
+~
+~
+0 0 30861
+S
+#30861
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be felt to the west.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30860
+D3
+~
+~
+1 0 30862
+S
+#30862
+A Study~
+This is apparently the study of one of the master monks. Bookcases full of
+texts detailing ritual sacrifice and such line the walls, and a small desk
+sits in front of them, though it doesn't look as if it gets much use.
+~
+0 8 0
+D1
+~
+~
+1 0 30861
+D2
+~
+~
+1 0 30863
+S
+#30863
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. There is a door to the north.
+~
+0 1|8 0
+D0
+~
+~
+1 -1 30862
+D2
+~
+~
+0 0 30864
+S
+#30864
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. You take another step, and realize there is a pit
+beneath your feet...
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30863
+D2
+~
+~
+0 0 30853
+D5
+~
+~
+0 -1 30865
+S
+#30865
+An Acid Pit~
+This pit isn't particularly deep, and you hit the bottom wondering what's
+next. Then you start to feel a mild stinging sensation, followed by a clinking
+sound as your coins start to fall from your money pouch, which is being
+eaten away by acid!
+~
+0 1|8|8192 0
+D4
+~
+~
+0 -1 30864
+S
+#30866
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30854
+D2
+~
+~
+0 0 30867
+S
+#30867
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door lies to the south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30866
+D2
+~
+~
+1 0 30870
+S
+#30868
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30855
+D3
+~
+~
+0 0 30869
+S
+#30869
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door lies to the west.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30868
+D3
+~
+~
+1 0 30870
+S
+#30870
+A Study~
+This is apparently the study of one of the master monks. Bookcases full of
+texts detailing ritual sacrifice and such line the walls, and a small desk
+sits in front of them, though it doesn't look as if it gets much use.
+~
+0 8 0
+D0
+~
+~
+1 0 30867
+D1
+~
+~
+1 0 30869
+S
+#30871
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. 
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30872
+D3
+~
+~
+0 0 30856
+S
+#30872
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door lies to the east.
+~
+0 1|8 0
+D1
+~
+~
+1 -1 30878
+D3
+~
+~
+0 0 30871
+S
+#30873
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. 
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30874
+D2
+~
+~
+0 0 30857
+S
+#30874
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. A door can be vaguely made out to the north. 
+~
+0 1|8 0
+D0
+~
+~
+1 -1 30859
+D2
+~
+~
+0 0 30873
+S
+#30875   
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. Suddenly your feet cease to find floor beneath them...
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30858
+D2
+~
+~
+0 0 30877
+D5
+~
+~
+0 -1 30876
+S
+#30876
+A Fire Pit~
+You fall into what appears to be a giant BBQ. You cringe and leap in the
+air as your feet encounter burning piles of coal and other materials. It is
+HOT in here!
+~
+0 1|8 0
+D4
+~
+~
+0 -1 30875
+S
+#30877
+A Long Black Corridor~
+This corridor is dark, almost supernaturally so, and you make your way along
+slowly and carefully. You see a door to the south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30875
+D2
+~
+~
+1 0 30878
+S
+#30878
+The Necromancers' Labs~
+You walk into a dank, smelly chamber full of tables stacked with body parts.
+Feeble illumination comes from a weak light spell cast on some rods of
+mithril; besides that the room is almost completely dark. Doors lead east,
+west and north.
+~
+0 8 0
+D0
+~
+~
+1 0 30877
+D1
+~
+~
+1 0 30879
+D3
+~
+~
+1 0 30872
+S
+#30879
+The Cells~
+Here the Necromancers store the results of their twisted experiments on some
+captured elven knights. They howl and scream so much that even their
+creators are scared of them.
+~
+0 1|8 0
+D0
+~
+~
+1 0 30880
+D2
+~
+~
+1 0 30881
+D3
+~
+~
+1 0 30878
+S
+#30880
+A Cell~
+This dismal chamber contains little but a few rags and scraps of flesh and
+bone. Whatever lives here certainly has bad domestic habits.
+~
+0 1|8 0
+D2
+~
+~
+1 0 30879
+S
+#30881
+A Cell~
+This dismal chamber contains little but a few rags and scraps of flesh and
+bone. Whatever lives here certainly has bad domestic habits.
+~
+0 1|8 0
+D0
+~
+~
+1 0 30879
+S
+#30882
+The Blue Portal~
+This portal leads to the highest tier of the abbey. Be careful- there's no
+turning back now!
+~
+0 1|8 0
+D5
+~
+~
+1 30848 30839
+S
+#30883
+The Final Portal Chamber~
+This 40'x40' room has the usual two portals, save that here there is no
+lock on the one set in the roof. In fact you can walk right into it from
+here should you so desire. Hmmm...
+
+Arched hallways run east, south and north, while a door bars passage westward.
+~
+0 8 0
+D0
+~
+~
+0 -1 30884
+D1
+~
+~
+0 -1 30889
+D2
+~
+~
+0 -1 30894
+D3
+~
+~
+1 0 30899
+S
+#30884
+The Arched Corridor~
+you slowly walk along the passage. An eerie feeling comes over you, and you
+shiver. Distant chanting can be heard, as well as the occasional tolling
+of a large bell. You hear more chanting, then a terrible scream. Oh dear...
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30886
+D2
+~
+~
+0 -1 30883
+S
+#30885
+The West Wing of the Unholy Chapel~
+You are standing in the west wing, among pews stained with blood and other
+fluids, most of them unidentifiable. A great cry goes up to the east. You
+peer in that direction and- OH MY GOD!
+~
+0 1|8 0
+D1
+~
+~
+0 -1 30886
+S
+#30886
+The Unholy Chapel~
+It is here that the monks perform their unholy rites, summoning unnameable
+horrors from the deepest pits of hell. You see sick murals covering the
+walls, depicting the sacrifice of youths of all races to perverted, twisted
+demons and devils.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 30888
+D2
+~
+~
+0 -1 30884
+D3
+~
+~
+0 -1 30885
+S
+#30888
+The Altar~
+You have reached the core of the evil, and the wicked heart that pulses the
+energy through it. Though you have battled scores of opponents, rarely have
+you previously encountered such evil. Foul ichor spews from gashes in the
+walls of this place, coalescing into a floating portal to some netherworld
+you know naught of. But you soon will, for it is there that you must next
+travel, to rid the world of this evil!
+~
+0 1|8 0
+D2
+~
+~
+0 -1 30886
+S
+#30889
+The Inner Sanctum~
+You have entered the quarters of the Abbot, master of the unholy abbey and
+the foe you have dreaded facing the most. You can stop here to prepare for
+the upcoming battle if you desire.
+~
+0 1|8|1024 0
+D1
+~
+~
+1 0 30890
+D3
+~
+~
+0 -1 30883
+S
+#30890
+The Quarters of the Abbot~
+These rooms, as you expected, are lavishly appointed with rich tapestries
+and fine furniture from all over the world. You didn't think the abbot would
+live so simply as his followers! You see a bathroom to the east, a study
+to the south and a massive bedchamber to the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 30891
+D1
+~
+~
+0 -1 30893
+D2
+~
+~
+0 -1 30892
+D3
+~
+~
+1 0 30889
+S
+#30891
+A Bedchamber~
+This room is dominated by a great pile of rugs and cushions in the center
+of the room, upon which the abbot reclines with whatever servant has taken
+his fancy. At present it appears to be deserted...
+~
+0 8 0
+D2
+~
+~
+0 -1 30890
+S
+#30892
+A Study~
+This study is more of a library, filled as it is with scores of grimoires
+detailing the most despicable acts imaginable. A small desk, not dissimilar
+to those you saw the maste rmonks using below, stands in the center of the
+room, near a fireplace which burns magically without requiring fuel.
+~
+0 8 0
+D0
+~
+~
+0 -1 30890
+S
+#30893
+A Bathroom~
+This chamber contains a large bath, which fills with natural spring water
+from some hidden source. It appears to be palatable, surprising in this
+foul place.
+~
+0 8 0
+D3
+~
+~
+0 -1 30890
+S
+#30894
+Under Construction~
+This section of the abbey is being massively refurbished, for purposes
+unknown to you. Sounds of construction echo all around you, and you proceed
+with a fair deal of caution, not knowing of what mein the laborers may be.
+~
+0 4|8 0
+D0
+~
+~
+0 -1 30883
+D2
+~
+~
+0 -1 30896
+S
+#30895
+Under Construction~
+This section of the abbey is being massively refurbished, for purposes
+unknown to you. Sounds of construction echo all around you, and you proceed
+with a fair deal of caution, not knowing of what mein the laborers may be.
+~
+0 8 0
+D1
+~
+~
+0 -1 30896
+S
+#30896
+Under Construction~
+This section of the abbey is being massively refurbished, for purposes
+unknown to you. Sounds of construction echo all around you, and you proceed
+with a fair deal of caution, not knowing of what mein the laborers may be.
+~
+0 8 0
+D0
+~
+~
+0 -1 30894
+D1
+~
+~
+0 -1 30897
+D2
+~
+~
+0 -1 30898
+D3
+~
+~
+0 -1 30895
+S
+#30897
+Under Construction~
+This section of the abbey is being massively refurbished, for purposes
+unknown to you. Sounds of construction echo all around you, and you proceed
+with a fair deal of caution, not knowing of what mein the laborers may be.
+~
+0 8 0
+D3
+~
+~
+0 -1 30896
+S
+#30898
+Under Construction~
+This section of the abbey is being massively refurbished, for purposes
+unknown to you. Sounds of construction echo all around you, and you proceed
+with a fair deal of caution, not knowing of what mein the laborers may be.
+~
+0 8 0
+D0
+~
+~
+0 -1 30896
+S
+#30899
+An Empty Chamber~
+You open the door and step into an apparently empty chamber. Neither rug
+nor tapestry can be seen, nor chair nor table. There is no other exit besides
+the one you entered. Strange...
+~
+0 1|4|8 0
+D1
+~
+~
+1 0 30883
+S
+#0
+
+#RESETS
+M 1 30800 6 30844         Monks
+E 1 30800 1 12           habit
+M 1 30800 6 30845         Monks
+E 1 30800 1 12           habit
+M 1 30800 6 30846         Monks
+E 1 30800 1 12           habit
+M 1 30800 6 30886         Monks
+E 1 30800 1 12           habit
+*
+M 1 30801 1 30840         golem
+M 1 30801 1 30841         golem
+M 1 30801 1 30842         golem
+M 1 30801 1 30843         golem
+M 1 30801 1 30884         golem
+M 1 30801 1 30889         golem
+M 1 30801 1 30894         golem
+*
+M 1 30802 1 30847         master
+E 1 30801 1 12           habit
+G 1 30857 0 0            blue amulet
+M 1 30802 1 30874         master
+E 1 30801 1 12           habit
+M 1 30802 1 30870         master
+E 1 30801 1 12           habit
+M 1 30802 1 30862         master
+E 1 30801 1 12           habit
+*
+M 1 30803 1 30878         necromancer
+E 1 30802 1 12           robes
+E 1 30803 1 16           dagger
+M 1 30803 1 30879         necromancer
+E 1 30802 1 12           robes
+E 1 30803 1 16           dagger
+M 1 30803 1 30885         necromancer
+E 1 30802 1 12           robes
+E 1 30803 1 16           dagger
+*
+M 1 30804 1 30892         abbot
+E 1 30805 1 1            ring
+E 1 30805 1 2            ring
+E 1 30806 1 12           robes
+E 1 30807 1 308           bracers
+G 1 30819 0 0            key
+O 1 30820 1 30892         chest
+P 1 30821 1 30820         armor
+P 1 30822 1 30820         sack
+P 1 30823 1 30822         gold
+*
+M 1 30805 1 30880         wight
+E 1 30808 1 16           sword
+E 1 30809 1 5            chain
+E 1 30810 1 11           shield
+E 1 30811 1 3            cloak
+M 1 30805 1 30881         wight
+E 1 30808 1 16           sword
+E 1 30809 1 5            chain
+E 1 30810 1 11           shield
+E 1 30811 1 3            cloak
+*
+M 1 30806 1 30888         devil
+E 1 30812 1 16           scythe
+O 1 30804 1 30888         altar
+*
+M 1 30807 1 30888         virgin
+*
+M 1 30808 10 30896        slaves
+E 1 30814 1 16           pick
+E 1 30813 1 10           manacles
+*
+M 1 30809 1 30898         ogre
+E 1 30815 1 16           whip
+*
+M 1 30810 1 30837         paladin
+E 1 30843 1 11           shield
+E 1 30844 1 15           surcoat
+*
+M 1 30811 1 30819         dwagony-poo
+*
+M 1 30812 1 30800         old elf
+*
+M 1 30813 1 30824         bone golem
+O 1 30824 1 30824         bellows
+*
+M 1 30814 1 30802         wyvern
+E 1 30825 1 3            amulet
+*
+M 1 30815 1 30851         pit beast
+M 1 30815 1 30851         pit beast
+*
+*PORTALS
+*
+O 1 30826 1 30826         green portal up
+O 1 30827 1 30827         green portal down
+O 1 30828 1 30838         red portal up
+O 1 30849 1 30839         red portal down
+O 1 30853 1 30882         blue portal up
+O 1 30854 1 30883         blue portal down
+O 1 30855 1 30883         black portal up
+*
+O 1 30829 1 30829         sack
+O 1 30830 1 30829         lantern
+O 1 30831 1 30829         chest
+O 1 30832 1 30829         wineskin
+O 1 30833 1 30829         waterskin
+O 1 30834 1 30829         rations
+O 1 30835 1 30829         backpack
+*
+O 1 30829 1 30830         sack
+O 1 30830 1 30830         lantern
+O 1 30831 1 30830         chest
+P 1 30848 1 30831         amulet red
+O 1 30832 1 30830         wineskin
+O 1 30833 1 30830         waterskin
+O 1 30834 1 30830         rations
+O 1 30835 1 30830         backpack
+*
+O 1 30836 1 30832         weapons
+O 1 30837 1 30832
+O 1 30838 1 30832
+O 1 30839 1 30832
+O 1 30840 1 30832
+O 1 30841 1 30832
+O 1 30842 1 30832
+*
+O 1 30836 1 30833         weapons
+O 1 30837 1 30833
+O 1 30838 1 30833
+O 1 30839 1 30833
+O 1 30840 1 30833
+O 1 30841 1 30833
+O 1 30842 1 30833
+*
+O 1 30845 1 30834         throne
+O 1 30846 1 30834         skeleton
+*
+O 1 30847 1 30837         sacrophagus
+*
+O 1 30850 1 30859         desk
+O 1 30850 1 30847         desk
+O 1 30850 1 30878         desk
+O 1 30850 1 30870         desk
+O 1 30850 1 30862         desk
+O 1 30850 1 30892         desk
+*
+O 1 30851 1 30892         letter
+O 1 30852 1 30892         book
+*
+D 1 30825 4 2
+D 1 30826 5 2
+D 1 30827 4 2
+D 1 30828 0 1
+D 1 30828 2 1
+D 1 30829 2 1
+D 1 30830 0 1
+D 1 30831 0 1
+D 1 30831 1 1
+D 1 30831 2 1
+D 1 30832 2 1
+D 1 30833 0 1
+D 1 30834 3 1
+D 1 30834 5 1
+D 1 30835 4 1
+D 1 30836 1 1
+D 1 30837 3 1
+D 1 30838 5 1
+D 1 30839 0 1
+D 1 30839 1 1
+D 1 30839 2 1
+D 1 30839 3 1
+D 1 30839 4 2
+D 1 30840 0 1
+D 1 30840 2 1
+D 1 30841 1 1
+D 1 30841 3 1
+D 1 30842 1 1
+D 1 30842 3 1
+D 1 30843 0 1
+D 1 30843 2 1
+D 1 30844 1 1
+D 1 30844 2 1
+D 1 30844 3 1
+D 1 30845 0 1
+D 1 30845 1 1
+D 1 30845 2 1
+D 1 30846 0 1
+D 1 30846 1 1
+D 1 30846 3 1
+D 1 30847 0 1
+D 1 30847 2 1
+D 1 30847 3 1
+D 1 30848 3 1
+D 1 30850 1 1
+D 1 30852 1 1
+D 1 30853 2 1
+D 1 30854 0 1
+D 1 30855 1 1
+D 1 30856 3 1
+D 1 30857 2 1
+D 1 30858 0 1
+D 1 30859 2 1
+D 1 30859 3 1
+D 1 30861 3 1
+D 1 30862 1 1
+D 1 30862 2 1
+D 1 30863 0 1
+D 1 30867 2 1
+D 1 30869 3 1
+D 1 30870 0 1
+D 1 30870 1 1
+D 1 30872 1 1
+D 1 30874 0 1
+D 1 30877 2 1
+D 1 30878 0 1
+D 1 30878 1 1
+D 1 30878 3 1
+D 1 30879 0 1
+D 1 30879 2 1
+D 1 30879 3 1
+D 1 30880 2 1
+D 1 30881 0 1
+D 1 30882 5 2
+D 1 30883 3 1
+D 1 30889 1 1
+D 1 30890 3 1
+*
+S
+
+#SPECIALS
+M 30800 spec_kungfu_poison
+M 30801 spec_executioner
+M 30802 spec_teacher
+M 30803 spec_cast_undead
+M 30804 spec_buddha
+M 30805 spec_cast_undead
+M 30806 spec_cast_undead
+M 30809 spec_grue
+M 30810 spec_cast_cleric
+M 30811 spec_breath_acid
+M 30812 spec_elf
+M 30813 spec_align_change
+M 30814 spec_poison
+M 30815 spec_fido
+R 30865 specr_acidpool
+R 30876 specr_fireplane
+O 30812 speco_drain_hp
+O 30844 speco_morph
+O 30852 speco_blob
+S
+
+#TRIGGERS
+O 30846 trigo_dooropen
+R 30849 trigr_floordrop
+R 30864 trigr_floordrop
+R 30875 trigr_floordrop
+S
+
+
+#$
+
+
+

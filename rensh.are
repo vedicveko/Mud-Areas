@@ -1,0 +1,1753 @@
+#AREA {Rclan} Paulanka & Drax Renshai Clan~
+
+
+#MOBILES
+#11700
+Snorri shopkeeper~
+Snorri~
+Snorri is here, mixing up a new brew.
+~
+Snorri Sturluson is a short, elderly man, with a longish grey beard.  You 
+can tell he has let his beard fall into the pot more than once because of 
+the purple liquid covering it.  He grumbles to himself as he stirs his pot, 
+looking up at you once in a while to see if you've made up your mind yet.
+~
+dwarf~
+BGVbb JZ 1000 S
+17 0 3d9+208 1d1+99 2d6+3 3
+-5 -5 -5 -15
+CDFN ABIQS C 0
+8 8 1 200 
+AHMV ABCDEFGHIJK 2 0
+#11701
+Ymir~
+Ymir~
+Ymir stands before you, waiting to help you learn.
+~
+Ymir is a wise looking, broad shouldered giant who geets you with a warm 
+smile.  He has many scars on the surface of his body, from years of 
+training and battle.
+~
+giant~
+ABGJKV H 1000 S
+30 10 6d12+853 1d1+99 4d6+8 2
+-40 -40 -40 -25
+CDEFHKNO 0 HI JP
+8 8 1 200
+AHMV ABCDEFGHIJK 4 0
+#11702
+Methuzela nurse~
+Methuzela~
+Methuzela is standing here, holding a VERY sharp looking scalpel.
+~
+Looking at Methuzela, you wish you hadn't. She stands about 8 feet tall, 
+and looks very menacing.  You hope your ailments won't require surgery.  
+A sigh of relief escapes your lips when she puts the knife away, in 
+exchange for a clerical text.
+~
+human~
+ABGQRVa Hc 500 S
+100 0 3d10+210 1d1+599 2d20+15 3
+-10 -10 -10 -20
+CDFO AB CP R
+8 8 2 50
+AHMV ABCDEFGHIJK 3 0
+#11703
+Gerta baker~
+Gerta~
+Gerta stands in a cloud of flour here.
+~
+Gerta is a doe-eyed young girl who has been apprenticed to bake for the 
+clan members.  She has flour all over her face and body right now, and 
+is kind of embarrassed.  The smell of her wonderul baked goods makes 
+your mouth water.
+~
+human~
+ABGV 0 1000 S
+17 0 3d9+200 1d1+99 2d6+3 3
+5 5 5 -5
+DFK ABCDEQ 0 0  
+8 8 2 250
+AHMV ABCDEFGHIJ 2 0
+#11707
+Sven armorer~
+Sven the Armorer~
+A well-built Renshai, named Sven, stands here, dusting empty shelves.~
+~
+human~
+ABG C 500 S
+17 0 3d10+258 1d1+99 3d10+10 3
+-40 -40 -40 0
+CDFKN A BCLP R
+8 8 1 10000
+AHMV ABCDEFGHIJK 3 0
+#11708
+Mar Lon bartender~
+Mar Lon~
+Mar Lon stands here, taking a break from his music to serve you a drink.~
+~
+human~
+BGV JZ 1000 S
+17 0 3d9+208 1d1+99 2d6+3 3
+-5 -5 -5 -15
+CDFN ABIQS C 0
+8 8 1 200 
+AHMV ABCDEFGHIJK 2 0
+#11709
+Sylva assistant baker~
+Sylva~
+Sylva watches over Gerta's magic food stores here.
+~
+Sylva is the childhood friend of Gerta's, and she helps watch over the 
+valuable magical foods that Gerta makes.  In contrast to Gerta, she 
+appears very clean, and greets you with a ready smile.
+~
+human~
+ABGV 0 1000 S
+17 0 3d9+200 1d1+99 2d6+3 3
+5 5 5 -5
+DFK ABCDEQ 0 0  
+8 8 2 250
+AHMV ABCDEFGHIJ 2 0
+#11710 
+Vernel stablemaster master~
+Vernel~
+Vernel the stablemaster stands here.~
+Vernel walks around muttering about 'These damn animals'.  He looks at 
+you and smiles, and offers to show you some of the lovely battle-ready 
+animals the Renshai stables have to offer you.
+~
+human~
+ABGUV 0 0 S
+20 0 2d10+100 2d4+100 3d6+25 16
+-5 -5 -5 -5 
+DFK ABCDEQ 0 0 
+8 8 0 250
+AHMV ABCDEFGHIJ 2 0
+#11711
+griffon pet~
+a Griffon~
+A powerful creature with a lion's head, and as eagle's body is here.~
+~
+dragon~
+I 0 0 S
+15 0 3D9+208 2d10+40 2D4+5 29
+-2 -2 -2 -2
+0 0 0 0
+9 9 1 0
+GHZ ABCDEFGHIJKLMNOPQ 3 0 
+#11712
+warhorse war horse pet~
+a Warhorse~
+A powerful steed, bred for its aggression, lack of fear, and prowess in 
+battle, stands here.~
+~
+horse~
+I 0 0 S
+20 0 3D9+333 0D0+0 2D5+4 15
+-4 -4 -4 -4
+0 0 0 0 
+8 8 1 0
+GH ABCDEFGHIJ 3 0 
+#11713
+velociraptor pet raptor~
+a Velociraptor~
+A large green reptile with HUGE teeth stands here, staring at you very 
+intently.~
+~
+dragon~
+I 0 0 S
+26 0 5D10+600 0D0+0 4D6+8 10
+-7 -7 -7 -7
+0 0 0 0
+8 8 1 0
+GH ABCDEFGHIJKLMNOPQ 3 0
+#11714
+tribble pet~
+a Tribble~
+A small Tribble, looking like a ball of fur sits here, multiplying 
+furiously.~ 
+~
+unique~
+I 0 0 S
+30 0 6D12+853 0D10+0 4D6+8 10
+-9 -9 -9 -9
+0 0 0 0
+8 8 0 0 
+AGH F 1 0 
+#11741
+wizard headmaster~
+The Renshai Headmaster Wizard~
+A withered old Renshai, who has been here longer than you can remember 
+stands here, preparing potions.~
+~
+human~
+ABGV 0 1000 S
+55 0 10d10+2000 50d50+250 6d6+25 6
+-10 -10 -10 -10
+DFK ABCDEQ 0 0 
+8 8 1 10000
+AHMV ABCDEFGHIJ 2 0
+#0
+#OBJECTS
+#11704
+Kvasir potion~
+a Kvasir potion~
+A Kvasir potion hovers above the ground here.~
+~
+10 AG A
+35 36 66 0 0
+30 6 500 G
+#11705
+Renshai light Battle Standard~
+The Renshai Battle Standard~
+A proud banner, imbued with the spirits of past warriors lies before you.~
+~
+1 AG AO
+0 0 900 0 0
+25 10 1 G
+#11706
+Standard beer Lager~
+a cool frothy Lager~
+An ice-cold Lager in a red and white label calls to you.~
+~
+10 G A
+35 29 0 0 0
+25 3 250 G
+#11707
+Gerta cookies~
+Gerta's Cookies~
+A delicious batch of homemade cookies simmers here.~
+~
+19 0 A
+10 0 0 0 0
+1 2 25 G
+#11708
+Side Eggs Bacon~
+A Side of Eggs and Bacon~
+Eggs and Bacon lie here, arranged in a happy face.~
+~
+19 0 A
+20 0 0 0 0 
+5 5 50 G
+#11709
+Leg Lamb~
+A Leg of Lamb~
+A steaming leg of lamb lies before you.~
+~
+19 0 A
+40 0 0 0 0 
+5 8 100 G
+#11710
+Club Sandwich~
+Club Sandwich~
+A triple decker club sandwich lies here, making your mouth water.~
+~
+19 0 A
+30 0 0 0 0
+5 6 75 G
+#11711
+Vegetables Vegetarian Surprise~
+Vegetarian Surprise~
+Assorted vegetables lie scattered about the room.~
+~
+19 0 A
+30 0 0 0 0
+5 6 75 G
+#11712
+Ornate Fountain water~
+an ornate fountain~
+A majestic fountain is here, its design merits a closer look though.~
+~
+25 0 0
+50 50 0 0 0 
+500 3000 1000 G
+E
+fountain~
+The fountain depicts a Renshai warrior vainquishing an opponent.  Water 
+flows like blood from a nasty looking wound in the victim statue's throat.
+~
+#11713
+Tankard Ale~
+A Smooth Tankard of Ale~
+A frothing tankard of the finest ale lies here.~
+~
+17 0 A
+8 8 3 0 0
+10 10 5 G
+#11714
+Glass Renshai Wine~
+A Glass of Renshai Wine~
+A glass of fine Renshai vintage lies here.~
+~
+17 0 A
+8 8 1 0 0
+10 20 8 G
+#11715
+Shot Jack Daniels~
+A Shot of Jack Daniels~
+An unbelievably large shot of Jack Daniels lies discarded here.~
+~
+17 0 A
+8 8 8 0 0
+10 20 15 G
+#11716
+Steak Hearty~
+A Hearty Steak~
+A great slab of steak lies here, you feel it could make you stronger.~
+~
+26 0 A
+35 39 0 0 0
+25 3 250 G
+#11717
+Stew~
+Gerta's Stew~
+Gerta's famous stew lies here, steaming.~
+~
+26 0 A
+35 36 0 0 0
+25 3 250 G
+#11718
+Carrot Biscuit~
+Gerta's Carrot Biscuits~
+Fresh baked carrot biscuits lie here. (good for the eyes, you know)~
+~
+26 0 A
+35 19 0 0 0
+25 3 250 G
+#11719
+Bacon bits~
+Bacon Bits~
+A handful of bacon bits lie here.~
+~
+26 0 A
+35 1 0 0 0
+25 3 250 G
+#11720
+Garlic~
+A Clove of Garlic~
+A clove of garlic lies here.  This should keep unwanted guests at bay!~
+~
+26 0 A
+35 67 0 0 0
+25 3 250 G
+#11721
+Coffee Beans~
+Coffee Beans~
+Coffee beans, the essence of java, promise to make you really hyper here.~
+~
+26 0 A
+35 502 0 0 0 
+25 3 2000 G
+#11722
+Apple Pie~
+Gerta's Homemade Apple Pie~
+Gerta's famous apple pie lies here, good for what ails you.~
+~
+26 0 A
+35 16 0 0 0 
+25 3 250 G
+#11723
+Chocolate mousse~
+Chocolate Mousse~
+A delicious looking chocolate mousse invites you to eat it.~
+~
+26 0 A
+35 15 0 0 0
+25 3 250 G
+#11724
+Holy Wafers~
+Holy Wafers~
+Tiny wafers surrounded by a divine aura lie here~
+~
+26 A 1
+35 3 0 0 0 
+25 3 250 G
+#11725
+Rock Candy~
+Rock Candy~
+Rock hard candy lies here.  Care to try your teeth on it?~
+~
+26 0 A
+35 66 0 0 0 
+25 3 250 G
+#11726
+After Eight~
+An After Eight~
+An After Eight, the perfect mixture of chocolate and mint, lies here.~
+~
+26 0 A
+35 81 0 0 0
+25 3 250 G
+#11727
+Angel Food Cake~
+Angel Food Cake~
+A yummy angel food cake lies here.~
+~
+26 0 A
+35 56 0 0 0 
+25 3 250 G
+#11728
+Potion vial venom antidote~
+A vial of venom antidote~
+A vial of blue liquid meant as an antidote to poison is here.~
+~
+10 0 A
+35 43 0 0 0
+25 3 250 G
+#11729
+Potion detect evil~
+A Potion of Detect Evil~
+A potion intended to detect the presence of evil sits here.~
+~
+10 0 A
+35 18 0 0 0
+25 3 250 G
+#11730
+Bottle Snake Oil~
+A Bottle of Snake Oil~
+A bottle filled with snake oil to cure all diseases lies here.~
+~
+10 0 A
+35 501 0 0 0 
+25 3 2000 G
+#11741
+Potion magic cancellation~
+A Potion of Magic Cancellation~
+A potion designed to cancel personal magic effects lies here~
+~
+10 0 A
+35 507 0 0 0
+25 3 2000 G
+#11742
+Voodoo Potion~
+Voodoo Potion~
+A renshai voodoo potion is here, the sure cure to any curse.~
+~
+10 0 A
+35 35 0 0 0 
+25 3 250 G
+#11743
+Potion sight renewal~
+A Potion of Sight Renewal~
+A potion of sight renewal lies here, to cure the blind.~
+~
+10 AG A
+35 14 0 0 0 
+25 3 250 G
+#11744
+chest gold~
+A Gold Chest~
+A large statue of Drax stands here, holding a gold chest.~
+metal~
+15 MO 0
+15 5 0 0 0 
+0 10000 10000 G
+#11745
+coins gold pile~
+A pile of gold coins~
+A pile if gold coins are here.~
+gold~
+20 0 A
+10000 0 0 0 0 
+0 10 10000 G
+#11746
+chest silver~
+A large silver chest~
+A statue of Paulanka holds a silver chest here.~
+metal~
+15 A 0
+10000 5 0 0 0 
+0 10000 10000 G
+#11747
+Margarita~
+A margarita~
+An excellently prepared margarita lies here, shaken, not stirred...~
+~
+17 0 A
+8 8 3 0 0
+10 10 5 G
+#11748
+Klingon Grawk~
+Klingon Grawk~
+Klingon Grawk lies here.  It is reputed to hold the rage of past warriors.~
+~
+26 0 A
+35 504 0 0 0 
+25 3 2000 G
+#11749
+Guiness Stout~
+Guiness Stout~
+A glass of Guiness Stout lies here.~
+~
+26 0 A
+35 504 0 0 0
+25 3 2000 G
+#11750
+shield buckler~
+The Renshai Buckler~
+A small round shield with the Renshai crest on it lies here.~
+steel~
+9 AG AJ
+9 9 9 3 0
+30 10 30000 G
+A
+13 10
+A
+19 3
+#11751
+shield blessing Sif~
+Sif's Blessing~
+A simple medium shield depicting the Renshai goddess of battle, Sif, is here.~
+steel~
+9 AG AJ
+9 9 9 9 0 
+45 10 45000 G
+A
+2 3
+A
+18 2
+A
+13 15
+#11752
+shield wrath Modi~
+Modi's Wrath~
+A fiery red tower shield, emblazoned with the visage of Modi the 
+berserker is here.~
+steel~
+9 AG AJ
+11 10 11 12 0
+55 10 55000 G
+A
+5 1
+A
+17 -1
+A
+18 2
+A
+19 2
+A
+20 -5
+A
+21 -5
+A
+22 -5
+A
+23 -5
+A
+24 -5
+#11753
+pill frenzy~
+A pill of Frenzy~
+A small white pill is here.~
+plastic~
+26 G A
+65 504 0 0 0 
+55 4 3000 G
+#11754
+pill giant strength~
+A Pill of Strength~
+A small blue pill is here.~
+plastic~
+26 G A
+65 39 0 0 0 
+55 4 400 G
+#11755
+pill Sif protection~
+A Pill of Sif's protection~
+A small glowing pill is here.~
+plastic~
+26 AG A
+65 36 66 0 0 
+55 8 800 G
+#11756
+pill detection~
+A Pill of Detection~
+A bright yellow pill sits here.~
+plastic~
+26 G A
+65 19 20 0 0 
+55 8 800 G
+#11757
+pill shielding~
+A Pill of Shielding~
+A small red pill is here.~
+plastic~
+26 G A
+65 1 67 0 0 
+55 8 800 G
+#11758
+pill holy blessing~
+A Pill of Holy Blessing~
+A small glowing orange pill is here.~
+plastic~
+26 G A
+65 3 56 0 0 
+55 8 800 G
+#11759
+pill plague~
+A Plague Pill~
+A sickly green pill is here.~
+plastic~
+26 G A
+65 501 0 0 0 
+55 4 3000 G
+#11760 
+pill negation~
+A Pill of Negation~
+A small clear pill is here.~
+plastic~
+26 G A
+65 507 0 0 0 
+55 4 3000 G
+#11761
+pill curative~
+A Curative Pill~
+A brown pill sits here.~
+plastic~
+26 G A
+65 43 14 0 0 
+55 8 800 G
+#11762 
+pill gypsy~
+A Gypsy Pill~
+A small paisley pill is here.~
+plastic~
+26 G A
+65 35 0 0 0 
+55 4 400 G
+#11763
+bean mexican jumping~
+A Mexican Jumping Bean~
+A small bean is here, hopping around.~
+plastic~
+26 G A
+65 504 0 0 0 
+55 4 3000 G
+#11764
+pangalactic gargle blaster~
+A Pangalactic Gargle Blaster~
+A steaming yellow beverage sits in a melting cup here, but it looks 
+pretty good.  It is supposed to feel like your head is being smashed in with 
+a gold brick wrapped around a slice of lemon.~
+drink~
+17 AG A
+10 10 9 0 0
+1 5 50 G
+#11765 
+shield elder~
+The Renshai Elder Shield~
+A fine platinum tower shield gleams brightly without any light near it.  
+It emanates divine power and fury.~
+platinum~
+9 AG AJ
+19 19 19 19 0
+93 10 25000 G
+A
+18 5
+A
+19 5
+A
+2 3
+A
+12 75
+A
+13 75
+A
+23 -15
+A
+24 -25
+#11766
+shield hero~
+The Renshai Shield of Heroes~
+Streaks of gold run though the polished metal surface of this 
+well-crafted shield, emblazoned with the Renshai battle crest.~
+steel~
+9 AG AJ
+18 17 17 18 0
+78 10 25000 G
+A
+18 5
+A
+19 5
+A
+2 3
+A
+12 100
+A
+13 100
+A
+23 -10
+A
+24 -10
+#11767
+aura swirling~
+The Swirling Renshai Aura~
+A brightly flickering mass of colors seems to hover in the air in front 
+of you.~
+antimatter~
+9 AG AJ
+16 16 16 16 0
+65 10 25000 G
+A
+2 2
+A
+18 5
+A
+19 5
+A
+13 100
+#0
+
+#ROOMS
+#11700
+Greeting room~
+You enter a large, cozy-looking room, with a large fire burning 
+in a large fireplace in the west wall.  You gain a sense of great peace 
+and feel like this is where you have always wanted to be.  You know you 
+will be welcome here, unless you are not of true Renshai blood and spirit, 
+in which case there will be great trouble for you up ahead. A statue of 
+Drax stands holding a chest. An open archway leads north to a T-intersection. 
+A large sign hangs on the wall.
+~
+0 CDK 0
+D0
+An open archway leads north, further into the castle.
+~
+~
+0 -1 11701
+D2
+A portal leads back to Ragnarok.
+~
+~
+0 -1 3054
+E
+sign~
+A sign on the wall reads: " Welcome to the Renshai clan area, please don't
+get blood on the carpets".
+~
+S
+#11701
+Intersection~
+You are standing at a T-intersection which leads west, east, and south, 
+to the greeting room. A large, hand-carved sign is hanging on the wall here.
+~
+0 CDK 0
+D1
+A dim hallway leads to the recruit area.
+~
+~
+0 -1 11706
+D2
+An open archway leads to the greeting room.
+~
+~
+0 -1 11700
+D3
+A hallway leads towards the official members' area.
+~
+~
+0 -1 11702
+E
+sign~
+A sign on th wall says: "Recruits please go east, full members, please go 
+east or west."
+~
+S
+#11702
+Gilded Hallway~
+Walls along this hallway are guilded in gold trim, and pictures of various 
+Norse deities and famous battles in history line the walls in grand display. 
+The hallway leads west and east.  The Portals to several areas lie to the 
+south.
+~
+0 CDK 0
+D1
+The hall leads to a T-intersection.
+~
+~
+0 -1 11701
+D2
+The Hallway of Portals is to the south.
+~
+~
+0 -1 11736
+D3
+The hallway leads to a guard room.
+~
+~
+0 -1 11716
+S
+#11703
+Stone Hallway~
+This plain looking stone hallway is chilly, yet extremely comforting, 
+for you know its construction has retained itself over hundreds of years, 
+and is a symbol of the proud Renshai tradition, and its longevity.  The 
+hallway leads west and east.
+~
+0 D 0
+D1
+The hallway continues east.
+~
+~
+0 -1 11704
+D3
+The hallway leads to a T-intersection.
+~
+~
+0 -1 11701
+S
+#11704
+Stone Hallway~
+The stone hallway is damp and cool.  Torches line the walls and provide 
+a warm glow to their surroundings.  The hall leads west, and an intersection 
+is to the east.
+~
+0 CD 0
+D1
+The hallways open into an intersection.
+~
+~
+0 -1 11705
+D3
+The hallway leads west.
+~
+~
+0 -1 11703
+S
+#11705
+Hallway Intersection~
+This intersection is made of smooth stone walls, and is well-lit. Exits 
+lead south, to the Recruit donation room, north, towards the clan area 
+shop, and west, down a stone hallway.
+~
+0 CD 0
+D0
+The hallway leads further north, towards the Quickie-Mart.
+~
+~
+0 -1 11707
+D3
+The hall leads eat to a rough-stone hallway.
+~
+~
+0 -1 11704
+D2
+The recruit donation room is to the south.
+~
+~
+0 -1 11706
+S
+#11706
+Recruit Donation Room~
+This area is reserved for extra, lower-level equipment that any of the 
+Renshai members wish to donate.  All new recruits and younger members of 
+the clan may freely use an items they find in this room. A statue of 
+Paulanka holds a chest in the corner.  A door west leads to the hospital, and
+another door leads east to the practice room. As well, there is a hallway 
+to the north.  A sign hangs on the wall here.
+~
+0 CD 0
+D0
+An intersection lies to the north.
+~
+~
+0 -1 11705
+D1
+A door leads east to Ymirs fitness center.
+~
+~
+1 -1 11727
+D2
+A door leads south to Mar Lon's Bar.
+~
+~
+1 -1 11732
+D3
+A door leads west to the Hospital.
+~
+~
+1 -1 11726
+E
+sign~
+The sign says: "Please take anything you feel you may need, but please 
+remember to leave something in return at a later date for other members."
+~
+S
+#11707
+Hallway Intersection~
+This intersection has exits north, west, and south.  A sign over the north 
+wall reads 'Snorri's Specialty Shoppe'.  The east contains a door 
+leading to the Renshai Stables.  To the south you see another stone
+intersection, and to the west a large archway leads outside to the 
+courtyard.
+~
+0 CD 0
+D0
+The Renshai clan shop lies to the north.
+~
+~
+0 -1 11708
+D1
+The Renshai Stables are east.
+~
+~
+0 -1 11734 
+D2
+The hallway leads to another intersection.
+~
+~
+0 -1 11705
+D3
+A large stone archway leads outside to the courtyard.
+~
+~
+0 -1 11709
+S
+#11708
+Snorri's Specialty Shoppe~
+As you enter the shop, you immediately see various potions and magical 
+items strewn about the store.  Boiling pots, and large barrels of liquid 
+line one wall, where Snorri the Magician seems to be cooking up a batch 
+of some new potion.  The only exit is south.
+~
+0 D 0
+D2
+The exit leads to a stone intersection.
+~
+~
+0 -1 11707
+S
+#11709
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world. A large Bronze statue 
+of Tyr, the Warrior God stands proudly before you.  The courtyard 
+continues to the north and west, while the castle entrance lies to the east.
+~
+0 0 3
+D0
+The courtyard continues to the north.
+~
+~
+0 -1 11710
+D1 
+The castle entrance is to the east.
+~
+~
+0 -1 11707
+D3
+The courtyard continues to the west.
+~
+~
+0 -1 11712
+S
+#11710
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world.  A large bronze statue 
+of Freya, daughter of Njord the Vanir, stands gracefully before you.  The 
+courtyard continues to the south and the west.
+~
+0 K 3
+D2
+The courtyard continues to the south.
+~
+~
+0 -1 11709
+D3
+The courtyard continues to the west.
+~
+~
+0 -1 11711
+S
+#11711
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world.  A large bronze statue 
+of Loki the giant, and god of mischief, stands mockingly before you.  The 
+courtyard continues in all cardinal directions.
+~
+0 K 3
+D0
+A large clearing is to the north.
+~
+~
+0 -1 11715
+D1
+The courtyard continues to the east.
+~
+~
+0 -1 11710
+D2
+The courtyard continues to the south.
+~
+~
+0 -1 11712
+D3
+The courtyard continues to the west.
+~
+~
+0 -1 11713
+S
+#11712
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world.  A large bronze statue 
+of Modi, god of berserk rage, son of Sif and Thor towers over you.  It is 
+this god's legendary battle rage that all Renshai strive to mimic, and it 
+is his name they call when rage is needed to overcome the painful wounds 
+of battle.  The courtyard continues west, and east. To the north is the
+entrance to the testing grounds for the higher level clan shields.
+~
+0 K 3 
+D0
+~
+~
+0 -1 983
+D1
+The courtyard continues to the east.
+~
+~
+0 -1 11709
+D3
+The courtyard continues to the west.
+~
+~
+0 -1 11714
+S
+#11713
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world.  A large platinum statue 
+of Sif, the Goddess of battle, and Goddess of the Renshai stands 
+majestically before you.  The courtyard continues to the south and east.
+~
+0 K 3
+D1
+The courtyard continues to the east.
+~
+~
+0 -1 11711
+D2
+The courtyard continues to the south.
+~
+~
+0 -1 11714
+S
+#11714
+Open Courtyard~
+You stand in a beautiful open courtyard.  Large oak trees and lilac bushes 
+grow unhindered all around. You feel as though you would never leave, if 
+you didnt have other obligations in the real world.  A large gold statue 
+of Odin the Magician, and chief among Gods, stands glowing before you.  
+You feel as though you are on VERY sacred ground.  The courtyard continues 
+to the north and east.
+~
+0 K 3
+D0 
+The courtyard continues to the north.
+~
+~
+0 -1 11713
+D1
+The courtyard continues to the east.
+~
+~
+0 -1 11712
+S
+#11715
+The Trees of Life~
+This open clearing has two lone trees growing in its centre.  A Creeper 
+Tree, called Embla entwines itself around a large Ash Tree, called Askr. 
+These are the archetypes of the human race.  The gods used these trees as 
+the models for their people.  You are overcome with a sense of awe as you 
+stand beneath this great spectacle.
+~
+0 CK 3
+D2
+A path leads to the courtyard.
+~
+~
+0 -1 11711
+S
+#11716
+Large Guard Room~
+You stand inside a large room with beautiful tapestries adorning the walls.  
+The west wall holds a set of large double doors, guarded by fierce 
+looking sentries.  An archway to the south leads to the higher-level 
+donation room, and one north leads further into the keep.  There is a 
+sign on the west door.
+~
+0 D 0
+D0 
+The archway north leads farther into the keep.
+~
+~
+0 -1 11718
+D1
+The hallway lies to the east.
+~
+~
+0 -1 11702
+D2
+The donation room lies to the south.
+~
+~
+0 -1 11717
+D3
+Two large doors can be seen to the west.
+~
+~
+1 -1 11719
+E
+sign~
+A sign on the door reads: " Only Heroes and Immortals may enter these doors."
+~
+S
+#11717
+High-level Donation room~
+This room has been designated for use by higher level members to donate 
+and receive equipment.  If this equipment is too high in level for you 
+to use, please try the donation room farther to the east.
+~
+0 D 0
+D0
+A large room lies to the north.
+~
+~
+0 -1 11716
+S
+#11718
+Hallway~
+The hallway here runs past a ladder leading down to the Renshai armoury, 
+where all clan equipment is sold.  The south wall contains an archway to 
+the guard room.  To the north, a hallway continues through the keep. 
+Down, will take you to the armoury.
+~
+0 D 0
+D0 
+The north leads to an intersection.
+~
+~
+0 -1 11722
+D2
+To the south there is an archway.
+~
+~
+1 -1 11716
+D5
+A trapdoor leads down into the clan armoury.
+~
+~
+1 -1 11731
+S
+#11719
+Hallway of Heroes~
+This section of the keep is designed for the esteemed members of the 
+Renshai Clan who have achieved hero status, or immortality.  Red plush carpet 
+lines the floor, and paintings of the heroes great deeds line the walls.  Two 
+large doors lead to the east, while the hallway continues to the west.
+~
+0 DQ 0
+D1
+Two large doors lead east.
+~
+~
+1 -1 11716
+D3
+The Hallway of Heroes continues west.
+~
+~
+0 -1 11720
+S
+#11720
+Hallway of Heroes~
+This section of the keep is designed for the esteemed members of the 
+Renshai Clan who have achieved hero status, or immortality.  Red plush 
+carpet lines the floor, and paintings of the heroes great deeds line the
+walls.  The hallway continues to the east, and a large archway leads 
+outside to the north. A strange glow emanates from the archway.
+~
+0 DQ 0 
+D0
+A large archway leads to a glowing clearing.
+~
+~
+0 -1 11721
+D1
+The Hallway of Heroes continues east.
+~
+~
+0 -1 11719
+S
+#11721
+Yggdrasil, the Tree of Fate~
+Before you stands a large glowing tree.  This is Yggdrasil the Tree of Fate.
+This is where the heroes and Immortals of the Renshai clan hold meetings and 
+ceremonies.  You can barely make out three large roots at the base of the 
+tree, only one of which shows above ground. These three roots bind the tree 
+to the underworld, Hel, to the land of the Frost Giants, and here to the 
+world of humans.  The welfare of the entire world is dependant on this 
+primordial tree.  The only exit is south, back into the keep.
+~
+0 KQ 3
+D2
+The archway leads back into the keep.
+~
+~
+0 -1 11720
+S
+#11722
+Hallway Intersection~
+This is a simple intersection, leading north, south, and east.
+~
+0 D 0
+D0
+The hallway continues to the north.
+~
+~
+0 -1 11724
+D1
+The hallway continues east.
+~
+~
+0 -1 11723
+D2
+The hallway continues south.
+~
+~
+0 -1 11718
+S
+#11723
+Exit to Courtyard~
+Here the hallway exits east to a large courtyard outside.  To the west, an 
+intersection leads deeper into the keep.
+~
+0 D 0 
+D1
+An archway covered in bushes and creeping vines leads into the courtyard.
+~
+~
+0 -1 11713
+D3
+The hallway leads west to an intersection.
+~
+~
+0 -1 11722
+S
+#11724
+4-Way Intersection~
+This intersection has exits in all four directions. To the east, to large 
+stained-glass doors lead to the keep's chapel, used for marriages and other 
+religious ceremonies.  The west doors lead to the kitchen, and the clan's 
+dining hall, where all of the feasts and meetings are held in comfort.  The 
+south leads down a hallway, deeper into the keep, and a door occupies the 
+north wall.  A large sign hangs over the north door.
+~
+0 D 0 
+D0
+A door is set in the north wall.
+~
+~
+1 -1 11725
+D1
+Two stained-glass doors lead east into the chapel.
+~
+~
+1 -1 11728
+D2
+The hallway continues to the south.
+~
+~
+0 -1 11722
+D3
+An archway leads into the kitchen.
+~
+~
+0 -1 11729
+E
+sign~
+A charred and burnt sign over the north door  reads: 
+"WHATEVER YOU DO.....DON"T GO IN HERE!"
+~
+S
+#11725
+Ginnungagup~
+Oh! The sign warned you not to enter here! Now you are in it deep!  You 
+have entered one of Loki's trick rooms, called Ginnungagup, after the 
+void which existed before the earth was formed.  You see no exits, and it 
+is VERY dark.  Oops! I think you've soiled your armor!
+~
+0 ACD 0 
+S 
+#11726
+Hospital~
+This is where weary clan members can come for some relief from their 
+battle sores.  Cots line the walls, and everything is pristine and white.  
+Several nurses can be seen aiding the sick.  The only exit is back east.
+~
+0 DK 0 
+D1
+The hallway leads back to the donation room.
+~
+~
+1 -1 11706
+S
+#11727
+Ymir's Practice Room~
+In this room you can see several sets of equipment for practicing battle 
+and magic spells.  Other items you dont quite understand are laying against 
+the wall.  Here you can improve yourself for the outside world. The only 
+exit is west.
+~
+0 DK 0 
+D3
+~
+~
+1 -1 11706
+S
+#11728
+Renshai Chapel~
+Flickering candles adorn the walls, and a large alter, set at the front 
+of the chapel.  A few sinners kneel at the front of the alter begging Sif 
+and Modi for forgiveness, and hoping that the small animals they have 
+brought to sacrifice will be sufficient.  The chapel is very old, and has 
+seen many births, deaths, and marriages.  May it see many more in the future.
+The only exit is through the glass doors to the west.
+~
+0 CDK 0 
+D3
+Two large stained-glass doors lead out of the chapel.
+~
+~
+1 -1 11724
+S
+#11729
+Kitchen~
+The smell of delicious food pervades the room as you enter the keep's 
+enormous kitchen.  Huge pots boil over large fires, and stone ovens can 
+be seen baking huge loaves of bread.  You mouth waters constantly as you 
+look around you. Exits lead to the east and west, and to the north lies 
+Gerta's storeroom of magical foods. ~
+0 D 0 
+D0
+An archway leads to the storeroom.
+~
+~
+0 -1 11733
+D1
+The doors lead back to the hallway.
+~
+~
+1 -1 11724
+D3
+The west exit leads to the Dining Hall.
+~
+~
+0 -1 11730
+S
+#11730
+Dining and Meeting Hall~
+A fifty-foot-long Oak dining table is the centrepiece of this magnificent 
+hall.  High-back chairs sit along both sides of the table, with one on each 
+end, reserved for Sif and Modi.  This is where meetings of the entire clan 
+are held, usually just an excuse for a feast.  The only exit is to the east.
+~
+0 CDK 0 
+D1
+The exit leads back to the kitchen.
+~
+~
+0 -1 11729
+S
+#11731
+Renshai Clan Armory~
+Very little armor or equipment can be seen around this shop due to the fact 
+that much of the new Renshai equipment is still in the development stages.  
+A bulky looking man is standing here dusting off some of the empty shelves.  
+A ladder leads up to the hallway.
+~
+0 D 0
+D4
+The hallway is up.
+~
+~
+1 -1 11718
+S
+#11732
+Mar Lon's Bar~
+You have entered a quiet bar.  A stage lies at one end, a lone mandolin 
+resting on its wooden planks.  At the other end, you see a bar, behind 
+which Mar Lon, the reknowned bard dries some shot glasses, smiling to you 
+as you enter.
+~
+0 D 0
+D0
+An archway exits the bar back to the hallway.
+~
+~
+0 -1 11706
+S
+#11733
+Gerta's Storeroom~
+This is where Gerta keeps her famed magical foods.  Racks upon racks of 
+all varieties of foods line the walls here, and you feel your stomach 
+grumble, despite the sense of powerful magic that presides here.  Gerta's 
+assistant Sylva curtseys to you as you enter, and awaits your order. If 
+Gerta's wares are too weak for your tastes, the Wizard shop is to the east.
+~
+0 D 0
+D1
+A door leads east to the Wizards shop.
+~
+~
+0 -1 11742
+D2
+A doorway leads back to Gerta's Kitchen.
+~
+~
+0 -1 11729
+S
+#11734
+Renshai Stables~
+You are in the famous stables of the Renshai clan.  Here, warriors of all 
+types mat select and purchase a fighting companion to suit their needs in 
+battle.  You see cleanly kept stalls and cages all around, and all of the 
+animals look to be in fine condition.  A stablemaster works vigorously to 
+keep the stalls tidy.
+~
+0 DM 0
+D3
+A door leads west to the hallway.
+~
+~
+0 -1 11707
+S
+#11735
+Pet Room~
+This is the cage room where Vernel keeps his stock.
+~
+0 DM 0 
+S
+#11736
+Hallway of Portals~
+A long hall stretches south, with portals of swirling color lining each 
+side of the hall.  The floor here is engraved with writing.
+~
+0 D 0
+D0
+The main hall is north of here.
+~
+~
+0 -1 11702
+D1
+A portal is east of here.
+~
+~
+0 -1 2503
+D2
+The hallway continues south.
+~
+~
+0 -1 11737
+D3
+A portal is west.
+~
+~
+0 -1 5703
+E
+floor~
+The engraved floor says: "Castle Dread is West, Camelot is East."
+~
+S
+#11737
+Hallway of Portals~
+A long hall stretches south, with portals of swirling color lining each 
+side of the hall.  The floor is engraved with writing.
+~
+0 D 0
+D0
+The hallway continues north.
+~
+~
+0 -1 11736
+D2
+The hallway continues south.
+~
+~
+0 -1 11738
+E
+floor~
+The writing on the floor reads: " There are no portals in this room."
+~
+S
+#11738
+Hallway of Portals~
+A long hallway stretches south, with portals of swirling color lining 
+each side of the hall.  This particular section of hallway has a portal 
+in the floor as well.  The floor is engraved with writing.
+~
+0 D 0
+D0
+The hallway continues north.
+~
+~
+0 -1 11737
+D5
+A portal to Hell is down, wayyyy down.
+~
+~
+0 -1 2401
+D2 
+The hallway continues south.
+~
+~
+0 -1 11739
+D3
+A portal to The Tower of High Sorcery is west.
+~
+~
+0 -1 1312
+E
+floor~
+The floor reads: "Hell is down (where else would it be?), and Tower of 
+Sorcery is west." ~
+S
+#11739
+Hallway of Portals~
+A long hallway stretches south, with portals that have been boarded up along
+each side of the hall.  The floor is engraved with writing.
+~
+0 D 0
+D0
+The hallway continues north.
+~
+~
+0 -1 11738
+D2 
+The hallway continues south.
+~
+~
+0 -1 11740
+E
+floor~
+The floor reads: "Due to budget cuts, these portals are inactive at this 
+time." ~
+S
+#11740
+End of the Hallway~
+The hallway of portals comes to and end here, with a portal to the east, 
+and one to the west.  The floor also has writing on it here.
+~
+0 D 0
+D0
+The hallway continues north.
+~
+~
+0 -1 11739
+D1
+The Keep of Mahn-Tor is through the east portal.
+~
+~
+0 -1 2365
+D2
+The Renshai Map room lies to the south.
+~
+~
+0 -1 11741
+D3
+A swirling portal lies west.
+~
+~
+0 -1 11725
+E
+floor~
+The writing on the floor says: "The Keep of Mahn-Tor is to the east, and 
+to the west lies...Aaaaaaaarrrrrggggghhhhh!"
+~
+S
+#11741
+The Renshai Map Room~
+  You have entered the most treasured and secret room of the Renshai clan 
+area.  Here you find the most closely guarded secret of this clan: A room 
+full of maps to various locations in Aesir!  If any Renshai clan member 
+needs directions to one of these areas, he has only to read the 
+appropriate map, and recieve directions!
+  A HUGE SIGN gives directions on what is available, and how to use the maps.
+~
+0 D 0
+D0
+The Clan portals lie to the north.
+~
+~
+0 -1 11740
+E
+sign~
+  The sign reads:
+
+  WELCOME fellow Renshai... areas currently listed in our records are:
+
+Map1:  Elemental Canyon, Drow City, Olympus, Ofcol.
+Map2:  Monastery, Upper Argo, Rome, Old Thalos. 
+Map3:  Wyvern Tower, Mines of Moria, Goblin Caves, Chaos area, Prom's Castle.
+
+  -To access the directions to an area of your choice, just look at the 
+appropriate map...
+	for example... look Map1 will show you how to get to Elemental Canyon.
+  
+- And if you have any suggestions as to new areas we should add, please 
+post a note to Paulanka or Drax.
+
+Renshai Map industries incorporated (tm).
+~
+E
+Map1~
+To reach the Elemental Canyon: recall, 2s, 6e, 4s, 2e, s, 2e, d, s, 4up.
+To reach Drow City: recall, 2s, 3w, 8s, 2e, s, 10w, 5n, 13w, n, 4w.
+To reach Olympus: recall, 11n, 3up.
+To reach Ofcol: recall, 10n, 6e, 3n.
+~
+E
+Map2~
+To reach the Monastery: recall, 2s, 9e, s.
+To reach Upper Argo: recall, 2s 13w, 4n, u, n, d, 2n.
+To reach Rome: recall, 11n, 8e, 16s, 21e, 9n, 2w.
+To reach Old Thalos: recall, 2s, 6e, 4s, 3w.
+~
+E
+Map3~
+To reach Wyvern tower: recall, 2s, 6e, 4s, 2e, s, 2e, d, 8e.
+To reach Mines of Moria: recall, 2s, 6e, 6n.
+To reach Goblin Caves: recall, 2s, 6e, 4s, 2e, s, 2e, d, 5n, 3w, n, 4up, 
+                       n, e, down. (a mage holds the key here).
+To reach the Chaos Area: recall, 2s, 13w, 2n, e, 3n, d.
+ *please note that the majority of Chaos is no recall*
+
+To reach Prometheus' Castle: recall, 11n, 8e, 16s, 21e, 9s.
+~
+S
+#11742
+The Wizards Laboratory~
+You are standing in the Laboratory of the most famous Wizard in all of 
+Renshai history.  He is walking around mixing pills and potions for use 
+my the clan's many warriors. The exit is west.
+~
+0 DKS 0
+D3
+The only exit is west, into the kitchen.
+~
+~
+0 -1 11733
+S 
+
+
+#0
+
+#RESETS
+M 0 11700 1 11708    Snorri the Shopkeeper
+G 1 11704 -1  Kvasir potions
+G 1 11706 -1  Standards
+G 1 11728 -1  Antidote
+G 1 11729 -1  Detect Evil potions
+G 1 11730 -1  Snake Oil potions
+G 1 11741 -1  Cancellation potions
+G 1 11742 -1  Voodoo remove curse potions
+G 1 11743 -1  Cure Blind potions
+
+*
+M 0 11701 1 11727     Ymir the Trainer
+*
+M 0 11702 1 11726     Methulzela the Healer
+*
+M 0 11703 1 11729     Gerta  the Baker
+G 1 11707 -1         Cookies
+G 1 11708 -1         Bacon and Eggs
+G 1 11709 -1         Lamb
+G 1 11710 -1         Club Sandwich
+G 1 11711 -1         Veggie surprise
+*
+M 0 11709 1 11733     Sylva the assistant
+G 1 11716 -1         Steak
+G 1 11717 -1         Stew
+G 1 11718 -1         Biscuits
+G 1 11719 -1         Bacon Bits
+G 1 11720 -1         Garlic
+G 1 11721 -1         Coffee beans
+G 1 11722 -1         Apple pie
+G 1 11723 -1         Chocolate Mousse
+G 1 11724 -1         Holy Wafers
+G 1 11725 -1         Rock Candy
+G 1 11726 -1         After 8
+G 1 11727 -1         Angel food cake
+G 1 11748 -1         Klingon Grawk
+*
+M 0 11741 1 11742      Wizard
+G 1 11753 -1         
+G 1 11754 -1
+G 1 11755 -1
+G 1 11756 -1
+G 1 11757 -1
+G 1 11758 -1
+G 1 11759 -1
+G 1 11760 -1
+G 1 11761 -1
+G 1 11762 -1
+G 1 11763 -1
+*
+M 0 11707 1 11731     Sven the Armorer
+G 1 11705 -1         Give Sven a Renshai light
+G 1 11750 -1
+G 1 11751 -1
+G 1 11752 -1
+*
+M 0 11708 1 11732     Mar Lon the Bartender
+G 1 11713 -1         Ale
+G 1 11714 -1         Wine
+G 1 11715 -1         JD
+G 1 11747 -1         Margarita
+G 1 11749 -1         Guiness Stout
+G 1 11764 -1           Pangalactic Gargle Blaster
+*
+M 0 11710 1 11734    Vernel the Stablemaster
+*
+M 0 11711 1 11735    Griffon
+*
+M 0 11712 1 11735    Warhorse
+*
+M 0 11713 1 11735    Raptor
+*
+M 0 11714 1 11735    Tribble
+*
+O 0 11712 1 11700     Fountain
+D 0 11716 3 1
+D 0 11719 1 1 
+D 0 11724 0 1
+*
+O 0 11744 1 11700    Chest
+P 0 11745 1 11744 
+*
+O 0 11746 1 11706
+P 0 11717 1 11746
+S
+#SHOPS
+11700   0 0 0 0 0   100 100   0 23 ;Shopkeeper
+11703   0 0 0 0 0   100 100   0 23 ;Kitchen
+11707   0 0 0 0 0   100 100   0 23 ;Armory
+11708   0 0 0 0 0   100 100   0 23 ;Bar
+11709   0 0 0 0 0   100 100  0 23 ; Sylvas kitchen
+11710   0 0 0 0 0   100 100   0 23 ;Stablemaster
+11741   0 0 0 0 0   100 100  0 23 ;Wizard
+0
+#$
+
+
+
+
+
+

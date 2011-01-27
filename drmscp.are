@@ -1,0 +1,1206 @@
+#AREADATA
+Credits     {r<  5- 15> {bWink     {gDreamscape   {x~
+Name        Dreamscape~
+Filename    grave.are~
+Builders    Wink Dimi~
+VNUMs       3600 3699
+Security    9
+End
+
+
+
+#MOBILES
+#3600
+old man~
+an old man~
+An old man is here, holding a bucket of markers.
+~
+He is a tall but bulky man in his late fifties.  His features are worn with
+decades of hard work and his somewhat crouched expression is one of deep
+sorrow and depression.  He is haunted by a memory of a lost paradise.
+~
+human~
+ABGO V 0 0
+9 0 2d27+83 9d10+100 2d7+6 none
+4 4 4 7
+I A 0 0
+sit sit male 128
+AHMV ABCDEFGHIJK M 0
+#3601
+nameless faceless person~
+a nameless faceless person~
+A nameless faceless person is here.
+~
+This person is very non-descript.  You dont know him, and assume he is
+just there to fill space in your dream.  
+~
+human~
+ABO IJ 0 0
+9 0 2d27+83 9d10+100 2d7+6 digestion
+4 4 4 7
+N 0 0 0
+stand stand male 120
+AHMV ABCDEFGHIJK M 0
+#3602
+mousy girl~
+the mousy girl~
+The mousy girl is following you around.
+~
+The mousy girl is wearing an animal print shirt.  You think its a bit
+odd, but you don't comment.  
+~
+human~
+ABT J 0 0
+11 0 3d27+107 11d10+100 3d6+6 none
+3 3 3 6
+EI 0 0 0
+stand stand male 89
+AHMV ABCDEFGHIJK M 0
+#3603
+strange girl~
+a strange girl~
+The strange girl is here.
+~
+The strange girl is dressed in gypsy clothes.  She keeps to herself,
+except to bother the mousy girl.  
+~
+human~
+ABT IJ 0 0
+7 0 1d33+61 7d10+100 2d6+3 none
+5 5 5 7
+I 0 0 0
+stand stand male 96
+AHMV ABCDEFGHIJK M 0
+#3604
+teacher~
+a teacher~
+A teacher looks at you forlornly.
+~
+This teacher has a very sad look on her face.  She has blonde hair and
+blue eyes and teaches the history of demagoguery at the university of Achen
+from what you can gather from her attire and the book she is holding.  
+~
+human~
+ABT J 0 0
+13 0 3d38+131 13d10+100 3d7+8 none
+1 1 1 6
+FI 0 0 0
+stand stand male 67
+AHMV ABCDEFGHIJK M 0
+#3605
+shy mousy cat~
+a mousy cat~
+A shy cat scurries away from you.
+~
+~
+cat~
+ABT JZ 0 0
+17 0 5d39+187 34d10+100 4d7+10 none
+0 0 0 4
+FHI 0 0 0
+stand stand male 267
+AGHMV ABCDEFGHIJKQUV M 0
+#3606
+Tempist~
+Tempist~
+Tempist seems to be ready for anything here.
+~
+~
+human~
+ABR V 0 0
+15 0 4d37+162 30d10+100 4d6+9 none
+0 0 0 5
+0 0 0 0
+stand stand none 427
+AHMV ABCDEFGHIJK M 0
+#3607
+strange vampyre girl~
+the vampyre girl~
+The strange girl is here and you see her fangs.
+~
+~
+human~
+ABFO CDEFGJVZ 0 0
+12 0 3d32+120 12d10+100 3d7+6 drain
+2 2 2 6
+CF A 0 0
+stand stand none 375
+AHMV ABCDEFGHIJK M 0
+#3608
+tempist teacher person~
+Tempist the teacher~
+This person looks like Tempist and the teacher.
+~
+~
+human~
+ABR NOV 0 0
+15 0 4d37+162 15d10+100 4d6+9 none
+0 0 0 5
+CFI A 0 0
+stand stand none 482
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#3600
+candlestick~
+a candlestick~
+~
+oldstyle~
+light 0 AO
+0 0 24 0 0
+0 50 10 P
+E
+candlestick~
+It is a rather old-looking three-armed candlestick made from pewter.  Its
+candles are a yellowish white colour.
+~
+#3601
+brandy bottle~
+a brandy bottle~
+A brandy bottle is lying here.~
+oldstyle~
+drink 0 A
+32 32 'whisky' 0 0
+0 20 100 P
+E
+brandy bottle~
+The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
+like a small dragon's head.  Bottles like these are often worth a small
+amount money, even when empty.
+~
+#3602
+brandy bottle~
+a brandy bottle~
+A brandy bottle is lying here.~
+oldstyle~
+drink 0 A
+32 0 'whisky' 0 0
+0 20 100 P
+E
+brandy bottle~
+The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
+like a small dragon's head.  Bottles like these are often worth some money,
+even when empty.
+~
+#3603
+wheelbarrow~
+a wheelbarrow~
+A green-painted wheelbarrow is standing here.~
+oldstyle~
+boat 0 A
+0 0 0 0 0
+0 1000 50 P
+E
+wheelbarrow~
+It is a heavy wheelbarrow made from solid oaken planks that have been painted
+a dark, green colour.
+~
+#3604
+shovel~
+a shovel~
+A shovel is lying here.~
+oldstyle~
+weapon 0 AN
+mace 1 5 pound 0
+0 80 169 P
+E
+shovel~
+It is a large metal shovel with a solid wooden handle.
+~
+#3605
+rake~
+a rake~
+A rake is lying here.~
+oldstyle~
+weapon 0 AN
+mace 1 4 claw 0
+0 80 140 P
+E
+rake~
+It is a large metal rake with a solid wooden handle.
+~
+#3610
+skeleton~
+a dusty skeleton~
+A dusty skeleton lies here.~
+oldstyle~
+furniture 0 A
+0 0 0 0 0
+0 150 0 P
+E
+skeleton~
+The dusty bones are almost brown.  It must have been buried for a very long
+time.
+A dusty skeleton is in an excellent condition.
+~
+#3611
+amethyst gem~
+a amethyst~
+A large, beautifully polished amethyst has been left here.~
+oldstyle~
+warp_stone T AO
+0 0 0 0 0
+0 10 2500 P
+E
+amethyst~
+It has a very deep purple colour.
+~
+#3612
+pendant silver~
+a silver pendant~
+A silver pendant has been left here.~
+oldstyle~
+jewelry 0 AC
+0 0 0 0 0
+7 10 800 P
+A 1 1
+A 17 -1
+E
+pendant silver~
+It resembles Thor's hammer and appears to be made of solid silver.
+~
+#3613
+dagger silver~
+a silver dagger~
+A long silver dagger is lying here.~
+oldstyle~
+weapon 0 AN
+dagger 2 4 pierce 0
+6 10 430 P
+A 19 1
+E
+dagger silver~
+It has a long, sharp blade that is made entirely from silver.  A small rune
+has been engraved on the blade next to the hilt.
+~
+#3614
+bed~
+a bed~
+~
+none~
+furniture 0 0
+A DFGHIJ EH CFG CFG
+10 0 0 P
+E
+headboard~
+The headboard has many things on it.  One thing that stands out is a
+candle, and you decide maybe you should take it to light your way.  
+~
+E
+woman~
+The woman looks very distressed.  She is drenched in sweat, and has a
+look of anguish on her face.  
+~
+E
+bed~
+The bed is very large.  The sheets and blankets have been strewn all over
+the place, and the pillows have fallen to the floor.  
+~
+#3615
+dream portal~
+a dream~
+~
+none~
+portal 0 0
+0 0 0 AEJKL 0
+0 0 0 P
+E
+riddle~
+~
+#3616
+face nameless person~
+{R (flayed off){y the face of a nameless person{x~
+{y A face that has been flayed off rots here.{x~
+none~
+trash B AQ
+0 0 0 0 0
+9 13 165 P
+F A 3 -1 0
+F A 13 27 0
+#3617
+glasses cat-eye~
+{y (dusty){b a pair of cat-eye glasses{x~
+{b You see some glasses with long eliptical lenses here.{x~
+none~
+armor A AR
+AC C AC C 0
+11 1 394 P
+F A 3 2 0
+F A 12 7 0
+#3618
+strange pair eyes~
+{W (mean-looking){B  a strange pair of{W  eyes{x ~
+{B A pair of eyes have been ripped out of some sockets here.{x~
+none~
+light A A
+0 0 999 0 0
+7 1 138 P
+F A 4 3 0
+F A 12 10 0
+#3619
+railroad spike~
+{R (rusty){m a railroad{R spike{x~
+{r You see a rusty railroad spike here.{x~
+none~
+weapon BT AN
+dagger 3 3 stab D
+9 10 4927 P
+F A 19 1 0
+F A 18 1 0
+#3620
+train grill~
+{Y (glistening){G a cast-iron train grill{x~
+You see a train grill here.~
+none~
+armor AT AJ
+C AB C C 0
+9 47 428 P
+F A 24 -1 0
+F A 12 4 0
+#3621
+report card~
+{W (wrinkled){B a good report card{x~
+{B You see a report card here.{x~
+none~
+trash A AO
+0 0 0 0 0
+13 1 135 P
+F A 4 1 0
+F A 5 1 0
+F A 13 17 0
+#3622
+cat fur~
+{y (feather-shaped){b some cat fur{x~
+{b You see some cat fur here.{x~
+none~
+armor A AK
+C AC AC C 0
+17 11 517 P
+F A 13 13 0
+#3623
+earrings turmoil~
+{y (shaking){c the earrings of turmoil{x~
+{c You see some earrings here.{x~
+none~
+armor A AS
+AB C AB AB 0
+15 1 4310 P
+F A 18 1 0
+F A 12 7 0
+#3624
+neckguard darkness~
+{R a neckguard of everlasting darkness{x~
+{R You see a neckguard here.{x~
+none~
+armor AGT AC
+AC AC C C 0
+12 13 518 P
+F A 3 1 0
+F A 1 1 0
+#3625
+alucard's sabre~
+{M (unholy){R Count Alucard's sabre{x~
+{R You see a sabre drenched in blood here.{x~
+none~
+weapon BT AN
+sword 4 3 slash DH
+12 14 492 P
+F A 19 2 0
+F A 18 1 0
+#3626
+ring lucidity~
+{Y (silent){W a ring of lucidity{x~
+{Y You lucidly see a ring here.{x~
+none~
+jewelry AIT AB
+0 0 0 0 0
+15 1 462 P
+F A 19 1 0
+F A 3 1 0
+#3627
+protector's wrist guard~
+{W (blessed){B a protector's wrist guard{x~
+{B You see a wrist guard here.{x~
+none~
+armor AG AM
+BC BC BC AC 0
+15 3 387 P
+F A 18 1 0
+F A 12 7 0
+F A 13 13 0
+#3628
+mace saving grace~
+{M (holy){G the mace of the Saving Grace{x~
+{G This mace seems to exude holiness{x~
+none~
+weapon BT AN
+mace 4 4 wrath DH
+15 18 482 P
+F A 23 -1 0
+F A 19 1 0
+F A 18 2 0
+#3629
+switchblade justice~
+{g (avenging){M the switchblade of justice{x~
+{M You see a switchblade stuck in the floor here.{x~
+none~
+weapon 0 AN
+exotic 4 3 stab D
+15 10 369 P
+F A 19 1 0
+F A 18 1 0
+#3630
+key magic marker~
+{W a magic marker key{x~
+{W A magic marker key is here{x~
+none~
+key TUY A
+0 0 0 0 0
+1 1 0 P
+#3631
+painting~
+a painting~
+~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+painting~
+As you keep looking at the painting it goes out of focus and you see words 
+in its place: for a hint on how to enter Dream area, type help portal.
+                                                 -the Gods of ET
+~
+#3632
+cape sleepless nights~
+{bthe cape of sleepless nights{x~
+{bYou see a dark blue cape here.{x~
+none~
+container AY AK
+43 0 0 16 30
+9 10 468 P
+F A 3 3 0
+F A 24 -2 0
+F A 17 -11 0
+#3633
+reality~
+{Wreality{x~
+{WReality{x is here.~
+none~
+portal 0 0
+0 0 0 ACDEFGHJLMN 0
+1 0 0 P
+E
+reality~
+To get out the this dream, enter reality.
+~
+#0
+
+
+
+#ROOMS
+#3600
+A dimly lit room~
+You find yourself in a bedroom.  There is a small amount of light coming
+in through the window, just barely illuminating a bed.  On the bed is a
+woman, thrashing about, blankets twisted around her legs.  She seems to be
+having a nightmare.  You wonder what she is dreaming about, and wish you
+could figure out a way to enter her dream.  There is a candle on the
+headboard, and you think maybe you should take it with you.  You also see a
+painting on the wall.  
+~
+0 AC 0
+E
+picture~
+The fire has changed now.  You see it progress from a dim candle to a
+roaring blaze.  It may be a fireplace.  In any case, it is a humble
+surrounding.  The food here looks delicious, and if you manage to go there,
+look at the walls, for they have eyes and ears, and therefore may know more
+than you or I.  You can't get the image of a crab out of your head...  Or
+was it just a type of crab?  
+~
+D0
+~
+~
+0 0 3605
+S
+#3601
+In the dream~
+You can't quite focus on anything.  Your sense of reality is totally
+gone.  In the distance, you see what you think is a small group of people. 
+You feel your body stiffen as the scene comes into focus.  
+~
+0 A 1
+D2
+The gravel road continues southwards.
+~
+~
+0 -1 3602
+S
+#3602
+In a dream~
+You find yourself in a small room surrounded by a group of people.  A few
+of the people seem familiar, as if you know them in real life.  There is a
+very shy looking girl, that you remember was a friend when you were much
+younger.  Another person you recognize is someone named Tempest.  There is
+also a very strange girl, dressed in gypsy clothes.  There is another person
+there, acting as a teacher who seems somewhat familiar, but you can't figure
+out who he is yet.  
+~
+0 A 1
+D0
+The gravel road continues northwards.
+~
+~
+0 -1 3601
+D2
+The gravel road continues southwards.
+~
+~
+0 -1 3603
+S
+#3603
+In a dream~
+The group of people decide they are going to visit an old man living in
+an old train.  The train is a personal museum, filled with toys and various
+wierd objects.  You feel very excited as the group of people get ready to go.
+~
+0 A 1
+D0
+The gravel road continues northwards.
+~
+~
+0 -1 3602
+D2
+The gravel road continues southwards to an open space before a small
+building.
+~
+~
+0 -1 3604
+S
+#3604
+In a dream~
+You pile into a van with everyone.  You get a little upset, because
+everyone seems to be picking on the mousy girl.  You take her under your
+wing, as you remember you did when you were younger.  She needs friendship,
+and guidance, and you plan to give it to her.  
+~
+0 A 1
+D0
+The gravel road continues northwards.
+~
+~
+0 -1 3603
+D3
+The gravel path leads westwards between the dark evergreen trees.
+~
+~
+0 -1 3618
+S
+#3605
+Valley of Dreams~
+You find yourself in a dreamlike valley.  The trees are ghostly white and
+the grass is bright yellow.  The owls look like mice and the ants look like
+elephants.  Everything seems twisted here. To the south you see a bedroom
+sitting in the middle of the valley. 
+~
+0 C 2
+D2
+~
+~
+0 0 3600
+S
+#3606
+In a dream~
+The mousy girls mother has taken her home.  You are now hanging around
+with Tempist and the teacher.  The strange girl walks up to your group and
+tells you she thinks something is wrong.  She starts explaining to you that
+she is a witch with heightened mental powers.  She needs you, Tempist and
+the teacher to help her look for the 'bad thing' that she senses.  
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+~
+~
+0 0 3649
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3608
+S
+#3607
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3608
+In a dream~
+The strange girl tells you to follow her, that she will lead because she
+will be able to sense trouble before you could see it.  You are worried by
+what she says and agree to follow her, knowing you may be in grave danger,
+but not knowing what the danger could be.  
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3606
+D3
+The gravel path continues westwards.
+~
+~
+0 -1 3610
+S
+#3609
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3610
+In a dream~
+You walk into a room, and the strange girl tenses.  The hair on your neck
+begins to rise, you are very scared.  You back out of the room, because the
+feeling of danger is very strong.  As you look southward, something black
+flashes in the corner of your eye.  
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D1
+The gravel path continues eastwards.
+~
+~
+0 -1 3608
+D2
+~
+~
+0 0 3611
+S
+#3611
+In a dream~
+A huge black cat saunters into the room.  The strange girl sharply
+inhales, and looks at the cat as if she knew exactly what to expect.  She
+walks over to the cat, and pets it.  As she is doing that, she tells you to
+look at its fur.  
+~
+0 D 0
+D0
+~
+~
+0 0 3610
+D3
+~
+~
+0 0 3619
+S
+#3612
+In a dream~
+The strange girl's picture is backwards.  It looks as if she had painted
+it on the opposite side of a window, and you are looking at it from the
+back.  This girl is starting to make you very nervous.  
+~
+0 0 2
+D1
+The gravel path continues eastwards.
+~
+~
+0 -1 3614
+D3
+It is a small black-painted shed with a wooden door.
+~
+door~
+0 -1 3613
+S
+#3613
+In a dream~
+The mousy girl has attached herself to you.  Every time you turn around,
+she is right there.  You don't get mad, because you realize you are the only
+person being nice to her.  The teacher and the old men beckon you to follow
+them for the rest of the tour.  
+~
+0 AD 0
+D1
+~
+door~
+0 -1 3612
+D2
+~
+~
+0 0 3651
+S
+#3614
+In a dream~
+You grab a pen, and put a big smiley face on the wall.  Everyone else is
+still busy doing theirs when you are done, so you look to see what they are
+doing.  The strange girl is very intent on her art.  
+~
+0 0 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3616
+D3
+The gravel path continues westwards.
+~
+~
+0 -1 3612
+S
+#3615
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3616
+In a dream~
+The group moves into the train, with the old man following behind.  The
+first wall that catches your eye is the one right across from the door.  Its
+is covered in graffiti.  The old man notices you are looking at it and asks
+your group if you'd like to add to it.  He pulls out a bucket of markers and
+sets it on the floor.  
+~
+0 A 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3614
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3618
+S
+#3617
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3618
+In a dream~
+When you arrive at the old train, the old man comes out to greet you. 
+His eyes roam over the group lingering on the strange girl.  You look at
+her, and see through his eyes how strange the girl really looks.  You
+realize that the mousy girl seems very scared of the strange girl, and the
+strange girl is paying alot of attention to the mousy girl.  This makes you
+very nervous for some unknown reason.  
+~
+0 0 1
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3616
+D1
+The gravel path continues eastwards towards a building of some sort.
+~
+~
+0 -1 3604
+S
+#3619
+In a dream~
+The cat's fur has a design on it!  If you look closer, you'd notice that
+the design is actually feathers, and looks an awful lot like the same design
+on the mousy girls shirt.  The strange girl tells you the cat must die, but
+first she has to pluck its feathers, and make a fan from them.  
+~
+0 CD 0
+D1
+~
+~
+0 0 3611
+D3
+~
+~
+0 0 3638
+S
+#3638
+In a dream~
+She pulls a feather, and you get the weirdest feeling...  Kinda like the
+world is getting dimmer.  As she pulls more and more feathers, the world
+gets darker and darker. You don't know how you realize it, but you know that
+when all the feathers are plucked, the end of the world will come.  The cat
+IS the end of the world, and you must protect it.
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3640
+D1
+~
+~
+0 0 3619
+S
+#3639
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3640
+In a dream~
+Tempist and the teacher realize what is happening at almost the same
+moment as you.  They rush to the strange girl, and push her away from the
+cat.  She fights as hard as she can, and you realize you must kill her if
+you are to save the world.  
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3642
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3638
+S
+#3641
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3642
+In a dream~
+The strange girl knows what is on your mind. She looks at you and says
+'You cannot kill me, for i am a vampyre,'  You realize the problem may be
+a little worse than you thought in the first place.  
+~
+0 A 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D1
+The gravel path continues eastwards.
+~
+~
+0 -1 3644
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3640
+S
+#3643
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3644
+In a dream~
+You start to panic, then realize somewhere along the way you picked up a
+wooden stake.  You had no idea what you would need it for, but this seems
+like the perfect time.  You hold it in your hands, and run toward the
+strange girl.  You impale her heart on the spike, and she falls to the
+ground.  
+~
+0 D 2
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3646
+D3
+The gravel path continues westwards.
+~
+~
+0 -1 3642
+S
+#3645
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3646
+In a dream~
+You, Tempist and the teacher run to the cat to soothe it, because it no
+longer feels dangerous.  It makes a small sound, then starts to change right
+before your eyes.  Its skin bubbles, and stretches, its snout receeds, and
+it develops a human shape.  It looks strangely familiar.  
+~
+0 AD 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3644
+D3
+The gravel path continues westwards.
+~
+~
+0 -1 3648
+S
+#3647
+In a dusty Tomb~
+~
+0 ACD 1
+S
+#3648
+In a dream~
+The human form stands up, and looks you in the eye.  It is the mousy
+girl.  She looks at you with pride in her eyes.  She tells you that she is
+life and death, and that your purpose in life is to protect her, because
+when she dies, the end of the world will come.  This was a test of your
+faith and strength, and you have passed it well.  Tempist and the teacher
+look at you and start to talk at the same time.  They are saying the exact
+same words, in time with each other.  The words start blending together, until
+it sounds as if it is only one voice.  
+~
+0 A 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D0
+The gravel path continues northwards.
+~
+~
+0 -1 3650
+D1
+The gravel path continues eastwards.
+~
+~
+0 -1 3646
+S
+#3649
+In a dream~
+The tour is done.  You decide to go swimming with everyone in the ocean. 
+You step off of the train, and smell the sea air.  The mousy girl decides it
+is time for her to go home, so she calls her mom to come get her.  The
+strange girl, and Tempist have befriended you, because you are no longer so
+protective of the mousy girl.  
+~
+0 AD 1
+D2
+~
+~
+0 0 3606
+D3
+~
+~
+1 0 3651
+S
+#3650
+In a dream~
+You turn and find that Tempist and the teacher have melded into one
+person.  They tell you that they had split into 2 people to give you more
+support.  You needed to believe in yourself to save the world from its
+demise.  The merged body is telling you that keeping the world safe is in
+your hands, and you have proven yourself very worth of the task.  You have
+completed your task, and may enter reality.  
+~
+0 A 0
+E
+tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+D2
+The gravel path continues southwards.
+~
+~
+0 -1 3648
+S
+#3651
+In a dream~
+You follow everyone through the train.  There are so many strange things
+here.  Everyone is in awe of the crazy collection of toys and art.  Your
+friend Tempist is starting to be very friendly to the mousy girl, but you
+can tell he is still a little nervous to be around her.  The mousy girl asks
+you if you have the key that unlocks the east door that leads to the magic
+ocean.
+~
+0 AD 1
+D0
+~
+~
+0 0 3613
+D1
+~
+~
+1 3630 3649
+S
+#0
+
+
+
+#SPECIALS
+M 3600 spec_cast_undead Load to: an old man
+M 3601 spec_cast_undead Load to: a nameless faceless person
+M 3607 spec_cast_undead Load to: the vampyre girl
+M 3608 spec_cast_mage Load to: Tempist the teacher
+S
+
+
+
+#RESETS
+D 0 3649 3 2               * The west door of In a dream is closed and locked
+D 0 3651 1 2               * The east door of In a dream is closed and locked
+O 0  3614     0  3600         * A bed loaded to A dimly lit room
+O 0  3600     0  3600         * A candlestick loaded to A dimly lit room
+O 0  3615     0  3600         * A dream loaded to A dimly lit room
+O 0  3631     0  3600         * A painting loaded to A dimly lit room
+O 0  3633     0  3601         * {wreality{x loaded to In the dream
+M 0  3602    30  3602     1   * Load the mousy girl
+E 0  3617    19    19         * {y (dusty){b a pair of cat-eye glasses{x is loaded on the eyes of the mousy girl
+M 0  3601    30  3602     1   * Load a nameless faceless person
+E 0  3616    18    18         * {r (flayed off){y the face of a nameless person{x is loaded floating of a nameless faceless person
+M 0  3603    30  3602     1   * Load a strange girl
+G 0  3618    -1               * {w (mean-looking){b  a strange pair of{w  eyes{x  is given to a strange girl
+E 0  3632    12    12         * {bthe cape of sleepless nights{x is loaded about the shoulders of a strange girl
+M 0  3602    30  3603     1   * Load the mousy girl
+E 0  3617    19    19         * {y (dusty){b a pair of cat-eye glasses{x is loaded on the eyes of the mousy girl
+M 0  3601    30  3603     1   * Load a nameless faceless person
+M 0  3603    30  3603     1   * Load a strange girl
+G 0  3618    -1               * {w (mean-looking){b  a strange pair of{w  eyes{x  is given to a strange girl
+E 0  3632    12    12         * {bthe cape of sleepless nights{x is loaded about the shoulders of a strange girl
+M 0  3602    30  3604     1   * Load the mousy girl
+E 0  3617    19    19         * {y (dusty){b a pair of cat-eye glasses{x is loaded on the eyes of the mousy girl
+M 0  3601    30  3604     1   * Load a nameless faceless person
+E 0  3616    18    18         * {r (flayed off){y the face of a nameless person{x is loaded floating of a nameless faceless person
+M 0  3603    30  3604     1   * Load a strange girl
+G 0  3618    -1               * {w (mean-looking){b  a strange pair of{w  eyes{x  is given to a strange girl
+M 0  3603    30  3606     1   * Load a strange girl
+M 0  3606    30  3606     1   * Load Tempist
+G 0  3623    -1               * {y (shaking){c the earrings of turmoil{x is given to Tempist
+E 0  3629    16    16         * {g (avenging){m the switchblade of justice{x is loaded wielded of Tempist
+O 0  3610    13  3607         * A dusty skeleton loaded to In a dusty Tomb
+M 0  3604    30  3608     1   * Load a teacher
+M 0  3606    30  3608     1   * Load Tempist
+G 0  3623    -1               * {y (shaking){c the earrings of turmoil{x is given to Tempist
+E 0  3629    16    16         * {g (avenging){m the switchblade of justice{x is loaded wielded of Tempist
+M 0  3603     4  3609     1   * Load a strange girl
+M 0  3603    30  3610     1   * Load a strange girl
+M 0  3606    30  3610     1   * Load Tempist
+M 0  3603    30  3611     1   * Load a strange girl
+M 0  3605    10  3611     1   * Load a mousy cat
+E 0  3622    12    12         * {y (feather-shaped){b some cat fur{x is loaded about the shoulders of a mousy cat
+M 0  3604    30  3612     1   * Load a teacher
+M 0  3603    30  3612     1   * Load a strange girl
+M 0  3602    30  3613     1   * Load the mousy girl
+M 0  3604    30  3613     1   * Load a teacher
+E 0  3621    17    17         * {w (wrinkled){b a good report card{x is loaded held in the hands of a teacher
+M 0  3603    30  3614     1   * Load a strange girl
+M 0  3604    30  3614     1   * Load a teacher
+E 0  3621    17    17         * {w (wrinkled){b a good report card{x is loaded held in the hands of a teacher
+O 0  3610    13  3615         * A dusty skeleton loaded to In a dusty Tomb
+M 0  3602    30  3616     1   * Load the mousy girl
+M 0  3600     2  3616     1   * Load an old man
+E 0  3620    11    11         * {y (glistening){g a cast-iron train grill{x is loaded as a shield of an old man
+E 0  3619    16    16         * {r (rusty){m a railroad{r spike{x is loaded wielded of an old man
+G 0  3630    -1               * {w a magic marker key{x is given to an old man
+M 0  3604    30  3616     1   * Load a teacher
+E 0  3621    17    17         * {w (wrinkled){b a good report card{x is loaded held in the hands of a teacher
+M 0  3602     1  3617     1   * Load the mousy girl
+G 0  3612    -1               * A silver pendant is given to the mousy girl
+M 0  3602    30  3618     1   * Load the mousy girl
+M 0  3601    30  3618     1   * Load a nameless faceless person
+M 0  3603    30  3618     1   * Load a strange girl
+M 0  3600     2  3618     1   * Load an old man
+E 0  3620    11    11         * {y (glistening){g a cast-iron train grill{x is loaded as a shield of an old man
+E 0  3619    16    16         * {r (rusty){m a railroad{r spike{x is loaded wielded of an old man
+G 0  3630    -1               * {w a magic marker key{x is given to an old man
+M 0  3603    30  3619     1   * Load a strange girl
+M 0  3606    30  3619     1   * Load Tempist
+M 0  3605    10  3619     1   * Load a mousy cat
+E 0  3622    12    12         * {y (feather-shaped){b some cat fur{x is loaded about the shoulders of a mousy cat
+M 0  3606    30  3638     1   * Load Tempist
+M 0  3603    30  3638     1   * Load a strange girl
+M 0  3605    10  3638     1   * Load a mousy cat
+E 0  3622    12    12         * {y (feather-shaped){b some cat fur{x is loaded about the shoulders of a mousy cat
+M 0  3603     4  3639     1   * Load a strange girl
+M 0  3605    10  3640     1   * Load a mousy cat
+M 0  3606    30  3640     1   * Load Tempist
+O 0  3610    13  3641         * A dusty skeleton loaded to In a dusty Tomb
+M 0  3603    30  3642     1   * Load a strange girl
+M 0  3605    10  3642     1   * Load a mousy cat
+O 0  3603     5  3643         * A wheelbarrow loaded to In a dusty Tomb
+M 0  3607     1  3644     1   * Load the vampyre girl
+G 0  3624    -1               * {r a neckguard of everlasting darkness{x is given to the vampyre girl
+G 0  3624    -1               * {r a neckguard of everlasting darkness{x is given to the vampyre girl
+E 0  3625    16    16         * {m (unholy){r count alucard's sabre{x is loaded wielded of the vampyre girl
+M 0  3601     1  3645     1   * Load a nameless faceless person
+G 0  3611    -1               * A amethyst is given to a nameless faceless person
+M 0  3605    10  3646     1   * Load a mousy cat
+O 0  3610    13  3647         * A dusty skeleton loaded to In a dusty Tomb
+M 0  3602    30  3648     1   * Load the mousy girl
+M 0  3606    30  3649     1   * Load Tempist
+G 0  3623    -1               * {y (shaking){c the earrings of turmoil{x is given to Tempist
+E 0  3629    16    16         * {g (avenging){m the switchblade of justice{x is loaded wielded of Tempist
+M 0  3604    30  3649     1   * Load a teacher
+O 0  3633     0  3649         * {wreality{x loaded to In a dream
+M 0  3608     1  3650     1   * Load Tempist the teacher
+E 0  3628    16    16         * {m (holy){g the mace of the saving grace{x is loaded wielded of Tempist the teacher
+G 0  3626    -1               * {y (silent){w a ring of lucidity{x is given to Tempist the teacher
+G 0  3626    -1               * {y (silent){w a ring of lucidity{x is given to Tempist the teacher
+G 0  3627    -1               * {w (blessed){b a protector's wrist guard{x is given to Tempist the teacher
+G 0  3627    -1               * {w (blessed){b a protector's wrist guard{x is given to Tempist the teacher
+M 0  3602    30  3651     1   * Load the mousy girl
+M 0  3604    30  3651     1   * Load a teacher
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

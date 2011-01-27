@@ -1,0 +1,933 @@
+#AREA  { 3 15} Sonja MotherGoose~
+
+
+
+#MOBILES
+
+#2900
+little bo-peep girl~
+Little Bo-Peep~
+Little Bo-Peep has lost her sheep and doesn't know where to find them.
+~
+A silly little girl, with blonde hair and sad blue eyes. She really wants 
+to find her sheep.
+~
+human~
+BGS 0 750 S
+8 0 2d7+96 1d1+100 1d7+2 17
+5 5 4 3
+EIJ A 0 0
+8 8 2 223
+AHMV ABCDEFGHIJK 2 0
+#2901
+sheep~
+Sheep~
+A Sheep is hiding here.
+~
+A large fleece-covered critter, this poor sheep has no tail.
+~
+sheep~
+BGR 0 750 S
+5 0 2d6+60 1d1+100 1d6+1 7
+5 3 6 4
+CI A 0 0
+8 8 1 121
+AHV ACDEFHJKQ 1 0
+#2902
+tweedle dum~
+Tweedle Dum~
+Tweddle Dum is standing here arguing with Twiddle Dee about his rattle.
+~
+A large, seemingly friendly boy, Tweedle Dum is way to into his toys.
+~
+human~
+BGR 0 -750 S
+8 0 2d7+96 1d1+100 1d7+2 8
+4 4 5 2
+CD A 0 0
+8 8 1 342
+AHMV ABCDEFGHIJK 2 0
+#2903
+tweedle dee~
+Tweedle Dee~
+Tweedle Dee is here arguing with Tweedle Dum.
+~
+A large, seemingly friendly boy, Tweedle Dee is way to into Tweedle Dums 
+toys.
+~
+human~
+BGR 0 -750 S
+8 0 2d7+96 1d1+100 1d7+2 8
+5 2 4 4
+CD A 0 0
+8 8 1 326
+AHMV ABCDEFGHIJK M 0
+#2904
+jack~
+Jack~
+Jack is here, jumping over a candlestick.
+~
+A spry young man in green, Jack is jumping over a candlestick.
+~
+human~
+BGS 0 750 S
+10 0 2d7+121 1d1+100 2d4+2 1
+1 2 1 0
+CEF A 0 0
+8 8 1 232 
+AHMV ABCDEFGHIJK M 0
+#2905
+farmer's wife~
+Farmer's Wife~
+The Farmer's Wife is standing here.
+~
+The farmer's wife is quite a sight, she is a plump, older woman who is all 
+out of breath as if she were just in some kind of chase.
+~
+human~
+BFGQ 0 750 S
+10 0 2d7+121 1d1+230 2d4+2 10
+1 1 1 2
+BEJK A 0 0
+8 8 2 113
+AHMV ABCDEFGHIJK M 0
+#2906
+blind mice mouse~
+Blind Mice~
+A Blind Mouse is running up the clock.
+~
+You see before you, a blind mouse. Strangely it seems to be missing its 
+tail.
+~
+mouse~
+EFM A 750 S
+5 0 2d6+60 1d1+100 1d6+1 10
+5 5 5 5
+FH A 0 0 
+8 8 0 432
+AMV ACDEFHJKQ 0 0
+#2907
+little miss muffett girl~
+Little Miss Muffett~
+Little Miss Muffett is sitting on her tuffet.
+~
+A little girl with her morning breakfast, Miss Muffett is afraid of 
+spiders.
+~
+human~
+BCHG 0 750 S
+8 0 2d7+96 1d1+100 1d7+2 16
+3 2 3 1
+CIJ A 0 0 
+6 6 2 300
+AHMVV ABCDEFGHIJK 2 0
+#2908
+spider~
+Spider~
+A large spider has dropped in.~
+A huge hairy spider with BIG fangs, he looks as though he'd like to have 
+you for breakfast.
+~
+insect~
+BG 0 0 S
+5 0 2d7+71 1d1+100 1d7+1 10
+5 4 3 5
+D A 0 0
+8 8 1 327
+AGP ACDEFKV 1 0
+#2909
+humpty dumpty egg~
+Humpty Dumpty~
+Humpty Dumpty is sitting on the wall.~
+Humpty Dumpty is a large egg in clothes, sitting on this wall as if he 
+won't fall.
+~
+egg~
+BG 0 750 S
+17 0 3d9+229 1d1+100 3d4+4 4
+-3 -3 -3 -3
+DEFJ A 0 0
+6 6 1 264 
+AHMV ABCDEFGHIJK 2 0
+#2910
+king's horse~
+King's Horse~
+One of the King's Horses is standing here.
+~
+a large black stallion, wearing the kinds colors, is waiting here for 
+its rider.
+~
+horse~
+BG 0 500 S
+15 0 3d9+208 1d1+100 2d6+3
+3
+-2 -2 -2 -2
+FIJK A 0 0      
+8 8 1 143
+AGV ABCDEFJK 2 0
+#2911
+king's men man~
+King's Man~
+One of the King's men is here.
+~
+One of the king's men, he looks very confused about what to do about 
+the egg on the wall.
+~
+human~
+BGT 0 750 S
+15 0 3d9+233 1D1+100 2d6+3
+3
+-2 -2 -2 -2
+CDEJ A 0 0
+8 8 1 231
+AHMV ABCDEFGHIJK 2 0
+#2912
+old mother hubbard woman~
+Old Mother Hubbard~
+Old Mother Hubbard is looking in the cubbard.
+~
+Old Mother Hubbard is looking mighty lean. Seems her cubbards are bare.
+~
+human~
+BG 0 750 S
+13 0 2d10+170 1D1+100 2d5+3
+3
+-1 -1 -1 -1
+ENK A 0 0
+8 8 2 121
+AHMV ABCDEFGHIJK 2 0
+#2913
+dog~
+Dog~
+The Dog is here.~
+A mangy mutt, he seems to be a bit underfed.
+~
+dog~
+BFG 0 500 S
+10 0 2d7+121 1D1+100 2d4+2
+3
+1 1 1 1
+CD A 0 0
+6 6 1 123
+AGV ACDEFHJK 1 0
+#2914
+jack boy~
+Jack~
+Jack is here fetching a pail of water.
+~
+Jack is a fine young man who has been sent to fetch water with his sister.
+~
+human~
+BG 0 750 S
+10 0 2d7+121 1D1+100 2d4+2
+1
+1 1 1 1
+CDEJ A 0 0
+8 8 1 132
+AHMV ABCDEFGHIJK 2 0
+#2915
+jill girl~
+Jill~
+Jill is here, helping to fetch the water.
+~
+Jill is a cute young girl, who has been sent to fetch water with her 
+brother, Jack.
+~
+human~
+BG 0 750 S
+10 0 2d7+121 1D1+100 2d4+2 2
+1 1 1 1
+CDEJ A 0 0
+8 8 2 243
+AHMV ABCDEFGHIJK 2 0
+#2916
+cat~
+Cat~
+A Cat is playing the fiddle here.
+~
+A very talented cat, he is dressed in breeches and tails, with a very nice 
+top hat.
+~
+cat~
+BG 0 750 S
+13 0 2d10+170 1d1+100 2d5+3
+3
+-1 -1 -1 -1
+DFH A 0 0
+8 8 1 217
+AGV ACDEFHJK 1 0
+#2917
+cow~
+Cow~
+A Cow is here, jumping over the moon
+~
+A large milk cow, she seems to have an unusual love for jumping over 
+the moon.
+~
+cow~
+BG 0 750 S
+10 0 2d7+121 1d1+100 2d4+2
+4
+1 0 2 1
+CI A 0 0
+8 8 2 175
+AGV ACDEFHJK 2 0
+#2918
+little dog~
+Little Dog~
+A little dog is laughing to see such a sight.
+~
+This little dog seems to find it quite funny to see a cow jump over a moon.
+~
+dog~
+BG 0 750 S
+10 0 2d7+121 1d1+100 2d4+2
+5
+1 1 1 1
+FH A 0 0
+8 8 1 193
+AGV ACDEFHJK 1 0
+#2919
+dish~
+Dish~
+A Dish is here, running away with the Spoon.
+~
+This Dish seems to have a great affection for his Spoon.
+~
+unique~
+BGR 0 750 S
+15 0 3d9+208 1d1+100 2d7+4
+6
+-2 -2 -2 -2
+AF A 0 0
+8 8 1 127
+EM BCDEFGHIK 2 0
+#2920
+spoon~
+Spoon~
+A Spoon is here, running away with the Dish.
+~
+This Spoon has a lovely face, it is no wonder the Dish is running away with her.
+~
+unique~
+BG 0 750 S
+15 0 3d9+208 1d1+100 2d6+3
+1
+-2 -2 -2 -2
+F A 0 0
+8 8 2 317
+EM BCDEFGHIK 2 0
+#2921
+mother goose~
+Mother Goose~
+Mother Goose is here, rocking in her chair.
+~
+Mother Goose is a grandmotherly type woman, who seems quite content 
+living with her gander.
+~
+human~
+BGR 0 1000 S
+17 0 3d9+229 1d1+250 3d4+4
+2
+-2 -2 -2 -2
+ADEKN A 0 0
+6 6 2 327
+AHMV ABCDEFGHIJK 2 0
+#2922
+gander~
+Gander~
+Mother Goose's Gander is here.
+~
+This is Mother Goose's pet Gander. He is a fine looking goose wearing a 
+blue ribon around his neck.
+~
+goose~
+BFGT T 1000 S
+17 0 3d9+229 1d1+100 3d4+4
+3
+-3 -3 -3 -3 
+BDFH A 0 0
+5 5 1 229
+AGW ACDEFHJKP 2 0
+#0
+
+
+
+#OBJECTS
+
+#2900
+umbrella~
+Umbrella~
+A well used umbrella is lying here.~
+aluminum~
+9 0 AO
+1 3 2 1 0
+8 3 250 G
+A
+3 1
+A
+4 2
+#2901
+rattle~
+Rattle~
+A broken rattle is lying here.~
+plastic~
+9 0 AO
+3 1 2 3 0
+8 3 150 G
+A
+3 2
+A
+4 1
+#2902
+candlestick light candle~
+Candlestick~
+A candlestick is lying here.~
+brass~
+1 A A
+0 0 2000 0 0
+10 1 30 G
+#2903
+kife butcher~
+Butcher Knife~
+A bloody butcher knife is here.~
+iron~
+5 0 AN
+2 12 1 11 0
+10 3 300 G
+A
+18 2
+A
+19 1
+#2904
+bow ribbon~
+Bow~
+A blue neck ribbon and bow is lying here.~
+satin~
+9 0 AC
+5 4 5 3 0
+17 3 243 G
+A
+18 2
+A
+19 2
+A
+2 2
+#2905
+mace~
+Mace~
+A small Mace is here.~
+silver~
+5 0 AN
+4 12 1 21 0
+15 03 300 G
+A
+18 2
+A
+19 1
+#2906
+dog's bone~
+Dog's Bone~
+A smelly old dog's bone is lying here.~
+bone~
+9 0 AO
+3 2 3 3 0
+10 3 243 G
+A
+19 2
+#2907
+shirt~
+Shirt~
+A rumpled, well worn shirt is lying here.~
+cotton~
+9 0 AD
+5 5 4 5 0
+15 4 247 G
+A
+13 5
+#2908
+cape~
+Cape~
+A well worn, brown cape is lying here.~
+velvet~
+9 0 AK
+4 5 5 5 0
+15 4 323 G
+A
+1 2
+#2909
+well~
+Well~
+A Well is here.~
+stone~
+25 0 0
+0 0 0 0 0
+15 16959 2500 G
+#2910
+breeches~
+Breeches~
+A pair of light weight breeches is here.~
+cotton~
+9 0 AF
+5 5 4 5 0
+15 3 320 G
+A
+5 3
+#2911
+sword~
+sword~
+A small sword is lying here.~
+iron~
+5 0 AN
+1 12 1 3 0
+15 3 334 G
+A
+18 2
+A
+19 1
+
+#0
+
+
+
+#ROOMS
+
+#2900
+Entrance~
+You are standing at the entrance to a land in which all of Mother Goose's 
+favorite fable characters live.
+~
+0 0 1
+D1
+~
+~
+0 -1 2901
+D2
+~
+~
+0 -1 15079
+S
+#2901
+Main Street~
+You are traveling along Main Street. There is a beautiful meadow on either 
+side of the road filled with wild flowers. To your east you can hear the 
+bleating of sheep, while to your west come the faint sounds of an argument. 
+The road continues north and south.
+~
+0 0 1
+D0
+~
+~
+0 -1 2907
+D1
+~
+~
+0 -1 2902
+D2
+~
+~
+0 -1 2900
+D3
+~
+~
+0 -1 2904
+S
+#2902
+Meadow~
+You have come to a beautiful meadow full of wildflowers in every color 
+of the rainbow. There is a large willow tree here that appears to have 
+sheep tails hanging from the branches as if put there to dry. Hiding in 
+the tall grasses are a couple of sheep.
+~
+0 0 1
+D1
+~
+~
+0 -1 2903
+D3
+~
+~
+0 -1 2901
+S
+#2903
+Meadow~
+You are in a beautiful meadow. Sitting on a rock nearby is a little 
+girl with a sad face, who seems to have lost her sheep. Perhaps you 
+could help her find them.
+~
+0 0 1
+D3
+~
+~
+0 -1 2902
+S
+#2904
+Meadow~
+You are in a secluded area of the meadow. There is a large treehouse 
+here, and there are strange little toys scattered all about, almost as 
+if two children lived here.
+~
+0 0 0
+D1
+~
+~
+1 -1 2901
+S
+#2905
+Hill Top~
+From atop this hill you can see all of the lands below you. This is 
+where all of Mother Goose's favorite people come to get their water and 
+enjoy a little quiet. 
+~
+0 0 1
+D5
+~
+~
+0 -1 2912
+S
+#2906
+Field~
+You have come to a lovely little field across the street from the 
+farmers house. It looks like a good place to stop and take a rest or 
+have a snack.
+~
+0 0 1
+D1
+~
+~
+0 -1 2907
+S
+#2907
+Main Street~
+You are on Main Street. You hear screaming coming from the field to your 
+west and from the farmhouse to your east.  There seems to be something 
+tumbling down the hill toward you.
+~
+0 0 1
+D1
+~
+~
+1 -1 2908
+D2
+~
+~
+0 -1 2901
+D3
+~
+~
+0 -1 2906
+D4
+~
+~
+0 -1 2905
+S
+#2908
+Farmhouse~
+You are standing in the family room of a large farmhouse. There is a 
+fireplace along the north wall with pictures of family on the mantle. 
+A large grandfather clock dominates one corner of the room. The kitchen 
+is to the east.
+~
+0 0 1
+D1
+~
+~
+0 -1 2909
+D3
+~
+~
+1 -1 2907
+S
+#2909
+Kitchen~
+Standing in a large country style kitchen, You notice everything is in 
+disarray. Pots and pans and butcher knives are strewn all about the room. 
+There is a back door to your north which exits to a small alley.
+~
+0 0 1
+D0
+~
+~
+1 -1 2910
+D3
+~
+~
+0 -1 2908
+S
+#2910
+Alley~
+A small alley running between the farmer's house and Old Mother Hubbards. 
+There are a few scattered puddles and misplaced gardening tools on the 
+ground here.
+~
+0 0 1
+D0
+~
+~
+1 -1 2917
+D2
+~
+~
+1 -1 2909
+S
+#2911
+Field~
+Standing in a well-kept field of grass, you hear a haunting melody 
+being played on a fiddle to your north. And you notice that from above 
+the moon seems to be laughing at something.
+~
+0 0 2
+D0
+~
+~
+0 -1 2916
+D3
+~
+~
+0 -1 2912
+S
+#2912
+Main Street~
+Once again on Main Street, you hear what seems to be a laughing dog to 
+your east, and to your west you can see flickering candlelight through 
+the window of the house there. Main Street continues to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 2915
+D1
+~
+~
+0 -1 2911
+D3
+~
+~
+1 -1 2913
+S
+#2913
+House~
+A small but comfy home, you notice that someone has pushed all the 
+furniture off to the sides of the room, and put a candlestick, with 
+a half-burned candle in it, in the center of the floor.
+~
+0 0 1
+D1
+~
+~
+1 -1 2912
+D2
+~
+~
+1 -1 2906
+S
+#2914
+West Wall~
+This is the west wall of town, it is perhaps 8 ft. tall, composed 
+totally of bricks made here in this littl community. It looks as if it 
+might be fun to sit or walk upon to get a good view of all that is near.
+~
+0 0 1
+D0
+~
+~
+0 -1 2921
+D1
+~
+~
+0 -1 2915
+S
+#2915
+End of Main Street~
+You have reached the end of Main Street. There is a large staircase 
+floating as if in mid-air to the east of the road. To the north and 
+west you can see the wall of the city.
+~
+0 0 1
+D0
+~
+~
+0 -1 2920
+D2
+~
+~
+0 -1 2912
+D3
+~
+~
+0 -1 2914
+D4
+~
+~
+0 -1 2922
+S
+#2916
+Field~
+You are in a well kept field of grass. Everywhere you look are grasses 
+of all kinds. Standing in the middle of all this is an oddly dressed cat 
+playing a fiddle.
+~
+0 0 2
+D0
+~
+~
+0 -1 2919
+D2
+~
+~
+0 -1 2911
+S
+#2917
+House~
+The living room in Mother Hubbards house is very bare. You see a small 
+tattered rug on the floor and a lone rocking chair near the fireplace. 
+The kitchen is to your north.
+~
+0 0 1
+D0
+~
+~
+0 -1 2918
+D2
+~
+~
+1 -1 2910
+S
+#2918
+Kitchen~
+A very sparse and empty room, it is amazing anyone could live here. The 
+cabinets are all empty and it appears as if the kitchen table was used 
+for last night's fire.
+~
+0 0 1
+D2
+~
+~
+0 -1 2917
+S
+#2919
+North Wall~
+At the end of this lovely field you have stumbled across the North Wall 
+of town. At 8ft tall and made from brick it is a very daunting site for 
+those trying to run away together, especially the dish and the spoon.
+~
+0 0 2
+D2
+~
+~
+0 -1 2916
+D3
+~
+~
+0 -1 2920
+S
+#2920
+Along the North Wall~
+The North Wall is 8 ft tall and composed entirely of brick made in 
+this little community, It looks as if it might be fun to sit or walk     
+upon to get a good view of all that is going on around you.
+~
+0 0 1
+D1
+~
+~
+0 -1 2919
+D2
+~
+~
+0 -1 2915
+D3
+~
+~
+0 -1 2921
+S
+#2921
+Northwest Corner~
+You have come to the northwest corner of town, where the north and west 
+walls meet. There seems to be some kind of squishy yellow puddle on the 
+ground here, and it appears as if there are small pieces of eggshell in 
+it.
+~
+0 0 1
+D1
+~
+~
+0 -1 2920
+D2
+~
+~
+0 -1 2914
+S
+#2922
+Mother Goose's Cloud~
+This large fluffy cloud is more homey then most of the houses in town. 
+There is a comfy rocker with a bag of knitting sitting on the floor on 
+one side of it and a bag of books sitting on the other. 
+~
+0 0 1
+D5
+~
+~
+0 -1 2915
+S
+
+#0
+
+
+
+#RESETS
+M 0 2900 1 2903     BoPeep
+E 1 2900 -1 17               Umbrella
+M 0 2901 3 2902     Sheep
+M 0 2901 3 2902     Sheep
+G 0 27 1
+M 0 2901 3 2902     Sheep
+M 0 2902 1 2904     Dum
+E 1 2901 -1 17               Rattle
+M 0 2903 1 2904     Dee
+M 0 2904 1 2913     Jack
+E 1 2902 -1 0                Candlestick
+M 0 2905 1 2909     Wife
+E 1 2903 -1 16               Knife
+M 0 2906 3 2908     Mice
+M 0 2906 3 2908     Mice
+M 0 2906 3 2908     Mice
+M 0 2907 1 2906     Muffett
+M 0 2908 1 2906     Spiders
+M 0 2909 1 2921     Humpty
+M 0 2910 2 2914     Horses
+M 0 2910 2 2914     Horses
+M 0 2911 2 2920     Men
+E 1 2905 -1 16               Mace
+M 0 2911 2 2920     Men
+E 1 2911 -1 16               Sword
+M 0 2912 1 2918     Hubbard
+M 0 2913 1 2917     Dog
+E 1 2906 -1 17               Bone
+M 0 2914 1 2905     Jack
+E 1 2907 -1 5                Shirt
+M 0 2915 1 2905     Jill
+E 1 2908 -1 12               Cape
+M 0 2916 1 2916     Cat
+E 1 2910 -1 7                Breeches
+M 0 2917 1 2911     Cow
+M 0 2918 1 2911     Dog
+M 0 2919 1 2919     Dish
+M 0 2920 1 2919     Spoon
+M 0 2921 1 2922     Mother
+M 0 2922 1 2922     Gander
+E 1 2904 -1 3                Bow 
+O 1 2909 1 2905              Well
+D 0 2907 1 1                           to farmhouse
+D 0 2908 3 1                           to main st
+D 0 2909 0 1                           to alley
+D 0 2910 0 1                          to hubbard
+D 0 2910 2 1                           to farmhouse
+D 0 2912 3 1                           to Jacks house
+D 0 2913 1 1                           to street
+D 0 2917 2 1                           to alley
+S
+
+
+#$

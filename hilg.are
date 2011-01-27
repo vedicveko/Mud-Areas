@@ -1,0 +1,133 @@
+#AREADATA
+Name New area~
+Builders Hilgamar~
+VNUMs 400 499
+Credits (null)~
+Security 9
+End
+
+
+
+#MOBILES
+#400
+Hazrem the Butler~
+A zombie butler~
+A zombie is here wearing a suit.  He looks like a butler.
+~
+A zombie dressed in a tattered, rotting suit is here.
+~
+unique~
+ABGOT DFGOWXZc -600 0
+25 0 5d10+550 2d10+200 2d10+7 claw
+-5 -5 -5 2
+CO BLPQRT CIJ N
+stand stand male 0
+HIMV ABCFGHIJK medium unknown
+M EXIT 400 0~
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#400
+{YMansion Entrance{x~
+Before you is a large impressive mansion that seems to be made of flesh
+stretched across bone.  The air is especially foul here, worse than before. 
+The soil is steaming and all of the grass is dead.  To the east, west and
+south the dead woods continue.  To the north is a large, dried flesh door.  
+~
+0 8196 2
+D0
+~
+door large dried flesh~
+1 0 450
+D2
+~
+~
+0 0 401
+S
+#401
+{YDead Woods{x~
+You are in a forest of dead trees.  The air is chilled and you steam
+every time you breathe.  The ground is crunching beneath your feet and the
+woods are dead quiet.  The forest continues on in all directions but seems
+to thin out to the north.  
+~
+0 0 3
+D0
+~
+~
+0 0 400
+O Hilgamar~
+S
+#450
+{YThe Foul Foyer{x~
+You are standing in the foyer.  The walls are of peeling flesh and the
+floor creaks badly.  The air smells like a tomb in here.  There is a large,
+dried flesh door to the south.  
+~
+0 9 0
+D0
+~
+~
+0 0 451
+D2
+~
+door large dried flesh~
+1 0 400
+S
+#451
+~
+The walls of this open hall seem to be decaying quite rapidly.  The
+stench is overpowering.  The hallway comes to an abrupt end to the north and
+opens into the foyer to the south.  
+~
+0 0 0
+D2
+~
+~
+0 0 450
+S
+#0
+
+
+
+#SPECIALS
+M 400 spec_cast_undead
+S
+
+
+
+#RESETS
+D 0 400 0 1
+D 0 450 2 1
+M 0 400 1 450 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#400
+if isevil $n
+say Welcome friend.  What is your business here?
+emote bows cordially before $n
+else
+curse $n
+say Get lost do-gooder!  The master will not see you!
+mob echo $n feels compelled to leave.
+mob force $n south
+endif
+~
+#0
+
+#$

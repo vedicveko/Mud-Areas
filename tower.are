@@ -1,0 +1,1744 @@
+#AREA
+tower.are~
+The School Tower~
+{ 5 35} Grehyton The Tower~
+2600 2699
+
+#MOBILES
+#2600
+Being~
+the Being~
+The being stands here, type LOOK BEING, to get some help.
+~
+You are nothing now. To become something you 
+need a description that others can judge your
+character on. Without a description the gods will
+be angered, and you will probably be destroyed.
+One can not exist without substance.
+type LOOK yourname and you will see you do not
+have a general description.
+type DESC then your description
+This will put in the first line of your description. Then you can type DESC + more description to add lines.
+i.e.
+
+desc A huge looking dwarf with long hair and a
+desc + beard. He looks a little gruff but you
+desc + think you see a smile under that mass of
+desc + hair somewhere.
+
+You can LOOK at yourself to see how it looks. 
+Please remember NO description should include
+what you are wearing.
+~
+elf~
+BG 0 0 0
+50 0 10d10+499 0d0+0 2d10+100 pound
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2601
+master~
+the master~
+A Master stands here.
+~
+Here stands a member of the Eternal Order of
+Masters. He is skilled in all the arts and has
+devoted lifetimes to training. On his left
+cheek is the mark of his Order, a dark blue
+crescent moon. Type TRAIN to see what abilitys
+he can help you train in. Then train the ones
+of your choice.
+~
+dwarf~
+BGJV 0 0 0
+50 2 10d10+499 0d0+0 10d10+100 pound
+-25 -25 -25 -25
+CFH 0 0 0
+stand stand male 0
+0 0 medium 0
+#2602
+slave~
+the slave of battle~
+A slave of battle stands here, waiting to destroy you.
+~
+Covered in scars and dried blood, he lives to
+destroy. Maybe you can claim a final victory
+over him.
+~
+school monster~
+BG J -300 0
+5 0 2d6+60 0d0+0 1d6+1 pound
+5 5 5 5
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2603
+initiate~
+the initiate~
+The initiate of the Order stands here.
+~
+A strong member of the Order. He nods at you
+at asks you if you want to PRAC.
+~
+giant~
+BGK HJ 1000 0
+50 0 50d10+4500 0d0+0 5d8+19 pound
+-25 -25 -25 -25
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2604
+old man~
+the old man~
+An old man sits here behind a counter.
+~
+He glares at you and cackles, he knows your 
+fate is sealed.
+~
+human~
+BCG N 200 0
+23 0 5d10+450 0d0+0 3d6+6 wrath
+-6 -6 -6 -6
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2605
+avatar~
+the avatar~
+The avatar stands here healing the wounded.
+~
+Clothed in robes she has a kind and gentle aura.
+~
+elf~
+BGa H 500 0
+50 0 50d10+500 0d0+0 5d8+19 pound
+-25 -25 -25 -25
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#2606
+werewolf~
+the werewolf~
+The werewolf growls and spits, angry in its misery.
+~
+It was once a man, but now has forever shifted
+into is crinos form.
+~
+school monster~
+BG 0 0 0
+1 0 2d6+10 0d0+0 1d4+0 claw
+9 9 9 9
+0 0 0 0
+stand stand male 2
+0 0 medium 0
+#2607
+lunatic~
+the lunatic~
+The lunatic stands here babbling about the gods.
+~
+His eyes look empty and distant. Ragged clothes
+and rotting teeth.
+~
+school monster~
+BG 0 0 0
+1 0 2d6+5 0d0+0 1d4+0 pound
+9 9 9 9
+J 0 0 0
+stand stand male 0
+0 0 medium 0
+#2608
+cave fisher~
+the cavefisher~
+The cavefisher screeches and attacks!
+~
+Covered in spikey natural armor, it is a fierce
+opponent.
+~
+school monster~
+BFG 0 0 0
+1 0 2d6+5 0d0+0 1d4+0 pound
+8 8 8 8
+C 0 0 0
+stand stand male 0
+H 0 medium 0
+#2609
+goblin warrior~
+a goblin warrior~
+A goblin warrior stands here, angry at your intrusion.
+~
+He is green and scaley. He shakes his fist at
+you and spits.
+~
+school monster~
+BG Z -500 0
+1 0 2d6+0 1d4+0 0d0+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2610
+ogre~
+the ogre~
+The ogre stands here, daring you to attack.
+~
+Huge and dangerous, the ogre holds the key
+to your descendancy.
+~
+school monster~
+BG 0 -500 0
+2 0 2d6+0 1d4+0 0d0+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2611
+shrieker~
+the shrieker~
+The shrieker stands here shrieking.
+~
+A giant purple fungus that are used to warn off
+intruders.
+~
+school monster~
+BG 0 0 0
+1 0 2d6+5 1d4+0 1d4+0 slime
+9 9 9 9
+A 0 0 0
+stand stand male 0
+BHO 0 medium 0
+#2612
+war pig~
+the war pig~
+The war pig stands here defacating on the earth.
+~
+A sick pig, trained in the art of killing.
+~
+school monster~
+GH 0 0 0
+1 0 2d6+5 0d0+0 1d4+0 charge
+9 9 9 9
+C 0 0 0
+stand stand male 1
+H 0 medium 0
+#2613
+lesser orc~
+the lesser orc~
+The lesser orc stands here, fearing its master will return.
+~
+The orc a human/pig looking creature. This one
+is of lower kind, a slave to the Uruk-Hai.
+~
+school monster~
+GH 0 0 0
+1 0 2d6+6 0d0+0 1d4+0 scratch
+8 8 8 8
+J 0 0 0
+stand stand male 0
+0 0 medium 0
+#2614
+greater orc~
+the greater orc~
+The Uruk-Hai orc stands here, raging mad.
+~
+He is a fierce looking creature, and leader of
+all lesser orcs in his squad.
+~
+school monster~
+BGH 0 -300 0
+2 0 2d7+11 0d0+0 1d6+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2615
+elf slave~
+the elf slave~
+The elf slave screams and attacks.
+~
+The elf would rather die at your hands then its
+masters.
+~
+school monster~
+BFGH 0 0 0
+1 0 2d6+5 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+#2616
+elf guard~
+the elf guard~
+The elf guard stands here at attention.
+~
+The elves here living in such close quarters with
+the orcs, are forever in battle.
+~
+school monster~
+BGH 0 0 0
+1 0 2d6+5 0d0+0 1d4+0 pound
+9 9 9 9
+K 0 0 0
+stand stand male 1
+0 0 medium 0
+#2617
+high elf~
+the high elf~
+The high elf stands here wondering about you.
+~
+He is dressed in nice silks and armor.
+~
+school monster~
+BGH 0 0 0
+3 0 2d6+15 0d0+0 1d6+0 pound
+9 9 9 9
+I 0 0 0
+stand stand male 0
+0 0 medium 0
+#2618
+keeper~
+the keeper~
+The keeper of the crypt stands here, animating as you approach.
+~
+He is wrapped in old bandages, mummified years
+ago by an ancient cult.
+~
+school monster~
+BG 0 -500 0
+3 0 2d6+13 0d0+0 1d6+0 pound
+8 8 8 9
+E 0 0 0
+stand stand male 0
+0 0 medium 0
+#2619
+skeleton~
+the skeleton~
+The skeleton stands here, rattling its bones.
+~
+Not much to look at, its clothes have long
+since rotted.
+~
+school monster~
+BG 0 0 0
+1 0 2d6+0 0d0+0 1d4+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+H 0 medium 0
+#2620
+skeleton warrior~
+the skeleton warrior~
+The skeleton of some long dead warrior stands here.
+~
+It moves from the crypt in an agile manner,
+unusual for the condition it is in.
+~
+school monster~
+BG DF 0 0
+4 0 2d7+12 0d0+0 1d5+1 pound
+8 8 8 8
+FK 0 0 0
+stand stand male 10
+H 0 medium 0
+#2621
+spider~
+the spider~
+The spider is here, waiting to devour you.
+~
+This hairy spider hides here, waiting for an
+unwary passerby.
+~
+centipede~
+BGU Q 0 0
+2 0 2d7+11 0d0+0 1d6+0 pound
+9 9 9 9
+0 0 0 0
+stand stand male 0
+HMV BDEF medium 0
+#0
+
+
+#OBJECTS
+#2600
+note~
+a note~
+A note lies here.~
+parchment~
+trash O A
+0 0 0 0 0
+0 0 0 P
+E
+note~
+-- Welcome to Infenal Realms --------------
+
+To see the basic commands type HELP
+
+To move about use the basic directions
+North,South,East,West,Up,Down
+
+To check what you are carrying type INVentory
+To check what you are wearing type EQuipment
+
+To check your stats type SCOre
+To see how much money you have type WORth
+
+You can stop wearing or using something by
+typing REMOVE item, this will put that item
+in your inventory, to use an item type HOLD
+item, or if its a weapon WIELD item or if it
+is clothing WEAR item.
+
+Type AUTO to see what automatic features you
+can enable.
+
+You will find more help along the way.~
+#2601
+gebal leaf~
+a gebal leaf~
+A gebal leaf sits here, dripping nectar.~
+balm~
+food O A
+10 10 0 0 0
+0 0 0 P
+E
+leaf~
+This leaf is from a sacred tree. It has a 
+delicious nectar that gives you nourishment.~
+#2602
+cistern~
+a cistern~
+A skull shaped cistern is here.~
+bone~
+fountain O 0
+10000 10000 water 0 0
+0 600 0 P
+E
+cistern~
+This cistern is in the shape of a skull, and
+it appears to be carved out of some huge piece
+of bone. ~
+#2603
+bloodied corpse~
+a bloodied corpse~
+A bloodied corpse lies here.~
+slime~
+trash O 0
+0 0 0 0 0
+0 2 0 P
+E
+corpse~
+This person or thing appears to have been 
+hacked apart in a vicious manner. When you 
+look closely at it, you notice it has your face.
+~
+#2604
+unsafe raft~
+a unsafe raft~
+An unsafe raft sits here.~
+cork~
+boat 0 A
+0 0 0 0 0
+0 1 1 P
+#2605
+skullinator~
+a skullinator~
+A skullinator rests here.~
+brass~
+trash 0 AO
+0 0 0 0 0
+0 1 0 P
+E
+skullinator~
+A medical tool used for severing the skull.~
+#2606
+rotting shirt~
+a rotting shirt~
+A rotting shirt rests here.~
+cloth~
+trash 0 AD
+0 0 0 0 0
+0 0 0 P
+#2607
+dirty pants~
+a pair of dirty pants~
+A pair of dirty pants rests here.~
+cloth~
+trash 0 AF
+0 0 0 0 0
+0 1 0 P
+#2608
+game~
+the game~
+The game sits here waiting for you to play it.~
+bone~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+A
+3 -5
+#2609
+heavy leather boots~
+a pair of heavy boots~
+A pair of heavy leather boots sits here.~
+hard leather~
+armor 0 AG
+8 8 8 8 1
+0 1 0 P
+#2610
+red amulet~
+a red amulet~
+A red amulet glitters in the dirt.~
+bone~
+light A AC
+0 0 100 0 0
+0 1 0 P
+#2611
+key~
+a key~
+a rusty key sits here.~
+ash~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#2612
+skull key~
+a skull key~
+A key with a skull shaped handle sits here.~
+brass~
+key P A
+0 0 0 0 0
+0 0 0 P
+#2613
+battleaxe~
+a battleaxe~
+A battleaxe rests here.~
+brass~
+weapon 0 AN
+axe 1 8 cleave 0
+0 2 0 P
+#2614
+hand axe~
+a hand axe~
+A hand axe rests here.~
+bone~
+weapon 0 AN
+axe 1 6 cleave 0
+0 1 0 P
+#2615
+bo stick~
+a bo stick~
+A bo stick sits here.~
+bone~
+weapon 0 AN
+staff 1 4 pound 0
+0 1 0 P
+#2616
+flail~
+a flail~
+A flail rests here.~
+brass~
+weapon 0 AN
+flail 2 6 pound 0
+0 3 0 P
+#2617
+halberd~
+a halberd~
+A halberd stands here, against a wall.~
+copper~
+weapon 0 AN
+polearm 3 8 slice 0
+0 5 0 P
+#2618
+hammer~
+a hammer~
+A large hammer sits here.~
+brass~
+weapon 0 AN
+mace 2 6 pound 0
+0 5 0 P
+#2619
+mace~
+a mace~
+A mace rests here.~
+crystal~
+weapon 0 AN
+mace 2 5 pound 0
+2 4 0 P
+#2620
+morning star~
+a morning star~
+A morning star rests here.~
+bronze~
+weapon 0 AN
+flail 2 4 pound 0
+3 5 0 P
+#2621
+pick~
+a pick~
+A military pick rests here~
+bronze~
+weapon 0 AN
+flail 2 4 scratch 0
+2 4 0 P
+#2622
+bastard sword~
+a bastard sword~
+A bastard sword rests here.~
+brass~
+weapon 0 AN
+sword 2 6 slash 0
+5 3 0 P
+#2623
+wicked dagger~
+a wicked dagger~
+A wicked dagger rests here.~
+brass~
+weapon 0 AN
+dagger 2 4 scratch 0
+3 2 0 P
+#2624
+pool~
+a pool~
+A pool of clear water is here.~
+bone~
+fountain O 0
+500 500 water 0 0
+0 600 0 P
+#2625
+small twig~
+a small twig~
+A small twig sits here.~
+bone~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+E
+twig~
+It resembles a key of some kind.~
+#2626
+banded chest piece~
+a banded chest piece~
+A banded chest piece sits here.~
+brass~
+armor 0 AD
+8 8 8 9 1
+2 2 0 P
+#2627
+great helmet~
+a great helmet~
+A great helmet rests here.~
+brass~
+armor 0 AE
+8 8 8 8 1
+0 1 0 P
+#2628
+chainmail~
+a suit of chainmail~
+A suit of chainmail sits here.~
+brass~
+armor 0 AD
+7 7 7 8 3
+2 3 0 P
+#2629
+brass leggings~
+a pair of leggings~
+A pair of leggings made of brass sits here.~
+brass~
+armor 0 AF
+8 8 8 9 1
+0 2 0 P
+#2630
+bracers~
+a pair of bracers~
+A pair of bracers rest here.~
+bone~
+armor 0 AI
+8 8 8 9 1
+0 1 0 P
+#2631
+dark amulet~
+a dark amulet~
+A dark amulet lies on the floor~
+brass~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+E
+amulet~
+On the back these words are inscribed.
+Skcol erao nh ctam~
+#2632
+skeleton key~
+a skeleton key~
+A skeleton key sits here.~
+adamantite~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+#0
+
+
+#ROOMS
+#2600
+Top of the tower~
+You are on top of a giant tower. The wind is 
+raging, and dark clouds loom all around. Looking
+over the edge you see the tower descending into
+a mist that obscurs the earth below. There is a
+plaque on battlement here.
+~
+0 0 1
+D5
+~
+~
+1 -1 2601
+E
+plaque~
+There is a trapdoor going down. Type open 'down'
+to open it. Then type 'down' to go that way.~
+S
+#2601
+Chamber of the 10th ring, LEARNING.~
+You are in a circular chamber underneath the
+top of the tower. The black obsidian blocks
+create an eerie reflection from your light source
+. A small note lies on the floor here. Type GET 
+NOTE to take it then type LOOK NOTE to read it.
+You can go up to the TOP of the tower or continue
+down, through another trapdoor.
+~
+0 D 0
+D4
+~
+~
+1 -1 2600
+D5
+~
+~
+1 -1 2602
+S
+#2602
+Chamber of the 9th ring, TRAINING.~
+You are disc apparently floating in a black void.
+Upwards you can see a trapdoor hanging in the
+nothingness. A hole in the center of this disc
+leads down into the blackness below. In all four
+directions <N,E,S,W> you see other discs hovering
+in space. There is a person standing on each one.
+Goto each, when you are done, go down through
+the hole.
+~
+0 D 0
+D0
+~
+~
+0 -1 2603
+D1
+~
+~
+0 -1 2605
+D2
+~
+~
+0 -1 2606
+D3
+~
+~
+0 -1 2604
+D4
+~
+~
+1 -1 2601
+D5
+~
+~
+0 -1 2607
+S
+#2603
+The platform of being~
+The disc you stand on is floatin in a void. Mists
+are swirling all about you. In each swirl you see
+the lifetime of some great hero or a poor serf.
+Images flood your vision and thoughts, you realize it is time to BECOME something and some
+one. LOOK at the person here and they will help
+you on your way.
+~
+0 D 0
+D2
+~
+~
+0 -1 2602
+S
+#2604
+Order of the Masters~
+This is the training platform of the Order of
+the Masters. The Masters will be found in 
+different places throughout theses lands. Sometimes they are hard to identify, but usually
+if you LOOK at them, you will know.
+~
+0 D 0
+D1
+~
+~
+0 -1 2602
+S
+#2605
+Disc of life~
+A circular disc, spinning in a blackened void.
+On this disc are items you need to survive.
+A bit of food, you can TAKE it. And a fountain to
+DRINK from. Be sure you EAT and DRINK during
+your travels or you will surely perish.
+~
+0 D 0
+D3
+~
+~
+0 -1 2602
+S
+#2606
+Disc of destruction~
+Images swirl about this disc, depicting death
+in all its many forms. War and battle are a 
+major part of your existence here, so learn 
+to deal with it well.
+~
+0 D 0
+D0
+~
+~
+0 -1 2602
+S
+#2607
+Chamber of the 8th ring, BATTLE.~
+This disc appears to have been ravaged by 
+battle. Broken swords and armor are scattered
+about. Burn marks scar the floor, and dried 
+puddles of blood are under your feet.
+There is a plaque hovering in space here.
+~
+0 D 0
+D1
+~
+~
+0 -1 2608
+D4
+~
+~
+0 -1 2602
+D5
+~
+~
+0 -1 2609
+E
+plaque~
+This is your first chance at battle. It is
+destined that you will be destroyed. This is
+the first lesson of battle, you will sometimes
+lose and have to run to fight another day.
+Type WIMPY 10, to set yourself to flee at 10
+hitpoints. Then go east and attack the creature
+there. When you return go down.~
+S
+#2608
+Untold odds~
+This room is covered in the dried guts and blood
+of many an adventurer. A stench greets your 
+nostrils as you enter. Do not fear.
+~
+0 D 0
+D3
+~
+~
+0 -1 2607
+S
+#2609
+Chamber of the 7th ring, KNOWLEDGE.~
+The disc of knowledge. It is run by the Order of
+Knowledge. The members of the Order are known
+for their abilitys in the training of skills.
+You will find them throughout the lands.
+Sometimes they are hard to find, just LOOK at
+people and you will know.
+~
+0 D 0
+D4
+~
+~
+0 -1 2607
+D5
+~
+~
+0 -1 2610
+S
+#2610
+Rocky formation~
+Suddenly you appear on a piece of ancient rock
+jutting out of a churning sea of water. An
+eerie red glow can be seen on the easter horizon.
+A little to the north is a small rickety shack. 
+There is a sign here..
+~
+0 0 5
+D0
+~
+~
+1 -1 2611
+D1
+~
+~
+0 -1 2612
+D4
+~
+~
+0 -1 2609
+E
+sign~
+In water you need a boat to travel.
+To use a boat all you need to do is have it in your inventory.~
+S
+#2611
+Inside a shack~
+The broken shack about you seems as if it will
+come down at any minute, the wind can be heard
+through the cracks in the roof. An wrinkled old
+man sits here behind a counter.
+There is a sign here.
+~
+0 DN 0
+D2
+~
+~
+1 -1 2610
+E
+sign~
+This is a shop. 
+You will purchase items from shops in your 
+travels. Type LIST to see what is for sale.
+If you have money you can BUY the item.
+~
+S
+#2612
+Churning ocean.~
+The dark waters swirl and splash all around
+your small raft. You cant control your direction
+as you have no paddle. The will take you east.
+~
+0 0 7
+D1
+~
+~
+0 -1 2613
+D3
+~
+~
+0 -1 2610
+S
+#2613
+Churning ocean.~
+Winds and bursts of rain drench you. The cold
+waters of the ocean stretch off in all directions
+The current is growing stronger pulling you east.
+~
+0 0 7
+D1
+~
+~
+0 -1 2614
+D3
+~
+~
+0 -1 2612
+S
+#2614
+The whirlpool~
+The dark waters swirl about sucking you into
+a whirlpool formed from the strong winds.
+You will surely go down.
+~
+0 0 7
+D3
+~
+~
+0 -1 2613
+D5
+~
+~
+0 -1 2615
+S
+#2615
+Chamber of the 6th ring.  HEALING.~
+You have reached the 6th ring, you are now ready
+to test your skills. The ultimate test, that
+will put your life on the line. Here you will
+battle. There is a sign here.
+~
+0 D 0
+D0
+~
+~
+0 -1 2618
+D1
+~
+~
+0 -1 2619
+D2
+~
+~
+0 -1 2620
+D3
+~
+~
+0 -1 2616
+D4
+~
+~
+0 -1 2614
+D5
+~
+~
+0 -1 2621
+E
+sign~
+In the four areas around you are creatures.
+Some will attack you on sight, others are docile
+and wont attack until you are hostile towards 
+them. After you fight you may be hurt, come
+back to this room and REST or SLEEP these are
+two of the ways to gain hitpoints, mana, and
+movement back. When you are done, go down.~
+S
+#2616
+Dank hallway.~
+Slime covers the walls of this hallway. A moldy
+stench assaults your nostrils. You can go east
+to the Avatar, or west.
+~
+0 D 0
+D1
+~
+~
+0 -1 2615
+D3
+~
+~
+0 -1 2617
+S
+#2617
+The pit of the werewolf.~
+The dank hallway leads you down into a filthy
+pit. Bones and rotting equipment lay scattered
+about.
+~
+0 D 0
+D1
+~
+~
+0 -1 2616
+S
+#2618
+Asylum hall.~
+This looks like a room in an asylum. Padded
+walls and twisted medical tools lie on the 
+floor.
+~
+0 D 0
+D2
+~
+~
+0 -1 2615
+S
+#2619
+Natural cave.~
+A natural cave formed over time. Rocks and 
+minerals lie all about.
+~
+0 D 0
+D3
+~
+~
+0 -1 2615
+S
+#2620
+The dark crag.~
+A rocky crag, covered in a glowing fungus.
+A faint humming sound can be heard.
+~
+0 D 0
+D0
+~
+~
+0 -1 2615
+S
+#2621
+Chamber of the 5th ring, GUILDS.~
+This chamber is dedicated to the 4 major guilds
+on this world. To the north is the chamber of
+the Order Of Light. To the east is the chamber of
+the Cult Of Chaos. To the south lies the chamber
+of the Dark Hand, and to the west lies the 
+chamber of the Order of Archons. When you are
+done go down.
+~
+0 D 0
+D0
+~
+~
+0 -1 2622
+D1
+~
+~
+0 -1 2623
+D2
+~
+~
+0 -1 2624
+D3
+~
+~
+0 -1 2625
+D4
+~
+~
+0 -1 2615
+D5
+~
+~
+0 -1 2626
+S
+#2622
+Order Of Light.~
+This room is filled with weapons and armor.
+Tapestrys depicting ancient battles and 
+glorius deeds cover the walls.
+There is a sign here.
+~
+0 D 0
+D2
+~
+~
+0 -1 2621
+E
+sign~
+The Order Of Light.
+
+Its God and leader Grehyton the stealer of magic.
+Its purpose to defend against evil and bring
+greater glory to the light. You must be at least
+level 10 to join. Seek a member and follow the
+light if you wish to join.~
+S
+#2623
+Cult Of Chaos.~
+Swirling images and ever changing scenes 
+invade your senses. The Cult is dedicated to
+preserving the maelstrom that will take all of 
+us.
+There is a sign here.
+~
+0 D 0
+D3
+~
+~
+0 -1 2621
+E
+sign~
+The Cult Of Chaos
+
+To join you must be at least tenth level.
+You can seek a current member of wait to be 
+approached, your actions will determine if you
+are ready. The Cult's leader is the God Chardros.
+It is said, Chardros knows all deeds and will
+find you if you are ready.~
+S
+#2624
+The Dark Hand.~
+The Dark Hand, a guild that accepts all types.
+Most members are thieves or assassins. Seek
+the hand when you least expect it.
+There is a sign here.
+~
+0 D 0
+D0
+~
+~
+0 -1 2621
+E
+sign~
+Seek the Dark Hand when you reach level 10.
+Its leader is Nep the Unseen, a mortal thief
+turned God.~
+S
+#2625
+Order of Archons~
+This chamber is dedicated to Law. The Archons
+dedicate their lives to smashing out the evil
+murders and thieving that plague the cities.
+~
+0 D 0
+D1
+~
+~
+0 -1 2621
+S
+#2626
+Chamber of the 4th ring.~
+The fourth ring. You have made it! Now a final
+test before you descend into the pits below to
+hopefully find you way out of this forsaken tower.
+~
+0 D 0
+D4
+~
+~
+0 -1 2621
+D5
+A brown trapdoor.~
+door~
+1 2611 2627
+S
+#2627
+The Center Caves.~
+You are in the center of the caves. Twisted
+passage ways lead off in all directions.
+A sign is here.
+~
+0 0 0
+D0
+~
+~
+0 -1 2634
+D1
+~
+~
+0 -1 2628
+D2
+~
+~
+0 -1 2647
+D3
+~
+~
+0 -1 2641
+D4
+A brown trapdoor.~
+door~
+1 2611 2626
+D5
+A well hidden trapdoor sits in the floor.~
+trapdoor~
+1 2632 2648
+E
+sign~
+You are now in the caves, make your way through
+them and down to the bottom. When you are done
+you should find the exit and leave.~
+S
+#2628
+A twisted passageway.~
+This passageway twists and turns like the
+bowels of some beast. A strange smell is in
+the air.
+~
+0 D 0
+D1
+~
+~
+0 -1 2629
+D3
+~
+~
+0 -1 2627
+S
+#2629
+An open room.~
+This room is formed from a natural cave.
+Broken pieces of furniture litter the floor.
+A pile of straw is in the corner.
+~
+0 D 0
+D0
+~
+~
+0 -1 2630
+D3
+~
+~
+0 -1 2628
+S
+#2630
+Slight Cave in.~
+The passageway here is slightly obscured
+by collapsed rocks. It seems strange that
+the tower holds caverns like this. It almost
+seems as if your deep in the earth.
+~
+0 D 0
+D2
+~
+~
+0 -1 2629
+D3
+~
+~
+0 -1 2631
+S
+#2631
+Vault of the shrieking.~
+This cavern is covered in fungus and mold.
+Huge mushrooms grow from the rocks. An eerie
+glows comes from some mold.
+~
+0 D 0
+D0
+~
+~
+0 -1 2632
+D1
+~
+~
+0 -1 2630
+S
+#2632
+Chamber of the Uruk-Hai.~
+This chamber formed of natural rock, is the
+main room of the Uruk-Hai, or greater orc.
+A rickety table is in the center.
+~
+0 0 1
+D0
+A heavy iron bound door.~
+door~
+1 2612 2633
+D2
+~
+~
+0 -1 2631
+S
+#2633
+Vault Of Weapons.~
+This room appears to be a chamber for weapons
+and armor the orcs are gathering. Their intention
+is to smash the elves once and for all.
+~
+0 D 0
+D2
+A heavy iron bound door.~
+door~
+1 2612 2632
+S
+#2634
+Sloped Passageway.~
+You are in a corridor that is on a descending
+angle. The walls are covered with a strange
+glowing fungus.
+~
+0 D 0
+D0
+~
+~
+0 -1 2635
+D2
+~
+~
+0 -1 2627
+S
+#2635
+Uneven Corridor.~
+The ground of this corridor has been chisled 
+away, making your steps uneven and dangerous.
+~
+0 D 0
+D0
+~
+~
+0 -1 2636
+D2
+~
+~
+0 -1 2634
+S
+#2636
+Open Chamber.~
+A natural rock open chamber. A small pool is 
+formed in the corner. The eerie light of the
+fungus makes you dizzy.
+~
+0 D 0
+D2
+~
+~
+0 -1 2635
+D3
+~
+~
+0 -1 2637
+S
+#2637
+Natural Statues.~
+The cave formations here resemble statues of
+humanoid form. The fungus is still glowing and
+lightin your path.
+~
+0 D 0
+D0
+~
+~
+0 -1 2638
+D1
+~
+~
+0 -1 2636
+S
+#2638
+Guarded Entrance.~
+This cave has been made into a makeshift guard
+area. Defensive equipment is standing ready to
+cover the entrance.
+~
+0 D 0
+D2
+~
+~
+0 -1 2637
+D3
+~
+~
+0 -1 2639
+S
+#2639
+Hall of the Elves.~
+A grand cavern, covered with elvish runes.
+A large table sits in the center.
+~
+0 D 0
+D0
+The door is made to look like natural rock.~
+door~
+1 2625 2640
+D1
+~
+~
+0 -1 2638
+S
+#2640
+Vault of Armors.~
+A room carved out of living stone. It appears
+to be an armory of some sort. Tools for making
+and repairing weapons are all about.
+~
+0 D 0
+D2
+The door is made to look like natural rock.~
+door~
+1 2625 2639
+S
+#2641
+Dusty Hallway.~
+A dusty hallway, it seems as if no one has been
+this way in quite some time.
+~
+0 AD 0
+D1
+~
+~
+0 -1 2627
+D3
+~
+~
+0 -1 2642
+S
+#2642
+Transformation.~
+The natural stone caverns you have been in give
+way to a man made hallway. It is constructed of
+the black obsidian bricks you saw so long ago at
+the top of the tower.
+~
+0 AD 0
+D1
+~
+~
+0 -1 2641
+D3
+~
+~
+0 -1 2643
+S
+#2643
+Obsidian Hallway.~
+The hallway is umoving and unchanging. 
+Moving forever onward it seems. Your reflection
+in the stones seems to shift on its own accord.
+~
+0 AD 0
+D0
+~
+~
+0 -1 2644
+D1
+~
+~
+0 -1 2642
+S
+#2644
+Obsidian Hallway.~
+This part of the hallway has the smell of death.
+Rotting piles of bandages lay on the floor.
+~
+0 AD 0
+D0
+~
+~
+0 -1 2645
+D2
+~
+~
+0 -1 2643
+S
+#2645
+Vault of the Keeper.~
+An altar is the first thing you see as you
+enter this room. On the far wall is a huge door.
+It has a huge lock on its handle.
+~
+0 AD 0
+D0
+The door is huge and covered in iron shodding.~
+door~
+1 2631 2646
+D2
+~
+~
+0 -1 2644
+S
+#2646
+Tomb of the Warrior.~
+A massive coffin occupies the center of this 
+room. Rusted suits of armor line the walls along
+with decorative swords and shields.
+~
+0 AD 0
+D2
+It is huge, iron shodding covers its face.~
+door~
+1 2631 2645
+S
+#2647
+Shrine of the Avatar.~
+This is a shrine to the Avatar of healing.
+Glowing light flows through this room from the
+shrines base to the gem encrusted walls.
+~
+0 AD 0
+D0
+~
+~
+0 -1 2627
+S
+#2648
+Amongst the Ruins.~
+You have entered an ancient ruined hallway.
+Rubble is all about you. Without some kind
+of light you would be totally blind here.
+~
+0 AD 0
+D0
+~
+~
+0 -1 2649
+D4
+A brown trapdoor.~
+trapdoor~
+1 2632 2627
+S
+#2649
+Hallway in the Ruins.~
+This is a hallway that was destroyed by a 
+battle long ago. There are still some traces
+of the war as skeletons and broken weapons are
+strewn about.
+~
+0 AD 0
+D0
+~
+~
+0 -1 2650
+D2
+~
+~
+0 -1 2648
+S
+#2650
+Hallway in the Ruins.~
+The hallway here is covered in cobwebs and
+trash. You can here some shuffling up towards
+the ceiling.
+~
+0 AD 0
+D0
+~
+~
+0 -1 3001
+D2
+~
+~
+0 -1 2649
+S
+#0
+
+
+#RESETS
+O 1 2600 100 2601			a note to Chamber of the 10th ring
+*
+M 1 2600 1 2603 1			the Being to The platform of being
+*
+M 1 2601 1 2604 1			the master to Order of the Masters
+O 1 2601 100 2605			a gebal leaf to Disc of life
+O 1 2601 100 2605			a gebal leaf to Disc of life
+O 1 2601 100 2605			a gebal leaf to Disc of life
+O 1 2602 100 2605			a cistern to Disc of life
+O 1 2603 100 2606			a bloodied corpse to Disc of destruction
+*
+M 1 2602 1 2608 1			the slave of battle to Untold odds
+*
+M 1 2603 1 2609 1			the member to Chamber of the 7th ring, KNOWLEDGE.
+*
+M 1 2604 1 2611 1			the old man to Inside a shack
+G 1 2604 -1
+*
+M 1 2605 2 2615 2			the avatar to Chamber of the 6th ring.  HEALING.
+*
+M 1 2606 1 2617 1			the werewolf to The pit of the werewolf.
+O 1 2605 100 2618			a skullinator to Asylum hall.
+O 1 2602 100 2615			a cistern to Chamber of the 6th ring.  HEALING.
+O 1 2601 100 2615			a gebal leaf to Chamber of the 6th ring.  HEALING.
+*
+M 1 2607 1 2618 1			the lunatic to Asylum hall.
+E 1 2606 100 5
+E 1 2607 100 7
+E 1 2608 100 17
+*
+M 1 2608 1 2619 1			the cavefisher to Natural cave.
+*
+M 1 2609 1 2620 1			a goblin warrior to The dark crag.
+E 1 2609 100 8
+*
+M 1 2610 1 2626 1			the ogre to Chamber of the 4th ring.
+E 1 2610 100 3
+G 1 2611 100
+D 1 2626 5 2			; Chamber of the 4th ring. Lock Down
+D 1 2627 4 2			; The Center Caves. Lock Up
+D 1 2600 5 1			; Top of the tower Close Down
+D 1 2601 4 1			; Chamber of the 10th ring, LEARNING. Close Up
+*
+M 1 2611 5 2631 5			the shrieker to Vault of the shrieking.
+*
+M 1 2611 5 2631 5			the shrieker to Vault of the shrieking.
+*
+M 1 2611 5 2631 5			the shrieker to Vault of the shrieking.
+*
+M 1 2611 5 2631 5			the shrieker to Vault of the shrieking.
+*
+M 1 2612 2 2628 2			the war pig to A twisted passageway.
+*
+M 1 2612 2 2628 2			the war pig to A twisted passageway.
+*
+M 1 2613 3 2630 3			the lesser orc to Slight Cavein.
+*
+M 1 2613 3 2630 3			the lesser orc to Slight Cavein.
+*
+M 1 2613 3 2630 3			the lesser orc to Slight Cavein.
+*
+M 1 2614 3 2632 3			the greater orc to Chamber of the Uruk-Hai.
+E 1 2615 100 16
+G 1 2612 100
+D 1 2633 2 2			; Vault Of Weapons. Lock South
+D 1 2632 0 2			; Chamber of the Uruk-Hai. Lock North
+O 1 2622 100 2633			a bastard sword to Vault Of Weapons.
+O 1 2621 100 2633			a pick to Vault Of Weapons.
+O 1 2620 100 2633			a morning star to Vault Of Weapons.
+O 1 2619 100 2633			a mace to Vault Of Weapons.
+O 1 2618 100 2633			a hammer to Vault Of Weapons.
+O 1 2617 100 2633			a halberd to Vault Of Weapons.
+O 1 2616 100 2633			a flail to Vault Of Weapons.
+O 1 2615 100 2633			a bo stick to Vault Of Weapons.
+O 1 2614 100 2633			a hand axe to Vault Of Weapons.
+O 1 2613 100 2633			a battleaxe to Vault Of Weapons.
+O 1 2623 100 2633			a wicked dagger to Vault Of Weapons.
+*
+M 1 2614 3 2632 3			the greater orc to Chamber of the Uruk-Hai.
+E 1 2623 100 16
+*
+M 1 2614 3 2632 3			the greater orc to Chamber of the Uruk-Hai.
+E 1 2620 100 16
+*
+M 1 2615 3 2629 3			the elf slave to An open room.
+*
+M 1 2615 3 2629 3			the elf slave to An open room.
+*
+O 1 2624 100 2636			a pool to Open Chamber.
+*
+M 1 2616 3 2638 3			the elf guard to Guarded Entrance.
+E 1 2614 100 16
+*
+M 1 2616 3 2638 3			the elf guard to Guarded Entrance.
+E 1 2621 100 16
+*
+M 1 2617 2 2639 2			the high elf to Hall of the Elves.
+E 1 2619 100 16
+G 1 2625 100
+*
+M 1 2617 2 2639 2			the high elf to Hall of the Elves.
+E 1 2622 100 16
+D 1 2639 0 2			; Hall of the Elves. Lock North
+D 1 2640 2 2			; Vault of Armors. Lock South
+O 1 2630 100 2640			a pair of bracers to Vault of Armors.
+O 1 2629 100 2640			a pair of leggings to Vault of Armors.
+O 1 2628 100 2640			a suit of chainmail to Vault of Armors.
+O 1 2627 100 2640			a great helmet to Vault of Armors.
+O 1 2626 100 2640			a banded chest piece to Vault of Armors.
+O 1 2626 100 2640			a banded chest piece to Vault of Armors.
+D 1 2645 0 2			; Vault of the Keeper. Lock North
+D 1 2646 2 2			; Tomb of the Warrior. Lock South
+*
+M 1 2605 2 2647 2			the avatar to Shrine of the Avatar.
+*
+M 1 2618 1 2645 1			the keeper to Vault of the Keeper.
+E 1 2606 100 5
+E 1 2623 100 16
+G 1 2631 100
+*
+M 1 2620 1 2646 1			the skeleton warrior to Tomb of the Warrior.
+E 1 2628 100 5
+E 1 2627 100 6
+E 1 2629 100 7
+E 1 2630 100 10
+E 1 2613 100 16
+G 1 2632 100
+*
+M 1 2619 3 2643 3			the skeleton to Obsidian Hallway.
+*
+M 1 2619 3 2643 3			the skeleton to Obsidian Hallway.
+*
+M 1 2619 3 2644 3			the skeleton to Obsidian Hallway.
+D 1 2648 4 2			; Amongst the Ruins. Lock Up
+D 1 2627 5 2			; The Center Caves. Lock Down
+*
+M 1 2621 1 2650 1			the spider to Hallway in the Ruins.
+S
+
+
+#SHOPS
+2604 22 0 0 0 0 100 100 0 22			the old man
+0
+
+
+#SPECIALS
+M  2605 spec_cast_adept			the avatar
+M  2621 spec_poison			the spider
+S
+
+
+#$

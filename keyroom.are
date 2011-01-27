@@ -1,0 +1,269 @@
+#AREADATA
+Name Apartments~
+Builders Grehyton Argoesh~
+VNUMs 9900 9999
+Credits { 5 35} Grehyton Keyroom~
+Security 8
+End
+
+
+
+#MOBILES
+#9900
+The Butler~
+A thin butler~
+A thin butler with white hair is here.
+~
+~
+unique~
+AY 0 500 0
+15 0 5d30+161 15d10+100 3d5+8 punch
+0 0 0 0
+N 0 0 I
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+M EXIT 9902 3~
+M EXIT 9902 1~
+M EXIT 9902 0~
+M GRALL 9901 100~
+#0
+
+
+
+#OBJECTS
+#9900
+key~
+a key~
+A key is here for the doors east and west of the entranceway~
+brass~
+key 0 AO
+0 0 0 0 0
+0 5 0 P
+#9901
+A huge birchwood chair~
+a huge birchwood chair~
+A huge birchwood chair is here~
+wood~
+furniture 0 0
+A DFGHIJ E BEF BD
+0 1000 100 P
+#0
+
+
+
+#ROOMS
+#9900
+Entrance Hall~
+You are in an entrance hall to a large house.
+To the east and west are doors.
+~
+0 8 0
+D0
+~
+~
+0 0 9904
+D1
+there is a door here.
+~
+door~
+1 9900 9901
+D2
+~
+~
+0 0 9905
+D3
+A door~
+door~
+1 9900 9902
+S
+#9901
+East Of Entranceway~
+You are standing east of the entranceway.
+Its kind of odd, there is a door west.
+~
+0 0 0
+D3
+a door is here
+~
+door~
+1 9900 9900
+S
+#9902
+West Of EntranceWay~
+You are standing west of the entranceway.
+There is a door east.
+~
+0 0 0
+D1
+there is a door here.
+~
+door~
+1 9900 9900
+S
+#9904
+The Foyer~
+You are standing in a huge marble foyer.  A large stone fireplace shaped
+into a dragon's mouth is on the far wall.  There appear to be no exits from
+this room except the one you entered.  On the walls are long red velvet
+curtains.  Other items of interest include stuffed animal heads of a large
+variety of creatures.  
+~
+0 9216 0
+D2
+~
+~
+0 0 9900
+S
+#9905
+The trail to the house~
+You are standing on a thin trail leading up to a large house.  The path
+on the east is flanked by the city wall, while on the west is a thin forest.
+To the north you see the door of the house which is open.  To the south is
+the checkpoint of Calinth.  
+~
+0 0 3
+D0
+~
+~
+0 0 9900
+S
+#9909
+Game room~
+You are standing in what appears to be some type of recreation
+room.  Then you notice that most of the "equiptment"  consists
+of chains and leather things you have trouble identifying.
+For instance you are sure that the large wooden table with
+all the straps, hooks and knife marks is not for cooking.  You are
+not sure what anyone would use a ball on a string for, but there
+are several hanging from a hook next to an equally confusing
+collection of leather straps.  Probably the most confusing item
+in the room is what looks to be some sort of swing made of black
+silk hanging from the ceiling over the table.
+~
+0 1032 0
+D1
+~
+~
+2 1703 9910
+D2
+~
+~
+2 1703 9911
+S
+#9910
+Master bedroom~
+You are standing in a huge lavish bedroom.  The floor is covered
+in thick forest green carpet.  The walls are some sort of polished
+wood that is so shiny it looks wet.  Huge glass doors open onto a
+balcony to the east.
+A large window overlooks the lake to the north.  The most striking 
+feature of the room however is the bed which takes up most of one
+corner of the room, and is covered with thick pillows and blankets.
+Doors lead to the west south and east.
+~
+0 0 0
+D1
+~
+~
+0 0 1831
+D2
+~
+~
+0 0 9912
+D3
+~
+~
+2 1703 9909
+S
+#9911
+Foyer~
+You are standing in the entry way of a large apartment.  Stairs lead
+down to the third floor.  The room blends into a large parlor to the 
+east.  A sturdy looking door leads to a room to the north.
+~
+0 0 0
+D0
+~
+~
+2 1703 9909
+D1
+~
+~
+0 0 9912
+D5
+~
+~
+2 1703 1823
+S
+#9912
+Salon~
+You are standing in a large tastefully decorated parlor.  Couches and
+overstuffed chairs dominate this room.  A huge glass door leads out
+to the balcony to the east, a door leads to the north and the
+room continues to the west.
+~
+0 0 0
+D0
+~
+~
+0 0 9910
+D1
+~
+~
+0 0 1832
+D3
+~
+~
+0 0 9911
+D5
+~
+~
+0 0 1823
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 9900 1 2
+D 0 9900 3 2
+D 0 9901 3 2
+D 0 9902 1 2
+D 0 9909 1 2
+D 0 9909 2 2
+D 0 9910 3 2
+D 0 9911 0 2
+D 0 9911 5 2
+M 0 9900 1 9900 1
+E 0 9900 0 17
+O 0 9901 0 9904
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#9901
+bow
+say The master is not in right now.
+~
+#9902
+if money $n > 100000
+say Say this is not your house Let me escort you out, do come again.
+else
+say I know you are wealthy, but the master isnt in. Please return later.
+endif
+mob transfer $n 9905
+~
+#0
+
+#$

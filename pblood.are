@@ -1,0 +1,888 @@
+#AREA
+pblood.are~
+The Plains of Blood~
+{30 30} Yaegar The Plains of Blood~
+9550 9595
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#9550
+fiend~
+a swamp fiend~
+A Swamp Fiend swoops down and attacks!
+~
+These foul creatures have vowed to lay waste to the city of Khellis, and
+are extremely close to doing so. Resembling twisted, vile Elves with huge
+leathery wings, they are seemingly innumerable in number and insatiable in
+appetite.
+~
+human~
+FGH N -1000 0
+30 5 1d61+899 1d1+99 1d23+9 hit
+-10 -10 -10 -5
+0 0 0 0
+dead dead none 300
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#9550
+The Plains of Blood~
+You are walking across the plains of blood, a blasted, desolate area so
+named for the incredible amounts of blood that poured from the bodies of
+slain men and orcs during the Goblin Wars many centuries ago. And although
+the hordes were driven back, this area remained tainted with the scourge
+of evil, and little that is non wholly diabolical has since flourished 
+here.
+~
+0 C 2
+D1
+~
+~
+0 -1 9551
+D3
+~
+~
+0 -1 9590
+S
+#9551
+The Plains of Blood~
+You are walking across the plains of blood, a blasted, desolate area so
+named for the incredible amounts of blood that poured from the bodies of
+slain men and orcs during the Goblin Wars many centuries ago. And although
+the hordes were driven back, this area remained tainted with the scourge
+of evil, and little that is non wholly diabolical has since flourished 
+here.
+
+To the east lies a junction.
+~
+0 0 2
+D1
+~
+~
+0 -1 9552
+D3
+~
+~
+0 -1 9550
+S
+#9552
+A Junction~
+You have reached a point where a clearly-marked road cuts across the vague
+trail you were following, running to the north and south. There is a battered
+signpost at the point where the three roads meet.
+~
+0 0 2
+D0
+~
+~
+0 -1 9553
+D2
+~
+~
+0 -1 9554
+D3
+~
+~
+0 -1 9551
+E
+signpost~
+The signpost reads-
+
+"NORTH : The lands of the DEAD.
+
+ SOUTH : The lands of the DEAD.
+
+ WEST : The lands of the LIVING.
+
+Not exactly cheery, is it?
+~
+S
+#9553
+A Second Junction~
+At this point a narrow path runs eastward away from the main road, heading
+into a wood filled with grey, rotting trees and clinging, sickly-looking
+vines.
+~
+0 0 2
+D0
+~
+~
+0 -1 9580
+D1
+~
+~
+0 -1 9565
+D2
+~
+~
+0 -1 9552
+S
+#9554
+A Second Junction~
+At this point a narrow path runs eastward away from the main road, heading
+toward some rocky terrain surrounded by a range of bald hills.
+
+A narrow path to the south heads toward a crumbling stone wall.
+~
+0 0 2
+D0
+~
+~
+0 -1 9552
+D1
+~
+~
+0 -1 9556
+D2
+~
+~
+0 -1 9555
+S
+#9555
+A Narrow Path~
+As you draw closer to the stone wall, you notice an iron gate set into it,
+badly corroded and defaced. Peering through the gate, you can see what
+appears to be a graveyard of some sort.
+~
+0 0 2
+D0
+~
+~
+0 -1 9554
+D2
+~
+~
+1 0 3600
+S
+#9556
+A Path Through the Hills~
+Going is rough here as you are constantly forced to skirt rocks, boulders
+and bits of jagged stone that jut out of the ground at potentially lethal
+angles. The "path" you are currently taking is simply the one of least
+difficulty, avoiding all the major obstructions and clambering over the
+minor ones. More than one you slip and skin your hands and knees, and you
+pray that you don't have much farther to go.
+~
+0 0 16
+D2
+~
+~
+0 -1 9557
+D3
+~
+~
+0 -1 9554
+S
+#9557
+A Path Through the Hills~
+Going is rough here as you are constantly forced to skirt rocks, boulders
+and bits of jagged stone that jut out of the ground at potentially lethal
+angles. The "path" you are currently taking is simply the one of least
+difficulty, avoiding all the major obstructions and clambering over the
+minor ones. More than one you slip and skin your hands and knees, and you
+pray that you don't have much farther to go.
+
+You are relieved to notice a crossroads to the east of here.
+~
+0 0 16
+D0
+~
+~
+0 -1 9556
+D1
+~
+~
+0 -1 9558
+S
+#9558
+A Crossroads~
+You have come to a crossroads, where you may proceed north directly into
+the hills, south or west into the rocky terrain surrounding, or east toward
+a rather dismal-looking swamp.
+~
+0 0 4
+D0
+~
+~
+0 -1 9559
+D1
+~
+~
+0 -1 9561
+D2
+~
+~
+0 -1 9560
+D3
+~
+~
+0 -1 9557
+S
+#9559
+Approaching the Hills~
+As you approach the nearby hills, you quickly deduce that they will be
+quite impassable to one with limited mountaineering skills such as yourself.
+However, as you turn back, you notice a narrow path leading between two
+of the larger hills...
+~
+0 0 4
+D0
+~
+~
+0 -1 4000
+D2
+~
+~
+0 -1 9558
+S
+#9560
+Rubble~
+This path winds its way through a treacherous field of jagged rock and 
+splintered wood. To the south there is a horrendous stench, while to the
+north is a relatively clear crossroads.
+~
+0 0 16
+D0
+~
+~
+0 -1 9558
+D2
+~
+~
+0 -1 2800
+S
+#9561
+A Dismal Swamp~
+You have entered a smelly, fetid swamp full of mosquitoes, muck, vines and
+water. The smell is awful. Are you sure you want to continue?
+~
+0 A 15
+D1
+~
+~
+0 -1 9562
+D3
+~
+~
+0 -1 9558
+S
+#9562
+A Dismal Swamp~
+You are trudging wearily through a fetid swamp full of mosquitoes, muck, 
+vines and water. The smell is awful. Are you sure you want to continue?
+~
+0 A 15
+D0
+~
+~
+0 -1 9563
+D3
+~
+~
+0 -1 9561
+S
+#9563
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud.
+~
+0 A 26
+D1
+~
+~
+0 -1 9564
+D2
+~
+~
+0 -1 9562
+S
+#9564
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 A 26
+D1
+~
+~
+0 -1 9576
+D3
+~
+~
+0 -1 9563
+S
+#9565
+A Wood~
+You have entered the sickly-looking forest you spied earlier, and it looks
+even worse up close, if that is at all possible. Long, clinging vines 
+slowly strangle the life out of spindly half-dead saplings, and a strange
+blue moss slowly eats away its protruding roots. Far away a creature screams
+in agony, then falls silent.
+~
+0 0 3
+D1
+~
+~
+0 -1 9566
+D3
+~
+~
+0 -1 9553
+S
+#9566
+Further into the Wood~
+As you proceed further into this place, the little light that was coming from
+the feeble sun above is dimmed to near-nothingness by a thick canopy of dead
+branches and leaves that has formed overhead. Sap drips from this canopy onto
+you, burning your skin where it hits, and you hurry on.
+~
+0 0 3
+D1
+~
+~
+0 -1 9567
+D3
+~
+~
+0 -1 9565
+S
+#9567
+A T-Junction~
+The path you are following meets another here, offering you three choices
+of direction. At this point the forest is utterly silent, so there is no
+way to tell which way is the better...
+~
+0 0 3
+D0
+~
+~
+0 -1 9568
+D1
+~
+~
+0 -1 9572
+D3
+~
+~
+0 -1 9566
+S
+#9568
+A Northern Path~
+The Forest actually seems to be even darker and more evil here, if that is
+at all possible. Horrid screams of agony occasionally rent the still of the
+forest, followed by a horrid stillness that can only mean death...
+~
+0 0 3
+D0
+~
+~
+0 -1 9569
+D2
+~
+~
+0 -1 9567
+S
+#9569
+A Northern Path~
+The Forest actually seems to be even darker and more evil here, if that is
+at all possible. Horrid screams of agony occasionally rent the still of the
+forest, followed by a horrid stillness that can only mean death...
+~
+0 0 3
+D0
+~
+~
+0 -1 9571
+D2
+~
+~
+0 -1 9568
+D3
+~
+~
+0 -1 9570
+S
+#9570
+The Forest Thickens~
+At this point the forest is almost impenetrably thick. Something curious
+looms up ahead.
+~
+0 0 15
+D1
+~
+~
+0 -1 9569
+D3
+~
+~
+0 -1 6130
+S
+#9571
+A Northern Path~
+The Forest actually seems to be even darker and more evil here, if that is
+at all possible. Horrid screams of agony occasionally rent the still of the
+forest, followed by a horrid stillness that can only mean death...
+
+There is a circle of trees to the east.
+~
+0 0 3
+D1
+~
+~
+0 -1 6152
+D2
+~
+~
+0 -1 9569
+S
+#9572
+Exiting the Forest~
+You have reached the far end of the small dark forest you were traveling
+through. Ahead looms a rocky mountain range, with several smaller cousins
+in the middle distance.
+~
+0 0 2
+D1
+~
+~
+0 -1 9573
+D3
+~
+~
+0 -1 9567
+S
+#9573
+The Rocky Plains~
+You are striding across some rocky, windswept plains, past a sharp ridge
+that connects with a distant mountain range. To the north a narrow path
+runs toward a large cave...
+~
+0 0 4
+D0
+~
+~
+0 -1 9574
+D1
+~
+~
+0 -1 9575
+D3
+~
+~
+0 -1 9572
+S
+#9574
+Approaching the Cave~
+You are near enough to see now that this cave is large by any standards.
+However it appears to have a couple of non-standard features. If you are
+curious you can step closer...
+~
+0 0 4
+D0
+~
+~
+0 0 6142
+D2
+~
+~
+0 -1 9573
+S
+#9575
+The Foothills~
+You have reached the foothills of this mountain range. Strange black rocky
+formations loom around a bend to the south.
+
+A narrow path twists downward toward a valley running north toward the remote
+highlands.
+~
+0 0 5
+D2
+~
+~
+0 -1 9585
+D3
+~
+~
+0 -1 9573
+D5
+~
+~
+0 -1 30338
+S
+#9576
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 A 26
+D1
+~
+~
+0 -1 9577
+D3
+~
+~
+0 -1 9564
+S
+#9577
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+
+A section of swamp to the south looks particularly treacherous.
+~
+0 A 26
+D1
+~
+~
+0 -1 9579
+D2
+~
+~
+0 -1 9578
+D3
+~
+~
+0 -1 9576
+S
+#9578
+Strange...~
+This section of swamp is more marshy, and looks like it was at one stage
+inhabited. Ruined buildings crop up occasionally from the muck, as does the
+occasional corpse. A horrid stench and the sound of high-pitched screaming
+followed by silence comes from the south...
+~
+0 AC 15
+D0
+~
+~
+0 -1 9577
+D2
+~
+~
+0 -1 8301
+S
+#9579
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 AC 26
+D1
+~
+~
+0 -1 9592
+D3
+~
+~
+0 -1 9577
+S
+#9580
+A Northern Path~
+You are following a broad, fairly regular path toward what looks like a
+settlement to the north. The occasional ruined house can be seen, as well
+as once-fertile fields gone barren.
+~
+0 0 2
+D0
+~
+~
+0 -1 9581
+D2
+~
+~
+0 -1 9553
+S
+#9581
+A Northern Path~
+You are following a broad, fairly regular path towar what looks like a
+settlement to the north. The occasional ruined house can be seen, as well
+as once-fertile fields gone barren.
+~
+0 0 2
+D0
+~
+~
+0 -1 9582
+D2
+~
+~
+0 -1 9580
+S
+#9582
+A Northern Path~
+You are following a broad, fairly regular path towar what looks like a
+settlement to the north. The occasional ruined house can be seen, as well
+as once-fertile fields gone barren.
+
+One house to the west looks fairly well-preserved.
+
+The outskirts of a ruined town loom up ahead.
+~
+0 0 2
+D0
+~
+~
+0 -1 9584
+D2
+~
+~
+0 -1 9581
+D3
+~
+~
+1 0 9583
+S
+#9583
+The Farmhouse~
+This farmhouse has been abandoned for some time. Scavengers have long since
+taken anything of value, and the elements have taken care of what little
+remained. However, there is a trapdoor in the floor that you may want to
+investigate...
+~
+0 D 0
+D1
+~
+~
+1 0 9582
+D5
+~
+~
+1 0 3801
+S
+#9584
+The Outskirts of a Ghost Town~
+A chill wind whips eerily across your face as you gaze upon a deserted
+halmet, which has actually survived intact the ravages that took the places
+nearby. It even appears to have been left untouched by looters. Wonder why?
+~
+0 C 0
+D0
+~
+~
+0 -1 8100
+D2
+~
+~
+0 -1 9582
+S
+#9585
+The Black Rocks~
+You are intrigued by this glassy black rocklike substance that seems to
+be omnipresent everywhere here. And while the going here is tough, it is
+not impossible, so you may continue further in your explorations should
+you so wish.
+~
+0 0 5
+D0
+~
+~
+0 -1 9575
+D2
+~
+~
+0 -1 2900
+S
+#9587
+The Path Across the Plains~
+You are heading across bleak, featureless plains. A huge city looms to the
+west while to the east lies a particularly desolate area.
+
+The gates of the city are directly west of here.
+~
+0 0 2
+D1
+~
+~
+0 -1 9588
+D3
+Approaching Anon~
+~
+0 -1 9591
+S
+#9588
+The Path Across the Plains~
+You are heading across bleak, featureless plains. A huge city looms to the
+west while to the east lies a particularly desolate area.
+~
+0 0 2
+D1
+~
+~
+0 -1 9589
+D3
+~
+~
+0 -1 9587
+S
+#9589
+The Path Across the Plains~
+You are heading across bleak, featureless plains. A huge city looms to the
+west while to the east lies a particularly desolate area.
+~
+0 0 2
+D1
+~
+~
+0 -1 9590
+D3
+~
+~
+0 -1 9588
+S
+#9590
+The Path Across the Plains~
+You are heading across bleak, featureless plains. A huge city looms to the
+west while to the east lies a particularly desolate area.
+
+The desolate Blood Plains begin to the east of here.
+~
+0 0 2
+D1
+~
+~
+0 -1 9550
+D3
+~
+~
+0 -1 9589
+S
+#9591
+Approaching the City~
+You are standing outside the towering battlements of a massive fortified
+citadel. The gates, massive affairs fashioned of some gleaming silvery
+metal, loom to the west. Guards march back and forth, resplendent in their
+black and gold livery and shining mithril armor.
+
+To the east looms a vast desolate area and, beyond that, a wood and a
+mountain range.
+~
+0 0 2
+D1
+~
+~
+0 -1 9587
+D3
+Outside the Victory Parade East Gates~
+~
+0 -1 31019
+S
+#9592
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 0 15
+D1
+~
+~
+0 -1 9593
+D3
+~
+~
+0 -1 9579
+S
+#9593
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 0 15
+D0
+~
+~
+0 -1 9594
+D3
+~
+~
+0 -1 9592
+S
+#9594
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+~
+0 0 15
+D1
+~
+~
+0 -1 9595
+D2
+~
+~
+0 -1 9593
+S
+#9595
+The Dismal Swamp~
+For what seems like an eternity you slog through the thick muck, wrenching
+your boots free with a mighty effort, a horrible sucking sound accompanying
+each step as your feet briefly clear the mud. Mosquitoes the size of 
+blowflies assault you relentlessly, and you know that when (if) you emerge 
+your skin will be in agony for weeks.
+
+To the north there appears to be some sort of settlement...
+~
+0 0 15
+D0
+~
+~
+0 -1 28398
+D3
+~
+~
+0 -1 9594
+S
+#0
+
+
+#RESETS
+D 0  9555     2     1            CLOSES DOOR TO GRAVEYARD
+D 0  9582     3     1            CLOSES DOOR TO FARMOUSE WITH *RATS*
+D 0  9583     5     1            CLOSES DOOR TO RATS
+*
+M 0  9550     6  9592     6      LOADS FIENDS
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M  9550 spec_poison	
+S
+
+
+#$

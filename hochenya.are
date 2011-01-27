@@ -1,0 +1,5197 @@
+#AREA   The Usurpers of Hochenyana~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+20 35 0 65
+$
+
+#RESETMSG The silence of this normally bustling village is unnerving...~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 19607534
+
+#MOBILES
+#11201
+umber hulk~
+an umber hulk~
+A massive, purple skinned beast with multiple eyes and huge tusks lurks here.
+~
+These powerfully built creatures are feared foes of any subterranean
+dwellers, for their muscular arms and huge tusks are capable of rending
+many creatures in seconds. To find them so boldly outside their natural
+habitat is bad for two reasons; one, it means all regular methods of
+monster control have collapsed, making this a perilous place indeed to
+be. And secondly, umber hulks are usually found outside of their lairs
+only as lackeys of more powerful evil creatures such as Illithids and
+Beholders. And if either of those fell creatures is about you could be
+in serious trouble indeed...
+~
+35 552 -600 C
+28 0 -50 0d0+0 0d0+0
+1000 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 2
+0 0 2360366 3150096 0 0 1048707 2
+#11202
+illithid mage~
+an illithid mage~
+A purple skinned illithid clad in the robes of a mage stands here.
+~
+Three illithid mages assist the beholder mage xyrtog in his insidious
+schemes. One of them is usually away, recruiting new slaves or similar,
+while the other two work here on ways to increase the sphere of the
+ensorcellment's influence. And they are in a state of excitement, as
+they have finally succeeded.
+~
+99 6300200 -600 C
+30 0 0 0d0+0 0d0+0
+125000 0
+8 8 1
+13 25 13 22 13 3 3
+0 0 0 0 -20
+10 0 0 0 8193 8192 0
+0 0 271935 16 1055759 0 1107296259 10242
+> greet_prog 50~
+if isimmort($n)
+else
+mea $n As you enter, you feel an alien presence enter your mind!
+mea $n A voice speaks inside your head, telling you it is futile to continue.
+if wis($n) < 14
+mea $n Being a creature of little willpower, you readily agree.
+mpforce $n say It's hopeless. I must surrender...
+mpforce $n remove all
+mpforce $n say I YIELD!
+cackle
+else
+mea $n But you are made of sterner stuff than the weak willed fools of
+mea $n Hochenyana! Grinning, you marshal your mental reserves and prepare
+mea $n to do battle with these alien foes.
+endif
+endif
+~
+> fight_prog 20~
+mea $n The illithid launches a devastating psionic assault!
+mpdamage $n 125
+mpforce $n scream
+if rand(10)
+mpechoaround $n $n's will has been broken! $n attempts to flee!
+mpforce $n flee
+mpforce $n yell LET ME OUT OF HERE!!!!
+mpforce $n scream
+else
+endif
+~
+> hitprcnt_prog 20~
+mpe The illithid is sorely injured. Closing its eyes, it summons its
+mpe Considerable psionic power to heal itself.
+mprestore self 100
+~
+|
+#11203
+giant two headed troll ~
+a giant two-headed troll~
+A giant two headed troll stares slackjawed into space.
+~
+~
+99 544 -400 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+22 13 13 13 22 13 13
+0 0 0 0 0
+8 3 0 0 64 64 2
+0 0 47 7488 2097170 129 400 3
+> greet_prog 100~
+if ispc($n)
+mpe The troll suddenly notices you, and lurches forward.
+mpe Its movements are jerky, and uncoordinated (even for a troll);
+mpe Some sort of enchantment is at work here!
+, roars in anger, but doesn't seem to have his heart in it.
+else
+endif
+~
+|
+#11204
+half-ogre warrior gaoler~
+the gaoler~
+A half-ogre of immense size lumbers about.
+~
+Truly a warrior of formidable strength and skill, the gaoler is not
+a foe to be easily dismissed. However, his movements are jerky, and
+sluggish, as if he were doing this against his will, and this lack
+of co-ordination can only benefit people who would do battle with him.
+~
+99 512 -500 C
+28 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+22 13 13 8 22 13 13
+0 0 0 0 0
+6 3 0 0 16 16 1
+0 0 2047 2104576 0 0 144 524291
+> fight_prog 33~
+bash
+~
+> rand_prog 2~
+grunt
+~
+|
+#11205
+elven noble~
+an elven noble~
+An elven male attempts to remain dignified amidst the squalor.
+~
+~
+3 33280 750 C
+30 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 18 13 18 13
+0 0 0 0 0
+1 0 0 0 2 2 0
+0 0 2031 7168 2097152 0 16 2
+> greet_prog 100~
+if race($n) == elf
+say Fellow elf, or friend of the elves, if you can understand, you must aid me.
+say i am on a mission of great importance, sent by Allethandra of
+say Malathar. I was sent here to investigate claims of an insurgence
+say of Chaos. However, what I found was much worse. Please, you must
+say travel to Malathar, and give this missive to Allethandra. He
+say will know what to do. I shall remain here and attempt to glean
+say more information from my captors. For some reason they are most
+say reluctant to do me any harm, save for their blasted mental probes.
+say In the name of the Elven nation I beseech thee, go!
+mpoload 11208
+give missive $n
+else
+say Stranger, tarry not in this dreadful place of evil...
+endif
+~
+> death_prog 100~
+mpe As the elf dies, a letter slips from his hand, and floats to the ground.
+mpoload 11208
+~
+|
+#11206
+crazed merchant~
+a crazed merchant~
+A crazed merchant begs to be freed.
+~
+This filthy, rag clad human has been imprisoned here for almost a year,
+after ignorantly attempting to trade with the town. He is being held
+in the hopes that his wealthy guild will pay a ransom, but it now
+looks as if that is not going to happen. 
+~
+3 512 -200 C
+22 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 47 0 0 0 513 2
+> greet_prog 100~
+scream
+if ispc($n)
+say Oh... I thought you were one of THEM...
+say You aren't.. are you?
+mpforce $n shake
+say Thank the Gods! Please, free me from this fell place!
+say You will be richly rewarded if you do! Will you free me?
+else
+faint
+endif
+~
+> speech_prog p yes~
+if ispc($n)
+say You are a saint! 
+grovel $n
+say Here, take this token to the merchant's guild in Irilian.
+say They will reward you for rescuing me!
+mpoload 11207 1
+give token $n
+wink
+mpe With that, the merchant slips out the door and is away!
+mpgoto 2
+else
+sigh
+say You cannot rescue me...
+endif
+~
+> speech_prog p no~
+if ispc($n)
+and isgood($n)
+say Alas! How could a noble adventurer of good heart abandon me??
+cry
+else
+sigh
+say I am not surprised. What else should one expect from amoral 
+say characters such as yourself?
+endif
+~
+|
+#11207
+peasant~
+a peasant~
+A peasant grimly awaits his fate.
+~
+This fellow was unfortunate enough to be made of sterner stuff than
+most of his neighbours, and resisted the enthrallment of the evil
+powers who subverted Hochenyana. Thus he has been imprisoned here, and
+decreed to serve as their next meal...
+~
+67 512 400 C
+18 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 16 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 3072 0 0 0 2
+> rand_prog 2~
+sigh
+~
+> rand_prog 2~
+mutter
+~
+> rand_prog 2~
+roll
+~
+|
+#11208
+dog~
+a village dog~
+A sinewy hunting dog wanders the streets in a daze.
+~
+~
+65 512 0 C
+18 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 513 512 0
+0 0 167839277 0 0 0 1 2
+#11209
+dazed villager~
+a dazed villager~
+A dazed villager stumbles along.
+~
+This poor soul appears to have no willpower left. He shuffles along
+oblivious to his surroundings.
+~
+65 512 -200 C
+21 0 0 0d0+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 0 0 16 2
+#11210
+dazed villager~
+a dazed villager~
+A dazed villager stares blankly into space.
+~
+This poor woman has no willpower left; she appears to be in a trance,
+or a zombie like state.
+~
+65 512 -200 C
+20 0 0 0d0+0 0d0+0
+100 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 0 0 16 2
+#11211
+guard~
+a village guard~
+A stout human clad in mismatched armor stares into space.
+~
+This stout, dependable chap was once one of Hochenyana's famed
+militia, a sturdy guard who have fended off countless orcish raids.
+But now he seems more interested in studying a passing fly than in
+well armed intruders in his village...
+~
+67 512 -200 C
+24 0 0 0d0+0 0d0+0
+200 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 2048 0 128 3
+> rand_prog 2~
+say Look at the pretty insects...
+drool
+~
+> greet_prog 100~
+mpe The guard doesn't even appear to register your presence.
+~
+> fight_prog 25~
+say Gaaaaahhhh...
+mea $n The guard lurches awkwardly at you, striking clumsily but hard!
+bash
+mpdamage $n 25
+~
+|
+#11212
+mayor geoffrey hiln doppleganger~
+Geoffrey Hiln~
+A heavy-set, bearded man welcomes you into his office.
+~
+Geoffrey Hiln, veteran of countless battles against Chaos, is by
+repute a loud spoken bear of a man, who is just as likely to deck
+someone who insults him as try to talk them down. He is abrupt, curt
+and rude, but loved and respected by his villagers, whom he would give
+his life to protect. However, the obsequious panderer who is addressing
+you now does not exactly fit the bill, even if he is the spitting image
+of Geoffrey Hiln physically. 
+~
+67 552 -200 C
+32 0 0 0d0+0 0d0+0
+17500 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 23 0 0 1 1 1
+0 0 2047 1048576 2100480 0 672 3
+> act_prog p from the east.~
+if ispc($n)
+say Ah, $n. Well met! Word reached me that you had entered
+say my humble village, and i was hoping you would stop by here.
+say We seldom receive visitors of your repute; we are honored.
+bow $n
+mea $n Noting the expression on your face, he sighs and continues.
+say Ah I suppose you are wondering what ails the simple townsfolk?
+hmm
+say Well, its a simple... malady, an infection that causes 
+say drowsiness and lethargy... Oh don't worry, it isn't contagious.
+say Clerics from the Cathedral of St. Pietre are in fact en route
+say to administer a cure.
+smile
+say Now, if that is all, I must return to my work. Good day!
+else
+tap
+say What do you want, $n?
+endif
+~
+> rand_prog 2~
+hum
+twiddle
+~
+> fight_prog 20~
+say Attack the mayor in his own office would you?
+snarl
+gouge
+stun
+disarm
+cackle
+wield broadsword
+~
+> hitprcnt_prog 25~
+mpe As the injuries mount upon the mayor, a curious change takes place.
+mpe Sporadic flashes of light flicker across his body, and occasionally
+mpe his appearance will shift and distort, as if it were being morphed.
+growl
+~
+> death_prog 100~
+mpe As the death blow lands, the mayor's appearance changes radically.
+mpe Where once lay the dying body of the mayor now lies the corpse of
+mpe a strange creature with pale white skin, devoid of any physical
+mpe features. Revolted, you turn away, and realize the awful truth.
+mpe Someone has replaced the good mayor of Hochenyana with a vile
+mpe shapeshifter!
+mpforce $n say Alas! What treachery is afoot here?
+~
+> act_prog p leaves up.~
+mpat 0.$n t $n Ahem!
+mpat 0.$n mea $n The mayor grabs you and firmly escorts you downstairs.
+mpe The Mayor grabs $n and escorts $m back down.
+mpat 0.$n mpforce $n d
+~
+> act_prog p floats up.~
+mpat 0.$n t $n Ahem!
+mpat 0.$n mea $n The mayor grabs you and firmly escorts you downstairs.
+mpe The Mayor grabs $n and escorts $m back down.
+mpat 0.$n mpforce $n d
+~
+> act_prog p flys up.~
+mpat 0.$n t $n Ahem!
+mpat 0.$n mea $n The mayor grabs you and firmly escorts you downstairs.
+mpe The Mayor grabs $n and escorts $m back down.
+mpat 0.$n mpforce $n d
+~
+|
+#11213
+mayor secretary~
+the mayor's secretary~
+A plump, middle aged woman sits here behind a huge desk.
+~
+This woman appears to be unusually bright and cheerful, for this place;
+you wonder for a second if she somehow resisted the malediction plaguing
+her peers, then you notice that her smile is forced, her eyes emotionless,
+and realize it is almost as if she is just acting out a preprogrammed 
+series of activities and responses.
+~
+3 512 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 2100224 0 656 2
+> greet_prog 100~
+smile
+say Greetings, $n, I am sorry, you cannot see the mayor today.
+say He is very busy you know!
+, busies herself arranging blank sheets of paper.
+~
+|
+#11214
+giant spider~
+a giant spider~
+A spider of immense size scuttles across the dusty floor.
+~
+You cannot believe that such a hideous beast has managed to lurk here
+undetected for so long; perhaps it has been placed here as a guardian?
+~
+97 98816 -400 C
+25 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 256 256 0
+0 0 0 32 0 17 1074003969 2
+> fight_prog 20~
+mea $n The spider sinks its fangs into your calf!
+mea $n You feel the venom course through your veins.
+mpdamage $n 75
+~
+|
+#11215
+true mayor geoffrey hiln~
+Geoffrey Hiln~
+A heavy-set, bearded man sits on a chair, fuming.
+~
+Geoffrey Hiln, veteran of countless battles against Chaos, is by
+repute a loud spoken bear of a man, who is just as likely to deck
+someone who insults him as try to talk them down. He is abrupt, curt
+and rude, but loved and respected by his villagers, whom he would give
+his life to protect. His imprisonment has done little to dull his senses,
+or his temper.
+~
+67 552 500 C
+32 0 0 0d0+0 0d0+0
+1000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+0 23 0 0 1 1 1
+0 0 2047 0 2048 0 672 2
+> greet_prog 100~
+if isnpc($n)
+snarl
+else
+say At last! Someone not under the spell of those accursed illithids!
+mutter
+say Come on.. we have a village to save!
+mpe As Geoffrey Hiln leaps to his feet, he cries out and grasps his leg.
+wince
+say The bastards... broke my leg... in my excitement I...
+curse
+say You will have to go without me. Will you help stop the evil?
+endif
+~
+> speech_prog p yes~
+if ispc($n)
+say Good! Knew you would, you look the sort.
+say Let me fill you in- as you probably noticed the villagers
+say are acting all weird and like... well they are under a spell!
+nod
+say Yes, they tried to work their sorceries on me too, but it
+say didn't work. Being the smart fellow I am, I decided to play
+say along, pretend it worked and such. THAT was how I found out
+say some purple skinned muck swilling mind flayers have invaded
+say MY village! 
+, fumes for a second, then continues.
+say I sent a call to my friends in Malathar and Maritshome, I know
+say not whether they received my pleas for aid. I have many friends
+say in Malathar, I had hoped they would aid me. But now it falls upon
+say you, and whatever allies you can muster. Seek out the illithids,
+say and whoever they serve, and destroy them! I know not where they
+say may lurk, but I overheard them mentioning old Badwick the tailor...
+say Go now! Hurry!
+, grimaces and collapses into a half-faint, delirious from pain.
+else
+endif
+~
+> give_prog missive~
+gasp
+say So Allethandra DID send help! 
+smile
+say The old dog! Quickly, return this note to him with all due
+say haste. Even if you manage to destroy the evil here, only he can
+say help you find the higher enemy at work here.
+give missive $n
+~
+> speech_prog p no~
+if ispc($n)
+growl
+say You cowardly vermin! I should tear your guts out!
+say How can you stand by while evil forces destroy your homes?
+say Leave, then, and to hell with you!
+else
+endif
+~
+> fight_prog 33~
+stun
+scream
+~
+> rand_prog 5~
+mpasound Muffled cries for help come from behind the door to the north.
+~
+|
+#11216
+zombie badwick~
+the zombie of Badwick~
+A decaying corpse lurches across the dusty workshop!
+~
+Poor Badwick has certainly seen better days; such was the anguish and
+unnatural nature of his death that the body refused to die, and cannot
+now rest.
+~
+99 552 0 C
+28 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 47 1048592 2105094 1 144 3
+> greet_prog 100~
+drool
+say Gaaaaaahhh.... no more paiiiiiinnnn.... killllll....
+mpe The zombie lurches forward at a good clip, stabbing wildly!
+~
+|
+#11217
+insane butcher clegg~
+Clegg~
+An insane butcher foams at the mouth as he hacks into a slab of meat.
+~
+The butcher was never the most stable of people, having a rather
+unhealthy attraction to hacking up carcasses, but something has now
+quite broken what mind he has, and he has become a homicidal maniac.
+~
+99 512 -400 C
+28 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+18 13 13 18 18 13 13
+0 0 0 0 0
+0 21 0 0 1 1 2
+0 0 2031 64 3072 0 704 2621443
+> rand_prog 2~
+say CHOP! CHOP! CHOP!
+drool
+cackle
+~
+> greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+yell FRESH MEAT! I LIKE 'EM FRESH! COME AND GET CHOPPED $n!
+muhaha
+cackle
+mea $n The butcher hurls a cleaver at you, striking you in the chest!
+mpdamage $n 75
+else
+mpforce $n e
+endif
+endif
+~
+> fight_prog 20~
+say CHOP CHOP CHOP! CHOP TILL YOU DROP!
+cackle
+disarm
+punch
+~
+> fight_prog 33~
+bash
+gouge
+, howls with maniacal glee!
+mpforce $n say This is surely a most trying foe!
+~
+> fight_prog 5~
+mea $n Clegg slashes you deep across the chest, striking bone!
+mpdamage $n 50
+cackle
+~
+|
+#11218
+mariah~
+Mariah~
+A young woman is seated here, singing softly to herself.
+~
+Despite your best efforts to attract her attention, the pretty 
+shopkeeper ignores you, staring into space and singing softly. As you
+watch, tears begin to flow down her face, as if something was upsetting
+her greatly, and her voice wavers.
+~
+3 512 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 3072 0 0 2
+#11219
+bear~
+a brown bear~
+A brown bear lumbers out from behind a table, blood on its fur.
+~
+This bear wandered into town a few days ago, and was astonished at the
+lack of resistance it met. It decided to devour the family that once lived
+here, and has laired here since, enjoying the easy meals.
+~
+35 512 0 C
+26 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+24 3 0 0 512 512 0
+0 0 33818157 16 0 1 3 2
+> rand_prog 5~
+, rumbles deep in its chest.
+mpasound A low growl can be heard from a house to the north...
+~
+|
+#11220
+patron~
+a patron~
+A sober patron sits silently at one of the long tables.
+~
+This fellow is seated, as was his wont for years, in the pub, but is
+not drinking or eating; he just stares into space, as if waiting for
+something.
+~
+67 512 -200 C
+21 0 0 0d0+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 0 0 16 2
+#11221
+silus bartender~
+Silus~
+A slender elf, the proprieter of this establishment, stares blankly at you.
+~
+Silus is the proprieter of what was once a happy and prosperous pub,
+but now being here makes you depressed and uneasy. He and his patrons
+just sit and stare into space, no expression gracing their faces. Even
+slapping and shaking them provokes only the briefest response.
+~
+3 512 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 3 1 0
+0 0 1791 0 3072 0 0 2
+#11222
+maddax ~
+Maddax~
+An elderly man clad in wizard's robes hawks his wares.
+~
+Two things strike you as unusual about this fellow; firstly, he is
+talking, and no one else in the village you have met has actually
+addressed you in a polite manner. Secondly, his eyes do not appear to
+be glazed over as the others are.
+~
+3 2105864 760 C
+25 0 -76 0d0+0 0d0+0
+15750 0
+8 8 1
+13 20 20 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1791 0 7168 0 1107296768 2
+> greet_prog 100~
+if ispc($n)
+smile
+say Welcome, welcome, feel free to browse, or buy!
+wink
+, stops suddenly and peers closely.
+say Psst! You aren't affected either, are you? C'mere!
+mea $n As you move closer the wizard begins to whisper to you.
+say I believe some supernatural entity has possessed the souls
+say of these poor folks. My tower was infested by goblins, and so
+say I fled, and disguised myself as the alchemist Potrax, the
+say poor devil who disappeared first. You must help me rid the
+say village of this evil! Will you? Yes or no will do!
+else
+mpe $I stares blankly at $n.
+endif
+~
+> speech_prog p yes~
+if ispc($n)
+say Excellent! Knew you would! Now listen closely...
+say Through magical divination I was able to determine that the
+say mayor is not what he appears! I fear something evil has taken
+say his place, and may be behind the fell enchantment placed 'pon
+say Hochenyana, or at least may know who is. Seek out the mayor, the
+say true mayor, and he may be able to tell you more. Hurry!
+, digs into his robes and produces a couple of wands.
+say Here, take these! They may help you...
+mpoload 11230
+mpoload 11231
+give wand $n
+give wand $n
+else
+endif
+~
+> speech_prog p no~
+if ispc($n)
+sigh
+say Then, we are all doomed...
+else
+endif
+~
+|
+#11223
+skeleton horse~
+a skeletal horse~
+The skeleton of a dead horse rises from the ground!
+~
+Although its physical form is long dead, the remains of the horse
+arise by the dint of some foul necromancy to assault any who intrude
+upon its place of death!
+~
+35 512 -400 C
+26 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 8192 8192 0
+0 0 0 0 3874 16 33 2
+> greet_prog 100~
+mpe The bones of a warhorse arise from the ground and form a skeleton!
+~
+|
+#11224
+insane merchant~
+an insane merchant~
+A ragged, dishevelled old man sits weeping on the dirty floor.
+~
+This poor fellow appears to have suffered mightily at the hands of
+whatever has taken over this town; his mind has been broken by what
+he has been subjected to.
+~
+3 512 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 3072 0 513 2
+> rand_prog 2~
+say They took her, took my wife... and slew her... NOOOO!!!
+scream
+drool
+~
+> greet_prog 100~
+mpe The poor fellow is so engulfed in his grief he doesn't notice you.
+~
+> fight_prog 12~
+say NO! You have taken enough! You shan't take me!
+scream
+gouge
+stun
+~
+|
+#11225
+edmund armorer~
+Edmund~
+A short, stocky man is lying on the floor, stunned.
+~
+Someone or something large has smashed into the armorer, and he lies on
+the floor, struggling back to consciousness. As you enter, you notice the
+dazed look that fills the eyes of most of the people here disappearing...
+~
+3 512 0 C
+26 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+16 13 13 16 16 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 3072 0 128 2
+> greet_prog 100~
+if ispc($n)
+mpe As you enter $I slowly stands up.
+say Huh? Who? What? Where am I? Gods, my HEAD!
+wince
+peer
+say Hoi, you there! What date is it?
+mutter
+else
+endif
+~
+> speech_prog day~
+gasp
+say I ...it cannot be... I cannot remember the last 4 months!
+say All I can remember is the robed strangers coming to town...
+frown
+~
+> speech_prog p robed strangers~
+say Yes, three of them, didn't say much, not as there is much to
+say for a stranger in a foreign town. 
+shrug
+say Wore purple robes, covered their faces and hands too. One of
+say them didn't seem to have any legs, he just kinda -floated-...
+boggle
+say That's about all I can remember...
+, scratches his head in puzzlement.
+~
+|
+#11226
+otyugh~
+an otyugh~
+A horrid, tentacled blob arises from the muck.
+~
+Lurking in this sewer is a horrid otyugh, not at all common to this
+region, and undoubtledly released here by the infiltrators of the city
+to dispose of unwanted waste. This foul mobile garbage devouring monster
+has ultra keen senses, with which it can detect hidden or concealed foes,
+though magical invisibility still confounds it.
+~
+39 544 -400 C
+28 0 -50 0d0+0 0d0+0
+36570 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 9260 2100240 256 0 1074008705 2
+> fight_prog 15~
+mea $n The otyugh's tentacle catches you in the chest. You begin to feel ill.
+bash
+c poison $n
+mpdamage $n 50
+~
+|
+#11227
+englebert~
+Englebert~
+A balding middle aged man is seated by a blazing fire.
+~
+This harmless old coot sits by his fire, mumbling about the bitter cold,
+despite it being hotter than the inside of a smith's forge in his cramped
+shop. 
+~
+3 512 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 3072 0 0 2
+> rand_prog 2~
+say So cold... cold....
+shiver
+~
+|
+#11228
+giant frog~
+a giant frog~
+A massive frog croaks angrily.
+~
+This massive amphibian is the size of an alsatian, and has a tongue
+long enough to wrap three times around you, its favorite method of
+snaring prey.
+~
+35 512 -225 C
+25 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 512 512 0
+0 0 3116 18 0 1 262273 2
+> fight_prog 100~
+if rand(10)
+mea $n $I's tongue lashes out, snaring you and constricting!
+disarm
+mpdamage $n 33
+else
+endif
+~
+> rand_prog 2~
+, croaks loudly.
+mpasound A loud croaking, as of a massive amphibian, can be heard.
+~
+|
+#11229
+thief~
+a thief~
+A thief cautiously searches the room for any valuables.
+~
+This amoral rogue is taking advantage of the senseless townsfolk to
+search for loot; he is a little perturbed by their unusual behaviour,
+but his greed is overriding his uneasiness, which may be to his regret...
+~
+3 98856 -400 C
+24 0 0 0d0+0 0d0+0
+13000 0
+8 8 1
+13 13 13 20 13 13 13
+0 0 0 0 0
+10 2 0 0 524289 1 0
+0 0 1791 3328 0 0 1632 524291
+> fight_prog 10~
+say No, you won't cut in on my action!
+snarl
+mea $n The thief slips in under your guard and delivers a serious blow!
+mpdamage $n 40
+wield dirk
+~
+> rand_prog 2~
+mutter
+~
+|
+#11230
+wild boar~
+a wild boar~
+A wild boar grunts in displeasure.
+~
+This aggressive brute wandered into town one day, and was surprised at
+the lack of resistance and decided to stay to enjoy the easy pickings.
+Estroglian boars are by nature quite carniverious, and their bloodlust
+is exacerbated by easy prey.
+~
+35 512 -209 C
+25 0 -33 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 18 13 13
+0 0 0 0 0
+27 3 0 0 512 512 0
+0 0 2164285 0 0 0 128 2
+> rand_prog 2~
+grunt
+~
+> fight_prog 15~
+mea $n The boar charges at you, and gores you with its tusks!
+gouge
+bash
+~
+|
+#11231
+holst brecker~
+Holst Brecker~
+A stern, middle aged man stands rigidly at attention here.
+~
+The constable of Hochenyana, Holst was ironically one of the first to
+fall under the influence of the foul enchantments placed 'pon this place.
+Now he stands here, as if nothing was amiss, awaiting further orders.
+~
+3 8704 0 C
+28 0 -60 0d0+0 0d0+0
+0 0
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 3153152 0 0 544 3
+> greet_prog 100~
+bow $n 
+Say Greetings, citizen. Nothing is amiss. Carry on with your business.
+, stares into space.
+~
+|
+#11232
+goblin shaman~
+a goblin shaman~
+A rather mangy, bedragged goblin covered in white paint screams at the sky.
+~
+This cunning shaman took advantage of the helplessness of the townsfolk
+to move his tribe into the mage's tower; accomodations he has long desired.
+He is dimly aware that something is seriously wrong with the villagers, and
+that some sort of enchantment is in affect, but ignores it as it has yet ot
+affect him.
+~
+35 680 -800 C
+30 0 -100 0d0+0 0d0+0
+17500 0
+8 8 1
+13 16 16 16 13 3 6
+0 0 0 0 0
+39 0 0 0 16384 16384 0
+0 0 263871 1051904 0 0 1107300867 2
+> fight_prog 66~
+if rand(40)
+c chill $r
+c weaken $r
+c 'faerie fire' $r
+say Ooga Booga!
+else
+if rand(15)
+gouge
+wink
+c blindness $n
+else
+if rand(25)
+c galvanic $n
+c curse $r
+c poison $r
+else
+endif
+endif
+endif
+~
+> rand_prog 2~
+snarl
+drool
+~
+> greet_prog 100~
+if ispc($n)
+scream
+mea $n The shaman hisses menacingly at you.
+say Gah wa jeri 'nlingreru!
+cackle
+else
+endif
+~
+|
+#11233
+guard~
+a town guard~
+A town guard wanders past in a daze.
+~
+This stout, dependable chap was once one of Hochenyana's famed
+militia, a sturdy guard who have fended off countless orcish raids.
+But now he seems more interested in studying a passing fly than in
+well armed intruders in his village...
+~
+67 512 -200 C
+24 0 0 0d0+0 0d0+0
+200 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1791 0 2048 0 128 3
+#11234
+grinning goblin~
+a grinning goblin~
+A grinning goblin cackles maniacally.
+~
+This fecund member of the Gutripper Clan is here under the auspices of
+the clan shaman, who took it upon himself to invade the mage's tower
+when the town came under the influence of whatever malady besets them.
+Ferocious even by goblin standards, this sinewy foe is quite capable of
+rending strong adventurers in two.
+~
+35 512 -500 C
+25 0 0 0d0+0 0d0+0
+10000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 263871 0 0 0 3 2
+> rand_prog 2~
+cackle
+~
+> greet_prog 33~
+cackle
+say Die die, goodie goodie!
+snarl
+~
+|
+#11235
+goblin~
+a small goblin~
+A small, but strong, goblin creeps through the hovels.
+~
+This fecund member of the Gutripper Clan is here under the auspices of
+the clan shaman, who took it upon himself to invade the mage's tower
+when the town came under the influence of whatever malady besets them.
+Ferocious even by goblin standards, this sinewy foe is quite capable of
+rending strong adventurers in two.
+~
+35 512 -500 C
+21 0 0 0d0+0 0d0+0
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 263871 0 0 0 3 2
+> greet_prog 25~
+snarl
+say Humantypes! Die! Shaman commands!
+cackle
+~
+> fight_prog 5~
+yell Humantypes in the clan place! Die!
+~
+|
+#11236
+brass golem~
+a brass golem~
+A brass golem stands before the two doors.
+~
+Lacking many of the powers and immunities of its more powerful cousins,
+the brass golem is nevertheless a competent and hardy defender of any
+mage's chambers.
+~
+3 8744 0 C
+34 0 -45 0d0+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+40 0 0 0 8193 1 0
+0 0 0 1048672 2104586 17 528 2
+> act_prog p from the north.~
+if ispc($n)
+say My master prohibits any from disturbing his chambers!
+c gas
+else
+say Intruder! 
+mpe $n flees from the golem!
+mpforce $n n
+chuckle
+endif
+~
+|
+#11237
+fire elemental~
+a fire elemental~
+A towering pillar of flame fills this chamber with heat.
+~
+This semi intelligent being from the plane of fire seeks only to destroy
+by fire all it encounters.
+~
+33 34079232 -400 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 0 0 2108673 2 335552640 2
+#11238
+minion nool~
+a minion of No'ol~
+A winged demon hovers above the bloodstained altar.
+~
+Sent by the Chaotic Lord to observe the goings-on in this temple,
+the minion was pleased to note the extent to which chaos had taken
+advantage of the evil enchantments placed upon the town. No'ol is aware
+of who is behind the enchantment, and his priests have hammered out a
+pact of mutual benefit, though Chaos does not always co operate with
+forces of purer Evil.
+~
+35 268436136 -1000 C
+35 0 -100 0d0+0 0d0+0
+564000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 2 0 0 1 1 0
+0 0 1410623 16 2112906 33 1109660167 3
+> fight_prog 75~
+if rand(30)
+c winter $r
+c 'frost breath' $r
+cackle
+else
+if rand(10)
+c chill $r
+c chill $r
+c chill $r
+c weaken $r
+else
+if rand(25)
+gouge
+bash
+kick
+punch
+else
+endif
+endif
+endif
+~
+> rand_prog 2~
+mpe The minion infuses its weapon with demonic power.
+rem whip
+c enchant whip
+wield whip
+cackle
+~
+> rand_prog 5~
+mpasound Horrid shrieks and howls come from all around you.
+~
+> greet_prog 100~
+if isimmort($n)
+sneer
+say Pawn of the higher powers, you may defeat me, but not NO'OL!
+cackle
+else
+if ispc($n)
+chuckle
+say Poor, poor pitiful $n. Tell me, how do you wish to die???
+cackle
+mpe _red A hellish glow suffuses $I as $e rises to $s full height.
+else
+mpforce $n n
+endif
+endif
+~
+|
+#11239
+wraith~
+a wraith~
+The enraged spirit of a man who starved to death has returned!
+~
+This poor soul was doomed to a slow death by starvation, and it now
+cannot rest due to the indignity of such a death.
+~
+35 268968488 -200 C
+28 0 -75 0d0+0 0d0+0
+45000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 0 152 2104582 0 1107300352 2
+> fight_prog 20~
+c chill $r
+c blindness $r
+c weaken $r
+~
+> death_prog 100~
+mpe _lbl As the death blow is struck, the wrait dissipates, aggrieved.
+mpgoto 3
+~
+> death_prog 50~
+mpoload 11263
+~
+|
+#11240
+illithid disguised librarian~
+an illithid scientist~
+A tall figure shrouded completely in dark robes stands reading a book.
+~
+This scholar appears to be totally engrossed in his work. As you approach,
+however, you see a long blue clawed hand protrude from the robe, and a slimy
+tentacle inches out of the cowled robe...
+~
+3 73400872 -800 C
+30 0 -50 0d0+0 0d0+0
+15750 0
+8 8 1
+13 22 13 22 13 13 13
+0 0 0 0 0
+10 0 0 0 524288 524288 0
+0 0 0 143 1055744 0 1109398019 1049618
+> greet_prog 100~
+if ispc($n)
+, hisses angrily!
+say Intrudersssss! Monks! Repel this creature of Law!
+mpe $I throws back his cowl, and reveals the hideous features of an illithid!
+cackle
+else
+endif
+~
+> fight_prog 33~
+mea $n $I attacks you with a psionic assault!
+mpdamage $n 50
+mpforce $n scream
+c blindness $n
+c weaken $n
+c 'energy drain' $n
+~
+|
+#11241
+dark monk~
+a dark monk~
+A wizened old man shambles through the aisles, searching.
+~
+The forces behind the conquest of Hochenyana have brought in the infamous
+dark monks, collectors and translators of ancient unholy texts, some of
+which they hope to find in this old library.
+~
+97 512 -800 C
+28 0 0 0d0+0 0d0+0
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 1791 2105088 0 0 592 3
+#11242
+rogue~
+a rogue~
+A svelte elven woman clad in a black catsuit slinks out of the shadows.
+~
+This evil woman was hired by the powers in control to keep an eye on
+the library and destroy any unwanted intruders, a task she relishes in.
+~
+39 4293162 -675 C
+28 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 22 13 22 13 22 22
+0 0 0 0 0
+0 2 0 0 2 2 0
+0 0 1791 2104576 0 0 1600 524291
+> greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+snarl
+mpe $I steps out of the shadows, and strikes!
+backstab $n
+cackle
+else
+endif
+endif
+~
+> fight_prog 20~
+circle $n
+gouge
+~
+> rand_prog 33~
+sneak
+hide
+mpat 3 c invis
+~
+|
+#11243
+Xeratzl~
+Xeratzl~
+A short, grumpy demon squats in the middle of null-space.
+~
+Xeratzl was imprisoned here by an old mage centuries ago, who desired
+her tome but had not the strength to wrest it from her grasp. He has
+since entrusted the beast to the library, and the new owners have yet
+to discover her little prison.
+~
+99 390636200 -666 C
+50 0 -210 1d1+8500 0d0+0
+1000000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 -10
+85 0 0 0 1 1 0
+0 0 68519487 1048720 2113285 0 266823 2
+> greet_prog 100~
+if ispc($n)
+mea $n A shimmering mass of energy coalesces into a hunched demon.
+mea $n When it speaks, its voice seems to come from everywhere all at once.
+say wElcOmE tO mY pRiSoN, mOrTaL...
+chuckle
+mpe The air shifts subtly, and the demon arises.
+say dO uS bOtH a FaVoR aNd SlAy Me...
+mpe Torrents of energy arc and sizzle about $I's form.
+mpe $I suddenly moves, and with a mighty effort rips her own hand off!
+mea $n Your eyes widen as another claw grows to replace it. Smiling she turns.
+mpoload 11273 48
+wield claw
+mpforce $n faint
+else
+endif
+~
+> death_prog 100~
+mpe A hole is torn in the fabric of this place as $I dies.
+mpopenpassage 11282 1056 4
+~
+> rand_prog 33~
+rem claw
+drop claw
+sac claw
+c gas
+~
+> fight_prog 25~
+c chill $r
+c weaken $r
+gouge
+c 'energy drain' $r
+~
+> fight_prog 33~
+disarm
+wield claw
+gouge
+~
+> fight_prog 100~
+if isnpc($n)
+mpslay $n
+cackle
+else
+endif
+~
+> act_prog circle~
+mprestore self 300
+say tHe aTtAcK oF a ThIeF iNfUsEs Me WiTh StReNgTh...
+~
+> fight_prog 10~
+mpe Cracks appear in the void, and gas seeps through them!
+c earth
+c gas
+mpgoto $i 
+c 'frost breath' $r
+~
+|
+#11244
+devrel paladin~
+Devrel~
+A naked man has been tossed into a corner of this room like so much garbage.
+~
+Once the finest Paladin of Asteh, Devrel is now a quivering wreck, his
+mind destroyed by the usurpers. However, the rigors did not affect his
+physical form, and he can still defend himself on an animal like
+instinctive level.
+~
+3 8736 1000 C
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+16 16 16 16 16 16 16
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 1791 3146496 3072 0 608 2
+> greet_prog 100~
+if ispc($n)
+drool
+say Gaaaahhhh.....
+shiver
+mpe $I's mind has been destroyed by psychic assault.
+mpe The poor bastard cannot even form a simple sentence...
+else
+endif
+~
+> fight_prog 20~
+say GAAAAAAAHHHHH!
+stun
+~
+> rand_prog 2~
+drool
+~
+|
+#11245
+shadow~
+a shadow~
+An indistinct form coalesces from the shadows before you.
+~
+~
+35 623144 -670 C
+25 0 0 0d0+0 0d0+0
+15756 0
+8 8 0
+13 13 13 25 13 13 13
+-5 -5 -5 -5 -5
+67 2 0 0 8192 8192 0
+0 0 0 1048584 2113286 1 1075843072 2
+> fight_prog 33~
+mpe The shadow's icy hands grasp you!
+c chill
+c weaken
+c 'energy drain'
+~
+> death_prog ~
+mpe As the shadow perishes, its form dissipates, disappearing into the gloom.
+mpgoto 2
+~
+|
+#11246
+priest no'ol~
+A Priest of No'ol~
+A naked, screaming female prostrates herself before her god.
+~
+Utterly evil, inutterably insane, this vile she-witch is a priest of
+No'ol, and she works herself into unholy frenzies in worship of her
+deity.
+~
+1 33554984 -1000 C
+28 0 0 0d0+0 0d0+0
+120000 0
+8 8 2
+17 13 13 22 22 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 263871 1049487 7168 0 1308889091 4
+> greet_prog 100~
+if ispc($n)
+, gibbers madly.
+say Come witness the power of No'ol!
+drool
+faint
+else
+endif
+~
+> fight_prog 100~
+if isnpc($n)
+mpe $I shrieks a horrible incantation, causing $n to flee in panic!
+mpforce $n flee
+else
+if rand(20)
+bite
+kick
+gouge
+else
+endif
+~
+|
+#11247
+avatar asteh~
+an avatar of Asteh~
+A glowing humanoid stands trapped behind a shimmering force field.
+~
+The avatar was summoned during the taking of the temple by the clergy
+in a last ditch effort to save their church. However the avatar was
+overcome and entrapped here, where the faithful of No'ol can scorn and
+deride it. The force field bars only it from moving; all others may pass
+freely. Her armor bears many dents, and her skin is burned badly in several
+places, punishment from her captors.
+~
+3 533160 450 C
+40 0 -100 22d10+3800 0d0+0
+0 0
+8 8 2
+16 16 16 16 16 25 16
+-10 -10 -10 -10 -10
+0 1 0 0 1 1 0
+0 0 1791 0 2105088 0 1207959968 524423
+> fight_prog 25~
+say Stepping inside my prison was foolish, $n!
+say Now I shall destroy you for your cowardly attack!
+stun
+c 'frost breath' 
+if rand(25)
+mpat 3 c heal
+disarm
+wield mace
+else
+endif
+~
+> greet_prog 100~
+say if you have come to torment me, save your breath.
+say Nothing you can say or do can hurt me anymore...
+stare
+~
+> rand_prog 5~
+mpat 3 c heal
+wield mace
+sigh
+~
+|
+#11248
+ghost bishop~
+the ghost of the bishop~
+The ghost of the bishop of Asteh haunts this place.
+~
+This poor soul was slain here, and his enraged spirit refuses to rest;
+indeed it cannot until the evil here has been laid to rest.
+~
+3 274735784 1000 C
+33 0 -200 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 1 0 0 1 1 0
+0 0 0 1048825 2113286 0 1243615232 210
+> greet_prog 100~
+if isgood($n)
+say Lawful creature, flee this place of evil!
+, moans loudly.
+else
+say Alas, more pawns of evil and darkness...
+endif
+~
+|
+#11249
+mud man~
+a mud man~
+A humanoid form arises from the muck.
+~
+This magical creature is only semi-intelligent, but it is imbued with
+a strong desire to destroy anything not like itself.
+~
+35 512 -200 C
+24 0 0 0d0+0 0d0+0
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 32 1048642 2100512 1 144 8194
+#11250
+giant leech~
+a giant leech~
+A massive leech rises from the smelly waters.
+~
+~
+35 -2145287680 0 C
+27 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 512 512 0
+0 0 66609 2097424 128 1 6145 2
+#11251
+beholder mage xyrtog~
+Xyrtog~
+A beholder of immense size utters an incantation.
+~
+This foul creature of evil is the ringleader of the evil influence that
+has taken over the peaceful town of Hochenyana. A mage of considerable
+power, Xyrtog is also a highly influential force in the Beholder City
+of Qu'gphtek M'gyhr. With his illithid allies, he intends to expand
+the range of his ensorcellment, and achieve what chaos has failed to
+do for centuries, and without even having to spill a drop of blood, though
+that does not worry the evil tyrant.
+~
+99 6300328 -875 C
+35 0 -192 10d1+4000 10d2+20
+175000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 8193 1 2
+0 0 5176 16 3153039 32 1127223297 10242
+> greet_prog 100~
+if ispc($n)
+grin
+say So, you have caught on to our little ruse, eh? Found us out,
+say so to speak. Weeeeell, its too late to stop me now, adventurer!
+cackle
+say When this latest incantation is finished, I shall have every
+say soldier along the Walls of Defiance under my sway! And then...
+muhaha
+say Guards! Destroy the intruders!
+mpe Two large Umber Hulks emerge from the shadows, and stride forth.
+mpmload 11201 
+mpmload 11201
+mpforce umber c poison $n
+mpforce 2.umber c weaken $n
+c shadowform
+c 'eldritch sphere'
+c blazeward
+c inner
+c dragonskin
+c demonskin
+else
+endif
+~
+> death_prog 100~
+mpe As the great beholder shrieks and dies, a strip of its skin is torn loose.
+mpoload 11201 30
+~
+> fight_prog 100~
+if rand(20)
+cackle
+say Taste my magical powers, $n!
+c blazebane
+c fireball
+c winter
+c chill
+c 'ethereal funnel'
+c 'black fist'
+else
+if rand(25)
+mpe Beams of energy surge forth from $I's eyestalks, striking randomly!
+mpdamage $r 50
+else
+if rand(40)
+c blindness
+muhaha
+else
+c 'colour spray'
+endif
+endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#11201
+beholder skin shield~
+beholder skin shield~
+A strip of ridged red skin lies here.~
+~
+9 98880 513
+15 0 0 0
+5 5000 500
+A
+5 1
+A
+13 25
+A
+12 25
+A
+19 3
+A
+27 1048592
+#11202
+illithid purple robes~
+purple robes~
+Some long purple robes have been tossed here.~
+~
+9 98880 9
+8 0 0 0
+2 750 75
+A
+3 3
+A
+12 30
+A
+24 -3
+A
+19 2
+#11203
+adamantium rod~
+an adamantium rod~
+This rod is used to channel ambient magical energies.~
+~
+9 622658 16385
+10 0 0 0
+1 0 0
+A
+12 50
+#11204
+barbed whip~
+a barbed whip~
+A barbed whip is coiled up on the floor.~
+~
+5 0 8193
+0 0 0 4
+3 45 4
+A
+18 4
+A
+19 3
+A
+2 1
+#11205
+stained leather armor~
+stained leather armor~
+This armor has seen better days. And years.~
+~
+9 262144 9
+8 0 0 0
+5 5 0
+A
+17 -10
+A
+13 20
+#11206
+gaol key~
+a gaol key~
+This key opens a gaol cell.~
+~
+18 524288 1
+0 0 0 0
+4 423 42
+#11207
+guild token~
+a guild token~
+This token marks the bearer as a friend in high standing of the guild.~
+~
+8 524288 16385
+0 0 0 0
+1 50 5
+#11208
+missive~
+a missive~
+A letter addressed to Captain Allethandra lies in the dirt.~
+~
+35 262208 1
+0 0 0 0
+1 0 0
+E
+missive~
+The letter is written in a clear, flowing script, stained in parts by
+what appears to be blood. It is of course written in elvish.
+~
+> exa_prog 100~
+if race($n) == elf
+mea $n The letter reads-
+mea $n My dear friend Allethandra,
+mea $n The Situation is even worse than we predicted. A vile 
+mea $n beholder, with Illithid help, has ensorcelled the villagers
+mea $n of Hochenyana with some sort of ancient artifact, the power
+mea $n of which is greatly enhanced by the mental abilities of the
+mea $n Illithids. I am not sure who, or what, may be behind these
+mea $n creatures; whether they are renegades or agents of a greater
+mea $n power is as yet unclear. I would advise we notify the
+mea $n Estroglian mage council immediately, and...
+mea $n The letter suddenly stops here. Hmm...
+else
+mea $n You cannot make heads or tails of the elaborate elven script.
+endif
+~
+|
+#11209
+sturdy oak club~
+a sturdy oak club~
+A wooden cudgel lies on the ground.~
+~
+5 262144 8193
+0 0 0 7
+7 100 10
+A
+19 2
+#11210
+battered iron helmet~
+a battered iron helmet~
+This helmet has seen better days.~
+~
+9 524288 17
+8 0 0 0
+10 0 0
+#11211
+ring mail coat~
+a ring mail coat~
+A suit of ring mail armor has been spread out on the floor.~
+~
+9 524288 9
+10 0 0 0
+18 500 50
+A
+5 1
+A
+31 1
+A
+13 20
+A
+19 1
+A
+22 -2
+#11212
+wooden shield~
+a wooden shield~
+A shield made of strips of wood lashed together has been left here.~
+~
+9 262144 513
+5 0 0 0
+4 120 12
+A
+17 -5
+A
+21 -3
+A
+23 3
+#11213
+robes mayor~
+the mayor's robes~
+A full set of the mayor's official robes lie here.~
+~
+9 8389952 1025
+12 0 0 0
+12 15000 1500
+A
+3 1
+A
+4 1
+A
+12 25
+A
+13 25
+A
+19 3
+#11214
+broadsword~
+a broadsword~
+A fine broadsword lies on the ground.~
+~
+13 525376 8193
+0 0 0 3
+5 5000 500
+A
+1 1
+A
+18 3
+A
+19 5
+A
+24 -2
+#11215
+fine chain mail~
+fine chain mail~
+This chain mail was a gift from the elves to their friend Mayor Hiln.~
+~
+9 8946752 9
+8 0 0 0
+1 25000 2500
+A
+5 1
+A
+13 25
+A
+17 -20
+A
+12 30
+A
+18 3
+A
+19 3
+#11216
+study key~
+the study key~
+A key to the mayor's private office lies here.~
+~
+18 524288 1
+0 0 0 0
+1 50 5
+#11217
+shop counter~
+the shop counter~
+A wooden shop counter covered in deep gouge marks blocks one corner.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+E
+counter~
+You notice that the counter is not set flush with the floor, and with 
+a little effort could be pushed aside...
+~
+> push_prog 100~
+mpe As the shop counter is pushed aside, a hidden trapdoor is revealed.
+mpopenpassage 11229 11288 5
+mpopenpassage 11288 11229 4
+~
+> pull_prog 100~
+mpe As the shop counter is pulled back into place, it bars a trapdoor.
+mpclosepassage 11229 5
+mpclosepassage 11288 4
+~
+|
+#11218
+barrel~
+a wine barrel~
+A large wine barrel rests in one corner.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+barrel~
+As you peer closely, you note that the lid is loose, and could be 
+easily pried off.
+The barrel looks large enough to clamber into...
+~
+#11219
+copper lantern~
+a copper lantern~
+A copper lantern hangs from a wooden beam.~
+~
+1 524289 1
+0 0 120 0
+1 500 50
+A
+12 22
+A
+21 -2
+#11220
+shelf~
+a shelf laden with empty cans~
+A shelf laden with empty cans lines the north wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+shelf~
+The shelf is only a think piece of wood, mounted on a couple of nails.
+Peering closer, you notice that the shelving actually blocks a door
+set in the north wall, set so flush that the edges are but barely
+visible in the poor light.
+~
+#11221
+pinking shears~
+pinking shears~
+A pair of sharp tailor's shears rest on the dusty floor.~
+~
+5 524288 8193
+0 0 0 2
+4 150 15
+A
+2 1
+A
+18 3
+A
+19 4
+#11222
+embroidered belt~
+an embroidered belt~
+This belt bears the inscription- 'Seven in one blow'.~
+~
+9 64 2049
+12 0 0 0
+3 5000 500
+A
+5 2
+A
+31 2
+A
+13 10
+A
+12 10
+A
+19 2
+> wear_prog 100~
+c elven $n
+~
+|
+#11223
+bloodstained cleaver~
+a bloodstained cleaver~
+A bloodstained butcher's cleaver is buried in the floor.~
+~
+5 524800 8193
+0 0 0 1
+10 500 50
+A
+1 1
+A
+18 3
+A
+19 5
+A
+13 35
+> wear_prog 100~
+mea $n Visions of blood and mutilation flood your mind.
+mpforce $n evilgrin
+mpforce $n cackle
+~
+|
+#11224
+butcher chain mail glove~
+a butcher's glove~
+A chain mail glove covered in blood lies on the ground.~
+~
+9 524304 129
+5 0 0 0
+3 1500 150
+A
+1 1
+A
+17 -10
+A
+19 3
+A
+27 64
+A
+25 -3
+#11225
+butcher apron~
+a butcher's apron~
+A long leather apron spattered with blood hangs from a hook.~
+~
+9 0 9
+8 0 0 0
+7 120 12
+A
+1 1
+A
+5 1
+A
+13 20
+A
+17 -10
+#11226
+cupboard~
+a cupboard~
+A large cupboard rests against one wall.~
+~
+15 0 0
+500 13 11227 0
+1 0 0
+#11227
+key tiny brass~
+a tiny brass key~
+A tiny brass key lies on the floor.~
+~
+18 524288 16385
+0 0 0 0
+1 100 10
+#11228
+tea pot~
+a tea pot~
+An empty tea pot rests on the oak table.~
+~
+15 0 16385
+11 1 -1 0
+1 150 15
+#11229
+diamond earring~
+a diamond earring~
+A diamond earring with a gold clasp lies here.~
+~
+9 65 65537
+5 0 0 0
+1 150000 15000
+A
+3 1
+A
+4 1
+A
+12 15
+A
+13 15
+A
+24 -3
+#11230
+wand~
+a wand of silver~
+A silver wand has been dropped here.~
+~
+3 524352 16385
+20 1 1 58
+1 1500 150
+#11231
+wand~
+a wand of gold~
+A gold wand has been dropped here.~
+~
+3 524352 16385
+20 1 1 18
+1 1500 150
+#11232
+fountain~
+a fountain~
+A small stone fountain bubbles with fresh water.~
+~
+25 0 0
+50 50 0 0
+500 3000 300
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#11233
+corpse smith~
+the corpse of the smith~
+A decaying corpse is slumped over the anvil.~
+~
+15 0 0
+1000 1 -1 0
+1 0 0
+#11234
+silver hammer~
+a silver hammer~
+A large silver hammer lies on the ground.~
+~
+5 8946752 8193
+0 0 0 0
+24 15750 1575
+A
+1 2
+A
+12 30
+A
+18 4
+A
+19 4
+#11235
+signet ring merchant guild maritshome~
+A Merchant's Guild Signet Ring~
+A signet ring lies in the dust.~
+~
+9 524352 3
+3 0 0 0
+1 45000 4500
+A
+2 1
+A
+3 1
+A
+12 25
+A
+19 1
+#11236
+pile rubbish~
+a pile of rubbish~
+A large pile of rubbish fills most of the street here.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+pile rubbish~
+As you poke through the debris, you notice an iron grate half buried 
+in the muck, which leads down into a sewer. Evidently at some stage
+someone must empty this rubbish into the sewers below. But who..?
+~
+#11237
+shiny steel leggings~
+shiny steel leggings~
+A pair of shiny steel leggings lies half-buried in the muck.~
+~
+9 524352 33
+11 0 0 0
+10 500 50
+A
+1 1
+A
+2 1
+A
+5 1
+A
+17 -20
+A
+19 2
+#11238
+silver greaves~
+silver greaves~
+A pair of silver greaves lies in a puddle of water.~
+~
+9 524352 33
+6 0 0 0
+10 15000 1500
+A
+2 2
+A
+12 20
+A
+18 1
+A
+19 2
+A
+24 -1
+#11239
+thieves dirk~
+a thieves' dirk~
+A sharp narrow blade has been dropped here.~
+~
+5 524288 8193
+0 0 0 2
+1 450 45
+A
+18 2
+A
+19 3
+#11240
+bladed boots~
+bladed boots~
+A pair of boots with daggers imbedded in the toes rests here.~
+~
+9 0 65
+5 0 0 0
+4 1000 100
+A
+19 3
+A
+47 5
+A
+14 -45
+#11241
+camoflagued cape~
+a camoflagued cape~
+A camoflague cape has been dropped here. You can hardly see it.~
+~
+9 96 1025
+4 0 0 0
+4 15400 1540
+A
+2 1
+A
+36 5
+A
+37 5
+A
+22 -2
+> wear_prog 2~
+c invis $n
+~
+|
+#11242
+weatherbeaten sign~
+a weatherbeaten sign~
+A weatherbeaten sign bearing a name and a symbol swings in the breeze.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+sign~
+The sign reads, in an ornate script-
+ 
+Badwick the Tailor, purveyor of fine clothing and repair of the same
+ 
+Below that is a picture of a coiled belt embossed with the words-
+FIVE IN ONE BLOW.
+~
+#11243
+a foul nest~
+a foul nest~
+A foul nest fills most of this burnt out pub.~
+~
+15 0 0
+1000 0 -1 0
+1 0 0
+#11244
+leather wristband~
+a leather wristband~
+This simple wristband is covered in druidic runes.~
+~
+9 8684608 4097
+4 0 0 0
+1 1503 150
+A
+1 1
+A
+4 1
+A
+12 10
+A
+24 -3
+#11245
+mace~
+a mithril mace~
+A sturdy mithril headed mace lies here.~
+~
+5 8946752 8193
+0 0 0 8
+14 25000 2500
+A
+3 1
+A
+4 1
+A
+12 30
+A
+18 5
+A
+19 5
+A
+24 -2
+#11246
+leather jerkin~
+a leather jerkin~
+A stout leather jerkin lies here.~
+~
+9 262144 9
+8 0 0 0
+5 5 0
+A
+17 -10
+A
+13 20
+#11247
+goblin totem~
+a goblin totem~
+A miniature totem of skulls and feathers lies here.~
+~
+9 262226 16385
+8 0 0 0
+1 100 10
+A
+1 1
+A
+3 2
+A
+12 40
+A
+18 3
+A
+19 3
+A
+24 -3
+> wear_prog 100~
+c sagacity $n
+~
+|
+#11248
+evil eye~
+the evil eye~
+A bloody eye stares up at you from the ground.~
+~
+9 4692 131073
+4 0 0 0
+1 500 50
+A
+25 -3
+A
+3 1
+A
+4 1
+A
+12 20
+A
+18 2
+A
+19 2
+A
+26 24
+A
+31 -3
+> wear_prog 100~
+mea $n As you wear the eye, it sinks into your own eye, absorbing it!
+~
+|
+#11249
+head stag~
+a stag's head~
+A massive stag's head is mounted on the west wall.~
+~
+15 0 0
+1000 5 -1 0
+1 0 0
+E
+head~
+You think you can see a small panel near the Stag's thick neck.
+~
+#11250
+key mayor bedroom~
+the key to the mayor's bedroom~
+A small key has been dropped here.~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#11251
+iron bound chest~
+an iron bound chest~
+A heavy iron bound chest rests near the bed.~
+~
+15 524354 0
+275 13 11250 0
+1 0 0
+#11252
+shield douglas~
+the Shield of Douglas~
+The shield of Geoffrey's grandfather rests here.~
+~
+9 3392 513
+11 0 0 0
+22 175000 17500
+A
+17 -20
+A
+5 2
+A
+4 2
+A
+12 45
+A
+19 2
+A
+22 -2
+A
+23 -2
+A
+24 -2
+#11253
+bethesda almanac book~
+A volume of Bethesda's Almanac~
+A volume of Bethesda's Almanac has fallen from its shelf.~
+~
+2 64 16385
+40 213 215 104
+5 400 40
+E
+almanac~
+Leafing through a few pages, you note that the volume details the 
+history and culture of a place known as "Daggerfall"; from what little
+you peruse, you decide that it must be a very colorful and interesting
+place! You make a vow to one day venture to this strange world.
+~
+#11254
+spell book~
+the mage's spell book~
+A torn, stained tome lies on the floor.~
+~
+2 98371 16385
+33 67 66 74
+20 15000 1500
+A
+12 50
+A
+24 -5
+A
+3 2
+A
+4 2
+> exa_prog 100~
+if class($n) == mage
+mea $n As you scan the runes enscribed within, you trigger them!
+mpforce $n recite spell
+chuckle
+say Silly me...;)
+else
+mea $n You cannot make heads or tails of the cryptic runes.
+endif
+~
+|
+#11255
+crate~
+a long metal crate~
+A long metal crate rests on one of the benches.~
+~
+15 524352 0
+10000 5 -1 0
+1000 0 0
+#11256
+wand good health~
+a wand of good health~
+A slender wooden wand lies here.~
+~
+3 64 16385
+30 5 5 28
+1 5750 575
+#11257
+wand poor health~
+a wand of poor health~
+A slender wooden wand lies here.~
+~
+3 64 16385
+30 5 5 33
+1 5750 575
+#11258
+wand perception~
+a wand of perception~
+A slender wooden wand lies here.~
+~
+3 64 16385
+30 1 1 235
+1 5750 575
+#11259
+sigil no'ol nool~
+the Sigil of No'ol~
+A glowing sigil hovers in mid-air.~
+~
+1 627 1
+0 0 -1 0
+1 157500 15750
+A
+26 2097160
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 2
+A
+25 -3
+A
+31 -3
+> damage_prog 50~
+mpe The sigil reforms even as it is damaged!
+mpoload 11259
+drop nool
+mpforce $n get nool
+mpforce $n wear nool
+~
+|
+#11260
+razor whip~
+razor whip~
+A leather cat-o-nine tails set with razor blades lies here.~
+~
+5 17433088 8193
+0 0 0 4
+1 1540 154
+A
+2 1
+A
+18 5
+A
+19 5
+#11261
+cell key~
+cell keys~
+A ring of metal keys lies here.~
+~
+18 524288 16385
+0 0 0 0
+10 100 10
+#11263
+wraith light~
+a wraith light~
+A shimmering sphere of energy hovers here.~
+~
+1 609 1
+0 0 -1 0
+1 0 0
+A
+18 2
+A
+19 2
+A
+12 30
+A
+24 -3
+A
+31 -3
+#11264
+dark robes~
+dark robes~
+These magical robes seem to absorb all light.~
+~
+9 98880 1025
+6 0 0 0
+3 15000 1500
+A
+3 1
+A
+12 60
+A
+13 10
+A
+24 -5
+#11265
+dark cowl~
+a dark cowl~
+This dark cowl appears to absorb all the light in the room.~
+~
+9 98880 17
+5 0 0 0
+1 15500 1550
+A
+3 2
+A
+4 2
+A
+12 25
+A
+19 3
+A
+27 2048
+#11266
+iron shod staff~
+an iron shod staff~
+An iron shod staff lies on the floor.~
+~
+5 623104 8193
+0 0 0 6
+4 5000 500
+A
+1 1
+A
+5 1
+A
+12 50
+A
+18 2
+A
+19 2
+A
+29 4
+#11267
+unholy tome~
+an unholy tome~
+A blackened book covered in glowing red runes lies here.~
+~
+9 100864 16385
+11 0 0 0
+12 17500 1750
+A
+4 2
+A
+12 60
+A
+19 2
+A
+21 -3
+#11268
+ebony dagger~
+an ebony dagger~
+A short ebony blade with an adamantium handle lies here.~
+~
+5 16974358 8193
+0 0 0 11
+2 175000 17500
+A
+2 1
+A
+13 25
+A
+12 25
+A
+18 4
+A
+19 4
+> wear_prog 100~
+c slink $n
+~
+|
+#11269
+desk~
+a desk~
+A desk piled high with books fills most of this room.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+desk~
+There is at least six months of paperwork and cataloguing to be done
+just on this desk alone. If everything ever does return to normal here,
+someone is going to have one hell of a job before them in here!
+~
+#11270
+torn page~
+a paeg torn from a book~
+A page torn from some old book lies on the floor.~
+~
+2 64 16385
+30 88 89 221
+1 100 10
+#11271
+hat stand~
+a hat stand ~
+A hat stand sits near the encumbered desk.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+E
+stand~
+This hat stand is curiously unencumbered by hats. It doesn't appear too
+sturdy, a good shove would send it tumbling over, it seems...
+~
+> pull_prog 100~
+mea $n A panel slides shut in the north wall.
+mpclosepassage 11272 0
+~
+> push_prog 100~
+mea $n As you shove the hatstand around, a secret panel opens!
+mpechoar $n A panel suddenly opens in the north wall!
+mpopenpassage 11272 11282 0
+~
+|
+#11272
+necronomicon~
+the Necronomicon~
+A black book filled with vile text stains the air around it.~
+~
+9 16878163 16385
+12 0 0 0
+22 137500 13750
+A
+3 2
+A
+12 125
+A
+25 -5
+A
+24 -5
+A
+21 -5
+A
+20 -5
+A
+19 7
+A
+13 80
+A
+27 1048576
+#11273
+twisted claw ~
+the twisted claw of Xeratzl~
+A claw torn from a demon's arm lies here.~
+~
+5 2576 8193
+0 0 0 5
+1 0 0
+E
+claw~
+Xeratzl regenerates missing limbs, and one day decided to hack her own
+claw off and use it as a weapon.
+~
+A
+1 1
+A
+2 1
+A
+13 88
+A
+18 8
+A
+19 8
+#11274
+gloves thievery~
+gloves of thievery~
+Some black silk gloves lie here.~
+~
+9 25378880 129
+5 0 0 0
+1 50000 5000
+A
+2 2
+A
+18 6
+A
+19 2
+A
+35 5
+A
+33 5
+A
+32 5
+#11275
+book knowledge~
+the Book of Knowledge~
+A tome of inestimable knowledge lies here.~
+~
+9 33652800 16385
+4 0 0 0
+12 750000 75000
+A
+3 2
+A
+4 2
+A
+12 100
+A
+24 -3
+A
+21 -3
+A
+27 1024
+#11276
+shadow ring~
+a shadow ring~
+An indistinct loop of black energy hums quietly.~
+~
+9 16974432 3
+4 0 0 0
+1 12750 1275
+A
+3 1
+A
+2 1
+A
+5 1
+#11277
+portal shadow cache~
+shadow cache~
+A shimmering portal, three feet by three feet, hovers here.~
+~
+15 112 0
+10000 1 -1 0
+1 0 0
+#11278
+mound garbage~
+a towering mound of garbage~
+A towering mound of garbage, both organic and inorganic, fills the room.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+garbage~
+Yuck. Piles and piles of splintered wood and mutilated corpses. The
+stench is almost as bad as an orc latrine. Almost.
+~
+> exa_prog 100~
+mea $n As you stick your head in to have a look around, a rather large
+mea $n rat leaps out and bites you on the nose, then scurries away!
+mpforce $n say OUCH! Damn rats!
+mpdamage $n 10
+mpechoar $n $n rubs $s nose ruefully.
+~
+|
+#11279
+necklace bones~
+a necklace of bones~
+This necklace has been designed to rend the flesh of its wearer.~
+~
+9 262160 5
+6 0 0 0
+4 100 10
+A
+12 25
+A
+13 25
+A
+19 2
+A
+29 32
+A
+27 1
+#11280
+black opal stud~
+black opal stud~
+A tiny black opal earring lies here.~
+~
+9 534 65537
+3 0 0 0
+1 25000 2500
+A
+17 -13
+A
+12 33
+A
+13 -10
+A
+14 -25
+A
+19 2
+A
+29 1024
+#11281
+mace asteh~
+the Mace of Asteh~
+A white metal mace lies abandoned here.~
+~
+5 527616 8193
+0 0 0 7
+10 56750 5675
+A
+4 2
+A
+12 30
+A
+18 5
+A
+19 5
+#11282
+plate air~
+Plate of the Air~
+A suit of shimmering white metal armor rests here.~
+~
+9 8963392 9
+22 0 0 0
+2 500000 50000
+A
+17 -30
+A
+13 50
+A
+12 50
+A
+18 6
+A
+19 6
+A
+24 -5
+> wear_prog 100~
+if deity($n) == asteh
+mea $n The power of your god fills you with strength!
+c kin $n
+c troll $n
+else
+endif
+~
+|
+#11283
+rosary beads~
+rosary beads~
+A priest's rosary beads have been dropped here.~
+~
+9 8422720 5
+5 0 0 0
+2 1230 123
+A
+12 50
+A
+24 -6
+#11284
+boulder~
+a boulder~
+A large boulder blocks a hole in the south wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#11285
+potion black~
+a black potion~
+A vial of thick black liquid lies on the floor.~
+~
+10 68 1
+30 66 16 16
+2 1500 150
+#11286
+staff ensorcellment~
+the staff of ensorcellment~
+A long metal staff is leaned up against a wall.~
+~
+4 590402 16385
+50 20 13 7
+7 150000 15000
+A
+25 5
+#0
+
+
+#ROOMS
+#11201
+The Village of Hochenyana~
+As you cross the bridge and enter Hochenyana, you are immediately struck
+by the lack of activity in the traditionally bustling village. Certainly
+there are citizens about, walking slowly up and down the clean streets, but
+there is a jerkiness about their movements, and a dazed expression in their
+glazed eyes. Even the wildlife seems wistless and dull. Something is amiss 
+here, by Anagar, and you determine to find out what!
+~
+0 4 1
+D2
+~
+~
+0 -1 11202
+S
+#11202
+Main Street~
+You pass into Hochenyana, and arrive at Main Street, the quadrangle
+of avenues off of which all of the principal businesses and residences
+of the thriving community rest. Normally the street would be abuzz with
+activity, but today you see only a few emaciated townsfolk, staggering in
+a daze up and down the street. Turning to greet some of them, you are taken
+aback when they utterly ignore you.
+~
+0 0 1
+D0
+~
+~
+0 -1 11201
+D1
+~
+~
+0 -1 11219
+D3
+~
+~
+0 -1 11203
+S
+#11203
+Main Street ~
+Main Street runs west here, past several shops and houses. The street
+is clean, and free of any debris or even a cracked cobblestone. Everything
+seems to be in order, except for the zombie like villagers of course. A
+foul smell wafts in from the north, while to the south you can hear someone
+singing.
+~
+0 0 1
+D0
+~
+~
+0 -1 11204
+D1
+~
+~
+0 -1 11202
+D2
+~
+~
+0 -1 11205
+D3
+~
+~
+0 -1 11206
+S
+#11204
+The Butchery~
+A nauseating smell, one of dead meat left to rot, assaults your nostrils
+as you enter, almost (but not quite) distracting you from the horrid
+spectacle of dozens of mutilated corpses littering the bloodstained floor
+and shop counter. The walls drip with gore and blood; even the ceiling has
+been splattered with the stuff. You feel fairly certain that this is not
+a healthy place to be...
+~
+0 8 0
+D2
+~
+~
+0 -1 11203
+S
+#11205
+A General Store~
+The shelves in this little shop are filled, but as you peer closer you
+notice that the items that fill them are rubbish, odds and ends no one would
+ever want to buy. Confused, you wonder who in hades would be able to prosper
+with such a business? Odd business is afoot in Hochenyana, to be sure.
+~
+0 8 0
+D0
+~
+~
+0 -1 11203
+S
+#11206
+Main Street~
+You have reached a corner of the rectangular street of Hochenyana, where
+it heads east and south. Shops and houses line each direction, though there
+is little evidence of activity in them. Several lie nearby, their doors open
+or missing entirely...
+ 
+A weatherbeaten sign hangs over a small business to the west, marking it as
+an inn or tavern of some sort.
+~
+0 0 1
+D0
+~
+~
+0 -1 11207
+D1
+~
+~
+0 -1 11203
+D2
+~
+~
+0 -1 11209
+D3
+~
+~
+0 -1 11208
+S
+#11207
+Animal Attack~
+The furniture in this dwelling has been smashed to flinders, the blood
+stained remains a testament to the strength and ferocity of whatever
+slew the hapless townsfolk who once resided here. The smell of rotting
+meat is strong here, as is the fecund odor of a wild animal. Little
+of use seems to have survived the assault.
+~
+0 8 0
+D2
+~
+~
+0 -1 11206
+S
+#11208
+The Laughing Eagle~
+The interior of this town pub has been recently swept clean, and the 
+tables are all neatly arranged and free from empty mugs, plates of
+half eaten food or the like. The entire place is fresh and clear of any
+mess; in other words it's damned unusual for a pub... The patrons just
+sit at the tables, reacting to little. The proprieter stands behind the
+bar, absently wiping the counter top repeatedly, heedless of what he is
+doing.
+~
+0 8 0
+D1
+~
+~
+0 -1 11206
+S
+#11209
+Main Street~
+Main street runs south here, past several neatly manicured gardens and
+more spacious, comfortable dwellings, while to the north it bends 
+eastward, heading towards the entrance to the town. You notice a dog,
+sitting listlessly in the gutter, ignoring your attempts to provoke him
+into playing with stick or ball. The air here is still, and the ambient
+noise level is contributed to only by you or the noise of shuffling
+villagers' feet.
+~
+0 0 1
+D0
+~
+~
+0 -1 11206
+D1
+~
+~
+0 -1 11211
+D2
+~
+~
+0 -1 11212
+D3
+~
+~
+0 -1 11210
+S
+#11210
+Potrax's Potions~
+This is a well appointed alchemist's shop; the shelves are overburdened
+with all manner of elixirs, potions, flasks and philters. Essential oils
+fill jars and containers near the counter, upon which a smoky oil lamp
+casts a smoky luminescence. Heaven to mages, the aroma and surrounds tend
+to make others feel rather claustrophobic and uncomfortable.
+~
+0 8 0
+D1
+~
+~
+0 -1 11209
+S
+#11211
+An Empty House~
+This comfortable little dwelling boasts several plush easy chairs, a
+small table covered in trinkets, a cupboard stacked with all manner of
+cups and saucers, and a hearth, which has been packed for a cheery blaze.
+There is no sign of any occupants, however, nor does anyone come running
+when you yell out. Shrugging, you settle down in one of the chairs to 
+rest for a short while.
+~
+0 8 0
+D3
+~
+~
+0 -1 11209
+S
+#11212
+Main Street~
+Main Street bends here again, branching to the north and east, past
+yet more houses and shops. The monotony of the lifeless townsfolk and
+the empty houses is beginning to tell on you; it is with a heavy heart
+that you continue into the depressing place. Nary a smile or a wave from
+any of the cheerless folk; something terrible is indeed amiss...
+~
+0 0 1
+D0
+~
+~
+0 -1 11209
+D1
+~
+~
+0 -1 11215
+D2
+~
+~
+0 -1 11214
+D3
+~
+~
+0 -1 11213
+S
+#11213
+An Abandoned Smithy~
+Where once there was a fine smithy, a place of the purchasing and 
+repairing of items of war, now there is only a cold forge, some rusted
+tools and a couple of suits of shoddy armor. Bloodstains carpet the 
+straw floor, and the walls bear deep gouges, as if a terrific battle
+took place here.
+~
+0 8 0
+D1
+~
+~
+0 -1 11212
+S
+#11214
+The Stables~
+The poor beasts that were stabled here have not been fed in months, and
+abandoned thusly they slowly died of starvation. A foul occurence, and
+undoubtedly will result in the lingering of some malevolent manifestation
+of misfortune and doom. The rancid air carries the stench of death, as
+well as something more sinister.
+~
+0 8 0
+D0
+~
+~
+0 -1 11212
+S
+#11215
+Main Street~
+Main Street runs east and west here, past more deserted dwellings and
+shops fallen into states of disrepair and ruination. A lingering stench
+of decaying foodstuffs wafts in from the north, while to the south you
+can hear someone gibbering, in fear or madness, or both.
+~
+0 0 1
+D0
+~
+~
+0 -1 11216
+D1
+~
+~
+0 -1 11218
+D2
+~
+~
+0 -1 11217
+D3
+~
+~
+0 -1 11212
+S
+#11216
+The Ruined Fruit Stand~
+Piles of rotting fruit and vegetables are piled waist high in moldering
+sacks and broken wooden crates, creating the sickly sweet aroma of 
+decay you detected earlier. No one is present here; perhaps the sight and
+smell of such decay was too much even for the ensorcelled townsfolk.
+~
+0 8 0
+D2
+~
+~
+0 -1 11215
+S
+#11217
+An Abandoned Tenement~
+Smashed furniture covered in dust and cobwebs litters the floor of this
+house, accompanied by bloodstains and scraps of cloth. It would appear that
+not all of the residents of Hochenyana succumbed easily to the evil sorcery
+worked upon this place, and paid for their willpower with their lives. The
+senselessness of all of this angers you; when will it stop?
+~
+0 8 0
+D0
+~
+~
+0 -1 11215
+S
+#11218
+A Junction~
+Here, Main Street is met by another street, Heroes' Walk, which runs
+south towards some larger structures in the town. Named for the annual
+march which used to traditionally take place here to celebrate the
+defeat of the Chaos Hordes at this point by the townsfolk, it has not
+seen such a parade in some time.
+~
+0 0 1
+D1
+~
+~
+0 -1 11231
+D2
+~
+~
+0 -1 11234
+D3
+~
+~
+0 -1 11215
+S
+#11219
+Main Street~
+You advance cautiously along this stretch of Main Street, wary of the
+eerie silence of the town, and the shuffling zombie like citizens who
+occasionally pass soundlessly by. Something is amiss here, be it malady
+or curse. Shops to the north and south boast little signs of trade;
+no one seems interested in anything here.
+~
+0 0 1
+D0
+~
+~
+0 -1 11220
+D1
+~
+~
+0 -1 11222
+D2
+~
+~
+0 -1 11221
+D3
+~
+~
+0 -1 11202
+S
+#11220
+Edmund's Armory~
+Someone or something large has recently given this shop the once-over,
+taking anything of value and smashing the rest to flinders. Fist marks
+the size of your torso scar the stone walls, while the floor is stained
+with blood, some of it fresh. A pile of smoldering rags in one corner
+marks the point where an oil lamp fell and shattered during the fracas,
+igniting a pile of cleaning cloths.
+~
+0 8 0
+D2
+~
+~
+0 -1 11219
+S
+#11221
+The Footman's Pike~
+This weaponsmith has been thoroughly looted and trashed, whatever force
+that did it taking advantage of the poor mental state of the townsfolk and
+the absence of any obvious security. Broken and smashed weapons of all 
+sorts litter the bloodsoaked floor, along with several corpses of giant
+rats, goblins and even a large toad. What odd findings in a suburban
+residental area!
+~
+0 8 0
+D0
+~
+~
+0 -1 11219
+S
+#11222
+Main Street~
+Main Street ends at a corner here, where it bends sharply to the west
+and south, the two roads meeting at right angles forming one corner
+of the quadrangle street that most of Hochenyana depends on. Piles of
+debris are all about here, in stark contrast to the clean swept street
+west of here. It is as if someone or something had swept all of the rubbish
+into this one section of road. 
+~
+0 0 1
+D0
+~
+~
+0 -1 11223
+D1
+~
+~
+0 -1 11224
+D2
+~
+~
+0 -1 11225
+D3
+~
+~
+0 -1 11219
+D5
+~
+grate~
+11 -1 11281
+S
+#11223
+The Flawed Diamond~
+Once a propserous jewellery store, this empty building now only contains
+smashed and broken cases, the valuable gemstones long since stolen by
+many rampagers and monsters. With no one to defend them, they were easy
+pickings. The jeweller himself remains oblivious to all of this, seeming
+intent only on how awful the weather is...
+~
+0 8 0
+D2
+~
+~
+0 -1 11222
+S
+#11224
+An Empty Building~
+This abandoned tenement shows signs of a recent battle, blood stains
+and broken weapons littering the dirty floor. A couple of decaying
+corpses add an unwholesome odor to this unpleasant scene, and a hint
+that whoever died here did so battling fecund goblins and orcs. Strange
+indeed, as you have noticed no other sign of the evil humanoids thus
+far.
+~
+0 8 0
+D3
+~
+~
+0 -1 11222
+S
+#11225
+Main Street~
+The shops and houses along this section of Main Street appear for the
+most part to be deserted and in serious need of repair. Unpleasant
+odors waft in occasionally from several of these structures, hinting at
+death and decay. None of the shambling villagers seem to notice this
+unusual state of affairs.
+~
+0 0 1
+D0
+~
+~
+0 -1 11222
+D1
+~
+~
+0 -1 11227
+D2
+~
+~
+0 -1 11228
+D3
+~
+~
+0 -1 11226
+S
+#11226
+A Ruined Dwelling~
+The roof of this house has collapsed, allowing the elements to wreak
+havoc on the interior. Waterlogged furniture sits in a knee deep pool
+of dirty water covered in insect larvae, and you begin to feel 
+mosquitoes biting you through your clothes almost as soon as you enter.
+Swatting at yourself, you are suddenly aware of something much larger
+that lives in here as well...
+~
+0 8 0
+D1
+~
+~
+0 -1 11225
+S
+#11227
+A Ruined Dwelling~
+Little of value has survived unscathed whatever has ravaged this town.
+Piles of moldering cloth crawling with large insects fill the corners,
+while huge spiderwebs cover the cracked and peeling ceiling. Pools of
+dried blood mark the floor, and a foul odor taints your nostrils, making
+you want to leave.
+~
+0 8 0
+D3
+~
+~
+0 -1 11225
+S
+#11228
+Main Street~
+You have reached a bend in Main Street, where it heads north and west.
+None of the houses nearby show any signs of occupation, save one to
+the east, the door to which is shut, unlike the rest of the dwellings
+you have passed. A weatherbeaten wooden sign hangs above the door, 
+signifying the purpose of this structure.
+~
+0 0 1
+D0
+~
+~
+0 -1 11225
+D1
+~
+~
+7 -1 11229
+D2
+~
+~
+0 -1 11230
+D3
+~
+~
+0 -1 11231
+S
+#11229
+The Old Tailor Shop~
+The interior of this boarded up structure is filled with smashed 
+furniture and long strips of torn cloth, covered in blood stains.
+The walls and floors are covered in deep gouges, as if someone had gone
+spare with a knife, hacking and stabbing wildly. Once a tailor shop,
+it used to be an inn before that, until the owner went broke and sold it
+to its current occupant (who was at the time a little healthier). 
+~
+0 13 0
+D3
+~
+~
+7 -1 11228
+S
+#11230
+A Foul Nest~
+Some wild animal has constructed a nest in the ruined remains of this
+burnt out pub, furnishing its accomodations with the bones of its many
+victims and various other objects. Blood and scraps of flesh litter the
+floor, interspersed with the tattered remnants of the unfortunate victims'
+possessions.
+~
+0 8 0
+D0
+~
+~
+0 -1 11228
+S
+#11231
+Main Street~
+This section of Main Street appears to have been the scene of a mighty
+battle, between humans and whatever huge creatures possessed the strength
+to tear them limb from limb and deposit the remains haphazardly about the
+bloodstained cobblestone street. Not one of the foes they fought appears to
+have perished in the struggle, making you wonder what sort of creatures now
+lurk in this accursed town.
+~
+0 0 1
+D0
+~
+~
+0 -1 11232
+D1
+~
+~
+0 -1 11228
+D2
+~
+~
+0 -1 11233
+D3
+~
+~
+0 -1 11218
+S
+#11232
+The Source of the Carnage~
+As you enter this corpse-strewn dwelling you realize that whatever it 
+was that lay waste to the villagers who resisted the ensorcellment of their
+home now dwells here, occasionally dragging in bodies from outside to feast
+upon. The walls are deeply scored, as by the claws of some mammoth beast,
+doubtless the one that now lives here.
+~
+0 8 0
+D2
+~
+~
+0 -1 11231
+S
+#11233
+The Constable's Office~
+Slaughter without, order within; what sort of constable could just sit
+here while his fellow guards and the citizens were being senselessly 
+slaughtered outside? Strange indeed, considering that by all accounts
+Holst Brecker is a fine upstanding man with a deep seated sense of honor
+and justice. But he stands here, behind his desk, staring outside at
+apparently nothing.
+~
+0 8 0
+D0
+~
+~
+0 -1 11231
+S
+#11234
+Heroes' Walk~
+Normally this broad tree-lined thoroughfare would be abuzz with activity;
+the townsfolk rushing to and fro on various errands. But now nary a soul
+stirs, and those that do seem to be in a deep trance, from which even harsh
+words and strong blows cannot awaken them. The buildings to either side 
+appear to be ones of importance, especially the residence of the Mayor to
+the southwest of here. To the southeast, a large white tower rises from the
+huddle of dwellings.
+~
+0 0 1
+D0
+~
+~
+0 -1 11218
+D2
+~
+~
+0 -1 11235
+S
+#11235
+A Choice of Directions~
+Small side roads branch off of Heroes' Walk here, heading east and 
+west towards the major structures in the town of Hochenyana- the mage's
+tower and the mayor's house, respectively. Few townsfolk can be seen here,
+and there is no sign of any sort of guard near either residence. To the
+south Heroes' Walk continues towards the Temple of Asteh, deity of this
+town.
+~
+0 0 1
+D0
+~
+~
+0 -1 11234
+D1
+~
+~
+0 -1 11243
+D2
+~
+~
+0 -1 11249
+D3
+~
+~
+0 -1 11236
+S
+#11236
+Outside the Mayoral Residence~
+The side road ends before a sturdy oak door that marks the entrance to
+an imposing two storey brick structure, with stained glass windows and
+a tiled roof. Expensive in construction, its design signifies the importance
+of its resident, as well as marks him as a man of power and respect. It
+shows no sign of deterioration like many of the other structures in this
+place, but you do still feel very uneasy, as if something were seriously
+amiss.
+~
+0 4 1
+D1
+~
+~
+0 -1 11235
+D2
+~
+~
+3 -1 11237
+S
+#11237
+A Hallway~
+You pass through the doorway into a long narrow hallway, lined with
+bookshelves, portraits and various other paraphenalia of the Mayors of
+this fine town. A thick rug covers most of the floor, and a neat
+doormat has been discreetly positioned near the entrance to allow visitors
+to clean their boots and save the quality of the doubtlessly expensive
+rug. The ceiling is supported by thick exposed beams of oak, from which
+chandeliers depend, affixed to sturdy iron chains as thick as your forearm.
+~
+0 8 0
+D0
+~
+~
+3 -1 11236
+D3
+~
+~
+0 -1 11238
+S
+#11238
+The Reception Area~
+The hall ends in a spacious office, dominated by a massive cedar table,
+which serves as a desk for the Mayor's busy secretary. It is covered with
+piles of official documents, but from here it looks as if most of them are
+either blank or covered in meaningless scribbles. A plush chair rests behind
+the desk, for the convenience of the Mayor's secretary, as does a large
+lantern, which burns continuously, the result of a minor but strong dweomer.
+A stout wooden door to the west leads into the Mayor's office.
+~
+0 8 0
+D1
+~
+~
+0 -1 11237
+D3
+~
+~
+3 -1 11239
+S
+#11239
+The Office of the Mayor~
+The Mayor's office is a well-appointed study, the walls of which are
+panelled with expensive wood, which is mostly obscured by the many
+shelves of heavy books and trophies, including some fine hunting trophies;
+the head of a massive stag hangs above the polished wooden desk that is
+the Mayor's. A narrow staircase heads up to the second level, and whatever
+is contained there; most likely the private rooms of the Mayor.
+~
+0 8 0
+D1
+~
+~
+3 -1 11238
+D4
+~
+~
+0 -1 11240
+S
+#11240
+A Landing~
+The stairs end at a landing from which two wooden doors, both locked,
+lead. The door to the north appears to have been damaged somehow, and
+a makeshift lock has been affixed to it. The door to the west shows signs
+of an attempted forced entry, which obviously failed, as it still holds.
+~
+0 8 0
+D0
+~
+~
+7 11216 11242
+D3
+~
+~
+8388647 11250 11241
+D5
+~
+~
+0 -1 11239
+S
+#11241
+The Mayor's Bedroom~
+This room has yet to be tampered with by whatever has taken over the
+town. For whatever reason, the door was securely locked with a pickproof
+device that is both rare and expensive. Evidently not much more force
+was brought to bear by the villains, for the interior remains undamaged,
+including a fine iron chest which bears one word- Grandfather's.
+~
+0 8 0
+D1
+~
+~
+8388647 11250 11240
+S
+#11242
+The Real Mayor of Hochenyana~
+This room is the Mayor's private study, not an office to receive
+visitors like the one downstairs. As such it is far less cluttered,
+boasting only a few slim volumes of "Bethesda's Almanac", dating from
+458-467, and a small reading chair, which has been damaged during a
+melee.
+~
+0 9 0
+D2
+~
+~
+7 11216 11240
+S
+#11243
+Carnage~
+The path here is littered with the corpses of small animals, vermin and
+the occasional humanoid, including humans, elves and goblins. Bloodstains
+mar the cobblestones, as well as piles of flyblown decaying guts. A foul
+odor assaults your nostrils, and you do not doubt that serious evil is 
+afoot here.
+~
+0 4 1
+D2
+~
+~
+0 -1 11244
+D3
+~
+~
+0 -1 11235
+S
+#11244
+A Haphazard Encampment~
+Rows of small lean-tos and shanties have been built here, by some filthy
+tribe of humanoids that has taken over this area. The vile smell you were
+hit with earlier is even more prevalent here, and you find yourself wishing
+that you were in a cleaner place than this; even an abbatoir would be easier
+on the eyes and nose.
+~
+0 0 1
+D0
+~
+~
+0 -1 11243
+D1
+~
+~
+0 -1 11245
+S
+#11245
+The Entrance to the Tower~
+The shanties and hovels end before the doors to the white tower, above
+which a crude grinning skull has been carved, scarring the fine marble of
+this towering edifice. You utter an oath and vow to destroy the vermin
+who have infested this region. The tower itself is nearly thirty feet tall,
+and boasts no windows or other visible entrances; simply sheer walls of
+white marble.
+~
+0 0 1
+D1
+~
+~
+3 -1 11246
+D3
+~
+~
+0 -1 11244
+S
+#11246
+Inside the Tower~
+The first notion that strikes you as you enter the tower is that whoever
+originally constructed it would not have intended it to be in the state it
+is now. Smashed furniture and shredded books cover the grimy floor, and
+piles of mangled tapestries have been built into large nests for a variety
+of vermin. The stench is unbearable, and unmistakably goblin. Your hatred
+for these savage brutes grows as you continue through the carnage. To the
+east, a stone staircase continues to the next level, while to the south
+a long corridor heads to other chambers.
+~
+0 12 0
+D2
+~
+~
+0 -1 11276
+D3
+~
+~
+3 -1 11245
+D4
+~
+~
+0 -1 11247
+S
+#11247
+A Summoning Circle~
+The stairs pass through a large circular chamber here, originally some
+sort of summoning area, which has been converted to sleeping quarters for
+more goblins, bodyguards no doubt for whatever has taken over the mage's
+private chambers at the top of the tower, which lies at the end of the stair.
+~
+0 8 0
+D4
+~
+~
+0 -1 11248
+D5
+~
+~
+0 -1 11246
+S
+#11248
+The Mage's Study~
+The stairs end in a small, cramped laboratory, the majority of which
+remains in relatively good condition, as the shaman who has taken over
+this place wishes to learn more magical secrets from the mage's work.
+Two long tables crammed with a variety of alchemical equipment line
+the walls, while a small cot has been sandwiched in between tall shelves
+overburdened with books to the north. Some of these books have been scattered
+on the floor in disgust by the shaman, who was not intelligent enough to
+decipher their secrets.
+~
+0 3153928 0 0 0 4
+D5
+~
+~
+0 -1 11247
+S
+#11249
+Heroes' Walk~
+Each side of this broad street is lined with small hedges that have
+grown wild during these recent times of neglect. Occasionally one will
+rustle, and a frightened animal will come scampering out, its rest disturbed
+by your approach. Blood stains can be seen occasionally on the stones, as
+well as the occasional broken weapon.
+~
+0 0 1
+D0
+~
+~
+0 -1 11235
+D2
+~
+~
+0 -1 11250
+S
+#11250
+The Town Gaol~
+To the west rests a small but imposing stone structure with barred windows
+and thick steel doors. The town prison, you surmise, and you instantly
+wonder what state the prisoners must be in, considering the neglect the
+enchantment has caused the townsfolk to exhibit. No noise comes from within,
+though that in itself is far from a good sign.
+~
+0 0 1
+D0
+~
+~
+0 -1 11249
+D2
+~
+~
+0 -1 11255
+D3
+~
+~
+8388615 -1 11251
+> act_prog p bashes against the door, but it holds strong.~
+mea $n Are you crazy? That door is solid iron!
+mpechoar $n Someone better stop $n before $e injures $mself...
+~
+|
+S
+#11251
+The Gaol ~
+The iron door opens onto a small guard room, filled with shelves bearing
+manacles, leg irons, guard rosters and other paraphenalia. Three cell doors
+lead off from this room, to the north, west and south, and a large desk
+marks the place where the duty guard usually sits.
+~
+0 12 0
+D0
+~
+~
+8388615 11261 11253
+D1
+~
+~
+8388615 -1 11250
+D2
+~
+~
+8388615 11261 11254
+D3
+~
+~
+8388615 11261 11252
+S
+#11252
+A Cell~
+This cell is small, simple and relatively clean. A huddled body in one corner
+is all that remains of the unfortunate soul trapped in here and left to die
+of starvation after the townsfolk fell under the sway of the evil spell. Now
+their enraged spirits linger, however, thirsting for revenge!
+~
+0 77 0
+D1
+~
+~
+8388615 11261 11251
+S
+#11253
+A Cell~
+This cell is small, simple and relatively clean. A huddled body in one corner
+is all that remains of the unfortunate soul trapped in here and left to die
+of starvation after the townsfolk fell under the sway of the evil spell. Now
+their enraged spirits linger, however, thirsting for revenge!
+~
+0 76 0
+D2
+~
+~
+8388615 11261 11251
+S
+#11254
+A Cell~
+This cell is small, simple and relatively clean. A huddled body in one corner
+is all that remains of the unfortunate soul trapped in here and left to die
+of starvation after the townsfolk fell under the sway of the evil spell. Now
+their enraged spirits linger, however, thirsting for revenge!
+~
+0 77 0
+D0
+~
+~
+8388615 11261 11251
+S
+#11255
+Heroes' Walk~
+The walk continues south towards the temple of Asteh, to the south,
+past the great Library of Hochenyana, a famed mage's retreat in the
+empire. You shudder to think what will have happened to this once great
+center of learning in these times of neglect.
+~
+0 0 1
+D0
+~
+~
+0 -1 11250
+D2
+~
+~
+0 -1 11256
+S
+#11256
+The Library of Hochenyana~
+To the east looms the impressive marble building that houses the 
+repository of knowledge that is the Library of Hochenyana, renowned
+the world over as a fine example of achievement in the Arts. Scholars
+from across the Empire used to travel here to study at this place, but
+these days none come, for word of the strange goings-on has begun to
+spread among the academic community.
+~
+0 0 1
+D0
+~
+~
+0 -1 11255
+D1
+~
+~
+0 -1 11266
+D2
+~
+~
+0 -1 11257
+S
+#11257
+Before the Temple of Asteh~
+Rising to the south, like a great marble beast emerging from an ocean
+of homes, is the impressive two tiered temple of Asteh, patron deity of
+Hochenyana. Long wings of stone lead off of the main structure, which is
+a large hemispherical marble building, supported by thick doric columns
+spaced evenly about the perimeter. Elegant murals cover the walls within
+these pillars, which protect the interior from the elements, though the
+orginial architects protested, intending to have the central worship area
+exposed, as a deity of the winds and air would wish. However, common sense
+and the typically wet Estroglian weather prevailed.
+~
+0 0 1
+D0
+~
+~
+0 -1 11256
+D2
+~
+~
+0 -1 11258
+S
+#11258
+The Antechamber~
+Nary a whisper can be heard as you pass into the vaulted halls of
+Asteh; it takes a while for you to realize that some sort of magical
+enchantment is in place, cast here by the clerics of old to subdue 
+boisterous worshippers as they entered. You must admit one soon loses
+the desire to be noisy when one cannot hear the result! The walls are
+bare here, starkly white with faint traces of silvery runes, which mark
+two barely visible doors to the east and west. To the south lies the
+central worship area, while the open entrance of the temple lies to the
+north.
+~
+0 98312 0
+D0
+~
+~
+0 -1 11257
+D1
+~
+~
+3 -1 11260
+D2
+~
+~
+0 -1 11261
+D3
+~
+~
+3 -1 11259
+S
+#11259
+A Guard Room~
+Even temples have need of security, in these times of trouble, and
+the Temple of Asteh is not staffed by naive fools. Here they quarter a
+stout guardian, whose purpose is to repel unwanted invaders. Unfortunately
+he was easily overcome by the magical powers of the usurpers of Hochenyana,
+and stuffed in here until they decide what to do with him.
+~
+0 8 0
+D1
+~
+~
+3 -1 11258
+S
+#11260
+An Empty Chamber~
+The interior of this small room is dark, unnaturally so; even your
+strong light cannot penetrate far into the gloom. You are able to make
+out vague shapes of abandoned furniture and something small moving
+furtively amongst them. The effect is eerie, and you unconsciously tighten
+your grip on your weapon.
+~
+0 9 0
+D3
+~
+~
+3 -1 11258
+S
+#11261
+The Central Worship Area~
+The passage opens onto the center of the hemispherical chamber, the
+ceiling of which is elaborately decorated with murals depicting an open
+sky, filled with birds and other creatures. A slight breeze blows continually
+around the chamber, reminding you of a fresh spring morning. All of the pews
+that normally rest on the blue stone floor here have been smashed to flinders,
+however, and piled in the center of the room. Rats and maggots crawl about the
+furniture, and the corpses of the clergy interred within.
+~
+0 8 0
+D0
+~
+~
+0 -1 11258
+D1
+~
+~
+0 -1 11265
+D2
+~
+~
+0 -1 11273
+D3
+~
+~
+0 -1 11262
+S
+#11262
+A Ravaged Corridor~
+Once the site of beautiful paintings and elegantly carved sculptures,
+this wing of the temple is now a scene of carnage and destruction. Dead
+priests, some of whom appear to have been partially devoured, litter
+the floor, as well as the corpses of rats, goblins and other fecund
+creatures. A vile smell, the unmistakable stench of death, fills the
+air.
+ 
+To the west lies the offices of the clergy.
+~
+0 8 0
+D1
+~
+~
+0 -1 11261
+D3
+~
+~
+3 -1 11263
+S
+#11263
+Offices of the Clergy~
+The desks and chairs in this area remain untouched by the ravages that
+beset the rest of the temple; the reason for this is readily apparent
+in the form of a shimmering force field, which imprisons a magical being
+in the room where it was summoned, as a last ditch effort to defeat the
+evil forces that beset this place.
+~
+0 8 0
+D1
+~
+~
+3 -1 11262
+S
+#11264
+The Ruined Confessionary~
+A horrid fate befell the kindly bishop of Asteh in this place, evidenced
+by the mutilated body slumped over a badly damaged oak chair. Several arrows
+and daggers protrude from the corpse, further indication of the poor soul's
+violent and messy fate. 
+~
+0 8 0
+D3
+~
+~
+3 -1 11265
+S
+#11265
+A Ravaged Corridor~
+Once the site of beautiful paintings and elegantly carved sculptures,
+this wing of the temple is now a scene of carnage and destruction. Dead
+priests, some of whom appear to have been partially devoured, litter
+the floor, as well as the corpses of rats, goblins and other fecund
+creatures. A vile smell, the unmistakable stench of death, fills the
+air.
+ 
+What used to be the confessionary lies to the east.
+~
+0 8 0
+D1
+~
+~
+3 -1 11264
+D3
+~
+~
+0 -1 11261
+S
+#11266
+The Steps of the Library~
+A flight of broad marble steps leads up to the towering oak portals that
+mark the entrance to the library. Flanked by massive Corinthian columns
+which support a splendid marble plinth, the doors are nearly twenty feet
+tall and almost as wide. The frieze above the plinth depicts scholars and
+artisans entering a hall similar to this one, flanked by symbols of learning
+and knowledge, such as the ruler, the compass, a thick book, quills and jars
+of ink.
+~
+0 4 1
+D0
+~
+~
+3 -1 11267
+D3
+~
+~
+0 -1 11256
+S
+#11267
+The Entrance Hall~
+A long corridor flanked by statues and shelves full of dusty tomes
+runs north here, towards the many shelves of books that stretch up to
+the domed ceiling, which is decorated with beautifully rendered murals.
+To the south beckon the doors that lead out of the library, though with
+such knowledge before you to peruse you find yourself reluctant to leave
+quickly.
+ 
+A small door to the east is marked "Staff Only".
+~
+0 8 0
+D0
+~
+~
+0 -1 11268
+D1
+~
+~
+3 -1 11272
+D2
+~
+~
+3 -1 11266
+S
+#11268
+The Central Storage Area~
+Dozens of high shelves crammed with texts in every language conceivable
+fill this long hall, reaching up to the high domed ceiling on all sides,
+making you feel as if you were within a fortress of books. The air is thick
+and musty, and smells strongly of old leather and crumbling parchment. Dog
+eared manuscripts lie scattered all across the floor, tossed aside by someone
+engaged in a frenetic search for a particular tome. The wealth of knowledge
+concentrated here is beyond quanitifiable measure; you have no doubt that, if
+you searched long and hard enough, you would find information on just about 
+any subject under the sun.
+~
+0 8 0
+D0
+~
+~
+0 -1 11270
+D1
+~
+~
+0 -1 11269
+D2
+~
+~
+0 -1 11267
+D3
+~
+~
+0 -1 11271
+S
+#11269
+Browsing the Shelves~
+Shelves filled with dusty tomes dealing with every imaginable subject, from
+Algebra to Zoology, line the walls, restricting your vision to the point where
+it is hard to truly appreciate the size of the library. You can hear other
+people moving about within the shelves, and realize that you are definitely
+not alone here...
+~
+0 8 0
+D3
+~
+~
+0 -1 11268
+S
+#11270
+Browsing the Shelves~
+Shelves filled with dusty tomes dealing with every imaginable subject, from
+Algebra to Zoology, line the walls, restricting your vision to the point where
+it is hard to truly appreciate the size of the library. You can hear other
+people moving about within the shelves, and realize that you are definitely
+not alone here...
+~
+0 8 0
+D2
+~
+~
+0 -1 11268
+S
+#11271
+Browsing the Shelves~
+Shelves filled with dusty tomes dealing with every imaginable subject, from
+Algebra to Zoology, line the walls, restricting your vision to the point where
+it is hard to truly appreciate the size of the library. You can hear other
+people moving about within the shelves, and realize that you are definitely
+not alone here...
+~
+0 8 0
+D1
+~
+~
+0 -1 11268
+S
+#11272
+The Librarian's Office~
+This small office is cluttered with shelves full of books awaiting
+cataloguing and/or reshelving, and since the strange events that started
+recently in the town these tasks have remained unfinished. There is no
+sign of the head librarian, or any librarians for that matter, which is
+indeed strange.
+~
+0 8 0
+D3
+~
+~
+3 -1 11267
+S
+#11273
+Before the Altar~
+A shimmering field of black energy suffuses this section of the temple,
+its source the new towering black monolith that serves an altar to the
+vile demon No'ol and also suffices in a role as a sacrifical table. You
+feel ill at ease here, and realize that the magical forces here will make
+escape difficult from whatever may lie ahead, behind the massive bloodsoaked
+altar. You dodge around mangled corpses dangling from barbed hooks attached
+to long rusted metal chains depending from the arched ceiling, which has been
+blackened by fire.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 11261
+D2
+~
+~
+0 -1 11274
+S
+#11274
+The Gaping Pit~
+Here, an evil block of black stone rises from a gaping hole in the 
+earth, which leads into some netherworld from which the vile beast that
+conducts operations here was spawned. To enter it would mean no return,
+and you are certain that not even you could survive long when exposed to
+the pure chaos that surely lurks at the bottom of this void. A shrill shrieking
+emanates from all sides; its source hundreds of faces that press against the
+walls, as if they belonged to people imprisoned within the shifting surface of
+the stone. You had heard that all structures of Chaos were formed from the 
+unwilling souls of sacrifical victims, bound to eternal excruciating pain as
+building blocks for Chaos.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 11273
+D5
+~
+~
+0 -1 11275
+> act_prog p from the north.~
+mea $n You feel a slight tugging, as if something was seeking to drag
+mea $n You down into the gaping pit at your feet. 
+~
+|
+S
+#11275
+A Gruesome Death~
+As you descend into the sacrificial pit that has been gouged into the
+temple, thousands of pairs of scabby, claws arms reach out and grab at
+you, dragging you down into the inky blackness of the bottomless pit,
+and subjecting you to thousands of interesting new sensations of pain
+as they slowly slay and devour you...
+~
+0 3153935 0
+S
+#11276
+A Shadowy Corridor~
+This corridor extends southwards towards two doors set at the end.
+There is little evidence of goblin occupation in this place; indeed
+it doesn't appear that they have ventured very far at all down this
+passageway, as goblins have a habit of making it rather obvious with
+their debris where they have been.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 11246
+D2
+~
+~
+0 -1 11277
+S
+#11277
+A Shadowy Corridor~
+Presently you find the reason for the conspicuous absence of the goblins;
+a massive pedestal rests here, upon which stands a guardian, placed here
+by the mage some time ago to guard his most treasured possessions. It
+has unfortunately been away from the guidance of its creator for too long,
+however, and now berserkly attacks anything that enters here, which thus
+far has only been many goblins, the corpses of which litter the floor.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 11276
+D2
+~
+~
+0 -1 11279
+S
+#11278
+The Arsenel~
+The mage constructed this chamber to bear an impressive array of
+magical devices he one day hoped to acquire; unfortunately for any
+avaricious visitors his collection thus far is rather small. Two plain
+benches support long metal crates, which the mage planned to fill with
+his items. Perhaps, however, there are one or two lying around...
+~
+0 3153928 0
+D1
+~
+~
+3 -1 11279
+S
+#11279
+Two Doors~
+The corridor ends here, before two plain metal doors, bearing no
+obvious locks or bars; evidently the mage had sufficient confidence in
+his golem as to consider such precautions superfluous and unnecessary,
+not to mention a hindrance should he need to frequent these chambers.
+Runes are carved into each door, denoting its purpose and contents.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 11277
+D2
+The runes read "The Dungeon"
+~
+~
+3 -1 11280
+D3
+The runes read- "Arsenel"
+~
+~
+3 -1 11278
+S
+#11280
+The Dungeon~
+The mage used this chamber to house a rather irascible elemental he
+inadvertently summoned one day while experimenting on a faster way to
+brew coffee. It is unhappy, tremendously so, at its enforced imprisonment,
+and this leaves it in a state of mind you can no doubt expect to be at the
+least rather poor...
+~
+0 3153928 1
+D0
+~
+~
+3 -1 11279
+S
+#11281
+A Stinking Sewer~
+The grate opens onto a stinking sewer, the place where residents of the
+town deposit their waste. Why in the seven hells would you want to venture
+forth into here? You shake your head in amazement at your avarice, which
+drives you to such insane places.
+~
+0 3153933 13
+D0
+~
+~
+0 -1 11283
+D2
+~
+~
+0 -1 11285
+D4
+~
+grate~
+3 -1 11222
+S
+#11282
+An Extradimensional Space~
+The panel opens onto a hole in the space-time continuum, much like those
+used by magical containers and the like to store the items placed within
+them. You have never been INSIDE one of those items before; it is a curious
+experience, being outside of all normal space and time. It seems rather...
+empty.
+~
+0 3145741 1
+S
+#11283
+A Bend in the Tunnel~
+Trudging through the disgusting sludge, you find yourself having to stop
+several times to retch, the stench being literally unbearable. You don't
+want to think about what you may be inhaling down here. Turning back seems
+very attractive now, but you aren't entirely convinced that there is nothing
+of value down here.
+~
+0 3153929 13
+D2
+~
+~
+0 -1 11281
+D3
+~
+~
+0 -1 11284
+S
+#11284
+A Dead(?) End~
+The tunnel ends abruptly here, at a large pool of thick black muck,
+even thicker and more disgusting than the sludge elsewhere. You think you
+can see something moving about in the mess...
+~
+0 3153929 13
+D1
+~
+~
+0 -1 11283
+S
+#11285
+A Narrow Tunnel~
+You have been in more pleasant latrines than this cesspit of humanoid
+waste. You wince at the various ...things... that brush against you in
+the water, which is thick with excrement and other, even more disgusting,
+objects. You see, to your abject horror, human hands and feet drift past,
+as well as stinking entrails. 
+~
+0 3153929 13
+D0
+~
+~
+0 -1 11281
+D2
+~
+~
+0 -1 11286
+S
+#11286
+Deep Waters~
+The sludge grows suddenly deeper here, wuickly rising to your chest, and
+you find yourself incapable of continuing without a boat or magical means.
+Something large, and slimy, is moving around in the fetid waters beneath 
+your feet, and you panic, not knowing what to expect.
+~
+0 3153929 7
+D0
+~
+~
+0 -1 11285
+D2
+~
+~
+0 -1 11287
+S
+#11287
+The End~
+The sludge stops here, as the ground rises sharply, and the tunnel ends
+at a large boulder, which is wedged into a hole in the south wall, which
+leads into the basement of one of the many houses on Main Street. No sound
+comes from the far side.
+~
+0 3153933 13
+D0
+~
+~
+0 -1 11286
+D2
+~
+boulder~
+2059 -1 11288
+S
+#11288
+A Dusty Storeroom~
+Beneath the old inn lies a storeroom, used to store items such as
+casks of wine, barrels of ale and mead, and dried meats. Judging by
+the thick layer of dust and cobwebs, it has not been frequented 
+recently. Some of those cobwebs look pretty big; you wonder what sort
+of spider spun webs with strands as thick as an ogre's wrist...
+~
+0 9 0
+D0
+~
+~
+2059 -1 11287
+D5
+~
+barrel~
+134155 -1 11294
+S
+#11289
+A Filthy Cell~
+The stone walls of this dank and miserable cell are covered with 
+innumerable stains of various disgusting origins. The floor is of
+packed earth, and is littered with bones and scraps of cloth. Whatever
+is kept here is evidently not cared for very well. A foul odor not
+surprisingly fills the room.
+~
+0 9 13
+D3
+~
+~
+7 11206 11292
+S
+#11290
+A Filthy Cell~
+The stone walls of this dank and miserable cell are covered with 
+innumerable stains of various disgusting origins. The floor is of
+packed earth, and is littered with bones and scraps of cloth. Whatever
+is kept here is evidently not cared for very well. A foul odor not
+surprisingly fills the room.
+~
+0 9 13
+D0
+~
+~
+7 11206 11292
+S
+#11291
+A Filthy Cell~
+The stone walls of this dank and miserable cell are covered with 
+innumerable stains of various disgusting origins. The floor is of
+packed earth, and is littered with bones and scraps of cloth. Whatever
+is kept here is evidently not cared for very well. A foul odor not
+surprisingly fills the room.
+~
+0 9 13
+D2
+~
+~
+7 11206 11292
+S
+#11292
+A Miserable Dungeon~
+It is here that whatever powers hold Hochenyana in thrall keep those
+who resisted their magic or otherwise proved intractable. Normally
+they would be slain; but perhaps they are worth a sizeable ransom, or
+hold valuable information? Barred doors lead to the north, east and
+south, behind which can be heard people moaning and weeping.
+~
+0 8 0
+D0
+~
+~
+7 11206 11291
+D1
+~
+~
+7 11206 11289
+D2
+~
+~
+7 11206 11290
+D3
+~
+~
+0 -1 11293
+S
+#11293
+A Stone Corridor~
+The door opens onto a long stone corridor, dimly lit by smoldering
+brands supported on each wall by rusted iron sconces. The moans and
+cries are much louder here, and appear to be coming from a large 
+chamber to the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 11292
+D3
+~
+~
+3 -1 11294
+S
+#11294
+A Secret Chamber~
+The floor of this secret chamber is hard, packed earth, which is
+stained with blood and other substances. A trapdoor is set in the
+ceiling; presumably it opens onto the storeroom of one of the shops
+of Hochenyana. A door lies in the wall to the east; from behind it
+emerge moans and cries for help.
+~
+0 9 13
+D0
+The shelf appears to bar a door in the north wall.
+~
+shelf~
+1035 -1 11295
+D1
+~
+~
+3 -1 11293
+D4
+~
+trapdoor~
+3 -1 11288
+S
+#11295
+A Secret Tunnel~
+The secret door opens onto a rough tunnel, carved from the rock beneath
+Hochenyana by something with powerful claws; the rock appears to have been
+rended as if it were butter. The floor of the tunnel is composed of fresh
+soil, either a product of the excavation or a deliberate covering, you know
+not. It bears a number of tracks, some humanoid, some unrecognizable. It
+runs at an angle away from the secret door, to the northeast.
+~
+0 3153929 13
+D2
+~
+~
+3 -1 11294
+D6
+~
+~
+0 -1 11296
+S
+#11296
+A Bend in the Tunnel~
+The tunnel twists sharply here, heading due north, towards what you know
+not, but one thing is certain- somewhere down here lurks the cause of the
+problems besetting the good citizens of Hochenyana, and stop it you must!
+Besides, what manner of magical artifacts may a being capable of such
+enchantments be in possession of? An avaricious gleam comes to your eyes
+as you peer about the rough walled tunnels.
+~
+0 3153929 13
+D0
+~
+~
+0 -1 11298
+D9
+~
+~
+0 -1 11295
+S
+#11297
+Research Center~
+The tunnel ends in a large cave, which is filled end to end with long
+wooden benches that strain under the weight of magical apparatus of all
+sorts, ranging from bubbling beakers and hissing alembics of fluid to heavy
+bronze bound tomes resting on iron bookstands. A vile smell fills the air, one
+that is not unfamiliar to a seasoned adventurer who has trespassed into many
+an alchemical laboratory.
+~
+0 3153929 13
+D3
+~
+~
+0 -1 11298
+S
+#11298
+The Final Battle~
+As you continue through the twisting caverns, you grow more and more
+confident that the end of your quest is near. Reaching a junction, you
+pause to decide where to proceed. A low chanting can be heard to the east,
+while to the north you hear someone shouting orders, though you cannot for
+the life of you understand what language they are using. However, this room
+contains something that draws your attention back to your immediate 
+surrounds...
+~
+0 3153929 13
+D0
+~
+~
+0 -1 11299
+D1
+~
+~
+0 -1 11297
+D2
+~
+~
+0 -1 11296
+S
+#11299
+The Root of all Evil~
+At last! A grim smile of triumph twists your battle weary face as you
+stride boldly into the lair of the evil behind the madness that has taken
+ahold of Hochenyana. For it is here, in this bare, unremarkable chamber,
+that the foul tyrant plots his diabolical schemes, and came extremely
+close to subjugating half the empire! Now you have arrived to thwart his
+evil schemes! A surge of elation courses through your veins and you grip
+your weapon firmly.
+~
+0 3153929 13
+D2
+~
+~
+0 -1 11298
+S
+#0
+
+
+#RESETS
+M 1 11211 1 11201
+E 1 11209 1 16
+E 1 11210 1 6
+E 1 11211 1 5
+E 1 11212 1 11
+M 1 11209 11 11202
+M 1 11210 11 11202
+M 1 11233 5 11202
+E 1 11209 1 16
+E 1 11210 1 6
+E 1 11211 1 5
+E 1 11212 1 11
+M 1 11233 5 11202
+E 1 11209 1 16
+E 1 11210 1 6
+E 1 11211 1 5
+E 1 11212 1 11
+M 1 11217 1 11204
+E 1 11223 1 16
+E 1 11224 1 9
+E 1 11225 1 5
+M 1 11218 1 11205
+M 1 11209 11 11206
+M 1 11210 11 11206
+M 1 11219 1 11207
+M 1 11220 1 11208
+M 1 11221 1 11208
+M 1 11208 6 11209
+M 1 11208 6 11209
+M 1 11222 1 11210
+O 1 11226 1 11211
+P 0 11229 1 0
+O 1 11228 1 11211
+P 0 11227 1 0
+M 1 11209 11 11212
+M 1 11210 11 11212
+M 1 11209 11 11212
+O 1 11232 1 11212
+O 1 11233 1 11213
+P 0 11234 1 0
+M 1 11223 1 11214
+M 1 11224 1 11217
+E 1 11235 1 1
+M 1 11209 11 11218
+M 1 11210 11 11218
+M 1 11209 11 11218
+M 1 11210 11 11218
+M 1 11233 5 11218
+E 1 11209 1 16
+E 1 11210 1 6
+E 1 11211 1 5
+E 1 11212 1 11
+M 1 11233 5 11218
+E 1 11209 1 16
+E 1 11210 1 6
+E 1 11211 1 5
+E 1 11212 1 11
+M 1 11225 1 11220
+M 1 11209 11 11222
+M 1 11210 11 11222
+M 1 11208 6 11222
+M 1 11208 6 11222
+O 1 11236 1 11222
+D 0 11222 5 1
+M 1 11227 1 11223
+M 1 11228 1 11226
+O 1 11238 1 11226
+M 1 11229 1 11227
+E 1 11239 1 16
+E 1 11240 1 8
+E 1 11241 1 12
+M 1 11209 11 11228
+M 1 11209 11 11228
+M 1 11210 11 11228
+M 1 11210 11 11228
+M 1 11208 6 11228
+O 1 11242 1 11228
+D 0 11228 1 2
+M 1 11216 1 11229
+E 1 11221 1 16
+E 1 11222 1 13
+O 1 11217 1 11229
+D 0 11229 3 2
+M 1 11230 1 11230
+O 1 11243 1 11230
+P 0 11244 1 0
+M 1 11201 1 11232
+M 1 11231 1 11233
+E 1 11245 1 16
+E 1 11246 1 5
+M 1 11209 11 11235
+M 1 11210 11 11235
+M 1 11233 5 11235
+E 1 11210 1 6
+E 1 11212 1 11
+E 1 11211 1 5
+E 1 11209 1 16
+D 0 11236 2 1
+D 0 11237 0 1
+M 1 11213 1 11238
+D 0 11238 3 1
+M 1 11212 1 11239
+E 1 11213 1 12
+E 1 11214 1 16
+E 1 11215 1 5
+G 1 11216 1
+O 1 11249 1 11239
+P 0 11250 1 0
+D 0 11239 1 1
+D 0 11240 0 2
+D 0 11240 3 2
+O 1 11251 1 11241
+P 0 11252 1 0
+D 0 11241 1 2
+M 1 11215 1 11242
+O 1 11253 1 11242
+D 0 11242 2 2
+M 1 11235 6 11244
+M 1 11235 6 11244
+M 1 11235 6 11244
+M 1 11235 6 11245
+M 1 11235 6 11245
+M 1 11235 6 11245
+D 0 11245 1 1
+D 0 11246 3 1
+M 1 11234 3 11247
+M 1 11234 3 11247
+M 1 11234 3 11247
+M 1 11232 1 11248
+E 1 11247 1 17
+E 1 11248 1 20
+O 1 11254 1 11248
+D 0 11250 3 2
+O 1 11261 1 11251
+D 0 11251 0 2
+D 0 11251 1 2
+D 0 11251 2 2
+D 0 11251 3 2
+M 1 11239 3 11252
+D 0 11252 1 2
+M 1 11239 3 11253
+D 0 11253 2 2
+M 1 11239 3 11254
+D 0 11254 0 2
+M 1 11208 6 11255
+M 1 11209 11 11255
+M 1 11210 11 11255
+M 1 11210 11 11255
+D 0 11258 1 1
+D 0 11258 3 1
+M 1 11244 1 11259
+D 0 11259 1 1
+M 1 11245 1 11260
+O 1 11277 1 11260
+P 0 11276 1 0
+D 0 11260 3 1
+O 1 11278 1 11261
+M 1 11246 5 11262
+E 1 11279 1 3
+E 1 11280 1 19
+D 0 11262 3 1
+M 1 11247 1 11263
+E 1 11282 1 5
+E 1 11281 1 16
+D 0 11263 1 1
+M 1 11248 1 11264
+E 1 11283 1 3
+D 0 11264 3 1
+M 1 11246 5 11265
+E 1 11279 1 3
+E 1 11280 1 19
+D 0 11265 1 1
+D 0 11266 0 1
+M 1 11242 1 11267
+E 1 11268 1 16
+E 1 11274 1 9
+D 0 11267 1 1
+D 0 11267 2 1
+M 1 11240 1 11268
+E 1 11264 1 12
+E 1 11265 1 6
+O 1 11275 1 11268
+M 1 11241 3 11269
+E 1 11266 1 16
+E 1 11267 1 17
+M 1 11241 3 11270
+E 1 11266 1 16
+E 1 11267 1 17
+M 1 11241 3 11271
+E 1 11266 1 16
+E 1 11267 1 17
+O 1 11269 1 11272
+O 1 11270 1 11272
+O 1 11271 1 11272
+D 0 11272 3 1
+M 1 11246 5 11273
+E 1 11279 1 3
+E 1 11280 1 19
+M 1 11246 5 11273
+E 1 11280 1 19
+E 1 11279 1 3
+M 1 11246 5 11273
+E 1 11280 1 19
+E 1 11279 1 3
+M 1 11238 1 11274
+E 1 11259 1 0
+E 1 11260 1 16
+M 1 11236 1 11277
+O 1 11255 1 11278
+P 0 11256 1 0
+P 1 11257 1 0
+P 2 11258 1 0
+D 0 11278 1 1
+D 0 11279 2 1
+D 0 11279 3 1
+M 1 11237 1 11280
+D 0 11280 0 1
+M 1 11226 1 11281
+G 1 11237 1
+D 0 11281 4 1
+M 1 11243 1 11282
+E 1 11272 1 17
+M 1 11249 3 11284
+G 1 11285 1
+M 1 11249 3 11284
+G 1 11285 1
+M 1 11249 3 11284
+G 1 11285 1
+M 1 11250 1 11286
+O 1 11284 1 11287
+D 0 11287 2 1
+M 1 11214 1 11288
+O 1 11218 1 11288
+O 1 11219 1 11288
+D 0 11288 0 1
+D 0 11288 5 1
+M 1 11206 1 11289
+D 0 11289 3 2
+M 1 11207 3 11290
+M 1 11207 3 11290
+M 1 11207 3 11290
+D 0 11290 0 2
+M 1 11205 1 11291
+D 0 11291 2 2
+M 1 11204 1 11292
+E 1 11204 1 16
+E 1 11205 1 5
+G 1 11206 1
+D 0 11292 0 2
+D 0 11292 1 2
+D 0 11292 2 2
+D 0 11293 3 1
+O 1 11220 1 11294
+D 0 11294 0 1
+D 0 11294 1 1
+D 0 11294 4 1
+D 0 11295 2 1
+M 1 11202 2 11297
+E 1 11202 1 5
+E 1 11203 1 17
+M 1 11202 2 11297
+E 1 11202 1 5
+E 1 11203 1 17
+M 1 11203 1 11298
+M 1 11251 1 11299
+G 1 11286 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11202 spec_cast_mage
+M  11205 spec_cast_mage
+M  11214 spec_fido
+M  11222 spec_cast_mage
+M  11226 spec_breath_gas
+M  11229 spec_thief
+M  11232 spec_cast_mage
+M  11236 spec_breath_gas
+M  11237 spec_breath_fire
+M  11238 spec_breath_frost
+M  11239 spec_breath_frost
+M  11240 spec_cast_mage
+M  11242 spec_cast_mage
+M  11243 spec_breath_gas
+M  11245 spec_thief
+M  11246 spec_cast_cleric
+M  11247 spec_cast_cleric
+M  11248 spec_breath_frost
+M  11251 spec_cast_mage
+S
+
+
+#$

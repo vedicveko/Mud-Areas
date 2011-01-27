@@ -1,0 +1,3006 @@
+#Labeled MERC
+#AREA {35 45} Yaegar Wonderland~
+
+#HELPS
+0 'Through the Looking Glass' 'Looking Glass'~
+
+This area was written on a DOS Text Editor by Yaegar, based on the two best-
+known works of the brilliant and eccentric Lewis Carroll. It is not a literal
+interpretation- some aspects cannot be reproduced identically in Muds- but it
+attempts to faithfully recreate the atmosphere as closely as possible, with
+many people and places from several of Carroll's works included.
+
+NOTE- a LOT of the flavor and fun of this area will be lost if the triggers
+are not present or functioning properly, so if you are going to use this
+area on any other mud than AnonyMud! i would suggest you write appropriate
+mob_progs or endeavour to modernize your mud with the truly brilliant
+trigger code by the coders at AnonyMud!
+
+Enjoy!
+
+Yaegar, October 1996.
+~
+0 $~
+
+#MOBILES
+#21000
+alice~
+Alice~
+Alice raises her eyebrows and says "Curiouser and curiouser!"
+~
+In her amazement she has completely forgotten proper English. As if the
+inrecdible sights of Wonderland weren't enough, now she has encountered you,
+a strange being clad in dozens of different types of armor with no regard for
+fashion. Small wonder she is both amazed and afraid of you!
+~
+2|64|128 128|8192 400 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_act~
+raises her eyebrows quizzically.~
+E
+.look_say~
+Pleased to meet you!~
+E
+.look_act~
+curtseys.~
+E
+.attack_act~
+screams in dismay!~
+E
+.attack_yell~
+Help!~
+#21001
+white rabbit~
+a white rabbit~
+A smartly dressed white rabbit scurries by, muttering to himself.
+~
+"I'm late! I'm late!" he seems to be saying, which is impossible as rabbits
+don't talk. Or do they? He was certainly very well dressed for a rabbit, or
+for anyone for that matter. Perhaps you'd fancy acquiring some of his
+accoutrements? After all, how hard could he be to slay?
+~
+64|128 128|8192|32768 400 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+I'm late! Oh dear!~
+E
+.arrive_act~
+looks at his watch.~
+E
+.tell_tell~
+No time to chat!~
+E
+.leave_say~
+Bring me my gloves!~
+E
+.give_looking_for~
+21007~
+E
+.found_say~
+Thank You Mary Ann!~
+E
+.found_cast_player~
+sanctuary~
+#21002
+mouse~
+a mouse~
+A mouse is struggling to keep afloat here.
+~
+The mouse is swimming, with some difficulty, to the edge of this pool of
+water. He looks startled upon seeing you approach, and cautiously demands
+to know whether you are a cat.
+~
+64|128|8388608 512 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+growls.~
+E
+.arrive_say~
+Cats! Nasty, low, vulgar things!~
+E
+.arrive_cast_player~
+know alignment~
+E
+.leave_tell~
+Don't let me hear that name again!~
+#21003
+duck~
+a duck~
+A duck waddles about, looking very confused.
+~
+Like you, this creature found itself suddenly submerged in a pool of Alice's
+tears. Although being a duck, it isn't half as worried.
+~
+64|128|8388608 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_say~
+QUACK!~
+E
+.leave_act~
+waddles away.~
+#21004
+dodo~
+a dodo~
+A dodo is busy arranging some sort of foot race.
+~
+He is in fact arranging a caucus-race, to help everyone get dry. It seems to
+consist of everyone gathering about in a circular shape ("the exact shape doesn't
+matter") and running about until they are quite dry.
+~
+2|64|8388608 8192 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+The best thing to get us dry would be a Caucus race!~
+E
+.arrive_act~
+marks out a race course, in a sort of circle.~
+E
+.arrive_tell~
+The size doesn't matter.~
+E
+.look_act~
+is running about furiously!~
+E
+.look_say~
+Run then!~
+E
+.leave_say~
+The race is over! But who has won?~
+#21005
+lory~
+a lory~
+A lory is busily racing about to dry off.
+~
+The lory is feeling rather sulky, as it feels that as the oldest present
+(though it will NOT reveal its age) it knows best and should be in charge.
+~
+64|128|8388608 524288 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_tell~
+I am older than you, and must know better.~
+E
+.tell_tell~
+I'm not telling you how old I am!~
+E
+.look_tell~
+Don't stare, youngster!~
+E
+.leave_act~
+sits and sulks.~
+#21006
+eaglet~
+an eaglet~
+An eaglet screeches and stretches its soaking wet wings.
+~
+The eaglet is growing impatient with the talk- all the long words he doesn't
+know the meaning of, and doubtless nor do any of the others present.
+~
+2|64|8388608 524288 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+Speak English!~
+E
+.arrive_act~
+stretches its wings and shakes them, soaking everyone!~
+E
+.leave_act~
+starts running around madly!~
+#21007
+magpie~
+an elderly magpie~
+An elderly magpie complains about the cold.
+~
+This magpie is quite frail and is concerned the chill from being wet will
+cause her to become ill.
+~
+2|64|128|8388608 524288 400 S
+35 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_act~
+I really must be getting home. The night air doesn't suit my throat.~
+E
+.attack_cast_self~
+bamf~
+E
+.leave_say~
+Farewell!~
+#21008
+owl~
+an owl~
+An owl prepares to join in the caucus race.
+~
+This owl is quite young and not very wise as yet, so it is deferring to the
+wisdom of the older birds and engaging in the decidedly silly caucus race.
+~
+2|64|8388608 524288 400 S
+35 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+runs about in circles.~
+#21009
+old crab~
+an old crab~
+An old crab is lecturing her daughter about losing her temper.
+~
+This elderly crab is enough to try the patience of an oyster!
+~
+2|64|8388608 8192 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_say~
+Ah my dear! Let this be a lesson to you to never lose your temper!~
+#21010
+young crab~
+a young crab~
+A young crab is telling her mother to hold her tongue.
+~
+This youthful crustacean is sick of her mother's constant lecturing.
+~
+2|64|128|8388608 8192 400 S
+35 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_say~
+Hold your tonuge ma! You're enough to try the patience of an oyster!~
+#21011
+bill lizard~
+Bill the lizard~
+Bill the lizard is standing here, waiting to be lowered down the chimney.
+~
+He doesn't look as if he is too keen to be doing this, but he's been given
+no choice.
+~
+2|64|128 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+yelps in surprise.~
+E
+.arrive_say~
+Its a giant!~
+E
+.look_cast_self~
+armor~
+E
+.attack_yell~
+He's coming at me like a jack in the box!~
+E
+.die_yell~
+Aieee!~
+#21012
+guinea pig~
+a guinea pig~
+A guinea pig stands here holding a length of rope.
+~
+He and his fellow are preparing to lower poor Bill down the chimney to see
+what it is inside that is causing such a clamour.
+~
+2|64|128 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+looks concerned.~
+E
+.look_say~
+You don't look too well!~
+E
+.look_give~
+21019~
+#21013
+puppy~
+a puppy dog~
+A puppy dog looks at you with large round eyes.
+~
+This little pup has been abandoned here. He looks like he'd LOVE to have
+someone to play with.
+~
+2|64|128 512 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+stares at you sadly.~
+E
+.leave_act~
+saldy watches you leave.~
+E
+.tell_act~
+wags its tail and jumps up on you.~
+#21014
+caterpillar~
+the caterpillar~
+The caterpiller puffs on its hookah and says languidly "Who are YOU?"
+~
+The caterpillar stands and stretches himself to his full height of three
+inches and patiently awaits an answer. He is an infuriating conversationalist.
+~
+2|64|128 4|8|16|32|128|512|8192 400 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+Who are YOU?~
+E
+.arrive_act~
+puffs on its hookah~
+E
+.look_cast_player~
+fly~
+E
+.look_cast_self~
+fly~
+E
+.look_say~
+Now everyone's high!~
+E
+.leave_tell~
+One side will make you stronger, the other will make you weaker.~
+#21015
+pigeon~
+a pigeon~
+A pigeon spies you and screams "Serpent!"
+~
+The paranoid bird has mistaken you for a dreaded serpent, whom she fears
+and detests because they steal her eggs. Too bad she's unlikely to live
+long enough to explain her actions...
+~
+2|32|64 524288 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_yell~
+Serpent!~
+E
+.arrive_say~
+I've tried every way but nothing seems to suit them!~
+E
+.look_act~
+trembles in rage!~
+E
+.leave_tell~
+Good riddance, snake!~
+#21016
+fish footman~
+a fish-footman~
+A fish-footman is here bearing an invitation.
+~
+This fellow is smartly clad in livery and powdered wig, though you find it
+quite disconcerting how he looks at the sky rather than looking you in the
+eyes when he speaks. Then again, its not like he can help it.
+~
+2|64 0 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+For the Duchess, an invitation from the Queen to play croquet.~
+E
+.look_say~
+There's no sense in knocking.~
+E
+.give_give~
+21029~
+#21017
+frog footman~
+a frog-footman~
+A frog-footman is accompanying the fish-footman.
+~
+The frog is as neatly dressed as his aquatic companion, save that his
+appearance is rendered by far more civil by the fact that he can look
+straight ahead.
+~
+2|64 0 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+From the Queen. An invitation for the Duchess to play croquet.~
+E
+.tell_say~
+I shall sit here. Till tomorrow.~
+#21018
+duchess~
+the Duchess~
+The Duchess sits here nursing her baby.
+~
+She is a hefty woman with an inordinately large head, upon which rests a
+baby's cradle. The occupant of the cradle is in her lap. She seems quite
+short-tempered and irritable.
+~
+2|8|64 8192 400 S
+43 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_yell~
+PIG!~
+E
+.arrive_act~
+stares at the baby in her lap.~
+E
+.tell_say~
+You don't know much, and that's a fact!~
+E
+.say_say~
+You don't know much, and that's a fact!~
+#21019
+pig baby~
+the Duchess' baby~
+The Duchess' baby oinks and squeals. Oinks?
+~
+The baby appears to be quite porcine in manner and appearance. Every now and
+then it is struck by a plate hurled by the cook, and it squeals anew, the
+dirge interrupted only by periodic sneezing due to all the pepper in the air.
+~
+2|64 0 0 S
+34 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+cries and sneezes a lot.~
+#21020
+cook~
+the cook~
+The cook is preparing some sort of soup, which seems to require a LOT of pepper.
+~
+The cook also seems immune to the sneeze-inducing effects of her ingredient.
+From time to time she hurls a piece of crockery at the other occupants of the
+room, though it doesn't seem to bother most of them in the least!
+~
+2|64 0 0 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_act~
+stirs the soup.~
+E
+.say_act~
+hurls a plate at the Duchess! *>CRASH<*~
+E
+.leave_act~
+hurls a plate at you!~
+#21021
+cheshire cat~
+a Cheshire Cat~
+A Cheshire Cat smirks at you.
+~
+Smirking and grinning seem to be the only expressions this feline is
+capable of. You weren't aware that cats could grin; then again, you've never
+met a Cheshire Cat before. It has an irritating habit of making parts of
+itself invisible, leaving only a tail, head or just a grin floating eerily
+in the air.
+~
+64|128 4|8|16|32|128|512|8192|1048576 1000 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+grins at you.~
+E
+.say_say~
+In that direction lives the March Hare.~
+E
+.say_say~
+And in that direction lives the Mad Hatter.~
+E
+.look_cast_self~
+invisibility~
+E
+.attack_cast_self~
+bamf~
+E
+.leave_tell~
+Do you play croquet with the Queen today? I'll see you there!~
+E
+.leave_act~
+waves its tail and vanishes.~
+#21022
+mad hatter~
+the Mad Hatter~
+The Mad Hatter engages you in conversation.
+~
+Everything this insane man says is nonsense, though you do find it rather
+amusing. He tells you of the time he had to sing at a concert given by
+the Queen, where he performed "Twinkle, twinkle, little bat"-
+
+"Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+
+ Up above the world you fly,
+ Like a tea-tray in the sky."
+
+ Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+~
+2|64 128 400 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+No room! No room!~
+E
+.look_say~
+Why is a raven like a writing desk?~
+E
+.tell_say~
+I have no idea!~
+E
+.give_give~
+21045~
+E
+.leave_act~
+begins to stuff the dormouse into a teapot.~
+#21023
+march hare~
+the March Hare~
+The March Hare, who went insane last March, explains "It's always tea-time!"
+~
+Since they decided to freeze time at Six O'clock to save the Hatter's head,
+it has always been tea-time, with no time to wash up. So they alternate
+seats and serving sets. The Hare wants you to tell them a story now.
+~
+2|64 128 400 S
+41 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+No room! No room!~
+E
+.say_tell~
+It's always tea-time!~
+E
+.give_give~
+21045~
+E
+.leave_act~
+begins to stuff the dormouse into a teapot.~
+#21024
+dormouse~
+the Dormouse~
+The Dormouse snores loudly, and is pinched by its companions.
+~
+The Dormouse seems to be asleep, but it still manages to inject comments into
+the conversation when it fancies. It decides to tell you a story, involving
+sisters, treacle and treacle wells. It really doesn't make much sense, but
+the Dormouse gets irritated if interrupted, so you patiently listen.
+~
+2|64 32768|131072 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+snores loudly.~
+E
+.say_say~
+Once upon a time there were three little sisters-~
+#21027
+gardener heart five card~
+a gardener~
+A gardener who resembles a playing card is busily painting a rose bush.
+~
+This fellow (who is the five of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+2|64|128 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+I couldn't help it. Seven jogged my elbow!~
+E
+.arrive_act~
+returns to painting the bush.~
+E
+.tell_act~
+stares at two accusingly.~
+E
+.say_act~
+stares at two accusingly.~
+#21028
+gardener heart seven card~
+a gardener~
+A gardener who resembles a playing card quickly bows upon seeing you.
+~
+This fellow (who is the seven of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+2|64|128 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+returns to painting the bush.~
+E
+.tell_act~
+stares at two accusingly.~
+E
+.say_act~
+stares at two accusingly.~
+#21029
+gardener heart two card~
+a gardener~
+A gardener who resembles a playing card is squabbling with his friends.
+~
+This fellow (who is the two of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+2|64|128 0 400 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+Look out now, Five! Don't go splashing paint over me like that!~
+E
+.say_say~
+This should have been a red rose tree, but we planted a white by mistake.~
+E
+.leave_yell~
+THE QUEEN! THE QUEEN!~
+#21030
+soldier club card~
+a soldier~
+A soldier, who is actually a playing card in the suit of clubs, marches by.
+~
+These stern cards are sworn to protect and obey the Queen.
+~
+64|8388608 8192 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+quickly bends over as someone whacks a hedgehog at him.~
+E
+.look_tell~
+You lookin' to be clubbed?~
+#21031
+courtier diamond card~
+a courtier~
+A flat, oblong courtier, ornamented with diamonds, strolls by.
+~
+These noble cards accompany the Queen everywhere.
+~
+64|8388608 0 400 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+swings his flamingo and sends a hedgehog scuttling under a soldier card.~
+E
+.look_act~
+smiles and nods.~
+E
+.leave_act~
+runs off after another hedgehog.~
+#21032
+child card hearts heart~
+a child of the Queen~
+A tiny card bearing hearts upon it scurries about like a child.
+~
+These small tykes are the children of the Queen.
+~
+64|128|8388608 0 400 S
+34 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+Ga Ga Goo Goo!~
+#21033
+king hearts~
+the King of Hearts~
+The King of Hearts strolls proudly past.
+~
+The King is here to play croquet with the court. Although he is King, he
+defers to his overbearing wife in most matters. He strngly resembles the
+Kings you see on playing cards.
+~
+64|8388608 128|512 400 S
+41 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+Greetings!~
+E
+.look_say~
+Hmph!~
+E
+.leave_act~
+strolls off, flamingo in hand.~
+#21034
+queen hearts~
+the Queen of Hearts~
+The Queen of Hearts screams "Off with their heads!"
+~
+The Queen is an imposing aggressive woman who solves every problem by
+demanding that the heads of the causes of them be lopped off. No-one's head
+ever actually DOES get lopped off, but that doesn't deter her.
+~
+64|84388608 128|512|8192 -400 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+E
+.arrive_yell~
+Off with their heads!~
+E
+.look_tell~
+Off with YOUR head!~
+E
+.look_cast_self~
+sanctuary~
+E
+.attack_cast_player~
+flamestrike~
+E
+.attack_yell~
+GUARDS! HELP!~
+E
+.tell_tell~
+Tsk! Such impertinence!~
+E
+.leave_yell~
+Off with their heads!~
+#21035
+knave hearts~
+the Knave of Hearts~
+The Knave of Hearts smiles and nods a lot.
+~
+The Knave isn't the brightest of cards by a long shot. He is however a
+notorious thief, his biggest crime to date being the theft of the Queen's
+tarts.
+~
+64|128|8388608 0 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+hurriedly hides a tart behind his back.~
+E
+.tell_say~
+Nothing!~
+E
+.look_cast_self~
+invisibility~
+#21036
+flamingo~
+a flamingo~
+A flamingo is fleeing across the croquet lawn.
+~
+This poor bird is attempting to avoid being used by the many players as a
+croquet mallet.
+~
+64|128|8388608 0 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+is fleeing madly away from some angry courtiers.~
+#21037
+hedgehog~
+a hedgehog~
+A hedgehog jumps up and scampers off after being hit by a flamingo.
+~
+The croquet players are using these unassuming creatures as balls in their
+bizarre version of the clasic game of nobility.
+~
+64|128|8388608 0 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#21038
+executioner~
+the executioner~
+The executioner is wandering about muttering about disembodied heads.
+~
+This fellow is perhaps at the same time both the busiest and the least-busy
+of the Queen's staff. For while he is constantly being ordered to decapitate
+hundreds of people, he never actually carries out the task. He is currently
+attempting to figure out a way to decapitate the head of the Cheshire Cat
+from... nothing. Such are the weird ways of Wonderland.
+~
+64|8388608 128|8192 0 S
+44 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+You can't chop off a head with no body!~
+E
+.tell_tell~
+Can YOU?~
+E
+.look_cast_self~
+shield~
+E
+.attack_cast_player~
+bamf~
+E
+.leave_act~
+wanders off muttering to himself.~
+#21039
+mock turtle~
+the Mock Turtle~
+The Mock Turtle is here weeping constantly.
+~
+The Mock Turtle is the thing Mock Turtle soup is made from. He is attempting
+to tell you his tale, but he is weeping so much you doubt he'll ever get a
+word out. The Turtle has the head of a pig, the shell of a turtle and the
+legs and tail of a cow. How peculiar!
+~
+2|64|8388608 128 500 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+is far too upset to talk.~
+#21040
+gryphon~
+a Gryphon~
+A Gryphon is lying here, sound asleep.
+~
+This fantastic beast is a friendly sort, despite his appearance. He
+attended the same school as the Mock Turtle, studying things such as Reeling
+and Writhing, the three branches of Arithmetic- Ambition, Distraction,
+Uglification and Derision, and of course the classics- Laughing and Grief.
+~
+2|8|64|8388608 128|512|131072|524288 500 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_say~
+It's so amusing. She never chops anyone's heads off, you know.~
+E
+.tell_tell~
+The Mock Turtle is east then south of here.~
+E
+.look_cast_player~
+fly~
+E
+.attack_act~
+screeches and attacks!~
+E
+.die_yell~
+I am slain!~
+#21041
+juror~
+a juror~
+A juror is busily scribbling on a slate.
+~
+This chap is one of the jury who judges the cases in the court here. Of
+course, justice in Wonderland is a very erratic process, much like everything
+else in this strange place.
+~
+2|64|128|8388608 0 400 S
+38 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+is scribbling furiously away on a slate.~
+E
+.tell_say~
+YOU do it!~
+E
+.tell_give~
+21062~
+#21042
+court officer~
+a court officer~
+A court officer stands ready to suppress rowdy members of the public.
+~
+"Suppressing" takes the form of placing the offender in a large hessian sack
+and sitting on them...
+~
+2|64|8388608 8192 400 S
+39 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+E
+.arrive_act~
+glares at you suspiciously.~
+E
+.attack_cast_player~
+blindness~
+E
+.attack_cast_player~
+web~
+#0
+
+#OBJECTS
+#21000
+pretty blue frock~
+a pretty blue frock~
+A pretty blue frock is lying on the ground here.~
+~
+9 0 1|8
+0 0 0 0
+5 0 0
+A
+2 3
+#21001
+apron~
+a white apron~
+A white apron with pockets sewn into it lies here.~
+~
+15 0 1|2048
+5 1 -1 0
+2 0 0
+#21002
+pair black shoes~
+a pair of black shoes~
+A pair of black shoes has been left here.~
+~
+9 0 1|64
+0 0 0 0
+2 0 0
+A
+14 75
+#21003
+thimble~
+a thimble~
+A thimble lies here.~
+~
+9 0 1|2
+0 0 0 0
+1 0 0
+A
+2 2
+A
+12 40
+A
+18 2
+A
+19 2
+#21004
+tweed jacket~
+a tweed jacket~
+A tweed jacket has been left here.~
+~
+9 0 1|1024
+0 0 0 0
+3 0 0
+#21005
+waistcoat~
+a red waistcoat~
+A red waistcoat is lying here.~
+~
+9 0 1|8
+0 0 0 0
+2 0 0
+A
+5 3
+A
+19 4
+#21006
+pocket watch~
+a pocket watch~
+A pocket watch is hanging by its chain from a hook here.~
+~
+9 2 1|16384
+1 0 0 0
+1 0 0
+A
+3 2
+A
+4 2
+A
+12 25
+A
+23 -1
+A
+24 -1
+#21007
+pair tiny white kid gloves~
+a pair of tiny white kid-gloves~
+A pair of tiny white kid-gloves have been dropped here.~
+~
+9 0 1|128
+0 0 0 0
+2 0 0
+A
+2 2
+A
+18 4
+#21008
+fan~
+a fan~
+A fan has been left here.~
+~
+9 0 1|512
+0 0 0 0
+1 0 0
+A
+17 -24
+#21009
+scarf~
+a neck scarf~
+A woolen neck scarf is lying here.~
+~
+9 0 1|4
+0 0 0 0
+2 0 0
+A
+13 30
+#21010
+shelf~
+a shelf~
+A shelf hangs from the wall here.~
+~
+15 0 0
+15 1 -1 0
+100 0 0
+#21011
+jar orange marmalade~
+a jar of orange marmalade~
+A jar of orange marmalade sits here.~
+~
+15 0 1|16384
+2 5 0 0
+1 0 0
+E
+jar~
+It is empty.
+~
+#21012
+glass thre legged table~
+a tiny three-legged table~
+A tiny three-legged table, all made of glass, sits here.~
+~
+12 0 1
+0 0 0 0
+5 0 0
+E
+table~
+You think you can see a small glass box sitting under the table...
+~
+#21013
+tiny golden key~
+a tiny golden key~
+A tiny golden key sits on a table here.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#21014
+little bottle~
+a little bottle~
+A little bottle with a tiny paper label rests here.~
+~
+10 0 1|16384
+35 68 68 68
+1 400 0
+E
+bottle label~
+The label reads- "DRINK ME"
+~
+#21015
+glass box~
+a tiny glass box~
+~
+~
+15 0 1
+2 5 0 0
+1 0 0
+#21016
+small cake~
+a small cake~
+A small cake with something written on it with currants sits here.~
+~
+26 0 1
+35 39 39 39
+1 4000 0
+#21017
+little bottle~
+a little bottle~
+A little bottle with a tiny paper label rests on the table here.~
+~
+10 0 1|16384
+35 39 66 1
+1 400 0
+E
+bottle label~
+The label reads- "DRINK ME"
+~
+#21018
+table~
+a window table~
+A table sits in the window here.~
+~
+12 0 0
+0 0 0 0
+1000 0 0
+#21019
+bottle brandy~
+a bottle of brandy~
+A bottle of brandy has been dropped here.~
+~
+17 0 1|16384
+2 2 5 0
+1 0 0
+#21020
+hookah~
+a hookah~
+A hookah sits here.~
+~
+9 1|2|64 1|16384
+0 0 0 0
+3 0 0
+A
+12 25
+A
+18 4
+A
+19 5
+#21021
+mushroom flesh~
+some flesh from a mushroom~
+Some flesh has been torn off the mushroom and dropped here.~
+~
+26 0 1|16384
+40 68 37 33
+1 0 0
+#21022
+mushroom flesh~
+some flesh from a mushroom~
+Some flesh has been torn off the mushroom and dropped here.~
+~
+26 0 1|16384
+40 34 74 56
+1 0 0
+#21023
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+~
+26 2 1|16384
+36 43 0 0
+1 0 0
+#21024
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+~
+26 2 1|16384
+36 82 0 0
+1 0 0
+#21025
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+~
+26 2 1|16384
+36 44 0 0
+1 0 0
+#21026
+nest~
+a small nest~
+A small nest is stuck in the branches of this tree.~
+~
+15 0 1
+3 1 0 0
+1 0 0
+#21027
+footman livery~
+a footman's livery~
+A footman's livery has been left here.~
+~
+9 0 1|8
+0 0 0 0
+7 0 0
+A
+5 3
+A
+13 30
+A
+18 3
+A
+25 2
+#21028
+powdered wig~
+a powdered wig~
+A powdered wig lies here.~
+~
+9 0 1|16
+0 0 0 0
+1 0 0
+A
+2 1
+A
+3 1
+A
+4 1
+A
+25 2
+#21029
+invitation~
+an invitation~
+An invitation from the Queen to play croquet lies here.~
+~
+2 1 1|16384
+36 3 20 73
+1 0 0
+#21030
+cradle~
+a baby's cradle~
+A baby's cradle is lying here.~
+~
+15 4096 1|16
+150 1 0 0
+14 0 0
+A
+14 -25
+#21031
+pot soup~
+a pot of soup~
+A pot of soup with LOTS of pepper in it makes you sneeze rather a lot.~
+~
+15 0 0
+10 1 -1 0
+100 0 0
+#21032
+plate~
+a plate~
+This plate is one of several the cook has hurled at the Duchess.~
+~
+30 0 1|8192|16384
+0 0 0 0
+2 0 0
+#21033
+ladle~
+a ladle~
+A soup-covered ladle lies here, dripping.~
+~
+5 0 1|8192
+0 0 0 6
+10 0 0
+A
+18 6
+A
+19 6
+#21034
+green top hat~
+a green top hat~
+A green top hat with a tag reading "In this Style 10/6" sits here.~
+~
+9 4096 1|16
+0 0 0 0
+7 0 0
+A
+3 -2
+A
+4 -2
+#21035
+table~
+a long dining table~
+A long dining table rests here.~
+~
+12 0 0
+0 0 0 0
+1000 0 0
+#21036
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+~
+12 0 1
+0 0 0 0
+50 0 0
+#21037
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+~
+12 0 1
+0 0 0 0
+50 0 0
+#21038
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+~
+12 0 1
+0 0 0 0
+50 0 0
+#21039
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+~
+12 0 1
+0 0 0 0
+50 0 0
+#21040
+polka dot bow tie~
+a large polka dot bow tie~
+A large polka dot bow tie has been (purposefully?) left here.~
+~
+9 4096 1|4
+0 0 0 0
+1 0 0
+A
+2 2
+A
+12 1
+A
+18 3
+#21041
+green frock coat~
+a green frock coat~
+A green frock coat has been left here.~
+~
+9 0 1|1024
+0 0 0 0
+5 0 0
+#21042
+bits of straw~
+some bits of straw~
+Some bits of straw have fallen out of someone's hair.~
+~
+9 0 1|16
+0 0 0 0
+1 0 0
+A
+2 -3
+A
+3 -3
+A
+4 -3
+#21043
+biscuit plate~
+a biscuit plate~
+A biscuit plate sits on the table here.~
+~
+30 0 1|8192|16384
+0 0 0 0
+1 0 0
+#21044
+tea pot~
+a tea pot~
+A tea pot sits on the table here.~
+~
+17 0 1|16384
+5 3 11 0
+3 0 0
+#21045
+tea cup~
+a tea cup~
+A tea cup sits on the table here.~
+~
+17 0 1|16384
+1 1 11 0
+1 0 0
+#21046
+checked shirt~
+a checked shirt~
+A garish checked shirt has been dropped here.~
+~
+9 0 1|8
+0 0 0 0
+3 0 0
+#21047
+brown breeches~
+some brown breeches~
+Someone's dropped their breeches...~
+~
+9 0 1|32
+0 0 0 0
+4 0 0
+A
+2 3
+A
+14 45
+A
+18 2
+#21048
+pair shoes~
+a pair of black shoes~
+A pair of shiny black buckled shoes sits here.~
+~
+9 0 1|64
+0 0 0 0
+3 0 0
+#21049
+paint red can~
+a can of red paint~
+A can of red paint is lying here, pouring paint onto the ground.~
+~
+15 0 1|16384
+5 1 -1 0
+2 0 0
+#21050
+paint brush~
+a paint brush~
+A paint brush stained bright red is dripping on the floor here.~
+~
+5 0 1|8192
+0 0 0 12
+5 0 0
+A
+19 4
+#21051
+bush roses white red~
+a white rose bush~
+Someone has attempted to paint this white rose bush red.~
+~
+12 0 0
+0 0 0 0
+150 0 0
+#21052
+club~
+a soldier's club~
+A soldier's club lies here. It looks like the club off a playing card.~
+~
+5 0 1|8192
+0 0 0 8
+15 0 0
+A
+5 2
+A
+18 5
+A
+19 4
+#21053
+diamond~
+a diamond~
+A diamond has been dropped here.~
+~
+1 1|64 1|16384|65536
+0 0 -1 0
+2 0 0
+A
+12 50
+A
+18 2
+A
+19 2
+#21054
+king hearts sceptre~
+the King of Heart's sceptre~
+The King of Hearts has lost his sceptre.~
+~
+4 64 1|16384
+41 8 8 15
+5 0 0
+#21055
+king hearts crown~
+the King of Heart's crown~
+The King of Heart's crown lies here.~
+~
+9 1|4096 1|16
+0 0 0 0
+15 0 0
+A
+19 6
+#21056
+queen hearts fan~
+the Queen of Heart's fan~
+The Queen of Hearts has dropped her heart-shaped fan.~
+~
+9 0 1|512
+0 0 0 0
+7 0 0
+A
+24 -6
+#21057
+flamingo~
+a flamingo~
+A flamingo that is being used as a croquet mallet wriggles about here.~
+~
+5 64 1|8192
+0 0 0 10
+10 0 0
+A
+2 -2
+A
+13 45
+A
+18 3
+A
+19 4
+#21058
+queen hearts sceptre~
+the Queen of Heart's sceptre~
+The Queen of Hearts has lost her sceptre...~
+~
+4 1|64|4096 1|16384
+45 9 9 63
+8 0 0
+#21059
+tarts~
+the Queen's tarts~
+The Queen's tarts sit on a table here.~
+~
+19 0 1
+24 0 0 0
+5 0 0
+#21060
+axe~
+the executioner's axe~
+The executioner's axe is leaning against one wall here.~
+~
+5 1|16|64|4096 1|32768
+0 0 0 1
+20 0 0
+A
+1 4
+A
+19 8
+#21061
+executioner's hood~
+the executioner's hood~
+The executioner's hood has been left here.~
+~
+9 0 1|16
+0 0 0 0
+1 0 0
+#21062
+slate~
+a slate~
+A slate is covered with meaningless scribbles.~
+~
+2 0 1|16384
+35 38 38 38
+1 0 0
+#21063
+pencil~
+a pencil~
+A squeaky pencil is driving you nuts!~
+~
+5 0 1|8192
+0 0 0 2
+1 0 0
+#21064
+hessian sack~
+a hessian sack~
+A hessian sack, used for supressing, lies here.~
+~
+15 0 1
+150 1 0 0
+15 0 0
+#21065
+rabbit hole~
+a rabbit hole~
+A rabbit hole beckons for you to enter!~
+~
+33 0 0
+21002 0 0 0
+1 0 0
+#21066
+tree door~
+a tree with a tiny door~
+A tree with a tiny door set in it stands here.~
+~
+33 0 0
+21042 0 0 0
+1 0 0
+#0
+
+#ROOMS
+#21000
+A Grassy Field~
+You are standing in a rather pleasant green field, by the banks of a softly
+flowing brook. To the east, you can see a small hedge row, beneath which you
+think you can make out a rabbit hole. Suddenly, a rabbit dashes past,
+muttering something about being late, and disappears down the hole! Oddly
+enough, it has a pocket watch, and you have never seen a rabbit with a 
+watch. You are inspired to investigate!
+~
+0 4 2
+D1
+~
+~
+0 -1 21001
+D3
+~
+~
+0 -1 30046
+S
+#21001
+A Hedge~
+you are standing above the hole now, where the rabbit just disappeared. It
+looks to be rather a tight fit for such a big person as yourself, but you
+sense something magical about it...
+~
+0 0 2
+D3
+~
+~
+0 -1 21000
+S
+#21002
+The Rabbit Hole~
+You are falling down a rabbit hole, unlike any you have ever seen in your
+life! The walls are lined with shelves filled with jars of many different
+substances. And though you are falling without restraint, you do not feel
+that it will cause you any injury upon impact.
+~
+0 8|1048576 0
+D5
+~
+~
+0 -1 21003
+S
+#21003
+The Bottom of the Hole~
+After falling for what seemed like at once forever and hardly any time at
+all, you reach the bottom, landing with a soft thump. To the east stretches
+a long corridor lined with lamps and locked doors. You see the rabbit
+disappear around a corner and leap up to give chase, though you don't know
+why.
+~
+0 8 0
+D1
+~
+~
+0 -1 21004
+D4
+~
+~
+0 -1 21002
+S
+#21004
+A Long Hallway~
+You try the handles of several of the doors, but they are all locked and
+look too strong to pick or bash down. The rabbit's tail can be seen
+disappearing around a corner just up ahead.
+~
+0 8 0
+D1
+~
+~
+0 -1 21005
+D3
+~
+~
+0 -1 21003
+S
+#21005
+A Corner~
+The doors and lamps continue around the corner to the north. Up ahead you
+see the rabbit duck out a door to the east, but you are sure you saw him
+drop something on the way. You hear what sounds like water lapping against
+the edge of a pool to the far north.
+~
+0 8 0
+D0
+~
+~
+0 -1 21006
+D3
+~
+~
+0 -1 21004
+S
+#21006
+Outside the Garden~
+You have reached the door the rabbit bolted through. It is a small golden
+door, which is partially obscured by a curtain. To the north you see what
+looks like a pool of salty water.
+~
+0 8 0
+D0
+~
+~
+0 -1 21007
+D1
+You see a small golden door partially obscured by a curtain.
+~
+curtain golden~
+17 21013 21012
+D2
+~
+~
+0 -1 21005
+S
+#21007
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 8 7
+D0
+~
+~
+0 -1 21010
+D2
+~
+~
+0 -1 21006
+D3
+~
+~
+0 -1 21008
+S
+#21008
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 8 7
+D0
+~
+~
+0 -1 21009
+D1
+~
+~
+0 -1 21007
+S
+#21009
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 8 7
+D1
+~
+~
+0 -1 21010
+D2
+~
+~
+0 -1 21008
+S
+#21010
+Drier Ground~
+You emerge from the pool onto solid ground, where several other animals are
+shivering and attempting to dry off. To the north you see a group of them
+running about madly, and your curiosity is aroused.
+~
+0 8 0
+D0
+~
+~
+0 -1 21011
+D2
+~
+~
+0 -1 21007
+D3
+~
+~
+0 -1 21009
+S
+#21011
+Caucus-Race~
+Here several animals are engaging in a Caucus-Race in order to dry off. It
+seems to involve running about in a circle at random until you are dry,
+though determining a winner is rather difficult.
+~
+0 8 0
+D2
+~
+~
+0 -1 21010
+S
+#21012
+In the Garden~
+You are in a neat little garden, walking along a pebble path toward a small,
+well-kept house that sits at the edge of a dark wood. Birds fly over, gazing
+at you quizzically.
+~
+0 0 3
+D1
+~
+~
+0 -1 21013
+D3
+~
+~
+1 21013 21006
+S
+#21013
+Outside the Rabbit's House~
+You are stanbing outside the house, which apparently belongs to the rabbit
+you were following. Indeed, he stops to demand that you find his gloves and
+fan for him at once, and keeps calling you Mary Ann, before dashing off
+once more. How odd!
+~
+0 0 2
+D0
+The door has a plate that reads- W. RABBIT.
+~
+door~
+1 0 21014
+D1
+~
+~
+0 -1 21019
+D3
+~
+~
+0 -1 21012
+S
+#21014
+Inside the Rabbit's House~
+You are inside a small, tidy house with antique oak furniture in marvellous
+condition. A sitting room lies to the west, while to the east a door leads
+out into the garden.
+
+A set of stairs leads up to the second floor.
+~
+0 8 0
+D1
+~
+~
+1 0 21018
+D2
+~
+~
+1 0 21013
+D3
+~
+~
+1 0 21015
+D4
+~
+~
+0 -1 21016
+S
+#21015
+A Sitting Room~
+This well-appointed chamber has several comfortable arm chairs and a long
+table covered in papers and pens. A herald's uniform has been neatly laid
+out on the table as well, as has a long brass trumpet and a brightly-colored
+hat.
+~
+0 8 0
+D1
+~
+~
+1 0 21014
+S
+#21016
+The Rabbit's Bedroom~
+You race up into the bedroom, where you do indeed see some gloves and a fan-
+several sets in fact- sitting on a a table near a strange looking glass. A
+fireplace can be seen on one wall, and you think you can hear voices coming
+from it.
+~
+0 8 0
+D4
+~
+chimney fireplace~
+0 -1 21017
+D5
+~
+~
+0 -1 21014
+E
+fireplace~
+You peer up it and see a lizard being lowered down on a rope by two guinea
+pigs, while the rabbit yells out directions. Evidently he figured out that
+you weren't Mary Ann, and has called in for some help.
+~
+S
+#21017
+On The Roof~
+You manage to squeeze up the chimney, and emerge on the roof of the rabbit's
+house, confronting the source of the voices. Down below you see the rabbit
+screaming for the house to be burnt down. They are trying to kill you!
+~
+0 0 1
+D5
+~
+chimney fireplace~
+0 -1 21016
+S
+#21018
+Garden~
+You emerge into a garden, near a cucumber patch. It looks as if someone has
+recently fallen into this patch, squashing a great deal of it. You hear the
+rabbit shouting something from outside.
+~
+0 0 3
+D2
+~
+~
+0 -1 21019
+D3
+~
+~
+1 0 21014
+S
+#21019
+On the Edge of the Wood~
+You move away from the house, staring back in amazement at the hive of
+activity. A small cart full of ladders and ropes has been pulled up, and
+several animals are scurrying about, trying to see if you are still in the
+house. The rabbit has gone again, doubtless still attempting to make his
+appointment.
+~
+0 0 2
+D0
+~
+~
+0 -1 21018
+D1
+~
+~
+0 -1 21020
+D3
+~
+~
+0 -1 21013
+S
+#21020
+A Mushroom~
+The path is divided here by a huge mushroom, large enough for you and a few
+friends to sit on. It is currently home to someone else, though. The path
+continues around it to the east.
+~
+0 0 3
+D1
+~
+~
+0 -1 21021
+D3
+~
+~
+0 -1 21019
+S
+#21021
+At the Base of a Tree~
+You pass by a particularly tall tree to the north, from which you can hear
+someone shouting "Serpents! Serpents!" at the top of their lungs. The path
+continues into the wood to the east and west.
+~
+0 0 3
+D1
+~
+~
+0 -1 21024
+D3
+~
+~
+0 -1 21020
+D4
+~
+~
+0 -1 21022
+S
+#21022
+Ascending the Tree~
+You scale the rough-bark tree without too much difficulty, finding adequate
+purchase on its coarse surface, and plenty of hand and foot holds in the form
+of several broad branches.
+~
+0 0 3
+D4
+~
+~
+0 -1 21023
+D5
+~
+~
+0 -1 21021
+S
+#21023
+The Top~
+You reach the top of the tree, poking your head through a thick layer of
+leaves and branches to peer out across a canopy of the same that stretches
+as far as you can see. The sun beats down upon your face, the heat warming
+and cleansing you. A bird's nest rests in the canopy near your head.
+~
+0 0 3
+D5
+~
+~
+0 -1 21022
+S
+#21024
+A Bend in the Path~
+You follow the path through the wood to a bend to the north. At this point
+you can see a house due east, though the path you are on doesn't run in
+that direction.
+~
+0 0 3
+D0
+~
+~
+0 -1 21025
+D3
+~
+~
+0 -1 21021
+S
+#21025
+Another Bend~
+The path bends again here, heading east once more, past the front door of
+the house you spied earlier. The wood is beginning to thin out here, allowing
+you to see a small field surrounding the house.
+~
+0 0 3
+D1
+~
+~
+0 -1 21026
+D2
+~
+~
+0 -1 21024
+S
+#21026
+Outside the Duchess' House (Pig and Pepper)~
+You are standing outside a little house, in an open field. From within you
+can hear what sounds like a pig squealing and plates being smashed. Your
+nose twitches, twice, and you realize that it is being irritated by a
+strong odor of pepper, emanating from within.
+~
+0 0 1
+D1
+~
+~
+0 -1 21030
+D2
+~
+~
+1 0 21027
+D3
+~
+~
+0 -1 21025
+S
+#21027
+A Large Kitchen~
+The door opens directly onto the kitchen of this place, which is filled with
+smoke. Several people are moving about in here, most of them sneezing as you
+are due to the pepper that can be smelled everywhere. A grinning cat sits
+at the feet of the duchess, and its smirk unsettles you
+~
+0 8 0
+D0
+~
+~
+1 0 21026
+D1
+~
+~
+1 -1 21029
+D2
+~
+~
+1 -1 21028
+S
+#21028
+A Bedroom~
+This is the sleeping quarters of the cook. It is currently empty.
+~
+0 8 0
+D0
+~
+~
+1 0 21027
+S
+#21029
+A Bedroom~
+This elegant chamber serves as quarters for the Duchess and her porcine
+child.
+~
+0 8 0
+D3
+~
+~
+1 0 21027
+S
+#21030
+A Bend in the Path~
+The path bends away from the field, heading back north into the wood.
+~
+0 0 2
+D0
+~
+~
+0 -1 21031
+D3
+~
+~
+0 -1 21026
+S
+#21031
+Back in the Wood~
+The path bends again, heading east this time, toward a T-junction, at which
+point a large tree grows near the center of the T. You approach cautiously.
+~
+0 0 3
+D1
+~
+~
+0 -1 21032
+D2
+~
+~
+0 -1 21030
+S
+#21032
+At the Base of the Tree~
+You stop and stare up at the tree and are startled to see a large grin
+floating in mid air above one of the branches! It resembles the grin that the
+cat in the Duchess' house was wearing, and you begin to suspect further
+chicanery.
+~
+0 0 3
+D0
+In this direction lives the March Hare!
+~
+~
+0 -1 21033
+D2
+In this direction lives the Mad Hatter!
+~
+~
+0 -1 21037
+D3
+~
+~
+0 -1 21031
+S
+#21033
+Outside the March Hare's House~
+You are standing outside the March Hare's House. It appears to be deserted...
+~
+0 0 3
+D0
+~
+~
+1 0 21034
+D2
+~
+~
+0 -1 21032
+S
+#21034
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 8 0
+D1
+~
+~
+0 -1 21036
+D2
+~
+~
+1 0 21033
+D3
+~
+~
+0 -1 21035
+S
+#21035
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 8 0
+D1
+~
+~
+0 -1 21034
+S
+#21036
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 8 0
+D3
+~
+~
+0 -1 21034
+S
+#21037
+A Mad Tea Party~
+You come across a strange sight. Three very peculiar individuals are
+gathered around a very long table, drinking tea from many tea sets scattered
+about. Every now and again they stand up, change places and sit down again.
+~
+0 0 2
+D0
+~
+~
+0 -1 21032
+D1
+~
+~
+0 -1 21041
+D2
+~
+~
+1 0 21038
+S
+#21038
+Inside the Hatter's House~
+This house is positively crammed with hats of every shape, shize and
+description. You manage to shove enough aside to enter, and see two rooms
+adjoining this one, both of them equally packed.
+~
+0 8 0
+D0
+~
+~
+1 0 21037
+D1
+~
+~
+0 -1 21040
+D2
+~
+~
+0 -1 21039
+S
+#21039
+The Hatter's House~
+This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+~
+0 8 0
+D0
+~
+~
+0 -1 21038
+S
+#21040
+The Hatter's House~
+This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+~
+0 8 0
+D3
+~
+~
+0 -1 21038
+S
+#21041
+Outside a Tree~
+You continue back into the wood, and soon reach a point where the path is
+blocked by a huge tree. However, there is a tiny door in the tree, through
+which you can proceed...
+~
+0 0 3
+D3
+~
+~
+0 -1 21037
+S
+#21042
+The Long Hallway~
+you are back in the long hallway you first entered upon arriving in
+Wonderland. However it appears quite different this time. The pool of tears
+is gone, as is the table with they key and little bottle. The golden door
+behind the curtain is still present, however, and this provides your only
+way onwards.
+~
+0 8 0
+D1
+~
+curtain golden~
+1 0 21043
+S
+#21043
+In a Garden~
+You are standing in a pretty garden, in which hundreds of red rose bushes
+grow. One of these bushes, on closer inspection, shows patches of white,
+and it is then you notice the three playing cards frantically painting a
+white rose bush red...
+~
+0 0 2
+D1
+~
+~
+0 -1 21044
+D3
+~
+curtain golden~
+1 0 21042
+S
+#21044
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21045
+D1
+~
+~
+0 -1 21049
+D2
+~
+~
+0 -1 21047
+D3
+~
+~
+0 -1 21043
+S
+#21045
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21046
+D1
+~
+~
+0 -1 21050
+D2
+~
+~
+0 -1 21044
+S
+#21046
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D1
+~
+~
+0 -1 21051
+D2
+~
+~
+0 -1 21045
+S
+#21047
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21044
+D1
+~
+~
+0 -1 21048
+S
+#21048
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21049
+D1
+~
+~
+0 -1 21055
+D3
+~
+~
+0 -1 21047
+S
+#21049
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21050
+D1
+~
+~
+0 -1 21054
+D2
+~
+~
+0 -1 21048
+D3
+~
+~
+0 -1 21044
+S
+#21050
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21051
+D1
+~
+~
+0 -1 21053
+D2
+~
+~
+0 -1 21049
+D3
+~
+~
+0 -1 21045
+S
+#21051
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+
+To the north there is a courthouse.
+~
+0 0 2
+D0
+~
+courthouse~
+1 -1 21059
+D1
+~
+~
+0 -1 21052
+D2
+~
+~
+0 -1 21050
+D3
+~
+~
+0 -1 21046
+S
+#21052
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D2
+~
+~
+0 -1 21053
+D3
+~
+~
+0 -1 21051
+S
+#21053
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21052
+D1
+~
+~
+0 -1 21056
+D2
+~
+~
+0 -1 21054
+D3
+~
+~
+0 -1 21050
+S
+#21054
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21053
+D2
+~
+~
+0 -1 21055
+D3
+~
+~
+0 -1 21049
+S
+#21055
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 2
+D0
+~
+~
+0 -1 21054
+D3
+~
+~
+0 -1 21048
+S
+#21056
+On the Road to the Sea~
+You are heading away from the field toward a rocky shoreline. The smell of
+the sea is in the air, and a brisk northerly breeze invigorates you.
+~
+0 0 4
+D1
+~
+~
+0 -1 21057
+D3
+~
+~
+0 -1 21053
+S
+#21057
+A Rocky Ledge~
+You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+~
+0 0 4
+D2
+~
+~
+0 -1 21058
+D3
+~
+~
+0 -1 21056
+S
+#21058
+A Rocky Ledge~
+You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+~
+0 0 4
+D0
+~
+~
+0 -1 21057
+S
+#21059
+Courthouse (Who Stole the Tarts?)~
+You have entered the courthouse, where people are beginning to settle down
+for the trial of the Knave of Hearts, who stole the Queen's tarts.
+~
+0 8 0
+D0
+~
+~
+0 -1 21062
+D1
+~
+~
+0 -1 21061
+D2
+~
+~
+1 0 21051
+D3
+~
+~
+0 -1 21060
+S
+#21060
+The Jury Box~
+Here stands the jury box, where the 12 jurors will judge the case. Like all
+things in Wonderland, the judicial process is a complex, erratic and usually
+futile process.
+~
+0 8 0
+D1
+~
+~
+0 -1 21059
+S
+#21061
+The Witness Box~
+Here the accused or those giving evidence stand, to give their testimony. It
+is a rather pointless exercise, as their statements are either muddled,
+ignored or shouted down.
+~
+0 8 0
+D3
+~
+~
+0 -1 21059
+S
+#21062
+The Main Floor~
+Here the prosecuting and defense attorneys make their cases, before the
+throne where the judge (the King) sits.
+~
+0 8 0
+D4
+~
+~
+0 -1 21063
+D2
+~
+~
+0 -1 21059
+S
+#21063
+The Throne~
+Here sits the King, where he judges the cases. He isn't here yet, as he hasn't
+finished pardoning the players the Queen condemned to death (all of them).
+~
+0 8 0
+D5
+~
+~
+0 -1 21062
+S
+#0
+
+
+#RESETS
+D 1 21006 1 2                    locks door to garden;
+D 1 21012 3 2                    locks door from garden;
+D 1 21013 0 1                    closes door to rabbit house;
+D 1 21014 1 1                    closes door to garden;
+D 1 21014 2 1                    closes door from rabbit house;
+D 1 21014 3 1                    closes door to sitting room;
+D 1 21015 1 1                    closes door from sitting room;
+D 1 21018 3 1                    closes door from garden;
+D 1 21026 2 1                    closes door to pig and pepper;
+D 1 21027 0 1                    closes door from pig and pepper;
+D 1 21027 1 1                    closes door to bedroom;
+D 1 21027 2 1                    closes door to bedroom;
+D 1 21028 0 1                    closes door from bedroom;
+D 1 21029 3 1                    closes door from bedroom;
+D 1 21033 0 2                    locks door to marc hare's house;
+D 1 21034 2 1                    closes door from hare's house;
+D 1 21037 2 1                    closes door to hatter's house;
+D 1 21038 0 1                    closes door from hatter's house;
+D 1 21042 1 1                    closes door to garden;
+D 1 21043 3 1                    closes door from garden;
+D 1 21051 0 1                    closes door to courthouse;
+D 1 21059 2 1                    closes door from courthouse;
+*
+O 1 21010 1 21002                 loads shelf
+P 1 21011 1 21010                 loads marmalade on shelf
+*
+O 1 21012 1 21006                 loads table
+O 1 21013 1 21006                 loads key
+O 1 21014 1 21006                 loads bottle
+O 1 21015 1 21006                 loads box
+P 1 21016 1 21015                 puts cake in box
+*
+M 1 21000 1 21050                 loads alice
+E 1 21057 1 16                   wields flamingo
+E 1 21000 1 5                    wears dress
+E 1 21001 1 13                   wears apron
+E 1 21002 1 21008                 wear shoes
+G 1 21003 0 0                    gives thimble
+*
+M 1 21001 1 21046                 loads rabbit
+E 1 21004 1 12                   wears jacket
+E 1 21005 1 5                    wears waistcoat
+E 1 21006 1 17                   holds watch
+E 1 21007 1 9                    wears gloves
+E 1 21008 1 11                   holds fan
+E 1 21009 1 3                    wears scarf
+*
+M 1 21002 1 21009                 loads mouse
+*
+M 1 21003 1 21008                 loads duck
+*
+M 1 21004 1 21011                 loads dodo
+*
+M 1 21005 1 21010                 loads lory
+*
+M 1 21006 1 21011                 loads eaglet
+*
+M 1 21007 1 21010                 loads magpie
+*
+M 1 21008 1 21010                 loads owl
+*
+M 1 21009 1 21011                 loads crab
+*
+M 1 21010 1 21011                 loads crab
+*
+O 1 21036 1 21015                 loads chair
+O 1 21037 1 21015                 loads chair
+*
+O 1 21017 1 21016                 loads bottle
+O 1 21018 1 21016                 loads table
+O 1 21007 1 21016                 loads gloves
+O 1 21008 1 21016                 loads fan
+*
+M 1 21011 1 21017                 loads lizard
+*
+M 1 21012 2 21017                 loads guinea pig
+G 1 21019 0 0                    gives brandy
+*
+M 1 21013 1 21019                 loads puppy
+*
+M 1 21014 1 21020                 loads caterpillar
+E 1 21020 1 17                   holds hookah
+G 1 21021 0 0                    gives flesh
+G 1 21022 0 0                    gives flesh
+*
+M 1 21015 1 21023                 loads pigeon
+O 1 21026 1 21023                 loads nest
+P 1 21023 1 21026                 puts egg in nest
+P 1 21024 1 21026                 puts egg in nest
+P 1 21025 1 21026                 puts egg in nest
+*
+M 1 21016 1 21026                 loads fish footman
+E 1 21027 1 5                    wears livery
+E 1 21028 1 6                    wears wig
+E 1 21029 1 17                   holds invitation
+*
+M 1 21017 1 21026                 loads frog footman
+E 1 21027 1 5                    wears livery
+E 1 21028 1 6                    wears wig
+*
+M 1 21018 1 21027                 loads duchess
+E 1 21030 1 6                    wears cradle
+O 1 21031 1 21027                 loads soup
+O 1 21032 1 21027                 loads plate
+*
+M 1 21019 1 21027                 loads pig
+*
+M 1 21020 1 21027                 loads cook
+E 1 21032 1 17                   holds plate
+E 1 21033 1 16                   wields spoon
+G 1 21032 0 0                    gives plate
+G 1 21032 0 0                    gives plate
+G 1 21032 0 0                    gives plate
+*
+M 1 21021 1 21032                 loads cheshire cat
+*
+O 1 21035 1 21037                 loads table
+O 1 21036 1 21037                 loads chair
+O 1 21037 1 21037                 loads chair
+O 1 21038 1 21037                 loads chair
+O 1 21039 1 21037                 loads chair
+
+O 1 21043 1 21037                 loads plate
+O 1 21044 1 21037                 loads pot
+O 1 21045 1 21037                 loads cup
+*
+M 1 21022 1 21037                 loads mad hatter
+E 1 21034 1 6                    wears hat
+E 1 21040 1 3                    wears tie
+E 1 21041 1 12                   wears coat
+E 1 21046 1 5                    wears shirt
+E 1 21047 1 7                    wears breeches
+E 1 21048 1 8                    wears shoes
+*
+M 1 21023 1 21037                 loads march hare
+E 1 21042 1 6                    wears hair
+E 1 21046 1 5                    wears shirt
+E 1 21047 1 7                    wears breeches
+E 1 21048 1 8                    wears shoes
+*
+M 1 21024 1 21037                 loads dormouse
+E 1 21046 1 5                    wears shirt
+E 1 21047 1 7                    wears breeches
+E 1 21048 1 8                    wears shoes
+*
+O 1 21051 1 21043                 loads roses
+*
+M 1 21027 1 21043                 loads five
+E 1 21049 1 17                   holds can
+E 1 21050 1 16                   wields brush
+*
+M 1 21028 1 21043                 loads seven
+E 1 21049 1 17                   holds can
+E 1 21050 1 16                   wields brush
+*
+M 1 21029 1 21043                 loads two
+E 1 21049 1 17                   holds can
+E 1 21050 1 16                   wields brush
+*
+M 1 21030 4 21047                 loads soldiers
+E 1 21052 1 16                   wields club
+*
+M 1 21031 4 21052                 loads courtiers
+E 1 21053 1 0                    holds diamond
+E 1 21057 1 16                   wields flamingo
+*
+M 1 21032 4 21054                 loads children
+G 1 21059 0 0                    gives tarts
+*
+M 1 21033 1 21051                 loads king
+E 1 21054 1 17                   holds sceptre
+E 1 21055 1 6                    wears crown
+E 1 21057 1 16                   wields flamingo
+*
+M 1 21034 1 21055                 loads queen
+E 1 21056 1 11                   holds fan
+E 1 21057 1 16                   wields flamingo
+E 1 21058 1 17                   holds sceptre
+*
+M 1 21035 1 21061                 loads knave
+G 1 21059 0 0                    gives tarts
+*
+M 1 21036 4 21050                 loads flamingoes
+*
+M 1 21037 4 21045                 loads hedgehogs
+M 1 21037 4 21048                 loads hedgehogs
+M 1 21037 4 21042                 loads hedgehogs
+*
+M 1 21038 1 21049                 loads executioner
+E 1 21060 1 16                   wields axe
+E 1 21061 1 6                    wears mask
+*
+M 1 21039 1 21058                 loads mock turtle
+*
+M 1 21040 1 21056                 loads gryphon
+*
+M 1 21041 12 21060                loads jurors
+E 1 21062 1 17                   holds slate
+E 1 21063 1 16                   wields pencil
+*
+M 1 21042 2 21059                 loads officials
+G 1 21064 0 0                    gives sack
+*
+*portals
+O 1 21065 1 21001                 rabbit hole
+O 1 21066 1 21041                 tree to hall and garden
+S
+
+#SPECIALS
+M 21001      spec_cast_mage
+M 21014      spec_breath_gas
+M 21021      spec_cast_mage
+M 21030      spec_guard
+M 21035      spec_thief
+M 21038      spec_executioner
+M 21040      spec_fido
+M 21042      spec_guard
+S
+
+#TRIGGERS
+M 21000      trigm_alive
+M 21001      trigm_alive
+M 21002      trigm_alive
+M 21003      trigm_alive
+M 21004      trigm_alive
+M 21005      trigm_alive
+M 21006      trigm_alive
+M 21007      trigm_alive
+M 21008      trigm_alive
+M 21009      trigm_alive
+M 21010      trigm_alive
+M 21011      trigm_alive
+M 21012      trigm_alive
+M 21013      trigm_alive
+M 21014      trigm_alive
+M 21015      trigm_alive
+M 21016      trigm_alive
+M 21017      trigm_alive
+M 21018      trigm_alive
+M 21019      trigm_alive
+M 21020      trigm_alive
+M 21021      trigm_alive
+M 21022      trigm_alive
+M 21023      trigm_alive
+M 21024      trigm_alive
+M 21027      trigm_alive
+M 21028      trigm_alive
+M 21029      trigm_alive
+M 21030      trigm_alive
+M 21031      trigm_alive
+M 21032      trigm_alive
+M 21033      trigm_alive
+M 21034      trigm_alive
+M 21035      trigm_alive
+M 21036      trigm_alive
+M 21037      trigm_alive
+M 21038      trigm_alive
+M 21039      trigm_alive
+M 21040      trigm_alive
+M 21041      trigm_alive
+M 21042      trigm_alive
+S
+
+#$

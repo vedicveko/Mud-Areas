@@ -1,0 +1,958 @@
+#AREA
+Underneath the Asylum~
+K underasylum~
+L {RMORT}~
+N 156
+I 95 115
+V 5100 5299
+X 0
+F 8
+U A large puddle of slime drips onto your back.~
+O Zenithar~
+R Zenithar~
+W Zenithar~
+#ROOMS
+#5100
+Bottom of the Stairs~
+The humidity in the lower level of the Asylum is almost
+more than you can bear. Slime covers the walls, the floor, even the
+ceiling, and tracks can be seen wandering off into the darkness.
+~
+12 0
+D0
+Ahead lies a narrow corridor, gloomy in it's darkness.  You think you
+glance a few gleaming eyes just above floor level far ahead.
+~
+~
+1 -1 5101
+D4
+~
+~
+0 0 16030
+E
+slime~
+Fresher than before this Slime seems almost alive, as the light
+glimmers evilly off of the wet surfaces.
+~
+E
+tracks~
+The tracks also seem more fresh, and not only include the 3-toed marks
+spread widely apart, but also several tracks that have a long, straight
+depression between the alternating humanoid footsteps.
+~
+S
+#5101
+A dark corridor~
+Puddles of Slime lie scattered about, staining the marble of the
+floor.  Not much can be seen around you as the darkness cloaks you.
+~
+9 0
+D0
+~
+~
+0 -1 5102
+D2
+Peering through the gloom, you see the bottom of an old marble staircase
+
+~
+~
+1 -1 5100
+E
+slime~
+More large puddles of slime lie about on the marble.
+~
+S
+#5102
+A dark corridor~
+Puddles of Slime lie scattered about, staining the marble of the
+floor.  Not much can be seen around you as the darkness cloaks you.
+~
+9 0
+D1
+~
+~
+0 -1 5103
+D2
+~
+~
+0 -1 5101
+D3
+~
+~
+0 -1 5104
+S
+#5103
+A dark corridor~
+Puddles of Slime lie scattered about, staining the marble of the
+floor.  Not much can be seen around you as the darkness cloaks you.
+~
+9 0
+D0
+~
+~
+0 -1 5115
+D3
+~
+~
+0 -1 5102
+S
+#5104
+A dark corridor~
+Puddles of Slime lie scattered about, staining the marble of the
+floor.  Not much can be seen around you as the darkness cloaks you.
+~
+9 0
+D0
+~
+~
+0 -1 5105
+D1
+~
+~
+0 -1 5102
+S
+#5105
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+13 0
+D0
+~
+~
+0 -1 5106
+D2
+~
+~
+0 -1 5104
+S
+#5106
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5119
+D2
+~
+~
+0 -1 5105
+D3
+~
+~
+0 -1 5107
+S
+#5107
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D1
+~
+~
+0 -1 5106
+D2
+~
+~
+0 -1 5114
+D3
+~
+~
+0 -1 5108
+S
+#5108
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5109
+D1
+~
+~
+0 -1 5107
+D3
+~
+~
+0 -1 5110
+S
+#5109
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5110
+D3
+~
+~
+0 -1 5116
+D4
+~
+~
+0 -1 5108
+S
+#5110
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D1
+~
+~
+0 -1 5111
+D2
+~
+~
+0 -1 5114
+D3
+~
+~
+0 -1 5109
+S
+#5111
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5112
+D1
+~
+~
+0 0 5118
+D3
+~
+~
+0 -1 5110
+S
+#5112
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D2
+~
+~
+0 -1 5111
+D3
+~
+~
+0 -1 5113
+S
+#5113
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5117
+D2
+~
+~
+0 -1 5112
+D3
+~
+~
+0 -1 5114
+S
+#5114
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5115
+D1
+~
+~
+0 -1 5113
+D2
+~
+~
+0 -1 5115
+S
+#5115
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+13 0
+D1
+~
+~
+0 -1 5114
+D3
+~
+~
+0 0 5114
+D4
+~
+~
+0 -1 5116
+S
+#5116
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5117
+D2
+~
+~
+0 0 5109
+D3
+~
+~
+0 -1 5115
+S
+#5117
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D2
+~
+~
+0 -1 5116
+D3
+~
+~
+0 -1 5118
+S
+#5118
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5119
+D1
+~
+~
+0 -1 5117
+D3
+~
+~
+0 -1 5111
+S
+#5119
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D0
+~
+~
+0 -1 5120
+D2
+~
+~
+0 -1 5118
+S
+#5120
+The Vast Darkness~
+In every direction the humid expanse of darkness weighs upon this chamber.
+You cannot see the walls, or even begin to suspect there are any. Left to
+themselves for so long, the denizens of this chamber have made it more
+habitable--pools of slime literally envelop your feet as you meander
+about.
+~
+9 0
+D1
+~
+~
+0 -1 5121
+D4
+~
+~
+0 -1 5119
+S
+#5121
+A Small Alcove~
+The slime is non-existent here, as if someone or something has been
+keeping this area dry. Shadows hide most of the details of the furthest wall,
+but it seems uninteresting, just like the rest of this bleak chamber. 
+~
+13 0
+D0
+~
+^tunnel~
+1 -1 5122
+D2
+~
+~
+0 -1 5120
+E
+shadows~
+Peering deeper into the shadows, you notice a small tunnel.
+~
+E
+slime~
+What slime???
+~
+E
+wall~
+The furthest wall is hidden by the shadows.
+~
+S
+#5122
+Another Corridor~
+A small chamber branches off from the alcove to the south.  The sounds of
+low moaning draw your attention, from somewhere off to the north.
+~
+13 0
+D0
+~
+~
+0 -1 5123
+D2
+~
+^alcove~
+1 -1 5121
+S
+#5123
+Another Corridor~
+The darkness seems to have lifted, and you notice that this section of the
+Asylum seems to be in more use.  It is cleaner, with less dust than what
+you have seen previously, and give you an overall impression of recent
+occupancy.
+~
+8 0
+D1
+~
+~
+0 -1 5124
+D2
+~
+~
+0 -1 5122
+E
+asylum~
+You peer about the walls around you..yup, you're in the Asylum!!
+~
+S
+#5124
+An Unused Room~
+This small room seems to have once been appointed as a sleeping chamber.  A
+small bed, covered in dust lies in one corner, and an ancient wooden
+closet fills another.
+Dust also covers the floors, but not in the same amount as elsewhere throught the Asylum.
+~
+13 0
+D0
+~
+^closet~
+1 -1 5125
+D3
+~
+~
+0 -1 5123
+E
+dust~
+Tracks in the dust of a normal sized human lead from the bed to the closet,
+and also towards the door.
+~
+E
+closet~
+Peering into the darkened closet, you notice that it seems larger on the
+inside..and you can't really make out the back wall.
+~
+E
+bed~
+Tidily made up, it does show signs of recent use.
+~
+S
+#5125
+The Bright Corridor~
+The bright lights here momentarily blind you, after hours of darkness.
+Obviously, the abandoned nature of the subterranean depths of the Asylum
+was misleading.
+~
+8 0
+D0
+~
+~
+0 -1 5126
+D2
+~
+~
+1 -1 5124
+S
+#5126
+The Bright Corridor~
+The corridor is completely clean, and obviously maintained that way for a
+very specific reason.
+~
+8 0
+D0
+~
+~
+0 -1 5128
+D1
+~
+~
+1 5100 5127
+D2
+~
+~
+0 -1 5125
+D3
+~
+~
+0 -1 5133
+S
+#5127
+An Experimentation Chamber~
+It becomes apparent why this section is kept clean.  A gurney stands before
+you, covered in stains, and you immediately notice the very large
+straps attatched to the sides.  Several dozen implements line the walls,
+ranging from small scalpels to a large device that appears designed to
+seperate skull plates.
+~
+0 0
+D3
+~
+~
+1 5100 5126
+D5
+~
+trapdoor~
+1 -1 5131
+E
+stains~
+These stains appear very recent.  Whomever was last strapped to the gurney
+appears to have lost a LOT of blood.
+~
+E
+device~
+As you peer closer at the device, your interest piqued, you attempt to remove
+it from the wall.  Suddenly, a LOUD SHRIEK is heard behind you!! Spinning
+about, you now notice a secret trapdoor in the floor!
+~
+E
+straps~
+These straps are extremely strong, obviously capable of restraining anyone
+in the throes of extreme insanity, or pain.
+~
+S
+#5128
+The Laboratory~
+This room is immense, and filled with several gurneys, in various states of use.  Some are completely fresh, some are covered in dried stains, and some seem rather recently used, judging by the blood on them.
+~
+8 0
+D0
+~
+~
+0 -1 5129
+D1
+~
+~
+0 -1 5132
+D2
+~
+~
+0 -1 5126
+D3
+~
+~
+0 -1 5130
+S
+#5129
+The Laboratory~
+This gurney seems the most recently used..actually, the fresh corpse
+strapped to it makes it obvious.  Flayed from within it seems, the body cavity
+is obviously a disaster, organs seemingly dissolved in acid, lungs way too
+small for the rest of the body, and a strange 5 chambered heart perched above
+them. The most unusual aspect of the corpse, however, is the appearance of
+gills that have been grafted on the neck, and the greenish color of the skin.
+Even worse are the bulging eyes, seemingly ready to explode from within
+the sockets.
+~
+8 0
+D2
+~
+~
+0 -1 5128
+S
+#5130
+The Storage Room~
+Hundreds of specimen jars line the walls of this small chamber, filled with various body parts.  While most appear humanoid, the strange shape of a few of the limbs and specimens appear almost amphibian. 
+~
+8 0
+D1
+~
+~
+0 -1 5128
+S
+#5132
+The Preperation Room~
+Chains on the walls make it obvious that this is where the poor victims
+are held prior to experimentation.
+~
+8 0
+D3
+~
+~
+0 -1 5128
+S
+#5131
+A Small Office~
+This office is unoccupied at the moment, but appears recently used. The desk
+is immaculate, and in fact appears untouched by human hands.
+~
+0 0
+D4
+~
+~
+1 -1 5127
+S
+#5133
+The Bright Corridor~
+The corridor here grows a little darker than before, even more dark to the
+west.
+~
+8 0
+D1
+~
+~
+0 -1 5126
+D3
+~
+~
+0 -1 5134
+S
+#5134
+The Darkened Corridor~
+The gloomy feeling you had earlier overcomes your senses once again, and you suddenly yearn for escape from this evil place.
+~
+12 0
+D1
+~
+~
+0 -1 5133
+D3
+~
+~
+0 -1 5135
+S
+#5135
+Altar of the Unknown~
+Driving fear into your soul, a terrifying sculpture overwhelms you.  A veritable monstrosity, the thing before you is both strangely humanoid, and fiendishly amphibian.  Slimy flesh covers monstrous limbs, perverted features of a tortured soul fixate your thoughts as you glance at the human skull.
+The body is frog-like, appearing poised to leap at any moment, and the splayed feet end in three appendages.
+~
+9 0
+D1
+~
+~
+0 -1 5134
+E
+altar~
+~
+S
+#0
+#MOBILES
+#5100
+guardian~
+An Asylum Guardian~
+An Asylum Guardian oversees security.
+~
+~
+3145785 680 0 S
+101 1
+-800 310 350
+! 3 0 0 7 22542 589824 72
+#5101
+thing~
+A hideous amphibious thing~
+A corrupted thing formed from an amphibian melded with a human hops
+about.
+~
+~
+3145753 680 0 S
+96 1
+-750 250 200
+! 0 0 0 7 22542 589824 72
+#5102
+thing~
+An oversized frog-like thing~
+An oversized frog, strangely appearing humanoid, hops towards you.
+
+~
+~
+3407929 680 0 S
+100 1
+-670 250 250
+! 0 0 0 7 22542 589824 8
+#5103
+frog~
+A huge demonic Frog~
+The demonic form of a human melded with a Frog glares at you
+
+~
+~
+3162137 68266 0 S
+121 1
+-910 380 400
+! 0 0 0 7 415758 17367040 48
+#5104
+administrator~
+The Asylum Administrator~
+A tiny man, looking rather harmless wanders about, observing the Asylum
+ experiments.
+~
+~
+36716561 68266 0 S
+120 1
+-1500 600 600
+! 0 0 0 7 415758 50921472 48
+#5105
+monstrosity~
+A Demonic Monstrosity~
+A monstrosity from the depths of corruption stands before you!!!
+~
+~
+36716593 68266 0 S
+138 1
+-2000 800 1000
+! 0 0 0 7 415758 50921472 48
+#0
+#OBJECTS
+#5100
+key~
+An Asylum key~
+A small figurine in the shape of a demonic frog lies here.
+~
+18 0 1 1
+0 0 0 0
+1
+L
+80
+#5101
+^altar~
+Altar of the Unknown~
+~
+14 65536 0 1
+9 3 5105 0
+1000
+E
+altar~
+~
+L
+10
+#5102
+sash~
+An Asylum sash~
+~
+9 262800 2049 1281
+0 0 0 0
+1
+A
+17 -170
+A
+19 22
+A
+18 21
+A
+13 120
+A
+12 150
+A
+2 -2
+L
+40
+#5103
+gauntlets~
+Asylum Gauntlets~
+A pair of Asylum Gauntlets lies here.~
+9 262786 129 261
+0 0 0 0
+10
+A
+19 34
+A
+18 35
+A
+12 -100
+A
+13 -50
+A
+2 -3
+L
+45
+#5104
+stain~
+a slimy stain~
+The remnants of a dried pool of slime covers the floor.~
+9 393408 9 17
+0 0 0 0
+1
+A
+17 -240
+A
+12 150
+A
+13 200
+A
+1 -2
+A
+2 -2
+A
+5 -1
+A
+24 -20
+L
+35
+#5105
+rod~
+Rod of Submission~
+A blackened rod, covered in stains lies here.~
+5 33816720 270337 257
+0 0 0 8
+15
+A
+18 23
+A
+19 25
+A
+17 -100
+L
+50
+#5106
+slime~
+Petrified slime~
+A tiny blob of petrified slime lies here.~
+9 262272 65537 65543
+0 0 0 0
+2
+A
+17 -120
+A
+13 140
+A
+12 120
+A
+19 19
+L
+30
+#0
+#RESETS
+R 0 5120 5 (null)
+
+R 0 5115 5 (null)
+
+R 0 5112 5 (null)
+
+R 0 5109 5 (null)
+
+D 0 5127 3 2 (null)
+
+D 0 5126 1 2 (null)
+
+O 0 5101 0 5135 (null)
+
+M 0 5100 5 5102 (null)
+
+E 0 5105 0 16 (null)
+
+E 0 5103 0 9 (null)
+
+E 0 5102 0 13 (null)
+
+G 0 5100 0 (null)
+
+M 0 5101 15 5110 (null)
+
+M 0 5102 10 5117 (null)
+
+E 0 5104 0 5 (null)
+
+M 0 5103 8 5113 (null)
+
+E 0 5104 0 5 (null)
+
+E 0 5106 0 19 (null)
+
+M 0 5104 1 5126 (null)
+
+S
+#SPECIALS
+M 5102 spec_thief
+M 5101 spec_poison
+S
+#$

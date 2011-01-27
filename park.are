@@ -1,0 +1,1280 @@
+#AREA
+DSA Format~
+park.are~
+Shady Breezes Park~
+{65 99} Alecca  Shady Breezes Park~
+21800 21899
+Descr
+No description.
+~
+Sec 9
+Levels 1 101
+Flags A
+End
+#HELPS
+Shady Breezes Park is a place where many go to relax and hike, and just
+spend the day.  There is a beautiful lake where people like to picnic and
+frolic the day away.  It is also a haven for animals of all types, but
+falcon's tend to be very abundant.  It must be the fresh air :)
+
+Shady Breezes Park was written by Alecca for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.
+-1 $~
+
+#MOBILES
+#21801
+a man~
+A man~
+A man is out taking a leisurely stroll.
+~
+A man is just strolling around, enjoying the day.
+~
+human~
+ACMNR CDIV N -1000 0
+80 22 25d10+5000 10d5+100 10d8+75 slash
+-17 -18 -19 -20
+ABDEFGIJ AB 0 0
+stand stand male 1850
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 5
+End
+#21802
+owl~
+an owl~
+An owl hoots at you.
+~
+The owl is old and wise.  Just a normal owl.  Nothing special 
+about him.
+~
+human~
+ACGR 0 0 -768 0
+70 0 10d10+3750 10d10+1000 4d10+60 pierce
+-11 -9 -12 -7
+FKN AB 0 0
+stand stand male 1200
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 7
+End
+#21803
+azelaar~
+Azelaar~
+Azelaar is entranced by the view of the park before him.
+~
+Azelaar is lost in the beauty of the park.  A religious man, 
+by nature, he worships everything of the earth.
+~
+human~
+ABGS 0 0 -253 0
+82 0 10d10+3950 10d10+2000 5d10+40 none
+-13 -13 -13 -18
+FKN ABI 0 0
+stand stand male 1900
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 2
+End
+#21804
+abaat~
+Abaat~
+Abaat rests in the shade.
+~
+Abaat is a man known for his cunning trickeries.  What could he want 
+in a place of innocence such as this park?
+~
+human~
+ABCGQ I H -720 0
+95 7 25d10+8600 25d10+3000 6d24+49 none
+-19 -19 -19 -20
+ABFK AB 0 0
+rest stand male 2500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#21805
+axyll~
+Axyll~
+Axyll is standing here.
+~
+Axyll is an old retired warrior.  He enjoys spending hours in the 
+park reminiscing on old battles of yore.
+~
+human~
+ABCFG 0 0 -1000 0
+90 3 25d10+6600 25d8+2000 5d8+30 none
+-14 -14 -15 -12
+AD ABF 0 0
+stand stand male 5000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21806
+afflack~
+afflack~
+Afflack stands here.
+~
+Afflack stands about fifteen feet tall.  He is thin and sparse
+and very, very unattractive.
+~
+unique~
+ABGT DQc BH 1000 0
+103 10 50d10+8000 50d10+6000 6d7+175 beating
+-28 -28 -28 -28
+ABFHKN ABK 0 0
+stand stand male 9000
+AHMV ABCDEFGHIJK huge none
+~
+MaxWorld 3
+End
+#21807
+merrill~
+Merrill~
+Merrill reads a book.
+~
+Merrill is attempting to be the one person who knows EVERYTHING in the
+realms.  She has read over 30,000 books, and is almost done with this
+one.  She is a mousy lady, you'd have to be to read that many books!
+~
+human~
+ABGR D 0 -750 0
+98 8 50d10+6000 50d10+2800 4d10+45 beating
+-19 -19 -15 -20
+AFK ABH 0 0
+stand stand female 5000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21808
+falcon~
+a falcon~
+A falcon swoops overhead.
+~
+What a regal looking bird.
+~
+human~
+ABG D 0 825 0
+90 2 25d10+6000 10d50+5500 10d10+90 peck
+-17 -18 -19 -19
+A AB 0 0
+stand stand male 4500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21809
+toothless harlot~
+a toothless harlot~
+A harlot tries to look seductive, hiking up her short skirt.
+~
+She's not all that...but that's what paper bags are for in bed.
+~
+human~
+ABG D 0 1000 0
+100 15 50d10+6500 50d10+6000 10d10+70 cleave
+-20 -20 -20 -20
+AFKN ABJ 0 0
+stand stand female 9750
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21810
+jorthan~
+Jorthan~
+Jorthan is looking for a trick.
+~
+Jorthan is probably the horniest man alive.  He is so desperate,
+he pays for sex.
+~
+human~
+ABGS PQ BH -1000 0
+103 22 50d10+6000 50d10+6000 10d10+150 claw
+-22 -18 -23 -25
+ABFHK AB 0 0
+stand stand male 12000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21811
+thysahn~
+thysahn~
+Thysahn is here biting his fingernails.
+~
+Thysahn is just standing here, biting on his nails.  There is nothing 
+special at all about him.
+~
+human~
+ABGRST DQVc BH -1000 0
+105 30 50d10+9000 50d10+12000 6d40+100 bite
+-25 -25 -25 -25
+ABDFHKN AB 0 0
+stand stand male 13500
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#21812
+alsbet~
+Alsbet~
+Alsbet fans herself in the shade.
+~
+Alsbet is a vision of lovliness.  She bats her eyes coyly,
+in the attempt to get the richest husband possible.
+~
+human~
+ABGS 0 0 -500 0
+69 5 10d8+4500 10d10+1000 4d10+40 bite
+-10 -13 -10 -9
+ABFKN AB 0 0
+stand stand female 5000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 5
+End
+#21813
+passerby~
+a passerby~
+A passerby passes by.
+~
+Just on a stroll in the park, he doesn't seem to notice anything
+going on around him.
+~
+human~
+ACMNR CDIV N -1000 0
+86 22 25d10+3500 10d5+1300 10d8+85 claw
+-17 -18 -19 -20
+ABDEFGIJ ABI 0 0
+stand stand male 7000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 5
+End
+#21814
+crying child~
+a crying child~
+A child is looking for his friend and crying.
+~
+This child came to the park to play with his friend, who hasn't shown up
+yet.  Man, what a crybaby, his friend is hardly late at all, but Henri
+is already crying!
+~
+human~
+ACMNR CDIV N -1000 0
+90 22 25d10+6500 10d5+1300 10d8+85 pierce
+-17 -18 -19 -20
+ABDEFGIJ AB 0 0
+stand stand male 7000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 3
+End
+#21815
+birgitta~
+Birgitta~
+A blonde bombshell walks by.
+~
+Birgitta is a blonde beauty who tries to rule men with icy commands.
+Her blue eyes seem like frozen crystals.
+~
+human~
+ABGS PQ BH -1000 0
+102 22 50d10+6000 50d10+6000 10d10+150 slash
+-25 -20 -25 -25
+ABFHK AB 0 0
+stand stand female 13000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#0
+
+
+
+#OBJECTS
+#21800
+Shady Breezes Shades~
+shady Breezes Shades~
+Some shades have been left here.~
+porcelain~
+armor ABGI AY
+CE CE CE E 0
+85 20 10220 P
+A
+20 -3
+A
+5 5
+A
+14 100
+A
+13 100
+A
+19 15
+A
+18 15
+~
+End
+#21801
+An Ankle Tattoo~
+an Ankle Tattoo~
+An Ankle Tattoo is here - (I guess it's removable).~
+ethereal~
+armor ABGI AT
+ACE ACE ACE AE 0
+90 20 1234 P
+A
+1 2
+A
+14 200
+A
+5 4
+A
+19 15
+A
+18 15
+A
+13 80
+~
+End
+#21802
+falcon feather necklace~
+a falcon feather necklace~
+A necklace of feathers is here.~
+none~
+armor ABGY AC
+ACD BCD ABE CD 0
+90 10 1700 P
+A
+13 200
+A
+19 22
+A
+18 18
+~
+End
+#21803
+faded black cloak~
+a {7faded{8 black{0 cloak~
+A darkish cloak is on the floor.~
+none~
+armor ABGY AC
+ACD ACD ABD BD 0
+65 0 1400 P
+F
+A 2 3 V
+A
+13 165
+A
+19 16
+A
+18 13
+~
+End
+#21804
+nature ring~
+nature ring~
+A ring made from nature's elements is here.~
+none~
+armor ABGY AB
+CD CD CD CD 0
+90 10 2000 P
+A
+19 14
+A
+18 25
+A
+17 3
+A
+13 200
+A
+2 2
+A
+1 3
+~
+End
+#21805
+pinecone ring~
+pinecone ring~
+A pinecone with a hole bored through it is here.~
+none~
+armor ABGIY AB
+CD CD CD CD 0
+101 10 2000 P
+F
+A 0 0 DFPQc
+A
+18 40
+~
+End
+#21806
+falcon eyes~
+falcon eyes~
+Eyes sparkle like jewels.~
+mithril~
+wand ABCF AO
+90 50 50 'charm person' 0
+79 10 3250 P
+~
+End
+#21807
+finger nails~
+{1Deep Red Fingernails{0~
+Someone's fingernail must have popped off here.~
+none~
+weapon AEGI AN
+sword 8 19 divine DE
+90 50 1100 P
+A
+18 16
+A
+19 16
+~
+End
+#21808
+large wallet~
+a large overstuffed wallet~
+Woah!  Someone left their wallet on the ground!~
+none~
+armor ABCGIY AD
+ACD ACD ACD ACD 0
+95 125 1220 P
+A
+19 15
+A
+18 20
+A
+1 2
+~
+End
+#21809
+whirling disk~
+a whirling disk~
+A disk whirls on the ground.~
+none~
+armor ABCFIY AJ
+CD CD CD CD 0
+93 17 1000 P
+A
+19 18
+A
+18 14
+A
+2 2
+A
+1 2
+~
+End
+#21810
+crystal lake~
+a {ccr{Cy{&s{Ct{cal{0 lake~
+A beautiful, crystalline lake fades into the distance.~
+none~
+fountain 0 0
+50 50 'water' 0 0
+0 0 0 P
+~
+End
+#21811
+walking stick~
+a walking stick~
+A stick is on the ground.~
+mithril~
+wand ABC AO
+90 35 35 'chain lightning' 0
+80 10 3250 P
+~
+End
+#21812
+cane~
+A cane~
+Axyll must have forgotten his cane here.~
+none~
+wand ABCF AO
+90 15 15 'ray of truth' 0
+80 10 3250 P
+~
+End
+#21813
+thick nerdy glasses~
+thick, nerdy glasses~
+Ack!! Get away, only a nerd would wear these glasses!~
+none~
+armor ABFI AY
+ABCD E CD ABE 0
+91 20 1000 P
+A
+1 2
+A
+18 20
+A
+19 18
+~
+End
+#21814
+glaive~
+a glaive~
+A polearm is stacked against the wall.~
+none~
+weapon AEGI AN
+polearm 13 13 shard DE
+101 50 1300 P
+A
+18 26
+A
+19 20
+~
+End
+#21815
+lightweight buckler~
+a lightweight buckler~
+A small buckler is on the ground.~
+obsidian~
+armor ABCFIY AJ
+CD CD CD CD 0
+98 17 1000 P
+A
+19 22
+A
+18 24
+A
+2 2
+A
+1 2
+~
+End
+#21816
+feather whip~
+a feather whip~
+A bunch of feathers is on the ground.~
+fur~
+weapon ABITU AN
+whip 13 13 shard ABDEH
+101 50 10000 P
+A
+13 300
+A
+18 20
+A
+19 25
+A
+14 240
+A
+20 -3
+~
+End
+#0
+
+
+
+#ROOMS
+#21801
+A nature trail~
+This nature trail leads to the entrance of Shady Breezes Park.  
+Shady Breezes is perhaps one of the most visited parks ever.  It
+is known for it's recreational activities, as well as for it's 
+beauty.
+~
+0 0 3
+D0
+~
+~
+0 -1 21802
+End
+D3
+~
+~
+0 0 3907
+End
+S
+End
+#21802
+The trail continues~
+Pine cones and pine needles line the path as it continues to the 
+north.  Small signs to the sides of the path give information on 
+the flora and fauna surrounding the path.
+~
+0 4 3
+D0
+~
+~
+0 -1 21803
+End
+D2
+~
+~
+0 -1 21801
+End
+S
+End
+#21803
+The Nature Trail~
+Pine cones and pine needles line the path as it continues to the 
+north.  Small signs to the sides of the path give information on 
+the flora and fauna surrounding the path.
+~
+0 0 3
+D0
+~
+~
+0 -1 21804
+End
+D2
+~
+~
+0 -1 21802
+End
+S
+End
+#21804
+Entrance to Shady Breezes Park~
+Big stone columns form an immense archway to the north.  There is
+a large sign where the arches meet greeting visitors to the park.
+~
+0 0 2
+D0
+~
+~
+0 -1 21805
+End
+D2
+~
+~
+0 -1 21803
+End
+S
+Reset M 21801 3 100 0 Load A man.
+Reset M 21801 3 100 0 Load A man.
+Reset M 21801 3 100 0 Load A man.
+Reset E 21800 27 100 0 Shady breezes shades is loaded worn on eyes of shady Breezes Shades
+End
+#21805
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21806
+End
+D1
+~
+~
+0 -1 21810
+End
+D2
+~
+~
+0 -1 21804
+End
+D3
+~
+~
+0 -1 21811
+End
+S
+End
+#21806
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21807
+End
+D1
+~
+~
+0 -1 21820
+End
+D2
+~
+~
+0 -1 21805
+End
+D3
+~
+~
+0 -1 21812
+End
+S
+End
+#21807
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21808
+End
+D1
+~
+~
+0 -1 21816
+End
+D2
+~
+~
+0 -1 21806
+End
+D3
+~
+~
+0 -1 21829
+End
+S
+End
+#21808
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21809
+End
+D1
+~
+~
+0 -1 21817
+End
+D2
+~
+~
+0 -1 21807
+End
+D3
+~
+~
+0 -1 21813
+End
+S
+End
+#21809
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21818
+End
+D2
+~
+~
+0 -1 21808
+End
+D3
+~
+~
+0 -1 21814
+End
+S
+Reset O 21810 1 100 0 Load A {ccr{cy{&s{ct{cal{0 lake.
+Reset M 21814 1 100 0 Load a crying child.
+Reset E 21803 3 100 0 A {7faded{8 black{0 cloak is loaded around the neck (1) of a {7faded{8 black{0 cloak
+End
+#21810
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21819
+End
+D3
+~
+~
+0 -1 21805
+End
+S
+Reset M 21814 1 100 0 Load a crying child.
+Reset E 21803 3 100 0 A {7faded{8 black{0 cloak is loaded around the neck (1) of a {7faded{8 black{0 cloak
+End
+#21811
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21812
+End
+D1
+~
+~
+0 -1 21805
+End
+D2
+~
+~
+0 -1 21821
+End
+S
+Reset M 21812 1 100 0 Load Alsbet.
+Reset M 21814 1 100 0 Load a crying child.
+Reset E 21803 3 100 0 A {7faded{8 black{0 cloak is loaded around the neck (1) of a {7faded{8 black{0 cloak
+End
+#21812
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21806
+End
+D2
+~
+~
+0 -1 21811
+End
+D3
+~
+~
+0 -1 21822
+End
+S
+End
+#21813
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21808
+End
+D2
+~
+door~
+1 21807 21825
+Flags A
+End
+D3
+~
+~
+0 -1 21823
+End
+S
+End
+#21814
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21809
+End
+D3
+~
+~
+0 -1 21815
+End
+S
+Reset M 21813 1 100 0 Load a passerby.
+Reset E 21811 17 100 0 A walking stick is loaded held in the hands of a walking stick
+End
+#21815
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.  
+~
+0 0 1
+D0
+~
+~
+0 -1 21826
+End
+D1
+~
+~
+0 -1 21814
+End
+D2
+~
+~
+0 -1 21824
+End
+S
+End
+#21816
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.  
+~
+0 0 1
+D0
+~
+~
+0 -1 21817
+End
+D3
+~
+~
+0 -1 21807
+End
+S
+Reset M 21802 1 100 0 Load an owl.
+Reset M 21813 2 100 0 Load a passerby.
+Reset E 21801 23 100 0 An ankle tattoo is loaded on the left ankle of an Ankle Tattoo
+Reset M 21813 10 100 0 Load a passerby.
+End
+#21817
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21818
+End
+D2
+~
+~
+0 -1 21816
+End
+D3
+~
+~
+0 -1 21808
+End
+S
+Reset M 21813 1 100 0 Load a passerby.
+End
+#21818
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D2
+~
+~
+0 -1 21817
+End
+D3
+~
+~
+0 -1 21809
+End
+S
+Reset M 21813 1 100 0 Load a passerby.
+End
+#21819
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D2
+~
+~
+0 -1 21810
+End
+S
+Reset M 21802 3 100 0 Load an owl.
+Reset M 21802 3 100 0 Load an owl.
+Reset M 21802 3 100 0 Load an owl.
+Reset M 21806 1 100 0 Load afflack.
+Reset G 21816 1 100 0 A feather whip into inventory of a feather whip
+Reset E 21805 1 100 0 Pinecone ring is loaded on the left finger of pinecone ring
+End
+#21820
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D3
+~
+~
+0 -1 21806
+End
+S
+Reset M 21806 1 100 0 Load afflack.
+Reset E 21805 1 100 0 Pinecone ring is loaded on the left finger of pinecone ring
+Reset M 21804 1 100 0 Load Abaat.
+Reset E 21802 3 100 0 A falcon feather necklace is loaded around the neck (1) of a falcon feather necklace
+Reset M 21808 1 100 0 Load a falcon.
+Reset E 21802 3 100 0 A falcon feather necklace is loaded around the neck (1) of a falcon feather necklace
+Reset E 21806 17 100 0 Falcon eyes is loaded held in the hands of falcon eyes
+End
+#21821
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21811
+End
+S
+Reset M 21805 1 100 0 Load Axyll.
+Reset E 21812 17 100 0 A cane is loaded held in the hands of A cane
+End
+#21822
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21812
+End
+S
+Reset M 21801 1 100 0 Load A man.
+Reset M 21802 1 100 0 Load an owl.
+Reset M 21807 1 100 0 Load Merrill.
+End
+#21823
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21813
+End
+S
+Reset M 21803 1 100 0 Load Azelaar.
+Reset E 21811 17 100 0 A walking stick is loaded held in the hands of a walking stick
+End
+#21824
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+~
+0 -1 21815
+End
+S
+Reset M 21801 1 100 0 Load A man.
+Reset M 21802 2 100 0 Load an owl.
+Reset M 21802 2 100 0 Load an owl.
+Reset M 21804 1 100 0 Load Abaat.
+Reset E 21802 3 100 0 A falcon feather necklace is loaded around the neck (1) of a falcon feather necklace
+Reset E 21813 20 100 0 Thick, nerdy glasses is loaded worn on face of thick, nerdy glasses
+End
+#21825
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D0
+~
+door~
+1 21807 21813
+Flags A
+End
+S
+Reset M 21812 2 100 0 Load Alsbet.
+Reset M 21803 1 100 0 Load Azelaar.
+Reset M 21810 1 100 0 Load Jorthan.
+Reset E 21805 1 100 0 Pinecone ring is loaded on the left finger of pinecone ring
+Reset E 21808 5 100 0 A large overstuffed wallet is loaded on the body of a large overstuffed wallet
+Reset E 21806 17 100 0 Falcon eyes is loaded held in the hands of falcon eyes
+Reset M 21815 1 100 0 Load Birgitta.
+Reset E 21814 16 100 0 A glaive is loaded wielded of a glaive
+Reset E 21815 11 100 0 A lightweight buckler is loaded as a shield of a lightweight buckler
+End
+#21826
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.  The recreation center
+is visible to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 21827
+End
+D2
+~
+~
+0 -1 21815
+End
+S
+Reset M 21812 1 100 0 Load Alsbet.
+Reset M 21812 1 100 0 Load Alsbet.
+End
+#21827
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.  The Recreation Center
+is due north.
+~
+0 0 1
+D0
+~
+door~
+1 21809 21828
+Flags A
+End
+D2
+~
+~
+0 -1 21826
+End
+S
+End
+#21828
+The Recreation Center~
+The Recreation Center is a large, cheery log cabin.  A roaring
+fire keeps the center warm and cozy.  Plush and comfortable sofas
+are scattered around the room, and beautifully braided rugs are 
+tossed about, almost inviting people to sit on them.
+~
+0 0 1
+D2
+~
+door~
+1 21809 21827
+Flags A
+End
+S
+Reset M 21811 1 100 0 Load thysahn.
+Reset E 21805 1 100 0 Pinecone ring is loaded on the left finger of pinecone ring
+Reset E 21804 2 100 0 Nature ring is loaded on the right finger of nature ring
+Reset E 21809 11 100 0 A whirling disk is loaded as a shield of a whirling disk
+End
+#21829
+Shady Breezes Park~
+Large pine trees provide large amounts of shade.  The trees seem
+to touch the top of the skies.  They must be over thousands of years
+old to be that tall.  Lush grasses provide cushioning blankets on 
+the ground.  It is very nice and relaxing here.
+~
+0 0 1
+D1
+~
+~
+0 -1 21807
+End
+S
+Reset M 21806 1 100 0 Load afflack.
+Reset E 21805 1 100 0 Pinecone ring is loaded on the left finger of pinecone ring
+Reset M 21812 2 100 0 Load Alsbet.
+Reset M 21809 1 100 0 Load a toothless harlot.
+Reset E 21803 3 100 0 A {7faded{8 black{0 cloak is loaded around the neck (1) of a {7faded{8 black{0 cloak
+Reset E 21807 16 100 0 {1deep red fingernails{0 is loaded wielded of {1Deep Red Fingernails{0
+Reset E 21807 19 100 0 {1deep red fingernails{0 is loaded wielded in offhand of {1Deep Red Fingernails{0
+End
+#0
+
+
+
+#SPECIALS
+M 21802 spec_cast_undead
+M 21803 spec_thief
+M 21804 spec_cast_cleric
+M 21805 spec_executioner
+M 21806 spec_poison
+M 21807 spec_cast_mage
+M 21808 spec_cast_mage
+M 21809 spec_breath_any
+M 21810 spec_thief
+M 21811 spec_breath_any
+M 21812 spec_poison
+M 21813 spec_poison
+M 21814 spec_cast_undead
+M 21815 spec_breath_any
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,2605 @@
+#AREA
+haven2.are~
+Haven Lake~
+{ 5 25} Genjuro Haven Lake~
+10600 10699
+
+#MOBILES
+#10600
+logger Bernard~
+Bernard the Logger~
+Bernard the Logger is here, selling logs.
+~
+Bernard is a large burly man who cuts logs all day long.  Shouldering his
+large axe, he smiles gruffly at you and asks whether you would like to
+purchase one of his fine logs.
+~
+human~
+ABT DFJZ 0 0
+50 50 2000d1+10 50d10+100 5d11+25 none
+-21 -21 -21 -10
+CEFHI ABCD 0 0
+stand stand male 0
+0 0 medium unknown
+#10601
+duck~
+a duck~
+A curious duck is here, quacking at you.
+~
+This duck quacks loudly at you as you approach.  It spreads its wings
+hesitantly, gauging you as a minor threat, then relaxes.
+~
+human~
+ABT JZb 0 10601
+5 0 2d6+60 49d1+1 1d6+1 peck
+5 5 5 9
+FKM 0 0 0
+stand stand none 0
+0 0 medium unknown
+#10602
+fish small~
+a small fish~
+A small fish is swimming here.
+~
+This fish is rather small, but it can swim at speeds you could not hope
+to imitated.  Thrashing its tail back and forth, it darts out of sight, then
+returns, flashing by you in a streak of silver.
+~
+human~
+ABT JZb 0 10602
+5 0 2d6+60 49d1+1 1d6+1 none
+5 5 5 9
+FKM A 0 0
+stand stand none 0
+0 0 medium unknown
+#10603
+eel silver~
+the silver eel~
+A long silverscaled eel lurks about here.
+~
+This eel is at least three times your height long.  Its silver scales
+glint sharply as it coils about, preparing to strike against whomever
+intrudes upon its home.
+~
+human~
+ABT JZ 0 0
+10 0 2d7+121 99d1+1 2d4+2 bite
+1 1 1 8
+FKM A 0 0
+stand stand none 2
+0 0 medium unknown
+#10604
+turtle alligator~
+the alligator turtle~
+A grumpy old alligator turtle swims about here.
+~
+This alligator turtle is looks very old.  It swims about with stiff jerky
+movements and snaps viciously at the fish nearby, trying to catch a decent
+meal for itself.
+~
+human~
+ABT JZ 0 0
+10 0 2d7+121 99d1+1 2d4+2 none
+1 1 1 8
+FKM A I 0
+stand stand none 5
+0 0 medium unknown
+#10605
+goat mountain~
+the mountain goat~
+A mountain goat is here, nibbling at a plant.
+~
+This mountain goat looks shaggy and thin.  With the sparse food and thin
+air, its every day is a struggle to survive.  It bleat plaintively at you
+and bounds away in long leaps.
+~
+human~
+ABT JZ 0 0
+15 0 3d9+208 149d1+1 2d6+3 bite
+-2 -2 -2 7
+FIK A 0 0
+stand stand none 0
+0 0 medium unknown
+#10606
+roc giant~
+the giant roc~
+A giant roc is here, angry at your intrusion.
+~
+This mother roc is HUGE.  Huge is an understatement.  Its entire wing
+span could place your home town in shadow.  And it seem rather perturbed
+about what you are doing in its nest.  A BAD idea to be here.
+~
+human~
+ABFT JTZ 0 0
+20 0 3d9+333 199d1+1 2d8+5 peck
+-4 -4 -4 7
+EFKM AB C 0
+stand stand female 20
+0 0 medium unknown
+#10607
+hermit mountain~
+the mountain hermit~
+A mountain dwelling hermit is standing here, sputtering incoherently at you.
+~
+This mountain hermit has been secluded from any intelligent society so
+long that he has lost any concept of coherent speech.  Instead he cackles at
+you, making strange clicks with his tongue, mingled with hoots and imitations 
+of birdcalls.  He is dressed in grimy rags, obviously in need of repair, and 
+smells as if he hasn't had a bath in ages.
+~
+human~
+ABT JZ 0 0
+15 0 3d9+208 149d1+1 2d6+3 scratch
+-2 -2 -2 7
+FIK B 0 0
+stand stand male 0
+0 0 medium unknown
+#10608
+snake water~
+the water snake charmer~
+A water snake charmer is swimming here.
+~
+Swimming towards you is a large water snake.  It looks to be about five
+feet long and well adapted to swimming as it manages to reach the distance
+between itself and you quickly.  It is covered with small reddish scales,
+and as it opens its mouth to strike, you can see long fangs gleaming.
+~
+human~
+ABT JZb -100 0
+10 0 2d7+121 99d1+1 2d4+2 slap
+1 1 1 8
+FKM L 0 0
+stand stand none 0
+0 0 medium unknown
+#10609
+frogman citizen~
+the frogman citizen~
+A Frogman citizen is here, staring at you.
+~
+This Frogman citizen regards you with curiosity mixed with disdain.  It
+is a commoner Frogman, and not quite used to dealing with anything out of
+the ordinary.  It goes about its life, searching for food and looking for
+meaning in exisiting.
+~
+human~
+ACT JZ -6000 0
+15 0 3d9+208 149d1+1 2d6+3 slap
+-2 -2 -2 7
+FIM 0 0 I
+stand stand either 0
+0 0 medium unknown
+#10610
+guard frogman~
+the Frogman guard~
+A Frogman guard is here, watching you.
+~
+This Frogman guard watches you carefully, waiting to see you make one
+suspicious move before attacking you.
+~
+human~
+ABCT JZ -800 0
+18 0 3d9+283 179d1+1 2d7+4 none
+-3 -3 -3 7
+FIK 0 0 I
+stand stand either 0
+0 0 medium unknown
+#10611
+shaman frogman~
+the Frogman shaman~
+The Frogman shaman is here, chanting a mantra.
+~
+This Frogman is the shaman of the village.  Chanting a mantra in a speech
+not unlike the croak of a toad, he mixes a potion slowly, pausing only to
+look at you and grimace.
+~
+human~
+ABR JZ -1000 0
+20 0 3d9+333 199d1+1 2d8+5 none
+-4 -4 -4 7
+FIK A H I
+stand stand male 0
+0 0 medium unknown
+#10612
+chief frogman~
+the Chief Frogman~
+The Chief Frogman is here, eating some fish.
+~
+This is the largest Frogman you have seen.  A full human height, his
+greenish skin is mottled with spots of gold and you can see large strong
+muscles evident as he moves.  This is NOT a Frogman to be messed with.
+~
+human~
+ABT JZ 0 0
+25 0 5d10+550 249d1+1 2d10+7 punch
+-7 -7 -7 6
+0 A H I
+stand stand male 0
+0 0 medium unknown
+#10613
+pelican~
+a pelican~
+A pelican is catching fish here.
+~
+This pelican is happily scooping fish up by the beakful and gobbling them down.
+~
+human~
+ABT JTZ 1 10613
+10 0 2d7+121 99d1+1 2d4+2 none
+1 1 1 8
+FK 0 0 0
+stand stand either 0
+0 0 medium unknown
+#0
+
+#OBJECTS
+#10600
+log~
+a log~
+A log is here.
+~
+wood~
+boat 0 A
+0 0 0 0 0
+1 700 40 P
+
+#10601
+statue goddess dawn~
+a Statue of the Goddess of Dawn~
+A statue of the goddess of dawn is here.
+~
+stone~
+container A 0
+10000 AC 0 10000 100
+0 1 1 P
+
+#10602
+scales silver~
+silver scales~
+A pile of silver scales lies here.
+~
+silver~
+armor AG AL
+4 5 5 1 4
+8 250 760 P
+A
+5 2
+
+#10603
+shell turtle~
+a turtle shell~
+A turtle shell lies here.
+~
+shell~
+armor BG AE
+5 5 4 1 4
+8 350 610 P
+A
+4 2
+
+#10604
+a large pool of water~
+a pool of water~
+A large pool of fresh cold water is here.
+~
+water~
+fountain 0 0
+100000 100000 'water' 0 0
+0 1000 0 P
+
+#10605
+egg roc~
+a roc egg~
+A roc egg is here.
+~
+stone~
+treasure A A
+0 0 0 0 0
+0 1000 934 P
+
+#10606
+feather roc~
+a roc feather~
+A roc's huge feather lies here.
+~
+air~
+armor G AO
+7 7 7 3 1
+18 10 2377 P
+A
+3 2
+A
+4 2
+
+#10607
+leggings goat~
+goat leggings~
+A pair of leggings made from goat skin lies here.
+~
+leather~
+armor ABG AF
+6 6 7 5 3
+13 150 1277 P
+A
+5 2
+
+#10608
+ring snake eye~
+a snake eye ring~
+A ring with a snake's eye lies here.
+~
+snakeskin~
+armor BG AB
+6 6 5 4 0
+8 40 977 P
+A
+3 1
+A
+1 1
+
+#10609
+crown fishbone~
+a fishbone crown~
+A crown made from fishbones lies here.
+~
+bone~
+armor AG AE
+8 8 7 3 2
+23 255 3303 P
+A
+5 2
+A
+13 25
+
+#10610
+cloak fishskin~
+a fishskin cloak~
+A smelly cloak made of strange skins lies here.
+~
+leather~
+armor G AK
+8 8 8 4 4
+23 305 3033 P
+A
+3 2
+
+#10611
+mace turtleshell~
+a turtleshell mace~
+A mace made from a turtle's shell lies here.
+~
+shell~
+weapon 0 AN
+mace 5 5 pound 0
+23 210 2511 P
+A
+18 3
+A
+19 3
+
+#10612
+bracer bark~
+a bark bracer~
+A bracer made from bark lies here.
+~
+bark~
+armor G AI
+7 7 6 3 2
+18 149 2150 P
+A
+18 1
+A
+13 10
+
+#0
+
+#ROOMS
+
+#10600
+Entrance to the Valley of Dawn~
+You stand before the entrance to a large valley, covered with mist and
+low grayish clouds heavy with moisture.  There are large strange trees here,
+burdened with massive leaves easily man-sized.  As you gaze about, you
+notice the valley sprawls before you to the north while the way back lays
+south.
+~
+0 C 2
+D0
+~
+~
+0 0 10601
+D2
+~
+~
+0 0 3503
+S
+#10601
+Inside the Valley of Dawn~
+You are in the Valley of Dawn.  All about you strange vegetation grows of
+a type you have never seen.  A carpet of lush purplish grass covers the
+ground, and the low fog that hangs in this valley is rather light here.  You
+feel rather peaceful here, listening to the sounds of birds chirping and the
+mourning and lonely caw of a bluejay flying around you.  You can see a lake
+to the north.
+~
+0 D 2
+D0
+~
+~
+0 0 10602
+D2
+~
+~
+0 0 10600
+S
+#10602
+The South Shore of Haven Lake~
+You are at the south shore of Haven Lake.  The view of the lake here is
+breathtaking as the clear water spans your entire vision before you.  The
+reflection of the sky upon the calm water and the deep woods that surround
+the lake bring the power and beauty of nature into sharp focus, and you can
+only smile at its splendor.
+~
+0 D 2
+D0
+~
+~
+0 0 10605
+D1
+~
+~
+0 0 10603
+D2
+~
+~
+0 0 10601
+D3
+~
+~
+0 0 10604
+S
+#10603
+The Southeast Shore of Haven Lake~
+You are on the southeast shore of Haven Lake.  The water laps gently
+against the rocks and dirt, its rythmic sounds relaxing you.  The clouds in
+the sky part slowly, their mellow misty edges letting in the light.  A
+melody of woodland sounds emanates from the forest about you, adding to the
+sound of the gentle waves to produce a soft symphony of light music.
+~
+0 D 2
+D0
+~
+~
+0 0 10606
+D1
+~
+~
+0 0 10626
+D3
+~
+~
+0 0 10602
+S
+#10604
+The Southwest Shore of Haven Lake~
+You are at the southwest shore of Haven Lake.  The water here is darker
+as the shades of the nearby forest overcast the sunlight that reflects of
+the lake.  A few ducks quack merrily at you from their hiding place amound
+the reeds and rocks.  A cool breeze blows softly against your skin and a
+small dragonfly buzzes up against your ear.
+~
+0 D 2
+D0
+~
+~
+0 0 10607
+D1
+~
+~
+0 0 10602
+D3
+~
+~
+0 0 10625
+S
+#10605
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  You can make out
+the south shore of the lake to the south.
+~
+0 D 6
+D0
+~
+~
+0 0 10608
+D1
+~
+~
+0 0 10606
+D2
+~
+~
+0 0 10602
+D3
+~
+~
+0 0 10607
+D5
+~
+~
+0 0 10630
+S
+#10606
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  You can make out
+the southeast shore of the lake to the south and the eastern shore to the
+east.
+~
+0 D 6
+D0
+~
+~
+0 0 10609
+D1
+~
+~
+0 0 10622
+D2
+~
+~
+0 0 10603
+D3
+~
+~
+0 0 10605
+D5
+~
+~
+0 0 10634
+S
+#10607
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  You can see the
+shores of the lake to the west and south.
+~
+0 D 6
+D0
+~
+~
+0 0 10610
+D1
+~
+~
+0 0 10605
+D2
+~
+~
+0 0 10604
+D3
+~
+~
+0 0 10619
+D5
+~
+~
+0 0 10637
+S
+#10608
+The Center of Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.
+~
+0 D 6
+D0
+~
+~
+0 0 10611
+D1
+~
+~
+0 0 10609
+D2
+~
+~
+0 0 10605
+D3
+~
+~
+0 0 10610
+D5
+~
+~
+0 0 10629
+S
+#10609
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.
+~
+0 D 6
+D0
+~
+~
+0 0 10612
+D1
+~
+~
+0 0 10621
+D2
+~
+~
+0 0 10606
+D3
+~
+~
+0 0 10608
+D5
+~
+~
+0 0 10633
+S
+#10610
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.
+~
+0 D 6
+D0
+~
+~
+0 0 10613
+D1
+~
+~
+0 0 10608
+D2
+~
+~
+0 0 10607
+D3
+~
+~
+0 0 10618
+D5
+~
+~
+0 0 10636
+S
+#10611
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  The northern
+shore is to the north.
+~
+0 D 6
+D0
+~
+~
+0 0 10614
+D1
+~
+~
+0 0 10612
+D2
+~
+~
+0 0 10608
+D3
+~
+~
+0 0 10613
+D5
+~
+~
+0 0 10631
+S
+#10612
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  To the north and
+east you can see the shore.
+~
+0 D 6
+D0
+~
+~
+0 0 10615
+D1
+~
+~
+0 0 10620
+D2
+~
+~
+0 0 10609
+D3
+~
+~
+0 0 10611
+D5
+~
+~
+0 0 10632
+S
+#10613
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  You can see the
+shore of the lake to the north and west.
+~
+0 D 6
+D0
+~
+~
+0 0 10616
+D1
+~
+~
+0 0 10611
+D2
+~
+~
+0 0 10610
+D3
+~
+~
+0 0 10617
+D5
+~
+~
+0 0 10635
+S
+#10614
+The Northern Shore of Haven Lake~
+You have reached the northern shore of Haven Lake.  The dangers that may
+lurk in the forest north of here cannot reach this far into the calm of the
+lakeside view.  A swarm of pinkish butterflies float gently upon the breeze
+and you can smell the faint scent of jasmine in the air.  You start to feel
+relaxed and rather sleepy.
+~
+0 D 2
+D1
+~
+~
+0 0 10615
+D2
+~
+~
+0 0 10611
+D3
+~
+~
+0 0 10616
+S
+#10615
+The Northeast Shore of Haven Lake~
+You have reached the northern shore of Haven Lake.  The ground slopes up
+gently from the waterfront, gradually changing from the brownish dirt in the
+water into a thick carpet of lavender grass.  The forest trees to the north
+are visible from here, dark and mysterious, and you decide it would be much
+safer to stay by the lake.
+~
+0 D 2
+D1
+~
+~
+0 0 10627
+D2
+~
+~
+0 0 10612
+D3
+~
+~
+0 0 10614
+S
+#10616
+The Northwest Shore of Haven Lake~
+You have reached the northwest shore of Haven Lake.  This part of the
+shore is covered by the shade of the massive trees nearby to the north,
+which supplies you with shelter from the light.  Large lilypads are visible
+in the lake from here, filled with frogs and toads of every size.  The
+occasional fish leaps into the air and can be heard splashing back into the
+water with evident glee.
+~
+0 D 2
+D1
+~
+~
+0 0 10614
+D2
+~
+~
+0 0 10613
+D3
+~
+~
+0 0 10628
+S
+#10617
+The Western Shore of Haven Lake~
+You are at the western shore of Haven Lake.  The shade of the forest
+stretches out to cover you here, and you can hear the loud chirping of
+crickets resting near the lake.  A large flat stone is here, making a
+perfect resting place where you can relax and enjoy the view.
+~
+0 D 2
+D0
+~
+~
+0 0 10628
+D1
+~
+~
+0 0 10613
+D2
+~
+~
+0 0 10618
+S
+#10618
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  To the north,
+west, and south, you can see the western shore.
+~
+0 D 6
+D0
+~
+~
+0 0 10617
+D1
+~
+~
+0 0 10610
+D2
+~
+~
+0 0 10619
+D3
+~
+~
+0 0 10623
+D5
+~
+~
+0 0 10661
+S
+#10619
+The Western Shore of Haven Lake~
+You are on the western shore of Haven Lake.  To the east lies Haven Lake,
+not more than a few feet from you.  A fish leaps out from the water, seeming
+to almost smile at you before diving back with a loud splash.  A burst of
+cricket chirps ensues, almost as if the lake is inviting you in.
+~
+0 D 2
+D0
+~
+~
+0 0 10618
+D1
+~
+~
+0 0 10607
+D2
+~
+~
+0 0 10625
+S
+#10620
+The Eastern Shore of Haven Lake~
+You are at the Eastern Shore of Haven Lake.  There are a number of large
+flat rocks here, next to the water, perfect for sunbathing upon.  In fact,
+it looks as if a group of frogs have taken that idea into their heads as
+well, and are croaking in satisfaction as they warm themselves.
+~
+0 D 2
+D0
+~
+~
+0 0 10627
+D2
+~
+~
+0 0 10621
+D3
+~
+~
+0 0 10612
+S
+#10621
+On Haven Lake~
+You are on Haven Lake.  The air here is rather peaceful and the water is
+cool and clear, the waves rocking gently against you.  You can make out a
+wide variety of fish and other creatures that reside in Haven Lake, but you
+cannot make out the bottom of the lake, implying that the water is rather
+deep here.  A few ducks quack happily as they swim about.  To the north,
+east, and south you can see the eastern shore of the lake.
+~
+0 D 6
+D0
+~
+~
+0 0 10620
+D1
+~
+~
+0 0 10624
+D2
+~
+~
+0 0 10622
+D3
+~
+~
+0 0 10609
+S
+#10622
+The Eastern Shore of Haven Lake~
+You are at the Eastern Shore of Haven Lake.  There are a number of large
+flat rocks here, next to the water, perfect for sunbathing upon.  In fact,
+it looks as if a group of frogs have taken that idea into their heads as
+well, and are croaking in satisfaction as they warm themselves.
+~
+0 D 2
+D0
+~
+~
+0 0 10621
+D2
+~
+~
+0 0 10626
+D3
+~
+~
+0 0 10606
+S
+#10623
+The Far West Shore of Haven Lake~
+You have reached the far west short of Haven Lake.  This area is shrouded
+by the trees of the forest which grow nearby, encasing the waterfront in
+light shade.  A virtual crowd of reeds grows in the water nearby here,
+obstructing your view of the magnificent lake.
+~
+0 D 2
+D1
+~
+~
+0 0 10618
+S
+#10624
+The Far East Shore of Haven Lake~
+You have reached the far east shore of Haven Lake.  From here, you can
+view the majestic lake to the west, and the large trees of the forest begin
+appearing to the east.  A grand statue has been placed here, carved from a
+beautiful white marble flecked with gold.  This is be a wonderful place for
+a picnic.
+~
+0 K 2
+D3
+~
+~
+0 0 10621
+S
+#10625
+The Southwest Corner of Haven Lake~
+You are on the southwest shore of Haven Lake.  It is rather peaceful
+here, with the calm waters lapping at your feet and cool air brushing
+against your skin.  A happy little frog crawls out of the water and croaks
+at you curiously before leaping back in.
+~
+0 D 2
+D0
+~
+~
+0 0 10619
+D1
+~
+~
+0 0 10604
+S
+#10626
+The Southeast Corner of Haven Lake~
+You are at the southeast corner of Haven Lake.  The air is crisp and cool
+here, and the light shines brightly upon you.  The ground is covered with a
+rich purplish grass and the view of the lake from here is fantastic.  A
+flock of geese honk at you from above, and you feel as if this would be a
+great place to relax.
+~
+0 D 2
+D0
+~
+~
+0 0 10622
+D3
+~
+~
+0 0 10603
+S
+#10627
+The Northeast Corner of Haven Lake~
+You are at the northeast corner of Haven Lake.  The view of the lake is
+slightly obstructed here by the towering reeds that grow in this corner.
+The bass croaking of a bullfrog is loud in the quiet air, and a gentle mist
+covers the water in a light glaze.
+~
+0 D 2
+D2
+~
+~
+0 0 10620
+D3
+~
+~
+0 0 10615
+S
+#10628
+The Northwest Corner of Haven Lake~
+You are at the northwest corner of Haven Lake.  This area is more
+woodland than waterfront, and the light is barely visible through the shade
+of the trees which surround you.  You can barely make out the lake to the
+southeast, and ponder whether you should retreat to an area closer to the
+safety of the lake.
+~
+0 D 2
+D1
+~
+~
+0 0 10616
+D2
+~
+~
+0 0 10617
+S
+#10629
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10631
+D1
+~
+~
+0 0 10633
+D2
+~
+~
+0 0 10630
+D3
+~
+~
+0 0 10636
+D4
+~
+~
+0 0 10608
+D5
+~
+~
+0 0 10638
+S
+#10630
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10629
+D1
+~
+~
+0 0 10634
+D3
+~
+~
+0 0 10637
+D4
+~
+~
+0 0 10605
+S
+#10631
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10663
+D1
+~
+~
+0 0 10632
+D2
+~
+~
+0 0 10629
+D3
+~
+~
+0 0 10635
+D4
+~
+~
+0 0 10611
+S
+#10632
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D2
+~
+~
+0 0 10633
+D3
+~
+~
+0 0 10631
+D4
+~
+~
+0 0 10612
+S
+#10633
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10632
+D2
+~
+~
+0 0 10634
+D3
+~
+~
+0 0 10629
+D4
+~
+~
+0 0 10609
+S
+#10634
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10633
+D3
+~
+~
+0 0 10630
+D4
+~
+~
+0 0 10606
+S
+#10635
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D1
+~
+~
+0 0 10631
+D2
+~
+~
+0 0 10636
+D4
+~
+~
+0 0 10613
+S
+#10636
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10635
+D1
+~
+~
+0 0 10629
+D2
+~
+~
+0 0 10637
+D4
+~
+~
+0 0 10610
+S
+#10637
+Inside Haven Lake~
+You are swimming in the cool waters of Haven Lake.  Various forms of
+aquatic life roam about here, swimming about with glee.  Strange schools of
+fish flee as you draw near them, but a few playful frogs seem curious about
+your presence here and draw closer for a better look.
+~
+0 D 6
+D0
+~
+~
+0 0 10636
+D1
+~
+~
+0 0 10630
+D4
+~
+~
+0 0 10607
+S
+#10638
+The Bottom of Haven Lake~
+You are on the bottom of Haven Lake.  The water here is rather murky from
+silt of the lake floor.  As you gaze around, you can make out twisted shapes
+of submerged trees, aquatic plant and animal life, and the odd sunken craft
+or two.
+~
+0 D 6
+D0
+~
+~
+0 0 10639
+D1
+~
+~
+0 0 10643
+D2
+~
+~
+0 0 10641
+D4
+~
+~
+0 0 10629
+S
+#10639
+On the Bottom of Haven Lake~
+You are on the bottom of Haven Lake.  To the east you can make out the
+shape of a sunken rowboat, turned over and slightly rotted and covered with
+water moss.  There is a slight motion under the boat which you glimpse, and
+you wonder if you should swim over and see what made the movement..  Or who.
+~
+0 D 6
+D1
+~
+~
+0 0 10640
+D2
+~
+~
+0 0 10638
+S
+#10640
+The Sunken Rowboat~
+You are inside a small sunken rowboat.  It is very dark in here, the
+shadow of the rowboat blocking any light that might have filtered through
+the water.  The temperature here is colder as well, and you think you can
+make out the shape of something sliding through the water at you.
+~
+0 D 6
+D3
+~
+~
+0 0 10639
+S
+#10641
+By the Submerged Trunk~
+You are on the bottom of Haven Lake.  The silt here is thicker, perhaps
+disturbed by the thrashing your legs make as you swim to and fro.  To the
+west you can make out the submerged trunk of a fallen tree, now hollowed out
+into a empty shell of bark.  Green water moss covers the entire trunk and it
+looks rather dark inside.
+~
+0 D 6
+D0
+~
+~
+0 0 10638
+D3
+~
+~
+0 0 10642
+S
+#10642
+Inside the Trunk~
+You are inside the hollowed out shell of a submerged tree inside Haven
+Lake.  The water here is freezing, and there is no light visible at all.
+You sense a motion in the water, a quicking of the current, and realize that
+something is swimming toward you.  The way out of the trunk is to the east,
+a welcome sight in this dark water.
+~
+0 A 6
+D1
+~
+~
+0 0 10641
+S
+#10643
+The Undercurrent~
+You are on the bottom of Haven Lake.  You can feel a strong cool
+undercurrent here, forcing the silt of the lake flying in all directions,
+obscuring your vision.  Closing your eyes, you pinpoint the direction from
+which the current is coming from, the east.
+~
+0 D 6
+D1
+~
+~
+0 0 10644
+D3
+~
+~
+0 0 10638
+S
+#10644
+The Stream Outlet~
+You are at the outlet of an underwater spring.  The water here is cooler
+and tastes fresher than the rest of the lake.  There is a wide variety of
+fish swimming about here, taking simple delight in the pure water.  You
+cautious feel about yourself, and find that the source of the cooler water
+is coming from a small tunnel to the east.
+~
+0 D 6
+D1
+~
+~
+0 0 10645
+D3
+~
+~
+0 0 10643
+S
+#10645
+The Spring Tunnel~
+You are inside a dark tunnel that serves as the channel this underwater
+spring takes to fill Haven Lake.  It is rather dark in here, as this tunnel
+has burrowed its way through dirt, mud, and rock.  The water here is chill
+and cold, but feels rather refreshing against your skin and provides an
+excellent source of water for you.
+~
+0 D 6
+D1
+~
+~
+0 0 10646
+D3
+~
+~
+0 0 10644
+S
+#10646
+The Spring Tunnel~
+You are inside a dark tunnel that serves as the channel this underwater
+spring takes to fill Haven Lake.  It is rather dark in here, as this tunnel
+has burrowed its way through dirt, mud, and rock.  The water here is chill
+and cold, but feels rather refreshing against your skin and provides an
+excellent source of water for you.
+~
+0 D 6
+D1
+~
+~
+0 0 10647
+D3
+~
+~
+0 0 10645
+S
+#10647
+The Spring Tunnel~
+You are inside a dark tunnel that serves as the channel this underwater
+spring takes to fill Haven Lake.  It is rather dark in here, as this tunnel
+has burrowed its way through dirt, mud, and rock.  The water here is chill
+and cold, but feels rather refreshing against your skin and provides an
+excellent source of water for you.
+~
+0 D 6
+D1
+~
+~
+0 0 10648
+D3
+~
+~
+0 0 10646
+S
+#10648
+The Spring Source~
+You are at the source of an underwater spring that supplies water to
+Haven Lake.  This source is a large cold pool, replenished by a waterfall
+that spills from higher up, perhaps from the snowcaps that cover the
+mountain, which you are at the base of.  Around the pool is a thich carpet
+of greenery, spotted by random flowers and a few sparse trees.  In this
+secluded spot, you feel a bond with the forces of nature which surround you.
+~
+0 D 6
+D1
+~
+~
+0 0 10649
+D3
+~
+~
+0 0 10647
+S
+#10649
+The Base of the Mountain~
+You are at the base of Haven Mountain, a large monstrosity of rock and
+gravel.  The mountain reaches far up into the sky, and wonder if anyone
+would be able to climb it to its top.  There is evidence of plentiful animal
+life around here, as the tracks and spoor left by various animals are
+scattered about, visible to the trained eye.  A small trail of hooves leads
+up the mountain from here.
+~
+0 D 5
+D3
+~
+~
+0 0 10648
+D4
+~
+~
+0 0 10650
+S
+#10650
+Climbing Haven Mountain~
+You are climbing Haven Mountain.  The loose rubble and sparse mountain
+plants make your footing here highly questionable.  The ground is not far
+below, yet you know that if you fell from here, the odds would be slim that
+you would escape injury.  The mountain tops are high above you, mocking your
+efforts to reach them.
+~
+0 D 5
+D4
+~
+~
+0 0 10651
+D5
+~
+~
+0 0 10649
+S
+#10651
+Climbing Haven Mountain~
+You are climbing Haven Mountain.  The rocks here are larger than those
+below, and the wind chiseled ledges makes climbing here a bit easier.  You
+notice that the vegetation here has been eaten at, and examining the leaves
+shows evidence of some type of mountain herbivore, most likely goats of some
+type.  As you look about, enjoying the crisp mountain air, you notice that a
+fall at the point would most likely result in death.  You grimly clutch the
+mountain face tighter.
+~
+0 D 5
+D4
+~
+~
+0 0 10652
+D5
+~
+~
+0 0 10650
+S
+#10652
+The Ledge~
+You are resting upon a large ledge on Haven Mountain.  This is the ideal
+spot for a break, as the energy you have spent climbing this mountain has
+almost been spent.  The view here is spectacular, the whole of the valley
+and lakes being spread about you.  Low clouds drift by you, and the
+occasional bird wings by and regards you with caution.
+~
+0 D 5
+D4
+~
+~
+0 0 10653
+D5
+~
+~
+0 0 10651
+S
+#10653
+Climbing Haven Mountain~
+You are climbing Haven Mountain.  The winds here are treacherous as they
+attempt to pry you from the mountain face by force.  Small rocks, disturbed
+by your efforts, fall away, their echoes clattering far beneath you.  You
+begin to wonder if climbing this mountain was a good idea.
+~
+0 D 5
+D4
+~
+~
+0 0 10654
+D5
+~
+~
+0 0 10652
+S
+#10654
+Climbing Haven Mountain~
+You can see the top of Haven Mountain not too far above you, and a ledge
+where you may rest somewhere beneath you.  The air here is thin, and you
+manage to grab a lungfull of thin oxygen to replenish your body's scant
+supply.  Gathering strength, you continue.
+~
+0 D 5
+D1
+~
+~
+0 0 10659
+D4
+~
+~
+0 0 10655
+D5
+~
+~
+0 0 10653
+S
+#10655
+Near the Top of Haven Mountain~
+You are on a cliff near the top of Haven Mountain.  There is not much
+here except an expanse of barren rock and a cover of loose dirt that makes
+your grip tenuous at best.  The heights here are dizzying and you wonder how
+flat of a pancake you would make if you fell.
+~
+0 D 5
+D4
+~
+~
+0 0 10656
+D5
+~
+~
+0 0 10654
+S
+#10656
+The Top of Haven Mountain~
+You have reached the top of Haven Mountain.  There view here..  Is simply
+breathtaking.  From this awesome height, you can see almost everywhere.  The
+main city is far away, but you manage to glimpse your home city by its
+distinguishable walls.  Looking down, the world spins around you, and you
+pitch forward, almost falling down the mountain face.  Maybe that was not
+such a good idea.  Regaining your balance, you look about yourself and
+notice a large structure to the east, made from twigs.
+~
+0 D 5
+D1
+~
+~
+0 0 10657
+D5
+~
+~
+0 0 10655
+S
+#10657
+The Roc's Nest~
+You are in a large round nest that could easily double the size of your
+own home.  It is composed of large "twigs" roughly the size of a tree each,
+and stuck together with a sticky substance which you cannot identify.  There
+are several large eggs here, and you shiver to think of the monsters that
+will hatch from them, since they are easily twice your size.
+~
+0 D 5
+D1
+~
+~
+0 0 10658
+D3
+~
+~
+0 0 10656
+S
+#10658
+The Roc's Nest~
+You are in the center of the roc's nest.  The trunks of the trees that
+make up this nest could easily crush you if one was dropped upon you.  You
+shiver as you wonder how large the roc must be...  And begin to swear as you
+hear the sounds of a pair of huge, powerful wings beating the area about
+you.  A large shadow appears, covering the entire nest.  The roc must be
+home!
+~
+0 D 5
+D3
+~
+~
+0 0 10657
+S
+#10659
+The Cave Entrance~
+You are in the entrance to a cave in Haven Mountain.  This cave is small,
+and there are various objects laying around, indicating a creature with
+intelligence lives here.  You wonder what type of person would want to live
+so high in Haven Mountain.
+~
+0 D 5
+D1
+~
+~
+0 0 10660
+D3
+~
+~
+0 0 10654
+S
+#10660
+Inside the Cave~
+You are inside the cave etched in Haven Mountain.  There is a small hard
+bed here, made from dried scrub and twigs.  Other crude objects made from
+wood and stone are randomly scattered about the room.  A pile of clothes
+made from leaves and animal hides is sitting in the west corner, and a small
+pit for fire has been dug into the floor.
+~
+0 D 5
+D3
+~
+~
+0 0 10659
+S
+#10661
+Inside Haven Lake~
+You are swimming inside Haven Lake.  This part of the lake is secluded
+from the rest of the lake by a barrier of water reeds.  The water here is
+dark and murky, and you cannot make out much more than clinging vegetation
+which surrounds you and threatens to ensnare you in loops of strange vines.
+~
+0 0 6
+D3
+~
+~
+0 0 10662
+D4
+~
+~
+0 0 10618
+S
+#10662
+The Water Cave~
+You are inside a small cave in the west side of Haven Lake.  Surrounded
+by walls of mud, you wonder if this is the best place to be.  The darkness
+and coldness of the water closes in on you, making you feel VERY 
+uncomfortable.  A motion in the water does nothing to help your confidence
+either.
+~
+0 0 6
+D1
+~
+~
+0 0 10661
+S
+#10663
+The Reeds~
+You are in a part of Haven Lake filled with water reeds.  They are
+everywhere, obstructing both your vision and swimming.  The lightning here
+is dim at best, and you can only wonder what is ahead of you.
+~
+0 0 6
+D0
+~
+~
+0 0 10664
+D2
+~
+~
+0 0 10631
+S
+#10664
+Lost Inside the Reeds~
+You are lost inside what seems to be a virtual maze of water reeds.  They
+obstruct your vision, disorientating you and making you feel rather lost.
+The water here is chill and somewhat slimy as the dank vegetation clings to
+you.
+~
+0 0 6
+D0
+~
+~
+0 0 10665
+D2
+~
+~
+0 0 10663
+S
+#10665
+The Reeds~
+You are wandering in the water reeds inside Haven Lake.  As you reach
+about yourself, you feel nothing but reeds surrounding you.  The reeds close
+off any more motion to the north, east, and west, leaving you with the
+option of going back towards Haven Lake to the south, or up to the surface.
+~
+0 0 6
+D2
+~
+~
+0 0 10664
+D4
+~
+~
+0 0 10666
+S
+#10666
+The Haven Marshes~
+You are in the Haven Marshes.  Your feet can only move in small paces due
+to the bog that you are stepping in, and a low methane mist covers the swamp
+floor.  A number of strange and gnarled trees can be seen here and there,
+lending a freaky atmosphere to these marshes.
+~
+0 0 2
+D0
+~
+~
+0 0 10667
+D5
+~
+~
+0 0 10665
+S
+#10667
+Entrance to the Village of Frogmen~
+You are standing before the lost village of the Frogmen.  The entire
+village is surrounded by a thatched wall, and the huts you can view inside
+from here seem made from the same materials.  The road here seems composed
+of a sticky mud that clings to your boots as you walk, and the entire area
+smells of bog gas and methane.  The way back to Haven Lake is down through
+the reeds and you may enter the village to the north.
+~
+0 0 1
+D0
+~
+gate~
+1 0 10668
+D2
+~
+~
+0 0 10666
+S
+#10668
+Inside the Village of the Frogmen~
+You are standing inside the lost village of the Frogmen.  You have heard
+rumours of this lost city and its denizens, supposed half man half frog
+creatures, but had dismissed the tale as a myth.  All around you are
+thatched huts, covered in slimy mud, and other various abode of a primitive
+nature.  You wonder if this is a good place to explore.
+~
+0 0 1
+D0
+~
+~
+0 0 10669
+D1
+~
+~
+0 0 10685
+D2
+~
+~
+1 0 10667
+D3
+~
+~
+0 0 10686
+S
+#10669
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serve as homes and shops for these frogmen surround you
+to the east and west, showing that these creatures have their own society
+and culture, no matter how primitive.  As you walk around, observing
+everything with awe, the citizens of the village stare back at you, some
+with curiosity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10670
+D2
+~
+~
+0 0 10668
+S
+#10670
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serves as homes and shops for these frogment surround
+you to the east and west, showing that these creatures have their own
+society and culture, no matter how primitive.  As you walk around, observing
+everything with awe, the citizens of the village stare back at you, some
+with curiousity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10671
+D2
+~
+~
+0 0 10669
+S
+#10671
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serves as homes and shops for these frogment surround
+you to the east and west, showing that these creatures have their own
+society and culture, no matter how primitive.  As you walk around, observing
+everything with awe, the citizens of the village stare back at you, some
+with curiousity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10672
+D2
+~
+~
+0 0 10670
+S
+#10672
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serves as homes and shops for these frogment surround
+you to the east and west, showing that these creatures have their own
+society and culture, no matter how primitive.  As you walk around, observing
+everything with awe, the citizens of the village stare back at you, some
+with curiousity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10673
+D2
+~
+~
+0 0 10671
+S
+#10673
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serves as homes and shops for these frogment surround
+you to the east and west, showing that these creatures have their own 
+society and culture, no matter how primitive.  As you walk around, observing 
+everything with awe, the citizens of the village stare back at you, some
+with curiousity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10674
+D2
+~
+~
+0 0 10672
+S
+#10674
+The Mud Road~
+You are on the main road that travels through this strange village.  Mud
+and straw huts that serves as homes and shops for these frogment surround
+you to the east and west, showing that these creatures have their own
+society and culture, no matter how primitive.  As you walk around, observing
+everything with awe, the citizens of the village stare back at you, some
+with curiousity, some with distrust.
+~
+0 0 1
+D0
+~
+~
+0 0 10697
+D1
+~
+~
+0 0 10675
+D2
+~
+~
+0 0 10673
+D3
+~
+~
+0 0 10696
+S
+#10675
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10676
+D3
+~
+~
+0 0 10674
+S
+#10676
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10677
+D3
+~
+~
+0 0 10675
+S
+#10677
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D2
+~
+~
+0 0 10678
+D3
+~
+~
+0 0 10676
+S
+#10678
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10677
+D2
+~
+~
+0 0 10679
+S
+#10679
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10678
+D2
+~
+~
+0 0 10680
+S
+#10680
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10679
+D2
+~
+~
+0 0 10681
+S
+#10681
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10680
+D2
+~
+~
+0 0 10682
+S
+#10682
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10681
+D2
+~
+~
+0 0 10683
+S
+#10683
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10682
+D3
+~
+~
+0 0 10684
+S
+#10684
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10683
+D3
+~
+~
+0 0 10685
+S
+#10685
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10684
+D3
+~
+~
+0 0 10668
+S
+#10686
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10668
+D3
+~
+~
+0 0 10687
+S
+#10687
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10686
+D3
+~
+~
+0 0 10688
+S
+#10688
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10689
+D1
+~
+~
+0 0 10687
+S
+#10689
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10690
+D2
+~
+~
+0 0 10688
+S
+#10690
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10691
+D2
+~
+~
+0 0 10689
+S
+#10691
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10692
+D2
+~
+~
+0 0 10690
+S
+#10692
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10693
+D2
+~
+~
+0 0 10691
+S
+#10693
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D0
+~
+~
+0 0 10694
+D2
+~
+~
+0 0 10692
+S
+#10694
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10695
+D2
+~
+~
+0 0 10693
+S
+#10695
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10696
+D3
+~
+~
+0 0 10694
+S
+#10696
+The Mud Road~
+You are travelling along the mud road that surrounds this village.  The
+air here smells rather foul, and you see piles of refuse spread about the
+thatched walls.  In the corners of the numerous huts are frogs and toads of
+every kind, which seem to be the household pets of these mysterious people
+that inhabit the village.  You wonder how long this society has existed here
+undiscovered.
+~
+0 0 1
+D1
+~
+~
+0 0 10674
+D3
+~
+~
+0 0 10695
+S
+#10697
+Entrance to the Grand Hut~
+You are standing before a thatched hut easily the size of three of the
+other ruglar huts in this village.  Outside of the hut there are strange
+ritualistic markings painted with colored mud upon the walls of this
+edifice.  A few strange totems and assorted marked amulets have been placed
+around the house, marking it as the living quarters of a shaman or chief.
+~
+0 0 1
+D0
+~
+~
+0 0 10698
+D2
+~
+~
+0 0 10674
+S
+#10698
+Inside the Grand Hut~
+You are inside the largest hut in this village.  It is rather dark in
+here, but a strange greenish fire burns brightly in the center of the room.
+Various animal bones and skins have been scattered about and the smell of
+decaying flesh is strong here.  A large spear made from wood and tipped with
+obisidian is hanging upon the wall and strange paintings of rituals have
+been hung everywhere.
+~
+0 0 1
+D0
+~
+~
+0 0 10699
+D2
+~
+~
+0 0 10697
+S
+#10699
+The Back Room of the Grand Hut~
+You are inside the Grand Hut of the Frogmen.  This room is furnished
+well, with a large sponge bed and leaf sheets.  A rough table has been made
+and stands in the center of this room, and a few clay mugs sit on it.  A
+large rug made from fish skins covers the mud floor and utensils made from
+bone are neatly stacked on a bark shelf in the corner.
+~
+0 0 1
+D2
+~
+~
+0 0 10698
+S
+#0
+
+#RESETS
+D 0 10667   0 1         * Entrance to the Village of Frogmen
+D 0 10668   2 1         * Inside the Village of the Frogmen
+*
+M 0 10600   1 10602  1  * Bernard the Logger (S)
+G 0 10600  -1                   *   a log
+*
+M 0 10601  30 10603  5  * A duck (5)
+M 0 10601  30 10604  5  * A duck
+M 0 10601  30 10606  5  * A duck
+M 0 10613  20 10607  5  * A pelican (10)
+M 0 10601  30 10607  5  * A duck
+M 0 10613  20 10608  5  * A pelican
+M 0 10601  30 10608  5  * A duck
+M 0 10613  20 10609  5  * A pelican
+M 0 10601  30 10609  5  * A duck
+M 0 10613  20 10610  5  * A pelican
+M 0 10601  30 10610  5  * A duck
+M 0 10601  30 10612  5  * A duck
+M 0 10601  30 10612  5  * A duck
+M 0 10601  30 10613  5  * A duck
+M 0 10601  30 10614  5  * A duck
+M 0 10601  30 10618  5  * A duck
+M 0 10601  30 10618  5  * A duck
+M 0 10601  30 10618  5  * A duck
+M 0 10601  30 10619  5  * A duck
+M 0 10601  30 10619  5  * A duck
+M 0 10601  30 10621  5  * A duck
+M 0 10601  30 10622  5  * A duck
+*
+O 1 10601   1 10624  1  * A Statue of the Goddess of Dawn
+*
+M 0 10601  30 10626  5  * A duck
+*
+M 0 10602  30 10629  5  * A small fish (5)
+M 0 10602  30 10630  5  * A small fish
+M 0 10602  30 10630  5  * A small fish
+M 0 10602  30 10630  5  * A small fish
+M 0 10602  30 10631  5  * A small fish
+M 0 10602  30 10632  5  * A small fish
+M 0 10602  30 10632  5  * A small fish
+M 0 10602  30 10633  5  * A small fish
+M 0 10602  30 10633  5  * A small fish
+M 0 10602  30 10633  5  * A small fish
+M 0 10602  30 10634  5  * A small fish
+M 0 10602  30 10634  5  * A small fish
+M 0 10602  30 10635  5  * A small fish
+M 0 10602  30 10635  5  * A small fish
+M 0 10602  30 10636  5  * A small fish
+M 0 10602  30 10636  5  * A small fish
+M 0 10602  30 10637  5  * A small fish
+M 0 10602  30 10638  5  * A small fish
+M 0 10602  30 10639  5  * A small fish
+*
+M 0 10603   1 10640  1  * The silver eel  (10)
+G 0 10602  -1                   *   silver scales
+*
+M 0 10604   1 10642  1  * The alligator turtle (10)
+G 0 10603  -1                   *   a turtle shell
+*
+M 0 10602  30 10643  5  * A small fish
+M 0 10602  30 10643  5  * A small fish
+M 0 10602  30 10644  5  * A small fish
+*
+O 0 10604   1 10648  1  * a pool of water
+*
+M 0 10605  10 10651  2  * The mountain goat (15)
+M 0 10605  10 10651  2  * The mountain goat
+M 0 10605  10 10652  2  * The mountain goat
+M 0 10605  10 10652  2  * The mountain goat
+M 0 10605  10 10653  2  * The mountain goat
+M 0 10605  10 10654  2  * The mountain goat
+*
+O 0 10605   1 10657  1  * a roc egg
+*
+M 0 10606   1 10658  1  * The giant roc (20)
+G 0 10606  -1                   *   a roc feather
+*
+M 0 10607   1 10660  1  * The mountain hermit (15)
+E 0 10607  -1 7         *   Goat leggings
+*
+M 0 10608   1 10662  1  * The water snake charmer ;) (10)
+G 0 10608  -1                   *   a snake eye ring
+*
+M 0 10610  30 10668  5  * The Frogman guard
+M 0 10610  30 10669  5  * The Frogman guard
+*
+M 0 10609  30 10669  5  * The frogman citizen
+M 0 10609  30 10669  5  * The frogman citizen
+M 0 10609  30 10669  5  * The frogman citizen
+M 0 10610  30 10670  5  * The Frogman guard
+M 0 10609  30 10670  5  * The frogman citizen
+M 0 10609  30 10670  5  * The frogman citizen
+M 0 10609  30 10671  5  * The frogman citizen
+M 0 10610  30 10672  5  * The Frogman guard
+M 0 10609  30 10672  5  * The frogman citizen
+M 0 10609  30 10673  5  * The frogman citizen
+M 0 10610  30 10674  5  * The Frogman guard
+M 0 10610  30 10674  5  * The Frogman guard
+M 0 10609  30 10675  5  * The frogman citizen
+M 0 10609  30 10675  5  * The frogman citizen
+M 0 10610  30 10677  5  * The Frogman guard
+M 0 10609  30 10677  5  * The frogman citizen
+M 0 10609  30 10678  5  * The frogman citizen
+M 0 10609  30 10679  5  * The frogman citizen
+M 0 10610  30 10680  5  * The Frogman guard
+M 0 10610  30 10680  5  * The Frogman guard
+M 0 10609  30 10680  5  * The frogman citizen
+M 0 10609  30 10681  5  * The frogman citizen
+M 0 10609  30 10682  5  * The frogman citizen
+M 0 10609  30 10682  5  * The frogman citizen
+M 0 10610  30 10683  5  * The Frogman guard
+M 0 10610  30 10683  5  * The Frogman guard
+M 0 10609  30 10683  5  * The frogman citizen
+M 0 10609  30 10686  5  * The frogman citizen
+M 0 10609  30 10686  5  * The frogman citizen
+M 0 10610  30 10688  5  * The Frogman guard
+M 0 10610  30 10688  5  * The Frogman guard
+M 0 10609  30 10689  5  * The frogman citizen
+M 0 10609  30 10689  5  * The frogman citizen
+M 0 10610  30 10691  5  * The Frogman guard
+M 0 10609  30 10691  5  * The frogman citizen
+M 0 10609  30 10691  5  * The frogman citizen
+M 0 10609  30 10693  5  * The frogman citizen
+M 0 10610  30 10694  5  * The Frogman guard
+M 0 10610  30 10694  5  * The Frogman guard
+M 0 10609  30 10694  5  * The frogman citizen
+M 0 10609  30 10695  5  * The frogman citizen
+M 0 10609  30 10695  5  * The frogman citizen
+M 0 10609  30 10696  5  * The frogman citizen
+M 0 10609  30 10698  5  * The frogman citizen
+*
+M 0 10611   1 10698  1  * The Frogman shaman (20)
+E 0 10612  -1 10        *   A bark bracer
+*
+M 0 10612   1 10699  1  * The Chief Frogman (25)
+E 0 10610  -1 12        *   A fishskin cloak
+E 0 10609  -1 6         *   A fishbone crown
+E 0 10611  -1 16        *   A turtleshell mace
+S
+
+#SHOPS
+10600 22  0  0  0  0     110   65        1 23   * Bernard the Logger
+0
+
+
+
+#SPECIALS
+M 10608 spec_snake_charm        * snake charmer /* by jaceks */
+M 10611 spec_cast_mage          * The Frogman shaman
+S
+
+#$

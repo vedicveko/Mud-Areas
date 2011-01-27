@@ -1,0 +1,682 @@
+#AREADATA
+Name Kang Village~
+Builders Grehyton~
+VNUMs 5300 5399
+Credits Grehyton~
+Security 9
+End
+
+
+
+#MOBILES
+#5300
+small chicken~
+A small chicken~
+A small chicken pecks at the dirt here.
+~
+A small chicken with white feathers and an orange beek. It 
+looks kinda meaty. mmmmm.
+~
+song bird~
+A 0 0 0
+1 0 1d2+6 1d10+100 1d2+0 peck
+0 0 0 0
+F 0 0 0
+stand stand female 0
+AGW ACDEFHKP small unknown
+F aff T
+F off H
+#5301
+kang warrior~
+A kang warrior~
+A kang warrior stands here.
+~
+He is big and mean looking, tatoos of tribal
+symbols mark his body. His hair flows freely
+down around his shoulders.
+~
+unique~
+A a 0 5300
+10 0 3d22+96 10d10+100 2d7+8 slash
+0 0 0 0
+0 B C P
+stand stand male 10
+AHMV ABCDEFGHIJK medium unknown
+#5302
+female villager~
+A female villager~
+A female villager stands here.
+~
+She looks dirty but sorta pretty in a tribal
+kinda way. I wouldnt mess with here though.
+~
+unique~
+ABF a 0 5300
+6 0 1d17+42 5d10+100 2d3+5 scratch
+0 0 0 0
+J 0 0 0
+stand stand female 6
+AHMV ABCDEFGHIJK medium unknown
+#5303
+kang chieftan~
+The kang chieftan~
+The kang chieftan is here.
+~
+A powerful but aged man, he was and is still a 
+mighty warrior for the kang people. He has served
+his village for many years and distrusts outsiders.
+~
+unique~
+AB c 0 5300
+25 1 10d61+416 23d10+100 5d6+15 punch
+0 0 0 0
+DI 0 0 0
+sit sit none 50
+AHMV ABCDEFGHIJK medium unknown
+#5304
+chiefs guardian~
+The chiefs guardian~
+The chiefs guardian is here, guarding.
+~
+This guy looks like he could kill you with one hand.
+He is massively built and has reflexes like a cat.
+I would be careful around him.
+~
+unique~
+AB 0 0 0
+20 0 5d40+161 10d20+100 4d5+10 punch
+0 0 0 0
+0 0 0 0
+stand stand male 30
+AHMV ABCDEFGHIJK large unknown
+#5305
+wolf dog~
+A wolf dog~
+A half wolf/dog stands here growling.
+~
+It looks like a dog or maybe a wolf or
+something. It seems to have become 
+accustomed to the village folk.
+~
+wolf~
+ACH Z 0 0
+1 0 1d2+6 1d10+100 1d2+0 bite
+0 0 0 0
+FH 0 0 H
+stand stand none 0
+AGV ACDEFJKQV medium unknown
+#5306
+Elder Shaman~
+An elder shaman~
+An elder shaman is here, working his magic.
+~
+His face wears the mask of the ages, he
+has long grey hair and deep black eyes.
+I wouldnt mess with him.
+~
+unique~
+ABR 0 0 0
+30 2 10d61+416 30d10+100 5d6+15 magic
+0 0 0 0
+N 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+#5307
+dirty swine~
+A dirty swine~
+A dirty swine is here, wallowing in mud.
+~
+A big fat pig. Looks like its porkchops
+tonite.
+~
+pig~
+AB 0 0 0
+2 0 1d3+15 2d10+100 1d2+1 bite
+0 0 0 0
+C 0 0 0
+stand stand male 0
+AGV ACDEFHJK medium unknown
+#0
+
+
+
+#OBJECTS
+#5300
+short club~
+a short club~
+A short bone club rests here.~
+bone~
+weapon 0 ANS
+mace 2 5 thwack 0
+5 10 1 P
+#5301
+war mask~
+a kang war mask~
+A kang war mask is here.~
+velum~
+trash 0 AR
+0 0 0 0 0
+10 2 5 P
+#5302
+animal skin boots~
+a pair of animal skin boots~
+A pair of animal skin boots is here~
+unknown~
+armor 0 AG
+D D D AD 0
+3 10 7 P
+#5303
+buck skin armor~
+a buck skin shirt~
+A buck skin shirt made into armor is here.~
+leather~
+armor 0 AD
+ABC ABC ABC D 0
+6 15 30 P
+#5304
+mystical tattoos~
+deep black mystical tattoos~
+Some tattoos on cut human skin are here.~
+ink~
+armor HM AH
+AD AD AD AD 0
+5 0 1 P
+#5305
+enveloping robes~
+a pile of black clothe~
+A pile of black clothe rests here.~
+clothe~
+armor G AK
+B B B AC 0
+30 5 3000 P
+A
+4 3
+#5307
+stone table~
+a crude stone table~
+A crude stone table is here~
+stone~
+furniture GO 0
+D DEGJ DE 0 0
+1 600 30 P
+#0
+
+
+
+#ROOMS
+#5300
+{YEntrance To Village{x~
+This is the entrance to the Kang village.  Two huge tusks form an
+archway to the north that takes you into the village. Small mud
+huts can be seen further to the north. The Kang are known for not
+liking outsiders and your intrusion will probably get you in trouble.
+~
+0 0 4
+D0
+~
+~
+0 0 5301
+S
+#5301
+{YVillage Path{x~
+You are walking on the path through the village. Small
+huts and animals are all about. To the east is the opening
+into a hut and to the west is the same. The small path
+also continues to the north. A large cave can be seen at
+the end of the path.
+~
+0 0 4
+D0
+~
+~
+0 0 5302
+D1
+~
+~
+0 0 5306
+D2
+~
+~
+0 0 5300
+D3
+~
+~
+0 0 5307
+S
+#5302
+{YSplit In The Path{x~
+You are standing at a small split in the village path.
+To the east is a small hut and to the west another path
+heads off into a small section of trees growing in this
+hilly terrain. To the north the path rises towards a cave.
+~
+0 0 4
+D0
+~
+~
+0 0 5304
+D1
+~
+~
+0 0 5308
+D2
+~
+~
+0 0 5301
+D3
+~
+~
+0 0 5309
+S
+#5303
+~
+~
+0 4 0
+S
+#5304
+{YRising To The Cave{x~
+This is a small path rising above the village towards the
+mouth of a cave further up.  A thin trail of smoke can be
+seen rising out from the cave, indicating someone or some
+thing is inside. From this point you can see the surrounding
+hilly terrain and you have a good view of the village.
+~
+0 0 4
+D0
+~
+~
+0 0 5305
+D2
+~
+~
+0 0 5302
+S
+#5305
+{YMouth Of The Cave{x~
+This is the opening to a large cave set into the side of this
+hilly terrain. This seems to be one of the highest point in
+the village as a view of the surrounding area can be seen. A
+thin trail of smoke rises and curls around the mouth of the
+cave into the air.
+~
+0 8 5
+D0
+~
+~
+0 0 5323
+D2
+~
+~
+0 0 5304
+S
+#5306
+{YInside A Small Hut{x~
+This is the inside of a small hut. A small fire lies in the 
+center of the room and its smoke rises up through a hole in
+the ceiling. Various furs line the floor and form a sort of
+primitive bed in the corner. There doesnt seem to be anything
+of value here for a citified type.
+~
+0 8 4
+D3
+~
+~
+0 0 5301
+S
+#5307
+{YInside A Small Hut{x~
+This is the inside of a crude mud hut at the beginning of the village.
+A small fire is on the floor in the center and its smoke rises up
+through a hole in the ceiling. Animal skins line the floor and form a
+bed in the corner of the room. Stone tools and bits of bone are also
+scattered about.
+~
+0 8 4
+D1
+~
+~
+0 0 5301
+S
+#5308
+{YInside A Small Hut{x~
+You are standing inside a small mud hut. A fire sits on the
+floor in the center of the room and its smoke rises up through
+a hole in the ceiling. Various furs line the floor and a larger
+pile forms a bed in the corner. Bits of stone tools and bone
+are also scattered about.
+~
+0 8 4
+D3
+~
+~
+0 0 5302
+S
+#5309
+{YVillage Path{x~
+You are standing on a path in the village. A small hut
+lies to the north and what looks like a small fenced
+enclosure lies to the south. The path continues on to the
+west towards a bunch of trees.
+~
+0 0 4
+D0
+~
+~
+0 0 5311
+D1
+~
+~
+0 0 5302
+D2
+~
+~
+0 0 5312
+D3
+~
+~
+0 0 5310
+S
+#5310
+{YVillage Path{x~
+You are standing on a small path through the village.
+A small hut lies to the north and another to the south.
+The village seems very primitive compared to a big city
+but the Kang are known for their simple ways. The trail
+enters a small forest to the west.
+~
+0 0 4
+D0
+~
+~
+0 0 5314
+D1
+~
+~
+0 0 5309
+D2
+~
+~
+0 0 5315
+D3
+~
+~
+0 0 5316
+S
+#5311
+{YInside A Small Hut{x~
+You are on the inside of a small mud hut. A fire sits on the
+floor in the center of the room and its smoke rises through a hole
+in the ceiling. Various animal skins cover the floor and
+small bits of bone and tools are scattered about.
+~
+0 8 4
+D2
+~
+~
+0 0 5309
+S
+#5312
+{YAnimal Pen Gate{x~
+This is the opening to a small animal enclosure where
+the villagers keep some of their animals. A simple
+stick fence surrounds the pen and a small wooden gate
+is in front of you. To the north is the village path
+and some huts.
+~
+0 0 4
+D0
+~
+~
+0 0 5309
+D2
+~
+~
+1 0 5313
+S
+#5313
+{YFilthy Animal Pen{x~
+You are inside a filthy animal pen. Piles of dung and
+urine soaked earth are at your feet.  A watering trough
+carved out of a log is in the corner and a small bit of
+feed is in a stone bucket.
+~
+0 0 4
+D0
+~
+~
+1 0 5312
+S
+#5314
+{YInside A Small Hut{x~
+You are standing inside a small hut in the village.
+Animal skins line the floor and a small fire is in the
+center of the room, its smoke rises up to the ceiling and
+exits through a small hole. Bit of bone and stone tools
+are scattered about.
+~
+0 8 4
+D2
+~
+~
+0 0 5310
+S
+#5315
+{YInside A Small Hut{x~
+You are on the inside of a crude mud hut. Bits of
+stone and bone are scattered about the floor. Animal
+skins of various types line the floor and provide 
+modest comfort. A small fire sits in the center of the room.
+~
+0 8 4
+D0
+~
+~
+0 0 5310
+S
+#5316
+{YTrail In The Forest{x~
+The small path enters the forest at this point, it is
+fairly bumpy due to the hilly terrain and tree roots
+sticking out of the dirt. Chanting can be heard echoing
+through the trees but you cant make out from which way
+it is coming. The main village is back east.
+~
+0 0 3
+D0
+~
+~
+0 0 5318
+D1
+~
+~
+0 0 5310
+D3
+~
+~
+0 0 5317
+S
+#5317
+{YTrail In The Forest{x~
+You are moving along a bumpy trail through the
+forest west of the village. This trail seems to
+be fairly well travelled as if the villagers come
+this way alot. The oaks and maples shade you but 
+let in plenty of sky.
+~
+0 0 3
+D1
+~
+~
+0 0 5316
+D3
+~
+~
+0 0 5320
+S
+#5318
+{YTrail In The Forest{x~
+The trail is starting to weave through some thicker trees.
+The sky is being blotted out due to the think canopy. The
+forest didnt seem this thick when you entered it. Crickets
+and other small sounds can be heard all around you.
+~
+0 1 3
+D0
+~
+~
+0 0 5319
+D2
+~
+~
+0 0 5316
+S
+#5319
+{YSmall Clearing{x~
+This is a small clearing in the forest, the thick
+trees seemed to have moved aside. A fire is in the center
+of this clearing and is surrounded by small stones. Runes
+and symbols are carved on the trees all around you.
+~
+0 0 3
+D2
+~
+~
+0 0 5318
+S
+#5320
+{YSplit In The Trail{x~
+You are on a split in the trail in the forest. Far to
+the east the sounds of the village can be heard. To 
+the north of here is a small clearing and a wood shack
+is to the south. Birds flutter overhead.
+~
+0 0 3
+D0
+~
+~
+0 0 5321
+D1
+~
+~
+0 0 5317
+D2
+~
+~
+1 0 5322
+S
+#5321
+{YA Small Clearing{x~
+This is a small clearing in the forest. Wood racks
+and the implements of a trapper are scattered about.
+THe villagers probably come here and trade skins for
+other supplies. The trail leaves here and goes south.
+~
+0 0 3
+D2
+~
+~
+0 0 5320
+S
+#5322
+{YInside A Wood Shack{x~
+This is the inside of a small wooden shack. It seems a
+bit out of place being so close to the village but you
+figure maybe someone here wants a little technology.
+Small shelves line the walls and there is even a display
+case in front of you. This seems to be some sort of store
+or trading post.
+~
+0 8 0
+D0
+~
+~
+1 0 5320
+S
+#5323
+{YInside The Cave{x~
+This is a large cave set in a hillside. Mystical symbols
+and runes cover the wall. A stone altar type thing is on
+the west wall and appears to be covered in blood. This also
+seems to the area of the chief as animal skins from powerful
+animals cover the floor. Stone surround a fire and appear to
+be chairs.
+~
+0 8 5
+D2
+~
+~
+0 0 5305
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 5301 8 5300 1
+E 0 5303 0 5
+E 0 5300 0 16
+E 0 5304 0 9
+E 0 5302 0 8
+M 0 5301 1 5301 1
+M 0 5301 8 5302 1
+E 0 5303 0 5
+E 0 5302 0 8
+E 0 5300 0 16
+M 0 5300 5 5302 1
+M 0 5301 8 5304 1
+E 0 5300 0 16
+E 0 5302 0 8
+M 0 5301 8 5305 1
+E 0 5303 0 5
+E 0 5300 0 16
+M 0 5301 8 5305 1
+E 0 5300 0 16
+E 0 5302 0 8
+M 0 5302 6 5306 1
+M 0 5302 1 5306 1
+M 0 5302 6 5307 1
+M 0 5302 6 5308 1
+M 0 5305 2 5310 1
+M 0 5301 8 5310 1
+E 0 5300 0 16
+M 0 5302 6 5311 1
+M 0 5305 2 5312 1
+M 0 5307 5 5313 1
+M 0 5300 2 5313 1
+M 0 5302 6 5314 1
+M 0 5302 6 5315 1
+M 0 5306 1 5319 1
+E 0 5305 0 12
+M 0 5304 1 5323 1
+E 0 5301 0 17
+E 0 5303 0 5
+E 0 5300 0 16
+M 0 5303 1 5323 1
+E 0 5300 0 16
+M 0 5301 8 5323 1
+E 0 5300 0 16
+M 0 5301 8 5323 1
+E 0 5303 0 5
+E 0 5300 0 16
+O 0 5307 0 5323
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#5300
+snarl $n
+~
+#0
+
+#$

@@ -1,0 +1,246 @@
+#AREA {MTrib} Aahz  M.Y.T.H. Inc. Tribe Area~
+
+
+#MOBILES
+
+#7120
+Sug~
+Sug~
+Sug is here waiting to take your order.
+~
+This smiling gargoyle looks a bit silly with his paper hat...
+Gus owns the Yellow Crescent Inn and is a long time friend of Aahz.
+Even with his rough stone skin and intimidating size he appears
+cheerful and friendly as he tends to his resturaunt.
+~
+gargoyle~
+ABGV CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0
+#7121
+Tananda~
+Tananda~
+Tananda knows just how to make you feel better!
+~
+Tananda winks at you...what a babe! If you're into curvacous
+Trollops with an olive complexion and green hair who are trained
+assassins ... not there is anything wrong with that ;)
+~
+human~
+ABGVa CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+#7122
+Chumly~
+Chumly~
+Chumly is ready to turn you into a lean mean ... something or other.
+~
+Chumly is BIG and UGLY but don't let his act fool you.
+Not all trolls rip the arms off of everyone they meet...
+He speaks in a slight English accent and tends to be a but
+timid.  He is also the older brother of Tananda, who obviously
+got all the good looks. 
+
+Chumly can help you practice skills and spells, train attributes and gain
+spells and skill groups.
+~
+troll~
+ABJKVGb CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+
+#0
+
+#ROOMS
+
+#7120
+The Bazzar at Deva~
+The portal has transferred you to the dimension of Deva, home of the Deevals
+who are notorious hagglers and salesman.  The M.Y.T.H. Inc. offices are 
+nearby so hurry along before one of the merchants tries to make you a deal. 
+A sign is tacked up on a post.
+~
+71 DKN 0
+D0
+The Vitalogy Health Club
+~
+~
+0 -1 7123
+D1
+The Yellow Crescent Inn
+~
+~
+0 -1 7122
+D2
+The Even Odds
+~
+~
+0 -1 7121
+D3
+A Small Tent
+~
+~
+0 -1 7125
+D5
+Town of Lanfear
+~
+~
+0 -1 15017
+E
+sign~
+This area/tribe was inspired by the MYTH books by Robert Lynn Asprin.
+Consult your local library or bookstore for details. :)
+~
+S
+#7121
+The Even Odds~
+Formerly a bar and bookmaking operation owned by a dishonest Deeval 
+the Even Odds was purchased and then renovated by M.Y.T.H. Inc. and
+now serves as a second home for the offices.  Despite the new facade
+a table is always ready for a "friendly" round of dragon-poker.
+~
+71 DKN 0
+D0
+The Bazzar at Deva
+~
+~
+0 -1 7120
+S
+#7122
+The Yellow Crescent Inn~
+The smell of greasy food and the scent of frying burgers hangs in the air
+of this small brick building with a large yellow crescent shaped sign out
+front.  The food looks barely edible but the service is impressive.
+~
+71 DKNS 0
+D3
+The Bazzar at Deva
+~
+~
+0 -1 7120
+S
+#7123
+The Vitalogy Health Club~
+Owned and operated by M.Y.T.H. Inc. this health club is like no-other.
+The first thing you notice is the loud Seattle-rock music playing over the
+PA system... the next is the ferocious looking Troll in the center of the
+room.
+~
+71 DKN 0
+D2
+Bazzar at Deva
+~
+~
+0 -1 7120
+D3
+Equipment Center
+~
+~
+0 -1 7124
+S
+#7124
+Equipment Center~
+You can barely walk through all the articles laying on the floor...
+The employees of M.Y.T.H. Inc. come here to pick-up or drop spare equipment
+that fellow employees have left behind.
+~
+71 DKN 0
+D1
+Vitalogy Health Club
+~
+~
+0 -1 7123
+S
+#7125
+The Foyer~
+WHOA...from the outsides this place appears to be a rundown little tent
+but thanks to cutting edge of dimension-modifying technology it is actually
+a 120 room mansion complete with courtyard and stables.  Since the purchase
+of the Even Odds this building has served as a residential palace for the
+employees of M.Y.T.H. Inc. 
+~
+71 DKN 0
+D1
+The Bazzar at Deva
+~
+~
+0 -1 7120
+D3
+Den of Aahz
+~
+~
+0 -1 7126
+S
+#7126
+Den of Aahz~
+All I can say is this room is a MESS!  The floor is cluttered with what
+appear to be utility bills and returned check notices & empty beer bottles
+seem to inhabit every available inch of shelf-space. While sifting through  
+the trash you happen upon what appears to be a rather shaggy looking beast, 
+at closer inspection it turns out to be a designer sofa with a plush Muppet-
+fur apoulstry.  A flimsy-looking mesh hammock is tied up in the corner and
+something (or someone) else is tied up in the closet.
+~
+71 DKN 0
+D1
+The Foyer
+~
+~
+0 -1 7125
+S
+#0
+
+#OBJECTS
+#7120
+strawberry milkshake~
+a strawberry milkshake~
+a strawberry milkshake is here~
+liquid~
+10 A A
+45 28 0 0 0
+1 4 3000 G
+#7121
+elbow grease~
+Elbow Grease~
+Elbow Grease~
+metal~
+9 0 AI
+10 10 10 10 0
+1 3 3000 G
+A
+3 2
+A
+4 2       
+#0
+#RESETS
+
+M 0 7120 1 7122
+G 1 7120 -1
+G 1 7121 -1
+M 0 7121 1 7125
+M 0 7122 1 7123
+
+S
+
+#SHOPS
+
+7120      10 10 10 10 10     100 100     0 24
+
+0
+
+#SPECIALS
+
+M 7121 spec_cast_adept
+
+S
+
+#$

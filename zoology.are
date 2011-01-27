@@ -1,0 +1,500 @@
+#AREA
+zoology.are~
+zoology~
+{ 1 10} Og      MudSchool FieldTrip~
+400 499
+
+
+#MOBILES
+#400
+ameoba~
+ameoba~
+An ameoba stands here, looking for newbies.
+~
+Basicly it's a clear sack filled with jelly and colorful floating things.
+~
+human~
+ABC 0 0 0
+1 0 2d2+4 1d1+99 1d2+0 bite
+10 10 10 100
+0 0 0 0 
+stand stand either 15
+0 0 medium 0
+#401
+man gorilla~
+A gorilla~
+A gorilla stands here with a sign around its neck greeting you.
+~
+The gorilla, hey wait! Thats a man dressed in a gorilla outfit. It's a fake!
+The sign around his neck says 'Come see the gorilla display!'
+~
+human~
+ABH 0 -333 0
+3 0 10d2+15 1d1+99 1d4+1 punch
+2 2 2 0
+0 0 0 0
+stand stand male 45
+0 0 medium 0
+#402
+pubic lice~
+A pubic lice~
+Egads, they have gone too far! A pubic lice stands here!
+~
+The most heinous thing you could probably think of is standing in front 
+of you: A six foot tall pubic lice.  Crabs anyone?
+~
+human~
+ABH 0 -300 0
+2 0 2d5+19 1d1+99 1d5+0 chomp
+7 4 8 10
+K 0 0 0
+stand stand female 25
+0 0 medium 0
+#403
+john shopkeeper~
+John the shopkeeper~
+John the shopkeeper stands here at his part time job.
+~
+John the shopkeeper is obviously not happy.  And who would be at this job?
+~
+human~
+ABV 0 200 0
+10 0 2d33+50 10d10+100 3d5+7 pierce
+4 4 4 7
+CEIK ABCD 0 0
+stand stand male 250
+0 0 medium 0
+#404
+shark~
+a shark~
+A shark swims here looking for food.
+~
+How hungry do you think a shark could possibly be?  You poke its nose to 
+piss it off.  Boy does he look angry now!
+~
+human~
+ABF 0 -300 0
+7 1 1d33+61 1d10+100 3d4+1 scratch
+3 3 3 5
+DKMV AR LQ 0
+stand stand male 250
+0 0 large 0
+#405
+jellyfish man war man-o-war~
+A Man-of-war~
+A big gelatinous mass of man-of-war floats here.
+~
+This is prehaps the ugliest jellyfish you've ever seen.  Its just a big 
+blob with tenticles.  It doesn't even have pretty colors in it.  Just a 
+ugly gray color.
+~
+human~
+ACG 0 0 0 
+5 0 4d5+30 1d10+100 1d6+1 bite
+8 0 8 8
+0 L 0 0
+stand stand female 250
+0 0 large 0
+#406
+child~
+a child~
+A child stands here, amazed by all the neat animals.
+~
+The child is obviously too young to realise that this is prehaps one of 
+the stupidest exhibits his little brain could comprehend.
+~
+human~
+AG 0 400 0
+1 0 2d5+0 1d1+100 1d2+1 punch
+8 8 8 10
+0 0 0 0
+stand stand male 110
+0 0 small 0
+#407
+teacher~
+Your teacher~
+Your teacher stands here looking for you!
+~
+Thank God she doesn't see you!  But if you keep looking at her she may!
+~
+troll~
+AGR 0 -500 0
+5 0 2d5+40 5d10+100 2d3+1 pierce
+6 6 6 8
+D BE HK 0
+stand stand female 320
+0 0 medium 0
+#408
+gorilla~
+A gorilla~
+A gorilla is playing with its own feces.
+~
+This gorilla is really foul.  Its making mud pies out of its own feces 
+and throwing it at visitors. Duck! one just missed you!
+~
+bear~
+AG 0 50 0
+4 0 1d10+30 1d1+100 2d2+1 beating
+7 5 7 8
+CDEOU 0 EI 0
+stand stand female 90
+0 0 large 0
+#409
+janitor~
+A janitor~
+A jantior stands here, cleaning up gorilla poop.
+~
+You feel so sorry fort his poor man who has been subjected to cleaning up 
+after the gorillas for the rest of his life.
+~
+human~
+ACG 0 200 0
+3 0 3d10+10 1d100+30 1d4+2 scratch
+7 8 8 9
+EN 0 0 0
+stand stand either 110
+0 0 medium 0
+#410
+emu~
+an emu~
+The most beloved of chordates, an emu stands here.
+~
+Oh wow! An emu..this brings back such memories of your pet emu that you 
+had when you were a wee bit smaller than you are now.  And when he died, 
+well your mom made some of the tasties meat stew you've ever had to cheer 
+you up.
+~
+human~
+AG 0 500 0
+2 0 1d10+15 3d40+1 2d2+1 bite
+7 7 7 9
+I 0 0 0
+stand stand either 150
+0 0 large 0
+#0
+
+
+
+#OBJECTS
+#400
+popcorn~
+Some popcorn~
+Some popcorn to feed the animals lies here.~
+food~
+food 0 A
+3 3 0 0 0
+0 3 4 P
+#401
+key~
+The key to the tank~
+The key to the shark tank lies here
+~
+iron~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#402
+shark tooth necklace~
+A shark tooth necklace~
+A wire with a shark tooth has been left here.
+~
+coral~
+armor G AC
+1 1 1 3 0
+4 20 300 P
+A
+19 1
+
+#0
+
+
+
+#ROOMS
+#400
+Entrance to the Museum~
+The museum has this great new exhibit that you've been dying to see 
+and now is your chance! Through these doors is a great new exhibit about 
+the evolution of life as we know it.  You're so excited you think you're 
+about to wet your armor! So just head right on in to the south.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 C 0 
+D2
+The entrance lies just ahead of you! What are you waiting for?
+~
+~
+0 0 401
+D3
+~
+~
+0 0 3700
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++    by jaceks in old ages when he was small, young and preety elf   +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#401
+Atrium of the Museum~
+You are standing right inside the entrance to the museum.  Wow, this is
+going to be such fun!  You quickly evade your MudSchool teacher and go off
+on your own.  To the north you see the entrance to the mud museum, while
+upstairs you see a souviniere shop.  To the south is the Hall of the Beefed
+up Tinsy Animals, while to the west is the Wide World of Chordates.  Finally
+to the east you see the special marine section of the museum.  
+~
+0 D 0 
+D0
+The entrance to the museum.~
+~
+0 0 400
+D1
+~
+~
+0 0 403
+D2
+~
+~
+0 0 404
+D3
+~
+~
+0 0 402
+D4
+~
+~
+0 0 413
+S
+#402
+The Hall of Chordates~
+This is the Hall of Chordates.  All around you are really boring 
+examples of what a chordate is.  A beastly fido is a chordate, as is the 
+mayor of Midgaard.  This is boring, you think.
+~
+0 D 0  
+D1
+~
+~
+0 0 401
+D2
+~
+~
+0 0 406
+S
+#403
+Under the Sea~
+This is the underwater exhibit of the museum.  Through the aid of 
+magic, these underwater creatures have been enabled to breathe air and 
+come out and visit you.
+~
+0 D 0  
+D2
+~
+~
+0 0 408
+D3
+~
+~
+0 0 401
+S
+#404
+Tinsy Animal Exhibit~
+All the tinsy animals here have been made bigger so that you can see 
+them.  You sure hope they forgot to magnify the pubic lice!
+~
+0 D 0 
+D0
+~
+~
+0 0 401
+D2
+~
+~
+0 0 405
+S
+#405
+Hall of Tinsy Things~
+Okay, you've decided this is the stupidest most educational field trip 
+you've been on.  All around you are slime molds, and tardigradas, all 
+sized up for your conveyence.  You thank the Gods that you think you see 
+the exit to the south.
+~
+0 D 0 
+D0
+~
+~
+0 0 404
+D2
+~
+~
+0 0 411
+S
+#406
+Hall of Chordates~
+Wow, you're about as interested in this as you are about the stuff that 
+grows in between your toes.  Oh, that's in another hall in this museum.  
+Silly you.  You contemplate pulling a fire alarm to make this trip a 
+little more interesting.  The hall of chordates continues to the south.  
+~
+0 D 0 
+D0
+~
+~
+0 0 402
+D2
+~
+~
+0 0 407
+S
+#407
+Hall of Chordates~
+You are now pulling your hair out!  This is so boring!  Type recall and 
+end it all!!!  The gorilla cage is to the west, if you want to inflict 
+more punishment on yourself.  Wait!  Over there, to the south, is the exit!
+~
+0 D 0 
+D0
+~
+~
+0 0 406
+D2
+~
+~
+0 0 411
+D3
+~
+cage~
+1 0 412
+S
+#408
+Marine Exhibit~
+Things float around you as if you were in water.  Plankton, seaweed, 
+garbage, oil coated ducks; it's so realistic you think!  Only problem is, 
+you don't have an ounce of interest.  You spot the shark tank to the east 
+and the hall continues to the south.
+~
+0 D 0 
+D0
+~
+~
+0 0 403
+D1
+To the east you see the shark tank.
+~
+tank~
+1 401 409
+D2
+~
+~
+0 0 410
+S
+#409
+The Shark Tank~
+Wow look at all the sharks in here!  Now this is neat, since of course,
+you're not supposed to be here.  There are sand sharks, hammer-head sharks,
+and many more sharks to play with!  
+~
+0 D 0 
+D3
+~
+tank~
+1 401 408
+S
+#410
+Marine Exhibit~
+You see the end of this exhibit to the south.  All around you corals 
+and other pretty things flourish all thanks to the wonders of modern 
+science.  Thank the Gods this stupid field trip is almost over.
+~
+0 D 0
+D0
+~
+~
+0 0 408
+D2
+~
+~
+0 0 411
+S
+#411
+Exit from the Museum~
+It's over!!! That stupid field trip is finally over!!! You celebrate 
+with your classmates as you pass through the turnstyle with your 
+classmates and head on the bus.  To you south you can return to the 
+M.U.D.U. arena.
+~
+0 CD 0 
+D2
+~
+~
+0 0 3746
+S
+#412
+The Gorilla Cage~
+Heres where all the gorillas are kept.  It smells really bad in here.  
+You feel sorry for the guy who has to clean up after all of these gorillas.
+~
+0 D 0 
+D1
+~
+cage~
+1 0 407
+S
+#413
+Souvenire Shop~
+Wow, look at all the souvenires.  Too bad you can't afford half of it.  
+Uh oh, you'd better get out of here, you think you hear your M.U.D.U. 
+teacher coming up the stairs to bring you back together with the class.
+~
+0 D 0 
+D5
+~
+~
+0 0 401
+S
+#0
+
+
+
+#SPECIALS
+M 407 spec_cast_mage Load to: Your teacher
+M 409 spec_janitor Load to: A janitor
+S
+
+
+
+#RESETS
+D 0 407  3 1     * The west door of Hall of Chordates is closed
+D 0 408  1 2     * The east door of Marine Exhibit is closed and locked
+D 0 409  3 2     * The west door of The Shark Tank is closed and locked
+D 0 412  1 1     * The east door of The Gorilla Cage is closed
+M 0 401  1 400 1 * Load A gorilla
+M 0 407  1 401 1 * Load Your teacher
+M 0 406  1 403 1 * Load a child
+M 0 400  2 404 2 * Load ameoba
+M 0 402  1 405 1 * Load A pubic lice
+M 0 410  2 406 2 * Load an emu
+M 0 406  1 407 1 * Load a child
+M 0 404  1 409 1 * Load a shark
+G 1 402  1       * A shark tooth necklace is given to a shark
+M 0 405  2 410 2 * Load A Man-of-war
+M 0 409  1 412 1 * Load A janitor
+E 1 401 -1 17   * The key to the tank is given to A janitor
+M 0 408  2 412 2 * Load A gorilla
+M 0 403  1 413 1 * Load John the shopkeeper
+G 1 400 -1       * Some popcorn is given to John the shopkeeper
+S
+
+
+
+#SHOPS
+403 19 0 0 0 0 120 50 0 23
+0
+
+
+
+#$

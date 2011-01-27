@@ -1,0 +1,715 @@
+#AREA	{10 30} Yaegar Prehistoria~
+
+
+#MOBILES
+#15400
+pteranodon~
+a pteranodon~
+A pteranodon glares at you as it flies past.
+~
+Pteranodons are carniverous flying reptiles, true, but you are a little
+large and armored for it to bother with.
+~
+64|8388608 524288 0 S
+18 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15401
+roc~
+a HUGE Roc~
+A HUGE Roc screeches and attacks!
+~
+This mighty bird is the most powerful inhabitant of Prehistoria. It has
+inhabited this peak for centuries, and isn't about to give it up now!
+~
+2|32|64|8388608 128|524288 -400 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15402
+wild pack animal dog~
+a wild dog~
+A wild pack animal that resembles a dog snarls at you.
+~
+These "dogs" are about three times as large, tough and ferocious as any dog
+you have ever seen. Ancestors of the Beastly Fidos of your time, they will
+tear your throat out in a second.
+~
+32|64|128|8388608 0 0 S
+14 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15403
+triceratops~
+a triceratops~
+A triceratops lowers its head and charges!
+~
+These fierce-looking reptiles are actually herbivorous, and quite peaceful,
+despite their appearance. However, the sun and the situation has driven this
+poor brute mad.
+~
+2|32|64|8388608 0 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15404
+buzzard~
+a buzzard~
+A buzzard circles patiently, looking for a cadaver.
+~
+These birds are engaged in their death watch; they know from experience that
+death occurs very rapidly in this dangerous and desolate place.
+~
+64|128|8388608 524288 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15405
+giant insect~
+a giant insect~
+A giant insect that resembles a dragonfly buzzes by.
+~
+These massive dragonflies are occasionally captured and tamed by wandering
+tribesmen to be used as mounts. They are not aggressive, despite their
+size and fearsome countenance suggesting otherwise.
+~
+2|64|8388608 128|524288 400 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#15406
+wandering tribesman hunter~
+a wandering tribesman~
+A wandering tribesman glares at you with deep suspicion.
+~
+This fellow is part of a nomadic tribe that wanders the land of prehistoria.
+He isn't sure whether you are friend or foe.
+~
+2|64 0 400 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#15400
+pool oasis~
+a pool of clear drinking water~
+A pool of clear drinking water lies here.~
+~
+25 0 0
+0 0 0 0 
+999 0 0
+#15401
+spear~
+a wooden spear~
+A wooden spear has been left here.~
+~
+30 0 1|8192|16384
+0 0 0 0 
+7 0 0
+A
+18 3
+#15402
+quiver~
+a leather quiver~
+A leather quiver for spears lies here.~
+~
+29 0 1|8
+21 1 0 0 
+5 0 0
+#15403
+furs~
+some thick beast furs~
+Some thick furs lie here.~
+~
+9 0 1|1024
+0 0 0 0 
+8 0 0
+A
+5 1
+A
+13 10
+A
+17 -10
+A
+25 -2
+#15404
+egg~
+a roc egg~
+A roc egg sits here, ready to hatch.~
+~
+19 0 1
+100 0 0 0 
+25 0 0
+#15405
+bones~
+some bones~
+Some humanoid bones have been scattered here.~
+~
+13 0 1
+0 0 0 0 
+20 0 0
+#15406
+carcass~
+a rotting carcass~
+(Nauseating) A half-eaten, rotting carcass lies here.~
+~
+19 0 1
+24 0 0 1 
+75 0 0
+#15407
+dead tree~
+a dead tree~
+A twisted, dead tree protrudes here.~
+~
+12 0 0
+0 0 0 0 
+100 0 0
+#0
+
+
+#ROOMS
+#15400
+Wild Plains~
+You are walking across wide, open plains overgrown with thick tall grass
+and the occasional shrub or tree. Birds of several varieties soar across
+the pale blue sky above, while prehistoric animals roam the land below.
+The plain continues to the east, while to the west it encounters more
+civilized lands.
+~
+0 4 2
+D1
+~
+~
+0 -1 15401
+D3
+~
+~
+0 -1 5365
+S
+#15401
+Wild Plains~
+You are walking across wide, open plains overgrown with thick tall grass
+and the occasional shrub or tree. Birds of several varieties soar across
+the pale blue sky above, while prehistoric animals roam the land below.
+~
+0 0 2
+D1
+~
+~
+0 -1 15402
+D3
+~
+~
+0 -1 15400
+S
+#15402
+A Junction~
+Here the fields are interrupted by the intrusion of the foothills of a small
+volcanic mountain range to the north, and an ancient forest to the east.
+~
+0 0 2
+D0
+~
+~
+0 -1 15403
+D1
+~
+~
+0 -1 15408
+D3
+~
+~
+0 -1 15401
+S
+#15403
+The Foothills~
+You are making your way through the foothills of the mountain range you
+spied earlier. One look at those treacherous slopes tells you that you
+won't be able to proceed too far. But perhaps there are civilized peoples
+living up in those ranges somewhere...?
+~
+0 0 4
+D0
+~
+~
+0 -1 15404
+D2
+~
+~
+0 -1 15402
+S
+#15404
+The Mountains of Prehistoria~
+These jagged peaks and treacherous slopes comprise one of the first mountain
+ranges to erupt on a continent which will one day be almost surrounded by
+them. You hear a sudden explosion, and, finding your footing on the shaking
+ground, turn to see a distant volcano fiercely erupting, spewing its lethal
+gases and boiling lava out into the world.
+
+A goat track runs east of here. To the north you can see a wide ocean.
+~
+0 0 5
+D0
+~
+~
+0 -1 29502
+D1
+~
+~
+0 -1 15405
+D2
+~
+~
+0 -1 15403
+D4
+~
+~
+0 -1 901
+S
+#15405
+A Goat Track~
+This tenuous trail makes its way through the less dangerous parts of the
+mountains, avoiding jagged rocks, sudden pits and recent lava flows. After
+a while, you pass a point where you might even be able to attempt to ascend
+to the peak of a smaller mountain should you wish to.
+~
+0 0 5
+D1
+~
+~
+0 -1 15407
+D3
+~
+~
+0 -1 15404
+D4
+~
+~
+0 -1 15406
+S
+#15406
+Ascending the Mountain~
+You manage to clamber part way up the slope to a small ledge, where you
+pause to gather your wits. But looking upward, you quickly realize that
+further progress won't be possible, unless you can fly.
+~
+0 0 5
+D4
+~
+~
+0 -1 15424
+D5
+~
+~
+0 -1 15405
+S
+#15407
+The Path Ends~
+The trail you were following ends here rather abruptly, at the foot of a
+sheer cliff face. However, from here you see another, downward-sloping
+path you could now take, down into a small valley.
+~
+0 0 5
+D3
+~
+~
+0 -1 15405
+D5
+~
+~
+0 -1 14122
+S
+#15408
+An Ancient Forest~
+You find yourself suddenly on a broad, well-trodden path that runs through
+the center of this magnificent forest. Trees as thick as a castle turret
+soar one hundred, two hundred feet into the air all around you, their huge
+trunks thick with moss and entwined with vines as thick as your thigh. The
+cries of strange animals that you have never heard before echo about you,
+and you feel rather uneasy in this alien environment.
+~
+0 0 3
+D1
+~
+~
+0 -1 15409
+D3
+~
+~
+0 -1 15402
+S
+#15409
+An Ancient Forest~
+You continue deeper along this path further into the forest. Trees as thick
+as a castle turret soar one hundred, two hundred feet into the air all around
+you, their huge trunks thick with moss and entwined with vines as thick as
+your thigh. The cries of strange animals that you have never heard before
+echo about you, and you feel rather uneasy in this alien environment.
+
+A path runs south of here toward more grasslands. Or you may head up a 
+slope to the north toward a huge moongate.
+~
+0 0 3
+D4
+~
+~
+0 -1 2400
+D1
+~
+~
+0 -1 15415
+D2
+~
+~
+0 -1 15410
+D3
+~
+~
+0 -1 15408
+S
+#15410
+Grasslands~
+You are back on the grassy fields that dominate most of prehistoric Anon,
+though these fields are drier and sparser than those you encountered
+previously. To the south lies the shimmering sands of a desert.
+~
+0 0 10
+D0
+~
+~
+0 -1 15409
+D2
+~
+~
+0 -1 15411
+S
+#15411
+The Desert~
+You suddenly find yourself struggling across long, wide dunes of deep red
+sand, which extend in all directions. There appears to be an oasis to the
+south, while to the east lies what looks like some sort of city.
+~
+0 0 10
+D0
+~
+~
+0 -1 15410
+D1
+~
+~
+0 -1 15413
+D2
+~
+~
+0 -1 15412
+S
+#15412
+An Oasis~
+You have reached a small oasis in the desert, and pause to rest and quench
+your thirst. Unfortunately, many wild animals trapped in the desert seek
+refuge at such places, and not all of them are friendly...
+~
+0 0 6
+D0
+~
+~
+0 -1 15411
+S
+#15413
+The Desert~
+You continue to struggle across the desert, heading for the city you saw (or
+you think you saw) further to the north east. The hot sun burns down on you,
+causing you to sweat profusely inside your cumbersome armor.
+~
+0 0 10
+D1
+~
+~
+0 -1 15414
+D3
+~
+~
+0 -1 15411
+S
+#15414
+The Desert~
+You continue to struggle across the desert, heading for the city you saw (or
+you think you saw) further to the north east. The hot sun burns down on you,
+causing you to sweat profusely inside your cumbersome armor.
+
+Whatever it was that you saw now lies to the north of here.
+~
+0 0 10
+D0
+~
+~
+0 -1 29300
+D3
+~
+~
+0 -1 15413
+S
+#15415
+An Ancient Forest~
+You continue deeper along this path further into the forest. Trees as thick
+as a castle turret soar one hundred, two hundred feet into the air all around
+you, their huge trunks thick with moss and entwined with vines as thick as
+your thigh. The cries of strange animals that you have never heard before
+echo about you, and you feel rather uneasy in this alien environment.
+~
+0 0 3
+D1
+~
+~
+0 -1 15416
+D3
+~
+~
+0 -1 15409
+S
+#15416
+An Ancient Forest~
+You continue deeper along this path further into the forest. Trees as thick
+as a castle turret soar one hundred, two hundred feet into the air all around
+you, their huge trunks thick with moss and entwined with vines as thick as
+your thigh. The cries of strange animals that you have never heard before
+echo about you, and you feel rather uneasy in this alien environment.
+
+A small clearing lies to the north of here.
+~
+0 0 3
+D0
+~
+~
+0 -1 15417
+D1
+~
+~
+0 -1 15418
+D3
+~
+~
+0 -1 15415
+S
+#15417
+A Feast~
+You have entered a clearing in the forest, which was the site of a recent
+kill of a herbivorous mammal by a pack of carniverous ones. The corpse of
+the herbivore lies in the center of the clearing. You'd better hope that
+what killed it isn't still around.
+~
+0 0 2
+D2
+~
+~
+0 -1 15416
+S
+#15418
+An Ancient Forest~
+You continue deeper along this path further into the forest. Trees as thick
+as a castle turret soar one hundred, two hundred feet into the air all around
+you, their huge trunks thick with moss and entwined with vines as thick as
+your thigh. The cries of strange animals that you have never heard before
+echo about you, and you feel rather uneasy in this alien environment.
+~
+0 0 3
+D1
+~
+~
+0 -1 15419
+D3
+~
+~
+0 -1 15416
+S
+#15419
+Out of the Forest~
+You emerge from the trees onto a flat, desolate tundra that stretches out to
+the north and east. The path twists northward to avoid several large rocky
+outcrops.
+~
+0 0 2
+D0
+~
+~
+0 -1 15420
+D3
+~
+~
+0 -1 15418
+S
+#15420
+The Wastelands~
+You are heading across a barren wasteland, dotted with dead trees and the
+occasional rocky outcrop. Buzzards circle above you, waiting patiently for
+you to either slay something they can eat, or die yourself. The path you
+are following twists and turns to avoid major obstructions.
+~
+0 0 10
+D1
+~
+~
+0 -1 15421
+D2
+~
+~
+0 -1 15419
+S
+#15421
+The Wastelands~
+You are heading across a barren wasteland, dotted with dead trees and the
+occasional rocky outcrop. Buzzards circle above you, waiting patiently for
+you to either slay something they can eat, or die yourself. The path you
+are following twists and turns to avoid major obstructions.
+~
+0 0 10
+D0
+~
+~
+0 -1 15423
+D2
+~
+~
+0 -1 15422
+D3
+~
+~
+0 -1 15420
+S
+#15422
+The Wastelands~
+You are heading across a barren wasteland, dotted with dead trees and the
+occasional rocky outcrop. Buzzards circle above you, waiting patiently for
+you to either slay something they can eat, or die yourself. The path you
+are following twists and turns to avoid major obstructions.
+
+Passage further south is blocked by an impassable mound of ice and dirt.
+However, you may be able to proceed down a small passage that runs 
+beneath the mound.
+~
+0 0 10
+D0
+~
+~
+0 -1 15421
+D5
+~
+~
+0 -1 2001
+S
+#15423
+The Wastelands~
+You are heading across a barren wasteland, dotted with dead trees and the
+occasional rocky outcrop. Buzzards circle above you, waiting patiently for
+you to either slay something they can eat, or die yourself. The path you
+are following twists and turns to avoid major obstructions.
+~
+0 0 10
+D1
+~
+~
+0 -1 14700
+D2
+~
+~
+0 -1 15421
+S
+#15424
+Flying up the Mountain~
+You are quickly ascending, by magical means, a slope that would take normal
+climbers days to ascend. You can see the summit just above you. You shiver
+and gasp for breath in the cold thin air.
+~
+0 0 9
+D4
+~
+~
+0 -1 15425
+D5
+~
+~
+0 -1 15406
+S
+#15425
+The Summit (An Aerie)~
+Uh Oh. You are at the summit, inside a nest. The nest of something BIG. You
+desperately hope that whatever inhabits this nest isn't around right now...
+~
+0 0 1
+D5
+~
+~
+0 -1 15424
+S
+#0
+
+
+#RESETS
+*
+M 1 15400 4 15401                      loads pteranodons
+M 1 15400 4 15404
+M 1 15400 4 15419
+M 1 15400 4 15411
+*
+M 1 15401 1 15425                      loads roc
+O 1 15404 1 15425                      loads egg
+*
+M 1 15402 4 15417                      loads dogs
+O 1 15406 1 15417                      loads carcass
+*
+M 1 15403 1 15412                      loads triceratops
+O 1 15400 1 15412                      loads pool
+*
+M 1 15404 6 15410                      loads buzzards
+M 1 15404 6 15421
+*
+M 1 15405 4 15403                      loads giant insects
+M 1 15405 4 15413
+M 1 15405 4 15415
+M 1 15405 4 15420
+*
+M 1 15406 8 15402                      loads hunters
+E 1 15401 1 16                          spear
+E 1 15402 1 5                           quiver
+E 1 15403 1 12                          furs
+M 1 15406 8 15413
+E 1 15401 1 16                          spear
+E 1 15402 1 5                           quiver
+E 1 15403 1 12                          furs
+M 1 15406 8 15415
+E 1 15401 1 16                          spear
+E 1 15402 1 5                           quiver
+E 1 15403 1 12                          furs
+M 1 15406 8 15420
+E 1 15401 1 16                          spear
+E 1 15402 1 5                           quiver
+E 1 15403 1 12                          furs
+*
+O 1 15405 1 15403                        loads bones
+O 1 15405 1 15406
+O 1 15405 1 15425
+O 1 15405 1 15411
+O 1 15405 1 15419
+O 1 15405 1 15423
+*
+O 1 15407 1 15406                        loads tree
+O 1 15407 1 15424
+O 1 15407 1 15418
+O 1 15407 1 15422
+O 1 15407 1 15423
+*
+S
+
+
+#SPECIALS
+M  15401 spec_cast_cleric			a HUGE Roc
+M  15402 spec_fido			a wild dog
+M  15404 spec_fido			a buzzard
+M  15405 spec_cast_mage			a giant insect
+S
+
+
+#$

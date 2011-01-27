@@ -1,0 +1,351 @@
+#AREA
+@@dMoribund@@N~
+K moribund~
+L @@W{ @@rALL@@W }@@N~
+N 19
+I 1 120
+V 3300 3310
+X 0
+F 15
+U You hear the screams of the Dead within your head.~
+O stephen~
+R stephen~
+W stephen~
+T You can teleport into here
+#ROOMS
+#3308
+The Room Of Private Contemplation~
+This feels like an enchanted room.  Feelings of peace and happiness
+wash over you like waves lapping across a beach.  Although you are 
+unable to see any walls, floor or ceiling to this room, you are
+perfectly content to just float here, lost in the amazing feelings
+you are currently entertaining.  It seems like whoever had enough
+~
+17950 0
+S
+#3307
+The Pleasure Palace~
+You are in a small, warm room.  Lit by gentle blue light, this room appears
+to be welcoming, rather than cold.  There are two windows set into the
+North wall, looking out over the dark countryside outside, and the stars
+above, glittering like a string of diamonds.  Inside the room, the floor
+seems to consist of a soft, cushioned floor, which is covered in various
+pillows and covers.  Looks like an interesting place to stay for a while!
+To complete the room's gentle mood, soft, ambient music flows through the
+room, filling you with an immense inner peace.
+~
+1544 0
+D4
+A Small Trapdoor.
+~
+trapdoor~
+33 3300 3306
+S
+#3306
+A Small Tunnel~
+You are in a small tunnel, just below the level of the whispy smoke.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3303
+D1
+Moribund.
+~
+~
+0 -1 3302
+D2
+Moribund.
+~
+~
+0 -1 3304
+D3
+Moribund.
+~
+~
+0 -1 3303
+D4
+Moribund.
+~
+~
+0 -1 3301
+D5
+A Small Trapdoor.
+~
+trapdoor~
+33 3300 3307
+S
+#3305
+Moribund~
+You are in a clearing within the whispy smoke of Maribund.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3303
+D1
+Moribund.
+~
+~
+0 -1 3306
+D2
+Moribund.
+~
+~
+0 -1 3302
+D3
+Moribund.
+~
+~
+0 -1 3303
+D4
+Moribund.
+~
+~
+0 -1 3303
+D5
+Moribund.
+~
+~
+0 -1 3303
+S
+#3304
+Moribund~
+You are in the inner lands of Moribund.  Whisps of grey smoke float by.
+From this location, you can smell something rotten, yet familiar.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3304
+D1
+The Morgue!
+~
+~
+0 -1 3300
+D2
+Moribund.
+~
+~
+0 -1 3303
+D3
+Moribund.
+~
+~
+0 -1 3304
+D4
+Moribund.
+~
+~
+0 -1 3305
+D5
+Moribund.
+~
+~
+0 -1 3304
+S
+#3303
+Moribund~
+You are in the outer lands of Moribund.  Whisps of grey smoke float by.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3303
+D1
+Moribund.
+~
+~
+0 -1 3304
+D2
+Moribund.
+~
+~
+0 -1 3303
+D3
+Moribund.
+~
+~
+0 -1 3303
+D4
+Moribund.
+~
+~
+0 -1 3303
+D5
+Moribund.
+~
+~
+0 -1 3304
+S
+#3302
+Moribund~
+You are in the outer lands of Moribund.  Whisps of grey smoke float by.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3303
+D1
+Moribund.
+~
+~
+0 -1 3302
+D2
+Moribund.
+~
+~
+0 -1 3302
+D3
+Moribund.
+~
+~
+0 -1 3303
+D4
+Moribund.
+~
+~
+0 -1 3303
+D5
+Moribund.
+~
+~
+0 -1 3302
+S
+#3301
+Moribund~
+You are in the outer lands of Moribund.  Whisps of grey smoke float by.
+~
+9228 0
+D0
+Moribund.
+~
+~
+0 -1 3301
+D1
+Moribund.
+~
+~
+0 -1 3302
+D2
+Moribund.
+~
+~
+0 -1 3302
+D3
+Moribund.
+~
+~
+0 -1 3302
+D4
+Moribund.
+~
+~
+0 -1 3301
+D5
+Moribund.
+~
+~
+0 -1 3301
+S
+#3300
+The Moribund Morgue~
+You are in a large, cold white-tiled room.  You realize that some strange
+device is spewing out cold air.  The thought crosses your mind that this would
+be a great place to store meat, before you notice the large shelves built into
+the walls, which resemble small beds.  There is a rank odour here, and numerous
+puddles of blood cover the floor.  You realize that this is where all the
+corpses of dead adventurers gather, from far across the realm.  Is yours among
+the many?
+There is a large sign here, it simply reads:
+
+@@eAfter typing get all corpse, you may recall.@@N
+@@aIf there is more than one corpse, type exam 2.corpse, 3.corpse, etc. Until you find yours, then get all x.corpse.@@N
+~
+214028 0
+S
+#0
+#MOBILES
+#3303
+gremlin~
+a Pesky Gremlin~
+A Pesky Gremlin stands here, looking for someone to hurt.~
+~
+2069 1605632 -900 S
+1 1
+200 0 0
+! 0 0 0 7 8226 2 0
+#3301
+will willo wisp~
+Will-o the Wisp~
+A strange, flickering light whirls around you.
+~
+As you look closer, you realise it is swamp gas.  You sense an evil force at
+work, as it whips round your body, as if a hungry snake.
+~
+3 524416 -900 S
+27 0
+40 16 19
+! 0 0 0 7 0 0 0
+#3300
+cadaver~
+Cadaver~
+Cadaver stands before you, looking downright evil.
+~
+Cadaver is a long dead adventurer, forever doomed to summon forth other
+adventurer's corpses when they die.  The only fun He gets is to plonk the
+newly dead players into his home, Moribund.
+~
+3 524288 -200 S
+79 1
+100 50 50
+! 0 0 0 7 0 0 0
+#0
+#OBJECTS
+#3301
+potion~
+a potion~
+A strange potion lies here.~
+10 128 1 1
+1 19 -1 -1
+1
+L
+1
+#3300
+key bone~
+a small bone key~
+A small key made from human bone lies here.
+~
+18 2 1 1
+0 0 0 0
+1
+L
+1
+#0
+#RESETS
+M 0 3300 1 3300 Cadaver
+M 0 3301 1 3306 Will-o Wisp
+G 0 3300 0      Give Will the key... 
+R 0 3301 5 
+R 0 3302 5 
+R 0 3303 5 
+R 0 3304 5 
+R 0 3305 5 
+R 0 3306 4 
+D 0 3306 5 2 
+D 0 3307 4 2 
+S
+#SPECIALS
+M 3300 spec_cast_cadaver
+S
+#$

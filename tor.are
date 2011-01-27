@@ -1,0 +1,2210 @@
+#AREA
+DSA Format~
+tor.are~
+Shadow Tor~
+[30 90] Monomach Shadow Tor~
+4800 4899
+Descr
+No description.
+~
+Bldrs Monomach~
+Sec 9
+Levels 1 101
+Flags A
+End
+#HELPS
+The ancient texts of Abrimoor give us the definition of Tor to be
+quite simply 'Castle' However when paired with the name shadow it
+lends itself to a more sinister nature. Just such a castle exists though
+few who have seen it have returned to tell of it. The most common
+legend tells of a lich seeking immortality threw open a rift to a plane
+of evil which now permeates the land like a plague. Another popular
+legend is that of a Knight of holiness going there to lift the bane upon
+the land only to never return. These are merely legend, though many
+believe they must be based on some reality. Never the less it would
+be wise to tread carefully if one were to go there. As as wise man
+once said: It is a fine line between bravery and foolheartiness. That
+line is the one dividing life and death.
+
+Shadow Tor was written by Monomach for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.  
+-1 $~
+
+#MOBILES
+#4800
+skeleton~
+a skeleton~
+A skeleton searches for intruders.
+~
+All you see are a bunch of ragged bones dressed in a outfit of rusted
+armor.  
+ 
+~
+unique~
+ACDFGO G 0 0 0
+80 0 15d10+1850 20d10+100 4d6+10 slash
+-9 -9 -9 0
+E 0 BKP MN
+stand stand none 200
+ABMc ABCGHI medium none
+~
+MaxWorld  4
+End
+#4801
+zombie~
+a zombie~
+A zombie searches for someone to pay for its torment.
+~
+A badly decomposing body has been animated from the dead, forced to serve
+the wishes of its summoner.  
+~
+unique~
+ABCDFGO G 0 0 0
+70 0 10d10+1300 23d10+100 4d6+12 claw
+-9 -9 -9 0
+0 0 BKP MN
+stand stand none 230
+ABMc ABCGHI medium none
+~
+MaxWorld  3
+End
+#4802
+wight~
+a wight~
+A wight drifts along in eerie silence.
+~
+It appears to be a human but it lacks any real substance.  Its eyes are a
+hollow shell which scream of torment and misery.  It glows with an unholy
+light.  
+~
+unique~
+ADFGOY GI 0 0 0
+70 0 10d10+1300 25d10+100 4d6+8 frbite
+-9 -9 -9 0
+0 0 BKP MN
+stand stand none 250
+ABMc ABCGHI medium none
+~
+MaxWorld  3
+End
+#4803
+spectre~
+a spectre~
+A spectre guards the hall looking to scare the life out of someone.
+~
+It is a ghost in all of the classical forms.  This particular spectre
+haunts because it likes to.  It serves its master quite willingly.  
+~
+unique~
+ADGW KUZ BO -300 0
+70 0 10d10+1300 30d10+100 4d6+15 wrath
+-9 -9 -9 0
+0 0 HIK MS
+stand stand none 300
+ADHILMc A medium none
+~
+MaxWorld  3
+End
+#4804
+mimic killer~
+the mimic~
+A block of fallen granite sits here where it fell.
+~
+It appears to be a block of granite that fell when the room collapsed. 
+However, it looks to have just moved.  
+~
+human~
+ABC 0 0 0 0
+70 2 10d10+1300 20d10+100 2d10+10 bite
+-7 -7 -7 -1
+FN 0 0 0
+stand stand either 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#4805
+ghost paladin sir dornoth~
+Sir Dornoth~
+The ghost of Sir Dornoth weeps silently in the corner.
+~
+Sir Dornoth lead the last assault to destroy Shadow Tor.  He was defeated
+in his quest was turned into the ghost you see before you, forced to wander
+this room for eternity.  
+~
+unique~
+ABEGQTY CDFUV HN 1000 0
+85 6 25d10+2500 46d10+100 10d15+20 divine
+-18 -18 -18 -3
+CFK AB HIK MS
+stand stand male 3000
+ADHILMc A medium none
+~
+MaxWorld  1
+End
+#4806
+undead steed horse~
+an undead steed~
+The Undead Steed's eyes glow with the red of unbound evil.
+~
+These dark horses prance and jump, eager to go out and hunt any mortals
+who dare to be seen by them.  They seem to snort fire and there feet seem
+ablaze with the fires of hell.  
+~
+unique~
+ABGOY J 0 -200 0
+75 0 10d10+1600 25d10+100 2d12+12 bite
+-5 -5 -5 2
+DI 0 BKP MN
+stand stand none 0
+ABGMc ABCGHIJK large none
+~
+MaxWorld  3
+End
+#4807
+dracolich dragon lich~
+the dracolich~
+The bones rise up in the form of a dracolich.
+~
+Made up of the bones of a long dead dragon, the dracolich embodies evil
+in its purest sense.  Glowing red eyes stare into your soul and razor sharp
+bones seek to tear out your flesh.  
+~
+unique~
+ABDGORY DFGJVZc HO -600 0
+96 5 25d10+3700 46d10+100 6d6+15 bite
+-16 -16 -16 -6
+EFGN AB BKP MN
+stand stand none 3600
+ABGMc ABCGHI large none
+~
+MaxWorld  1
+End
+#4808
+lothar human mage necromancer lich~
+Lothar~
+Lothar scans his ancient texts for dark majiks.
+~
+You see a decrepid old necromancer who has lived more years than can be
+counted.  His skin is drawn tight over his bones and he lacks eyes and hair.
+However, there is no doubt that he sees you.  That should frighten you alot.
+~
+human~
+ABGORY DFVZc HO -1000 0
+102 9 50d10+5500 50d10+100 6d7+30 magic
+-17 -17 -17 -10
+AEFGKNR AB CHM INR
+stand stand male 5000
+ABHMVc ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#4809
+skeleton~
+a skeleton~
+A skeleton guards the hall with soulless efficiency.
+~
+All you see are a bunch of ragged bones dressed in a outfit of rusted
+armor.  
+~
+unique~
+ACDGO G 0 0 0
+70 0 10d10+1300 20d10+100 3d10+10 slash
+-9 -9 -9 0
+E 0 BKP MN
+stand stand none 200
+ABMc ABCGHI medium none
+~
+MaxWorld  4
+End
+#4810
+shadow wolf~
+the shadow wolf~
+The shadow wolf stalks its prey in the darkness.
+~
+A large wolf stands here with fur as black as the night.  Its probably
+the biggest wolf you've ever seen in your life.  In the distance another
+wolf howls and the red eyes of the wolf alight with battle rage.  
+~
+wolf~
+ADGW JZ 0 0 0
+90 0 25d10+3000 25d10+100 7d6+15 bite
+-9 -9 -9 0
+FH 0 0 N
+stand stand either 250
+AGV ACDEFJKQV medium none
+~
+MaxWorld  4
+End
+#4811
+ghost~
+a ghost~
+A weery ghost haunts the room.
+~
+This poor soul is somehow drawn to this room.  After being here for so
+long he has gone quite insane and mutters something about, ' you'll never
+get his soul'.  
+~
+unique~
+ABGY IUV 0 0 0
+75 0 12d10+1550 25d10+100 5d6+15 beating
+0 0 0 0
+CFG 0 HIK MS
+stand stand male 1000
+ADHMc A medium none
+~
+MaxWorld  1
+End
+#4812
+undead patrol~
+the undead patrol~
+An undead patrol scans the area for intruders.
+~
+It appears that this skeleton is out searching for those who dare venture
+near to Shadow Tor.  Paired with the demon steed, they make for a powerful
+patrol.  
+~
+unique~
+AGO GJ 0 -300 0
+80 0 15d10+1850 30d10+100 5d6+15 whip
+-9 -9 -9 0
+CDI 0 BKP MN
+stand stand none 1000
+ABMc ABCGHI medium none
+~
+MaxWorld  4
+End
+#4813
+tentacles~
+tentacles~
+The tentacles from some unknown creature reach out of the moat.
+~
+All you see are 4 huge tentacles reaching out to grab you.  By the size
+of them the creature must be enormous.  
+~
+water fowl~
+AB DFTb 0 0 0
+72 0 10d10+1400 32d10+100 5d6+20 whip
+-10 -10 -10 0
+HNO 0 R 0
+stand stand none 0
+AGW ACDEFHKP medium none
+~
+MaxWorld  1
+End
+#4814
+demon guardian~
+the guardian beast~
+An insidious demon appears out of nowhere and attacks.
+~
+~
+demon~
+ABG DFQTVa D -750 0
+70 0 10d10+1300 30d10+100 5d6+15 smash
+-9 -9 -9 0
+C AB DGHM INR
+stand stand none 0
+ABHMVc ABCDEFGHIJK medium none
+~
+MaxWorld  1
+End
+#4815
+zombie~
+a zombie~
+A zombie searches for someone to pay for its torment.
+~
+A badly decomposing body has been animated from the dead, forced to serve
+the wishes of its summoner.  
+~
+unique~
+ABCDGO G 0 0 0
+73 0 10d10+1450 23d10+100 4d9+13 claw
+-4 -4 -2 3
+0 0 BKP MN
+stand stand none 230
+ABMc ABCGHI medium none
+~
+MaxWorld  1
+End
+#0
+
+
+
+#OBJECTS
+#4800
+bone sword~
+a bone sword~
+A large bone that has been sharpened into a sharp weapon rests on the ground.~
+bone~
+weapon JSY AN
+sword 10 11 slash 0
+70 100 1287 P
+A
+18 1
+A
+19 2
+E
+bone~
+It appears to possible have been the leg bone of a human but it is hard
+to say.  It has been fashioned into the form of a sword and a sharp one at
+that.  
+~
+~
+MaxWorld 5
+End
+#4801
+soul orb ghost~
+the Ghost's Soul~
+A small glowing orb floats here.~
+ethereal~
+light AGIKSUY AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+70 10 10 P
+A
+12 20
+A
+4 2
+F
+A 0 0 U
+E
+soul~
+This small orb glows with the holy light.  It is the happy soul of the
+ghost freed with the final blow to its spectral form.  
+~
+~
+MaxWorld 5
+End
+#4802
+leather pouch~
+a dirty leather pouch~
+A small dirty pouch made of leather lies here.~
+water~
+container T AO
+30 AC 0 0 0
+20 30 14 P
+E
+pouch~
+A small pouch dirty and grimy that can be closed with a string on top.  
+ 
+~
+~
+MaxWorld 1
+End
+#4803
+horse shoes fire~
+horseshoes of Fire~
+A pair of horseshoes glow with an inner heat.~
+steel~
+armor ABMT AG
+BE BE BE ABCD B
+88 200 7500 P
+A
+24 -5
+A
+18 5
+A
+19 5
+A
+13 300
+E
+shoes~
+These horseshoes are made out of heavy black steel and glow with the
+intensity of fire, but they do not burn to the touch.  
+~
+~
+MaxWorld 3
+End
+#4804
+ghostly plate mail sir dornoth armor~
+Sir Dornoth's Armor~
+A ghostly pile of armor lies on the ground.~
+ethereal~
+armor ABFIKLQSTU AD
+CE CE ACE AE A
+88 100 5000 P
+A
+13 25
+A
+17 3
+A
+18 12
+A
+1 2
+E
+armor~
+This armor bears the image of St.  Algoroth's Cross, the crest for the
+Paladian Brotherhood of St.  Algoroth.  It is the order of knights to which
+Sir Dornoth belonged.  
+~
+~
+MaxWorld 1
+End
+#4805
+sword holiness white~
+sword of Holiness~
+A gleaming white sword radiates goodness.~
+steel~
+weapon ABGIKLQT AN
+sword 8 19 divine E
+90 250 1000 P
+A
+18 15
+A
+19 15
+E
+sword~
+This is a famous Sword of Holiness known to have been lost to the world
+for over 1000 years.  It is also widely accepted that only 5 such swords
+have ever been made and those only for the Paladins of the Order of St. 
+Algoroth.  The order has since perished but the legend of the swords power
+still remain.  There is an inscription along its length.  It reads: 
+ 
+    This sword is blessed with the holy power of St. Algoroth. Only those 
+    of good hearts and  brave souls can wield this. It is understood that
+    to wield this sword is to defend the virtues of good and to fight the 
+    tyranny of evil wherever it my hide. May St. Algoroth guide your hand.
+~
+~
+MaxWorld 1
+End
+#4806
+vampire wings dark~
+wings of the dracolich~
+Tattered wings lay on the ground.~
+leather~
+armor EJQS AK
+CE CE E CE B
+85 200 1000 P
+A
+5 2
+A
+14 50
+A
+2 2
+E
+wings~
+These are the tattered remnants from the days when the dracolich was a
+dragon in form.  
+~
+~
+MaxWorld 4
+End
+#4807
+eye dracolich orb~
+eye of the dracolich~
+A glowing red orb shines with an unholy light.~
+fire~
+light EGHJMT AO
+0 0 0 0 0
+86 30 1000 P
+A
+19 2
+A
+18 2
+~
+MaxWorld 1
+End
+#4808
+staff crystal lich~
+the Lich's Staff~
+A crystaline staff lays on the ground.~
+crystal~
+weapon ABGSTY AN
+staff 8 19 shbite G
+90 50 2345 P
+A
+13 50
+A
+18 3
+A
+4 2
+E
+staff~
+This staff seems to channel the light from around it so as to unleash it
+for maximum damage when striking an opponent.  
+~
+~
+MaxWorld 1
+End
+#4809
+bracelet thorns~
+a Bracelet of Thorns~
+A loop of interwoven thorns sit here.~
+wood~
+armor BFGSTY AM
+BE BE ABCD ABE A
+90 50 500 P
+A
+2 1
+A
+19 2
+A
+18 2
+E
+the~
+ed add bracelet
+,c
+~
+E
+bracelet~
+The thorns on the bracelet are extremly sharp in they all radiate
+outwards making for very affective weapons.  
+~
+~
+MaxWorld 1
+End
+#4810
+orb lich~
+the Lich's Orb~
+A ball of pure magic floats here.~
+energy~
+treasure ABGHMSY AQ
+0 0 0 0 0
+90 0 1000 P
+A
+13 25
+A
+12 25
+A
+9 -10
+E
+sparks~
+~
+E
+orb~
+Sparks jump off the orb and violent energy burst cause the surface to
+ripple and roil in the tumult.  
+~
+~
+MaxWorld 1
+End
+#4811
+hay~
+some hay~
+Some hay lies on the ground.~
+hemp~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+E
+hay~
+Its hay, you know the stuff horses eat.
+~
+E
+hay~
+Its just regular hay.  You know the stuff horses eat.  What did you
+expect to find a pin?  
+~
+~
+MaxWorld 2
+End
+#4812
+hay~
+some hay~
+Some hay lies on the ground.~
+hemp~
+container 0 0
+50 0 0 50 100
+1 50 0 P
+E
+hay~
+Its hay, you know the stuff horses eat.
+ 
+~
+~
+MaxWorld 1
+End
+#4813
+block granite~
+a piece of granite.~
+A block of fallen granite sits here where it fell.~
+stone~
+furniture 0 P
+0 0 0 0 0
+1 0 0 P
+E
+granite~
+~
+E
+block~
+A piece of granite forms the rubble from the destroyed rooms.  
+~
+~
+MaxWorld 5
+End
+#4814
+small key~
+a small key~
+A small key has been discarded.~
+steel~
+key 0 AO
+0 0 0 0 0
+1 20 0 P
+~
+MaxWorld 1
+End
+#4815
+negative energy rift~
+the Negative Energy Rift~
+A wide rift seems to have been torn into the very fabric of space.~
+ethereal~
+portal OSY P
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 A ABDEJKLM 0
+50 0 0 P
+E
+rift~
+This is roiling mass of blackness burning in chaotic turmoil.  Good
+creature balk to even look at it while evil creatures revel in its power. 
+If you look deep within its depths you think you can see another side, but
+the images keep shifting.  
+~
+~
+MaxWorld 1
+End
+#4816
+ruby gem~
+a ruby~
+A beautiful, if small, ruby is here.~
+gemstone~
+gem 0 A
+0 0 0 0 0
+1 1 6000 P
+~
+MaxWorld 3
+End
+#4817
+pearl~
+a small pearl~
+A small but well-formed pearl lies here.~
+gemstone~
+gem 0 A
+0 0 0 0 0
+1 1 2500 P
+~
+MaxWorld 3
+End
+#4818
+ring mages~
+a mage's ring~
+A small thin ring of mithril lies here.~
+iron~
+armor AGIY AB
+CDE CDE CDE CDE 0
+85 10 2368 P
+A
+23 -4
+A
+3 3
+E
+ring~
+This small ring is made of pewter and bears the mark of several elven
+glyphs.  
+~
+~
+MaxWorld 16
+End
+#4819
+coins~
+some coins~
+A small pile of gold has been left here.~
+gold~
+money 0 A
+0 DF 0 0 0
+1 10 4000 P
+~
+MaxWorld 1
+End
+#4820
+scroll~
+a scroll of weaponry~
+A Scroll of weaponry lies here.~
+paper~
+scroll GT AO
+85 'enchant weapon' 'reserved' 'reserved' 'reserved'
+85 50 2000 P
+~
+MaxWorld 1
+End
+#4821
+scroll~
+a scroll of armory~
+A scroll of Armory lies here.~
+paper~
+scroll GT AO
+85 'enchant armor' 'reserved' 'reserved' 'reserved'
+85 50 2000 P
+~
+MaxWorld 1
+End
+#4822
+black key~
+a black key~
+A black key lies here.~
+iron~
+key 0 AO
+0 0 0 0 0
+1 30 0 P
+~
+MaxWorld 1
+End
+#4823
+lich key~
+a lich key~
+A lich key lies here.~
+iron~
+key 0 AO
+0 0 0 0 0
+1 30 0 P
+~
+MaxWorld 1
+End
+#4824
+coffin~
+an oak coffin ~
+An oak coffin lies here.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+coffin~
+This coffin serves as the resting place of the vampire Astinox.  It id
+about six feet long and made of black oak.  
+~
+~
+End
+#4890
+no name~
+(no short description)~
+(no description)~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+~
+End
+#0
+
+
+
+#ROOMS
+#4800
+Shadowy Path~
+The lands seems to get stranger here.  Nothing big really, you just start
+to notice some odd things.  The vegetation is fine but there is a noticeable
+lack of small animals around which is odd for this type of area.  Also, the
+bugs seem to be much larger than usual.  An uneasy silence seems to hover
+over the area.  
+~
+0 0 3
+D0
+~
+~
+0 0 4802
+End
+D2
+~
+~
+0 0 9763
+End
+D3
+~
+~
+0 0 4801
+End
+M 90 H 90
+S
+End
+#4801
+Shadowy Path~
+The lands seems to get stranger here.  Nothing big really, you just start
+to notice some odd things.  The vegetation is fine but there is a noticeable
+lack of small animals around which is odd for this type of area.  Also, the
+bugs seem to be much larger than usual.  An uneasy silence seems to hover
+over the area.  
+~
+0 0 3
+D0
+~
+~
+0 0 4803
+End
+D1
+~
+~
+0 0 4800
+End
+D3
+~
+~
+0 0 35694
+End
+M 90 H 90
+S
+End
+#4802
+Shadowy Path~
+The lands seems to get stranger here.  Nothing big really, you just start
+to notice some odd things.  The vegetation is fine but there is a noticeable
+lack of small animals around which is odd for this type of area.  Also, the
+bugs seem to be much larger than usual.  An uneasy silence seems to hover
+over the area.  
+~
+0 0 3
+D0
+~
+~
+0 0 4804
+End
+D2
+~
+~
+0 0 4800
+End
+D3
+~
+~
+0 0 4803
+End
+M 90 H 90
+S
+End
+#4803
+Shadowy Path~
+The lands seems to get stranger here.  Nothing big really, you just start
+to notice some odd things.  The vegetation is fine but there is a noticeable
+lack of small animals around which is odd for this type of area.  Also, the
+bugs seem to be much larger than usual.  An uneasy silence seems to hover
+over the area.  
+~
+0 0 3
+D0
+~
+~
+0 0 4805
+End
+D1
+~
+~
+0 0 4802
+End
+D2
+~
+~
+0 0 4801
+End
+M 90 H 90
+S
+End
+#4804
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4807
+End
+D2
+~
+~
+0 0 4802
+End
+D3
+~
+~
+0 0 4805
+End
+M 90 H 90
+S
+End
+#4805
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4808
+End
+D1
+~
+~
+0 0 4804
+End
+D2
+~
+~
+0 0 4803
+End
+D3
+~
+~
+0 0 4806
+End
+M 90 H 90
+S
+End
+#4806
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4809
+End
+D1
+~
+~
+0 0 4805
+End
+M 90 H 90
+S
+Reset M 4800 1 100 0 Load a skeleton.
+End
+#4807
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4810
+End
+D2
+~
+~
+0 0 4804
+End
+D3
+~
+~
+0 0 4808
+End
+M 80 H 80
+S
+End
+#4808
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4811
+End
+D1
+~
+~
+0 0 4807
+End
+D2
+~
+~
+0 0 4805
+End
+D3
+~
+~
+0 0 4809
+End
+M 80 H 80
+S
+Reset M 4810 2 100 0 Load the shadow wolf.
+End
+#4809
+Shadowy Path~
+The landscape here is twisted from normal expectations.  Trees are either
+stunted or stretched horribly out of proportion.  Also there seems to be no
+natural animal life around.  Deathly silence abounds now. Not even a peep of
+a bird can be heard.  It's as though the land itself was holding its breath.
+~
+0 0 3
+D0
+~
+~
+0 0 4812
+End
+D1
+~
+~
+0 0 4808
+End
+D2
+~
+~
+0 0 4806
+End
+M 80 H 80
+S
+End
+#4810
+Shadowy Path~
+There are sounds of animal life all around, but none of it are sounds one
+would deem pleasant. The animal life here is horribly disfigured and a
+strange ecosystem has taken over, with predator and prey roles reversed at
+random; a coal black rabbit could stalk and eat a red eyed bear for
+instance. It would seem only the brave or foolhardy would travel this way. 
+~
+0 0 3
+D0
+~
+~
+0 0 4814
+End
+D2
+~
+~
+0 0 4807
+End
+D3
+~
+~
+0 0 4811
+End
+M 80 H 80
+S
+End
+#4811
+Shadowy Path~
+There are sounds of animal life all around, but none of it are sounds one
+would deem pleasant. The animal life here is horribly disfigured and a
+strange ecosystem has taken over, with predator and prey roles reversed at
+random; a coal black rabbit could stalk and eat a red eyed bear for
+instance. It would seem only the brave or foolhardy would travel this way. 
+~
+0 0 3
+D0
+~
+~
+0 0 4815
+End
+D1
+~
+~
+0 0 4810
+End
+D2
+~
+~
+0 0 4808
+End
+D3
+~
+~
+0 0 4812
+End
+M 80 H 80
+S
+End
+#4812
+Shadowy Path~
+There are sounds of animal life all around, but none of it are sounds one
+would deem pleasant. The animal life here is horribly disfigured and a
+strange ecosystem has taken over, with predator and prey roles reversed at
+random; a coal black rabbit could stalk and eat a red eyed bear for
+instance. It would seem only the brave or foolhardy would travel this way. 
+~
+0 0 3
+D0
+~
+~
+0 0 4816
+End
+D1
+~
+~
+0 0 4811
+End
+D2
+~
+~
+0 0 4809
+End
+D3
+~
+~
+0 0 4813
+End
+M 80 H 80
+S
+End
+#4813
+Shadowy Path~
+There are sounds of animal life all around, but none of it are sounds one
+would deem pleasant. The animal life here is horribly disfigured and a
+strange ecosystem has taken over, with predator and prey roles reversed at
+random; a coal black rabbit could stalk and eat a red eyed bear for
+instance. It would seem only the brave or foolhardy would travel this way. 
+~
+0 0 3
+D0
+~
+~
+0 0 4817
+End
+D1
+~
+~
+0 0 4812
+End
+M 80 H 80
+S
+Reset M 4812 2 100 0 Load the undead patrol.
+End
+#4814
+An Ashen Landscape~
+Here only lifeless parodies of animals exist and everything has taken on
+the color of ash. Only an odd tree grows here and there. Low, dead-looking
+brush makes up much of the vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 4818
+End
+D2
+~
+~
+0 0 4810
+End
+D3
+~
+~
+0 0 4815
+End
+M 70 H 70
+S
+End
+#4815
+An Ashen Landscape~
+Here only lifeless parodies of animals exist and everything has taken on
+the color of ash. Only an odd tree grows here and there. Low, dead-looking
+brush makes up much of the vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 4819
+End
+D1
+~
+~
+0 0 4814
+End
+D2
+~
+~
+0 0 4811
+End
+D3
+~
+~
+0 0 4816
+End
+M 70 H 70
+S
+End
+#4816
+An Ashen Landscape~
+Here only lifeless parodies of animals exist and everything has taken on
+the color of ash. Only an odd tree grows here and there. Low, dead-looking
+brush makes up much of the vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 4820
+End
+D1
+~
+~
+0 0 4815
+End
+D2
+~
+~
+0 0 4812
+End
+D3
+~
+~
+0 0 4817
+End
+M 70 H 70
+S
+End
+#4817
+An Ashen Landscape~
+Here only lifeless parodies of animals exist and everything has taken on
+the color of ash. Only an odd tree grows here and there. Low, dead-looking
+brush makes up much of the vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 4821
+End
+D1
+~
+~
+0 0 4816
+End
+D2
+~
+~
+0 0 4813
+End
+M 70 H 70
+S
+End
+#4818
+Barren Land~
+Here nothing grows, not even a choked weed. Not an animal is in site and
+the ground cracks beneath the hot sun. Dry wind tumbles across the
+landscape, moaning as though with a mournful cry.  
+~
+0 0 2
+D0
+~
+~
+0 0 4822
+End
+D2
+~
+~
+0 0 4814
+End
+D3
+~
+~
+0 0 4819
+End
+M 70 H 70
+S
+Reset M 4810 2 100 0 Load the shadow wolf.
+End
+#4819
+Barren Land~
+Here nothing grows, not even a choked weed. Not an animal is in site and
+the ground cracks beneath the hot sun. Dry wind tumbles across the
+landscape, moaning as though with a mournful cry.  
+~
+0 0 2
+D0
+~
+~
+0 0 4823
+End
+D1
+~
+~
+0 0 4818
+End
+D2
+~
+~
+0 0 4815
+End
+D3
+~
+~
+0 0 4820
+End
+M 70 H 70
+S
+End
+#4820
+Barren Land~
+Here nothing grows, not even a choked weed. Not an animal is in site and
+the ground cracks beneath the hot sun. Dry wind tumbles across the
+landscape, moaning as though with a mournful cry.  
+~
+0 0 2
+D0
+~
+~
+0 0 4824
+End
+D1
+~
+~
+0 0 4819
+End
+D2
+~
+~
+0 0 4816
+End
+D3
+~
+~
+0 0 4821
+End
+M 70 H 70
+S
+End
+#4821
+Barren Land~
+Here nothing grows, not even a choked weed. Not an animal is in site and
+the ground cracks beneath the hot sun. Dry wind tumbles across the
+landscape, moaning as though with a mournful cry.  
+~
+0 0 2
+D0
+~
+~
+0 0 4825
+End
+D1
+~
+~
+0 0 4820
+End
+D2
+~
+~
+0 0 4817
+End
+M 70 H 70
+S
+Reset M 4800 1 100 0 Load a skeleton.
+End
+#4822
+Battlefield Remains~
+The land immediately surrounding the castle has to have been the site of
+many epic battles.  Here, the undecayed skeletal remains of many warriors
+still dot the landscape.  The numbers are staggering considering the size of
+the battlefield.  
+~
+0 0 2
+D0
+~
+~
+0 0 4826
+End
+D2
+~
+~
+0 0 4818
+End
+D3
+~
+~
+0 0 4823
+End
+M 60 H 60
+S
+End
+#4823
+Battlefield Remains~
+The land immediately surrounding the castle has to have been the site of
+many epic battles.  Here, the undecayed skeletal remains of many warriors
+still dot the landscape.  The numbers are staggering considering the size of
+the battlefield. 
+~
+0 0 2
+D0
+~
+~
+0 0 4827
+End
+D1
+~
+~
+0 0 4822
+End
+D2
+~
+~
+0 0 4819
+End
+D3
+~
+~
+0 0 4824
+End
+M 60 H 60
+S
+End
+#4824
+Battlefield Remains~
+The land immediately surrounding the castle has to have been the site of
+many epic battles.  Here, the undecayed skeletal remains of many warriors
+still dot the landscape.  The numbers are staggering considering the size of
+the battlefield. 
+~
+0 0 2
+D0
+~
+~
+0 0 4828
+End
+D1
+~
+~
+0 0 4823
+End
+D2
+~
+~
+0 0 4820
+End
+D3
+~
+~
+0 0 4825
+End
+M 60 H 60
+S
+Reset M 4812 2 100 0 Load the undead patrol.
+End
+#4825
+Battlefield Remains~
+The land immediately surrounding the castle has to have been the site of
+many epic battles.  Here, the undecayed skeletal remains of many warriors
+still dot the landscape.  The numbers are staggering considering the size of
+the battlefield. 
+~
+0 0 2
+D0
+~
+~
+0 0 4829
+End
+D1
+~
+~
+0 0 4824
+End
+D2
+~
+~
+0 0 4821
+End
+M 60 H 60
+S
+End
+#4826
+Cliffs of Tor~
+The sheer cliffs east of Shadow Tor act as a natural border between the
+castle and the chasm below. The drop to the rocky beach stretches over
+3,000 feet, the entire cliff face consisting of loose shale and wet slate,
+Quite unclimbable.  
+~
+0 0 2
+D0
+~
+~
+0 0 4830
+End
+D2
+~
+~
+0 0 4822
+End
+D3
+~
+~
+0 0 4827
+End
+M 60 H 60
+S
+End
+#4827
+Cliffs of Tor~
+The sheer cliffs east of Shadow Tor act as a natural border between the
+castle and the chasm below. The drop to the rocky beach stretches over
+3,000 feet, the entire cliff face consisting of loose shale and wet slate,
+Quite unclimbable.  
+~
+0 0 2
+D1
+~
+~
+0 0 4826
+End
+D2
+~
+~
+0 0 4823
+End
+D3
+~
+~
+0 0 4828
+End
+M 60 H 60
+S
+End
+#4828
+The Moat~
+Centuries ago water filled the moat surrounding Shadow Tor, providing a
+home for dozens of predatory fish and mammals.  Now most of the water is
+gone leaving a muddy pit, while the remaining water is brackish and mossy. 
+Occasionally a bubble or two can be seen on the surface of the water.  
+~
+0 0 6
+D1
+~
+~
+0 0 4827
+End
+D2
+~
+~
+0 0 4824
+End
+D3
+~
+~
+0 0 4829
+End
+M 60 H 60
+S
+End
+#4829
+The Drawbridge~
+The original drawbridge to the castle spans the moat of Shadow Tor and
+allows entrance into the structure. Gears and pulleys which once raised and
+lowered the bridge have long since rusted and fallen to bits, as have the
+bridge's hinges and moorings.  
+~
+0 0 1
+D0
+~
+~
+0 0 4831
+End
+D1
+~
+~
+0 0 4828
+End
+D2
+~
+~
+0 0 4825
+End
+M 60 H 60
+S
+Reset M 4813 1 100 0 Load tentacles.
+End
+#4830
+Dropoff~
+You have fallen more than 3000 ft down the cliffside and bounced off the
+cliffs several times along the way. Finally, you come to rest on the rocky
+bottom. The cliffs are too high and there doesn't seem to be a way out of
+here.  
+~
+0 4 3
+M 50 H 50
+S
+End
+#4831
+The Garden~
+Once a fine, formal garden, only the outlines of paths and raised beds
+endure here now.  Sickly weeds and crops of mandrake grow like mad, and
+horrible mutated versions of normal plants raise cracks in the pavement. 
+Rooms are to the north, west, and east, while the drawbridge is to the
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 4836
+End
+D1
+~
+~
+0 0 4833
+End
+D2
+~
+~
+0 0 4829
+End
+D3
+~
+~
+0 0 4832
+End
+M 50 H 50
+S
+Reset M 4809 2 100 0 Load a skeleton.
+Reset E 4800 16 100 0 A bone sword is loaded wielded of a bone sword
+End
+#4832
+Western Tower~
+Just over 100 years ago during a terrible storm the second level of this
+tower collapsed onto the first, destroying several sections of the castle's
+second floor as well.  A small section of the tower's first level remains,
+but rubble blocks the door.  A room is to the north and the garden is to the
+east.  
+~
+0 0 0
+D0
+~
+~
+0 0 4838
+End
+D1
+~
+~
+0 0 4831
+End
+D2
+~
+rubble~
+1 0 4839
+Flags AB
+End
+M 50 H 50
+S
+End
+#4833
+Antechamber~
+This chamber looks unused as thick dust and huge cobwebs fill the room. 
+The door has long since rotted to nothing and the hinges have crumbled to
+powder.  A tower is to the east and a garden to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 4834
+End
+D3
+~
+~
+0 0 4831
+End
+M 50 H 50
+S
+Reset M 4802 2 100 0 Load a wight.
+End
+#4834
+Eastern Tower~
+The southern face of Shadow Tor had two seige towers in case of attack. 
+Unlike the western tower, this tower remains intact.  Stairs lead up while
+rooms are to the north and west.  
+~
+0 0 0
+D0
+~
+~
+0 0 4837
+End
+D3
+~
+~
+0 0 4833
+End
+D4
+~
+~
+0 0 4843
+End
+M 50 H 50
+S
+End
+#4835
+Collapsed Chamber~
+The outer wall of this chamber, which faces the northern ocean, collapsed
+when the western tower fell.  Despite being open to the sea the room is
+warmer than most areas of the castle.  A door leads eastward.  
+~
+0 0 0
+D1
+~
+door~
+1 0 4836
+Flags AB
+End
+S
+Reset M 4805 1 100 0 Load Sir Dornoth.
+Reset E 4804 5 100 0 Sir dornoth's armor is loaded on the body of Sir Dornoth's Armor
+Reset E 4805 16 100 0 Sword of holiness is loaded wielded of sword of Holiness
+Reset O 4813 1 100 0 Load A piece of granite..
+End
+#4836
+Main Hall~
+This once grand hall has been stripped of every sign of the opulance that
+was once here.  This hall is open to the sky, the results of the rooms of
+the second floor caving in centuries ago.  Huge chunks of granite lay strewn
+about the room.  There is a door to the west and the garden is to the south.
+~
+0 0 0
+D2
+~
+~
+0 0 4831
+End
+D3
+~
+door~
+1 0 4835
+Flags AB
+End
+D5
+~
+trap~
+1 0 4846
+Flags AB
+End
+M 50 H 50
+S
+Reset O 4813 1 100 0 Load A piece of granite..
+End
+#4837
+Stables~
+This is where the steeds that are used by the patrols are kept.  It
+smells horrible in here like the stench of a thousand deaths.  To the south
+is a tower while stalls are to west, north, and east.  
+~
+0 0 0
+D0
+~
+~
+0 0 4841
+End
+D1
+~
+~
+0 0 4842
+End
+D2
+~
+~
+0 0 4834
+End
+D3
+~
+~
+0 0 4840
+End
+M 50 H 50
+S
+End
+#4838
+Storage Room~
+This is the old storage room of the castle.  By now all the boxes have
+been ripped open and the items strewn about the room.  Most of the items are
+old swords long since rusted by the weather.  A crumbled tower is to the
+south.  
+~
+0 0 0
+D2
+~
+~
+0 0 4832
+End
+M 50 H 50
+S
+Reset M 4801 2 100 0 Load a zombie.
+Reset M 4815 1 100 0 Load a zombie.
+Reset G 4802 1 100 0 A dirty leather pouch into inventory of a dirty leather pouch
+Reset P 4816 1 100 0 Put A ruby inside a ruby.
+Reset P 4817 1 100 0 Put A small pearl inside a small pearl.
+Reset O 4813 1 100 0 Load A piece of granite..
+End
+#4839
+Small Room~
+This tiny little room was sealed when the tower above fell down during a
+storm several hundred years ago.  A pile of rubble lies to the north.  
+~
+0 0 0
+D0
+~
+rubble~
+1 0 4832
+Flags AB
+End
+D5
+~
+secret~
+2 4814 4855
+Flags ABCF
+End
+M 50 H 50
+S
+Reset M 4804 1 100 0 Load the mimic.
+Reset G 4814 1 100 0 A small key into inventory of a small key
+End
+#4840
+Stall~
+This is a stall for one of the undead steeds used in patrols.  For a
+beast that no longer eats, it sure does make a big stink.  The main stable
+is to the east.  
+~
+0 0 0
+D1
+~
+~
+0 0 4837
+End
+M 50 H 50
+S
+Reset M 4806 1 100 0 Load an undead steed.
+Reset O 4811 1 100 0 Load Some hay.
+End
+#4841
+Stall~
+This is a stall for one of the undead steeds used in patrols.  For a
+beast that no longer eats, it sure does make a big stink.  The main stable
+is to the south.  
+~
+0 0 0
+D2
+~
+~
+0 0 4837
+End
+M 50 H 50
+S
+Reset M 4806 1 100 0 Load an undead steed.
+Reset O 4811 1 100 0 Load Some hay.
+End
+#4842
+Stall~
+This is a stall for one of the undead steeds used in patrols.  For a
+beast that no longer eats, it sure does make a big stink.  The main stable
+is to the west.  
+~
+0 0 0
+D3
+~
+~
+0 0 4837
+End
+M 50 H 50
+S
+Reset M 4806 1 100 0 Load an undead steed.
+Reset O 4812 1 100 0 Load Some hay.
+Reset P 4803 1 100 0 Put Horseshoes of fire inside horseshoes of Fire.
+End
+#4843
+Upper Eastern Tower~
+The stairs lead down to the first level, and the rest of the second floor
+are to the west and north.  There is nothing of value in the remains of the
+eastern tower, only other passages.  
+~
+0 0 0
+D0
+~
+~
+0 0 4844
+End
+D3
+~
+~
+0 0 4845
+End
+D5
+~
+~
+0 0 4834
+End
+M 50 H 50
+S
+Reset O 4813 1 100 0 Load A piece of granite..
+End
+#4844
+Open Aired Chamber~
+The floor to this room is to weak to support any extra weight and you
+fall in o jumble of morter and granite.  There are no exits.  
+~
+0 4 0
+S
+Reset O 4813 1 100 0 Load A piece of granite..
+End
+#4845
+Old Bedroom~
+This room consists of crumbling piles that used to be a four-poster bed
+and a dresser, patches of cloth that used to be tattered ornamental rugs,
+and a tarnished mirror barely hanging on a wall.  Its obvious no one has
+stayed in here for a long while.  
+~
+0 0 0
+D1
+~
+~
+0 0 4843
+End
+M 50 H 50
+S
+Reset M 4811 1 100 0 Load a ghost.
+Reset G 4801 1 100 0 The ghost's soul into inventory of the Ghost's Soul
+End
+#4846
+Guard Chamber~
+This rough hewn room looks to have been carved right out of the ground. 
+The edges are rough and veins of minerals can be seen going by.  This is the
+room that is kept as a personal guard room by the master to keep out any
+unwanted intruders.  Stairs lead up to a trap door and there is a hallway to
+the south.  
+~
+0 0 0
+D2
+~
+~
+0 0 4847
+End
+D4
+~
+trap~
+1 0 4836
+Flags AB
+End
+M 50 H 50
+S
+Reset M 4803 1 100 0 Load a spectre.
+Reset M 4803 1 100 0 Load a spectre.
+End
+#4847
+Dark Tunnel~
+This tunnel has no natural light and is dug out of the earth much like in
+the guard chamber.  This tunnel runs south until it turns abruptly west. 
+Meanwhile there are rooms to the north and east.  
+~
+0 0 0
+D0
+~
+~
+0 0 4846
+End
+D1
+~
+~
+0 0 4848
+End
+D2
+~
+~
+0 0 4849
+End
+M 50 H 50
+S
+End
+#4848
+Bone Room~
+This room is filled with the bones of every conceivable animal strewn
+about the room in large piles.  It is hard to imagine so many animals ever
+being here.  The cold is palpable, sucking any warmth away like a siphon. 
+There is a presence here, an evil whose mere presence inspires fear and
+repulsion.  
+~
+0 0 0
+D3
+~
+~
+0 0 4847
+End
+M 50 H 50
+S
+Reset M 4807 1 100 0 Load the dracolich.
+Reset E 4806 12 100 0 Wings of the dracolich is loaded about the shoulders of wings of the dracolich
+Reset E 4807 0 100 0 Eye of the dracolich is loaded as a light of eye of the dracolich
+Reset G 4822 1 100 0 A black key into inventory of a black key
+End
+#4849
+Bend in the Hall~
+At this point the hall reaches a turn.  It continues north and west.  It
+is very quiet here.  Too quiet.  DEATHLY quiet.  
+~
+0 0 0
+D0
+~
+~
+0 0 4847
+End
+D3
+~
+~
+0 0 4850
+End
+M 50 H 50
+S
+End
+#4850
+Dark Tunnel~
+This tunnel has no natural light and is dug out of the earth much like in
+the guard chamber.  It abruptly ends in a doorway facing west .  There is
+also a door on the south wall with several odd symbols on it.  
+~
+0 0 0
+D1
+~
+~
+0 0 4849
+End
+D2
+~
+door~
+4 4823 4851
+Flags ABCFG
+End
+D3
+~
+door~
+4 4822 4852
+Flags ABCFG
+End
+M 50 H 50
+S
+End
+#4851
+Labratory~
+Hundreds of viles of spell components cover the stone tables in this
+chamber where the lich conducts his unholy experiments.  The lich made the
+furniture out of stone after finally realizing that the wood would
+deteriorate over time.  By the looks of things every spell component you
+could need is here if you know where to look.  
+~
+0 0 0
+D0
+~
+door~
+4 4823 4850
+Flags ABCFG
+End
+M 50 H 50
+S
+Reset O 4820 1 100 0 Load A scroll of weaponry.
+Reset O 4821 1 100 0 Load A scroll of armory.
+End
+#4852
+Lich's Lair~
+This is the abode of the lich.  The room is rather plushly decorated,
+especially when compaired to the other rooms in the castle.  The shelves are
+lined with books from times long forgotten, and they fill every niche and
+space available in the room.  Small orbs have been cast with continual light
+spells to provide illumination to the room.  This is where the lich searches
+for the secret to immortality.  A door is to the east and a powerful force
+can be felt to the south.  
+~
+0 0 0
+D1
+~
+door~
+4 4822 4850
+Flags ABCFG
+End
+D2
+~
+~
+0 0 4853
+End
+M 0 H 0
+S
+Reset M 4814 1 100 0 Load the guardian beast.
+Reset M 4808 1 100 0 Load Lothar.
+Reset E 4808 16 100 0 The lich's staff is loaded wielded of the Lich's Staff
+Reset E 4809 15 100 0 A bracelet of thorns is loaded on the right wrist of a Bracelet of Thorns
+Reset E 4810 18 100 0 The lich's orb is loaded floating nearby of the Lich's Orb
+Reset G 4823 1 100 0 A lich key into inventory of a lich key
+End
+#4853
+Alcove~
+This is a thin rough hewn path dug deep into the wall.  It is completely
+unadorned, leaving the rough surfaces as the only decorations.  A powerful
+force of evil can be felt pulling you to the south while the Lich's Lair is
+northward 
+~
+0 0 0
+D0
+~
+~
+0 0 4852
+End
+D2
+~
+~
+0 0 4854
+End
+M 0 H 0
+S
+End
+#4854
+Negative Energy Rift~
+This narrow alcove contains a small rift to the Astral Plane.  The lich
+had opened it long ago to bring forth evil creatures to do his bidding.  He
+was never able to close it and decided to leave it alone since it only
+enhanced his undead army.  
+~
+0 4 0
+M 0 H 0
+S
+Reset O 4815 1 100 0 Load The negative energy rift.
+End
+#4855
+treasure pit~
+A low tunnel was once dug under this room and acted as a secret hiding
+place for someones treasure.  It has remained hidden all these years.  
+~
+0 0 0
+D4
+~
+secret~
+2 4814 4839
+Flags ABCF
+End
+M 50 H 50
+S
+Reset O 4818 1 100 0 Load A mage's ring.
+Reset O 4819 1 100 0 Load Some coins.
+End
+#4885
+NULL~
+~
+0 4 6
+M 0 H 0
+S
+End
+#0
+
+
+
+#SPECIALS
+M 4805 spec_cast_cleric
+M 4807 spec_cast_undead
+M 4808 spec_cast_mage
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

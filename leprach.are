@@ -1,0 +1,1376 @@
+#AREADATA
+Credits     {r<  1- 10> {bFreak    {gLeprechauns  {x~
+Name        Leprechaun Village~
+Filename    leprach.are~
+Builders    None~
+VNUMs       100 199
+Security    9
+End
+
+
+
+#MOBILES
+#101
+leprechaun~
+a leprechaun~
+A leprechaun runs by screaming "Someone's after me gold!"
+~
+A tiny little bugger clad all in green, with a big green top hat.  Did he
+just say 'gold?  ' You could always use some more gold...  And that bright
+green suit...  Yuck.  Just kill the thing!  
+~
+human~
+AGHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#102
+leprechaun~
+a leprechaun~
+A leprechaun is here, harvesting the potato crop.
+~
+The leprechaun is too caught up in his work to notice you looking for his
+gold.  
+~
+human~
+ABHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#103
+leprechaun accountant~
+the leprechaun~
+A wise little leprechaun is counting all the gold he sees.
+~
+A short and plump little leprechaun, in the usual green suit and hat. 
+He's wearing a pair of bifocals.  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#104
+carefree leprechaun~
+a carefree leprechaun~
+A carefree leprechaun is here.  
+~
+He's so carefree...  Doesn't care about the house or the plants...  But I
+bet he does care about his gold.  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#105
+old leprechaun~
+an old leprechaun~
+An old leprechaun mumbles "Ye can't take me gold!"
+~
+This is the oldest living thing you've ever seen.  He's got so much grey
+hair, you can almost see more of it then his bright green leprechaun outfit.
+Might as well put him out of his misery.  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#106
+bored leprechaun~
+a bored leprechaun~
+This leprechaun looks bored.  "Like I care about my gold," he sighs.
+~
+He's just wandering around with his arms crossed over his body huffing
+and puffing about how "there's nothing to do in this little green town."  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#107
+tiny leprechaun~
+A tiny leprechaun~
+A little green blurb runs by.  It's a leprechaun!
+~
+This little guy is about the size of a fly.  A fly is an annoying insect.
+What should you do to annoying insects?  You figure it out.  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#108
+dirty leprechaun~
+the dirty leprechaun~
+A dirty little leprechaun stands here.  He smells HORRIBLE!
+~
+He smells so bad, your face is becoming as green as his little suit from
+holding your breath to not smell him.  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#109
+leprechaun~
+a cozy little leprechaun~
+A leprechaun is here.  He looks all warm and cozy. 
+~
+You'd almost rather snuggle up to him then kill him.  He's so cozy!  
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK M 0
+#110
+fat rich leprechaun~
+A wealthy leprechaun~
+A chubby old leprechaun is here, entertaining himself with magic.
+~
+Wierd little guy.  He's short and round, and rich.  He's all decked out
+in his bright green suit and tie.  
+~
+human~
+AGHR 0 100 0
+10 0 2d6+110 10d9+100 1d8+1 none
+2 2 2 6
+FU 0 0 0
+stand stand male 2
+AHMV ABCDEFGHIJK M 0
+#111
+banshee~
+the banshee~
+A wailing banshee haunts the ruins.
+~
+A banshee is a spectral female elf, cursed to an undead body forever. 
+This one in particular floats about the ruins, attacking any intruders.  
+~
+human~
+ABFHQ T -100 0
+10 0 2d7+121 10d9+100 1d7+2 none
+1 1 1 7
+EFKU 0 0 0
+stand stand female 2
+AHMV ABCDEFGHIJK M 0
+#112
+cobra snake~
+a hooded cobra~
+A large, hooded cobra is sleeping here.
+~
+It must be a guard the leprechauns use to keep adventurers away from
+their pot of gold.  
+~
+snake~
+ABH 0 -100 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 L I
+sleep sleep male 1
+AGHMVXYc ABCDEFGHIJKLQVX M 0
+#199
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#100
+magic spud potato~
+a magic potato~
+A magic potato lies here.  Wonder what's so magic about it?~
+oldstyle~
+pill G A
+8 'none' 'none' 'change sex' 'none'
+0 20 180 P
+#101
+bifocals~
+a pair of bifocals~
+An odd pair of bifocals has been left here.~
+oldstyle~
+clothing A AR
+0 0 0 0 0
+3 20 270 P
+A 4 1
+#102
+leprechaun hat~
+a leprechaun hat~
+A leprechaun hat has been left here.~
+oldstyle~
+armor 0 AE
+AB AB AB 0 0
+3 20 310 P
+#103
+blade grass whip~
+a blade of grass~
+A blade of grass has been fashioned into a whip by little hands.~
+oldstyle~
+weapon 0 AN
+whip 1 7 whip 0
+3 20 370 P
+#104
+scarf~
+a green scarf~
+A green leprechaun scarf is lying on the ground.~
+oldstyle~
+jewelry A AC
+0 0 0 0 0
+5 20 550 P
+A 3 1
+#105
+pink potion~
+a pink potion~
+A pink potion is barely visible on the ground.~
+oldstyle~
+potion 0 A
+6 'armor' 'cure blindness' 'none' 'none'
+0 20 160 P
+#106
+wand~
+a small wand~
+A small wand lies on the ground.~
+oldstyle~
+wand 0 AO
+5 1 1 'burning hands' 0
+3 20 540 P
+#107
+key~
+a tiny key~
+A tiny key is lying on the ground.~
+oldstyle~
+key 0 A
+B 0 0 0 0
+0 20 0 P
+#108
+well~
+a small well~
+A small well has been dug here.~
+oldstyle~
+fountain 0 0
+50 50 'water' 0 0
+0 0 0 P
+#109
+key~
+a small key~
+A key to what was once a tower lies here.~
+oldstyle~
+key 0 A
+B 0 0 0 0
+0 20 0 P
+#110
+kettle pot gold~
+pot of gold~
+A dark black kettle glows with a bright yellow light!~
+none~
+container AGRTY P
+1000 0 0 1000 0
+1 0 0 P
+#111
+gold~
+gold coins~
+A pile of gold coins lies here.~
+none~
+money 0 A
+CE 0 0 0 0
+0 10 0 P
+#162
+cookie~
+a cookie~
+A cookie is here.  Better eat it before cookie monster does!~
+none~
+pill Ta A
+300 'high explosive' 'acid blast' 'general purpose' 'acid blast'
+0 0 0 P
+#166
+belt buckle~
+a {ggreen{x leprechaun belt and buckle~
+This shiny brass buckle and black leather belt appear to have shamrocks engraved on them.~
+none~
+trash G AL
+0 0 0 0 0
+5 5 35 P
+F A 17 -3 0
+#191
+keys store~
+keys to the {wGranite {cGargoyle{x~
+Keys to the {wGranite {cGargoyle{x lie here.  :)~
+none~
+trash ABG AO
+0 0 0 0 0
+0 0 0 P
+#192
+dummy~
+test dummy~
+This is a test dummy.~
+none~
+trash 0 0
+0 0 0 0 0
+300 0 0 P
+#0
+
+
+
+#ROOMS
+#101
+Dimly Lit Path~
+{x 
+{g           {g/\  {G/\       {G/\ 
+{g     /\   {g//\\{G//\\  {g/\ {G//\\ 
+{g    //\\ {G/\{c\\{G///\\\{g//\{G///\\\ 
+{g   ///\\{G//\\{c \ {y|| {g///{G////\\\\ 
+{g  ////\{G///\\\{c \  {g///{G/////\\\\\ 
+{G    {y |{G////\\\\{c  \  {G//////\\\\\\ 
+{G     {G/////\\\\{c\   \     {y|| 
+{g         {y||    {c\    \ {g\ {y||{g// 
+{g    \\{R%{g//       {c\     \{g/{Y*{g// 
+{x  
+{g You are on a dimly lit path which continues north.
+{g The scuffling of many little feet disturbs the silence 
+{g and someone or something is shouting about {Ygold. {x 
+~
+0 0 3
+D0
+The path continues toward the village.
+~
+~
+0 -1 102
+D2
+~
+~
+0 0 13083
+S
+#102
+Dimly Lit Path~
+{x 
+{G           {G/\  {g/\       {g/\ 
+{G     /\   {G//\\{g//\\  {G/\ {g//\\ 
+{G    //\\ {g/\{C\\{g///\\\{G//\{g///\\\ 
+{G   ///\\{g//\\{C \ {Y|| {G///{g////\\\\ 
+{G  ////\{g///\\\{C \  {G///{g/////\\\\\ 
+{g    {Y |{g////\\\\{C  \  {g//////\\\\\\ 
+{g     {g/////\\\\{C\   \     {Y|| 
+{G         {Y||    {C\    \ {G\ {Y||{G// 
+{G     \\{G//       {C\     \{G/{r*{G// 
+{x  
+{G The path is well worn here. Tiny footprints are everywhere
+{G though no travellers are visible. Excited voices to the North
+{G shout about {ygold. {x 
+~
+0 C 3
+D0
+The path continues toward the village.
+~
+~
+0 -1 103
+D2
+The dimly lit path.
+~
+~
+0 -1 101
+S
+#103
+Dimly Lit Path~
+{x 
+{G           {G/\  {g/\       {g/\ 
+{G     /\   {G//\\{g//\\  {G/\ {g//\\ 
+{G    //\\ {g/\{C\\{g///\\\{G//\{g///\\\ 
+{G   ///\\{g//\\{C \ {Y|| {G///{g////\\\\ 
+{G  ////\{g///\\\{C \  {G///{g/////\\\\\ 
+{g    {Y |{g////\\\\{C  \  {g//////\\\\\\ 
+{g     {g/////\\\\{C\   \     {Y|| 
+{G         {Y||    {C\    \ {G\ {Y||{G// 
+{G     \\{G//       {C\     \{G/{b*{G// 
+{x  
+{G The path is well worn here. Tiny footprints are everywhere
+{G though no travellers are visible. There are voices to the North
+{x
+~
+0 0 3
+D0
+The entrance to the Leprechaun Village.
+~
+~
+0 -1 104
+D2
+The dimly lit path.
+~
+~
+0 -1 102
+S
+#104
+Entrance to A Leprechaun Village~
+{x 
+{y                  .-""""-. 
+{y                ."{g o oOOOo{y". 
+{y               :"""-.{g oOo  o{y". 
+{y                ". \ "-.{g oOOo{y : 
+{y                  ": / ".{g OO{y : 
+{y                  ."  : - :.{go{y:" 
+{y                  / : {x 
+{y                 : : {x 
+{g              _\\:_\\//_ 
+{x 
+{G  You have stumbled upon a village full of little people, 
+{G  all wearing green suits, some holding shamrocks. 
+{G  When they see you, they start jibbering to each other 
+{G  about {y"hiding the gold." {G The sky is clear, with a bright 
+{G  rainbow overhead that appears to end somewhere in this 
+{G  town.  South is the way out, north is the way in.  {x 
+~
+0 0 2
+D0
+{CA Road under a {rR{ya{bi{wn{gb{mo{cw{x
+~
+~
+0 -1 105
+D2
+Dimly Lit Path
+~
+~
+0 -1 103
+S
+#105
+Road Under a Rainbow~
+{GThis tiny little road twists off to the north, west and east.  You hear
+lots of bantering about {R"thieves"{G and {y"gold mongers,"{G.  Occasionally
+a little {ggreen-suited man{G rushes by.  You can go south to leave this
+weird little place.  {x 
+~
+0 0 1
+D0
+{CA road under a {rR{ya{gi{bn{mb{wo{cw{x.
+~
+~
+0 -1 106
+D1
+{CA road under a {rR{ya{gi{bn{mb{wo{cw{x.
+~
+~
+0 -1 110
+D2
+{CEntrance to {gLeprechaun{C village{x 
+~
+~
+0 -1 104
+D3
+{CA road under a {rR{ya{gi{bn{mb{wo{cw{x.
+~
+~
+0 -1 111
+S
+#106
+Road Under a Rainbow~
+{GThe odd road continues and a {rr{ya{gi{bn{mb{wo{cw{G towers above you.{x
+{GWonder what's at the end?{x
+{GThe road branches off to the north, west and south.{x
+{GTo the East is a tiny house.{x
+~
+0 0 1
+D0
+{CA road under a {rR{ya{gi{bn{wb{mo{cw{C.{x
+~
+~
+0 -1 107
+D1
+{CA dusty little house.{x
+~
+~
+0 -1 120
+D2
+{CA road under a {rR{ya{gi{bn{wb{mo{cw{c.{x
+~
+~
+0 -1 105
+D3
+{CA road under a {rR{ya{gi{bn{wb{mo{cw{c.{x
+~
+~
+0 -1 112
+S
+#107
+Road Under a Rainbow~
+{GThe road continues heading north/south through this little
+{gleprechaun{G town.  East is a field and to the west is another little
+house.  {x 
+~
+0 0 1
+D0
+{CA road under a {rR{ya{gi{bn{wb{Mo{cw{C.{x
+~
+~
+0 -1 108
+D1
+{CA field full of strange looking plants.{x
+~
+~
+0 -1 116
+D2
+{CA road under a {rR{ya{gi{bn{wb{Mo{cw{C.{x
+~
+~
+0 -1 106
+D3
+{CA cozy looking little house.{x
+~
+~
+0 -1 129
+S
+#108
+Road Under a Rainbow~
+{GThe road continues on its north/south path.  Fields are to the east and
+a stone path heads of in a westerly direction.  {x 
+~
+0 0 1
+D0
+{CA road under a {rR{ya{gi{bn{Mb{wo{cw{x
+~
+~
+0 -1 109
+D1
+Smurfberry patch
+~
+~
+0 -1 117
+D2
+~
+~
+0 -1 107
+D3
+A stone path
+~
+~
+0 -1 113
+S
+#109
+Road Under a Rainbow~
+A smell well is in the middle of the road here.  A potato field is to the
+east.  The road leads south and west.  
+~
+0 0 1
+E
+smurfy well~
+A small well is here.  Just the right size if you're a smurf.  But big
+enough for you to get some water from.  I'm sure the smurfs wont mind.
+~
+D1
+Smurfberry Patch
+~
+~
+0 -1 118
+D2
+~
+~
+0 -1 108
+D3
+~
+~
+0 -1 114
+S
+#110
+Road Under A Rainbow~
+{GThe Road finishes at this house.  You can return to the West or explore
+the little home.  {x 
+~
+0 0 1
+D1
+{CThe Road ends at the door of this house{x 
+~
+~
+0 0 119
+D3
+{CRainbow Road{x 
+~
+~
+0 -1 105
+S
+#111
+Road Under a Rainbow~
+The western corner of this road.  The road backs out to the east and
+north.  A house is to the south.  
+~
+0 0 1
+D0
+~
+~
+0 -1 112
+D1
+~
+~
+0 -1 105
+D2
+~
+~
+0 -1 121
+S
+#112
+Road Under a Rainbow~
+More road in this bizarre little leprechaun village.  Another
+leprechaun's home is to the west, while the road leads south and east.  
+~
+0 0 1
+D1
+~
+~
+0 -1 106
+D2
+~
+~
+0 -1 111
+D3
+~
+~
+0 -1 122
+S
+#113
+Stone Path~
+You are walking along a stone path.  South of here is a wealthy
+leprechaun's house.  A smaller house to to the west.  The road is to the
+east.  
+~
+0 0 1
+D1
+~
+~
+0 -1 108
+D2
+Papa Smurf's House
+~
+door~
+1 107 125
+D3
+Smurfy House
+~
+~
+0 -1 123
+S
+#114
+Road Under a Rainbow~
+Yet another part of the road under the rainbow.  The last section of the
+road is west.  Otherwise, you can go back east.  
+~
+0 0 1
+D0
+~
+~
+0 0 130
+D1
+~
+~
+0 -1 109
+D3
+~
+~
+0 -1 115
+S
+#115
+Road Under a Rainbow~
+The last piece of the road.  The rainbow slopes downward here; you can
+follow it down to the north.  A Leprechaun's home is to the south.  The road
+itself leads back out to the east.  
+~
+0 0 1
+D0
+Path to Gargamel's Castle
+~
+~
+0 -1 126
+D1
+~
+~
+0 -1 114
+D2
+~
+~
+0 -1 124
+S
+#116
+Potato Field~
+Potatos abound here.  They aren't covered with dirt or bugs or
+anything...  And they glow!  Magic spuds!  A road is to the west, more
+potatos are north.  
+~
+0 0 1
+D0
+Smurfberry Patch
+~
+~
+0 -1 117
+D3
+~
+~
+0 -1 107
+S
+#117
+Potato Field~
+Potatos abound here.  They aren't covered with dirt or bugs or
+anything...  And they glow!  Magic spuds!  A road is to the west, more
+potatos are north and south.  
+~
+0 0 1
+D0
+Smurfberry Patch
+~
+~
+0 -1 118
+D2
+Smurfberry Patch
+~
+~
+0 -1 116
+D3
+~
+~
+0 -1 108
+S
+#118
+Potato Field~
+This is the northernmost section of the potato field.  You see a few
+magical spuds peeping out of the ground..  Hmm...  They look kind of tasty. 
+A road is to the west, while more potatos grow to the south.  
+~
+0 0 1
+D2
+Smurfberry Patch
+~
+~
+0 -1 117
+D3
+~
+~
+0 -1 109
+S
+#119
+A Leprechaun's home~
+{GYou see many books about maths and taxes.  A little writing desk fills
+one corner, its top covered with papers and pens.  The equations are tiny
+and complicated and cover every scrap of paper.  The way out is West.  {x 
+~
+0 0 1
+D3
+{CBack to Rainbow Road{x 
+~
+~
+0 0 110
+S
+#120
+A Dusty House~
+This home is covered with dust and cobwebs.  Looks as though the little
+green man that lives her either has a busy life, or just doesn't care.  Exit
+back to the road to the west.  
+~
+0 0 1
+D3
+~
+~
+0 -1 106
+S
+#121
+A Leprechaun's home~
+You see nothing special about this house.  It looks exactly like any
+other leprechaun's.  The road is back to the north.  
+~
+0 0 1
+D0
+~
+~
+0 -1 111
+S
+#122
+A Tidy Leprechaun Home~
+You are in a tidy little home occupied by one of those little green men
+that complain about gold.  The road leads out to the east.  
+~
+0 0 1
+D1
+~
+~
+0 -1 112
+S
+#123
+A Small House~
+You are in a tiny leprechaun's home.  Yes, most leprechauns are tiny, but
+this one is T-I-N-Y.  You can barely see his furniture, and you can't see
+any of the books on his little bookshelf.  East is a stone path.  
+~
+0 0 1
+D1
+~
+~
+0 -1 113
+S
+#124
+A Messy Leprechaun's Home~
+You sneeze, and all the leprechaun's tiny belongings fly everywhere.  Not
+that they weren't everywhere beforehand: This little green man lives in a
+big mess.  You grab one of his bright green suits and use it to blow your
+nose.  Now where is that little thief?  
+~
+0 0 1
+D0
+~
+~
+0 -1 115
+S
+#125
+An Elegant Home~
+This place is posh.  Little green emerald chairs and tables, little green
+emerald sinks with gold faucets...  You wonder how such a little green pest
+could get a hold of so much money.  Then you remember...  It's a leprechaun!
+Leprechauns have gold!  You could use some of that gold.  
+ 
+A stone path lies to the north.
+~
+0 0 1
+D0
+Stone Path
+~
+door~
+1 107 113
+S
+#126
+A Gravelly Path~
+You are walking along a gravelly path.  The rainbow touches down and ends
+to the north.  
+~
+0 0 1
+D0
+Outside Gargamel's Castle
+~
+~
+0 -1 127
+D2
+~
+~
+0 -1 115
+S
+#127
+The End of the Rainbow~
+You have reached the end of the rainbow.  But alas, there is not pot of
+gold.  Where could it be?  All you see to the north is an old, ruined
+tower...  You also hear a loud wailing coming from that direction.  To the
+south, you can follow the rainbow to its other end.  
+~
+0 0 1
+D0
+Gargamel's Castle
+~
+door~
+1 109 128
+D2
+Path to Gargamel's Castle
+~
+~
+0 -1 126
+S
+#128
+Ruins of An Ancient Tower~
+You step through the rubble into a large, flat open space.  Tiny piles of
+rubble are all over.  Weeds are growing up out of an eroding stone floor. 
+Then, you see it.  In one corner of the room is a large black kettle. 
+Something inside it is glowing!  
+~
+0 0 1
+E
+treasure~
+You find a bit of sentimentally valuable treasure here.  You also notice
+a note scrawled amongst the relics.  "I see a fire," it reads.  The fire
+lies within each and every one of us.  We all have to sleep, and the fire is
+in our dreams.  You must seek the location of the fire near a person's
+dream, and look at the pictures it reveals unto you.  
+~
+D2
+Outside Gargamel's Castle
+~
+door~
+1 109 127
+S
+#129
+A Cozy Little Home~
+A cozy little fireplace warms this cozy little home.  You feel all warm
+and...  You guessed it: cozy in here.  The only exit is east.  
+~
+0 0 1
+D1
+~
+~
+0 -1 107
+S
+#130
+A Small Trail~
+{GYou are walking on a small winding trail that leads out of the
+leprachaun village.  At this point you can head east following the trail or
+south back into the village{x 
+~
+0 C 2
+D1
+~
+~
+0 0 131
+D2
+~
+~
+0 0 114
+S
+#131
+A Small Trail~
+{GYou are walking along a winding trail.  At this point you can either go
+west or north.  {x 
+~
+0 0 2
+D0
+~
+~
+0 0 132
+D3
+~
+~
+0 0 130
+S
+#132
+A Small Trail~
+{GYou are walking on a windy trail.  To the north you can see a grove of
+trees.  At this point the trail leads north and south.  {x 
+~
+0 C 2
+D0
+~
+~
+0 0 8950
+D2
+~
+~
+0 0 131
+S
+#134
+~
+~
+0 C 0
+S
+#135
+~
+~
+0 C 0
+S
+#136
+~
+~
+0 C 0
+S
+#137
+~
+~
+0 C 0
+S
+#138
+~
+~
+0 C 0
+S
+#139
+~
+~
+0 C 0
+S
+#140
+~
+~
+0 C 0
+S
+#141
+~
+~
+0 C 0
+S
+#142
+~
+~
+0 C 0
+S
+#143
+~
+~
+0 C 0
+S
+#144
+~
+~
+0 C 0
+S
+#145
+~
+~
+0 C 0
+S
+#146
+~
+~
+0 C 0
+S
+#147
+~
+~
+0 C 0
+S
+#148
+~
+~
+0 C 0
+S
+#149
+~
+~
+0 C 0
+S
+#150
+~
+~
+0 C 0
+S
+#151
+blah~
+~
+0 C 0
+S
+#152
+blah~
+~
+0 C 0
+S
+#153
+blah~
+~
+0 C 0
+S
+#154
+~
+~
+0 C 0
+S
+#155
+blah~
+~
+0 C 0
+S
+#156
+~
+~
+0 C 0
+S
+#157
+~
+~
+0 C 0
+S
+#158
+~
+~
+0 C 0
+S
+#159
+~
+~
+0 C 0
+S
+#160
+blah~
+~
+0 C 0
+S
+#161
+~
+~
+0 C 0
+S
+#162
+~
+~
+0 C 0
+S
+#163
+~
+~
+0 C 0
+S
+#164
+~
+~
+0 C 0
+S
+#165
+~
+~
+0 C 0
+S
+#166
+~
+~
+0 C 0
+S
+#167
+~
+~
+0 C 0
+S
+#168
+~
+~
+0 C 0
+S
+#169
+~
+~
+0 C 0
+S
+#170
+~
+~
+0 C 0
+S
+#171
+~
+~
+0 C 0
+S
+#172
+~
+~
+0 C 0
+S
+#173
+~
+~
+0 C 0
+S
+#174
+~
+~
+0 C 0
+S
+#175
+~
+~
+0 C 0
+S
+#176
+~
+~
+0 C 0
+S
+#177
+blah~
+~
+0 C 0
+S
+#178
+~
+~
+0 C 0
+S
+#179
+~
+~
+0 C 0
+S
+#180
+~
+~
+0 C 0
+S
+#181
+~
+~
+0 C 0
+S
+#182
+blah~
+~
+0 C 0
+S
+#183
+~
+~
+0 C 0
+S
+#184
+~
+~
+0 C 0
+S
+#185
+blah~
+~
+0 C 0
+S
+#186
+blah~
+~
+0 C 0
+S
+#187
+~
+~
+0 C 0
+S
+#188
+~
+~
+0 C 0
+S
+#189
+~
+~
+0 C 0
+S
+#190
+blah~
+~
+0 C 0
+S
+#191
+~
+~
+0 C 0
+S
+#192
+~
+~
+0 C 0
+S
+#193
+blah~
+~
+0 C 0
+S
+#194
+~
+~
+0 C 0
+S
+#195
+~
+~
+0 C 0
+S
+#196
+~
+~
+0 C 0
+S
+#197
+blah~
+~
+0 C 0
+S
+#198
+~
+~
+0 C 0
+S
+#199
+~
+~
+0 C 0
+S
+#0
+
+
+
+#SPECIALS
+M 101 spec_cast_mage Load to: a leprechaun
+M 102 spec_thief Load to: a leprechaun
+M 103 spec_thief Load to: the leprechaun
+M 104 spec_thief Load to: a carefree leprechaun
+M 105 spec_thief Load to: an old leprechaun
+M 106 spec_thief Load to: a bored leprechaun
+M 107 spec_thief Load to: A tiny leprechaun
+M 108 spec_thief Load to: the dirty leprechaun
+M 109 spec_thief Load to: a cozy little leprechaun
+M 110 spec_cast_mage Load to: A wealthy leprechaun
+M 111 spec_cast_cleric Load to: the banshee
+M 112 spec_poison Load to: a hooded cobra
+S
+
+
+
+#RESETS
+M 0   101     8   104     1   * Load a leprechaun
+G 0   102    10               * A leprechaun hat is given to a leprechaun
+M 0   101     8   105     1   * Load a leprechaun
+M 0   101     8   107     1   * Load a leprechaun
+M 0   101     8   108     1   * Load a leprechaun
+G 0   102    10               * A leprechaun hat is given to a leprechaun
+O 0   108     1   109         * A small well loaded to Road Under a Rainbow
+M 0   101     8   109     1   * Load a leprechaun
+G 0   105    -1               * A pink potion is given to a leprechaun
+M 0   101     8   110     1   * Load a leprechaun
+G 0   102    10               * A leprechaun hat is given to a leprechaun
+M 0   101     8   111     1   * Load a leprechaun
+M 0   101     8   112     1   * Load a leprechaun
+G 0   102    10               * A leprechaun hat is given to a leprechaun
+M 0   102     3   116     1   * Load a leprechaun
+G 0   100    10               * A magic potato is given to a leprechaun
+M 0   102     3   117     1   * Load a leprechaun
+G 0   100    10               * A magic potato is given to a leprechaun
+M 0   102     3   118     1   * Load a leprechaun
+G 0   100    10               * A magic potato is given to a leprechaun
+M 0   103     1   119     1   * Load the leprechaun
+E 0   101     8     6         * A pair of bifocals is loaded over the head of the leprechaun
+M 0   104     1   120     1   * Load a carefree leprechaun
+E 0   103     8    16         * A blade of grass is loaded wielded of a carefree leprechaun
+M 0   106     1   121     1   * Load a bored leprechaun
+E 0   103     8    16         * A blade of grass is loaded wielded of a bored leprechaun
+M 0   105     1   122     1   * Load an old leprechaun
+M 0   107     1   123     1   * Load A tiny leprechaun
+M 0   108     1   124     1   * Load the dirty leprechaun
+E 0   166    12    12         * A {ggreen{x leprechaun belt and buckle is loaded about the shoulders of the dirty leprechaun
+M 0   110     1   125     1   * Load A wealthy leprechaun
+G 0   105    10               * A pink potion is given to A wealthy leprechaun
+M 0   111     1   128     1   * Load the banshee
+M 0   112     1   128     1   * Load a hooded cobra
+O 0   110     0   128         * Pot of gold loaded to Ruins of An Ancient Tower
+P 0   111     1   110     0   * Gold coins put inside pot of gold
+M 0   109     1   129     1   * Load a cozy little leprechaun
+G 0   104    -1               * A green scarf is given to a cozy little leprechaun
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

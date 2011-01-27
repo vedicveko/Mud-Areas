@@ -1,0 +1,1070 @@
+#AREA
+The City of Giganthia~
+K gigantia~
+L { ALL }~
+N 6
+I 1 120
+V 3400 3449
+X 0
+F 15
+U You hear the screams of the Dead within your head.~
+O stephen~
+R stephen~
+W stephen~
+T You can teleport into here
+M No bad room spells allowed.
+#ROOMS
+#3401
+Path into the Town~
+You are on a small, well-worn dirt path, which leads into the Ogre town, known
+as Giganthia.
+~
+4 4
+D1
+The Path Continues in this Direction.
+~
+~
+0 -1 3402
+S
+#3402
+Path into the Town~
+You are on a small, well-worn dirt path, which leads into the Ogre town, known
+as Giganthia.  The path continues to the West, away from the town, whilst
+small stone steps lead upwards, to a path within the town.
+~
+4 4
+D3
+The Path.
+~
+~
+0 -1 3401
+D4
+Some Stone Steps.
+~
+~
+0 -1 3403
+S
+#3403
+Small Stone Steps~
+You are on some small steps, connecting the upper path, within the Town, to
+the lower path, outside.
+~
+4 4
+D4
+The Path at the Top of the Steps.
+~
+~
+0 -1 3404
+D5
+The Path at the Bottom of the Steps.
+~
+~
+0 -1 3402
+S
+#3404
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D1
+A Cave.
+~
+~
+0 -1 3413
+D2
+The Path.
+~
+~
+0 -1 3405
+D5
+Steps.
+~
+~
+0 -1 3403
+S
+#3405
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3404
+D2
+The Path.
+~
+~
+0 -1 3406
+D3
+A Small Cave.
+~
+~
+0 -1 3433
+S
+#3406
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3405
+D1
+A Cave.
+~
+~
+0 -1 3411
+D2
+The Path.
+~
+~
+0 -1 3407
+S
+#3407
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3406
+D2
+The Path.
+~
+~
+0 -1 3408
+D4
+Steps.
+~
+~
+0 -1 3410
+S
+#3408
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3407
+D1
+A Small Cave.
+~
+~
+0 -1 3409
+D3
+A Cave.
+~
+~
+0 -1 3436
+S
+#3409
+A Small Cave~
+You are in a small cave, which looks like it's used to train the inhabitants
+of this town.
+~
+8 0
+D3
+The Path.
+~
+~
+0 -1 3408
+S
+#3410
+Small Stone Steps~
+You are on some steps, connecting two levels of the town.
+~
+4 4
+D4
+The Path at the Top of the Steps.
+~
+~
+0 -1 3414
+D5
+The Path at the Bottom of the Steps.
+~
+~
+0 -1 3407
+S
+#3411
+A Cave~
+You are in a cave within the Town.
+~
+8 0
+D3
+The Path.
+~
+~
+0 -1 3406
+S
+#3412
+A Cave~
+You are in a cave, which serves as the General Stores for the town.
+~
+1032 0
+D1
+The Path.
+~
+~
+0 -1 3416
+S
+#3413
+A Cave~
+You in a cave, which looks like it's used as some sort of shop for the town.
+~
+8 0
+D3
+The Path.
+~
+~
+0 -1 3404
+S
+#3414
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3415
+D1
+The Path.
+~
+~
+0 -1 3421
+D2
+A Cave.
+~
+~
+0 -1 3438
+D5
+Some Steps.
+~
+~
+0 -1 3410
+S
+#3415
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3416
+D1
+A Cave.
+~
+~
+0 -1 3420
+D2
+The Path.
+~
+~
+0 -1 3414
+S
+#3416
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D0
+The Path.
+~
+~
+0 -1 3417
+D2
+The Path.
+~
+~
+0 -1 3415
+D3
+A Cave.
+~
+~
+0 -1 3412
+S
+#3417
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D1
+A Cave.
+~
+~
+0 -1 3418
+D2
+The Path.
+~
+~
+0 -1 3416
+S
+#3418
+A Cave~
+You are in a small cave, which serves as the entrance to the town's meeting
+room, situated in the cave to the North.
+~
+8 0
+D0
+The Meeting Room.
+~
+~
+0 -1 3419
+D3
+The Path.
+~
+~
+0 -1 3417
+S
+#3419
+The Meeting Room~
+You are in a large cave, which is used for the town's meeting room.
+~
+8 0
+D2
+The Entrance.
+~
+~
+0 -1 3418
+S
+#3420
+A Cave~
+You are in a small cave, which serves as a weapon shop for the town.
+~
+8 0
+D3
+The Path.
+~
+~
+0 -1 3415
+S
+#3421
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D1
+The Path.
+~
+~
+0 -1 3423
+D2
+A Cave.
+~
+~
+0 -1 3422
+D3
+The Path.
+~
+~
+0 -1 3414
+S
+#3422
+A Cave~
+You are in a small cave, which acts as a food shop for the town.
+~
+1032 0
+D0
+The Path.
+~
+~
+0 -1 3421
+S
+#3423
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D3
+The Path.
+~
+~
+0 -1 3421
+D5
+Some Steps.
+~
+~
+0 -1 3424
+S
+#3424
+Some Stone Steps~
+You are on small steps, connecting two levels of the town.
+~
+4 4
+D4
+The Path at the Top of the Steps.
+~
+~
+0 -1 3423
+D5
+The Path at the Bottom of the Steps.
+~
+~
+0 -1 3425
+S
+#3425
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D2
+A Cave.
+~
+~
+0 -1 3426
+D3
+The Path.
+~
+~
+0 -1 3428
+D4
+Some Steps.
+~
+~
+0 -1 3424
+S
+#3426
+A Cave~
+You are in a small cave, which acts as an entrance to the town's inn, which is
+situated to the East.
+~
+8 0
+D0
+The Path.
+~
+~
+0 -1 3425
+D1
+The Inn.
+~
+~
+0 -1 3427
+S
+#3427
+The Inn~
+You are in a large cave, which acts as the town's drinking joint.
+~
+1032 0
+D3
+The Entrance.
+~
+~
+0 -1 3426
+S
+#3428
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D1
+The Path.
+~
+~
+0 -1 3425
+D3
+The Path.
+~
+~
+0 -1 3429
+S
+#3429
+A Path Within the Town~
+You are on a small path, which winds its way through the Town.
+~
+4 4
+D1
+The Path.
+~
+~
+0 -1 3428
+D2
+The Temple of Giganthia.
+~
+~
+0 -1 3430
+S
+#3430
+The Temple of Giganthia~
+You are in a large cave, which serves as the town's temple.  Although not
+deeply religious by nature, the founders of this town decided to build the 
+temple as a tribute to Midgaard, after they agreed to move out.
+Unlike Midgaard's, this temple is a simple affair, with a rough stone floor,
+and uneven walls and ceiling.
+~
+8 8
+D0
+The Path.
+~
+~
+0 -1 3429
+D1
+The Altar.
+~
+~
+0 -1 3431
+D3
+The Board Room.
+~
+~
+0 -1 3432
+D4
+~
+~
+0 -1 3700
+S
+#3431
+The Temple Altar~
+You are in a small room to the East of the Temple itself, which acts as the
+altar.  Although the room is bare, apart from a square chunk of rock, it
+does the job.
+~
+1032 0
+D3
+The Temple of Giganthia.
+~
+~
+0 -1 3430
+S
+#3432
+The Board Room~
+You are in a room which usually serves as the board room for the town.
+~
+1032 0
+D1
+The Temple of Giganthia.
+~
+~
+0 -1 3430
+D5
+~
+~
+0 -1 3449
+S
+#3433
+A Cave~
+You are in a small cave, which acts as an antechamber to the Chieftain's
+room.
+~
+8 0
+D0
+The Guard Room.
+~
+~
+0 -1 3434
+D1
+The Path.
+~
+~
+0 -1 3405
+D2
+The Chieftain's Room.
+~
+~
+0 -1 3435
+S
+#3434
+The Guard Room~
+You are in a cave, used by the guards as a headquarters.
+~
+8 0
+D2
+The Antechamber.
+~
+~
+0 -1 3433
+S
+#3435
+The Chieftain's Room~
+You are in a large, grand cave, used by the Chieftain to try and rule the
+town of Giganthia, although it's pretty hard, as Ogre's are pretty independent.
+~
+8 0
+D0
+The Antechamber.
+~
+~
+0 -1 3433
+S
+#3436
+A Cave~
+You are in a cave, which serves as the jail house for the town.  The jail 
+itself lies to the South.
+~
+8 0
+D1
+The Path.
+~
+~
+0 -1 3408
+D2
+The Cell Door.
+~
+door~
+1 -1 3437
+S
+#3437
+The Jail Cell~
+You are in a totally bare room, which is used as a jail cell.
+~
+9240 0
+D0
+The Cell Door.
+~
+door~
+1 -1 3436
+S
+#3438
+A Cave~
+You are a medium sized cave, used as an armor shop.
+~
+1032 0
+D0
+The Path.
+~
+~
+0 -1 3414
+S
+#3449
+Savings Centre~
+The center of commerce of the Ogre race, there are heaps of golden coins in
+the corners.  The ogers, having little concern for personal finance techniquez
+leave their gold here, in exchange for some nebulous paper called a 'receipt.'
+~
+0 0
+D4
+~
+~
+0 -1 3432
+S
+#0
+#MOBILES
+#3401
+gruth executioner~
+Gruth the executioner~
+Gruth the Executioner stands here, ever vigilant.
+~
+Gruth is a large Ogre, who smells awful.  Maybe you should tell him?  On
+second thoughts, he looks like he might be displeased if you did.
+,r thoughts, thought
+~
+3 10240 800 S
+109 1
+-1000 527 527
+! 0 0 0 7 6286 32 16
+#3402
+chieftain ogre~
+the Ogre Chieftain~
+The Ogre Chieftain is here, doing his best to rule.
+~
+The Chieftain looks old, but still able to beat most people in a fight.
+~
+3 8320 200 S
+75 1
+-100 100 100
+! 0 0 0 7 0 32 0
+#3403
+armorer armourer~
+the Armourer~
+The Armourer stands here, waiting to rip you off.
+~
+The Armourer buys and sells armour.  What an exciting life!
+~
+3 10376 250 S
+78 2
+-1400 400 400
+! 0 0 0 7 24076 32 0
+#3404
+shopkeeper~
+the Shopkeeper~
+The Shopkeeper stands here, waiting to sell you stuff.
+~
+She looks quite clean as ogres go.  Shame she doesn't smell clean as well.
+~
+3 10368 300 S
+78 2
+-1400 400 400
+! 0 0 0 7 24078 96 16
+#3405
+shopkeeper~
+the Shopkeeper~
+The Shopkeeper stands here, rubbing his hands together.
+~
+The shopkeeper is fairly short, and balding.
+~
+3 10368 400 S
+72 1
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#3406
+healer huth~
+Huth~
+The Healer, Huth, stands here, looking in good health.
+~
+Huth is a retired killer, now employed to use his skills to heal adventurers.
+~
+4099 10240 800 S
+77 1
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#3407
+weaponsmith~
+the Weaponsmith~
+The Weaponsmith stands here.
+~
+The Weaponsmith has sold more weapons than you've you had hot dinners.
+~
+8195 10376 450 S
+79 2
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#3408
+wise man~
+A wise man~
+A wise man stands here, looking wise, and ummm male.
+~
+He looks very intelligent for an ogre.  Pretty big too.
+~
+1539 8192 375 S
+79 1
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#3409
+male ogre~
+A Male Ogre~
+A Male Ogre is here.
+~
+He looks like your typical ogre - untidy, and rather large.  Smells too.
+~
+1 0 50 S
+41 1
+-850 130 140
+! 0 0 0 7 2322 0 0
+#3410
+female ogre~
+A female Ogre~
+A Female Ogre is here.
+~
+She looks like your typical ogre - untidy, and rather large.  Smells too.
+~
+1 0 50 S
+32 2
+-850 130 140
+! 0 0 0 7 2322 0 0
+#3411
+barkeeper~
+the Barkeeper~
+The Barkeeper stands here, keeping bar.
+~
+He looks quite friendly, as well as being taller than you.
+~
+3 10368 -100 S
+79 1
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#3412
+elite guard~
+the elite guard~
+An elite guard stands here, ready to help the Chieftain.
+~
+He is   B  I  G  !
+~
+3 0 200 S
+25 1
+0 0 0
+! 0 0 0 7 0 0 0
+#3413
+guard~
+the guard~
+A guard stands here, looking out for criminals.
+~
+The guard looks you over, deciding if he should work his own form of justice
+on you.  He shrugs and looks elsewhere for someone to pick on.
+~
+3 0 200 S
+29 1
+0 0 0
+! 0 0 0 7 0 0 0
+#3414
+guard~
+the guard~
+A guard stands here, looking out for criminals.
+~
+The guard looks you over, deciding if he should work his own form of justice
+on you.  He shrugs and looks elsewhere for someone to pick on.
+~
+1 0 200 S
+22 1
+0 0 0
+! 0 0 0 7 0 0 0
+#3415
+shopkeeper~
+the shopkeeper~
+The shopkeeper stands here, waiting for you to buy stuff.
+~
+The shopkeeper is a big ogre.  Play nice.
+~
+3 10368 300 S
+75 1
+-1400 400 400
+! 0 0 0 7 24076 32 16
+#0
+#OBJECTS
+#3432
+board~
+the Town's Board~
+The Town's General-Purpose Notice Board is fixed to the wall.~
+27 0 0 1
+0 0 0 3089
+1
+L
+1
+#3401
+axe~
+gruth's Execution Axe~
+Gruth's Axe lies here, looking lethal.
+~
+5 1 8193 1
+0 0 0 3
+6
+L
+1
+#3402
+worms~
+a squirming mass of worms~
+A mass of squirming worms lies on the floor.~
+19 0 1 1
+10 0 0 0
+1
+L
+1
+#3403
+mud~
+a small cup of thick mud~
+A small cup, filled with mud has been left here.~
+17 0 1 1
+10 10 4 0
+2
+L
+1
+#3404
+ale~
+a small cup of ale~
+A small cup of ale has been left here.~
+17 0 8 1
+10 10 4 1
+2
+L
+1
+#3405
+club large~
+a large club~
+A large club lies forogtton on the floor.~
+5 0 8193 1
+0 0 0 7
+4
+L
+1
+#3406
+club small~
+a small club~
+A small club lies forogtton on the floor.~
+5 0 8193 1
+0 0 0 7
+4
+L
+1
+#3407
+belt spiked~
+a spiked belt~
+A lethal-looking spiked belt lies here.~
+9 0 2049 1
+0 0 0 0
+3
+A
+18 1
+A
+19 1
+L
+1
+#3408
+bracer iron~
+an iron bracer~
+A crude-looking iron bracer has been left here.~
+9 0 4097 1
+0 0 0 0
+4
+L
+1
+#3409
+gauntlets iron~
+a pair of iron gauntlets~
+Someone has left a pair of iron gauntlets here.~
+9 0 129 1
+0 0 0 0
+3
+L
+21
+#3410
+elf head burning~
+a burning elf head~
+A burning elf head has been left here.  How nice.~
+1 0 16385 1
+0 0 20 0
+2
+L
+1
+#3411
+ring black~
+a black ring~
+A black ring has been dropped here.~
+9 0 3 1
+0 0 0 0
+1
+A
+13 5
+A
+9 1
+A
+3 1
+A
+2 -1
+L
+1
+#3412
+puddle~
+a dark, muddy puddle~
+A dark muddy puddle lies before you.~
+25 0 1 1
+0 0 0 0
+10000
+L
+1
+#0
+#SHOPS
+3403 9 0 0 0 0 150 90 0 23
+3404 19 0 0 0 0 160 90 0 23
+3405 20 8 0 0 0 200 25 0 23
+3407 5 0 0 0 0 190 80 0 23
+3411 0 0 0 0 0 100 100 0 23
+3415 1 13 18 19 22 190 70 0 23
+0
+#RESETS
+M 0 3401 1 3430  exec
+
+E 0 3401 0 16    wi axe
+
+M 0 3402 1 3435  chief
+
+M 0 3403 1 3438  armorer
+
+M 0 3404 1 3422  food
+
+G 0 3402 0       give worms
+
+M 0 3405 1 3413  treasurer
+
+M 0 3406 1 3431  healer
+
+M 0 3407 1 3420  weapons
+
+G 0 3406 0       small club
+
+M 0 3408 1 3409  train/prac'er
+
+M 0 3409 2 3404  ogre
+
+M 0 3409 1 3425  ogre
+
+M 0 3410 2 3426  ogre
+
+M 0 3410 1 3411  ogre
+
+M 0 3411 1 3427  barkeeper
+
+G 0 3403 0       give mud
+
+G 0 3404 0       give ale
+
+M 0 3412 2 3434  elite guard
+
+E 0 3405 0 16    wi club
+
+E 0 3408 0 14    wear bracer
+
+E 0 3408 0 15    wear bracer
+
+M 0 3412 1 3434  elite guard
+
+E 0 3405 0 16    wi club
+
+M 0 3413 3 3401  guard (sentinel)
+
+E 0 3405 0 16    wi club
+
+E 0 3411 0 2     wear ring
+
+M 0 3413 2 3414  guard (s)
+
+E 0 3405 0 16    wi club
+
+E 0 3409 0 9     wear gauntlets
+
+E 0 3411 0 2     wear ring
+
+M 0 3413 1 3408  guard (s)
+
+E 0 3405 0 16    wi club
+
+E 0 3408 0 14    wear bracer
+
+E 0 3408 0 15    wear bracer
+
+M 0 3414 3 3404  guard
+
+E 0 3405 0 16    wi club
+
+E 0 3409 0 9     wear gauntlets
+
+E 0 3411 0 2     wear ring
+
+M 0 3414 2 3410 
+
+E 0 3405 0 16    wi club
+
+E 0 3409 0 9     wear gauntlets
+
+E 0 3411 0 2     wear ring
+
+M 0 3414 1 3429 
+
+E 0 3405 0 16    wi club
+
+E 0 3408 0 14    wear bracer
+
+E 0 3408 0 15    wear bracer
+
+M 0 3415 1 3412  general stores
+
+G 0 3410 0       give elf head (light;)
+
+O 0 3412 0 3414  puddle <laugh>
+
+O 0 3432 0 3432 (null)
+
+S
+#SPECIALS
+M 3406 spec_cast_adept
+S
+#$

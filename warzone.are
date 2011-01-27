@@ -1,0 +1,1807 @@
+#AREADATA
+Credits     {r< 60- 80> {bAmbrix   {gThe Warzone  {x~
+Name        Warzone~
+Filename    warzone.are~
+Builders    Ambrix~
+VNUMs       16501 16599
+Security    9
+End
+
+
+
+#MOBILES
+#16501
+combat medic~
+A battle-scarred healer~
+A combat medic is here, tending to the wounded and dying.
+~
+A combat medic is here, practicing the healing arts on wounded soldiers
+from both sides. With practiced care, he binds their wounds and
+tries to save as many as he can.
+~
+human~
+AQWa 0 0 0
+70 0 10d330+1614 140d10+100 5d24+37 none
+-33 -33 -33 -11
+S 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK M 0
+#16502
+rabid dog~
+a rabid dog~
+A rabid dog scrounges for food here.
+~
+It's one of those bad dogs, with the foaming mouths...  Bad juju.  
+~
+dog~
+ACF a -100 0
+50 0 10d168+930 50d10+100 5d17+27 chomp
+-21 -21 -21 -5
+H 0 0 0
+stand stand none 0
+AGV ACDEFHJKUV M 0
+#16503
+ghost gardener~
+Ghost of the gardener~
+The Ghost of the Gardener is here, waiting for vengence.
+~
+Its a ghost alright, and a vengeful one at that!  The Gardener died here,
+and his ghost ever haunts here, hoping for a shot at his killers.  
+~
+human~
+ABOR BHQU 50 0
+80 5 10d432+2016 80d10+100 5d28+40 none
+-40 -40 -40 -15
+G BC 0 H
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#16504
+burnt human~
+A burnt human~
+A human horribly disfigured by fire is here.
+~
+This person is horribly burnt.  The fire seems to have affected it's
+brain as well because it charges right at you!  
+~
+human~
+AFO c -200 0
+65 0 10d285+1420 65d10+100 5d22+36 none
+-30 -30 -30 -10
+IK 0 0 H
+stand stand either 2000
+AHMV ABCDEFGHIJK M 0
+#16505
+burnt orc~
+A burnt orc~
+An orc horribly disfigured by fire is here.
+~
+This creature is horribly burnt, but it still smells.  It growls and
+attacks!  
+~
+orc~
+AFO Jc -200 0
+65 0 10d285+1420 65d10+100 5d22+36 none
+-30 -30 -30 -10
+IK 0 Q HS
+stand stand either 2000
+AHMV ABCDEFGHIJK M 0
+#16506
+hugh warrior~
+A human gateguard~
+A huge warrior is here, guarding the castle.
+~
+This is one of the biggest guards you've ever seen! You sense a weakness
+perhaps in his defenses...a chink in the armor that you can exploit.
+~
+human~
+ABT H 100 0
+60 5 10d243+1242 60d10+100 5d21+30 none
+-27 -27 -27 -8
+CEKN 0 0 H
+stand stand male 1900
+AHMV ABCDEFGHIJK H 0
+#16507
+orc guard~
+An orc gateguard~
+A big smelly orc guards the Warbase here.
+~
+Wow!  What a big smelly orc!  He looks real mean, and hungry too.  I bet
+you'd be yummy in his tummy!  
+~
+orc~
+ABT HJ 100 0
+60 5 10d243+1242 60d10+100 5d21+30 none
+-27 -27 -27 -8
+CEKN 0 Q HS
+stand stand male 1900
+AHMV ABCDEFGHIJK H 0
+#16510
+orc warboss warrior~
+The Orc Warboss~
+A BIIIG, smelly, powerful orc is gonna kick your butt here!
+~
+This guys smells really bad, and it hurts even worse when he hits you. 
+Well, you've had a nice life.  
+~
+orc~
+ABFRT HJc -1000 0
+80 9 10d432+2016 80d10+100 5d28+40 divine
+-40 -40 -40 -15
+CEFIKNR CH Q S
+stand stand male 4000
+AHMV ABCDEFGHIJK H 0
+#16511
+orc warlord~
+An Orc Warlord~
+A big orc with a big sword lumbers at you!
+~
+This big-un looks like he wants to cut you into little pieces.  Try and
+stop him!  
+~
+orc~
+AFGT HJV -300 0
+75 5 10d379+1812 75d10+100 5d26+38 none
+-36 -36 -36 -13
+CEIMNR A CQ S
+stand stand male 2800
+AHMV ABCDEFGHIJK L 0
+#16512
+orc warrior~
+An orc warrior~
+A well-armed orc helps out his buddies in killing you here!
+~
+This orc will stop at nothing to have the shirt off your back...  And the
+skin, too.  
+~
+orc~
+AF JOPQ -250 0
+70 2 10d330+1614 70d10+100 5d24+37 pierce
+-33 -33 -33 -11
+DINR 0 Q HS
+stand stand male 2300
+AHMV ABCDEFGHIJK M 0
+#16513
+orc spearman~
+An orc spearman~
+A younger orc is here, practicing killing.
+~
+This is a fairly immature orc, and you can tell by his mannerisms.  He
+shouldn't be too hard a kill.  
+~
+orc~
+A JV -50 0
+65 0 10d285+1420 65d10+100 5d22+36 pierce
+-30 -30 -30 -10
+EKR A Q HS
+stand stand male 2200
+AHMV ABCDEFGHIJK M 0
+#16514
+orc slave~
+An orc slave~
+A much-beaten and abused orc is here.
+~
+This orc has lots of cuts and scrapes...  From other orcs!  Give the
+fella a break, and kill 'em.  
+~
+orc~
+AH JP -25 0
+60 0 10d243+1242 60d10+100 5d21+30 pound
+-27 -27 -27 -8
+NR A Q HS
+stand stand either 1000
+AHMV ABCDEFGHIJK M 0
+#16520
+human warboss warrior~
+The Human Warboss~
+A magnificent warrior is ready to spill your blood here.
+~
+You see a huge human warrior-mage, itchy to avenge the deaths of
+innocents.  You may be innocent too, but not to him!  
+~
+human~
+ABFRT Hc 1000 0
+80 9 10d432+2016 80d10+100 5d28+40 divine
+-40 -40 -40 -15
+CEFIKNR ACH 0 0
+stand stand male 4000
+AHMV ABCDEFGHIJK H 0
+#16521
+human knight~
+A Human Knight~
+A powerful knight charges at you!
+~
+He's a powerful-looking knight, with a glint of vengence in his eye.  
+~
+human~
+AFGT HV 300 0
+75 5 10d379+1812 75d10+100 5d26+38 none
+-36 -36 -36 -13
+CEIMNR A C 0
+stand stand male 2500
+AHMV ABCDEFGHIJK L 0
+#16522
+human footman~
+A human footman~
+A human footman is here, assisting the knights in killing you.
+~
+He's a pretty big guy, but his spear is even bigger.  Looks like you're
+about to be shiskabob!  Eek!  
+~
+human~
+AF NPQ 250 0
+70 2 10d330+1614 70d10+100 5d24+37 pierce
+-33 -33 -33 -11
+INR 0 0 H
+stand stand male 2300
+AHMV ABCDEFGHIJK M 0
+#16523
+human squire~
+A human squire~
+A young warrior is here, assisting his elders.
+~
+He's a young warrior, but still brave and true to his cause.  
+~
+human~
+A V 50 0
+65 0 10d285+1420 65d10+100 5d22+36 slice
+-30 -30 -30 -10
+EKR A 0 H
+stand stand male 2200
+AHMV ABCDEFGHIJK M 0
+#16524
+human serf~
+A human serf~
+A hard-working and dirty human is here.
+~
+This serf doesn't know much about fighting.  War is for the nobles and
+soldiers.  Serfs just work.  
+~
+human~
+AH P 25 0
+60 0 10d243+1242 60d10+100 5d21+30 pound
+-27 -27 -27 -8
+NR A 0 H
+stand stand either 1000
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#16501
+nachos ala Chefcombo~
+nachos ala Chefcombo~
+Some tasty nachos with pepper jack cheese.~
+none~
+food 0 AO
+CFG CFG 0 0 0
+0 0 2 P
+#16502
+Dreamspear~
+ambrix's DreamSpear~
+An incredible weapon is here.~
+none~
+weapon ABFIORTY ANP
+spear 100 100 divine ABCDEGH
+260 0 0 P
+#16503
+ground herbs~
+a packet of finely ground herbs~
+There is a small packet of healing herbs here.~
+none~
+pill A A
+50 'heal' 'heal' 'none' 'none'
+75 0 12000 P
+#16504
+dripping fangs~
+venomous fangs~
+Dripping, venomous fangs ~
+none~
+weapon 0 AN
+exotic 5 11 chomp H
+50 5 1000 P
+#16505
+rusty pitchfork~
+a rusty pitchfork~
+A rusty pitchfork somehow escaped the fire and is here.~
+none~
+weapon Y AN
+spear 7 10 pierce DF
+60 50 1000 P
+#16506
+tool rack~
+a tool rack~
+A rack to hang tools on is here.~
+none~
+container 0 0
+0 ACD 16509 100 0
+0 0 0 P
+#16507
+castle key~
+key to Human Warbase~
+A burnt key of traditional design is here.~
+none~
+key 0 A
+0 0 0 0 0
+60 0 0 P
+#16508
+orc key~
+key to Orc Warbase~
+A crudely-made and burnt key is here.~
+none~
+key 0 A
+0 0 0 0 0
+60 0 0 P
+#16509
+tool key~
+the tool key~
+A key to the tool shed is here.~
+none~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#16510
+burnt flesh~
+burnt flesh~
+Some charred flesh is here.~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16511
+burnt hand~
+a burnt hand~
+A burnt hand is here.~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16512
+burnt body~
+a burnt body~
+A charred and unrecognizable body is here.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#16513
+burnt limb~
+a burnt limb~
+A burnt leg (or arm?) is here.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#16514
+portal mystical~
+{G a portal to the Mystical Garden Qwest (look mystical){x~
+{G A portal to the Mystical Garden is here.{x~
+none~
+portal T A
+A 0 0 BCFHJLO 0
+65 0 0 P
+E
+mystical~
+Drop portal and enter it to get to Vestrivan's Mystical Garden qwest for
+people over level 65.  This qwest recreates Daz' qwest for the holy rose. 
+The area is mostly no_recall and has divine shears as its reward.  Good
+Luck!  
+~
+#16520
+burnt timbers~
+burnt wood timbers~
+Charred and burnt logs from a collapsed building lie in a pile here.~
+none~
+trash 0 A
+0 0 0 0 0
+0 100 0 P
+#16521
+broken glass~
+broken glass~
+A shattered window lies in shards here.~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#16522
+debris~
+pile of debris~
+A large pile of assorted debris is here.~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16530
+work pants~
+work pants~
+A pair of sturdy pants lie here.~
+none~
+armor 0 AF
+BD BD BD 0 0
+60 10 1000 P
+F A 13 10 0
+F A 5 2 0
+F A 2 -2 0
+#16531
+twisted sword~
+a twisted and bent sword~
+A twisted and bent sword lies here.~
+none~
+weapon A AN
+sword 6 11 none A
+65 15 4000 P
+F A 13 20 0
+F A 18 2 0
+F A 19 2 0
+#16532
+squire's shield~
+a squire's shield~
+A large shield with an elaborate coat of arms is here.~
+none~
+armor 0 AJ
+BE E BE BD 0
+65 0 3700 P
+F A 23 -4 0
+F A 24 -6 0
+#16533
+large pike~
+a large pike~
+A large pike is here, burning slowly.~
+none~
+weapon B AN
+spear 6 12 pierce A
+70 20 3800 P
+F A 18 3 0
+F A 5 1 0
+F A 2 -1 0
+F A 1 1 0
+F A 19 3 0
+#16534
+leather jacket ringmail~
+a jacket of leather ringmail~
+A leather jacket covered in iron rings is here.~
+none~
+armor 0 AD
+CE CE CE CE 0
+70 20 3600 P
+F A 19 2 0
+F A 18 2 0
+F A 20 -2 0
+F A 24 -2 0
+F A 23 -2 0
+#16535
+bloody boots~
+a pair of bloody boots~
+A pair of bloody boots is here.~
+none~
+armor B AG
+CE CE CE CE 0
+70 20 3800 P
+F A 13 50 0
+#16536
+knight sword~
+a knight's sword~
+The sword of a worthy knight is here.~
+none~
+weapon FIK AN
+sword 7 11 slash ADE
+75 22 4000 P
+F A 19 6 0
+F A 18 6 0
+#16537
+knight helm~
+a knight's helm~
+A helm worthy of a powerful adventurer is here.~
+none~
+armor B AE
+ADE ADE ADE ADE 0
+75 20 3900 P
+F A 19 3 0
+F A 18 3 0
+F A 13 10 0
+F A 14 10 0
+F A 12 10 0
+#16538
+burnt belt~
+a burnt belt~
+A belt scarred by fire is here.~
+none~
+armor G AL
+CE CE CE CE 0
+75 15 4000 P
+F A 1 1 0
+F A 3 1 0
+F A 4 1 0
+F A 5 1 0
+F A 2 1 0
+#16539
+ball fire~
+the Ball of Fire~
+A ball of fire burns brightly here.~
+none~
+weapon AB AN
+exotic 7 12 divine ACD
+80 25 6000 P
+F A 18 5 0
+F A 19 5 0
+F A 13 10 0
+#16540
+slave chains~
+slave chains~
+Chains for restraining slaves are here.~
+none~
+armor 0 AF
+BD BD BD 0 0
+60 10 1500 P
+#16541
+Bent spear~
+a bent spear~
+A bent spear lies on the ground.~
+none~
+weapon A AN
+spear 6 11 none A
+65 15 3500 P
+F A 13 30 0
+F A 18 2 0
+F A 19 2 0
+#16542
+orcish shield~
+an orc shield~
+A hard wooden shield, well-used, is here.~
+none~
+armor 0 AJ
+BE E BE BD 0
+65 0 4000 P
+F A 24 -10 0
+#16543
+large sword~
+a large sword~
+A large and well-used sword is here.~
+none~
+weapon B AN
+sword 6 12 slash A
+70 20 3900 P
+F A 1 1 0
+F A 18 4 0
+F A 19 4 0
+#16544
+leather jacket ringmail~
+a jacket of leather ringmail~
+A leather jacket covered in iron rings is here.~
+none~
+armor 0 AD
+CE CE CE CE 0
+70 20 3900 P
+F A 20 -2 0
+F A 23 -2 0
+F A 24 -2 0
+F A 18 2 0
+F A 19 2 0
+#16545
+bloody boots~
+a pair of bloody boots~
+A pair of bloody boots is here.~
+none~
+armor B AG
+CE CE CE CE 0
+70 20 3800 P
+F A 13 50 0
+#16546
+warlord sword~
+a warlord's sword~
+The sword of an evil warlord is here.~
+none~
+weapon FIJ AN
+sword 7 11 slash AD
+75 22 4000 P
+F A 19 1 0
+F A 18 1 0
+F A 4 1 0
+F A 5 1 0
+F A 2 1 0
+F A 1 2 0
+#16547
+warlord helm~
+a spiky helm~
+A helm covered in sharp spikes is here.~
+none~
+armor B AE
+ADE ADE ADE ADE 0
+75 20 3210 P
+F A 18 6 0
+F A 19 6 0
+#16548
+burnt belt~
+a burnt belt~
+A belt scarred by fire is here.~
+none~
+armor G AL
+CE CE CE CE 0
+75 15 12000 P
+F A 1 1 0
+F A 3 1 0
+F A 2 1 0
+F A 4 1 0
+F A 5 1 0
+#16549
+ethereal claw~
+the Ethereal Claw~
+A strangly shapless claw is floating here.~
+none~
+weapon ABF AN
+exotic 7 12 divine ADEH
+80 25 6000 P
+F A 1 2 0
+F A 12 10 0
+F A 18 3 0
+F A 19 3 0
+#16550
+gold scale~
+a gold scale~
+{rA{gm{bb{cr{yi{wx{x's anole left a {ygold {xscale here.~
+none~
+gem ABGTY AR
+0 0 0 0 0
+0 0 0 P
+F A 13 10 0
+F A 12 10 0
+F A 14 10 0
+F A 18 5 0
+F A 19 5 0
+#16551
+big bag~
+a big bag~
+A Biiiiig bag is here, full of Ambrix's trash.~
+none~
+container 0 AO
+100000000 0 0 100000000 0
+0 0 0 P
+#16552
+red scale~
+a red scale~
+Ambrix's anole left a {rred {xscale here.~
+none~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#16557
+Ambrix Bracelet~
+ambrix's Bandolier~
+Rose~
+none~
+armor FGHIRSY AD
+EIJKN EIJKN EIJKN EIJKN 0
+0 0 0 P
+F A 19 10000 0
+F A 18 10000 0
+F A 14 10000 0
+F A 12 10000 0
+F A 13 10000 0
+F A 5 20 0
+F A 4 20 0
+F A 3 20 0
+F A 2 20 0
+F A 1 20 0
+F A 24 -10000 0
+F A 20 -10000 0
+F A 23 -10000 0
+#16558
+blah~
+(no short description)~
+(no description)~
+none~
+pill 0 A
+0 'detect invis' 'none' 'none' 'none'
+0 0 0 P
+#16560
+letter G~
+letter 'G'~
+The letter 'G'~
+none~
+pill 0 A
+100 'sanctuary' 'bless' 'none' 'none'
+0 0 0 P
+#16561
+letter A~
+letter A~
+The letter 'A'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16562
+letter r~
+letter R~
+The letter 'R'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16563
+letter f~
+letter f~
+The letter 'F'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16564
+letter i~
+letter i~
+The letter 'I'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16565
+letter e~
+letter e~
+The letter 'E'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16566
+letter l~
+letter l~
+The letter 'L'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16567
+letter d~
+letter d~
+The letter 'D'~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#16570
+starlight scope~
+a starlight scope~
+A scope that helps with hit accuracy is here.~
+none~
+gem ABIPY AQ
+0 0 0 0 0
+290 5 0 P
+F A 19 200 0
+F A 18 200 0
+F A 17 -1000 0
+#16575
+Helm of Devotion~
+a helm of devotion~
+You see a finely crafted helm here.~
+none~
+armor ABGOR AE
+AC AC AC AD 0
+1 1 0 P
+F A 13 50 0
+#16596
+no name~
+(no short description)~
+(no description)~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#16501
+A Blackened Doorway~
+You step through the burned out timbers of this building and look through
+a blackend doorway.  Smoke and ash and the smell of burning linger in the
+air.  Buildings and people alike lie smashed and burned all around.  This
+place looks like a Warzone.  
+~
+0 CN 0
+D1
+~
+~
+0 0 16503
+D2
+~
+~
+0 0 2307
+S
+#16502
+The Gardener's Room~
+At one time, this room served as the quarters for the simple gardner who
+tended the garden to the south.  Now, like everything, it has been gutted. 
+You think you see what may be human remains in the corner of the room, but
+turn away in disgust before you can be sure.  
+~
+0 0 0
+D2
+~
+~
+0 0 16503
+S
+#16503
+Burned Garden~
+A once lush garden smolders and burns slowly here.  This was once a
+beautiful place, but fighting and battle have reduced it to ash.  
+~
+0 N 0
+D0
+~
+~
+0 0 16502
+D1
+~
+~
+0 0 16505
+D2
+~
+~
+4 0 16504
+D3
+~
+~
+0 0 16501
+S
+#16504
+The Tool Shed~
+All manner of gardening implements are here, still arranged in neat rows
+by fnction.  Some empty racks can be seen where sharp tools were 'borrowed'
+for combat.  Most of the other tools with weapon potential have rusted or
+decayed from lack of care and use.  
+~
+0 0 0
+D0
+~
+~
+4 16509 16503
+S
+#16505
+A gravel path~
+You stand on a gravel path, unburned only because rocks don't burn. 
+Somebody tried though.  Either this place is pyromaniac heaven or there was
+serious fighting going down here.  You see some blood on the rocks.  
+~
+0 0 0
+D1
+~
+~
+0 0 16513
+D3
+~
+~
+0 0 16503
+S
+#16506
+Badass level~
+~
+0 0 0
+D0
+~
+~
+0 0 16521
+D1
+~
+~
+0 0 16528
+S
+#16507
+Inside torched building~
+This once-livable and homey building has been completely gutted by fire. 
+The roof has fallen in, and in most places only the framework of the house
+remains.  Even that looks like it'll collapse if you push on it too hard.  I
+would leave before the house remnants fall on you head.  
+~
+0 0 0
+D1
+~
+~
+0 0 16515
+D2
+~
+~
+0 0 16508
+S
+#16508
+On a cobblestone path~
+The path continues east, west and north here.
+~
+0 0 0
+D0
+~
+~
+0 0 16507
+D1
+~
+~
+0 0 16516
+D3
+~
+~
+0 0 16509
+S
+#16509
+Turn in the path~
+The path takes a southern turn here...  You see a huge castle-type
+building southward.  
+~
+0 0 0
+D1
+~
+~
+0 0 16508
+D2
+~
+~
+0 0 16510
+S
+#16510
+Human Warbase-Entrance to castle~
+You've reached the Human stronghold.  In their fights with the orcs, the
+humans staged their operations from this huge castle.  Due to the wartime
+conditions, the place is heavily guarded.  Be careful--these humans have
+been fighting so long, they might not recognize if you're friend or foe.  
+~
+0 0 0
+D0
+~
+~
+0 0 16509
+D4
+~
+~
+4 16507 16528
+S
+#16511
+Outside smoldering ruins~
+You see a few buildings that look like they might have been shops nearby.
+If they were, they ain't now.  They have all collapsed on themselves, and
+entry is impossible.  You smell something...  Something sickening.  
+~
+0 0 0
+D1
+~
+~
+0 0 16518
+D2
+~
+~
+0 0 16512
+S
+#16512
+On a cobblestone path~
+The cobblestone path continues.  It has been torn up in a couple places,
+as if the perpentrator just needed something to break.  There are burnt
+buildings all around, and every once in awhile you see charred forms... 
+People?  
+~
+0 0 0
+D0
+~
+~
+0 0 16511
+D2
+~
+~
+0 0 16513
+S
+#16513
+Burnt-out crossroads~
+There were two streetsigns pointing the way here, once, but can you guess
+what happened?  Yep, up in smoke.  All you can see is that the gravel path
+intersects a cobblestone one here.  This must have been sorta the middle of
+town...  
+~
+0 0 0
+D0
+~
+~
+0 0 16512
+D1
+~
+~
+0 0 16519
+D2
+~
+~
+1 0 16514
+D3
+~
+~
+0 0 16505
+S
+#16514
+A large crater~
+You've stepped into, or fallen into rather, a huge crater right in the
+middle of this path.  In all your adventures, you've never seen a war-torn
+hole this big.  Just what kind of forces fought and died here??  
+~
+0 0 0
+D0
+~
+~
+1 0 16513
+D4
+~
+~
+0 0 16515
+S
+#16515
+On a cobblestone path~
+You're on the crest of the crater who's wall you just climbed up, and you
+have a pretty good view of the former city from here.  Nothing special, but
+it was certainly thriving in its day.  Now, smoke rises from the remains of
+this city-turned battlefield.  
+~
+0 0 0
+D1
+~
+~
+1 16507 16524
+D2
+~
+~
+0 0 16516
+D3
+~
+~
+0 0 16507
+D5
+~
+~
+0 0 16514
+S
+#16516
+Walled path~
+This path looks like it was used as a defensive strongpoint at one time. 
+On either side are tall, stoutly built earthworks and sharpened spears for
+reppelling enemy attack.  You feel pretty safe here, unlike in most of the
+other places in this ex-town.  
+~
+0 CKS 0
+H 110 M 110
+D0
+~
+~
+0 0 16515
+D3
+~
+~
+0 0 16508
+S
+#16517
+Orcish Warbase-Large smelly hole~
+Eeew what a nasty smell!  Almost worse than that burnt body smell. 
+There's a huge hole in the ground here; you hear some strange sounds coming
+from it...  Grunts and growls and other unnerrving sounds.  Oh, its probably
+nothing but the wind.  Be brave, you wimp.  Nothing down there can hurt you.
+No, you'll die so quick you won't feel any pain at all!  <G> 
+~
+0 0 0
+D2
+~
+~
+0 0 16518
+D5
+~
+~
+4 16508 16541
+S
+#16518
+Near a large pyre~
+Oh my...  This is disgusting.  There is a huge pyre here, and strewn atop
+it are bodies, lots of bodies.  Looks like some human, some orc, but you
+can't tell cause they're all burned to hell.  This places smells like death.
+~
+0 0 0
+D0
+~
+~
+0 0 16517
+D3
+~
+~
+0 0 16511
+S
+#16519
+Blocked path~
+This part of the path looks like it had more exits, but damaged buildings
+have collapsed and blocked them.  Go figure.  Unless you'd like to barbecue
+yourself over a nice hot bed of coals, south and west are your only exit
+choices.  
+~
+0 0 0
+D2
+~
+~
+0 0 16520
+D3
+~
+~
+0 0 16513
+S
+#16520
+Path of carnage~
+More of the same: more death, more burnt buildings.  Even you, a hardy
+adventurer, is having trouble with all this gore.  Enough is enough.  You're
+feeling like whoever did this needs to taste a little cold hard steel,
+courtesy of you.  Go get the bast..  Erm meanies!  
+~
+0 0 0
+D0
+~
+~
+0 0 16519
+D1
+~
+~
+0 0 16523
+S
+#16521
+~
+~
+0 0 0
+D1
+~
+~
+0 0 16527
+D2
+~
+~
+0 0 16506
+S
+#16522
+Blocked end of alley~
+A collapsed building blocks the alley here.  Burned and damaged timbers
+have fallen across the way and look dangerous to walk on.  You see light to
+the east, where there's a hole in another building.  
+~
+0 0 0
+D1
+~
+~
+0 0 16526
+D2
+~
+~
+0 0 16523
+S
+#16523
+Entrance to alley~
+You seem to have reached an alley that runs behind former buildings.  The
+alley is dark, visibility is low, but you can see exits to the north and
+south.  
+~
+0 0 0
+D0
+~
+~
+0 0 16522
+D2
+~
+~
+0 0 16524
+D3
+~
+~
+0 0 16520
+S
+#16524
+Dead end~
+The alley dead-ends here.  It's dark, and scary.  I would leave before
+you're dead too.  
+~
+0 0 0
+D0
+~
+~
+0 0 16523
+D3
+~
+~
+1 16507 16515
+S
+#16525
+Unburned glen~
+Whoa...  No burnt things here...  Odd.  How did this little glen escape a
+firery death like the rest of the town?  No matter...  Its very peaceful
+here, and you can only barely smell that burnt person smell.  Relax, let the
+olfactory organs clear that evil scent.  
+~
+0 KS 0
+H 120 M 120
+D2
+~
+~
+0 0 16526
+S
+#16526
+Outside the town~
+Even here, outside the buildings that ring the town, you can still smell
+death and burning.  The smell of cooked flesh combined with cooked buildings
+makes you want to gag.  You need fresh air fast!  At least you're out of
+that gastly town.  
+~
+0 0 0
+D0
+~
+~
+0 0 16525
+D3
+~
+~
+0 0 16522
+S
+#16527
+Badass level~
+~
+0 0 0
+D2
+~
+~
+0 0 16528
+D3
+~
+~
+0 0 16521
+S
+#16528
+Badass level~
+This level of the human warbase is for levels 60-65.  Others beware!  
+~
+0 C 0
+D0
+~
+~
+0 0 16527
+D3
+~
+~
+0 0 16506
+D4
+~
+~
+4 16507 16536
+D5
+~
+~
+4 16507 16510
+S
+#16529
+Really badass level~
+~
+0 0 0
+D1
+~
+~
+0 0 16532
+D2
+~
+~
+0 0 16530
+S
+#16530
+Really badass level~
+~
+0 0 0
+D0
+~
+~
+0 0 16529
+D1
+~
+~
+0 0 16533
+S
+#16531
+Really badass level~
+~
+0 0 0
+D1
+~
+~
+0 0 16534
+D2
+~
+~
+0 0 16532
+S
+#16532
+Really badass level~
+~
+0 0 0
+D0
+~
+~
+0 0 16531
+D1
+~
+~
+0 0 16535
+D2
+~
+~
+0 0 16533
+D3
+~
+~
+0 0 16529
+S
+#16533
+Really badass level~
+~
+0 0 0
+D0
+~
+~
+0 0 16532
+D1
+~
+~
+0 0 16536
+D3
+~
+~
+0 0 16530
+S
+#16534
+Really badass level~
+~
+0 0 0
+D2
+~
+~
+0 0 16535
+D3
+~
+~
+0 0 16531
+S
+#16535
+Really badass level~
+~
+0 0 0
+D0
+~
+~
+0 0 16534
+D2
+~
+~
+0 0 16536
+D3
+~
+~
+0 0 16532
+S
+#16536
+Really badass level~
+This level is for 70-75 lev.  Mudders; the next one up is for level 80+. 
+Be careful--not all the rooms will let you recall!  
+~
+0 CN 0
+D0
+~
+~
+0 0 16535
+D3
+~
+~
+0 0 16533
+D4
+~
+~
+4 16507 16537
+D5
+~
+~
+4 16507 16528
+S
+#16537
+Really stupid badass level~
+~
+0 N 0
+D5
+~
+~
+4 16507 16536
+S
+#16538
+Steely-eyed killer level~
+~
+0 0 0
+D1
+~
+~
+0 0 16540
+D2
+~
+~
+0 0 16539
+S
+#16539
+Steely-eyed killer level~
+~
+0 0 0
+D0
+~
+~
+0 0 16538
+D1
+~
+~
+0 0 16541
+S
+#16540
+Steely-eyed killer level~
+~
+0 0 0
+D2
+~
+~
+0 0 16541
+D3
+~
+~
+0 0 16538
+S
+#16541
+Steely-eyed killer level~
+This is the first level of the orc warbase.  It's designed for levels
+60-65.  As you go down a level, the mobs get harder.  Be careful.  
+~
+0 C 0
+D0
+~
+~
+0 0 16540
+D3
+~
+~
+0 0 16539
+D4
+~
+~
+4 16508 16517
+D5
+~
+~
+4 16508 16549
+S
+#16542
+Steely-eyed killer on speed level~
+~
+0 0 0
+D1
+~
+~
+0 0 16545
+D2
+~
+~
+0 0 16543
+S
+#16543
+Steely-eyed killer on speed level~
+~
+0 0 0
+D0
+~
+~
+0 0 16542
+D1
+~
+~
+0 0 16546
+S
+#16544
+Steely-eyed killer on speed level~
+~
+0 0 0
+D1
+~
+~
+0 0 16547
+D2
+~
+~
+0 0 16545
+S
+#16545
+Steely-eyed killer on speed level~
+~
+0 0 0
+D0
+~
+~
+0 0 16544
+D1
+~
+~
+0 0 16548
+D2
+~
+~
+0 0 16546
+D3
+~
+~
+0 0 16542
+S
+#16546
+Steely-eyed killer on speed level~
+~
+0 0 0
+D0
+~
+~
+0 0 16545
+D1
+~
+~
+0 0 16549
+D3
+~
+~
+0 0 16543
+S
+#16547
+Steely-eyed killer on speed level~
+~
+0 0 0
+D2
+~
+~
+0 0 16548
+D3
+~
+~
+0 0 16544
+S
+#16548
+Steely-eyed killer on speed level~
+~
+0 0 0
+D0
+~
+~
+0 0 16547
+D2
+~
+~
+0 0 16549
+D3
+~
+~
+0 0 16545
+S
+#16549
+Steely-eyed killer on speed level~
+This level is designed for levels 70-75.  The next level down is for
+levels 80+.  Be careful; some of these rooms won't let you recall!  If
+you're dumb enough to go east, you can trudge through paths to head to
+Pygmys, but they're levels 95-105.  I'd shudder and run, first.  
+~
+0 CN 0
+D0
+~
+~
+0 0 16548
+D1
+~
+~
+0 0 22000
+D3
+~
+~
+0 0 16546
+D4
+~
+~
+4 16508 16541
+D5
+~
+~
+4 16508 16550
+S
+#16550
+Lobotomized steely-eyed killer on speed level~
+~
+0 N 0
+D4
+~
+~
+4 16508 16549
+S
+#16551
+OLC room~
+Amb builds stuff here.  
+~
+0 CKS 0
+H 10000 M 10000
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 16503 2 1               * The south door of Burned Garden is closed
+D 0 16504 0 1               * The north door of The Tool Shed is closed
+D 0 16510 4 2               * The up door of Human Warbase-Entrance to castle is closed and locked
+D 0 16515 1 2               * The east door of On a cobblestone path is closed and locked
+D 0 16517 5 2               * The down door of Orcish Warbase-Large smelly hole is closed and locked
+D 0 16524 3 2               * The west door of Dead end is closed and locked
+D 0 16528 4 2               * The up door of Badass level is closed and locked
+D 0 16528 5 2               * The down door of Badass level is closed and locked
+D 0 16536 4 2               * The up door of Really badass level is closed and locked
+D 0 16536 5 2               * The down door of Really badass level is closed and locked
+D 0 16537 5 2               * The down door of Really stupid badass level is closed and locked
+D 0 16541 4 2               * The up door of Steely-eyed killer level is closed and locked
+D 0 16541 5 2               * The down door of Steely-eyed killer level is closed and locked
+D 0 16549 4 2               * The up door of Steely-eyed killer on speed level is closed and locked
+D 0 16549 5 2               * The down door of Steely-eyed killer on speed level is closed and locked
+D 0 16550 4 2               * The up door of Lobotomized steely-eyed killer on speed level is closed and locked
+M 0 16501    10 16501     1   * Load A battle-scarred healer
+O 0 16510     0 16501         * Burnt flesh loaded to A Blackened Doorway
+O 0 16512     0 16501         * A burnt body loaded to A Blackened Doorway
+M 0 16503     1 16502     1   * Load Ghost of the gardener
+G 0 16509    -1               * The tool key is given to Ghost of the gardener
+O 0 16512     0 16502         * A burnt body loaded to The Gardener's Room
+O 0 16513     0 16503         * A burnt limb loaded to Burned Garden
+O 0 16522     0 16503         * Pile of debris loaded to Burned Garden
+O 0 16506     0 16504         * A tool rack loaded to The Tool Shed
+O 0 16506     0 16504         * A tool rack loaded to The Tool Shed
+P 0 16505     0 16506     0   * A rusty pitchfork put inside a tool rack
+O 0 16505     0 16504         * A rusty pitchfork loaded to The Tool Shed
+M 0 16504    10 16505     2   * Load A burnt human
+G 0 16510    -1               * Burnt flesh is given to A burnt human
+O 0 16511     0 16505         * A burnt hand loaded to A gravel path
+M 0 16524     5 16506     5   * Load A human serf
+E 0 16530     7     7         * Work pants is loaded on the legs of A human serf
+O 0 16512     0 16507         * A burnt body loaded to Inside torched building
+O 0 16513     0 16507         * A burnt limb loaded to Inside torched building
+O 0 16520     0 16507         * Burnt wood timbers loaded to Inside torched building
+O 0 16521     0 16507         * Broken glass loaded to Inside torched building
+O 0 16522     0 16507         * Pile of debris loaded to Inside torched building
+M 0 16502    10 16508     2   * Load a rabid dog
+E 0 16504    16    16         * Venomous fangs is loaded wielded of a rabid dog
+O 0 16512     0 16508         * A burnt body loaded to On a cobblestone path
+O 0 16512     0 16508         * A burnt body loaded to On a cobblestone path
+M 0 16504    10 16509     2   * Load A burnt human
+O 0 16511     0 16509         * A burnt hand loaded to Turn in the path
+O 0 16522     0 16509         * Pile of debris loaded to Turn in the path
+M 0 16506     1 16510     1   * Load A human gateguard
+G 0 16507    -1               * Key to human warbase is given to A human gateguard
+O 0 16512     0 16511         * A burnt body loaded to Outside smoldering ruins
+O 0 16520     0 16511         * Burnt wood timbers loaded to Outside smoldering ruins
+O 0 16522     0 16511         * Pile of debris loaded to Outside smoldering ruins
+O 0 16511     0 16512         * A burnt hand loaded to On a cobblestone path
+O 0 16510     0 16512         * Burnt flesh loaded to On a cobblestone path
+O 0 16521     0 16513         * Broken glass loaded to Burnt-out crossroads
+O 0 16520     0 16513         * Burnt wood timbers loaded to Burnt-out crossroads
+M 0 16504    10 16514     2   * Load A burnt human
+O 0 16510     0 16514         * Burnt flesh loaded to A large crater
+O 0 16511     0 16514         * A burnt hand loaded to A large crater
+O 0 16512     0 16514         * A burnt body loaded to A large crater
+O 0 16513     0 16514         * A burnt limb loaded to A large crater
+O 0 16522     0 16514         * Pile of debris loaded to A large crater
+O 0 16521     0 16515         * Broken glass loaded to On a cobblestone path
+M 0 16507     1 16517     1   * Load An orc gateguard
+O 0 16511     0 16517         * A burnt hand loaded to Orcish Warbase-Large smelly hole
+O 0 16510     0 16517         * Burnt flesh loaded to Orcish Warbase-Large smelly hole
+G 0 16508    -1               * Key to orc warbase is given to An orc gateguard
+O 0 16508     0 16517         * Key to orc warbase loaded to Orcish Warbase-Large smelly hole
+M 0 16505    10 16518     2   * Load A burnt orc
+O 0 16512     0 16518         * A burnt body loaded to Near a large pyre
+O 0 16512     0 16518         * A burnt body loaded to Near a large pyre
+O 0 16512     0 16518         * A burnt body loaded to Near a large pyre
+O 0 16512     0 16518         * A burnt body loaded to Near a large pyre
+O 0 16512     0 16518         * A burnt body loaded to Near a large pyre
+O 0 16511     0 16518         * A burnt hand loaded to Near a large pyre
+O 0 16510     0 16518         * Burnt flesh loaded to Near a large pyre
+O 0 16513     0 16518         * A burnt limb loaded to Near a large pyre
+O 0 16520     0 16518         * Burnt wood timbers loaded to Near a large pyre
+M 0 16502    10 16519     2   * Load a rabid dog
+E 0 16504    16    16         * Venomous fangs is loaded wielded of a rabid dog
+O 0 16513     0 16519         * A burnt limb loaded to Blocked path
+O 0 16520     0 16519         * Burnt wood timbers loaded to Blocked path
+M 0 16505    10 16520     2   * Load A burnt orc
+G 0 16510    -1               * Burnt flesh is given to A burnt orc
+O 0 16510     0 16520         * Burnt flesh loaded to Path of carnage
+O 0 16511     0 16520         * A burnt hand loaded to Path of carnage
+G 0 16510    -1               * Burnt flesh is given to A burnt orc
+O 0 16522     0 16520         * Pile of debris loaded to Path of carnage
+M 0 16523     5 16521     5   * Load A human squire
+E 0 16531    16    16         * A twisted and bent sword is loaded wielded of A human squire
+E 0 16532    11    11         * A squire's shield is loaded as a shield of A human squire
+M 0 16505    10 16522     2   * Load A burnt orc
+O 0 16520     0 16522         * Burnt wood timbers loaded to Blocked end of alley
+O 0 16512     0 16523         * A burnt body loaded to Entrance to alley
+M 0 16502    10 16524     2   * Load a rabid dog
+E 0 16504    16    16         * Venomous fangs is loaded wielded of a rabid dog
+O 0 16513     0 16524         * A burnt limb loaded to Dead end
+M 0 16501    10 16525     1   * Load A battle-scarred healer
+O 0 16510     0 16526         * Burnt flesh loaded to Outside the town
+M 0 16524     1 16527     5   * Load A human serf
+E 0 16530     7     7         * Work pants is loaded on the legs of A human serf
+M 0 16523     5 16527     5   * Load A human squire
+E 0 16531    16    16         * A twisted and bent sword is loaded wielded of A human squire
+E 0 16532    11    11         * A squire's shield is loaded as a shield of A human squire
+M 0 16521     5 16529     5   * Load A Human Knight
+E 0 16536    16    16         * A knight's sword is loaded wielded of A Human Knight
+E 0 16537     6     6         * A knight's helm is loaded over the head of A Human Knight
+E 0 16538    13    13         * A burnt belt is loaded around the waist of A Human Knight
+M 0 16522     6 16529     6   * Load A human footman
+E 0 16535     8     8         * A pair of bloody boots is loaded on the feet of A human footman
+E 0 16534     5     5         * A jacket of leather ringmail is loaded on the torso of A human footman
+E 0 16533    16    16         * A large pike is loaded wielded of A human footman
+M 0 16521     5 16532     5   * Load A Human Knight
+E 0 16536    16    16         * A knight's sword is loaded wielded of A Human Knight
+E 0 16537     6     6         * A knight's helm is loaded over the head of A Human Knight
+E 0 16538    13    13         * A burnt belt is loaded around the waist of A Human Knight
+M 0 16522     6 16533     6   * Load A human footman
+E 0 16533    16    16         * A large pike is loaded wielded of A human footman
+E 0 16534     5     5         * A jacket of leather ringmail is loaded on the torso of A human footman
+E 0 16535     8     8         * A pair of bloody boots is loaded on the feet of A human footman
+M 0 16521     5 16534     5   * Load A Human Knight
+E 0 16536    16    16         * A knight's sword is loaded wielded of A Human Knight
+E 0 16537     6     6         * A knight's helm is loaded over the head of A Human Knight
+E 0 16538    13    13         * A burnt belt is loaded around the waist of A Human Knight
+G 0 16514    -1               * {g a portal to the mystical garden qwest (look mystical){x is given to A Human Knight
+M 0 16522     6 16535     6   * Load A human footman
+E 0 16533    16    16         * A large pike is loaded wielded of A human footman
+E 0 16534     5     5         * A jacket of leather ringmail is loaded on the torso of A human footman
+E 0 16535     8     8         * A pair of bloody boots is loaded on the feet of A human footman
+M 0 16520     1 16537     1   * Load The Human Warboss
+M 0 16513     1 16538     5   * Load An orc spearman
+E 0 16541    16    16         * A bent spear is loaded wielded of An orc spearman
+E 0 16542    11    11         * An orc shield is loaded as a shield of An orc spearman
+M 0 16514     5 16539     5   * Load An orc slave
+E 0 16540     7     7         * Slave chains is loaded on the legs of An orc slave
+M 0 16514     5 16540     5   * Load An orc slave
+E 0 16540     7     7         * Slave chains is loaded on the legs of An orc slave
+M 0 16513     5 16540     5   * Load An orc spearman
+E 0 16541    16    16         * A bent spear is loaded wielded of An orc spearman
+E 0 16542    11    11         * An orc shield is loaded as a shield of An orc spearman
+M 0 16512     6 16542     6   * Load An orc warrior
+E 0 16543    16    16         * A large sword is loaded wielded of An orc warrior
+E 0 16544     5     5         * A jacket of leather ringmail is loaded on the torso of An orc warrior
+E 0 16545     8     8         * A pair of bloody boots is loaded on the feet of An orc warrior
+M 0 16511     5 16542     5   * Load An Orc Warlord
+E 0 16546    16    16         * A warlord's sword is loaded wielded of An Orc Warlord
+E 0 16547     6     6         * A spiky helm is loaded over the head of An Orc Warlord
+E 0 16548    13    13         * A burnt belt is loaded around the waist of An Orc Warlord
+M 0 16511     5 16545     5   * Load An Orc Warlord
+E 0 16546    16    16         * A warlord's sword is loaded wielded of An Orc Warlord
+E 0 16547     6     6         * A spiky helm is loaded over the head of An Orc Warlord
+E 0 16548    13    13         * A burnt belt is loaded around the waist of An Orc Warlord
+M 0 16512     6 16546     6   * Load An orc warrior
+E 0 16543    16    16         * A large sword is loaded wielded of An orc warrior
+E 0 16544     5     5         * A jacket of leather ringmail is loaded on the torso of An orc warrior
+E 0 16545     8     8         * A pair of bloody boots is loaded on the feet of An orc warrior
+M 0 16511     5 16547     5   * Load An Orc Warlord
+E 0 16546    16    16         * A warlord's sword is loaded wielded of An Orc Warlord
+E 0 16547     6     6         * A spiky helm is loaded over the head of An Orc Warlord
+E 0 16548    13    13         * A burnt belt is loaded around the waist of An Orc Warlord
+G 0 16514    -1               * {g a portal to the mystical garden qwest (look mystical){x is given to An Orc Warlord
+M 0 16512     6 16548     6   * Load An orc warrior
+E 0 16543    16    16         * A large sword is loaded wielded of An orc warrior
+E 0 16544     5     5         * A jacket of leather ringmail is loaded on the torso of An orc warrior
+E 0 16545     8     8         * A pair of bloody boots is loaded on the feet of An orc warrior
+M 0 16510     1 16550     1   * Load The Orc Warboss
+E 0 16549    16    16         * The ethereal claw is loaded wielded of The Orc Warboss
+S
+
+
+
+#SHOPS
+16501 0 0 0 0 0 200 10 0 12
+0
+
+
+
+#$

@@ -1,0 +1,5257 @@
+#AREA
+titan.are~
+Valley of the Titans~
+{25 50} Xavier  Valley of the Titans~
+18000 18150
+
+#MOBILES
+#18001
+town guard~
+the town guard~
+A strong town guard is here, protecting the gates.
+~
+You see a very large man wearing heavy armour. He looks as though he could 
+crush you without a second thought. Aside from his mean and deadly build, 
+he greets you a good day and wishes you on your way.
+~
+giant~
+ABT CDEFHV 1000 0
+45 0 25d10+3000 1d1+99 3d12+15 slash
+-15 -15 -15 4
+EIK ABL N K
+stand stand male 1200
+0 0 large 0
+#18002
+ally cat~
+a poor ally cat~
+A very hungry ally cat is here.
+~
+You see a dirty little cat walking across your path. The poor animal has no 
+home and must seartch through the garbage for bit of supper. You feel sorry 
+for the little fella.
+~
+cat~
+AB CDEF -1000 0
+30 0 6d12+853 299d1+1 4d6+8 bash
+-9 -9 -9 6
+EIK ABL N K 
+stand stand either 0
+0 0 large 0
+#18003
+bongo player drummer~
+the bongo drummer~
+A wild bongo drummer is here, moving with his rythme.
+~
+Beating his drums as best he can, this bongo player really grooves.
+~
+giant~
+ABT CDEFJ -1000 18004
+25 0 5d10+550 1d1+99 2d10+7 pierce
+-7 -7 -7 0
+EIK ABL N K
+stand stand male 3100
+0 0 large 0
+#18004
+guitar player band~
+the guitar player of the band~
+You see a tall wooden guitar player of this little band.
+~
+Wailing away in tune with the bongo and the windpipe, this wooden guitar player
+can really rock! He plays a familliar tune as the people pass by, keeping 
+a little music in the background.
+~
+giant~
+AB CDEFJ -1000 18004
+25 0 5d10+550 1d1+99 2d10+7 pierce
+-7 -7 -7 0
+EIK ABL N K
+stand stand male 4330
+0 0 large 0
+#18005
+pipe pipeplayer player~
+the windpipe player of the band~
+You see the windpipe player, making magical tunes.
+~
+Along with her friends she manages to keep up to the wild beat. Such an odd 
+combination; wooden guitar, bongo and windpipe! But their music is so 
+wonderful! You hope it never ends.
+~
+giant~
+AB CDEFJ -1000 18004
+25 0 5d10+550 1d1+99 2d10+7 blast
+-7 -7 -7 6
+EIK ABL N K
+stand stand female 5300
+0 0 large 0
+#18006
+armourer shop shopkeeper~
+the armourer~
+The smart looking armourer is here, selling his latest fasions.
+~
+Making a last minute change on the store rack in the back, he
+runs to you as you walk in, asking if you need any help. If
+you're in need of armour here is the place to shop!
+~
+giant~
+ABT CDEF -500 0
+53 0 50d10+6000 1d1+99 6d7+21 slice
+-23 -23 -23 2
+EIK ABCDL N K
+stand stand male 200000
+0 0 large 0
+#18007
+shop shopkeeper pet girl~
+the young pet-shop girl~
+The stout little pet-shop girl is here, offering her latest pet.
+~
+All dressed in pink and blue, with he brown hair done up in a braide, she 
+offers you a variety of animals to chose from.  Several look pretty costly, 
+but these animals are basically for show and probably not for combat. Well, 
+you know what they say: Don't knock 'em till you've bought 'em!
+~
+giant~
+ABT CDEFJ -500 0
+53 0 50d10+6000 1d1+99 6d7+21 slice
+-23 -23 -23 2
+EIK ABCDL N K
+stand stand female 200000
+0 0 large 0
+#18008
+grocer~
+the meat grocer~
+A short little man is here, wiping his hands on his shirt.
+~
+"How my I help 'ye?" Said he, "our chicken is fresh of the farms
+t'day and y'can't beat th'lamb, fresh s'a cool mornin' breeze, if
+'ya catch 'me drift?" Quite an interesting first impression.
+There is a big selection of meat and poultry to chose from.
+~
+giant~
+ABT CDEF -1000 0
+51 0 50d10+5000 1d1+99 5d8+19 scratch
+-21 -21 -21 -3
+EIK ABDL HIN JKP
+stand stand male 200000
+0 0 large 0
+#18009
+grocer~
+the produce grocer~
+You see a tall lean man, selling his veggies.
+~
+A huge smile on his face as you walk into his store. This man
+seems to be selling quite an amount of produce. Perhaps you will
+buy some and help keep his business running?
+~
+giant~
+ABT CDEF -1000 0
+51 0 50d10+5000 1d1+140 5d8+19 scratch
+-21 -21 -21 -3
+EIK ABDL N K
+stand stand male 200000
+0 0 large 0
+#18010
+weaponsmith weapon shopkeeper~
+the weaponsmith~
+A strong young man is here, forging weapons.
+~
+*CLANG* *CLANG* Is the melodic sounds that echos through this room. Hot sulfer 
+floats through the air and burns at your nostrils. A huge fire pit is here, 
+used for melting the metal. In the back you see several black anvils, used for 
+the forging of the weapons. If ever you were to go to war, this would be the
+place to get your weapons.
+~
+giant~
+ABT CDEF 0 0
+53 0 50d10+6000 1d1+99 6d7+21 sting
+-23 -23 -23 -3
+CDEFIKN ABDL HIN JKP
+stand stand male 200000
+0 0 large 0
+#18011
+magic library shopkeeper~
+the librarian~
+You see a young mage, tending the library and sorting the books.
+~
+About 5'6" tall, this short man wabbles about the room, up and down the steps 
+sorting the books. This is no ordinary library but one that contains magical 
+books and books of lore. Perhaps you should widen your magical knowledge.
+~
+giant~
+AB CDEFJ 500 0
+48 0 25d10+3750 1d1+99 6d6+18 beating
+-18 -18 -18 -2
+CDEFIKN ABDL N K
+stand stand male 200000
+0 0 large 0
+#18012
+shopkeeper designer~
+the designer~
+A tall female designer is here, sorting the latest fashions.
+~
+Standing tall in her long red dress, the store attendent of the Fire-Red 
+Dragon is here, willing to help you find the right clothes. Many cloaks and 
+leather garnets are here, quite the selection. To have the latest in fashion 
+this is a good store to come to.
+~
+giant~
+AB CDEFJ -600 0
+51 0 50d10+5000 1d1+99 5d8+20 pierce
+-21 -21 -21 -3
+CDEFIKN ABDL BN K
+stand stand female 200000
+0 0 large 0
+#18013
+bartender pub owner~
+the bartender~
+A stout bartender is here, serving fresh ale.
+~
+"What'll ya have my friend? A fresh brewed beer or perhaps a whisky 
+on the rocks? What'll it be?" The room seems filled with people who whish 
+to have a good time; and get drunk.
+~
+giant~
+ABT CDEFJ -100 0
+51 0 50d10+5000 1d1+99 5d8+19 slash
+-21 -21 -21 -3
+CDEFIKN ABDL N K
+stand stand male 200000
+0 0 large 0
+#18014
+waiter~
+a kind waiter~
+A well dressed waiter is here, waiting for your order.
+~
+"What shall it be? A wonderful Australian Red, or perhaps a perfectly aged 
+Charrdonay? May I suggest the soup of the day, a wonderful mixture of fried 
+cod and crab, our cook really did out-do himself this time!" This place seems 
+mighty expensive.
+~
+giant~
+ABT CDEFJ 200 0
+45 0 25d10+3000 1d1+99 8d4+16 pierce
+-15 -15 -15 -1
+CDEFIKN ABL N K
+stand stand male 200000
+0 0 large 0
+#18015
+innkeeper~
+the inn keeper~
+The middle-aged Inn keeper is here, greeting you a good night.
+~
+"Shall I book you a room? No? Well then perhaps I could offer you
+some sleeping pills? It is hard when the festivities are about to
+get some good sleep. Please let me know if there is anything I
+could do."
+~
+giant~
+ABT CDEF -1000 0
+51 0 50d10+5000 1d1+99 5d8+20 pierce
+-21 -21 -21 -3
+CDEFIKN ABL N K
+stand stand male 200000
+0 0 large 0
+#18016
+florist~
+the florist~
+A young florist is here, puting together a flower arrangement.
+~
+"La-la-Ti-do..." The young florist is singing gently as she puts together 
+flower arrangements. Perhaps she has something for that special "someone" 
+in your life?
+~
+giant~
+ABT CDEFJ -300 0
+48 0 25d10+3750 1d1+99 6d6+18 slice
+-18 -18 -18 3
+CDEFIKN ABL N K
+stand stand female 200000
+0 0 large 0
+#18017
+town sheriff~
+the town sheriff~
+Working hard at his desk, the town sheriff doesn't seem to see you.
+~
+Wearing a blue hat with a feather in it, the town sheriff seems to be busy as 
+ever. It would be a real shame to disturb him, even though his cells are full, 
+I am sure he could find room for one more unwanted tourist.
+~
+giant~
+ABT CDEF 500 0
+30 0 6d12+853 1d1+99 4d6+8 pierce
+-9 -9 -9 6
+CDEFIKN ABL N K
+stand stand male 2100
+0 0 large 0
+#18018
+jail guard~
+the jail guard~
+A jail guard is here, sleeping in his chair.
+~
+ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....
+~
+giant~
+ABT CDEFJ -500 0
+28 0 6d12+703 1d1+99 2d12+8 claw
+-8 -8 -8 6
+CDEFIKN ABL BN K
+stand stand male 3100
+0 0 large 0
+#18020
+prisoner~
+a stinky prisoner~
+Locked behind steel bars, you see a stinky prisoner.
+~
+*sniff*? Whats that smell? It smells like a.. a... dead rat! Oh!
+Its the new prisoner! He got arrested for stinking the peace.
+~
+giant~
+ABT CDEFJ -1000 0
+25 0 5d10+550 1d1+100 2d10+7 pierce
+-7 -7 -7 1
+CDEFIKN ABL N KSZ
+stand stand male 0
+0 0 large 0
+#18021
+chocolate shopkeeper~
+the chocolate shopkeeper~
+A tall lean man is here, selling the latest chocolate.
+~
+Yummm...Smell that chocolate! There are so many different flavors! Will you be 
+able to try them all? The man behind the counter seems to know his chocolates 
+very well. Perhaps he could show you some of the most popular.
+~
+giant~
+ABT CDEFJ -100 0
+45 0 25d10+3000 1d1+100 8d4+16 slice
+-15 -15 -15 4
+CDEFIKN ABL N K
+stand stand male 200000
+0 0 large 0
+#18022
+icecream vendor shopkeeper~
+the icecreams vendor~
+A short, stubby young man is here, selling icecream.
+~
+Butter Scotch Ripple...Berry-Blue Zoo...Raven Red...Chocolate
+Mint...Strawberry Swirl...Which will you have? So many to chose
+form, but I'll bet that they are all superb!
+~
+giant~
+ABT CDEF -100 0
+30 0 6d12+853 1d1+99 4d6+8 slap
+-9 -9 -9 6
+CDEFIKN ABL N K
+stand stand male 200000
+0 0 large 0
+#18023
+apiarist lady shopkeeper~
+the apiarist~
+A tall young lady is here, selling honey.
+~
+Ahh..The sweet tasted of a honey-bee's honey. What would you do without it? 
+There are several different varieties to chose from. You really should 
+try 'em all!
+~
+giant~
+ABT CDEFJ -100 0
+40 0 15d10+1850 1d1+100 4d8+13 beating
+-13 -13 -13 -1
+CDEFIKN ABL BN K 
+stand stand female 200000
+0 0 large 0
+#18024
+baker shopkeeper~
+the baker~
+The baker is here, selling his freshly baked bread.
+~
+*Snnnniiiiiiffff* Ahhhh... The lovely smell of fresh baked bread and cookies. 
+You simply love the smell of this room, and all you can think of is Bread! 
+Cookies! Pies!!! Try them all, the man looks willing to do business with you!
+~
+giant~
+ABT CDEF -100 0
+48 0 25d10+3750 1d1+100 6d6+18 pierce
+-18 -18 -18 4
+CDEFIKN ABL N K 
+stand stand male 200000
+0 0 large 0
+#18025
+zanrich shopkeeper~
+Zanrich the Shopkeeper~
+Zanrich is here, selling his grade "A" containers.
+~
+The tall young lad is here, selling his special containers. He was rated number
+1 in all the lands, for his speical containers and their capability.
+~
+giant~
+ABT CDEF -100 0
+48 0 25d10+3750 1d1+100 6d6+18 pierce
+-18 -18 -18 -2
+CDEFIKN ABL N K 
+stand stand male 200000
+0 0 large 0
+#18026
+master wands shopkeeper wizard~
+the wand making wizard~
+The wand making wizard is here, selling his special wands.
+~
+All cloaked in black this wizard wishes to sell you his special
+wands. Magically tuned to perfection. They would be mighty handy.
+~
+giant~
+ABT CDEF -100 0
+35 0 10d10+1300 1d1+100 4d7+11 slash
+-11 -11 -11 0
+CDEFIKN ABL N K
+stand stand male 200000
+0 0 large 0
+#18027
+knight templar~
+the knight templar~
+A strong knight templar is here, patroling the streets.
+~
+All clad in armor this guy looks quite deadly. Would want to mess with him.
+~
+giant~
+ABT CDEF 1000 0
+40 0 15d10+1850 1d1+90 4d8+13 scratch
+-13 -13 -13 4
+CDEFIKN ABL N K
+stand stand male 5250
+0 0 large 0
+#18028
+titan citizen~
+a titan citizen~
+A citizen of The Valley of The Titans is here.
+~
+Tall and strong, a citizen of The Valley of The Titans greets
+you, welcoming you to his city.
+~
+giant~
+ABT CDEF -1000 0
+28 0 6d12+703 1d1+100 2d12+8 pierce
+-8 -8 -8 6
+CDEFIKN ABL N K 
+stand stand male 2500
+0 0 large 0
+#18029
+cook maid chef~
+the house chef~
+The house chef is here, cooking up a meal.
+~
+"Falalala..Yadedadooo.." signs the house chef merily as she cooks
+away. *SSSsssssssnnnnnniiiiiifffffff!* It sure does smell nice!
+~
+giant~
+ABT CDEFJ -500 0
+30 0 6d12+853 1d1+100 4d6+8 blast
+-9 -9 -9 6
+CDEFIKN ABL N K
+stand stand female 3900
+0 0 large 0
+#18030
+serf~
+the serf~
+A untidy serf is here, running back and forth.
+~
+To busy to talk. To busy to listen. This serf is WAY to busy to
+care. He is running back and forth, carrying out orders.
+~
+giant~
+ABT CDEF -500 0
+30 0 6d12+853 1d1+100 4d6+8 pierce
+-9 -9 -9 6
+CDEFIKN ABL N K
+stand stand male 5330
+0 0 large 0
+#18031
+grubby beggar~
+a grubby beggar~
+A grubby beggar is here, asking for a coin or two.
+~
+Sitting on a pile of garbage which he calls "his", this grubby
+beggar asks for some coins. He sure does look poor.
+~
+giant~
+ABT CDEF -500 0
+25 0 5d10+550 1d1+310 2d10+7 slice
+-7 -7 -7 6
+CDEFIKN ABL N K 
+stand stand male 10
+0 0 large 0
+#18032
+patrol guard~
+a patrol guard~
+A strong patrol guard is here, keeping the peace.
+~
+Very tall and very strong, this patrol guard looks as though he
+does his job quite well.
+~
+giant~
+ABT CDEFH 0 0
+40 0 15d10+1850 1d1+201 4d8+13 pierce
+-13 -13 -13 4
+CDEFIKN ABL N K
+stand stand male 3330
+0 0 large 0
+#18033
+villager~
+a happy villager~
+A happy villager is here, dancing to the music.
+~
+If I were you, I wouldn't talk to this fella. He's to busy
+dancing to the music.
+~
+giant~
+ABT CDEFH -1000 0
+30 0 6d12+853 299d1+1 4d6+8 punch
+-9 -9 -9 6
+CDEFIKN ABL N K 
+stand stand male 4003
+0 0 large 0
+#18034
+tournament guard~
+the tournament guard~
+A tournament guard is here, conducting the practice.
+~
+To busy keeping the warriors fighting with the magical monster,
+he doesn't have any time to speak to you.
+~
+giant~
+ABT CDEFH -1000 0
+48 0 25d10+3750 1d1+120 6d6+18 crush
+-18 -18 -18 3
+CDEFIN ABL HIN JKP 
+stand stand male 5100
+0 0 large 0
+#18035
+tournament warrior~
+a tournament warrior~
+The tournament warrior is here, practicing his skills.
+~
+*SLICE* *BASH* *BLAM* He looks to be just a tad too busy to socialize.
+~
+giant~
+ABT CDEFH -1000 0
+38 0 10d10+1600 1d1+100 5d6+12 slash
+-12 -12 -12 4
+CDEFIKN ABL N K
+stand stand male 11300
+0 0 large 0
+#18036
+tournament mage~
+a tournament mage~
+A tournamen mage is here, perfecting her spells.
+~
+A tournament mage utters the words 'Algetharb'! She is far to busy perfecting 
+her spells to speak with you. Maybe later.
+~
+giant~
+ABR CDEFHJ -1000 0
+38 0 10d10+1600 1d1+200 5d6+12 pierce
+-12 -12 -12 4
+CDEFIKN ABL N K
+stand stand female 6100
+0 0 large 0
+#18037
+tournament cleric~
+a tournament cleric~
+A tournament cleric is here, perfecting her attack skills.
+~
+She's very busy using her magical talents to speak with you. Remember, she is 
+fighting real mobs, deadly mobs. You'd hate to get her killed!
+~
+giant~
+ABQ CDEFH -1000 0
+38 0 10d10+1600 1d1+200 5d6+12 pierce
+-12 -12 -12 4
+CDEFIKN ABL N K
+stand stand female 6800
+0 0 large 0
+#18038
+tournament thief~
+a tournament thief~
+A tournament thief is here, stealing money from his foe.
+~
+Better not talk to this rascal, he may steal all your money!
+~
+giant~
+ABS CDEFH -1000 0
+38 0 10d10+1600 1d1+200 5d6+12 pierce
+-12 -12 -12 4
+CDEFIKN ABL N K
+stand stand male 9100
+0 0 large 0
+#18039
+dragon baby evil~
+an evil baby dragon~
+A baby dragon is here, snarling and growling.
+~
+As you gaze upon the flesh of this young baby dragon, you realize that he is 
+very muscular.  A dark brown hide seems to suck the light out of the air. As he
+sees you, he lets out a deep his; revealing his deadly yellow fangs.  Spreading
+his massive wings, you notice now that he is a HUGE dragon, and an evil one at 
+that.
+~
+dragon~
+ABCFT CDEFJTUV -1000 0
+25 0 5d10+550 1d1+99 2d10+7 crush
+-7 -7 -7 0
+BCDEFGHIJLMNO ABL BEHIJPR FJKX
+stand stand male 0
+0 0 large 0
+#18040
+evil tree~
+a gloomy evil tree~
+A gloomy evil tree is here, standing tall above you.
+~
+As you gaze up to the should-be sky, you notice a deadly tree looming up above 
+you. Your first though is that it is a figment of your imagination, that trees 
+can't hurt you. Then, all of a sudden, its branches move, against the wind. You
+the catch in the little light there is, a face. An evil face. One looking down,
+glaring at you. Panic races through your veins.
+~
+giant~
+ABR CDEFIJPV -1000 0
+30 0 6d12+853 1d1+100 4d6+8 crush
+-9 -9 -9 -1
+BCDEFGHLO AG JPQ EK
+stand stand either 0
+0 0 large 0
+#18041
+deadly rain cloud~
+a deadly rain cloud~
+Flying through the air is a deadly rain cloud.
+~
+Flying madly through the air is a deadly rain cloud, spreading acid rain over 
+the world. It would be a good idea not to go near this...thing.
+~
+giant~
+ABFT CDFTV -1000 0
+23 0 5d10+450 1d1+100 3d6+6 slash
+-6 -6 -6 1
+DEFGHL AG 0 IKRS 
+stand stand either 0
+0 0 large 0
+#18042
+demon fire~
+a demon of fire~
+A demon of fire is here, setting the trees ablaze.
+~
+You notice a deadly warmth about you. A strange heat, unreal, unhuman. Then, 
+blazing in a blue fire is a Great Demon of Fire! You wonder if you should flee 
+or fight. Such a demon is very deadly and will surely burn you to a crisp. 
+Chose wisely!
+~
+giant~
+ABCT FJTZ -1000 0
+35 0 10d10+1300 1d1+234 4d7+11 pierce
+-11 -11 -11 -1
+BCDEFGHIJKLMNO AGHP HL EIKY 
+stand stand either 0
+0 0 large 0
+#18043
+demon water~
+a demon of water~
+A demon of water is here, drowning a near by victim.
+~
+In a near-by pool you notice one of the deadly demons, the demon of fire.  
+Something deep in your heart tells you to stay away from him.
+~
+giant~
+ABCT FJYZ -1000 0
+35 0 10d10+1300 1d1+234 4d7+11 pierce
+-11 -11 -11 5
+BCDEFGHIJKLMNO AGR EP IJKMZ
+stand stand either 0
+0 0 large 0
+#18044
+demon air~
+a demon of air~
+A demon of air is here, creating storms.
+~
+In a blazing whirlwind, a demon of air is here, creating deadly
+storms. This is another of those deadly demons, another to avoid.
+~
+giant~
+ABCT FJYZ -1000 0
+35 0 10d10+1300 1d1+235 4d7+11 pierce
+-11 -11 -11 5
+BCDEFGHIJKLMNO AEFJQ HN CK
+stand stand either 0
+0 0 large 0
+#18045
+demon earth~
+a demon of earth~
+A demon of earth is here, uprooting trees.
+~
+A deep rumble is felt through the ground as the demons of the earth come 
+crashing out into daylight! Creating deadly earthquakes where ever it may go, 
+the demons of earth a destroying all in sight!
+~
+giant~
+ABCT FJYZ -1000 0
+35 0 10d10+1300 1d1+236 4d7+11 pierce
+-11 -11 -11 5
+BCDEFGHIJKLMNO OPS B HIJKNX
+stand stand either 0
+0 0 large 0
+#18046
+demon wood~
+a demon of wood~
+A demon of wood is here, creating evil trees.
+~
+Standing tall and proud among the trees, the demon of wood is here, creating 
+havoc. Having control over all wooden things, this demon isn't one to mess 
+with.
+~
+giant~
+ABCT FJYZ -1000 0
+35 0 10d10+1300 1d1+236 4d7+11 pierce
+-11 -11 -11 5
+BCDEFGHIJKLMNO FS IP HKQZ 
+stand stand either 0
+0 0 large 0
+#18047
+demon stone~
+a demon of stone~
+An evil demon of stone is here.
+~
+A 20 foot demon made fully of stone is here. He brings fear into
+your heart, pain into your soul. This tough beast seems unstopable.
+~
+giant~
+ABCT FJYZ -1000 0
+35 0 10d10+1300 1d1+276 4d7+11 pierce
+-12 -12 -12 5
+BCDEFGHIJLNO AC EHIOQR FJKY 
+stand stand either 0
+0 0 large 0
+#18048
+titan guard royal~
+a Royal Titan guard~
+A Royal Titan guard is here.
+~
+Tall and strong, this Royal Titan guard patrols the castle walls.
+~
+giant~
+ABCT FJ -1000 0
+40 0 15d10+1850 1d1+201 4d8+13 slash
+-12 -12 -12 -2
+BCDEFGHIK ABL N K
+stand stand male 7000
+0 0 large 0
+#18049
+boy titan~
+a small boy titan~
+A small boy titan is here, plaing with some rocks.
+~
+This little boy is amusing himself witha few rocks.
+~
+giant~
+ABCT FJ -1000 0
+33 0 10d10+1100 1d1+111 6d4+10 slash
+-11 -11 -11 5
+BCDEFGHIK ABL N K
+stand stand male 330
+0 0 large 0
+#18050
+titan girl~
+a titan girl~
+A small titan girl is here, playing with her doll.
+~
+She seems to be enjoying playing outside with her little doll. She is a very 
+pretty little girl, all dressed in pink. She looks like some of the other 
+children at the park. Perhaps all titan children look the same.
+~
+giant~
+ABCT FJ -1000 0
+33 0 10d10+1100 1d1+111 6d4+10 slash
+-11 -11 -11 5
+BCDEFGHIK ABL N K 
+stand stand female 390
+0 0 large 0
+#18051
+sleep sleeping guard~
+a sleeping patrol guard~
+A patrol guard is sleeping here.
+~
+Zzzzzzz....Zzzzzzzz.....Zzzzzzzzz....
+*SSSSSHHHHHhhhhhhhhh.......!* He is sleeping and you'd hate to disturb him!
+~
+giant~
+ABCT FJ -1000 0
+40 0 15d10+1850 1d1+111 4d8+13 pierce
+-13 -13 -13 4
+BCDEFGHIK ABL BN K
+sleep sleep male 5870
+0 0 large 0
+#18052
+first advisor~
+the first advisor~
+The first advisor is here, offering her help.
+~
+She seems to be in deep conversation with the queen, it would be
+foolish to disturb her.
+~
+dwarf~
+ABCT FJ -1000 0
+50 0 50d10+4500 1d1+212 5d8+19 beating
+-20 -20 -20 3
+BCDEFGHIK ABL N KSZ
+stand stand female 7100
+0 0 large 0
+#18053
+keeper deadly pet owner shopkeeper~
+the keeper of the deadly beasts~
+The Keeper of the Deadly Beasts is here, selling is animals!
+~
+He is a very clean man, with deep black eyes, the build of a warrior and the 
+face of a mage. He seems to be selling the best battle animals in the world. 
+Perhaps he could interest you in some of his beasts?
+~
+giant~
+ABT FJ -1000 0
+50 0 50d10+4500 1d1+212 5d8+19 pierce
+-20 -20 -20 3
+CDEFIKN ABL N K
+stand stand male 5000
+0 0 large 0
+#18054
+cougar black pet~
+the Visious Black Cougar~
+A black cougar is here, protecting its master.
+~
+Very large and very deadly, you would NOT want to mess with this black cougar!
+~
+cat~
+ABTV DFHUVZ 1000 0
+40 1 15d10+1500 1d1+200 4d8+13 beating
+-13 -13 -13 4
+NE HM GHIJK I
+stand stand male 0
+0 0 large 0
+#18055
+kraken pet~
+the Deadly Kraken~
+A very deadly Kraken is here protecting its owner.
+~
+VERY very big and tough, this kraken looks to be the most fearsome thing you 
+have ever seen!
+~
+dragon~
+ABTV DFHTUV 1000 0
+45 1 25d10+1750 1d1+102 8d4+16 beating
+-15 -15 -15 3
+NE H GHIJK I
+stand stand male 0
+0 0 large 0
+#18056
+bird sylph pet~
+the Magical Sylph~
+A Magical Sylph is here, aiding her master in battle.
+~
+A small but beautiful creature, this sylph seems to be a weak fighter. Despite 
+her size, she is one of the most rare and deadly creatures in all of Thera.
+~
+dragon~
+ABORV DFHTUV 1000 0
+50 0 50d10+2000 1d1+499 5d6+14 beating
+-20 -20 -20 2
+CEFIOY J HIJKNO B
+stand stand female 0
+0 0 large 0
+#18057
+spider monkey pet~
+a Spider Monkey~
+A cute spider monkey is here, resting on its masters' shoulder.
+~
+A small but cute little spider monkey is here, aiding its master
+in their times of need.
+~
+human~
+ABT DV 1000 0
+20 1 3d9+300 1d1+310 2d8+5 beating
+-4 -4 -4 7
+C J DN 0
+stand stand male 0
+0 0 large 0
+#18058
+tame lion pet~
+a tame lion~
+A tame lion is here, following his master about.
+~
+A cute little male lion is here, following his master about,
+always ready for combat.
+~
+cat~
+ABT DV 1000 0
+25 0 5d10+500 1d1+249 2d10+7 beating
+-7 -7 -7 5
+C J HIJKN CF
+stand stand male 0
+0 0 large 0
+#18059
+wolf pet~
+a large black wolf~
+A large black wolf is here, guarding his master.
+~
+A fearsome black wolf is here, protecting his master.
+~
+dog~
+ABT DTV 1000 0
+30 0 6d12+723 1d1+299 4d6+8 beating
+-9 -9 -9 6
+C J HIJKN DF
+stand stand male 0
+0 0 large 0
+#18060
+java pet~
+a Fearsome Java Beast~
+A fearsome Java Beast is here, protecting her master.
+~
+A large and deadly Java Beast is here, protecting her master with
+its magical flames.
+~
+dragon~
+ABR DTV 1000 0
+35 1 10d10+1250 1d1+904 4d7+11 beating
+-11 -11 -11 5
+C J HIJKN F 
+stand stand female 0
+0 0 large 0
+#18061
+king dractax titan~
+the King Dractax~
+The King Dractax of The Titans is here.
+~
+A tall and proud king is here, planning the future of his kingdom.
+~
+giant~
+ABT DFV -1000 0
+53 0 50d10+6000 1d1+401 6d7+21 pierce
+-22 -22 -22 2
+CDEFGKNO BO HIJ JKP 
+stand stand male 19990
+0 0 large 0
+#18062
+queen crystal titan~
+the Queen Crystal~
+The Queen Crystal of The Titans is here.
+~
+A tall and proud queen is here, planning the future of her kingdom.
+~
+giant~
+ABT DFV -1000 0
+51 0 50d10+4500 1d1+502 5d8+19 pierce
+-21 -21 -21 3
+CDEFGKNO BO HIJ JKP
+stand stand female 16990
+0 0 large 0
+#18063
+assassin~
+an assassin~
+An assassin is here, stalking the king and queen.
+~
+All clad in black, you find this stealthy assassin hiding in the secret 
+passage-way behind the throne. Obviously, someone in the kingdom wants the 
+king and queen destroyed. Why is beyon all knowledge.
+~
+giant~
+ABT DFV -1000 0
+45 0 25d10+3000 1d1+302 8d4+16 slash
+-15 -15 -15 4
+CDEFGKNO ABL N K
+stand stand male 8990
+0 0 large 0
+#18064
+rat~
+a small rat~
+An ugly small rat is here.
+~
+An ugly rat is here, chewing on the carpet.
+~
+giant~
+ABT DFV -500 0
+30 0 6d12+853 1d1+201 4d6+8 beating
+-9 -9 -9 6
+CDEFGKNO ABL N K
+stand stand male 0
+0 0 large 0
+#18065
+peasant~
+a happy peasant~
+A happy peasant is here, enjoying the sunny day.
+~
+She seems to be quite busy, yet manages to have the time to enjoy
+the calm breeze and bright warm sunshine.
+~
+giant~
+ABT DFH -1000 0
+28 0 6d12+703 1d1+504 2d12+8 pierce
+-8 -8 -8 6
+CDEFGKNO ABL N K
+stand stand female 100
+0 0 large 0~
+#18066
+warrior cleric guildmaster~
+the guildmaster~
+The warrior and cleric guildmaster stands here.
+~
+An old man peering through ancient tomes rests here.
+~
+giant~
+ABJKRVb DF 0 0
+40 0 15d10+2000 1d1+499 4d8+13 slash
+-13 -13 -13 4
+FHN AB 0 0
+stand stand male 8000
+0 0 large 0
+#18067
+cleric guildstudent~
+the guildstudent~
+A cleric guildstudent stands here, learning his skills.
+~
+An young man wrapped in purple, long-flowing robes meditates here.
+~
+giant~
+ABJKQV DF -250 0
+35 0 10d10+1300 1d1+499 4d7+11 pierce
+-11 -11 -11 5
+EFGIK AB 0 0
+stand stand male 4500
+0 0 large 0
+#18068
+warrior guildstudent student~
+the guildstudent~
+A warrior guildstudent stands here, learning the art of combat.
+~
+A smaller man dressed in nothing but a tunic stands here waiting
+to fight mighty foes.
+~
+giant~
+ABJKTV DF 0 0
+35 0 10d10+1300 1d1+99 4d7+11 pierce
+-11 -11 -11 5
+ACEFHIK AB 0 0
+stand stand male 5500
+0 0 large 0
+#18069
+thief mage guildmaster~
+the guildmaster~
+The thief and mage guildmaster stands here.
+~
+A small elf dressed in black rests in the corner. As you enter he grabs 
+a knife an throws it at you. It lands the wall next to your left ear. 
+"We will now begin," is all he says.
+~
+giant~
+ABJKTVb DFJ -100 0
+40 0 15d10+2000 1d1+99 5d6+13 pierce
+-13 -13 -13 3
+BEFHJKN AB B Z
+stand stand male 3000
+0 0 large 0
+#18070
+mage guildguard~
+the guildguard~
+The Guard for the Guild of Mages stand here.
+~
+This man looks like a mage/warrior, i wouldn't mess with him.
+~
+giant~
+ABRT D 0 0
+30 0 6d12+853 3d7+4 4d6+8 pierce
+-9 -9 -9 5
+0 0 0 0
+stand stand male 3345
+0 0 large 0
+#18071
+cleric guildguard~
+the guildguard~
+The Guard for the Guild of Clerics stands here.
+~
+This man looks like a master cleric. I wouldn't mess with him.
+~
+giant~
+ABQT D 0 0
+30 0 6d12+853 3d7+4 4d6+8 pierce
+-9 -9 -9 5
+0 0 0 0
+stand stand male 4367
+0 0 large 0
+#18072
+warrior guildguard~
+the guildguard~
+The Guard for the Guild of Warriors stands here.
+~
+The man looks like Apollo's cousin, I wouldn't mess with him.
+~
+giant~
+ABTU D 0 0
+30 0 6d12+853 3d7+4 4d6+8 pierce
+-9 -9 -9 -1
+0 0 0 0
+stand stand male 4278
+0 0 large 0
+#18073
+thief guildguard~
+the guildguard~
+The Guard for the Guild of theives stands here.
+~
+You see a thief dressed all in black, he quickly stands as you enter and 
+steps to bar your way. You notice his hands resting on two sheafs.
+~
+giant~
+ABST D 0 0
+30 0 6d12+853 3d7+4 4d6+8 pierce
+-9 -9 -9 -1
+0 0 0 0
+stand stand male 5657
+0 0 large 0
+#18074
+servant boy~
+a servant boy~
+A servant boy is here running errands.
+~
+You see a small boy running around the halls of the palace.
+~
+giant~
+AG 0 0 0 
+25 0 5d10+550 1d6+1 2d10+7 beating
+-7 -7 -7 0
+0 0 0 0 
+stand stand male 2267
+0 0 large 0
+#18075
+tourist~
+a tourist~
+A tourist stands here looking lost.
+~
+You see a small round dwarven man, gazing at all the sites. He's looking at 
+a small tavelling map that he seems to be holding upside down.
+~
+giant~
+ACGH 0 0 0
+25 0 5d10+550 1d6+1 2d10+7 beating
+-7 -7 -7 6
+0 0 0 0 
+stand stand male 3413
+0 0 large 0
+#18076
+store helper aid~
+the store aid~
+The store helper is here, aiding the shopkeeper.
+~
+A common possition for teenaged titans in this village. You'll be
+seeing several store aid's in stores allover the village!
+~
+giant~
+ABGH J -1000 0
+25 0 5d10+550 1d6+1 2d10+7 beating
+-7 -7 -7 5
+DEF 0 B Z 
+stand stand male 2333
+0 0 large 0
+#18077
+worker leather~
+the leather worker~
+The leather worker is here, working on some new clothes.
+~
+A beautiful young women is here, sewing leather together to make the newest 
+clothes around. She seems quite busy and you would hate to bug her.
+~
+giant~
+ABGH J -1000 0
+30 0 6d12+853 1d8+100 4d6+8 pierce
+-9 -9 -9 5
+0 0 B 0 
+stand stand female 4000
+0 0 large 0
+#18078
+blacksmith~
+a hard working blacksmith~
+A hard working blacksmith is here, creating new swords.
+~
+He is all hot and sweaty from working over the great fires. He is
+forging many new weapons to sell in his store.
+~
+giant~
+ABGH J -1000 0
+35 0 10d10+1300 1d8+100 4d7+11 slash
+-11 -11 -11 4
+0 0 B 0
+stand stand male 8900
+0 0 large 0
+#18079
+lieutenant commander~
+the Titan Lieutenant Commander~
+The Lieutenant Commander of the Titan Army is here.
+~
+He is a strong looking man, working hard at the defense of the city. He seems 
+to be creating a defense plan, if the city is ever attacked. You better not 
+disturb him.
+~
+giant~
+ABGH J -1000 18062
+42 0 25d10+2250 1d8+100 3d12+14 pierce
+-14 -14 -14 4
+0 0 D C
+stand stand male 6699
+0 0 large 0
+#18080
+soldier~
+a Titan Soldier~
+A Soldier of The Titan Army is here, sharpening his swords.
+~
+He is a strong looking man, working hard at making his sword sharp for combat. 
+He seems to just be waiting around for his next order.
+~
+giant~
+AGH J -1000 18079
+38 0 10d10+1600 1d8+120 5d6+12 slash
+-13 -13 -13 5
+0 0 B 0 
+stand stand male 6660
+0 0 large 0
+#18087
+armourer~
+a hard working armourer~
+A hard working armourer is here, creating new armor.
+~
+He is busy working on putting together he newest steal to his
+finest armor. Perhaps he has something in your size.
+~
+giant~
+ABGH J -1000 0
+40 0 15d10+1850 1d8+100 4d8+13 bash
+-13 -13 -13 4
+0 0 B Z 
+stand stand male 7999
+0 0 large 0
+#18090
+hydra pet~
+the Deadly Hydra~
+A large and deadly Hydra is here.
+~
+A large deadly Hydra is here and will do anything to protect her master.
+~
+dragon~
+ABJRTV DFTV 1000 0
+35 0 10d10+1250 1d1+348 4d8+13 beating
+-11 -11 -11 5
+N H GHIJK FI 
+stand stand female 0
+0 0 large 0
+#18097
+court aritist~
+the court aritist~
+The court aritist is here, consulting with the Queen.
+~
+The court aritist is here, giving his bit of advice to the queen. You wouldn't 
+want toget on this guys bad side, for he can draw a spell on you and your 
+friends!
+~
+giant~
+ABCT FJ -1000 0
+42 0 25d10+2250 1d1+1111 3d12+14 pierce
+-14 -14 -14 5
+BCDEFH ABL N KS
+stand stand male 9233
+0 0 large 0
+#18098
+apothecary~
+the apothecary~
+The fine young apothecary is here, selling her potions.
+~
+Standing tall behind her desk, she offers her help. You notice a huge selection
+in potions and pills, you wonder which you shall by. You know right away that 
+anything type of cure you would need, here is where you'd get it.
+~
+giant~
+ABT CDEFJ -1000 0
+45 0 25d10+3000 1d1+320 8d4+16 slash
+-15 -15 -15 -2
+CDEFIKN ABL BN K 
+stand stand female 500000
+0 0 large 0
+#18099
+villager happy~
+a happy villager~
+A happy villager is here, enjoying the festivals!
+~
+You see a well dressed villager walking by, singing in tune with the beat 
+of  the bongo drums. He has many items in his hands; proof of his shopping. 
+You are glad that this town is such a happy place... lets just hope it doesn't 
+get too happy.
+~
+giant~
+ABT CDEF -1000 0
+28 0 6d12+703 1d1+195 2d12+8 pierce
+-8 -8 -8 6
+CDEFIKN ABL N K 
+stand stand male 100
+0 0 large 0
+#0
+
+
+
+#OBJECTS
+#18000
+bottle wine bordeau~
+a bottle of Bordeau Wine~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'elvish wine' 0 0
+2 10 140 G
+#18001
+bottle wine chablis~
+a bottle of Chablis Wine~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'white wine' 0 0
+2 10 130 G
+#18002
+bottle wine liebfraumilch~
+a bottle of Liebfraumilch~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'red wine' 0 0
+2 10 130 G
+#18003
+bottle wine austrian red~
+a bottle of Austrian Red~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'red wine' 0 0
+2 10 100 G
+#18004
+bottle wine sauvignon blanc~
+a bottle of Sauvignon Blanc~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'white wine' 0 0
+2 10 100 G
+#18005
+bottle wine tanqueray~
+a bottle of Tanqueray~
+A crystal clear bottle of wine lies here.~
+glass~
+drink A AO
+40 40 'sherry' 0 0
+2 10 100 G
+#18006
+slice ham meat~
+a slice of ham~
+A slice of ham is here, lieing in the dirt.~
+meat~
+food A A
+44 30 0 0 0
+20 50 244 P
+#18007
+side beef~
+a side of beef~
+A side of beef is here.~
+meat~
+food A A
+33 30 0 0 0
+20 20 260 P
+#18008
+chicken wing~
+a chicken wing~
+A chiken wing is here.~
+meat~
+food A A
+30 30 0 0 0
+20 20 230 P
+#18009
+leg lamb~
+a leg of lamb~
+A leg of lamb is here.~
+meat~
+food A A
+30 30 0 0 0
+20 20 203 P
+#18010
+bongo drum~
+a groovy Bong Drum~
+A bongo drum is here, lieing on the ground.~
+wood~
+weapon AB AN
+exotic 5 5 pound 0
+24 200 4350 G
+A                     
+18 4
+A
+19 4
+A
+5 2
+#18011
+guitar~
+a groovy Guitar~
+A guitar is here, lieing on the ground.~
+wood~
+weapon AB AN
+exotic 5 6 chomp 0
+25 200 6500 G
+A
+18 4
+A
+19 3
+#18012
+pipe wind windpipe~
+a groovy Wind-Pipe~
+A wind-pipe is here, lieing on the ground.~
+wood~
+weapon AB AN
+exotic 6 5 slash 0
+25 120 7500 G
+A
+18 5
+A
+19 5
+#18013
+striped bodysuit~
+a Prisoner's Strip-Suit~
+A striped suit is here.~
+leather~
+armor ABG AK
+8 8 8 1 3
+25 200 7200 G
+A
+18 4
+A
+14 -30
+#18014
+bread~
+a fresh baked bread~
+A loaf of bread is here.~
+meat~
+food A A
+5 5 0 0 0
+20 20 22 P
+#18015
+batch cookies~
+a batch of cookies~
+A pile of cookies are here.~
+meat~
+food A A
+20 20 0 0 0
+20 20 100 P
+#18016
+bread stick~
+a fresh breadstick~
+A fresh breadstick is here.~
+meat~
+food A A
+45 45 0 0 0
+20 2 400 P
+#18017
+pie peach~
+a peach pie~
+A pie is here on the ground.~
+meat~
+food A A
+33 30 0 0 0
+20 20 100 P
+#18018
+pie blueberry~
+a blueberry pie~
+A pie is here on the ground.~
+meat~
+food A A
+32 32 0 0 0
+20 20 600 P
+#18019
+honey comb~
+a honey comb~
+A gewy honey comb is here.~
+meat~
+food A A
+47 47 0 0 0
+20 20 300 P
+#18020
+honey mead~
+a bottle of honey mead~
+A bottle of honey mead is here.~
+meat~
+food A A
+20 0 0 0 0
+20 20 210 P
+#18021
+honey jar~
+a jar of honey~
+A jar of honey is here.~
+meat~
+food A A
+20 20 0 0 0
+20 20 231 P
+#18022
+standard weapon combat tournament~
+a Standard Tournament Combat Weapon~
+A tournament weapon is here.~
+stone~
+weapon AB AN
+flail 5 9 cleave 0
+35 200 11407 P
+A
+18 2
+A
+19 2
+A
+22 -1
+#18023
+scribler~
+a tourists' scribler~
+A scribler is here.~
+cloth~
+trash A A
+0 0 0 0 0
+20 20 1206 P
+#18024
+fish bones~
+a fish bone~
+A fish bone is here.~
+stone~
+trash A A
+0 0 0 0 0
+10 20 1260 P
+#18025
+broken wine bottle~
+a broken wine bottle~
+A broken wine bottle is here.~
+glass~
+trash A A
+0 0 0 0 0
+10 20 1260 P
+#18026
+patch townguard crest~
+a townguard crest~
+A crest is here in the dirt.~
+leather~
+armor AG AC
+11 11 11 0 4
+43 250 10900 G
+A
+18 2
+A
+19 2
+A
+3 2
+#18027
+bottle rum~
+a bottle of Rum~
+A bottle of rum is here.~
+glass~
+drink A A
+10 10 'rum' 0 0
+20 2 400 P
+#18028
+potion invisibility~
+a Magical Potion of Invisibility.~
+A potion lies here in the dirt.~
+glass~
+potion AB AO
+50 'invis' 'pass door' '' ''
+20 2 1660 P
+#18029
+potion teleportation~
+a Magical Potion of Teleportation.~
+A potion lies here in the dirt.~
+glass~
+potion AB AO
+50 'teleport' 'teleport' 'teleport' 'teleport'
+20 50 1302 P
+#18030
+potion holy touch~
+a Magical Potion of The Holy Touch.~
+A potion lies here in the dirt.~
+glass~
+potion AB A
+50 'bless' 'sanctuary' 'haste' 'shield'
+20 100 4075 P
+#18031
+potion deadly combat~
+a Magical Potion of Deadly Combat.~
+A potion lies here in the dirt.~
+glass~
+potion AB A
+50 'sanctuary' 'stone skin' 'giant strength' 'armor'
+20 100 1929 P
+#18032
+potion cure battle wounds~
+A Magical Potion to Cure Battle Wounds.~
+A potion lies here in the dirt.~
+glass~
+potion AB A
+40 'cure light' 'cure light' 'cure light' 'heal'
+20 50 4050 P
+#18033
+breast plate titan~
+the silver breast plate of the Titans~
+A breast plate lies here on the ground.~
+silver~
+armor G AD
+9 9 9 1 4
+25 350 12840 G
+A
+19 2
+A
+17 -30
+#18034
+bracer titan silver~
+the silver bracer of the Titans~
+A silver bracer lies here on the ground.~
+silver~
+armor G AI
+9 9 9 1 1
+25 100 10994 G
+A
+1 2
+A
+2 2
+A
+19 3
+#18035
+legging silver titan~
+the silver leggings of the Titans~
+A pair of legging are here.~
+silver~
+armor G AF
+9 9 9 1 3
+25 200 9954 G
+A
+22 -1
+#18036
+silver boots boot titan~
+the silver boots of the Titans~
+A pair of boots are here.~
+silver~
+armor G AG
+9 9 9 1 2
+25 200 8906 G
+A
+17 -10
+#18037
+silver helm titan~
+the silver helm of the Titans~
+A helm is here on the ground.~
+silver~
+armor 9 AE
+9 10 9 0 2
+25 20 9906 G
+#18038
+carrot~
+a Titan grown carrot~
+A carrot is here, grown by the great Titans.~
+meat~
+food A A
+50 50 0 0 0
+20 20 350 P
+#18039
+spinich~
+a Titan grown head of spinich~
+A head of spinich is here, grown by the great Titans.~
+meat~
+food A A
+50 50 0 0 0
+20 20 300 P
+#18040
+apple~
+a Titan grown apple~
+an apple is here, grown by the great Titans.~
+meat~
+food A A
+20 20 0 0 0
+20 20 250 P
+#18041
+orange~
+a Titan grown orange~
+an orange is here, grown by the great Titans.~
+meat~
+food A A
+32 32 0 0 0
+20 20 100 P
+#18042
+cherry~
+a Titan grown cherry~
+a single cherry is here, grown by the great Titans.~
+meat~
+food A A
+36 36 0 0 0
+30 20 440 P
+#18043
+titan dagger silver~
+a Silver Dagger of The Titans~
+A large silver dagger is here on the ground.~
+silver~
+weapon AB AN
+dagger 5 7 stab 0
+25 120 5900 P
+A
+18 2
+A
+19 2
+#18044
+titan sword silver~
+a Silver Sword of The Titans~
+A large silver sword is here on the ground.~
+silver~
+weapon AB AN
+sword 5 7 pierce 0
+25 250 5100 P
+A
+18 1
+A
+19 1
+#18045
+titan mace silver~
+a Silver Mace of The Titans~
+A large silver mace is here on the ground.~
+silver~
+weapon AB AN
+mace 7 5 pound 0
+25 250 5660 P
+A
+18 1
+A
+19 1
+#18046
+titan axe silver~
+a Silver Axe of The Titans~
+A large silver axe is here on the ground.~
+silver~
+weapon AB AN
+axe 6 6 chomp 0
+25 250 5330 P
+A
+1 -1
+A
+17 1
+#18047
+titan silver spear~
+a Silver Spear of The Titans~
+A large silver spear is here on the ground.~
+silver~
+weapon AB AN
+spear 5 7 pierce 0
+25 250 5250 P
+#18048
+titan silver whip~
+a Silver-Linked Whip of The Titans~
+A large silver whip is here on the ground.~
+silver~
+weapon AB AN
+whip 7 5 whip 0
+30 200 1000 P
+#18049
+book titan lore~
+a Leather Bound Book on Titan Lore~
+A large leather book is here.~
+leather~
+wand A AO
+50 20 20 'sleep' 0
+25 80 10620 P
+#18050
+tulip yellow~
+a Bright Yellow Tulip~
+A small tulip is here on the ground.~
+wood~
+treasure A A
+0 0 0 0 0
+10 1 1004 P
+#18051
+tulip red~
+a Bright Red Tulip~
+A small tulip is here on the ground.~
+wood~
+treasure A A
+0 0 0 0 0
+10 0 1330 P
+#18052
+white rose~
+a Beautiful Single White Rose~
+A beautiful rose is here on the ground.~
+wood~
+treasure A AO
+0 0 0 0 0
+10 1 1000 P
+A
+17 -1
+A
+18 1
+#18053
+red rose dozen~
+One Dozen Red Roses~
+One dozen red roses lie here on the ground.~
+wood~
+treasure A A
+0 0 0 0 0
+10 0 1003 P
+#18054
+chrysanthemum yellow~
+Twenty-Two Bright Yellow Chrysanthemums~
+Several bright yellow chyrsanthemums are here.~
+wood~
+treasure A A
+0 0 0 0 0
+10 0 1000 G
+#18055
+cook hat~
+the Cook's Hat~
+A cooks hat is here on the ground.~
+leather~
+armor ABG AE
+9 9 9 1 0
+29 160 8400 G
+A
+18 1
+A
+19 1
+#18056
+cook pot~
+the Cook's Pot~
+A cooking pot is here on the ground.~
+leather~
+armor ABG AE
+9 9 9 1 0
+28 200 8100 G
+A
+1 1
+A
+13 10
+#18057
+serf shoes serfs shoe~
+the little serfs shoes~
+Little shoes lie here, belonging to a serf.~
+leather~
+armor A AG
+10 10 10 1 0
+28 20 450 G
+A
+1 -1
+A
+13 20
+#18058
+pouch beggar money~
+a little beggar's money pouch~
+A little pouch lies here~
+leather~
+container AG A
+200 1 0 100 50
+24 20 1500 P
+#18059
+staff knight templar~
+the Staff of The Knight Templar~
+A staff is here, leaning up against a wall.~
+iron~
+armor ABG AO
+10 10 10 100 1
+40 10 33350 G
+A
+13 75
+A
+19 1
+A
+18 1
+#18060
+leather boot boots titan~
+a Titan Citizen's Leather Boots.~
+A pair of boots lie here.~
+stone~
+armor ABG AG
+8 8 8 1 2
+25 250 4700 G
+A
+3 3
+#18061
+patrol guard club~
+a patrol guard's club~
+A club rests here against a wall.~
+stone~
+weapon AB AN
+mace 9 5 pound 0
+39 250 4570 P
+A
+1 -1
+#18062
+key town~
+the Golden Key to The  Valley of The Titans~
+A BIG key lies here.~
+gold~
+trash A AO
+0 0 0 0 0
+25 20 10000 P
+#18063
+long dagger golden~
+a Long Golden Dagger~
+A Jail Guard's Long Golden Dagger is here.~
+gold~
+weapon ABG AN
+dagger 5 7 cleave D
+25 120 4500 P
+A
+12 10
+#18064
+wooden carved music box~
+a beautifully carved music box~
+A small box lies here.~
+wood~
+container A A
+500 1 0 500 60
+20 20 3340 P
+#18065
+small steel box~
+a small steel box~
+A small steel box is here.~
+wood~
+container A A
+500 1 0 500 50
+20 20 4500 P
+#18066
+backpack~
+a Designer Backpack~
+A backpack is here on the ground.~
+leather~
+container AGH A
+1000 1 0 1000 25
+20 25 15000 P
+#18067
+wand titans titan magic~
+a Wand of Titan Magic~
+A long wand is here on the ground.~
+wood~
+wand A AO
+50 19 19 'calm' 0
+25 200 17080 P
+#18068
+wand elven magic~
+a Wand of Elven Magic~
+A long wand is here on the ground.~
+wood~
+wand A AO
+50 60 60 'know alignment' 0
+25 200 11980 P
+#18069
+wand druid magic~
+a Wand of Druid Magic~
+A long wand is here on the ground.~
+wood~
+wand A AO
+55 17 17 'acid blast' 0
+25 200 19706 P
+#18070
+wand pixie magic~
+a Wand of Pixie Magic~
+A long wand is here on the ground.~
+wood~
+wand A AO
+50 38 38 'faerie fire' 0
+25 200 12204 P
+#18071
+wand avian magic~
+a Wand of Avian Magic~
+A long wand is here on the ground.~
+wood~
+wand A AO
+50 5 5 'fireball' 0
+25 20 14356 P
+#18072
+wand drow magic~
+a Wand of Drow Magic~
+A long wand is here on the ground, glowing dark black.~
+wood~
+wand A AO
+50 66 66 'curse' 0
+25 20 13490 P
+#18073
+chocolate icecream~
+a Double Scoop of Chocolate Icecream~
+Some icecream is here.~
+food~
+food A A
+50 50 0 0 0
+3 110 340 P
+#18074
+blueberry icecream~
+a Tripple Scoop of Blueberry Icecream~
+Some icecream is here.~
+food~
+food A A
+55 55 0 0 0
+3 110 500 P
+#18075
+fudge icecream~
+a Single Scoop of Fudge Icecream~
+Some icecream is here.~
+food~
+food A A
+60 60 0 0 0
+3 110 200 P
+#18076
+chocolate covered almonds~
+some chocolate covered almonds~
+Some chocolate is here.~
+food~
+food A A
+65 65 0 0 0
+4 120 500 P
+#18077
+chocolate fudge~
+some chocolate fudge~
+Some chocolate is here.~
+food~
+food A A
+70 70 0 0 0
+4 120 600 P
+#18078
+chocolate brittle~
+some chocolate brittle~
+Some chocolate is here.~
+food~
+food A A
+10 10 0 0 0
+4 120 100 P
+#18079
+chocolate mint~
+some chocolate mint~
+Some chocolate is here.~
+food~
+food A A
+50 50 0 0 0
+2 120 100 P
+#18080
+black suede boot boots~
+a pair of black suede boots~
+A pair of suede boots are here.~
+leather~
+armor A AG
+9 9 9 0 1
+25 200 4400 G
+#18081
+navy blue skirt~
+a long navy blue skirt~
+A long skirt is here on the ground.~
+leather~
+armor AG AF
+8 9 8 1 3
+25 300 5050 G
+A
+18 1
+A
+19 2
+#18082
+silver white cloak~
+a beautiful silver and white cloak~
+A cloak is here on the ground.~
+leather~
+armor AG AK
+8 8 8 0 0
+25 170 9604 G
+A
+1 1
+A
+2 2
+#18083
+emerald studded bracer~
+an emerald-studded bracer~
+A bracer is here on the ground.~
+leather~
+armor AG AK
+9 9 9 1 0
+25 10 7600 G
+A
+13 10
+#18084
+fountain marble~
+a beautiful large marble fountain.~
+A beautiful larbe marble fountain is here.~
+marble~
+fountain AO 0
+10000 10000 0 0 0
+0 0 0 P
+#18085
+standard weapon~
+a Standard Demon Weapon~
+A dark demonic weapon is here on the ground.~
+stone~
+weapon ABCG AN
+exotic 5 9 wrath CF
+35 200 14300 P
+A
+18 2
+A
+19 2
+A
+22 -1
+#18086
+weapon combat tournament~
+an Enhanced Tournament Combat Weapon~
+A tournament weapon is here.~
+stone~
+weapon AB AN
+flail 6 10 cleave 0
+48 200 18907 P
+A
+18 3
+A
+19 3
+A
+22 -2
+#18099
+potion cure sickness~
+a Magical Potion of Cure Sickness.~
+A potion lies here in the dirt.~
+glass~
+potion AB A
+50 'remove curse' 'cure blindness' 'cure poison' 'cure disease'
+20 50 1333 P
+#18100
+pie apple~
+an apple pie~
+A pie is here on the ground.~
+food~
+food A A
+20 20 0 0 0
+20 20 50 P
+#0
+
+
+
+#ROOMS
+#18001
+A Dark Path Through The Forest~
+You suddenly realize that the forest around you has changed drastically. 
+The once bright day is now quite overcast and dull. A sharp wind suddenly 
+picks up and brings a cool chill to your bones. All around you you hear the 
+chilling sounds of the forest, almost like it was out of a story book. 
+The dusty road continues north and south, winding around a curve up ahead, 
+making the end of the road, or what it will bring to, impossible to see. 
+A large sign is here, demanding your attention. (look sign)
+     There is a small (Glowing) (Humming) tablet.
+~
+0 A 3  
+E
+sign~
+.
+    
+  //\\---------------------------------------------------//\\
+[]===||****[ Creator of The Valley of The Titans!! ]****||===[]
+  \\//---------------------------------------------------\\//
+     |/^\ -----=====*****[-----------]*****=====----- /^\|
+     |/^\(){{{{{{{{{{{{{{             }}}}}}}}}}}}}}()/^\|
+     |/^\()                                         ()/^\|
+     |/^\() X   X  AAAA V  V II EEEE RRRR  !! !! !! ()/^\|
+     |/^\()  X X   A  A V  V II E    R   R !! !! !! ()/^\|
+     |/^\()   X    AAAA V  V II EEE  RRRR  !! !! !! ()/^\|
+     |/^\()  X X   A  A V  V II E    R  R  !! !! !! ()/^\|
+     |/^\() X   X  A  A  VV  II EEEE R   R ** ** ** ()/^\|
+     |/^\() _______________________________________ ()/^\|
+     |/^\()                       Adapted by Kajko  ()/^\|
+     |/^\(){{{{{{{{{{{{{{             }}}}}}}}}}}}}}()/^\|
+     |/^\ -----=====*****[-----------]*****=====----- /^\|
+  //\\---------------------------------------------------//\\
+[]===||*  Be Sure To Thank Him For All His Hard Work!  *||===[]
+  \\//---------------------------------------------------\\//
+~
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                  +
++            This area has been converted and adapted by           +
++                             Kajko                                +
++                                                                  +
++                               &                                  +
++                                                                  +
++                 revised, modified, debugged (?:)                 +
++                strongly enhanced and balanced by                 +
++                             jaceks                               +
++                                                          july'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+D0
+The path continues.
+~
+~
+0 0 18002
+D2
+Back to the lighter forests.
+~
+~
+0 -1 6152
+S
+#18002
+A Long Dusty Trail~
+The path continues, and the view is still not as interesting. The sky has 
+become more dark and it appears that the clouds are filled with rain. 
+The faint smell of autumn; the rotting of leaves on the  moist forest floor, 
+adds to the quaint scene. A rustle in the trees above you finally shows life 
+in the dreary forests. The path turns and continues west,  and south back 
+to the lighter forests.
+~
+0 A 3 
+D2
+Back south to the trail.
+~
+~
+0 0 18001
+D3
+The curving path west.
+~
+~
+0 0 18003
+S
+#18003
+A Clearing in the Woods~
+Suddenly the path comes to an open section on the road. You realize that 
+mountainous peaks stab sharply into the sky, creating a look of might, a look 
+of power. Lush green plants can be found in all directions, speckled with the 
+odd reds and yellows of the wild flowers. A small brook trickles alongside the
+path, adding a harmonious tune with the soft whistle of the scarcely know Grey 
+Bird. A soft mist whisps slowly past, cascading over the brook, creating 
+a beautiful soft atmosphere. 
+The path continues west and east.
+~
+0 A 3 
+D1
+back to the dusty trail.
+~
+~
+0 0 18002
+D3
+Following the path west.
+~
+~
+0 0 18004
+S
+#18004
+A Steep Path Down-Hill~
+The bright warm sunshine seems to lighten your heart, as you notice you 
+have lost all sense of direction. The quaint small brook that followed you 
+from the east, is slowly gaining speed. Mountains of all sizes tower up sky-
+high above you, creating a wonderous view of the lands. The crisp cool air 
+seems to add new strength to your sore old bones. The path continues west 
+and back east.
+~
+0 A 3 
+D1
+The path continues...
+~
+~
+0 0 18003
+D3
+The path continues...
+~
+~
+0 0 18005
+S
+#18005
+Alongside A Wild Waterfall~
+So much for a quaint little brook. The what once was small brook is now 
+a raging waterfall, crashing and thumping against the rocks, as it visiously 
+works its way, still of to the north of your path. You notice the mountains 
+seems to encase you in a valley, forever growing taller and more mighty with 
+every step. A dark green moss seems to cover the trees about you, camouflaging
+the wild animals of the woods. It seems as though these trees and plants are 
+older than time itself, yet have never aged a day. The ground is covered in 
+soft brown pine neddles, matting you heavy footsteps. Several large boulders 
+are scattered here and there throughout the woods. The path continues west and 
+back east.
+~
+0 A 3 
+D1
+The path continues...
+~
+~
+0 0 18004
+D3
+The path continues...
+~
+~
+0 0 18007
+S
+#18006
+Void~
+Void.
+~
+0 C 1  
+S
+#18007
+A Sharp Bend in the Road~
+You come face to face with a mighty mountain wall, blocking your path. You 
+feel like you have waisted all your time and effort just to get here, to find 
+a dead end. Right before you give up you notice a flicker of movement to your 
+right. You turn, yet you see nothing. Suddenly you realize a small matted path 
+curves around the mountain, almost like a deer trail. Perhaps you should 
+follow it to see where it takes you. The path continues north, through the 
+deer trail, and east, where you came from.
+~
+0 A 3  
+D0
+The matted deer trail.
+~
+~
+0 0 18008
+D1
+The path continues...
+~
+~
+0 0 18005
+S
+#18008
+The Windy Deer Trail~
+You are on a windy deer trail, which seems to swirve thisway and that. 
+The sounds of the forests are about you, weaving together in a harmonious tune,
+with the wind in the trees as its melody. The soft mist on your face seems to 
+wet your boots aswell, adding to the special touches of the woods. Annoying
+little spider webs seem to stick to your face and clothes, making this trip 
+very much unejoyable. Up ahead you see that the path widens. The path 
+continues west and south.
+~
+0 A 3 
+D2
+The path south.
+~
+~
+0 0 18007
+D3
+The path widens.
+~
+~
+0 0 18009
+S
+#18009
+The Path Widens~
+You notice that the path suddenly widens, making it easier to avoid every 
+branch and root that comes your way. You notice that the ground has turned 
+to a lose gravel and begins to be flater than before. The masssive wall of 
+the mountain suddenly looms up to your left, and up a head you notice that 
+it juts out, almost creating a dead end. The path continues west and east.
+~
+0 A 3 
+D1
+The way back.
+~
+~
+0 0 18008
+D3
+The path continues.
+~
+~
+0 0 18010
+S
+#18010
+At a Quaint Little Bridge~
+Well, you were right. The wall of the mountain does jut out and block your 
+path, but a quaint little bridge lies to the north, created by a human, or 
+some other creature. It seems quite stable and safe to cross. A beautiful brook
+trickles slowly underneath the small bridge, creating a relaxing sound. The
+forest seems to be more lush on the other side of the brook. The path continues
+north, across thr bridge, or east, back to the path.
+~
+0 A 3 
+D0
+On the bridge.
+~
+~
+0 0 18011
+D1
+Back to the path.
+~
+~
+0 0 18009
+S
+#18011
+On The Quaint Little Bridge~
+As you cross the little bridge you notice how well made it really is. Below 
+you the silver and quartz reflecting off the sunlight brings a relaxing sigh. 
+A small rainbow trout jumps out of the water, landing with a splash so big it 
+gets your shoes wet. This sure is a nice spot. The trail continues north, off 
+of the bridge, and south, back to the path.
+~
+0 A 3 
+D0
+The path continues.
+~
+~
+0 0 18012
+D2
+The path back.
+~
+~
+0 0 18010
+S
+#18012
+On The Other Side of The Brook~
+You have made it past the peaceful bridge and are now on a woodchip covered 
+trail. The peaceful sounds of the Blue Birds and the joyous chatter of the 
+chickmunks add to the beauty of these lands. The tall Oak and Mapple are just 
+some of the numerous trees you recognize. Beautifully lush ferns fill the gaps 
+between trees; a little Red Juliefire sprouting out here and there, giving the 
+forest floor a wider variety of color and beauty. In the distance you hear the 
+rushing of a waterfall, and the loud soulfull cry of the Black Crane. The path 
+continues west and back to the bridge south.
+~
+0 A 3 
+D2
+Back to the bridge.
+~
+~
+0 0 18011
+D3
+The path continues.
+~
+~
+0 0 18013
+S
+#18013
+The Long Path Continues~
+As you continue to walk down this glorious path, you notice that the sounds 
+of the waterfall are getting louder and clearer. The sun plays shadow games 
+with the wind through the trees, lightening your heart with joy. Deep in the 
+bush you see a bright red Pinion bird, rare to all parts of the world save 
+the most beautiful. The trees and plants seem to almost glow with peace.
+This is such a beautiful place, you never wish to leave. A soft breeze lifts 
+your hair and brings you the fresh scent of Golden Wildflowers, making you 
+wish you were in a sunny field, rolling in them. But you still would much 
+rather be here. The path continues west and east.
+~
+0 A 3 
+D1
+The path continues.
+~
+~
+0 0 18012
+D3
+The path continues.
+~
+~
+0 0 18014
+S
+#18014
+The Great Lookout~
+You are standing about 300 feet above the raging rapids of The River of 
+Venis. You realize that the trees did a great job consealing this massive 
+cliff. Right beside you there is a massive rading waterfall that tumbles down 
+at a gloryous speed. It is amazing how powerful these falls are. A well 
+crafted bridge swings the span of the cliff, right in front of the waterfall.
+You would hate to make a mistake and take a step off the bridge. The path 
+continues out south across the bridge, or back east to the trail.
+~
+0 A 3 
+D1
+Back to the path.
+~
+~
+0 0 18013
+D2
+Out across the bridge.
+~
+~
+0 0 18015
+S
+#18015
+Out On One Third of The Bridge~
+You have managed to walk the first part of the bridge. You catch a glymse 
+of what lies below, a 300, perhaps more, foot drop to your death. Still the 
+white foam at the bottom looks as soft as clouds, and the speed of the falls 
+brings a cool, freesh breeze. Just being this high up is so exhilerating, you 
+could stay here for ever! The bridge continues south or back to the solid 
+grounds, north.
+~
+0 A 3 
+D0
+Back to solid ground.
+~
+~
+0 0 18014
+D1
+You see nothing speical there.
+~
+door~
+1 -1 18017
+D2
+Out across the bridge.
+~
+~
+0 0 18016
+S
+#18016
+In The Middle of The Bridge~
+You are standing in the dead center of the bridge. The bridge is so close 
+to the falls that a cool, fine mist is blown about. You notice that there 
+is not a cloud in the sky. This has just been the most perfect day! 
+The bridge continues south, and north.
+~
+0 A 3 
+D0
+The begining of the bridge.
+~
+~
+0 0 18015
+D2
+The end of the bridge.
+~
+~
+0 0 18018
+S
+#18017
+The Druid Lord's Secret Study~
+You have stumbled into the most beautiful room you have ever seen! giant 
+slabs of white marble with the accasional greyish streak through them cover 
+every bit of the floor, save for the far south of this room, which has 
+a gloryious carpet, telling the tales of several great battles, all woven 
+into the magical design. Tall book shelves cover the eastern wall of this 
+cavern; books of lore, magic, spells, ceremonies and much more. A giant
+oak desk lies infront of the bookshelves, covered with paper and all of 
+Xavier's work. A light blue chair rests in the northern corner. A thin line 
+of glass-like whater cascades down the western opening creating a magical 
+window. Etched in stone high above this wonderous site are the words 
+'Mirror of The Worlds'. You gaze into the light white waters and see your 
+past. Despite being inside a dark cave, this study seems to be quite 
+comfortable. Several bright torches line the walls, and one giant blue flame 
+floats magically in the top-most center of the cave. Magic just seems to flow 
+through this cave, magic beyond your wildest wonders. You wonder where the 
+exits are.
+~
+0 ADQ 0 
+D3
+Back to the bridge.
+~
+~
+0 0 18015
+S
+#18018
+The End of The Bridge~
+You have reached the final portion of the bridge. This part was built over 
+the rocky clif, and not the raging rapids. A big beautiful eagle flies high 
+above. Ahead the deep green trees and plants welcome you joyfully. You cannot 
+wait to get on solid ground again. The exits are south to the road and north 
+to the middle of the bridge.
+~
+0 A 3 
+D0
+Back to the middle of the bridge.
+~
+~
+0 0 18016
+D2
+Back on solid ground.
+~
+~
+0 0 18019
+S
+#18019
+Back on the Main Road~
+Boy, it sure does feel good to be back on hard solid ground once again. 
+Tulips and Rose bushes line the pathway, adding once again to the beauty of 
+this strange land. The tall trees seem to give off the right amount of shade, 
+to keep you from getting too hot in this sun. The path you are one is kind of 
+like one you would have up to your house; big enough for one or two people,
+long and curvy. The mountains loom even higher in the distance than they ever 
+had before. You can tell that each step takes you down hill, into a vally of 
+some sort. The land about you appears as though it was formed ages ago, due 
+to earthquakes and storms. The path continues north to the bridge, or south 
+to the main road.
+~
+0 A 3 
+D0
+Back to the bridge.
+~
+~
+0 0 18018
+D2
+To the main road.
+~
+~
+0 0 18020
+S
+#18020
+The Entrance To The Valley~
+This is another beautiful part of the lands. What catches your eyes the 
+most is a wonderfully carved sign. Perhaps you should read what it says. 
+The beautiful land before you seems to reach out for miles, all encased 
+in a wonderous valley. It would be interesting to see what this place is 
+like. The exits are north to the bridge, west along the road as well as 
+east. A large sign is here, demanding your attention.
+~
+0 A 3 
+E
+sign valley~
+__________________________________________________________
+|\ ______________________________________________________ /|     
+| |         Welcome To The Valley Of The Titans          | |   
+| |                                                      | |
+| |   We hope that you enjoy your stay and that you will | |
+| | find our wonderful land quite enjoyable. Please feel | |
+| | free to learn of our customs and of our people. You  | |
+| | are most welcome here.                               | |
+| |       Signed: King Dractax and Queen Crystal.        | |
+| |______________________________________________________| |
+|/________________________________________________________\|
+~
+D0
+Back to the bridge.
+~
+~
+0 0 18019
+D1
+A Path to A House.
+~
+~
+0 0 18021
+D3
+Along the Road.
+~
+~
+0 0 18023
+S
+#18021
+A Path To A Very Fancy House~
+You are now walking on a stone walkway to a very fancy house. Nicely trimmed 
+flowers and bushes lie in neatly tended patterns along the dark green grass 
+at the fron of the house. The house itself is huge and white. It appears to be 
+two stories high, and it looks to be as though this house belonged to a Lord
+or a Lady, or someone with LOTS of money. You wonder who would live in such 
+an extravagent house. The exits are east to the house, or west to the main 
+road.
+~
+0 A 3 
+D1
+Inside the front foyer
+~
+door~
+1 0 18022
+D3
+Back to the road.
+~
+~
+0 0 18020
+S
+#18022
+Inside The Front Foyer~
+You have entered the Front Foyer of the house and already you are staring in 
+awe. It is amazing how beautiful this house really is. Several tapestries hand 
+from the walls, freshly cut flowers are in vases everywhere. Not a speck of 
+dirt to be found. A house like this must have many maids and cleaning people 
+to keep it so neat and tidy. You do not wish to intrude so you mine aswell 
+leave this house alone. Your only exit is west, back to the road.
+~
+0 A 0 
+D3
+Back to the road.
+~
+~
+0 0 18021
+S
+#18023
+Along A Windy Road~
+You are walking along a windy road, that is forever curving itself downhill. 
+The trees still line boths sides of the road, yet becomming more and more 
+less common as before. The sun is well over head now and it would be best to 
+find and Inn, in this..The Valley of The Titans. Heavens knows what type of 
+beasts lurke in these forests at night. The path continues in an east-west 
+direction.
+~
+0 A 3 
+D1
+The path continues.
+~
+~
+0 0 18020
+D3
+The path continues.
+~
+~
+0 0 18024
+S
+#18024
+In The Open Plains~
+You find that the forest has lessened remarkably and you are now in an open 
+field, following a road. You notice that not so far ahead, the forest starts 
+up again. You hope that you will find a village soon, or you will have to 
+spend the night with those rich people back east. The exits are, again, in an 
+east-west direction.
+~
+0 A 3 
+D1
+The path continues.
+~
+~
+0 0 18023
+D3
+The path continues.
+~
+~
+0 0 18025
+S
+#18025
+Back in The Lush Forests~
+You have returned once again to the thick, lush forests of this valley. You 
+notice to the north there is a massive lake, glistening in the suns' beams. 
+You notice a doe, not to far off, drinking from a puddle of rain water. Such 
+peace and beauty, you could hardly ask for anything more. It is starting to 
+get dark and if you do not find a village soon, well, you're stuck outside
+for the evening. The exits are in an east-west direction again.
+~
+0 A 3 
+D1
+The path continues.
+~
+~
+0 0 18024
+D3
+The path continues.
+~
+~
+0 0 18026
+S
+#18026
+In Sight of The Village~
+You have come this far and you finnally find the central village of The 
+Valley of The Titans. The sanctuary like town rests like a kingdom on a 
+vast, beautiful island. Beautiful white bridges cross from six points to 
+this village, adding to the glorious beauty. You are almost quite sure that 
+there are more than one Inn on this island. You better hurry, they may be
+closing this bridges soon. The exits are east and south, to the village.
+~
+0 A 3 
+D1
+Back to the main road.
+~
+~
+0 0 18025
+D2
+On the road to the Bridges.
+~
+~
+0 0 18027
+S
+#18027
+At The Bridge Gates~
+You come up to the wonderous golden bridge gates to the City of The Titans. 
+Several guards are here, greeting travelers as they come. It is getting quite 
+dark and you would rather be inside the city when night falls. You decided to 
+head on up through the bridges, across to the island, protected by the long
+water moat, and tall stone walls. The city looks to be as safe as any city 
+could possibly get. The exits are south and north.
+~
+0 A 3 
+D0
+Back to the path.
+~
+~
+0 0 18026
+D2
+On the Bridges.
+~
+~
+0 0 18028
+S
+#18028
+The Begging of The Bridge~
+You take your first step on the giant Bridges of the city. Thousands of people 
+seem to be walking back and forth, talking to eachother, meeting friends, 
+doing business, heading in or our of the city, basically, keeping quite busy. 
+The floor is covered in a light green carpet, rolled out endlessly along the 
+floor. Crystal clear windows are along the side walls and several torches 
+light the ceiling above. The smell of pitch burning reminds you of your 
+grandmothers cottage, in the early Winter. The path continues north and south.
+~
+0 A 0 
+D0
+Back to the road.
+~
+~
+0 0 18027
+D2
+Along the Bridge.
+~
+~
+0 0 18029
+S
+#18029
+Along The Bridge~
+You notice out the windows that the moon has come up, reflecting brightly on 
+the crystal clear waters. The people suddenly start to move forward, towards 
+the central city. You have never seen so many different races of people mixed 
+together at once. It truely is wonderful to see so many races getting along 
+with eachother. The road of the Bridges continues north and south.
+~
+0 A 0 
+D0
+Back to the beggining of the bridge.
+~
+~
+0 0 18028
+D2
+Along the bridge.
+~
+~
+0 0 18030
+S
+#18030
+Along The Bridge~
+You notice out the windows that the moon has come up, reflecting brightly 
+on the crystal clear waters. The torches glow brightly above, giving off 
+enough light to show you your way. The ivory walls seem to glow bright white 
+in the dim light. You wonder just how long it will take to get to this city. 
+The path continues north and south.
+~
+0 A 0 
+D0
+Back from where you came.
+~
+~
+0 0 18029
+D2
+Along the Bridge.
+~
+~
+0 0 18031
+S
+#18031
+The Middle of The Bridge~
+You have finally reached the middle of the Bridge. Everyone seems to be going 
+at the same pace, no one seems to be in any hury what-so-ever. You notice that 
+some of the people are dressed really well. Infact, it seems as though everyone
+is dress neatly. You feel a little out of place, wearing your traveling gear 
+and battle armor. Maybe in town you can by yourself some descent clothes, that 
+is if they will accept your gold. The path continues north and south.
+~
+0 A 0 
+D0
+The Bridge continues.
+~
+~
+0 0 18030
+D2
+The Bridge continues.
+~
+~
+0 0 18032
+S
+#18032
+Along The Western Side of the Bridge~
+You have reached a long flat stretch of the bridge, which seem to take you 
+right into the city. Here and there you notice peddlers trying to sell their 
+pots and pans, their magic lamps, their special jewls. You can hardly wait to 
+find an imm with a nice, cozy bed and room. A piping hot meal wouldn't be bad
+either. The bridge continues south to the town entrance, and north, back to 
+the center of the bridge.
+~
+0 A 0 
+D0
+Back to the Bridge.
+~
+~
+0 0 18031
+D2
+~
+~
+0 0 18033
+S
+#18033
+The City Entrance~
+Welcome to The City of The Titans! Many races are known and accepted 
+here. This city consists of more people than Midgaard, Thalos and Ofcol 
+put together! You wonder where the best Inn would be. It would be nice to 
+kick of your hiking boots and site down to a warm fire and a long, enjoyable 
+pipe. Better start looking for an Inn. The exits are west and east to the 
+stables, north to the bridge, and south to the city.
+~
+0 A 1 
+D0
+~
+~
+0 0 18032
+D1
+To the stables.
+~
+~
+0 0 18034
+D2
+Along The Main Street.
+~
+~
+0 0 18036
+D3
+To the stables.
+~
+~
+0 0 18035
+S
+#18034
+The Eastern Stables~
+You have entered the Eastern Stables, a place to board your horse for 
+a price. No one seems to be around at this time, but perhaps if you tie 
+the horse up, you can pay them in the morning. It seems to be a nice place 
+for horses to rest awhile; fresh hay, lots of water, and clean stalls. 
+The exit is west back to the main road.
+~
+0 A 0 
+D3
+Back to the main road.
+~
+~
+0 0 18033
+S
+#18035
+The Western Stables~
+You have entered the Western Stables, a fine place to board your horse for
+a price. No one seems to be around at this time, but perhaps if you tie the 
+horse up, you can pay them tomorrow. It seems to be a nice place for horses 
+to res awhile; fresh hay, lots of water, and clean stalls. 
+The exit is east back to the main road.
+~
+0 A 0 
+D1
+Back to the main road.
+~
+~
+0 0 18033
+S
+#18036
+The Main Road~
+As you walk along the main road you notice several shops along the east 
+and the west sides. All closed for the night, but they seem to be interesting 
+shops. The roads are paved with stones, very neat and tidy, with narrow 
+sidewalks along each side, and torch posts at every 50 feet or so. 
+The road continues south and back north.
+~
+0 A 1 
+D0
+The road continues.
+~
+~
+0 0 18033
+D2
+The road continues.
+~
+~
+0 0 18037
+S
+#18037
+The Main Road at The Prison~
+You have come along a neatly kept prison to the east. Built of strong red 
+brick, this prison looks to be one that is heavily guarded. You cannot belive 
+that there can be people in such a town that would even think of commiting 
+crime! The road continues south, north and east to the prison.
+~
+0 A 1 
+D0
+The main road continues.
+~
+~
+0 0 18036
+D1
+To the prison.
+~
+door~
+1 0 18038
+D2
+The main road continues.
+~
+~
+0 0 18045
+S
+#18038
+The Main Office of The Prison~
+You have entered a large room, with several desks and cabinets. At the far 
+back you see a sign that says 'Cells' and points downwards to the unknown. 
+You see some guards and some sherriffs here, but they are too busy to pay any 
+attention to you. The exits are north to the stairwell, and back west to the
+road.
+~
+0 A 1 
+D0
+The stairwell.
+~
+~
+0 0 18039
+D3
+Back to the main road.
+~
+~
+0 0 18037
+S
+#18039
+The Dark Stairwell~
+Now you've done it! You've gone and entered the stairwell to where the cells 
+are. The stairwell is narrow and spirral, made of cast iron. Several torches 
+light the path down, making it seem scarier than it really is. You wonder what 
+is at the base of the stairs; of what you will find and what will happen. 
+The exits are back to the main office south, and down to the Cell room.
+~
+0 A 1 
+D2
+Back to the main office.
+~
+~
+0 0 18038
+D5
+To the prison cells.
+~
+~
+0 0 18040
+S
+#18040
+The Prison Cells~
+You have reached the bottom of the stairs and are in a long corridor that 
+heads in a northern direction. The halls seem to be vacant, yet you hear 
+the odd sound of snoring. To both sides of you there are empty Cells, but 
+you cannot be so sure of what lies ahead. The exits are up to the stairwell 
+and north through the corridor.
+~
+0 A 1 
+D0
+Through the corridor.
+~
+~
+0 0 18041
+D4
+Back to the stairwell.
+~
+~
+0 0 18039
+S
+#18041
+Through The Narrow Corridor~
+The corridor continues north, with foul prisoners locked up in cells to 
+your left and right. A musty smell fills the air. Drat! Drows! You recognize 
+the foul scent anywhere. The exits are east and west to the cells, north and 
+south to the corridor exits.
+~
+0 A 1 
+D0
+The corridor continues.
+~
+~
+0 0 18042
+D1
+The Eastern Cell.
+~
+door~
+1 0 18043
+D2
+Back to the stairwell.
+~
+~
+0 0 18040
+D3
+The Western Cell.
+~
+door~
+1 0 18044
+S
+#18042
+The Guardsman~
+You have come to the end of the corridor. There is a big, stalky man here, 
+asleep. He is apparently the guard of these foul prisoners, and does not 
+like his job. You wonder if you should report this fellow, the choose not to. 
+They may question about why you were in the cells, perhaps think you were 
+trying to free one of those stinky...DROWS! The corridor has only one exit, 
+and its south.
+~
+0 A 1 
+D2
+Back to the cells.
+~
+~
+0 0 18041
+S
+#18043
+The Eastern Cell~
+You have opened the cell door and have walked into the Eastern Cell. 
+What will people think if they found you, trying to free a prisoner? You best 
+be on your way, before someone comes. Besides, this place smells awefully bad. 
+The stench of the drows makes it very hard to breath. The only exit is back 
+west to the main corridor.
+~
+0 A 1 
+D3
+To the main corridor.
+~
+~
+0 0 18041
+S
+#18044
+The Western Cell~
+You have opened the cell door and have walked into the Western Cell. 
+What will people think if they found you, trying to free a prisoner? You best 
+be on your way, before someone comes. Besides, this place smells awefully bad. 
+The stench of the drows makes it very hard to breath. The only exit is back 
+east to the main corridor.
+~
+0 A 1 
+D1
+To the main corridor.
+~
+~
+0 0 18041
+S
+#18045
+The Main Road Continues~
+Yes, once again the main road continues. You notice to the east there is 
+a Chocolate Shoppe and to the west, a fancy bar named The Blue Rabbit. 
+You cannot chose which you want to see first. But wait.. You wanted to find 
+an Inn! Perhaps the chocolate and the drinks can wait for another day... 
+Maybe not! The exits are in all directions: north, south, east, and west.
+~
+0 A 0 
+D0
+~
+~
+0 0 18037
+D1
+To the Blue Rabbit.
+~
+~
+0 0 18047
+D2
+To The Town Center.
+~
+~
+0 0 18049
+D3
+To the Chocolate Shoppe.
+~
+~
+0 0 18048
+S
+#18046
+Void~
+Void.
+~
+0 C 1 
+S
+#18047
+The Blue Rabbit Bar~
+You have entered one of the most expensive yet wonderful Bars in the whole 
+city. All that is served here is fancy wine. You see many people sitting at 
+tables drinking their wine, with waiters rushing madly around, to make sure 
+everyone is served. A tall man walks up to you calmly and asks if he can help 
+you. The only exit is west, back to the road.
+~
+0 A 0 
+D3
+To the road.
+~
+~
+0 0 18045
+S
+#18048
+The Chocolate Shoppe~
+Wild smells of the most divine chocolate in all the lands catch your sense 
+as  you walk in. Chocolate, Chocolate EVERYWHERE! You've died and gone to 
+heaven!  You do not know which you want to try first, perhaps you have enough 
+to try them all! Mountains and Mountains of chocolate! The only exit is east 
+back to the road, but who says you'll ever leave??!!
+~
+0 A 0 
+D1
+To the road.
+~
+~
+0 0 18045
+S
+#18049
+The Town Center~
+You have entered the town center, an major intersection in the roads. 
+You see by the signs that mark the streets that if you followed the road west 
+it would take you to the palace, south would take you along the southern main 
+roads, and east would take you to several other intersections and shops. Which
+way shall you chose? North, East, South or West?
+~
+0 A 1 
+D0
+The road you came from.
+~
+~
+0 0 18045
+D1
+~
+~
+0 0 18104
+D2
+The Southern Main Roads.
+~
+~
+0 0 18050
+D3
+~
+~
+0 0 18074
+S
+#18050
+The Southern Main Street~
+You have reached the Southern Main Street. Shops line this road ten times 
+more  then they did the others. You notice many people everywhere, enjoying 
+the glorious day. To the east there is an icecream shoppe. To the west you 
+see an brightly colored store called The Red Dragon. You wonder what sorts of 
+things you may find there! Exits are north, east, west, and south.
+~
+0 A 3 
+D0
+Back to the town square.
+~
+~
+0 0 18049
+D1
+The Icecream Shoppe.
+~
+~
+0 0 18051
+D2
+The Southern Main Street.
+~
+~
+0 0 18054
+D3
+The Red Dragon.
+~
+~
+0 0 18052
+S
+#18051
+The Icecream Shoppe~
+You have entered a quaint little shop along the Southern Main Street. 
+To the northern part of this room there is an Icecream service bar, with 
+several thousand different flavors. Behind the service bar is a young man 
+selling his icecream. To the south you notice several stools and tables 
+along the wall. A few people are sitting here gossiping about the latest 
+trends at the Red Dragon. Straight to the west there are two little doors
+that say 'Employees only.' This is a really nice shoppe and you would really 
+like to buy something here. The only exit is west to the street.
+~
+0 A 3 
+D3
+Back to the main street.
+~
+~
+0 0 18050
+S
+#18052
+The Red Dragon~
+A stout young woman walks up to you and says, "Welcome to The Red Dragon, 
+my friend! You look to be a rich man, and you must have good taste! Of course 
+you do, you came here! Hehehe! Can I intrest you in some of the latest 
+fashions?" This shop has the most popular design of clothes you have ever 
+seen. Several tables pilled with the latest shirts, pants and shoes fill this
+room. This is the most busy store you have seen all day! Dark red carpets 
+cover the floor; light blue pain covers the walls. To the north you notice 
+a back room. You wonder what could be there? The exits are north to the back 
+room, and east back to the Southern Main Street.
+~
+0 A 3 
+D0
+To the back room.
+~
+door~
+1 0 18053
+D1
+Back to the Southern Main Street.
+~
+~
+0 0 18050
+S
+#18053
+The Back Room of The Red Dragon~
+You have entered the back room of the Red Dragon. You notice that this is 
+the room where it all happens; the shoes, the shirts, the pants, the skirts, 
+all. Many people rush around working very hard, trying to beat the demand of 
+clothes needed for this time of year. The exit is back south to the Red Dragon
+store.
+~
+0 A 3 
+D2
+The Red Dragon.
+~
+~
+0 0 18052
+S
+#18054
+Along The Southern Main Street~
+You continue walking down the road and notice that a rare Apiarist shop lies 
+to the west. To the east you see a beautiful Florist shop, selling the most 
+beautiful flowers you have ever seen. To street continues in a north south 
+direction, with to the east a Florist and to the west and Apiarist.
+~
+0 A 3 
+D0
+Back to the Southern Main Street.
+~
+~
+0 0 18050
+D1
+The Lovely Florist.
+~
+~
+0 0 18055
+D2
+The Market Square.
+~
+~
+0 0 18059
+D3
+The rare Apiarist.
+~
+door~
+1 0 18058
+S
+#18055
+The Flower Shop~
+*Snnnnnniiiiiiffffff* Ahhh.. The lovely smell of freshly cut flowers 
+touches your senses as you enter this room. Beautiful Roses, Tulips, 
+Carnations, and many other wild flowers fill this room with color and beauty. 
+A young lady is behind a vine-covered counter, humming to herself while she 
+repots an Aloe Vera plant. Several rows of flowers line the wooden floors, 
+making it look almost like a jungle. The only exit is west, back to the road.
+~
+0 A 3 
+D0
+To the hidden greenhouse.
+~
+door~
+1 0 18056
+D3
+Back to The Southern Main Street.
+~
+~
+0 0 18054
+S
+#18056
+The Hidden GreenHouse Behind The Florist Shop~
+You have entered a beautiful greenhouse behind the Florists' shop. 
+A jungle of wild and extravagent flowers fill this room from top to bottom. 
+It is simply glorious. Bright sunlight flows through the skylights, lighting 
+this room with a wonderous glow. A small pond sits in the corner, feeding many 
+water-bound plants such as the Water Lily. The exits to this room are back 
+south to the Florists' Shop, and east to an outside garden.
+~
+0 A 3 
+D1
+The Outside Garden.
+~
+door~
+1 0 18057
+D2
+Back to the Florists' Shop.
+~
+~
+0 0 18055
+S
+#18057
+The Outside Garden~
+You have stumbled upon an outdoor garden. Many wild plants grow here, 
+all growing around a small stone pathway that leads through them. Bright 
+flowers grow between the dark green ferns and shrubs. Beautiful Iris' grow 
+along a small stone garden to your left. A little wooden table is here, with 
+an empty cup of coffee and an abandoned chair. The only exit is west to the
+GreenHouse.
+~
+0 A 3 
+D3
+The GreenHouse.
+~
+~
+0 0 18056
+S
+#18058
+The Rare Apiarists' Shop~
+You have entered a honey smelling room. Golden jars of honey line the walls 
+on great oak shelves. The deerskin floor is very beautiful and looks to be 
+quite soft and comfortable. A small fireplace lights this room and gives it 
+heat to the west. Behind a strange counter is a young lady, pooring bright 
+yello honey into a jar. You wonder at just what you can buy. The only exit is
+west to the main street.
+~
+0 A 3 
+D1
+Back to the Main Street.
+~
+~
+0 0 18054
+S
+#18059
+The Market Square~
+You have come upon the Market Square. Many people are gathered about, 
+talking to eachother or listening to the group of musicians playing some wild 
+tunes. The stone streets feels hard on your feet and you feel very tired. To 
+the north you see the road you came from, Along The Southern Main Streets, to 
+the south you see that the road continues, to several Inns. All the way west 
+you notice that a wide road takes you down to a grocer store and many others. 
+To the east in the far distance, you see a giant Castle.
+~
+0 A 3 
+D0
+Back to the Southern Main Streets.
+~
+~
+0 0 18054
+D1
+The Eastern Main Road.
+~
+~
+0 0 18105
+D2
+The Southern-side Streets.
+~
+~
+0 0 18060
+D3
+The Western Main Road.
+~
+~
+0 0 18084
+S
+#18060
+Along The Southern-side Streets~
+You have come upon the Southern-Side streets. The road is paved with 
+a bright white stone with dark grey-stone sidewalks making a border along 
+the sides. Many fancy houses and shops line this stree, adding to the beauty 
+of the town. This is one of the finer streets in The Valley. To your left 
+there is a weapon shop, your right is a tidy armour shop. A small alley cat 
+walks up an down the road, passing between the villagers. Tall green trees
+lie in garden beds infront or beside the buildings. The exits are
+north, east, south, and west.
+~
+0 A 3 
+D0
+Back to the market square.
+~
+~
+0 0 18059
+D1
+A Large Armour Shop.
+~
+door~
+1 0 18061
+D2
+A quaint Cul-De-Sac.
+~
+~
+0 0 18067
+D3
+A Large Weapon Shop.
+~
+~
+0 0 18066
+S
+#18061
+A Large Armour Shop~
+You have entered a large armour shop. Many fine tapestries line the walls, 
+in between large oak shelves that hold many different sorts of armour. To the 
+back of this room you see a large set of stairs heading downwards. Several 
+fancy paintings are on the western wall. You see a large cherry desk in the 
+far back right corner of this room. There is a large stone fireplace to your 
+right, giving the room some added heat. The exits are north to the stairways, 
+and east to the side-street.
+~
+0 A 3 
+D0
+A Large Spiral Staircase.
+~
+~
+0 0 18062
+D3
+Back to the side-street.
+~
+~
+0 0 18060
+S
+#18062
+A Large Spiral Staircase~
+You have entered a Large Spiral Staircase that heads
+downwards. A dark green carpet has been set upon the stairs to lessen 
+the effects of usage. Below you hear many different noise, of men working, 
+a large furnace, you think, and much more. You wonder what could be in the 
+bowls of this building. The exits are down to the unknown, and back south 
+the the side streets.
+~
+0 A 3 
+D2
+Back to the Large Armoury.
+~
+~
+0 0 18061
+D5
+The Unknown.
+~
+~
+0 0 18063
+S
+#18063
+A Large Workroom~
+You have come upon a large workroom beneath the armoury. You see that it 
+joins up to what appears to be a blacksmith work room. These two shops are 
+probably working for the same person, since their stores are attached. This 
+would make it a whole lot easier for the people to come to the other shops. 
+It seems that this part is open to the public so I guess you wouldn't be in
+trouble if you got caught. The exits are up the stairwell and west to the 
+Blacksmith.
+~
+0 A 3 
+D3
+A Large Workroom.
+~
+~
+0 0 18064
+D4
+The Stairwell.
+~
+~
+0 0 18062
+S
+#18064
+A Large Workroom~
+You have come upon a large workroom beneath the weapon shop. You see that 
+it joins up to what appears to be an armoury work room. These two shops are 
+probably working for the same person, since their stores are attached. This 
+would make it a whole lot easier for the people to come to the other shops. 
+It seems that this part is open to the public so I guess you wouldn't be in
+trouble if you got caught. The exits are up the stairwell and east to the 
+Armoury.
+~
+0 A 3 
+D1
+The Large Workroom.
+~
+~
+0 0 18063
+D4
+A Large Stairwell.
+~
+~
+0 0 18065
+S
+#18065
+A Large Stairwell~
+You have come upon a large wooden stairwell. A bright blue carpet has 
+been set underfoot so the stairs would be protected from usage. Large torches 
+light these stairs with a orange glow. A sugar-like window towers above you, 
+trying desparately to let in some light. The faint smell of pitch catch your 
+sense with surprise. The exits are down to the unknown and south the The
+Weapon Shop.
+~
+0 A 3 
+D2
+~
+~
+0 0 18066
+D5
+~
+~
+0 0 18064
+S
+#18066
+The Weapon Shop~
+You have entered a large room with a white marble floor. Tapestries showing 
+scenes of battle line the walls in between the displays of the weapons. You 
+are sure that there are many fine articles for sale in this store. It seems 
+as though this weaponsmith supplies to the royal armies. The exits are north 
+to a stairwell, and east to the side streets.
+~
+0 A 3 
+D0
+~
+~
+0 0 18065
+D1
+The side-streets.
+~
+~
+0 0 18060
+S
+#18067
+A Quaint Cul-De-Sac~
+You have come upon a qiant little Cu-De-Sac. Two shops and one very 
+large house line this Cul-De-Sac. To the south you see a large white house, 
+set about 20 feet or so behind a large wooden fence. A well tended yard 
+greets you with beauty in front of this house. To the east you see a large 
+grocer. To the west there is an Apothecary. The exits are north to the 
+side-streets, south the the yard of the house, east to the very large grocer 
+and west to the Apothecary.
+~
+0 A 3 
+D0
+The side-street.
+~
+~
+0 0 18060
+D1
+The very large grocer.
+~
+door~
+1 0 18070
+D2
+You see a Large White House.
+~
+door~
+1 0 18069
+D3
+The Apothecary.
+~
+door~
+1 0 18068
+S
+#18068
+The Apothecary~
+You have entered a very large wooden hut. Shelves of all sorts line 
+the walls, filled with many different color and sized jars. To the north 
+of this room you see a large wooden desc with a potion brewer mixing together 
+a dark green and light yellow potions. Many runes and scrolls cover the walls, 
+where there is not shelves. A white bear rug is under your feet, giving the 
+room a strange appearance. The only exit is east to the Cul-De-Sac.
+~
+0 A 3 
+D1
+Back to the Cul-De-Sac.
+~
+~
+0 0 18067
+S
+#18069
+The Garden in Front of The House~
+You have come to the garden in front of the house. Large red roses line 
+the gates with the random lily here and there. Large grey steps lead up to 
+the front door. The house seems vacant; several winter pannels still not 
+removed, the extra long grass in the yard, and the window that needs to be 
+replaced are just some of the give-aways. The only exits is north, back 
+to the road.
+~
+0 A 3 
+D0
+The Cul-De-Sac.
+~
+~
+0 0 18067
+S
+#18070
+The Very Large Grocer~
+You have come upon a very large grocer. To your left you notice that there 
+are several isles of produce. Straight infront of you is the canned goods, 
+baking goods, bulk foods and much others. To your right is the meet and fish 
+department, aswell as the dairy products. The exits are north to the produce 
+sections, south to the meat and fish department, and west to the Cul-De-Sac, 
+and east to the canned goods ect.
+~
+0 A 3 
+D0
+The produce section.
+~
+~
+0 0 18071
+D1
+The Canned Goods, etc.
+~
+~
+0 0 18072
+D2
+The Meat and Fish department.
+~
+~
+0 0 18073
+D3
+The Cul-De-Sac.
+~
+~
+0 0 18067
+S
+#18071
+The Produce Section~
+Many green veggies and several colorful fruit are on display along the 
+sides of this room. The bright torch light makes you able to see clearly on 
+what there is to get. A tall young man stands here, ready to help you with 
+your purchase. The only exit is south to the main entrance.
+~
+0 A 3 
+D2
+The main enterance.
+~
+~
+0 0 18070
+S
+#18072
+The Dried Goods and your Other Baking Items~
+This is a very large isle with several different shelves. You notice some 
+of the most common things; rice, flower, chocolate cookies, dried raisins, 
+sugar and much much more. You can see everything quite clearling, thanks to 
+the bright special torches above you. Too bad there isn't anyone here to help 
+you with your purchase; those cookies sure do look good! The only exit is 
+west back to the main entrance.
+~
+0 A 3 
+D3
+The main enterance.
+~
+~
+0 0 18070
+S
+#18073
+The Meat and Fish Department~
+Several large iron tables are here, displaying the wide variety of meats and 
+fish. A large butcher is working behind one of these tables, carving what looks
+like lamb into a wonderful roast. I am sure he will help you with anything you 
+could want to buy. The only exit is north to the main enterance.
+~
+0 A 3 
+D0
+The main enterance.
+~
+~
+0 0 18070
+S
+#18074
+The Western Side Roads~
+Walking along the western side roads you see that this is one of the less 
+popular areas of the kingdome. A scattered shop here and there, several 
+beggars lieing on the roads; cats rummaging through a pile of garbage near by. 
+Even for the poor part of the city, in less common cities like New Thalos or 
+Ofcol, this would be considered one of the richer parts of town. Grey stones 
+pave the road and sidewalks. The exits are east to the Southern main road, 
+west to the end of this road, north to a pub and south to a back alley.
+~
+0 A 3 
+D0
+~
+~
+0 0 18075
+D1
+The Southern Main Street.
+~
+~
+0 0 18049
+D2
+~
+~
+0 0 18081
+D3
+The End of the Western Road.
+~
+~
+0 0 18083
+S
+#18075
+The Pub~
+You have entered a clean and tidy little put, situated in the western wall 
+of the city. You notice that several people are sitting around at the tables, 
+laughing loudly, sining with the music, and having a really good time. You can 
+see that half of them are patrol guards. A short and stuby little man is 
+rushing around, making sure everyone has a mug full of beer. A large bar stands
+over to your right, with several people sitting at the tables talking to each
+other. You notice that there is a second room to your left. The exits are south 
+to the western road, and west to a second room.
+~
+0 A 3 
+D2
+~
+~
+0 0 18074
+D3
+The second room of the pub.
+~
+~
+0 0 18076
+S
+#18076
+The Game Hall~
+You have entered the games hall of this pub. Several people are playing 
+various games such as cards, cashitack, drownot and many others. A large 
+kishtosh table sits in the center of this room, lined with people gambling 
+away their savings. A thin cloud of smoke lies in the air, dimming the light 
+of the torches just a bit. You see to the north a stairwell leading into yet 
+another room. The exits are east to the pub and north to the unknown.
+~
+0 A 3 
+D0
+The unknown.
+~
+door~
+1 0 18077
+D1
+The pub.
+~
+~
+0 0 18075
+S
+#18077
+A Beautiful Lounge~
+You have walked into a very tidy room with people sitting socializing together
+in fancy chairs. You see a cafe bar to your right, serving anyone who wishes 
+for a drink. Soft music is played in this room, almost lovely enough to make 
+you forget of the Game Room. You see a set of stairwells to your north leading
+upwards.
+~
+0 A 3 
+D0
+The stairwell.
+~
+~
+0 0 18078
+D2
+The Game Hall.
+~
+~
+0 0 18076
+S
+#18078
+The Stairwell~
+You have come across a lovely stairwell leading up onto the exterior wall 
+of the city. A light breeze meets you half way up, urging you on to the top. 
+You wonder what could be up on the wall that the bar would have access to. 
+You see to your left a small door that says 'cooking hall' on it. Your exits 
+are up to the top of the wall, and south to the Lounge.
+~
+0 A 3 
+D2
+The Lounge.
+~
+~
+0 0 18077
+D4
+The Wall.
+~
+~
+0 0 18079
+S
+#18079
+On Top of The City Walls~
+High above the clammer of the city, you find yourself on an outer wall. 
+It seems as though the owner of the Pub managed to pursuade the queen into 
+letting him use the top of the wall as a dinning lounge. Very few people are 
+here but they do seem to be enjoying themselves. From this high up you can 
+see the whole city with the monsterous castle towering above all the rest. 
+You  notice that the city is on an island and right at the very bottom of 
+the Valley. Beautiful green forests suround the outer walls, making it seem 
+as though you are in a private heaven. There is a small dance floor to the 
+east and the stairwell down.
+~
+0 A 3 
+D1
+The Dance Floor.
+~
+~
+0 0 18080
+D5
+The Stairwell.
+~
+~
+0 0 18078
+S
+#18080
+The Dance Floor~
+A top of the city walls, a small portion of what the Pub owner owns is 
+used as a dance floor. Though vacant, it looks to be like a wonderful floor. 
+Soft music plays in the background and you have an urge to dance. Perhaps one 
+day you should bring your special "someone" here and show them the city from 
+one of the finest views. The only exit is west.
+~
+0 A 3 
+D3
+The Dining Lounge.
+~
+~
+0 0 18079
+S
+#18081
+A Back Ally~
+You have come across a back alley. Several beggars are here, as tidy as 
+usual, for this town. You notice that a fair smell is in the air. An unsual 
+smell.. Almost like rotting... Food. Garbage! A Garbage dump lies to the west. 
+The exits are west to the garbage dump and north to the Western Roads.
+~
+0 A 3 
+D0
+~
+~
+0 0 18074
+D3
+The Garbage Dump.
+~
+~
+0 0 18082
+S
+#18082
+The Garbage Dump~
+Yech! The smell is murderous! Garbage everywhere. This is the one messy 
+place of the whole city. Little ally cats rumage through the garbage, in hopes 
+of finding something good to eat. You wish to leave this place as soon as you 
+possibly can. The only exits are east, and south to the sewers under the dump.
+~
+0 A 3 
+D1
+The Ally.
+~
+~
+0 0 18081
+D2
+A Pile of Garbage.
+~
+door~
+1 0 18097
+S
+#18083
+The End of The Western Road~
+You have come to a dead end in the western road. There is nothing here, 
+save the odd wrapper or bottle. Cold dark stone paves the road, same as the 
+rest of the city, yet makes you more loney here. What used to be a container 
+shop is all borded up an vacant. The only exit is east back to the western 
+road.
+~
+0 A 3 
+D1
+The Western Road.
+~
+~
+0 0 18074
+S
+#18084
+The Elegant Western Side Road~
+You have come upon one of the most elegant roads in the city. Beautiful 
+buildings line both the sides, creating a stunning effect. You see an Inn 
+called The Green Dragon Inn to your left, and a second called The Blue 
+Crossings Inn to your right. To road continues west and east to the main 
+square, north and south to the Inns.
+~
+0 A 3 
+D0
+The Green Dragon Inn.
+~
+door~
+1 0 18088
+D1
+The Main Street.
+~
+~
+0 0 18059
+D2
+The Blue Crossings Inn.
+~
+door~
+1 0 18085
+D3
+The Western Road continues.
+~
+~
+0 0 18089
+S
+#18085
+The Blue Crossings Inn~
+You have entered an elegant white floored Inn. Beautiful tapesties line 
+the walls, telling stories of battle and heartbreak. Giant windows overhead 
+let warm beams of sunlight in. Two dark green velvet couches sit in the 
+center of this room on a golden rug. A BellBoy stands by the front desk to 
+help anyone with their suitcases and luggage. The manager of the Inn beams a
+big smile at you. The exits are north to the western road, and east 
+to the stairwell.
+~
+0 A 3 
+D0
+The Western Main Street.
+~
+~
+0 0 18084
+D1
+The Stairwell.
+~
+~
+0 0 18086
+S
+#18086
+The Large Stairwell~
+You have come across a large carpeted stairwell leading to the upper half 
+of the Inn. Large windows follow the stairs, adding to the beauty and quality 
+of the Inn. You can hardly wait to see what one of the rooms look like in such 
+a classy Inn. The exits are west to the lobby and up to the second floor.
+~
+0 A 3 
+D3
+The Lobby.
+~
+~
+0 0 18085
+D4
+The Second Floor.
+~
+~
+0 0 18087
+S
+#18087
+The Second Floor~
+A large hallway indeed! A long golden runner reaches the length of the hall, 
+matching the large curtains hanging along-side the windows and the beging 
+and end of this hall. About half a dozen rooms or so line each side of the 
+hall, each with a golden knocker and roomplate. This is one of the finests 
+Inns you have ever been in. You can hardly wait to tell people back home
+about this glorious place. The only exit is down the stairwell, since you 
+have not paid for a room.
+~
+0 A 3 
+D5
+The Stairwell.
+~
+~
+0 0 18086
+S
+#18088
+The Green Dragon Inn~
+A large green carpet covers the floor, giving this Inn the effect of its 
+name. Glorious silver stairs lead up to the second floor. This sure does 
+look like an expensive and wonderful Inn. The name surely does suit it. 
+The only exit from this wonderful Inn is south to the Western Main Road.
+~
+0 A 3 
+D2
+The Western Street.
+~
+~
+0 0 18084
+S
+#18089
+The Western Road Continues~
+Dark grey stone paves the street beneath you, adding to the affect of 
+the monstrous city. Tall buildings loom up around you, sparking your intrest 
+in every direction. The daily noise of the villagers is starting to become 
+just another sound in the background. This is by far one of the best cities 
+you have ever come across, and you wish never to leave. To the north you see a
+quaint little container shop. To the south and old-fashioned library. 
+To the west the road continues, and the east will take you back to the market 
+square, eventually.
+~
+0 A 3 
+D0
+A Quaint Little Shop.
+~
+door~
+1 0 18090
+D1
+The Western road continues.
+~
+~
+0 0 18084
+D2
+The Library.
+~
+~
+1 0 18091
+D3
+The Western road continues.
+~
+~
+0 0 18099
+S
+#18090
+Zanrich's Grade (A) Containers!~
+You have walked upon a beautiful little room; wooden floors and walls, and 
+many many windows allowing light to flow in. You notice that shelves line 
+the walls, filled with containers of many different sizes. You see a large 
+table with a man standing behind it, selling his grade A containers. 
+The only exit is south to the main road.
+~
+0 A 3 
+D2
+The Western Road.
+~
+~
+0 0 18089
+S
+#18091
+The Library~
+You have come upon the one and only library of The Valley. Giant shelves 
+filled with books souround the walls of this huge buidling. Many tables and 
+file dressers fill this room adding to the intellegen atmosphere. A large 
+set of stairs with a bookshelf lining it, leads to an upstairs balcony. 
+A large sign overhead says "Shhhhh....Its a Library...." informing you to 
+keep quiet. The exits are north to the western road, and west to the stairwell.
+~
+0 A 3 
+D0
+The Western Road.
+~
+~
+0 0 18089
+D3
+The Large Stairwell.
+~
+~
+0 0 18092
+S
+#18092
+The Large Stairwell~
+A large wooden stairwell leads to the upper balcony. It is as large as 
+a common bedroom in an Inn wide, and about 36 steps high. A large bookshelf 
+is to your left, following the length of the stairwell. A beautiful black 
+carpet rests underfoot, softening the thuds of yours and others boots. From 
+up here you notice how big and wonderful this library really is. Your exits
+are east to the main room in the library, and up to the balcony.
+~
+0 A 3 
+D1
+The main room.
+~
+~
+0 0 18091
+D4
+The Balcony.
+~
+~
+0 0 18093
+S
+#18093
+The Large Balcony~
+Very large indeed! This balcony has the greatest collection of old books of 
+lore and tales you have ever seen. Many tables fill the center with many people
+reading the books you could only find hear. A large curtain borders the wide 
+window a then other end. A dark red carpet is under the tables, protecting the 
+wooden floor from scratches. You wonder what book you would like to read 
+first! The only level is down the stairwell.
+~
+0 A 3 
+D2
+You see nothing special there.
+~
+~
+1 0 18094
+D5
+The stairwell.
+~
+~
+0 0 18092
+S
+#18094
+A Secret Passage Behind The Bookcase~
+Upon lifting a great book on Titan lore, the bookcase opens infront of you, 
+leading into a secret passage. You quickly scrambled in, with the bookcase 
+closing shut behind you. Very dim torches light this stone corridor, making 
+it almost impossible to see. It seems to be a dead end, or at least it needs 
+a key to get back into the library. You wonder what mysterious things lie 
+ahead, where does the path lead to, where shall you end up? The only exit is 
+west, and back north to the balcony.
+~
+0 A 5 
+D0
+Back to the balcony.
+~
+~
+0 0 18093
+D3
+The passage continues.
+~
+~
+0 0 18095
+S
+#18095
+The Secret Corridor Inside The Library~
+You wonder how many people have used this corridor in the past centure. Sure 
+the torches are lit, but they seem to be glowing a deep orange, sort of like 
+Titan magic. The dark path leads ahead to the west, going into the unknown. 
+You can always head back, in hopes someone will open the door, like you did. 
+But the chances of that happening are very slim. The only exits are west
+and east.
+~
+0 A 5
+D1
+The passage continues.
+~
+~
+0 0 18094
+D3
+The passage continues.
+~
+~
+0 0 18096
+S
+#18096
+A Three-Way Passage in The Dark Corridor~
+You have come along a three-way passage. To the north you see the passage 
+heading slightly downwards. The passage also continues on to the west and east,
+into dark forbidding chambers. You hope to your wonderful deity that you find 
+an exit soon. Light lead the way!
+~
+0 A 5 
+D0
+The passage continues.
+~
+~
+0 0 18097
+D1
+The passage continues.
+~
+~
+0 0 18095
+D3
+The passage continues.
+~
+~
+0 0 18098
+S
+#18097
+An Abrupt Dead-End in The Passage~
+You have come to a dead-end in the passage. You feel as though you want 
+to cry, though perhaps you shouldn't. You wonder what is there for you lieing 
+west of the three-way passage, but you feel mighty tired for any surprizes 
+or letdowns. Before you give up all hope, you notice a small little door near 
+the ground. No, not a door but a grate leading out side! You beed down to get 
+a closer look. *sniff* The smell! Garbage! It leads to the garbage dump! You 
+wish there was another way but, 'Que sera, sera'...'whap happens, happens.' 
+The exits are north, through the grate to the garbage dump and south to the 
+three-way passage.
+~
+0 A 3  
+D0
+The dirty grate.
+~
+grate~
+1 0 18082
+D2
+The three-way passage
+~
+~
+0 0 18096
+S
+#18098
+A Dead-End~
+You have come upon a dead-end in the corridor. This room is dark and dreary 
+like all others, except there is an odd feeling in this room. A husky man with 
+a rugged shaved face walks up to you and shows you his pet collection. Such 
+wild beasts made tame for fighting purposes! It would be neat to see what they 
+can really do! The only exit is back east to the three-way passage.
+~
+0 A 3 
+D0
+You see eee...... nothing special there.
+~
+secret~
+1 0 18124
+D1
+The passage continues.
+~
+~
+0 0 18096
+S
+#18099
+The End of The Western Roads~
+You have come to the end of the elegant western roads. Three beautiful shops 
+line these streets adding to the elegance of this city. Large red stonework 
+covers the bottom half of the three stores and dark brown wooden shingles 
+covering the second half. There is a baker, a wands shop, and a small pet shop.
+The exits are west to the pet shop, east to the western main road, north
+to the baker and south to the wand shop.
+~
+0 A 3 
+D0
+The baker.
+~
+~
+0 0 18102
+D1
+The west main street.
+~
+~
+0 0 18089
+D2
+The wand shop.
+~
+door~
+1 0 18103
+D3
+The pet shop.
+~
+door~
+1 0 18100
+S
+#18100
+The Pet Shop~
+You have come across a beautiful little pet shop. Silver cages line the 
+walls, each displaying cute and cuddly little pets. A large oak desk lies in
+in front of you, with a small little girl humming to herself. She seems to 
+enjoy playing with the animals and running her little shop. You wonder how much
+each of the pets will cost. The only exit is east back to the main road.
+~
+0 DM 0 
+D0
+The forbidden store room.
+~
+door~
+1 0 18101
+D1
+The main road.
+~
+~
+0 0 18099
+S
+#18101
+The Secret Store Room~
+You have come into a forbidden store room. There are many cute pets here, but 
+the room is forbidden! Please leave, though I do not know how you got here. If 
+I find you I shall slay you personally. No hard feelings, 
+			 Xavier - Lord of The Druids.
+The only exit is south to the pet shop where you belong! Not here in 
+the forbidden store room!
+~
+0 DS 0  
+D2
+The store room, where you belong!
+~
+~
+0 0 18100
+S
+#18102
+The Valley of The Titans' Best Bakery~
+You have come upon the best bakery in the whole city! Shelves upon  shelves 
+of goodies line the walls, a large bakery to the backwith men working hard 
+at making bread and cakes. There is a large baker here, selling the goodies 
+around you. You would sure like to buy something! The only exit is south 
+to the main street.
+~
+0 A 3 
+D2
+The main street.
+~
+~
+0 0 18099
+S
+#18103
+The Magical Wands Shop~
+You have entered a large room filled with magical wands. This room seems 
+to be glowing with magic and power. A large wizard is behind the counter, 
+enchanting the latest wands with magical spells. You wonder what magical 
+things you can get in this store. The only exit is north to the main street.
+~
+0 A 3 
+D0
+The main street.
+~
+~
+0 0 18099
+S
+#18104
+The Eastern Boulevard~
+You have come upon the eastern boulevard, the finest road to the kingdom. 
+Many beautiful houses line this street, without a store in sight. Dark grey 
+stones pave this road, with a bright white sidewalk, making this street one 
+of the most spectacular streets of the city. In the far background you notice 
+the giant castle of the King and Queen of the Titans. Oh how you would like
+to meet the royal family, consult with the head advisor, speak with the 
+lieutenant commander. *Sigh* Perhaps they are all just dreams but someday 
+you really do hope to meet them. The street continues south to the Northern 
+Royal Avenue, and west to the southern town square.
+~
+0 A 3 
+D2
+The Northern Royal Ave.
+~
+~
+0 0 18106
+D3
+~
+~
+0 0 18049
+S
+#18105
+The Eastern Boulevard~
+You have come upon the eastern boulevard, the finest road in the kingdome. 
+Many beautiful houses line this street, without a store in sight. Dark grey 
+stones pave this road, with a bright white sidewalk making this street one 
+of the most spectacular streets of the city. In the far background you notice 
+the giant castle of the King and Queen of the Titans. Oh how you would like
+to meet the royal family, consult with the head advisor, speak with the 
+lieutenant commander. *Sigh* Perhaps they are all just dreams but someday 
+you really do hope to meet them. The street coninues north to the Southern 
+Royal Avenue, and west to the Market Square.
+~
+0 A 3 
+D0
+The Southern Royal Ave.
+~
+~
+0 0 18107
+D3
+The Market Square.
+~
+~
+0 0 18059
+S
+#18106
+The Royal Avenue North~
+You have come upon the Royal Avenue North, the street of the most famous 
+people in all the Valley, save the King and Queen. Large grey flagstones 
+pave this street, giving it a wonderful beauty. Fine white houses fill both 
+sides of the roads, nestled in packs of trees and shrubs. This is truely one 
+of the most gloryious streets in all of the Valley. The exits are north to
+the Eastern Boulevard and south to the Royal Square.
+~
+0 A 3 
+D0
+The Eastern Boulevard.
+~
+~
+0 0 18104
+D2
+The Royal Square.
+~
+~
+0 0 18108
+S
+#18107
+The Royal Avenue South~
+You have come upon the Royal Avenue North, the street of the most famous 
+people in all the Valley, save the King and Queen. Large grey flagstones 
+pave this street, giving it a wonderful beauty. Fine white houses fill both 
+sides of the roads, nestled in packs of trees and shrubs. This is truely one 
+of the most gloryious streets in all of the Valley. The exits are north to
+the Royal Square and south to the Eastern Boulevard.
+~
+0 A 3 
+D0
+The Royal Square.
+~
+~
+0 0 18108
+D2
+The Eastern Boulevard.
+~
+~
+0 0 18105
+S
+#18108
+The Royal Square~
+The legendary Royal Square. It is said to be the most finest spot in all 
+the lands. A large Triggallon marks the center of the square; the one magical 
+spot where the great wizards of old drew the most magical powers of the 
+universe to save the city and protect it. This is truely a sacred place and 
+it is said that no wrong can happen here. The exits are north to the Northern 
+Royal Avenue, south to the Southern Royal Avenue and east to The Royal Gates.
+~
+0 A 1 
+D0
+The Northern Ave.
+~
+~
+0 0 18106
+D1
+The Royal Gates.
+~
+~
+1 -1 18109
+D2
+The Southern Ave.
+~
+~
+0 0 18107
+S
+#18109
+The Royal Gates~
+To beautiful golden gates guard the palace protectively. No one really knows 
+what lies beyond this point. Many guards are here, protecting the grand gates 
+from thieves and beggars who would cause trouble within the palace walls. The 
+golden and silver symbol of the Titans is large on the door, seeming almost
+magical and protective. The exits are east to the palace grounds, and west 
+back to the Royal Square.
+~
+0 A 1 
+D1
+The Palace Gates. 
+~
+gates~
+1 0 18110
+D3
+The Gates to the Royal Square.
+~
+~
+0 0 18108
+S
+#18110
+The Palace Grounds~
+You have come into the palace grounds. It is truely amazing. Giant pillars 
+reach into the sky at every 50 feet, large training grounds and guilds of 
+all kinds, and then the castle! Oh such a beauty! Such wonder and magic, 
+all centered here! You do not know what you want to see first. The exits 
+are south to warriors and clerics guild, north to the training grounds, 
+east on to the palace, and west back through the gates.
+~
+0 A 1 
+D0
+The Training Grounds.
+~
+~
+0 0 18114
+D1
+On To The Palace.
+~
+~
+0 0 18112
+D2
+The Doors to The Warriors and Clerics Guild.
+~
+door~
+1 0 18111
+D3
+The Palace Gates.
+~
+~
+0 0 18109
+S
+#18111
+The Guild of The Warriors and The Clerics~
+You have entered a giant, white marble floored guild. Many warriors and 
+clerics are here, learning the tricks of the trade. There are several 
+guildmasters here, aswell as a guildguard. About half a dozen or so clerics 
+and warriors alike, are busy learning their skills to their maximum possible 
+experties. Perhaps you can sharpen your skills and become a far better
+warrior or cleric. The only exit is north, back to the road.
+~
+0 A 1 
+D0
+The Great Doors.
+~
+~
+0 0 18110
+S
+#18112
+The Road To The Palace~
+You continue on the road to the palace. You notice that there is 
+a large  training field to your left and a beautiful guild to your right. 
+`The Guild of The Thieves and The Mages' a brightly colored sign above you 
+reads. Perhaps there are some finer skills that you could learn here, being 
+the finest city in the world, their guildmasters must be the best. The exits 
+are north to the training grounds, south to the guild, east to the palace, 
+and west to the road to the gates.
+~
+0 A 3 
+D0
+The Training Grounds.
+~
+~
+0 0 18117
+D1
+The Palace.
+~
+door~
+1 0 18120
+D2
+The Great Doors.
+~
+door~
+1 0 18113
+D3
+The Road to The Gates.
+~
+~
+0 0 18110
+S
+#18113
+The Guild of The Thieves and The Mages~
+You have come into a giant room, filled with thieves and mages. Many people 
+are here, practicing to be come better at their skills. Several guildmasters 
+are here, teaching their students to be the best they can be. A couple of 
+guildguards guard the doors, making sure no one who does not belong enters.
+The only exit is north, back to the road.
+~
+0 A 3 
+D0
+The Great Doors.
+~
+~
+0 0 18112
+S
+#18114
+The Training Grounds South~
+You have come upon the great training grounds. The most skilled of all 
+classes is here, teaching his students the art of combat, healing, magic 
+and thievery. He seems too busy ordering his studens about to mess with you. 
+Perhaps, if you could take the training discipline, you could become one of 
+his finest students. The ground is barren and empty. The only exits are
+north, to the training grounds south-center, south to the road, and east 
+to the training grounds center.
+~
+0 A 3 
+D0
+The Training Grounds.
+~
+~
+0 0 18115
+D1
+The training grounds.
+~
+~
+0 0 18117
+D2
+The road.
+~
+~
+0 0 18110
+S
+#18115
+The Training Grounds, South-Center~
+You have come to the training grounds south-center. Many fine people are 
+here, fighting with all their strength against evil foes, caught and brought 
+into the palace for this test. The barren grounds are covered with the odd 
+stain of blood, broken sword, and torn cloth. The exits are north east and 
+south, all to training grounds.
+~
+0 A 3 
+D0
+The training grounds.
+~
+~
+0 0 18116
+D1
+The training grounds.
+~
+~
+0 0 18118
+D2
+The training grounds.
+~
+~
+0 0 18114
+S
+#18116
+The Training Grounds South~
+You have come upon yet another piece of land, sacrificed to the training 
+grounds. There are several burns, blood stains, broken steel, and torn 
+cloth lieing about on the ground. You had best leave before you are asked 
+to take part and join the never ending conquest for glory. The exits are 
+south and east to the training grounds.
+~
+0 A 3 
+D1
+The training grounds.
+~
+~
+0 0 18119
+D2
+The training grounds.
+~
+~
+0 0 18115
+S
+#18117
+The Training Grounds, Center~
+You have come upon one of the more busy training grounds. Large men and 
+sly women are here, fighting with all their might against the convicted evil 
+of the Valley. You would hate to be in their shoes, or in their enimies. These 
+seem to be very strong people and you would hate to mess with them. The barren 
+grounds have several blood stains streaking across them. The exits are in 
+three directions, north, south, and west. All going to training grounds, 
+save south which takes you to the road.
+~
+0 A 3 
+D0
+The training grounds.
+~
+~
+0 0 18118
+D2
+The road.
+~
+~
+0 0 18112
+D3
+The training grounds.
+~
+~
+0 0 18114
+S
+#18118
+The Northern Training Grounds, Center~
+You have come upon yet another wide section of barren grounds, devoted 
+to the training of the soldiers of the Titan Armies. Blood and cloth are all 
+about, making this a very gruesome scene. There are several fine weaponmasters 
+in all classes, fighting for their life, killing evil deamons and beasts from 
+hell. The exits are north, south and west, all leading to the training grounds.
+~
+0 A 3 
+D0
+The training grounds.
+~
+~
+0 0 18119
+D2
+The training grounds.
+~
+~
+0 0 18117
+D3
+The training grounds.
+~
+~
+0 0 18115
+S
+#18119
+The Training Grounds, North~
+You have come upon the northern-most ends of the training grounds. Here, 
+there are less stains on the grounds, but more on the walls. Warriors, 
+thieves, mages and clerics all fight for their lives here, against the demons 
+of hell, shadowspawn. You have a choice of south or west, both  leading to 
+training grounds. You really do wish to leave here as fast as you may.
+~
+0 A 3 
+D2
+The training grounds.
+~
+~
+0 0 18118
+D3
+The training grounds.
+~
+~
+0 0 18116
+S
+#18120
+Inside The Palace~
+You have entered the glorious and wonderful palace. The home of the King 
+and Queen of the Titans! This palace seems to be made of pure gold and silver, 
+one of the most common materials in these parts of the world. You notice many 
+halls leading in all directions; servants and maids rush about, trying to 
+please the royal family. You notice a giant stairway leading to a second floor 
+belcany. The exits are east, through a giant hall, and west, through 
+the palace doors.
+~
+0 A 3 
+D1
+The Massive Hall.
+~
+~
+0 0 18121
+D3
+The Grand Palace Doors.
+~
+~
+0 0 18112
+S
+#18121
+An Elegant Massive Hall~
+You have entered a giant massive hall. The walls are lines with 
+tapestries  of all kinds, telling stories of war, conquests, invasions, 
+magic, love, trust, evil and several others. Giant slabs of white marble 
+with the odd splash of gold, cover the floor. Large statues of brave warriors, 
+ancient rulers and the wise ones line the hall, creating a historical look. 
+A giantdoorway to the east leads into the beautiful throne room. To the
+west of this room lies the doorway you came through.
+~
+0 A 3 
+D1
+The Throne Room.
+~
+~
+0 0 18122
+D3
+The Front Foyer.
+~
+~
+0 0 18120
+S
+#18122
+The Throne Room~
+Behold! The King and Queen of The Titans! Such a spectacular room! This 
+is the most impressive room in all of Thera! The kings and queens of Thalos 
+would never believe in such beauty! Such a wonderful place has not been build 
+since the times of legends, but perhaps this is right out of that era. Large 
+green thrones sit high in this room. The King and The Queen have faces that
+look as though they have never aged. The queen's advisors are about you, 
+aiding her with the disisions of the future of the caslte. The only exit to 
+this room is west, back to the massive hall.
+~
+0 A 3 
+D1
+The Throne.
+~
+throne~
+1 0 18123
+D3
+The massive hall.
+~
+~
+0 0 18121
+S
+#18123
+A Secret Passage Behind The Throne~
+You have sumbled on a secret passage behind the throne. You realize that 
+there is an assassin here, stalking the king and queen! You better report him, 
+and this room, or kill him yourself! I am sure the king and queen will pay 
+highly for his head. This assassin appears to be very talented.
+~
+0 A 3 
+D3
+The Throne.
+~
+~
+0 0 18122
+S
+#18124
+The Room of The Deadly Beasts~
+Mystical beasts fill this room, all rather tame, yet all with a deadly 
+power. Each beast brought from a far and magical place, to serve young foolish 
+mortals. Beware, they have not eaten and you look mighty tasty right now. 
+A sign is on the wall, writen in blood. It reads:
+ 
+     "BE GONE! You do not belong here! If I catch you here, messing 
+		     with my pets I shall SLAY you!"
+
+     The Keeper of The Deadly Pets.
+Freaky! There is no exit! Aaaahahhhhhhh.h........h.......!
+~
+0 M 1 
+D2
+You see nothing special there.
+~
+~
+0 0 18098
+S
+#18125
+Store of the deadly beast~
+Store of the deadly beast
+~
+0 0 1
+S
+#0
+
+#RESETS
+* ver 1.01
+* bunch of bugs removed by Kajko and jaceks
+* - many wrong entrances fixed
+* - too long lines in rooms description fixed
+* - prisoner strip removed from baker inventory
+* - prize of chocolate changed ;)
+* - level of a fresh breadstick fixed
+*
+*  july, 96
+*
+D 0 18015 1 1 
+D 0 18021 1 1 
+D 0 18037 1 1
+D 0 18041 1 1
+D 0 18041 3 1
+D 0 18052 0 1
+D 0 18054 3 1
+D 0 18055 0 1
+D 0 18056 1 1
+D 0 18060 1 1
+D 0 18067 1 1
+D 0 18067 2 1
+D 0 18067 3 1
+D 0 18076 0 1
+D 0 18082 2 1
+D 0 18084 0 1
+D 0 18084 2 1
+D 0 18089 0 1
+D 0 18089 2 1
+D 0 18093 2 1
+D 0 18097 0 1
+D 0 18098 0 1
+D 0 18099 2 1
+D 0 18099 3 1
+D 0 18100 0 1
+D 0 18108 1 1
+D 0 18109 1 1
+D 0 18110 2 1
+D 0 18112 1 1
+D 0 18112 2 1
+D 0 18122 1 1
+*
+O 0 18084 1 18017 
+*
+M 0 18029 1 18022 1          * the house chef (30)
+E 1 18055 -1 6                 * the Cook's Hat
+E 1 18056 -1 17                * the Cook's Pot
+*
+M 0 18030 2 18022 2          * the serf (30)
+E 1 18057 -1 8                 * the little serfs shoes
+*
+M 0 18001 10 18027 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+* E 1 18033 -1 12
+M 0 18001 10 18027 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18050 8 18027 2          * a titan girl (33)
+*
+M 0 18001 10 18028 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+M 0 18001 10 18028 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18001 10 18032 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18099 3 18033 2          * a happy villager (28)
+G 1 18025 -1                   * a broken wine bottle
+*
+M 0 18002 7 18035 2          * a poor ally cat (30)
+G 1 18024 -1                   * a fish bone
+M 0 18002 7 18037 2          * a poor ally cat (30)
+G 1 18024 -1                   * a fish bone
+*
+M 0 18017 1 18038 1          * the town sheriff (30)
+*
+M 0 18018 1 18042 1          * the jail guard (28)
+E 1 18063 -1 16                * a Long Golden Dagger
+*
+M 0 18020 2 18043 1          * a stinky prisoner (25)
+E 1 18013 -1 5                 * A Prisoner's Strip-Suit
+*
+M 0 18065 3 18043 2          * a happy peasant (28)
+*
+M 0 18020 2 18044 1          * a stinky prisoner (25)
+E 1 18013 -1 5                 * A Prisoner's Strip-Suit
+*
+M 0 18001 10 18045 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18014 1 18047 1          * a kind waiter (S)
+G 1 18000 -1                   * a bottle of Bordeau Wine
+G 1 18001 -1                   * a bottle of Chablis Wine
+G 1 18002 -1                   * a bottle of Liebfraumilch
+G 1 18003 -1                   * a bottle of Austrian Red
+G 1 18004 -1                   * a bottle of Sauvignon Blanc
+G 1 18005 -1                   * a bottle of Tanqueray
+*
+M 0 18028 4 18047 2          * a titan citizen (28)
+E 1 18060 -1 8                 * a Titan Citizen's Leather Boots
+*
+M 0 18021 1 18048 1          * The chocolate shopkeeper (S)
+G 1 18076 -1                   * some chocolate covered almonds
+G 1 18077 -1                   * some chocolate fudge
+G 1 18078 -1                   * some chocolate brittle
+G 1 18079 -1                   * some chocolate mint
+*
+M 0 18076 2 18048 2          * the store aid (25)
+*
+M 0 18099 3 18049 2          * a happy villager (28)
+G 1 18025 -1                   * a broken wine bottle
+*
+M 0 18022 1 18051 1          * the icecreams vendor (S)
+G 1 18073 -1                   * a Double Scoop of Chocolate Icecream
+G 1 18074 -1                   * a Tripple Scoop of Blueberry Icecream
+G 1 18075 -1                   * a Single Scoop of Fudge Icecream
+*
+M 0 18012 1 18052 1          * the designer (S)
+G 1 18080 -1                   * A pair of black suede boots
+G 1 18081 -1                   * A long navy blue skirt
+G 1 18082 -1                   * A beautiful silver and white cloak
+G 1 18083 -1                   * An emerald-studded bracer
+*
+M 0 18077 1 18053 1          * the leather worker (30)
+*
+M 0 18001 10 18054 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18016 1 18055 1          * the florist (S)
+G 1 18050 -1                   * a Bright Yellow Tulip 
+G 1 18051 -1
+G 1 18052 -1
+G 1 18053 -1
+G 1 18054 -1
+*
+M 0 18050 8 18055 2          * a titan girl
+*
+M 0 18023 1 18058 1          * the apiarist
+G 1 18019 -1
+G 1 18020 -1
+G 1 18021 -1
+*
+M 0 18001 10 18059 2         * the town guard (45)
+E 1 18026 -1 5                 * a townguard crest
+*
+M 0 18099 3 18059 2          * a happy villager (28)
+G 1 18025 -1                   * a broken wine bottle
+*
+M 0 18003 1 18059 1          * the bongo drummer (25)
+E 1 18010 -1 16
+*
+M 0 18004 1 18059 1          * the guitar player of the band (25)
+E 1 18011 -1 16
+*
+M 0 18005 1 18059 1          * the windpipe player of the band (25)
+E 1 18012 -1 16
+*
+M 0 18028 4 18059 2          * a titan citizen (28)
+E 1 18060 -1 8                 * a Titan Citizen's Leather Boots
+*
+M 0 18032 2 18060 2          * a patrol guard (40)
+E 1 18061 -1 16                * a patrol guard's club
+*
+M 0 18033 3 18060 2          * a happy villager (30)
+*
+M 0 18006 1 18061 1          * the armourer (S)
+G 1 18033 -1
+G 1 18034 -1
+G 1 18035 -1
+G 1 18036 -1
+G 1 18037 -1
+*
+M 0 18049 6 18061 2          * a small boy titan (33)
+*
+M 0 18087 1 18063 1          * a hard working armourer (40)
+*
+M 0 18010 1 18066 1          * the weaponsmith (S)
+G 1 18044 -1
+G 1 18045 -1
+G 1 18046 -1
+G 1 18047 -1
+G 1 18048 -1
+G 1 18049 -1
+*
+M 0 18075 1 18066 1          * a tourist (25)
+G 1 18023 -1
+*
+M 0 18078 1 18066 1          * a hard working blacksmith (35)
+*
+M 0 18028 4 18067 2          * a titan citizen (28)
+E 1 18060 -1 8                 * a Titan Citizen's Leather Boots 
+*
+M 0 18098 1 18068 1          * the apothecary (S)
+G 1 18028 -1
+G 1 18029 -1
+G 1 18030 -1
+G 1 18099 -1
+G 1 18031 -1
+G 1 18032 -1
+*
+M 0 18051 2 18069 2          * a sleeping patrol guard (40)
+*
+M 0 18009 1 18071 1          * the produce grocer (S)
+G 1 18038 -1
+G 1 18039 -1
+G 1 18040 -1
+G 1 18041 -1
+G 1 18042 -1
+*
+M 0 18049 6 18071 2          * a small boy titan (33)
+*
+M 0 18076 2 18072 2          * the store aid (25)
+*
+M 0 18008 1 18073 1          * the meat grocer (S)
+G 1 18006 -1
+G 1 18007 -1
+G 1 18008 -1
+G 1 18009 -1
+G 1 18100 -1
+*
+M 0 18001 10 18074 2        * the town guard (45)
+E 1 18026 -1 5
+*
+M 0 18002 7 18074 2         * a poor ally cat (30)
+G 1 18024 -1
+*
+M 0 18033 3 18074 2         * a happy villager (30)
+*
+M 0 18065 3 18074 2         * a happy peasant (28)
+*
+M 0 18013 1 18075 1         * the bartender
+G 1 18051 -1
+*
+M 0 18002 7 18081 2         * a poor ally cat (30)
+G 1 18024 -1                  * a fish bone
+* 
+M 0 18002 7 18081 2         * a poor ally cat (30)
+G 1 18024 -1                  * a fish bone
+*
+M 0 18031 2 18081 2         * a grubby beggar (25)
+G 1 18058 -1                  * a little beggar's money pouch
+*
+M 0 18002 7 18082 2         * a poor ally cat (30)
+G 1 18024 -1
+*
+M 0 18031 2 18082 1         * a grubby beggar (25)
+G 1 18058 -1                  * a little beggar's money pouch
+*
+M 0 18050 8 18082 2         * a titan girl (33)
+*
+M 0 18033 3 18083 2         * a happy villager (30)
+*
+M 0 18051 2 18083 2         * a sleeping patrol guard (40)
+*
+M 0 18015 2 18085 1         * the inn keeper (51)
+G 1 18027 -1
+*
+M 0 18049 6 18085 2         * a small boy titan (33)
+*
+M 0 18015 2 18088 1         * the inn keeper (51)
+G 1 18027 -1
+*
+M 0 18002 7 18089 2         * a poor ally cat (30)
+G 1 18024 -1                  * a fish bone
+*
+M 0 18028 4 18089 2         * a titan citizen (28)
+E 1 18060 -1 8                * a Titan Citizen's Leather Boots
+*
+M 0 18032 2 18089 2         * a patrol guard (40)
+E 1 18061 -1 16
+*
+M 0 18065 3 18089 2         * a happy peasant (28)
+*
+M 0 18025 1 18090 1         * Zanrich the Shopkeeper (S)
+G 1 18064 -1
+G 1 18065 -1
+G 1 18066 -1
+*
+M 0 18011 1 18093 1         * the librarian
+G 1 18049 -1
+*
+M 0 18064 3 18095 2         * a small rat (30)
+*
+M 0 18064 3 18096 2         * a small rat (30)
+*
+M 0 18001 10 18099 1        * the town guard (45)
+E 1 18026 -1 5
+*
+M 0 18007 1 18100 1         * the young pet-shop girl (S)
+* G 1 18027 -1
+* G 1 18021 -1
+*
+M 0 18057 1 18101 1         * a Spider Monkey (20)
+*
+M 0 18058 1 18101 1         * a tame lion (25)
+*
+M 0 18059 1 18101 1         * a large black wolf (30)
+*
+M 0 18060 1 18101 1         * a Fearsome Java Beast (35)
+*
+M 0 18024 1 18102 1         * the baker (S)
+G 1 18014 -1
+G 1 18015 -1
+G 1 18016 -1
+G 1 18017 -1
+G 1 18018 -1
+*
+M 0 18026 1 18103 1         * the wand making wizard (S)
+G 1 18067 -1
+G 1 18068 -1
+G 1 18069 -1
+G 1 18070 -1
+G 1 18071 -1
+G 1 18072 -1
+*
+M 0 18027 2 18104 2         * the knight templar (40)
+*
+M 0 18027 2 18105 2         * the knight templar (40)
+E 1 18059 -1 17
+*
+M 0 18048 8 18108 2         * a Royal Titan guard (40)
+G 1 18062 -1
+*
+M 0 18048 8 18108 2         * a Royal Titan guard (40)
+G 1 18062 -1
+*
+O 0 18084 8 18108           
+*
+M 0 18048 8 18109 2         * a Royal Titan guard (40)
+G 1 18062 -1
+*
+M 0 18048 8 18109 2         * a Royal Titan guard (40)
+G 1 18062 -1
+*
+M 0 18066 1 18111 1         * the guildmaster (40)
+M 0 18067 1 18111 1         * the guildstudent cleric (35)
+M 0 18068 1 18111 1         * the guildstudent warrior (35)
+M 0 18071 1 18111 1         * the guildguard (30)
+M 0 18072 1 18111 1         * the guildguard (30)
+M 0 18062 1 18112 1         * the Queen Crystal (51)
+M 0 18079 1 18112 1         * the Titan Lieutenant Commander (42)
+M 0 18080 2 18112 2         * a Titan Soldier (38)
+M 0 18080 2 18112 2         * a Titan Soldier (38)
+M 0 18069 1 18113 1         * the guildstudent thief (35)
+M 0 18070 1 18113 1         * the guildguard (30)
+M 0 18073 1 18113 1         * the guildguard (30)
+*
+M 0 18034 1 18114 1         * the tournament guard (48)
+E 1 18086 -1 16
+*
+M 0 18039 1 18114 1         * an evil baby dragon (25)
+* E 1 18022 -1 16
+*
+M 0 18035 1 18115 1         * a tournament warrior (38)
+E 1 18022 -1 16
+*
+M 0 18040 1 18115 1         * a gloomy evil tree (30)
+*
+M 0 18047 1 18115 1         * a demon of stone (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18036 1 18116 1         * a tournament mage (38)
+* E 1 18022 -1 16
+*
+M 0 18041 1 18116 1         * a deadly rain cloud (23)
+*
+M 0 18037 1 18117 1         * a tournament cleric (38)
+E 1 18022 -1 16
+*
+M 0 18042 1 18117 1         * a demon of fire (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18043 1 18117 1         * a demon of water (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18038 1 18118 1         * a tournament thief (38)
+E 1 18022 -1 16
+*
+M 0 18044 1 18118 1         * a demon of air (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18045 1 18119 1         * a demon of earth (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18046 1 18119 1         * a demon of wood (35)
+E 1 18085 -1 16               * a Standard Demon Weapon
+*
+M 0 18030 2 18120 1         * the serf (30)
+E 1 18057 -1 8
+*
+M 0 18074 1 18121 1
+M 0 18097 1 18122 1
+M 0 18052 1 18122 1
+M 0 18061 1 18122 1
+M 0 18063 1 18123 1
+M 0 18064 3 18123 1
+M 0 18053 1 18124 1
+M 0 18090 1 18125 1
+M 0 18054 1 18125 1
+M 0 18055 1 18125 1
+M 0 18056 1 18125 1
+S
+
+#SHOPS
+18006 9 0 0 0 0 155 27 0 23
+18007 0 0 0 0 0 155 22 0 23
+18008 0 0 0 0 0 155 22 0 23
+18009 0 0 0 0 0 155 25 0 23
+18010 5 0 0 0 0 155 22 0 23
+18011 1 2 3 4 0 155 29 0 23
+18012 11 12 13 0 0 155 28 0 23
+18013 17 0 0 0 0 155 22 0 23
+18014 17 0 0 0 0 154 26 0 23
+18015 17 0 0 0 1 156 26 0 23
+18016 0 26 0 0 0 155 22 0 23
+18021 0 0 0 0 0 155 26 0 23
+18022 0 0 0 0 0 155 22 0 23
+18023 0 0 0 0 1 155 26 0 23
+18024 0 1 2 11 0 151 26 0 23
+18025 15 16 0 0 0 159 24 0 23
+18026 1 2 3 4 26 150 21 0 23
+18053 0 0 0 0 0 150 23 0 23
+18098 2 3 4 10 0 150 15 0 23
+0
+
+#SPECIALS
+M 18017 spec_cast_cleric
+M 18020 spec_cast_mage
+M 18031 spec_thief
+M 18034 spec_cast_mage
+M 18039 spec_breath_any
+M 18040 spec_breath_any
+M 18061 spec_cast_cleric
+M 18062 spec_cast_mage
+M 18063 spec_poison
+S
+
+#$
+

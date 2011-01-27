@@ -1,0 +1,4000 @@
+#AREA
+DSA Format~
+yrarl.are~
+Yrarl~
+{20 70} Alecca   Castle Yrarl~
+23500 24299
+Descr
+No description.
+~
+Sec 9
+Levels 30 70
+Flags A
+End
+#HELPS
+Yrarland, the home of King Bollo, one of the best rulers the country of
+Jerech has ever seen, is known for it's shops...and it's lovely princess.  
+Castle Yrarl looms tall above the surrounding shops and homes that surround it.
+
+
+Castle Yrarl was written by Alecca for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact, only changes to hp/weapon
+dice/armor class and the like are allowed.  Names and descriptions will
+not change.
+-1 $~
+
+#MOBILES
+#23500
+citizen yrarl~
+A citizen of Yrarl~
+A citizen of Yrarl is here.
+~
+~
+human~
+ABCG Ic 0 0 6800
+80 0 15d10+1850 0d0+0 4d8+13 stab
+-13 -13 -13 -10
+FIKN 0 0 0
+stand stand either 400
+AHMV ABCDEFGHIJKL medium none
+~
+End
+#23582
+bartender yrarland xaw~
+The Yrarlandian Bartender~
+Xaw, the bartender is here, drawing a mug of ale.
+~
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 5d6+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23583
+Idaves shopkeeper Yrarlandian~
+Idaves the Shopkeeper~
+Idaves looks at you expectantly and waits for your order.
+~
+Idaves is a portly man who seems to eat most of his profits.  He has a fine
+reputation in Yrarl for his fairness in trade.
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+0 1000d1+0 5d6+15 slash
+-15 -15 -15 -2
+EFIK ABCD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23584
+Irile baker Yrarlandian~
+Irile the baker~
+Irile is baking a pie in the back of the room.
+~
+Irile blows the flour out of her face as she sings softly to herself.
+~
+human~
+ABT DJZ 0 0 0
+40 10 1000d1+0 1000d1+0 5d6+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23585
+Ali metalsmith Yrarlandian~
+Ali, the Metalsmith~
+The metalsmith is here, pounding upon a strip of steel.
+~
+This heavily muscled man is the metalsmith of Castle Yrarl.  He has
+moved his operation outside into the small village in order to gain a profit
+by turning metal for paying civilian customers as well as the King's men. 
+As he works the bellows rapidly, you can see the massive muscles in his back
+and arms flexing back and forth, and you know that this is NOT a man to
+messed with.  
+~
+human~
+ABT 0 0 0 0
+40 10 1000d1+0 1000d1+0 5d6+15 slash
+-15 -15 -15 -2
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23586
+jeweller Yrarlandian~
+The Yrarlandian Jeweller~
+The jeweller is here, polishing a small stone.
+~
+This small and thin man must be the jeweller.  With a small pair of
+spectacles perched upon his large nose, he gently polishes a garnet with a
+cloth, enhancing its shine.  
+~
+human~
+ABT DJZ 0 0 0
+40 10 1000d1+0 1000d1+0 5d6+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23587
+shopkeeper Yrarlandian pillseller~
+The Yrarlandian Shopkeeper~
+The shopkeeper is here, selling pills.
+~
+This shopkeeper sells her pills to everyone.  She simply LOVES pills, and
+cannot get enough of them.  
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23588
+botanist Yrarlandian~
+The Yrarlandian Botanist~
+The botanist is here, watering some plants.
+~
+This botanist studies a plant carefully before stroking its leaves softly
+and watering it from a large pitcher of water.  He is an elderly man, with
+soft features and a patient way about him.  
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23589
+shopkeeper Yrarlandian wedding~
+The Wedding Shopkeeper~
+A shopkeeper is smirking at you here.
+~
+This shopkeeper smirks wryly as you enter the shop, a knowing grin upon
+his smug face.  You wonder what crimes you must have committed to wander
+into his shop.  
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23590
+trainer Yrarlandian~
+The Yrarlandian Trainer~
+A Yrarlandian trainer is here, helping you practice.
+~
+This lean but muscular man helps all citizens and visitors to Yrarl train
+in the many arts that all professions are taught.  He is a patient and well
+learned man, skilled in just about anything you may need.  
+~
+human~
+ABKTb DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23591
+priest~
+A priest~
+A priest is here training people.
+~
+~
+human~
+ABJT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23592
+banker Yrarl~
+The Yrarlandian Banker~
+The Yrarlandian banker is here counting money.
+~
+Man, this guy is loaded.  His pockets are bulging with money and he 
+rubs his hands together anticipating more deposits into his bank.  
+~
+human~
+ABTd DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23593
+healer Yrarlandian~
+The Yrarlandian Healer~
+The Yrarlandian healer is here, helping you heal your wonds.
+~
+This kindly older woman is garbed in white robes.  She smiles serenely at
+you as places her hands gently upon your head, attempting to draw the
+negative energies away from you.  
+~
+human~
+ABa DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23595
+pawnshop broker~
+The Pawnshop Broker~
+The pawnshop broker is here, grinnng as you enter his store.
+~
+This large man is the epitome of the word "GREEDY".  With his large pudgy
+hands itching to make a great bargain for himself, he drools and cackles as
+you lay out your wares for his inspection.  
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23596
+pawnshop broker~
+The Pawnshop Broker~
+The pawnshop broker is here, almost asleep.
+~
+This fat man is most likely the brother of the owner of the pawnshop to
+the west.  Business is so bad here that there is nothing to do, and he is
+almost asleep upon his own feet.  
+~
+human~
+ABT DFJZ 0 0 0
+40 10 1000d1+1 1000d1+0 4d5+15 slash
+-15 -15 -15 -2
+EFK ABCD 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23597
+citizen yrarl~
+A citizen of Yrarl~
+A citizen of Yrarl
+~
+A level 70 thief looks pretty strong for his level.
+~
+human~
+ABCG Ic 0 0 6800
+70 0 10d10+1300 0d0+0 4d7+11 stab
+-11 -11 -11 -10
+FIKN 0 0 0
+stand stand either 300
+AHMV ABCDEFGHIJKL medium none
+~
+MaxWorld 100
+End
+#23598
+guest party~
+A party guest~
+A party guest is socializing here.
+~
+This person is a guest of the Royal Family's party.  The party guests
+have come in droves to socialize with each other in the finery of Castle
+Yrarl.  
+~
+human~
+AT JZ 0 0 0
+44 1 3d22+100 3d22+100 2d5+5 none
+2 2 2 6
+FK AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 60
+End
+#23599
+savienel~
+Savienel~
+Savienel is here dancing to the music.
+~
+Savienel is perhaps one of the nicest and most couragest zombies
+almost alive.  She was a wonderful woman in life, and in death she maintains
+her integrity and selflessness.  She has taken a drink from a love spring
+and has fallen in love with Gudalann, the son of Yrarlippe the witch.  Luckily
+for her, Gudalann has proven to be a decent man and has imbibed from the same
+spring in order to fall in love with her as well.  
+~
+human~
+ABOT JZ 0 100 0
+60 1 300d1+50 300d1+50 4d5+10 slime
+-2 -2 -2 4
+EFK AB C 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23600
+Gudalann~
+Gudalann~
+Gudalann is here, dancing with Savienel.
+~
+Gudalann is a strong country lad.  He has grown to respect the loyalty and 
+admirable qualities Savienel has shown.  When she fell in love with 
+Gudalann, he responded by drinking of the same love spring to fall madly 
+in love with her in return.  
+~
+human~
+ABT JZ 0 30 0
+62 1 600d1+1 400d1+1 4d5+10 crush
+-2 -2 -2 4
+EFIK AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23601
+urye~
+Urye~
+Urye is here humming softly to herself~
+Urye is very attractive, and she is a pleasant person inside as well as 
+outside.  She has helped Princess Meryl in more than one ocassion and has 
+proved herself an invaluable and true friend.  
+~
+human~
+AGT T 0 0 0
+65 2 750d1+0 550d1+0 4d5+10 crush
+-4 -4 -4 3
+FIKMO AB CD H
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23602
+siren~
+The Siren~
+The Siren is here, singing a song to bring the men over.
+~
+The Siren is an incredibly lovely mermaid with a beautiful singing voice.
+With her long flowing hair and inpressive upper proportions, she is a
+creature of desire for all males that view her.  Right now, however, she is
+swimming in a small tub designed to hold her during the party.  The court
+conjurer has transported her from her coral reefs to the party at behest of
+Queen Elenda.  
+~
+human~
+AT JVZ 0 0 0
+70 3 800d1+0 800d1+0 5d6+15 none
+-8 -8 -8 0
+EFIKM AB CR 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23603
+rreg~
+Rreg~
+Rreg is here, stomping guests flat while dancing.
+~
+Rreg is a huge man, yet friendly to all those who have not hurt him. 
+He has married a curse fiend actress and has a son named Xanenau.  As he
+dances around, unknowingly crushing a few guests beneath his massive dirty
+feet, he rumbles, "Rreg like to dance with wife, why not can we enjoy the
+life?"  
+~
+human~
+AT JZa N 0 0
+80 10 1900d1+1 1000d1+0 5d6+20 smash
+-14 -14 -14 -2
+CEFKO AB CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK large none
+~
+MaxWorld 1
+End
+#23604
+ealeton soldier~
+Ealeton~
+Ealeton the Soldier is here, looking for any signs of trouble.
+~
+Ealeton is a woman-hating soldier.  He has, unbelievably, married Heyna,
+the nymph of jewels.  With his stern looks and cynical comments, one can
+only wonder why she married him.  He is outfitted in his finest uniform,
+standing guard over the party, making sure nobody causes a fight.  
+~
+human~
+ABT DFJVZ 0 0 0
+78 10 1250d1+0 1050d1+0 5d7+19 pierce
+-50 -50 -50 -50
+DEFIK AB D 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23605
+heyna~
+Heyna~
+Heyna is here, showing off her gems.
+~
+Heyna is the one in charge of placing jewels deep inside Yrarl.
+With her friend the diggle, she places gems deep within the ground and rock
+of Yrarl.  She is an innocent and pretty creature with large deep eyes and
+long blonde hair.  At one time, she fell in love with Ninald, but since then,
+Ealeton has used a wish to make Heyna fall in love him and then married her.
+~
+human~
+AT JZ N 10 0
+73 3 10d61+500 10d61+500 5d6+15 none
+-10 -10 -10 -2
+EFIJK B C 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23606
+medeliri~
+Medeliri~
+Medeliri is here, taking notes.
+~
+Medeliri is a scholar from Wnde who has travelled to Yrarl to attend
+the Queen's ball.  He is a thin and elderly man who first discovered about
+Yrarl by being contacted by Alldeno in Wnde for help.  He is now taking
+notes about the events in Yrarl for a story book he will write.  
+~
+human~
+AGT JZ 0 0 0
+65 2 600d1+0 0d0+0 4d5+12 crush
+-3 -3 -3 3
+FIK AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23607
+Ceng~
+Ceng~
+Ceng scribbles in his tattered notebook.
+~
+Ceng was once a proud historian of Centaur Isle.  When it was
+discovered that he had a magical talent, he was exiled.  Ceng's talent is
+to produce an aisle of magic that extends from him when he is in Wnde.  
+~
+human~
+ABT JZ 0 0 0
+68 3 10d61+400 10d61+400 5d6+13 crush
+-8 -8 -8 0
+CEFIK AB C 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23608
+Eroe magician~
+Eroe~
+Eroe is here, getting dressed for the ball.
+~
+Eroe, the opposition against King Bollo, is a fair man in his
+middle thirties.  His magic abilities applies to bring bad luck where 
+he chooses.  He resides in Wnde, but has come to Yrarl for the
+Queen's ball.  
+~
+human~
+ABCT DFJVZ CDEH -300 0
+80 30 5000d1+50 3000d1+50 5d10+25 magic
+-10 -10 -10 -4
+EFHJK AB C 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23609
+andanel~
+Andanel~
+Andanel is here, combing her hair.
+~
+Andanel is a beautiful and sexy woman. She is Alldeno's nanny.  She is a 
+VERY attractive lady, with long straight hair and a ravishing body.  It 
+is no wonder she is able to turn heads wherever she is, since her talent 
+is sex appeal.  
+~
+human~
+ABT JZ 0 100 0
+77 70 10d80+700 10d80+500 5d7+17 none
+-8 -8 -8 0
+EFIK AB CD 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+Damroll 70
+Saves -50
+End
+#23610
+Zon~
+Zon~
+Zon stands here, lonely as ever.
+~
+Xon is a gaunt older man, used to solitude and loneliness.  A full
+magician, his powers of reanimated the dead into zombies caused most people
+to dislike him.  
+~
+human~
+ABT JVZc H 0 0
+80 70 5000d1+50 3000d1+50 5d10+25 wrath
+-20 -20 -20 -7
+DEFJK AB CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+Damroll 70
+Saves -75
+End
+#23611
+xanexau~
+Xanenau~
+Xanenau is here, growling at a mirror.
+~
+Xanenau is the son of Rreg and a friend of Alldeno.  He is
+friendly yet somewhat rough to most people, and due to his large size and
+heigh, most citizens of Yrarl give him a wide berth.  He has married Tandy,
+the daughter of Ealeton and Heyna, and exists happily smashing things.  
+~
+human~
+ABT JZc 0 0 0
+82 20 10d169+1220 10d169+920 5d10+24 smash
+-15 -15 -15 -4
+EFIKO AB CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK giant none
+~
+MaxWorld 1
+End
+#23612
+rpely~
+Rpely~
+Rpely is here reading.
+~
+Rpely is here for the ball, but is so engrossed in  his book that he will
+most likely miss it.
+~
+human~
+ABT JVZ 0 0 0
+73 3 900d1+25 900d1+25 5d6+15 none
+-7 -7 -7 0
+EFK AB 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23613
+buca~
+Buca~
+Buca is here daydreaming.
+~
+This lovely girl sits in solitude daydreaming about a long lost love.
+~
+human~
+ABT DFJQTZ BH 200 0
+81 20 4100d1+1 1100d1+1 5d7+20 crush
+-13 -13 -13 -2
+FIKMO AB CD 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23614
+jabenud~
+Jabenud~
+Jabenud is here, smiling at Marir.
+~
+Jabenud is an elven trader who brings in the elvenstone from which weapons
+and armor are made.  She is a gaunt, but attractive lady, used to being
+able to survive in the wild.
+~
+unique~
+ABT JZ 0 0 0
+48 1 5d30+161 5d30+161 3d5+7 none
+0 0 0 4
+FK 0 B Z
+stand stand female 0
+AHMV ABCDEFGHIJK small none
+~
+MaxWorld 1
+End
+#23615
+cat marir~
+Marir the Cat~
+Marir the Cat is purring against Jabenud.
+~
+Marir the Cat is Jabenud's faithful companion.  With a keen sense of
+direction, he has the talent to find anything he wants.  
+~
+human~
+ABT JZ 0 0 0
+75 1 180d1+1 180d1+1 2d5+5 scratch
+0 0 0 5
+FKM 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23616
+ylori merwoman~
+Ylori~
+Ylori is here, taking a bath.
+~
+Ylori is an attractive merwoman.  She had once captured Prince
+Dolph, but agreed to let him go if he recovered two firewater opals from a
+dragon.  She is here now, about to attend the Queen's Ball and keep the
+Siren company.  
+~
+human~
+ABT JZc 0 0 0
+76 3 1100d1+0 1000d1+0 5d6+17 none
+-11 -11 -11 -1
+FKMO A B 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23617
+guest hungry~
+A hungry guest~
+A hungry guest is seated here.
+~
+This guest is very hungry.  All the guests here are eagerly awaiting the
+feast that is about to begin.  
+~
+human~
+ACT JZ 0 0 0
+47 1 1d17+42 1d17+42 2d3+2 digestion
+7 7 7 8
+FK AB 0 0
+sit sit male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 50
+End
+#23618
+chef Yrarl~
+The Yrarl Chef~
+A chef is here, preparing a meal.
+~
+The chef has been trained by some of the best known chefs and cooks in
+Yrarl.  He has studied the arts of basting, steaming, baking, broiling, and
+frying.  He is the best, and King Bollo expects no less.
+~
+human~
+ABT JZ 0 0 0
+46 1 5d30+161 5d30+161 3d5+8 chop
+0 0 0 5
+EFK B 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23619
+alldeno~
+Alldeno~
+Alldeno is here, talking with the books.
+~
+Alldeno is the son of Ninald and Mmilta and is next in line to be the king
+of Yrarl.  It is a propect that he does not like, and he is rather afraid of
+bungling the job.  A powerful magician in his own right, Alldeno's talent is to
+make inanimate objects talk.  In this way, he can find information that
+nobody else can.  Right now he is escaping the pressures of royal life by
+hiding in the library and talking with the books.  
+~
+human~
+ACGT DFJVZc CDEH 40 0
+80 20 5000d1+50 4000d1+50 5d10+26 wrath
+-200 -200 -200 -200
+AEFIJK AB CD 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23620
+Bollo king~
+King Bollo~
+King Bollo is here, studying a manuscript.
+~
+King Bollo is a powerful magician with that talent of transformation of
+others within a six foot range.  He is a distinguished older man with a long
+history.  He had attempted to take over Yrarl by force many years ago, and
+failing, was exiled to Wnde.  In another attempt to take over Yrarl he
+discovered Castle Yrarl along with Ninald and Mmilta.  He later gave up
+his attempted to rule Yrarl through force and bloodshed, and was surprised
+to find himself given the throne when the old king died.  King Bollo is a
+fair and honest man who decides issues without bias with a strong and firm
+hand.  He has spent years grooming Alldeno for the throne, and hopes that one
+day, Alldeno will make a just and able king.  
+~
+human~
+ABCT DFJVZ CDEH 0 0
+90 30 6000d1+50 5000d1+50 6d11+30 magic
+-250 -250 -250 -250
+CDEFHIJKO AB CD 0
+stand stand male 2000
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23621
+citizen Yrarl~
+A citizen of Yrarl~
+A citizen of Yrarl is waiting to see the King here.
+~
+This citizen of Yrarl has been waiting for the King.  The citizen has
+important matters to discuss with the King and will not leave until the King
+has given an audience to her problem.  
+~
+human~
+ABCT JZ 0 0 0
+80 1 240d1+5 245d1+0 3d5+8 none
+0 0 0 4
+FIK B 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 10
+End
+#23622
+mistress illusion queen elenda~
+Queen Elenda~
+Queen Elenda is relaxing upon her throne.
+~
+Queen Elenda, once a haughty and power-hungry woman, has now mellowed quite
+a bit and cares for the welfare of Yrarl.  She knows she cannot ever truly
+win the love of her husband Bollo, and their marriage was one of
+convenience, a condition set by the Elders of the Council for Bollo to take
+the throne.  She dotes upon her daughter, Princess Meryl, and hopes that one
+day she will make a fine queen.  
+~
+human~
+ABCT DFJZc CEH 0 0
+95 25 5500d1+0 4300d1+0 5d11+27 magic
+-220 -220 -220 -220
+AEFHIKN AB CD 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23623
+yrarlandian guard~
+The Yrarlandian Guard~
+A guard keeps a close vigil.
+~
+A level 90 thief looks pretty strong for his level.
+~
+human~
+ABCG c 0 0 6800
+90 0 25d10+3000 0d0+0 8d4+16 stab
+-15 -15 -15 -15
+FIKN 0 0 0
+stand stand either 500
+AHMV ABCDEFGHIJKL medium none
+~
+MaxWorld 100
+End
+#23624
+meryl princess~
+Princess Meryl~
+Princess Meryl is here, growing plants.
+~
+Princess Meryl is a lovely young woman with red hair, emerald eyes, and
+a fantastic smile.  Her talent is a powerful one and she can make any plant
+or seed grow at an incredibly rate.  She is married to Alldeno, and destined to
+be the Queen of Yrarl.  
+~
+human~
+ABCT JZc EH 0 0
+88 20 4800d1+0 3000d1+0 5d10+25 wrath
+-200 -200 -200 -200
+DEFHJK AB CD 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#23625
+plant qufisel~
+A Quifisel Plant~
+A quifisel plant is growing here.
+~
+This large plant is a quifisel plant.  Dangerous looking quifisels grow
+from every stem, making you wary of this plant.  
+~
+human~
+ABCT Zc 0 0 0
+74 2 10d61+416 10d61+416 5d6+15 smash
+-7 -7 -7 -3
+FKO AB D HI
+stand stand male 0
+AHMV ABCDEFGHIJK medium none
+~
+MaxWorld 1
+End
+#0
+
+
+
+#OBJECTS
+#23582
+potion maroon~
+a maroon potion~
+A maroon potion lies here.
+~
+glass~
+potion 0 A
+25 'shield' '' '' ''
+0 2 5001 P
+~
+End
+#23583
+potion cyan~
+a cyan potion~
+A cyan potion lies here.
+~
+glass~
+potion 0 A
+25 'armor' 'levitation' 'create spring' 'shockshield'
+0 2 1901 P
+~
+End
+#23584
+potion neon green~
+a neon green potion~
+A neon green potion lies here.
+~
+glass~
+potion 0 A
+25 'true sight' 'invisibility' 'pass door' 'armor'
+0 2 5001 P
+~
+End
+#23585
+potion aqua~
+an aqua potion~
+An aqua potion lies here.
+~
+glass~
+potion 0 A
+25 'bless' 'stone skin' 'giant strength' 'fly'
+0 2 5001 P
+~
+End
+#23586
+flask cobalt~
+a cobalt flask~
+A cobalt flask lies here
+~
+glass~
+potion 0 A
+25 'pass door' 'invisibility' 'fly' 'faerie fog'
+0 2 5001 P
+~
+End
+#23587
+flask amber~
+an amber flask~
+An amber flask lies here.
+~
+glass~
+potion 0 A
+25 'stone skin' 'remove curse' 'protection evil' 'armor'
+0 2 9001 P
+~
+End
+#23588
+vial metallic~
+a metallic vial~
+A metallic vial lies here.
+~
+glass~
+potion 0 A
+25 'frenzy' 'giant strength' 'haste' ''
+0 2 10001 P
+~
+End
+#23589
+glass vial~
+a glass vial~
+A glass vial lies here.
+~
+glass~
+potion 0 A
+25 'create food' 'create food' 'create spring' ''
+0 2 1001 P
+~
+End
+#23590
+bottle red~
+a red bottle~
+A red bottle lies here.
+~
+glass~
+potion 0 A
+25 'faerie fog' 'detect invis' 'refresh' 'refresh'
+0 2 3001 P
+~
+End
+#23591
+brownie~
+a brownie~
+A delicious looking brownie is on a table.
+~
+wood~
+food 0 A
+B B 0 0 0
+0 1 11 P
+~
+End
+#23592
+tomato sandwich~
+a tomato sandwich~
+A tasty sandwich lies here.
+~
+wood~
+food 0 A
+AB AB 0 0 0
+0 2 51 P
+~
+End
+#23593
+steak tbone~
+a tbone steak~
+A platter of steaming tbone steak lies here.
+~
+wood~
+food 0 A
+C C 0 0 0
+0 0 101 P
+~
+End
+#23594
+bracer elvensteel~
+a elvensteel bracer~
+A bracer made from elven steel lies here.
+~
+steel~
+armor 0 AM
+BD BD BD BC 0
+40 5 101 P
+~
+End
+#23595
+helm jade~
+a jade helm~
+A helm carved from jade lies here.
+~
+stone~
+armor G AE
+BD BD BD BC 0
+40 5 151 P
+A
+18 3
+A
+19 3
+~
+End
+#23596
+leggings mail~
+a pair of mail leggings~
+A pair of leggings made from mail lies here.
+~
+steel~
+armor AB AF
+BD BD BD BC 0
+40 7 126 P
+A
+18 3
+A
+19 3
+~
+End
+#23597
+shield stone~
+a shield of stone~
+A hard stone shield lies here.
+~
+stone~
+armor S AJ
+BD BD BD BC 0
+40 40 251 P
+A
+13 25
+A
+20 -5
+~
+End
+#23598
+dagger elvensteel~
+a elvensteel dagger~
+A dagger made from elven steel lies here.
+~
+steel~
+weapon 0 AN
+dagger 5 12 sliver BC
+40 10 201 P
+~
+End
+#23599
+sword elvensteel~
+a elvensteel sword~
+A sword made from elven steel lies here.
+~
+steel~
+weapon 0 AN
+sword 5 12 silver E
+40 5 201 P
+~
+End
+#23600
+mace elvensteel~
+a elvensteel mace~
+A mace made from elven steel lies here.
+~
+steel~
+weapon 0 AN
+mace 5 12 sliver DE
+40 5 201 P
+~
+End
+#23601
+spear elvensteel~
+a elvensteel spear~
+A spear made from elven steel lies here.
+~
+steel~
+weapon 0 AN
+staff 5 12 thrust D
+40 5 201 P
+A
+13 10
+~
+End
+#23602
+axe elvensteel~
+an elvensteel axe~
+An axe made from elven steel lies here.
+~
+steel~
+weapon ABI AN
+axe 5 12 acbite A
+40 5 201 P
+~
+End
+#23603
+whip horsetail~
+a horsetail whip~
+A whip made from tough horsetails lies here.
+~
+wood~
+weapon 0 AN
+whip 5 12 slime E
+50 5 201 P
+~
+End
+#23604
+flail jade emblem~
+a flail with an emblem of jade~
+A flail with an emblem of jade lies here.
+~
+wood~
+weapon I AN
+flail 5 12 shock G
+40 5 201 P
+~
+End
+#23605
+pitchfork elvensteel~
+a elvensteel pitchfork~
+A pitchfork made from green steel lies here.
+~
+steel~
+weapon 0 AN
+polearm 5 12 sliver ADE
+40 5 201 P
+~
+End
+#23606
+aquamarine~
+an aquamarine~
+A small aquamarine lies here.
+~
+stone~
+treasure 0 AO
+0 0 0 0 0
+1 5 101 P
+~
+End
+#23607
+lavender stone~
+a lavender stone~
+A lavender stone shines here.
+~
+stone~
+treasure 0 AO
+0 0 0 0 0
+1 5 201 P
+~
+End
+#23608
+shard crystal~
+a shard of crystal~
+A shard of a flawless crystal lies here.
+~
+glass~
+treasure 0 AO
+0 0 0 0 0
+1 5 301 P
+~
+End
+#23609
+pill sleeping~
+a sleeping pill~
+A small white pill lies here.
+~
+wood~
+pill 0 AO
+100 'sleep' 'sleep' 'sleep' 'sleep'
+0 1 1001 P
+~
+End
+#23610
+pill cure sickness~
+a cure sickness pill~
+A pill lies here.
+~
+wood~
+pill 0 AO
+30 'cure disease' 'remove curse' 'cure poison' 'cure blindness'
+0 1 10001 P
+~
+End
+#23611
+pill pain~
+a pain pill~
+A pill lies here.
+~
+wood~
+pill 0 AO
+0 'heal' 'refresh' 'fly' ''
+0 1 1026 P
+~
+End
+#23612
+pill solve mysteries~
+a pill to enable you to solve mysteries~
+A strange green pill lies here.
+~
+wood~
+pill 0 AO
+30 'know alignment' 'detect magic' 'detect poison' 'detect hidden'
+0 1 1104 P
+~
+End
+#23613
+pill translucent~
+a translucent pill~
+A translucent pill lies here.
+~
+wood~
+pill 0 AO
+30 'pass door' 'invisibility' 'fly' ''
+0 1 5012 P
+~
+End
+#23614
+full heal pill~
+a full heal pill~
+A pill that will fully heal you lies here.
+~
+wood~
+pill 0 AO
+110 'acid blast' 'acid blast' 'acid blast' 'acid blast'
+0 1 10001 P
+~
+End
+#23615
+pill cancellation~
+a pill of cancellation~
+A strange purple pill lies here.
+~
+wood~
+pill 0 AO
+50 'cancellation' 'cancellation' 'cancellation' 'cancellation'
+0 1 10001 P
+~
+End
+#23616
+a water lily~
+a water lily~
+A water lily is here.
+~
+wood~
+wand S AO
+20 3 3 'harm' 0
+20 2 1001 P
+~
+End
+#23617
+flowers bouquet spring~
+a bouquet of spring flowers~
+A bouquet of spring flowers is growing here.~
+wood~
+wand 0 AO
+15 5 5 'magic missile' 0
+15 5 1001 P
+~
+End
+#23618
+bouquet roses~
+a bouquet of roses~
+A bouquet of roses is here.
+~
+wood~
+wand 0 AO
+15 3 3 'haste' 0
+15 5 5001 P
+~
+End
+#23619
+mug ale~
+a mug of ale~
+A mug of ale lies here.
+~
+glass~
+drink 0 A
+2 2 'ale' 0 0
+0 2 21 P
+~
+End
+#23620
+flask wine house~
+a flask of house wine~
+A flask of cheap wine lies here.
+~
+glass~
+drink 0 A
+4 4 'red wine' 0 0
+0 3 36 P
+~
+End
+#23621
+glass water~
+a glass of water~
+A clear glass of water lies here.
+~
+glass~
+drink 0 A
+1 1 'water' 0 0
+0 1 11 P
+~
+End
+#23622
+purple pansy~
+an purple pansy~
+An purple pansy is growing here.
+~
+wood~
+staff S AO
+30 3 3 'frenzy' 0
+30 2 975 P
+~
+End
+#23623
+pricklebush~
+a pricklebush~
+A pricklebush is here.
+~
+wood~
+wand S AO
+24 1 1 'curse' 0
+24 1 343 P
+~
+End
+#23624
+ring diamond engagement~
+a diamond engagement ring~
+A small diamond ring lies here.
+~
+silver~
+treasure HM AB
+0 0 0 0 0
+0 2 501 P
+~
+End
+#23625
+silver engagement band~
+a silver engagement band~
+A small band of silver lies here.
+~
+silver~
+treasure HM AB
+0 0 0 0 0
+0 2 501 P
+~
+End
+#23626
+ring diamond wedding~
+a diamond wedding ring~
+A large diamond lies here.
+~
+glass~
+treasure HM AB
+0 0 0 0 0
+0 3 10001 P
+~
+End
+#23627
+gold wedding band~
+a gold wedding band~
+A gold wedding band lies here.
+~
+gold~
+treasure HM AB
+0 0 0 0 0
+0 3 10001 P
+~
+End
+#23628
+gown wedding white sequins~
+a beautiful white sequinsed wedding gown~
+A white wedding gown with silver sequins lies here.
+~
+cloth~
+armor S AD
+A A A A 0
+0 5 301 P
+~
+End
+#23629
+tuxedo black wedding~
+a black wedding tuxedo~
+A black tuxedo lies here.
+~
+cloth~
+armor S AD
+A A A A 0
+0 5 301 P
+A
+4 -1
+~
+End
+#23630
+veil white lace~
+a white lace wedding veil~
+Some white lace lies here.
+~
+cloth~
+armor S AE
+A A A A 0
+0 1 101 P
+~
+End
+#23631
+garter white lace~
+a white lace garter~
+Some white lace lies here.
+~
+cloth~
+armor S AF
+A A A A 0
+0 2 122 P
+~
+End
+#23632
+slippers silken~
+a pair of silken slippers~
+A pair of silken slippers lies here.
+~
+glass~
+armor S AG
+A A A A 0
+0 5 1001 P
+~
+End
+#23633
+gloves white lace~
+a pair of white lace gloves~
+A pair of lace gloves lies here.
+~
+cloth~
+armor S AH
+A A A A 0
+0 3 349 P
+~
+End
+#23634
+bowtie~
+a bowtie~
+A bowtie lies here.
+~
+cloth~
+armor S AC
+A A A A 0
+0 3 139 P
+~
+End
+#23635
+cummerbund silver~
+a silver cummerbund~
+A silver sash lies here.
+~
+cloth~
+armor S AL
+A A A A 0
+0 2 243 P
+~
+End
+#23636
+overalls pair~
+a pair of overalls~
+A pair of overalls lies here.
+~
+cloth~
+armor IS AD
+BC D C BC 0
+22 5 101 P
+A
+5 1
+A
+20 -5
+A
+18 2
+~
+End
+#23637
+wings Urye's~
+Urye's Wings~
+A beautiful pair of angelic wings lies here.
+~
+leather~
+armor S AK
+B AD AD ABC 0
+25 10 101 P
+A
+2 1
+F
+A 0 0 T
+A
+1 5
+A
+18 9
+A
+19 9
+~
+End
+#23638
+dulcimer siren's~
+The Siren's Dulcimer~
+A handsomely crafted gold dulcimer lies here.
+~
+gold~
+staff HM AO
+30 5 5 'charm person' 0
+30 5 1001 P
+~
+End
+#23639
+elvensteel broadsword~
+an elvensteel broadsword~
+A savage-looking broadsword gleams in the light.
+~
+steel~
+weapon AB AN
+sword 5 8 slash D
+38 40 501 P
+A
+18 5
+A
+19 5
+A
+13 20
+~
+End
+#23640
+shield Yrarl~
+a shield with the Yrarl insignia~
+A shield with a crest lies here.
+~
+steel~
+armor 0 AJ
+BD BD BD D 0
+45 10 301 P
+A
+17 -1
+A
+23 -1
+~
+End
+#23641
+uniform platemail~
+a platemail soldier's uniform~
+A uniform made of platemail lies here.
+~
+steel~
+armor S AD
+BD BD BD D 0
+45 8 401 P
+A
+13 10
+~
+End
+#23642
+barrel jewels~
+a barrel of jewels~
+A large barrel of jewels lies here.
+~
+glass~
+money SU AO
+DHIJM 0 0 0 0
+0 5 501 P
+~
+End
+#23643
+glasses~
+a pair of glasses~
+A pair of glasses lies here.
+~
+glass~
+armor 0 AY
+AD AD AD ABC 0
+38 4 101 P
+A
+4 1
+A
+3 1
+~
+End
+#23644
+book maladiction~
+a book on maladictions~
+An evil black book lies upon the floor.
+~
+none~
+wand SY AO
+80 1 1 'curse' 0
+50 5 101 P
+A
+12 20
+~
+End
+#23645
+axe elvensteel~
+An elvensteelAxe~
+A humming axe lies here.
+~
+stone~
+weapon ABCMSZ AN
+axe 5 11 magic DG
+50 10 1000 P
+~
+End
+#23646
+bracer elvensteel~
+an elvensteel bracer~
+An elvensteel bracer lies here in the shadows.
+~
+stone~
+armor CS AM
+ABD ABD ABD D 0
+50 9 501 P
+A
+18 3
+A
+12 20
+~
+End
+#23647
+outfit maid's~
+a skimpy maid's outfit~
+A small maid's uniform lies here.
+~
+cloth~
+armor S AD
+BD BD BD D 0
+37 5 101 P
+A
+2 1
+A
+13 10
+A
+3 3
+A
+18 10
+A
+19 -3
+~
+End
+#23648
+potion restore life~
+a potion of restore life~
+A powerful potion lies here.
+~
+glass~
+potion S AO
+50 'remove curse' 'cure light' 'heal' 'cure serious'
+50 2 101 P
+~
+End
+#23649
+flail xon~
+Xon's flail~
+A large barbed flail lies here.
+~
+steel~
+weapon MS AN
+flail 6 7 wrath D
+50 10 501 P
+A
+18 5
+A
+19 5
+A
+13 25
+A
+1 1
+~
+End
+#23650
+sash royal aqua~
+a royal aqua sash~
+An aqua sash lies here.
+~
+cloth~
+armor S AL
+ABD ABD ABD D 0
+50 5 501 P
+A
+19 2
+A
+18 2
+A
+12 20
+A
+20 -5
+A
+13 50
+~
+End
+#23651
+pair gauntlets~
+a pair of gauntlets~
+A pair of gauntlets lies here.
+~
+steel~
+armor M AH
+ABD ABD ABD AD 0
+42 15 201 P
+A
+17 -2
+A
+1 5
+A
+2 1
+A
+20 -3
+~
+End
+#23652
+katana silver~
+a silver katana~
+A silver katana lies here.
+~
+silver~
+weapon 0 AN
+katana 5 7 none AD
+33 5 101 P
+A
+18 3
+A
+19 3
+A
+20 -4
+~
+End
+#23653
+dream in a bottle~
+a dream captured in a bottle~
+A smoky bottle lies here.
+~
+glass~
+treasure FMS AQ
+0 0 0 0 0
+30 1 1001 P
+A
+12 35
+~
+End
+#23654
+collar diamond cat~
+a diamond cat collar~
+A collar lies here.
+~
+leather~
+armor S AC
+ABC ABC ABC C 0
+15 3 91 P
+A
+12 20
+~
+End
+#23655
+obsidian~
+some obsidian~
+A black stone is here.
+~
+glass~
+warp_stone AS AO
+0 0 0 0 0
+35 1 1001 P
+A
+18 1
+A
+19 1
+~
+End
+#23656
+fountain bubbling~
+The bubbling fountain~
+A bubbling fountain is here.
+~
+stone~
+fountain 0 0
+0 0 'water' 0 0
+0 1000 1 P
+~
+End
+#23657
+longsword elvensteel~
+an elvensteel longsword~
+An enchanted longsword carved from elvensteel lies here.
+~
+stone~
+weapon AKMS AN
+sword 6 7 wrath 0
+50 17 1000 P
+A
+18 5
+A
+19 5
+~
+End
+#23658
+ring royal signet Yrarl~
+The Royal Signet Ring of Yrarl~
+A royal ring lies here.~
+stone~
+armor MS AB
+BD BD BD D 0
+50 5 103 P
+A
+12 20
+A
+18 2
+A
+19 2
+~
+End
+#23659
+rock pet~
+a pet rock~
+A small dull rock lies here.
+~
+stone~
+armor MSU AQ
+BD BD BD D 0
+50 3 11 P
+A
+19 2
+A
+18 2
+A
+12 20
+A
+13 20
+~
+End
+#23660
+shield royal Yrarl~
+a royal shield of Yrarl~
+A large white shield with the crest of Yrarl lies here.
+~
+steel~
+armor S AJ
+ABD ABD ABD AD 0
+50 10 102 P
+A
+17 -1
+A
+2 1
+A
+24 -1
+~
+End
+#23661
+sunstone~
+a sunstone~
+A small minature sun is shining brightly here.
+~
+stone~
+light AHMS A
+0 0 ABCFGHIJ 0 0
+50 10 101 P
+A
+12 20
+A
+18 2
+A
+19 2
+~
+End
+#23662
+crown Yrarl~
+The Crown of Yrarl~
+A magnificent crown lies here.
+~
+steel~
+armor ABGS AE
+CD CD CD BD 0
+60 7 101 P
+A
+18 3
+A
+19 2
+A
+12 30
+~
+End
+#23663
+rapier elvensteel~
+an elvensteel rapier~
+A long elvensteel rapier lies here.
+~
+stone~
+weapon ABHMS AN
+sword 6 7 pierce 0
+60 11 1000 P
+A
+18 5
+A
+19 5
+~
+End
+#23664
+dagger elvensteel~
+an elvensteel dagger~
+A beautifully made elvensteel dagger lies here.
+~
+stone~
+weapon ABHMS AN
+dagger 6 7 pierce 0
+55 7 1000 P
+A
+18 5
+A
+19 5
+A
+12 10
+~
+End
+#23665
+sunset~
+a sunset~
+A sunset is floating here.
+~
+glass~
+armor ABS AQ
+BD BD BD AD 0
+55 1 101 P
+A
+12 50
+A
+18 0
+A
+19 10
+~
+End
+#23666
+tiara Yrarl royal~
+The Royal Tiara of Yrarl~
+A jewel encrusted tiara lies here.
+~
+glass~
+armor ABHMS AE
+ABD ABD ABD BD 0
+55 7 201 P
+A
+12 20
+A
+13 20
+~
+End
+#23667
+mace elvensteel~
+an elvensteel mace~
+An elvensteel mace lies here.
+~
+stone~
+weapon HMS AN
+mace 6 7 smash 0
+47 7 1000 P
+A
+18 5
+A
+19 5
+~
+End
+#23668
+dress slinky red~
+an slinky red dress~
+A dress lies here.
+~
+cloth~
+armor S AD
+ABD ABD ABD BD 0
+47 7 501 P
+A
+17 -1
+A
+18 1
+~
+End
+#23669
+jade bracelet~
+a jade bracelet~
+A green jade bracelet shines here.
+~
+glass~
+armor ABS AM
+ABD ABD ABD D 0
+47 5 1000 P
+A
+12 10
+A
+19 2
+A
+18 1
+~
+End
+#0
+
+
+
+#ROOMS
+#23582
+The Entrance Path to Castle Yrarl~
+You are on a path that leads to the famed Castle Yrarl.  The castle is
+known for it's friendship with the Elves of Yrarl.  This is where the current 
+king, King Bollo, resides.  The castle is visible to the south from here, the
+proud stone turrets rising high above into the sky and various multicolored
+banners flying.  
+~
+0 4 0
+D0
+~
+~
+0 0 23500
+End
+D2
+~
+~
+0 0 23583
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23583
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside the castle, which lies to the south.  The Potion Shop is to the east
+and Ye Groggy Pirate is to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23582
+End
+D1
+~
+~
+0 0 23590
+End
+D2
+~
+~
+0 0 23584
+End
+D3
+~
+~
+0 0 23591
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23584
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south, a large and
+imposing fortress of stone.  The bakery is to the east, while the metalshop
+lies to the west.
+~
+0 0 1
+D0
+~
+~
+0 0 23583
+End
+D1
+~
+~
+0 0 23592
+End
+D2
+~
+~
+0 0 23585
+End
+D3
+~
+~
+0 0 23593
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23585
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south.  Pills, Pills,
+Pills!  Is to the east and The Glittering Gemstone lies to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23584
+End
+D1
+~
+~
+0 0 23594
+End
+D2
+~
+~
+0 0 23586
+End
+D3
+~
+~
+0 0 23595
+End
+S
+End
+#23586
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south.  Here Comes the
+Bride is to the east, and The Green Thumb is to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23585
+End
+D1
+~
+~
+0 0 23596
+End
+D2
+~
+~
+0 0 23587
+End
+D3
+~
+~
+0 0 23597
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23587
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south.  No Pain No Gain
+lies to the east, and The Gymnasium is to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23586
+End
+D1
+~
+~
+0 0 23598
+End
+D2
+~
+~
+0 0 23588
+End
+D3
+~
+~
+0 0 23599
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23588
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south.  The Healers Hut
+is to the east, while the Yrarlandian Mint is to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23587
+End
+D1
+~
+~
+0 0 23600
+End
+D2
+~
+~
+0 0 23589
+End
+D3
+~
+~
+0 0 23601
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23589
+The Path to Castle Yrarl~
+You are walking along the main path that links Castle Yrarl to the
+outside surrounding forests of Yrarl.  This road is flanked by small shops
+and various homes of the people of Yrarl that have formed a small village
+outside Castle Yrarl.  The castle is visible to the south.  There are two
+pawnshops to the east and west.  
+~
+0 0 1
+D0
+~
+~
+0 0 23588
+End
+D1
+~
+~
+0 0 23602
+End
+D2
+~
+~
+0 0 23604
+End
+D3
+~
+~
+0 0 23603
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23590
+The Potion Shop~
+The potion shop is bustling with activity.  Strange earthy smells emanate
+from all around.  Potions of many colors and vials of many shapes align the
+walls and counters.  The potion shop is doing very well as it is one of the
+most prosperous shops in all of Yrarl.  
+~
+0 8 0
+D3
+~
+~
+0 0 23583
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23583 1 100 0 Load Idaves the Shopkeeper.
+Reset G 23582 1 100 0 A maroon potion into inventory of a maroon potion
+Reset G 23583 1 100 0 A cyan potion into inventory of a cyan potion
+Reset G 23584 1 100 0 A neon green potion into inventory of a neon green potion
+Reset G 23585 1 100 0 An aqua potion into inventory of an aqua potion
+Reset G 23586 1 100 0 A cobalt flask into inventory of a cobalt flask
+End
+#23591
+Ye Groggy Pirate~
+Ye Groggy Pirate is the pub to hang out in.  All sorts of cool people are
+here looking for dates and just plain fun.  Pictures of it's most known
+citizens align the walls.  The picture of Delleb, surrounded by horny
+females makes you chuckle to yourself.  Little tables placed strategically
+around provide a cozy, yet fun, atmosphere.  The drinks are flowing, people
+are laughing merrily....  Ah yes, Ye Groggy Pirate is the place to be.
+~
+0 12 1
+D1
+~
+~
+0 0 23583
+End
+S
+Reset M 23582 1 100 0 Load The Yrarlandian Bartender.
+Reset G 23621 1 100 0 A glass of water into inventory of a glass of water
+Reset G 23620 1 100 0 A flask of house wine into inventory of a flask of house wine
+Reset G 23619 1 100 0 A mug of ale into inventory of a mug of ale
+End
+#23592
+Smith and Hammer~
+The sounds of steel on anvil ring through the air.  The smith is busy
+forging imported elvensteel into weapons and armor of all types.  The steam
+from water on hot metal makes the air almost come alive.  Large lumps of
+jade are stacked protectively in the corner where no one can come close
+enough to steal them.  
+~
+0 0 0
+D3
+~
+~
+0 0 23584
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23585 1 100 0 Load Ali, the Metalsmith.
+Reset G 23594 1 100 0 A elvensteel bracer into inventory of a elvensteel bracer
+Reset G 23595 1 100 0 A jade helm into inventory of a jade helm
+Reset G 23596 1 100 0 A pair of mail leggings into inventory of a pair of mail leggings
+Reset G 23597 1 100 0 A shield of stone into inventory of a shield of stone
+Reset G 23598 1 100 0 A elvensteel dagger into inventory of a elvensteel dagger
+Reset G 23599 1 100 0 A elvensteel sword into inventory of a elvensteel sword
+Reset G 23600 1 100 0 A elvensteel mace into inventory of a elvensteel mace
+Reset G 23601 1 100 0 A elvensteel spear into inventory of a elvensteel spear
+Reset G 23602 1 100 0 An elvensteel axe into inventory of an elvensteel axe
+Reset G 23603 1 100 0 A horsetail whip into inventory of a horsetail whip
+Reset G 23604 1 100 0 A flail with an emblem of jade into inventory of a flail with an emblem of jade
+Reset G 23605 1 100 0 A elvensteel pitchfork into inventory of a elvensteel pitchfork
+End
+#23593
+The Flaky Crust~
+All sorts of delicacies fill you view as you enter this shop.  Heavenly
+scents of pastries and meatpies baking in the over fill your nostrils and
+sets your tongue watering.  This would be a great chance to stock up on rare
+Yrarlandian foods that you would not ordinarily be able to purchase!  
+~
+0 0 0
+D1
+~
+~
+0 0 23584
+End
+S
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23584 1 100 0 Load Irile the baker.
+Reset G 23591 1 100 0 A brownie into inventory of a brownie
+Reset G 23592 1 100 0 A tomato sandwich into inventory of a tomato sandwich
+Reset G 23593 1 100 0 A tbone steak into inventory of a tbone steak
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23594
+Pills, Pills, Pills!~
+Pills of many colors align the shelves, creating a definate rainbow affect
+which entices many of the castle's children to come and gawk through the windows.
+There is a sign that reads, "Guaranteed delivery in 3 moons on any pill out of
+stock".
+~
+0 0 0
+D3
+~
+~
+0 0 23585
+End
+S
+Reset M 23587 1 100 0 Load The Yrarlandian Shopkeeper.
+Reset G 23615 1 100 0 A pill of cancellation into inventory of a pill of cancellation
+Reset G 23614 1 100 0 A full heal pill into inventory of a full heal pill
+Reset G 23613 1 100 0 A translucent pill into inventory of a translucent pill
+Reset G 23612 1 100 0 A pill to enable you to solve mysteries into inventory of a pill to enable you to solve mysteries
+Reset G 23611 1 100 0 A pain pill into inventory of a pain pill
+Reset G 23610 1 100 0 A cure sickness pill into inventory of a cure sickness pill
+Reset G 23609 1 100 0 A sleeping pill into inventory of a sleeping pill
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23595
+The Glittering Gemstone~
+As you enter this small shop, the first thing to catch your eye is the
+rainbow of colors that fill this room with light.  Looking about yourself in
+awe, you see that the colors come from the stacks and piles of rare jewels
+and gems that fill this shop.  The pricier jewels are inside a large glass
+case, twinkling in the light.  
+~
+0 0 0
+D1
+~
+~
+0 0 23585
+End
+S
+Reset M 23586 1 100 0 Load The Yrarlandian Jeweller.
+Reset G 23606 1 100 0 An aquamarine into inventory of an aquamarine
+Reset G 23607 1 100 0 A lavender stone into inventory of a lavender stone
+Reset G 23608 1 100 0 A shard of crystal into inventory of a shard of crystal
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23596
+Here Comes the Bride~
+As you enter this room, an organ begins to play a wedding march. 
+Startled, you spin about and realize that you have entered a shop dedicated
+to selling wedding garments.  Wedding gowns of the most delicate lace are sold
+here, as well as tuxedos for the lucky groom.  
+~
+0 0 0
+D3
+~
+~
+0 0 23586
+End
+S
+Reset M 23589 1 100 0 Load The Wedding Shopkeeper.
+Reset G 23635 1 100 0 A silver cummerbund into inventory of a silver cummerbund
+Reset G 23634 1 100 0 A bowtie into inventory of a bowtie
+Reset G 23633 1 100 0 A pair of white lace gloves into inventory of a pair of white lace gloves
+Reset G 23632 1 100 0 A pair of silken slippers into inventory of a pair of silken slippers
+Reset G 23631 1 100 0 A white lace garter into inventory of a white lace garter
+Reset G 23630 1 100 0 A white lace wedding veil into inventory of a white lace wedding veil
+Reset G 23629 1 100 0 A black wedding tuxedo into inventory of a black wedding tuxedo
+Reset G 23628 1 100 0 A beautiful white sequinsed wedding gown into inventory of a beautiful white sequinsed wedding gown
+Reset G 23627 1 100 0 A gold wedding band into inventory of a gold wedding band
+Reset G 23626 1 100 0 A diamond wedding ring into inventory of a diamond wedding ring
+Reset G 23625 1 100 0 A silver engagement band into inventory of a silver engagement band
+Reset G 23624 1 100 0 A diamond engagement ring into inventory of a diamond engagement ring
+End
+#23597
+The Green Thumb~
+You are in a small shop completely filled with plants.  Fragrant scents
+saturate the very air, making you feel a bit dizzy.  All about you are
+plants, vines, bushes, and small trees.  The shop looks more like a
+greenhouse than anything else.  
+~
+0 0 0
+D1
+~
+~
+0 0 23586
+End
+S
+Reset M 23588 1 100 0 Load The Yrarlandian Botanist.
+Reset G 23616 1 100 0 A water lily into inventory of a water lily
+Reset G 23617 1 100 0 A bouquet of spring flowers into inventory of a bouquet of spring flowers
+Reset G 23618 1 100 0 A bouquet of roses into inventory of a bouquet of roses
+Reset G 23622 1 100 0 An purple pansy into inventory of an purple pansy
+Reset G 23623 1 100 0 A pricklebush into inventory of a pricklebush
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23598
+No Pain No Gain~
+Welcome one, welcome all, to the only exercise room in town.  In this room,
+many people turn that nasty flab to muscle, and at the same time are able
+learn new exciting exercise to keep that fat off!
+~
+0 0 0
+D3
+~
+~
+0 0 23587
+End
+S
+Reset M 23591 1 100 0 Load A priest.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23599
+The Gymnasium~
+You have entered a small room filled with mats, dummies, weapons, and
+books of all types.  This gymnasium seems to have a little bit of everything
+in it for everyone.  You feel that this is the place you would go to in
+order to practice any type of arts you have learned.  A few other people are
+in here already, hard at work practicing various skills and spells.  
+~
+0 0 0
+D1
+~
+~
+0 0 23587
+End
+S
+Reset M 23590 1 100 0 Load The Yrarlandian Trainer.
+End
+#23600
+The Healers Hut~
+You have entered the healers' hut near Castle Yrarl.  This room is
+filled with the sense of peace and healing, the white walls reflecting
+harmony and the straw pallets placed upon the ground inviting you to rest
+here.  There is a slight scent of herbal medicines and poultices being
+mixed, and you feel utterly safe here.  Various religious ornaments align
+the walls, but don't give enough information out as to which is the 
+primary religion here.
+~
+0 1036 0
+D3
+~
+~
+0 0 23588
+End
+M 100 H 200
+S
+Reset M 23593 1 100 0 Load The Yrarlandian Healer.
+End
+#23601
+The Yrarl Mint~
+You have entered the mint of Yrarl.  This is where all currency of Yrarl
+is made, under the stricted rules so as to prevent counterfeiting.  A number
+of sacks of gold and silver coins are stacks against the west wall and
+semi-precious jewels are being liquidating in a small pit of lava in the
+south side of the room.  
+~
+0 0 0
+D1
+~
+~
+0 0 23588
+End
+S
+Reset M 23592 1 100 0 Load The Yrarlandian Banker.
+End
+#23602
+Your Junk, Our Treasure.~
+You are inside a small dusty shop that is linked to the shop next door to
+the west.  A smaller branch of the same pawn shop, items that are usually
+not bought may perhaps be sold here.  The amount of dust in this shop is at
+least twice as thick as in the original pawn shop, but since nobody else
+will buy your items, perhaps you should try selling them here.  
+~
+0 0 0
+D3
+~
+~
+0 0 23589
+End
+S
+Reset M 23596 1 100 0 Load The Pawnshop Broker.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23603
+The Pawn Shop~
+You have entered a small pawn shop.  Odd assorted items are laying about
+for sale, and any items of worth you may have may possible be sold here.  A
+thick layer of dust coats the floor and shelves and you wonder when the last
+time this shop has had any decent business.  It is rumored that people tend to
+hoard their belongings in Yrarl.
+~
+0 0 0
+D1
+~
+~
+0 0 23589
+End
+S
+Reset M 23595 1 100 0 Load The Pawnshop Broker.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+Reset M 23597 10 100 0 Load A citizen of Yrarl.
+End
+#23604
+The Main Gate into Castle Yrarl~
+You are standing before the main gates of Castle Yrarl.  Tall iron
+gates are before you to the south, and through them you can see the grand
+structure known as Castle Yrarl.  This is where King Bollo governs Yrarl
+from, along with his queen, Queen Elenda.  The castle is a large building
+of stone, constructed by the slaves for King Yrarl eons ago.  
+~
+0 12 1
+D0
+~
+~
+0 0 23589
+End
+D1
+~
+~
+0 0 23656
+End
+D2
+~
+gate~
+1 0 23605
+Flags AB
+End
+D3
+~
+~
+0 0 23657
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23605
+The Entrance to Castle Yrarl~
+You are standing before the large doors that lead into the Castle
+Yrarl.  The castle looks forebodingly huge from here, almost more a
+fortress than a castle, although the current King has made steps towards
+renovating it so that it appears more friendly.  The massive stone blocks
+that make up this castle look impossibly heavy and solid and you can only
+marvel at the engineering of labor that constructing this castle must have
+taken.  Hanging vines soften the harsh castle walls, and if one arrives
+early enough, they are able to see the beautiful morning glories that bloom.
+~
+0 12 0
+D0
+~
+~
+1 0 23604
+Flags AB
+End
+D2
+~
+~
+0 0 23606
+End
+S
+Reset M 23500 10 100 0 Load A citizen of Yrarl.
+End
+#23606
+The Entrance Hall~
+You are inside the grand Castle Yrarl.  The castle is immense, with the
+ceiling stretching high above you.  Stone columns support the walls and are
+decorated with lavish paintings and rare silk tapestries.  The stone floors
+is covered with a rich and lush royal aqua carpet and fresh wind
+blows gently through the castle from the many large open windows that have
+been cut into the walls.  
+~
+0 0 0
+D0
+~
+~
+0 0 23605
+End
+D2
+~
+~
+0 0 23607
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23607
+The Main Lobby Hall~
+You are walking inside the main lobby hall of Castle Yrarl.  As you
+explore about, you notice that the castle has been decorated more with an
+artistic eye than with a lavish eye.  There are no overt displays of wealth
+here, yet the castle is furnished with tasteful and practical items.  The
+elegant aqua carpeting offsets the stunning dark blue silk curtains that drape
+about the windows.  A few torches peek out from bronze planters,
+illuminating the room.   
+~
+0 8 0
+D0
+~
+~
+0 0 23606
+End
+D2
+~
+~
+0 0 23608
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23608
+The Foyer~
+You are in the center of the large foyer inside Castle Yrarl.  There are
+a number of couches placed strategically about here, anticipating the needs
+of the many guests that come to visit.  A painting of the royal family hangs
+upon the west wall, depicting King Bollo, Queen Elenda, and Princess Meryl. 
+Another painting of the famed King Yrarl, the founder of this castle, hangs
+upon the east wall.  High above you is a skylight cut into the ceiling made
+from imported stained glass which depicts a general map of Yrarland.  A large
+fireplace filled with perfumed wood is in the center of the room.  There 
+are a set of steps leading up from here.
+~
+0 0 0
+D0
+~
+~
+0 0 23607
+End
+D2
+~
+~
+0 0 23609
+End
+D4
+~
+~
+0 0 23636
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23609
+The Main Hallway Intersection~
+You have reached an intersection of hallways inside Castle Yrarl.  The
+carpeted halls runs south and east to west from here.  You can hear sounds
+of laughter to the south and some fresh air from the north indicates the 
+doors out from the castle.  
+~
+0 0 0
+D0
+~
+~
+0 0 23608
+End
+D1
+~
+~
+0 0 23624
+End
+D2
+~
+reception~
+1 0 23610
+Flags AB
+End
+D3
+~
+~
+0 0 23620
+End
+S
+End
+#23610
+The Reception Room~
+You have entered a noisy reception room.  There are refreshments spread
+out upon a long wooden table and every type of delicacy can be seen here. 
+Mounds of pasteries, nuts, wild berries, and other assorted foods heap the 
+west side of the table while mugs of beer fill the east side.  A large crowd
+of people have gathered in here, eating, drinking, and talking, and even 
+more noise can be heard coming from the doors to the south, leading into 
+the main ballroom.  
+~
+0 8 0
+D0
+~
+~
+1 0 23609
+Flags AB
+End
+D2
+~
+ballroom~
+1 0 23611
+Flags AB
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23611
+The Northern Section of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune. The doors out of this ballroom lie to the north.  
+~
+0 8 0
+D0
+~
+~
+1 0 23610
+Flags AB
+End
+D1
+~
+~
+0 0 23617
+End
+D2
+~
+~
+0 0 23612
+End
+D3
+~
+~
+0 0 23614
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23612
+The Center of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D0
+~
+~
+0 0 23611
+End
+D1
+~
+~
+0 0 23618
+End
+D2
+~
+~
+0 0 23613
+End
+D3
+~
+~
+0 0 23615
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23604 1 100 0 Load Ealeton.
+Reset E 23641 5 100 0 A platemail soldier's uniform is loaded on the body of a platemail soldier's uniform
+Reset E 23639 16 100 0 An elvensteel broadsword is loaded wielded of an elvensteel broadsword
+Reset E 23640 11 100 0 A shield with the yrarl insignia is loaded as a shield of a shield with the Yrarl insignia
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23613
+The Southern Section of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D0
+~
+~
+0 0 23612
+End
+D1
+~
+~
+0 0 23619
+End
+D3
+~
+~
+0 0 23616
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23600 1 100 0 Load Gudalann.
+Reset E 23636 5 100 0 A pair of overalls is loaded on the body of a pair of overalls
+Reset M 23599 1 100 0 Load Savienel.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23606 1 100 0 Load Medeliri.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23614
+The Northwest Corner of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D1
+~
+~
+0 0 23611
+End
+D2
+~
+~
+0 0 23615
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23615
+The Western Section of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune. 
+~
+0 8 0
+D0
+~
+~
+0 0 23614
+End
+D1
+~
+~
+0 0 23612
+End
+D2
+~
+~
+0 0 23616
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23603 1 100 0 Load Rreg.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23601 1 100 0 Load Urye.
+Reset E 23637 12 100 0 Urye's wings is loaded about the shoulders of Urye's Wings
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23616
+The Southwest Corner of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D0
+~
+~
+0 0 23615
+End
+D1
+~
+~
+0 0 23613
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23617
+The Northeast Corner of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D2
+~
+~
+0 0 23618
+End
+D3
+~
+~
+0 0 23611
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23605 1 100 0 Load Heyna.
+Reset E 23642 17 100 0 A barrel of jewels is loaded held in the hands of a barrel of jewels
+End
+#23618
+The Eastern Section of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D0
+~
+~
+0 0 23617
+End
+D2
+~
+~
+0 0 23619
+End
+D3
+~
+~
+0 0 23612
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23602 1 100 0 Load The Siren.
+Reset E 23638 17 100 0 The siren's dulcimer is loaded held in the hands of The Siren's Dulcimer
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23619
+The Southeast Corner of the Ballroom~
+You are in the main ballroom of Castle Yrarl.  Queen Elenda has planned
+this rather large party as usual, showing off her power and rank as well as
+her skills, using her formidably talent of illusion to garb the normally
+barren ballroom into a symphony of elegance.  Rose silk draperies hang
+about the windows and large framed mirrors adorn the walls.  The ballroom
+floor is polished to a shine, and a quintet of fine musicians play a
+melodious tune.  
+~
+0 8 0
+D0
+~
+~
+0 0 23618
+End
+D3
+~
+~
+0 0 23613
+End
+S
+Reset M 23598 10 100 0 Load A party guest.
+Reset M 23598 10 100 0 Load A party guest.
+End
+#23620
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 23609
+End
+D2
+~
+guest~
+1 0 23632
+Flags AB
+End
+D3
+~
+~
+0 0 23621
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23621
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D0
+~
+guest~
+1 0 23633
+Flags AB
+End
+D1
+~
+~
+0 0 23620
+End
+D3
+~
+~
+0 0 23622
+End
+S
+End
+#23622
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 23621
+End
+D2
+~
+guest~
+1 0 23634
+Flags AB
+End
+D3
+~
+~
+0 0 23623
+End
+S
+End
+#23623
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  The door leading outside to the 
+royal gardens is west.  
+~
+0 8 0
+D0
+~
+guest~
+1 0 23635
+Flags AB
+End
+D1
+~
+~
+0 0 23622
+End
+D3
+~
+garden~
+1 0 23651
+Flags AB
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23624
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 23625
+End
+D2
+~
+guest~
+1 0 23631
+Flags AB
+End
+D3
+~
+~
+0 0 23609
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23625
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D0
+~
+guest~
+1 0 23629
+Flags AB
+End
+D1
+~
+~
+0 0 23626
+End
+D3
+~
+~
+0 0 23624
+End
+S
+End
+#23626
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D1
+~
+~
+0 0 23627
+End
+D2
+~
+guest~
+0 0 23628
+End
+D3
+~
+~
+0 0 23625
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23627
+The Carpeted Passage~
+You are walking along a heavily carpetted passage in Castle Yrarl.  This
+hallway is well lit.  Paintings of the scenic Yrarl countryside hang upon
+the walls and doors align the hallway.  
+~
+0 8 0
+D0
+~
+guest~
+1 0 23630
+Flags AB
+End
+D3
+~
+~
+0 0 23626
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23628
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D0
+~
+~
+0 0 23626
+End
+S
+Reset M 23608 1 100 0 Load Eroe.
+Reset E 23645 16 100 0 An elvensteelaxe is loaded wielded of An elvensteelAxe
+Reset E 23644 17 100 0 A book on maladictions is loaded held in the hands of a book on maladictions
+Reset E 23646 14 100 0 An elvensteel bracer is loaded on the left wrist of an elvensteel bracer
+End
+#23629
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D2
+~
+~
+1 0 23625
+Flags AB
+End
+S
+Reset M 23610 1 100 0 Load Zon.
+Reset E 23650 13 100 0 A royal aqua sash is loaded around the waist of a royal aqua sash
+Reset E 23648 17 100 0 A potion of restore life is loaded held in the hands of a potion of restore life
+Reset E 23649 16 100 0 Xon's flail is loaded wielded of Xon's flail
+Reset M 23609 1 100 0 Load Andanel.
+Reset E 23647 5 100 0 A skimpy maid's outfit is loaded on the body of a skimpy maid's outfit
+End
+#23630
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D2
+~
+~
+1 0 23627
+Flags AB
+End
+S
+Reset M 23607 1 100 0 Load Ceng.
+Reset E 23643 6 100 0 A pair of glasses is loaded over the head of a pair of glasses
+End
+#23631
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D0
+~
+~
+1 0 23624
+Flags AB
+End
+S
+Reset M 23611 1 100 0 Load Xanenau.
+Reset E 23651 9 100 0 A pair of gauntlets is loaded on the hands of a pair of gauntlets
+End
+#23632
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D0
+~
+~
+1 0 23620
+Flags AB
+End
+S
+Reset M 23612 1 100 0 Load Rpely.
+Reset G 23652 1 100 0 A silver katana into inventory of a silver katana
+End
+#23633
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D2
+~
+~
+1 0 23621
+Flags AB
+End
+S
+Reset M 23613 1 100 0 Load Buca.
+Reset E 23653 18 100 0 A dream captured in a bottle is loaded floating nearby of a dream captured in a bottle
+End
+#23634
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D0
+~
+~
+1 0 23622
+Flags AB
+End
+S
+Reset M 23614 1 100 0 Load Jabenud.
+Reset M 23615 1 100 0 Load Marir the Cat.
+Reset E 23654 3 100 0 A diamond cat collar is loaded around the neck (1) of a diamond cat collar
+End
+#23635
+A Guest Bedroom~
+You have entered a guest bedroom inside Castle Yrarl.  The castle gets
+many visitors and guests, so it is only natural that guest rooms have been
+constructed to comfortably house them.  Fresh flowers seem to explode into
+bursts of colors from vases strategically placed around the room.
+~
+0 8 0
+D2
+~
+~
+1 0 23623
+Flags AB
+End
+S
+Reset M 23616 1 100 0 Load Ylori.
+Reset E 23655 17 100 0 Some obsidian is loaded held in the hands of some obsidian
+End
+#23636
+The Entrance to the Second Floor~
+You have reached the entrance to the second floor.  You can seen the
+foyer beneath you from here, and the view outside through the windows is
+picturesque and serene.  A large stone sigil of Castle Yrarl has been
+carved into the wall to the north, and there is a corridor leading south.  
+Another hallway leads east and west.  There are another set of stairs 
+leading up from here.  
+~
+0 8 0
+D1
+~
+~
+0 0 23645
+End
+D2
+~
+~
+0 0 23637
+End
+D3
+~
+~
+0 0 23641
+End
+D4
+~
+~
+0 0 23647
+End
+D5
+~
+~
+0 0 23608
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23637
+Outside the Banquet Hall~
+You are standing before the doors of the banquet hall.  This room is
+furnished with tasteful couches and chairs, and a small bar sits against the
+east wall, fully stocked with all sorts of wine.  A number of small plants
+have been placed about the room, lending color and fragrance to this room.  
+~
+0 8 0
+D0
+~
+~
+0 0 23636
+End
+D2
+~
+banquet~
+1 0 23638
+Flags AB
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23638
+The Banquet Hall~
+You are in Castle Yrarl's banquet hall.  A massive oaken table sits
+in the middle of the room and is the first thing you notice.  A light silk
+tablecloth covers the table and fifty chairs or more surround it.  The table
+is adorned with candles, plates, and silverware.  The smell of food cooking
+is heavy in the air.  The doors leading out are north and the door to the
+kitchen is south.  
+~
+0 8 0
+D0
+~
+~
+1 0 23637
+Flags AB
+End
+D2
+~
+kitchen~
+1 0 23639
+Flags AB
+End
+S
+Reset M 23617 50 100 0 Load A hungry guest.
+End
+#23639
+The Kitchen of Castle Yrarl~
+You have entered a large kitchen inside Castle Yrarl.  A pot lid clatters 
+loudly upon the pot as something steams inside.  A number of meatrolls are 
+being warmed in the oven, and the entire kitchen smells wonderful.  
+The banquet hall is to the north and there is a door south.  
+~
+0 8 0
+D0
+~
+~
+1 0 23638
+Flags AB
+End
+D2
+~
+storage~
+0 0 23640
+End
+S
+Reset M 23618 1 100 0 Load The Yrarl Chef.
+Reset O 23656 1 100 0 Load The bubbling fountain.
+End
+#23640
+The Storage Room~
+You are in a spacious storage room.  There are boxes and baskets of dried
+foods here, jars of spices, and bottles of sauces.  The rooms smells dry and
+spicy from the foods and condiments stored here.  
+~
+0 8 0
+D0
+~
+~
+0 0 23639
+End
+S
+End
+#23641
+The West Hallway~
+You are walking along a western hallway on the second floor of Castle
+Yrarl.  There are a few paintings hanging upon the walls here of scenic
+Yrarl's forests and artifacts from the past. There is a large wooden door 
+to the west and the way back is east.  
+~
+0 8 0
+D1
+~
+~
+0 0 23636
+End
+D3
+~
+library~
+1 0 23642
+Flags AB
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23642
+The Yrarl Library~
+You are in the royal library of Castle Yrarl.  This room stretches from
+east to west and is completely filled with large shelves stacked with
+various books and parchments of all types.  Many of these books hold
+biographies and accounts of the history of Yrarl through the ages.
+~
+0 8 0
+D1
+~
+~
+1 0 23641
+Flags AB
+End
+D3
+~
+~
+0 0 23643
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23643
+The Yrarl Library~
+You are in the royal library of Castle Yrarl.  This room stretches from
+east to west and is completely filled with large shelves stacked with
+various books and parchments of all types.  Many of these books hold
+biographies and accounts of the history of Yrarl through the ages
+~
+0 8 0
+D1
+~
+~
+0 0 23642
+End
+D3
+~
+~
+0 0 23644
+End
+S
+End
+#23644
+The Yrarl Library~
+You are in the royal library of Castle Yrarl.  This room stretches from
+east to west and is completely filled with large shelves stacked with
+various books and parchments of all types.  Many of these books hold
+biographies and accounts of the history of Yrarl through the ages.  
+~
+0 8 0
+D1
+~
+~
+0 0 23643
+End
+S
+Reset M 23619 1 100 0 Load Alldeno.
+Reset E 23661 0 100 0 A sunstone is loaded as a light of a sunstone
+Reset E 23659 18 100 0 A pet rock is loaded floating nearby of a pet rock
+Reset E 23657 16 100 0 An elvensteel longsword is loaded wielded of an elvensteel longsword
+Reset E 23658 1 100 0 The royal signet ring of yrarl is loaded on the left finger of The Royal Signet Ring of Yrarl
+Reset E 23660 11 100 0 A royal shield of yrarl is loaded as a shield of a royal shield of Yrarl
+End
+#23645
+The East Hallway~
+You are walking along an eastern hallway on the second floor of Castle
+Yrarl.  There are a few painting hanging upon the walls here of scenic
+Yrarl's forests and artifacts from the past. There
+is a large wooden door the east and way back is west.  
+~
+0 8 0
+D1
+~
+study~
+1 0 23646
+Flags AB
+End
+D3
+~
+~
+0 0 23636
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23646
+King Bollo's Study~
+This rooms is ornately furnished with a broad mahogany desk and a
+luxurious silken throne.  A large mahogany shelf is placed on the
+west wall, next to the desk, filled with assorted books and maps.  A
+few smaller chairs are placed in front of the desk, to seat visitors of King
+Bollo.
+~
+0 8 0
+D3
+~
+~
+1 0 23645
+Flags AB
+End
+S
+Reset M 23620 1 100 0 Load King Bollo.
+Reset E 23663 16 100 0 An elvensteel rapier is loaded wielded of an elvensteel rapier
+Reset E 23662 6 100 0 The crown of yrarl is loaded over the head of The Crown of Yrarl
+Reset E 23658 1 100 0 The royal signet ring of yrarl is loaded on the left finger of The Royal Signet Ring of Yrarl
+Reset E 23660 11 100 0 A royal shield of yrarl is loaded as a shield of a royal shield of Yrarl
+End
+#23647
+Entrance to the Third Floor~
+You have reached the third floor of Castle Yrarl.  The view of the
+castle below you is dizzyingly high.  There is a massive set of iron doors
+to the south, cast with the sigil of Yrarl.  The windows outside provide a
+magnificent view of Yrarl, and you can see the tops of the forests of middle
+Yrarl from here.  
+~
+0 8 0
+D2
+~
+court~
+1 0 23648
+Flags AB
+End
+D5
+~
+~
+0 0 23636
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23648
+The Royal Court~
+You are standing in the royal court of Castle Yrarl.  Gold leafed walls
+and fantastically framed polished silver mirrors hang everywhere.  Crowds of
+people fill this room, all anxiously waiting to see the King.  The floor
+here is made from polished hardwood, no doubt picked for the
+amount of heavy traffic this room must deal with. 
+~
+0 8 0
+D0
+~
+~
+1 0 23647
+Flags AB
+End
+D2
+~
+~
+0 0 23649
+End
+S
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23621 10 100 0 Load A citizen of Yrarl.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23649
+Before the Throne~
+You are standing before the royal throne of Yrarl.  There are a line of
+guards here, protecting the throne.  They are actually uneccessary, since
+most of the citizen and subjects of Yrarl adore their king.  He is a
+righteous and fair man, and one of the best Yrarl has had in a long time.  
+~
+0 8 0
+D0
+~
+~
+0 0 23648
+End
+D2
+~
+~
+0 0 23650
+End
+S
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23650
+The Royal Throne~
+You are standing before a pair of intricatley carved golden thrones.  An
+sigil of Yrarl has been placed upon the wall behind the thrones, taking up 
+the entire wall.
+~
+0 8 0
+D0
+~
+~
+0 0 23649
+End
+S
+Reset M 23622 1 100 0 Load Queen Elenda.
+Reset E 23666 6 100 0 The royal tiara of yrarl is loaded over the head of The Royal Tiara of Yrarl
+Reset E 23658 1 100 0 The royal signet ring of yrarl is loaded on the left finger of The Royal Signet Ring of Yrarl
+Reset E 23664 16 100 0 An elvensteel dagger is loaded wielded of an elvensteel dagger
+Reset E 23665 18 100 0 A sunset is loaded floating nearby of a sunset
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+Reset M 23623 5 100 0 Load The Yrarlandian Guard.
+End
+#23651
+The Path to the Royal Gardens~
+You are on a path leading from Castle Yrarl to the Royal Gardens.  The
+air is cool and refreshing here, and you can hear the chirping of numerous
+birds.  The west wall of Castle Yrarl is to the east, and the gardens are
+to the west.  
+~
+0 0 3
+D1
+~
+~
+1 0 23623
+Flags AB
+End
+D3
+~
+~
+0 0 23652
+End
+S
+End
+#23652
+The Royal Gardens~
+You are walking in the Royal Gardens of Castle Yrarl.  A plethora of
+plants and trees grow here, lending the gardens a peaceful and tranquil
+aura.  A small brook trickles by you to the west and birds swoop down to 
+suck up insects that might bother you.  
+~
+0 0 3
+D0
+~
+~
+0 0 23653
+End
+D1
+~
+~
+0 0 23651
+End
+S
+End
+#23653
+The Royal Gardens~
+You are walking in the Royal Gardens of Castle Yrarl.  A plethora of
+plants and trees grow here, lending the gardens a peaceful and tranquil
+aura.  A small brook trickles by you to the west and birds swoop down to 
+suck up insects that might bother you.  
+~
+0 0 3
+D0
+~
+~
+0 0 23654
+End
+D2
+~
+~
+0 0 23652
+End
+S
+End
+#23654
+The Royal Gardens~
+You are walking in the Royal Gardens of Castle Yrarl.  A plethora of
+plants and trees grow here, lending the gardens a peaceful and tranquil
+aura.  A small brook trickles by you to the west and birds swoop down to 
+suck up insects that might bother you.  
+~
+0 0 3
+D0
+~
+~
+0 0 23655
+End
+D2
+~
+~
+0 0 23653
+End
+S
+End
+#23655
+The Royal Gardens~
+You are walking in the Royal Gardens of Castle Yrarl.  A plethora of
+plants and trees grow here, lending the gardens a peaceful and tranquil
+aura.  A small brook trickles by you to the west and birds swoop down to 
+suck up insects that might bother you.  
+~
+0 0 3
+D2
+~
+~
+0 0 23654
+End
+S
+Reset M 23625 1 100 0 Load A Quifisel Plant.
+Reset M 23624 1 100 0 Load Princess Meryl.
+Reset E 23668 5 100 0 An slinky red dress is loaded on the body of an slinky red dress
+Reset E 23667 16 100 0 An elvensteel mace is loaded wielded of an elvensteel mace
+Reset E 23669 14 100 0 A jade bracelet is loaded on the left wrist of a jade bracelet
+End
+#23656
+A Humble Abode~
+This is a typical house in Yrarl, small and cozy.  A cheery fireplace
+keeps the house nice and warm, and a delicious smell emanates from the pot
+which is hung over it.  The furniture is sparse, but the closets are
+practically filled to the brim with memories all the Yralr tend to hold on
+to.  
+~
+0 8 0
+D3
+~
+~
+0 0 23604
+End
+S
+End
+#23657
+A Humble Abode~
+This is a typical house in Yrarl, small and cozy.  A cheery fireplace
+keeps the house nice and warm, and a delicious smell emanates from the pot
+which is hung over it.  The furniture is sparse, but the closets are
+practically filled to the brim with memories all the Yralr tend to hold on
+to.  
+~
+0 8 0
+D1
+~
+~
+0 0 23604
+End
+S
+End
+#23500
+The Path to the Castle~
+You are on a path that leads to the famed Castle Yrarl.  The castle is
+known for it's friendship with the Elves of Yrarl.  This is where the
+current king, King Bollo, resides.  The castle is visible to the south from
+here, the proud stone turrets rising high above into the sky and various
+multicolored banners flying.  
+~
+0 0 0
+D0
+~
+~
+0 0 23501
+End
+D2
+~
+~
+0 0 23582
+End
+S
+End
+#23501
+The Path to the Castle~
+You are on a path that leads to the famed Castle Yrarl.  The castle is
+known for it's friendship with the Elves of Yrarl.  This is where the
+current king, King Bollo, resides.  The castle is visible to the south from
+here, the proud stone turrets rising high above into the sky and various
+multicolored banners flying.  
+~
+0 0 0
+D0
+~
+~
+0 0 9792
+End
+D2
+~
+~
+0 0 23500
+End
+S
+End
+#0
+
+
+
+#SPECIALS
+M 23608 spec_cast_mage
+M 23610 spec_cast_undead
+M 23613 spec_cast_cleric
+M 23617 spec_fido
+M 23619 spec_cast_undead
+M 23620 spec_cast_undead
+M 23622 spec_cast_undead
+M 23624 spec_cast_undead
+S
+
+
+
+#SHOPS
+23582 0 19 17 0 0 120 10 0 23
+23583 0 10 0 0 0 120 10 0 23
+23584 19 0 0 0 0 120 10 0 23
+23585 9 5 0 0 0 120 10 0 23
+23586 33 0 0 0 0 120 10 0 23
+23587 26 0 0 0 0 120 10 0 23
+23588 3 4 2 0 0 120 10 0 23
+23589 0 0 0 0 0 120 10 0 23
+23590 0 0 0 0 0 120 10 0 23
+23591 0 0 0 0 0 120 10 0 23
+23592 0 0 0 0 0 120 10 0 23
+23593 0 0 0 0 0 120 10 0 23
+23595 5 9 8 15 1 300 10 0 23
+23596 13 18 28 17 0 500 10 0 23
+0
+
+
+
+#$

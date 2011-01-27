@@ -1,0 +1,821 @@
+#AREA
+bladanc.are~
+Blade Dancers Inn~
+{15 30} Twilight Blade Dancer's Inn~
+6950 6975
+
+#MOBILES
+#6950
+sylvan fighter~
+a young sylvan~
+A young sylvan fighter is here enjoying a mug of wine.
+~
+A very petite looking sylvan female looks back at you.  You get the feeling
+she is more worldly than she looks.
+~
+elf~
+AG H 500 0
+17 10 289d1+0 5d5+2 10d3+0 punch
+-6 -6 -6 -8
+EFGH 0 KLM 0
+stand stand female 20
+AMV ABCDEFGHIJK small 0
+#6951
+human fighter adventurer~
+a fighter~
+An adventurer is here.
+~
+A weathered young fighter sits here enjoying a mug of ale.
+~
+human~
+AG 0 500 0
+15 10 200d1+0 5d5+2 10d3+5 punch
+-1 -1 -1 0
+EFGH 0 GI 0
+stand stand male 20
+AMV ABCDEFGHIJ medium 0
+#6952
+minstrel singer~
+a minstrel~
+A minstrel is performing here.
+~
+A rather stocky traveller. He is garbed in colors so bright it is almost
+painful to the eye's.
+~
+human~
+ABGR 0 500 0
+23 10 576d1+0 5d5+2 10d5+5 punch
+-4 -4 -4 -4
+E 0 0 0
+sit stand male 30
+AMV ABCDEFGHIJ large 0
+#6953
+innkeeper barkeep proprietor~
+the barkeep~
+The proprietor of the establishment stands before you ready to assist.
+~
+A portly man with a broad smile stands before you offering his assistance.
+~
+human~
+ABCGR CDEF 800 0
+30 12 1023d1+0 5d5+2 10d7+5 punch
+-8 -8 -8 -8
+EFGH 0 EF I
+stand stand male 40
+AMV ABCDEFGHIJK large 0
+#6954
+thief~
+a thief~
+A thief is hiding in the corner.
+~
+A thin man dressed in soiled miss matched clothing.
+~
+human~
+ABFGR BQ 0 0
+21 8 604d1+0 5d5+2 10d4+0 stab
+-3 -3 -3 -3
+EFGHK 0 I 0
+stand stand male 50
+AMV ABCDEFGHIJ small 0
+#6955
+guard dog~
+a guard dog~
+A guard dog stands his ground.
+~
+A very muscular beast.  You might think twice about messing with his master's
+belongings.
+~
+dog~
+ABGR F 200 0
+19 8 429d1+0 5d5+2 10d6+0 punch
+-1 -2 -2 -1
+AH 0 E 0
+sit stand male 0
+AGV ACDEFJQb medium 0
+#6956
+cook innkeeper's wife~
+innkeeper's wife~
+The innkeeper's wife is prepairing food.
+~
+As portly as her husband with the same huge smile.
+~
+human~
+ABCGR F 200 0
+27 12 427d1+0 5d5+2 8d8+0 punch
+-6 -6 -6 -4
+EFGH 0 I 0
+stand stand female 28
+AMV ABCDEFGHIJ large 0
+#6957
+gelding horse~
+a gelding~
+A gelding with big brown eye's is staring at you.
+~
+A beautiful gelding with large brown eyes is staring at you.  She probably
+belongs to one of the inn's patrons.
+~
+unique~
+ABGHR S 0 0
+15 5 9d12+100 5d5+2 6d6+5 crush
+0 0 0 0
+H 0 BE A
+stand stand female 0
+AGV ABCDEFQac large 0
+#6958
+stable boy~
+a stable boy~
+A stable boy is tending to his duties.
+~
+A fairly young male is tending to his duties.  He is dressed in raggedy
+clothes and carrying a pitchfork.
+~
+human~
+ABCGHR 0 450 0
+18 5 10d15+100 5d5+2 10d3+2 punch
+-1 -1 -1 0
+J 0 0 B
+stand stand male 20
+AMV ABCDEFGHIJK medium 0
+#0
+
+#OBJECTS
+#6951
+silver sword quickness~
+sword of quickness~
+The silver sword of quickness lies here.~
+silver~
+weapon AGI AN
+sword 6 5 slash D
+25 50 4000 P
+A
+18 2
+A
+2 3
+#6950
+short sword ~
+a short sword~
+A short sword lies here.~
+steele~
+weapon 0 AN
+sword 5 5 slash 0
+14 30 700 P
+A
+19 1
+#6952
+bar stool~
+a bar stool~
+A bar stool sits here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 1 50 P
+A
+64 -10
+#6953
+chest wooden~
+a wooden chest~
+A wooden chest sits at the end of the bed.~
+wood~
+container 0 0
+80 0 0 0 0
+0 80 300 P
+#6954
+harp~
+a golden harp~
+A golden harp sits here.~
+gold~
+wand ABG ANO
+20 20 15 'cancellation' 0
+0 30 5000 P
+A
+12 30
+#6955
+serving spoon metal~
+a serving spoon~
+A metal serving spoon has been dropped here.~
+~
+weapon G AN
+mace 6 4 pound 0
+25 30 50 P
+A
+19 1
+A
+18 1
+#6956
+dagger~
+a small dagger~
+A small dagger lies here.~
+iron~
+weapon JQa AN
+dagger 5 5 stab C
+20 30 500 P
+A
+18 2
+A
+17 5
+#6957
+wooden pitchfork~
+a wooden pitchfork~
+A wooden pitchfork lies here.~
+wood~
+weapon 0 AN
+polearm 5 5 stab H
+15 30 150 P
+#6958
+horse shoes of speed~
+a pair of horse shoes~
+A pair of horse shoes have been left here.~
+metal~
+armor GI AG
+5 5 5 0 0
+14 40 4000 P
+A
+2 2
+A
+14 50
+#6959
+loaf hard bread~
+a loaf of hard bread~
+A loaf of hard bread sits here.~
+~
+food 0 A
+25 20 0 0 0
+1 10 20 P
+#6960
+map underdark~
+a map of UnderDark~
+A rolled up map is here.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 100 W
+E
+map underdark~
+.
+    * * * UNDERDARK * * *
+     Mapped by Twilight
+   = = =============== = =
+
+-----------------------------------------Wyrm------------
+|                    |         |                        |
+|                    |         |                        |
+|                    |         |                        |
+|                    | (Gem-   |-(warehouse)            |
+|                    |   stone)|                        |
+|                    |------|--|                        |
+|   (Jaded Hall)     |         |                        |
+|--------|----Ruby---|         |        ---------       |
+            |                  |        |       |       |
+            |                  |---------Diamond--------|
+            |                  |        |               |
+            |                  |        |               |
+            |                  |        |               |
+            |                  |        |               |
+            |                  |        |               |
+            |                  |        |               |
+  (houses)  |(Bodak's)         |        |(Floating Eye) |
+(---------------|---------Slaver's----------|---|-----------*up to*
+         |  |               |  |               (Prisons)|    sewer
+         |  |               |  |                        |
+         |  |               |  |                        |
+         |  |            ---|  |                  ------|
+         |  |            |     |                  |  (cages)
+------|---------SoTG-----|--|----------|          |
+      |                  |(Shadow's    |          |
+Embsy-|                  |   Shadow)   |-(Prison)-|      (Eurandus')
+      |                  |             |          |  FORGOTTEN
+      |                  |             |          |--------------)
+      |                  |             |          |    ALLEY      |
+      |--Road-of-Shadows-|--------|------------|--|            CONNECT
+      |                  |  (Thief Guild)      |  |  FORGOTTEN    |
+      |                  |                     |-----------------)
+      |                  |                     |       ALLEY
+---Traveller's----       |                     |         (Assass-
+|                |       |                     |            Guild)
+|                |       |-(Thief Guild)       |
+|                |       |                     |
+|                |       |                     |
+|                |       |                     |
+|   (Trav's Den)-|       |                     |
+|                |       |                     |
+---  Crescent-----       ----Death's Lane------|
+                                               |
+                                               ---------|
+                                                        |
+                                                        *
+                                                      Temple
+                                                        in
+                                                     Drow City
+~
+#0
+
+#ROOMS
+#6951
+Bar~
+You step up to a long oaken bar. The finish is worn from many years of
+visitors and nicked in several places from many a disagreement between
+patrons.  Behind the bar is a portly innkeep waiting to take your order or
+have you escorted to a room.
+~
+0 ADH 0
+D1
+You see the bustle of the common room.
+~
+~
+0 0 6950
+S
+#6950
+Common Room~
+A typical common room set with several tables and a small stage in the corner.
+Music drifts to your ears from the stage, being performed by a minstrel from a
+far off land.
+~
+0 ADH 0
+D3
+You see a large oaken bar lined with stools
+~
+~
+0 0 6951
+D1
+You see a minstrel performing on the stage.
+~
+~
+0 0 6952
+D0
+Back into the street.
+~
+~
+0 0 11021
+D2
+A dimly lit hallway.
+~
+~
+0 0 6953
+S
+#6952
+The Stage~
+You are on the stage in the Blade Dancers Inn. The stage is nothing more than
+a 5 foot wide by 3 foot deep raised platform about 1 foot off the ground.  In
+the ceter of the stage is a solitary stool made of wood. A minstrel is
+performing here, playing music from a far off land. At his feet is a pile of
+coins patrons have thrown in appreciation of his music.
+~
+0 ADH 0
+D3
+You see the bustle of the common room.
+~
+~
+0 0 6950
+S
+#6953
+Hallway~
+The hallway leads deeper into the inn toward the rooms, and farther, into the
+kitchen. It is filled with the smells of the evening meal being prepared by
+the innkeeper's wife. Doors lead off to either side of the hallway into the
+guest's rooms.
+~
+0 ADH 0
+D0
+You see the bustle of the common room.
+~
+~
+0 0 6950
+D1
+You see a small guest room.
+~
+~
+1 0 6955
+D3
+You see a small guest room.
+~
+~
+1 0 6954
+D2
+A dimly lit hallway.
+~
+~
+0 0 6956
+S
+#6954
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+~
+0 ADH 0
+D1
+A dimly lit hallway.
+~
+~
+1 0 6953
+S
+#6955
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+~
+0 ADH 0
+D3
+A dimly lit hallway.
+~
+~
+1 0 6953
+S
+#6956
+Hallway~
+The hallway leads deeper into the inn toward the rooms, and farther, into the
+kitchen. It is filled with the smells of the evening meal being prepared by
+the innkeeper's wife. Doors lead off to either side of the hallway into the
+guest's rooms.
+~
+0 ADH 0
+D0
+A dimly lit hallway.
+~
+~
+0 0 6953
+D2
+A dimly lit hallway.
+~
+~
+0 0 6959
+D1
+You see a small guest room.
+~
+~
+1 0 6958
+D3
+You see a small guest room.
+~
+~
+1 0 6957
+S
+#6957
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+~
+0 ADH 0
+D1
+A dimly lit hallway.
+~
+~
+1 0 6956
+S
+#6958
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+~
+0 ADH 0
+D3
+A dimly lit hallway.
+~
+~
+1 0 6956
+S
+#6959
+Hallway~
+The hallway leads into the kitchen. It is filled with the smells of the
+evening meal being prepared by the innkeeper's wife. Doors lead off to either
+side of the hallway into the guest's rooms.
+~
+0 0 0
+D0
+A dimly lit hallway.
+~
+~
+0 0 6956
+D2
+You have found the kitchen.
+~
+~
+1 0 6962
+D1
+You see a small guest room.
+~
+~
+1 0 6961
+D3
+You see a small guest room.
+~
+~
+1 0 6960
+S
+#6960
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+
+~
+0 ADH 0
+D1
+A dimly lit hallway.
+~
+~
+1 0 6959
+S
+#6961
+Guest Room~
+You stand in the middle of a meager guest room.  It looks comfortable but
+small with a goose down bed and a wash table.  At the foot of the bed, a chest
+sits open ready to hold your belongings.
+~
+0 ADH 0
+D3
+A dimly lit hallway.
+~
+~
+1 0 6959
+S
+#6962
+Kitchen~
+You have found the kitchen.  The innkeeper's wife is busy making a delicious
+smelling stew and bread for the evening meal.
+~
+0 ADH 0
+D0
+A dimly lit hallway.
+~
+~
+1 0 6959
+D2
+You see a well kept yard behind the inn.
+~
+~
+0 0 6963
+D3
+The pantry.
+~
+~
+0 0 6975
+S
+#6963
+Back Yard~
+You are standing outside the Blade Dancer's Inn at the back door.  Smells of
+food are eminating from the kitchen.
+~
+0 0 2
+D0
+Looking through th e door you can see the cook preparing the evening
+meal.
+~
+~
+0 0 6962
+D3
+You can see the stables down the path.
+~
+~
+0 0 6964
+S
+#6964
+Narrow Foot Path~
+You are on a narrow foot path between the inn and the stables.
+~
+0 0 2
+D1
+The back of the inn.
+~
+~
+0 0 6963
+D3
+Heading toward the stables.
+~
+~
+0 0 6970
+S
+#6965
+Stables~
+You are standing in the entrance to the stables.  There are empty stalls to
+either side and you see a ladder at the back leading up into the loft.
+~
+0 D 0
+D1
+The path back to the inn.
+~
+~
+0 0 6970
+D3
+The tack room.
+~
+~
+0 0 6966
+D2
+A horse stall.
+~
+~
+0 0 6967
+D0
+A horse stall.
+~
+~
+0 0 6969
+S
+#6966
+Back of the stables~
+Standing at the rear of the stables,  you are surrounded by horse tack and
+care implements.  There is a ladder leading up to the loft.
+~
+0 D 0
+D1
+You see the exit.
+~
+~
+0 0 6965
+D4
+There is an enterance to the hayloft in the ceiling.
+~
+~
+0 0 6968
+S
+#6967
+Horse Stall~
+You are in a horse stall.  The stall is empty and clean with only a few stray
+pieces of straw cluttering the dirt floor.
+~
+0 D 0
+D0
+The center of the stables.
+~
+~
+0 0 6965
+S
+#6968
+Hay Loft~
+You are standing in the hay loft.  It is a small area about half the size of
+the lower level of the stables.  The floor is thick with straw and would make
+a comfortable place to rest.
+~
+0 D 0
+D5
+A ladder drops into the tack room.
+~
+~
+0 0 6966
+H 150
+M 150
+S
+#6969
+Horse Stall~
+You are in a horse stall standing eye to eye with a gelding belonging to one
+of the inn's guests.
+~
+0 D 0
+D2
+The center of the stables.
+~
+~
+0 0 6965
+S
+#6970
+Narrow Foot Path~
+You are on a narrow foot path between the inn and the stables.  The path
+continues south.
+~
+0 0 2
+D1
+Heading toward the inn.
+~
+~
+0 0 6964
+D3
+The door to the stables
+~
+~
+0 0 6965
+D2
+A path leads around the stables.
+~
+~
+0 0 6971
+S
+#6971
+Narrow Foot Path~
+You are on a narrow foot path leading to the back of the stables.
+~
+0 0 2
+D0
+A path leads around the stables.
+~
+~
+0 0 6970
+D3
+A path leads around the stables.
+~
+~
+0 0 6972
+S
+#6972
+Narrow Foot Path~
+You are on a narrow foot path leading to the back of the stables.
+~
+0 0 2
+D1
+A path leads around the stables.
+~
+~
+0 0 6971
+D3
+A path leads around the stables.
+~
+~
+0 0 6973
+S
+#6973
+Narrow Foot Path~
+You are on a narrow foot path leading to the back of the stables.
+~
+0 0 2
+D1
+A path leads around the stables.
+~
+~
+0 0 6972
+D3
+The manure pile.
+~
+~
+0 0 6974
+S
+#6974
+Manure Pile~
+OH!!!!  THE SMELL!!!........
+You have found the manure pile.  A farmhand is
+standing here tending to the pile.
+~
+0 0 2
+D1
+A path leads around the stables.
+~
+~
+0 0 6973
+S
+#6975
+Pantry~
+You are standing in the inn's pantry.  The selves are lined with food stores
+and wine.  Don't let the cook find you in here.
+~
+0 ADH 0
+D1
+The cook is coming, you better leave.
+~
+~
+0 0 6962
+S
+#0
+
+#RESETS
+O 0 6953 1 6961                   * a wooden chest => #6936 Guest Room
+O 0 6953 1 6960                   * a wooden chest => #6935 Guest Room
+O 0 6953 1 6958                   * a wooden chest => #6933 Guest Room
+O 0 6953 1 6957                   * a wooden chest => #6932 Guest Room
+O 0 6953 1 6955                   * a wooden chest => #6930 Guest Room
+O 0 6953 1 6954                   * a wooden chest => #6929 Guest Room
+O 0 6952 1 6951                   * a bar stool => #6926 Bar
+M 0 6951 5 6950 3       	* human fighter
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6950 3 6950 1       	* young sylvan
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6950 3 6950 3       	* young sylvan
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6951 5 6950 1       	* human fighter
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6951 5 6950 1       	* human fighter
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6951 5 6950 1       	* human fighter
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6951 5 6963 1       	* human fighter
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6953 1 6951 1       	* the barkeep
+E 0 6951 -1 16                    * -- Equip:  sword of quickness (Wield)
+M 0 6952 1 6952 1       	* a minstrel
+E 0 6954 -1 16                    * -- Equip:  a golden harp (Wield)
+M 0 6950 3 6959 1       	* young sylvan
+E 0 6950 -1 16                    * -- Equip:  a short sword (Wield)
+M 0 6955 3 6957 2       	* guard dog
+M 0 6955 3 6961 1       	* guard dog
+M 0 6954 1 6954 1       	* a thief
+E 0 6956 -1 16                    * -- Equip:  a small dagger (Wield)
+G 1 6960 20                      * -- a map of UnderDark (inventory)
+M 0 6956 1 6962 1       	* innkeeper's wife
+E 0 6955 -1 16                    * -- Equip:  a serving spoon (Wield)
+M 0 6957 1 6969 1      	* a gelding
+E 0 6958 -1 9          			  * -- Equip: #9908 a pair of horse shoes (Hands)
+M 0 6958 2 6974 1      	* a stable boy
+E 0 6957 -1 16              	  * -- Equip:  a wooden pitchfork
+M 0 6958 2 6967 1      	* a stable boy
+E 0 6957 -1 16          		  * -- Equip:  a wooden pitchfork
+O 0 6959 3 6975             		* Object: a loaf of hard bread
+S
+
+#SPECIALS
+M 6954 spec_thief   ; a thief
+M 6955 spec_guard   ; a guard dog
+M 6958 spec_cast_mage   ; a stable boy
+S
+
+#$

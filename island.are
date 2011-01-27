@@ -1,0 +1,1430 @@
+#AREADATA
+Name Island Of Illusion~
+Builders Argoesh~
+VNUMs 1700 1899
+Credits (null)~
+Security 8
+End
+
+
+
+#MOBILES
+#1700
+The Butler~
+A young elfin butler~
+A young elfin butler wearing flowing robes
+~
+~
+sylvan~
+ABGY FJ 500 0
+15 0 5d30+161 15d10+100 3d5+8 punch
+0 0 0 0
+N 0 0 I
+stand stand male 100
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#1700
+Swing~
+a black silk swing~
+A peculiar looking black silk swing suspended from a hook in the ceiling.~
+silk~
+furniture 0 O
+B CDFI F A A
+50 1 1000 R
+#1701
+Bed~
+a large bed~
+A very large soft looking bed is here.~
+goose down~
+furniture G 0
+AC DFGHIJ BEHK A A
+10 500 2000 R
+#1702
+Deck chair~
+wooden deck chair~
+A comfortable looking wooden deck chair~
+wood~
+furniture 0 0
+B EHI E A A
+1 0 0 P
+#1703
+Penthouse key~
+a shiny clear key~
+A key that appears to be made of diamond~
+diamond~
+key D AO
+0 0 0 0 0
+15 5 1000 P
+#1704
+Couch~
+a large black leather sofa.~
+A large black leather sofa which seats 6.  It looks comfortable.~
+leather~
+furniture 0 0
+BC DEGJ EHK A A
+1 500 0 P
+#0
+
+
+
+#ROOMS
+#1700
+~
+~
+0 4 0
+S
+#1701
+Wreck~
+You are standing on a sandy beach surrounded by the wreck of
+a large ship.  From the condition of the wreck it appears
+to have been here for a long time.  Here and there small bits
+of something glimmer in the light.
+~
+0 4 0
+D1
+~
+~
+0 0 1702
+D2
+~
+~
+0 0 1721
+S
+#1702
+Beach~
+You are standing on a long beach to the north is the water,
+east is the beach south is the beach and west is a wreck.
+~
+0 0 0
+D1
+~
+~
+0 0 1703
+D2
+~
+~
+0 0 1720
+D3
+~
+~
+0 0 1701
+S
+#1703
+Beach~
+You are standing on a long beach to the north is the water,
+east is the beach south is the beach and west is a wreck.
+~
+0 0 0
+D1
+~
+~
+0 0 1704
+D2
+~
+~
+0 0 1719
+D3
+~
+~
+0 0 1702
+S
+#1704
+Beach~
+You are standing on a long beach.  To the north is the water, the
+beach continues to the east south and west.
+~
+0 0 0
+D1
+~
+~
+0 0 1705
+D2
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 1703
+S
+#1705
+Beach~
+You are standing on a long beach, to the north is the water and
+the beach continues east and west. To the south a tall cliff
+looms over you.
+~
+0 0 0
+D1
+~
+~
+0 0 1706
+D3
+~
+~
+0 0 1704
+S
+#1706
+beach~
+You are standin on a sandy beach. To the north is the water, to the
+east and west is the beach, and to the south a tall cliff looms
+over you.
+~
+0 0 0
+D1
+~
+~
+0 0 1707
+D3
+~
+~
+0 0 1705
+S
+#1707
+beach~
+You are standin on a sandy beach. To the north is the water, to the
+east and west is the beach, and to the south a tall cliff looms
+over you.
+~
+0 0 0
+D1
+~
+~
+0 0 1708
+D3
+~
+~
+0 0 1706
+S
+#1708
+beach~
+You are standin on a sandy beach. To the north is the water, to the
+east and west is the beach, and to the south a tall cliff looms
+over you.
+~
+0 0 0
+D1
+~
+~
+0 0 1709
+D3
+~
+~
+0 0 1707
+S
+#1709
+beach~
+You are standin on a sandy beach. To the north is the water, to the
+east and west is the beach, and to the south a tall cliff looms
+over you.
+~
+0 0 0
+D1
+~
+~
+0 0 1710
+D3
+~
+~
+0 0 1708
+S
+#1710
+Beach~
+You are standing on a sandy beach.  To the north and east is the water.
+To the east and south is the beach.
+~
+0 0 0
+D2
+~
+~
+0 0 1712
+D3
+~
+~
+0 0 1709
+S
+#1711
+Beach~
+You are standin on a sandy beach.  To the north and east is the water.
+To the west and south is the beach.
+~
+0 0 0
+D2
+~
+~
+0 0 1732
+D3
+~
+~
+0 0 1712
+S
+#1712
+Beach~
+You are standing on a sandy beach.  To the north and west is the beach.
+To the east and south a tall cliff looms over you.
+~
+0 0 0
+D0
+~
+~
+0 0 1710
+D1
+~
+~
+0 0 1711
+S
+#1713
+Cliff~
+You are standing on the edge of a tall cliff overlooking the beach
+and the water.  Far off on the horizon you can just make out 
+the far shore.  To the north and east is a sheer drop to the beach,
+to the south the forest begins and to the west is a small
+building.
+~
+0 4 0
+D2
+~
+~
+0 0 1715
+S
+#1714
+Temple sleeping area.~
+You are standin in the common sleeping quarters of this small temple.
+There are straw mats and blankets spread around the room and the 
+few small windows are shuttered to keep out the chill.  To the west is
+the door into the temple foyer.
+~
+0 0 0
+D3
+~
+~
+0 0 1715
+S
+#1715
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  
+~
+0 0 3
+D0
+~
+~
+0 0 1713
+D1
+~
+~
+0 0 1714
+D2
+~
+~
+0 0 1728
+D3
+~
+~
+0 0 1729
+S
+#1716
+Temple chapel~
+You are standing in a small sparingly decorated chapel.  Small benches
+spread around the room all face the small altar near the west wall.
+A door to the east leads back to the foyer.
+~
+0 0 0
+D1
+~
+~
+0 0 1715
+S
+#1717
+Cliff top~
+You are standing near the edge of a tall cliff. To the west and north
+the cliff ends in a drop to the beach.  To the east is a small temple
+and to the south the forest begins.
+~
+0 4 0
+S
+#1718
+Beach~
+You are standing on a sandi beach at the base of a tall cliff.  To
+the east and south the cliff rises above you, and to the west and
+north the beach continues.
+~
+0 0 0
+D0
+~
+~
+0 0 1704
+D3
+~
+~
+0 0 1719
+S
+#1719
+Beach~
+You are standing on a sandy beach at the base of a tall cliff.  To the west north and east the beach continues and to the north
+the cliff rises above you.
+~
+0 0 0
+D0
+~
+~
+0 0 1703
+D1
+~
+~
+0 0 1718
+D2
+~
+~
+0 0 1724
+D3
+~
+~
+0 0 1720
+S
+#1720
+Beach~
+You are standing on a sandy beach near a tall cliff.  The beach continues
+to the north south east and west.  To the north west you can see bits of
+wood standing up in the sand.
+~
+0 0 0
+D0
+~
+~
+0 0 1702
+D1
+~
+~
+0 0 1719
+D2
+~
+~
+0 0 1723
+D3
+~
+~
+0 0 1721
+S
+#1721
+Beach~
+You are standing on a sany beach near the water.  The beach continues to the north east and south and the water is to
+the west.  To the north you can see bits of wood sticking
+up from the sand
+~
+0 0 0
+D0
+~
+~
+0 0 1701
+D1
+~
+~
+0 0 1720
+D2
+~
+~
+0 0 1722
+S
+#1722
+Beach~
+You are standing on a sandy beach at the base of a tall cliff.
+west and the cliff looms over you to the east.
+west and the cliff is to the east.
+~
+0 0 0
+D0
+~
+~
+0 0 1721
+D1
+~
+~
+0 0 1790
+D2
+~
+~
+0 0 1746
+S
+#1723
+Cliff~
+You are standing in near the edge of a cliff, there are trees all around you.
+The cliff edge is to the west and north and the trees continue to 
+the east and south.
+~
+0 0 0
+D0
+~
+~
+0 0 1720
+D1
+~
+~
+0 0 1724
+D2
+~
+~
+0 0 1745
+D3
+~
+~
+0 0 1722
+S
+#1724
+Cliff top~
+You are standing near the edge of a tall cliff, tall trees rise 
+from the ground around you.  The cliff ends in a steep drop to
+the north, and the trees continue to the east, south and west.
+The ground slopes steeply down towards the south.
+~
+0 4 0
+D0
+~
+~
+0 0 1719
+D1
+~
+~
+0 0 1725
+D2
+~
+~
+0 0 1744
+D3
+~
+~
+0 0 1723
+S
+#1725
+Cliff~
+You are standing near the edge of a tall cliff.  Trees are scattered
+around you and they becone thicker to the south.  The cliff drops
+off to the north and you can walk through the trees to the east south
+and west.
+~
+0 0 3
+D1
+~
+~
+0 0 1726
+D2
+~
+~
+0 0 1743
+D3
+~
+~
+0 0 1724
+S
+#1726
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  
+~
+0 0 3
+D1
+~
+~
+0 0 1727
+D2
+~
+~
+0 0 1742
+D3
+~
+~
+0 0 1725
+S
+#1727
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  Through the trees to the north you can see a small
+stone building.
+~
+0 0 3
+D1
+~
+~
+0 0 1728
+D3
+~
+~
+0 0 1726
+S
+#1728
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  Through the trees to the north you can see a small
+stone building.
+~
+0 0 3
+D0
+~
+~
+0 0 1715
+D1
+~
+~
+0 0 1729
+D2
+~
+~
+0 0 1740
+D3
+~
+~
+0 0 1727
+S
+#1729
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  Through the trees to the north you can see a small
+stone building.
+~
+0 0 3
+D1
+~
+~
+0 0 1715
+D2
+~
+~
+0 0 1739
+D3
+~
+~
+0 0 1728
+S
+#1730
+Forest~
+You are standing in a heavily wooded area. The trees continue in all
+directions.  
+~
+0 0 3
+D1
+~
+~
+0 0 1731
+D2
+~
+~
+0 0 1738
+S
+#1731
+Cliff~
+You are ctanding near the edge of a tall cliff.  Trees are scattered 
+around you, and become thicker to the west and south.  The cliff drops
+off ot the north and east.
+~
+0 0 0
+D2
+~
+~
+0 0 1737
+D3
+~
+~
+0 0 1730
+S
+#1732
+Beach~
+You are standing on a long white beach near the base of a tall cliff.
+The beach continues to the east and north.
+~
+0 0 0
+D0
+~
+~
+0 0 1711
+D1
+~
+~
+0 0 1733
+S
+#1733
+Beach~
+You are standing on a long white beach.  To the east is the water, and the beach continues to the west and south.
+~
+0 0 0
+D3
+~
+~
+0 0 1732
+S
+#1734
+Beach~
+You are standing on a long white beach.  To the east is the water, and the beach continues to the west and south.
+~
+0 4 0
+S
+#1735
+Beach~
+You are standing on a long white beach near the base of a tall cliff.
+The beach continues to the east and north.
+~
+0 4 0
+S
+#1736
+Cliff~
+You are ctanding near the edge of a tall cliff.  Trees are scattered 
+around you, and become thicker to the west and south.  The cliff drops
+off ot the north and east.
+~
+0 0 0
+D3
+~
+~
+0 0 1737
+S
+#1737
+Forest~
+You are standing near the bottom of a steep hill.  Tall trees 
+surround you.  The forest continues to the east, north and west.
+To the south a huge wall towers over you.
+~
+0 0 0
+D0
+~
+~
+0 0 1731
+D1
+~
+~
+0 0 1736
+D3
+~
+~
+0 0 1738
+S
+#1738
+Forest~
+You are standing near the bottom of a steep hill.  Tall trees 
+surround you.  The forest continues to the east, north and west.
+To the south a huge wall towers over you.
+~
+0 0 0
+D0
+~
+~
+0 0 1730
+D1
+~
+~
+0 0 1737
+D3
+~
+~
+0 0 1739
+S
+#1739
+Forest~
+You are standing near the bottom of a steep hill.  Tall trees 
+surround you.  The forest continues to the east, north and west.
+To the south a huge wall towers over you.
+~
+0 0 0
+D0
+~
+~
+0 0 1729
+D1
+~
+~
+0 0 1738
+D3
+~
+~
+0 0 1740
+S
+#1740
+Forest~
+You are standing near the bottom of a steep hill.  Tall trees 
+surround you.  The forest continues to the east, north and west.
+To the south a huge wall towers over you.
+~
+0 0 0
+D0
+~
+~
+0 0 1728
+D1
+~
+~
+0 0 1739
+S
+#1741
+Forest~
+You are standing in a dark forest surrounded by tall trees.
+The forest continues in every direction.  The ground slopes
+up steeply to the north.
+~
+0 0 0
+D3
+~
+~
+0 0 1742
+S
+#1742
+Forest~
+You are standing in a dark forest surrounded by tall trees.
+The forest continues in every direction.  The ground slopes
+up steeply to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1726
+D1
+~
+~
+0 0 1741
+D3
+~
+~
+0 0 1743
+S
+#1743
+Forest~
+You are standing in a dark forest surrounded by tall trees.
+The forest continues in every direction.  The ground slopes
+up steeply to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1725
+D1
+~
+~
+0 0 1742
+D3
+~
+~
+0 0 1744
+S
+#1744
+Forest~
+You are standing in a dark forest surrounded by tall trees.
+The forest continues in every direction.  The ground slopes
+up steeply to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1724
+D1
+~
+~
+0 0 1743
+D3
+~
+~
+0 0 1745
+S
+#1745
+Cliff~
+You are standing near the edge of a low cliff.  Trees are all around 
+you.  The cliff drops off to the west.  The trees continue to the 
+north east and south.
+~
+0 0 0
+D0
+~
+~
+0 0 1723
+D1
+~
+~
+0 0 1744
+S
+#1746
+Beach~
+You are standing on a sandy beach near the base of a low cliff.
+The beach continues to the north and south. The water is to the
+west, and the cliff is to the east.
+~
+0 0 0
+D0
+~
+~
+0 0 1722
+S
+#1747
+Beach~
+You are standing on a long gleaming white beach.  A tall cliff to
+the east rises above you, and there is water to the west.  The
+beach continues north and south
+~
+0 4 0
+S
+#1768
+Beach~
+You are standing on a long gleaming white beach.  A tall cliff to
+the east rises above you, and there is water to the west.  The
+beach continues north and south
+~
+0 4 0
+S
+#1769
+Beach~
+You are standing on a long gleaming white beach.  A tall cliff to
+the east rises above you, and there is water to the west.  The
+beach continues north and south
+~
+0 4 0
+S
+#1786
+Beach~
+You are standing on a long gleaming white beach.  A tall cliff to
+the east rises above you, and there is water to the west.  The
+beach continues north and south
+~
+0 4 0
+S
+#1787
+Beach~
+You are standing on a long gleaming white beach.  The cliff to
+the east slopes down rapidly to the south.  There is water to
+the west, and the beach continues north and south.
+~
+0 4 0
+S
+#1790
+Cave entrance~
+You have entered a small dark cave.
+~
+0 0 0
+D3
+~
+~
+0 0 1722
+S
+#1801
+Keep foyer~
+You are standing in a large open air walkway in the keep.
+To the east is a road, to the south is the small bay, 
+and the walkway continues to the east.
+~
+0 0 0
+D3
+~
+~
+0 0 1802
+S
+#1802
+Keep foyer~
+You are standing in an immense open air walkway in the keep.
+The walkway continues to the east and west, the bay is to the
+south and to the north are a set of huge beaten bronze doors.
+~
+0 0 0
+D0
+~
+~
+0 0 1807
+D1
+~
+~
+0 0 1801
+D3
+~
+~
+0 0 1803
+S
+#1803
+Keep foyer~
+You are standing in an immense open air walkway in the keep.
+The walkway continues to the east and west, the bay is to the
+south and to the north are a set of huge beaten bronze doors.
+~
+0 0 0
+D1
+~
+~
+0 0 1802
+D3
+~
+~
+0 0 1804
+S
+#1804
+Keep foyer~
+You are standing in an immense open air walkway in the keep.
+to the east is a road, to the south is the small bay and the walkway
+continues to the east.
+~
+0 0 0
+D1
+~
+~
+0 0 1803
+S
+#1805
+Entry way.~
+You are standing in a large room in the middle of the keep.
+The walkway is to the south and their are entrances to guild
+halls to the west and north.
+~
+0 0 0
+D1
+~
+~
+0 0 1806
+D3
+~
+~
+0 0 1814
+D4
+~
+~
+0 0 1815
+S
+#1806
+Entry way.~
+You are standing in a large room in the middle of the keep.
+The walkway is to the south and their are entrances to guild
+halls to the west and north.
+~
+0 0 0
+D0
+~
+~
+0 0 1811
+D1
+~
+~
+0 0 1807
+D3
+~
+~
+0 0 1805
+S
+#1807
+Entry way.~
+You are standing in a large room in the middle of the keep.
+The walkway is to the south and their are entrances to guild
+halls to the east and north.
+~
+0 0 0
+D0
+~
+~
+0 0 1810
+D1
+~
+~
+0 0 1808
+D2
+~
+~
+0 0 1802
+D3
+~
+~
+0 0 1806
+S
+#1808
+Guild room~
+Empty room to be filled with guild info
+~
+0 0 0
+D1
+~
+~
+0 0 1813
+D3
+~
+~
+0 0 1807
+D4
+~
+~
+0 0 1818
+S
+#1809
+Guild room~
+Empty room to be filled with guild info
+~
+0 4 0
+S
+#1810
+Guild room~
+Empty room to be filled with guild info
+~
+0 0 0
+D2
+~
+~
+0 0 1807
+S
+#1811
+Guild room~
+Empty room to be filled with guild info
+~
+0 0 0
+D2
+~
+~
+0 0 1806
+S
+#1812
+Guild room~
+Empty room to be filled with guild info
+~
+0 4 0
+S
+#1813
+Guild room~
+Empty room to be filled with guild info
+~
+0 0 0
+D3
+~
+~
+0 0 1808
+S
+#1814
+Guild room~
+Empty room to be filled with guild info
+~
+0 0 0
+D1
+~
+~
+0 0 1805
+S
+#1815
+Second floor hallway~
+You are standing in a large hallway that runs the length of the 
+keep.  There are stairs leading up to the third level and down
+to the ground floor.  The hall continues to the east.
+~
+0 0 0
+D1
+~
+~
+0 0 1817
+D5
+~
+~
+0 0 1805
+S
+#1816
+Second floor hallway~
+You are standing in a large hallway that runs the length of the
+keep.  The hallway continues to the east and west.  There are
+apartment doors to the north and south.
+~
+0 4 0
+S
+#1817
+Second floor hallway~
+You are standing in a large hallway that runs the length of the
+keep.  The hallway continues to the east and west.  There are
+apartment doors to the north and south.
+~
+0 0 0
+D1
+~
+~
+0 0 1818
+D3
+~
+~
+0 0 1815
+S
+#1818
+Second floor hallway~
+You are standing in a large hallway that runs the length of the
+keep.  There are stairs leading down to the ground floor and 
+stairs leading up to the third floor.  The hallway continues
+to the west
+~
+0 0 0
+D3
+~
+~
+0 0 1817
+D4
+~
+~
+0 0 1826
+D5
+~
+~
+0 0 1808
+S
+#1819
+Infirmary~
+You are standing in a large brightly lit room filled with
+beds and medical supplies. Cabinets full of jars and bottles
+take up two of the three walls.
+~
+0 0 0
+D2
+~
+~
+0 0 1823
+S
+#1820
+Storeroom~
+You are standing in a large room filled with shelves and boxes.
+The lighting is not that good, but the smell makes you think 
+this is might be a huge pantry.
+~
+0 0 0
+D1
+~
+~
+0 0 1821
+D2
+~
+~
+0 0 1824
+S
+#1821
+Kitchen~
+You are standing in the middle of an enormous kitchen.
+Ovens take up one wall, while sinks and counters take up a second.
+The smell of roasting meat and vegetables makes your mouth water.
+~
+0 0 0
+D1
+~
+~
+0 0 1823
+D2
+~
+~
+0 0 1823
+D3
+~
+~
+0 0 1822
+S
+#1822
+Balcony~
+You are standing on a large balcony that serves as a dining area.
+The balcony continues to the south and there is a door into the 
+kitchen to the west.
+~
+0 0 0
+D1
+~
+~
+0 0 1821
+D2
+~
+~
+0 0 1826
+S
+#1823
+Third floor hallway~
+You are standing in the third floor hallway.  The hall continues to the
+east, there is a door to the balcony to the south and stairs lead down
+to the second floor and up to the fourth.
+~
+0 0 0
+D0
+~
+~
+0 0 1821
+D1
+~
+~
+0 0 1824
+D2
+~
+~
+0 0 1827
+D3
+~
+~
+0 0 1821
+D4
+~
+~
+2 1703 9911
+S
+#1824
+Third floor hallway~
+You are standing in the third floor hallway. The hall continues to the
+west and there is a door leading into the pantry to the east.
+~
+0 0 0
+D0
+~
+~
+0 0 1820
+D1
+~
+~
+0 0 1825
+D2
+~
+~
+0 0 1828
+D3
+~
+~
+0 0 1823
+S
+#1825
+Storeroom~
+You are standing in a large well lit store room.  Huge shelves around
+the room hold every type of food one could image. A door to the west 
+leads to the hallway, and a door to the north leads into the kitchen.
+~
+0 0 0
+D3
+~
+~
+0 0 1824
+S
+#1826
+Balcony~
+You are standing on a large balcony that serves as a dining area.
+The balcony continues to the north and south, and there are stairs
+leading down to the second floor.
+~
+0 0 0
+D0
+~
+~
+0 0 1822
+D2
+~
+~
+0 0 1830
+D5
+~
+~
+0 0 1818
+S
+#1827
+Balcony~
+You are standing on a large balcony that serves as a dining area. The
+balcony continues to the east and there is a door leading to the hall
+to the north.
+~
+0 0 0
+D0
+~
+~
+0 0 1823
+D1
+~
+~
+0 0 1828
+S
+#1828
+Balcony~
+You are standing on a large balcony that serves as a dining area.  The
+balcony continues to the east and west.
+~
+0 0 0
+D0
+~
+~
+0 0 1824
+D1
+~
+~
+0 0 1829
+D3
+~
+~
+0 0 1827
+S
+#1829
+Balcony~
+You are standing on a large balcony that serves as a dining area.  The
+balcony continues to the east and west.
+~
+0 0 0
+D1
+~
+~
+0 0 1830
+D3
+~
+~
+0 0 1828
+S
+#1830
+Balcony~
+You are standing on a large balcony that serves as a dining area.  The 
+balcony continues to the west and north.
+~
+0 0 0
+D0
+~
+~
+0 0 1826
+D3
+~
+~
+0 0 1829
+S
+#1831
+Penthouse balcony~
+You are standing on a large balcony overlooking the north and east
+sides of the island.  The balcony continues to the south and large 
+doors lead to the west.
+~
+0 0 0
+D2
+~
+~
+0 0 1832
+D3
+~
+~
+0 0 9910
+S
+#1832
+Penthouse balcony~
+You are standing on a large balcony overlooking the south and east 
+sides of the island.  The balcony continues to the south and large
+doors lead to the west.
+~
+0 0 0
+D0
+~
+~
+0 0 1831
+D3
+~
+~
+0 0 9912
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 1823 4 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

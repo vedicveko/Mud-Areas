@@ -1,0 +1,585 @@
+#AREA
+@@WThe @@eMinotaur's @@dWarcamp@@N~
+K minotaurcamp~
+L @@W{@@mLO RM@@W}@@N~
+N 145
+I 70 100
+V 6600 6630
+X 0
+F 10
+U @@WThe sounds of a @@ewardrum@@W fill your ears.@@N~
+O dragonrage~
+R dragonrage~
+W dragonrage~
+#ROOMS
+#6600
+@@GForest @@dPath@@N~
+@@dAs you walk through the dark @@Gforest@@d you notice several large
+@@bstumps@@d around you. The @@Gforest@@d starts to become more and more
+sparse. You faintly hear the sounds of hammering and sawing to the north.
+~
+221188 0
+D0
+~
+~
+0 -1 6601
+D2
+~
+~
+0 0 9722
+S
+#6601
+@@GForest @@dPath@@N~
+@@dAs you walk through the dark @@Gforest@@d you notice several large
+@@bstumps@@d around you. The @@Gforest@@d starts to become more and more
+sparse. You faintly hear the sounds of hammering and sawing to the north.@@N
+~
+221184 0
+D0
+~
+~
+0 -1 6602
+D2
+~
+~
+0 -1 6600
+E
+stump~
+@@WA large @@bstump @@Wlooks like it was recently cut.@@N
+~
+E
+stumps~
+@@WA large @@bstump @@Wlooks like it was recently cut.@@N
+~
+S
+#6602
+@@GForest @@dClearing@@N~
+@@dThe @@Gforest@@d opens up to reveal a large encampment of some kind. An
+earthen wall surrounds it inhibiting your view. You hear the crackling of
+leaves and the sounds of something grunting coming up behind you.@@N
+
+~
+221184 0
+D1
+~
+~
+0 -1 6603
+D2
+~
+~
+0 -1 6601
+D3
+~
+~
+0 -1 6608
+S
+#6603
+@@GForest @@dPath@@N~
+@@dSilence pervades the forest as all the woodland creatures stop making
+sounds. Could it have been you that could have startled all the creatures?
+Perhaps. The @@gpath @@dcontinues to the east.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6604
+D3
+~
+~
+0 -1 6602
+S
+#6604
+@@GForest @@dPath@@N~
+@@dSilence pervades the forest as all the woodland creatures stop making
+sounds. Could it have been you that could have startled all the creatures?
+Perhaps. The @@gpath @@dcontinues to the east.@@N
+~
+221184 0
+D0
+~
+~
+0 -1 6606
+D1
+~
+~
+0 -1 6605
+D3
+~
+~
+0 -1 6603
+S
+#6605
+@@eAmbush!@@N~
+@@dThe path leads its way through a pair of large @@gboulders@@d. As you walk
+through them you have a strong @@lsense@@d that you shouldnt have done that.
+~
+221184 0
+D3
+~
+~
+0 -1 6604
+E
+~
+~
+E
+boulders~
+@@WA pattern of sprayed @@Rblood@@W indicates a recent battle occured here.@@N
+~
+S
+#6606
+@@dDark @@GForest @@dPath@@N~
+@@dAs you continue along the path the @@Gforest@@d becomes increasingly denser
+in growth. @@yLight@@d is barely making it through the canopy high above your
+head. Something up ahead catches you eye.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6607
+D2
+~
+~
+0 -1 6604
+S
+#6607
+@@eSafe @@dRoom?@@N~
+@@dThe path you have followed leads you to a small @@gcave@@d. You feel a
+strange sensation of @@Wprotective @@lmagic@@d in the cave. Perhaps this is a
+good place to @@grest@@d, the wrong spot could lead to an ambush of some kind.@@N
+@@N
+~
+212998 0
+D3
+~
+~
+0 -1 6606
+S
+#6608
+@@dWorn-down Path@@N~
+@@dYou decide to take a worn-down @@gpath@@d that is slightly out of sight
+from the encampment's view of you. The path has numerous footprints and looks
+like it is used quite often. Several tree trunks show the signs of large ax
+marks on them.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6602
+D3
+~
+~
+0 -1 6609
+S
+#6609
+@@dWorn-down Path@@N~
+@@dYou decide to take a worn-down @@gpath@@d that is slightly out of sight
+from the encampment's view of you. The path has numerous footprints and looks
+like it is used quite often. Several tree trunks show the signs of large ax
+marks on them.@@N
+~
+221184 0
+D0
+~
+~
+0 -1 6610
+D1
+~
+~
+0 -1 6608
+S
+#6610
+@@dWorn-down Path@@N~
+@@dYou decide to take a worn-down @@gpath@@d that is slightly out of sight
+from the encampment's view of you. The path has numerous footprints and looks
+like it is used quite often. Several tree trunks show the signs of large ax
+marks on them.@@N
+~
+221184 0
+D0
+~
+~
+0 -1 6611
+D2
+~
+~
+0 -1 6609
+S
+#6611
+@@dFork in the Path@@N~
+@@dThe worn-out path takes a turn towards the east while another less used
+path splits off to the north. The noise of the @@gcamp@@d can be heard easily
+now. It is just a matter of time before someone or something happens across
+your path.@@N
+~
+221188 0
+D0
+~
+~
+0 -1 6612
+D1
+~
+~
+0 -1 6620
+D2
+~
+~
+0 -1 6610
+S
+#6612
+@@GForest @@gPath@@N~
+@@dThe @@Gforest @@dagain closes in on the small @@gpath@@d that you are
+following. The noise from the @@gcamp @@dfades into the distance leaving the
+forest quiet. You notice large fresh footprints that cross your path. You
+could be discovered at anytime.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6613
+D2
+~
+~
+0 -1 6611
+S
+#6613
+@@GForest @@gPath@@N~
+@@dThe @@Gforest @@dagain closes in on the small @@gpath@@d that you are
+following. The silence in the forest makes you feel uneasy, yet you have to
+continue on. A strange unfamiliar smell fills the air.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6614
+D3
+~
+~
+0 -1 6612
+S
+#6614
+@@eMinotaur's @@dRear WatchPost@@N~
+@@dA small @@bwooden @@gshack @@dlies out of place in the dark @@Gforest.@@d
+The smell of some burnt meat lingers in the air. The inside of the @@gshack@@d
+looks no better than the outside. Trash lies everywhere and the only thing of
+interest lies on the @@GRanger.@@N
+~
+221184 0
+D3
+~
+~
+0 -1 6613
+S
+#6615
+New room~
+No description~
+221188 0
+S
+#6616
+New room~
+No description~
+221188 0
+S
+#6617
+New room~
+No description~
+221188 0
+S
+#6618
+New room~
+No description~
+221188 0
+S
+#6619
+New room~
+No description~
+221188 0
+S
+#6620
+@@dMain Path@@N~
+@@dJust your luck, you have managed to stumble onto the main path of the
+@@eminotaur's@@d camp. You have been spotted by several of them and your
+choice is to stand and @@lfight@@d them or @@yflee@@d from an almost certain
+death.
+~
+221184 0
+D1
+~
+~
+0 -1 6621
+D3
+~
+~
+0 -1 6611
+S
+#6621
+@@dCamp @@aEntrance@@N~
+@@dYour path finally comes upon what you have been looking for. The camp's
+@@gentrance@@d lies in front of you. You could possibly get in if you had the
+@@ekey@@d and if you could make your way past the @@eguards.@@N
+~
+221184 0
+D1
+~
+~
+0 -1 6622
+D2
+~
+~
+481 6623 6623
+D3
+~
+~
+0 -1 6620
+S
+#6622
+@@cTraining @@dGrounds@@N~
+@@dYou have entered a large training ground of some kind. @@bWooden
+@@gbattle-axes @@dlie on a table as well as @@bwooden @@gshields.@@d Several
+humanoid shaped targets line the field with numerous puncture holes and slash
+marks on each of them.@@N
+~
+221184 0
+D3
+~
+~
+0 -1 6621
+S
+#6623
+@@eWar @@dRoom@@N~
+@@dYou enter a plain looking @@eroom@@d with a large oak @@Rtable@@d in the
+middle surrounded by several chairs. On the table are many different
+@@gplans@@d for an attack on @@WMidgaard!
+~
+212992 0
+D0
+~
+~
+481 6623 6621
+E
+plans~
+@@WYou look a one note and it looks like the minotaurs are going to attack
+Midgaard by ship in two months!
+~
+E
+midgaard~
+A painting of Midgaard with several daggers sticking in it hangs on the wall
+@@N
+~
+S
+#6630
+New room~
+No description~
+4 0
+S
+#0
+#MOBILES
+#6601
+minotaur patrol~
+@@eMinotaur @@dPatrol@@N~
+@@dA @@eMinotaur @@dPatrol spots you and attacks!@@N
+~
+~
+3145729 8380 -200 S
+86 1
+-674 160 130
+! 7 0 0 7 14350 0 4
+#6605
+cut cutthroat throat minotaur~
+@@eMinotaur @@dCutthroat@@N~
+@@dA @@eMinotaur @@dCutthroat jumps out from behind the @@grocks.@@N
+~
+~
+3145731 106686 -200 S
+84 1
+-675 175 140
+! 2 0 0 7 6286 0 128
+#6621
+minotaur lesser guard~
+@@eMinotaur @@dLesser Guard@@N~
+@@dThis @@eMinotaur@@d @@dGuard seems to be guarding a door.@@N
+~
+~
+3153923 8892 -200 S
+84 1
+-750 230 200
+! 3 0 0 7 14782 0 2
+#6622
+minotaur trainee~
+@@eMinotaur @@dTrainee@@N~
+@@dA @@eMinotaur @@dTrainee @@dis hard at work slashing a target.@@N
+~
+~
+3153923 8328 -200 S
+86 1
+-590 140 140
+! 3 0 0 7 14 0 0
+#6620
+minotaur worker~
+@@eMinotaur @@dWorker@@N~
+@@dA @@eMinotaur @@dWorker is busy carrying large bags of supplies down the
+path.@@N
+~
+~
+1 8320 -100 S
+85 1
+-500 160 145
+! 3 0 0 7 6 0 0
+#6614
+minotaur ranger~
+@@eMinotaur @@GRanger@@N~
+@@dA @@eMinotaur @@GRanger @@dscouts out the rear area of the camp.@@N
+~
+~
+3153923 631036 -200 S
+89 1
+-800 250 225
+! 9 0 0 7 14478 0 80
+#6623
+minotaur commander~
+@@eMinotaur @@cCommander@@N~
+@@dThe @@eMinotaur @@cCommander@@d looks pissed that his plans have been
+discovered.@@N
+~
+~
+3153923 90300 -200 S
+94 1
+-1000 310 310
+! 0 0 0 7 6798 0 48
+#0
+#OBJECTS
+#6623
+key~
+@@ga @@eBone @@dKey@@N~
+@@Wa @@eBone @@dKey @@Wlies on the ground here.@@N
+~
+18 147488 1 1
+6623 0 0 0
+1
+L
+100
+#6622
+battleaxe~
+@@eMinotaur @@dBattle-Axe@@N~
+@@dA wicked looking @@gbattle-axe@@d lies on the ground.@@N
+~
+5 0 270337 1
+0 0 0 3
+25
+A
+13 200
+A
+17 -20
+A
+19 15
+A
+18 12
+L
+80
+#6621
+security pass~
+@@dSecurity @@lPass@@N~
+@@dA piece of paper with strange writing on it lies on the ground.@@N
+~
+9 131072 16385 1
+0 0 0 0
+1
+A
+17 -175
+A
+24 -20
+A
+13 100
+A
+19 14
+A
+18 14
+L
+80
+#6620
+boots~
+@@eMinotaur @@dBoots@@N~
+@@dA large pair of @@eMinotaur @@dboots lies on the ground.@@N
+~
+9 131392 65 1
+0 0 0 0
+15
+A
+17 -150
+A
+19 10
+A
+18 15
+A
+13 50
+A
+12 50
+A
+14 -100
+L
+80
+#6619
+battle helmet~
+@@eMinotaur @@dBattle Helmet@@N~
+@@dA very large helmet with two holes on the top lies on the ground.@@N
+~
+9 131072 17 1
+0 0 0 0
+25
+A
+19 18
+A
+18 18
+A
+17 -170
+A
+13 75
+L
+80
+#0
+#RESETS
+D 0 6621 2 1 (null)
+
+D 0 6623 0 2 (null)
+
+D 0 6621 2 2 (null)
+
+M 0 6614 1 6614 (null)
+
+G 0 6623 0 (null)
+
+E 0 6621 0 17 (null)
+
+M 0 6622 1 6622 (null)
+
+M 0 6621 2 6621 (null)
+
+E 0 6619 0 6 (null)
+
+M 0 6620 4 6620 (null)
+
+M 0 6623 1 6623 (null)
+
+E 0 6620 0 8 (null)
+
+E 0 6621 0 17 (null)
+
+E 0 6622 0 16 (null)
+
+M 0 6601 8 6602 (null)
+
+M 0 6605 2 6605 (null)
+
+S
+#SPECIALS
+M 6601 spec_mino_guard
+M 6605 spec_mino_guard
+M 6614 spec_mino_guard
+M 6621 spec_mino_guard
+M 6623 spec_mino_guard
+S
+#$

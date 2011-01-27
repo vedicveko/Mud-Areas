@@ -1,0 +1,574 @@
+#AREADATA
+Name The Hidden Path~
+Builders Grehyton~
+VNUMs 2700 2799
+Credits { 5 35} Grehyton The Hidden Path~
+Security 9
+End
+
+
+
+#MOBILES
+#2700
+bandit~
+the bandit~
+The bandit screams "stand and deliver" then attacks.
+~
+Dressed in a black cape and mask, he wants your
+riches.
+~
+unique~
+AFG 0 -300 0
+1 0 2d6+10 0d0+0 1d4+0 slash
+8 8 8 8
+J 0 0 0
+stand stand male 1
+0 0 medium unknown
+#2701
+bandit sargaent~
+the bandit sargaent~
+The bandit sargaent is angered by your intrusion.
+~
+He is very angry, you must die because you found
+the hideout.
+~
+unique~
+AFG 0 -300 0
+2 0 2d6+30 0d0+0 1d8+0 pound
+7 7 7 7
+I 0 0 0
+stand stand male 0
+0 0 medium unknown
+#2702
+bandit recruit~
+the bandit recruit~
+The bandit recruit stands here.
+~
+Obviously a rookie, as he is surprised by your
+intrusion.
+~
+unique~
+AFG 0 0 0
+1 0 2d6+10 0d0+0 1d6+0 pound
+9 9 9 9
+N 0 0 0
+stand stand male 1
+0 0 medium unknown
+#2703
+bandit leader~
+the bandit leader~
+The bandit leader will show you what discipline means.
+~
+He is angered that his men have failed, perhaps
+you have done him a favor.
+~
+unique~
+ABFG Q -500 0
+5 0 2d6+60 0d0+0 1d6+4 pound
+8 8 8 8
+B 0 0 0
+stand stand female 5
+0 0 medium unknown
+#2704
+two thumbs~
+two thumbs~
+Two Thumbs stands here, serving up drinks.
+~
+He looks well travelled and very experienced, 
+the only thing that stopped his travels was
+the spectre of age.
+~
+unique~
+ABG 0 500 0
+23 2 5d10+450 0d0+0 3d6+6 pound
+-6 -6 -6 -6
+EFIJK 0 0 0
+stand stand male 3000
+0 0 medium unknown
+#2705
+croupier~
+the croupier~
+The croupier doesnt like strangers in his inn!
+~
+A dark hood covers this guys face, he looks like
+a shady character.
+~
+unique~
+ABG 0 -300 0
+5 0 2d6+60 0d0+0 1d6+1 pound
+5 5 5 5
+0 0 0 0
+sit sit male 0
+0 0 medium unknown
+#0
+
+
+
+#OBJECTS
+#2700
+chair~
+a chair~
+A chair sits here.~
+wood~
+furniture 0 0
+A CEFGHI E 0 0
+0 10 0 P
+E
+chair~
+It looks sturdy enough to hold a single person.~
+#2701
+chair~
+a chair~
+A chair sits here.~
+wood~
+furniture 0 0
+A EHI EF 0 0
+0 10 0 P
+E
+chair~
+It looks study enough to sit on.~
+#2702
+table~
+a table~
+A table is here.~
+bone~
+furniture 0 0
+B CEFGHI EHKN 0 0
+0 50 0 P
+E
+table~
+A sturdy table, a good place to put drinks.~
+#2703
+black mask~
+a black mask~
+A black strip of cloth sits here.~
+canvas~
+armor 0 AR
+AD AD AD AD A
+1 4 20 P
+#2704
+hooded cloak~
+a hooded cloak~
+A hooded cloak rests here.~
+dark laen~
+armor 0 AK
+AB AB AB AB A
+0 5 100 P
+A
+2 1
+#2705
+arming doublet~
+arming doublet~
+A arming doublet sits here.~
+fur~
+armor 0 AD
+AC AC AC AC B
+3 20 300 P
+E
+doublet~
+This padded leather vest type garment can be
+used as armor by itself, but is usually covered
+with platemail.~
+#2706
+assegai~
+a assegai~
+An assegai rests here.~
+flint~
+weapon 0 AN
+polearm 2 4 scratch 0
+0 15 75 P
+E
+assegai~
+This is a spear/polearm with a leaf shaped head,
+its shaft has been reinforced with iron to make
+it extremely sturdy. The extra weight however
+makes it impossible to throw.~
+#2707
+bagh nakh~
+a pair of bagh nakh~
+A pair of bagh nakh rest here.~
+adamantite~
+weapon 0 AN
+dagger 2 4 slash 0
+0 15 150 P
+E
+bagh nakh~
+The name of this weapons means "tiger claws" in
+an ancient tongue. They are worn on the hands
+and attack similiar to daggers.~
+#2708
+bich wa~
+a bich wa~
+A bich wa rests here.~
+bone~
+weapon 0 ANS
+dagger 2 4 slash 0
+0 15 87 P
+E
+bich wa~
+The bich wa is a double curved dagger with a 
+loop handle. It is usually made from buffalo
+horns, and is also known as the 'scorpions sting'~
+#2709
+brandestock~
+a brandestock~
+A brandestock rests here.~
+brass~
+weapon 0 AN
+polearm 2 7 slash 0
+3 30 312 P
+E
+brandestock~
+A long hafted weapon with a small axehead on
+one side and a short spike on the other.~
+#2710
+lamellar~
+a suit of lamellar~
+A suit of lamellar rests here.~
+brass~
+armor 0 AD
+ABC ABC ABC AD AB
+0 70 400 P
+E
+lamellar~
+Lamellar armor is made of strips of metal tied
+not stapled to thick leather backing.~
+#2711
+steel cap~
+a steel cap~
+A steel cap rests here.~
+steel~
+armor 0 AE
+D D AD AD A
+5 10 432 P
+E
+cap~
+A small well fitting steel helmet. Also known
+as a skull cap.~
+#0
+
+
+
+#ROOMS
+#2700
+{YA Hidden Trail{x~
+You are on a hidden trail you found in the DearthWood.
+Recent footprints indicate it is used frequently but the
+beginning was hidden by bushes.
+~
+0 0 5
+D1
+You see the DearthWood.
+~
+~
+0 -1 31069
+D2
+The Hidden Trail.
+~
+~
+0 -1 2701
+S
+#2701
+{YThe Hidden Trail{x~
+This narrow trail is very interesting, you think only
+those sure of foot and keen of sight could use it, as
+it is almost invisible.
+~
+0 0 5
+D0
+The Hidden Trail.
+~
+~
+0 -1 2700
+D2
+The Hidden Trail.
+~
+~
+0 -1 2702
+S
+#2702
+{YThe Hidden Path{x~
+The hidden path twists and turns dodging tree and bush.
+You are starting to think you probably shouldn't be 
+coming down here.
+~
+0 0 5
+D1
+The Hidden Path
+~
+~
+0 -1 2703
+D2
+The Hidden Path.
+~
+~
+0 -1 2701
+S
+#2703
+{YThe Hidden Trail{x~
+Twisting and turning it seems as if your travels
+will never end. You take your steps carefully,
+one wrong turn could be your last.
+~
+0 0 3
+D2
+~
+~
+0 -1 2704
+D3
+~
+~
+0 -1 2702
+S
+#2704
+{YThe Hidden Trail{x~
+This part of the path is set in a deep ravine.
+You feel unsafe as this would be a good ambush
+point for bandits.
+~
+0 0 3
+D0
+~
+~
+0 -1 2703
+D2
+~
+~
+0 -1 2705
+S
+#2705
+{YThe Hidden Trail{x~
+The path here is a bit wider, further south you
+can see it meeting a trail. A small building also
+lies further south. 
+~
+0 0 3
+D0
+~
+~
+0 -1 2704
+D2
+~
+~
+0 -1 2706
+S
+#2706
+{YSplitting Path{x~
+To the north of here, you see a path leadin through
+an ancient forest. Heading west is a road leading to
+parts unknown. South of here you see a small building.
+~
+0 0 3
+D0
+The Hidden Trail.
+~
+~
+0 -1 2705
+D2
+A Small Building.
+~
+~
+0 -1 2707
+D3
+An Old Road.
+~
+~
+0 -1 2708
+S
+#2707
+{YTwo Thumbs Inn{x~
+You are inside a small and run down inn, owned
+by the hero Two Thumbs. Although now retired 
+he is still known to serve up a good mug of ale.
+There is a counter here, and a sign.
+~
+0 8 0
+E
+sign~
+Type LIST to see what Two Thumbs has to offer.~
+D0
+~
+~
+0 -1 2706
+D2
+~
+~
+0 -1 2711
+S
+#2708
+{YOld Trail{x~
+The trail from here heads east and west. You 
+are still high up in the hills. 
+~
+0 0 3
+D1
+The Old Road.
+~
+~
+0 -1 2706
+D2
+The fluffy bush looks odd against the rocky
+background.~
+bush~
+1 -1 2709
+D3
+~
+~
+0 -1 2714
+S
+#2709
+{YHidden Cave{x~
+You are inside a hidden cave. Sleeping cots are
+all around. There is more cave to the south.
+~
+0 8 0
+D0
+A fluffly bush, it looks odd against the rocky
+background.~
+bush~
+1 -1 2708
+D2
+A Larger Cave.
+~
+~
+0 -1 2710
+S
+#2710
+{YBandit Leaders Cave{x~
+This is the cave of the bandit leader. Tapestries
+and shining trinkets are strewn about. You 
+notice a large pile of torn pouches and assume
+business has been good. There is a large
+barrel in the corner.
+~
+0 8 0
+D0
+A fluffly bush, it looks odd against the rocky
+background.~
+bush~
+0 -1 2709
+D5
+The barrel looks like its been moved.~
+barrel~
+1 -1 2713
+S
+#2711
+{YThe Backroom{x~
+This is the backroom of Two Thumbs inn. Stacks
+of crates and barrels are all about.
+~
+0 8 0
+D0
+~
+~
+0 -1 2707
+D5
+The barrel looks as if its been moved recently.~
+barrel~
+1 -1 2712
+S
+#2712
+Secret passageway.~
+This is a hidden passageway, it leads off into
+the darkness.
+~
+0 9 0
+D1
+~
+~
+0 -1 2713
+D4
+There is a barrel above the opening. It looks
+as though its been moved recently.~
+barrel~
+1 -1 2711
+S
+#2713
+Secret cavern.~
+This is a secret cavern heading to parts unknown.
+~
+0 9 0
+D3
+~
+~
+0 -1 2712
+D4
+The barrel looks like it has been moved.~
+barrel~
+1 -1 2710
+S
+#2714
+{YBlocked By Trees{x~
+The path stops here blocked by some huge trees
+and thick underbrush.
+~
+0 0 3
+D1
+~
+~
+0 -1 2708
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 2708 2 1
+D 0 2709 0 1
+D 0 2710 5 1
+D 0 2711 5 1
+D 0 2712 4 1
+D 0 2713 4 1
+M 0 2700 2 2704 2
+E 0 2703 0 6
+E 0 2706 0 16
+M 0 2700 2 2704 2
+E 0 2703 0 6
+E 0 2706 0 16
+O 0 2700 0 2707
+O 0 2701 0 2707
+O 0 2700 0 2707
+O 0 2702 0 2707
+M 0 2704 1 2707 1
+M 0 2705 2 2707 2
+E 0 2704 0 12
+E 0 2709 0 16
+M 0 2705 2 2707 2
+M 0 2702 3 2709 3
+E 0 2703 0 6
+E 0 2707 0 16
+M 0 2702 3 2709 3
+E 0 2703 0 6
+E 0 2708 0 16
+M 0 2702 3 2709 3
+M 0 2701 1 2709 1
+E 0 2705 0 5
+E 0 2703 0 6
+E 0 2704 0 12
+E 0 2708 0 16
+O 0 2702 0 2709
+M 0 2703 1 2710 1
+E 0 2710 0 5
+E 0 2711 0 6
+E 0 2704 0 12
+E 0 2709 0 16
+O 0 2702 0 2710
+O 0 2701 0 2710
+S
+
+
+#SHOPS
+2704 10 19 17 0 0 100 200 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

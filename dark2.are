@@ -1,0 +1,2500 @@
+#AREA
+dark2.are~
+Dark Continent~
+{ 5 35} Mort    Dark Continent~
+14500 14599
+
+#HELPS
+0 DARK CONTINENT~
+
+Created by Mort for 5-35 level players. 
+Converted to ROM 2.4 format by Gapcio.
+Enhanced and balanced by jaceks.
+Checked and beta tested by Quartz.
+~
+0 $~
+
+#MOBILES
+#14501
+monkey big~
+the BIG monkey~
+A BIG monkey looks at you with interest.
+~
+This BIG monkey must weigh at least 200 pounds. It is covered with black
+fur and has the ugliest teeth you have ever seen.
+~
+human~
+AF c -500 0
+10 0 2d7+121 99d1+1 2d4+2 pound
+1 1 1 8
+BKP 0 0 C
+stand stand female 0
+AB ACBCDH large 0
+#14502
+merchant elf elven~
+the Elven Merchant~
+An Elven merchant checks his wares.
+~
+This Elf does not appear to be very prosperous. His violet eyes look you
+over as he tries to decide if you are a client or a salesman.
+~
+elf~
+BG J -1 0
+12 0 2d10+150 119d1+1 1d10+3 pound
+0 0 0 8
+DE 0 B Z
+stand stand male 300000
+AHMV ABCDEFGHIJ medium 0
+#14503
+merchant dwarven~
+the Dwarven Merchant~
+The Dwarven Merchant greets you, "Welcome!"
+~
+This merchant has the Eye of the Tiger. "Welcome my friend," he says.
+~
+dwarf~
+BG J -1 0
+12 0 2d10+150 119d1+1 1d10+3 pound
+0 0 0 8
+DE 0 LQ R
+stand stand male 300000
+AHMV ABCDEFGHIJ medium 0
+#14504
+merchant halfdwarf~
+the Halfdwarf Merchant~
+The Halfdwarf Merchant looks at you.
+~
+This man is only four feet tall but has a powerful body.  His arms reach
+almost to his calves.
+~
+human~
+AGH 0 90 0
+12 0 2d10+150 119d1+1 1d10+3 pound
+0 0 0 8
+NU 0 0 C
+stand stand either 300000
+AHMV ABCDEFGHIJ small 0
+#14505
+merchant human~
+the Human Merchant~
+A large Human Merchant stands ready to sell you.
+~
+Many of the merchants you have seen throughout your life resemble this man.
+~
+human~
+ACS 0 -200 0
+5 1 2d6+60 1d1+99 1d6+1 punch
+7 5 5 10
+BJNQ 0 0 C
+stand stand male 300000
+AHMV ABCDEFGHIJ medium 0
+#14506
+adventurer madboy~
+Madboy the Adventurer~
+Madboy the Adventurer sneers at you.
+~
+This adventurer is a largish, oafish, boy with the largest ego you've ever
+seen.  His ego is writing checks his character will never be able to cash.
+~
+human~
+ACHS 0 -200 0
+7 0 2d6+85 69d1+1 1d8+1 punch
+4 4 4 9
+BJNQ 0 0 C
+stand stand male 140
+AHMV ABCDEFGHIJ medium 0
+#14507
+soldier bearded~
+the Bearded Soldier~
+The Bearded Soldier stand alert.
+~
+This soldier has an alert look about him.  With his pointed beard and
+sharp sword the security he provides comes mostly from his presence.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 stab
+0 0 0 8
+CDELU 0 C 0
+stand stand male 2200
+AHMV ABCDEFGHIJ medium 0
+#14508
+soldier alert~
+the Alert Soldier~
+The Alert Soldier glares at you suspiciously.
+~
+This soldier greets you with a bared blade. I don't think you'll be
+sneaking up on him.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 slash
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand male 1530
+AHMV ABCDEFGHIJ medium 0
+#14509
+soldier sleepy~
+the Sleepy Soldier~
+This Sleepy Soldier doesn't see you.
+~
+Without looking in his eye you have no idea how tough he would be.
+~
+human~
+ABT 0 1000 3000
+17 0 3d9+258 169d1+1 3d4+4 pierce
+-3 -3 -3 7
+CDEKLTU 0 C 0
+sleep sleep male 2502
+AHMV ABCDEFGHIJ medium 0
+#14510
+Watcher~
+the Watcher~
+The Watcher is looking for evil.
+~
+This female Watcher is one of those cultist who protect the rest of the
+world from those they determine are evil.
+~
+human~
+ABT JN 1000 3000
+20 4 20d20+200 1d1+199 2d4+7 punch
+-4 -6 -6 0
+CDEHKLTU 0 C 0
+stand stand female 3200
+AHMV ABCDEFGHIJ medium 0
+#14511
+pig fat~
+the fat pig~
+A fat pig is rooting around for food.
+~
+This fat pig is very hungry. He eats just about ANYTHING.
+~
+pig~
+ACGH Gb 500 0
+5 0 2d6+60 49d1+1 1d6+1 bite
+5 5 5 9
+BDEI 0 0 0
+stand stand either 35
+ABGV ACDEFJKV medium 0
+#14512
+dog~
+the dog~
+A dog sits here wagging it's tail.
+~
+The dog looks back at you.  After a few moments it sits up..
+puts a cigar in it's mouth, lights it, and asks, "So..what's up bub?"
+~
+dog~
+AB F 400 0
+7 3 6d10+60 1d1+149 2d4+1 bite
+4 4 4 8
+CDL 0 C 0
+stand stand either 0
+0 ACDEFHJKUVo medium 0
+#14513
+chicken~
+the chicken~
+A scrawny chicken is scratching for something.
+~
+This chicken is so skinny it WOULDN'T provide enough meat for a soup.
+        ************ IT ESCAPE FROM KFC BAR !!! *************
+~
+song bird~
+CG NOT 0 0
+35 0 10d10+1300 349d1+1 4d7+11 peck
+-11 -11 -11 5
+ADIJ C C GL
+stand stand female 5000
+AW ACDFKP small 0
+#14514
+human man~
+the Human Man~
+A Human Man goes about his business.
+~
+This guy looks like an advertisement for a wilderness clothing company.
+>From his buckskins to his fur cap he fits the part.
+~
+human~
+ACS 0 -200 0
+5 1 2d6+60 1d1+99 1d6+1 kick
+7 5 5 10
+BJNQ 0 0 C
+stand stand male 181
+AHMV ABCDEFGHIJ medium 0
+#14515
+woman human~
+the Human Woman~
+A Human Woman walks by.
+~
+She appears to be distracted by some inner thought. Although she seems
+to be in good health, her eyes are puffy and red.
+~
+human~
+ACS 0 -200 0
+8 0 2d7+96 79d1+1 1d7+2 kick
+3 3 3 9
+BJNQ 0 0 C
+stand stand female 223
+AHMV ABCDEFGHIJ medium 0
+#14516
+man elven~
+the Elven Man~
+An Elven Man is here, looking for something.
+~
+The Elven Man looks at you intently before continuing on his way.
+~
+elf~
+ABR DEFZ 500 0
+13 0 2d10+170 129d1+1 2d5+3 magic
+-1 -1 -1 8
+FG A B Z
+stand stand male 513
+AHMV ABCDEFGHIJ medium 0
+#14517
+woman elven~
+the Elven Woman~
+A beautiful Elven Woman paces back and forth before you.
+~
+Looking into her eyes causes you great fear.
+~
+elf~
+ABR DEFZ 500 0
+16 0 3d9+233 159d1+1 2d6+4 magic
+-2 -2 -2 7
+FG A B Z
+stand stand female 300
+AHMV ABCDEFGHIJ medium 0
+#14518
+woman dwarven~
+the Dwarven Woman~
+The Dwarven Woman is smacking her fist in her hand.
+~
+Stand back!  She's about to blow!!!
+~
+dwarven~
+ABT DF 900 0
+16 0 3d9+233 159d1+1 2d6+4 beating
+-2 -2 -2 7
+CDEIK A LQ R
+stand stand female 122
+AHMV ABCDEFGHIJ medium 930
+#14519
+man dwarven~
+the Dwarven Man~
+A large Dwarven Man walks by you.
+~
+He looks back at you, then dismisses you as unimportant.
+~
+dwarven~
+ABT DF 900 0
+19 0 3d9+308 189d1+1 2d7+5 punch
+-4 -4 -4 7
+CDEIK A LQ R
+stand stand male 444
+AHMV ABCDEFGHIJ medium 348
+#14520
+warrior goblin~
+the Goblin Warrior~
+The Goblin Warrior raises his hand to strike you.
+~
+This goblin must be a shock troop.  He is HUGE. Standing 6' tall and weighing
+about 250 pounds his bite will be worse than you would think. He is lightly
+armed and armored, doesn't wear boots, and has claws and talons with which
+to fight.
+~
+goblin~
+AFG J -300 0
+12 0 2d10+150 119d1+1 1d10+3 slash
+0 0 0 8
+CI 0 LQ C
+stand stand male 123
+AHMV ABCDEFGHIJ huge 666
+#0
+
+
+#OBJECTS
+#14501
+paw monkey~
+a monkey paw~
+A monkey paw lies here.~
+silver~
+treasure A A
+0 0 0 0 0
+5 2 400 P
+#14502
+elven necklace~
+an Elven Necklace~
+An Elven Necklace has been dropped here.~
+steal~
+armor 0 AC
+7 7 7 0 2
+19 50 4700 P
+E
+necklace elven~
+Engraved on the back are the words: "Protect that which is important"~
+A
+17 -10
+#14503
+potion elven~
+an Elven potion~
+An Elven potion has been dropped here.~
+glass~
+potion G AO
+10 'bless' 'cure critical' 'cure poison' 'heal'
+1 300 2000 P
+E
+potion~
+Written on the seal of the bottle is a glyph. You believe that the glyph
+stands for "POISON"
+~
+#14504
+water walking boots elven~
+elven Water Walking Boots~
+A pair of Elven Water Walking Boots lie here.~
+ash~
+boat A AG
+0 0 0 0 0
+20 150 2000 P
+A
+14 -25
+#14505
+dwarven keg go juice~
+a keg of Dwarven Go Juice~
+A keg of Dwarven Go Juice has been discarded here.~
+glass~
+drink 0 A
+20 20 'local specialty' 0 0
+1 30 90 G
+#14506
+everlasting lantern dwarven~
+a Dwarven Everlasting Lantern~
+A Dwarven Everlasting Lantern sits here.~
+brass~
+light 0 A
+0 0 99 0 0
+1 50 150 P
+#14507
+dwarven adventurer bread~
+Dwarven Adventurer Bread~
+A fine example of Dwarven Adventurer Bread lies here.~
+food~
+food 0 A
+48 20 0 0 0
+1 1 50 P
+#14508
+hip pack alligator skin~
+an Alligator skin hip pack~
+An Alligator skin hip pack has been dropped here.~
+leather~
+container G AM
+100 0 0 20 80
+1 10 1200 G
+#14509
+magical emergency wafer~
+a magical emergency wafer~
+A magical emergency wafer lies here.~
+bread~
+potion G AO
+15 'teleport' 'teleport' 'teleport' 'teleport'
+30 1 1000 P
+#14510
+map treasure~
+a Treasure Map~
+A Treasure Map has been dropped here.~
+paper~
+map 0 A
+1 0 0 0 0
+1 10 500 P
+E
+map~
+The golden talent a large is at tree step then twenty plus twenty step south.
+~
+#14511
+candlestick~
+a candlestick~
+A candlestick is lying here.~
+silver~
+treasure G AB
+0 0 0 0 0
+1 10 1000 P
+#14512
+quest note ~
+a Quest Note ~
+A Quest Note lies here.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 1 0 P
+E
+note quest~
+Find what is missing and tell someone on the wizlist what is missing and who
+has it.  DO NOT TELL ANYONE ELSE!!
+~
+#14513
+water urn~
+a Water Urn~
+A Water Urn lies here.~
+glass~
+drink 0 A
+15 15 'water' 0 0
+1 1 30 G
+#14514
+head madboy~
+madboy's Head~
+Madboy's head is lying here.~
+meat~
+light 0 AO
+0 0 -1 0 0
+7 10 200 P
+#14515
+sword madboy~
+madboy's sword~
+Madboy's sword has been dropped here.~
+iron~
+weapon BIG AN
+sword 1 12 slash 0
+7 50 500 P
+A
+3 -2
+A
+4 -8
+#14516
+island sword~
+an Island Sword~
+An Island Sword has been dropped here.~
+iron~
+weapon BI AN
+sword 5 5 slash 0
+15 150 1500 P
+#14517
+island helmet~
+an Island Helmet~
+An Island Helmet is lying here.~
+silver~
+armor AGK AE
+6 6 6 1 4
+15 5 1500 G
+A
+3 2
+A
+4 1
+E
+helmet~
+You see an Island Helmet.  Imprinted on the side is: Gapcio Industries
+~
+#14518
+shield island~
+an Island Shield~
+An Island Shield has been dropped here.~
+steel~
+armor G AJ
+6 6 6 1 5
+15 100 2000 G
+E
+shield island~
+You see an Island Shield.  Imprinted on the side is: Gapcio Industries
+~
+#14519
+island mace~
+an Island Mace~
+An Island Mace is lying here.~
+mithril~
+weapon G AN
+mace 5 5 pound 0
+17 300 2620 P
+A
+19 5
+A
+18 5
+E
+island mace~
+You see a island mace.  Imprinted on the side is: Gapcio Industries
+~
+#14520
+scroll glowing~
+a Glowing Scroll~
+A Glowing Scroll is lying here.~
+vellum~
+scroll G AO
+20 'earthquake' 'earthquake' 'earthquake' 'earthquake'
+17 300 5313 G
+#14521
+watcher cape black~
+a Watcher's Black Cape~
+A Watcher's Black Cape has been dropped onto the floor.~
+cloth~
+armor GK AK
+6 8 7 1 3
+20 200 4600 G
+A
+24 3
+A
+23 3
+A
+17 -20
+#14522
+watcher thrusting dagger~
+a Watcher's Thrusting Dagger~
+A Watcher's Thrusting Dagger is sticking in the floor.~
+corundum~
+weapon GK AN
+dagger 5 6 thrust 0
+20 50 3100 P
+A
+18 3
+A
+12 15
+#14523
+watcher signet ring~
+a Watcher Signet Ring~
+A Watcher Signet Ring lies here discarded.~
+bone~
+treasure GK AB
+0 0 0 0 0
+20 1 4567 P
+A
+2 5
+#14524
+reed basket~
+a reed basket~
+A reed basket rests here.~
+softwood~
+container 0 AO
+50 1 0 10 100
+1 10 40 G
+#14525
+chair woven~
+a woven chair~
+A woven chair sits here.~
+wool~
+furniture 0 0
+1 40 BEHKN 250 250
+0 0 0 P
+#14526
+basket fruit~
+a basket of fruit~
+A basket full of fruit lies here.~
+food~
+food 0 A
+24 12 0 0 0
+15 50 200 P
+#14527
+hat straw~
+a straw hat~
+A straw hat has been dropped here.~
+bamboo~
+armor 0 AE
+6 6 6 0 1
+16 10 700 G
+#14528
+stone well~
+a stone well~
+A stone well sits here.~
+stone~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#14529
+featherbed~
+a featherbed~
+A featherbed sits here.~
+feathers~
+furniture 0 0
+2 40 CFILO 400 400
+0 500 0 P
+#14530
+wooden table~
+a wooden table~
+A wooden table sits here.~
+wood~
+furniture 0 0
+10 40 BEHN 400 400
+0 500 0 P
+#14531
+portrait~
+a portrait~
+A portrait of a beautiful woman lies here.~
+canvas~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+portrait~
+This portrait is of a sandy haired woman with penetrating wise eyes.
+The upturned lips signifies the possession of secret knowledge.
+~
+E
+secret knowledge~
+This portrait is of Siren, the Goddess of the Mist.
+~
+#14532
+toy bow~
+a toy bow~
+A toy bow has been dropped here.~
+wood~
+weapon 0 AN
+bow 1 1 hit 0
+5 10 100 P
+#14533
+wheelbarrow~
+a wheelbarrow~
+A wheelbarrow rests here.~
+steel~
+container 0 AO
+1000 1 0 200 50
+35 50 4000 G
+#14534
+chest~
+a chest~
+A chest is sitting on the floor.~
+wood~
+container 0 A
+150 0 0 100 100
+0 50 50 G
+#14535
+spear goblin~
+a Goblin Spear~
+A Goblin Spear is lying on the floor.~
+wood~
+weapon AG AN
+spear 4 5 pierce D
+12 50 1700 P
+#14536
+goblin loincloth~
+a Goblin Loincloth~
+A Goblin Loincloth has been discarded here.~
+snakeskin~
+armor G AD
+7 7 7 0 2
+12 20 2456 G
+A
+1 -1
+A
+3 -1
+A
+4 -1
+#14537
+dwarwen flail~
+a Dwarwen Flail~
+A Dwarwen Flail is lying on the floor.~
+wood~
+weapon AG AN
+flail 5 5 pound D
+17 250 3400 P
+#14538
+dwarwen shield~
+an Dwarwen Shield~
+A Dwarwen Shield has been dropped here.~
+wood~
+armor AG AJ
+6 6 6 1 5
+17 190 4500 G
+A
+5 4
+#0
+
+
+#ROOMS
+#14501
+Land Ho!!~
+At long last....land hoooo!  To the south, the pinacle of a large
+mountain has attracted your attention.  A sandy beach awaits your
+landing...trees wave in the wind and birds of many colors fly
+high above the land beyond the beach.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 C 7
+D2
+~
+~
+0 -1 14502
+D3
+~
+~
+0 -1 9797
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                  + 
++            This area has been converted and adapted by           +
++                             Gapcio                               +
++                                                                  + 
++                               &                                  +
++                                                                  +  
++    modified, debugged (?:) slightly enhanced and balanced by     +
++                             jaceks                               + 
++                                                          july'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#14502
+Approaching land~
+The beach is quickly approaching and you had better take in
+your sail or you'll run aground.  From here you can see three
+huge mountaintops and a few trees next to two or three buildings.
+~
+0 C 7
+D0
+~
+~
+0 -1 14501
+D2
+~
+~
+0 -1 14503
+S
+#14503
+Rough waters at the beach~
+The water rushes toward the beach causing large waves and
+a riptide which threatens to pull your vessel towards the west.
+~
+0 C 7
+D0
+~
+~
+0 -1 14502
+D2
+~
+~
+0 -1 14504
+S
+#14504
+The beach~
+You are standing on a sandy beach complete with seashells,
+palm trees and sand crabs.  To the south you see a line of
+palm trees standing next to and before two huge mountains.
+~
+0 0 10
+D0
+~
+~
+0 -1 14503
+D3
+~
+~
+0 -1 14505
+S
+#14505
+Sandy beach~
+The yellow sand is deep and makes walking hard.  Several large
+biting flies have found their dinner by lunching on your exposed
+skin.  The palm trees wave gently in the wind..their brown husks
+scraping a lovely tune.
+~
+0 0 10
+D1
+~
+~
+0 -1 14504
+D3
+~
+~
+0 -1 14506
+S
+#14506
+Water's Edge~
+You have walked quite a distance from your vessel.  If you
+look backwards you can see your anchored ship bobbing in the
+surf.  The path you are following begins to curve into the
+palms and toward the mountains.
+~
+0 0 10
+D1
+~
+~
+0 -1 14505
+D3
+~
+~
+0 -1 14507
+S
+#14507
+Sandy path~
+The sandy path you are following is slowly curving towards the
+beach and the palm trees.  Past the palms, to your west, are
+the tops of several buildings.  Smoke spirals into the air
+and you can almost smell grilled fish.
+~
+0 0 10
+D1
+~
+~
+0 -1 14506
+D2
+~
+~
+0 -1 14508
+S
+#14508
+Palm path~
+You are walking between the palm trees when you notice several
+large monkeys..weighing about 200 pounds each glancing down
+at you from their perches.  They appear to be sizing you up.
+~
+0 0 10
+D0
+~
+~
+0 -1 14507
+D2
+~
+~
+0 -1 14509
+S
+#14509
+Palm trail~
+The trail you are following is covered with palm fronds and
+monkey droppings.  To the south of you a huge mountain dominates
+the view.  The glare is terrific at the mountain's peak from the
+sun beating down upon the snow.
+~
+0 0 10
+D0
+~
+~
+0 -1 14508
+D2
+~
+~
+0 -1 14510
+S
+#14510
+Cross Trail~
+The sandy trail leads west and east.  You are standing at the
+base of a huge mountain.  If you listen closely you can hear
+the crashing of the waves upon the beach to the north of you.
+~
+0 C 10
+D0
+~
+~
+0 -1 14509
+D1
+~
+~
+0 -1 14514
+D3
+~
+~
+0 -1 14511
+S
+#14511
+Palm trail~
+The trail you are following travels alongside a row of palms
+growing on the beach.  The palms provide shade and relief from
+the sun's warm rays.
+~
+0 0 10
+D1
+~
+~
+0 -1 14510
+D3
+~
+~
+0 -1 14512
+S
+#14512
+Sandy palm trail~
+This trail has had recent traffic.  You can see indentions in
+the sand from someone's footsteps.  Two small running grooves
+indicates that the previous traveller had a small cart.
+~
+0 0 10
+D1
+~
+~
+0 -1 14511
+D3
+~
+~
+0 -1 14513
+S
+#14513
+Near the end~
+The trail is coming to an end.  To the northwest you can see
+three or four buildings nestled within the palms of the beach.
+At least one of the buildings is a warehouse.
+~
+0 C 10
+D1
+~
+~
+0 -1 14512
+D3
+~
+~
+0 -1 14573
+S
+#14514
+Sandy trail~
+This trail is heavily travelled.  You can easily see signs of
+others who have made this trip before you.  The sand is a
+glistening white with brown smears from mountain dirt.
+~
+0 0 10
+D1
+~
+~
+0 -1 14515
+D3
+~
+~
+0 -1 14510
+S
+#14515
+Palm view~
+Hundreds of palms block your sight of the ocean.  Their graceful
+height and delicate fronds make a wonderful screen to the sun's
+hot rays.
+~
+0 0 10
+D1
+~
+~
+0 -1 14516
+D3
+~
+~
+0 -1 14514
+S
+#14516
+Mountain trail~
+The sandy trail you have been following leaves the beach and
+enters the mountains.  Well maintained, the mountain trail is
+easy to follow and has obviously been smoothed to make your
+travel easier.
+~
+0 0 10
+D3
+~
+~
+0 -1 14515
+D4
+~
+~
+0 -1 14517
+S
+#14517
+Mountain trail~
+The steep trail you are following cuts between a huge mountain
+to the west and two smaller mountains to the east.  A little
+further down the trail you can see a clearing of some kind.
+~
+0 0 5
+D4
+~
+~
+0 -1 14518
+D5
+~
+~
+0 -1 14516
+S
+#14518
+Steep trail~
+Climbing high into the mountains you approach a clearing, encircled
+by bushes your avenues of retreat are limited.  Either go forward
+or back down the mountain.
+~
+0 C 5
+D4
+~
+~
+0 -1 14519
+D5
+~
+~
+0 -1 14517
+S
+#14519
+Mountain clearing~
+The trail has led you to a mountain clearing.  Circled by bushes
+and a few shrubs this grassy clearing shows several signs of
+recent travel by a great number of people.
+~
+0 0 5
+D1
+~
+~
+0 -1 14524
+D2
+~
+~
+0 -1 14520
+D5
+~
+~
+0 -1 14518
+S
+#14520
+Clearing~
+The grassy mountain clearing is open to the sun and is full of
+the smells of a high mountain meadow.  A large swath of purple
+flowers carpets this side of the clearing.
+~
+0 0 5
+D0
+~
+~
+0 -1 14519
+D1
+~
+~
+0 -1 14523
+D2
+~
+~
+0 -1 14521
+S
+#14521
+Mountain meadow~
+The mountain meadow where you are standing has knee high grass,
+yellow flowers and is surrounded by the short shrubs of the area.
+~
+0 0 5
+D0
+~
+~
+0 -1 14520
+D1
+~
+~
+0 -1 14522
+S
+#14522
+Mountain view~
+You are standing at the edge of a high mountain clearing.  You
+are completely surrounded by mountains, some of which are capped
+by white snow.
+~
+0 0 5
+D0
+~
+~
+0 -1 14523
+D3
+~
+~
+0 -1 14521
+S
+#14523
+Clearing's Center~
+The mountain clearing is all about you.  You are standing in
+the middle of a mountain meadow surrounded by snow capped
+mountain peaks.  Flowers of every color brighten the area.
+~
+0 0 5
+D0
+~
+~
+0 -1 14524
+D1
+~
+~
+0 -1 14526
+D2
+~
+~
+0 -1 14522
+D3
+~
+~
+0 -1 14520
+S
+#14524
+Flowers everywhere~
+The mountain clearing is carpeted with flowers of every color.
+Some of the flowers are extremely rare, however, all of them
+are beautiful and would make a wonderful addition to any home.
+~
+0 0 5
+D1
+~
+~
+0 -1 14525
+D2
+~
+~
+0 -1 14523
+D3
+~
+~
+0 -1 14519
+S
+#14525
+Mountain clearing~
+The beautiful mountain clearing you are standing in is surrounded
+by extremely high mountains...some of which are covered with snow.
+~
+0 0 5
+D2
+~
+~
+0 -1 14526
+D3
+~
+~
+0 -1 14524
+S
+#14526
+Opening to the sky~
+The mountain field you are standing in is open to the sky
+and is framed by tall mountains.
+~
+0 0 5
+D0
+~
+~
+0 -1 14525
+D2
+~
+~
+0 -1 14527
+D3
+~
+~
+0 -1 14523
+S
+#14527
+Mountain trail~
+This trail leads from a mountain field to the bottom of a valley.
+The rich dirt of the trail is smooth and regular..signs that
+someone is maintaining the trail.
+~
+0 0 5
+D0
+~
+~
+0 -1 14526
+D2
+~
+~
+0 -1 14528
+S
+#14528
+Cross trails~
+You are standing at a crossing of two different trails.  The
+trail to the east climbs a short mountain and ends at a lookout.
+The trail going down to the valley floor appears to be the most
+travelled route.
+~
+0 0 5
+D0
+~
+~
+0 -1 14527
+D1
+~
+~
+0 -1 14533
+D5
+~
+~
+0 -1 14529
+S
+#14529
+Down trail~
+This trail is cutting between several mountains and is very steep.
+A few shrubs line the trail as well as some beautiful flowers.
+~
+0 C 5
+D4
+~
+~
+0 -1 14528
+D5
+~
+~
+0 -1 14530
+S
+#14530
+Slippery trail~
+The trail is passing over exposed bedrock and is very slippery.
+Be careful or you could slide to the bottom and get some nasty
+trail burns.
+~
+0 0 5
+D4
+~
+~
+0 -1 14529
+D5
+~
+~
+0 -1 14531
+S
+#14531
+Village view~
+To the west is a small village composed of six or seven buildings
+and to the south of the village you see a garden, however, it's the
+river which attracts your attention.  You'll have to get a better
+view down the trail.
+~
+0 0 5
+D4
+~
+~
+0 -1 14530
+D5
+~
+~
+0 -1 14532
+S
+#14532
+The Valley~
+You are standing at the beginning of a long valley.  Snowy
+mountains surround this lush valley and low clouds help reduce
+the temperature to a chill.  To the west of you is a small village.
+~
+0 0 5
+D3
+~
+~
+0 -1 14537
+D4
+~
+~
+0 -1 14531
+S
+#14533
+Small trail~
+This small trail travels into the mountains and the wilderness
+which surrounds it.  The rocky trail shows no signs of recent travel.
+~
+0 0 5
+D1
+~
+~
+0 -1 14534
+D3
+~
+~
+0 -1 14528
+S
+#14534
+The Wilderness~
+The wilderness is so disorganized.  Trails are rough and rocky,
+bushes with thorns crowd the trail and even the flowers are not
+as soft and lovely as the ones along the main trail.
+~
+0 0 5
+D1
+~
+~
+0 -1 14535
+D3
+~
+~
+0 -1 14533
+S
+#14535
+Wilderness trail~
+This wilderness trail has none of the comforts of home.  Strange
+noises and unseen movement has begun to work on your nerves.
+You are approaching the end of the trail...at the top of a snow
+capped mountain.
+~
+0 0 5
+D3
+~
+~
+0 -1 14534
+D4
+~
+~
+0 -1 14536
+S
+#14536
+Mountain top~
+The view from this small mountaintop is very special.  You are
+closer to the heavens than you'll ever get.  The view from here
+reveals much about the valley far below.  Below you a river can
+be seen bisecting the valley floor.  A small valley and garden
+as well as the bridge crossing the river are completely surrounded
+by a ten or twelve foot high wall.  Two towers protect the valley
+entrance to the enclosure.
+~
+0 0 5
+D5
+~
+~
+0 -1 14535
+S
+#14537
+Village entrance~
+The wide trail leads into a small village of seven buildings.
+Made from natural stone, the one story buildings are simple yet
+effective.  A large garden area borders the river bisecting
+the valley to the south.  Two huge towers on the other side of
+the river appear to be guarding a gate leading to the valley.
+~
+0 C 2
+D1
+~
+~
+0 -1 14532
+D2
+~
+~
+0 -1 14551
+D3
+~
+~
+0 -1 14538
+S
+#14538
+Malo Village~
+You are standing at the entrance to Malo Village.  A small
+valley community of Humans, Dwarves, and Elves living together
+in wilderness harmony.  The village is alive with movement,
+everyone going about their business while the farm animals do
+what comes natural.
+~
+0 C 2
+D1
+~
+~
+0 -1 14537
+D3
+~
+~
+0 -1 14539
+S
+#14539
+Malo Main~
+Malo Main goes down the middle of the village.  It is covered
+with native stones and although short, it has the makings of
+a Better Streets entry.  The stone buildings on each side of the
+street are warm and toasty..with smoke pouring from the smoke
+stacks and yellow light coming from the shuttered windows.
+~
+0 0 1
+D0
+This wooden door has a circle with a large
+letter M in the middle of it.~
+door~
+1 -1 14540
+D1
+~
+~
+0 -1 14538
+D2
+~
+door~
+1 -1 14541
+D3
+~
+~
+0 -1 14542
+S
+#14540
+Stone house~
+The stone house is warm and cozy.  Several thick blankets
+hang on the walls and a small fire is burning in the fireplace.
+Yellow candles light the room.  The room does not have anything
+of value in it.
+~
+0 DS 0
+D2
+The door is solid as a rock.  It has triple
+locks and should give you safety to the world.~
+door~
+1 -1 14539
+S
+#14541
+Gray Stone house~
+A loving hand has created this home.  Fine detail has been given
+to all wooden items and the furniture was made by a master.
+~
+0 DS 0
+D0
+This wooden door has a circle with a large
+letter M in the middle of it.~
+door~
+1 -1 14539
+S
+#14542
+Malo main~
+The stones you are walking on were gathered from local sites
+about the village.  Laid by Dwarves, the stones are almost
+seamless.  The air is very cool here between the houses.
+~
+0 0 1
+D1
+~
+~
+0 -1 14539
+D3
+~
+~
+0 -1 14543
+S
+#14543
+Village street~
+To the west is the village well, while all about you the native
+stone buildings create a wonderful setting for this family life.
+~
+0 0 1
+D0
+~
+door~
+1 -1 14544
+D1
+~
+~
+0 -1 14542
+D2
+~
+door~
+1 -1 14545
+D3
+~
+~
+0 -1 14546
+S
+#14544
+Brown House~
+This beautiful brown house has columns on each side of the
+door and it has a tile roof.  A large picture window at the
+rear of the house reveals a stunning view of the large
+mountain to the north of you.
+~
+0 DS 0
+D2
+~
+door~
+1 -1 14543
+S
+#14545
+Green house~
+In an obvious effort to overshadow the brown house nearby,
+the owners of this home have applied an expensive dye to
+their home, turning it a brilliant green color.
+~
+0 DS 0
+D0
+~
+door~
+1 -1 14543
+S
+#14546
+Village well~
+The village well is covered by a small awning and has a very
+long rope to reach to the bottom of the well.
+~
+0 0 1
+D1
+~
+~
+0 -1 14543
+D3
+~
+~
+0 -1 14547
+S
+#14547
+End of the street~
+You have reached the end of the street.  Several lovely houses
+surround you and prevent you from travelling further in this
+direction.  Looking past the homes you see a twenty foot tall
+wall ringing the village proper.
+~
+0 0 1
+D0
+~
+door~
+1 -1 14548
+D1
+~
+~
+0 -1 14546
+D2
+~
+door~
+1 -1 14550
+D3
+~
+door~
+1 -1 14549
+S
+#14548
+Simple home~
+Nothing special about this home except the fact that it's not
+special.  Even the fireplace is bare.  Where you might expect
+to see a display you see instead blank wall.
+~
+0 DS 0
+D2
+~
+door~
+1 -1 14547
+S
+#14549
+Last house~
+The last house of this village has a large porch and a huge fireplace.
+It appears to be large enough to hold several people at the same time.
+~
+0 DS 0
+D1
+~
+door~
+1 -1 14547
+S
+#14550
+A general store~
+You have entered a general store laden with wilderness supplies
+and everyday items necessary for survival.  If you look closely,
+you'll find a little of everything.
+~
+0 DS 0
+D0
+~
+door~
+1 -1 14547
+S
+#14551
+A very old road~
+This ancient, overgrown road was made years before the village
+was constructed.  It's age is so great you can see where trees
+grew through it's center, were cut down and made into firewood.
+~
+0 C 1
+D0
+~
+~
+0 -1 14537
+D2
+~
+~
+0 -1 14552
+S
+#14552
+Garden and Old Road~
+The old road leads south while a small path leads westward
+into a large garden patch.  To the south the road crosses
+a river with an ancient bridge.  Two towers can be seen on
+the other side...near the gated wall surrounding the village.
+~
+0 0 1
+D0
+~
+~
+0 -1 14551
+D2
+~
+~
+0 -1 14553
+D3
+~
+~
+0 -1 14581
+S
+#14553
+The Bridge~
+The bridge is made of local material finely worked with artistic
+designs of flying creatures.  Gargoyles and flying lions decorate
+the entire bridge.
+~
+0 0 1
+D0
+~
+~
+0 -1 14552
+D2
+~
+~
+0 -1 14554
+S
+#14554
+Middle of bridge~
+>From this vantage point you see the river running west and east. Very cold 
+water hits the side of the bridge and throws cold spray into your face.  
+The wall encircling the village proper also encircles a long stretch of 
+the river.
+~
+0 0 1
+D0
+~
+~
+0 -1 14553
+D2
+~
+~
+0 -1 14555
+S
+#14555
+South side of bridge~
+The bridge you are travelling on appears to have been constructed
+using the same material and methods used to build the ancient
+road you are travelling upon.
+~
+0 0 1
+D0
+~
+~
+0 -1 14554
+D2
+~
+~
+0 -1 14556
+S
+#14556
+Ancient road~
+The ancient road widens as it drives straight as an arrow in a
+southern direction.  Although the road is cracked and crumbling
+at the edges it still provides the best travelling surface you
+have ever seen.
+~
+0 C 1
+D0
+~
+~
+0 -1 14555
+D2
+~
+~
+0 -1 14557
+S
+#14557
+Red stained road~
+Several large red stains appear along this area of the ancient
+roadway.  Upon closer examination you are able to determine that
+the stains are old blood.  Surely a battle has been fought here!
+To your right and left short squat towers flank the road.  Small
+doors, low to the ground, provide entrance to the towers.  The
+tower construction is as ancient as the road.
+~
+0 0 1
+D0
+~
+~
+0 -1 14556
+D1
+~
+~
+0 -1 14561
+D2
+~
+~
+0 -1 14564
+D3
+~
+~
+0 -1 14558
+S
+#14558
+Before the West Tower~
+The West Tower is a dark gray color.  Several gargoyles are
+crouching along the rim of the tower..protecting the residents
+from danger.  Stooping down you can see into the tower and out
+the other side.
+~
+0 0 2
+D1
+~
+~
+0 -1 14557
+D3
+~
+~
+0 -1 14559
+S
+#14559
+West Tower~
+This tower is rather small and has a dark, ominous feel about it.
+The roof has caved in, allowing the fresh mountain air to
+penetrate into every secret corner.  The entrance is to the east.
+The west wall has a large gaping hole in it's center.
+~
+0 DS 0
+D1
+~
+~
+0 -1 14558
+D3
+~
+~
+0 -1 14560
+S
+#14560
+West Tower~
+Scattered about the fallen bricks and timbers from the roof are
+bones and broken furniture.  The huge hole in the west wall shows
+signs of fire.  The bricks scattered about the room appear to have
+been caused by a very large explosion.
+~
+0 DS 0
+D1
+~
+~
+0 -1 14559
+D3
+~
+~
+0 -1 14589
+S
+#14561
+Before East Tower~
+You are standing before the slim East Tower.  Unlike the West
+Tower this tower has been whitewashed.  Painted every three feet
+are red stylized crosses.  Again, unlike the West Tower this
+tower does not have gargoyles about it's rim.
+~
+0 0 2
+D1
+~
+~
+0 -1 14562
+D3
+~
+~
+0 -1 14557
+S
+#14562
+Inside the East Tower~
+A thin layer of dust covers the floor of this tower.  The markings
+in the dust indicate that someone, or something, has passed this
+way recently.  The room is mostly bare.
+~
+0 DS 0
+D1
+~
+~
+0 -1 14563
+D3
+~
+~
+0 -1 14561
+S
+#14563
+East Tower~
+A large tapestry is hanging on the east wall.  The tapestry
+shows a mountain scene, with a river running through a valley
+and into a large cave mouth.  Several arrow slits provide access
+for both air and light.
+~
+0 DS 0
+D1
+A very large tapestry covers a hole in the wall.~
+tapestry~
+1 -1 14596
+D3
+~
+~
+0 -1 14562
+S
+#14564
+Ancient road~
+Near the twin towers you have a really good view of the city
+wall and it's southern gate.  The wall is approximately 12 feet
+tall.  The gate is made of metal and has large spears protruding
+from the top to stop "wild animals" from climbing the barrier.
+~
+0 0 1
+D0
+~
+~
+0 -1 14557
+D2
+~
+~
+0 -1 14565
+S
+#14565
+Before the gate~
+This huge metal gate appears to have been built much later than
+the ancient road it guards.  A close look at the door reveals
+a tiny, hand written sign attached to the gate.
+~
+0 0 1
+D0
+~
+~
+0 -1 14564
+D2
+This massive steel gate has spears along it's top.~
+gate~
+1 -1 14566
+E
+sign~
+BEWARE.  This gate is to remain closed at all times.  The evil must be
+controlled.  The evil must be contained.~
+S
+#14566
+Other side of the gate~
+You are standing on the south side of the gate leading to
+Malo Village.  The ancient road continues to the south but is
+blocked by a rough wall of ill placed boulders.  On each side of
+the road are sharpened stakes driven at an angle into the ground.
+The stakes are obviously meant to keep travellers on the road.
+~
+0 0 1
+D0
+This massive steel gate has sharpened spears along it's summit.~
+gate~
+1 -1 14565
+D2
+~
+~
+0 -1 14567
+S
+#14567
+Ancient way~
+The ancient road you are on is buried under a huge pile of
+boulders placed strategically across the road to block travel.
+~
+0 0 1
+D0
+~
+~
+0 -1 14566
+D2
+~
+~
+0 -1 14568
+S
+#14568
+Base of Boulders~
+The boulders have been stacked to block travel on the ancient
+road.  Large stakes, sharpened and pointed toward the wall,
+keep travellers on the road.
+~
+0 0 1
+D0
+~
+~
+0 -1 14567
+D1
+~
+~
+0 -1 14571
+D3
+~
+~
+0 -1 14569
+S
+#14569
+Path along boulders~
+A small path travels along the roadblock to the west.  Skirting
+along sharpened stakes the path meanders amoungst and besides
+the huge boulders stacked precariously across the ancient road.
+~
+0 0 2
+D1
+~
+~
+0 -1 14568
+D3
+~
+~
+0 -1 14570
+S
+#14570
+A path~
+The path comes to an abrupt halt.  The boulders curve inward,
+towards the city, and with the aid of the sharpened stakes all
+about you travel in this direction has been effectively cut off.
+~
+0 0 2
+D1
+~
+~
+0 -1 14569
+S
+#14571
+A small path~
+This small path leads you away from the ancient road, along
+the boulders and into the sharpened stakes set to keep you on
+the road.
+~
+0 0 2
+D1
+~
+~
+0 -1 14572
+D3
+~
+~
+0 -1 14568
+S
+#14572
+End of path~
+The path has come to an end.  The high wall of boulders curves
+inward and effectively traps you against the sharpened stakes.
+~
+0 0 2
+D3
+~
+~
+0 -1 14571
+S
+#14573
+Path's end~
+You are approaching the end of the palm path.  Several buildings
+to the north of you appear to be both warehouses and living
+quarters.  The smell of drying fish is evident and a small fishing
+boat has been drydocked for repair.
+~
+0 0 2
+D0
+~
+~
+0 -1 14574
+D1
+~
+~
+0 -1 14513
+S
+#14574
+Entrance to Land's End~
+Land's End is a small fishing village with such a small population it doesn't
+appear on any maps.  Two large warehouses and two homes are the only standing
+buildings.
+~
+0 0 2
+D0
+~
+~
+0 -1 14575
+D2
+~
+~
+0 -1 14573
+S
+#14575
+Land's End Road~
+This is the only "road" in Land's End.  The most accurate
+description would be a path.  On both sides of you stand large
+warehouses where tradegoods are stored.  A few fishing nets
+hang from nearby trees and a drying rack produces that strong
+fish smell which spreads through the air.
+~
+0 0 2
+D0
+~
+~
+0 -1 14576
+D1
+~
+~
+0 -1 14578
+D2
+~
+~
+0 -1 14574
+D3
+~
+~
+0 -1 14579
+S
+#14576
+Ocean View~
+>From here you can see the ocean and any incoming vessels.
+Two homes stand nearby as well as a rowboat and three fishing
+vessels drydocked for the season.  Perhaps the fishing is bad.
+~
+0 0 2
+D1
+~
+~
+0 -1 14577
+D2
+~
+~
+0 -1 14575
+D3
+~
+~
+0 -1 14580
+S
+#14577
+Oceanview Home~
+This lovely wooden home stands so near the water that it's
+occupants have the most beautiful view you've ever seen.  Several
+crabs have made their home outside the seaward window.
+~
+0 DS 0
+D3
+~
+~
+0 -1 14576
+S
+#14578
+Large Warehouse~
+This large warehouse was built to contain tradegoods for all
+of the sailors and merchants expected to use Ocean View as a
+port of call.  Unfortunately, no one seems to know exactly
+where Ocean View is.
+~
+0 DS 0
+D3
+~
+~
+0 -1 14575
+S
+#14579
+Largest Warehouse~
+You are standing in the largest warehouse on this side of the
+ocean.  The echo of your steps bounces back to you very quickly.
+When the weather turns incliment the local fishermen drag their
+vessels into this warehouse for safety.
+~
+0 DS 0
+D1
+~
+~
+0 -1 14575
+S
+#14580
+Small home~
+This small home has been built from the bones of whales and
+other small sea animals.  Barnacles would feel right at home
+here...if the home were under water of course.
+~
+0 DS 0
+D1
+~
+~
+0 -1 14576
+S
+#14581
+Garden way~
+Garden way is simply a path leading through or near the vegatables
+planted by the villagers.  All about you are sprouting plants.
+~
+0 0 2
+D1
+~
+~
+0 -1 14552
+D3
+~
+~
+0 -1 14582
+S
+#14582
+Garden path~
+All about you are growing tiny little plants that will one day
+feed the population of the village.
+~
+0 0 2
+D1
+~
+~
+0 -1 14581
+D3
+~
+~
+0 -1 14583
+S
+#14583
+Garden alley~
+The path has now led you through several rows of beans, squash, and melons.
+~
+0 0 2
+D1
+~
+~
+0 -1 14582
+D3
+~
+~
+0 -1 14584
+S
+#14584
+Garden along the river~
+The garden continues to parallel the mountain river.  While walking
+through the carrots you glance south into the river and see the
+remains of a wooden bridge washed ashore.  The bridge is flimsy
+and ill made and obviously was not meant to be permanent.
+~
+0 0 2
+D1
+~
+~
+0 -1 14583
+D3
+~
+~
+0 -1 14585
+S
+#14585
+Along the river~
+The rushing water to your south has been used to irrigate the garden. Several
+large clay containers are gathered along the river for this very purpose.
+~
+0 0 2
+D1
+~
+~
+0 -1 14584
+D3
+~
+~
+0 -1 14586
+S
+#14586
+Behind the buildings~
+You are walking behind the homes and quite by accident have
+discovered a child's toy.  The toy is a wooden doll, complete
+with dress and straw hair.  It is lying in the mud and appears
+to have been trampled.
+~
+0 0 2
+D1
+~
+~
+0 -1 14585
+D3
+~
+~
+0 -1 14587
+S
+#14587
+River View~
+>From this part of the garden you have an excellent view of the
+river as it passes through the fence.  A huge section of the
+12 foot high fence is missing above the river.  Perhaps a massive
+rain washed that section of the fence away?
+~
+0 0 2
+D1
+~
+~
+0 -1 14586
+D3
+~
+~
+0 -1 14588
+S
+#14588
+Garden's end~
+The garden ends here at the village wall.  The crops have been
+trampled and there's nothing here but a large mud patch.  A large
+mud patch with scores of tracks.
+~
+0 C 2
+D1
+~
+~
+0 -1 14587
+E
+tracks track~
+The tracks you see are well defined and
+were obviously made by an unshod foot.
+The toes are extremely long and end with
+curved talons.~
+S
+#14589
+Outside the West Tower~
+The soft ground here shows evidence of recent travel.  Some of
+the many marks in the ground were obviously made by booted
+soldiers while the unshod footprints appear to have been made
+by nonhuman feet.  The prints are elongated and end in talons.
+~
+0 0 2
+D1
+~
+~
+0 -1 14560
+D3
+~
+~
+0 -1 14590
+S
+#14590
+Path near fence~
+This tiny path goes to the fence then parallels it.  Following
+the path would take you near the river.
+~
+0 0 2
+D0
+~
+~
+0 -1 14591
+D1
+~
+~
+0 -1 14589
+S
+#14591
+Slaughter site~
+Unexpectedly you have come across several skeletons and what
+would appear to be the site where several people were killed.
+Strips of cloth are embedded in the mud and stuck to bushes
+and the yellowing bones of two or three skeletons are scattered
+everywhere.
+~
+0 0 2
+D0
+~
+~
+0 -1 14592
+D2
+~
+~
+0 -1 14590
+S
+#14592
+Bushy path~
+The closer you get to the river the bushier it becomes.  Squeezing
+past some of the bushes along this path is a sticky situation.
+There are 1 inch thorns on some of them.  Be careful.
+~
+0 0 2
+D2
+~
+~
+0 -1 14591
+D3
+~
+~
+0 -1 14593
+S
+#14593
+Near the fence~
+Once again the path has come close to the fence.  Looking closely
+you discover several large holes dug under the fence.  If you
+were a little smaller you could have squeezed through those
+holes and gotten to the other side.
+~
+0 0 2
+D0
+~
+~
+0 -1 14594
+D1
+~
+~
+0 -1 14592
+S
+#14594
+Near the river~
+The rushing water of the river drowns out nearly all sounds.
+You are alone with one of the forces of nature.  Looking across
+the river you can make out the vague outlines of village homes.
+~
+0 0 2
+D2
+~
+~
+0 -1 14593
+D3
+~
+~
+0 -1 14595
+S
+#14595
+River's edge~
+You are standing at the edge of the river.  Several markings on
+the ground show where boats have been pulled ashore, however,
+you see no signs of them now.  The river passes through the 12 foot
+tall fence to your west.  A large section of the fence is gone,
+allowing passage into the countryside.
+~
+0 C 2
+D1
+~
+~
+0 -1 14594
+S
+#14596
+Outside the East Tower~
+You are standing along the east wall of the East Tower.  Tracks
+in the soft earth lead to the wall nearby and towards the river.
+~
+0 0 2
+D0
+~
+~
+0 -1 14597
+D3
+A very large tapestry covers a hole in the wall.~
+tapestry~
+1 -1 14563
+S
+#14597
+Small path at river's edge~
+This small path has seen little traffic in recent times.  There
+are obvious signs of use by small animals, tracks, droppings, etc..
+however, no man sized creatures have passed this way for years.
+The river is rushing past you and flows through the large hole in
+the fence to your right.  Perhaps a large rain washed it away?
+~
+0 C 2
+D0
+~
+~
+0 -1 14598
+D2
+~
+~
+0 -1 14596
+S
+#14598
+On the river~
+You are on the river which flows south of Malo Village.  To
+the south of you are two short towers and of course the wall which
+surrounds the village.  To the east is a large hole in the fence.
+The river runs through that hole.
+~
+0 C 7
+D1
+~
+~
+0 -1 14599
+D2
+~
+~
+0 -1 14597
+S
+#14599
+Hole in wall~
+You are passing through the hole in the wall which surrounds the
+village.  At first you thought that the river had created this
+hole but upon closer inspection it is obviously the work of man.
+~
+0 C 7
+D3
+~
+~
+0 -1 14598
+S
+#0
+
+
+#RESETS
+* ver 1.01
+* a few bad flags (K) removed
+*
+D 0 14539 0 1                   * Malo Main Close North
+D 0 14540 2 1                   * Stone house Close South
+D 0 14541 0 1                   * Gray Stone house Close North
+D 0 14539 2 1                   * Malo Main Close South
+D 0 14544 2 1                   * Brown House Close South
+D 0 14543 0 1                   * Village street Close North
+D 0 14545 0 1                   * Green house Close North
+D 0 14543 2 1                   * Village street Close South
+D 0 14548 2 1                   * Simple home Close South
+D 0 14547 0 1                   * End of the street Close North
+D 0 14549 1 1                   * Last house Close East
+D 0 14547 3 1                   * End of the street Close West
+D 0 14550 0 1                   * A general store Close North
+D 0 14547 2 1                   * End of the street Close South
+D 0 14566 0 1                   * Other side of the gate Close North
+D 0 14565 2 1                   * Before the gate Close South
+D 0 14596 3 1                   * Outside the East Tower Close West
+D 0 14563 1 1                   * East Tower Close East
+
+M 0 14501 3 14508 1                    * the BIG monkey to Palm path
+G 1 14501 -1                             * a monkey paw                     
+
+M 0 14502 1 14578 1                    * the Elven Merchant to Large Warehouse
+G 1 14502 -1                             * an Elven Necklace
+G 1 14503 -1                             * an Elven potion
+G 1 14504 -1                             * elven Water Walking Boots
+                                         
+M 0 14503 1 14577 1                    * the Dwarven Merchant to Oceanview Home
+G 1 14505 -1                             * a keg of Dwarven Go Juice
+G 1 14506 -1                             * a Dwarven Everlasting Lantern
+G 1 14507 -1                             * dwarven adventurer bread
+
+M 0 14504 1 14580 1                    * the Halfdwarf Merchant to Small home
+G 1 14508 -1                             * an Alligator skin hip pack
+G 1 14509 -1                             * a magical emergency wafer
+
+M 0 14505 1 14579 1                    * the Human Merchant to Largest Warehouse
+G 1 14510 -1                             * a Treasure Map
+G 1 14511 -1                             * a candlestick
+G 1 14512 -1                             * a Quest Note
+G 1 14513 -1                             * a Water Urn
+
+M 0 14506 1 14574 1                    * Madboy the Adventurer to Entrance to Land's End
+E 1 14515 -1 16                          * madboy's Head
+G 1 14514 -1                             * madboy's sword
+
+M 0 14507 3 14520 1                    * the Bearded Soldier to Clearing
+E 1 14517 -1 16                          * an Island Sword
+E 1 14518 -1 11                          * an Island Helmet
+E 1 14516 -1 6                           * an Island Shield
+
+M 0 14508 4 14523 1                    * the Alert Soldier to Clearing's Center
+E 1 14517 -1 16                          * an Island Sword
+E 1 14518 -1 11                          * an Island Helmet
+E 1 14516 -1 6                           * an Island Shield
+                          
+M 0 14509 2 14527 1                    * the Sleepy Soldier to Mountain trail
+E 1 14520 -1 16                          * an Island Mace
+E 1 14519 -1 17                          * a Glowing Scroll
+
+M 0 14510 1 14536 1                    * the Watcher to Mountain top
+E 1 14523 -1 1                           * a Watcher Signet Ring
+E 1 14521 -1 12                          * a Watcher's Black Cape
+E 1 14522 -1 16                          * a Watcher's Thrusting Dagger
+
+M 0 14511 3 14538 1                    * the fat pig to Malo Village
+
+M 0 14512 2 14543 1                    * the dog to Village street
+
+M 0 14513 6 14546 2                    * the chicken to Village well
+
+M 0 14514 4 14547 1                    * the Human Man to End of the street
+
+M 0 14515 5 14547 1                    * the Human Woman to End of the street
+
+M 0 14516 4 14543 1                    * the Elven Man to Village street
+
+M 0 14517 4 14543 1                    * the Elven Woman to Village street
+
+M 0 14518 5 14582 1                    * the Dwarven Woman to Garden path
+E 1 14527 -1 6                           * a straw hat
+G 1 14526 -1                             * a basket of fruit
+
+M 0 14519 4 14582 1                    * the Dwarven Man to Garden path
+E 1 14537 -1 16                          * a Dwarwen Flail
+E 1 14538 -1 6                           * an Dwarwen Shield
+
+M 0 14520 10 14570 1                   * the Goblin Warrior to A path
+E 1 14536 -1 5                            * a Goblin Loincloth
+E 1 14535 -1 16                           * a Goblin Spear
+
+O 0 14528 1 14546                    * a stone well to Village well
+O 0 14528 1 14537                    * a stone well to Village entrance
+O 0 14524 1 14539                    * a reed basket to Malo Main
+O 0 14533 1 14539                    * a wheelbarrow to Malo Main
+O 0 14525 1 14540                    * a woven chair to Stone house
+O 0 14529 1 14540                    * a featherbed to Stone house
+O 0 14530 1 14540                    * a wooden table to Stone house
+O 0 14529 1 14541                    * a featherbed to Gray Stone house
+O 0 14534 1 14541                    * a chest to Gray Stone house
+O 0 14532 1 14541                    * a toy bow to Gray Stone house
+O 0 14525 1 14544                    * a woven chair to Brown House
+O 0 14529 1 14544                    * a featherbed to Brown House
+O 0 14531 1 14545                    * a portrait to Green house
+O 0 14530 1 14545                    * a wooden table to Green house
+O 0 14534 1 14545                    * a chest to Green house
+O 0 14529 1 14548                    * a featherbed to Simple home
+O 0 14530 1 14548                    * a wooden table to Simple home
+O 0 14525 1 14549                    * a woven chair to Last house
+O 0 14529 1 14549                    * a featherbed to Last house
+O 0 14524 1 14550                    * a reed basket to A general store
+O 0 14534 1 14550                    * a chest to A general store
+S
+
+
+#SHOPS
+14502 8 9 10 22 0   50 150   8 21   * the Elven Merchant        
+14503 17 1 19 0 0   50 175   8 20   * the Dwarven Merchant
+14504 15 26 0 0 0   25 175   9 18   * the Halfdwarf Merchant
+14505 8 17 0 0 0    50 175   8 21   * the Human Merchant
+0
+
+#SPECIALS
+M  14510 spec_cast_mage                * the Watcher
+S
+
+
+#$
+
+

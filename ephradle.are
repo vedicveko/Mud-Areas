@@ -1,0 +1,753 @@
+#AREA 
+ephradle.are~ 
+The Caverns Of Ephradle~ 
+{15 60}  Mystery The Caverns of Ephradle
+14700 14799~ 
+
+
+
+#MOBILES
+#14700
+Ephradle~
+Ephradle~
+This is no clone! It's the real Ephradle!!!!!
+~
+Here sits the great Ephradle. He clutches "Descention," a deadly dagger. His wyvern wings spread and his calws expand. This wyvern is ready for battle...
+~
+wyvern~
+BFGQRSTVZ DEFHJNO 0 14700
+60 5 50d10+35000 10d9+1000 8d6+30 sting
+-150 -150 -150 -150
+ABCDEFHIJKN ABKLP HIJ S
+stand stand male 20000000
+HXZc ABCDEFGHIJKLPQUX huge 0
+#14701
+Ecit~
+The Ecit~
+An Ecit stands here...and snarls...
+~
+The Small beast looks a little uglier than the rest. It seems to have a grudge against all others but its own kind and of course Ephradle. The nose on it enlargens and smells something...maybe you.
+~
+fido~
+CFGHTUV HVc -200 14701
+25 0 3d4+499 1d2+26 2d10+7 chomp
+-20 -15 -30 -75
+CDEF AB P S
+stand stand male 0
+ABHVc ABCDEFGHIJK small 0
+#14702
+Heop~
+The Heop~
+A small bird-like creature sit here scratching its ear.
+~
+This is a Heop. It vaguely resembles a red duck. As it scratches its ear, you see its tiny claws. It gets up, starts walking, and bumps into the wall. Your conclusion...It has no brain.
+~
+water fowl~
+CGH Tb 0 14702
+15 -1 1d1+399 1d2+8 1d3+2 drain
+-10 -20 -10 -2
+F A R B
+sit stand either 0
+AGWC ALDFHPQU small 0
+#14703
+Ephradle Clone 1~
+Ephradle Clone 1~
+A small wyvern sits here look as if he were a clone...
+~
+This is Ephradle Clone #1. You see nothing special about him but his large, sharp, claws.
+~
+wyvern~
+BFV DFHJVc 0 14703
+45 1 1d1+7999 3d6+480 8d4+20 bite
+-30 -60 -120 -150
+ABCEF AB K I
+stand stand male 200
+ABHXc ABCDEFGHIJKPQX large 0
+#14704
+Ephradle Clone 2~
+Ephradle Clone 2~
+A small wyvern sits here looking as if he were a clone...
+~
+This is Ephradle Clone #2. You see nothing special about him but his large, sharp, claws.
+~
+wyvern~
+BFV DFHJVc 0 14704
+50 2 1d1+9999 3d9+480 8d4+23 bite
+-30 -60 -150 -150
+ABCEF AB K I
+stand stand male 0
+ABHXc ABCDEFGHIJKPQX large 0
+#14705
+Ephradle Clone #3~
+Ephradle Clone #3~
+A small wyvern sits here looking as if he were a clone...
+~
+This is Ephrdale Clone #3. You see nothing special about him but his large, sharp, claws.
+~
+wyvern~
+BF DFHJVc 0 14705
+55 3 1d1+13999 3d10+500 10d4+25 bite
+-120 -120 -120 -120
+ABCDEF AB K I 
+stand stand male 0
+ABHXc ABCDEFGHIJKPQX huge 0
+#14706
+Beseth~
+Beseth~
+A huge dragon lies here, waiting for its prey.
+~
+The large beast just watches and growls...
+~
+dragon~
+BVF DFHJTVc 0 6806
+59 1d1+40000 3d10+500 10d4+25 bite
+-120 -120 -120 -120
+ABCDEF Ab K I
+stand stand male 0
+ABHXc ABCDEFGHIJKPQX huge 0
+#14707
+Clone Mystery~
+The Clone of Mystery~
+The Clone of Mystery says, "Welcome to Mystery's Convienece Store!!!
+~
+Here stands Mystery, at least a clone of him. The real Mystery is a master assassin. This is his clone, yet it doesn't even match up to the true one's power...
+~
+human~
+BUVd BCDEFGHJNOPQTUVbc 1000 14707
+60 2 100d100+50000 100d100+50000 1d1+250 stab
+-1000 -1000 -1000 -1000
+ABCDEFGHIJKL medium 0
+
+
+#OBJECTS
+#14700
+Descention~
+A Dagger named "Descention"~
+A dagger lies here, smimmering in darkness...~
+energy~
+weapon ABGKLTYS AN
+dagger 29 3 stab ADH
+60 40 15000000 P
+A
+1 1	
+A
+2 3
+A
+13 80
+F
+I 0 0 M 
+E
+Ephradle Dagger~
+It's a great dagger, okay???
+~
+#14701
+Super Helmet~
+The Super Helmet~
+A helmet with the word "Bargain" on it lies here.~
+plastic~
+armor ABN AE
+0 -1 -1 0 -1
+3 30 3 P
+#14702
+Helm Many Jewels~
+A Helm of Many Jewels~
+Here you see a magnificent helmet on the ground. It is covered with hundreds of jewels and it glows with a magical aura...~
+blue dragonscale~
+armor ABFGKLN AE
+30 10 10 20 2
+58 120 1000000 P
+A
+3 2
+A
+4 2
+F
+A 0 0 U
+E
+Helm Many Jewels~
+This is the greatest of helms, so be proud!!!
+~
+#14703
+Surprise 1~
+Surprise #1~
+On the floor lies Surprise #1.~
+air~
+trash N A
+0 0 0 0 0
+60 250 1000000 P
+#14704
+Surprise 2~
+Surprise #2~
+On the floor lies Surprise #2.~
+pewter~
+scroll ABGN AO
+0 '' '' '' ''
+30 30 1000000 P
+#14705
+Surprise 3~
+Surprise #3~
+On the floor lies Suprise #3~
+velvet~
+potion ABN AO
+51 'cure critical' 'cure critical' 'cure critical' 'cure critical'
+30 30 1000000 P
+#14706
+Surprise 4~
+Surprise #4~
+On the floor lies Surprise #4.~
+food~
+food ABN A
+200 200 0 0 0
+0 30 1000000
+#14707
+Surprise 5~
+Surprise #5~
+On the floor lies Surprise #5.~
+armor ABKLN AL
+25 30 35 0 1
+60 120 1000000 P
+A
+13 75
+A
+18 5
+A
+19 5
+A
+5 3
+#14708
+Mystery Key~
+Mystery's All-Purpose Key~
+Here is a small thief's key on the ground.
+diamond~
+key ABN AO
+0 0 0 0 0
+60 0 1000000 P
+
+
+#ROOMS
+#14700
+Before The Cavern's Mouth.~
+Before you stands a massive opening to, you guessed it, a massive cave. You stare in awe at the stalactites hanging from the ceiling. The caver seems to have an affect on you which draws you closer to its monsterous jaws...
+~
+0 CDEW 5
+D0
+You see the cave mouth.
+~
+0 0 14701
+S
+#14701
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14703
+D1
+You see nothing but darkness...
+~
+0 0 14702
+D2
+You see nothing but darkness...
+~
+0 0 14700
+D3
+You see nothing but darkness
+~
+0 0 14702
+S
+#14702
+DEATHTRAP!!!!~
+Sorry. You have died.
+~
+0 DENTX 5
+S
+#14703
+Inside the Caverns.~
+You have entered The Caverns of Ephradle. The floor is covered with scratches from large clwas which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14704
+D2
+You see nothing but darkness...
+~
+0 0 14701
+S
+#14704
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14705
+D2
+You see nothing but darkness...
+~
+0 0 14703
+D3
+You see a sliding glass door...
+~
+sliding glass~
+1 0 14706
+S
+#14705
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14713
+D2
+You see nothing but darkness...
+~
+0 0 14704
+S
+#14706
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14707
+D1
+You see a sliding glass door...
+~
+sliding glass~
+1 0 14704
+S
+#14707
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14708
+D0
+You see nothing but darkness...
+0 0 14706
+D3
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14708
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14702
+D2
+You see nothing but darkness...
+~
+0 0 14707
+D4
+You see a sliding glass door...
+~
+sliding glass~
+1 0 14709
+S
+#14709
+Inside the Cavers.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14710
+D5
+You see a sliding glass door...
+sliding glass~
+1 0 14708
+S
+#14710
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked uopn it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14711
+D2
+You see nothing but darkness...
+~
+0 0 14709
+D3
+You see nothing but dakrness...
+~
+0 0 14702
+S
+#14711
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D2
+You see nothing but darkness...
+~
+0 0 14710
+D4
+You see a door marked,"Door of Death..."
+~
+death~
+1 0 14712
+D5
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14712
+Welcome to Mystery's Convience Store!!!~
+Here stands the Clone of Mystery waiting to give you his best deals on top quality items. He offers 5 surprise items, and his best bargains to you. "Welcome! Please...look all you want. I have plenty of nice surprises in store for you!!!!!"
+~
+0 DN 5
+D5
+You see a smiley face on this door!
+~
+smiley~
+1 0 14711
+extra
+counter~
+Inside this counter you see many boxes, each with a question mark on them...
+~
+S
+#14713
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14714
+D2
+You see nothing but dakrness...
+~
+0 0 14705
+D4
+You see a litlle tiny door...
+~
+tiny door~
+4 14708 14715
+S
+#14714
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D2
+You see nothing but darkness...
+~
+0 0 14713
+D4
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14715
+Tricked you!!!~
+You have just wasted your money on a nice little key. Sorry!
+~
+0 DENT 5
+D4
+Hrm...another keyhole...
+~
+keyhole~
+4 14708 14716
+D5
+You see a little tiny door...
+~
+tiny door~
+4 14708 14713
+S
+#14716
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D2
+You see nothing but darkness...
+~
+0 0 14717
+D5
+You see a little tiny door...
+~
+tiny door~
+4 14708 14715
+S
+#14717
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14716
+D2
+You see nothing but darkness...
+~
+0 0 14718
+S
+#14718
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+You see nothing but darkness...
+~
+0 0 14717
+D1
+You see nothing but darkness...
+~
+0 0 14719
+S
+#14719
+Inside the Caverns.~
+You have entered the Caverns of Ephradle. The floor is covered with scratches from large claws which have walked upon it many times...
+~
+0 DENT 5
+D0
+Here you see a small door...
+~
+small door~
+4 14708 14702
+D1
+Here you see a small door...
+~
+small door~
+4 14708 14720
+D2
+Here you see a small door...
+~
+small door~
+4 14708 14702
+D3
+You see nothing but darkness...
+~
+0 0 14718
+S
+#14720
+Throne Room #1~
+Here you see a small throne which appears to be made for an animal of small wyvern size. This room is heavily decorated not just with jewels, yet with many skeletons...
+~
+0 DENT 5
+D0
+Here you see a large harp case which covers a portion of the wall...
+~
+harp~
+4 14708 14721
+D3
+Here you see a small door...
+~
+small door~
+4 14708 14719
+D5
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14721
+Throne Room #2~
+Here you see a small throne which appears to be made for an animal of small wyvern size. This room is heavily decorated not just with jewels, yet with many skeletons...
+~
+0 DENT 5
+D0
+Here you see a large cello case which covers a portion of the wall...
+~
+cello~
+4 14708 14722
+D2
+Here you see a large harp case which covers a portion of the wall...
+~
+harp~
+4 14708 14720
+D5
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14722
+Throne Room #3~
+Here you see a small throne which appears to be made for an animal of small wyvern size. This room is heavily decorated not just with jewels, yet with many skeletons...
+~
+0 DENT 5
+D0
+Here you see a normal door.
+~
+door~
+4 14708 14723
+D2
+Here you see a large cello case which covers a portion of the wall...
+~
+cello~
+4 14708 14721
+D5
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14723
+Beseth's Territory.~
+Here is the Territory of Beseth, the frightful dragon. Another room decorated with skeletons...You feel like you are getting closer to Ephradle...
+~
+0 DENT 5
+D0
+Here you see yet another normal door.
+~
+door~
+4 14708 14724
+D1
+You see nothing but darkness...
+~
+0 0 14702
+D2
+You see a normal door.
+~
+door~
+4 14708 14723
+D3
+You see nothing but darkness...
+~
+0 0 14702
+D4
+You see nothing but darkness...
+~
+0 0 14702
+D5
+You see nothing but darkness...
+~
+0 0 14702
+S
+#14724
+Inside the Caverns.~
+What??? Where is Ephradle??? Well, I'll give you a hint. You'll need a thief from here...
+~
+0 DENT 5
+D0
+Here you see a door like most others...
+~
+door~
+4 0 14725
+D2
+Here you see a normal door.
+~
+door~
+4 14708 14723
+S
+#14725
+Ephradle's Lair.~
+AHHHHH!!! IT'S EPHRADLE!!! RUN!!!!!!!!!!!!!!!!!!!!! Oh yes, just so you know...to get out of this room, you can use word of recall or other such things...
+~
+0 DET 5
+D0
+You see nothing but darkness...
+~
+0 0 14702
+D1
+You see nothing but darkness...
+~
+0 0 14702
+D2
+You see a small door...
+~
+small door~
+4 14708 14724
+D3
+You see nothing but darkness...
+~
+0 0 14702
+S
+#0
+
+
+#RESETS
+M 0 14707 1 14712 1
+G 0 14701 -1
+G 0 14702 -1
+G 0 14703 -1
+G 0 14704 -1
+G 0 14705 -1
+G 0 14706 -1
+G 0 14707 -1
+G 0 14708 -1
+M 0 14700 1 14725 1
+E 0 14700 0 16
+M 0 14703 1 14720 1
+M 0 14704 1 14721 1
+M 0 14705 1 14722 1
+M 0 14706 1 14723 1
+M 0 14701 27 14719 3
+M 0 14701 27 14717 3
+M 0 14701 27 14715 3
+M 0 14702 27 14713 3
+M 0 14702 27 14711 3
+M 0 14702 27 14708 3
+M 0 14701 27 14704 3
+M 0 14702 27 14701 3
+D 0 14704 3 1
+D 0 14706 1 1
+D 0 14708 4 1
+D 0 14709 5 1
+D 0 14711 4 1
+D 0 14712 5 1
+D 0 14713 4 12
+D 0 14715 4 12
+D 0 14713 5 12
+D 0 14716 5 12
+D 0 14719 0 12
+D 0 14719 1 12
+D 0 14719 2 12
+D 0 14720 0 12
+D 0 14720 3 12
+D 0 14721 0 12
+D 0 14721 2 12
+D 0 14722 0 12
+D 0 14722 2 12
+D 0 14723 0 12
+D 0 14723 2 12
+D 0 14724 0 12
+D 0 14724 2 12
+D 0 14725 2 12
+S
+
+
+#SHOPS
+14707 2 5 8 9 10 200 10 0 23
+
+
+#SPECIALS
+M 14700 spec_breath_gas
+M 14701 spec_fido
+M 14703 spec_breath_gas
+M 14704 spec_breath_gas
+M 14705 spec_breath_gas
+M 14706 spec_breath_gas
+
+#$
+
+ 
+
+
+
+
+
+
+
+

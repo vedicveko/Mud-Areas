@@ -1,0 +1,857 @@
+#AREA	{35 55} Garth   Lair of Jher~
+
+
+#MOBILES
+#32700
+Jher~
+Jher~
+Jher looks into your eyes, and freezes you with his stare.
+~
+You feel incredibly overwhelmed by the power in this evil man's eyes.
+~
+2|4|8|64 8|32|128|512|8192 0 S
+53 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32701
+warg young~
+a young warg~
+A young warg notices you and grins evilly.
+~
+He has been waiting for you to practice his newly learned skill of thievery.
+~
+4|64|128 8|32|512|32768 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32702
+knanath~
+Knanath~
+Knanath, Jher's pet, bares his fangs as he lunges at your throat.
+~
+If Knanath hasn't ripped your throat out by now, he must not be hungry.
+~
+2|4|32|64 2|8|32|512 0 S
+43 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32703
+adult mother warg~
+warg mother~
+An adult warg stands here surrounded by small warg children.
+~
+Stay away from her children or she will protect them more viciously than you 
+could imagine.
+~
+4|64 8|32|512 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32704
+warg father~
+warg father~
+A large warg stands here looking for anything to attack for fun.
+~
+Don't mess with this beast, he will kill you before you can scream.
+~
+4|64 8|32|512|32768 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32705
+young hungry warg~
+the young hungry warg~
+A young warg huddles under the light of the torch and sucks on a bone.
+~
+He looks at you and licks his chops.  Obviously he would rather suck on you.
+~
+2|4|64|128 0 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32706
+snake~
+the snake~
+A snake senses your fear with his tongue as he wraps himself around your legs.
+~
+You see venom dripping off its fangs.
+~
+2|32|64 8|32|512 0 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32707
+beorn~
+Beorn~
+A huge black bear is hidden in the shadows.
+~
+Beorn looks at you and says 'will you help me kill Jher?'
+~
+64 8|32|128|512|8192|32768|65536|1048576 0 S
+47 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32708
+bat~
+the bat~
+A bat swoops down at your face.
+~
+You can see his black eyes, and hear his sonic screech as he judges the 
+distance between it and you.
+~
+32|64 8|32|512|524288 0 S
+34 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#32709
+Htrag warg breeder~
+Htrag~
+Htrag is here tending to the newly born warg litter.
+~
+Htrag looks back at you and flashes his fangs because he knows what he and 
+these new pups will feast on.
+~
+2|64 8|32|128|512 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32710
+female warg breeder~
+the female warg~
+A female warg shies against the far wall of the cage.
+~
+She growls at you and screams for help.
+~
+2|4|64 8|32|512 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32711
+male warg breeder~
+the male warg~
+The male breeder warg jumps to rip your throat out.
+~
+You see a creature with huge fangs dripping drool.  He is covered in matted 
+brown hair and his eyes glow.
+~
+2|4|32|64 8|32|512 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32712
+Sapth slave~
+Sapth~
+Sapth, Jher's slave, looks to you for help.
+~
+His eyes are pleading for someone to free him from Jher's bondage.
+~
+4|64|128 8|32|256|512 0 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32713
+left huge warg guard~
+the guard~
+A huge warg stands to the left of the door guarding whatever is inside.
+~
+Obviously a warrior, this beast was bred to fight and kill.
+~
+2|4|64 8|32|512 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32714
+right huge warg guard~
+the guard~
+A huge warg stands to the right of the door guarding whatever is inside.
+~
+Obviously a warrior, this beast was bred to fight and kill.
+~
+2|4|64 8|32|512 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#32715
+shaanh~
+Shaanh~
+Shaanh, Jher's love slave, cowers in the corner.
+~
+She is wearing close to nothing and she has marks and slashes all over her 
+body from some unthinkable torture.
+~
+64|128 8|32|256|512|65536 0 S
+37 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#32716
+fish hideous one-eyed~
+the hideous one-eyed fish~
+A hideous creature with one blind eye and a huge mouth swims between your legs.
+~
+The fish is disgusting.  It has one clouded eye, but it can sense you're there 
+because of your distinct smell.
+~
+64|128 8|32|512 0 S
+38 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#32700
+pile of gold~
+a pile of gold~
+A small glistening pile of gold catches your eye.~
+~
+20 1 1
+10000 0 0 0 
+0 0 0
+#32701
+bone key~
+a key made of bone~
+A hard white key was left on the floor.~
+~
+18 0 1|16384
+0 0 0 0 
+1 0 0
+#32702
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+10 64 1
+35 39 28 28 
+0 0 0
+#32703
+curved dagger jher's~
+Jher's curved dagger~
+Jher's evil curved dagger is here glowing.~
+~
+5 1|2|64|512 1|8192
+0 0 0 11 
+3 0 0
+A
+12 120
+A
+19 10
+A
+13 100
+A
+4 2
+A
+1 -1
+#32704
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+10 64 1
+35 1 28 12 
+0 0 0
+#32705
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+10 64 1|16384
+35 42 4 38 
+0 0 0
+A
+19 5
+A
+13 25
+#32706
+beorn's fury~
+Beorn's fury~
+A huge set of teeth are rotting like a skull in the desert.~
+~
+5 64|1024|4096 1|8192
+0 0 0 10 
+2 0 0
+A
+18 5
+A
+19 8
+#32707
+key~
+large brass key~
+A large brass key shimmers here.~
+~
+18 0 1|16384
+0 0 0 0 
+1 0 0
+#32708
+throne~
+the throne~
+A huge golden throne covered in jewels.~
+~
+12 1 0
+0 0 0 0 
+5 0 0
+#32709
+key jewel topaz~
+a key made of topaz~
+A key made of some fine cut amber colored jewell is on the floor.~
+~
+18 1|128 1
+0 0 0 0 
+5 0 0
+#32710
+carved ebony figurine~
+a carved ebony figurine~
+You can barely make out a small black rock under all the dust.~
+~
+18 32 1
+0 0 0 0 
+0 0 0
+#32711
+dusty golden trunk chest~
+the golden chest~
+A large dusty trunk was left in the corner, looks like a good place to sit.~
+~
+15 64 0
+100 15 9910 0 
+5 0 0
+#32712
+diamond bracelet~
+a diamond bracelet~
+A diamond bracelet sparkles here.~
+~
+9 1|32|64 1|4096
+5 0 0 0 
+5 0 0
+A
+12 50
+#32713
+broken scroll~
+a broken scroll~
+A bound roll of paper is hidden here.~
+~
+2 2 1
+50 28 42 81 
+5 0 0
+#32714
+glowing zapath necklace~
+a glowing zapath necklace~
+A necklace carved from a blood red stone was left here.~
+~
+9 1|64|512|4096 1|4
+7 0 0 0 
+1 0 0
+A
+14 100
+A
+19 4
+#32715
+gold pill coin~
+a gold coin~
+A small gold coin catches your eye here.~
+~
+26 1 1
+0 19 -1 -1 
+5 0 0
+#0
+
+
+#ROOMS
+#32700
+Descent into the Lair of Jher~
+As you descend deeper into the lair, you hear the sound of howling 
+wargs.  You feel a tingling in your back, and the hair on the back of your 
+neck stands on end.
+~
+0 1 3
+D1
+~
+~
+0 -1 32702
+D2
+~
+~
+0 -1 32701
+D4
+~
+~
+0 -1 14791
+S
+#32701
+Mouth of a Cave~
+You see an eerie crack in the mountain face.  Some strange power 
+creates an urge to explore further.
+~
+0 1 3
+D0
+~
+~
+0 -1 32700
+S
+#32702
+Descent into the Lair of Jher~
+As you descend deeper into this realm of unknown, you sense an 
+impending danger and reconsider your travel into the darkness.  Only if you 
+are among the strong will you continue.
+~
+0 1 2
+D3
+~
+~
+0 -1 32700
+D5
+~
+~
+0 -1 32703
+S
+#32703
+A Room in the Cave~
+This room is lit by torches, but even brighter are the eyes of the 
+wargs that come to this room to feast.  These creatures are unique because 
+they are continuously hungry.  This is not a good place to be.  Your gaze 
+passes from a young warg's glowing eyes to his drooling mouth.
+~
+0 8 2
+D2
+~
+~
+0 -1 32704
+D3
+~
+~
+0 -1 32706
+D4
+~
+~
+0 -1 32702
+S
+#32704
+A Room in the Cave~
+This room stinks of warg defecation.  The room is also scattered about 
+with bones from old kills.  One dim torch in the corner provides the only 
+light.  You feel very frightened.  As you look in disgust at the bones, you can
+see the traces of a trapdoor underneath.
+~
+0 8 2
+D0
+~
+~
+0 -1 32703
+D5
+A trapdoor is buried under a pile of bones.~
+trapdoor~
+1 -1 32705
+S
+#32705
+Small Treasure Room~
+Before you came along this room had not seen light since Jher was only 
+a young man studying the ways of taming the wild.  Your eyes are stunned by a 
+glistening pile of gold at your feet.  Once you can pry your eyes away from 
+the pile of gold, you notice the snakes slithering up and around your legs.
+~
+0 1|8 2
+D4
+~
+~
+1 -1 32704
+S
+#32706
+An Unlit Hallway~
+As you journey deeper into the cave, the sounds of howling get louder. 
+However, the only thing you can hear is the sound of your pounding heart.  The 
+hallway continues west, but you also see a crack you may be able to pass 
+through to the south.  You hear the sound of bats flapping overhead.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32703
+D2
+~
+~
+0 -1 32707
+D3
+~
+~
+0 -1 32712
+S
+#32707
+A Crack in the Wall~
+For some unknown reason, you have decided to explore this crack.  The 
+thing you never know about caves is when you might fall into a bottomless pit.
+You hear the dripping of an underground stream, and think about the horrible 
+things that may be swimming or growing in it.
+~
+0 1|4|8 2
+D0
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32708
+S
+#32708
+The Disgusting Underground Pool~
+You find youself up to your waist in muck.  The stench is overwhelming 
+and you have the urge to vomit, but are afraid what creatures that might 
+attract.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32707
+D2
+~
+~
+0 -1 32709
+D3
+~
+~
+0 -1 32711
+S
+#32709
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32708
+D3
+~
+~
+0 -1 32710
+S
+#32710
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32711
+D1
+~
+~
+0 -1 32709
+S
+#32711
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32708
+D2
+~
+~
+0 -1 32710
+S
+#32712
+An Unlit Hallway~
+The celing of this hall is getting higher.  You do not have to be in a 
+crouch as you walk.  As you straighten your back and look ahead you see the 
+most hideous thing you have ever seen.
+~
+0 4|8 2
+D1
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32713
+S
+#32713
+Breeding Room~
+You see two cages, one to the north, and one to the south.  The 
+screaming and howling from the two cages blend together into a terrifying 
+sound which brings you to the border of insanity.
+~
+0 8 2
+D0
+~
+~
+1 32701 32715
+D1
+~
+~
+0 -1 32712
+D2
+~
+~
+1 32701 32714
+D3
+~
+~
+0 -1 32716
+S
+#32714
+The Male Warg Holding Cage~
+The animals in this cage, jump at you as you open the cage door.  The 
+door you just opened provides the fastest route to the female cage across the 
+room.  These disgusting wargs never get enough of two things, food and female 
+wargs.  You may have just provided them with both.
+~
+0 1|8 2
+D0
+~
+~
+1 32701 32713
+S
+#32715
+The Female Warg Holding Cage~
+These female wargs are in absolute terror of the males in the cage 
+across the room.  As you entered this cage, they mistake you for a male sent 
+in to proliferate the dirty warg race.  However once they realize it is only 
+you, they try to remember when the last time they ate was.
+~
+0 1|8 2
+D2
+~
+~
+1 -1 32713
+S
+#32716
+A Further Descent~
+This path is totally devoid of light.  As you keep walking west you 
+bump into a slimy wall and by feeling determine that the tunnel now turns 
+southward.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32713
+D2
+~
+~
+0 -1 32717
+S
+#32717
+A Further Descent~
+After making the turn southwards, you are dismayed to discover that 
+once again the tunnel goes down.  But you are comforted because you know that 
+you have at least made it this far alive.
+~
+0 1|8 2
+D0
+~
+~
+0 -1 32716
+D5
+~
+~
+0 -1 32718
+S
+#32718
+The Passage to the Throne Room~
+As you reach the bottom of your climb you straighten up and look 
+northwards.  There is a huge wood and iron door, with a round brass handle.  
+There are two large warg warriors standing guard at either side of this door.
+To get by, you will either have to kill them or sneak by and pick the lock.
+~
+0 1|8 2
+D0
+~
+~
+1 32707 32719
+D4
+~
+~
+0 -1 32717
+S
+#32719
+Southern end of the Throne Room~
+This must be a throne room.  The ruler of these wargs must be very 
+wealthy, but he also must be cruel to live in such luxury while all his slaves 
+suffer.
+~
+0 8 2
+D0
+~
+~
+0 -1 32720
+D2
+~
+~
+1 -1 32718
+S
+#32720
+Northern End of the Throne Room~
+There is a huge throne made of the finest gold and glistening with the 
+finest jewels.  Even with all this brightness, you are overwhelmed by darkness,
+for Jher sits on the throne.
+~
+0 8 2
+D0
+~
+~
+2 32709 32721
+D2
+~
+~
+0 -1 32719
+S
+#32721
+Jher's Bedroom~
+This is where Jher sleeps.  To avoid the chance of the wargs attacking 
+him in anger while he sleeps, he specially bred Knanath to protect him.  The 
+bedroom is dark, for Jher loves the darkness.  Above the bed you see a hole to 
+another tunnel.  This was to be his escape route if was ever trapped in his 
+room.
+~
+0 1|8 1
+D2
+~
+~
+2 -1 32720
+D4
+~
+~
+0 -1 32722
+S
+#32722
+Tunnel Above Jher's Bedroom~
+This tunnel has never been used because Jher never had the need.  
+After the climb up here, it levels off and turns south.
+~
+0 1|8 3
+D2
+~
+~
+0 -1 32723
+D5
+~
+~
+0 -1 32721
+S
+#32723
+A Small Tunnel~
+Since Jher had never used this tunnel, he never paid any attention to 
+its upkeep.  You have to crawl now, and as you crawl, you seem to be ascending.
+~
+0 1|8 3
+D0
+~
+~
+0 -1 32722
+D2
+~
+~
+0 -1 32724
+S
+#32724
+The Secret Room~
+When you finally make it to this room, you are incredibly exhausted.  
+You sit down to rest on an old trunk.  As you sit, you brush aside some dust 
+on the trunk.  The shine from your light off the golden chest is blinding.  As 
+you try to open it, you realize in disappointment that it is locked.  
+However 
+if you look around, you may find something hidden that will open it.
+~
+0 1|4|8|8192 3
+S
+#0
+
+
+#RESETS
+*
+* removed/unknown M 1 0 1 32700
+*
+M 1 32703 1 32703
+*
+*
+*
+*
+M 1 32701 2 32703			a young warg to A room in the cave
+*
+M 1 32704 1 32703			warg father to A room in the cave
+*
+M 1 32705 1 32704			the young hungry warg to A room in the cave
+D 1 32704 5 1			; A Room in the Cave Close Down
+D 1 32705 4 1			; Small Treasure Room Close Up
+*
+M 1 32706 2 32705			the snake to Small treasure room
+O 1 32700 100 32705			a pile of gold to Small treasure room
+*
+M 1 32708 2 32706			the bat to An unlit hallway
+*
+M 1 32708 1 32708			the bat to The Disgusting Underground Pool
+*
+M 1 32708 1 32710			the bat to The Disgusting Underground Pool
+D 1 32715 2 1			; The Female Warg Holding Cage Close South
+D 1 32713 0 2			; Breeding Room Lock North
+D 1 32714 0 1			; The Male Warg Holding Cage Close North
+*
+M 1 32709 1 32713			Htrag to Breeding Room
+E 1 32701 1 17
+*
+M 1 32710 2 32715			the female warg to The Female Warg Holding Cage
+*
+M 1 32711 2 32714			the male warg to The Male Warg Holding Cage
+*
+M 1 32712 1 32717			Sapth to A Further Descent
+*
+M 1 32714 1 32718			the guard to The Passage to the Throne Room
+*
+M 1 32713 1 32718			the guard to The Passage to the Throne Room
+D 1 32718 0 2			; The Passage to the Throne Room Lock North
+D 1 32719 2 1			; Southern end of the Throne Room Close South
+D 1 32713 2 2			; Breeding Room Lock South
+*
+M 1 32700 1 32720			Jher to Northern End of the Throne Room
+E 1 32703 100 16
+G 1 32709 100
+O 1 32708 100 32720			the throne to Northern End of the Throne Room
+*
+M 1 32702 1 32721			Knanath to Jher's Bedroom
+D 1 32720 0 2			; Northern End of the Throne Room Lock North
+D 1 32721 2 1			; Jher's Bedroom Close South
+*
+O 1 32711 100 32724			the golden chest to The Secret Room
+*
+M 1 32715 1 32721			Shaanh to Jher's Bedroom
+E 1 32712 100 14
+E 1 32712 100 15
+*
+M 1 32716 1 32709			the hideous one-eyed fish to The Disgusting Underground Pool
+*
+M 1 32716 1 32711			the hideous one-eyed fish to The Disgusting Underground Pool
+O 1 32714 100 32724			a glowing zapath necklace to The Secret Room
+O 1 32715 100 32724			a gold coin to The Secret Room
+S
+
+
+#SHOPS
+32709 10 10 10 10 10 50 100 0 23			Htrag
+0
+
+
+#SPECIALS
+M  32700 spec_breath_lightning			Jher the trainer of wargs
+M  32701 spec_thief			a young warg
+M  32702 spec_guard			the warg prince
+M  32703 spec_poison			warg mother
+M  32704 spec_fido			warg father
+M  32705 spec_fido			the young hungry warg
+M  32706 spec_poison			the snake
+M  32707 spec_breath_lightning			Beorn
+M  32708 spec_poison			the bat
+M  32709 spec_guard			Htrag the breeder
+M  32710 spec_poison			the female warg
+M  32711 spec_thief			the male warg
+M  32712 spec_janitor			Sapth
+M  32713 spec_guard			the guard
+M  32714 spec_guard			the guard
+S
+
+
+#$

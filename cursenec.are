@@ -1,0 +1,6275 @@
+#AREA   The Curse of the Necromancer~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+30 50 0 65
+$
+
+#RESETMSG A chill wind harbors dread and despair.~
+
+#FLAGS
+0
+
+#ECONOMY 0 37424859
+
+#MOBILES
+#25000
+rotting corpse~
+a rotting corpse~
+A rotting corpse rises up from its grave!
+~
+These mindless undead have been animated by the foul workings of the
+curse of the Necromancer. Torn from their resting places against their
+will, they now harbor an abiding hatred of all that lives and breathes.
+~
+97 512 -400 C
+34 0 0 10d10+900 4d4+8
+500 0
+8 8 0
+18 13 13 18 13 13 13
+0 0 0 -5 -5
+71 3 0 0 4096 4096 0
+0 0 1791 528 7426 1 128 2
+> rand_prog 2~
+moan
+~
+> fight_prog 25~
+punch
+bash
+~
+> death_prog 100~
+mpe _red Blood showers everywhere as the mangled corpse drops to the ground.
+~
+|
+#25001
+skeleton~
+a skeleton~
+The skeletal remains of some unknown warrior rise from the ground.
+~
+Animated by the ghastly curse placed upon this region, this skeleton
+exists only to destroy hated life and creatures of light.
+~
+97 512 -400 C
+33 0 0 10d10+800 3d3+3
+500 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 0 512 7458 17 3 2
+> rand_prog 2~
+mpe Bones clatter as the animated skeleton struggles to life.
+~
+> fight_prog 15~
+gouge
+disarm
+if rand(50)
+mpe The skeleton's mouth opens wide in a soundless shriek.
+mpdamage $n 50
+else
+endif
+~
+> act_prog p DISARMS you!~
+mpe As the weapon is torn from the undead's grasp, a good portion of its
+mpe hand is torn away along with it! The clawed skeletal hand plops onto 
+mpe the ground...
+mpoload 25020 
+drop hand
+~
+|
+#25002
+revenant lord tarrant~
+Lord Tarrant~
+A thin, haggard figure strides forth from the darkness.
+~
+The soul of Lord Tarrant was cursed by the witch to be bound to this
+plane, and has in its rage become a revenant, thirsting for vengeance.
+Were Tarrant to know the witch to be slain, he could at last rest, with
+the rest of his kinfolk.
+ 
+A mighty sorcerer as well as a formidable swordsman, Tarrant is a foe worthy
+of respect for any perpetrator of evil deeds.
+~
+67 274735804 500 C
+38 0 0 40d5+2800 2d8+22
+75000 0
+8 8 0
+18 13 13 18 13 13 13
+0 0 0 0 0
+67 8 0 0 1 1 2
+0 0 263871 1573020 2113282 65 1107300867 524289
+> greet_prog 100~
+if ispc($n)
+mpe _lbl A shimmering figure rises from the coffin and turns to face you.
+bow $n
+say Stranger, you have violated my tomb, and that is a heinous
+say deed indeed. But you are not the first, and won't be the last,
+say so I do not begrudge you for the sins of thousands. You may
+say leave, leave me to my miserable fate.
+else
+if name($n) == witch tus'schepteba
+yell Tus'schepteba! You dare come HERE? DIE!!!!!!
+scream
+murder tus'schepteba
+cackle
+say Vengeance shall be MINE!
+else
+endif
+endif
+~
+> speech_prog fate~
+sigh
+say Stranger, I would not bore your ears with my misfortunes.
+say Suffice to say I have been condemned to this wretched existence
+say by the vile witch Tus'schepteba. And I may not rest until her
+say damned soul has been consigned to the fiery pits of hell itself.
+snarl
+say TUS'SCHEPTEBA!!!!
+, weeps softly, for his lands and his people.
+~
+> speech_prog tus'schepteba~
+snarl
+say Speak not that unworldy slut's name in my presence!
+say She is vile hellspawned inculcable evil! She must needs be
+say destroyed, aye, and soon! But I am entombed here, and she is
+say free to wander as is her seditous wont! How it tasks me!
+, gnashes his teeth and mutters in rage,
+~
+> fight_prog 50~
+if rand(5)
+, calls upon the power of his sorcerous ancestors, unleashing tremendous magic!
+c gas
+endif
+if rand(15)
+, unleashes a volley of debilitating magicks!
+c unravel
+c feebleness
+c 'ethereal funnel'
+c blazebane
+c winter
+else
+if rand(25)
+c 'galvanic whip'
+c 'chill touch'
+c fireball
+else
+c black hand
+endif
+endif
+~
+> speech_prog necromancer~
+say The necromancer?
+mutter
+say Few indeed know of this dark presence. 'Tis rumored he is 
+say the true mastermind behind the workings of the witch. But 
+say 'tis also rumored that the witch and the necromancer are 
+say but two sides of the same coin... Who can know?
+~
+> act_prog p DISARMS you!~
+sneer
+say What a base, cowardly act... one that will not succeed.
+mpe As if by magic, Tarrant's sword leaps back into his hand!
+wield tarrant
+snicker
+~
+> act_prog flees~
+mprestore self 50
+~
+> rand_prog 2~
+moan
+mpasound A dread moaning can be heard nearby...
+mprestore self 20
+mpe Add purge knight check cool prog
+~
+> act_prog p gets blessed orb of light from an empty coffin.~
+if isgood($n)
+nod
+say Take it, $n, and use it well. I can no longer battle evil here,
+say so now the mantle must be borne by you...
+else
+scream
+say Vile treacherous thief! You will perish in the fires of perdition!
+c fireball $n
+endif
+~
+> hitprcnt_prog 20~
+if rand(25)
+mpe _whi Sorely pressed, Tarrant calls upon the favor of the fallen!
+mpe _blu Lord Tarrant utters the words, 'daed eht fo sthgink'.
+mpe _lbl A ghostly knight steps out of one of the portraits.
+mpmload 25013
+mpforce 'portrait knight' bow
+mpforce 'portrait knight' say I exist to serve thee, my lord.
+mpforce 'portrait knight' murder $n
+else
+mpe Tarrant snarls and curses as he staggers under your blows.
+endif
+~
+|
+#25003
+knight manor~
+a knight of the manor~
+An armored knight stands his ground here.
+~
+The knights of the manor are a small band of warriors sworn to protect
+the baron and his family in these times of trouble. They will be curt
+with strangers, but that it because with all the troubles of late they
+have little choice but to be distrustful.
+~
+67 512 444 C
+35 0 0 10d100+2000 3d4+18
+10000 0
+8 8 1
+22 13 22 22 13 13 13
+0 0 0 0 0
+0 8 0 0 1 1 2
+0 0 1791 3151104 2048 0 16 524291
+> rand_prog 2~
+, carefully scans the surrounding region, alert for trouble.
+~
+> all_greet_prog 100~
+if name($n) == undead marauder
+say The Dead rise! Prepare thyselves!
+, draws his weapon and strides forth to quell the menace!
+mpkill $n
+else
+if ispc($n)
+say Halt! Stranger, be aware that you have entered, knowingly or
+say otherwise, the domain of our Lord of the Manor, Baron duChesne.
+say The Baron has little patience for rowdy or unruly adventurers,
+say or for adventurers at all, so be on your best behavior, or face
+say the wrath of his knights!
+glare $n
+else
+endif
+endif
+~
+> fight_prog 10~
+yell CHARGE!
+mpe The knight lunges at you, catching you with his lance!
+~
+> death_prog 100~
+mpe As he falls, dying, the knight's eyes glaze over. He tries to speak.
+mpe _lbl A knight of the Manor says 'I...' 
+mpe Then he falls silent, incapable of further action.
+~
+> speech_prog p curse~
+say Curse?
+chuckle
+mpe Although the knight attempts to scoff, his nervous manner betrays his fear.
+frown
+say Aye, 'tis true, this place is cursed, by that vile necromancer!
+growl
+say If only I were twenty years younger...
+~
+> speech_prog necromancer witch~
+frown
+say I know naught of these scoundrels, stranger...
+mpe Although the knight's bearing is fair, you suspect he is hiding something.
+say 'Tis best you speak to the Baron of such matters.
+~
+> act_prog p An undead marauder is DEAD!~
+cheer
+say Huzzah! Another undead falls to my steel!
+~
+> rand_prog 100~
+mprestore self 50
+~
+|
+#25004
+warhorse~
+a mighty warhorse~
+A mighty warhorse stamps and chomps on his bit.
+~
+The horses of the manor are a sturdy lot, well accustomed to the heat
+of battle and the thrust of the lance.
+~
+262211 512 0 C
+28 0 0 1d1+1200 3d3+20
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 513 512 0
+0 0 100730429 0 0 0 32 2
+> rand_prog 2~
+, whinnies in anticipation of the fray.
+~
+|
+#25005
+tus'schepteba witch clone1~
+Tus'schepteba~
+A cackling, grinning crone of infinite years stares at you.
+~
+~
+1 552 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#25006
+cadaverous ghoul~
+a cadaverous ghoul~
+A rotting ghoul gibbers and drools as it dances maniacally through the tunnels.
+~
+The animated remains of scores of sacrifical victims, these foul beasts
+now wander the catacombs taken over by the cabal, eternally vigilant for
+intruders, who form the basis of their diet. Known thieves and scavengers
+as well as ruthless killers, it is rumored their hidden lairs are filled
+with all manner of objects.
+~
+101 552 -666 C
+33 0 0 20d10+800 4d6+12
+1200 0
+8 8 0
+13 13 13 22 13 13 13
+0 0 0 0 0
+36 2 0 0 1 1 0
+0 0 263871 576 2104578 1 262147 2
+> all_greet_prog 100~
+if isimmort($n)
+else
+drool
+say Fresh meat from the masters! Feed, my brethren... FEED!
+lick
+mpkill $n
+endif
+~
+> rand_prog 25~
+get all
+mpat 25047 drop all
+~
+> fight_prog 12~
+mea $n The ghoul's claws cut deeply into your flesh, causing great pain!
+mpdamage $n 25
+if con($n) < 15
+mea $n But with the pain comes a growing numbness... you are paralyzed!
+mea $n The ghoul bites and claws at you while you are incapacitated.
+mpdamage $n 75
+else
+endif
+~
+|
+#25007
+mad priest~
+a mad priest~
+A huddled, pathetic creature scurries away as you approach.
+~
+Once a kindly priest of Brontrel, this poor fellow's mind has been 
+destroyed by what he has witnessed befall this house of his deity.
+Sent here to lay the evil to rest, he has instead fallen under its
+fell sway.
+~
+199 12840 -200 C
+32 0 0 10d10+200 3d3+3
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 32 0 0 0 577 2
+> rand_prog 2~
+say The Necromancer cometh...
+shiver
+~
+> rand_prog 3~
+giggle
+~
+> all_greet_prog 100~
+if isnpc($n)
+cringe
+else
+, cowers in the corner as you approach.
+say G-g-go away...heh...evil here... yes...evil!
+snicker
+drool
+if rand(25)
+scream
+else
+if rand(33)
+say The Necromancer cometh!
+, stops and falls silent.
+else
+say 'Ware the ghouls what live beneath us!!!
+moan
+endif
+endif
+endif
+~
+> fight_prog 18~
+mpe Sheer terror lends strength to the priest's efforts!
+stun
+mpdamage $n 32
+~
+> speech_prog necromancer witch~
+mpe The priest screams and covers his ears, beating his feet on the floor!
+say NO! I WILL HEAR NO MORE!
+moan
+~
+|
+#25008
+dire wolf~
+a dire wolf~
+A dark wolf nearly eight feet long stalks through the pews.
+~
+The senses of these foul creatures are so finely attuned that they can
+detect even magically concealed foes, hence their great usefulness as
+guards, undoubtledly the function they have been put to in this chapel.
+But guards for what...?
+~
+97 552 -400 C
+32 0 0 10d8+700 4d6+8
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 167839289 0 0 0 1 2
+> fight_prog 15~
+mpe The wolf howls and bites!
+snarl
+~
+> rand_prog 2~
+glare
+~
+|
+#25009
+mad cabalist ~
+a mad cabalist~
+A screaming, moaning minion of the Necromancer wanders the catacombs.
+~
+This evil human has devoted his life to serving the Necromancer, and
+is part of the Cabal of the Witch, that select organization that carries
+out the Necromancer's bidding on this plane. He is utterly devoid of any
+moral center, and is quite psychotic.
+~
+35 8712 -666 C
+34 0 0 6d20+1100 4d5+10
+1000 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+0 1 0 0 65537 1 0
+0 0 2047 328 3072 16 1109656129 524290
+> greet_prog 100~
+if isnpc($n)
+drool
+else
+if isimmort($n)
+cringe $n
+else
+say Death shall claim thee, $n!
+cackle
+murder $n
+endif
+endif
+~
+> fight_prog 12~
+mea $n _red The cabalist licks the edge of his knive and drives it into you!
+mpdamage $n 100
+say Only damnation awaits you here, $n!
+~
+> speech_prog necromancer witch~
+say Speak, speak the names of my gloried Masters!
+swoon
+~
+> rand_prog 2~
+if rand(15)
+say bleh
+else
+if rand(33)
+say bleh
+else
+if rand(25)
+say blesh
+else
+say bleh
+endif
+endif
+endif
+~
+|
+#25010
+lieutenant witch g'qor~
+G'qor~
+G'qor the Witch's lieutenant, reviews some dark manuscript.
+~
+A dark half-troll shaman, G'qor has advanced swiftly through the ranks
+of the Cabal since his arrival, usually by assassinating those who are
+his immediate superior. His advancement has halted however, as lieutenant
+to the Witch, who is well aware of his bloodthirsty ambition and harnesses
+it to further her own dark plans.
+~
+3 33563176 -666 C
+37 0 -100 1d1+2000 4d4+24
+50000 0
+8 8 1
+19 18 18 10 13 13 13
+0 0 0 0 0
+8 1 0 0 1 1 0
+0 0 2047 3211528 3584 0 209715200 1
+> fight_prog 15~
+wield flamberge
+gouge
+disarm
+grin
+~
+> all_greet_prog 100~
+if name($n) == mad cabalist
+frown
+say Leave me, minion, I have pressing business.
+mpforce $n w
+else
+if isnpc($n)
+scowl
+say Who are you?
+boggle $n
+else
+mpe The shaman looks up as you enter.
+say Ah, $n. Well met indeed, I have been expecting you.
+mea $n Noting your surprise, he nods and continues.
+say Yes, the Cabal has ears everywhere, $n. Your mission is known.
+chuckle
+say Rather amusing really. What can you possibly hope to achieve?
+shrug
+say Enough talk. Time for action.
+mpe The lieutenant rises to his full ten feet and draws a large flamberge.
+say Time to die, $n. May whatever god you worship take pity on your soul.
+endif
+endif
+~
+> hitprcnt_prog 20~
+if rand(25)
+mpe Sensing defeat is imminent, G'qor calls upon dark powers to aid him!
+mpe _blu G'qor utters the words, 'em dia ssenkrad'
+   if mobinarea(25011) >= 1
+   mpe No creature answers G'qor's summons!
+   curse
+   else
+   mpe _red A demonic creature appears in a flash of hellish light.
+   mpmload 25011
+   mpforce 'demonic creature' murder $n
+   endif
+else
+mpe $I snarls and swears as the battle strain takes its toll on his vitality.
+endif
+~
+> speech_prog witch necromancer~
+chuckle
+say Yes, we are aware you seek them. I suppose you desire to rid
+say the world of their evil...
+if isevil($n)
+say ...or take over for yourself, blackheart...
+poke $n
+snicker
+nod
+endif
+~
+> rand_prog 2~
+if ispc($r)
+frown
+say Do you fear to take up arms against me then, $n?
+nod
+say You are wise to fear me, for I shall surely destroy you.
+flex
+else
+mprestore self 50
+endif
+~
+|
+#25011
+demonic creature~
+a demonic creature~
+A horrid beast spawned from the depths of Hell rises to meet you.
+~
+An aberration known only to exist in Hell, this indescribable mass of
+fangs, claws and black hide can only exist on the prime material plane
+if summoned hither by some black power.
+~
+101 34087464 -1000 C
+31 0 0 1d1+800 4d4+14
+0 0
+8 8 0
+18 13 13 18 13 13 13
+0 0 0 0 0
+67 3 0 0 65536 65536 2
+0 0 34965055 32 3073 0 3 1
+#25012
+mortus beast~
+mortus beast~
+A horrifying mass of black ooze slides across the floor.
+~
+This unspeakable horror is one of the many powerful minions of the dark
+Necromancer, placed under the command of his Cabal, and thus nominally
+controlled by Tsu'schepteba. She, however, does not trust it and keeps
+it locked here unless it is sorely needed.
+~
+7 66088 0 C
+40 0 0 60d10+1600 5d5+25
+0 0
+8 8 0
+22 13 13 13 13 13 13
+-5 -5 -5 -5 -5
+52 3 0 0 65536 65536 0
+0 0 32 1056864 2100510 0 4224 2
+> act_prog p pound misses you.~
+mea $n Your weapon glances harmlessly off the beast's hide.
+~
+> act_prog p crush misses you.~
+mea $n Your weapon glances harmlessly off the beast's hide.
+~
+> all_greet_prog 100~
+if isnpc($n)
+mpforce $n gasp
+mpforce $n u
+else
+if ispc($n)
+mea $n A foul beast of the netherworld, the beast seeks to devour you!
+mpe _lbl The beast slides forth with terrifying speed, oozing acid and frost.
+else
+endif
+endif
+~
+> fight_prog 22~
+mea $r _lbl The beast's deathly cold flesh brushes you.
+c 'winter mist' $r
+c 'chill touch' $r
+mpdamage $r 25
+~
+> rand_prog 2~
+mpe The beast's wounds spontaneously regenerate.
+mprestore self 50
+~
+> fight_prog 10~
+mpe The beast's wounds spontaneously regenerate.
+mprestore self 20
+~
+> rand_prog 100~
+if isimmort($r)
+else
+if ispc($r)
+murder $r
+else
+endif
+endif
+~
+|
+#25013
+portrait knight~
+a portrait knight~
+The ghostly remains of a long-dead knight rises to serve its master.
+~
+Sworn to Tarrant in life, this knight continues his vows of allegiance
+unto death, and beyond...
+~
+39 274735784 500 C
+33 0 0 2d2+798 4d4+12
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 8 0 0 1 1 0
+0 0 0 1056768 2100994 0 1073741904 3
+#25014
+priest damned~
+a damned priest~
+A crazed man coated in the blood of virgins offers unspeakable libations.
+~
+Foul cleric of unspeakable powers, this gaunt man has the touch of
+madness, in its worst form. Divorced from reality, his mind gamboles
+freely amongst the nightmarish anti-reality of the Hells, and draws
+sustenance from therein. Slavishly devoted to the Necromancer and
+his cabal, this priest is truly a despicable, yet tragic, figure.
+~
+3 2106024 -666 C
+35 0 0 1d1+1999 2d8+16
+15600 66666
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 3145984 3073 0 306188288 4106
+> rand_prog 2~
+if rand(25)
+say Chaos shall conquer all!
+cackle
+drool
+else
+if rand(33)
+say Death to Light! Death to Law!
+scream
+else
+say Damned are those who follow the path of Law!
+smirk
+endif
+endif
+~
+> all_greet_prog 100~
+if isnpc($n)
+say Come, brother, revel in the glory of the Necromancer!
+drool
+else
+mea $n The priest's eyes roll in their sockets as he turns to face you.
+   if sex($n) == 2
+   say Sister $n! Come, come unto the purity of my master!
+   mea $n The priest beckons to you, cackling and frothing at the mouth.
+   else
+   say Brother $n! Come, come unto the purity of my master!
+   mea $n The priest beckons to you, cackling and frothing at the mouth.
+   endif
+mea $n _red The priest draws a long knife across his arm, drawing blood!
+mpe _lbl The priest shudders in unholy ecstacy.
+endif
+~
+> fight_prog 55~
+if rand(10)
+say You seek death so willingly? Then face it, $n, face it!
+mea $n The priest suddenly lunges at you, sending you tumbling backwards.
+mer $n The priest suddenly lunges at $n, sending $m tumbling backwards.
+mea $n _yel With a cry, you fall into the pit!
+mer $n _yel With a cry, $n falls into the pit!
+mptrans 0.$n 25033
+cackle
+mpe A horrid munching sound is heard from below, accompanied by muffled cries.
+else
+if rand(25)
+   if isgood($n)
+   say Pawn of goodness, face the true power of darkness!
+   snarl
+   mpe _red Blood pours from the priest's orifices, coalescing on the floor.
+   mpe _red With a shudder, the priest opens his mouth, and...
+   shriek
+   endif
+mpdamage $n 25
+mpdamage $n 25
+else
+if rand(33)
+c weaken $r
+c curse $r
+c blindness $r
+else
+c 'chill touch' $r
+endif
+endif
+endif
+~
+> rand_prog 10~
+if ispc($r)
+steal gold $r
+endif
+~
+> speech_prog thief~
+say Thief? A worthy donation to the church, surely...
+cackle
+snarl
+~
+|
+#25015
+dire wolf ~
+a dire wolf~
+A long, black wolf slinks through the corridors.
+~
+The senses of these foul creatures are so finely attuned that they can
+detect even magically concealed foes, hence their great usefulness as
+guards, undoubtledly the function they have been put to in this chapel.
+But guards for what...?
+~
+97 552 -400 C
+32 0 0 8d8+700 4d4+8
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 167839289 0 0 0 1 2
+> rand_prog 2~
+peer
+~
+> fight_prog 33~
+snarl
+mpdamage $n 25
+~
+|
+#25016
+Niles butler~
+Niles~
+A distinguished looking butler stands near the door.
+~
+An elderly man, Niles has served the DuChesne for three generations.
+Nearing the end of his life, Niles nevertheless performs his duties
+with fautless precision.
+~
+3 552 0 C
+32 0 0 1d1+1445 6d4+18
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 3072 0 576 2
+> all_greet_prog 100~
+if ispc($n)
+, sniffs disdainfully.
+   if sex($n) == 2
+   say What is it you wish... madam?
+   else
+   say Can I help you... sir?
+   endif
+else
+endif
+~
+> fight_prog 33~
+say Oh dear, such barbaric behavior... Guards!
+mpe One of the baron's guards comes rushing in.
+say Sieze that ruffian!
+point $n
+mpmload 25017
+mpforce baronguard grin
+mpforce baronguard murder $n
+~
+> speech_prog p i wish to see the baron~
+nod
+say Very well. One moment please...
+mpe The butler opens the door to the library.
+op w
+mpe Niles glances in, and then turns to face you.
+say He says he is far too busy.
+mpe You have a sneaking suspicion that Niles is lying...
+close w
+~
+|
+#25017
+baronguard guard~
+the baron's guard~
+A member of the baron's guard watches for trouble.
+~
+This sturdy guard is one of the many sworn to protect the baron and
+his family from harm, a difficult task in these dark days.
+~
+3 552 400 C
+35 0 0 1d1+1100 4d4+12
+5000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 68672 0 0 592 3
+> fight_prog 10~
+say Death awaits thee, scoundrel!
+snarl
+~
+> death_prog 33~
+mutter
+say So soon... does death claim me...
+~
+|
+#25018
+baronguard guard~
+the baron's guard~
+A member of the baron's guard watches for trouble.
+~
+This sturdy guard is one of the many sworn to protect the baron and
+his family from harm, a difficult task in these dark days.
+~
+3 552 400 C
+35 0 0 1d1+1100 4d4+12
+5000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 68672 0 0 592 3
+#25019
+black dragon dengraz'ch~
+Dengraz'ch~
+An enormous black dragon lies curled up in the cave.
+~
+Dengraz'ch is a formidable drake, one of the many terrors inflicted on
+the hapless village of Gilchrist by the Necromancer. He answers to none
+but The Necromancer, not even to the witch or her cabal, who hate and
+fear him. While he is of unfathomable evil, he is not overtly violent,
+and will not attack obviously capable adventurers without provocation-
+past experience has taught him not to underestimate these disarmingly
+frail-looking creatures.
+~
+7 273162920 -1000 C
+49 0 -300 100d20+20000 8d8+48
+1000000 0
+8 8 0
+22 13 13 22 22 13 13
+-5 -5 -5 -5 -5
+31 3 0 0 2049 1 3
+0 0 42305087 1048610 2100608 1 262151 2
+> all_greet_prog 100~
+if clan($n) == Dragonslayer
+chuckle
+say Boastful whelp, you consider yourself a 'Dragonslayer'??
+grin
+say Well, step closer $n, and we shall see what you are made of...
+flex
+else
+if ispc($n)
+grin
+say Well hello there, potential meal. Any last words before I slay thee?
+lick
+else
+growl
+mmm
+say Dinner!
+mpe $I leaps upon $n and devours $m in a single bite!
+mpslay $n
+burp
+lick
+endif
+endif
+~
+> fight_prog 40~
+if rand(33)
+mprestore self 100
+   if clan($n) == dragonslayer
+   roar
+   Yell Now you will feel the wrath of a TRUE dragon, $n Dragonslayer!'
+   mea $n $I rises to his full height and descends upon you!
+   mer $n $I rises to his full height and descends upon $n!
+   stun
+   mpdamage $n 600
+   endif
+else
+if rand(45)
+mpe $I flicks out with his tail, scattering combatants everywhere!
+mpdamage $n 200
+mpdamage $r 200
+else
+c 'faerie fire' $r
+endif
+endif
+~
+> rand_prog 2~
+mpe $I ducks off and deposits items he has found in a secret lair.
+mpe Seconds later he returns, satisfied.
+mpjunk all
+mpclosepassage 25099 0
+~
+> act_prog flees~
+if clan($n) == dragonslayer
+yell Ha! Watch $n, the so-called 'Dragonslayer', flee like a rabbit!
+yell Oh ho ho, what mirth!
+cackle
+else
+yell Yes flee, $n, flee and never return!
+endif
+~
+> rand_prog 2~
+lala
+~
+> death_prog 100~
+if rand(66)
+mpe _red $I emits a bloodcurdling scream as he perishes!
+mpe _gre A greenish mist fills the cavern, and a strange figure emerges...
+mpmload 25020
+mpforce fakenecro say So, you have managed to best my best servant...
+mpforce fakenecro frown
+mpe The necromancer glances briefly at the mangled corpse then shrugs.
+mpforce fakenecro say No matter, he can be replaced... As for you-
+mpforce fakenecro chuckle
+mpforce fakenecro say I have plans for you, foolish adventurers...
+mpforce fakenecro cackle
+mpe _gre The cavern fills once more with the greenish mist, and he vanishes!
+mppurge fakenecro
+else
+mpe _red $I emits a bloodcurdling scream as he perishes!
+mpe From far away, you hear an anguished cry of pain and remorse...
+mpe _gre A greenish mist surrounds the dying wyrm, covering him.
+mpe When it dissipates, a single black metal shield can be seen...
+mpoload 25041 42
+endif
+~
+> give_prog parchment cabal~
+eye
+say What's this?
+peer $n
+, scans the parchment, then devours it in a single gulp.
+mpjunk parchment
+ponder
+mea $n $I glares at you with DEEP suspicion...
+mer $n $I glares at $n with DEEP suspicion...
+say You don't LOOK like a cabalist...
+frown
+shrug
+say Very well, prepare thyself!
+mpe _gre $I traces a design on the wall, and a gateway opens!
+mpopenpassage 25099 25082 0
+~
+> fight_prog 60~
+if rand(25)
+mpe _gre $I narrows his eyes and unleashes a blast of corrosive acid!
+c 'acid breath' $r
+else
+if rand(10)
+mea $n With a flick of his claw, $I attempts to knock your weapon away.
+disarm
+endif
+endif
+~
+|
+#25020
+necromancer fakenecro~
+The Necromancer~
+A dark figure swathed in robes of night utters an incantation...
+~
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+90 0 0 0 335565995 335565994 0
+0 0 0 0 0 0 0 0
+#25021
+necromancer~
+the Necromancer~
+A skeletal figure swathed in darkness steps forth to meet you.
+~
+Before you stands the vile mastermind behind the evil that has beset
+the valley. Cold light gleams in the hollow sockets where the vile
+being's eyes once existed, gazing balefully at you. A taloned claw
+of a hand reaches out of the tattered robes, beckoning you to your
+fate...
+~
+7 335553192 -1000 C
+54 0 -200 500d5+22500 11d4+80
+1000000 125000
+8 8 0
+18 18 18 18 13 1 1
+0 0 0 0 0
+67 9 0 0 1 1 4
+66 0 16 1048672 2100992 17 33554432 3
+> fight_prog 25~
+if rand(25)
+mea $n _red The Necromancer gestures at you and a sudden pain grips your heart!
+cackle
+say Watch as $n succumbs to my deathly grip...
+mpforce $n gasp
+mpdamage $n 400
+endif
+mpe _dch The Necromancer dances about the room with surprising agility!
+mpgoto $i
+sneer $r
+yell Prepare to meet thy maker, $r!
+mpkill $r
+grasp $r
+mpdamage $n 400
+feed
+drool
+~
+> fight_prog 75~
+if rand(25)
+gouge
+disarm
+endif
+if rand(40)
+   if isgood($n)
+   say Spawn of goodness, taste the fruits of sin!
+   cackle
+   mea $n _dch $I touches you, briefly... you feel incredible pain!
+   mpdamage $n 1100
+   endif
+grin
+tell $r This is a fine sport, isn't it $r?
+mpe _gre A greenish mist obscures your vision...
+c poison $r
+mpdamage all 200
+else
+if rand(33)
+mpe _red $I makes a gesture, and summons a ghoulish minion from the Abyss!
+mpmload 25028
+mpforce 'ghoulish minion' murder $r
+else
+c feebleness $r
+c 'necromantic touch' $r
+mprestore self 150
+endif
+endif
+~
+> death_prog 100~
+mpe _red The Necromancer clutches at his chest, as he begins to fall...
+mpe _red With a horrid ripping sound, his heart explodes from his chest,
+mpe _red landing on the floor before you! But he does not die immediately.
+mpe _red He manages to take a few stumbling steps towards you as he dies.
+mpoload 25065 1
+drop heart
+if rand(10)
+mpe _whi As $I perishes, a beam of holy light scorches his corpse!
+mpe _whi A shimmering figure bestows a blessing upon $n for slaying $I...
+mpe _whi The gift floats to rest by $I's remains...
+mpoload 25051 50
+else
+if rand(45)
+mpe _dch As $I perishes, a strange expression crosses his skeletal features.
+mpe _dch He moves as if to speak, then falls silent...
+mpe _dch A hazy, indistinct aura still surrounds his corpse.
+mpoload 25052 50
+else
+mpe _red Screams of dismay assault you as $I perishes!
+mpe _red A pillar of flame smites $I, burning him to a crisp!
+mpe _red Only a single remnant of his diabolical power still lingers...
+mpoload 25053 50
+endif
+endif
+~
+> rand_prog 33~
+mprestore self 100
+~
+> act_prog p flees~
+cackle
+say Watch this...
+wink
+mpe _red A screaming skull hurtles from $I's raised hand, chasing $n!
+mpat 0.$n mea 0.$n _red A screaming skull smashes into you, exploding on impact
+mpat 0.$n mer 0.$n _red A screaming skull explodes as it collides with $n!
+mpat 0.$n mpdamage 0.$n 400
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+if clan($n) == Iscariot
+say Fell betrayer, I recognize in you a kindred spirit. Your 
+say patrons are no friends of mine however... just another enemy
+say to be torn asunder!
+cackle
+yell Watch $n, whelp of Iscariot, fall before me!
+vom $n
+else
+if clan($n) == Shadowmasters
+say Shadowmaster, you see yourselves as masters of all domains...
+chuckle
+say Many of your kin have I slain, and many more shall follow!
+yell Death to $n, heretic Shadowmaster!
+vom $n
+else
+if ispc($n)
+sneer
+say Mortal, you have erred in trespassing 'pon my dark domain...
+mea $n _red $I's eyes flash in anger, and he smites you!
+murder $n
+else
+mpslay $n
+snort
+endif
+endif
+endif
+endif
+~
+|
+#25022
+baron duchesne~
+Baron duChesne~
+A distinguished gentleman in his middle years sits here reading.
+~
+A former knight of the realm who has seen action in three wars, the
+Baron now prefers to spend his time relaxing in the manor of his
+family, which he has become head of. His greying hair and developing
+paunch belie a man who is in fact of considerable strength.
+The recent trials have taken their toll however, and his face is the 
+face of a broken man.
+~
+3 2106024 864 C
+44 0 0 1d1+8000 11d4+20
+250000 0
+8 8 1
+18 18 18 18 18 18 18
+0 0 0 0 0
+0 8 0 0 1 1 2
+0 0 2047 3145984 3072 0 16 2101539
+> all_greet_prog 100~
+if ispc($n)
+mpe $I looks up from his reading as you enter.
+mpe Rising to his feet, he turns to regard you.
+say Tell me, $n, do you normally barge in uninvited on a representative
+say of the Emperor Maximillian himself, Gods bless his reign?
+sigh
+say Well, these are the times we live in...
+say What do you want, then?
+endif
+~
+> speech_prog witch necromancer~
+say You know, then of the troubles we suffer at the hands of Chaos.
+sigh
+say Yes, the cult of the Necromancer, and his agents like the Witch,
+say have plagued us for months. All my efforts to lay the evil to
+say rest have ended in abject failure. I am at a loss...
+ponder
+say However, if you were agreeable, you could always endeavour to end
+say this evil. In fact, I am prepared to offer a significant reward,
+say for the defeat of the Necromancer. I would of course require proof.
+hmm
+~
+> give_prog rotting heart necromancer~
+gasp
+say You... you have succeeded where all others failed, $n.
+bow $n
+say It is an honor to have you before me, you have saved us all.
+say Words cannot express the gratitude I feel.
+if rand(25)
+mpe At this moment, an envoy of the Emperor enters the room, and approaches.
+mpe Whispering in the Baron's ear, he hands him a small package.
+mpe The envoy leaves then, without acknowledging your presence.
+smile
+say The Seer-mages of the Emperor informed him of your achievement.
+say In gratitude, he had them transport hither this item...
+mpe _yel A brilliant glow suffuses the chamber as the Baron opens the package.
+   if sex($n) == 2
+   say Lady $n, I present thee with the Medal of Glory!
+   say Wear it with pride...
+   mpoload 25066 
+   give glory $n
+   else
+   say Sir $n, I present thee with the Medal of Glory!
+   say Wear it with pride...
+   mpoload 25066 
+   give glory $n
+   endif
+endif
+mpjunk heart
+~
+> act_prog p sits down.~
+eye $n
+say Well, go right ahead and make yourself at home, then.
+mutter
+~
+> fight_prog 20~
+gouge
+disarm
+mutter
+say This is deplorable behaviour, $n!
+yell Guards, evict this inane ass from my house!
+mpe A guard comes running in!
+mpmload 25017
+mpforce baronguard murder $n
+~
+> fight_prog 66~
+mprestore self 200
+~
+|
+#25023
+maryah seer~
+Maryah~
+A middle-aged woman gazes intently into a darkened sphere.
+~
+An elegant woman in her forties, Maryah is a seer, gifted with the
+power of second sight. Rumored to have elven blood in her veins, she
+is respected by the local townsfolk. Her eyes flash with the power
+of ars magica.
+~
+3 680 400 C
+42 0 0 22d10+2200 5d7+22
+17650 0
+8 8 2
+13 22 22 13 13 22 22
+0 0 0 0 0
+9 0 0 0 1 1 0
+0 0 1791 2097408 3072 0 64 2050
+> fight_prog 75~
+if rand(25)
+mpe _blu Maryah quaffs a potion, and appears to regain some power.
+mprestore self 50
+endif
+if rand(33)
+say You would face the wrath of one trained in the magical arts?
+mpe _blu $I's eyes flash with energy, and she unleashes a magical bolt!
+c 'magnetic thrust'
+else
+if rand(45)
+mpe _blu $I weaves a series of enervative magicks!
+c blindness
+c weaken
+c 'faerie fire'
+c chill
+else
+if rand(20)
+mpe _red A roaring gout of fiery acid surges from $I's hands!
+c 'scorching surge'
+else
+c 'dispel magic'
+endif
+endif
+endif
+~
+> rand_prog 3~
+mpe _blu $I utters the words, 'yaw eurt eht em wohs'
+if rand(10)
+mpe $I's eyes roll back in her head and she moans in pain.
+else
+mpe _gre $I is bathed in a greenish glow.
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+say Traveller of the world, seeker of fates, weaver of destinies.
+say Perils grave do face thee, heed the warnings of Anger!
+mutter
+frown
+say You must venture to the dark, to find the light...
+whisper $n Beware the Witch!
+if rand(15)
+gasp
+say No! I cannot say any more...
+endif
+else
+eye $n
+mpforce $n e
+endif
+~
+> bribe_prog 1~
+say Thank you for your gift.
+c shield $n
+smile
+~
+|
+#25024
+burgomeister francois~
+Francois, the burgomeister~
+The big-bellied burgomeister stands here twirling his moustaches.
+~
+Francois is a good, honest man, who sincerely wishes to end the evils
+troubling his little village. After all efforts by the Baron failed,
+the burgomaster began to set about hiring mercenaries to attempt to
+defeat the Witch and perhaps even the Necromancer.
+~
+3 680 500 C
+44 0 -88 33d10+3200 5d5+45
+100000 0
+8 8 1
+20 13 13 18 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 2047 2097408 3072 0 16 3
+> fight_prog 45~
+wield bastard
+if rand(25)
+disarm
+   if rand(33)
+   mpe $I kicks the dropped items out the door!
+   get all
+   wield bastard
+   mpat 25070 drop all
+   endif
+endif
+if rand(40)
+mpe $I executes a series of superb strikes!
+lunge
+mpdamage $n 75
+else
+if rand(30)
+stun
+else
+gouge
+endif
+endif
+~
+> rand_prog 2~
+whistle
+mprestore self 25
+~
+> act_prog p DISARMS you!~
+, snorts in derision.
+say I don't need a weapon to deal with a whelp like you!
+if rand(33)
+mea $n $I smashes his forehead into your nose, breaking it!
+mer $n $I smashes his forehead into $n's nose, breaking it!
+headbutt
+mpdamage $n 50
+else
+if rand(45)
+mea $n $I buries a fist in your stomach, causing you to double over.
+mer $n $I buries a fist in $n's stomach, causing $m to double over.
+punch
+mpdamage $n 50
+else
+mea $n $I plants his booted foot in your groin!
+mer $n $I plants his booted foot in $n's groin!
+mpdamage $n 50
+endif
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+smile
+say Ho! If it isn't $n, the renowned adventurer!
+laugh
+say I know of thee. Welcome, welcome to Gilchrist!
+mea $n $I pumps your hand vigorously.
+mpe Although the Burgomeister appears jovial, it seems somehow forced.
+mpe What could be troubling this merry fellow?
+else
+bow $n
+mpforce $n bow francois
+mpforce $n wave
+mpforce $n s
+endif
+~
+> speech_prog trouble~
+say Funny you should ask, $n...
+mpe $I's moon suddenly turns dark.
+say The minions of the Necromancer are about... the Witch and 
+say her coven steal from us, taking our gold, our produce, and
+say now our children.
+shiver
+say The Baron is helpless, and we are desperate. Pray, help
+say us rid the village of this evil. Find the witch and slay
+say her. Bring me her head and I shall reward you!
+grovel $n
+~
+> speech_prog witch~
+say I know little of her, save that she lurks in Hillside.
+say Yes, the abandoned cemetary, you must know it...
+mutter
+say Damn that bitch! Were I 20 years younger...
+growl
+~
+> give_prog rotting heart necromancer~
+gasp
+say You slew the foul Necromancer! 
+say O Fine Day!
+moan
+say This is incredible... I have no way of expressing my joy.
+apologize $n
+say We have no wealth left to share...
+hmm
+say Perhaps the Baron may be more generous...
+give heart $n
+~
+|
+#25025
+alain smith~
+Alain~
+A surprisingly lean blacksmith sharpens a new blade.
+~
+Alain is a renowned and respected blacksmith, responsible for the fine
+swords of the Baron and his knights, amongst others. He appears to be
+of slim build, and it seems impossible that he could have pounded the
+steel into shape to forge these items.
+~
+3 552 440 C
+43 0 0 22d20+2300 3d8+50
+275000 0
+8 8 1
+13 13 13 22 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 2047 2097408 3072 0 512 10241
+> fight_prog 25~
+mea $n $I catches your weapon in his hands, and pulls hard!
+disarm
+disarm
+~
+> fight_prog 33~
+mea $n _red Alain fetches a handful of hot coals and hurls them at you!
+mer $n _red Alain fetches a handful of hot coals and hurls them at $n!
+mpforce $n scream
+mpdamage $n 100
+~
+> death_prog 100~
+mpe _red The gaunlets leap from the dying smith's hands!
+rem forge
+drop forge
+if rand(50)
+mpe With a last effort, Alain consigns them to his deity.
+sac 'forge gauntlets'
+else
+endif
+~
+> rand_prog 2~
+mpe _red A brilliant red glow suffuses Alain as he clenches his fists.
+~
+> all_greet_prog 100~
+if ispc($n)
+   if rand(45)
+   eye $n
+   say Needing something repaired stranger?
+   else
+   say Looking to purchase some armor stranger?
+   endif
+, lowers the blade and awaits your reply.
+else
+endif
+~
+> give_prog tail xanclaw spectail~
+eye
+say What a disgusting object. What would you possibly...
+hrm
+say Ah yes... you wish for a weapon from its barbed tip, eh?
+if goldamt($n) > 33000000
+say Well it will cost you... but I see you are of means...
+mpe Alain takes the lethal tail away, and strange sounds can be heard.
+mpasound Strange sounds issue from the smithy...
+mpe When he returns, he is bearing a rather strange weapon.
+say Here is the item, it will cost you 33,000,000...
+mpforce $n give 33000000 coins alain
+mpoload 25058 44
+give xanclawweapon $n
+mpjunk coins
+mpjunk spectail
+mpe Alain wipes his hands and shakes his head.
+else
+say Well it will cost you 33,000,000... 
+frown
+say You don't appear that wealthy, friend.
+shake
+give spectail $n
+endif
+~
+|
+#25026
+villager gilchrist~
+a villager of gilchrist~
+A stout, middle-aged villager wearing a dour expression stomps past.
+~
+The citizens of this hamlet seem inordinately depressed; doubtless the
+machinations of the Necromancer are taking their toll on their morale.
+~
+69 512 200 C
+30 0 0 1d1+2000 12d3+14
+5000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 16 2
+> rand_prog 2~
+pout
+~
+> rand_prog 2~
+sigh
+~
+|
+#25027
+villager gilchrist~
+a villager of gilchrist~
+A homely, middle-aged woman wanders the streets, pining for her children.
+~
+The citizens of this hamlet seem inordinately depressed; doubtless the
+machinations of the Necromancer are taking their toll on their morale.
+~
+69 512 200 C
+30 0 0 1d1+2000 12d3+14
+5000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 512 2
+> rand_prog 2~
+if ispc($r)
+say $r, I beg thee! Help find the slayer of our children!
+moan
+endif
+~
+> all_greet_prog 45~
+if ispc($n)
+say $n, I beg thee! Help find the slayer of our children!
+endif
+~
+|
+#25028
+ghoulish minion~
+a ghoulish minion~
+A ghoulish minion cavorts with glee!
+~
+This foul abberation is the damned soul of one who followed the path
+of the Necromancer and received their final 'reward'...
+~
+229 268436008 -666 C
+43 0 -66 200d10+200 4d11+20
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 4096 4096 0
+0 0 263871 514 3072 65 8650755 2
+> rand_prog 2~
+cackle
+drool
+mprestore self 100
+~
+> fight_prog 20~
+mpe _red As one limb is severed, another grows to take its place!
+mprestore self 100
+~
+|
+#25029
+wall flesh~
+a wall of flesh~
+A quivering, twitching wall of flesh bars the passage.
+~
+~
+39 4194984 -500 C
+44 0 -150 50d50+5000 22d2+40
+0 0
+8 8 0
+24 13 13 24 24 3 3
+-5 -5 -5 -5 -5
+67 3 0 0 65536 65536 2
+0 0 32 518 3149072 65 1073741824 0
+> fight_prog 15~
+mpe _red Horrid wails and shrieks issue from the horror!
+mpasound Horrid wals and shrieks echo down the corridor.
+mpdamage all 100
+if rand(50)
+mpe _red To your horror, the wounds on the wall close before your eyes!
+mprestore self 100
+endif
+~
+> fight_prog 30~
+mpe _yel Numerous pseudopods strike out from the wall!
+moan
+punch
+bash
+kick
+gouge
+~
+> fight_prog 22~
+stun
+~
+> all_greet_prog 100~
+if isimmort($n)
+moan
+else
+c gas
+endif
+~
+> death_prog 100~
+mpe _red A gaping hole is hacked through the blubbery wall.
+mpe _red A fleshy passage can be seen through the gore...
+mpopenpassage 25096 25097 0
+mpe _red Fighting back a rising feeling of nausea, you advance...
+~
+> rand_prog 25~
+mprestore self 200
+mpclosepassage 25096 0
+~
+> hitprcnt_prog 2~
+mpe _red A dark chanting can be heard, rising above the wall's death cries.
+if rand(10)
+mea $n _yel A Final burst of energy rushes through the wall, smiting you!
+mer $n _yel A Final burst of energy rushes through the wall, smiting $n!
+mpslay $n
+endif
+~
+|
+#25030
+tus'schepteba witch~
+Tus'schepteba~
+A twisted old crone cackles fearfully as she prepares a new curse.
+~
+Vile, inculcating whore of the Necromancer, this foul aberration is
+despised by all who behold her pustulent, malodorous form. Scars
+criss cross her grinning, cackling visage, which is formed from the
+faces torn from a dozen virgins on their wedding nights. The witch
+revels in her role of servitude to the Necromancer, and is constantly
+seeking new souls to devour in his honor.
+~
+135 8872 -1000 C
+49 0 -200 1d1+12000 4d10+40
+500000 0
+8 8 2
+22 22 22 22 22 2 2
+0 0 0 0 0
+0 9 0 0 65537 1 2
+0 0 264191 3179274 3072 144 1109659651 1052162
+> fight_prog 70~
+wield grasp
+if rand(25)
+mprestore self 66
+endif
+if rand(10)
+mea $n $I rakes at your face with her blackened nails!
+c poison $n
+gouge
+mpdamage $n 400
+else
+if rand(44)
+mpe _gre $I is surrounded by a greenish mist... she wavers, then is gone!
+mpe _gre She reappears an instant later behind $r!
+giggle $r
+poke $r
+snarl
+c 'acetum primus' $r
+mpdamage $r 222
+else
+if rand(33)
+mpe _blu Blinding tendrils of magical energy coruscate through the chamber!
+mpdamage all 200
+ooo
+wink
+else
+spit $r
+c razorbait $r
+endif
+endif
+endif
+~
+> fight_prog 66~
+c 'energy drain' $r
+c 'energy drain' $r
+c 'energy drain' $r
+~
+> act_prog flees~
+giggle
+mprestore self 400
+~
+> rand_prog 3~
+giggle
+mprestore self 400
+if ispc($r)
+wink $r
+mpforce $r puke
+snicker
+endif
+~
+> all_greet_prog 100~
+giggle
+say Adventurers... how charming!
+snicker
+ponder
+say Tell me, $n, before I eat your heart, would you prefer to be
+say slaughtered by knife or claw?
+cackle
+~
+|
+#25031
+skeleton guard~
+a skeleton guard~
+A blackened skeleton guards his master's bastion.
+~
+~
+7 680 -400 C
+44 0 0 10d10+3000 2d8+66
+0 0
+8 8 0
+22 13 13 22 13 1 1
+0 0 0 0 0
+60 3 0 0 65537 1 2
+0 0 0 582 3360 145 515 524291
+> all_greet_prog 100~
+mpe The guard steps forth, and speaks in a tongue long forgotten...
+say Stranger, you umbrage the bastion of my master.
+say Leave now afore he is disturbed by your intrusion...
+cackle
+poke $n
+~
+> rand_prog 2~
+if ispc($r)
+poke $r
+say Leave! Can't you understand a simple request?
+endif
+~
+> fight_prog 33~
+c gas
+~
+> act_prog p pokes you in the ribs.~
+chuckle
+nod
+, looks down, briefly, then back up...
+mea $n The skeleton slams a gauntleted fist into your midriff!
+mer $n The skeleton slams a gauntleted fist into $n's midriff!
+mpdamage $n 200
+snicker
+~
+> bribe_prog 1~
+eye
+say Gold?
+mpe The guard bites the coins to check they are real, then glances about.
+mpoload 25056
+unlock e
+open e
+say Hurry!
+mea $n The guard hustles you through.
+mer $n The guard hustles $n through.
+mpforce $n e
+mpat 0.$n mea 0.$n The gates shut behind you with a resounding clang.
+close e
+lock e
+inno
+mpjunk key
+~
+> rand_prog 20~
+get all
+mpat 25084 drop all
+mpoload 25056
+close e
+lock e
+mprestore self 50
+mpjunk key
+~
+> rand_prog 2~
+yawn
+mutter
+~
+> death_prog 100~
+mpe As the guard perishes, a key slips from his bony grasp...
+mpoload 25056
+~
+> act_prog p bashes against the door, but it holds strong.~
+curse
+say Cut that out!
+slap $n
+mutter
+mpe The guard carefully inspects the door for damage.
+roll
+~
+|
+#25032
+mad cabalist~
+a mad cabalist~
+An insane devotee of the Necromancer awaits the attention of his master.
+~
+This evil human has devoted his life to serving the Necromancer, and
+is part of the Cabal of the Witch, that select organization that carries
+out the Necromancer's bidding on this plane. He is utterly devoid of any
+moral center, and is quite psychotic.
+~
+35 33563272 -666 C
+43 0 0 6d20+3500 4d5+30
+1000 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 328 3072 16 1109656129 524290
+> fight_prog 12~
+c 'necromantic touch'
+grin
+lick
+~
+> hitprcnt_prog 10~
+if rand(10)
+quaff vial
+endif
+~
+|
+#25033
+damned soul~
+a damned soul~
+A damned soul prowls the halls endlessly.
+~
+These pitiable wretches believed the lies of the Necromancer, and sought
+to attain immortality by aceding to his dark wishes. They achieved their
+goal, though hardly in the form they expected.
+~
+225 269058690 -400 C
+42 0 -66 2000d1+2000 5d10+41
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 65536 65536 3
+0 0 0 8708 3074 1 512 2050
+> fight_prog 20~
+mpe _whi The soul shrieks in anticipation of a new life to snuff out!
+shriek
+~
+> greet_prog 100~
+mea $n _whi The soul descends on you with damnable swiftness!
+cackle
+~
+|
+#25034
+xanclaw wyvern~
+Xanclaw~
+A sinuous, snakelike wyrm rises from a pile of treasure.
+~
+This foul wyvern is acutely aware of the fact that he is not equal
+to his draconian cousins, and this has made him a malicious and foul
+tempered brute, even more than the usual wyvern. His tail drips an
+acidic venom that scores the floor where it lands.
+~
+7 524840 -754 C
+47 0 -150 5d5+19995 3d18+40
+275600 0
+8 8 0
+18 13 13 18 13 13 13
+0 0 0 0 0
+31 3 0 0 2049 1 2
+0 0 33916477 96 2304 0 32783 2
+> all_greet_prog 100~
+if isimmort($n)
+else
+snarl
+say Intruders, you dare defile my lair?!?
+mpe _gre The wyvern's tail lashes out, dripping acidic venom!
+mea $r _gre The tail strikes you, causing a burning pain!
+mer $r _gre $r is struck by the tail, and shrieks appropriately.
+mpdamage $r 400
+c poison $r
+c poison $r
+c poison $r
+lick
+endif
+~
+> fight_prog 18~
+mpe _gre The wyvern's tail lashes out, dripping acidic venom!
+mpdamage $r 400
+c poison $r
+c poison $r
+c poison $r
+~
+> fight_prog 33~
+mpe _dch Xanclaw takes to the air, flying to the top of the chamber.
+mpe _dch Turning, he suddenly dives, hurtling at $r!
+mpgoto $i
+murder $r
+cackle
+~
+> death_prog 100~
+mpe _gre Gouts of acid and venom pour from the wyvern as he perishes.
+mpe _gre The room is inundated with the corrosive substances!
+mpdamage $n 400
+mpdamage $r 400
+if rand(33)
+mpe _yel Peering through the mess, you see his tail still remains intact.
+mpoload 25057 44
+endif
+~
+|
+#25035
+scout~
+a scout~
+One of the baron's scouts dashes hurriedly past you.
+~
+Clad in the livery of the baron, concealed by dusty brown cloak and
+armor, this tired fellow has been tirelessly carrying the baron's orders
+around the valley.
+~
+65 98856 400 C
+32 0 0 20d10+1800 3d8+12
+5000 0
+8 8 1
+22 13 13 22 13 13 13
+0 0 0 0 0
+1 6 0 0 1 1 0
+0 0 2047 0 3072 0 64 3
+> fight_prog 33~
+gouge
+disarm
+say I have no time for this foolishness!
+mea $n The scout attempts to finish you off quickly!
+lunge
+lunge
+~
+> rand_prog 2~
+sneak
+hide
+wield scramasax
+wield scramasax
+~
+> rand_prog 5~
+if rand(25)
+mpasound A strange animal cry echoes around the valley.
+endif
+~
+> fight_prog 18~
+wield scramasax
+~
+|
+#25036
+undead marauder~
+an undead marauder~
+A slobbering, drooling undead creature scurries along the path.
+~
+These ghoulish minions of the necromancer wander the valley, protected
+from the sun during the day by the long shadows cast by the hills. They
+feed and slay randomly, their keen senses allowing them to detect hidden
+victims.
+~
+97 544 -600 C
+32 0 0 60d10+600 4d4+8
+1200 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 2 0 0 65537 1 0
+0 0 262184 0 7424 0 262659 2
+> fight_prog 20~
+cackle
+~
+> fight_prog 20~
+drool
+~
+> fight_prog 20~
+snarl
+~
+> greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+, sniffs excitedly at the air, as if it has caught a stench to its liking.
+say Living thinggggsssss..... Feast, brethren, feast!
+mpe The ghoul cackles frightfully!
+mpkill $n
+else
+endif
+endif
+~
+> hitprcnt_prog 20~
+mpe The ghoul shrieks at the pain as your blows rain down on him!
+~
+|
+#25037
+crazed nekrabeast~
+the crazed Nek'rabeast~
+A cackling, fiendish undead hacks the dead and dying into tiny pieces.
+~
+A foul amalgamation of parts of a dozen creatures, this creature is
+the Necromancer's assassin, sent to slay his enemies. It managed to
+infiltrate the manor, and dispose of the kitchen staff and a couple
+of guards. It should have struck for the Baron next; but being of a
+nature that defies any sort of order, it has instead elected to sit
+here for a while, enjoying this sport.
+~
+39 552 -1000 C
+40 0 0 40d40+1400 3d3+21
+0 0
+8 8 0
+22 13 13 22 13 3 3
+0 0 0 0 0
+67 4 0 0 1 1 2
+0 0 204830463 3146304 7430 0 262147 524291
+> fight_prog 30~
+wield butcher
+cackle
+drool
+~
+> fight_prog 20~
+lick
+feed
+mmm
+~
+> fight_prog 10~
+c 'necromantic touch' $n
+mpforce $n scream
+laugh
+~
+> rand_prog 2~
+whistle
+mpe _red Blood flies as $I hacks into a chunk of flesh.
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+cackle
+ooo
+say Fresh meat...
+growl
+murder $n
+endif
+~
+> fight_prog 75~
+close n
+close w
+~
+> rand_prog 75~
+close n
+close w
+~
+|
+#25099
+final mob~
+a newly created final mob~
+Some god abandoned a newly created final mob here.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#25000
+sword tarrant~
+the sword of Tarrant~
+A long slender blade lies on the floor.~
+~
+5 8949056 8193
+0 0 0 3
+4 75000 7500
+E
+sword tarrant~
+Forged from holy metal and infused with blessings of law, this sword
+can cut down powerful undead foes, and has done so numerous times.
+Not a single scratch or dent mars its perfect, shining blade.
+~
+A
+1 1
+A
+2 1
+A
+13 20
+A
+12 20
+A
+18 6
+A
+19 6
+A
+24 -3
+#25001
+ring tarrant~
+Tarrant's signet ring~
+A simple band of silver rolls about on the floor.~
+~
+9 525376 3
+5 0 0 0
+2 5000 500
+E
+tarrant signet ring~
+Worn by those who follow the banner of the House of duChesne, this
+signet was crafted especially for this bold knight, to aid him in his
+battles against the Necromancer.
+~
+A
+2 2
+A
+13 15
+A
+12 15
+A
+18 2
+A
+19 2
+#25002
+tattered cape~
+a tattered cape~
+A scrap of blue cloth has been left here.~
+~
+9 0 1025
+8 0 0 0
+1 0 0
+E
+cape~
+This cape is a simple garment, once possessed of magical qualities that
+have dwindled significantly over the decades.
+~
+A
+4 1
+A
+5 1
+A
+31 1
+#25003
+holy symbol wrath~
+the holy symbol of Wrath~
+A dark symbol of revenge and retribution glows here.~
+~
+1 524610 1
+0 0 -1 0
+10 500 50
+E
+holy symbol wrath~
+Mark of Wrath, deity of vengeance, and carried by those who seek it,
+this is a powerful symbol to those who are sought by those who carry
+it.
+~
+A
+5 1
+A
+12 20
+A
+19 3
+A
+22 -2
+#25004
+knight lance~
+a knight's lance~
+A 10' pole has been rammed into the soft earth.~
+~
+5 0 8193
+0 0 0 2
+20 400 40
+E
+knight lance~
+A long wooden pole, reinforced with metal, used most commonly by knights
+and templars.
+~
+A
+18 2
+A
+19 2
+A
+13 20
+#25005
+chain mail hauberk~
+a chain mail hauberk~
+A chain mail hauberk has been tossed here.~
+~
+9 524288 9
+13 0 0 0
+8 250 25
+E
+hauberk~
+Heavy, practical armor, bearing the marks of a score of melees.
+~
+A
+5 1
+A
+13 20
+A
+17 -10
+A
+19 3
+A
+22 -3
+#25006
+chain mail coif~
+a chain mail coif~
+A chain mail coif lies draped on the floor.~
+~
+9 524288 17
+8 0 0 0
+4 300 30
+E
+chain mail coif~
+Designed to be worn underneath a helmet, this device is often favored
+as head armor in its own right, as it affords more visibility and 
+flexibility of movement than a heavy visored helm.
+~
+A
+4 2
+A
+13 20
+A
+12 20
+#25007
+blue cloak~
+a blue cloak~
+A billowing blue cloak hangs from a tree stump.~
+~
+9 8651840 5
+11 0 0 0
+1 2000 200
+E
+blue cloak~
+A simple garment, woven from magic as well as thread, on a loom blessed
+by the priests of Brontrel.
+~
+A
+1 1
+A
+18 2
+A
+24 -1
+#25008
+kite shield~
+a kite shield~
+A kite shield bearing the crest of duChesne lies here.~
+~
+9 8914240 513
+12 5 0 0
+8 2500 250
+E
+kite shield~
+A magically enchanted piece of armor, this shining shield bears the
+crest of duChesne, as well as various notches and dents, accumulated
+in battle.
+~
+A
+17 -15
+A
+13 10
+A
+31 2
+A
+23 -2
+#25009
+chain mail sleeves~
+chain mail sleeves~
+A pair of metal chain sleeves is here.~
+~
+9 524288 257
+8 0 0 0
+3 500 50
+E
+chain mail sleeves~
+Superbly crafted, as is all duChesne armor, by a master smith, this
+armor combines style with function.
+~
+A
+2 1
+A
+13 5
+A
+17 -12
+A
+19 3
+#25010
+manor gauntlets~
+manor gauntlets~
+A pair of fine chain mesh gauntlets can be seen here.~
+~
+9 524352 129
+4 0 0 0
+1 5000 500
+E
+manor gauntlets~
+These fine gauntlets afford excellent protection to the wearer's hands,
+but are relatively fragile due to the thin weave of chain, which 
+affords increased mobility at the cost of durability.
+~
+A
+1 1
+A
+18 2
+A
+19 3
+#25011
+duchesne tabard~
+a duChesne tabard~
+A white tabard bears the crest of duChesne.~
+~
+9 8389952 1025
+6 0 0 0
+2 1000 100
+E
+tabard duchesne~
+This white garment is stained with blood and dirt, obscuring the crest
+of Duchesne.
+~
+E
+crest~
+A crossed sword and cross, both silver, on a green field.
+~
+A
+3 2
+A
+13 25
+A
+12 25
+A
+20 -3
+#25012
+banner duchesne~
+a banner of duChesne~
+A glowing white banner is impaled in the dirt.~
+~
+1 8389953 1
+0 0 120 0
+1 10000 1000
+E
+banner duchense~
+The banner of house duChesne, this banner bears a motif of crossed
+sword and cross on a verdant field.
+~
+A
+3 1
+A
+4 1
+A
+13 10
+A
+12 10
+A
+21 -2
+#25013
+silver spurs~
+silver spurs~
+A pair of silver spurs gleam brightly.~
+~
+9 8914240 65
+6 0 0 0
+3 24430 2443
+E
+silver spurs~
+Forged of pure silver to ward off undead assaults, the knights use
+these to kick out at the undead they battle.
+~
+A
+2 -1
+A
+12 30
+A
+19 3
+#25014
+chain mail barding~
+chain mail barding~
+Heavy folds of chain sewn to leather lie here.~
+~
+9 524288 1025
+20 0 0 0
+50 1500 150
+E
+chain mail barding~
+Worn by sturdy steeds in battle, this armor is protective but rather
+cumbersome. Only a large humanoid could hope to fashion it into an
+appropriate garment.
+~
+A
+2 -2
+A
+17 -30
+A
+13 30
+A
+14 -125
+> wear_prog 100~
+if race($n) == horse
+else
+if race($n) == half-ogre
+or race($n) == half-troll
+else
+mea $n The armor is far too large for your small frame.
+mpforce $n remove $o
+endif
+endif
+~
+|
+#25015
+rotting corpse~
+a rotting corpse~
+A rotting corpse has been impaled on the spikes lining the fence.~
+~
+15 0 0
+10000 1 -1 0
+1 0 0
+E
+rotting corpse~
+The ghastly visage contorting what is left of this hapless fellow's
+face betrays the horror of the fate he has suffered.
+~
+#25016
+cemetary key~
+cemetary key~
+This iron key unlocks the gate barring passage to the undead.~
+~
+18 524288 1
+0 0 0 0
+2 50 5
+E
+cemetary key~
+A heavy key, designed to unlock the large locks that bar access to the
+dark cemetary of Hillside.
+~
+#25017
+moldering burial garments~
+moldering burial garments~
+A white shroud covered in filth umbrages the ground.~
+~
+9 0 1025
+3 0 0 0
+1 33 3
+#25018
+corroded ceremonial sword~
+a corroded ceremonial sword~
+Already useful only as a symbol, corrosion has further damaged this weapon.~
+~
+5 524304 8193
+4 2 8 3
+1 100 10
+E
+ceremonial sword~
+This badly corroded item was one of many buried with the soldiers and
+guards interred in the cursed cemetary.
+~
+A
+19 -1
+A
+18 -1
+#25019
+defiled altar~
+the defiled altar~
+A wooden altar covered in blood and gore pulses with malevolence.~
+~
+12 2642 0
+0 0 0 0
+1 0 0
+E
+defiled altar~
+Once a focus of worship of light and law, this simple object has been
+defiled by means most foul, and has served as the prop in a multitude
+of diabolical rituals. Covered in the blood of infants, virgins and
+a score of other victims, it is now an utterly evil object. 
+~
+> exa_prog 100~
+if class($n) == thief
+mea $n You think you can make out a small door set beneath the altar...
+endif
+if class($n) == paladin
+mea $n Gazing upon this fouled object causes your lawful soul pain!
+mer $n $n shrieks and averts $s eyes from this unholy visage.
+mpdamage $n 10
+else
+if isgood($n)
+mea $n You feel sick to the core as you behold this unholy visage.
+else
+if isneutral($n)
+mea $n This curious desecration causes you mild discomfort.
+else
+mea $n You grin and relish in this flagrant act of unholy evil.
+mpforce $n grin
+endif
+endif
+endif
+~
+|
+#25020
+skeleton hand~
+a skeletal hand~
+This hand has been torn from a foul member of the undead.~
+~
+13 16 1
+0 0 0 0
+2 0 0
+#25021
+Chalice ~
+a chalice filled with blood.~
+A blood filled chalice rests upon the altar.~
+~
+1 2582 16385
+0 0 -1 0
+1 50000 5000
+E
+chalice blood~
+An object of worship defiled by its usage in these dark ceremonies,
+this chalice has been infused with an unholy presence, bestowing numerous
+eldritch enchantments.
+~
+A
+25 -3
+A
+18 3
+A
+19 3
+A
+12 66
+> get_prog 100~
+if isnpc($n)
+mpforce $n cringe
+mpforce $n drop $o
+else
+mea $n Your arm trembles as you grasp $o
+endif
+~
+|
+#25022
+guttering torch~
+a guttering torch~
+A guttering torch is set in an iron bracket.~
+~
+37 1 0
+0 0 0 0
+1 0 0
+> pull_prog 100~
+mea $n As you yank the switch, a panel opens in the south wall!
+mer $n As $n yanks the switch, a panel opens in the south wall!
+mpopenpassage 25025 25026 2
+~
+> push_prog 100~
+mpe A soft click is heard as the switch is pushed upright.
+mpclosepassage 25025 2
+~
+|
+#25023
+coffin~
+an empty coffin~
+An empty stone coffin rests on the stone plinth.~
+~
+15 0 0
+10000 1 -1 0
+1 0 0
+#25024
+blessed orb light~
+blessed orb of light~
+Some god dropped a newly created blessed orb light here.~
+~
+9 8490305 16385
+11 0 0 0
+1 500000 50000
+E
+blessed orb light~
+A holy item of the priests of Brontrel, this device can be borne by
+any who are of pure heart and good intentions.
+~
+A
+4 1
+A
+25 2
+A
+12 60
+A
+13 10
+A
+18 3
+A
+19 3
+A
+24 -2
+> wear_prog 100~
+if isgood($n)
+mea $n _whi The blessings of Law infuse your being.
+else
+endif
+~
+|
+#25025
+parchment cabal~
+a piece of stained parchment~
+A stained piece of parchment lies curled up on the floor.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+parchment~
+The parchment is covered with runes and glyphs, unintelligable save
+to the most learned of sages or mages. But even then, caution must be
+exercised, for to mispronounce even one rune can lead to death (or much
+worse...)
+~
+> exa_prog 100~
+if class($n) == mage
+   if int($n) > 18
+   mea $n Exercising appropriate care, you are able to translate the runes.
+   mpforce $n say The parchment details an ancient ritual, of Demonology...
+   mpforce $n frown
+   mpforce $n say But I can scarce see what a Necromancer would want with it.
+   mpforce $n say Unless of course the Necromancer IS a demon...
+   mpforce $n ponder
+   mea $n The parchment contains a map, leading to a keep far to the north.
+   mea $n It is marked with the rune of the Cabal...
+   mea $n _yel The parchment also bears a footnote- Hand this to the Dragon...
+   else
+   mea $n _red As you peruse the parchment, you make a critical error!
+   mer $n _red $n convulses as invisible demons rend his spirit!
+   mpslay $n
+   endif
+else
+mea $n The parchment would require a highly intelligent mage to safely read.
+endif
+~
+|
+#25026
+wooden sign signpost~
+a wooden signpost~
+A wooden signpost has been thrust into the earth.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+wooden signpost sign post~
+NORTHEAST- Gilchrist, 1 mile
+           DuChesne Manor, 5 miles
+ 
+WEST- Hillside Cemetary, 2 miles
+~
+#25027
+blackened collar~
+a blackened collar~
+This dark collar has been torn from a tamed animal.~
+~
+9 262676 5
+7 0 0 0
+3 5000 500
+A
+1 1
+A
+5 2
+A
+13 30
+#25028
+scorched chunk flesh~
+a scorched chunk of flesh~
+A scorched chunk of flesh lies in a pool of dried blood.~
+~
+19 0 1
+1 0 0 1
+1 0 0
+#25029
+obsidian knife~
+an obsidian knife~
+This weapon is favored by dark clerics of evil cults.~
+~
+5 16845332 8193
+11 0 0 11
+11 15700 1570
+A
+12 50
+A
+18 4
+A
+19 4
+A
+24 -1
+#25030
+bloodstained ceremonial robes~
+bloodstained ceremonial robes~
+These long black robes are stained with ichor.~
+~
+9 100884 1025
+12 0 0 0
+5 16000 1600
+A
+17 -20
+A
+25 -2
+A
+31 -1
+A
+12 100
+#25031
+vial ichor~
+a vial of ichor~
+This glass vial contains some disgusting substance.~
+~
+10 22 1
+30 36 225 33
+3 5000 500
+#25032
+vial ichor~
+a vial of ichor~
+This glass vial contains some disgusting substance.~
+~
+10 22 1
+30 88 215 33
+3 5000 500
+#25033
+bracers dark~
+dark bracers~
+A pair of black metal bracers lies here.~
+~
+9 541206 257
+11 0 0 0
+12 67000 6700
+A
+1 2
+A
+2 2
+A
+18 2
+A
+19 2
+#25034
+flamberge~
+a black steel flamberge~
+A sword crafted to resemble a flickering flame is thrust into the dirt.~
+~
+5 574036 8193
+0 0 0 3
+12 34000 3400
+A
+5 1
+A
+31 1
+A
+17 -10
+A
+13 25
+A
+18 6
+A
+19 6
+#25035
+circlet dark influence~
+dark influences~
+A black steel circlet scorches the ground beneath it.~
+~
+9 528448 17
+6 0 0 0
+8 4500 450
+A
+2 -1
+A
+4 -2
+A
+3 -1
+> wear_prog 100~
+if ispc($n)
+mea $n A shooting pain grips you as you fall under the influence.
+mpdamage $n 25
+else
+endif
+~
+|
+#25036
+bloody pentagram~
+a bloody pentagram~
+A pentagram has been scribed in warm blood on the floor.~
+~
+12 19 0
+0 0 0 0
+1 0 0
+E
+bloody pentagram~
+Used in summoning rituals, these pentagrams open a rift to other
+dimensions. It would be unwise to enter one...
+~
+#25037
+flaming key~
+a flaming key~
+A key of fire scorches the ground.~
+~
+18 81 1
+0 0 0 0
+1 666 66
+E
+flaming key~
+This key is swathed in a flame that radiates heat but does not ignite...
+~
+> get_prog 100~
+mea $n _red The key burns your hand as you grasp it!
+mpdamage $n 10
+~
+|
+#25038
+mottled flesh ~
+strips of mottled flesh~
+A pile of discolored flesh lies heaped in a corner.~
+~
+9 328208 257
+6 0 0 0
+3 666 66
+E
+mottled flesh~
+This flesh has been torn from the arms of a dying human...
+~
+A
+2 2
+A
+5 2
+A
+13 20
+A
+12 20
+A
+19 3
+A
+25 -3
+A
+23 2
+#25039
+gem sapphire~
+an uncut sapphire~
+An uncut sapphire lies on the ground, reflecting your light.~
+~
+8 0 16385
+0 0 0 0
+1 5000 500
+E
+gem sapphire~
+In the hands of a jeweller, this gem could be fashioned into a handsome
+item of jewellry.
+~
+#25040
+brand~
+a flaming brand~
+A flaming brand has been thrust into an iron bracket.~
+~
+1 262145 1
+0 0 48 0
+1 40 4
+E
+brand~
+This is a simple torch, casting an adequate illumination.
+~
+#25041
+black shield corrosion~
+Corrosion~
+This metal shield is covered in what looks like acid.~
+~
+9 524882 513
+0 0 0 0
+12 575600 57560
+E
+black shield corrosion~
+A dark artifact of ancient forging, this item bestows resistant to
+the effects of acid upon its wearer.
+~
+A
+27 128
+A
+13 50
+A
+12 25
+A
+18 5
+A
+19 5
+A
+23 -3
+#25042
+sign~
+a wooden sign~
+A wooden sign has been thrust into the dirt.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+sign~
+The sign bears a message, written in a hasty scrawl-
+ 
+While the previous sections of this journey were achievable by lower
+levels, the final section should only be attempted by Avatars, for
+only they have the power to defeat the Necromancer. You have been 
+warned!
+ 
+- The Mad Mage
+~
+#25043
+duchesne sword~
+the sword of the House of duChesne~
+A finely forged broadsword two centuries old awaits a new wielder.~
+~
+5 8965187 8193
+18 0 0 3
+1 1000000 100000
+A
+1 1
+A
+2 1
+A
+17 -12
+A
+13 50
+A
+12 50
+A
+18 8
+A
+19 8
+A
+24 -3
+#25044
+baldric~
+a white baldric~
+A simple white baldric lies slung on the ground.~
+~
+9 0 9
+11 0 0 0
+1 5400 540
+#25045
+fire ars magica~
+the fire of ars magica~
+A sparkling fire flickers with the power of arms magica.~
+~
+9 25395265 131073
+11 0 0 0
+1 57000 5700
+E
+fire ars magica~
+This dancing, weaving flame embodies the spirit of magic.
+~
+A
+3 2
+A
+12 50
+A
+24 -3
+A
+27 1048576
+> exa_prog 100~
+if class($n) == mage
+mea $n _blu You revel in this incarnation of the spirit of your art.
+else
+endif
+~
+> wear_prog 100~
+if class($n) == mage
+mea $n _blu Your eyes sparkle as you gaze into the magical flame.
+mer $n _blu $n's eyes sparkle as $e gazes into the magical flame.
+else
+endif
+~
+> remove_prog 100~
+if class($n) == mage
+mea $n _blu Your eyes regain their normal lustre.
+mer $n _blu $n's eyes regain their normal lustre.
+else
+endif
+~
+> sac_prog 100~
+if class($n) == mage
+mea $n _blu Magical power flows through you as you absorb the item.
+c 'restore mana' $n
+c 'restore mana' $n
+c 'restore mana' $n
+else
+endif
+~
+> get_prog 100~
+if class($n) != mage
+mea $n _red The fire scalds your untutored hands!
+mpdamage $n 25
+endif
+~
+|
+#25046
+wand divination~
+a wand of divination~
+A slender birch wand has been dropped here.~
+~
+3 262208 16385
+33 10 5 53
+1 5000 500
+E
+wand divination~
+The runes enscribed upon this wand label it as a wand for determining
+the properties of items in your possession.
+~
+A
+4 2
+> use_prog 100~
+mpe _gre The wand glows briefly as its power is called upon.
+~
+|
+#25047
+staff warding~
+a staff of warding~
+A stout oaken staff shod in metal lies here.~
+~
+4 17530944 16385
+42 4 4 207
+12 76000 7600
+E
+staff warding~
+This device imbues the user with potent defensive capabilities.
+~
+A
+17 -20
+A
+23 -3
+A
+21 -3
+A
+24 -3
+A
+22 -3
+A
+20 -3
+#25048
+bastard sword~
+a bastard sword~
+Five feet of tempered steel is impaled in the dirt.~
+~
+5 573440 8193
+0 0 0 3
+30 25000 2500
+E
+bastard sword~
+This sword, also known as a hand and a half sword, can be wielded in
+one or two hand style, making it a versatile and effective weapon.
+~
+A
+1 2
+A
+13 50
+A
+18 6
+A
+19 6
+#25049
+girdle of vigor~
+a girdle of vigor~
+A studded leather girdle lies unwanted here.~
+~
+9 64 2049
+9 0 0 0
+1 0 0
+E
+girdle vigor~
+This remarkable device imbues the wearer with great strength and
+stamina.
+~
+A
+5 2
+A
+1 2
+> wear_prog 100~
+mea $n _lbl You are filled with strength as you don the girdle.
+mer $n _lbl $n is filled with strength as $e dons the girdle.
+~
+|
+#25050
+gauntlets forge~
+forge gauntlets~
+A pair of sturdy metal gauntlets warms the ground.~
+~
+9 25870400 129
+12 0 0 0
+30 75000 7500
+E
+forge gauntlets~
+These rare dwarven artifacts imbue a smith with great strength, at
+the cost of a loss of a certain degree of accuracy.
+~
+A
+1 3
+A
+18 7
+A
+13 22
+A
+19 4
+A
+27 1
+A
+2 -2
+> wear_prog 100~
+if class($n) == warrior
+mea $n _whi Power courses through your limbs, which feel a little clumsy.
+mer $n _whi Power courses through $n's limbs, which $e moves clumsily about.
+endif
+~
+> remove_prog 100~
+if class($n) == warrior
+mea $n You regain your dexterity as the power ebbs from you.
+endif
+~
+|
+#25051
+salvation~
+Salvation~
+The benediction of the gods grants you salvation...~
+~
+9 3393 131073
+20 0 0 0
+1 60000 6000
+E
+salvation~
+You can barely stand to gaze upon the purity of this blessing.
+~
+A
+25 2
+A
+31 2
+A
+13 40
+A
+12 40
+A
+18 4
+A
+19 4
+> wear_prog 100~
+if isgood($n)
+mea $n _whi A chorus of angels sing as you behold salvation.
+mer $n _whi A chorus of angels sing as $n beholds salvation.
+endif
+~
+> remove_prog 100~
+if isgood($n)
+mea $n _whi The glow dims as you distance yourself from salvation...
+mer $n _whi The glow dims as $n distances $mself from salvation...
+endif
+~
+|
+#25052
+perdition~
+Perdition~
+You gaze into the bleakness of perdition...~
+~
+9 1602 131073
+20 0 0 0
+1 60000 6000
+E
+perdition~
+The endless limbo that awaits those who hover between sinner and saint.
+~
+A
+13 40
+A
+12 40
+A
+18 4
+A
+19 4
+A
+17 -20
+A
+26 16777216
+> wear_prog 100~
+if isneutral($n)
+mea $n _dch You surrender to the bleakness of perdition.
+mer $n _dch $n surrenders to the bleakness of perdition.
+endif
+~
+> remove_prog 100~
+if isneutral($n)
+mea $n _dch You reject the embrace of perdition.
+mer $n _dch $n rejects the embrace of perdition.
+endif
+~
+|
+#25053
+damnation~
+Damnation~
+Before you looms the yawning abyss of eternal damnation...~
+~
+9 2647 131073
+20 0 0 0
+1 60000 6000
+E
+damnation~
+The yawning abyss of damnation courts those of evil persuasion with its
+illicit lures.
+~
+A
+13 40
+A
+12 40
+A
+18 4
+A
+19 4
+A
+20 -3
+A
+26 4
+> wear_prog 100~
+if isevil($n)
+mea $n _red You cackle maniacally as you are damned!
+mer $n _red $n cackles maniacally as $e is damned!
+endif
+~
+> remove_prog 100~
+if isevil($n)
+mea $n _red You postpone damnation for a while...
+mer $n _red $n postpones damnation for a while...
+endif
+~
+|
+#25054
+tus'schepteba grasp~
+the grasp of Tus'scepteba~
+A blackened knife lies in a pile of smoldering flesh.~
+~
+5 16845332 8193
+11 0 0 11
+11 575600 57560
+A
+2 2
+A
+12 125
+A
+18 7
+A
+19 9
+#25055
+portal~
+a dark portal~
+A shimmering black field allows passage to those sufficiently insane.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#25056
+black steel key~
+a black steel key~
+A black key of little worth lies here.~
+~
+18 524288 1
+0 0 0 0
+1 0 0
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#25057
+tail xanclaw spectail~
+the tail of Xanclaw~
+A hideous, barbed wyvern's tail lies here.~
+~
+13 262144 1
+0 0 0 0
+1 0 0
+E
+tail xanclaw~
+This horrid piece of scaled flesh could be fashioned into a cruel
+weapon, by a skilled blacksmith.
+~
+#25058
+xanclawweapon tail xanclaw wyvernstail blade~
+a wyvernstail blade~
+A wyvern tail can make a formidable weapon if correctly fashioned.~
+~
+5 131667 8193
+0 0 0 11
+5 544000 54400
+E
+wyvernstail blade~
+This cruel weapon consists of a long heavy handle, to which the curved
+barb from a wyvern's tail has been grafted, by a mixture of organic
+compounds and magic. The tail twists and turns, animated by sorcery, and
+lashes out at nearby opponents.
+~
+A
+2 2
+A
+13 100
+A
+12 100
+A
+18 11
+A
+19 11
+A
+27 288
+A
+26 8
+> wear_prog 100~
+if isgood($n)
+else
+mea $n _gre The tail lashes out menacingly as you grasp the hilt.
+mer $n _gre The wyvern's tail lashes out menacingly as $n grasps it.
+endif
+~
+> damage_prog 100~
+mea $n _gre Green ichor spews from the damaged weapon!
+mer $n _gre Green ichor spews from $n's damaged weapon!
+mpdamage $r 50
+~
+> repair_prog 100~
+mpe _gre A new layer of skin is grafted over the claw.
+~
+> remove_prog 100~
+if isgood($n)
+else
+mea $n _gre The tail stops thrashing as you let go.
+mer $n _gre The tail stops thrashing as $n lets go.
+endif
+~
+> get_prog 100~
+mea $n _gre The claw thrashes about of its own accord as it senses you.
+mer $n _gre The claw thrashes about of its own accord as it senses $n.
+~
+|
+#25059
+scramasax sax dagger~
+a scramasax~
+A heavy bladed dagger has been dropped here.~
+~
+5 524288 8193
+0 0 0 2
+8 6500 650
+E
+scramasax sax dagger~
+A popular weapon for those who don't want to be encumbered by a heavy
+sword but still wish for a hardy stabbing weapon.
+~
+A
+19 4
+#25060
+brown travel stained cloak~
+a travel stained cloak~
+This dirty cloak has seen more action than a regiment of dragoons.~
+~
+9 262148 1025
+13 0 0 0
+16 600 60
+E
+travel stained cloak~
+This cloak doesn't appear to have been washed in a year or more.
+~
+A
+1 1
+A
+13 40
+A
+18 4
+A
+19 4
+A
+27 2
+#25061
+brew vile cult~
+the vile brew of the cult~
+A vial filled with writhing liquified flesh rests here.~
+~
+10 596 16385
+50 33 33 33
+1 75000 7500
+E
+vile brew ~
+This unspeakable mixture will do the Gods only know what to you.
+~
+A
+25 -3
+#25062
+white statue~
+an armless white statue~
+An armless white statue stands in the middle of the garden.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+statue~
+The statue is very old, a remnant from an ancient civilization, the
+arms and coloration lost to time and the elements.
+~
+#25063
+frock coat~
+a red frock coat~
+A red frock coat awaits a wearer.~
+~
+9 0 9
+6 0 0 0
+1 500 50
+E
+red frock coat~
+This is an expensive dress coat, worn by a lesser nobleman, or perhaps
+his retainers.
+~
+A
+13 10
+A
+12 10
+A
+18 3
+A
+19 2
+#25064
+powdered wig~
+a powdered wig~
+A powdered wig spills white powder on the ground.~
+~
+9 0 17
+4 0 0 0
+1 500 50
+E
+wig~
+This wig is worn by courtiers and people of gentle birth.
+~
+A
+12 60
+A
+3 2
+#25065
+rotting heart necromancer~
+the rotting heart of the Necromancer~
+A blackened heart spews foul blood onto the ground.~
+~
+19 262144 1
+1 0 0 1
+1 0 0
+E
+rotting heart~
+This foul organ is proof positive that the Necromancer is dead... for now.
+~
+#25066
+medal glory~
+the medal of glory~
+A shining gold medal gleams brightly.~
+~
+9 8916032 5
+13 0 0 0
+8 500000 50000
+E
+medal glory~
+This medal bears the Imperial coat of arms on one side, and the visage
+of Emperor Maximillian on the reverse. Heroes of the Empire are granted
+this medal for exceptional services to the realm.
+~
+A
+13 50
+A
+12 50
+A
+18 3
+A
+19 3
+A
+20 -2
+> wear_prog 100~
+if isgood($n)
+mea $n _whi You swell with pride as you wear this symbol of your bravery.
+mer $n _whi $n swells with pride as $e dons a symbol of $s bravery.
+endif
+~
+> remove_prog 100~
+if isgood($n)
+mea $n _whi You reluctantly remove the medal granted you for your heroism.
+mer $n _whi $n reluctantly removes the medal granted $m for $s heroism.
+endif
+~
+> drop_prog 100~
+mea $n _whi Shocked by your rejection of it, the medal changes color!
+mea $n You are suddenly overcome by an urge to destroy this item...
+mer $n _red $n snarls in range and smashes the medal!
+mpforce $n sac $o
+~
+|
+#25067
+butcher knife~
+butcher knife~
+Blood drips from this deadly sharp blade.~
+~
+5 524816 8193
+0 0 0 1
+5 5000 500
+E
+butcher knife~
+The blood of dozens of innocents have stained this blade.
+~
+A
+18 4
+A
+19 6
+> wear_prog 100~
+if isgood($n)
+else
+mpforce $n cackle
+endif
+~
+|
+#25099
+final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#25000
+Darkness Falls~
+The narrow path is composed of crumbling flagstones, partially overgrown
+with decayed weeds where it borders the rolling fields to either side.
+Running southwards, it descends down the gentle side of a small tor, at
+the base of which rests the village of Gilchrist. To the east, winking
+lights mark Heddick's Bluff, and the manor of the Baron DuChesne. To the
+west the ominous outline of the Hillside Cemetary umbrages the horizon,
+its ugly protrustion casting a shadow over the valley. Although the visage
+is peaceful and quiet, it is a little too quiet... no birds chirp in the
+gnarled trees, no animals scamper through the grass, which is stained an
+unpleasant brown. Light from sun and moon is obscured by heavy overhanging
+clouds, tinged with an angry purplish shade. The air is still, and humid,
+as before a thunderstorm. The pervading aura of gloom would appear to
+lend credence to the purported curses laid upon this place by agents of
+the dark power known only as the Necromancer.
+~
+0 4 4
+D0
+The path continues down the hill towards Gilchrist.
+~
+~
+0 -1 25001
+S
+#25001
+A Quiet Journey~
+The path continues, wending its way ribbonlike down the slope of the
+grassy hill. Trees of various types have burst sporadically through
+the soil to either side over the centuries, making the sloping terrain
+resemble a patchwork quilty of green and brown shades. Twisted, gnarled
+things, they loom menacingly like the footsoldiers of some army of flora.
+The cobblestones shift underfoot occasionally, evidence of insufficient
+maintenence.
+~
+0 0 4
+D0
+The path continues down the hill towards Gilchrist.
+~
+~
+0 -1 25002
+D2
+The path ascends a gentle slope, heading towards the summit of a small hill.
+~
+~
+0 -1 25000
+S
+#25002
+The Valley Floor~
+After several hundred yards the path flattens out as it reaches the
+valley floor, which houses Gilchrist, nestled between the surrounding
+hills, ostensibly secure in their protective earthen embrace. The 
+hills to either side bear the other noteworthy landmarks of the valley,
+and to the north a junction marks the point where disparate roads rise
+to meet these destinations.
+~
+0 0 2
+D0
+The path branches to the north, heading in several directions.
+~
+~
+0 -1 25003
+D2
+The path ascends a gentle slope, heading towards the summit of a small hill.
+~
+~
+0 -1 25001
+S
+#25003
+A Meeting of Paths~
+At this point the valley path is met by another trail, running west
+towards the base of the forbidding hill that houses Hillside cemetary,
+the cursed resting place of the restless dead. Since the coming of the
+Witch and her curse, none have dared venture any nearer this former 
+site of rememberence and respect. Agents of the Necromancer abound in
+these lands, it would seem. The trees near here shift slightly, as if
+troubled by a breeze, though the air remains quite still. A chill tinges
+the air, enough to warrant an extra cloak, and the faint stench of death
+drifts ever so slightly from the west.
+~
+0 0 2
+D2
+The path ascends a gentle slope, heading towards the summit of a small hill
+~
+~
+0 -1 25002
+D3
+West leads towards the base of Hillside Cemetary.
+~
+~
+0 -1 25004
+D6
+~
+~
+0 -1 25051
+S
+#25004
+Approaching Hillside~
+Precariously perched atop one of the many hills that surround the
+valley, Hillside cemetary could not have been more appropriately
+named. The blackened metal gates are visible at the end of this
+long and winding path that winds up the side of the hill, towards
+the entrance to the haunted graveyard. Lightning flashes along the
+horizon, heralding the approach of a thunderstorm.
+~
+0 0 2
+D1
+A meeting of paths
+~
+~
+0 -1 25003
+D7
+The path approaches Rannu's Tor.
+~
+~
+0 -1 25005
+S
+#25005
+The Base of the Hill~
+Hillside cemetary has been in place for so long that the locals have
+not really used the name of the hill upon which it rests for decades.
+Known as Rannu's Tor, it is the tallest hill in the region, and the
+effort required to carve the path into its side that begins here was
+extensive. Rannu was a hero born in this region, who rose centuries 
+ago to cast down the dread tyrant Xarad-Bar'qh, slaying him and his
+many minions before perishing himself at the hands of the tyrant's
+concubines. However, that is ancient history to those of Gilchrist, 
+who simply refer to the hill as Hillside, when they rarely broach the
+subject of the cursed graveyard.
+~
+0 0 4
+D4
+Upwards lies the summit.
+~
+~
+0 -1 25006
+D8
+The path heads away from Rannu's Tor
+~
+~
+0 -1 25004
+S
+#25006
+The Top of Rannu's Tor~
+After a long, exhausting ascent, the path levels out and heads west
+towards the gloomy gates of Hillside. Bleached bones lie scattered to
+either side, ample evidence of evil activities both within and without
+the cemetary. Those who have been sent here by the Baron or the towns
+folk to lay the evil presence to rest have never returned...
+~
+0 0 4
+D3
+The gloomy gates of the cemetary loom menacingly.
+~
+~
+0 -1 25007
+D5
+The path heads away from Rannu's Tor
+~
+~
+0 -1 25005
+S
+#25007
+Hillside Cemetary~
+The blackened metal gates bar the single entrance to this resting place
+of the ancestors of those who live in the valley. The metal is twisted
+and scarred, as if by red hot hands grasping and rending at them. The
+air here is putrescent, reeking of rotting flesh and decaying organs.
+Numerous body parts have been thrust onto the metal spikes that line the
+ornate game, partially obscuring the name- HILLSIDE CEMETARY.
+~
+0 4 1
+D1
+East leads away from the cemetary, back down the hill.
+~
+~
+0 -1 25006
+D3
+~
+gate~
+1031 -1 25009
+S
+#25008
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153989 1
+D2
+~
+~
+0 -1 25009
+D3
+~
+~
+0 -1 25011
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25009
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153989 1
+D0
+~
+~
+0 -1 25008
+D1
+~
+gate~
+1031 -1 25007
+D2
+~
+~
+0 -1 25010
+D3
+~
+~
+0 -1 25012
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25010
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25009
+D3
+~
+~
+0 -1 25013
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25011
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D1
+~
+~
+0 -1 25008
+D2
+~
+~
+0 -1 25012
+D3
+~
+~
+0 -1 25014
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25012
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25011
+D1
+~
+~
+0 -1 25009
+D2
+~
+~
+0 -1 25013
+D3
+~
+~
+0 -1 25015
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25013
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25012
+D1
+~
+~
+0 -1 25010
+D3
+~
+~
+0 -1 25016
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25014
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+ 
+The barred door of the chapel lie to the north. A keening wail can be
+heard from behind them.
+~
+0 3153985 1
+D0
+~
+~
+7 -1 25020
+D1
+~
+~
+0 -1 25011
+D2
+~
+~
+0 -1 25015
+D3
+~
+~
+0 -1 25017
+> entry_prog 100~
+if isnpc($n)
+mpe The undead lurches away from the chapel, its attention distracted.
+   if rand(25)
+   mpforce $n e
+   else
+   if rand(33)
+   mpforce $n s
+   else
+   mpforce $n w
+   endif
+   endif
+else
+mea $n A chill passes over you as you near the defiled chapel.
+endif
+~
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25015
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25014
+D1
+~
+~
+0 -1 25012
+D2
+~
+~
+0 -1 25016
+D3
+~
+~
+0 -1 25018
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25016
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25015
+D1
+~
+~
+0 -1 25013
+D3
+~
+~
+0 -1 25019
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25017
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D1
+~
+~
+0 -1 25014
+D2
+~
+~
+0 -1 25018
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25018
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25017
+D1
+~
+~
+0 -1 25015
+D2
+~
+~
+0 -1 25019
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25019
+The Desecrated Graveyard~
+Twisted, blackened tombstones tear through the tainted soil like the
+granite teeth of some gargantuan subterranean beast, gnashing and
+grinding at the mangled corpses that stagger from beneath them, all
+abandoning their resting places, eager to walk upon the surface once
+more. Filled with a dark malevolence, they stagger among the gaping
+graves, eager to drink their fill of the blood of innocents.
+~
+0 3153985 1
+D0
+~
+~
+0 -1 25018
+D1
+~
+~
+0 -1 25016
+> rand_prog 66~
+mpe Ghastly howls and shrieks echo amongst the tumbled tombstones.
+if ispc($r)
+   if rand(25)
+   mea $r A ghostly hand brushes against your face.
+   else
+   if rand(33)
+   mea $r A cackling skull flies straight at you, then suddenly disappears.
+   else
+   if rand(25)
+   mea $r A rotting hand bursts through the soil and clutches at your leg!
+   else
+   endif
+   endif
+   endif
+else
+mpasound From nearby, the sound of hands digging through soil can be heard.
+endif
+~
+|
+S
+#25020
+The Unholy Sanctuary of the Desecrated Chapel~
+The darkened interior of the chapel reeks of death and decay, and is
+filled with an almost overwhelming evil presence that even the most
+ignorant could not help but detect. Stains cover the walls, of various
+substances, mostly unmentionable. The shattered windows admit driving
+rain, a sign that the storm you sighted earlier has finally struck.
+The floor is slick with water, and something else... fresh blood?
+~
+0 3153993 0
+D0
+The aisle between the pews is a scene of carnage.
+~
+~
+0 -1 25021
+D2
+~
+~
+7 -1 25014
+> rand_prog 100~
+mpe Heavy hands beat at the oaken portals, as the undead struggle to enter.
+if rand(25)
+mpe A dread moaning sound echoes through the chapel.
+mpasound A dread moaning sound echoes through the chapel.
+else
+endif
+~
+|
+S
+#25021
+The Umbraged Chapel~
+A foulness fills the air of the chapel, a certain malevolence not easily
+quantifiable. It is more than the corpses lying amongst the pews, more
+than the bloodstains covering the walls, more than the mutilated bodies
+hanging from the scorched rafters, depositing the occasional piece of
+burnt flesh. It is a presence, as of some dark force that was defiling 
+soul as well as body and mind. Shattered remnants of various religious
+objects tell the tale of the sorry fate suffered by the worshippers who
+were caught here when the evil arrived, doubtlessly minions of the fell
+Necromancer. Without a doubt, the rumors of his machinations are proved
+by what has transpired within this chapel.
+~
+0 3153993 0
+D0
+The fouled altar of this unholy place lies here.
+~
+~
+0 -1 25024
+D1
+The evil continues...
+~
+~
+0 -1 25023
+D2
+The stout doors of the chapel are all that stand between you and the dead.
+~
+~
+0 -1 25020
+D3
+The evil continues...
+~
+~
+0 -1 25022
+> rand_prog 50~
+mpe _red Fresh blood pours down the stained walls, coalescing in large pools.
+~
+> entry_prog 100~
+if isnpc($n)
+else
+if class($n) == paladin
+mea $n _red Revulsion grips your pure soul as you behold the desecration.
+else
+if isgood($n)
+mea $n You are sickened by this wanton display of all that is unholy.
+mpforce $n say I vow to destroy this evil!
+mpe A dread cackling accompanies $n's threat...
+else
+if isneutral($n)
+mea $n You frown as you behold this excess of evil, that threatens the balance.
+else
+mea $n _red Visions of death and destruction cloud your ecstatic mind!
+mpforce $n cackle
+endif
+endif
+endif
+endif
+~
+> rand_prog 33~
+mpe _red A scorched bit of flesh falls from the bodies suspended above.
+mpoload 25028
+drop scorched
+~
+|
+S
+#25022
+The Umbraged Chapel~
+Dark stains, marking the point where wounded victims attempted to
+scale the walls to clamber out the broken stained glass windows,
+cover the once-white walls, a grim reminder of the unpleasant fate
+suffered by those whose bodies litter the chapel. A thick stench 
+causes constant discomfort, although it is not as bad here as in the
+central worship area. Scrawlings and scribblings cover the walls here
+scribed in blood by some deranged man.
+~
+0 3153929 0
+D1
+The center of the chapel is littered with corpses.
+~
+~
+0 -1 25021
+E
+scrawlings scribblings~
+They read, variously-
+ 
+BEWARE THE WITCH!
+THE NECROMANCER COMETH!
+ONLY THE HAND OF THE DEAD CAN OPEN THE CRYPT!
+~
+S
+#25023
+The Umbraged Chapel~
+The bulk of this wing of the chapel has been filled with bodies, piled
+high for some unfathomable purpose. Most of them are in various stages
+of decay, and show signs of having been at least partially devoured
+over the last few weeks, as if some beast pauses to nibble every now
+and again on the protruding pieces of flesh. Faces agape in visages of
+pure terror, these unfortunates have been damned, their souls taken
+as easily as their bodies.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 25021
+S
+#25024
+Diabolic Sanctum~
+The end of the chapel bears the most sickening sight of all- an altar,
+formerly devoted to law and goodness, now corrupted to serve as a
+tool in the worship of dark powers. Surely those of an evil persuasion
+would revel in such a flagrant defilement of this icon of benevolence.
+Blood covers the altar, as well as the walls, and the staked corpses
+affixed to the wall gaze down at the altar in sheer horror; at least
+as best they can- their eyes have exploded in their heads, one of the
+many fates they suffered as they perished, horribly, at this altar.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25021
+D10
+~
+altar~
+134155 -1 25025
+> rand_prog 66~
+mpe _red The shrieks of a thousand condemned souls cry out from the altar.
+~
+> rand_prog 25~
+mpe _red The altar pulsates in anticipation of more souls to devour.
+~
+|
+S
+#25025
+The Subterranean Catacombs~
+A low-ceilinged tunnel lies here, running beneath the chapel, undoubtedly
+to various tombs and storage rooms. Most churches of this region bear
+similar underground tombs; indeed, many of the saints are interred beneath
+the altars of churches and cathedrals. Past nobility and others of means
+would have been buried in specially constructed crypts, spaced along the
+twisting tunnels that honeycomb through the hill. The air here is foul, as
+would be expected, though there is more than the stale stench of such tombs.
+Something evil.
+~
+0 3153928 0
+D0
+Darkness beckons...
+~
+~
+0 -1 25038
+D4
+~
+trapdoor~
+1027 -1 25024
+> rand_prog 25~
+mpclosepassage 25025 2
+~
+|
+S
+#25026
+The Hidden Crypt~
+A narrow, dusty crawlspace runs behind the false wall, heading into
+the darkness, presumably towards the final resting place of someone
+of import. Why the tomb has been concealed thusly thus far remains
+a mystery. Cobwebs fill the shadowed ceiling, of which very little 
+can be seen. Several pairs of footprints in the thick dust covering
+the floor indicates someone has been here recently...
+~
+0 3153929 0 0 0 3
+D0
+~
+wall~
+3 -1 25025
+D1
+It is too dark to anything!
+~
+~
+0 -1 25027
+S
+#25027
+The Hidden Crypt~
+The passage ends here, at the top of a narrow stair that descends 
+into the darkness, out of the range of any light source. A chill
+fills the air, accompanied by occasional gusts of wind from somewhere
+far below. Moans are carried on this unnatural breeze, moans of sheer
+anguish and despair.
+~
+0 3153929 0 0 0 3
+D3
+It is too dark to anything!
+~
+~
+0 -1 25026
+D5
+It is too dark to anything!
+~
+~
+0 -1 25028
+S
+#25028
+The Resting Place of Lord Tarrant~
+The stairs end some thirty feet down in a cavernous chamber, the walls
+of which are lined with unlit torches thrust into metal sconces, set 
+at regular intervals around the perimeter. In between each sconce hangs
+a portrait, of knights of ages past. Above each portrait hangs a coat 
+of arms of that knight's house, a mark of respect to the knight and to
+his house. Piles of corroded weapons lie atop moldering clothing below
+each picture; the remains of the knight's battle garb, worn so bravely
+in life and now left to rot in death. Of their bodies, though, there is
+no sign. Only a single coffin can be seen in the room, placed in the 
+center of the chamber, atop a stone plinth. It is from this coffin that
+the breeze, and the sounds it carries, appears to emanate...
+~
+0 3153929 0
+D4
+It is too dark to anything!
+~
+~
+0 -1 25027
+S
+#25029
+The Demonic Chantry~
+Long stone passages beckon, rife with the evil infestation that has
+cast such a pall over the valley. Surely one need look no further for
+ample evidence of the Necromancer's black hand reaching out over this
+region. His minions abound, pursuing their insane, nihilistic plans
+to thrust the world into eternal darkness. Howls and screams, expected
+in this fell domain, echo down the greasy stone halls.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25031
+D2
+~
+~
+0 -1 25046
+D3
+~
+~
+7 -1 25030
+S
+#25030
+A Dark Study~
+At one stage a quiet research area used by the priests, this chamber
+has been usurped and converted to a not dissimilar function, though
+the texts now researched here would cause the eyes of a priest to
+explode in their sockets, followed closely by their brains. Dark tomes
+of ancient origin line a wooden shelf set in the west wall; a reddish
+glow suffuses them, indicating the presence of a magical forcefield,
+to deter unwanted perusal- as if the very fact that reading most of 
+these tomes leads to agonizing death was not enough.
+~
+0 3153929 0
+D1
+~
+~
+7 -1 25029
+S
+#25031
+The Demonic Chantry~
+In ages past, these narrow passages served as access for the priests
+to bless the resting places of the dead, but now these dead have risen
+and the priests have all been slain. Evil reigns supreme here, seeming
+to envelop all in an almost-quantifiable grasp. Cold hands clutch at
+those who pass, as if the disturbed souls of the restless dead seek
+to exact their vengeance at this final insult.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25032
+D1
+~
+~
+0 -1 25034
+D2
+~
+~
+0 -1 25029
+S
+#25032
+The Demonic Chantry~
+A gaping pit lies here, beyond a pentagram where unholy ceremonies 
+have created a gateway to the inhospitable plane of the hellish ones
+who rule this dark cabal. It would be sheer folly to pass into such a
+place, where chaos reigns supreme. Strange noises come from the pit,
+as of a beast in tremendous pain. Trails of blood run from the dark
+pentacle into the pit, accompanied by a slurping sound, as if this 
+ichor were sustaining something...
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25031
+D5
+Some unknown horror awaits the next sacrifice...
+~
+pit~
+128 -1 25033
+D10
+Certain death.
+~
+pentagram~
+133120 -1 25050
+S
+#25033
+The Pit~
+The soft earthen floor conceals the half-buried remains of a score
+or more of victims of the cabal, hurled down here during the unholy
+rituals to their dark masters. The air is cold, and damp, and carries
+the familiar putrescent odor common to most of this place. Something
+foul lives here, something no mortal was meant to ever see...
+~
+0 3153929 13
+D4
+~
+~
+128 -1 25032
+S
+#25034
+The Demonic Chantry~
+Twisting corridors, lined with vacant spaces where once lay the corpses
+of the fallen, wind through the hill beneath the chapel, spreading out
+in all directions. These excavations took centuries to complete, and
+yet were taken over by the agents of the Necromancer in a mere matter 
+of hours. What became of those interred here is unclear, though there is
+the grim possibility that many of them now roam the catacombs as the 
+foul ghouls.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 25035
+D3
+~
+~
+0 -1 25031
+S
+#25035
+The Demonic Chantry~
+The passage ends here, in a dead end that boasts but a single stone
+door, set in the eastern wall and heavily decorated with murals of
+scenes common to the afterlife. A series of dark glyphs have been
+superimposed on this mural, doubtless marks of the cabal, signifying
+that who (or what) lies beyond this door is of some importance...
+~
+0 3153929 0
+D0
+~
+~
+0 -1 25034
+D1
+~
+~
+1027 -1 25036
+S
+#25036
+A Dark Sanctuary~
+Once a tomb of an ancient knight, the contents of this chamber have
+been cast out, and replaced with a long desk, laden with piles of
+parchment covered in black runes and sigils. A dull humming sound
+arises from them, accompanied by the occasional low moan. The air is
+thick with the stench of brimstone, and the blood that forms the
+pentagram on the floor seethes and bubbles, as if it were boiling.
+The naked corpse of an unfortunate villager lies drained of blood
+in one corner. This is obviously the chambers of the cabal's leader.
+But where is the Witch? Or her master, the Necromancer? 
+~
+0 3153929 0
+D3
+~
+~
+1027 -1 25035
+D5
+~
+trapdoor~
+8389671 25037 25037
+D10
+~
+pentagram~
+133120 -1 25050
+S
+#25037
+Sepulchure~
+This small chamber lies nestled beneath the looted tomb, apparently
+the quarters of someone of equal importance but differing needs. No
+furniture can be seen, save for a single board, to which several 
+small animals have been nailed, as part of some dark ritual of augury.
+Whoever resides here had little in the way of material possessions, or
+had little need for such trappings.
+~
+0 3153929 0
+D4
+~
+trapdoor~
+8389671 25037 25036
+> entry_prog 100~
+mea $n As you enter, a hideous crone shimmers into view.
+mpmload 25005
+mpforce clone1 say So, you have managed to find my little lair...
+mpforce clone1 chuckle
+mpforce clone1 emote shrugs and waves a clawed hand casually.
+mpforce clone1 say It matters not. Soon the Necromancer will come,
+mpforce clone1 say and then it will be far too late...
+mpforce clone1 say Now if you'll excuse me, I have a meeting to attend...
+mpforce clone1 cackle
+mpe The witch disappears in a cloud of dark energy!
+mppurge clone1
+~
+|
+S
+#25038
+Approaching the Catacombs~
+The passage changes here, from uniform stone to rough hewn earth,
+bearing marks of recent excavation. The passage once continued north,
+but has been filled with rubble, necessitating a detour through the
+new tunnels to the east. A foul smell rises from this direction, as
+the air is tainted with decay.
+~
+0 3153933 0
+D1
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25039
+D2
+A guttering torch casts a dim light.
+~
+~
+0 -1 25025
+> rand_prog 100~
+if ispc($r)
+mea $r _yel Unseen hands shove you forwards into the tunnels!
+mpforce $r east
+else
+endif
+~
+|
+S
+#25039
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D0
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25040
+D1
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25042
+D2
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25041
+D3
+A dim glow can be made out.
+~
+~
+0 -1 25038
+S
+#25040
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D2
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25039
+S
+#25041
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D0
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25039
+S
+#25042
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D0
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25045
+D1
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25044
+D2
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25043
+D3
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25039
+S
+#25043
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D0
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25042
+S
+#25044
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+ 
+A small hole can be seen in the floor.
+~
+0 3154057 13
+D3
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25042
+D5
+This hole leads down to a fouled lair.
+~
+Hole~
+2048 -1 25047
+E
+hole~
+This hole leads down to a fouled lair.
+~
+S
+#25045
+To the Death...~
+Cramped, narrow passages abound, filled with nameless dread, invoked by
+the foul stench of cadaverous feasts. Blood umbrages every surface, mingled
+with torn scraps of clothing and whitened bones. Deep gouges scour the
+walls, as if it were torn in anger and rage by some senseless beast.
+~
+0 3154057 13
+D2
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25042
+D7
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25046
+S
+#25046
+Exiting the Catacombs~
+The tunnel here becomes more even, the walls and ceiling more uniform,
+constructed of fitted stones instead of soft earth. The air still
+carries the now-familiar stench of death and decay, but here it is
+tainted with something else, a darker scent, of ancient evils awakened
+and brought to this realm. The walls are greasy, slick with a dark
+substance that looks suspiciously like the ichor of some unholy beast.
+~
+0 3153933 0
+D0
+~
+~
+0 -1 25029
+D8
+The passage is shrouded in inpenetrable darkness.
+~
+~
+0 -1 25045
+> entry_prog 100~
+mea $n _yel Rough hands claw at you from the darkness!
+mpdamage $n 25
+~
+|
+S
+#25047
+A Hidden Lair~
+This fouled hole, partially filled with broken bones and rubble, is 
+heavy with the stench of death and decay. Putrescent chunks of flesh
+lie half-devoured over the floor, amidst bloodstains and puddles of
+other substances. Despite the filth, the lair may hold something of
+interest, for it is here that the ghouls store their booty...
+~
+0 3145869 13
+D4
+~
+~
+0 -1 25044
+S
+#25048
+Floating in a void~
+~
+0 4 1
+S
+#25049
+Floating in a void~
+~
+0 4 1
+S
+#25050
+A Raging Inferno~
+The first thing you see as you rashly pass through the gateway is a
+vast plain, of red soil, which appears to be on fire... As you pause to
+consider how dirt could possibly burn, your attention is diverted by a
+roar, and a wave of heat as a monstrous wall of flame engulfs you,
+reducing to to a charred stain in seconds.
+~
+0 3155983 0
+S
+#25051
+The Eastern Path~
+The road travels eastward, heading directly for the base of the bluff
+that harbors the residence of the Baron. The twinkling lights of the
+village of Gilchrist are visible to the northeast, past a row of low,
+sloping hillcocks that the path ribbons through. The air is still,
+and bereft of the animal noises one who travels such roads is normally
+accustomed to.
+~
+0 0 2
+D1
+The path winds through the low hills.
+~
+~
+0 -1 25052
+D9
+Several paths converge here.
+~
+~
+0 -1 25003
+S
+#25052
+Another Junction~
+Here the road to the east is met by a broad trail that leads north
+to the outskirts of Gilchrist, barely visible from here. Horse sign
+marks the trail here, gouging the soft earth that lies to either side
+of the flagstones, indication of large forces of mounted knights that
+have moved through the area. In fact, the distant approach of a rider
+can be detected, his steed's hooves clattering on the stone.
+~
+0 0 2
+D0
+The path heads towards Gilchrist.
+~
+~
+0 -1 25065
+D1
+The path winds through the low hills.
+~
+~
+0 -1 25053
+D3
+The path winds through the low hills.
+~
+~
+0 -1 25051
+S
+#25053
+Approaching the Manor~
+The path rises sharply to the east here, ascending sharply to the
+summit of the bluff, where the manor of Baron DuChesne looks out 
+over the valley his family is sworn to rule and defend. A dark
+pall hangs in the air, and the sense of being watched by some foul
+presence is strong. The palpable stench of death is strong in the
+air, as is the odor of fresh blood.
+~
+0 0 2
+D3
+~
+~
+0 -1 25052
+D4
+~
+~
+16777216 -1 25054
+S
+#25054
+The Bluff~
+From this vantage, one has a clear view of the valley and its surrounds,
+including the twinkling lights of Gilchrist to the northwest. It is the
+village that the Baron holds dear, and is sworn to defend. His current
+inability to do so pains him; perhaps he would be grateful to those who
+would purge the valley of the menace of the Necromancer... very grateful?
+The imposing manor of the baron lies east of here, set back from here.
+~
+0 4 1
+D1
+Approaching the manor.
+~
+~
+0 -1 25055
+D5
+The bottom of the cliff.
+~
+~
+0 -1 25053
+S
+#25055
+A Narrow Path~
+This path has been trampled by horse hooves and booted feet, flattened
+so as to be even and unmarked by potholes, though a recent rain has
+left grooves along the side where the water ran off. Once lush trees
+to the sides of the road appear sickly and frail; some of this could
+be blamed on the season and climate, but there's more to it than that;
+the evil of the Necromancer has tainted this land, perhaps irrevocably.
+~
+0 0 1
+D3
+The bluff.
+~
+~
+0 -1 25054
+D6
+Approaching the manor.
+~
+~
+0 -1 25056
+S
+#25056
+Approaching the Manor~
+The red stone structure that houses the Baron and his house lies to
+the north, a few dozen yards along the trampled path. At this point,
+the front of the house is visible; glass windows looking out from the
+facing over a neatly tended garden, through which the path runs. A
+cart without horses, for the Baron, stands near the entrance, as does
+a white stone statue, sans arms, which stands in the middle of the
+garden. The house is quite stately, and well kept despite these dark
+times.
+~
+0 0 1
+D0
+The doors of the manor.
+~
+~
+0 -1 25057
+D9
+A trampled path.
+~
+~
+0 -1 25055
+S
+#25057
+Before the Manor~
+The path approaches three steps that rise to a pair of wooden doors,
+with brass handles and knockers, which are the only entrance to the
+manor. No guards stand outside, although you do not doubt that you
+are under observation from some vantage point. Within the manor you
+will undoubtedly be able to find the baron, and perhaps find out if
+he is in need of your help (perhaps a reward is in the works).
+~
+0 0 1
+D0
+Two wooden doors open onto the manor.
+~
+~
+3 -1 25058
+D2
+Departing the manor.
+~
+~
+0 -1 25056
+S
+#25058
+A Reception Hall~
+The doors open onto a marble hall, covered with a thick red rug, and
+flanked by white marble statues, of the nymphs of ancient legend, each
+representing one of the seven virtures, and the seven sins, in order.
+Between the statues hang oil paintings, mostly landscapes but also some
+portraits of ancestors of the Baron and his House. Long banners flank
+the door, bearing the Baron's Coat of Arms, and of course the Imperial
+Coat of Arms, seen throughout all Imperial holdings.
+~
+0 8 0
+D0
+The end of the hall.
+~
+~
+0 -1 25064
+D1
+~
+~
+3 -1 25060
+D2
+~
+~
+3 -1 25057
+D3
+The library.
+~
+~
+3 -1 25059
+S
+#25059
+The Manor Libary~
+You pass into a comfortable library, where the Baron stores the bulk of
+his beloved books. Surrounding you are shelves stacked with heavy tomes
+dealing with all manner of subjects. Works on Law, Art and Government 
+line some shelves, while treatises on Witchcraft, the Occult and even
+Demonology fill the shelf nearest the chair the Baron sits in when he
+is reading. Apparently he has been researching his enemy exhaustively, 
+in an attempt to find a way to defeat him. A roaring blaze in the fire
+place warms the room, while the thick carpet underfoot eases your tired
+feet.
+~
+0 8 0
+D1
+The entrance hall.
+~
+~
+3 -1 25058
+S
+#25060
+The Dining Hall~
+This chamber is dominated by a massive table that could seat thirty,
+which is, like the rest of the furniture in this room, covered with 
+white cloth. The Baron has had little cause to celebrate since the
+darkness that has claimed the land (and took his family), and thus
+it has remained unused for months. Crystal chandeliers hang from the
+rafters, and could illuminate the chamber for hours, though the task
+of lighting them would take hours. A door to the north leads to the
+kitchens.
+~
+0 8 0
+D0
+A door to the kitchens.
+~
+~
+3 -1 25061
+D3
+The reception hall.
+~
+~
+3 -1 25058
+S
+#25061
+A Narrow Corridor~
+This short corridor links the kitchens to the dining hall, and is an
+insulation between the two, so that guests are not disturbed by the
+kitchen staff working (and vice versa). The walls are plain, and bear
+only white paint as decoration. A door in the east wall leads into
+the kitchen; you are deterred from charging straight in by the sight
+of blood seeping out from underneath the door...
+~
+0 8 0
+D1
+The kitchens.
+~
+~
+3 -1 25062
+D2
+The dining hall.
+~
+~
+3 -1 25060
+S
+#25062
+The Kitchens~
+Once an orderly kitchen where scores of meals were prepared, the
+kitchens have been transformed into a scene of bloody murder. Some
+vile creature has managed to infiltrate the Baron's manor, and then
+secreted itself in here, massacring all that enter, until it gets a
+chance to strike at the Baron. Blood, some of it fresh, coats every
+available surface, while gutted corpses hang from meat hooks on the
+ceiling, blood and gore dripping onto the floor. A basket of severed
+heads sits near the door, while a pile of dismembered limbs fills the
+preparation tables, many of them speared with knives and forks. The
+stench is horrid, and assaults your nostrils. Woe to whoever else may
+enter this kitchen, for the beast responsible for this will quickly
+dismember them as it has everyone else, and add you to its grisly and
+stinking collection.
+~
+0 8 0
+D0
+The pantry.
+~
+~
+3 -1 25063
+D3
+A narrow corridor.
+~
+~
+3 -1 25061
+S
+#25063
+The Pantry~
+This small cupboard once stored foodstuffs, but is now filled with all
+manner of hacked and mutilated corpses, stored here while the insane
+psychopath without adds more victims to his collection. Undoubtedly he
+intends to manufacture another Nek'rabeast to join him in this blood-
+letting frenzy.
+~
+0 8 0
+D2
+~
+~
+3 -1 25062
+S
+#25064
+The End of the Hall~
+The hall ends here, at a staircase that ascends to the second level,
+and the sleeping area of the Baron and what remains of his family.
+However, the knights have barricaded the stair, at the Baron's request
+as he no longer wishes to revisit the scene of the slaughter of his
+family by a Nek'rabeast. He spends all of his time in the library, as
+he attempts to find a way to defeat this menace.
+~
+0 8 0
+D2
+~
+~
+0 -1 25058
+S
+#25065
+Approaching Gilchrist~
+Approaching Gilchrist, you cannot help but notice how bare the streets
+are. Only a few huddled citizens scurry quickly between structures
+fallen into disrepair; the cynical would say that the soul has been
+torn from these pathetic creatures. A kinder soul would seek a way to
+mend the damage done to them, and an avaricious soul may well wonder
+what sort of reward the Baron would offer if someone dispelled this
+threat to his people.
+~
+0 4 1
+D0
+~
+~
+0 -1 25066
+D2
+~
+~
+0 -1 25052
+S
+#25066
+Gilchrist~
+The streets of this small village are a scene of dark depression. The
+villagers that move about are sullen and without any happiness; the
+Necromancer has taken the lives of most of their loved ones, most
+foully slaying all their children to break their morale. And on top
+of all of this, their Baron appears to have failed them, having been
+unable to put an end to the evil that plagues their town.
+~
+0 0 1
+D1
+Gilchrist.
+~
+~
+0 -1 25075
+D2
+Leaving Gilchrist.
+~
+~
+0 -1 25065
+D3
+Gilchrist.
+~
+~
+0 -1 25067
+S
+#25067
+Gilchrist~
+Walking through Gilchrist is like walking through a graveyard; those
+that remain here have as much animation as the dead, and as much in
+personality and motivation. It is as if their very souls have been
+taken from them, by the Necromancer, leaving empty shells to wander
+aimlessly through the streets.
+~
+0 0 1
+D0
+Gilchrist.
+~
+~
+0 -1 25068
+D1
+Gilchrist.
+~
+~
+0 -1 25066
+S
+#25068
+Gilchrist~
+The streets here are piled with rubbish; no one cares enough to make
+the effort to clean the refuse piled in the gutters, and on the road
+itself. Nearby buildings are boarded up, their occupants having either
+been slain or moved away. Evidently the battle against the Necromaner
+has already been lost, as far as these villagers are concerned.
+~
+0 0 1
+D0
+Gilchrist.
+~
+~
+0 -1 25070
+D2
+Gilchrist.
+~
+~
+0 -1 25067
+D3
+A small home.
+~
+~
+0 -1 25069
+S
+#25069
+Cottage of the Seer~
+This cluttered shack houses the village seer, one of the few people
+who has refused to be driven off, and has never given up hope that
+one day, some way, the Curse of the Necromancer would be lifted. She
+has gone more than a little mad, however, due to constant contact with
+the lower planes, and much of what she says is gibberish, and not to
+be counted.
+~
+0 8 0
+D1
+Gilchrist.
+~
+~
+0 -1 25068
+S
+#25070
+Gilchrist~
+Around every bend in this village you behold more scenes of sorrow and
+despair. It is almost too much to bear, to witness an entire population
+that is totally devoid of hope. Surely the Baron would be capable of
+doing something to lift their spirits? At any rate, they would indeed
+be grateful to those who helped defeat their enemy. Grateful indeed.
+~
+0 0 1
+D0
+The home of the Mayor.
+~
+~
+0 -1 25071
+D1
+Gilchrist.
+~
+~
+0 -1 25072
+D2
+Gilchrist.
+~
+~
+0 -1 25068
+S
+#25071
+The Home of Francois~
+This well-furnished dwelling is the home of the Mayor of Gilchrist,
+a former friend of the Baron, who has lost faith in his liege, due
+to these problems infesting his beloved village. Most of the items
+of value have long since been sold to hire mercenaries to battle
+the evil, mercenaries who either fled without trying or perished
+at the hands of the Necromancer's minions.
+~
+0 8 0
+D2
+Gilchrist.
+~
+~
+0 -1 25070
+S
+#25072
+Gilchrist~
+In all of your adventures, you cannot remember ever passing through 
+such a desolate, depressed settlement. Not within the bounds of 
+the Empire, at least; one would surely assume (and hope) that the
+Emperor would make every effort to protect those who pay taxes to
+him, and send a legion to quell the dark forces that assault the
+village and surrounding lands. 
+~
+0 0 1
+D1
+Gilchrist.
+~
+~
+0 -1 25073
+D3
+Gilchrist.
+~
+~
+0 -1 25070
+S
+#25073
+Gilchrist~
+A path overgrown with weeds heads north, away from the village. The
+soil there bears footprints of all the people that have ventured in
+that direction, towards the mountains that form the northern edge 
+of the valley, in search of the Necromancer. Very few tracks come
+back, very few indeed...
+~
+0 0 1
+D0
+A path leads away from the village.
+~
+~
+0 -1 25077
+D2
+Gilchrist.
+~
+~
+0 -1 25074
+D3
+Gilchrist.
+~
+~
+0 -1 25072
+S
+#25074
+Gilchrist~
+Whispered conversations overheard during your trip through this dark
+place have allowed you to deduce that the Necromancer has slain or
+run off most of the occupants of this village, for whatever purpose,
+and the remainder have lost all hope of ever seeing this darkly evil
+presence quelled. Every child in the village was struck dead by plague
+or Nek'rabeasts weeks ago.
+~
+0 0 1
+D0
+Gilchrist.
+~
+~
+0 -1 25073
+D2
+Gilchrist.
+~
+~
+0 -1 25075
+S
+#25075
+Gilchrist~
+The once evenly paved road here is littered with holes here, where a
+number of bricks have been torn up or crushed, and left as they lie,
+never to be repaired. Villagers don't even curse when they stumble
+over these holes; they merely rise to their feet and continue onwards
+with vacant stares on their faces. The depression is almost, indeed
+threatens to be, overwhelming.
+~
+0 0 1
+D0
+Gilchrist.
+~
+~
+0 -1 25074
+D1
+The smithy lies here.
+~
+~
+0 -1 25076
+D3
+Gilchrist.
+~
+~
+0 -1 25066
+S
+#25076
+Alain's Blades~
+This spacious structure houses one of the best-equipped smithies you
+have ever been in, and as an adventer, you have been in quite a lot.
+Once again, you are given a grim reminder of the awful fate that has
+befallen this innocent village; despite his excellent trappings, and
+obvious skill, this smith has not a single customer, despite, perhaps,
+you.
+~
+0 8 0
+D3
+A road through Gilchrist.
+~
+~
+0 -1 25075
+S
+#25077
+The Outskirts of Gilchrist~
+Tracks of humans and horses head north, away from the village, along
+a winding path that takes you, eventually, to the foothills of the
+dark mountain range that borders the valley, where the Necromancer is
+thought to be. Broken banners and weapons, dropped by cowardly and
+demoralized soldiers before they even neared the mountains, litter
+the trail.
+~
+0 4 1
+D0
+A path into the mountains.
+~
+~
+0 -1 25078
+D2
+Gilchrist.
+~
+~
+0 -1 25073
+S
+#25078
+Approaching the Mountains~
+The road rises sharply as you pass into the foothills, beginning the
+long journey towards the black spires that loom forbiddingly to the
+north. Within those peaks you will encounter the source of all this
+evil, and hopefully defeat it. Whether you are motived by honor, or
+profit, you will have to battle as hard as you can to defeat such an
+ancient and powerful foe. You cannot help but wonder what manner of
+guardians he may have.
+~
+0 0 4
+D2
+Heading back to town.
+~
+~
+0 -1 25077
+D7
+Heading into the foothills.
+~
+~
+0 -1 25079
+> entry_prog 100~
+mpforce $n shiver
+~
+|
+S
+#25079
+Approaching the Mountains~
+Onwards and upwards the path ascends, heading through scorched hills
+that were once green with lush grass and vegetation. Undead have laid
+waste to most of the land surrounding Gilchrist, and will eventually
+do the same to the rest of the valley, turning into the nightmarish
+realm their master desires. Several spears have been thrust into the
+earth beside the path here; atop them have been perched the severed
+heads of slain knights, their mouths agape in their rotting faces; a
+foul stench exudes from this grim warning. The knights still have atop
+their heads their plumed helms, stained with blood and gore.
+~
+0 0 4
+D7
+Heading into the foothills.
+~
+~
+0 -1 25080
+D8
+Heading back to town.
+~
+~
+0 -1 25078
+S
+#25080
+Approaching the Mountains~
+The path twists and turns as it ascends, marked by more gruesome signs
+of undead victories. Banners bearing both the DuChesne and the Imperial
+coats lie tattered and scorched beside the road, trampled underfoot by
+screaming ghouls and cackling skeletons. It is a wonder that the dark
+Necromancer would move so boldly against an Imperial holding; perhaps
+he is certain for some reason that there will be no Imperial forces to
+arrive and slay him.
+~
+0 0 5
+D6
+Heading into the foothills.
+~
+~
+0 -1 25081
+D8
+Heading back to town.
+~
+~
+0 -1 25079
+S
+#25081
+Before the Wyrm Cave~
+The path ends abruptly here, before a cave set into the mountainside,
+with no other way onwards visible. All of the tracks pass into this
+cave, and very few indeed return. Badly burned bodies lie scattered
+about the entrance, the flesh seared from their bones by incredibly
+corrosive acid, their equipment pitted and etched beyond hope of any
+repair. A thin coil of smoke, much like dragon exhalation, escapes
+the cave entrance.
+~
+0 0 5
+D0
+Certain death!
+~
+~
+0 -1 25099
+D9
+Heading back to town.
+~
+~
+0 -1 25080
+S
+#25082
+The Gates of Nar'gha'zuyl~
+A narrow ledge near the peak of a forbidding, blackened spire is the
+only secure foothold before the blackened steel gates that loom to
+the east of you. Lightning crackles about the towering dark spires
+that rise from the keep the gate guards, and rolling thunder that
+echoes among the surrounding mountains does little to ease your mind.
+Shadowy shapes flit about the towering walls, smooth and without a 
+single foothold that would allow anyone to scale them. To the west, a
+yawning chasm surrounds the peak, a certain death for any foolish enough
+to step in that direction, for the strong winds that gust around the 
+peak would dash even a flying traveller to pieces against the sharp stone.
+There can be no doubt that this is the abode of the Necromancer, and his
+minions. This may well be the last chance to pull out, for once inside
+the walls of his keep, it is unlikely escape will be easy...
+~
+0 1048576 5
+D1
+~
+~
+8389671 25056 25083
+> rand_prog 33~
+mpe _blu Lightning crackles about the blackened towers.
+~
+> rand_prog 66~
+if ispc($r)
+mea $r _red Visions of death and destruction pervade your thoughts!
+mpforce $r shiver
+endif
+~
+|
+S
+#25083
+A Shadowy Courtyard~
+The ominous metal gates open onto a dark courtyard, overshadowed by
+the looming spire that lies to the east. Not a soul can be seen on
+the walls; no guards patrol the perimeter, nor keep watch. An eerie
+whistling sound, caused by the wind passing through holes in the dark
+inner walls, sets your teeth on edge. A metal trapdoor is set in the
+stone floor, housing a dungeon no doubt, and whatever else a mad
+necromancer may be inspired to keep. Flashes of lightning reveal a 
+little of the gothic architecture of this place; in some ways it is
+almost beautiful in its terrible aspects; grinning gargoyles flank 
+each entrance, while intricate carvings of scenes of debauchery cover
+the walls.
+~
+0 3153920 1
+D1
+~
+~
+7 -1 25085
+D3
+~
+~
+8389671 25056 25082
+D5
+~
+trapdoor~
+7 -1 25084
+S
+#25084
+The Treasure Vault~
+A fabulous amount of wealth greets your jaded eyes as you wrench open
+the trapdoor and drop down into this tiny chamber. Statues carved by
+artisans of civilizations lost centuries ago line wooden shelves, 
+while crates and chests overflowing with priceless gems and jewels 
+cover the floor. You don't even notice as the trapdoor swings slowly
+shut above you, nor do you notice as the air grows thinner, until you
+suddenly begin to choke while examining a matched pair of Lifebanes,
+your vision blurring as you sink into a sleep you will never awaken
+from. Imps scurry over your body, stripping it of valuables, which
+they deposit on the shelves, then they return to their niches, awaiting
+the next intruder...
+~
+0 3155983 1
+S
+#25085
+A Dark Hallway~
+Passing through the doorway, you enter a gloomy hallway, poorly lit
+by smoldering torches set in cressets that resemble grinning skulls.
+Water drips onto the floor, a red pool forming... red? The water is
+in fact blood, and disgustingly enough appears to be coming from the
+walls themselves. The blood is fouled, and tainted, and would disgust
+the most ravenous Kindred, let alone those of the mortal realm. What
+other horrors await at the end of this hall? The grinning statues at
+each end that grin down at you certainly aren't letting you know.
+~
+0 3153928 0
+D0
+The base of the hollow spire.
+~
+~
+0 -1 25086
+D3
+The shadowy courtyard.
+~
+~
+16777223 -1 25083
+S
+#25086
+The Base of the Hollow Spire~
+At this point the hall ends at the base of a hollowed out turret, that
+extends upwards farther than you can see. A chill breeze wafts through
+the center of the spire, and is accompanied by a volley of howls and
+shrieks. To venture further may mean undertaking a journey you cannot
+retreat from; it may well be wise to pause and take stock of your
+situation before continuing...
+~
+0 3153928 0
+D2
+A darkened hall.
+~
+~
+0 -1 25085
+D4
+Upwards ascends the spire.
+~
+~
+64 -1 25087
+S
+#25087
+The Dark Shaft~
+Unforgiving stone walls surround you on all sides as you fly through
+the center of the shaft, ever cautious for enemies that are by now
+on the lookout for you. Two doors, set in the walls to the east and
+west, offer an escape from the draughty tunnel, though what lies in
+wait for you behind them may make the dangers here pale in comparison.
+Then again, what choice would you rather face- the known enemy, dire
+as it is, or the unknown?
+~
+0 19931144 0
+D1
+Hidden perils.
+~
+~
+7 -1 25089
+D3
+Hidden perils.
+~
+~
+7 -1 25088
+D4
+The shaft continues its ascent.
+~
+~
+64 -1 25090
+D5
+The Dark Shaft.
+~
+~
+64 -1 25086
+S
+#25088
+Haven of the Cult~
+Those most favored of the dark cult of the Necromancer are invited to
+his dark world, and bid to serve him in what manner he sees fit; most
+commonly as sacrificial victims. However, certain cultists, notably
+the Witch Tus'schepteba, rise through the ranks to become close and
+trusted advisors, though this service is often of a brief duration as
+the Necromancer knows well the treachery ambition breeds. He himself
+became master of this realm by slaying his mentor. The dark chamber
+they are bid to reside in boasts no furnishings or food; the cultists
+survive on pure faith alone.
+~
+0 3153928 0
+D1
+The dark shaft.
+~
+~
+7 -1 25087
+S
+#25089
+Lair of the Wyrm~
+Vile, inculcable evil awaits behind every door in this fell domain,
+it seems. For the foul grotesque that lairs in here defies any real
+description; it is a wyrm, though not a dragon, draconian, but too
+reptillian. The venom that drips from its long barbed tail has scored
+the stone, and the many skeletons that umbrage the dusty ground under
+foot. What must that acidic compound do to exposed flesh...
+~
+0 3153928 0
+D3
+The dark shaft.
+~
+~
+7 -1 25087
+S
+#25090
+The Top of the Shaft~
+The shaft ends here, at a flat ceiling lined with sharp spikes, which
+you have to move slowly to avoid. Venom drips from their tips, as if
+they were the spines of some chaotic beast... it is best not to spend
+time contemplating such things. A plain wooden door, unremarkable in
+all ways, is visible, set into the north wall; there is no ledge in
+front of it, you will have to fly to it and soar through, before your
+enchantment atrophies and you plummet to your death, with very little
+abrogating circumstances.
+~
+0 19931144 0
+D0
+This normal looking door offers an escape.
+~
+~
+3 -1 25091
+D5
+The Dark Shaft.
+~
+~
+64 -1 25087
+> rand_prog 50~
+if ispc($r)
+mea $r _red You cry out as you brush against the spikes!
+mer $r _red $r cries out as $e brushes against the spikes!
+mpdamage $r 200
+endif
+~
+|
+S
+#25091
+The Base of a Stair~
+The door opens onto a seemingly innocuous chamber. It is dark, true,
+and the grim sense of foreboding is still present, but the walls are
+solid, cool to the touch but dry and firm, and there are no demonic
+creatures awaiting you... It would appear you are past the worst of
+it. Or are you? A stone stair ascends to a corridor of gray stone up
+above, which seems to shift ever so slightly under your scrutiny...
+A trick of the light, perhaps?
+~
+0 3153928 0
+D2
+The dark shaft.
+~
+~
+3 -1 25090
+D4
+~
+~
+0 -1 25092
+S
+#25092
+A Fleshy Corridor~
+The walls of this corridor are of stone, but shift and flex as if they
+were made of some amorphous substance, namely stone colored flesh. A
+vile smell assaults your nostrils, an unmistakable odor of death and
+decay. Even the darkest soul would find it hard to continue; not out
+of disgust, but out of fear and respect for the terrible master of a
+domain as foul as this. Surely nothing mortal could subsist in such a
+place?
+~
+0 3153928 0
+D0
+The corridor ends at a portal.
+~
+~
+0 -1 25093
+D5
+A short stair descends into a pit.
+~
+~
+0 -1 25091
+S
+#25093
+A Dead End... of Sorts.~
+The fleshy corridor ends here, spewing its contents into a blackwalled
+section of corridor that boasts a single wooden door, covered in vile
+runes, and a shimmering black portal, the only other exit, though it
+would be inadvisable to continue by that direction unless one was well
+and truly prepared to face something out of a demon's nightmares. A
+vile smell, of scorched flesh and blood, wafts in from the east; this
+odor is not foreign to those used to the battlefield, but it is so
+strong and pervasive here that even a veteran of the Chaos Wars may 
+well balk.
+~
+0 3153928 0
+D1
+The laboratory of the Witch.
+~
+~
+3 -1 25094
+D2
+The fleshy corridor.
+~
+~
+0 -1 25092
+D10
+~
+portal~
+133120 -1 25095
+S
+#25094
+The Laboratory of the Witch~
+This foul workplace contains unspeakable experiments, combining the
+sciences of alchemy and surgery with the magical arts of Evocation
+and Necromancy. The result is a twisting, writhing mass of flesh in
+several large glass beakers, that will be ground up and consumed by
+the horrid minions of the Necromancer, to grant them all unspeakable 
+powers and abilities. This workplace is an abomination to some, a
+great find to others.
+~
+0 3153928 0
+D3
+Away from the madness.
+~
+~
+3 -1 25093
+S
+#25095
+A Nightmarish Reality~
+The portal opens onto a scene out of the darkest nightmares of the
+truly damned. The walls of the chamber here appear to be made of
+flesh; mottled, grey flesh covered with pustelent sores, the foul
+discharge affording scant purchase to those endeavouring to cross
+the slick, blubbery floor. Howls and screams echo around the chamber,
+their source apparently souls trapped in this fleshy tomb, desperate
+to feed on the living. But the worst of the abominations lies ahead...
+~
+0 3154057 0 0 0 6
+D0
+~
+~
+0 -1 25096
+> rand_prog 50~
+if ispc($r)
+mea $r _red Diabolic howls and shrieks assault your sanity!
+mpdamage $r 50
+endif
+~
+> rand_prog 33~
+mpe _lbl A ghostly voice chants 'Pain... pain... pain...'
+if ispc($r)
+mpforce $r twitch
+endif
+~
+> act_prog p has entered the game.~
+mea $n _dch A hand strikes you and you feel dizzy...
+mptrans $n 25093
+~
+|
+S
+#25096
+Flesh of Sin~
+The passage ends in a dense, impenetrable mound of mottled flesh,
+crawling with parasites and dripping ichor from a thousand small
+sores. The ghastly odor that issues forth from this abomination 
+is almost as horrid as the fact that this creature is a sentient
+being, and capable of dark misdeeds. Constructed from the flayed
+remains of a thousand sinners, this spawn of chaos has existed 
+here for centuries, patiently awaiting the arrival of enemies of
+its dark creator.
+~
+0 3153929 0 0 0 6
+D2
+~
+~
+0 -1 25095
+> rand_prog 50~
+if ispc($r)
+mea $r _red Diabolic howls and shrieks assault your sanity!
+mpdamage $r 50
+endif
+~
+> act_prog p has entered the game.~
+mea $n _dch A hand strikes you and you feel dizzy...
+mptrans $n 25093
+~
+|
+S
+#25097
+The Heart of Evil~
+Clambering through the gaping wound in the fleshy wall feels to a 
+disconcerting degree much like crawling into a festering wound on
+someone's body. Blood cakes the blubbery walls and floor, and the
+ceiling drips with ichor. Vaguely humanoid forms crawl about in
+the fleshy walls, straining to break free, their hands pushing at
+the soft mottled grey flesh. The floor oozes various disgusting
+fluids, and a vile stench fills the whole chamber. A bloody orifice
+to the north leads to the end of the passage...
+~
+0 3154057 1 0 0 6
+D0
+~
+~
+0 -1 25098
+> rand_prog 50~
+if ispc($r)
+mpe _red To your horror, a rotting corpse drags itself from the walls!
+mpe _red Groaning and slavering, it comes free with a gout of blood...
+mpmload 25028
+mpforce 'ghoulish minion' drool
+else
+mpe _red The contents of the room are absorbed by the fleshy walls...
+mppurge minion
+endif
+~
+> act_prog p has entered the game.~
+mea $n _dch A hand strikes you and you feel dizzy...
+mptrans $n 25093
+~
+|
+S
+#25098
+The Final Enemy~
+The walls of this blood soaked chamber are strewn with atrophied limbs,
+some still feebly clutching, fused to the wall by unfathomable dark
+magicks. Blood oozes from sores on their mottled grey flesh, coalescing
+in pools at the base of the fleshy walls, where gaping, toothy maws
+gulp hungrily at it- the sucking sound of these disembodied mouths is
+maddening. The roof is lined with heavy chains, from which hang the
+limbless trunks the wall decorations were torn from. Some of these souls
+moan in pain and rage, hanging on barbed hooks, twisting in a ghostly 
+breeze that blows in from an unknown destination. It seems unbelieveable
+that someone could possibly reside in such a diabolic sanctum...
+~
+0 3153929 1 0 0 6
+D2
+~
+~
+0 -1 25097
+> act_prog p has entered the game.~
+mea $n _dch A hand strikes you and you feel dizzy...
+mptrans $n 25093
+~
+> entry_prog 100~
+mea $n _gre Acid burns your skin as you squeeze through the orifice!
+mpdamage $n 100
+~
+|
+S
+#25099
+The End of the Path~
+An ancient sage, his name escapes you, once said that of all the many
+abodes of all creatures within the realms of mortals, no home is more
+easily identifiable than that of a dragon. Surely that same man could
+not have hope for a better example than the dank cave you have passed
+into. You aren't sure if its the string of decomposing bodies swaying
+in the wind where they hang from iron hooks, or perhaps the deep scar
+in the wall where the drake sharpens its death-dealing claws. In fact
+even the massive pile of treasure that fills the back half of the dim
+lair is not the single conclusive clue. It is a combination of all of
+this. and more; whatever the reason, you are sure that your lives are
+now in dire jeopardy...
+~
+0 3145736 0
+D2
+An escape from this foul wyrm,
+~
+~
+0 -1 25081
+S
+#0
+
+
+#RESETS
+M 1 25003 1 25003
+E 1 25013 1 8
+E 1 25012 1 0
+E 1 25011 1 12
+E 1 25010 1 9
+E 1 25009 1 10
+E 1 25008 1 11
+E 1 25007 1 3
+E 1 25006 1 6
+E 1 25005 1 5
+E 1 25004 1 16
+M 1 25004 1 25003
+E 1 25014 1 12
+O 1 25026 1 25003
+M 1 25036 3 25005
+O 1 25015 1 25007
+P 0 25016 1 0
+D 0 25007 3 2
+M 1 25001 4 25008
+E 1 25018 1 16
+M 1 25000 4 25009
+E 1 25017 1 12
+D 0 25009 1 2
+M 1 25001 4 25011
+E 1 25018 1 16
+M 1 25000 4 25012
+E 1 25017 1 12
+D 0 25014 0 2
+M 1 25000 4 25015
+E 1 25017 1 12
+M 1 25001 4 25016
+E 1 25018 1 16
+M 1 25000 4 25018
+E 1 25017 1 12
+M 1 25001 4 25019
+E 1 25018 1 16
+D 0 25020 2 2
+M 1 25007 1 25022
+M 1 25008 2 25023
+E 1 25027 1 3
+M 1 25008 2 25023
+E 1 25027 1 3
+O 1 25019 1 25024
+O 1 25021 1 25024
+D 0 25024 10 1
+O 1 25022 1 25025
+D 0 25025 4 1
+D 0 25026 0 1
+M 1 25002 1 25028
+E 1 25000 1 16
+E 1 25001 1 1
+E 1 25002 1 12
+E 1 25003 1 0
+O 1 25023 1 25028
+P 0 25024 1 0
+M 1 25009 2 25029
+E 1 25029 1 16
+E 1 25030 1 12
+G 1 25031 1
+D 0 25029 3 2
+O 1 25040 1 25030
+D 0 25030 1 2
+M 1 25015 1 25031
+E 1 25027 1 3
+M 1 25014 1 25032
+E 1 25029 1 16
+E 1 25030 1 12
+O 1 25036 1 25032
+M 1 25012 1 25033
+M 1 25009 2 25034
+G 1 25030 1
+G 1 25029 1
+G 1 25032 1
+D 0 25035 1 1
+M 1 25010 1 25036
+E 1 25034 1 16
+E 1 25035 1 6
+E 1 25033 1 10
+E 1 25030 1 12
+E 1 25029 1 18
+G 1 25037 1
+O 1 25036 1 25036
+D 0 25036 3 1
+D 0 25036 5 2
+O 1 25025 1 25037
+D 0 25037 4 2
+M 1 25006 5 25040
+M 1 25006 5 25041
+M 1 25006 5 25042
+M 1 25006 5 25043
+M 1 25006 5 25044
+O 1 25038 1 25047
+O 1 25039 1 25047
+M 1 25035 1 25052
+E 1 25011 1 12
+E 1 25059 1 16
+E 1 25059 1 18
+M 1 25036 3 25053
+M 1 25036 3 25053
+O 1 25062 1 25056
+D 0 25057 0 1
+M 1 25016 1 25058
+E 1 25063 1 5
+E 1 25064 1 6
+D 0 25058 1 1
+D 0 25058 2 1
+D 0 25058 3 1
+M 1 25022 1 25059
+E 1 25043 1 16
+E 1 25044 1 5
+D 0 25059 1 1
+D 0 25060 0 1
+D 0 25060 3 1
+D 0 25061 1 1
+D 0 25061 2 1
+M 1 25037 1 25062
+E 1 25067 1 16
+E 1 25067 1 18
+D 0 25062 0 1
+D 0 25062 3 1
+D 0 25063 2 1
+M 1 25026 3 25066
+M 1 25026 3 25066
+M 1 25026 3 25066
+M 1 25027 2 25068
+M 1 25023 1 25069
+E 1 25045 1 20
+G 1 25046 1
+E 1 25047 1 17
+M 1 25024 1 25071
+E 1 25048 1 16
+E 1 25049 1 13
+M 1 25027 2 25074
+M 1 25025 1 25076
+E 1 25050 1 9
+G 1 25009 1
+G 1 25005 1
+G 1 25006 1
+M 1 25031 1 25082
+D 0 25082 1 2
+D 0 25083 1 2
+D 0 25083 3 2
+D 0 25083 5 2
+M 1 25033 2 25085
+D 0 25085 3 2
+M 1 25033 2 25087
+D 0 25087 1 2
+D 0 25087 3 2
+M 1 25032 2 25088
+E 1 25029 1 16
+E 1 25030 1 12
+G 1 25031 1
+G 1 25032 1
+M 1 25032 2 25088
+E 1 25029 1 16
+E 1 25030 1 12
+G 1 25031 1
+G 1 25032 1
+D 0 25088 1 2
+M 1 25034 1 25089
+D 0 25089 3 2
+D 0 25090 0 1
+D 0 25091 2 1
+O 1 25055 1 25093
+D 0 25093 1 1
+M 1 25030 1 25094
+E 1 25054 1 16
+G 1 25061 1
+D 0 25094 3 1
+M 1 25029 1 25096
+M 1 25021 1 25098
+M 1 25019 1 25099
+S
+
+
+#SHOPS
+ 25025    5  9  0  0  0   150  75         9 18    ; Alain
+0
+
+
+#REPAIRS
+ 25025    5  9  0         150   1         9 18    ; Alain
+0
+
+
+#SPECIALS
+M  25002 spec_cast_mage
+M  25003 spec_guard
+M  25006 spec_thief
+M  25007 spec_cast_cleric
+M  25009 spec_cast_cleric
+M  25010 spec_cast_cleric
+M  25011 spec_breath_fire
+M  25012 spec_breath_acid
+M  25014 spec_cast_cleric
+M  25019 spec_cast_mage
+M  25021 spec_cast_mage
+M  25022 spec_cast_cleric
+M  25023 spec_cast_mage
+M  25029 spec_breath_gas
+M  25030 spec_cast_mage
+M  25031 spec_poison
+M  25032 spec_cast_cleric
+M  25033 spec_breath_frost
+M  25034 spec_poison
+M  25036 spec_fido
+M  25037 spec_fido
+S
+
+
+#$

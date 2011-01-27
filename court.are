@@ -1,0 +1,930 @@
+#AREA {5-15} Paulanka   L.A. Courthouse~
+#MOBILES
+#8500
+tourist annoying~
+An annoying Tourist~
+An annoying tourist is here, snapping photos and blinding you.~
+~
+human~
+ACG F 1000 S
+5 0 2d10+20 0d0+0 1d8+0 6
+60 60 60 75
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8501
+reporter~
+An obnoxious Reporter~
+An obnoxious reporter is here, talking into a camera, and asking you for 
+a statement.~
+~
+human~
+ACG F -1000 S
+5 0 1d10+20 0d0+0 1d8 2
+60 60 60 75
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8502
+woman~
+A woman~ 
+A woman is here, powdering her nose.~
+~
+human~
+ACG F 1000 S
+6 0 1d10+25 0d0+0 1d10 3
+50 50 60 70
+FK 0 0 EFG
+8 8 2 0
+AHMV ABCDEFGHIJK 2 0
+#8503
+man~
+A man~
+A man is here, wondering why you are looking at him when he's in the 
+bathroom.~
+~
+human~
+ACG F 1000 S
+6 0 1d10+25 0d0+0 1d10 1
+50 50 60 70
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8504
+bailiff~
+A court bailiff~
+A mean-looking court bailiff is here, keeping the peace.~
+~
+human~
+ACG F 1000 S
+8 0 2d10+30 0d0+0 1d8+2 3
+50 50 60 60
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8505
+lance ito judge~
+Judge Lance Ito~
+Judge Lance Ito is here, banging his gavel, and yelling at the lawyers.~
+~
+human~
+ACG F 1000 S
+20 1 2d10+70 0d0+0 1d10+10 17
+10 10 10 30
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8506
+oj simpson~
+Oj Simpson~
+Oj Simpson is sitting here, trying to look innocent.~
+~
+human~
+ACGR F -1000 S
+22 1 4d6+60 10d10+100 3d8+5 3
+0 0 0 10
+FK 0 0 EFG
+8 8 1 5000
+AHMV ABCDEFGHIJK 2 0
+#8507
+johnny cochrane lawyer~
+Johnny Cochrane~
+Oj's lawyer, Johnny Cochrane is here, getting yelled at by Judge Ito.~
+~
+human~
+ACG F -1000 S
+16 0 3d8+40 0d0+0 2d10+2 2
+20 20 30 40
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8508
+robert shapiro lawyer~
+Robert Shapiro~
+Robert Shapiro is here, looking important, even thought he knows he isn't.~
+~
+human~
+ACG F -1000 S
+16 0 3d8+40 0d0+0 2d10+2 2
+20 20 30 40
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8509
+marcia clark lawyer~
+Marcia Clark~
+Marcia Clark is here, questioning Kato, while she makes eyes at Jeffry 
+Darden.~
+~
+human~
+ACG F 1000 S
+15 0 2d10+50 0 2d8+4 5
+40 40 40 50
+FK 0 0 EFG
+8 8 2 0
+AHMV ABCDEFGHIJK 2 0
+#8510
+jeffry darden lawyer~
+Jeffry Darden~
+Jeffry Darden sits here, admiring Marcia's work, and staring at her legs.~
+~
+human~
+ACG F 1000 S
+15 0 2d10+40 0 3d5+5 4
+40 40 50 30
+FK 0 0 EFG
+8 8 1 0
+AHMV ABCDEFGHIJK 2 0
+#8511
+kato kaelin~
+Kato Kaelin~
+Kato Kaelin sits here on the witness stand.  'Um well...it could have, 
+um..uh..well maybe it was...well...um..I guess....err...uh...yeah I 
+suppose...well.....I don't know.'~
+~
+human~
+ACG F 0 S
+12 0 1d10+40 0 2d10+1 2
+50 50 50 80
+FK 0 0 EFG
+8 8 1 0
+AHMV ABCDEFGHIJK 2 0
+#8512
+juror~
+A juror~
+A juror sits here, taking notes, and hoping for Oj's autograph.~
+~
+human~
+ACG F 0 S
+10 0 2d10+25 0 1d8 1
+60 60 80 80
+FK 0 0 EFG
+8 8 1 1000
+AHMV ABCDEFGHIJK 2 0
+#8513
+call girl hooker~
+A sexy call girl~
+A long-legged, well endowed call girl sits here in Lance's robes.  So THATS 
+what he does back here!~
+~
+human~
+ACG F 1000 S
+16 0 5d6+40 0d0+0 4d4+5 13
+40 40 40 50
+FK 0 0 EFG
+8 8 2 0
+AHMV ABCDEFGHIJK 2 0
+#0
+#OBJECTS
+#8500
+shirt khaki~
+A Khaki Tourist's Shirt~
+A flowery shirt is lying here, blinding you.~
+cotton~
+9 AG AD
+8 8 8 10 0
+20 2 500 G
+A
+4 4
+A
+3 4
+#8501
+sheriff badge~
+A Sheriff's Badge~
+A shiny gold shield badge is here.~
+metal~
+9 AG AJ
+10 10 10 8 0
+20 2 500 G
+A
+12 20
+A
+13 20
+A
+18 2
+A
+19 2
+#8502
+hourglass ring~
+An Hourglass Ring~
+Judge Ito dropped his ring here.~
+metal~
+9 AG AB
+6 6 7 8 0
+20 2 500 G
+A
+2 2
+A
+4 2
+A 
+18 4
+#8503
+rookie card~
+Oj's Rookie Card~
+A football card, with a very young Oj Simpson on it is lying here, 
+autographed.~
+paper~
+9 AG AO
+8 9 10 5 0
+20 2 500 G
+A
+5 3
+A
+18 2
+A
+19 2
+#8504
+armani suit~
+An Armani Suit~
+Robert Shapiro's Armani suit is here, clean and pressed.~
+silk~
+9 AG AD
+9 9 8 8 0
+20 2 500 G
+A
+12 30
+A
+13 40
+#8505
+tie silk~
+A Silk Tie~
+Johnny Cochrane's silk Harvard tie is lying here.~
+silk~
+9 AG AC
+5 5 8 7 0
+20 2 500 G
+A
+1 3
+A
+3 2
+#8506
+gold brooch~
+A Gold Brooch~
+Marcia Clark dropped her gold brooch (a gift from Mr.Darden) here.~
+gold~
+9 AG AC
+6 6 5 8 0
+20 2 500 G
+A
+20 -5
+A
+21 -5
+A
+22 -5
+A
+23 -5
+A
+24 -5
+#8507
+knife butcher~
+Oj's Butcher Knife~
+The murder weapon, a butcher knife, is here.~
+metal~
+5 AG AN
+2 5 10 3 0
+20 2 500 G
+A
+18 3
+A
+19 3
+#8508
+chalk outline~
+A Chalk Outline~
+The chalk outline for Nicole Simpson and Ron Goldman lies here.~
+chalk~
+9 AG AK
+10 10 12 8
+20 2 500 G
+A
+2 -2
+A
+5 -2
+A
+18 4
+A
+19 5
+A
+13 -10
+A
+14 30
+#8509
+gavel judge~
+Judge Ito's Gavel~
+Judge Ito's heavy gavel is here, banging on the ground by itself.~
+wood~
+5 AG AN
+4 5 10 7 0
+20 2 500 G
+A
+3 2
+A
+4 3
+A
+18 5
+A
+19 3
+#8510
+whip leather~
+A Hooker's Whip~
+A nasty-looking whip, meant clearly for pleasurable use is here.~
+leather~
+5 AG AN
+7 5 10 4 0
+20 2 500 G
+A
+2 2
+A
+6 -1
+A
+18 3
+A
+19 4
+#0
+#ROOMS
+#8500
+Marble Steps~
+You are approaching large marble steps leading up to the Los Angeles 
+County Courthouse.  Small groups of reporters mill about searching for a 
+glimpse of the people involved in the latest scandal.  The stairs lead up 
+to the front doors.
+~
+0 0 0 
+D4
+The stairs lead up.
+~
+~
+0 -1 8501
+S
+#8501
+Front Doors~
+Before you are two great double doors which open into the L.A. 
+Courthouse.  Here the reporters are packed more densely, and its hard to 
+get inside.  The doors are north, while the stairs leading away from the 
+building lead down.
+~
+0 0 0 
+D0
+The entrance is north.
+~
+~
+0 -1 8502
+D5
+The stairs lead down and away from the building.
+~
+~
+0 -1 8500
+S
+#8502
+Lobby~
+You are in a great lobby, which is the front entrance to the Courthouse.  
+Many more spectators have gathered here, waiting for permission to enter 
+the courtrooms. A large halway extends east and west, while the doors to 
+leave ar south.
+~
+0 D 0
+D1
+The hallway extends east.
+~
+~
+0 -1 8503
+D2
+The doors to leave are south.
+~
+~
+0 -1 8501
+D3
+The hallway extends west.
+~
+~
+0 -1 8511
+S
+#8503
+Hallway~
+Several people push past you in an attempt to see who is coming in and 
+out of the various courtrooms here.  You notice a sign over a door to your 
+north, and the hallway continues east and west. 
+~
+0 D 0
+D0
+A door is here.
+~
+~ 
+0 -1 8510
+D1
+The hall continues east.
+~
+~
+0 -1 8504
+D3
+The hall continues west.
+~
+~
+0 -1 8502
+E
+sign~
+The sign reads: Ladies
+~
+S
+#8504
+Hallway~
+You are walking down a hallway lined with doors, all of which have 'Court 
+in Session' signs on them.  Visitors are not permitted.  Oh well...keep 
+looking there should be an open court somewhere around here.  The hall 
+leads east and west.
+~
+0 D 0
+D1
+The hall continues east.
+~
+~
+0 -1 8505
+D3
+The hall continues west.
+~
+~
+0 -1 8503
+S
+#8505
+Corner~
+The hallway takes a corner here, heading west and north.  More doors line 
+the walls in both directions.
+~
+0 D 0
+D0
+The hall leads north.
+~
+~
+0 -1 8506
+D3
+The hall leads west.
+~
+~
+0 -1 8504
+S
+#8506
+Hallway~
+Down this hallway there are several rooms for juries, and lawyers to have 
+some peace and quiet in.  All of them appear to be locked however, 
+probably a busy day here at the courthouse.  The hall continues north and 
+south.
+~
+0 D 0
+D0
+The hall leads north.
+~
+~
+0 -1 8507
+D2
+The hall leads south.
+~
+~
+0 -1 8505
+S
+#8507
+Hallway~
+This part of the hallway has a door to the east.  A sign on the door 
+says: 'Simpson, Prosecution'.  The hallway continues north and south, but 
+seems to end quickly to the north.
+~
+0 D 0
+D0
+The hall continues north.
+~
+~
+0 -1 8509
+D1
+A door lies to the east.
+~
+~
+0 -1 8508
+D2
+The hall continues to the south.
+~
+~
+0 -1 8506
+S
+#8508
+Prosecution Room~
+Several reporters stand up, excited by someone entering the room.  They 
+all immediately sigh and sit down, realizing you are no one important.  
+The only exit is west.
+~
+0 D 0
+D3
+The door leads west.
+~
+~
+0 -1 8507
+S
+#8509
+End of the Hallway~
+You have come to the north end of the main hallway.  Two large doors lead 
+west into the only open courtroom.  The hall leads back south.
+~
+0 D 0
+D2
+The hall leads south.
+~
+~
+0 -1 8507
+D3
+Large doors leads west into a courtroom.
+~
+~
+0 -1 8522
+S
+#8510
+Ladies Bathroom~
+You enter a very clean bathroom.  Several stalls line one wall.  A few of 
+the ladies are peering at you intently...they probably think you are some 
+kind of pervert.  The exit is south.
+~
+0 D 0
+D2
+The door leads south.
+~
+~
+0 -1 8503
+S
+#8511
+Hallway~
+You are walking down a long hallway, crowded with people.  Tourists and 
+reporters rudely push past you.  The voices in your head tell you to kill 
+them.  There is a sign over a door to the north, and the hall continues 
+east and west.
+~
+0 D 0
+D0
+A door leads north.
+~
+~
+0 -1 8512
+D1
+The hall leads east.
+~
+~
+0 -1 8502
+D3
+The hall leads west.
+~
+~
+0 -1 8513
+E
+sign~
+The sign reads: Gentlemen
+~
+S
+#8512
+Men's Bathroom~
+This bathrooms is a smelly, rank, foul place where no self-appreciating 
+person would ever find himself.  Thats why its the Men's bathroom.  
+Writing streaks the walls, there is no toilet paper to be found, and the 
+water doesn't run.  Several men in fancy suits are looking at you 
+strangely...they must think you are wierd to be standing there staring at 
+everything.  The exit is south.
+~
+0 D 0
+D2
+The door leads south.
+~
+~
+0 -1 8511
+S
+#8513
+Corner~
+The hallway bends here, to the north and to the east.
+~
+0 D 0
+D0
+The hall leads north.
+~
+~
+0 -1 8514
+D1
+The hall leads east.
+~
+~
+0 -1 8511
+S
+#8514
+Hallway~
+This part of the hallway contains a door to the west with a sign on it 
+which reads: 'Simpson, Defense'.  The rest of the hallway continues north 
+and south.
+~
+0 D 0
+D0
+The hall leads north.
+~
+~
+0 -1 8516
+D2
+The hall leads south.
+~
+~
+0 -1 8513
+D3
+A door leads west.
+~
+~
+0 -1 8515
+S
+#8515
+Defense Room~
+A long table covered in files and spilled coffee cups is the only thing 
+you can see in this room.  A few reporters lie about, waiting for some 
+lawyers to return and make a statement.  The exit is east.
+~
+0 D 0
+D1
+The door leads east.
+~
+~
+0 -1 8514
+S
+#8516
+Hallway~
+This is a rather boring hallway leading north and south.
+~
+0 D 0
+D0
+The hall leads north.
+~
+~
+0 -1 8517
+D2
+The hall leads south.
+~
+~
+0 -1 8514
+S
+#8517
+End of the Hallway~
+This is the end of the hallway, and to the east you can see an open set 
+of doors which seem to lead into a large courtroom.  The hall leads back 
+south.
+~
+0 D 0
+D1
+A courtroom lies east.
+~
+~
+0 -1 8518
+D2
+The hall leads south.
+~
+~
+0 -1 8516
+S
+#8518
+Courtroom~
+You have entered the back section of a large courtroom.  Several 
+observers sit in the benches around you, and reporters crowd the back 
+aisle.  The exit is west, and you can go further into the room to the east.
+~
+0 D 0
+D1
+Further into the courtroom.
+~
+~
+0 -1 8519
+D3
+The exit is west.
+~
+~
+0 -1 8517
+S
+#8519
+Defense Table~
+You are standing at the table for the defendant and his lawyers.  Papers 
+are strewn about the desk, and the defense lawyers are yelling back and 
+forth with the prosecution.  The judge slams his gavel down once or twice 
+and all is calm again...for now.  Exits are north, east, and west.
+~
+0 D 0
+D0
+Further into the courtroom.
+~
+~
+0 -1 8523
+D1
+Centre Aisle.
+~
+~
+0 -1 8520
+D3
+Back of the courtroom.
+~
+~
+0 -1 8518
+S
+#8520
+Centre Aisle~
+You are standing in the centre of the courtroom, between both tables of 
+lawyers.  The yelling is incessant.  The defense is to the west, the 
+prosecution is to the east, and the judge's bench is north.
+~
+0 D 0
+D0
+The judge's bench is north.
+~
+~
+0 -1 8524
+D1
+The prosecution table is east.
+~
+~
+0 -1 8521
+D3
+The defense table is west.
+~
+~
+0 -1 8519
+S
+#8521
+Prosecution Table~
+You are standing at the table for the Prosecution.  Objections fly back 
+and forth between the lawyers, and they bend down to whisper to one 
+another.  It looks like one big show for the TV reporters.  The witness 
+stand is north, while other exits lead east and west.
+~
+0 D 0
+D0
+The witness stand is north.
+~
+~
+0 -1 8525
+D1
+The back of the room is east.
+~
+~
+0 -1 8522
+D3
+The centre aisle is west.
+~
+~
+0 -1 8520
+S
+#8522
+Back of the Room~
+You are standing at the back of the courtroom with the reporters and 
+observers.  It is hard to make out the people at the front of the room 
+with all the people in here.  The door out is east, and you can get 
+further into the room west.
+~
+0 D 0
+D1
+The door is east.
+~
+~
+0 -1 8509
+D3
+The courtroom is west.
+~
+~
+0 -1 8521
+S
+#8523
+Reporter's Desk~
+This is the court reporters desk, and you can see the record of the days 
+session sitting in the typing machine.  The judge is immediately to the 
+east, and he is glowering at you for disturbing the court. The Defense 
+table is south.
+~
+0 D 0
+D1
+The judge's bench is east.
+~
+~
+0 -1 8524
+D2
+The defense table is south.
+~
+~
+0 -1 8519
+S
+#8524
+Judge Ito's Bench~
+This neatly piled bench has several hourglasses upon it.  Papers lie in 
+neat piles and you quietly notice that Judge Ito has a game of poker 
+going on his computer!  A door to his chambers is to the south, the 
+reporters desk is west, and the witness stand is east.
+~
+0 D 0
+D0
+A door leads north.
+~
+~
+0 -1 8526
+D1
+The witness stand is east.
+~
+~
+0 -1 8525
+D3
+The reporter's desk is west.
+~
+~
+0 -1 8523
+S
+#8525
+Witness Stand~
+This is a small booth with a bible and a microphone on the front of it.  
+Witnesses are sworn in and then use their best radio voices to impress 
+the millions of viewers on CNN who are watching the trial.  The 
+Prosecution sits to the south, and the judge's bench is west.
+~
+0 D 0
+D2
+The prosecution is south.
+~
+~
+0 -1 8521
+D3
+The judge's bench is west.
+~
+~
+0 -1 8524
+S
+#8526
+Judge's Chambers~
+You enter a large, cozy office with a large mahogany desk and padded 
+chair.  What you didn't expect to see was the chains and rack on the west 
+wall.  Judge Ito is one big pervert!  Better leave before he catches you 
+in here.  The exit is south.
+~
+0 D 0
+D2
+The exit is south.
+~
+~
+0 -1 8524
+S
+#0
+#RESETS
+M 0 8500 1 8501
+E 1 8500 1
+*
+M 0 8500 1 8502
+E 1 8500 1
+*
+M 0 8500 1 8503
+E 1 8500 1
+*
+M 0 8501 2 8504
+M 0 8501 2 8506
+M 0 8501 2 8513
+M 0 8501 3 8518
+M 0 8501 2 8522
+*
+M 0 8502 2 8510
+*
+M 0 8503 3 8512
+*
+M 0 8504 1 8518
+M 0 8504 1 8522
+*
+M 0 8504 1 8523
+E 1 8501 1
+*
+M 0 8505 1 8524
+G 1 8502 1
+G 1 8509 1
+*
+M 0 8506 1 8519
+G 1 8503 1
+G 1 8507 1
+*
+M 0 8507 1 8519
+G 1 8505 1
+*
+M 0 8508 1 8519
+G 1 8504 1
+*
+M 0 8509 1 8521
+G 1 8506 1
+*
+M 0 8510 1 8521
+G 1 8508 1
+*
+M 0 8511 1 8525
+*
+M 0 8512 12 8522
+*
+M 0 8513 1 8526
+*
+D 0 8503 0 1
+*
+D 0 8511 0 1
+*
+D 0 8524 0 1
+*
+D 0 8507 1 1
+*
+D 0 8514 3 1
+S
+#SPECIALS
+M 8505 spec_cast_mage
+#$
+
+

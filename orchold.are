@@ -1,0 +1,3416 @@
+#AREA   The Orc Holdings~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+10 20 1 30
+$
+
+#RESETMSG The grunt of an orc signals the arrival of new enemies.~
+
+#FLAGS
+0 8
+
+#ECONOMY 0 2341280
+
+#MOBILES
+#3100
+priestess forest~
+the priestess of the forest~
+A middle aged woman with handsome features awaits you.
+~
+A handsome woman of middle years, the priestess was ousted from her
+tower by a band of marauding orcs, who are too powerful for her to combat
+alone. She would be extremely grateful to any who aided her in liberating
+her tower.
+~
+3 6300332 765 C
+30 0 -300 20d20+1000 3d3+20
+100000 0
+8 8 2
+13 18 22 13 13 22 18
+0 0 0 0 0
+0 1 0 0 1 1 2
+0 0 47 3670272 7168 0 1310720800 198
+> all_greet_prog 100~
+if isnpc($n)
+else
+if level($n) < 20
+say Greetings, neophyte adventurer. Doubtless you wander these 
+say woods in search of a way to prove your worth. Well I have
+say a quest for you, if you are interested. Are you?
+smile
+else
+endif
+endif
+~
+> speech_prog p yes~
+if level($n) < 20
+say Excellent!
+smile
+say Now pay close attention- To the north of here lies a tower of
+say stone, a magnificent structure that the current evil occupants
+say are far from worthy of. I bid thee enter this tower, slay the
+say evil within, and return to me the key, with which I may bar it
+say to further intruders. In return, I shall reward you well...
+else
+shake
+say You would find my mission to be too easy, friend.
+endif
+~
+> speech_prog p no~
+if level($n) < 20
+sigh
+say Ah well, I shall have to keep this priceless artifact for someone
+say with more courage and skill, 'twould seem...
+else
+endif
+~
+> fight_prog 33~
+c unravel
+c feebleness
+c blindness
+c weaken 
+c 'faerie fire'
+c 'dispel magic' $n
+~
+> fight_prog 20~
+c harm
+c heal
+mpat 3 c 'cure blindness'
+mpat 3 c 'cure poison'
+~
+> give_prog large silver key~
+if level($n) < 20
+smile
+say Well done! Truly you have the potential to be a great hero!
+say As a reward, take this, my holy symbol.
+mpjunk key
+mpoload 3101 15
+give gift $n
+clap
+else
+smirk
+say Thanks, I'm sure you found that REAL tough...
+mpjunk key
+endif
+~
+|
+#3101
+orc sentry~
+an orc sentry~
+A burly orc stands guard here.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+35 512 -700 C
+10 0 0 6d5+150 2d4+4
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 16 3
+> fight_prog 10~
+yell Intruders in the tower! Alarum!
+, leaps for an alarm bell haning inside the doorway.
+if rand(60)
+, grabs the chain and pulls it hard! An orc appears to assist him!
+mpmload 3101
+else
+endif
+~
+> fight_prog 25~
+pull lever
+~
+> rand_prog 2~
+yawn
+mutter
+~
+|
+#3102
+orc sergeant~
+an orc sergeant~
+An orcish sergeant keeps an eye on the rabble he commands.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+35 512 -700 C
+11 0 0 1d1+200 2d4+6
+200 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 528 3
+> rand_prog 2~
+say Hoi! You lot! Look alive there!
+mutter
+say Bleedin' ingrates...
+~
+> greet_prog 100~
+if ispc($n)
+say Well wot you want then, 'ay?
+mutter
+snarl
+endif
+~
+|
+#3103
+orc guard~
+an orcish guard~
+An offduty orc sits here playing cards.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+35 512 -700 C
+10 0 0 6d5+150 2d4+4
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 16 3
+> fight_prog 20~
+wield longsword
+grunt
+disarm
+~
+> rand_prog 2~
+smile
+say GIN!
+cackle
+mpe The other orcs throw down their cards in disgust.
+~
+> rand_prog 2~
+mutter
+say What a crap hand!
+~
+|
+#3104
+black pudding~
+a black pudding~
+An amorphous mass of black goo slides towards you.
+~
+~
+33 552 0 C
+22 0 -100 10d10+500 4d4+20
+0 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+61 3 0 0 8192 8192 0
+0 0 0 1048576 2100638 0 384 2
+> fight_prog 20~
+mea $n A pseudopod lunges from the mass, striking you!
+mpdamage $n 75
+c poison $n
+c weaken $n
+c feebleness $n
+~
+> fight_prog 2~
+mea $n Suddenly the pudding lunges, and engulfs you! You dissolve in
+mea $n seconds, till only a pile of bones and equipment is left.
+mpslay $n
+~
+|
+#3105
+ballista orc~
+a ballista orc~
+An orc stands ready near the ballista.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+35 512 -700 C
+10 0 0 6d5+150 2d4+4
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 1 1 0
+0 0 47 2097408 0 0 16 3
+> fight_prog 10~
+, dashes for the ballista, and wheels it to point back at you!
+mpforce $n cringe
+, pulls the trigger! A ballista bolt comes hurtling forwards...
+if luck($n) < 14
+mea $n Striking you in the chest!
+mpechoar $n Striking $n in the chest!
+mpdamage $n 125
+else
+mpe And it sails over the edge of the battlements!
+curse
+endif
+~
+|
+#3106
+orc guard~
+an orcish guard~
+An offduty orc sits here playing craps.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+35 512 -700 C
+10 0 0 6d5+150 2d4+4
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 16 3
+> rand_prog 2~
+mutter
+, shakes the bone dice vigorously in one gnarled hand.
+say Lady give me new shoes...
+mpe He throws...seven!
+cackle
+~
+> fight_prog 20~
+wield longsword
+gouge
+cackle
+~
+> rand_prog 1~
+, slurps noisily from a greasy jack of ale.
+burp
+say 'Scuse me!
+~
+> act_prog p Loud snoring, interspersed by hiccups, can be heard.~
+say Shaddup!
+, hurls a tin can at someone to the west.
+mutter
+~
+|
+#3107
+boss hobgoblin shaman~
+the "Boss"~
+A massive hobgoblin shaman stands here roaring at his lackeys.
+~
+This vile sorcerer masterminded the takeover of the tower from its
+rightful owners, and now uses it as a base from which to send his troops
+on raids through the surrounding regions. Crafty, belligerent and quite
+ruthless, he is unlikely to go down without a fight.
+~
+35 33448 -1000 C
+20 0 -100 10d10+500 2d4+12
+15000 0
+8 8 1
+18 13 18 18 18 13 13
+0 0 0 0 0
+0 1 0 0 16384 16384 2
+0 0 47 3185920 0 0 1109393952 3
+> fight_prog 50~
+if rand(20)
+c feebleness
+c 'energy drain'
+else
+if rand(25)
+stun
+disarm
+gouge
+else
+if rand(30)
+c 'faerie fire'
+c 'dispel magic' $n
+c ill $n
+c lethargy $n
+else
+endif
+endif
+endif
+~
+> greet_prog 100~
+snicker
+if ispc($n)
+say Wretched adventurer, you have sealed your doom by coming here!
+cackle
+, utters a series of incantations, encasing himself in protective magics.
+c shield
+c stone
+c armor
+c bless
+c kin
+c slink
+else
+endif
+~
+|
+#3108
+elite hobgoblin guard~
+an elite hobgoblin guard~
+A massive hobgoblin stands guard near the stairwell.
+~
+These are the personal guards of the Boss and his staff, and are fanatically
+loyal to their employers.
+~
+35 520 -500 C
+14 0 0 1d1+300 2d6+10
+500 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16384 0
+0 0 47 3072 0 0 128 524291
+> rand_prog 2~
+peer
+wield crossbow
+~
+> fight_prog 20~
+gouge
+, fires his crossbow!
+mpdamage $r 50
+~
+> act_prog p from the north.~
+if ispc($n)
+yell INTRUDERS AT THE BOSS! SEND REINFORCEMENTS!
+say BANZAI! CHARGE!
+scream
+murder $n
+stun
+else
+say Go 'way!
+mpforce $n n
+endif
+~
+|
+#3109
+orc captain~
+an orc captain~
+An orcish captain narrows his eyes and sneers in contempt.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+3 512 -700 C
+13 0 0 5d5+250 1d4+12
+500 0
+8 8 1
+18 13 13 18 18 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 528 3
+> fight_prog 10~
+, fires his crossbow into the melee.
+zap $n
+mpdamage $n 20
+if rand(30)
+stun
+else
+wield sword
+endif
+~
+> greet_prog 100~
+if ispc($n)
+snarl
+say Foolish, yes, foolish, to enter here.
+cackle
+say I will kill you, when I finish my meal.
+else
+mutter
+endif
+~
+|
+#3110
+ogre captain~
+the ogre captain~
+The captain of the ogrish garrison sits here drinking.
+~
+This towering humanoid has the strength of ten humans, and knows how
+to use it to inflict maximum pain and suffering upon his hapless
+opponents, be they small or large. Too stupid to know fear, these 
+ogres make perfect shock troops.
+~
+3 552 -1000 C
+18 0 -75 1d1+400 1d10+10
+1000 0
+8 8 1
+22 13 13 13 20 13 13
+0 0 0 0 0
+6 3 0 0 48 16 2
+0 0 47 1048848 2097152 0 400 3
+> all_greet_prog 100~
+if ispc($n)
+say Go 'way. Me no feel like fightin' now.
+burp
+stretch
+else
+, snorts in derision.
+endif
+~
+> fight_prog 25~
+say Want fight, eh? Me fight then. HARD!
+cackle
+disarm
+stun
+gouge
+~
+> hitprcnt_prog 10~
+say That HURT! Ogre MAD!
+, roars in anger and pain, and makes a last effort to best you.
+punch
+kick
+gouge
+disarm
+stun
+~
+|
+#3111
+troll~
+a troll~
+A ten foot tall troll is smashing furniture over his head.
+~
+This foul brute is the representative of a band of trolls from the
+Kore who is considering joining his tribe with the forces in the tower
+in assaulting the hated humans and elves.
+~
+35 544 -1000 C
+20 0 0 1d1+500 2d6+12
+10000 0
+8 8 1
+22 13 13 22 22 13 13
+0 0 0 0 0
+8 3 0 0 64 64 2
+0 0 262191 1051760 2097152 129 3 2
+> fight_prog 10~
+mpe The trolls wounds heal almost as fast as you inflict them!
+mpat 3 c heal
+mpat 3 c 'cure poison'
+mpat 3 c 'cure blindness'
+cackle
+~
+> fight_prog 20~
+feed
+if rand(40)
+stun
+else
+gouge
+endif
+~
+> rand_prog 2~
+scream
+grunt
+drool
+~
+|
+#3112
+orc shaman~
+an orcish shaman~
+The shaman is seated here behind a desk, drafting a letter.
+~
+The orcish spellcasters are a valued asset to the tower forces,
+capable of healing them as well as doing great harm to their enemies.
+~
+35 512 -750 C
+13 0 0 6d5+150 2d4+4
+500 0
+8 8 1
+13 13 18 13 13 13 13
+0 0 0 0 0
+53 1 0 0 32 32 0
+0 0 47 1051648 0 0 1113587712 82
+#3113
+orc witchdoctor~
+an orcish witchdoctor~
+The orcish witchdoctor is asleep in bed.
+~
+The orcish spellcasters are a valued asset to the tower forces,
+capable of healing them as well as doing great harm to their enemies.
+~
+3 512 -750 C
+13 0 0 6d5+150 2d4+4
+500 0
+8 8 1
+13 18 13 13 13 13 13
+0 0 0 0 0
+53 0 0 0 32 32 0
+0 0 47 1051648 0 0 1344274432 66
+> fight_prog 10~
+c chill
+c 'galvanic whip'
+c 'black hand'
+~
+> rand_prog 2~
+snore
+mpasound You hear someone snoring loudly behind the door to the west.
+~
+|
+#3114
+ogre ~
+an ogre~
+A hulking ogre tosses a large rock around.
+~
+This brutish thug is more than capable of tearing the heads off most
+humanoids and using them instead of the rock in his game. Thus most
+of the other troops garrisoned in the tower prefer to avoid him and
+his ilk.
+~
+35 512 0 C
+15 0 0 1d1+400 1d10+10
+1000 0
+8 8 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 16 16 0
+0 0 47 2097152 0 0 144 2
+> greet_prog 33~
+if ispc($n)
+grunt
+mpe The ogre appears to be angered by your presence!
+say Here...catch!
+mea $n The ogre hurls a large rock at you!
+mpdamage $n 25
+mpforce $n say Oof!
+stun
+else
+say Go 'way, $n. We busy!
+endif
+~
+|
+#3115
+orc smith~
+a drunken orcish smith~
+A drunken orcish smith snores loudly.
+~
+The orcs keep a smith here to repair any items that they feel are
+worth the effort; such is his state of inebriation that he cannot
+readily distinguish between friend or foe, and will most probably repair
+anything thrust at him.
+~
+67 512 0 C
+15 0 0 6d5+180 2d4+4
+1200 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 2048 0 272 3
+> greet_prog 100~
+mea $n $I stares at you through bloodshot eyes.
+say Huh? Whazzat? 
+mutter
+hic
+say Need sumptin repaired, then?
+burp
+, wipes his filthy mouth on an equally filthy sleeve.
+~
+> rand_prog 2~
+evilgrin
+hic
+~
+> rand_prog 5~
+mpasound Loud snoring, interspersed by hiccups, can be heard.
+~
+|
+#3116
+goof orc sleeping sentry~
+a lazy orc~
+A small orc sits in one of the chairs snoring away.
+~
+This burly goblinoid creature guards a key area of the tower's defense
+orcs may not be very intelligent but they are excellent tacticians and
+battle masters.
+~
+3 512 -700 C
+8 0 0 6d5+150 2d4+4
+10 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 16 3
+> rand_prog 2~
+giggle
+sigh
+~
+|
+#3117
+ogre sentry~
+an ogre~
+An ogre sentry stands guard before the north door.
+~
+Paying remarkably good attention for an ogre, this fellow has determined
+to successfully prevent any intrusion- by killing anyone who comes near
+him.
+~
+35 552 0 C
+16 0 0 1d1+400 1d10+10
+1000 0
+8 8 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 16 16 0
+0 0 47 2097152 0 0 144 2
+> greet_prog 100~
+if ispc($n)
+snarl
+say Intruder! Die!
+, raises a meaty fist and slams it into your midsection!
+mpdamage $n 45
+else
+endif
+~
+> rand_prog 2~
+peer
+smile
+~
+|
+#3118
+orc cook~
+the orc cook~
+A burly cook hefts a bloodstained cleaver.
+~
+This huge orc is the cook; he has to be huge to escape being slain for
+the consistently inedible quality of his meals.
+~
+35 512 -700 C
+18 0 0 6d5+220 2d8+8
+200 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+53 3 0 0 32 32 0
+0 0 47 2097408 0 0 528 524291
+> greet_prog 100~
+if ispc($n)
+say Orc chop!
+snarl
+cackle
+slaughter
+else
+endif
+~
+> fight_prog 75~
+disarm
+wield cleaver
+~
+> fight_prog 20~
+cackle
+drool
+yell FRESH MEAT!
+~
+> death_prog 100~
+mpe _lbl The orc cook says 'Whoops, looks like I'm next in the stew!'
+~
+> rand_prog 2~
+chuckle
+say Nice stew... Halfling guts!
+muhaha
+mpe The halfling groans weakly, and is smashed in the face for his efforts.
+say QUIET, little greasy OIK!
+mutter
+~
+|
+#3119
+elf warrior~
+an elven warrior~
+An elven warrior is chained to the wall.
+~
+This unfortunate was captured whilst scouting on behalf of Malathar.
+He knows he is next in the stew, and is eager to escape.
+~
+3 8744 0 C
+18 0 0 6d5+350 4d3+14
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 2 2 0
+0 0 1775 0 2100224 0 528 2
+> all_greet_prog 100~
+if ispc($n)
+mpe The elf's eyes flick open as you enter.
+say Pray stranger, release me, I beseech thee!
+say Your reward will be great. Simply say you will release me.
+, stares imploringly at you.
+else
+endif
+~
+> speech_prog p i will release you~
+smile
+say Excellent!
+mea $n You draw your weapon and smash the chains binding the elf.
+, rubs his sore wrists and glances about nervously.
+say I must be off from this dark place. But first, take this...
+mpoload 3136 1
+give token $n
+say Take that to Captain Allethandra in Malathar, and he will
+say reward you for your assistance in our mission.
+wave
+mpe The elf dashes out the door and disappears.
+mpgoto 2
+~
+|
+#3120
+gelatinous cube~
+a gelatinous cube~
+A massive transparent cube of gelatinous matter oozes along.
+~
+This horror is a transparent mass of... goo that devours anything
+and everything in its path, especially adventurers.
+~
+97 512 0 C
+18 0 0 10d10+200 1d10+10
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+52 3 0 0 8192 8192 0
+0 0 0 1048588 2104722 1 1073746304 2
+> fight_prog 10~
+mea $n A pseudopod from the cube lashes out striking you in the chest!
+mea $n You feel a mild tingling sensation... paralysis!
+stun
+mpdamage $n 50
+~
+> death_prog 100~
+mpe As the beast dies, an item falls loose from within its guts.
+if rand(10)
+mpoload 3137 1
+drop ring
+else
+if rand(15)
+mpoload 3138
+drop helmet
+else
+if rand(20)
+mpoload 3139 
+drop greaves
+else
+if rand(25)
+mpoload 3140
+drop buckler
+else
+mpoload 3141
+drop potion
+endif
+endif
+endif
+endif
+~
+> rand_prog 2~
+mpasound A horrid slurping sound can be heard further down the corridor.
+~
+|
+#3121
+closet skeleton~
+a closet skeleton~
+As you enter, a skeleton leaps out of the cupboard!
+~
+This is the remains of a poor soul who was hiding from the orcs
+and perished from starvation. Now his animated form seeks revenge
+on those who it blames for its fate- everyone.
+~
+16419 98856 0 C
+14 0 0 6d5+180 2d4+4
+7500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 8192 8192 0
+0 0 0 64 7456 16 515 2
+> greet_prog 100~
+mpe As you enter, the door of the wardrobe is flung open!
+, chatters its teeth menacingly and stalks forward, bones creaking.
+mpkill $n
+~
+|
+#3122
+peasant girl~
+a peasant girl~
+A filthy girl, her face stained with tear streaked dirt, grovels here.
+~
+This harmless wench was stolen from the tavern she worked at while she
+was outside chopping wood. She wants only to return home.
+~
+3 512 0 C
+5 0 0 10d10+50 1d4+2
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 0 0 0 576 0
+> rand_prog 2~
+, sobs uncontrollably.
+~
+|
+#0
+
+
+#OBJECTS
+#3100
+large silver key~
+a large silver key~
+A large silver key gives off a magical light.~
+~
+18 524385 16385
+0 0 0 0
+22 50000 5000
+#3101
+gift priestess symbol~
+the Gift of the Priestess~
+A glowing silver holy symbol lies on the ground.~
+~
+9 8422721 16385
+14 0 0 0
+1 100000 10000
+A
+4 2
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 2
+A
+24 -1
+#3102
+longsword~
+a longsword~
+A rather battered longsword has been abandoned here.~
+~
+5 524288 8193
+0 0 0 3
+4 100 10
+#3103
+ring mail~
+ring mail~
+A suit of stained ring mail armor is piled in a corner.~
+~
+9 524288 9
+5 0 0 0
+12 150 15
+A
+17 -5
+A
+13 10
+A
+19 1
+#3104
+spiked shield~
+a spiked shield~
+A spiked shield lies on the ground.~
+~
+9 524288 513
+8 0 0 0
+10 450 45
+A
+19 2
+#3105
+two handed sword~
+a two handed sword~
+A massive two handed sword lies here.~
+~
+13 524288 8193
+0 0 0 0
+15 400 40
+A
+19 3
+A
+2 -1
+#3106
+lever~
+a lever ~
+A lever is set in the wall near the portcullis.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> pull_prog 100~
+close portcullis
+lock portcullis
+mpe With a rumbling sound, the portcullis slides shut.
+~
+> push_prog 100~
+unlock portcullis
+open portcullis
+mpe The portcullis slowly creaks upward.
+~
+|
+#3107
+black cauldron~
+a black cauldron~
+A massive black cauldron rests near a narrow gap in the tower wall.~
+~
+15 524290 1
+1500 5 -1 0
+500 1500 150
+> exa_prog 100~
+mea $n As you lift the lid to peek inside, a massive black shape slides out!
+mpmload 3104
+~
+|
+#3108
+massive ballista~
+a massive ballista~
+A massive ballista is mounted here.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3109
+gold throne~
+a golden throne~
+A golden throne sits at the end of the dining table.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+E
+throne~
+The throne has two large handles set near its base, enabling it to be
+pushed and pulled back and forth...
+~
+> push_prog 100~
+mea $n You set your shoulder against the throne and shove...
+mpechoar $n $n sets $s shoulder against the throne and shoves...
+if str($n) < 16
+mea $n Try as you might, you cannot budge it.
+mpechoar $n $n cannot budge it!
+else
+mpe The throne shudders and moves aside, revealing a secret passage!
+mpopenpassage 3155 3156 0
+endif
+~
+> pull_prog 100~
+mpe The throne slides easily back into place.
+mpclosepassage 3155 0
+~
+|
+#3110
+table~
+a scarred dining table~
+A scarred, stained wooden table thirty feet long fills this chamber.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3111
+large two handed mace~
+a large two handed mace~
+A mace nearly five feet long rests here.~
+~
+5 524880 8193
+0 0 0 8
+20 5000 500
+A
+1 1
+A
+5 1
+A
+18 4
+A
+19 4
+#3112
+shaman plate~
+Shaman Plate~
+A suit of glowing plate mail rests on the floor.~
+~
+9 528914 9
+8 0 0 0
+33 13243 1324
+A
+17 -10
+A
+25 -3
+A
+12 40
+A
+24 -3
+A
+19 3
+#3113
+shaman scroll~
+the shaman's scroll~
+A dusty scroll lies here.~
+~
+2 0 16385
+22 64 43 -1
+1 500 50
+#3114
+crossbow~
+a heavy crossbow~
+A crossbow rests on its stirrup here.~
+~
+5 0 8193
+0 0 0 6
+10 1000 100
+#3115
+plate mail~
+plate mail~
+A set of hobgoblin plate mail lies here.~
+~
+9 524288 9
+8 0 0 0
+10 1200 120
+#3116
+pistol crossbow~
+a pistol crossbow~
+This crossbow is small but lethal.~
+~
+3 64 16385
+20 12 12 33
+2 1500 150
+A
+18 2
+A
+2 2
+#3117
+ogre gauntlets~
+the ogre captain's gauntlets~
+A pair of heavy bronze gauntlets, stained with blood, lies here.~
+~
+9 578130 129
+8 0 0 0
+30 12000 1200
+A
+1 2
+A
+13 10
+A
+18 -2
+A
+19 3
+> wear_prog 100~
+if rand(5)
+c kin $n
+endif
+~
+|
+#3118
+chest~
+a small chest~
+A small chest rests near the table.~
+~
+15 262144 1
+100 5 -1 0
+10 5560 100
+#3119
+jeweled necklace~
+a jeweled necklace~
+This necklace appears to be quite valuable.~
+~
+9 65 5
+3 0 0 0
+2 15000 1500
+A
+3 2
+A
+12 35
+A
+24 -3
+#3120
+large gem~
+a large gem~
+A gem of considerable value rests here.~
+~
+8 0 1
+0 0 0 0
+1 500 50
+#3121
+morning star~
+a morning star~
+A spiked ball attached to a long chain lies here.~
+~
+5 64 8193
+0 0 0 8
+10 500 50
+A
+19 2
+A
+21 -2
+#3122
+potion healing~
+a potion of healing~
+Someone dropped a potion bottle here.~
+~
+10 64 1
+10 28 -1 -1
+1 4000 400
+#3123
+wooden staff~
+a wooden staff~
+You see a wooden staff on the floor.~
+~
+5 0 8193
+0 0 0 7
+5 50 5
+A
+12 30
+A
+13 30
+#3124
+scroll~
+the witchdoctor's scroll~
+A scroll has been dropped here.~
+~
+2 64 1
+20 32 32 32
+1 100 10
+#3125
+bone dice loaded~
+a pair of loaded dice~
+A pair of bone dice weighted with lead sit here.~
+~
+9 64 16385
+1 0 0 0
+1 100 10
+A
+31 3
+#3126
+dirty leather sleeves~
+dirty leather sleeves~
+These sleeves bear more stains than a Westport beggar.~
+~
+9 0 257
+3 0 0 0
+3 10 1
+A
+1 1
+A
+2 1
+A
+19 3
+#3127
+iron hammer~
+an iron hammer~
+A heavy iron hammer rests on the floor.~
+~
+5 524288 8193
+0 0 0 8
+18 400 40
+A
+19 3
+#3128
+crude bone earring~
+a crude bone earring~
+A piece of animal bone lies on the ground.~
+~
+13 594 65537
+3 0 0 0
+1 1000 100
+A
+5 2
+#3129
+large chest~
+a large chest~
+A large oak chest rests near the eastern wall.~
+~
+15 0 0
+500 5 -1 0
+1 0 0
+#3130
+large chest~
+a large chest~
+A large oak chest rests near the western wall.~
+~
+15 0 0
+500 5 -1 0
+1 0 0
+#3131
+pile gold ~
+a pile of gold~
+A pile of gold lies here.~
+~
+20 0 1
+4500 0 0 0
+1 0 0
+#3132
+sack gems~
+a sack of gems~
+A small sack overflowing with gems lies here.~
+~
+8 0 16385
+0 0 0 0
+1 3750 375
+#3133
+pile silver~
+a pile of silver~
+A pile of silver lies here.~
+~
+20 0 1
+253 0 0 0
+1 0 0
+#3134
+ivory box~
+a small ivory box~
+A small ivory box has been placed here. ~
+~
+15 65 1
+220 5 -1 0
+2 15000 1500
+#3135
+huge meat cleaver~
+a huge meat cleaver~
+A massive meat cleaver covered in blood and guts lies here.~
+~
+5 524288 8193
+0 0 0 1
+8 100 10
+A
+1 1
+A
+19 4
+#3136
+token gratitude~
+a token of gratitude~
+This token marks the bearer as a friend of the elves.~
+~
+8 0 1
+0 0 0 0
+1 1000 100
+#3137
+ring invisibility~
+a ring of invisibility~
+A small brass ring is barely visible on the floor.~
+~
+9 524384 3
+2 0 0 0
+1 1500 150
+> wear_prog 100~
+c invis $n
+~
+> remove_prog 100~
+mea $r You shimmer into existence as you remove the ring.
+mpforce $r vis
+~
+|
+#3138
+iron helmet~
+an iron helmet~
+A rusted iron helmet has been dropped here.~
+~
+9 17350672 17
+8 0 0 0
+1 50 5
+A
+1 1
+A
+13 20
+A
+17 -10
+A
+18 -2
+#3139
+iron greaves~
+heavy iron greaves~
+A pair of heavy iron greaves has been left here.~
+~
+9 17351184 33
+0 0 0 0
+34 100 10
+A
+2 -1
+A
+13 10
+A
+19 2
+A
+29 5
+#3140
+buckler~
+a buckler~
+A brilliant white buckler rests on the ground.~
+~
+9 8946752 513
+8 0 0 0
+8 10000 1000
+A
+48 10
+A
+2 2
+A
+13 10
+A
+12 10
+A
+19 3
+#3141
+potion strength~
+a potion of strength~
+A potion of thick grey liquid rests here.~
+~
+10 66 1
+33 39 206 -1
+1 400 40
+#3142
+wardrobe~
+a wardrobe~
+A dusty wardrobe sits in a corner.~
+~
+15 0 0
+1000 5 -1 0
+1 0 0
+#3143
+skeleton closet~
+a skeleton in the closet~
+Everyone has skeletons in their closets...~
+~
+13 16 1
+0 0 0 0
+30 0 0
+#3144
+desk~
+a desk~
+A small desk with a single drawer rests here.~
+~
+15 0 0
+50 5 -1 0
+1 0 0
+#3145
+orcstone~
+orcstone~
+A small black stone lies on the ground.~
+~
+4 114 16385
+10 2 2 235
+3 18500 1850
+A
+26 512
+#3146
+dying halfling~
+a dying halfling~
+A dying halfling is having his guts boiled as he watches.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3100
+A Lightly Wooded Field~
+The path passes from rolling fields into a light wood at this point;
+a scattering of aspen, oak and pine that stretches for several acres
+to the north and west. To the north, a tall stone tower can be seen,
+rising up from amongst the trees. You think you can see several
+birdlike creatures soaring about its spire.
+~
+0 4 3
+D0
+~
+~
+0 -1 3101
+S
+#3101
+Footprints in the Dirt~
+The path continues into the wood, the trees gradually becoming more
+densely packed the further you progress. Small song birds trill
+noisily from the boughs of the leafy trees to either side, some of
+them occasionally depositing unwelcome packages upon passers-by below.
+The path bears many sets of footprints, most of them made by flat
+footed humanoids; orcs, perhaps, or goblins.
+~
+0 0 3
+D0
+~
+~
+0 -1 3103
+D2
+~
+~
+0 -1 3100
+D3
+~
+~
+0 -1 3102
+E
+footprints~
+You notice that the tracks head north and south, conspiciously avoiding
+a narrow path that runs westward.
+~
+S
+#3102
+A Clearing in the Woods~
+At this point someone or something has cleared a number of trees,
+creating a small grassy area, roughly circular in shape, within
+which a series of circles of standing stones, some as high as five
+feet, have been arranged, surrounding a small raised dais, upon
+which rests a stone chair bearing a soft cushion. A place of meditation
+and rest, it would seem.
+~
+0 0 2
+D1
+~
+~
+0 -1 3101
+> rand_prog 33~
+mpe _lbl A sense of well being pervades you.
+~
+|
+S
+#3103
+Approaching the Tower~
+As you draw nearer the tower, you are better able to accurately 
+appraise its dimensions and defenses. It is roughly eighty feet in
+height, and thirty feet wide at the base. Several parapets jut from
+the walls, and upon these stand alert guards, near heavy ballistas
+trained on the ground below. The path runs directly north, crossing
+a narrow drawbridge which spans a wide, deep moat full of murky
+water.
+~
+0 0 1
+D0
+~
+~
+0 -1 3104
+D2
+~
+~
+0 -1 3101
+S
+#3104
+The Drawbridge~
+A rather creaky drawbridge spans the moat here, heading north towards
+a raised portcullis that marks the entrance into the tower. Peering
+down into the waters of the moat, you see many scores of tiny fish
+with razor sharp teeth, eager to tear into anyone foolish enough to
+enter their watery lair. You shudder and prepare to press on.
+~
+0 0 2
+D0
+~
+~
+0 -1 3105
+D2
+~
+~
+0 -1 3103
+D5
+~
+~
+0 -1 3199
+S
+#3105
+A Portcullis~
+The drawbridge ends here, before a portcullis which has been raised
+enough to allow creatures of medium height to walk underneath without
+impedement. It is almost as if the inhabitants within were expecting
+someone or something's return; undoubtedly not an adventurer, however!
+A foul smell, as of unwashed clothing, can be detected even from here;
+whatever resides within is not exactly a stickler for cleanliness and
+hygiene.
+~
+0 0 0
+D0
+~
+portcullis~
+1 -1 3106
+D2
+~
+~
+16777216 -1 3104
+S
+#3106
+The Courtyard~
+You pass into a broad courtyard, which extends in all directions, 
+filling the entire first level of the tower. A staircase is visible
+to the north, while little of interest can be seen to the east and
+west. The ground is littered with broken weapons and food scraps,
+indicating frequent usage by some assortment of creatures. The smell
+is stronger here than outside, and is now mingled with a far more
+unpleasant, but uncomfortably familiar, odor; that of orcs.
+~
+0 8 0
+D0
+~
+~
+0 -1 3109
+D1
+~
+~
+0 -1 3108
+D2
+~
+portcullis~
+1025 -1 3105
+D3
+~
+~
+0 -1 3107
+S
+#3107
+The Courtyard~
+Debris is scattered across the ground of the courtyard, deposited over
+a period of months by the current occupants, who were undoubtedly not
+the original ones; no orc would build a construct such as this- far
+too much attention has been paid to architectural detail and such. It
+smacks of a human fortification, built as a barracks for a garrison,
+perhaps, or by a human lord to house his family and possessions.
+~
+0 8 0
+D1
+~
+~
+0 -1 3106
+S
+#3108
+The Courtyard~
+Debris is scattered across the ground of the courtyard, deposited over
+a period of months by the current occupants, who were undoubtedly not
+the original ones; no orc would build a construct such as this- far
+too much attention has been paid to architectural detail and such. It
+smacks of a human fortification, built as a barracks for a garrison,
+perhaps, or by a human lord to house his family and possessions.
+~
+0 8 0
+D3
+~
+~
+0 -1 3106
+S
+#3109
+The Stairwell~
+At this point you come across a wide staircase that winds up and down
+the tower, allowing access to the various other levels of this 
+structure. The passage of many thousands of pairs of booted feet has
+worn the stones smooth here, evidence of habitation over a long period.
+Despite this, the stair appears to be in good condition; evidently the
+orcs have not been here long enough to wreak their trademark havoc upon
+the structure's condition yet.
+~
+0 12 0
+D2
+~
+~
+0 -1 3106
+D4
+~
+~
+0 -1 3111
+D5
+~
+~
+0 -1 3110
+S
+#3110
+The Basement~
+The stairs terminate in the lower level of the tower, a basement
+wherein a variety of goods are stored in a series of storerooms set
+either side of a long corridor lit by smoky torches that runs north
+south through the tower. You doubt you will find little of interest
+stored down here.
+~
+0 8 0
+D2
+~
+~
+0 -1 3112
+D4
+~
+~
+0 -1 3109
+S
+#3111
+The Second Level~
+The stairs end here, at a long narrow corridor that runs past several
+large iron cauldrons, towards a second stairwell far to the south,
+which presumably heads up to the upper levels. No orcs are visible here;
+perhaps there are other defenses here.
+~
+0 8 0
+D2
+~
+~
+0 -1 3124
+D5
+~
+~
+0 -1 3109
+S
+#3112
+The Basement~
+The corridor continues, passing several doors to the east and west, ending
+to the south at a stone wall which bears a grinning skull insignia; doubtless
+the totem of the orc clan currently living here.
+~
+0 8 0
+D0
+~
+~
+0 -1 3110
+D1
+~
+~
+3 -1 3116
+D2
+~
+~
+0 -1 3113
+D3
+~
+~
+3 -1 3117
+S
+#3113
+The Basement~
+The corridor continues, passing several doors to the east and west, ending
+to the south at a stone wall which bears a grinning skull insignia; doubtless
+the totem of the orc clan currently living here.
+~
+0 8 0
+D0
+~
+~
+0 -1 3112
+D1
+~
+~
+3 -1 3118
+D2
+~
+~
+0 -1 3114
+D3
+~
+~
+3 -1 3119
+S
+#3114
+The Basement~
+The corridor continues, passing several doors to the east and west, ending
+to the south at a stone wall which bears a grinning skull insignia; doubtless
+the totem of the orc clan currently living here.
+~
+0 8 0
+D0
+~
+~
+0 -1 3113
+D1
+~
+~
+3 -1 3120
+D2
+~
+~
+0 -1 3115
+D3
+~
+~
+3 -1 3121
+S
+#3115
+The Basement~
+The corridor continues, passing several doors to the east and west, ending
+to the south at a stone wall which bears a grinning skull insignia; doubtless
+the totem of the orc clan currently living here.
+~
+0 8 0
+D0
+~
+~
+0 -1 3114
+D1
+~
+~
+3 -1 3122
+D3
+~
+~
+3 -1 3123
+S
+#3116
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D3
+~
+~
+3 -1 3112
+S
+#3117
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D1
+~
+~
+3 -1 3112
+S
+#3118
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D3
+~
+~
+3 -1 3113
+S
+#3119
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D1
+~
+~
+3 -1 3113
+S
+#3120
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D3
+~
+~
+3 -1 3114
+S
+#3121
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D1
+~
+~
+3 -1 3114
+S
+#3122
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D3
+~
+~
+3 -1 3115
+S
+#3123
+A Storage Room~
+This room is used to store the various supplies needed by the inhabitants
+of the tower, including but not limited to casks of ale and spirits, barrels
+of dried meat taken from a variety of animals, piles of hemp rope and rows
+of pole arms and swords, set in racks along the walls at regular intervals.
+~
+0 9 0
+D1
+~
+~
+3 -1 3115
+S
+#3124
+The Cauldrons~
+Arrayed to either side of this long narrow stone corridor are a series
+of narrow chutes, angled downwards to allow whoever is defending the
+tower to pour the contents of several conspicuously large iron cauldrons
+onto the besieging army below. A variety of substances are known to be
+particularly effective for such a defense, including boiling oil, acid
+and firewater.
+~
+0 8 0
+D0
+~
+~
+0 -1 3111
+D2
+~
+~
+0 -1 3125
+S
+#3125
+The Cauldrons~
+A considerable amount of thought has been put into the tower defenses
+by whomever constructed it; any besieging army would have to overcome
+the piranha infested moat, then face whatever the defenders tipped 
+down onto them from the iron cauldrons placed here. You shudder at the
+thought- siege warfare is one of the nastiest forms of battle known to
+the world.
+~
+0 8 0
+D0
+~
+~
+0 -1 3124
+D2
+~
+~
+0 -1 3126
+S
+#3126
+The Cauldrons~
+The iron cauldrons, positioned near the chutes, are still visible here,
+along with several wooden weapon racks bearing halberds, bows, clubs 
+and swords. Several suits of leather armor and hide shields are arranged
+nearby, all for usage by the occupants in times of crisis. Judging by
+the advanced state of preparation, such times are evidently all to
+frequent.
+~
+0 8 0
+D0
+~
+~
+0 -1 3125
+D2
+~
+~
+0 -1 3127
+S
+#3127
+The Cauldrons~
+Rows upon rows of weapons are interspersed between the large iron
+cauldrons, which to your surprise do not boast any method of heating.
+Evidently these cauldrons contain some volatile substance quite capable
+of inflicting serious harm to would be attackers without any preparation.
+Curiosity begins to nag at you; what is it in these pots that makes them
+such effective deterrents?
+~
+0 8 0
+D0
+~
+~
+0 -1 3126
+D2
+~
+~
+0 -1 3128
+S
+#3128
+The Stairwell~
+A second stairwell beckons here, winding upward into the higher levels.
+A secondary defense measure, the placement means that even if anyone
+managed to breach the gates below they would have to battle through
+the corridor north of here, which would be packed with well prepared
+soldiers. 
+~
+0 8 0
+D0
+~
+~
+0 -1 3127
+D4
+~
+~
+0 -1 3129
+S
+#3129
+Barracks Level~
+Shouts, screams and an odor not unlike that of burning socks heralds
+the location of the tower barracks, behind a rather battered door to
+the north. Whoever was the former master of this place would surely
+be horrified by what now resides within its white stone walls.
+~
+0 8 0
+D0
+~
+~
+3 -1 3130
+D4
+~
+~
+0 -1 3136
+D5
+~
+~
+0 -1 3128
+S
+#3130
+Orc Barracks~
+A series of unmade beds covered with scraps of clothing and various
+other products line each wall of this chamber, which bears a second
+door to the north, presumably leading to more barracks. The majority 
+of the tower guards can usually be found here, drinking small beer
+and playing cards.
+~
+0 8 0
+D0
+~
+~
+3 -1 3133
+D1
+~
+~
+0 -1 3132
+D2
+~
+~
+3 -1 3129
+D3
+~
+~
+0 -1 3131
+S
+#3131
+Orc Barracks~
+A rather disgusting smell is exuded by the bedding here; a combination
+of dirt, sweat and grease, in varying proportions. A variety of weapons
+of poor quality litter the floor, or depend from hooks set in the stained
+stone walls.
+~
+0 8 0
+D1
+~
+~
+0 -1 3130
+S
+#3132
+Orc Barracks~
+This part of the barracks is deserted; the beds have been pulled back
+to form a small enclosure, within which the orcs place animals or small
+humanoids, and force them to fight, placing bets upon the outcome. Blood
+stains cover the floor and walls; the sickly sweet odor of death is quite
+strong here.
+~
+0 8 0
+D3
+~
+~
+0 -1 3130
+S
+#3133
+Orc Barracks~
+More beds line this chamber, as in the last, in equally poor states
+of cleanliness. Piles of unwashed (and more than likely never to be
+washed) clothing cover the floor, broken only occasionally by a keg
+of cheap spirits or a plate covered in food scraps.
+~
+0 8 0
+D1
+~
+~
+0 -1 3134
+D2
+~
+~
+3 -1 3130
+D3
+~
+~
+0 -1 3135
+S
+#3134
+Orc Barracks~
+Two small tables sit here, between the beds, an attempt by a more than
+usually innovative orc to make their card games more enjoyable; in reality
+it just gives the loser something new to break in frustration.
+~
+0 8 0
+D3
+~
+~
+0 -1 3133
+S
+#3135
+Sergeant's Quarters~
+This section of the barracks boasts but one bed; that of the burly
+orc sergeant in charge of this level. He is a brutish sort, even by
+orcish standards, and the other orcs for the most part steer well
+clear of him and his short temper. 
+~
+0 8 0
+D1
+~
+~
+0 -1 3133
+S
+#3136
+Barracks Level~
+More barracks fill this level, quarters for the remainder of the orcish
+garrison not housed on the level below. The smell and noise is equally
+appalling, if not as predominant. Perhaps if you are lucky you will not
+have to go into the foul lair.
+~
+0 8 0
+D0
+~
+~
+3 -1 3137
+D2
+~
+~
+3 -1 3145
+D4
+~
+~
+0 -1 3144
+D5
+~
+~
+0 -1 3129
+S
+#3137
+Orc Barracks~
+This section of the barracks is curiously deserted; not a single scrap
+or piece of broken furniture can be seen. Evidently it is some sort of
+marshalling area for the orcs, and judging by the absence of weapons
+normally found on the walls such a marshalling has just taken place.
+Some unfortunate human settlement will once more suffer the wrath of these
+vile creatures. They must be stopped!
+~
+0 8 0
+D0
+~
+~
+3 -1 3140
+D1
+~
+~
+0 -1 3139
+D2
+~
+~
+3 -1 3136
+D3
+~
+~
+0 -1 3138
+S
+#3138
+Orc Barracks~
+Piles of ash and charred wood indicate that the occupants here either
+became disgruntled with their furnishings and incinerated them, or were
+making a crude attempt to prepare and cook their own food, as a (more
+healthy) alternative to the slop they serve in the mess hall. Knowing orcs,
+either alternative is a distinct possibility.
+~
+0 8 0
+D1
+~
+~
+0 -1 3137
+S
+#3139
+Orc Barracks~
+A small arena, similar in composition to the one you saw below, has
+been fashioned here, but the orcs that currently reside here seem to
+be more interested in dice games than blood sports. No blood covers
+the floor, only scraps of paper covered in scribble and several pairs
+of bone dice, most of them loaded.
+~
+0 8 0
+D3
+~
+~
+0 -1 3137
+S
+#3140
+Orc Barracks~
+The majority of the beds in this section of the barracks sit empty and
+unused, as the full complement of the clan that has conquered the tower
+has yet to be achieved; losses were great in the initial siege, and
+the knights of Maritshome inflicted devastating losses in a recent
+raid that came closer to the city than the king would like.
+~
+0 8 0
+D0
+~
+~
+0 -1 3143
+D1
+~
+~
+0 -1 3142
+D2
+~
+~
+3 -1 3137
+D3
+~
+~
+0 -1 3141
+S
+#3141
+Orc Barracks~
+This section of the barracks is deserted, save for some unwanted scraps
+of clothing and discarded armor, damaged in battle and left here, not
+worth the effort of repairing to the orcs. Glancing about you notice that
+the armor, while crude, is practical and efficient, and you realize that
+orcs may be slovenly but they can forge arms that perform well when the 
+need arises.
+~
+0 8 0
+D1
+~
+~
+0 -1 3140
+S
+#3142
+Orc Barracks~
+This section of the barracks is deserted; the beds have been pushed to
+one side, and a large pile of goods, of low value and high encumberance,
+have been placed in their stead. Doubtlessly the spoils of some recent
+raid.
+~
+0 8 0
+D3
+~
+~
+0 -1 3140
+S
+#3143
+Floating in a void~
+~
+0 0 1
+D2
+~
+~
+0 -1 3140
+S
+#3144
+Banquet Hall~
+This landing faces onto a door which leads into the main dining area
+of the tower. No sound can be heard from within; evidently it isn't meal
+time, as orcs are anything but silent diners. The stairs continue to the
+upper levels of the tower.
+~
+0 8 0
+D0
+~
+~
+3 -1 3150
+D4
+~
+~
+0 -1 3163
+D5
+~
+~
+0 -1 3136
+S
+#3145
+Floating in a void~
+~
+0 0 1
+D0
+~
+~
+3 -1 3136
+D1
+~
+~
+0 -1 3146
+D3
+~
+~
+0 -1 3147
+S
+#3146
+Floating in a void~
+~
+0 0 1
+D3
+~
+~
+0 -1 3145
+D6
+~
+~
+0 -1 3149
+S
+#3147
+Floating in a void~
+~
+0 0 1
+D1
+~
+~
+0 -1 3145
+D7
+~
+~
+0 -1 3148
+S
+#3148
+Floating in a void~
+~
+0 0 1
+D8
+~
+~
+0 -1 3147
+S
+#3149
+Floating in a void~
+~
+0 0 1
+D9
+~
+~
+0 -1 3146
+S
+#3150
+The Banquet Hall~
+At one stage this was a grand hall, serving as a banquet hall and a
+ball room, where the guests of the tower could revel with their hosts.
+Now it is a crude mess hall for the orcish garrison, and it looks it.
+Furniture smashed to flinders litters the floor, while deep gouges
+mar the walls and the remaining tables and chairs.
+~
+0 8 0
+D0
+~
+~
+0 -1 3151
+D2
+~
+~
+3 -1 3144
+S
+#3151
+The Banquet Hall~
+It is said that even a Drachensgrab troll will baulk at the smell of
+orcish cooking, and at this particular juncture you do not doubt the
+truth of that rumour. A vile smell, one that evokes memories of burning
+underwear that has never been cleaned in three years, combined with putrid
+animal guts, brings tears to your eyes and cramps to your stomach. You are
+certainly glad that you brought your own rations, though at this present
+moment eating is probably the last thing you want to do.
+~
+0 8 0
+D0
+~
+~
+0 -1 3154
+D2
+~
+~
+0 -1 3150
+S
+#3152
+The Banquet Hall~
+This section of the hall is usually deserted, and thus sometimes lazier
+orcs sneak in here while on duty to catch a quick nap or just laze
+about, idly destroying the art or scribbling nonsense on the walls.
+~
+0 8 0
+D1
+~
+~
+0 -1 3154
+S
+#3153
+The Banquet Hall~
+This section of the hall is usually deserted, and thus sometimes lazier
+orcs sneak in here while on duty to catch a quick nap or just laze
+about, idly destroying the art or scribbling nonsense on the walls.
+~
+0 8 0
+D3
+~
+~
+0 -1 3154
+S
+#3154
+The Banquet Table~
+A massive oak table, scarred and splintered, fills the majority of this
+massive hall, and around its perimeter are arranged dozens of wooden 
+chairs in varying states of disrepair. A large chandelier depends from
+thick wooden supports set in the high ceiling, while large tapestries,
+slashed to ribbons, decorate the walls.
+~
+0 8 0
+D0
+~
+~
+0 -1 3155
+D1
+~
+~
+0 -1 3153
+D2
+~
+~
+0 -1 3151
+D3
+~
+~
+0 -1 3152
+S
+#3155
+The Head of the Table~
+In a grossly ostentatious display, the original inhabitant of the
+tower placed a golden throne for his or her seat at the end of the table.
+It is covered in blood stains, and you presume that whoever commissioned
+it as a seat also unconsciously used it as a death bed. Large grooves
+mark the floor to either side of the throne, as if something heavy had been
+dragged along it but recently.
+~
+0 8 0
+D2
+~
+~
+0 -1 3154
+S
+#3156
+A Secret Area~
+The throne clicks shut behind you as you step into a narrow stairwell
+that winds up to a secret area of the tower. It is more than likely that
+the most powerful residents of the tower may well reside here, but to 
+balance the unease of that thought is the notion that where there are
+powerful foes there is usually also an abundance of gold and gems.
+~
+0 8 0
+D4
+~
+~
+0 -1 3157
+S
+#3157
+A Landing~
+The stairs end at a small landing, to the south of which is a heavy
+steel door, doubtlessly well guarded, and equally doubtlessly the
+entrance to the lair of someone large and tough. At one stage this was
+most likely the residence of the tower masters, and it may well still
+serve that purpose for the current despot.
+~
+0 8 0
+D2
+~
+~
+0 -1 3158
+D5
+~
+~
+0 -1 3156
+S
+#3158
+The Steel Door~
+The door lies directly south of here, masking whatever threats may lie
+within. It is with a large degree of caution that you approach the portal,
+ever wary of any imminent danger, or the presence of armed guards. Whoever
+was cunning enough to mount an army of orcs and ogres certainly wouldn't be
+foolish enough to reside in an unsafe area.
+~
+0 8 0
+D0
+~
+~
+0 -1 3157
+D2
+~
+~
+3 -1 3159
+S
+#3159
+A Conference Table~
+The despot of the tower uses this central area, dominated by a hard
+wood table, as a conference area, where he issues orders to his minions.
+The leaders of the various factions in the tower can usually be found
+here, awaiting the bidding of their master.
+~
+0 8 0
+D0
+~
+~
+3 -1 3158
+D1
+~
+~
+0 -1 3161
+D2
+~
+~
+0 -1 3160
+D3
+~
+~
+0 -1 3162
+S
+#3160
+The Bedchamber~
+This was once the bedchamber of the tower master, but now serves as
+the lair of a large, vile hobgoblin shaman, the cunning mastermind of
+the takeover of the tower and establishment of it as a base from which
+to raid the surrounding area. The bedding is still in reasonable 
+condition; evidently the shaman enjoys creature comforts as much as the
+next chaotic humanoid.
+~
+0 8 0
+D0
+~
+~
+0 -1 3159
+S
+#3161
+A Storage Area~
+A small room used to keep more interesting items acquried by the orcs,
+this chamber is currenlty empty, as the shaman and his minions have
+already divided up the loot that was stored here, or have moved it
+elsewhere.
+~
+0 8 0
+D3
+~
+~
+0 -1 3159
+S
+#3162
+A Guest Room~
+This area is used to quarter visiting monsters, who the shaman has
+invited in an effort to convince them to join his cause. At the present
+it houses the chieftain of a tribe of trolls from the Kore, and it smells
+exactly as you would expect a rancid troll lair to. Partially devoured
+halflings hang from iron hooks set in the ceiling, a favorite delicacy
+of trolls everywhere.
+~
+0 8 0
+D1
+~
+~
+0 -1 3159
+S
+#3163
+A Series of Private Chambers~
+This landing boasts a long corridor to the north, off of which several
+doors lead, to the east and west. This is where the more important
+tower occupants reside, in private quarters. The staircase continues
+upward, to the highest levels of the tower.
+~
+0 12 0
+D0
+~
+~
+0 -1 3164
+D4
+~
+~
+0 -1 3176
+D5
+~
+~
+0 -1 3144
+S
+#3164
+A Long Corridor~
+Doors to the east and west lead into various sleeping quarters of some
+of the more important tower denizens, including the clan spellcasters,
+who would doubtless be wily and dangerous foes. The corridor is totally
+silent, and appears to have been swept clean fairly recently, very clean.
+A curious occurence in an orc lair...
+~
+0 8 0
+D0
+~
+~
+0 -1 3165
+D1
+~
+~
+3 -1 3174
+D2
+~
+~
+0 -1 3163
+D3
+~
+~
+3 -1 3175
+S
+#3165
+A Long Corridor~
+The bare walls and floor are an unusual occurence even in a tower
+inhabited by humans, let alone filthy, fecund orcs and their unhygenic
+companions. No odiferous stench assaults your nostrils, nor are there
+the telltale piles of debris that accompanies any orc settlement. It is
+almost as if something had swept through here, collecting everything in
+its path.
+~
+0 8 0
+D0
+~
+~
+0 -1 3166
+D1
+~
+~
+3 -1 3172
+D2
+~
+~
+0 -1 3164
+D3
+~
+~
+3 -1 3173
+S
+#3166
+A Long Corridor~
+The long corridor continues, past more doors, and still as unnaturally
+clean as to the south. You are beginning to feel distinctly uneasy, and
+proceed slower and slower as you consider what may lay ahead.
+~
+0 8 0
+D0
+~
+~
+0 -1 3167
+D1
+~
+~
+3 -1 3170
+D2
+~
+~
+0 -1 3165
+D3
+~
+~
+3 -1 3171
+S
+#3167
+A Long Corridor~
+The corridor ends here, at the last pair of doors, which lead into more
+private quarters. Considerable noise can be heard nearby, as if a meeting
+was taking place, albeit a boisterous one.
+~
+0 8 0
+D1
+~
+~
+3 -1 3168
+D2
+~
+~
+0 -1 3166
+D3
+~
+~
+3 -1 3169
+S
+#3168
+The Common Room~
+The captain holds meetings here with his troops, discussing tactics and
+distributing of loot. Orcs are not ones much for such a degree of 
+organization, and such meetings are usually accompanied by frequent
+beatings and admonishments as the orcs nod off or start bickering.
+~
+0 8 0
+D3
+~
+~
+3 -1 3167
+S
+#3169
+An Empty Bedroom~
+This dusty room contains nothing of value. It looks as if it has not
+been inhabited for decades, even by the previous owners of the tower.
+~
+0 8 0
+D1
+~
+~
+3 -1 3167
+S
+#3170
+The Captain's Quarters~
+This room contains no furniture; instead there is a large pile of skins
+that serves as bedding for the ogre captain who resides here. He is usually
+to be found drinking with the tower master, or, more rarely, out raiding with
+his lackeys. The smell from the skins is almost unbearable.
+~
+0 8 0
+D3
+~
+~
+3 -1 3166
+S
+#3171
+The Captain's Quarters~
+This moderately well furnished chamber is home to the captain of the
+orc guards stationed here, and shows signs of reasonable care. Higher
+ranking orcs are generally more intelligent (as well as vastly stronger)
+than their underlings, and have gained a certain coarse appreciation for
+the finer things in life.
+~
+0 8 0
+D1
+~
+~
+3 -1 3166
+S
+#3172
+The Shaman's Study~
+Rows and rows of shelves crammed with mutilated texts dealing with a
+variety of subjects cover the walls, and more tomes, dealing with 
+pleasant topics such as animal sacrifice, cannibalism and demonic
+summonings litter the floor. Most of them have been rendered quite
+illegible by the numerous tears and stains that have been inflicted
+upon them.
+~
+0 8 0
+D3
+~
+~
+3 -1 3165
+S
+#3173
+The Witchdoctor's Laboratory~
+A sickly aroma stings your sensitive nostrils as you enter, a vile
+combination of burning animal fat and sulfurous chemicals. A pile of
+bubbling beakers cover every item of furniture in this chamber, save
+for the bed, which shows signs of having been slept in recently by someone
+with very dirty clothing.
+~
+0 8 0
+D1
+~
+~
+3 -1 3165
+S
+#3174
+An Empty Guest Room~
+This unassuming chamber contains a small bed, actually well made,
+an open (empty) chest, and a wardrobe. It is used to quarter guests of
+the tower, and has not been as yet used (sullied?) by the orcs. There
+doesn't appear to be anything of interest in here.
+~
+0 8 0
+D3
+~
+~
+3 -1 3164
+S
+#3175
+An Empty Guest Room~
+This unassuming chamber contains a small bed, actually well made,
+an open (empty) chest, and a wardrobe. It is used to quarter guests of
+the tower, and has not been as yet used (sullied?) by the orcs. There
+doesn't appear to be anything of interest in here.
+~
+0 8 0
+D1
+~
+~
+3 -1 3164
+S
+#3176
+The Ogre Barracks~
+The landing here boasts a large wooden door, nearly eleven feet
+high. In days of old it was another banquet area, but now it serves as
+a barracks chamber for the taller residents of the tower on account of
+its high ceilings. Loud thudding noises emanate from behind the portal,
+as of something hard being hurled about, and colliding with walls or
+bodies.
+~
+0 8 0
+D0
+~
+~
+3 -1 3177
+D4
+~
+~
+0 -1 3184
+D5
+~
+~
+0 -1 3163
+S
+#3177
+Catch!~
+The ogres use this large central area to play a primitive (and potentially
+deadly) form of football, which involves the passing around of a large,
+heavy boulder, which more often than not catches players in the head or
+chest, or misses and tears a chunk of masonry from the battered walls.
+Powdered stone covers the floor, the result of countless encounters between
+boulder and wall.
+~
+0 8 0
+D0
+~
+~
+3 -1 3180
+D1
+~
+~
+0 -1 3179
+D2
+~
+~
+3 -1 3176
+D3
+~
+~
+0 -1 3178
+S
+#3178
+The Playing Field~
+A crude goal has been built here from beds (which are far too small for
+the ogres, who prefer to sleep on the floor anyway) arranged to create
+an endzone. The walls here are deeply gouged by the impact of boulders and
+ogre players.
+~
+0 8 0
+D1
+~
+~
+0 -1 3177
+S
+#3179
+The Playing Field~
+A crude goal has been built here from beds (which are far too small for
+the ogres, who prefer to sleep on the floor anyway) arranged to create
+an endzone. The walls here are deeply gouged by the impact of boulders and
+ogre players.
+~
+0 8 0
+D3
+~
+~
+0 -1 3177
+S
+#3180
+Sleeping Quarters~
+Several large piles of smelly hides and furs litter the floor here,
+scattered haphazardly by the ogres when they wish to sleep for a few
+hours. Ogres require much less sleep than most other humanoids, and thus
+they put little care into their resting area. Some half eaten shanks of
+lamb covered in flies add a particularly unpleasant aroma to the place.
+~
+0 8 0
+D1
+~
+~
+0 -1 3182
+D2
+~
+~
+3 -1 3177
+D3
+~
+~
+0 -1 3181
+S
+#3181
+An Empty Chamber~
+Nothing of note is here; this section is rarely used by the ogres, as
+there are not enough of them to require that much sleeping or playing
+space.
+~
+0 8 0
+D1
+~
+~
+0 -1 3180
+S
+#3182
+Rec Room~
+More ogres play their favorite sport here, practicing for the games
+held in the chambers to the south. Sometimes halflings are substituted
+for the boulders, to add a bit of fun to the routine, and blood and guts
+smear the walls, marking the places where halflings have been dashed to
+pieces by the forceful hurlings of the ogres.
+~
+0 8 0
+D3
+~
+~
+0 -1 3180
+S
+#3184
+A Stout Wooden Door~
+The stairs break here at yet another landing, this one bearing a single
+wooden door, bound in heavy bands of iron, that probably bars entrance
+to a reasonably important area. It doesn't appear to be locked, however.
+The stairs continue to the top level of the tower, and back down to the
+barracks and halls below.
+~
+0 8 0
+D0
+~
+~
+3 -1 3185
+D4
+~
+~
+0 -1 3189
+D5
+~
+~
+0 -1 3176
+S
+#3185
+A Guard Room~
+The door opens onto a small foyer, which serves as quarters for two
+ogres, assigned to keep an eye on whatever lies behind the locked door
+to the north of here. It is of similar construct to the other door,
+save that it is somewhat smaller and less imposing. No noise can be
+heard from behind it; whatever it protects is not a humanoid inhabitant.
+Treasure, perhaps?
+~
+0 8 0
+D0
+~
+~
+7 -1 3186
+D2
+~
+~
+3 -1 3184
+S
+#3186
+An Armory~
+The walls of this small stone chamber are covered in racks containing
+dozens of orcish weapons, all of inferior quality to your own current
+weaponry. Boar hide helms rest atop long stakes that have suits of leather
+armor bound to them, most of them badly stained. Another locked door bars
+progress north.
+~
+0 8 0
+D0
+~
+~
+7 -1 3187
+D2
+~
+~
+7 -1 3185
+S
+#3187
+The Treasure Room~
+This chamber is bare save for three container arranged about a small
+wooden table, the purpose of which is not clear. A musty odor pervades
+this area; obviously this room is not visited often, or maybe it has yet
+to be visited by the orcs, as the chests are of obvious human design yet
+bear no signs of violence. Yet another door lies to the north. It is a 
+simple affair, of plain wood with no bands.
+~
+0 8 0
+D0
+~
+~
+3 -1 3188
+D2
+~
+~
+7 -1 3186
+S
+#3188
+The Key Room~
+A rather strange feeling comes over you as you enter, and you instantly
+deduce that some sort of powerful dweomer is in effect here, negating
+most magicks and causing anyone using magical abilities considerable 
+pain. A small box rests in the center of the floor, the only furniture
+in the place.
+~
+0 3416200 0
+D2
+~
+~
+35 -1 3187
+> act_prog p from the south.~
+if class($n) == warrior
+mea $n You feel a slight tingling along your spine as you enter.
+else
+if class($n) == thief
+mea $n You feel a faint sense of unease as you enter.
+else
+mea $n A fierce stabbing pain enters your mind, causing you great harm!
+mpforce $n scream
+mpforce $n say My magicks! I cannot access them!
+mpechoar $n $n panics as $s magic is torn from $m.
+mpdamage $n 75
+endif
+endif
+~
+|
+S
+#3189
+The Top of the Stairs~
+The stairs end here before a final door, which leads into a series of
+chambers used by the inhabitants for storage of food and prisoners.
+Grunts, shouts and screams interspersed with sporadic splattering of
+hot animal fat indicate that an orcish kitchen also lies within.
+~
+0 8 0
+D0
+~
+~
+3 -1 3190
+D5
+~
+~
+0 -1 3184
+S
+#3190
+Mess Hall~
+This room is where many of the orcs prefer to sup, away from the boss
+and his ogre praetorian guard downstairs in the banquet hall. A kitchen
+lies to the west, while foodstuffs are stored to the east. A vile odor
+emanates from both directions. A heavy oak door blocks passage north,
+into the tower cells.
+~
+0 8 0
+D0
+~
+~
+3 -1 3193
+D1
+~
+~
+0 -1 3192
+D2
+~
+~
+3 -1 3189
+D3
+~
+~
+0 -1 3191
+S
+#3191
+Kitchens~
+Your stomach almost rebels as you enter the stinking cesspit that
+serves as the food preparation area, in the most general sense, for
+the garrison of orcs quartered below. You have been in cleaner (and more
+pleasant) sewers than this slop hall. Orcish cuisine has never been 
+regarded as particularly wholesome or healthy, but the standards of this
+kitchen have succeeded in bringing it to even lower depths. You try not
+to look at the half-disemboweled halfling still writhing feebly on the
+filthy benchtop, his guts being slowly drawn out and into a bubbling pot
+by a greasy orc chef.
+~
+0 8 0
+D1
+~
+~
+0 -1 3190
+S
+#3192
+Pantry~
+This room is almost toally bare; orcish knowledge of methods of food
+preservation is limited, and thus they prefer to hunt and eat their prey
+on a day to day basis, rather than stockpile as is the wont of humans.
+A few barrels of cheap beer and vinegary wine litter the stone floor.
+~
+0 8 0
+D3
+~
+~
+0 -1 3190
+S
+#3193
+Holding Cells~
+Stout iron doors to the east and west prevent the emaciated occupants
+within from escaping their fate at the hands of their fell captors;
+the next meal, a victim for a night's whoring, or maybe they await the
+payment of a ransom to the mercenary orcs. The smell here is, not very
+surprisingly, quite unbearable.
+~
+0 8 0
+D0
+~
+~
+0 -1 3194
+D1
+~
+~
+7 -1 3196
+D2
+~
+~
+3 -1 3190
+D3
+~
+~
+7 -1 3197
+S
+#3194
+A Long Corridor~
+The corridor continues north, past more cells that stand open and vacant,
+heading towards a staircase to the north, that leads, presumably to the
+tower roof. Expectation pervades your thoughts; you have almost cleared
+the entire tower!
+~
+0 8 0
+D0
+~
+~
+0 -1 3195
+D2
+~
+~
+0 -1 3193
+S
+#3195
+A Trapdoor~
+The corridor ends here, at the aforementioned staircase, which ends at
+a stout iron trapdoor, closed but not barred (the orcs figured out they
+couldn't get back in from the roof when people barred it, so they removed
+the bindings). You think you can hear someone or something talking up on
+the roof, though the thickness of the portal prevents much noise from 
+issuing downwards. 
+~
+0 8 0
+D2
+~
+~
+0 -1 3194
+D4
+~
+~
+3 -1 3198
+S
+#3196
+A Holding Cell~
+The floor of this tiny chamber is covered in filthy straw, scraps of
+meat and piles of gnawed bones. You shudder to think of the horrid fate
+that awaits any imprisoned here.
+~
+0 8 0
+D3
+~
+~
+7 -1 3193
+S
+#3197
+A Holding Cell~
+The floor of this tiny chamber is covered in filthy straw, scraps of
+meat and piles of gnawed bones. You shudder to think of the horrid fate
+that awaits any imprisoned here.
+~
+0 8 0
+D1
+~
+~
+7 -1 3193
+S
+#3198
+The Roof~
+At last! Free of the confines of the miserable tower, your spirits suddenly
+soar, and you almost laugh out loud as you gaze out over the beautiful
+vista that stretches around all sides nearly eighty feet below. Far to the
+east you see the tall trees of the Dark Forest, while to the south the 
+main highway of Estroglia ribbons towards the spires of Maritshome, jewel
+of the Ocean of Dreams. To the west the forbidding slopes of the Kore beckon,
+and beyond them the great Walls of Defiance border the northern frontier
+of the Empire. The mighty Phlugistrum slashes through the land as of the
+wake of a razor slashing through skin; were human blood blue, the effect
+would be chilling indeed! Smiling, you turn to gaze northwards once more,
+and halt in your tracks as you see several large orcs staring at you...
+~
+0 0 1
+D5
+~
+~
+3 -1 3195
+S
+#3199
+The Moat~
+You don't get very far in the moat before you quickly realize that
+the water is literally swarming with thousands of tiny piranhas,
+their razor sharp teeth sinking into every inch of exposed flesh on
+your body, devouring most of your quickly dying body in seconds, your
+armor and weapons sinking to the bottom of the moat, never to be seen
+again.
+~
+0 3153927 0
+S
+#0
+
+
+#RESETS
+M 1 3100 1 3102
+D 0 3105 0 0
+M 1 3101 12 3106
+E 1 3103 1 5
+E 1 3102 1 16
+E 1 3104 1 11
+M 1 3101 12 3106
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+O 1 3106 1 3106
+D 0 3106 2 0
+M 1 3102 4 3109
+E 1 3105 1 16
+E 1 3103 1 5
+M 1 3101 12 3110
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+D 0 3112 1 1
+D 0 3112 3 1
+D 0 3113 1 1
+D 0 3113 3 1
+D 0 3114 1 1
+D 0 3114 3 1
+D 0 3115 1 1
+D 0 3115 3 1
+D 0 3116 3 1
+D 0 3117 1 1
+D 0 3118 3 1
+D 0 3119 1 1
+D 0 3120 3 1
+D 0 3121 1 1
+D 0 3122 3 1
+D 0 3123 1 1
+O 1 3107 1 3124
+O 1 3107 1 3125
+O 1 3107 1 3126
+O 1 3107 1 3127
+M 1 3101 12 3128
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+M 1 3101 12 3128
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+D 0 3129 0 1
+M 1 3103 10 3130
+G 1 3102 1
+M 1 3103 10 3130
+G 1 3102 1
+D 0 3130 0 1
+D 0 3130 2 1
+M 1 3103 10 3131
+G 1 3102 1
+M 1 3103 10 3131
+G 1 3102 1
+M 1 3103 10 3133
+G 1 3102 1
+M 1 3103 10 3133
+G 1 3102 1
+M 1 3103 10 3133
+G 1 3102 1
+D 0 3133 2 1
+M 1 3103 10 3134
+G 1 3102 1
+M 1 3103 10 3134
+G 1 3102 1
+M 1 3103 10 3134
+G 1 3102 1
+M 1 3102 4 3135
+E 1 3103 1 5
+E 1 3105 1 16
+D 0 3136 0 1
+D 0 3136 2 1
+D 0 3137 0 1
+D 0 3137 2 1
+M 1 3106 6 3138
+G 1 3102 1
+G 1 3125 1
+M 1 3106 6 3138
+G 1 3102 1
+M 1 3106 6 3139
+G 1 3102 1
+G 1 3125 1
+M 1 3106 6 3139
+G 1 3102 1
+O 1 3125 1 3139
+M 1 3106 6 3140
+G 1 3102 1
+G 1 3125 1
+M 1 3106 6 3140
+G 1 3102 1
+D 0 3140 2 1
+M 1 3115 1 3141
+E 1 3126 1 10
+E 1 3127 1 16
+M 1 3102 4 3143
+E 1 3103 1 5
+E 1 3105 1 16
+D 0 3144 0 1
+D 0 3145 0 1
+M 1 3105 2 3148
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+O 1 3108 1 3148
+O 1 3108 1 3149
+D 0 3150 2 1
+M 1 3116 1 3153
+O 1 3110 1 3154
+O 1 3109 1 3155
+M 1 3108 2 3158
+E 1 3114 1 16
+E 1 3115 1 5
+M 1 3108 2 3158
+E 1 3114 1 16
+E 1 3115 1 5
+D 0 3158 2 1
+M 1 3109 2 3159
+E 1 3105 1 16
+E 1 3103 1 5
+M 1 3110 1 3159
+E 1 3105 1 16
+E 1 3117 1 9
+D 0 3159 0 1
+M 1 3107 1 3160
+E 1 3111 1 16
+E 1 3112 1 5
+G 1 3113 1
+E 1 3128 1 19
+O 1 3118 1 3160
+P 0 3119 1 0
+P 1 3120 1 0
+M 1 3101 12 3161
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+M 1 3111 1 3162
+D 0 3164 1 1
+D 0 3164 3 1
+D 0 3165 1 1
+D 0 3165 3 1
+D 0 3166 1 1
+D 0 3166 3 1
+M 1 3120 1 3167
+D 0 3167 1 1
+D 0 3167 3 1
+M 1 3109 2 3168
+E 1 3103 1 5
+E 1 3105 1 16
+E 1 3116 1 17
+M 1 3102 4 3168
+E 1 3103 1 5
+E 1 3105 1 16
+M 1 3101 12 3168
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+M 1 3101 12 3168
+E 1 3102 1 16
+E 1 3104 1 11
+E 1 3103 1 5
+D 0 3168 3 1
+D 0 3169 1 1
+D 0 3170 3 1
+O 1 3144 1 3171
+P 0 3145 1 0
+D 0 3171 1 1
+M 1 3112 1 3172
+E 1 3121 1 16
+E 1 3103 1 5
+G 1 3122 1
+D 0 3172 3 1
+M 1 3113 1 3173
+E 1 3123 1 16
+G 1 3124 1
+D 0 3173 1 1
+O 1 3142 1 3174
+P 0 3143 1 0
+D 0 3174 3 1
+M 1 3121 1 3175
+O 1 3142 1 3175
+D 0 3175 1 1
+D 0 3176 0 1
+M 1 3114 8 3177
+M 1 3114 8 3177
+M 1 3114 8 3177
+D 0 3177 0 1
+D 0 3177 2 1
+M 1 3114 8 3178
+M 1 3114 8 3179
+D 0 3180 2 1
+M 1 3114 8 3182
+M 1 3114 8 3182
+M 1 3114 8 3182
+D 0 3184 0 1
+M 1 3117 2 3185
+M 1 3117 2 3185
+D 0 3185 0 2
+D 0 3185 2 1
+D 0 3186 0 2
+D 0 3186 2 2
+O 1 3129 1 3187
+P 0 3132 1 0
+O 1 3130 1 3187
+P 0 3131 1 0
+O 1 3118 1 3187
+P 0 3133 1 0
+D 0 3187 0 1
+D 0 3187 2 2
+O 1 3134 1 3188
+P 0 3100 1 0
+D 0 3188 2 1
+D 0 3189 0 1
+D 0 3190 0 1
+D 0 3190 2 1
+M 1 3118 1 3191
+O 1 3146 1 3191
+M 1 3101 12 3193
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+M 1 3101 12 3193
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+D 0 3193 1 2
+D 0 3193 2 1
+D 0 3193 3 2
+D 0 3195 4 1
+M 1 3119 1 3196
+D 0 3196 3 2
+M 1 3122 1 3197
+D 0 3197 1 2
+M 1 3101 12 3198
+E 1 3104 1 11
+E 1 3102 1 16
+E 1 3103 1 5
+M 1 3101 12 3198
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+M 1 3105 2 3198
+E 1 3102 1 16
+E 1 3103 1 5
+E 1 3104 1 11
+O 1 3108 1 3198
+D 0 3198 5 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 3115    5  9 15         166   1         0 23    ; a drunken orcish smith
+0
+
+
+#SPECIALS
+M  3100 spec_cast_adept
+M  3107 spec_cast_cleric
+M  3112 spec_cast_cleric
+M  3113 spec_cast_mage
+M  3119 spec_cast_mage
+M  3120 spec_breath_acid
+S
+
+
+#$

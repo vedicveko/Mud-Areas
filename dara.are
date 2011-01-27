@@ -1,0 +1,2387 @@
+#AREA
+dara.are~
+Darathorn's Pit~
+{30 50} Helt    Darathorn's Pit~
+15400 15478
+
+
+#MOBILES
+#15400
+Darathorn man human~
+the Arch-Villan Darathorn~
+Darathorn spins around as you enter his domain, and draws his dagger.
+~
+He is short, he could almost be a dwarf, suprising for someone of his
+reputation, but he isn't slow...
+~
+human~
+BCFST BDEFHJOTZcc -1000 1500
+50 0 1d1+9999 1d1+499 5d8+19 blast
+-20 -20 -20 -2
+ADEFHJKP AB CDELQ 0
+stand stand male 15400
+0 0 small 0
+
+#15401
+trusted henchman~
+the trusted henchman~
+A trusted henchman hefts his axe and advances towards you.
+~
+This henchman was chosen for both his fighting prowess and loyalty to 
+Darathorn. He will willingly fight to the death to save his master... 
+as you will find out.
+~
+human~
+CFGT BDFJT 0 1501
+38 0 10d10+1600 1d1+300 5d6+12 beating
+-15 -15 -15 -2
+CDEFIU AB DLP K
+stand stand either 4500
+0 0 large 0
+
+#15402
+hand second right woman~
+the Hand~
+The frown on the Hand's face is quickly replaced by a sneer as she advances.
+~
+Darathorn's right-hand woman and second in command, is not your average rogue,
+but almost as cunning as Darathorn himself. The evil smirk on her face,
+however, indicates that she enjoys her work... killing!
+~
+human~
+BCFSTV BDFHJNT -650 1502
+45 0 25d10+3000 1d1+400 8d4+16 pierce
+-15 -15 -15 -5
+ADEFHJ AB DL KMN
+stand stand female 3100
+0 0 medium 0
+
+#15403
+golorth captain thug~
+Golorth, the thug captain~
+Golorth is seeing to his men.
+~
+He is big.. VERY big. The way he swings his 2-handed bastard sword tells you
+that his could have been a mistake.
+~
+human~
+CGT DJT 100 1503
+41 0 25d10+2000 1d1+199 4d8+14 punch
+-10 -10 -10 -1
+CDEFKP AB DEI CH
+stand stand male 1120
+0 0 huge 0
+
+#15404
+Alengrot cleric priest~
+Alengrot, the evil cleric~
+Alengrot's eyes shine, will you be his next sacrifice?
+~
+If evil had a partner, it would be Alengrot. His practice in the dark arts
+has cast him out from all society. He now works for those that can pay him to
+destroy their enemies. He does NOT like to be disturbed.
+~
+human~
+BFQT DEHNTcc -1000 1504
+45 0 25d10+3000 1d1+1200 8d4+15 wrath
+-20 -20 -20 -2
+ADEFHJ AB CNOP FLM
+stand stand male 2750
+0 0 medium 0
+
+#15405
+masked thug guard~
+the masked thug~
+The masked thug stands on guard, you are not welcome.
+~
+His sole purpose is to guard Darathorn. To fail is to die!
+~
+human~
+BCFT BCDFJTV -600 1500
+40 0 15d10+1850 1d1+299 4d8+13 stab
+-9 -8 -15 -5
+CDEFIP AB EQ HK
+stand stand either 540
+0 0 medium 0
+
+#15406
+advisor mage tolorian~
+Tolorian, Darathorn's advisor~
+Tolorian ignores you totally.
+~
+Tolorian, the mage, has only two passions, money and power. If you get in his
+way expect to pay with your life.
+~
+human~
+BR DEHNT -500 1504
+45 0 25d10+3549 1d1+1200 8d4+15 flame
+-15 -15 -15 -3
+AFH AB CP E
+stand stand male 3120
+0 0 medium 0
+
+#15407
+mother woman~
+Darathorn's mother~
+An old woman smiles calmly at you.
+~
+Darathorn's mother stays here to keep Darathorn on the wide and twisted path
+of an thief. It is thought that the true power lies with her and not with
+Darathorn. Upset her and find out.
+~
+human~
+BCFQRSTUV DEFHNTZcc 0 1505
+50 0 50d10+4500 1d1+1299 5d8+19 divine
+-20 -20 -20 3
+AFHK AB CDP 0
+stand stand female 5000
+0 0 medium 0
+
+#15408
+guardian golem obsidian~
+the obsidian golem~
+The guardian is here to stop you.
+~
+Not bright, but it dosen't have to be to crush you with its HUGE hands. It is
+a watchdog... beware it will catch you.
+~
+human~
+BFRTU DEFJNVZcc 0 1505
+47 0 25d10+3500 1d1+199 6d6+17 crush
+-17 -17 -17 3
+ACDEFHIKOP ABP DEFMO HJZ
+stand stand male 0
+0 0 giant 0
+
+#15409
+thug guard minor~
+the minor thug~
+The thug shifts nervously and hefts his weapon.
+~
+He is trying to rise up in the ranks to reach that most coverted of postions..
+the Hand. His main job is to insure no strangers wander around without at
+least one knife in their back.
+~
+human~
+BCFT DJ -50 1501
+30 0 6d12+853 1d1+199 4d6+8 slap
+-9 -9 -9 0
+CDEFJKU A 0 0
+stand stand either 200
+0 0 medium 0
+
+#15410
+minor thief~
+the minor thief~
+The minor thief greedily eyes your money pouch.
+~
+He is the lowest of the low. Stealing from anyone he can get his hands on.
+Nothing is safe with him in the room.
+~
+human~
+CGHS BJQ -100 1506
+25 0 5d10+550 1d1+199 2d10+7 thrust
+-7 -7 -7 2
+BFJU A FL K
+stand stand either 530
+0 0 medium 0
+
+#15411
+thief~
+the thief~
+The thief reaches for his knife.
+~
+He is a cut-throat and will do anything to seperate you and your gold.
+~
+human~
+CFGHS BDFJQ -300 1506
+33 0 10d10+1100 1d1+299 6d4+10 stab
+-11 -11 -11 2
+BDEFU A BFL Q
+stand stand male 640
+0 0 medium 0
+
+#15412
+master thief~
+the master thief~
+The master thief peers at your possesions and smiles.
+~
+He didn't get those scars from shaving. To be a master thief, you need to be
+tough and ruthless. You had better be careful around him.
+~
+human~
+CGST BDEFJTV -500 1506
+38 0 10d10+1600 1d1+299 5d6+12 stab
+-13 -13 -13 2
+BEFHJKU AB FL 0
+stand stand male 1700
+0 0 medium 0
+
+#15413
+shade guardian~
+the shade guardian~
+The shade's red eyes follow your every move.
+~
+You can feel the evil emanating from the shade. It feeds off warm-blooded
+creatures.. just like YOU!
+~
+human~
+CFGOT BCDEFJNTV -850 1507
+37 0 10d10+1500 1d1+999 3d10+12 chill
+-12 -12 -12 -2
+AFH ABE CDM JHO
+stand stand either 0
+0 0 small 0
+
+#15414
+assasin deadly~
+the deadly assasin~
+The assasin makes no move until you get too close to escape.
+~
+The assasins dead eyes stare straight through you and the pale face is totally
+expressionless. It is like looking into the face of death. These beings are
+idealy suited for visiting death on those that deserve it. This includes YOU!
+The creature doesn't seem totally alive and reminds you of a deadly puppet.
+~
+human~
+BCFOT BDEFJPTUV -1000 1502
+42 0 25d10+2250 1d1+499 3d12+14 cleave
+-14 -14 -14 2
+ABCDEFHIK ABMQ CL HN
+stand stand either 0
+0 0 medium 0
+
+#15415
+prisoner~
+the wretched prisoner~
+A prisoner tries too hide in the corner.
+~
+This could once have been called a human. Now it is just a blind, crippled,
+diseased animal.
+~
+human~
+B AX 700 1509
+20 0 3d9+333 1d1+199 2d8+5 bite
+-4 -4 -4 4
+F A 0 CD
+sit sit male 0
+0 0 medium 0
+
+#15416
+servant silent~
+the silent servant~
+The servant glides past without a sound.
+~
+He has been trained to move without a sound and his tongue has been removed.
+He seems not to take any notice of you or his surroundings.
+~
+human~
+CGH BJPT 0 1507
+20 0 3d9+330 1d1+149 2d8+5 scratch
+-4 -4 -4 4
+F A B 0
+stand stand either 220
+0 0 medium 0
+
+#15417
+man barbarian warrior~
+the barbarian warrior~
+The barbarian warrior strolls past.
+~
+You see a savage barbarian. He is dressed in his rough skins and smells as if
+he hasn't washed in at least a decade. He seems to be a guest and is looking
+at the splendors of Darathorn's Pit.
+~
+human~
+CGT JV 0 1508
+43 0 25d10+2500 1d1+199 3d12+15 pound
+-15 -15 -15 3
+CDEFIK A BDEI CH
+stand stand male 1200
+0 0 large 0
+
+#15418
+beast kadrdw'ws~
+the kadrdw'ws~
+The kadrdw'ws bares its teeth at you.
+~
+You see a creature straight from a nightmare. It is BIG, it is MEAN, and it is
+ANGRY. Its entire surface is made up of bits of metal, stone and fur. It's
+face is only recognisable as such because of the big hole it uses as its
+mouth and its two small red eyes. It may have been human once, but now it
+seems that some magic has transformed it into a fearsome beast.
+~
+human~
+BCFRTV BDEFJNVcc 0 1509
+55 0 50d10+7000 1d1+699 10d4+23 crush
+-25 -25 -25 1
+ACDFO ABP CDEI HJ
+stand stand either 0
+0 0 giant 0
+#0
+
+#OBJECTS
+#15400
+dagger seeker iron~
+the Seeker~
+A dull iron dagger lies here.
+~
+iron~
+weapon BCG AN
+dagger 5 11 sting DE
+47 50 16370 P
+A
+1 1
+A
+18 5
+A
+19 5
+
+#15401
+power stone~
+the power stone~
+A small sun hovers above the ground.
+~
+stone~
+light ABG A
+0 0 -1 0 0
+47 100 21783 P
+A
+18 1
+A
+19 2
+A
+13 100
+
+#15402
+ivory statuette warrior blessing~
+the warrior's blessing~
+A small ivory statuette of a fierce warrior rests in the corner.
+~
+stone~
+treasure ABFGI AO
+0 0 0 0 0
+45 30 10000 P
+A
+18 2
+A
+24 -1
+
+#15403
+boots wind~
+the Boots of the Wind~
+A pair of worn leather boots lie here.
+~
+leather~
+armor AGJ AG
+12 12 12 6 1
+45 15 14000 P
+F
+A 14 50 T
+A
+2 1
+
+#15404
+bone dagger~
+bone dagger~
+A dagger made of some white substance lies here.
+~
+stone~
+weapon ABCEFGHM AN
+dagger 5 9 pierce D
+40 20 17560 P
+A
+3 -2
+A
+5 2
+A
+1 1
+
+#15405
+cloak grey~
+a grey cloak~
+A pile of grey cloth lies here.
+~
+cloth~
+armor CGFH AK
+9 9 9 2 1
+32 250 11845 P
+A
+5 1
+A
+13 50
+A
+12 -50
+
+#15406
+glass knife~
+a glass knife~
+A piece of glass has been shaped into a knife and left here.
+~
+glass~
+weapon G AN
+dagger 7 5 stab D
+32 70 5000 P
+A
+19 3
+#15407
+glass knife~
+a glass knife~
+A piece of glass has been shaped into a knife and left here.
+~
+glass~
+weapon G AN
+dagger 5 7 stab D
+36 40 15000 P
+A
+2 1
+A
+19 5
+
+#15408
+red robe~
+a red robe~
+A pile of soft red cloth lie on the floor.
+~
+cloth~
+armor ABGI AK
+14 14 14 6 1
+48 75 22523 P
+A
+3 3
+A
+12 50
+
+#15409
+sapphire staff~
+a sapphire staff~
+A long, blue staff has been carelessly left here.
+~
+stone~
+weapon ABG AN
+exotic 11 5 blast AF
+48 110 27450 P
+A
+18 4
+A
+19 3
+A
+23 -15
+
+#15410
+bracer iron~
+a iron bracer~
+A tranished metal bracer is on the ground.
+~
+iron~
+armor CG AM
+9 9 9 1 1
+36 140 6700 P
+A
+1 2
+A
+18 2
+#15411
+wicked battle axe~
+a wicked battle axe~
+A sharp battle axe rest in the corner.
+~
+iron~
+weapon G AN
+axe 5 8 cleave D
+36 270 12500 P
+A
+19 3
+A
+18 5
+
+#15412
+cloak black~
+a dark black cloak~
+An evil black cloth is waiting for someone to pick it up.
+~
+cloth~
+armor BCEFGH AC
+10 10 10 2 1
+45 250 17120 P
+A
+13 50
+A
+5 2
+
+#15413
+fire blade~
+a fire blade~
+A beautiful black sword lies here. It has a flame engraved into the blade.
+~
+adamantite~
+weapon ABCEG AN
+sword 5 10 slash A
+44 130 19000 P
+A
+1 2
+A
+13 25
+A
+19 3
+
+#15414
+silver plate breast~
+Silver plate~
+A beautifully made breast plate made from pure silver lies here.
+~
+silver~
+armor G AD
+13 13 13 5 1
+40 350 10044 P
+A
+5 3
+A
+2 -1
+
+#15415
+bastard sword~
+a massive bastard sword~
+A huge 2-handed sword has been left here.
+~
+steel~
+weapon BI AN
+sword 13 3 cleave DE
+40 150 27000 P
+A
+13 50
+A
+14 -50
+
+#15416
+green skull cap~
+a green skull cap~
+A small piece of green cloth has be abandoned here.
+~
+cloth~
+armor CEG AE
+13 13 13 6 1
+44 5 14000 P
+A
+3 2
+A
+12 50
+
+#15417
+green demon claw~
+a green demon claw~
+A demon has left his claw here for anyone to use.
+~
+gold~
+weapon ABCEG AN
+exotic 5 10 claw D
+43 25 14000 P
+A
+18 3
+A
+19 3
+A
+3 -2
+
+#15418
+purple wand~
+a purple wand~
+A small purple stick has been left here.
+~
+silver~
+wand AG AO
+55 7 7 'dispel magic' 0
+43 120 23000 P
+
+#15419
+iron club~
+a heavy iron club~
+A big piece of metal lies in the dust.
+~
+iron~
+weapon 0 AN
+mace 5 7 smash 0
+27 180 2300 P
+
+#15420
+mask~
+a black mask~
+A black mask has been discarded here.
+~
+cloth~
+armor CFG AE
+10 10 10 5 1
+38 75 13000 P
+A
+18 1
+A
+19 1
+
+#15421
+adamantite small sword~
+an adamantite small sword~
+A dull black small sword waits for a new owner.
+~
+adamantite~
+weapon ABCEGL AN
+sword 5 8 thrust E
+40 200 14200 P
+A
+1 2
+A
+18 4
+
+#15422
+shield crow~
+the crow shield~
+A small steel shield with the image of a crow on it, lies here.
+~
+steel~
+armor BG AJ
+11 11 11 4 0
+38 250 19000 P
+A
+19 1
+A
+23 -1
+
+#15423
+rusty blade~
+a rusty blade~
+A small rusty and notched blade lies here.
+~
+steel~
+weapon 0 AN
+dagger 5 6 stab 0
+23 140 3500 P
+A
+2 1
+
+#15424
+iron key~
+a plain iron key~
+A plain iron key lies here.
+~
+iron~
+key HM AO
+0 0 0 0 0
+20 10 1000 P
+
+#15425
+black iron key~
+a black iron key~
+An ugly, black key lies here.
+~
+iron~
+key BCHM AO
+0 0 0 0 0
+30 20 3400 P
+#0
+
+#ROOMS
+#15400
+The entrance hall~
+        You stand in a small room which has been carved out of the hillside.
+To the north a large set of stone doors block the way, and freedom lies to the
+south. There is a message carved into the east wall.
+~
+15 AD 0
+D0
+A large set of stone doors.
+~
+doors stone~
+1 -1 15401
+D2
+~
+~
+0 -1 311
+E
+wall message carving~
+This area was created for the enjoyment of those that look for adventure. It
+is however difficult, and so if you are not level 30 or higher, it would be a
+good idea to leave and come back when you are. --- It would be best to come in
+a large group. Enjoy.
+    Helt.
+~
+S
+
+#15401
+A dark passage~
+        You are in a dark passage, filled with dust and rubble. To the south
+you can make out a set of large stone doors, and the only other exit is to the
+north where the passage continues into darkness. You can hear nothing except
+your own breathing.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15402
+D2
+A large set of stone doors.
+~
+stone doors~
+1 -1 15400
+S
+
+#15402
+A dark passage~
+        The passage continues to the north where a bright light can be seen
+and south into darkness. To the east a wooden door blocks the way.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15404
+D1
+A wooden door.
+~
+door wooden~
+1 -1 15403
+D2
+~
+~
+0 -1 15401
+S
+
+#15403
+Sleeping Quarters~
+        You stand in a long room with row of beds down the one side. It seems
+to be a sleeping area of some sort. You don't want to be here when the
+occupants return. Something catches your eye under one of the beds.
+~
+15 DN 0
+D3
+A wooden door.
+~
+wooden door~
+1 -1 15402
+
+E
+bed under~
+Some of the floorboards under the bed seem to be lose, but try as you might
+you cannot seem to move them.
+~
+S
+
+#15404
+A bright passage~
+        You have come to the point of no return. As you look to the south, you
+notice that a wall has somehow replaced the passage. The brightly lit
+corridor proceeds to the north and there is a dark passage to the west.
+There is a sign next to the passage west.
+~
+15 D 0
+D0
+~
+~
+0 -1 15405
+D3
+~
+~
+0 -1 15407
+E
+sign~
+The sign reads: "Go no further, if you are not invited."
+~
+S
+
+#15405
+At the end of the passage~
+        You have reached the end of the passage. The only exits are east
+through a wooden door, or south back along the passage. The air seems much
+colder here and the light cast by the few torches seems to create more
+shadows then light.
+~
+15 D 0
+D1
+A wooden door.
+~
+wooden door~
+1 -1 15406
+D2
+~
+~
+0 -1 15404
+S
+
+#15406
+Sleeping quarters~
+        You have stumbled into a sleeping area for some of the inhabitants of
+this pit. They do not seem pleased to see you. Perhaps it would be a good
+idea not to linger here.
+~
+15 D 0
+D3
+A wooden door.
+~
+wooden door~
+1 -1 15405
+S
+
+#15407
+A dark intersection~
+        You stand in a dark, damp intersection. Shadows dance at the edge of
+your light. Dark passages lead north and south, while you can seen light
+coming from the east.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15412
+D1
+~
+~
+0 -1 15404
+D2
+~
+~
+0 -1 15408
+S
+
+#15408
+The dark passage continues~
+        More dark passages. The passage continues to the north and south. As
+your light shine on the walls you can discern a faint sheen of water as it
+trickles down the walls. You hope the passage won't suddenly fill with water.
+In the distance, You can hear a dull roar.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15407
+D2
+~
+~
+0 -1 15409
+S
+
+#15409
+A bend in the passage~
+        You can proceed no further south. Only exits seem to lead north into
+more darkness or west where a glimering of light can be seen. The roar seems
+nearer and reminds you of the sound of falling water hitting rocks.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15408
+D3
+~
+~
+0 -1 15410
+S
+
+#15410
+A bend in the passage~
+        You reach another bend in the passage and realise that you can see
+without the use of your light source. The roar that you have been hearing is
+almost deafening here and it seems to be coming from the north. The light also
+seems stronger towards the north. The air is damp and smells of decaying
+vegetation.
+~
+15 D 0
+D0
+A rainbow.
+~
+~
+0 -1 15411
+D1
+~
+~
+0 -1 15409
+S
+
+#15411
+The rainbow chamber~
+        A huge cavern opens around you. You notice that you are standing on a
+narrow ledge on the south side of the cavern. The sides of the cavern are
+covered in moss which gives off a greenish light. A magnificent waterfall
+sprouts from the west wall and falls down into the darkness where it smashes
+against the rocks. You can see no way to continue in any direction but back
+the way you came.
+~
+15 D 11
+D2
+~
+~
+0 -1 15410
+S
+#15412
+A choked passage~
+        There seems to have been a cave-in here recently and the passage to
+the north is completely blocked but for a small opening. The rocks, however
+don't seem too stable. You can either proceed north through the hole or
+along the safer passage to the south.
+~
+15 AD 11
+D0
+A small hole.
+~
+~
+0 -1 15413
+D2
+~
+~
+0 -1 15407
+S
+#15413
+The end of the passage~
+        You are at the end of the passage. The way south is blocked by a
+cave-in and while it was easy to come through from the other side it seems
+VERY UNSTABLE from this side. A stout metal door prevents passage to the east.
+~
+15 AD 0
+D1
+A stout metal door.
+~
+door metal~
+2 15424 15414
+S
+#15414
+Meeting hall~
+        You have steped into a large room full of benches and chairs. It would
+seem that the inhabitats of this place meet here on a regular basis. Do you
+want to be here when they arrive? An archway leads to the north and doors lead
+to the east and west.
+~
+15 D 0
+D0
+A stone archway.
+~
+~
+0 -1 15416
+D1
+A Heavy wooden door.
+~
+door heavy wooden~
+2 15424 15415
+D3
+A stout metal door.
+~
+metal door~
+2 15424 15413
+S
+#15415
+Store room~
+        This must once have been a store room, but from the smell of blood and
+the sight of chains attached to the wall it would seem that it has been
+converted into a prison of sorts.
+~
+15 AD 0
+D3
+A heavy wooden door.
+~
+door heavy wooden~
+2 15424 15414
+S
+#15416
+A ladder down~
+        When you enter the first thing you notice is the hole in the middle
+of the floor with a ladder sticking out of it. There is nothing else in the
+room and the only other exit is to the south, throught the stone archway. A
+cold wind blows out of the hole in the floor.
+~
+15 D 0
+D2
+A stone archway.
+~
+~
+0 -1 15414
+D5
+A ladder.
+~
+~
+0 -1 15417
+S
+#15417
+On the ladder~
+        The ladder is old and rusty, but it still seems sturdy here. Above
+you, you can see a ring of light. Down you can see nothing except more ladder.
+You think you can hear the sound faint rustling somewhere near.
+~
+15 AD 11
+D4
+Top of the ladder.
+~
+~
+0 -1 15416
+D5
+More of the ladder.
+~
+~
+0 -1 15418
+S
+#15418
+A landing~
+        You are growing tired. The way down seems endless. A narrow passage
+leads off to the east and the ladder continues up and down. From below a cold
+wind blows up, sending chills over your whole body. The air is very still
+towards the east.
+~
+15 AD 11
+D1
+~
+~
+0 -1 15419
+D4
+More of the ladder.
+~
+~
+0 -1 15417
+D5
+More of the ladder.
+~
+~
+0 -1 15422
+S
+#15419
+A dark narrow passage~
+        The hair on the back of you neck rises. You feel as if you are being
+watched by someone. There is a tick layer of dust on the ground. No one seems
+to have come this way in a very long time. The passage continues to the east
+and west it goes back to the ladder.
+~
+15 AD 11
+D1
+~
+~
+0 -1 15420
+D3
+~
+~
+0 -1 15418
+S
+#15420
+A dark passage~
+        A smooth hole gapes at your feet, inviting you to investigate. The
+descent seems hazardous, no hand or foot-holds seem available. You must
+decide to either go west, back to the passage or down into the dark unknown.
+A message has been carved on the floor next to the hole, but most of it has
+been worn away.
+~
+15 AD 11
+D3
+~
+~
+0 -1 15419
+D5
+You see NOTHING that would be worth it.
+~
+~
+0 -1 15421
+E
+message floor~
+D   ot  o do n. I lo   t o com a  on  w en  hey f ll int  th    it.
+~
+S
+#15421
+A long way down~
+        AAAAHHHHH!!!!! You can't seem to hold onto the sides of the hole.
+Will you ever stop falling? YES, you eventually do... but you don't feel
+much after the initial bounce.
+~
+15 C 11
+S
+#15422
+A landing~
+        The ladder continues up an down, and there is a small opening to the
+east. You hear the sound of water dripping from somewhere out of sight.
+~
+15 AD 11
+D1
+~
+~
+0 -1 15423
+D4
+More of the ladder.
+~
+~
+0 -1 15418
+D5
+More of the ladder.~
+~
+0 -1 15424
+S
+#15423
+A small crevice~
+        The opening doesn't go very far, but comes to an end about 2 meters
+after it started. The only exit seems to be the way you came -- towards the
+west.
+~
+15 AD 0
+D3
+~
+~
+0 -1 15422
+S
+#15424
+Still another landing~
+        Does this ladder ever end? All you see when you look up or down, is
+the ladder being swallowed by the darkness. However, to the west, you see an
+opening in the wall. Light seems to be coming from that direction. The cold
+wind also seems to be coming from that direction.
+~
+15 AD 11
+D3
+An opening.
+~
+~
+0 -1 15425
+D4
+More of the ladder.
+~
+~
+0 -1 15422
+D5
+Still more of the ladder.
+~
+~
+0 -1 15432
+S
+#15425
+A well lit tunnel~
+        At long last the signs of civilization. But is this a good thing...
+where there is light there are creatures. The passage continues to the west
+and the way east leads back to the ladder. You notice a sign carved into the
+floor.
+~
+15 D 0
+D1
+~
+~
+0 -1 15424
+D3
+~
+~
+0 -1 15426
+E
+floor sign carving~
+The sign reads: "Let no one that has no business with the Hand, pass this
+point, for if you do, you will not return this way again.. ever!"
+~
+S
+#15426
+A turning in the corridor~
+        You notice that the corridor is infinately better than the previous
+passages that you have travelled along since entering this place. The way is
+well lit and the floor, walls and ceiling are well carved and free of dust.
+The corridor proceeds to the north to a small room and to the east to more
+corridor.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15428
+D1
+~
+~
+0 -1 15425
+S
+#15428
+A small room~
+        You enter a small room and the first thing you notice is a skeleton
+hanging from the ceiling by a chain. The second thing you notice is a door
+leading north and passages leading east and south. The third thing you notice
+is that the temperature is extremely low in here.
+~
+15 DN 0
+D0
+A heavy steel door.
+~
+door steel~
+1 -1 15429
+D1
+~
+~
+0 -1 15427
+D2
+~
+~
+0 -1 15426
+E
+skeleton~
+He seems to have been dead a long time
+~
+S
+#15427
+A rough passage~
+        You have entered a half completed passage. Debris and rubble litter
+the floor. The passage continues to the east and the west takes you to a
+small room.
+~
+15 ADN 0
+D1
+~
+~
+0 -1 15476
+D3
+~
+~
+0 -1 15428
+S
+#15476
+A dead end~
+        Work on the passage seems incomplete. Tools have been left abandoned
+on the ground. From the looks of things, the workers left in a hurry. Or then
+again maybe they didn't leave. You notice some objects that look very much
+like human bones. The only exit is towards the west.
+~
+15 ADN 11
+D3
+~
+~
+0 -1 15427
+E
+bones~
+Yep, they sure look human...
+~
+S
+#15429
+A room leading up~
+        This room appears to be purely functional, and its function seems to
+be to support the flight of stairs that lead upwards.
+~
+15 DN 11
+D2
+A heavy steal door.
+~
+steel door~
+1 -1 15428
+D4
+~
+~
+0 -1 15430
+S
+#15430
+A small landing~
+        The stairs end on a small handing, in front of a large black door
+which blocks the way to the east. You see a strange carving on the door.
+~
+15 DN 11
+D1
+A large black door.
+~
+black door large~
+1 15425 15431
+D5
+~
+~
+0 -1 15429
+E
+carving door~
+You see a carving of what appears to be a large hand.
+~
+S
+#15431
+The resting place~
+        You have entered a room that is totally black in color. It is lit by
+a few black candles and the shadows quiver and move as an unseen wind blows
+through the room. This is the Hand's resting place, but it doesn't seem to be
+a good place for you to rest.
+~
+15 DN 0
+D3
+A large black door.
+~
+large black door~
+1 15425 15430
+S
+#15432
+On the ladder~
+        The ladder looks the same as before, and as before it proceeds up in
+an upward and a downward direction. A dark and little used corridor leads off
+to the east.
+~
+15 AD 11
+D1
+~
+~
+0 -1 15433
+D4
+More ladder.
+~
+~
+0 -1 15424
+D5
+More ladder.
+~
+~
+0 -1 15440
+S
+#15433
+Steps leading up~
+        While this section of the corridor looks to have once been fine and
+well looked after, it is now covered in dust and cobwebs. The steps lead up
+into the darkness and the ladder is waiting to the west.
+~
+15 AD 11
+D3
+~
+~
+0 -1 15432
+D4
+~
+~
+0 -1 15434
+E
+dust cobwebs~
+You move the dust and cobwebs and uncover an old painting of a beautiful
+young woman.
+~
+S
+#15434
+A stone landing~
+        Steps lead downwards from a small stone landing. To the north a dark
+passage can be barely seen. Clouds of dust spring up from under your feet
+every step you take.
+~
+15 AD 11
+D0
+~
+~
+0 -1 15435
+D5
+~
+~
+0 -1 15433
+S
+#15435
+A dark turning in a corridor~
+        The corridor continues to the south and to the east. This room seems
+to have been last visited a decade ago. Dust covers everything. You think
+you hear a deep rumble and the noise of rock rubbing against rock coming from
+somewhere to the east.
+~
+15 AD 0
+D1
+~
+~
+0 -1 15436
+D2
+~
+~
+0 -1 15434
+S
+#15436
+A dark intersection~
+        The corridor continues east and west and a small room can be seen of
+to the north. The rumbling is loader here and is definately coming from the
+east.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15437
+D1
+~
+~
+0 -1 15438
+D3
+~
+~
+0 -1 15435
+S
+#15437
+A small storeroom~
+        This room as not been used for many years. Whatever was once stored
+here has either decayed or has been moved elsewhere. All that remains is the
+dust and the cobwebs. There seems to be no exit except the way you entered.
+~
+15 AD 0
+D2
+~
+~
+0 -1 15436
+S
+#15438
+Corridor end~
+        Apon entering you imeadiately notice the absense of dust and other
+debris that had been littering the rest of the corridor. The next thing you
+notice is that the rumbling noise seems to be coming from somewhere within
+the room. Last you notice a beautifully carved wooden door leading to the
+south.
+~
+15 ADN 0
+D2
+A beautifully carved wooden door.
+~
+door wooden~
+1 -1 15439
+D3
+~
+~
+0 -1 15436
+S
+#15439
+The grand bedroom~
+        You have entered an enormous bedroom. The walls are covered with
+beautiful paintings and other old ornaments decorate the room. The bedroom
+belongs to Darathon's mother and while she doesn't seem too upset with your
+intrusion, it would be foolish to stay here any longer then absolutely
+neccesary.
+~
+15 DN 0
+D0
+A beautifully carved wooden door.
+~
+door wooden~
+1 -1 15438
+S
+#15440
+A large landing~
+        This appears to be the main landing for the ladder. The ladder does,
+however, continue down but you can seen NOTHING down there except a gray mist.
+The ladder allows access to higher levels. A wide well lit corridor can be
+seen the south.
+~
+15 AD 11
+D2
+A well lit corridor.
+~
+~
+0 -1 15441
+D4
+More ladder.
+~
+~
+0 -1 15432
+D5
+You see an evil looking mist... NOT a good place to go.
+~
+~
+0 -1 15471
+S
+#15441
+A well lit corridor~
+        This seems to be a well used area. The floor is covered in a dark blue
+carpet and there is no sign of any dust. The corridor is lit but you can't see
+what is responsible for the light. The corridor continues to the north and
+south.
+~
+15 D 0
+D0
+~
+~
+0 -1 15440
+D2
+~
+~
+0 -1 15442
+S
+#15442
+A Turn in the corridor~
+        The corridor bends here and continues to the north and east.
+~
+15 D 0
+D0
+~
+~
+0 -1 15441
+D1
+~
+~
+0 -1 15443
+S
+#15443
+A well lit corridor~
+        You continue along the corridor.
+~
+15 D 0
+D1
+~
+~
+0 -1 15444
+D3
+~
+~
+0 -1 15442
+S
+#15444
+A turn in the corridor~
+        Yet again the corridor bends, this time you may proceed to the west or
+the south.
+~
+15 D 0
+D2
+~
+~
+0 -1 15445
+D3
+~
+~
+0 -1 15443
+S
+#15445
+A turn in the corridor~
+        Whoever built this place obviously decided that the fastest way
+between two points is not the straight path.
+~
+15 D 0
+D0
+~
+~
+0 -1 15444
+D3
+~
+~
+0 -1 15446
+S
+#15446
+The Red corridor~
+        The corridor is very wide here. Six men could easily walk abreast and
+the outer two would still not touch the walls. The carpet is now a deap red
+and the walls are hung with red draps. The light has also changed, and now
+seems to have a redish glow. The whole effect makes you feel like you are
+walking in a river of blood.
+~
+15 D 0
+D1
+~
+~
+0 -1 15445
+D3
+~
+~
+0 -1 15447
+S
+#15447
+The red corridor~
+        The red corridor stretches of to the east and west.
+~
+15 D 0
+D1
+~
+~
+0 -1 15446
+D3
+~
+~
+0 -1 15448
+S
+#15448
+An intersection~
+        The red corridor continues to the east and south, while a narrow dark
+passage leaves to the west. The passage west seems full of deep shadows and
+appears most forbiding.
+~
+15 D 0
+D1
+~
+~
+0 -1 15447
+D2
+~
+~
+0 -1 15453
+D3
+~
+~
+0 -1 15449
+S
+#15449
+A dark bend~
+        This passage is dark and damp and smells of blood and decay. You can
+faintly hear chanting coming from the north.
+~
+15 AD 0
+D0
+~
+~
+0 -1 15450
+D1
+~
+~
+0 -1 15448
+S
+#15450
+End of the passage~
+        You have reached the end of the passage. To continue further you must
+either open one of the doors to the east or the north or go south along a dark
+passage. The sound of chanting is loader and seems to come from behind the
+door to the north.
+~
+15 AD 0
+D0
+An ebony door.
+~
+door ebony~
+1 -1 15451
+D1
+A rusty metal door.
+~
+rusty metal door~
+1 -1 15452
+D2
+~
+~
+0 -1 15449
+S
+#15451
+Alengrot's Chamber~
+        The room has been carved from solid rock. It is, however, difficult to
+see the stone, as most of the floor and the walls are covered in dark blood -
+most of it old, some of it fresh. The smell is dreadful. The room is totally
+bare except for the stone table in the centre of the room and a small shelf
+against the north wall.
+~
+15 D 0
+D2
+An ebony door.
+~
+door ebony~
+1 -1 15450
+E
+table~
+The stone table is covered in fresh blood. It has a chain attached to each
+corner.
+~
+E
+shelf~
+This self seems to be Alengrot's trophy case and contains some gruesome and
+disgusting objects.
+~
+S
+#15452
+A old storeroom~
+        There are MANY things in here. BUT nearly all of the items are only
+dust particles.
+~
+15 AD 0
+D3
+A rusty metal door.
+~
+door rusty metal~
+1 -1 15450
+S
+#15453
+The red corridor~
+        The red corridor continues to the south and to the north.
+~
+15 D 0
+D0
+~
+~
+0 -1 15448
+D2
+~
+~
+0 -1 15454
+S
+#15454
+The red corridor~
+        The red corridor continues to the south and to the north.
+~
+15 D 0
+D0
+~
+~
+0 -1 15453
+D2
+~
+~
+0 -1 15455
+S
+#15455
+End of the red corridor~
+        The corridor ends here. A narrow crystal door leads off the west and
+a set of large golden doors lead off to the east. There is a small sign on
+the south wall.
+~
+15 D 0
+D0
+~
+~
+0 -1 15454
+D1
+Large Golden doors.
+~
+golden doors~
+1 -1 15456
+D3
+A narrow crystal door.
+~
+door crystal~
+1 -1 15477
+E
+south wall sign~
+The sign reads: "Lord Darathorn the Great."
+~
+S
+#15477
+Tolorian's Laboritory~
+        Compared to the other rooms you have seen, this room is full. The
+walls are completely obscured by book ladden shelves. The centre of the room
+is filled with a large wooden desk, which in turn is covered in books and
+scrolls of all types and description. The rest of the room is clutered by
+piles of books and other strange items, the function and use of which,
+completely elude you.
+~
+15 D 0
+D1
+A narrow crystal door.
+~
+door crystal~
+1 -1 15455
+S
+#15456
+The southwest corner of the great hall~
+        You stand in the southwest corner of a large hall. Numerous torches
+and candles give light to a hall covered completely by gold. The hall
+stretches off to the east and the north. The enterance to the hall lies to the
+west.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15457
+D1
+~
+~
+0 -1 15461
+D3
+Large Golden doors.
+~
+doors golden~
+1 -1 15455
+S
+#15457
+The west side of the great hall~
+        The great hall continues to the north, south and east.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15458
+D1
+~
+~
+0 -1 15460
+D2
+~
+~
+0 -1 15456
+S
+#15458
+The northwest corner of the great hall~
+        The hall stretches to the south and the east.
+~
+15 DN 0
+D1
+~
+~
+0 -1 15459
+D2
+~
+~
+0 -1 15457
+S
+#15459
+The north end of the great hall~
+        You see the north wall of the hall. It looks just like the south wall.
+You can see more of the hall to the east, south and the west.
+~
+15 DN 0
+D1
+~
+~
+0 -1 15464
+D2
+~
+~
+0 -1 15460
+D3
+~
+~
+0 -1 15458
+S
+#15460
+Centre of the great hall~
+        You stand in the very centre of the hall. You can proceed in all four
+compass directions. You see a small golden plaque imbedded in the ground at
+your feet.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15459
+D1
+~
+~
+0 -1 15463
+D2
+~
+~
+0 -1 15461
+D3
+~
+~
+0 -1 15457
+E
+golden plaque ground~
+The plaque reads: "Let all who stand here look and marvel at the wonderous
+splendor of Darathorn the Great."
+~
+S
+#15461
+The south end of the great hall~
+        You stand before the south wall. It looks exactly the same as the
+north wall. The hall extends away to the north, east and west.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15460
+D1
+~
+~
+0 -1 15462
+D3
+~
+~
+0 -1 15456
+S
+#15462
+The southeast corner of the great hall~
+        The hall continues to the north and to the west.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15463
+D3
+~
+~
+0 -1 15461
+S
+#15463
+The east end of the great hall~
+        Darathorn's great throne stands here made of solid gold. It is a pity
+that, because of its weight, you will never be able to carry it away. The hall
+continues to the north, south and west. To the east you see a heavy curtain.
+~
+15 DN 0
+D0
+~
+~
+0 -1 15464
+D1
+A heavy curtain.
+~
+curtain heavy~
+1 -1 15465
+D2
+~
+~
+0 -1 15462
+D3
+~
+~
+0 -1 15460
+E
+curtain~
+A heavy curtain hangs against the wall.
+~
+S
+#15464
+The northeast corner of the great hall~
+        This corner of the hall seems darker and colder then the rest of the
+hall. Warmer parts of the hall can be seen to the south and to the west.
+
+~
+15 DN 0
+D2
+~
+~
+0 -1 15463
+D3
+~
+~
+0 -1 15459
+S
+#15465
+A small room~
+        You have entered a small room behind the throne. It is plain and bare
+and looks very stark after the golden great hall. There are three exits out of
+the room. The first is west back to the hall. The second is through a small
+door to the south, and the third is up through a hole in the ceiling.
+~
+15 D 0
+D2
+A small door.
+~
+door~
+1 -1 15466
+D3
+A heavy curtain.
+~
+curtain heavy~
+1 -1 15463
+D4
+A large hole.
+~
+~
+0 -1 15467
+S
+#15466
+The robe room~
+        Here is where Darathorn gets ready when he wishes to address his
+subjects in the great hall. The only exit is the way you entered.
+~
+15 DN 0
+D0
+A small door.
+~
+door~
+1 -1 15465
+S
+#15467
+A room in the air~
+        The most significant thing you notice about the room is that it has
+no floor. Exits are west through the gold door, or down through the hole.
+~
+15 DN 9
+D3
+A golden door.
+~
+door golden~
+1 -1 15469
+D5
+A large hole.
+~
+~
+0 -1 15465
+S
+#15468
+The ladder~
+        The room is small dark and the only thing of significance is the long
+iron ladder that proceeds up into the darkness
+~
+15 AD 11
+D4
+An iron ladder.
+~
+~
+0 -1 15472
+S
+#15469
+The outer chamber~
+        This is Darathorn's outer chamber and study. Most of his vilianous
+business is conducted from here. Only his most trusted men are allowed in
+here. The chamber is very functional. No frills or decorations can be seen.
+Darathorn likes to keep business and pleasure seperate. A large oak door is
+to the north.
+~
+15 DN 0
+D0
+A large oak door.
+~
+door oak~
+1 -1 15470
+D1
+A golden door.
+~
+door golden~
+1 -1 15467
+S
+#15470
+Darathorn's bedroom~
+        You are in Darathorn's bedroom. It is big and everything in it is big.
+The bed looks as if it could comfortably hold 5 people. A large mirror on the
+east wall and an over-stuffed armchair are the only other things in the
+room.
+~
+15 DN 0
+D1
+You see yourself staring back.
+~
+mirror~
+1 -1 15468
+D2
+A large oak door.
+~
+door oak~
+1 -1 15469
+E
+mirror~
+You see you reflection in a beautiful silver mirror.
+~
+S
+#15472
+On the iron ladder~
+        You are on long iron ladder. You may go either up or down.
+~
+15 AD 11
+D4
+Iron ladder.
+~
+~
+0 -1 15473
+D5
+Iron ladder.
+~
+~
+0 -1 15468
+S
+#15473
+On the iron ladder~
+        You are on an iron ladder. You may go either up or down.
+~
+15 AD 11
+D4
+Iron ladder.
+~
+~
+0 -1 15474
+D5
+Iron ladder.
+~
+~
+0 -1 15472
+S
+#15474
+On the iron ladder~
+        You are on long iron ladder. You may go either up or down.
+~
+15 AD 11
+D4
+Iron ladder.
+~
+~
+0 -1 15475
+D5
+Iron ladder.
+~
+~
+0 -1 15473
+S
+#15475
+At the end of the ladder~
+        You come to the end of the ladder. Above you you see some floorboads
+and bellow you is the rest of the ladder.
+~
+15 AD 11
+D4
+You see some floorboards.
+~
+floorboards~
+1 -1 15403
+D5
+Iron ladder.
+~
+~
+0 -1 15474
+E
+floorboards~
+The floorboards seem to be lose... maybe you can open them.
+~
+S
+#15471
+NO more ladder~
+        AAAAHHHHH!!!!! where is that ladder. The ladder has been devoured by
+the mist. Since the ladder is no longer there, there is nothing preventing
+you from falling. And so you do fall... a long long way. You eventually hit
+the bottom, bounce twice and that is that.
+~
+15 C 11
+S
+#15478
+A CRUSHING experiance~
+        OOPS!!! As you move back through the hole you bump the unstable rocks
+and the last thought on your mind, as thousands of tonnes of rock fall on top
+of you, is: "Boy, was that a STUPID thing to do".
+~
+15 C 11
+S
+#0
+
+#RESETS
+*
+M 0 15409 12 15401 12           *  minor thugs 1 (30)
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15401 12           *  minor thugs 2
+E 1 15419 -1 16                 * iron club
+*
+M 0 15409 12 15403 12           *  minor thugs 3
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15403 12           *  minor thugs 4
+E 1 15419 -1 16                 * iron club
+*
+M 0 15409 12 15406 12           *  minor thugs 5
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15406 12           *  minor thugs 6
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15406 12           *  minor thugs 7
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15406 12           *  minor thugs 8
+E 1 15419 -1 16                 * iron club
+*
+M 0 15409 12 15410 12           *  minor thugs 9
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15410 12           *  minor thugs 10
+E 1 15419 -1 16                 * iron club
+*
+M 0 15409 12 15414 12           *  minor thugs 11
+E 1 15419 -1 16                 * iron club
+M 0 15409 12 15414 12           *  minor thugs 12
+E 1 15419 -1 16                 * iron club
+*
+M 0 15410 10 15402 4            * minor thief 1 (25)
+E 1 15423 -1 16                 * rusty blade
+M 0 15410 10 15402 4            * minor thief 2
+E 1 15423 -1 16                 * rusty blade
+*
+M 0 15410 10 15408 4            * minor thief 3
+E 1 15423 -1 16                 * rusty blade
+M 0 15410 10 15408 4            * minor thief 4
+E 1 15423 -1 16                 * rusty blade
+*
+M 0 15410 10 15413 4            * minor thief 5
+E 1 15423 -1 16                 * rusty blade
+M 0 15410 10 15413 4            * minor thief 6
+E 1 15423 -1 16                 * rusty blade
+*
+M 0 15411 6 15405  2            * thief 1      (33)
+E 1 15405 -1 12                 * grey cloak
+E 1 15406 -1 16                 * glass knife 1
+*
+M 0 15411 6 15412  2            * thief 2
+E 1 15405 -1 12                 * grey cloak
+E 1 15406 -1 16                 * glass knife 1
+M 0 15411 6 15412  2            * thief 3
+E 1 15405 -1 12                 * grey cloak
+E 1 15406 -1 16                 * glass knife 1
+*
+M 0 15411 6 15414  2            * thief 4
+E 1 15405 -1 12                 * grey cloak
+E 1 15406 -1 16                 * glass knife 1
+*
+M 0 15403 1 15404  1            * Golorth         (41)
+G 1 15424 -1                    * key to room 15414
+E 1 15414 2 5                   * silver plate
+E 1 15415 2 16                  * bastard sword
+*
+M 0 15415 1 15415  1            * prisoner        (20)
+*
+M 0 15413 8 15417  4            * shade 1         (37)
+M 0 15413 8 15417  4            * shade 2
+*
+M 0 15413 8 15419  4            * shade 3
+M 0 15413 8 15419  4            * shade 4
+*
+M 0 15413 8 15422  4            * shade 5
+M 0 15413 8 15422  4            * shade 6
+*
+M 0 15413 8 15423  4            * shade 7
+M 0 15413 8 15423  4            * shade 8
+*
+M 0 15412 4 15424  2            * master thief 1 (37)
+E 1 15405 -1 12                 * grey cloak
+E 1 15407 -1 16                 * glass knife 2
+*
+M 0 15412 4 15426  2            * master thief 2
+E 1 15405 -1 12                 * grey cloak
+E 1 15407 -1 16                 * glass knife 2
+*
+M 0 15412 4 15441  2            * master thief 3
+E 1 15405 -1 12                 * grey cloak
+E 1 15407 -1 16                 * glass knife 2
+*
+M 0 15412 4 15444  2            * master thief 4
+E 1 15405 -1 12                 * grey cloak
+E 1 15407 -1 16                 * glass knife 2
+*
+M 0 15414 4 15428  2            * assassin 1  (42)
+E 1 15404 4 16                  * bone knife
+E 1 15405 -1 12                 * grey cloak
+*
+M 0 15414 4 15429  2            * assassin 2
+G 1 15425 -1                    * key to room 15429
+E 1 15404 4 16                  * bone knife
+E 1 15405 -1 12                 * grey cloak
+*
+M 0 15414 4 15449  2            * assassin 3
+E 1 15404 4 16                  * bone knife
+E 1 15405 -1 12                 * grey cloak
+*
+M 0 15414 4 15452  2            * assassin 4
+E 1 15404 4 16                  * bone knife
+E 1 15405 -1 12                 * grey cloak
+*
+M 0 15417 1 15457  1            * barbarian   (43)
+*
+M 0 15402 1 15431  1            * the Hand    (45)
+E 1 15412 1 3                   * black cloak
+E 1 15413 1 16                  * fire blade
+*
+M 0 15401 8 15446  4            * henchmen 1  (38)
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+M 0 15401 8 15446  4            * henchmen 2
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+*
+M 0 15401 8 15448  4            * henchmen 3
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+M 0 15401 8 15448  4            * henchmen 4
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+*
+M 0 15401 8 15453  4            * henchmen 5
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+M 0 15401 8 15453  4            * henchmen 6
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+*
+M 0 15401 8 15455  4            * henchmen 7
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+M 0 15401 8 15455  4            * henchmen 8
+E 1 15410 -1 14                 * iron bracer
+E 1 15411 -1 16                 * axe
+*
+M 0 15406 1 15477  4            * Tolorian    (45)
+E 1 15418 1 17                  * purple wand
+*
+M 0 15400 1 15470  4            * Darathorn   (50)
+E 1 15400 1 16                  * seeker dagger
+E 1 15402 1 17                  * statuette
+E 1 15403 1 8                   * boots
+*
+M 0 15408 1 15438  1            * obsidian golem  (47)
+*
+M 0 15407 1 15439  1            * Darathorn's mother (50)
+E 1 15401 3 0                   * power stone
+E 1 15408 3 12                  * red robe
+E 1 15409 3 16                  * staff
+*
+M 0 15405 9 15459  4            * masked thug 1     (40)
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+M 0 15405 9 15459  4            * masked thug 2
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 2 11                  * crow shield
+*
+M 0 15405 9 15460  4            * masked thug 3
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+M 0 15405 9 15460  4            * masked thug 4
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+*
+M 0 15405 9 15461  4            * masked thug 5
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+M 0 15405 9 15461  4            * masked thug 6
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+*
+M 0 15405 9 15469  4            * masked thug 7
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+M 0 15405 9 15469  4            * masked thug 8
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+M 0 15405 9 15469  4            * masked thug 9
+E 1 15421 9 16                  * adamatite small sword
+E 1 15420 9 6                   * mask
+E 1 15422 9 11                  * crow shield
+*
+M 0 15416 8 15443  2            * servant 1    (20)
+*
+M 0 15416 8 15454  2            * servant 2
+*
+M 0 15416 8 15456  2            * servant 3
+*
+M 0 15416 8 15458  2            * servant 4
+*
+M 0 15416 8 15462  2            * servant 5
+*
+M 0 15416 8 15466  2            * servant 6
+*
+M 0 15416 8 15470  2            * servant 7
+*
+M 0 15416 8 15447  2            * servant 8
+*
+M 0 15404 1 15451  1            * Alengrot    (45)
+E 1 15416 1 6                   * green skull cap
+E 1 15417 1 16                  * green demon claw
+*
+M 0 15418 1 15476  1            * kadrdw'ws   (55)
+*
+D 0 15400 0 1
+D 0 15401 2 1
+D 0 15402 1 1
+D 0 15403 3 1
+D 0 15405 1 1
+D 0 15406 3 1
+D 0 15413 1 2
+D 0 15414 3 2
+D 0 15414 1 2
+D 0 15415 3 2
+D 0 15428 0 1
+D 0 15429 2 1
+D 0 15430 1 2
+D 0 15431 3 2
+D 0 15438 2 1
+D 0 15439 0 1
+D 0 15450 1 1
+D 0 15450 0 1
+D 0 15451 2 1
+D 0 15452 3 1
+D 0 15455 1 1
+D 0 15455 3 1
+D 0 15456 3 1
+D 0 15463 1 1
+D 0 15465 3 1
+D 0 15465 2 1
+D 0 15466 0 1
+D 0 15467 3 1
+D 0 15469 0 1
+D 0 15469 1 1
+D 0 15470 2 1
+D 0 15470 1 1
+D 0 15475 4 1
+D 0 15477 1 1
+*
+S
+
+#SPECIALS
+M 15413 spec_cast_undead
+M 15410 spec_assassin
+M 15411 spec_assassin
+M 15412 spec_assassin
+M 15414 spec_cast_undead
+M 15402 spec_cast_undead
+M 15406 spec_cast_undead
+M 15400 spec_cast_undead
+M 15408 spec_breath_any
+M 15407 spec_cast_undead
+M 15416 spec_janitor
+M 15404 spec_cast_undead
+M 15418 spec_cast_undead
+S
+
+
+#$

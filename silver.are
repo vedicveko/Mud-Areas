@@ -1,0 +1,2088 @@
+
+
+#AREA
+silver.are~
+SilverDale~
+{10 30} Anon    SilverDale~
+4500 4599
+
+
+#MOBILES
+
+#4501
+mob wolf~
+the Timberwolf~
+A hungry timberwolf is here, looking for food.
+~
+It looks like it would be more at home in a forest. I wonder why it left.
+~
+wolf~
+AFGH 0 0 4501
+8 0 2d7+96 79d1+1 1d7+2 claw
+3 3 3 9
+FHK A 0 0
+stand stand male 0
+0 0 medium 0
+#4502
+mob white wolf~
+the Huge White Wolf~
+A huge white wolf is here, looking for food.
+~
+It looks like it would be more at home in a forest. I wonder why it left.
+~
+wolf~
+AFG 0 0 4501
+12 0 2d10+150 119d1+1 1d10+3 claw
+0 0 0 8
+FHK A 0 0
+stand stand male 0
+0 0 medium 0
+#4503
+mob shadow wolf~
+the Huge Shadow Wolf~
+A huge wolf shadow is here, it howls eerily as it hunts for life force.
+~
+Although faintly transparent, its probably solid enough to rip your throat
+out. Its obviously very evil, and very nasty. I hope you have friends.
+~
+wolf~
+AFG T -1000 0
+12 0 2d10+150 119d1+1 1d10+3 claw
+0 0 0 8
+FHK A 0 XY
+stand stand male 0
+0 0 medium 0
+#4504
+mob vampire shaman orc~
+the Vampire Orc-Shaman~
+An Orc-Shaman is here, he has very well developed canines and pale coloration
+~
+Unless your mother raised a moron, you're quite sure this is a vampire...
+I hope you have a wooden stake handy...
+~
+orc~
+ABCF BD -1000 0
+20 0 3d9+333 199d1+1 2d8+5 punch
+-4 -4 -4 7
+0 A 0 XY
+stand stand male 1000
+FHIK 0 medium 0
+#4505
+mob bodyguard orc~
+the Orc Bodyguard~
+A large orc bodyguard is here, eyeing you suspiciously.
+~
+Looks pretty tough, as orcs go...
+~
+orc~
+ABCF 0 -750 0
+12 0 2d10+150 119d1+1 1d10+3 punch
+0 0 0 8
+CEFHIK A 0 0
+stand stand male 300
+0 0 medium 0
+#4506
+mob vampire mayor~
+the Vampire Mayor~
+The mayor is here grinning evily, His eyes are red and glowing.
+~
+Unless your mother raised a moron, you're quite sure this is a vampire...
+I hope you have a wooden stake handy...
+~
+human~
+ABCF D -1000 0
+19 0 3d9+308 189d1+1 2d7+5 punch
+-4 -4 -4 7
+EIJ A 0 XY
+stand stand male 1200
+0 0 medium 0
+#4507
+mob shadow wolf~
+the Enormous Shadow Wolf~
+An Enormous shadow wolf is here, it growls eerily.
+~
+Although you can see right though it, it still seems quite dangerous...
+perhaps thats because its the size of a large horse...
+~
+wolf~
+ABCF D -1000 0
+12 0 2d10+150 119d1+1 1d10+3 claw
+0 0 0 8
+FHK A 0 XY
+stand stand male 0
+0 0 medium 0
+#4508
+mob vampire mistress~
+a vampire mistress~
+A provocatively dressed woman is here, her eyes glow red in the darkness.
+~
+Unless your mother raised a moron, you're quite sure this is a vampire...
+I hope you have a wooden stake handy...
+~
+human~
+ABCF BD -1000 0
+23 0 5d10+450 229d1+1 3d6+6 punch
+-6 -6 -6 6
+FHK A 0 XY
+stand stand male 2600
+0 0 medium 0
+#4509
+mob rat~
+the giant rat~
+A giant rat is here, it rushes at you with mindless hunger.
+~
+It looks much like any other rat except that its about 3 feet long.
+~
+bat~
+ACF D -200 0
+5 0 2d6+60 49d1+1 1d6+1 scratch
+5 5 5 9
+F A 0 XY
+stand stand male 0
+0 0 medium 0
+#4510
+mob vampire nosferatu~
+Nosferatu~
+Nosferatu snarls with rage, and prepares to cast a spell.
+~
+Unless your mother raised a moron, you're quite sure this is a vampire...
+I hope you have a wooden stake handy... In fact I hope you have an army
+handy... (Nosferatu is not to be trifled with)
+~
+human~
+ABCF BDH -1000 0
+30 0 6d12+853 299d1+1 4d6+8 punch
+-9 -9 -9 6
+E A 0 XY
+stand stand either 5000
+0 0 medium 0
+#0
+
+#OBJECTS
+
+#4501
+obj shadow blade~
+a shadowblade~
+A faintly transparent blade forged of shadow lies here.~
+air~
+weapon GJ AN
+sword 4 4 slash 0
+12 40 800 P
+A
+18 3
+A
+19 3
+
+#4502
+obj shadow spear~
+a shadowspear~
+A faintly transparent spear forged of shadow lies here.~
+air~
+weapon GJ AN
+spear 5 5 pierce 0
+22 200 3800 P
+A
+18 5
+A
+19 2
+
+#4503
+obj shadow axe~
+a shadowaxe~
+A faintly transparent axe forged of shadow lies here.~
+air~
+armor GJ AN
+axe 5 5 chomp 0
+22 200 3800 P
+A
+18 1
+A
+19 5
+
+#4504
+obj bracer shadow~
+shadowbracer~
+A faintly transparent bracer has been dropped here~
+air~
+armor GJ AM
+7 8 7 1 2
+22 300 4800 P
+A
+24 1
+
+#4505
+obj gauntlets shadow~
+shadowgauntlets~
+A faintly transparent pair of gauntlets has been dropped here~
+air~
+armor GJ AH
+5 5 6 1 2
+12 3500 700 P
+A
+1 1
+
+#4506
+obj orb stone~
+a mageorb~
+A small stone lies on the ground~
+stone~
+armor G AQ
+7 7 7 1 0
+19 400 1200 G
+A
+3 2
+A
+1 -2
+
+#4507
+obj orb stone~
+a priestorb~
+A small stone lies on the ground~
+stone~
+armor G AQ
+7 7 8 1 0
+22 400 5200 G
+A
+4 2
+A
+2 -2
+
+#4508
+obj shadow mail~
+shadowmail~
+A faintly transparent mail shirt lies on the ground.~
+air~
+armor GJ AD
+9 9 9 1 4
+29 300 6500 P
+A
+5 1
+
+#4509
+obj silver ingot~
+a large silver ingot~
+A large bar of silver lies here.~
+silver~
+treasure 0 AO
+0 0 0 0 0
+0 350 5000 0
+
+#4510
+obj mold forge~
+a large forge~
+A large forge, complete with a mold, stands in the corner, 
+connected to the furnace.~
+~
+container 65 0
+200 0 0 0 0
+200 5000 0 P
+
+#4511
+obj silver dagger~
+a silver dagger~
+A sharp looking silver dagger lies on the ground.~
+silver~
+weapon 0 AN
+dagger 5 5 pierce D
+20 10 8200 P
+A
+18 1
+A
+19 1
+#4512
+obj sword silver~
+a silver shortsword~
+A sharp looking silver shortsword lies on the ground.~
+silver~
+weapon 0 AN
+sword 5 5 slash D
+20 1500 7300 P
+A
+18 1
+A
+19 1
+
+#4513
+obj sword silver~
+a silver longsword~
+A sharp looking silver longsword lies on the ground.~
+silver~
+weapon AG AN
+sword 5 5 slash D
+20 200 6900 P
+A
+18 1
+A
+19 1
+
+#4514
+obj wood stake~
+a wooden stake~
+A crude sharpened wooden stake has been carelessly left here.~
+wood~
+weapon 0 AN
+staff 1 6 pierce 0
+2 100 20 P
+
+#4515
+obj keg~
+a wooden keg~
+A large iron-bound wooden keg stands here.~
+wood~
+drink 0 AO
+60 60 'dark ale' 0 0
+25 1000 200 P
+
+#4516
+obj rope~
+a coiled length of rope~
+A mound of rope lies discarded on the floor.~
+~
+furniture 0 AO
+0 0 0 0 0
+5 100 20 P
+
+#4517
+obj grapple~
+a grapple~
+A grapple is stuck in the ground here.~
+~
+furniture 0 AO
+0 0 0 0 0
+5 100 20 P
+
+#4518
+obj grapple~
+a grapple with rope attached~
+A grapple is stuck in the ground here, attached is some rope hanging over
+the edge of the cliff.~
+~
+furniture 0 0
+0 0 0 0 0
+5 100 20 P
+
+#4519
+obj key silverdale~
+the key to SilverDale~
+A key is here, half-hidden in the dirt.~
+stone~
+key 0 AO
+0 0 0 0 0
+0 100 0 P
+
+#4520
+key small~
+a big key~
+A big key lies here.~
+metal~
+key G AO
+0 0 0 0 0
+30 300 0 G
+
+#4521
+chest wooden~
+a large wooden chest~
+A large wooden chest stands here in a corner.~
+wood~
+container 0 A
+400 ACD 4520 100 100
+50 1200 17389 G
+
+#0
+
+#ROOMS
+
+#4500
+At the top of the Mineshaft.~
+     You are standing at the top of the mineshaft. To the north a huge
+stone arch leads out into the highest mountains anywhere, "The Roof of
+the World". Looking down the shaft, you see a cave littered with corpses.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 0 4
+D0
+~
+~
+2 -1 4501
+D5
+~
+~
+0 0 4076
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:), adapted      +
++                and enhanced in cold sunday, july'96                +
++                            by jaceks                               +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#4501
+Moria's Backdoor~
+     You are standing outside of Moria's back door. A huge stone arch to the
+south allows entrance to moria. To the north a path climbs up the side of
+what, for the Roof-Of-The-World mountain range, is really not much more than
+a large hill.
+~
+0 0 4
+D0
+~
+~
+2 0 4502
+D2
+~
+~
+2 0 4500
+E
+arch engravings text~
+This sturdily constructed arch bears an inscription, 'The Mines of Moria
+- opened by the SilverDale Mining Company in the year 5104.'
+~
+S
+#4502
+Road in the Mountains~
+     You stand on a wagon road that winds back and forth up the side of a
+mountain. A large mountain to the north forces the road to curve west. It
+doesnt look as though this road has seen much use lately. To the south, and
+far below, you can see the back door to Moria.
+~
+0 0 4
+D2
+~
+~
+2 0 4501
+D3
+The road continues to climb through the largest mountains in the world.~
+~
+2 0 4503
+S
+#4503
+Muddy Road in the Mountains~
+     You stand on a muddy road that winds back and forth through the
+mountains. The road continues to climb northward and descends towards the
+east. You notice that there are animal tracks in the mud, perhaps those of
+a wolf or a dog.
+~
+0 0 4
+D0
+The road continues its climb, up ahead you can see patches of snow.~
+~
+2 0 4504
+D1
+The road descends, zig-zagging down a large mountain.~
+~
+2 0 4502
+S
+#4504
+Snowy Road in the Mountains~
+     Patches of snow are scattered here and there on the road, which runs
+north-south. Although it is obvious that the road hasnt seen usage
+recently, it looks as though at one time it was heavily used.
+~
+0 0 4
+D0
+The road continues its climb, up ahead you can make some tracks.~
+~
+2 0 4505
+D2
+~
+~
+2 0 4503
+S
+#4505
+Tracks in the Snow~
+     As you march along the road dodging large patches of snow, you notice
+that some of the patches show imprints that could only have been made with
+a large hobnailed boot. You wonder if perhaps there might be orcs in the
+area. The road curves sharply to the west as it climbs.
+~
+0 0 4
+D2
+The road descends towards the distant hills of Moria.~
+~
+2 0 4504
+D3
+The road climbs above the snowline in the highest mountains in the world.~
+~
+2 0 4506
+S
+#4506
+Road across the Roof-Of-The-World~
+     You stand at a curve in the road. To the north the road continues to
+climb between two of the tallest mountains you have ever seen. All around
+you everything is covered in snow, and a vicious blast of cold air is
+threatening you with hypothermia.
+~
+0 0 4
+D0
+Up ahead something lies half buried in the snow.~
+~
+2 0 4507
+D1
+The road descends below the snowline, heading towards Moria.~
+~
+2 0 4505
+S
+#4507
+Mountain Pass~
+     You stand between two mountains that although tall, are only mediocre
+for the Roof-Of-The-World. The road continues north and south. Half-covered
+in the snow you can see the frozen half-eaten corpse of some luckless
+villager. Its hard to say what killed him first the many slashes or the huge
+hole right where his heart should be.
+~
+0 0 4
+D0
+~
+~
+2 0 4508
+D2
+~
+~
+2 0 4506
+S
+#4508
+Curve in the Road~
+     You stand at a bend in the road. To the south the road leads through
+a pass in the mountains, to the east the road hugs the face of a large
+mountain.
+~
+0 0 4
+D1
+~
+~
+2 0 4509
+D2
+The road leads through a mountain pass.~
+~
+2 0 4507
+S
+#4509
+Icy Road~
+     As you walk along the road, you take great care lest you slip on one
+of the many sheets of ice and tumble off the side of the mountain. The road
+leads north and west.
+~
+0 0 4
+D0
+~
+~
+2 0 4510
+D3
+~
+~
+2 0 4508
+S
+#4510
+Icy Bend in the Road~
+     You gingerly walk along the icy road, staying as far away as possible
+from the sheer cliff face that lies just a few feet to the north. The road
+bends here, leading east and south. All through the snow you can see what
+looks to be wolf tracks.
+~
+0 0 4
+D1
+It looks as though a battle took place in this direction~
+~
+2 0 4511
+D2
+~
+~
+2 0 4509
+S
+#4511
+Battle near the Road~
+     On the side of the road you can see the corpses of two villagers, it
+looks as though they were ripped apart by some kind of wild animal. All
+around lie the marks of booted feet and the pawprints of animals.
+~
+0 0 4
+D0
+~
+~
+2 0 4512
+D3
+~
+~
+2 0 4510
+S
+#4512
+Overlooking a village~
+     Far to the north-east you see a village surrounded by mountains. The
+road travels north-south here but up ahead you can see it turns to the east
+and goes towards the village. You can't put your finger on it, but something
+seems odd about it.
+~
+0 0 4
+D0
+Part of the road seems to have broken off and fallen down the cliff.~
+village~
+2 0 4513
+D2
+It looks as though a fight took place up ahead~
+~
+2 0 4511
+E
+village~
+Allthough at first glance the village appears to be perfectly normal,
+taking a closer look you realize that all about the village are large crimson 
+stains in the snow. Beyond the village to the east, you can see a small forest 
+that seems to be composed of strange thorny black trees. Over the tree tops you
+can make out the top of a small tower that guards a pass through the mountains.
+~
+S
+#4513
+Crumbled Cliff-face~
+     To the north the road curves to the east, and descends towards a
+village nestled at the base of several tall mountains. To your west
+(and down) the edge of the road has broken off and slid down the cliff-face.
+You wonder who was unlucky enough to have slipped over the edge. To the
+south the road climbs towards a mountain pass.
+~
+0 0 4
+D0
+Up ahead, the road curves to the west towards a village.~
+~
+2 0 4514
+D2
+~
+~
+2 0 4512
+D3
+A three hundred foot drop if its an inch, jumping would be bad...~
+~
+2 0 4516
+S
+#4514
+Bend in the Road.~
+     You are standing at a bend in the road. To the north the road climbs
+towards a mountain pass; to the east it leads to a small village. Although
+a path continues north, it doesnt look as if it has been used in a long, long
+time.
+~
+0 0 4
+D0
+The path continues climbing towards the Roof-Of-The-World.~
+~
+2 0 4515
+D1
+The road continues towards a small village.~
+~
+2 0 4517
+D2
+Up ahead, you can see that part of the road has slid down the mountain.~
+~
+2 0 4513
+S
+#4515
+Forgotten path by Avalanche~
+     You stand on a long forgotten path that climbs towards the top of the
+Roof-of-the-World. From the north you hear a long drawn out howl from some
+strange beast that makes you shiver despite your long experience.
+Unfortunately, the path has been blocked by an avalanche. Although, it looks
+impossible to climb over, with the right equipment tunneling should be
+possible. (Soon to be another area, but closed at the moment)
+~
+0 0 5
+D0
+A rather impassable seeming glacier, perhaps you could tunnel through it.~
+~
+2 -1 -1
+D2
+Ahead there is a bend in the road.~
+~
+2 0 4514
+S
+#4516
+Base of the Cliff~
+     You stand at the base of a cliff. Above you the rope you descended sways
+in the harsh arctic wind. All around you lie the smashed remnants of a wagon,
+horse team and the driver.
+~
+0 0 5
+D1
+~
+~
+2 0 4513
+S
+#4517
+Approaching the Village~
+     You travel along an East-West wagon road. To the east you can see a small
+village. All around you tower huge mountains. Outside of the villages crude
+wooden wall, large patches of snow seem to be stained crimson.
+~
+0 0 4
+D1
+Ahead you can see a small village.~
+~
+2 0 4518
+D3
+~
+~
+2 0 4514
+S
+#4518
+Approaching the Village Gate~
+     You travel along an East-West wagon road. To the east you can see the
+gate to a small village. All around you tower huge mountains. Outside of the
+villages crude wooden wall, large patches of snow seem to be stained crimson.
+The village seems to be unnaturally quiet.
+~
+0 0 4
+D1
+Ahead you can see the gate to a small village.~
+~
+2 0 4519
+D3
+~
+~
+2 0 4517
+S
+#4519
+Outside the West Gate~
+     You stand outside the western gate to a small village. Around you lie
+bloodstains in the snow. Claw and teeth marks marr the otherwise smooth finish
+of the villages wooden walls. The village is cloaked in an unnatural silence.
+Above the gate is a plaque that welcomes you to SilverDale.
+~
+0 0 4
+D1
+Ahead you can see the villages inn.~
+~
+2 4519 4520
+D3
+~
+~
+2 0 4518
+S
+#4520
+By the West Gate~
+     You stand beside the western gate to a small village. Around you lie
+bloodstains in the snow. Claw and teeth marks marr the otherwise smooth finish
+of the villages wooden walls. The village is cloaked in an unnatural silence.
+To the east you can see a small inn, a dirt road runs north-south.
+~
+0 0 1
+D0
+To the north the road turns east.~
+~
+2 0 4530
+D1
+The entrance to the villages inn.~
+~
+2 0 4521
+D2
+To the south the road turns east.~
+~
+2 0 4524
+D3
+~
+~
+2 4519 4519
+S
+#4521
+The Village Inn~
+     You stand inside a cosy little inn. Unfortunately, it doesnt look as
+though the place is open for business. In fact, it looks as though someone
+tried to convert the place into a fortified bunker. The exit is to the west.
+~
+0 D 0
+D3
+~
+~
+2 0 4520
+S
+#4522
+The Town Hall~
+     You stand inside a small town hall. Unfortunately, it doesnt look as
+the town council is voting on any motions. Further, judging by the fact that
+what looks to be the council is splattered all over the walls of the building
+you don't think the place is going to open until the electorate selects a new
+council.
+~
+0 D 0
+D1
+~
+~
+2 0 4523
+S
+#4523
+By the East Gate~
+     You stand beside the eastern gate to a small village. Around you lie
+bloodstains in the snow. Claw and teeth marks marr the otherwise smooth finish
+of the villages wooden walls. The village is cloaked in an unnatural silence.
+To the west you can see a small town hall, a dirt road runs north-south.
+~
+0 0 1
+D0
+To the north the road turns west.~
+~
+2 0 4533
+D1
+~
+~
+2 4519 4536
+D2
+To the south the road turns west.~
+~
+2 0 4527
+D3
+~
+~
+2 0 4522
+S
+#4524
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+Claw and teeth marks marr the otherwise smooth finish of the villages wooden
+walls. To the north you can see the west gate, the road extends both north
+and east.
+~
+0 0 1
+D0
+To the north the road passes the west gate and the entrance to the inn.~
+~
+2 0 4520
+D1
+The road passes by an outfitters shop.~
+~
+2 0 4525
+S
+#4525
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+To the north you can see the south wall of a small inn. To the south you can
+see a small outfitters shop. The road extends both east and west.
+~
+0 0 1
+D1
+The road passes by an assayers office.~
+~
+2 0 4526
+D2
+A small outfitters shop.~
+~
+2 0 4528
+D3
+The road curves to the north.~
+~
+2 0 4524
+S
+#4526
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+To the north you can see the south wall of the town hall. To the south you
+can see the assayers office. The road extends both east and west.
+~
+0 0 1
+D1
+The road curves north.~
+~
+2 0 4527
+D2
+A small assayers office.~
+~
+2 0 4529
+D3
+The road passes by a small outfitters shop.~
+~
+2 0 4525
+S
+#4527
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+Claw and teeth marks marr the otherwise smooth finish of the villages wooden
+walls. To the north you can see the east gate, the road extends both north
+and west.
+~
+0 0 1
+D0
+To the north the road passes the east gate and the entrance to the hall.~
+~
+2 0 4523
+D3
+The road passes by an assayers office.~
+~
+2 0 4526
+S
+#4528
+The Outfitters Shop~
+     You stand inside a small outfitters shop. Unfortunately the place seems
+closed for the moment. You think that maybe in the past it might have sold
+both mining and mountain climbing equipment.
+~
+0 D 0
+D0
+~
+~
+2 0 4525
+S
+#4529
+The Assayers Office~
+     You stand inside a small assayers office. Although the place has been
+closed due the death of the proprieter, this was once the place where the
+miners came to sell the silver ore they had mined. Over in the corner you
+see the smelter used to refine the ore.
+~
+0 D 0
+D0
+~
+~
+2 0 4526
+S
+#4530
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+Claw and teeth marks marr the otherwise smooth finish of the villages wooden
+walls. To the south you can see the west gate, the road extends both south
+and east.
+~
+0 0 1
+D1
+The road passes by a smithy.~
+~
+2 0 4531
+D2
+To the south the road passes the west gate and the entrance to the inn.~
+~
+2 0 4520
+S
+#4531
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+To the south you can see the south wall of a small inn. To the north you can
+see a small smithy. The road extends both east and west.
+~
+0 0 1
+D0
+A small smithy.~
+~
+2 0 4534
+D1
+The road passes by the miners barracks.~
+~
+2 0 4532
+D3
+The road curves to the south up ahead.~
+~
+2 0 4530
+S
+#4532
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+To the south you can see the north wall of the town hall. To the north you
+can see the miners barracks. The road extends both east and west.
+~
+0 0 1
+D0
+Is that the wind? You think you hear something growling inside.~
+~
+2 0 4535
+D1
+The road curves south.~
+~
+2 0 4533
+D3
+The road passes by a small smithy.~
+~
+2 0 4531
+S
+#4533
+A dirt road~
+     You stand on a narrow dirt road. Around you lie bloodstains in the snow.
+Claw and teeth marks marr the otherwise smooth finish of the villages wooden
+walls. To the south you can see the east gate, the road extends both south
+and west.
+~
+0 0 1
+D2
+To the south the road passes the east gate and the entrance to the hall.~
+~
+2 0 4523
+D3
+The road passes by the miners barracks.~
+~
+2 0 4532
+S
+#4534
+The Smithy~
+     You stand inside a small smithy. Unfortunately the place seems
+closed for the moment. Someone(s) has a done a real job on the place. The
+only thing left unharmed is the forge and its connecting furnace. I guess
+their weapons weren't up to the task.
+~
+0 D 0
+D2
+~
+~
+2 0 4531
+S
+#4535
+The Miners Barracks~
+     You stand inside large barracks. All around you lie the corpses of the
+miners. Judging by the shattered cots and broken weapons, they didn't go
+down without a fight.
+~
+0 D 0
+D2
+~
+~
+2 0 4532
+S
+#4536
+Outside the East Gate~
+     You stand outside the eastern gate to a small village. Around you lie
+bloodstains in the snow. Claw and teeth marks marr the otherwise smooth finish
+of the villages wooden walls. The village is cloaked in an unnatural silence.
+Above the gate is a plaque that welcomes you to SilverDale. To the east you
+can see a strange dead looking forest.
+~
+0 0 4
+D1
+Ahead the road has been overgrown by a strange dead looking forest. It looks
+almost like some kind of maze. And the large, sharp thorns covering the
+odd black trees promise to make the passage a painful one. Beyond the forest
+you can see a sinister watch tower overlooking a mountain pass.~
+~
+2 0 4537
+D3
+Past the gate you can see the town hall.~
+~
+2 4519 4523
+S
+#4537
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4558
+D1
+~
+~
+2 0 4538
+D2
+~
+~
+2 0 4543
+D3
+AT LAST! the way out!~
+~
+2 0 4536
+S
+#4538
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4559
+D1
+~
+~
+2 0 4539
+D3
+~
+~
+2 0 4537
+S
+#4539
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D3
+~
+~
+2 0 4538
+S
+#4540
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4561
+D2
+~
+~
+2 0 4546
+S
+#4541
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4542
+D2
+~
+~
+2 0 4547
+S
+#4542
+West of the Watch Tower~
+     Now that you are here you notice that the reason the watch tower looked
+so sinister is that it is covered by a veil of darkness. This certainly
+doesnt bode well for the chances of friendly inhabitants. There is a huge
+gate entering the tower to the east, I sure hope you have the key.
+~
+9 A 3
+D1
+~
+~
+2 4519 4573
+D3
+~
+~
+2 0 4541
+S
+#4543
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4537
+D1
+~
+~
+2 0 4544
+D2
+~
+~
+2 0 4548
+S
+#4544
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D3
+~
+~
+2 0 4543
+S
+#4545
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4546
+D2
+~
+~
+2 0 4550
+S
+#4546
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4540
+D2
+~
+~
+2 0 4551
+D3
+~
+~
+2 0 4545
+S
+#4547
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4541
+D2
+~
+~
+2 0 4552
+S
+#4548
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4543
+D1
+~
+~
+2 0 4549
+D2
+~
+~
+2 0 4553
+S
+#4549
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D2
+~
+~
+2 0 4554
+D3
+~
+~
+2 0 4548
+S
+#4550
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4545
+D2
+~
+~
+2 0 4555
+S
+#4551
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4546
+S
+#4552
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4547
+D2
+~
+~
+2 0 4557
+S
+#4553
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4548
+D2
+~
+~
+2 0 4572
+D3
+~
+~
+2 0 4572
+S
+#4554
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4549
+S
+#4555
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4550
+D1
+~
+~
+2 0 4556
+S
+#4556
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4557
+D3
+~
+~
+2 0 4555
+S
+#4557
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4552
+D1
+~
+~
+2 0 4568
+D2
+~
+~
+2 0 4568
+D3
+~
+~
+2 0 4556
+S
+#4558
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4563
+D2
+~
+~
+2 0 4537
+S
+#4559
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D2
+~
+~
+2 0 4538
+S
+#4560
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4565
+D1
+~
+~
+2 0 4561
+S
+#4561
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D2
+~
+~
+2 0 4540
+D3
+~
+~
+2 0 4560
+S
+#4562
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4567
+S
+#4563
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4568
+D1
+~
+~
+2 0 4564
+D2
+~
+~
+2 0 4558
+S
+#4564
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D3
+~
+~
+2 0 4563
+S
+#4565
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4570
+D1
+~
+~
+2 0 4566
+D2
+~
+~
+2 0 4560
+S
+#4566
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4567
+D3
+~
+~
+2 0 4565
+S
+#4567
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4572
+D2
+~
+~
+2 0 4562
+D3
+~
+~
+2 0 4566
+S
+#4568
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4557
+D1
+~
+~
+2 0 4569
+D2
+~
+~
+2 0 4563
+D3
+~
+~
+2 0 4557
+S
+#4569
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4570
+D3
+~
+~
+2 0 4568
+S
+#4570
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D1
+~
+~
+2 0 4571
+D2
+~
+~
+2 0 4565
+D3
+~
+~
+2 0 4569
+S
+#4571
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D3
+~
+~
+2 0 4570
+S
+#4572
+Inside the Black Forest~
+     You are standing in a dense forest. So dense in fact that no light
+penetrates down to the ground. All the trees look dead and are covered by
+large sharp thorns. There are no obvious paths and any attempt at movement
+is going to require crashing (painfully) through a wall of thorns.
+~
+9 A 3
+D0
+~
+~
+2 0 4553
+D1
+~
+~
+2 0 4553
+D2
+~
+~
+2 0 4567
+S
+#4573
+Entranceway to the Watch Tower~
+     You are standing at the entranceway to a watch-tower. A huge gate
+leads to the west. Down a hallway to the east you can another gate leading
+outside into the mountain pass. South of here you can see the stables.
+Darkness clings to everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4574
+D2
+~
+~
+2 0 4577
+D3
+~
+~
+2 4519 4542
+S
+#4574
+Inside the Watch Tower~
+     You are standing in the middle of an east-west hallway inside a
+watch-tower. To the east and west you can see huge gates that lead outside.
+Darkness clings to everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4575
+D3
+~
+~
+2 0 4573
+S
+#4575
+Entranceway to the Watch Tower~
+     You are standing at the entranceway to a watch-tower. A huge gate
+leads to the west. Down a hallway to the west you can another gate leading
+outside into the forest. South of here you can see the storeroom and to the
+north is the room where the tower personnel collected tolls. Darkness
+clings to everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D0
+~
+~
+2 0 4582
+D1
+~
+~
+2 0 4576
+D2
+~
+~
+2 0 4579
+D3
+~
+~
+2 0 4574
+S
+#4576
+Outside the Watch Tower~
+     You are standing outside a watch-tower veiled with a strange
+aura of darkness. To the east a mountain pass lies closed by an
+avalanche. (and it'll remain closed too... least until someone puts
+an area there...)
+~
+0 AD 0
+D3
+~
+~
+2 0 4575
+S
+#4577
+The Stables~
+     You are standing inside a watch-tower. Darkness clings to everything,
+leaving you with an uneasy feeling. Around you lie the corpses of many
+animals, all completely drained of blood.
+~
+0 AD 0
+D0
+~
+~
+2 0 4573
+S
+#4578
+The Cold Room~
+     You are standing inside a watch-tower. Darkness clings to everything,
+leaving you with an uneasy feeling. The room is filled with stacks of
+corpses... obviously the missing villagers. The only exit is to the east.
+~
+0 AD 0
+D1
+~
+~
+2 0 4579
+S
+#4579
+The Store Room~
+     You are standing inside a watch-tower. The room is filled to the ceiling
+with stacks of grain sacks and the like. To the west is the entrance to the
+cold-room. Darkness clings to everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D0
+~
+~
+2 0 4575
+D3
+~
+~
+2 0 4578
+S
+#4580
+A stairwell~
+     You are standing at the bottom of a stairwell, inside a watch-tower.
+Above you is the second story of the tower, normally the home of the watch
+towers commander. You get the feeling that he's not in. Darkness clings to
+everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4581
+D4
+~
+~
+2 0 4583
+S
+#4581
+Inside the Watch Tower~
+     You are standing inside a watch-tower. This must have been the barracks,
+as there are many blood-stained cots pushed out of the way against the walls.
+To the west is a staircase. Darkness clings to everything, leaving you with
+an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4582
+D3
+~
+~
+2 0 4580
+S
+#4582
+Inside the Watch Tower~
+     You are standing inside a watch-tower. Judging by the lists of tariffs
+tacked to the wall and the smashed desk and strongbox this was probably
+where the towers personnel collected taxes from merchants using the pass.
+To the west is the barracks and south is the towers main hallway. Darkness
+clings to everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D2
+~
+~
+2 0 4575
+D3
+~
+~
+2 0 4581
+S
+#4583
+Inside a Stairwell~
+     You are standing at the top of a stairwell inside a watch-tower. To the
+east is reception area where merchants wanting to see the towers commander
+waited for appointments. Darkness clings to everything, leaving you with
+an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4584
+D5
+~
+~
+2 0 4580
+S
+#4584
+Reception Area~
+     You are standing inside a watch-tower. Once comfortably furnished, the
+room is now in shambles. Filth and debris are everywhere. Darkness clings to
+everything, leaving you with an uneasy feeling. To the south is the audience
+chamber. To the west you can see a stairway leading down to the main floor.
+~
+0 AD 0
+D2
+~
+~
+2 0 4585
+D3
+~
+~
+2 0 4583
+S
+#4585
+Audience Chamber~
+     You are standing inside a watch-tower. Once furnished in a rather
+spartan style, doubtless to encourage callers to make their complaints as
+short as possible. Someone has spared no expense to redecorate in an
+extravagant, garish and somewhat tasteless fashion. Darkness clings to
+everything, leaving you with an uneasy feeling.
+~
+0 AD 0
+D0
+~
+~
+2 0 4584
+D3
+~
+~
+2 0 4586
+S
+#4586
+The Bedroom~
+     You are standing inside the bed-room of the watch-tower's commander.
+You can't help but feel that the commander was probably more personable
+then the rooms current inhabitant. Darkness clings to everything, leaving
+you with an uneasy feeling.
+~
+0 AD 0
+D1
+~
+~
+2 0 4585
+S
+#4587
+A Private Cubbyhole~
+     A Huge plaque makes up the floor of this room. Looking down and
+concentrating hard you read, "Please don't give out this area, I slaved away
+for many an hour to create it. Also, if I logon to your mud I expect near-
+immortal status if I request it (me being 'Cryogen') ;-). Special procs
+are your problem, and there are a few that need to be written. One, vampires
+should only be hit with wooden stakes. Two, shadow creatures can only be hit
+by silver. Three, you should only be able to climb down the cliff-face with
+a rope and grapple tied together. Four, you should be able to change bars of
+silver to silver weapons using the molds at the forge. Five, all the vampires
+are intended to be spellcasters."
+~
+0 AD 0
+D1
+~
+~
+2 0 4586
+S
+
+
+#0
+
+#RESETS
+* this area has been converted to ROM 2.4 format by jaceks
+* this area is connected with:
+*          4500 At the top of the Mineshaf <> 4076 The Mineshaft (moria   )
+* ver 1.00
+* - bunch of exits error removed, maze in dark black improved
+* - new objects added (chest and key #4520, #4521)
+* - #SPECIALS section added
+* - #RESETS revised and changed
+*
+*                            jaceks, Mon Aug  5 02:29:04 MET DST 1996
+*
+M 0 4501 8 4503 1   * the Timberwolf (8)
+M 0 4501 8 4506 1   * the Timberwolf
+M 0 4501 8 4507 1   * the Timberwolf
+M 0 4501 8 4510 1   * the Timberwolf
+M 0 4501 8 4514 1   * the Timberwolf
+M 0 4501 8 4518 1   * the Timberwolf
+M 0 4501 8 4527 1   * the Timberwolf
+M 0 4501 8 4530 1   * the Timberwolf
+*
+M 0 4502 4 4516 1   * the Huge White Wolf (12) 
+E 1 4501 -1 16
+E 1 4505 -1 9
+G 1 4519 -1
+*
+M 0 4502 4 4518 1   * the Huge White Wolf (12)
+E 1 4501 -1 16
+E 1 4505 -1 9
+G 1 4519 -1
+*
+M 0 4502 4 4525 1   * the Huge White Wolf (12)
+E 1 4501 -1 16
+E 1 4505 -1 9
+*
+M 0 4502 4 4533 1   * the Huge White Wolf (12)
+*
+M 0 4502 1 4535 1   * the Huge White Wolf (12)
+E 1 4501 -1 16
+E 1 4505 -1 9
+G 1 4519 -1
+*
+M 0 4502 1 4535 1   * the Huge White Wolf (12)
+*
+M 0 4504 6 4534 1   * the Vampire Orc-Shaman (20)
+* E 1 4501 -1 16
+E 1 4506 -1 18
+*
+M 0 4505 2 4534 2   * the Orc Bodyguard (12)
+M 0 4505 2 4534 2   * the Orc Bodyguard
+*
+D 0 4519 1 2
+D 0 4520 3 2
+D 0 4523 1 2
+D 0 4536 3 2
+*
+O 0 4514 4 4516 4   * a wooden stake
+O 0 4514 4 4516 4
+O 0 4514 4 4516 4
+O 0 4514 4 4516 4
+*
+O 0 4515 -1 4521      * a wooden keg
+O 0 4516 -1 4521      * a coiled length of rope
+O 0 4517 -1 4528      * a grapple
+O 0 4510 -1 4534      * a large forge
+*
+O 0 4521 1 4529
+P 0 4509 99 4521 5     * a large silver ingot
+P 0 4509 99 4521 5
+P 0 4509 99 4521 5
+P 0 4509 99 4521 5
+P 0 4509 99 4521 5
+P 0 4511 99 4521 1     * silver dagger
+P 0 4512 99 4521 1     * silver short sword
+P 0 4513 99 4521 1     * silves long sword
+*
+M 0 4503 13 4537 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4540 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4543 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4546 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4549 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4551 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4554 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4557 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4560 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4563 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4566 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4569 1    * the Huge Shadow Wolf (12)
+M 0 4503 13 4572 1    * the Huge Shadow Wolf (12)
+*
+D 0 4542 1 2
+D 0 4573 3 2
+*
+M 0 4505 6 4582 4     * the Vampire Orc-Shaman (20)
+M 0 4505 6 4582 4     * the Vampire Orc-Shaman (20)
+M 0 4505 6 4582 4     * the Vampire Orc-Shaman (20)
+M 0 4505 6 4582 4     * the Vampire Orc-Shaman (20)
+*
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+M 0 4509 10 4584 10   * the giant rat (5)
+*
+M 0 4508 2 4585 2     * a vampire mistress (23)
+E 1 4502 -1 16
+E 1 4504 -1 15
+E 1 4504 -1 14
+E 1 4507 -1 18
+*
+M 0 4508 2 4585 2     * a vampire mistress (23)
+E 1 4503 -1 16
+E 1 4504 -1 15
+E 1 4504 -1 14
+E 1 4507 -1 18
+*
+M 0 4510 1 4586 1     * Nosferatu (30)
+E 1 4508 -1 5
+E 1 4520 -1 17
+S
+
+#SPECIALS
+M 4505 spec_cast_mage     * the Vampire Orc-Shaman
+M 4508 spec_cast_undead   * a vampire mistress 
+M 4509 spec_assassin      * rat
+M 4510 spec_cast_undead   * Nosferatu
+S
+
+#$

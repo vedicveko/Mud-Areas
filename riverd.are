@@ -1,0 +1,779 @@
+#AREA
+riverd.are~
+River of Despair~
+{-1 -1}Chewbacca River of Despair~
+23400 23449
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#23400
+Path~
+You are on a very worn-out path.  You wonder why it is so heavily used.
+~
+0 0 2
+D0
+~
+~
+0 -1 23401
+S
+#23401
+Path near the river~
+You are standing on a path near a river.  Surprisingly, the river is grey in color instead of the aqua you'd expect.
+~
+0 0 2
+D0
+~
+~
+0 -1 23402
+D2
+~
+~
+0 -1 23400
+S
+#23402
+Path at the river~
+You are right next to the river.  A sign says "Beware the River of Despair!" on the bank.
+~
+0 0 2
+D0
+~
+~
+0 -1 23403
+D2
+~
+~
+0 -1 23401
+S
+#23403
+Banks~
+You are on the river of despair.  You touch the greyish water, and it almost gives you frostbite!  I wouldn't go in there.
+~
+0 0 2
+D0
+~
+~
+0 -1 23404
+D2
+~
+~
+0 -1 23402
+S
+#23404
+The River of Despair~
+You are carried by the swift currents of the river.  You can pretty much let the current carry you here.
+~
+0 0 7
+D0
+~
+~
+0 -1 23405
+D1
+~
+~
+0 -1 23406
+D2
+~
+~
+0 -1 23403
+S
+#23405
+The River of Despair~
+There are strong currents, and a bluish spot in the grey water here.
+~
+0 0 7
+D1
+~
+~
+0 -1 23407
+D2
+~
+~
+0 -1 23404
+D5
+~
+~
+0 -1 23413
+S
+#23406
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.
+~
+0 0 7
+D0
+~
+~
+0 -1 23407
+D1
+~
+~
+0 -1 23408
+D3
+~
+~
+0 -1 23404
+S
+#23407
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.
+~
+0 0 7
+D1
+~
+~
+0 -1 23409
+D2
+~
+~
+0 -1 23406
+D3
+~
+~
+0 -1 23405
+S
+#23408
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.
+~
+0 0 7
+D0
+~
+~
+0 -1 23409
+D1
+~
+~
+0 -1 23410
+D3
+~
+~
+0 -1 23406
+S
+#23409
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.
+~
+0 0 7
+D1
+~
+~
+0 -1 -1
+D2
+~
+~
+0 -1 23408
+D3
+~
+~
+0 -1 23407
+S
+#23410
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.  There is a waterfall to the east... I wouldn't go in there.
+~
+0 0 7
+D0
+~
+~
+0 -1 23411
+D1
+~
+~
+0 -1 23412
+D3
+~
+~
+0 -1 23408
+S
+#23411
+The River of Despair~
+There are very swift currents here.  The water itself has a saddened look to it.
+~
+0 0 7
+D2
+~
+~
+0 -1 23410
+D3
+~
+~
+0 -1 23409
+S
+#23412
+The waterfall~
+You're falling down a waterfall that matches the magnitude of Niagara Falls.  HELP!!!!
+~
+0 0 7
+D3
+~
+~
+0 -1 23410
+S
+#23413
+At the bottom of the river of despair~
+You are actually inside the grey water, struggling for breath.  You see an air pocket below, which is good because you can't go back up.
+~
+0 C 8
+D4
+~
+~
+0 -1 23405
+D5
+~
+~
+0 -1 23414
+S
+#23414
+A trench~
+You are now around a mile below the surface.  You can't see anything without a light.
+~
+0 A 8
+D3
+~
+~
+0 -1 23415
+D4
+~
+~
+0 -1 23413
+S
+#23415
+An air  pocket~
+You are breathing fresh air, even though you are over a mile away from dry land!  You feel relieved that you didn't drown.
+~
+0 A 0
+D1
+~
+~
+0 -1 23414
+D3
+~
+~
+0 -1 23416
+S
+#23416
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23415
+D3
+~
+~
+0 -1 23417
+S
+#23417
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23416
+D3
+~
+~
+0 -1 23418
+S
+#23418
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23417
+D3
+~
+~
+0 -1 23419
+S
+#23419
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23418
+D3
+~
+~
+0 -1 23420
+S
+#23420
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23419
+D3
+~
+~
+0 -1 23421
+S
+#23421
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23420
+D3
+~
+~
+0 -1 23422
+S
+#23422
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23421
+D3
+~
+~
+0 -1 23423
+S
+#23423
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23422
+D3
+~
+~
+0 -1 23424
+S
+#23424
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23423
+D3
+~
+~
+0 -1 23425
+S
+#23425
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23424
+D3
+~
+~
+0 -1 23426
+S
+#23426
+A tunnel~
+You are standing in a deep, dark tunnel.  You can hear waves lapping on both sides of it.
+~
+0 A 0
+D1
+~
+~
+0 -1 23425
+D3
+~
+~
+0 -1 23427
+S
+#23427
+The end of the tunnel~
+You are finally at the end of this tunnel.  You can see a black hole leading down.
+~
+0 A 0
+D1
+~
+~
+0 -1 23426
+D5
+~
+~
+0 -1 23428
+S
+#23428
+A hole~
+You were lucky to grab onto this ledge here!  You can't go back up, just continue down.
+~
+0 A 0
+D5
+~
+~
+0 -1 23429
+S
+#23429
+A hole~
+You keep on falling.  You get ahold of a small foothold, so you can stay here for a little while.
+~
+0 A 0
+D5
+~
+~
+0 -1 23430
+S
+#23430
+A hole~
+You grab onto something, you can't quite make out what it is.  The hole is still going, with an endless blackness below.
+~
+0 A 0
+D4
+~
+~
+0 -1 -1
+D5
+~
+~
+0 -1 23431
+S
+#23431
+A hole~
+You now can't see up or down.  Your only choice is to keep falling.
+~
+0 A 0
+D4
+~
+~
+0 -1 -1
+D5
+~
+~
+0 -1 23432
+S
+#23432
+A hole~
+FINALLY!!!  You can hear water lapping below you!
+~
+0 A 0
+D5
+~
+~
+0 -1 23433
+S
+#23433
+An undiscovered part of the river~
+No human has ever been in this part of the river.  Probably because most die before they do.
+~
+0 A 8
+D0
+~
+~
+0 -1 23434
+D2
+~
+~
+0 -1 23435
+D4
+~
+~
+0 -1 23432
+D5
+~
+~
+0 -1 23442
+S
+#23434
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D2
+~
+~
+0 -1 23433
+D3
+~
+~
+0 -1 23437
+S
+#23435
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D0
+~
+~
+0 -1 23433
+D2
+~
+~
+0 -1 23436
+D3
+~
+~
+0 -1 23439
+S
+#23436
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D0
+~
+~
+0 -1 23435
+S
+#23437
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D1
+~
+~
+0 -1 23434
+D2
+~
+~
+0 -1 23439
+D3
+~
+~
+0 -1 23440
+S
+#23439
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D0
+~
+~
+0 -1 23437
+D1
+~
+~
+0 -1 23435
+D3
+~
+~
+0 -1 23441
+S
+#23440
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D1
+~
+~
+0 -1 23437
+S
+#23441
+The River of Despair~
+If you thought the surface part of the river was drab, you were wrong.  You now see why this is called the River of Despair.  Even the sand looks sad.
+~
+0 A 8
+D0
+~
+~
+0 -1 -1
+D1
+~
+~
+0 -1 23439
+D2
+~
+~
+0 -1 -1
+S
+#23442
+A strong current~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23443
+S
+#23443
+A strong current~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23444
+D3
+~
+~
+0 -1 -1
+S
+#23444
+A strong currnet~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23445
+S
+#23445
+A strong current~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23446
+S
+#23446
+A strong current~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23447
+S
+#23447
+A strong current~
+You are standing in a strong current.  All you can do it let it carry you to where it's going.
+~
+0 A 8
+D1
+~
+~
+0 -1 23448
+S
+#23448
+Tht end of the current~
+The current abruptly stops here, and you can see a strange blue light from the east.
+~
+0 A 8
+D1
+~
+~
+0 -1 23449
+D3
+~
+~
+0 -1 23447
+S
+#23449
+An aquamarine chamber~
+Everything in here is blue.  You feel a radiance of great power from all around you.
+~
+0 A 8
+D3
+~
+~
+0 -1 23448
+S
+#0
+
+
+#RESETS
+*
+M 0 23400     1 23403     1      a boy to Banks
+*
+M 0 23401     1 23405     1      a Fisherman to The River of Despair
+*
+M 0 23402     1 23406     1      a sailor to The River of Despair
+*
+M 0 23403     1 23407     1      a fish to The River of Despair
+*
+M 0 23404     1 23412     1      a crab to The waterfall
+*
+M 0 23406     1 23416     1      a poor man to A tunnel
+*
+M 0 23407     1 23417     1      a miner to A tunnel
+*
+M 0 23408     1 23419     1      a beastly fido to A tunnel
+*
+M 0 23409     1 23433     1      some plankton to An undiscovered part of the river
+*
+M 0 23405     1 23434     1      a deep-sea fish to The River of Despair
+*
+M 0 23410     1 23435     1      some pollution to The River of Despair
+*
+M 0 23411     1 23436     1      a Sea Monster to The River of Despair
+*
+M 0 23412     1 23437     1      a river snake to The River of Despair
+*
+M 0 23414     1 23439     1      some sand to The River of Despair
+*
+M 0 23415     1 23440     1      a seashell to The River of Despair
+*
+M 0 23416     1 23441     1      a drowned man to The River of Despair
+*
+M 0 23417     1 23443     1      a rock to A strong current
+*
+M 0 23418     1 23445     1      a large fish to A strong current
+*
+M 0 23413     1 23448     1      an aqua guardian to Tht end of the current
+*
+M 0 23419     1 23449     1      the Aquamarine King to An aquamarine chamber
+E 0 23403     0     1              
+E 0 23404     0     3              
+E 0 23402     0     5              
+E 0 23401     0     6              
+E 0 23405     0     7              
+E 0 23406     0     8              
+E 0 23407     0     9              
+E 0 23408     0    10              
+E 0 23409     0    11              
+E 0 23410     0    12              
+E 0 23411     0    13              
+E 0 23412     0    14              
+E 0 23400     0    16              
+E 0 23413     0    17              
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 23408 spec_fido	a beastly fido
+M 23412 spec_poison	a river snake
+M 23419 spec_cast_mage	the Aquamarine King
+S
+
+
+#$

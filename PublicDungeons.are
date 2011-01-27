@@ -1,0 +1,393 @@
+#AREA
+@@yPublic @@dDungeons@@N~
+K publicdungeons~
+L @@W{@@r 5 15@@W}@@N~
+N 28
+I 5 15
+V 9550 9599
+X 35950
+F 15
+U You hear the screams of the Dead within your head.~
+O stephen~
+R stephen~
+W stephen~
+T You can teleport into here
+M No bad room spells allowed.
+#ROOMS
+#9551
+The Entrance to the Public Dungeon.~
+You are standing within the Public Dungeons of Midgaard.
+This is where Midgaard's most feared criminals are brought and left to rot,
+where all may come and look.  The whole dungeon is underground, and smells
+like all underground places do.  Above you, you see the light of Market
+Square, and to the south, further within the dungeon.
+~
+9 0
+D2
+~
+~
+1 -1 9552
+D4
+~
+~
+1 -1 3014
+S
+#9552
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+1 -1 9551
+D1
+~
+~
+0 -1 9567
+D2
+~
+~
+0 -1 9553
+S
+#9553
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9552
+D2
+~
+~
+0 -1 9554
+D3
+~
+~
+0 -1 9566
+S
+#9554
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9553
+D1
+~
+~
+0 -1 9565
+D2
+~
+~
+0 -1 9555
+S
+#9555
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9554
+D2
+~
+~
+0 -1 9556
+S
+#9556
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9555
+D1
+~
+~
+0 -1 9559
+D3
+~
+~
+0 -1 9557
+S
+#9557
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D1
+~
+~
+0 -1 9556
+D2
+~
+~
+0 -1 9558
+S
+#9558
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9557
+D1
+~
+~
+0 -1 9563
+S
+#9559
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D1
+~
+~
+0 -1 9564
+D2
+~
+~
+0 -1 9560
+D3
+~
+~
+0 -1 9556
+S
+#9560
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+~
+1 0
+D0
+~
+~
+0 -1 9559
+D2
+~
+~
+0 -1 9561
+S
+#9561
+Within the Public Dungeon of Midgaard.~
+You are standing within the Public Dungeon, sounds of the inmates deafen you.
+To the south is a large poster.
+~
+1 0
+D0
+~
+~
+0 -1 9560
+D3
+~
+~
+0 -1 9562
+E
+poster~
+You see a large poster, showing the inmates of the dungeon.  Nothing special.
+~
+S
+#9562
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D1
+~
+~
+0 -1 9561
+S
+#9563
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D3
+~
+~
+0 -1 9558
+S
+#9564
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D3
+~
+~
+0 -1 9559
+S
+#9565
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D3
+~
+~
+0 -1 9554
+S
+#9566
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D1
+~
+~
+0 -1 9553
+S
+#9567
+A Cell within the Public Dungeon of Midgaard.~
+This is a standard cell of the Dungeon, which provides access to those who
+are stupid enough to want to look closely.
+~
+1 0
+D3
+~
+~
+0 -1 9552
+S
+#0
+#MOBILES
+#9551
+alice chains~
+Alice in Chains~
+Alice in Chains stands before you, reaching for your throat.
+~
+Alice in Chains is a blood thirsty killing machine, and a not very nice
+killing machine at that!  She stares cross-eyed at you, whilst saying,
+"sickman, sickman, sickman."
+~
+3 8 -400 S
+6 2
+0 0 0
+! 0 0 0 7 0 0 0
+#9552
+pantera~
+Pantera~
+Pantera squats in the corner, looking mean.
+~
+Pantera is a shaven-headed beast, half man, half who-knows-what?  He has
+a very mean look in his eyes.  You wonder why he is in here, but then when
+he smiles, you know why.
+~
+3 0 -300 S
+9 1
+0 0 0
+! 0 0 0 7 0 0 0
+#9553
+buffalo tom~
+Buffalo Tom~
+Buffalo Tom stands here, sniffing the air.
+~
+Buffalo Tom was Midgaard's most notorious serial killer, with over three
+hundred murders to his name.  He looks like a nice man, who wouldn't say
+boo to a spider.  My! How looks can be misleading.
+~
+3 8 -600 S
+20 1
+0 0 0
+! 0 0 0 7 0 0 0
+#9554
+blur~
+Blur~
+Blur stands before you, moving so fast that you can't focus on it properly.
+~
+Blur is so called because no one has ever seen it stop moving.  It spins
+round and round, screaming at all present.  Just looking at it makes you
+dizzy.
+~
+3 8 -800 S
+20 0
+0 0 0
+! 0 0 0 7 0 0 0
+#9555
+dinosaur jr~
+Dinosaur Jr~
+Dinosaur Jr crouches here, waiting to pounce on his next victim.
+~
+Dinosaur Jr, son of Dinosaur senior, was convited of mass murder many
+many years ago, and has been locked up in the dungeons since, which can
+hardly have done much to improve his temper.
+~
+3 0 -100 S
+8 1
+0 0 0
+! 0 0 0 7 0 0 0
+#9556
+elastica~
+Elastica~
+Elastica is here, switching shape at will.
+~
+Elastica is so named because she appears to be made out of elastic, with
+the ability to bend and re-shape her body at will.  She forms into a 
+question mark as you look at her.
+~
+3 0 -200 S
+7 2
+0 0 0
+! 0 0 0 7 0 0 0
+#0
+#OBJECTS
+#9551
+ring vibrating~
+the vibrating ring~
+The vibrating ring spins whirls about on the floor in front of you.~
+9 2 3 1
+0 0 0 0
+10
+A
+17 -7
+L
+1
+#9552
+buffalo bracer~
+a Buffalo bracer~
+A Buffalo bracer has been left here.~
+9 1 4097 1
+0 0 0 0
+10
+A
+19 1
+L
+1
+#9553
+pantera fang~
+pantera's fang~
+Pantera's fang has been left here.~
+5 65 8193 1
+0 0 0 11
+10
+A
+18 2
+L
+1
+#0
+#RESETS
+M 0 9551 1 9566   load mob
+M 0 9552 1 9564   load mob
+E 0 9553 0 16     load obj
+M 0 9553 1 9563 
+E 0 9552 0 15 
+M 0 9554 1 9562 
+E 0 9551 0 1 
+M 0 9555 1 9567 
+M 0 9556 1 9565 
+S
+#$

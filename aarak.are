@@ -1,0 +1,3772 @@
+#AREA
+aarak.are~
+Aarakocran city~
+{ 1 34}  Slash Aarakocran city~
+5600 5699
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#5600
+bird aarakocra food vendor~
+the food vendor~
+The vendor holds up a nice fat rat and smiles at you.
+~
+A fat bird with shiny feathers.  He eyes you cautiously and suggests you LIST
+his wares.
+~
+human~
+BG T 0 0
+23 3 1d47+528 1d1+99 1d19+6 hit
+-5 -5 -5 0
+0 0 0 0
+stand stand male 230
+0 0 medium 0
+#5601
+bird aarakocra delicacy vendor~
+the delicacy vendor~
+The delicacy vendor is watching you closely.
+~
+A tall skinny bird with many black feathers.  He eyes you harshly and
+suggests you LIST his rare, imported wares.
+~
+human~
+BGN T 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand male 340
+0 0 medium 0
+#5602
+bird aarakocra trinket vendor~
+the trinket vendor vendor~
+A trinket vendor stares at her wares, enchanted by their beauty.
+~
+A beautiful bird with bright plumage stands before you.  She considers
+suggesting you LIST her wares, but decides she doesn't want to part with any of
+them.
+~
+human~
+BG 0 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand female 340
+0 0 medium 0
+#5603
+bird aarakocran young child boy~
+the child~
+A young aarakocran is whistling a tune.
+~
+The child is very curious about everything about you.  He looks you over hoping
+you will give him a shiny piece of metal or a pretty stone.
+~
+human~
+CGHM PT 100 0
+3 0 1d12+35 1d1+99 1d5+0 hit
+8 8 8 13
+0 0 0 0
+stand stand male 30
+0 0 medium 0
+#5604
+bird aarakocran young child girl~
+the child~
+A young aarakocran is clicking her beak.
+~
+The child is very curious about everything about you.  She looks you over
+hoping you will give her a shiny piece of metal or a pretty stone.
+~
+human~
+CGHM PT -100 0
+3 0 1d12+35 1d1+99 1d5+0 hit
+8 8 8 13
+0 0 0 0
+stand stand female 30
+0 0 medium 0
+#5605
+bird aarakocran taxidermist~
+The taxidermist~
+The Aarakocran Taxidermist has his hands in a corpse.
+~
+The Aarakocran Taxidermist is adjusting a glass eye inside a lifelike
+snow leopard's head.  It is obvious he does not like to be disturbed.  He
+clicks his beak impatiently at you and icily suggests you type LIST.  The
+jagged scar on the left side of the taxidermist's face suggests that he can
+hold his own in a scrape.
+~
+human~
+BGN T -200 0
+23 3 1d47+528 1d1+99 1d19+6 hit
+-5 -5 -5 0
+0 0 0 0
+stand stand male 230
+0 0 medium 0
+#5606
+bird taxidermist~
+Taxidermist~
+The Aarakocran Taxidermist has his claws in a corpse.
+~
+The Aarakocran Taxidermist is adjusting a glass eye inside a lifelike
+snow leopard's head.  It is obvious he does not like to be disturbed.  He
+clicks his beak impatiently at you and icily suggests you type LIST.  The
+jagged scar on the right side of the taxidermist's face suggests that he can
+hold his own in a scrape.
+~
+human~
+BGN T 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand male 340
+0 0 medium 0
+#5608
+bird aarakocra child lame~
+a lame aarakocra~
+A young aarakocra looks uncomfortable in his wing and arm cast.
+~
+This young bird drank too much and tried to fly home, crashing into the side
+of a cliff.  He won't be able to fly until his arm bone has knitted back
+together again.
+~
+human~
+BGL 0 -100 0
+2 0 1d12+23 1d1+99 1d5+-1 hit
+9 9 9 14
+0 0 0 0
+stand stand male 20
+0 0 medium 0
+#5609
+bird aarakocra commander military~
+the humming military commander~
+You want to shield your ears from the incredible humming given off by the military commander!
+~
+The humming commander was moving tokens representing Aarakocran
+soldiers around a map, but he pushes that aside and lunges at your throat!
+~
+human~
+BCFG DFHQT 0 0
+30 5 1d61+899 1d1+99 1d23+9 hit
+-10 -10 -10 -5
+0 0 0 0
+stand stand male 300
+0 0 medium 0
+#5610
+bird aarakocra commander holy~
+the glowing commander~
+You want to shield your eyes from the incredible glow of the holy commander!
+~
+The commander was calculating a new backbreaking tax on an abacus, but
+ he pushes that aside and lunges at your throat!
+~
+human~
+BCFG DFHNQT 0 0
+30 5 1d61+899 1d1+99 1d23+9 hit
+-10 -10 -10 -5
+0 0 0 0
+stand stand male 300
+0 0 medium 0
+#5611
+bird aarakocran warrior~
+the fierce warrior~
+A fierce warrior rolls his eyes and decides to slay you...
+~
+The proud Aarakocran warrior defends his city against all threats.  He has
+decided you are a threat.  Prepare to die, dirt dweller!
+~
+human~
+FG DFT -100 0
+20 3 1d41+399 1d1+99 1d17+5 hit
+-3 -3 -3 2
+0 0 0 0
+stand stand female 200
+0 0 medium 0
+#5612
+bird aarakocran guard~
+the stalwart guard~
+A stalwart warrior chokes on his worm crisps and draws his blade!
+~
+The proud Aarakocran warrior defends his city against all threats.  He has
+decided you are a threat.  Prepare to die, dirt dweller!
+~
+human~
+BFG DFT 100 0
+24 4 1d49+575 1d1+99 1d19+7 hit
+-6 -6 -6 -1
+0 0 0 0
+stand stand female 240
+0 0 medium 0
+#5613
+bird aarakocran revolutionary castro~
+the aarakocran revolutionary~
+A revolutionary plots the overthrow of his corrupt government.
+~
+The bitter revolutionary is plotting to overthrow his corrupt government.  He
+has been secretly flying about building an organization against the corrupt
+commanders of the southern stronghold.  He feels that most Aarakocrans were
+much better off before merchant outsiders corrupt Aarakocran ideals.  You
+represent such a threat, and you can see his eyes smoldering with inner hatred.
+~
+human~
+BGJ DFT 100 0
+24 4 1d49+575 1d1+99 1d19+7 hit
+-6 -6 -6 -1
+0 0 0 0
+stand stand male 240
+0 0 medium 0
+#5614
+bird aarakocra junk dealer fred~
+the junk dealer~
+A junk dealer tries to eek out a living.
+~
+A fat bird with a bad slouch.  He is festooned with all kinds of shiny and dull
+metal objects.  His name is Fred.  He asks if you are interested in a bargain?
+~
+human~
+BCGN 0 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand female 340
+0 0 medium 0
+#5615
+bird aarakocran merchant~
+the merchant~
+A merchant is on his way to a meeting.
+~
+The business man has an intent look in his eye.  He is much to busy to be
+concerned with you...
+~
+human~
+CHN PT -100 0
+16 2 1d33+255 1d1+99 1d14+4 hit
+0 0 0 5
+0 0 0 0
+stand stand female 160
+0 0 medium 0
+#5616
+bird aarakocran matron~
+the matron~
+An aarakocran matron eyes you cautiously.
+~
+The matron looks down at you through her long, superior beak.  She thinks
+having your kind here is an insult to her people.  She considers slaying you,
+but decides you will probably get killed soon without her help.
+~
+human~
+CGHN PT -100 0
+10 1 1d12+119 1d1+99 1d10+2 hit
+4 4 4 9
+0 0 0 0
+stand stand female 100
+0 0 medium 0
+#5617
+bird aarakocran clansman~
+the clansman~
+An aarakocran clansman is rooting for grubs.
+~
+The clansman pulls a fat, juicy grub worm from the ground and pops it into his
+beak.  Your mouth waters as you imagine the delicate texture of the grub.
+~
+human~
+CGHM PT -100 0
+18 3 1d37+323 1d1+99 1d15+5 hit
+-2 -2 -2 3
+0 0 0 0
+stand stand female 180
+0 0 medium 0
+#5618
+bird aarakocran captain~
+the captain~
+The Aarakocran slashes at you!
+~
+Although the captain has been sitting at as desk for the last few years, she
+can still hold her own in a scrape.  The bald patches in her feathers are not a
+sign of disease but reminders of the day she slew two dragons singlehandedly.
+~
+human~
+BFG DFT -100 0
+27 4 1d55+728 1d1+99 1d21+8 hit
+-8 -8 -8 -3
+0 0 0 0
+stand stand female 270
+0 0 medium 0
+#5619
+bird aarakocran secretary~
+the secretary~
+The Secretary decides to prevent you from disturbing the captain!
+~
+Although you are dazzled by the brilliant plumage on the secretary, you can
+see he was chosen for his intelligence and strength.  His wing muscles bulge
+impressively, and you notice this is the first aarakocran you have seen with
+really beefy legs as a powerful KICK knocks the wind out of you.
+~
+human~
+BFG DFT -100 0
+25 4 1d51+624 1d1+99 1d20+7 hit
+-6 -6 -6 -1
+0 0 0 0
+stand stand female 250
+0 0 medium 0
+#5620
+bird aarakocra aarakocran weapons vendor~
+the weapons vendor~
+An Aarakocran weapons vendor is sharpening some talon extenders on a stone.
+~
+The vendor has no problems looking at you and carrying on a conversation as
+he sharpens two pairs of talon extenders simultaneously on a round sharpening
+wheel he is spinning with one of his feet.  The other foot is working a bellows
+for a large metal furnace.
+   He looks powerful enough to claw your face to shreds with a single swath.
+~
+human~
+BGN T 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand male 340
+0 0 medium 0
+#5621
+bird aarakocra aarakocran armorer armourer~
+the armorer~
+An Aarakocran armorer is hammering out a bit of plate.
+~
+As the armorer looks up at you, the hammer comes down upon his claw and he
+lets out a piercing shriek.
+~
+human~
+BG T 0 0
+34 5 1d69+1155 1d1+99 1d26+10 hit
+-12 -12 -12 -7
+0 0 0 0
+stand stand male 340
+0 0 medium 0
+#5622
+bird aarakocra aarakocran shaman holy guildmaster~
+the holy aarakocran guildmaster~
+Your guildmaster patiently adds a new tile to a huge mosaic.
+~
+The shaman's plumage is generally a drab grey, but there is a tremendous
+orange and yellow starburst on her chest.
+~
+human~
+BGKO HT 0 0
+19 3 1d39+360 1d1+99 1d16+5 hit
+-2 -2 -2 3
+0 0 0 0
+stand stand female 190
+0 0 medium 0
+#5623
+bird aarakocra aarakocran sneaky guildmaster thief assassin~
+the sneaky aarakocran guildmaster~
+Your guildmaster is picking a *HUGE* (Glowing) Mithral lock.
+~
+Well, COUNT your money!
+~
+human~
+BGK T 0 0
+19 3 1d39+360 1d1+99 1d16+5 hit
+-2 -2 -2 3
+0 0 0 0
+stand stand male 190
+0 0 medium 0
+#5624
+bird aarakocra aarakocran strong guildmaster warrior hero~
+the strong aarakocran guildmaster~
+..998..999..1000.  Your guildmaster sets down some *HUGE* barbells.
+~
+Your guildmaster's plumage is so black that it is blue.  You can see huge
+muscles rippling down his legs, wings, and chest.  He has an air of command and
+military discipline.
+~
+human~
+BK T 0 0
+19 3 1d39+360 1d1+99 1d16+5 hit
+-2 -2 -2 3
+0 0 0 0
+stand stand male 190
+0 0 medium 0
+#5625
+bird aarakocra aarakocran cityguard guard~
+the cityguard~
+A cityguard scans the horizon for signs of trouble.
+~
+The cityguard is charged with keeping peace within the city.  She is especially
+on the lookout for the person who stole from the military treasury last week.
+~
+human~
+CG T 1000 0
+9 1 1d12+107 1d1+99 1d9+2 hit
+4 4 4 9
+0 0 0 0
+stand stand female 90
+0 0 medium 0
+#5626
+bird aarakocra aarakocran cityguard guard~
+the cityguard~
+A cityguard scans the horizon for signs of trouble.
+~
+The cityguard is charged with keeping peace within the city.  He is especially
+on the lookout for the person who stole from the military treasury last week.
+~
+human~
+CG T 1000 0
+7 1 1d12+83 1d1+99 1d8+1 hit
+6 6 6 11
+0 0 0 0
+stand stand male 70
+0 0 medium 0
+#5627
+bird aarakocra aarakocran cityguard guard~
+the cityguard~
+A cityguard is guarding the temple.
+~
+The cityguard is charged with defending the temple against invaders from the
+north.
+~
+human~
+BCG T 1000 0
+9 1 1d12+107 1d1+99 1d9+2 hit
+4 4 4 9
+0 0 0 0
+stand stand male 90
+0 0 medium 0
+#5628
+bat breakfast lunch dinner snack appetizer~
+the small bat~
+A bat brings back memories of your mother's great cooking.
+~
+A recipe comes to mind...
+      Ingredients:
+         1 small bat
+         1 small yellow pepper
+         1 spoon vindaloo paste
+
+      Directions:
+         place pepper in bat's mouth
+         smear paste on stomach and tie wings together
+         roast on stick until golden brown
+
+   (leg of a small bat also makes a handy snack!)
+~
+human~
+AFH 0 -400 0
+3 0 1d12+35 1d1+99 1d5+0 hit
+8 8 8 13
+0 0 0 0
+stand stand male 30
+0 0 medium 0
+#5629
+kobold~
+the kobold~
+A kobold has been staked to the ground.
+~
+When you look into the kobolds eyes you learn more about pain, suffering,
+torture, and humiliation than you could have learned in a score of years.
+The kobold only has one thing that is important to him, and that is a rock,
+and people keep taking it from him endlessly.  He is guarding a rock with
+his pitiful life, but occasionally closes his eyes and lets out a whimpering
+moan.
+~
+human~
+B P 1000 0
+1 0 1d12+11 1d1+99 1d4+-1 hit
+10 10 10 15
+0 0 0 0
+stand stand male 10
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#5600
+worm crisps~
+a packet of worm crisps~
+You are enticed by the odor of spicy worm crisps.~
+nothingness~
+food 0 A
+20 20 0 0 0
+0 1 0 P
+#5601
+bowl curry curried grubs~
+a bowl of curried grubs~
+You smell the delicate aroma of curried grubs.~
+nothingness~
+food 0 A
+50 50 0 0 0
+0 5 0 P
+#5602
+cup spicy rodent stew~
+a cup of spicy rodent stew~
+A cup with some red liquid rests here.~
+nothingness~
+food 0 A
+40 40 0 0 0
+0 5 0 P
+#5603
+meat seasoned rat kabob~
+a seasoned rat kabob~
+Some meat and vegetables on a stick lies on the ground.~
+nothingness~
+food 0 A
+40 40 0 0 0
+0 5 0 P
+#5604
+raw worms rice~
+raw worms with rice~
+Your mouth waters at the sight of raw worms.~
+nothingness~
+food 0 A
+60 60 0 0 0
+0 8 0 P
+#5605
+talon extenders~
+some talon extenders~
+Some shiny metal talons catch your fancy.~
+nothingness~
+armor 0 AH
+5 5 5 5 1
+0 5 0 P
+A
+19 3
+#5606
+packet black centipede spice~
+spice of the black, aquatic centipede~
+A packet of black spice has been forgotten here.~
+nothingness~
+pill 0 A
+0 'teleport' '' '' 0
+0 1 0 P
+#5607
+seaweed~
+aromatic seaweed~
+You smell the dreamy smell of seaweed.~
+nothingness~
+pill 0 A
+0 'change sex' '' '' 0
+0 1 0 P
+#5608
+chameleon~
+a desiccated chameleon~
+A small chameleon corpse blends in with the ground.~
+nothingness~
+pill 0 A
+0 'detect invis' '' '' 0
+0 1 0 P
+#5609
+giant squid eye eyeball~
+the eye of a giant squid~
+An eyeball looks up at you strangely.~
+nothingness~
+pill 0 A
+0 '' 'poison' '' 0
+0 1 0 P
+#5610
+shiny bit green glass~
+a shiny bit of green glass~
+You see a shiny bit of green glass and need to possess it.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 3 0 P
+A
+2 1
+#5611
+shiny bit blue glass~
+a shiny bit of blue glass~
+You see a shiny bit of blue glass and decide it will soon be yours.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 10 0 P
+A
+1 1
+#5612
+gold circlet~
+a bright gold circlet~
+You have a sudden urge to pick up a bright gold circlet.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 10 0 P
+A
+5 1
+#5613
+piece string~
+a pretty piece of string~
+The most beautiful piece of string you have ever seen rests here.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 10 0 P
+A
+13 4
+#5614
+silver coin disk~
+one silver coin~
+A shiny silver disk seems to call your name.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 1 0 P
+#5615
+red glass~
+glittering red glass~
+You decide the important thing in your life is having some red glass.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 1 0 P
+#5616
+ball string~
+a ball of string~
+A ball of string asks to be unrolled and hidden in your nest.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 1 0 P
+#5617
+red string thread~
+a fine red thread~
+A thin piece of string has the deepest color you have ever seen.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 1 0 P
+#5618
+gem garnet stone~
+a flawed garnet stone~
+A gem glows with a mystical inner light.~
+nothingness~
+trash A A
+0 0 0 0 0
+0 1 0 P
+#5619
+nest~
+a fancy nest~
+A fancy nest of string and straw seems very inviting.  ~
+nothingness~
+container 0 0
+10000 0 0 10000 100
+0 1000 0 P
+#5620
+nest~
+a straw nest~
+A straw nest with shiny twigs makes you feel sleepy.  ~
+nothingness~
+container 0 0
+10000 0 0 10000 100
+0 1000 0 P
+#5621
+nest~
+a huge nest~
+A huge family nest of rough twigs looks preferable to adventuring.  ~
+nothingness~
+container 0 0
+10000 0 0 10000 100
+0 1000 0 P
+#5622
+hand ashtray~
+an ashtray~
+An ashtray made out of the hand of a smurf lies on the floor.~
+nothingness~
+furniture 0 AO
+10 10000 E 0 0
+0 1 0 P
+#5623
+stuffed snow leopard~
+a stuffed snow leopard~
+A magnificent stuffed snow leopard almost appears to be walking.~
+nothingness~
+furniture 0 AL
+10 10000 E 0 0
+0 1 0 P
+#5624
+stuffed jaguar~
+a stuffed jaguar~
+A stuffed giant king jaguar appears to pace menacingly.~
+nothingness~
+furniture 0 0
+10 10000 E 0 0
+0 500 0 P
+#5625
+stuffed orc~
+a stuffed orc~
+A stuffed orc in combat pose is glued to the floor.~
+nothingness~
+furniture 0 0
+10 10000 E 0 0
+0 500 0 P
+#5626
+stuffed grizzly bear~
+a stuffed grizzly bear~
+A stuffed grizzly bear prepares to maul you.  ~
+nothingness~
+container 0 0
+500 0 -1 500 100
+0 500 0 P
+#5627
+dragon head~
+a stuffed dragon's head~
+A fierce dragon's head is nailed to the wall.~
+nothingness~
+treasure 0 0
+0 0 0 0 0
+0 50 0 P
+#5628
+glass eye~
+a glass eye~
+A glass eye looks back at you.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 10 0 P
+A
+3 1
+#5629
+glass eye~
+a glass eye~
+A flawed glass eye looks back at you.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 5 0 P
+#5630
+painting~
+a strange bird painting~
+A strange bird painting hangs on the wall.~
+nothingness~
+furniture 0 0
+10 10000 E 0 0
+0 50 0 P
+E
+painting~
+The painting is of an aarakocran shaman, and appears very lifelike.  The eyes
+seem to follow you about the room.  The painting begins to speak!  The Shaman
+utters 'xipodf sdfi dsfiop ewroia !wuer' which you recognize as being some kind
+of curse on the old Aarakocran high tongue.
+~
+#5631
+hand ashtray~
+an ashtray~
+An ashtray made out of the hand of a dwarf lies on the floor.~
+nothingness~
+treasure G AO
+0 0 0 0 0
+0 10 0 P
+A
+5 1
+#5632
+canoe~
+a light weight canoe~
+A canoe is lies here unused.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 4 0 P
+E
+canoe~
+Hey!  This canoe has a hole in it!
+~
+#5633
+chain collar~
+a thick collar and chain~
+An empty chain and collar rest here.~
+nothingness~
+armor 0 AC
+5 5 5 5 1
+0 5 0 P
+#5634
+bottle potion clear~
+a clear potion with feathers inside~
+Feathers float about inside a clear bottle.~
+nothingness~
+potion 0 AO
+0 'fly' '' '' 0
+0 1 0 P
+#5635
+tapestry~
+a faded tapestry~
+A faded tapestry depicts the famous "Battle of the 1000".  ~
+nothingness~
+container 0 0
+10000 0 0 10000 100
+0 100 0 P
+#5636
+sword~
+a sword~
+You see a sword here.~
+nothingness~
+weapon BG AN
+sword 0 3 slash 0
+0 5 0 P
+A
+18 3
+A
+19 3
+#5637
+mace~
+a mace~
+You see a mace here.~
+nothingness~
+weapon AG AN
+club 0 3 pound 0
+0 5 0 P
+A
+18 3
+A
+19 3
+#5638
+vest~
+an open-winged vest~
+You see an Aarakocran-manufacture open-winged vest here.~
+nothingness~
+armor AO AD
+5 5 5 5 1
+0 5 0 P
+E
+vest~
+This vest has been designed to give proper room for large wing muscles, and
+has holes in the back which are large enough to allow you to put it on and
+take it off without getting your feathers caught.
+~
+#5639
+shield spiked~
+a wicked, spiked shield~
+You see a shield here.~
+nothingness~
+armor AO AJ
+5 5 5 5 1
+0 5 0 P
+A
+19 5
+#5640
+cloak~
+a cloak~
+You see a cloak here.~
+nothingness~
+armor A AC
+5 5 5 5 1
+0 5 0 P
+#5641
+helmet~
+a full-view helmet~
+You see an Aarakocran-manufacture full-view helmet here.~
+nothingness~
+armor AO AE
+5 5 5 5 1
+0 5 0 P
+E
+helmet~
+This helmet has been designed to give you an unobstructed view of a full 180
+degrees.  There is also a cleverly designed beak guard to allow you to eat and
+drink without removing the helmet.
+~
+#5642
+leggings~
+a pair of leggings~
+You see a pair of leggings here.~
+nothingness~
+armor AO AF
+5 5 5 5 1
+0 5 0 P
+#5643
+boots~
+a pair of open-toe boots~
+You see a pair of Aarakocran-manufacture boots here.~
+nothingness~
+armor A AG
+5 5 5 5 1
+0 5 0 P
+A
+17 1
+A
+18 1
+E
+boots~
+These boots have large toe holes, to accommodate large Aarakocran feet.
+~
+#5644
+talon extenders talons~
+a pair of talon extenders~
+You see a pair of talon extenders here.~
+nothingness~
+armor AO AH
+5 5 5 5 1
+0 5 0 P
+A
+19 6
+#5645
+wing guards wingguards~
+a pair of wing guards~
+You see a pair of wing guards here.~
+nothingness~
+armor AO AI
+5 5 5 5 1
+0 5 0 P
+#5646
+cape~
+a cape~
+You see a cape here.~
+nothingness~
+armor A AK
+5 5 5 5 1
+0 5 0 P
+#5647
+belt~
+a belt~
+You see a belt here.~
+nothingness~
+armor A AL
+5 5 5 5 1
+0 3 0 P
+#5648
+bracer~
+a bracer~
+You see a bracer here.~
+nothingness~
+armor AO AM
+5 5 5 5 1
+0 5 0 P
+#5649
+vest~
+an open-winged vest~
+You see an Aarakocran-manufacture open-winged vest here.~
+nothingness~
+armor B AD
+5 5 5 5 1
+0 5 0 P
+E
+vest~
+This vest has been designed to give proper room for large wing muscles, and
+has holes in the back which are large enough to allow you to put it on and
+take it off without getting your feathers caught.
+~
+#5650
+shield spiked~
+a wicked, spiked shield~
+You see a wicked, spiked shield here.~
+nothingness~
+armor BO AJ
+5 5 5 5 1
+0 5 0 P
+A
+19 5
+#5651
+cloak~
+a cloak~
+You see a cloak here.~
+nothingness~
+armor B AC
+5 5 5 5 1
+0 5 0 P
+#5652
+helmet~
+a full-view helmet~
+You see an Aarakocran-manufacture full-view helmet here.~
+nothingness~
+armor BO AE
+5 5 5 5 1
+0 5 0 P
+E
+helmet~
+This helmet has been designed to give you an unobstructed view of a full 180
+degrees.  There is also a cleverly designed beak guard to allow you to eat and
+drink without removing the helmet.
+~
+#5653
+leggings~
+a pair of leggings~
+You see a pair of leggings here.~
+nothingness~
+armor BO AF
+5 5 5 5 1
+0 5 0 P
+#5654
+boots~
+a pair of open-toe boots~
+You see a pair of Aarakocran-mangufacture boots here.~
+nothingness~
+armor B AG
+5 5 5 5 1
+0 5 0 P
+A
+17 1
+A
+18 1
+E
+boots~
+These boots have large toe holes, to accommodate large Aarakocran feet.
+~
+#5655
+talon extenders~
+a pair of talon extenders~
+You see a pair of talon extenders here.~
+nothingness~
+armor BO AH
+5 5 5 5 1
+0 5 0 P
+A
+19 6
+#5656
+sleeves~
+a pair of sleeves~
+You see a pair of sleeves here.~
+nothingness~
+armor BO AI
+5 5 5 5 1
+0 5 0 P
+#5657
+cape~
+a cape~
+You see a cape here.~
+nothingness~
+armor BO AK
+5 5 5 5 1
+0 5 0 P
+#5658
+belt~
+a belt~
+You see a belt here.~
+nothingness~
+armor B AL
+5 5 5 5 1
+0 5 0 P
+#5659
+bracer~
+a bracer~
+You see a bracer here.~
+nothingness~
+armor BO AM
+5 5 5 5 1
+0 5 0 P
+#5660
+purse~
+a generic purse~
+A generic purse generates the VNUM for the 'make purse' spell.  ~
+nothingness~
+container 0 A
+50 0 0 50 100
+0 5 0 P
+#5661
+fire campfire~
+a campfire~
+There are the remains of a campfire here.  ~
+nothingness~
+container 0 0
+10000 0 0 10000 100
+0 5 0 P
+#5662
+gold key~
+a shiny gold key~
+A shiny key gives a glint of gold.  ~
+nothingness~
+key AB A
+0 0 0 0 0
+0 1 0 P
+#5663
+string green thread~
+a frayed bit of green thread~
+A piece of string, beautiful beyond measure, looks loose.~
+nothingness~
+staff AG AO
+0 1 1 'charm person' 0
+0 6 0 P
+#5664
+stuffed polar bear~
+a stuffed polar bear~
+A stuffed polar bear prepares to maul you.  ~
+nothingness~
+container 0 0
+500 0 -1 500 100
+0 500 0 P
+#5665
+small talon extenders~
+some small talon extenders~
+A pair of small shiny metal talons catch your fancy.~
+nothingness~
+armor 0 AH
+5 5 5 5 1
+0 5 0 P
+A
+19 2
+#5666
+small mace~
+a small mace~
+You see a small mace here.~
+nothingness~
+weapon 0 AN
+club 0 3 pound 0
+0 5 0 P
+A
+18 1
+A
+19 1
+#5667
+small sticker~
+a small rat sticker~
+A small rat sticker would come in handy, and there is one here.~
+nothingness~
+weapon 0 AN
+dagger 0 3 pierce 0
+0 5 0 P
+A
+17 -5
+A
+18 1
+E
+small sticker~
+This is a medium length piercing blade, primarily used to catch rats.  It is
+fairly long, but the point is about as long as a dagger's.  The sticker looks
+as sturdy as a short sword.
+~
+#5668
+large sticker~
+a large rat sticker~
+A large rat sticker causes you to dream of a large rat dinner.~
+nothingness~
+weapon 0 AN
+sword 0 3 slash 0
+0 5 0 P
+A
+18 1
+A
+19 1
+E
+sticker~
+This is a long metal blade, primarily used to catch rats.  It is about as big
+as a small sword, and has a sharp slashing blade.  It looks as sturdy as a
+short sword.
+~
+#5669
+helmet~
+a full-view helmet of plate~
+You see an Aarakocran-manufacture full-view helmet here.~
+nothingness~
+armor O AE
+5 5 5 5 1
+0 5 0 P
+E
+helmet~
+This helmet has been designed to give you an unobstructed view of a full 180
+degrees.  There is also a cleverly designed beak guard to allow you to eat and
+drink without removing the helmet.
+~
+#5670
+vest~
+an open-winged vest~
+You see an Aarakocran-manufacture open-winged vest here.~
+nothingness~
+armor 0 AD
+5 5 5 5 1
+0 5 0 P
+E
+vest~
+This vest has been designed to give proper room for large wing muscles, and
+has holes in the back which are large enough to allow you to put it on and
+take it off without getting your feathers caught.
+~
+#5671
+boots~
+a pair of open-toe boots~
+You see a pair of Aarakocran-mangufacture boots here.~
+nothingness~
+armor 0 AG
+5 5 5 5 1
+0 5 0 P
+A
+17 1
+A
+18 1
+E
+boots~
+These boots have large toe holes, to accommodate large Aarakocran feet.
+~
+#5672
+lump metal~
+a lump of shiny metal~
+A lump of shiny metal is a good thing to carry around and possess.~
+nothingness~
+trash 0 A
+0 0 0 0 0
+0 5 0 P
+#5673
+pick lockpick metal bit~
+a lockpick~
+A L-shaped bit of metal has been left on the ground.~
+nothingness~
+treasure 0 AO
+0 0 0 0 0
+0 1 0 P
+A
+2 1
+#5674
+bottle alcohol rotgut~
+a bottle of rotgut~
+You are surprised to see a bottle of alcohol out in the open.~
+nothingness~
+drink 0 A
+8 8 'wine' 0 0
+0 10 0 P
+#5675
+cracked crystal ball~
+a crystal ball~
+A broken crystal ball has been abandoned here.~
+nothingness~
+treasure 0 A
+0 0 0 0 0
+0 5 0 P
+E
+ball~
+You shake the crystal ball, and hold it in front of your eyes.  In a few
+seconds, a small blue tetrahedron floats to the surface.  Written on the face
+of the tetrahedron are the words 'please shake me again'.
+~
+#5676
+rock~
+a worthless rock~
+A worthless rock that is very important to a lonely kobold rests here.~
+nothingness~
+treasure 0 A
+0 0 0 0 0
+0 5 0 P
+E
+rock~
+When you look at the rock, you think of a lonely kobold balling his eyes
+out in some dinghy back room.
+~
+#5677
+flying helmet~
+a leather flying helmet~
+You see an Aarakocran-manufacture leather flying helmet here.~
+nothingness~
+armor 0 AE
+5 5 5 5 1
+0 5 0 P
+E
+helmet~
+This helmet is made of leather and covers the entire face and upper beak.
+Glass protects the eyes while leaving view unobstructed.
+~
+#5678
+wing guards wingguards~
+a pair of tough leather wing guards~
+You see a pair of tough leather wing guards here.~
+nothingness~
+armor 0 AI
+5 5 5 5 1
+0 5 0 P
+#5679
+fountain water~
+a fountain~
+A large fountain gushes forth here.~
+nothingness~
+fountain 0 0
+10000 10000 'water' 0 0
+0 500 0 P
+#5680
+cannon tube~
+a cannon~
+A mysterious thick metal tube rests here.~
+nothingness~
+wand 0 AO
+0 1 1 'high explosive' 0
+0 100 0 P
+E
+tube cannon~
+The revolutionary is experimenting with gunpowder from the far east, in an
+attempt to create a 'super weapon'.
+~
+#5681
+skin waterskin~
+a water skin~
+A soggy leather skin looks like it might hold water.~
+nothingness~
+drink 0 A
+100 100 'water' 0 0
+0 2 0 P
+#5682
+bug glowbug chitin~
+a dead glowbug~
+You see the shiny chitin of a dead glowbug.~
+nothingness~
+light 0 A
+0 0 80 0 0
+0 5 0 P
+#0
+
+
+#ROOMS
+#5600
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You sense that the wind patterns
+are shifting, something very strange is going on below.
+~
+0 C 9
+D1
+~
+~
+0 -1 5602
+D5
+You see some strange things in the air below you.  Below, creatures
+mill about and the wind seems rather strange.~
+~
+0 -1 9258
+S
+#5601
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D1
+~
+~
+0 -1 5678
+D5
+~
+~
+0 -1 5602
+S
+#5602
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D1
+~
+~
+0 -1 5685
+D3
+~
+~
+0 -1 5600
+D4
+~
+~
+0 -1 5601
+S
+#5603
+The Taxidermist's Gallery~
+You gape in amazement at how incredibly lifelike some of the stuffed animals
+and trophies appear.
+~
+0 D 0
+D1
+You see the sales counter.
+~
+~
+0 -1 5616
+S
+#5604
+Temple of the Rising Sun~
+You stand in a huge temple hewn directly from the cliff wall.  Giant murals
+depict fierce Aarakocran warriors flying into battle on the tails of
+whirlwinds.  There is a small plaque at eye level.
+~
+0 KO 1
+D0
+You see the guard shack.
+~
+~
+0 -1 5622
+D1
+You see the private chambers of the Chief shaman.
+~
+~
+0 -1 5699
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5653
+D5
+You see a narrow staircase has been cut into the rock here, to allow visiting
+traders access to the market.  (You sincerely hope that you don't slip, as you
+can see some wicked jagged rocks between breaks in the clouds below, GULP!)
+~
+~
+0 -1 5611
+E
+plaque~
+Slash decided when he was 17 years old to leave behind the strife and class
+struggle in the Aarakocran capital and learn the skills of adventure.  He
+did not return until 100 years later.  He now returns regularly to visit his
+cousin the taxidermist.
+~
+E
+mural murals~
+The mural depicts thousands of Aarakocran warriors spiraling in rapid descent
+upon an army of depraved gnome archers.  Blood and gore seem to be the
+primary themes, and here and there you see Aarakocrans dismembering the craven
+archers and eating the severed limbs.  You start to think these Aarakocrans are
+a sick bunch.
+~
+S
+#5699
+Shaman's private chambers~
+You stand in a holy room.  The walls are covered with astrological symbols,
+calendars, and star charts.
+   In the center of the room is a huge mosaic, made of thousands of bits of
+glass.
+~
+0 DK 1
+D3
+~
+~
+0 -1 5604
+E
+mosaic~
+You stare in awe at the aching beauty of a quarter-completed mosaic of a huge
+glowing egg in the most perfect nest you have ever seen.  Each piece of the
+mosaic is a piece of glass colored and cut so perfectly that you feel this is
+what heaven must be like.
+~
+S
+#5608
+The Dump~
+Wait, this isn't the dump!  Behind all of this mess is a beaten up table.
+You see a lot of things, but nothing here is very pretty or very shiny, and you
+decide to leave.
+~
+0 0 1
+D1
+~
+~
+0 -1 5609
+E
+lamont~
+Lamont is not here, you idiot!  He is out driving the truck.  Get back to
+to game!
+~
+S
+#5609
+Runed stall~
+This stall is painted with strange gold runes, such as triangles and eyes.
+~
+0 0 1
+D1
+~
+~
+0 -1 5610
+D3
+~
+~
+0 -1 5608
+D5
+~
+~
+0 -1 5616
+S
+#5610
+A Food vendor's stall~
+You stand before a brightly colored stall.  Small animals and large insects
+are hanging from racks all around you.
+~
+0 0 1
+D1
+~
+~
+0 -1 5611
+D3
+~
+~
+0 -1 5609
+D5
+~
+~
+0 -1 5617
+S
+#5611
+Top of Market Square~
+You stand in the middle of a huge bazaar.  There are stalls to the West and
+East.  A staircase has been built out of sandstone leading down, and you see
+some more stalls down there.  If you attempt to go South you will fall off the
+side of the cliff city.
+~
+0 0 1
+D1
+~
+~
+0 -1 5612
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5660
+D3
+~
+~
+0 -1 5610
+D4
+~
+~
+0 -1 5604
+D5
+~
+~
+0 -1 5618
+S
+#5612
+A Food vendor's stall~
+You stand before a drab colored stall.  Small animals and large insects are
+hanging from racks all around you.
+~
+0 0 1
+D1
+You see the warrior's guild.
+~
+~
+0 -1 5613
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5661
+D3
+~
+~
+0 -1 5611
+D5
+~
+~
+0 -1 5619
+S
+#5613
+Warrior's guild~
+This building has no exit to the south, as the warriors do not like having
+their privacy violated.  You see lots of equipment to practice with, and a
+huge set of weights.
+~
+0 CD 1
+D3
+~
+~
+0 -1 5612
+D5
+~
+~
+0 -1 5620
+S
+#5616
+The Taxidermy Stand~
+The first thing you notice about the taxidermy shop is the odor of tanned
+hides.
+
+
+
+A giant grizzly bear's slash *** DEMOLISHES *** you.
+A giant grizzly bear's slash *** DEMOLISHES *** you.
+
+
+
+
+   Wait, it is only a stuffed bear in a lifelike pose.  You also see a
+collection of heads, including a roc's, a dragon's, and a minotaur's.  There
+is a large gallery to the east.
+~
+0 D 0
+D1
+~
+~
+0 -1 5617
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5665
+D3
+You see a display gallery to the west.
+~
+~
+0 -1 5603
+D4
+~
+~
+0 -1 5609
+S
+#5617
+Armory stall~
+There is a large, battered anvil here and a bunch of little bits of metal
+and bronze.  Most of what the armorer is selling looks pretty old, but you
+stop to ask if he has anything newer under the counter.
+~
+0 0 1
+D1
+~
+~
+0 -1 5618
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5666
+D3
+~
+~
+0 -1 5616
+D4
+~
+~
+0 -1 5610
+S
+#5618
+Bottom of Market Square~
+You are at the bottom of the market square.  Stalls continue to your East
+and West, while dwellings lie to the Down.  To the South, you see a (Glowing)
+(Shimmering) (Pulsating) blue ball, about 10' across, hovering in the air.
+~
+0 0 1
+D1
+~
+~
+0 -1 5619
+D2
+You see the adventurer's guild.
+~
+~
+0 -1 201
+D3
+~
+~
+0 -1 5617
+D4
+~
+~
+0 -1 5611
+D5
+It looks passable, but beware!  A single slip could start you sliding
+d
+o
+w
+n
+.
+.
+.
+You think you can see jagged rocks through the clouds below, but you are not
+sure...
+~
+~
+0 -1 5625
+S
+#5619
+A jeweler's stall~
+You stand in front of a big beautiful bird with bright plumage.  The stall
+is painted in bright colors and features a mural of fierce bird warriors
+attacking a dragon sitting on a huge pile of gold and gems.
+~
+0 0 1
+D1
+~
+~
+0 -1 5620
+D3
+~
+~
+0 -1 5618
+D4
+~
+~
+0 -1 5612
+S
+#5620
+The Weaponsmith's stall~
+This stall looks like it has expended very rapidly, and has almost become a
+shop.  It doesn't look like the weaponsmith couldn't take down the stall very
+easily, as he has installed a blast furnace, a grinding wheel, and some forging
+equipment.
+~
+0 0 1
+D3
+~
+~
+0 -1 5619
+D4
+You see the Warrior's guild.
+~
+~
+0 -1 5613
+S
+#5621
+A stone dwelling~
+You are inside a large building constructed from standstone and mortar.  There
+is a latrine in the southeast corner.
+~
+0 0 5
+D1
+~
+~
+0 -1 5623
+S
+#5622
+A Guard Shack~
+You see a small wooden shack before you.  It doesn't look very well designed
+to you.  There is a big sign in front of the shack.  The sign is covered with
+what you consider chicken scratchings.
+~
+0 0 5
+D0
+You see a narrow path through the forest.
+~
+~
+0 -1 10100
+D2
+You see a temple.
+~
+~
+0 -1 5604
+S
+#5623
+A stone dwelling~
+You are inside a large building constructed from standstone and mortar.  There
+is a latrine in the southeast corner.
+~
+0 0 5
+D1
+~
+~
+0 -1 5624
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5672
+D3
+~
+~
+0 -1 5621
+S
+#5624
+A stone dwelling~
+You are inside a large building constructed from standstone and mortar.  There
+is a latrine in the southeast corner.
+~
+0 0 5
+D1
+~
+~
+0 -1 5625
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5673
+D3
+~
+~
+0 -1 5623
+S
+#5625
+Town Square~
+You stand in the middle of the Town Square.  Stone dwellings lie to the East
+and West, and the Bazaar lies to the Up.  There is a path to the Down.  There
+is nothing to the South.
+~
+0 0 5
+D1
+~
+~
+0 -1 5626
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5674
+D3
+~
+~
+0 -1 5624
+D4
+~
+~
+0 -1 5618
+D5
+You feel that you can jump from rock to rock and scale on your belly long
+enough to get to some small huts you see to the DownEast.  You can clearly
+see some wicked, jagged crags through a part in the clouds below.
+~
+~
+0 -1 5632
+S
+#5626
+A stone dwelling~
+You are inside a large building constructed from sandstone and mortar on the
+south wall, and using the north face of the canyon as the north wall.
+~
+0 0 5
+D1
+~
+~
+0 -1 5627
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5675
+D3
+~
+~
+0 -1 5625
+S
+#5627
+A stone dwelling~
+You are inside a large building constructed from sandstone and mortar on the
+south wall, and using the north face of the canyon as the north wall.
+~
+0 0 5
+D3
+~
+~
+0 -1 5626
+D5
+~
+~
+0 -1 5634
+S
+#5630
+On the north cliff face~
+It looks like you could slide back on your belly a bit to the East, but
+forget about going West, it's much to steep.  There is a little bit of level
+ground Down from here, but there is no way you could reach it.  You see the
+outside of a stone building built right into the cliff face above you, but the
+climb is too steep.
+~
+0 0 5
+D1
+~
+~
+0 -1 5631
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5679
+S
+#5631
+The Shanty town~
+You are in an area of straw huts constructed by the less prosperous
+Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
+structures do not have the natural permanence of the well built buildings or
+the traditional nests, and the residents spend most of their time keeping them
+together.
+~
+0 0 5
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5680
+D3
+~
+~
+0 -1 5630
+D5
+~
+~
+0 -1 5638
+S
+#5632
+A rough stone path~
+You are on a rough stone path on the north cliff face.  Your passage East and
+West is blocked, but you may still move Up and Down.  There is nothing to the
+south.
+~
+0 0 5
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5681
+D4
+~
+~
+0 -1 5625
+D5
+~
+~
+0 -1 5639
+S
+#5633
+Thieves guild~
+The thieves guild is pretty small, as most thieves have left the city for
+bigger and better booties, but the recent prosperity of the shopkeepers has
+caused operations to begin expanding again.
+You see a thin leather book tied to a string on the wall.
+~
+0 ADK 5
+D2
+~
+~
+1 -1 5640
+E
+book~
+The book is titled 'So You Want to be a Thief', by someone named Slash.
+
+   The book has the following chapters you can LOOK at.  (Don't even think of
+nicking this book.)
+
+   Chapter 1:  So you have decided to become a thief  (LOOK NEWBIE)
+   Chapter 2:  Stealing, Nicking and Borrowing        (LOOK STEAL)
+   Chapter 3:  The Art of surprise                    (LOOK BACKSTAB)
+   Chapter 4:  Sneaking around where you don't belong (LOOK SNEAK)
+
+   It looks like someone nicked the rest of the book...
+~
+E
+newbie~
+Ok, you have made it to the thieves guild.  I will assume that you know how
+to do things like PRACtice and talk to the other players, and know to run away
+from a fight you can't win.
+
+   The guildmaster here is very good at teaching you the tools of the trade.
+However, he is a lot more interested in staying in this room and picking that
+big lock than he is in helping you.  He is not going to tell you what to
+study or give you hints on how to rob.  If you are having trouble figuring out
+what skills to PRACtice, use the CANT command to speak to the other thieves on
+line.  They will help you.  (This book also has a few pointers.)
+~
+E
+steal~
+Steal lets you take things from players and mobs without having to fight
+them for it.  You won't get any experience points for using this or any other
+thieving skill, but you can get money and objects pretty quick.
+   To steal money, use STEAL <number> <character>.  To steal an object, use
+STEAL <object> <character>.  The object must be in the character's inventory,
+not worn.  You want to know what the character has in the inventory to steal,
+so you will need to PRACtice PEEK, too.
+   I have staked a kobold to the ground.  He has a ROCK in his inventory.  Try
+to steal it from him.  When you have gotten the rock, please give the rock
+back to the kobold so the other thieves can steal it from him.  Notice that you
+can't steal the collar off of him.
+~
+E
+backstab~
+Backstab lets you sneak up behind a mob (but not a player) and hit the
+really hard in the back with a dagger.  This does a lot of extra damage, and
+you should have a much easier time finishing him off.  You need to use a small
+dagger-type weapon to do this, a big slashing sword doesn't have the right kind
+of point.
+   If you are grouped with some warriors, they will tell you that you have to
+backstab the mob.  If you do this, the mob will attack only you and they will
+take no damage.  You should make them use their skills and RESCUE you.
+   Don't use this skill until you are at least GOOD at it.  Otherwise you will
+be wasting your first attack with a pitiful backstab attempt...
+~
+E
+sneak~
+Sneak and hide are used on players, not mobs.  DO NOT EXPECT TO BE ABLE TO
+WALK INTO AN AGGRESSIVE AREA stealthily.  Use invisibility for this...
+~
+S
+#5634
+On the north cliff face~
+You can easily climb up to a stone building built into the shelf above you.
+You *might* be able to go down, but I wouldn't try it...
+~
+0 0 5
+D4
+~
+~
+0 -1 5627
+D5
+It looks a bit too steep...  You might be able to get down, though getting up
+is clearly impossible.  You have an excellent view of some buzzards circling
+around a large animal about 2000' feet down...
+~
+~
+0 -1 5641
+S
+#5635
+On the north cliff face~
+You are standing on a part of the cliff that is at about a 45% angle.  You
+can stay here as long as you want.  You are glad sandstone is a very strong
+and sturdy geological formation.
+   There are too many clouds below to see if the buzzards circle below this
+point.
+~
+0 0 5
+D5
+~
+~
+0 -1 5642
+S
+#5636
+Small level area on the cliff face~
+You stand on a small level area on the cliff face.  Better stay here, it
+looks like a single step in any direction would leave you heading down at a
+rapid speed.  The good news is that the cliff is so steep here you would
+probably survive your fall all the way to the bottom far below...
+~
+0 0 5
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5685
+S
+#5637
+On the north cliff face~
+The view from up here is quite breathtaking.  You can see down for at least
+half a mile.  You wish to stay here and soak up nature's beauty almost as much
+as the last guy who stopped here, and he left claw marks for at least 50' down
+the side of the crag.  You wave at his bones below and commend his good taste.
+~
+0 0 5
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5686
+D5
+~
+~
+0 -1 5644
+S
+#5638
+The Shanty town~
+You are in an area of straw huts constructed by the less prosperous
+Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
+structures do not have the natural permanence of the well built buildings or
+the traditional nests, and the residents spend most of their time keeping them
+together.
+~
+0 0 5
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5687
+D4
+~
+~
+0 -1 5631
+S
+#5639
+Bend in the path~
+Actually more of a natural feature of the north cliff wall than a path, this
+bend allows you to leave Up or continue East.  There is nothing to the South.
+~
+0 0 5
+D1
+~
+~
+0 -1 5640
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5688
+D4
+~
+~
+0 -1 5632
+S
+#5640
+The Shanty town~
+You are in an area of straw huts constructed by the less prosperous
+Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
+structures do not have the natural permanence of the well built buildings or
+the traditional nests, and the residents spend most of their time keeping them
+together.
+You spy some footprints leading to the North, which stop suddenly right at
+the cliff wall.
+~
+0 0 5
+D0
+There appears to be some kind of opening in the cliff face to the north.  In
+fact, what you thought was the cliff face is a cave that is completely
+obscured.
+~
+secret panel~
+1 -1 5633
+D1
+~
+~
+0 -1 5641
+D2
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5689
+D3
+~
+~
+0 -1 5639
+S
+#5641
+The Shanty town~
+You are in an area of straw huts constructed by the less prosperous
+Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
+structures have neither the natural permanence of the well built buildings or
+the strength of traditional nests, and the residents spend most of their time
+keeping these huts together.
+~
+0 0 5
+D3
+~
+~
+0 -1 5640
+D5
+~
+~
+0 -1 5648
+S
+#5642
+On the north cliff face~
+The vegetation has thinned out here and you can't see much of anything
+except stone.  You way is blocked to the West, but you can continue East.
+There is nothing to the south.
+~
+0 0 5
+D1
+~
+~
+0 -1 5643
+D4
+~
+~
+0 -1 5635
+S
+#5643
+A primitive area~
+You feel a sense of stepping into another time.  All around you are
+traditional family nests which look warm and friendly.  There is none of the
+hustle and bustle of the sprawling city to the north.  You wish things looked a
+little less drab, though.  The cliff face looks impassible to the west.
+~
+0 0 5
+D1
+~
+~
+0 -1 5644
+D3
+~
+~
+0 -1 5642
+D5
+There are no more ladders and stairs going down, because there are no flat
+areas below this ledge.
+~
+~
+0 -1 -1
+S
+#5644
+A primitive area~
+You feel a sense of stepping into another time.  All around you are
+traditional family nests which look warm and friendly.  There is none of the
+hustle and bustle of the sprawling city to the north.  You wish things looked a
+little less drab, though.
+~
+0 0 5
+D1
+~
+~
+0 -1 5645
+D3
+~
+~
+0 -1 5643
+D4
+~
+~
+0 -1 5637
+D5
+There are no more ladders and stairs going down, because there are no flat
+areas below this ledge.
+~
+~
+0 -1 -1
+S
+#5645
+A narrow area on the shelf~
+The shelf here is too narrow to place anything upon.  In fact, it is about
+as wide as your feet.  Your arm is holding on to the cliff face to the north.
+You feel much more secure than the last guy who tried to walk here, and you can
+still see his sun bleached bones on a small outcropping about 1500' down...
+   The shelf widens to the West.
+~
+0 0 5
+D1
+~
+~
+0 -1 5646
+D3
+~
+~
+0 -1 5644
+D5
+There is a small outcropping about 1500' down, but it is not big enough to
+attempt to land upon.
+~
+~
+0 -1 -1
+S
+#5646
+A primitive area~
+You feel a sense of stepping into another time.  All around you are
+traditional family nests which look warm and friendly.  There is none of the
+hustle and bustle of the sprawling city to the north.  You wish things looked a
+little less drab, though.
+~
+0 0 5
+D1
+~
+~
+0 -1 5647
+D3
+~
+~
+0 -1 5645
+D5
+There are no more ladders and stairs going down, because there are no flat
+areas below this ledge.
+~
+~
+0 -1 -1
+S
+#5647
+A primitive area~
+You feel a sense of stepping into another time.  All around you are
+traditional family nests which look warm and friendly.  There is none of the
+hustle and bustle of the sprawling city to the north.  You wish things looked a
+little less drab, though.
+~
+0 0 5
+D1
+~
+~
+0 -1 5648
+D3
+~
+~
+0 -1 5646
+D5
+There are no more ladders and stairs going down, because there are no flat
+areas below this ledge.
+~
+~
+0 -1 -1
+S
+#5648
+A narrow area on the shelf~
+You can walk West on the a small shelf in the cliff wall, but you are
+blocked to the East, and Down is much too steep.  There is nothing to the
+South.  You can probably get back up if the tree limb you are holding on to
+doesn't snap off under the weight of your armor.
+~
+0 0 5
+D3
+~
+~
+0 -1 5647
+D4
+~
+~
+0 -1 5641
+D5
+IT IS WAY TO STEEP TO KEEP GOING DOWN!  YOU WOULD DIE!
+(Even if you are able to fly, there is nothing interesting down from here.
+This canyon is actually a huge chasm that goes deep into the earth, there is
+lots of boiling hot lava and stuff down there that would burn your flesh.  I
+could write 500 rooms of 'it's getting a little hotter' before I describe your
+firey demise, but you really aren't worth the trouble.)
+~
+~
+0 -1 -1
+S
+#5653
+Flying in the canyon 40 yards south of the temple~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You feel proud to be an Aarakocran,
+and you catch a new thermal...
+~
+0 0 9
+D0
+You see a bright white temple.
+~
+~
+0 -1 5604
+D2
+~
+~
+0 -1 5662
+D5
+~
+~
+0 -1 5660
+S
+#5660
+Flying in the canyon 40 yards south of the market square~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You feel proud to be an Aarakocran,
+and you catch a new thermal...
+~
+0 0 9
+D0
+You see the market square.
+~
+~
+0 -1 5611
+D1
+~
+~
+0 -1 5661
+D4
+~
+~
+0 -1 5653
+D5
+~
+~
+0 -1 5667
+S
+#5661
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5612
+D3
+~
+~
+0 -1 5660
+S
+#5664
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D1
+~
+~
+0 -1 5665
+D5
+~
+~
+0 -1 5671
+S
+#5665
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5616
+D1
+~
+~
+0 -1 5666
+D3
+~
+~
+0 -1 5664
+D5
+~
+~
+0 -1 5672
+S
+#5666
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5617
+D1
+~
+~
+0 -1 5667
+D3
+~
+~
+0 -1 5665
+D5
+~
+~
+0 -1 5673
+S
+#5667
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D3
+~
+~
+0 -1 5666
+D4
+~
+~
+0 -1 5660
+D5
+~
+~
+0 -1 5674
+S
+#5671
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5621
+D1
+~
+~
+0 -1 5672
+D2
+~
+~
+0 -1 5606
+D4
+~
+~
+0 -1 5664
+D5
+~
+~
+0 -1 5678
+S
+#5672
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5623
+D1
+~
+~
+0 -1 5673
+D2
+~
+~
+0 -1 5607
+D3
+~
+~
+0 -1 5671
+D4
+~
+~
+0 -1 5665
+D5
+~
+~
+0 -1 5679
+S
+#5673
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5624
+D1
+~
+~
+0 -1 5674
+D2
+~
+~
+0 -1 5614
+D3
+~
+~
+0 -1 5672
+D4
+~
+~
+0 -1 5666
+D5
+~
+~
+0 -1 5680
+S
+#5674
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5625
+D1
+~
+~
+0 -1 5675
+D2
+~
+~
+0 -1 5615
+D3
+~
+~
+0 -1 5673
+D4
+~
+~
+0 -1 5667
+D5
+~
+~
+0 -1 5681
+S
+#5675
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5626
+D2
+~
+~
+0 -1 5628
+D3
+~
+~
+0 -1 5674
+D5
+~
+~
+0 -1 5682
+S
+#5678
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D1
+~
+~
+0 -1 5679
+D3
+~
+~
+0 -1 5601
+D4
+~
+~
+0 -1 5671
+D5
+~
+~
+0 -1 5685
+S
+#5679
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5630
+D1
+~
+~
+0 -1 5680
+D3
+~
+~
+0 -1 5678
+D4
+~
+~
+0 -1 5672
+D5
+~
+~
+0 -1 5686
+S
+#5680
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5631
+D1
+~
+~
+0 -1 5681
+D3
+~
+~
+0 -1 5679
+D4
+~
+~
+0 -1 5673
+D5
+~
+~
+0 -1 5687
+S
+#5681
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5632
+D1
+~
+~
+0 -1 5682
+D3
+~
+~
+0 -1 5680
+D4
+~
+~
+0 -1 5674
+D5
+~
+~
+0 -1 5688
+S
+#5682
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D3
+~
+~
+0 -1 5681
+D4
+~
+~
+0 -1 5675
+D5
+~
+~
+0 -1 5689
+S
+#5685
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5636
+D1
+~
+~
+0 -1 5686
+D2
+~
+~
+0 -1 5605
+D3
+~
+~
+0 -1 5602
+D4
+~
+~
+0 -1 5678
+S
+#5686
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5637
+D1
+~
+~
+0 -1 5687
+D3
+~
+~
+0 -1 5685
+D4
+~
+~
+0 -1 5679
+S
+#5687
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5638
+D1
+~
+~
+0 -1 5688
+D3
+~
+~
+0 -1 5686
+D4
+~
+~
+0 -1 5680
+S
+#5688
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5639
+D1
+~
+~
+0 -1 5689
+D3
+~
+~
+0 -1 5687
+D4
+~
+~
+0 -1 5681
+S
+#5689
+Flying~
+Ahh; to be in the air again, unencumbered by the cares of the material world
+and flying free above all other creatures.  You stop paying attention to your
+location and adventuring ceases to interest you.
+~
+0 0 9
+D0
+~
+~
+0 -1 5640
+D3
+~
+~
+0 -1 5688
+D4
+~
+~
+0 -1 5682
+S
+#5605
+Small ledge on the South cliff face~
+You are standing on a small ledge on the South face of the cliff.  There is
+nothing to the North, and you are totally blocked on all sides by steep cliff
+walls.
+~
+0 C 5
+D0
+~
+~
+0 -1 5685
+D2
+A big stone blocks your path.
+~
+stone~
+1 -1 5695
+E
+stone~
+The stone looks pretty heavy.  In fact, this would be the perfect stone to
+roll down the cliff if something really big and nasty was coming up at you.
+~
+S
+#5606
+Cave Entrance~
+There is a large cave entrance to the South, and you can walk East along a
+narrow ledge.  There is nothing to the North.
+   There is some (Flaming) writing on the cave entrance.
+~
+0 C 5
+D0
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5671
+D1
+~
+~
+0 -1 5607
+D2
+~
+~
+0 -1 5629
+E
+wall cave entrance writing~
+The wall reads:
+   'xewd ipowed wek;s !dw l;kwe asdw al;klw e! weiposdf wer af wer aer
+   'eripaisd aserk weop erop weo !d !k sk;l wer oip as aslk psfo ase feo
+   'poewr k; ipoe sd oew od ewpori sdipo werip asdf opijlsd hoise !ks fsd.
+
+A Common translation is provided below:
+   'We will eat your heart, invader, but your entrails are so foul as to choke
+   'even us!
+
+Below that is written in a flowing script:
+   'Guys, they are not kidding.  Stay out of this cave unless you are at least
+level 20, even in groups...                   --Slash
+~
+S
+#5607
+On the south cliff face~
+You are walking on a narrow East-West ledge on the south face of a steep
+cliff.  There is nothing to the North.
+~
+0 0 5
+D0
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5672
+D1
+~
+~
+0 -1 5614
+D3
+~
+~
+0 -1 5606
+S
+#5614
+On the south cliff face~
+You are walking on a narrow East-West ledge on the south face of a steep
+cliff.  There is nothing to the North.
+~
+0 0 5
+D0
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5673
+D1
+~
+~
+0 -1 5615
+D3
+~
+~
+0 -1 5607
+S
+#5615
+On the south cliff face~
+You are walking on a narrow East-West ledge on the south face of a steep
+cliff.  There is nothing to the North.
+~
+0 0 5
+D0
+You see the freedom of the air!  Ah, to soar again, free of all your cares
+gliding on thermals above the clouds...
+~
+~
+0 -1 5674
+D1
+~
+~
+0 -1 5628
+D3
+~
+~
+0 -1 5614
+S
+#5628
+On the south cliff face~
+You are at the end of a narrow ledge on the south face of a steep cliff.
+You are blocked to the East, but the West looks passable.   There is nothing to
+the North.
+~
+0 0 5
+D0
+~
+~
+0 -1 5675
+D3
+~
+~
+0 -1 5615
+S
+#5629
+Inside the stronghold~
+The inside of this cave has been straightened into a passable corridor.
+The Aarakocran high command uses this cave to handle defense of the valley as
+the south face of the valley is not reachable except from the air.
+   Judging from the high quality of the furniture around you, you should be
+able to find some very valuable shiny stuff.  Your heart races as you imagine
+yourself living in such splendor one day.
+~
+0 D 1
+D0
+~
+~
+0 -1 5606
+D1
+~
+~
+0 -1 5649
+D5
+It looks like there might be some very nice things down there.
+~
+~
+0 -1 5690
+S
+#5649
+Inside the stronghold~
+You wonder where all the valuables are kept.  You see some nice tapestries
+around, but nothing you can take home with you.
+~
+0 D 1
+D1
+~
+~
+0 -1 5650
+D3
+~
+~
+0 -1 5629
+D5
+It looks like there might be some very nice things down there.
+~
+~
+0 -1 5691
+S
+#5650
+Inside the stronghold~
+You wonder where all the valuables are kept.  You see some nice tapestries
+around, but nothing you can take home with you.
+~
+0 D 1
+D1
+~
+~
+0 -1 5651
+D3
+~
+~
+0 -1 5649
+D5
+It looks like there might be some very nice things down there.
+~
+~
+0 -1 5692
+S
+#5651
+Inside the stronghold~
+You wonder where all the valuables are kept.  You see some nice tapestries
+around, but nothing you can take home with you.
+~
+0 D 1
+D1
+~
+~
+0 -1 5652
+D3
+~
+~
+0 -1 5650
+D5
+It looks like there might be some very nice things down there.
+~
+~
+0 -1 5693
+S
+#5652
+Inside the stronghold~
+You wonder where all the valuables are kept.  You see some nice tapestries
+around, but nothing you can take home with you.  The corridor dead ends here.
+~
+0 D 1
+D3
+~
+~
+0 -1 5651
+S
+#5662
+Small ledge on the South cliff face~
+You are standing on a small ledge on the South face of the cliff.  There is
+nothing to the North, and you are totally blocked on all sides by steep cliff
+walls.
+~
+0 0 1
+D0
+~
+~
+0 -1 5653
+S
+#5690
+Planning Room~
+It doesn't look like there are any valuables here.  You don't understand how
+anyone could plan anything without nice things around to bring peace and
+comfort.
+~
+0 D 1
+D4
+~
+~
+0 -1 5629
+S
+#5691
+War Room~
+It doesn't look like there are any valuables here.  You don't understand how
+anyone could fight anyone without nice things around to bring peace and
+comfort.
+~
+0 D 1
+D4
+~
+~
+0 -1 5649
+S
+#5692
+Empty Room~
+It doesn't look like there are any valuables here.
+~
+0 D 1
+D4
+~
+~
+0 -1 5650
+S
+#5693
+Walkway~
+It doesn't look like there are any valuables here.
+~
+0 D 1
+D4
+~
+~
+0 -1 5651
+D5
+~
+~
+0 -1 5696
+S
+#5694
+Captain of the Guard's office~
+It doesn't look like there are any valuables here.  You don't understand how
+anyone could work without nice things around to bring peace and comfort.
+~
+0 D 1
+D1
+~
+~
+0 -1 5695
+S
+#5695
+Secretary's Office~
+It doesn't look like there are any valuables here.  You don't understand how
+anyone could work without nice things around to bring peace and comfort.
+~
+0 D 1
+D0
+A big stone blocks your escape.
+~
+stone~
+1 -1 5605
+D1
+~
+~
+0 -1 5696
+D3
+~
+~
+0 -1 5694
+E
+stone~
+The stone is so big it looks like the hole it is filling would be big enough
+to let you escape...
+~
+S
+#5696
+Three way intersection~
+You see a very nice carpet leading off to the West, and a hole leads Down.
+To leave the cave complex, go Up.
+~
+0 D 1
+D2
+~
+door~
+2 5662 5698
+D3
+~
+~
+0 -1 5695
+D4
+~
+~
+0 -1 5693
+D5
+~
+~
+0 -1 5697
+S
+#5697
+Storage room~
+Strangely, this 'storage room' seems to be full of boxes of drab colored
+equipment and bland seed rations.  You wonder why they call it a storage room
+if they are not storing anything really valuable here.
+~
+0 D 1
+D4
+~
+~
+0 -1 5696
+S
+#5698
+Corridor~
+This corridor looks frequently traveled, so you hunch down and try to look
+inconspicuous.
+~
+0 D 1
+D0
+~
+door~
+2 5662 5696
+D1
+There are some heavy footprints leading to the west, so I would suggest
+avoiding this area and turning around right now.
+   You think you hear your mother calling you.
+~
+~
+0 -1 5684
+S
+#5684
+Corridor~
+This corridor looks frequently traveled, so you hunch down and try to look
+inconspicuous.
+~
+0 D 1
+D1
+~
+~
+0 -1 5663
+D3
+~
+~
+0 -1 5698
+S
+#5663
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5676
+D1
+~
+~
+0 -1 5677
+D3
+~
+~
+0 -1 5684
+S
+#5676
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5654
+D1
+~
+~
+0 -1 5655
+D3
+~
+~
+0 -1 5663
+S
+#5677
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5656
+D1
+~
+~
+0 -1 5657
+D3
+~
+~
+0 -1 5663
+S
+#5654
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5658
+D1
+~
+~
+0 -1 5659
+D3
+~
+~
+0 -1 5676
+S
+#5655
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5668
+D1
+~
+~
+0 -1 5669
+D3
+~
+~
+0 -1 5676
+S
+#5656
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D0
+~
+~
+0 -1 5670
+D1
+~
+~
+0 -1 5683
+D3
+~
+~
+0 -1 5677
+S
+#5657
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5677
+S
+#5658
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5654
+S
+#5659
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5654
+S
+#5668
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5655
+S
+#5669
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5655
+S
+#5670
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5656
+S
+#5683
+Confusing Corridor~
+This corridor splits into two sections heading N and E, both sections look
+equally interesting and you have a hard time making up your mind.  It is
+obvious from your footprints that W leads out of this confusing area.
+~
+0 D 1
+D3
+~
+~
+0 -1 5656
+S
+#0
+
+
+#RESETS
+*
+*  Ok, here is the racial city of the Aarakocrans.  There is no name for it,
+*  the Aarakocrans are new to having cities and just call it their word for
+*  "City".
+*
+*  Connection points to other zones are the #5622 Guard shack, which points
+*  to a path in "Lost in the Foliage" #10100; #5600 Flying, which points 
+*  to a bit of air in elemental canyon #9258 (between mesa east and the
+*  portal to the air ruler.)  #5618 Bottom of Market Square connects to #201
+*  The Adventurer's guild.
+*
+*  Guilds are #5633 Thieves' guild, #5613 Warrior's guild, and #5699 Shaman's
+*  guild.
+*
+*  Hopefully, everything we talked about is fixed.  Remember to fix the Merc
+*  bug about IDing pills, as the delicacy vendor sells them.  I bumped up the
+*  levels on all the shopkeepers that buy stuff.
+*
+*  Optional stuff is the falling objects code and Taxidermist spec-fun & spell.
+*
+M 0  5600     2  5612     2      The Food vendor/1
+E 0  5668     0    16              wields a large sticker
+E 0  5605     0     9              talon extenders
+G 0  5600     0                    Aarakocran food items
+G 0  5601     0                    
+G 0  5602     0                    
+G 0  5681     0                    
+*
+M 0  5600     2  5610     2      The Food vendor/2
+E 0  5667     0    16              wields a small sticker
+E 0  5605     0     9              talon extenders
+G 0  5600     0                    Aarakocran food items
+G 0  5603     0                    
+G 0  5604     0                    
+*
+M 0  5601     1  5609     1      Delicacy vendor (mage)
+E 0  5668     0    16              wields a large sticker
+E 0  5605     0     9              talon extenders
+G 0  5606     0                    Aarakocran magic food (pills)
+G 0  5607     0                    
+G 0  5608     0                    
+G 0  5609     0                    
+*
+M 0  5602     1  5619     1      Trinket vendor
+E 0  5667     0    16              wields a small sticker
+G 0  5610     0                    Aarakocran trinkets (minor magical & junk)
+G 0  5611     0                    
+G 0  5612     0                    
+G 0  5613     0                    
+G 0  5614     0                    
+G 0  5615     0                    
+G 0  5616     0                    
+G 0  5617     0                    
+G 0  5618     0                    
+G 0  5682     0                    
+*
+M 0  5614     1  5608     1      Junk dealer
+G 0  5632     0                    A trashed canoe
+G 0  5632     0                    Worthless piece of metal
+G 0  5674     0                    Rotgut booze
+G 0  5675     0                    Broken crystal ball
+*
+M 0  5621     1  5617     1      Armorer
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+G 0  5669     0                    Armor for sale
+G 0  5670     0                    
+G 0  5671     0                    
+G 0  5677     0                    
+*
+M 0  5620     1  5620     1      Weapons vendor
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+G 0  5665     0                    Weapons for sale
+G 0  5666     0                    
+G 0  5667     0                    
+G 0  5668     0                    
+*
+M 0  5623     1  5633     1      Thief guildmaster
+E 0  5667     0    16              wields a small sticker
+E 0  5605     0     9              talon extenders
+G 0  5673     0                    (Thief guildmaster sells +1 dex lockpicks)
+*
+M 0  5629     1  5633     1      Practice Kobold (staked to the ground in thieves guild)
+E 0  5633     0     4              Kobold's chain
+G 0  5676     0                    Kobold holds a rock
+*
+M 0  5624     1  5613     1      Warrior guildmaster
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+*
+*M 1 5622 1 5699			Shaman guildmaster
+*
+M 0  5603     8  5621     8      Aarakocran boy children (6)
+M 0  5603     8  5623     8      the child to A stone dwelling
+M 0  5603     8  5624     8      the child to A stone dwelling
+M 0  5603     8  5643     8      the child to A primitive area
+M 0  5603     8  5646     8      the child to A primitive area
+*
+M 0  5604     8  5625     8      Aarakocran girl children (4)
+M 0  5604     8  5644     8      the child to A primitive area
+M 0  5604     8  5645     8      the child to A narrow area on the shelf
+M 0  5604     8  5648     8      the child to A narrow area on the shelf
+*
+M 0  5615     8  5621     8      Aarakocran merchants (6)
+E 0  5668     0    16              wields a large sticker
+M 0  5615     8  5622     8      the merchant to A Guard Shack
+M 0  5615     8  5623     8      the merchant to A stone dwelling
+M 0  5615     8  5624     8      the merchant to A stone dwelling
+M 0  5615     8  5626     8      the merchant to A stone dwelling
+E 0  5668     0    16              wields a large sticker
+M 0  5615     8  5627     8      the merchant to A stone dwelling
+*
+M 0  5616     8  5626     8      Aarakocran matrons (2)
+M 0  5616     8  5627     8      the matron to A stone dwelling
+*
+M 0  5617     8  5643     8      Aarakocran clansmen (4)
+E 0  5668     0    16              wields a large sticker
+M 0  5617     8  5644     8      the clansman to A primitive area
+E 0  5667     0    16              wields a small sticker
+M 0  5617     8  5646     8      the clansman to A primitive area
+E 0  5668     0    16              wields a large sticker
+M 0  5617     8  5647     8      the clansman to A primitive area
+E 0  5667     0    16              wields a small sticker
+*
+M 0  5627     1  5622     1      Temple guard
+E 0  5668     0    16              wields a large sticker
+E 0  5670     0     5              vest
+E 0  5678     0    10              wing guards
+E 0  5671     0     8              boots
+E 0  5669     0     6              plate helmet
+*
+M 0  5625     4  5631     4      Cityguard (Female)
+E 0  5668     0    16              wields a large sticker
+E 0  5670     0     5              vest
+E 0  5678     0    10              wing guards
+*
+M 0  5626     4  5638     4      Cityguard (Male)
+E 0  5668     0    16              wields a large sticker
+E 0  5670     0     5              vest
+E 0  5671     0     8              boots
+E 0  5677     0     6              leather flying helmet
+*
+M 0  5625     4  5640     4      Cityguard (Female)
+E 0  5667     0    16              wields a small sticker
+E 0  5670     0     5              vest
+E 0  5677     0     6              leather flying helmet
+*
+M 0  5626     4  5641     4      Cityguard (Male)
+E 0  5666     0    16              wields a small mace
+E 0  5670     0     5              vest
+*
+M 0  5608     2  5648     2      Child with broken wing
+G 0  5634     0                    Potion of flying    (Enough for small party to get
+G 0  5634     0                    Potion of flying     over and back, or a large party
+G 0  5634     0                    Potion of flying     to get over...)
+*
+M 0  5606     1  5616     1      Taxidermist
+E 0  5667     0    16              wields a small sticker
+E 0  5605     0     9              talon extenders
+*E 1 3364 99 1        signet ring
+*E 1 3350 199 16      sword
+*E 1 3353 99 5        vest
+G 0  5623     0                    Trophies for sale
+G 0  5624     0                    
+G 0  5625     0                    
+*
+M 0  5613     1  5636     1      Revolutionary
+G 0  5680     0                    100           cannon
+*
+M 0  5628    10  5662    10      Up to 10 Small bats flying around
+*
+M 0  5611     8  5690     8      Warriors in the stronghold (4)
+E 0  5636     0    16              wields a sword
+*
+M 0  5611     8  5691     8      the fierce warrior to War Room
+E 0  5636     0    16              
+*
+M 0  5611     8  5692     8      the fierce warrior to Empty Room
+E 0  5636     0    16              
+*
+M 0  5611     8  5693     8      the fierce warrior to Walkway
+E 0  5636     0    16              
+*
+M 0  5612     3  5629     3      Guards at stronghold entrance (2)
+E 0  5637     0    16              Wields a mace
+*
+M 0  5612     3  5629     3      the stalwart guard to Inside the stronghold
+E 0  5637     0    16              
+*
+M 0  5612     3  5684     3      Guard in stronghold corridor
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+*
+M 0  5611     8  5659     8      Warriors in the confusing corridor ends (2)
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+*
+M 0  5611     8  5668     8      the fierce warrior to Confusing Corridor
+E 0  5636     0    16              
+*
+M 0  5611     8  5669     8      Warriors in the confusing corridor ends (2)
+E 0  5637     0    16              Wields a mace
+E 0  5605     0     9              talon extenders
+*
+M 0  5611     8  5670     8      the fierce warrior to Confusing Corridor
+E 0  5636     0    16              
+*
+M 0  5618     1  5694     1      Captain of the guard
+E 0  3022     0    16              wields a longsword
+E 0  5605     0     9              talon extenders
+G 0  5662     0                    Key
+*
+M 0  5619     1  5695     1      Secretary
+E 0  3022     0    16              wields a longsword
+E 0  5605     0     9              talon extenders
+*
+M 0  5609     1  5658     1      Military Commander (Hums)
+E 0  5636     0    16              wields a sword
+E 0  5655     0     9              wields talon extenders
+E 0  5649     0     5              vest
+E 0  5657     0    12              cape
+E 0  5658     0    13              belt
+E 0  5650     0    11              spiked shield
+E 0  5656     0    10              sleeves
+E 0  5654     0     8              boots
+E 0  5653     0     7              leggings
+E 0  5652     0     6              helmet
+E 0  5651     0     4              cloak
+E 0  5659     0    14              bracer
+E 0  5659     0    15              bracer
+*
+M 0  5610     1  5683     1      Holy Commander (Glows)
+E 0  5637     0    16              wields a mace
+E 0  5644     0     9              wields talon extenders
+E 0  5638     0     5              vest
+E 0  5646     0    12              cape
+E 0  5647     0    13              belt
+E 0  5639     0    11              spiked shield
+E 0  5645     0    10              sleeves
+E 0  5643     0     8              boots
+E 0  5642     0     7              leggings
+E 0  5641     0     6              helmet
+E 0  5640     0     4              cloak
+E 0  5648     0    14              bracer
+E 0  5648     0    15              bracer
+*
+* Aarakocran city taxidermy gallery:
+*
+O 0  5622     0  5603            Load the ashtray
+O 0  5624     0  5603            Load the stuffed jaguar
+O 0  5625     0  5603            Load the stuffed orc
+O 0  5627     0  5603            Dragon's head trophy
+O 0  5626     0  5603            Load the stuffed grizzly bear
+P 0  5628     0  5626     1        Give the grizzly bear two (different) glass eyes
+P 0  5629     0  5626     1        
+*
+O 0  5619     0  5621            Fancy nests
+O 0  5619     0  5627            
+O 0  5620     0  5623            Nests             (All nests are containers and can
+O 0  5620     0  5624            have interesting items in them,
+O 0  5620     0  5626            so players are advised to EXAMINE
+O 0  5621     0  5643            Family nests       each one.)
+O 0  5621     0  5644            
+O 0  5621     0  5646            
+O 0  5621     0  5647            
+*
+O 0  5635     0  5657            Faded tapestry
+P 0  5663     0  5635     1        Frayed string (charm staff)
+*
+O 0  5679     0  5611            fountain at top of market square
+*
+O 0  5661     0  5636            Campfire
+P 0  5662     0  5661     1        Secret stronghold key hidden in campfire
+*
+D 0  5605     2     1            Close secret entrance to stronghold
+D 0  5695     0     1            Close secret exit from stronghold
+*
+D 0  5633     2     1            ; Thieves guild Close South
+D 0  5640     0     1            ; The Shanty town Close North
+*
+D 0  5696     2     2            Lock final maze from outside
+D 0  5698     0     2            Lock final maze from inside
+*
+R 0  5663     2                  
+R 0  5676     2                  This is my attempt at a maze that is random, but
+R 0  5677     2                  can be walked through using the left-hand rule.
+R 0  5654     2                  (The server will report room exit errors but it still
+R 0  5655     2                  works fine.)
+R 0  5656     2                  
+R 0  5657     2                  
+R 0  5658     2                  
+R 0  5659     2                  
+R 0  5668     2                  
+R 0  5669     2                  
+R 0  5670     2                  
+R 0  5683     2                  
+S
+
+
+#SHOPS
+  5600    0  0  0  0  0   110 100    0 23    ; The Food Vendor (food)
+  5601   26  0  0  0  0   110 100    0 23    ; The Delicacy Vendor (pills)
+  5602    8  0  0  0  0   110 100    0 23    ; The Trinket Vendor (jewel)
+  5606   15 23 24  0  0   100  90    6 20    ; Taxidermist (bag, corpse)
+  5614   12 13 15  0  0   100  90    6 20    ; Junk dealer (trash, furn, bag)
+  5620    5  6  7  0  0   130  40    0 23    ; The Weaponsmith
+  5621    9  0  0  0  0   100  50    0 23    ; The Armorer
+  5623    0  0  0  0  0  4000  50    0 23    ; Thief guildmaster
+0
+
+
+#SPECIALS
+M  5601 spec_cast_mage	; Delicacy vendor
+M  5613 spec_cast_judge	; Revolutionary
+M  5622 spec_cast_cleric	; Shaman guildmaster
+M  5623 spec_thief	; Thief guildmaster
+M  5625 spec_guard	the cityguard
+M  5626 spec_guard	; Cityguards (3 kinds)
+M  5627 spec_guard	the cityguard
+M  5628 spec_guard	the small bat
+M  5606 spec_taxidermist	the taxidermist
+S
+
+
+#$

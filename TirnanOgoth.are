@@ -1,0 +1,2446 @@
+#AREA
+@@RTirna n'Ogth@@N~
+K tirnanogth~
+L @@W{@@r ALL @@W}@@N~
+N 71
+I 1 120
+V 9000 9099
+X 0
+F 15
+U You hear the screams of the Dead within your head.~
+O mouse~
+R all mouse~
+W all mouse~
+#HELPS
+0 playtesting~
+Playtesting will go periodically on port 4000.  Whenever new code is installed, it will be playtested on port 4000 for a period of 1 day to 1 week.  If you would like to be a playtester, just log on to meson.atom.com port 4000.  Be sure that you get ahold of an immortal beforehand, so that they can set you to whatever code is being playtested on port 4000.
+ 
+~
+0 $~
+#ROOMS
+#9099
+Path of Shadows~
+This path is made of the shadows themselves.  The path creeps through the
+forest at a leisurely pace, for the shadows of the path are moving.
+ 
+~
+8 0
+D0
+~
+~
+0 0 9094
+D1
+~
+~
+0 -1 9098
+S
+#9098
+Shadows Abund~
+Totall darkness.  The wind comes rushing in from the east.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9095
+D1
+~
+~
+0 -1 9097
+D3
+~
+~
+0 -1 9099
+S
+#9097
+Clearing of Blood~
+This clearing is surrounded by the shadows you just came through In the
+middle of this This clearing is a fountain made of living bone!
+ 
+
+ 
+~
+10 0
+D0
+~
+~
+0 -1 9096
+D3
+~
+~
+0 -1 9098
+S
+#9096
+Dense Shadows~
+Shadows, shadows everywhere, as far as you can see.  Actually you can barely
+see at all.  The whistling wind can be heard to the south.
+ 
+~
+8 0
+D2
+~
+~
+0 -1 9097
+D3
+~
+~
+0 -1 9095
+S
+#9095
+Path of Shadows~
+Here the trees part into what appears a small open field.  But the field is of
+the shadows too, and all is still very dark.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9096
+D2
+~
+~
+0 0 9098
+D3
+~
+~
+0 -1 9094
+S
+#9094
+Shadow Park~
+This is no ordinary park.  There is nothing living here.  Everything is made
+of shadows.  The trees are shadows, the grass is shadows, EVERYTHING!!  A high
+whistling wind comes from the south-east.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9095
+D2
+~
+~
+0 -1 9099
+D3
+~
+~
+0 -1 9050
+S
+#9093
+Gabe's Grocery~
+The grocery sells items that might be needed on an adventure.  There are
+neatly organized shelves in rows in the small building.  The grocer walks
+around helping where he can.
+
+~
+8 0
+D3
+~
+~
+0 -1 9043
+S
+#9072
+Izan Drive~
+The drive heads north and south.
+~
+8 0
+D0
+~
+~
+0 -1 9073
+D2
+~
+~
+0 -1 9071
+S
+#9071
+Izan Drive~
+The drive heads north and west~
+8 0
+D0
+~
+~
+0 -1 9072
+D3
+~
+~
+0 -1 9070
+S
+#9070
+Izan Drive~
+The drive heads east and west.~
+8 0
+D1
+~
+~
+0 -1 9071
+D3
+~
+~
+0 -1 9069
+S
+#9069
+Izan Drive~
+The drive heads east and west~
+8 0
+D1
+~
+~
+0 -1 9070
+D3
+~
+~
+0 -1 9068
+S
+#9068
+Izan Drive~
+Izan Drive leaves in all cardinal directions.~
+8 0
+D0
+~
+~
+0 -1 9075
+D1
+~
+~
+0 -1 9069
+D2
+~
+~
+0 -1 9087
+D3
+~
+~
+0 -1 9081
+D4
+~
+~
+0 -1 9022
+S
+#9067
+Room of Questing~
+You learn about the quests that are going to be happening here, so just read
+the board.
+ 
+~
+8 0
+D2
+~
+~
+0 -1 9063
+S
+#9066
+Clan Information~
+There is information hanging all over the place about the various clans.  Here
+you can find out what the clans are about and what they are up to.  Read
+carefully!
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9063
+S
+#9065
+Idea Room~
+Do you think you have an idea that would be cool, do you think you know
+something to make things run smoother, or do you notice any problems?  If so,
+just post them here on the board.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9063
+S
+#9064
+Clan Leader Room~
+Only the clan leaders can be in this room.  This is where they can meet to
+discuss all kinds of clan stuff.
+ 
+~
+8 0
+D3
+~
+~
+0 -1 9063
+S
+#9062
+Pkill Room~
+You can pkill your friends and foes here free of charge!
+ 
+~
+136 0
+D4
+~
+~
+0 -1 9063
+S
+#9063
+Board Junction~
+This room leads to many of the board rooms.  Also the pkill room is downward.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9067
+D1
+~
+~
+0 -1 9064
+D2
+~
+~
+0 -1 9065
+D3
+~
+~
+0 -1 9066
+D4
+~
+~
+0 -1 9039
+D5
+~
+~
+0 -1 9062
+S
+#9061
+The Room of Greater Worship~
+A bright white light totally surrounds you.  You heart becomes weak and you
+feel totally connected with your god here.
+ 
+~
+1032 0
+D5
+~
+~
+0 -1 9060
+S
+#9060
+Prayer Room~
+This room is filled with cushions amongst the pews so that prayers can be sent
+by the way of your religion. In this room, all are equals, and fighting is
+punishable by your god.
+ 
+~
+1036 0
+D4
+~
+~
+0 -1 9061
+D5
+~
+~
+0 -1 9037
+S
+#9059
+The Room of the Brain~
+This room is all upside down.  When you enter, you seem to flip over so that
+you are walking on the ceiling.  It is rather comfortable and seems better
+than sitting in a chair.  Mindwave the Guildmaster keeps it this way so that
+you can learn focus.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9058
+S
+#9058
+The Mental Room~
+This room is meant for the mentally challenging. The mind waves flowing
+through the room could drop a rat dead if it entered.  Only those with great
+mental powers can remain in this room to socialize without becoming toast.
+The Psionics guild is to the south.
+ 
+~
+12 0
+D0
+~
+~
+0 -1 9054
+D2
+~
+~
+0 -1 9059
+S
+#9057
+The Laboratory of Power~
+This room is a safe room for spells to be cast in.  It is protected by wards
+so that spells wont misfire and cause mass destrution.  There is a large
+pentagram in the middle of the floor in case you have the nerve to try a
+summoning.  It is said that Kazmar the Guildmaster has an army of demons at
+his disposal by using this room.
+ 
+~
+8 0
+D2
+~
+~
+0 -1 9056
+S
+#9056
+The Study~
+The study resembles an old library.  It is filled with many bookshelves with
+many old tomes of deadly spells and simple cantrips.  There are large
+comfortable chairs around the room with soft light lamps to help in the
+studies.  There is a spell practicing room to the north, and the guildmaster
+there will help you with what you need.
+ 
+~
+12 0
+D0
+~
+~
+0 -1 9057
+D2
+~
+~
+0 -1 9054
+S
+#9055
+Magic Shop~
+There are vials, jars, beakers, and tubes lying all over the many benches in
+the shop.  Spell components are kept on the shelves, while the actuall potion
+and scrolls are made at the large mixing table at the back of the shop.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9054
+S
+#9054
+Illusion Road~
+This is the end of of Illusion Road.  It is short but beautifully evil with
+all the magical monsters walking around.  The magic shop is to the west and
+the Magic and Psionics guilds are to the north and south.
+
+
+~
+8 0
+D0
+~
+~
+0 -1 9056
+D1
+~
+~
+0 -1 9053
+D2
+~
+~
+0 -1 9058
+D3
+~
+~
+0 -1 9055
+S
+#9053
+Illusion Road~
+The road of Illusion starts here and heads west to the magic shop and the
+Magic and Psionic Guilds.  The road is paved in multicolored bricks and bright
+illusions of dragons and other evil monsters walk amongst you.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9051
+D3
+~
+~
+0 -1 9054
+S
+#9052
+Outside the North Gate~
+The North can either take you out of town or into it.  The gate is small,
+giving you just enough room to fit in
+ 
+~
+9 4
+D2
+~
+~
+0 -1 9051
+S
+#9051
+Grunge Road~
+This is the north end of Grunge Road.  North Gate lies north and Illusion Road
+is to the west..
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9052
+D2
+~
+~
+0 -1 9050
+D3
+~
+~
+0 -1 9053
+S
+#9050
+Grunge Road~
+Grunge Road heads north to the North Gate and south towards town square.
+ There is also a park to the east.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9051
+D1
+~
+~
+0 -1 9094
+D2
+~
+~
+0 -1 9045
+S
+#9049
+Warrior's Battle Room~
+This room is as big as a small village.  There is a large arena in the center
+where dueling can be practiced.  And around the arena are scattered practice
+dummies, punching bags, and weights.  This is where a warrior can truely
+become buff.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9048
+S
+#9048
+Warrior's Lounge~
+This cozy looking room is full of large pillows to rest upon after a hard days
+work.  There is a cabinet containing scar removal ointments and pain relievers
+on one wall.  The room is perfect to sit back and relax while gossiping about
+your many adventures.
+ 
+~
+12 0
+D1
+~
+~
+0 -1 9047
+D3
+~
+~
+0 -1 9049
+S
+#9047
+Weapon Shop~
+There are many weapons in this room.  Some are just laying on the ground, some
+are hung on the walls, but the best of them are kept in glass display cases.
+There is room in one of the corners in which you can try out your swing with
+your new weapon.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9045
+D3
+~
+~
+0 -1 9048
+S
+#9046
+Armor Shop~
+This packed room is filled with wooden men wearing the armor for sale.  There
+is a large cabinet filled with rings against one wall.  And another wall has a
+large hatrack with assorted hats and helmets.
+ 
+~
+8 0
+D3
+~
+~
+0 -1 9045
+S
+#9045
+Grunge Road~
+Grunge Road is running north and south. To the west is the
+weapon shop and to the east is the armor shop.
+~
+8 0
+D0
+~
+~
+0 -1 9050
+D1
+~
+~
+0 -1 9046
+D2
+~
+~
+0 -1 9043
+D3
+~
+~
+0 -1 9047
+S
+#9044
+Joe's Slightly Edibles~
+The smell of a dark baked bread permeates the air.  There is a man standing
+behind the counter that seperates the kitchen from the dining room.  The
+specialty here is a dark, hard bread, but sometimes other things can be bought
+to eat also.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9043
+S
+#9043
+Grunge Road~
+Grunge Road heads north from the town square.  It leads to many shops and
+guilds to the north.  Joe's Slightly Edibles is to the west and the road
+continues on.
+~
+8 0
+D0
+~
+~
+0 -1 9045
+D1
+~
+~
+0 -1 9093
+D2
+~
+~
+0 -1 9028
+D3
+~
+~
+0 -1 9044
+S
+#9042
+Object Donation~
+This room is where odds-n-ends get donated for you to freely pick up.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9039
+S
+#9041
+Armor Donation~
+One person can only where so much armor, so you might find extra armor donated
+here.
+ 
+~
+8 0
+D3
+~
+~
+0 -1 9039
+S
+#9040
+Weapon's Donation~
+Sometimes there is a generous soul who likes to help others out.  This person
+might donate some of his/her unused weapons to a needy person.  This room is
+where they will be waiting.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9039
+S
+#9039
+The Cluster~
+This room helps to bring many of the rooms together.  South, east, and west
+lead to the donation rooms.  Down heads to many of the boards where you can
+learn about the happenings in the realm. By heading up, you can go to
+mudschool!
+~
+12 0
+D0
+~
+~
+0 -1 9037
+D1
+~
+~
+0 -1 9041
+D2
+~
+~
+0 -1 9042
+D3
+~
+~
+0 -1 9040
+D4
+~
+~
+0 -1 3700
+D5
+~
+~
+0 -1 9063
+S
+#9038
+Donut's Healing Wonderland~
+This is the room where the people of the town come to be healed.  The room is
+painted in all white, from the floor to the walls to the ceiling.  There is no
+other decoration in the room because all attention is focused on the healing
+arts.
+~
+1036 0
+D3
+~
+~
+0 -1 9037
+S
+#9037
+Temple~
+This is the temple of Tirna n'Ogth.  Expensive imported carpets are placed on
+the floors to keep in the warmth.  Strange scents are being burnt throughout
+the temple, filling this place with a relaxing feeling.  The healer can be see
+to the east where he is curing the ill.  Up a stairwell is a place for the
+clerics to learn and study and worship.  Both north and south lead out of the
+temple, with the north way heading into town.
+~
+1032 0
+D0
+~
+~
+0 -1 9033
+D1
+~
+~
+0 -1 9038
+D2
+~
+~
+0 -1 9039
+D4
+~
+~
+0 -1 9060
+S
+#9036
+Office of the Post~
+The room is small with a desk sitting in the middle where a man is sorting the
+post.  One small window lets in light and there is a back door that is blocked
+preventing passage.
+~
+12 0
+D0
+~
+~
+0 -1 9034
+S
+#9035
+Bank~
+This is the nice little bank of Tirna n'Ogth.  There is a SIGN at the desk. 
+~
+12 0
+D1
+~
+~
+0 -1 9034
+E
+sign~
+BANK BALANCE  -  SEE YOUR BALANCE
+BANK WITHDRAW -  WITHDRAW SOME MONEY
+BANK DEPOSIT -  DEPOSIT SOME MONEY
+~
+S
+#9034
+Scrub's Bar~
+This bar is owned and run by Scrub, a man who was magically given an extra arm
+There are tables set around the large room and the bar is the biggest you have
+ever seen, being able to sit 50 men across.  There is a small demon flying
+around carrying foods and drinks.  To the south you can send and pick up the
+post.  To the west you can keep your money safe, or else withdraw so that you
+can have more to drink.
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9033
+D2
+~
+~
+0 -1 9036
+D3
+~
+~
+0 -1 9035
+S
+#9033
+Monolith~
+Before you rises a jet black monolith rising half a mile into the sky.  It is
+said that in earlier times, the Monolith was erected to thank the God,  Dareth
+for all of his help in the realms!  To the south is the temple.  A bar is to
+the west, and Death's square is to the east.
+~
+8 0
+D1
+~
+~
+0 -1 9032
+D2
+~
+~
+0 -1 9037
+D3
+~
+~
+0 -1 9034
+S
+#9032
+Death's Square~
+This is where the executions of criminals takes place.  A large masked
+executioner stands infront of large block holding a huge hammer.  It appears
+that instead of cutting of criminal's heads, that in Tirna n'Ogth, they are
+smashed into a bloody pulp. To the east lies town square and west is a large
+black Monolith.
+~
+8 0
+D1
+~
+~
+0 -1 9028
+D3
+~
+~
+0 -1 9033
+S
+#9028
+Town Square~
+At this point, all of the main sections of Tirna n'Ogth meat.  To the west
+lies Death's Square where the executions are carried out.  Most of the shops
+and guilds lie north on Grunge Road.  Grunge Road can be followed south out of
+the city.  And to the east is the slummier parts of town down Ramgul's Alley.
+~
+8 0
+D0
+~
+~
+0 -1 9043
+D1
+~
+~
+0 -1 9027
+D2
+~
+~
+0 -1 9029
+D3
+~
+~
+0 -1 9032
+E
+~
+~
+E
+~
+~
+S
+#9027
+Ramgul's Alley~
+This alley is pretty dark with buildings lining both sides about 5 stories high
+Trash is strewn about with people sleeping both in and on it. To the west is
+town square, and to the east is the main part of the alley.
+~
+8 0
+D1
+~
+~
+0 -1 9016
+D3
+~
+~
+0 -1 9028
+S
+#9026
+The Culdasac~
+This is the beginning of the culdasac.~
+8 0
+D0
+~
+~
+0 -1 9025
+D2
+~
+~
+0 -1 9016
+S
+#9025
+The Culdasac~
+Heading north and south on the culdasac.~
+8 0
+D0
+~
+~
+0 -1 9024
+D2
+~
+~
+0 -1 9026
+S
+#9024
+The Culdasac~
+The culdasac starts to turn here.~
+8 0
+D1
+~
+~
+0 -1 9023
+D2
+~
+~
+0 -1 9025
+S
+#9023
+The Culdasac~
+This is a rather large culdasac.~
+8 0
+D1
+~
+~
+0 -1 9022
+D3
+~
+~
+0 -1 9024
+S
+#9022
+The Culdasac~
+You can continue on the culdasac or else head down towards what appears a road.~
+12 0
+D2
+~
+~
+0 -1 9021
+D3
+~
+~
+0 -1 9023
+D5
+~
+~
+0 -1 9068
+S
+#9021
+The Culdasac~
+The culdasac goes around and around.~
+8 0
+D0
+~
+~
+0 -1 9022
+D3
+~
+~
+0 -1 9020
+S
+#9020
+The Culdasac~
+This is a semicircular culdasac.~
+8 0
+D1
+~
+~
+0 -1 9021
+D2
+~
+~
+0 -1 9019
+S
+#9019
+The Culdasac~
+Your are wandering around a culdasac.~
+8 0
+D0
+~
+~
+0 -1 9020
+D2
+~
+~
+0 -1 9017
+S
+#9018
+East Gate~
+This is the east gate of Tirna n'Ogth~
+0 0
+D3
+~
+~
+0 -1 9017
+S
+#9017
+Ramgul's Alley~
+The alley runs east/west, while a culdasac is to the north.~
+9 0
+D0
+~
+~
+0 -1 9019
+D1
+~
+~
+0 -1 9018
+D3
+~
+~
+0 -1 9016
+S
+#9016
+Ramgul's Alley~
+The alley runs in all directions.~
+9 0
+D0
+~
+~
+0 0 9026
+D1
+~
+~
+0 -1 9017
+D2
+~
+~
+0 -1 9015
+D3
+~
+~
+0 -1 9027
+S
+#9015
+Ramgul's Alley~
+This is a dark alley running north/south.~
+9 0
+D0
+~
+~
+0 -1 9016
+D2
+~
+~
+0 -1 9014
+S
+#9014
+Ramgul's Alley~
+An old stable can be seen to the west while the alley continues back to the
+north.
+~
+9 0
+D0
+~
+~
+0 -1 9015
+D3
+~
+~
+0 -1 9011
+S
+#9013
+~
+The room of solace, meditation, and safety for those who must remain unknown.
+The high walls are lined with portraits, both aged and new, of those who
+followed the path of darkness at one time or another. Comfortable chairs
+surround a large oak table. The center of the table graced with a dark glowing
+crimson orb that pulses with the magic of the dark side. A single chair is
+pulled out, signifying its constant use for those who come and go with time.
+The howls and whispers of memories haunt this spacious room, the reddish cast
+of the magic stone being all the light..both present and needed by us.
+~
+16399 0
+S
+#9012
+Dark Room~
+This room is pitch black!!~
+13 0
+D2
+~
+~
+0 -1 9011
+S
+#9011
+Abandoned Stables~
+In many years past, these stables probably held beautiful horses, but now it
+is abandoned and falling apart.  To the north there appears to be a small dark
+hole leading into what might just be a room.  The alley is back to the east.
+~
+9 0
+D0
+~
+~
+0 -1 9012
+D1
+~
+~
+0 -1 9014
+S
+#9004
+Crypt~
+This is the southwest corner of the square.  Who knows what the future holds
+for this corner of the square, perhaps a store, maybe something else.  Only
+time will tell.  Wander around and see what's up.
+~
+137 0
+D0
+~
+~
+0 -1 9006
+D1
+~
+~
+0 -1 9003
+S
+#9002
+Crypt~
+Standing at the southeast corner of the square you notice a pair of lots to
+the south and east that are about to be built on.  The buildings look like
+they will be of a good size and may belong to merchants.  You wonder what
+these buildings will sell when they are completed.  Westwards is the way to
+the Morgue and north heads to the east road and some more wonderful
+construction.
+~
+137 0
+D0
+~
+~
+0 -1 9005
+D3
+~
+~
+0 -1 9003
+S
+#9003
+Crypt~
+This is the south end of the square.  To the south is the Unholy Citadel, the
+home of all vampyres.  To the north seems to be some new construction.  The
+square continues to the east and west.
+~
+221321 0
+D1
+~
+~
+0 -1 9002
+D2
+~
+~
+0 0 9001
+D3
+~
+~
+0 -1 9004
+S
+#9005
+Crypt~
+This is the east end of the square.  To the north is the way to the exit, and
+to the south is the way towards the Morgue.  A large sign blocks your way west
+that reads, "This road has been temporarily closed due to a recent cave in.
+The road will be opened when it is again safe to travel on." You are
+interested about what is on the other side of the rubble.
+~
+137 0
+D0
+~
+~
+0 -1 9007
+D2
+~
+~
+0 0 9002
+S
+#9001
+The Unholy Citadel~
+This is the home of the Vampyres.  Because of limited space and the
+inconveniece it would be, rather than each vampire having its own coffin it
+only has a drawer here in the morgue.  This is the safe place for the vampires
+of the world.  If they get in trouble they can always <recall> back here to be
+safe from harm. To the north is the Crypt area, the undergroud city for the
+undead.  Or you can rest here to heal a little faster.
+~
+16521 8
+D0
+~
+~
+0 -1 9003
+S
+#9000
+Pit of Death!~
+This is where things come to DIE!~
+221596 0
+D0
+~
+~
+0 -1 9000
+D1
+~
+~
+0 -1 3001
+D2
+~
+~
+0 0 9000
+D3
+~
+~
+0 0 9000
+D4
+~
+~
+0 -1 9000
+D5
+~
+~
+0 -1 9000
+S
+#9007
+Crypt~
+This is the northeast corner of the square.  There is a good possiblity that
+the construction going on in this area will yield a great town for the vampire
+folk of the world.  It looks like an armory is going to go in to the north and
+perhaps a bar to the east.  South is the way to the Morgue and west leads to
+the exit of the crypt.
+~
+137 0
+D2
+~
+~
+0 -1 9005
+D3
+~
+~
+0 -1 9008
+S
+#9008
+Crypt~
+You are at the north end of the square in the crypt.  The way out of the crypt
+lies to the north.  Going east or west will bring you deeper into the crypt
+into the heart of the city.  The smell of the carcuses is still strong and you
+notice some bones of what used to be a halfling tossed to the side of the
+street.  The vampyres didn't waste a bit of him.
+~
+137 0
+D0
+~
+~
+0 -1 9010
+D1
+~
+~
+0 -1 9007
+D3
+~
+~
+0 -1 9009
+S
+#9010
+Entrance to the Crypt~
+This is the entrance to the crypt.  It is very musty and very dark in here.
+You feel that this is a place of the undead.  The stench of rotting flesh
+fills the air and makes you nauseous.  Lucky you have a light or else you
+wouldn't be able to see a thing.  You take a quick look around and notice the
+way out of the crypt is back north and you can go south to further explore the
+crypt.
+~
+137 0
+D0
+~
+~
+0 -1 9011
+D2
+~
+~
+0 -1 9008
+S
+#9009
+Crypt~
+This is the northeast corner of the square.  Construction is heavy here as
+well as if a pair of stores are going to the north and west of this spot.  The
+building to the west looks like it may be a weapon shop, but you cannot figure
+out what the store to the north could be.  Guess you'll just have to wait to
+see.  To the east is the way out of the crypt and heading south will take you
+into the middle of the city.
+~
+137 0
+D1
+~
+~
+0 -1 9008
+D2
+~
+~
+0 -1 9006
+S
+#9006
+Crypt~
+This is the west end of the square.  To the north is the way to the exit, and
+to the south is the way towards the Morgue.  A large sign blocks your way west
+that reads, "This road has been blocked off due to construction that is taking
+place."  You wonder what lies beyond the limits of the barrier.
+~
+137 0
+D0
+~
+~
+0 -1 9009
+D2
+~
+~
+0 0 9004
+S
+#9029
+Grunge Road~
+This is the sparkling clean Grunge Road.  It heads north to town square and south towards the southern gate of Tirna n'Ogth~
+8 0
+D0
+~
+~
+0 -1 9028
+D2
+~
+~
+0 -1 9030
+S
+#9030
+Grunge Road~
+The name Grunge Road is truly false.  The roads are kept clean of refuse and
+the bricks are relaid once per year.  A gate to the south leads out of the
+city and to the north continues Grunge Road.
+~
+8 0
+D0
+~
+~
+0 -1 9029
+D2
+~
+~
+0 -1 9031
+S
+#9031
+South Gate~
+This is the south gate of Tirna n'Ogth~
+8 0
+D0
+~
+~
+0 -1 9030
+S
+#9073
+Izan Drive~
+The drive heads north and south~
+8 0
+D0
+~
+~
+0 -1 9074
+D2
+~
+~
+0 -1 9072
+S
+#9074
+Izan Drive~
+This room is totally in ruin.  There are burnt statues and symbols all over
+the place.
+ 
+~
+8 0
+D2
+~
+~
+0 -1 9073
+S
+#9075
+Izan Drive~
+The drive heads north and south.~
+8 0
+D0
+~
+~
+0 -1 9076
+D2
+~
+~
+0 -1 9068
+S
+#9076
+Izan Drive~
+The drive heads north and south.~
+8 0
+D0
+~
+~
+0 -1 9077
+D2
+~
+~
+0 -1 9075
+S
+#9077
+Izan Drive~
+The drive leads off to the west and to the south.~
+8 0
+D2
+~
+~
+0 -1 9076
+D3
+~
+~
+0 -1 9078
+S
+#9078
+Izan Drive~
+The drive leads to the east and the west.~
+8 0
+D1
+~
+~
+0 -1 9077
+D3
+~
+~
+0 -1 9079
+S
+#9079
+Izan Drive~
+The drive heads east and west.~
+8 0
+D1
+~
+~
+0 -1 9078
+D3
+~
+~
+0 -1 9080
+S
+#9080
+Izan Drive~
+This room is large, containing many statues and paintings. There is a large
+black cross like symbol on a red background covering one wall
+
+
+ 
+~
+8 0
+D1
+~
+~
+0 -1 9079
+S
+#9081
+Izan Drive~
+The drive leads of to the east and west.~
+8 0
+D1
+~
+~
+0 -1 9068
+D3
+~
+~
+0 -1 9082
+S
+#9082
+Izan Drive~
+The drive leads east and west.~
+8 0
+D1
+~
+~
+0 -1 9081
+D3
+~
+~
+0 -1 9083
+S
+#9083
+Izan Drive~
+The drive heads to the south and east.~
+8 0
+D1
+~
+~
+0 -1 9082
+D2
+~
+~
+0 -1 9084
+S
+#9084
+Izan Drive~
+The drive goes north and south.~
+8 0
+D0
+~
+~
+0 -1 9083
+D2
+~
+~
+0 -1 9085
+S
+#9085
+Izan Drive~
+The drive leads north and south.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9084
+D2
+~
+~
+0 -1 9086
+S
+#9086
+Izan Drive~
+This room is totally painted black and red.
+ 
+~
+8 0
+D0
+~
+~
+0 -1 9085
+S
+#9087
+Izan Drive~
+The drive heads north and south.~
+8 0
+D0
+~
+~
+0 -1 9068
+D2
+~
+~
+0 -1 9088
+S
+#9088
+Izan Drive~
+The drive heads north and south~
+8 0
+D0
+~
+~
+0 -1 9087
+D2
+~
+~
+0 -1 9089
+S
+#9089
+Izan Drive~
+The drive heads north and east.~
+8 0
+D0
+~
+~
+0 -1 9088
+D1
+~
+~
+0 -1 9090
+S
+#9090
+Izan Drive~
+The drive heads east and west.~
+8 0
+D1
+~
+~
+0 -1 9091
+D3
+~
+~
+0 -1 9089
+S
+#9091
+Izan Drive~
+The drive heads east and west.~
+8 0
+D1
+~
+~
+0 -1 9092
+D3
+~
+~
+0 -1 9090
+S
+#9092
+Izan Drive~
+This room is decorated in the colors of red and black.
+ 
+~
+8 0
+D3
+~
+~
+0 -1 9091
+S
+#0
+#MOBILES
+#9027
+Hurv~
+Hurv the Sorceror~
+Hurv sells you potions and scrolls!
+ 
+~
+~
+8388611 8360 0 S
+91 1
+-500 500 500
+! 5 0 0 7 0 0 0
+#9026
+Smith~
+Smith the armorsmith~
+Smith the armorsmith is selling his armor!
+ 
+~
+~
+8388611 8360 0 S
+91 1
+-500 500 500
+! 7 0 0 7 0 0 0
+#9025
+Smith~
+Smith the weaponsmith~
+Smith the weaponsmith is standing here!
+ 
+~
+~
+8388611 8360 0 S
+102 1
+-500 500 500
+! 7 0 0 7 0 0 0
+#9023
+Gabe~
+Gabe the Grocer~
+Gabe is standing here waiting to sell you something! 
+~
+~
+8388611 8360 0 S
+94 1
+-500 500 500
+! 3 0 0 7 14 0 0
+#9022
+Scrub~
+Scrub~
+Scrub is selling drinks.
+~
+~
+8388611 40 0 S
+94 1
+-500 500 500
+! 6 0 0 7 14 0 0
+#9021
+Reltih~
+Reltih~
+Reltih is standing here!
+ 
+~
+He is a very insane man who believes that brown hair and brown eyes are
+superior in the human race.  To him, all others must die!
+ 
+~
+35 552 -1000 S
+36 1
+-50 25 25
+! 3 0 0 7 14358 0 0
+#9020
+Ortsac~
+Ortsac~
+Ortsac is standing here!
+ 
+~
+This man really likes his cigars.
+ 
+~
+35 32 -500 S
+28 1
+-35 22 19
+! 3 0 0 7 8194 0 0
+#9019
+Notnilc~
+Notnilc~
+Notnilc is standing here!
+ 
+~
+He is the leader of the SU.
+ 
+~
+3 4 500 S
+22 1
+-40 15 10
+! 3 0 0 7 6146 0 0
+#9018
+Nilats~
+Nilats~
+Nilats is standing here! 
+~
+He used to be some political dude for some extreme cult.
+ 
+~
+35 8 -400 S
+43 1
+-40 20 20
+! 3 0 0 7 4162 0 0
+#9016
+izan soldier~
+The Izan soldier~
+The Izan soldier patrols the streets!
+ 
+~
+He is a soldier in the cult called Izan.  He stands strong with brown hair and
+brown eyes.
+ 
+~
+65 0 0 S
+21 1
+16 13 15
+! 3 0 0 7 18 0 0
+#9015
+deathguard guard~
+The deathguard~
+The deathguard is here guarding the gate!
+ 
+~
+This guard is one of the elite of the black watchman.  His sole purpose is go
+guard the gate from unwanted visitors.
+ 
+~
+67 0 0 S
+16 1
+-20 15 18
+! 3 0 0 7 98 0 0
+#9014
+rodent~
+The rodent~
+The rodent is picking through the garbage!
+ 
+~
+The rodent is a large brown looking mouse.  It is said that the city was
+overrun by them when the god, Mouse, was playing a joke.
+ 
+~
+65 0 0 S
+2 1
+0 0 0
+! 2 0 0 7 0 0 0
+#9002
+Slipper~
+Slipper the Guildmaster~
+Slipper the Guildmaster is ready to teach you the trade.~
+She is very petit with long blond hair.  Her eyes burn you like fire and seem
+to say stay away.  She carries many daggers that are stained with blood.  You
+know she could kill you with a wink.  There is a rumor that she used to be one
+of Mouse's lovers.
+~
+8390147 168 0 S
+75 2
+-100 100 350
+! 2 0 0 7 31112 0 0
+#9001
+Ramgul~
+Ramgul~
+Ramgul is hiding out!~
+Ramgul is the lord of these alley's.  He may not be too tough, but his
+intelligence brings death to his foes.
+~
+8195 65538 -280 S
+9 1
+-10 8 10
+! 2 0 0 7 4096 0 0
+#9017
+pkiller hunter~
+@@BA Pkiller Hunter@@g~
+~
+~
+20054045 1633020 0 S
+123 1
+-2000 1000 1000
+! 3 0 0 7 420346 16384 16
+#9003
+Fromp~
+Fromp the Guildmaster~
+Fromp will teach you how to battle!~
+Fromp is a huge bald man with bulging muscles. He is totally decked out in
+shining armor and he carries a six-foot sword.  He looks mean but deep down he
+is a kind man.
+~
+1539 168 0 S
+90 1
+-100 100 350
+! 3 0 0 7 30776 0 0
+#9004
+Kazmar~
+Kazmar the Guildmaster~
+Kazmar trains you in the way of spellcasting.~
+All you see is someone in a dark black robe!
+~
+8390147 524456 0 S
+90 1
+-100 100 350
+! 0 0 0 7 0 0 0
+#9005
+Mindwave~
+Mindwave the Guildmaster~
+Mindwave teaches you how to really use your mind.~
+He looks totally normal, except he has a really big head!
+~
+8390147 168 0 S
+100 1
+-100 100 350
+! 4 0 0 7 0 8675328 0
+#9006
+Juzical~
+Juzical the Guildmaster~
+Juzical will help you with you worship.~
+Juzical is a very tanned lady with jet-black hair.  She wears a many colored
+robe showing the differences in the nature of the gods.  She is eager to help
+in any form of worship.
+~
+8390147 168 0 S
+100 2
+-100 100 350
+! 1 0 0 7 4 0 16
+#9007
+Jim~
+Jim the Banker~
+Jim the Banker wants your money.~
+Jim will keep your money safe in his bank.
+~
+8421379 0 0 S
+91 1
+-100 100 100
+! 2 0 0 7 0 0 0
+#9008
+Brad~
+Brad the Postdude~
+Brad will send and give you mail.~
+He is just the guy who handles the post.
+~
+8912899 0 0 S
+87 1
+-100 100 100
+! 1 0 0 7 0 0 0
+#9009
+Donut~
+Donut the Healer~
+Donut will heal you right up!~
+This guy is a non-stop healing machine.  He never tires, he just keeps casting
+spells at everyone.  Make sure to say thanks!
+~
+8392707 0 0 S
+96 1
+-100 100 350
+! 1 0 0 7 0 0 24
+#9010
+cut cutthroat~
+The cutthroat~
+The cutthroat stands here ready to kill 
+~
+He seems like a normal man, but he has a very evil grin on his face.  Better
+watch your back!
+
+ 
+~
+65 0 0 S
+11 1
+0 0 0
+! 2 0 0 7 0 0 0
+#9011
+black watchman~
+The Black Watchman~
+The Black Watchman stands here alert!
+~
+This man is one of the policing members of the city.  His job is to patrol and
+make sure no big crimes are happening.
+ 
+~
+65 0 0 S
+18 1
+-10 10 10
+! 3 0 0 7 0 0 0
+#9012
+mercenary~
+The mercenary~
+The mercenary is here looking for a job.
+ 
+~
+He is a large man with a gruff appearance.  He is in much need of a job though
+
+~
+65 0 0 S
+19 1
+0 0 0
+! 3 0 0 7 0 0 0
+#9013
+bum~
+bum~
+The bum is hanging around looking for food and money!
+ 
+~
+She is dressed in thin rags, barely covering here frail body.  It looks like
+she has not eaten in days.
+ 
+~
+65 0 0 S
+10 2
+0 0 0
+! 4 0 0 7 0 0 0
+#9024
+Joe~
+Joe the Baker~
+Joe the baker sells his goods! 
+~
+~
+8388611 8360 0 S
+96 1
+-500 500 500
+! 4 0 0 7 0 0 0
+#9000
+guardian~
+@@dThe @@BGuardian@@N of the @@RCrypt@@N~
+@@dThe @@BGuardian@@N of the @@RCrypt.
+~
+~
+2250879 59640 -1000 S
+140 1
+-2500 1000 1000
+! 0 0 0 7 958592 17334468 32
+#0
+#OBJECTS
+#9070
+hook~
+@@bGrappling@@N @@dHook@@N~
+~
+9 0 2049 1
+0 0 0 0
+1
+L
+81
+#9014
+board~
+the Vampire board of wisdom~
+The Vampire Board of Wisdom~
+27 0 0 1
+150 0 0 9014
+1
+L
+1
+#9017
+stake~
+Stake~
+Stake~
+21 0 16385 1
+0 0 0 0
+1
+L
+1
+#9000
+Drink~
+@@gThe Fountain of @@eBloodlust@@g.~
+~
+25 1 0 1
+13 0 0 0
+1
+L
+1
+#9016
+fountain~
+fountain of Living Bone~
+A fountain of living bone is constructed here with a deep crimson fluid flowing through the many crevices.
+ 
+~
+25 0 0 1
+13 0 0 0
+1
+L
+1
+#9015
+portal door~
+the door portal~
+The portal~
+7 0 0 1
+0 0 0 0
+1
+L
+1
+#9007
+fountain~
+the fountain of death.~
+The fountain nourishes you so that you will be healthy when you are dead!~
+25 0 0 1
+11 0 0 0
+1
+L
+1
+#9001
+helm~
+the Deathguard's Helm~
+The helm is totally black with a bright red flame on the top!
+ 
+~
+9 0 17 1
+0 0 0 0
+1
+A
+19 1
+L
+1
+#9002
+boots~
+the Deathguard's Boots~
+The boots are jet black with spiked toes.~
+9 0 65 1
+0 0 0 0
+1
+A
+18 2
+L
+1
+#9003
+sword~
+the Deathguard's Sword~
+The sword is a shiny black.~
+5 0 8193 1
+0 0 0 3
+1
+A
+19 1
+A
+18 1
+L
+1
+#9004
+sleeves~
+watchman's Sleeves~
+The sleeves are black with a painted eye on them.~
+9 0 257 1
+0 0 0 0
+1
+L
+1
+#9005
+leggings~
+watchman's leggings~
+The leggings are a crimson red with a skeleton painted down the front. 
+~
+9 0 33 1
+0 0 0 0
+1
+A
+19 1
+L
+1
+#9006
+ring~
+watchman's ring~
+The ring is made of a rought twine.~
+9 0 3 1
+0 0 0 1
+1
+A
+18 1
+L
+1
+#9008
+popper~
+popper~
+The slim Popper dagger is lying here!~
+5 0 8193 1
+0 0 0 11
+1
+A
+19 3
+A
+18 3
+L
+20
+#9009
+banner~
+cross-like Symboled Banner~
+A banner lays here with a red cross like symbol on it!~
+1 0 1 1
+0 0 0 0
+1
+A
+19 1
+L
+1
+#9010
+gauntlets~
+gauntlets of SU~
+A pair of multicolored gauntlets are waiting to be worn.~
+9 0 129 1
+0 0 0 0
+1
+A
+19 1
+A
+18 -1
+L
+1
+#9011
+bracer~
+brAcEr~
+A bRaCeR is on the ground.~
+9 0 4097 1
+0 0 0 0
+1
+A
+19 1
+L
+1
+#9012
+ring~
+ring of Ruling~
+A charming looking ring is here.~
+9 0 3 1
+0 0 0 0
+1
+A
+18 1
+A
+13 5
+A
+17 -3
+L
+1
+#9013
+board~
+a Large Board~
+The Vampire Board of wisdom~
+27 4 0 1
+150 0 0 9013
+1
+L
+1
+#9025
+Golden Spatula~
+a Golden Spatula~
+This shining Golden Spatula is a wedding gift from Jaguar!~
+13 0 1 1
+0 0 0 0
+1
+L
+1
+#9018
+clutchie~
+an ancient piece of parchment~
+A piece of parchment, with words that you do not understand.
+~
+11 -65344 131073 1
+3 9013 0 0
+1
+L
+60
+#9019
+board~
+~
+The darkened board, red glow casting enough to barely see the words of the written.
+~
+27 0 0 1
+12 80 80 9019
+1
+L
+1
+#0
+#SHOPS
+9027 2 3 4 10 0 130 40 0 23
+9026 9 0 0 0 0 130 40 0 23
+9025 5 6 7 0 0 130 40 0 23
+9023 1 8 13 15 19 130 40 0 23
+9022 17 0 0 0 0 130 40 0 23
+9024 19 0 0 0 0 130 40 0 23
+0
+#RESETS
+M 0 9001 1 9011 (null)
+
+E 0 9008 0 16 (null)
+
+M 0 9003 1 9049 (null)
+
+M 0 9004 1 9057 (null)
+
+M 0 9005 1 9059 (null)
+
+M 0 9006 1 9061 (null)
+
+M 0 9007 1 9035 (null)
+
+M 0 9008 1 9036 (null)
+
+M 0 9009 1 9038 (null)
+
+M 0 9015 6 9052 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9015 6 9052 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9015 6 9031 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9015 6 9031 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9015 6 9018 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9015 6 9018 (null)
+
+E 0 9003 0 16 (null)
+
+E 0 9002 0 8 (null)
+
+E 0 9001 0 6 (null)
+
+M 0 9016 10 9068 (null)
+
+M 0 9016 10 9076 (null)
+
+M 0 9016 10 9078 (null)
+
+M 0 9016 10 9082 (null)
+
+M 0 9016 10 9084 (null)
+
+M 0 9016 10 9088 (null)
+
+M 0 9016 10 9090 (null)
+
+M 0 9016 10 9070 (null)
+
+M 0 9016 10 9072 (null)
+
+M 0 9014 15 9011 (null)
+
+M 0 9014 15 9011 (null)
+
+M 0 9014 15 9016 (null)
+
+M 0 9014 15 9024 (null)
+
+M 0 9014 15 9021 (null)
+
+M 0 9014 15 9032 (null)
+
+M 0 9014 15 9032 (null)
+
+M 0 9014 15 9050 (null)
+
+M 0 9014 15 9054 (null)
+
+M 0 9013 4 9017 (null)
+
+M 0 9013 4 9015 (null)
+
+M 0 9013 4 9025 (null)
+
+M 0 9012 5 9032 (null)
+
+M 0 9012 5 9030 (null)
+
+M 0 9012 5 9047 (null)
+
+M 0 9012 5 9046 (null)
+
+M 0 9012 5 9055 (null)
+
+M 0 9011 8 9053 (null)
+
+E 0 9006 0 1 (null)
+
+M 0 9011 8 9050 (null)
+
+E 0 9005 0 7 (null)
+
+M 0 9011 8 9045 (null)
+
+E 0 9004 0 10 (null)
+
+M 0 9011 8 9029 (null)
+
+E 0 9004 0 10 (null)
+
+M 0 9011 8 9027 (null)
+
+E 0 9005 0 7 (null)
+
+M 0 9011 8 9023 (null)
+
+E 0 9006 0 1 (null)
+
+M 0 9010 5 9035 (null)
+
+M 0 9010 5 9034 (null)
+
+M 0 9010 5 9033 (null)
+
+M 0 9010 5 9044 (null)
+
+M 0 9010 5 9019 (null)
+
+M 0 9021 1 9080 (null)
+
+E 0 9009 0 0 (null)
+
+M 0 9019 1 9074 (null)
+
+E 0 9010 0 9 (null)
+
+M 0 9018 1 9092 (null)
+
+E 0 9011 0 14 (null)
+
+M 0 9020 1 9086 (null)
+
+E 0 9012 0 1 (null)
+
+O 0 3089 0 9065 (null)
+
+M 0 9022 1 9034 (null)
+
+G 0 3044 0 (null)
+
+G 0 3001 0 (null)
+
+O 0 9007 0 9028 (null)
+
+M 0 9023 1 9093 (null)
+
+G 0 3138 0 (null)
+
+G 0 3031 0 (null)
+
+G 0 3030 0 (null)
+
+G 0 3032 0 (null)
+
+M 0 9024 1 9044 (null)
+
+G 0 3009 0 (null)
+
+M 0 9025 1 9047 (null)
+
+G 0 3022 0 (null)
+
+G 0 3021 0 (null)
+
+G 0 3020 0 (null)
+
+M 0 9026 1 9046 (null)
+
+G 0 3097 0 (null)
+
+G 0 3077 0 (null)
+
+G 0 3076 0 (null)
+
+G 0 3075 0 (null)
+
+G 0 3074 0 (null)
+
+G 0 3073 0 (null)
+
+G 0 3072 0 (null)
+
+O 0 9016 0 9097 (null)
+
+M 0 9027 1 9055 (null)
+
+M 0 9002 1 9012 (null)
+
+O 0 9019 0 9013 (null)
+
+O 0 16806 0 9013 (null)
+
+M 0 9000 1 9003 (null)
+
+M 0 9000 2 9003 (null)
+
+M 0 9000 3 9003 (null)
+
+O 0 9000 0 9001 (null)
+
+M 0 9000 5 9000 (null)
+
+M 0 9000 6 9000 (null)
+
+M 0 9000 7 9000 (null)
+
+M 0 9000 8 9000 (null)
+
+M 0 9000 9 9000 (null)
+
+S
+#SPECIALS
+M 9017 spec_executioner
+M 9004 spec_cast_bigtime
+M 9006 spec_cast_cleric
+M 9009 spec_cast_adept
+S
+#$

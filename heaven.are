@@ -1,0 +1,1559 @@
+#AREADATA
+Credits     {r<100-150> {bChance   {gHeaven       {x~
+Name        Heaven~
+Filename    heaven.are~
+Builders    Chance~
+VNUMs       17000 17099
+Security    9
+End
+
+
+
+#MOBILES
+#17001
+toilet~
+a steaming toilet~
+A steaming toilet is here, just for Freak.
+~
+This is Freak's toilet.  Notice the steam?  That's what happens when
+IMM's have to go......  <G> 
+~
+human~
+A 0 0 0
+300 0 10d6075+22410 300d10+100 5d105+150 none
+-177 -177 -177 -83
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#17002
+weight watcher~
+a weight watcher~
+Weight watchers gorge on anything in sight here.
+~
+These ridiculously fat angels are eating everything in sight!  They see
+you, drool, and ATTACK!  
+~
+human~
+ABFc d 1000 0
+120 30 10d972+4104 120d10+100 5d42+60 chomp
+-65 -65 -65 -27
+0 MNQS KLO M
+stand stand either 300
+AHMV ABCDEFGHIJK L 0
+#17008
+saint peter~
+Saint Peter~
+Saint Peter is here, holding a big book
+~
+Saint Peter starts to read over your life to date, peers at you, then
+begins to laugh at you mercilessly.  He doesn't seem to want to let you in. 
+~
+human~
+ABGT CDV 1000 0
+99 0 10d661+2923 99d10+100 5d34+52 none
+-51 -51 -51 -20
+EJK AH HQ Y
+stand stand male 1000
+AHMV ABCDEFGHIJK M 0
+#17009
+angel~
+An angel~
+An angel is wandering around, smiling.
+~
+An angel is here, beaming a smile at you.  Eternity must be a happy
+place, you think.  
+~
+human~
+AT D 1000 0
+100 14 10d675+2970 100d10+100 5d35+50 slash
+-52 -52 -52 -21
+FIOR N JL M
+stand stand either 3000
+AHMV ABCDEFGHIJK M 0
+#17010
+angel receptionist~
+an angel receptionist~
+An angel receptionist sits here, waiting to help newcomers.
+~
+This angel appears to be older than the others you have encountered.  She
+is bigger, and appears to be a lot tougher.  Probably to keep the more
+mischievous newcommers at bay.  She eyes you suspiciously....  
+~
+human~
+ABQc CD 1000 0
+107 14 10d772+3354 214d10+100 5d37+55 none
+-56 -56 -56 -23
+EFIOT N S M
+sit sit female 3000
+AHMV ABCDEFGHIJK M 0
+#17012
+catatonic soul~
+a catatonic soul~
+A catatonic soul is here, grinning sheepishly.
+~
+This entity believed in eternal happiness, and that's exactly what he
+got.  Although catatonic and happy, he might be SLIGHTLY upset if disturbed.
+~
+human~
+AT BP 1000 0
+110 45 10d816+3522 110d10+100 5d38+57 none
+-58 -58 -58 -24
+FR N S M
+stand stand none 3000
+AHMV ABCDEFGHIJK M 0
+#17015
+angel cook~
+an angel cook~
+An angel wearing a hair net is here, selling heavenly slop.
+~
+This angel, unlike the others, does not seem thrilled to be here.  Her
+only purpose here is to sell food to the population of Heaven.  Must be
+penance for a Earth-Born crime.......  
+~
+human~
+ABTc HVc 0 0
+100 0 10d675+2970 100d10+100 5d35+50 none
+-52 -52 -52 -21
+EFIO DN 0 0
+stand stand female 200
+AHMV ABCDEFGHIJK M 0
+#17016
+god assistant~
+God's assistant~
+The right-hand man of God is here.
+~
+This wisened old man is the assistant to God himself.  His job is to
+welcome newcomers to Heaven.  He also oversees the running of Heaven in
+God's abscence.  Guess even omnipotent people need breaks, too.  
+~
+dragon~
+AB DHJOT 1000 0
+150 50 10d1518+6150 150d10+100 5d52+77 none
+-83 -83 -83 -36
+AEFGKOQ BCNPQSY BEHIJL FIM
+stand stand either 5000
+AHZ ACDEFGHIJKPQUVX L 0
+#17017
+Militant Angel~
+a militant angel~
+A militant angel is here, issuing wings.
+~
+This very large angel appears to be a result of a more militant religion.
+He eyes you suspicioulsy......  
+~
+human~
+ABFT HV 1000 0
+114 40 10d877+3747 114d10+100 5d39+61 none
+-61 -61 -61 -25
+FJKN N S M
+stand stand none 3500
+AHMV ABCDEFGHIJK M 0
+#17025
+angel maid~
+an angel's maid~
+The maid of an angel is here, dusting with a feather duster.
+~
+This angelic housekeeper seems happy to be here, but if she wasn't, this
+wouldn't be Heaven , now would it?  
+~
+human~
+ABc CD 1000 0
+115 45 10d892+3810 115d10+100 5d40+58 none
+-61 -61 -61 -25
+AKQ N JS M
+stand stand female 13242
+AHMV ABCDEFGHIJK M 0
+#17026
+astral traveller~
+an astral traveller~
+An astral traveller floats here.
+~
+The astral traveller is floating around aimlessly, its long silver cord
+extending out into the ether.  
+~
+human~
+ABRc D 1000 0
+120 47 10d972+4104 240d10+100 5d42+60 whip
+-65 -65 -65 -27
+AEGKQ N S M
+stand stand none 3500
+AHMV ABCDEFGHIJK M 0
+#17029
+angelic waitress~
+an angelic waitress~
+An angelic waitress is ready to take your order.
+~
+This lovely vision works at the Divine.  She seems quite happy with her
+job.  Must've been what she wanted as an eternal reward.  You look at her
+funny.  
+~
+human~
+AB 0 1000 0
+100 0 10d675+2970 100d10+100 5d35+50 none
+-52 -52 -52 -21
+EFNU 0 0 0
+stand stand female 5
+AHMV ABCDEFGHIJK M 0
+#17039
+devil satan~
+the Devil~
+Satan is here, looting Heaven's plunders.
+~
+This sight sends shivers down your spine.  Skin a deep crimson red, huge
+black horns juttting from his temples, this monstrosity is the stuff of
+nightmares.  The long, red tail flicks menacingly at you.  He grins at you
+evilly.  
+~
+dragon~
+ABFRc DGHJKTc -1000 0
+147 49 10d1458+5926 147d10+100 5d51+75 flbite
+-81 -81 -81 -35
+ADFHKNO ABDHM BCEHQR FINY
+stand stand male 39394
+AHZ ACDEFGHIJKPQUVX L 0
+#17040
+gardener angel~
+an angel gardener~
+An angel is here, tending to the lawn.
+~
+The only thing that discerns this angel from an average redneck is the
+pair of wings jutting from his back.  
+~
+human~
+AT HV 1000 0
+139 44 10d1304+5349 139d10+100 5d48+72 none
+-76 -76 -76 -33
+EFINP LNQ PS M
+stand stand either 4500
+AHMV ABCDEFGHIJK M 0
+#17041
+ferret~
+a cute little ferret~
+A ferret rest here, giggling madly.
+~
+It's your typical ferret.  This little furry bag of fluff is giggling
+madly, while following Wink, nibbling at her heels.  
+~
+fox~
+AHISc JZ 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+FH 0 0 0
+stand stand none 0
+AGV ACDEFHJKQV M 0
+#17048
+poodle~
+a poodle~
+A big fluffy poodle beams at your leg intently.
+~
+This white poodle is here, guarding his doghouse from all.  Upon seeing
+your legs, he is reminded of old times on Earth, and pounces playfully to
+attack.  
+~
+dog~
+ABGHT HV 1000 0
+123 30 10d1021+4291 123d10+100 5d43+61 none
+-66 -66 -66 -28
+DFHKMQ N S M
+stand stand female 333
+AGV ACDEFHJKUV M 0
+#0
+
+
+#OBJECTS
+#17000
+trophy~
+a trophy~
+A trophy from Chance's quest rest here.~
+none~
+treasure AGY AOP
+0 0 0 0 0
+5 5 0 P
+F A 1 1 0
+F A 4 1 0
+F A 2 1 0
+F A 5 1 0
+#17001
+shades~
+a pair of dark sunglasses~
+A pair of dark sunglasses rest here.~
+none~
+jewelry GI AR
+0 0 0 0 0
+295 1 5000 P
+F A 18 10 0
+F A 19 10 0
+F A 18 0 0
+F A 19 0 0
+#17002
+jacket~
+a black leather jacket~
+A black leather jacket has been left here.~
+none~
+armor GY AD
+DGH DGH DGH DGH 0
+296 5 0 P
+#17003
+jeans~
+a pair of jeans~
+A pair of faded denim jeans has been left here.~
+none~
+armor G AF
+CFG CFG CFG CFG 0
+296 4 0 P
+F A 18 100 0
+F A 19 100 0
+#17004
+boots~
+steel toed boots~
+A pair of boots has been left here.~
+none~
+armor GY AG
+BEF BEF BEF BEF 0
+296 2 0 P
+F A 19 83 0
+F A 18 80 0
+#17005
+bathtub~
+a bathtub~
+A bathtub is hot and steamy here.~
+none~
+furniture G 0
+B EIJKN CF DGH DGH
+0 1 0 P
+#17006
+sword fine~
+the sword of the Clan Crimson~
+Chance's sword of the Clan Crimson is here.....better return it!~
+none~
+weapon ABG AN
+sword 20 200 blast DE
+295 2 0 P
+#17007
+trinket~
+a quest trinket~
+A shimmering quest trinket lies here.~
+none~
+trash T A
+0 0 0 0 0
+0 0 0 P
+#17008
+Holy Book~
+holy book~
+St. Peter's Book of Lives rest here.~
+none~
+scroll AG AO
+50 'ray of truth' 'dispel evil' 'holy word' 'none'
+90 20 3500 P
+#17009
+halo~
+a halo~
+The halo of an angel rest here.~
+none~
+armor AG AE
+ABDE ABDE CDE ABE 0
+99 70 3500 P
+F A 3 1 0
+#17010
+pen~
+a feather pen~
+A feather pen made from an angel's wing rest here.~
+none~
+warp_stone G AO
+0 0 0 0 0
+100 20 4700 P
+#17011
+coffee table~
+a coffee table~
+A coffee table littered with magazines is here.~
+none~
+furniture R 0
+A DGH BE CFG CFG
+0 70 0 P
+#17012
+robe content~
+a robe of content~
+A beautiful, silk robe is lying here, glistening in the sun.~
+none~
+armor G AC
+ABCF ADF DF BF 0
+100 50 4600 P
+F A 13 100 0
+F A 1 1 0
+#17013
+red ribbon~
+a {rred {xribbon~
+A {rred {xribbon, symbolizing aids awareness is here.~
+none~
+armor 0 AI
+AC AC AC AC 0
+0 0 0 P
+#17014
+pearly key~
+a pearly key~
+A jewel encrusted, pearl key is here, shimmering like a star.~
+none~
+key A A
+0 0 0 0 0
+70 10 0 P
+#17015
+cake~
+some angel food cake~
+Some angel food cake, made by the Gods themselves, has been discarded here.~
+none~
+food 0 A
+ABCEF ABCEF 0 0 0
+0 10 500 P
+#17016
+wrath god~
+the {CWrAtH{x of {MGOD{x!~
+A magical sword teaming with holiness is resting here.~
+none~
+weapon ABGK AN
+sword 11 26 slice DG
+150 60 7500 P
+F A 24 5 0
+F A 18 10 0
+F A 19 10 0
+#17017
+Angel Wings~
+a pair of angel wings~
+A pair of downy angel wings are here.~
+none~
+armor G AC
+BDF BCDF CDF ABCF 0
+110 40 5500 P
+F A 12 110 0
+F A 4 1 0
+#17019
+portable hole~
+a portable hole~
+A black well of emptiness is here.~
+none~
+container TY A
+9999999 A 0 5000 25
+1 5 0 P
+#17026
+silvery cord~
+a {Wsilvery{x cord~
+The remains of an astral chord are here.~
+none~
+weapon A AN
+whip 11 20 whip B
+120 40 5000 P
+F A 18 9 0
+F A 19 7 0
+#17027
+chance trust~
+{rC{yh{ba{gn{cc{re{w'{ys{x Trust~
+An odd glowing sphere hovers here, bearing the clan {rCrimson{x insignia on it.~
+none~
+armor ABG AQ
+ABDG ABDG ABDG ABDG 0
+40 1 0 P
+F A 18 4 0
+F A 19 4 0
+#17029
+margarita~
+a margarita~
+A margarita has been left here.~
+none~
+drink 0 A
+10 10 'brandy' 0 0
+50 1 100 P
+#17030
+big slam mountain dew~
+a big slam Mountain Dew~
+A big slam of Mountain Dew has been left here.~
+none~
+drink 0 A
+100 100 'mountain dew' 0 0
+0 0 0 P
+#17032
+fountain ~
+a heavenly fountain~
+A magnificent marble fountain sprays water out in a beautiful spray.~
+none~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 P
+#17033
+easy chair~
+an easy chair~
+A easy chair rest here, obviously filled with angel down.~
+none~
+furniture 0 0
+A EHI EHK ACDEFG ACDEFG
+0 0 0 P
+#17037
+pennies pile~
+a pile of pennies from Heaven~
+A huge hoard of pennies from Heaven are here.~
+none~
+money 0 A
+EGIJOP 0 0 0 0
+0 0 0 P
+#17038
+rod divine might~
+a {Rrod{x of {BDiViNe{C MiGhT{x~
+A rod inscribed with angels and runes is here.~
+none~
+wand ABG AO
+130 10 5 'ray of truth' 0
+130 2 6000 P
+#17046
+chew bone~
+a doggie chew toy~
+A chewed up plastic bone rest here.~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#17047
+plastic trinket~
+a plastic trinket~
+A chewed up plastic trinket rest here.~
+none~
+armor G AM
+CF CF BCF AF 0
+140 10 2 P
+F A 1 2 0
+#17048
+dog house doghouse~
+a dog house~
+The poodle's large doghouse rest along the hedge.~
+none~
+container R 0
+100 0 0 1000 0
+0 0 0 P
+#17050
+flagpole~
+flagpole~
+The flagpole is HERE!~
+none~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#17053
+swirling mist portal~
+a swirling mist~
+This swirling mist seems to invite you to enter it.~
+none~
+portal AB AQ
+DGH 0 C CFIKO 0
+90 0 0 P
+#17057
+sign~
+a sign is here for all to read.~
+Valentine has posted a sign here.~
+none~
+trash R 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+Due to lease problems, I have had to close down my shop.  Pratar and I
+have had to close up due to lack of interest in our wares, among other
+things.  Sorry for the inconvienence.  
+                -Valentine
+~
+#17077
+mystery item #1~
+mystery item #1~
+You have found Mystery Item #1!!!~
+none~
+trash T A
+0 0 0 0 0
+0 0 0 P
+#17078
+wand wonders~
+chance's wand 'o' wonders~
+Wand that says "PROPERTY OF CHANCE" on it.~
+none~
+wand 0 AO
+500 99999999 9999999 'teleport' 0
+290 0 0 P
+#17089
+crimson shield negativity~
+the {RCrimson{x shield of {CNegativity{x~
+A blood soaked shield rests here, charged with some power from the blood.~
+none~
+armor AY AJ
+CE CE CE BE 0
+35 30 0 P
+F A 19 5 0
+F A 18 5 0
+F A 13 35 0
+F A 24 -5 0
+#17090
+voodoo doll~
+a voodoo doll~
+A voodoo doll is lying here~
+none~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#17091
+paper airplane~
+a paper airplane~
+A paper airplane has been left here.~
+none~
+trash B A
+0 0 0 0 0
+0 10 1000 P
+#17093
+dagger eraser~
+the dagger "Eraser"~
+A runed and mystic dagger is here.  An inscription is on the hilt.~
+none~
+weapon AG AN
+exotic 20 20 thrust ACDE
+294 30 0 P
+#17095
+zippo lighter~
+a zippo lighter~
+A zippo lighter has been left here, full of fluid.~
+none~
+light A AO
+0 0 999 0 0
+0 5 1000 P
+#17096
+marlboro pack~
+a pack of Marlboro's~
+Someone has left their cigarettes here!~
+none~
+container OT A
+10 A 0 100 0
+0 5 100 P
+#0
+
+
+
+#ROOMS
+#17000
+Chance's Heavenly Retreat~
+~
+0 CKS 0
+D0
+~
+~
+0 0 17799
+S
+#17007
+Highway to Heaven~
+As you ascend, the world below you seems to become more like a tiny blue
+spot on a black canvas.  The odd thing you notice at this incredible height
+is that clouds seem to be forming before you just overhead......  
+~
+0 0 0
+D4
+~
+~
+0 0 17008
+D5
+~
+~
+0 0 7705
+S
+#17008
+The Pearly Gates~
+At this point, the world is indistinguishable from other stars in the
+sky.  You are standing on a cloud, that somehow exist in the very void of
+space itself.  The fact that there is an atmosphere is even more surprising.
+A giant pearly gate is here, barring entrance into Heaven.  Saint Peter is
+here to review the lives of applicants into Heaven.  You can still leave by
+going back down.  
+~
+0 C 1
+D0
+The pearly gates of Heaven await.  
+~
+~
+4 17014 17009
+D5
+~
+~
+0 0 17007
+S
+#17009
+Entrance to Heaven~
+As you walk on the cloudy path, you can see buildings to the west and
+east, not to mention the path continuing north.  
+~
+0 0 0
+D0
+~
+~
+0 0 17013
+D1
+~
+~
+0 0 17012
+D2
+~
+~
+4 0 17008
+D3
+~
+~
+0 0 17010
+S
+#17010
+Reception Area~
+This building appears to be a reception area for various angels. 
+Apparently , this heaven is for multiple religions, judging by the sign on
+the wall.  After all, different faiths have different beliefs in the
+After-life , and this heaven wants to accomodate them all.  An angel is here
+to help the other angels find their final peace.  
+~
+0 0 0
+D1
+~
+~
+0 0 17009
+D4
+~
+~
+0 0 17011
+S
+#17011
+Waiting Room~
+This room is set up for angels to await their fates, depending upon their
+religious beliefs.  A few couches make up the decorations here, as well as a
+coffee table filled with back issues of Boy's Life.  Heaven must be a boring
+place.  
+~
+0 0 0
+D5
+~
+~
+0 0 17010
+S
+#17012
+Joy~
+Upon entering this room, you are filled to bursting with pure joy.  This
+room is set up for the religions who believe that Heaven is nothing more
+than pure happiness for all eternity.....  And nothing else.  The
+inhabitants of the room stand in catatonic states, wearing giant grins upon
+their faces.  It may not be wise to upset them.  
+~
+0 0 0
+D3
+~
+~
+0 0 17009
+S
+#17013
+Pathway Into Heaven~
+You are walking along a cloudy pathway in Heaven.  The fluffy road
+squishes beneath your feet, yet is solid enough to support your weight..... 
+Odd.  
+~
+0 0 0
+D0
+~
+~
+0 0 17014
+D2
+~
+~
+0 0 17009
+S
+#17014
+Pathway In Heaven~
+You are walking along a cloudy pathway in Heaven.  The fluffy road
+squishes beneath your feet, yet is solid enough to support your
+weight...........  Odd.  Exits lead to both the west and the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 17018
+D1
+~
+~
+0 0 17017
+D2
+~
+~
+0 0 17013
+D3
+~
+~
+0 0 17015
+S
+#17015
+Cafeteria~
+In this room is a cafeteria.  Unlike kitchens of earth, this one is well
+kept and neat.  A lovely looking angel is here, selling the food.  Except
+for the hair net, you'd be hard pressed to even tell it was a cook.  You can
+leave only by the way you came, namely east.  
+~
+0 K 0
+D1
+~
+~
+0 0 17014
+S
+#17016
+Throne Room~
+This is THE place.  A huge golden throne takes up most of the room here. 
+A swirling mist forms itself into what you think is God.  Instead, you see a
+sticker on his chest, naming him God's assistant.  God is a busy entity,
+after all, so it seems to make sense.  God's assistant seems to be upset by
+the fact that you are here and not dead yet.  He seems more than willing to
+fix that, also.  
+~
+0 C 0
+D5
+~
+~
+0 0 17022
+S
+#17017
+Wing Room~
+This is the room where new angels come to get their standard equipment. 
+The rooms is filled with large shelves and desk, all containing giant, human
+sized pairs of wings!  So those don't grow on them!  You notice how
+military-like this room seems to be......  Probably ran by a more militant
+religion.  An exit leaves west.  
+~
+0 0 0
+D3
+~
+~
+0 0 17014
+S
+#17018
+Pathway In Heaven~
+You are walking along a cloudy pathway in Heaven.  The fluffy road
+squishes beneath your feet, yet is solid enough to support your
+weight.........  Odd.  
+~
+0 C 0
+D0
+~
+~
+0 0 17019
+D2
+~
+~
+0 0 17014
+S
+#17019
+Crossroads In Heaven~
+The fluffy road comes to a halt, with exits leading to the east and to
+the west.  The trail leads back the way you came, to the south.  
+~
+0 0 0
+D1
+~
+~
+0 0 17023
+D2
+~
+~
+0 0 17018
+D3
+~
+~
+0 0 17020
+S
+#17020
+Entrance to Temple~
+You have entered a glourious golden palace, named the Temple of
+Forgiveness.  Souls flock to this temple for their meeting with the Supreme
+One.  You are surprised by the splendor that this palace is decorated in. 
+Heaven was not meant to be like this, a place of material things, as it
+appears.  The mystery deepens.  
+~
+0 0 0
+D0
+~
+~
+0 0 17049
+D1
+~
+~
+0 0 17019
+S
+#17021
+2nd Floor of Temple~
+The tower of this temple seems to go straight up.  No adjoining rooms, no
+nothing.  Something glourious surely awaits you at the spire.  
+~
+0 0 0
+D4
+~
+~
+0 0 17022
+D5
+~
+~
+0 0 17055
+S
+#17022
+3rd Floor of Temple~
+This winding stairway seems to go on forever!  But fortunately, a light
+is at the end of the tunnel, so to speak.  Up above, a trapdoor is set, a
+golden light pouring forth from the seems, as well as a billowing smoke
+issuing forth from it.  You tremble in both terror and excitement to think
+what awaits you above.  
+~
+0 0 0
+D4
+~
+~
+0 0 17016
+D5
+~
+~
+0 0 17021
+S
+#17023
+Pathway in Heaven~
+As this pathway bends, you notice all the little homes set up along this
+quaint little road.  Guess even immortal souls need a place to go to when it
+rains.  But how does it rain when you live ON the clouds?  A question for
+another day, perhaps.  Exits lead in all cardinal directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 17025
+D1
+~
+~
+0 0 17026
+D2
+~
+~
+0 0 17024
+D3
+~
+~
+0 0 17019
+S
+#17024
+A Fallen Angel~
+Oh no!!!!!!!  Guess the cloudy walkway isn't so solid in some places.........
+As you plummet to your doom.......
+           You are given.................
+                             A chance to recall the mistakes............
+                                               Of your life..........
+Good thing it's a LONG fall, isn't it?
+~
+0 C 0
+S
+#17025
+A Little Piece Of Heaven~
+Even angels need to sleep, you guess, as you step into the home of an
+angel.  True to rumors, everything IS white, with feather pillows, comfy
+couches with comfy downy cushions.  Makes you wanna barf, doesn't it?  
+~
+0 0 0
+D2
+~
+~
+0 0 17023
+S
+#17026
+Astral Room~
+This room is for souls who believe the afterlife is just a waiting room
+for their astral selves.  The blankness of this void is broken by the few
+souls drifting around, with long silver chords anchoring their souls to
+their human bodies.  
+~
+0 0 0
+D1
+~
+~
+0 0 17028
+D3
+~
+~
+0 0 17023
+S
+#17027
+~
+~
+0 C 0
+S
+#17028
+Divine Crossroads~
+You have reached another crossroad in the heavenly lane.  Exits span out
+in all directions.  
+~
+0 0 0
+D0
+~
+~
+0 0 17029
+D1
+~
+~
+0 0 17031
+D2
+~
+~
+0 0 17030
+D3
+~
+~
+0 0 17026
+S
+#17029
+The Divine Light~
+You are totally shocked......  A bar in Heaven?  This little kickback is
+where the angels come to kick back and enjoy the good life.  Detailed all in
+white, of course, this quaint little pub sells nothing but the absolute
+best!  
+~
+0 K 0
+D2
+~
+~
+0 0 17028
+S
+#17030
+Heavenly Abode~
+You yet another angel's home.  The lack of originality begins to make you
+wonder if Heaven is really all it's cracked up to be.  Everything's WHITE! 
+Careful with the coffee.  You can leave this decorator's nightmare to the
+north.  
+~
+0 0 0
+D0
+~
+~
+0 0 17028
+S
+#17031
+Gates of a Mansion~
+Before you lies a sprawling mansion.  You have heard whispered rumors
+about this place, the most holy of holy treasureys in the known universe! 
+This grand palace practically beams an aura of goodness and kindness, the
+doors left wide open.  Why would Heaven needs locks, you think?  
+~
+0 0 0
+D1
+~
+~
+0 0 17032
+D3
+~
+~
+0 0 17028
+S
+#17032
+Foyer of Heavenly Mansion~
+The foyer of this building is absolutely breath taking!  The marble tiles
+line the floor in a checkerboard pattern, black and white.  Huge, peaceful
+gargoyles line the ceiling, just below the stained glass dome.  A home like
+this is every adventurer's dream!  The marble fountain in the center of the
+room has a huge fish spurting water into a marble basin.  
+~
+0 0 0
+D0
+~
+~
+0 0 17033
+D1
+~
+~
+0 0 17035
+D2
+~
+~
+0 0 17034
+D3
+~
+~
+0 0 17031
+S
+#17033
+Room in Mansion~
+You follow the tiled floor to this large room.  Except for the fountain,
+it appears to be just like the rooms before.  Where's the magnificent loot
+you heard so much about?  
+~
+0 0 0
+D1
+~
+~
+0 0 17036
+D2
+~
+~
+0 0 17032
+S
+#17034
+South-West In Mansion~
+This portion of the mansion is remarkedly like the others.  Nothing of
+interest rest here.  
+~
+0 0 0
+D0
+~
+~
+0 0 17032
+D1
+~
+~
+0 0 17037
+S
+#17035
+East Wing of Mansion~
+The large foyer of the mansion narrows here.  The black and white tiles
+bring you to a large, elaborate set of stairs, leading up.  You note the
+upstairs portion of the mansion seems to be smaller than the ground floor. 
+To the east, you see a door leading to a grassy area outside.  
+~
+0 C 0
+D0
+~
+~
+0 0 17036
+D1
+~
+~
+0 0 17040
+D2
+~
+~
+0 0 17037
+D3
+~
+~
+0 0 17032
+D4
+~
+~
+0 0 17038
+S
+#17036
+Room in the Mansion~
+Another room in this mansion, looking just like the ones before it.
+~
+0 0 0
+D2
+~
+~
+0 0 17035
+D3
+~
+~
+0 0 17033
+S
+#17037
+South-East In Mansion~
+You have entered another portion of the heavenly mansion.  Looking
+exactly like the rooms before it in decor, you wonder why heaven must be so
+BLAND!  Exits go to the west and the north.  
+~
+0 0 0
+D0
+~
+~
+0 0 17035
+D3
+~
+~
+0 0 17034
+S
+#17038
+Second Floor of Mansion~
+The second floor of the mansion seems similar to the rest of the place. 
+Huge gargoyle statues adorn the top of the rails on the stairway.  The black
+and white tiles on the floor continue here, as well as a plush red carpet
+leading the way to a door to the west.  You notice burned hoove marks
+scarring the carpet, and leading towards the closed door.  
+~
+0 0 0
+D3
+~
+~
+1 0 17039
+D5
+~
+~
+0 0 17035
+S
+#17039
+Treasury of Heaven~
+This is obviously what you have been looking for.  Gold lines the walls
+like dry wall does most places.  A huge treasure trove lies here, as well as
+a shocker.  THE DEVIL HIMSELF IS HERE!  Obviously bored with his domain,
+Satan himself has come to loot the place.  You'll have to get through him to
+ransack the place, since he already holds a small portion of it with him.  
+~
+0 0 0
+D1
+~
+~
+1 0 17038
+S
+#17040
+Backyard of Mansion~
+Walking through the backdoor of the mansion, you find yourself in the
+backyard of the heavenly mansion.  Amazingly enough, grass seems to be
+growing from the clouds, to give the place an earthly feel.  A giant cast
+iron fence surrounds the yard, as well as a huge hedge making up one edge. 
+A storage shed is to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 17042
+D1
+~
+~
+1 0 17041
+D2
+~
+~
+0 0 17043
+D3
+~
+~
+0 0 17035
+S
+#17041
+Storage Shed~
+This is the small shed back behind the mansion.  No shelves line the
+walls to this small little shed.  Nothing of interest is to be found here. 
+It looks like it was just put here for decoration.  
+~
+0 0 0
+D3
+~
+~
+1 0 17040
+S
+#17042
+Backyard of Mansion~
+You are in the backyard of the heavenly mansion.  As you examine the
+grass growing here, you notice that the substance is astro turf, rather than
+actual grass.  The huge wall lies to the north, while the yard itself
+continues east.  The wall of the mansion lies to the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 17045
+D2
+~
+~
+0 0 17040
+S
+#17043
+Backyard of Mansion~
+Following the lawn, which appears to be astro turf, rather than actual
+grass, takes you south of the shed.  To the west is the wall of the Heavenly
+Mansion.  A small path leads around the shed to the east.  The brick wall to
+the south fences in the yard nicely.  
+~
+0 0 0
+D0
+~
+~
+0 0 17040
+D1
+~
+~
+0 0 17044
+S
+#17044
+Backyard of Mansion~
+Following the astro turf path, you now due south of the shed.  A path
+leads to the west, around the shed.  The huge brick wall making up the
+southern wall blocks all movement in that direction.  Exits lead to the east
+and the west.  
+~
+0 0 0
+D1
+~
+~
+0 0 17046
+D3
+~
+~
+0 0 17043
+S
+#17045
+Backyard of Mansion~
+Following the northern wall takes you alongside the storage shed.  The
+pathway you are making up as you go continues to the east, or to the west to
+go back.  
+~
+0 0 0
+D1
+~
+~
+0 0 17047
+D3
+~
+~
+0 0 17042
+S
+#17046
+Backyard of Mansion~
+Following the astro turf around the shed, you reach the corner of the
+backyard.  The brick wall hits the eastern wall, which is made from a huge
+hedge.  
+~
+0 0 0
+D3
+~
+~
+0 0 17044
+S
+#17047
+Backyard of Mansion~
+Following the astro turf around the house leads you to the west wall of
+the backyard paradise.  The brick wall that lies to the north turns into a
+hedge wall and turns to the east.  
+~
+0 0 0
+D3
+~
+~
+0 0 17045
+S
+#17048
+Pet Heaven~
+This is where all good pets go in the end.  But remember, good or bad,
+ALL dogs go to heaven.  You can exit this eternal pet bliss to the east.  
+~
+0 0 0
+D1
+~
+~
+0 0 17049
+S
+#17049
+Temple of Eternal Bliss~
+This temple contains the eternal rewards of entities of various
+religions.  Various signs mark each of the doors, describing the blisses
+contained within.  
+~
+0 0 0
+E
+sign~
+{r@@@@@{gPet Heaven{r@@@@@
+~
+D0
+~
+~
+0 0 17050
+D2
+~
+~
+0 0 17020
+D3
+~
+~
+0 0 17048
+S
+#17050
+Temple of Eternal Bliss~
+This temple contains the eternal rewards of entities of various
+religions.  Various signs mark each of the doors, describing the blisses
+contained within.  
+~
+0 0 0
+D2
+~
+~
+0 0 17049
+D3
+~
+~
+0 0 17051
+S
+#17051
+Temple of Eternal Bliss~
+This temple contains the eternal rewards of entities of various
+religions.  Various signs mark each of the doors, describing the blisses
+contained within.  
+~
+0 0 0
+E
+sign~
+{r@@@@@{yHog Heaven{r@@@@@ 
+~
+D1
+~
+~
+0 0 17050
+D2
+~
+~
+0 0 17052
+D3
+~
+~
+0 0 17053
+S
+#17052
+Hog Heaven~
+And where do good little over-eaters go???  HOG HEAVEN!!!  Where the
+clouds are made of marshmallows, and everything is edible!  Pig out and
+enjoy!  
+~
+0 0 0
+D0
+~
+~
+0 0 17051
+S
+#17053
+Temple of Eternal Bliss~
+This temple contains the eternal rewards of entities of various
+religions.  Various signs mark each of the doors, describing the blisses
+contained within.  
+~
+0 0 0
+D1
+~
+~
+0 0 17051
+D2
+~
+~
+0 0 17054
+S
+#17054
+Temple of Eternal Bliss~
+This temple contains the eternal rewards of entities of various
+religions.  Various signs mark each of the doors, describing the blisses
+contained within.  
+~
+0 0 0
+D0
+~
+~
+0 0 17053
+D1
+~
+~
+0 0 17055
+S
+#17055
+Stairwell~
+This room, unlike the others, isn't linked to a Paradise.  Instead, a red
+carpet leads up a stair well into parts unknown.  
+~
+0 0 0
+D3
+~
+~
+0 0 17054
+D4
+~
+~
+0 0 17021
+S
+#17099
+Insane Asylum~
+This small little room has padded walls and no windows.  One door leads
+towards the exit, although bars keep you from opening it in anyway.  You are
+trapped!  You feel so alone.  
+~
+0 CNT 0
+D0
+~
+~
+0 0 17099
+D1
+~
+~
+0 0 17099
+D2
+~
+~
+0 0 17099
+D3
+~
+~
+0 0 17099
+D4
+~
+~
+0 0 17099
+D5
+~
+~
+0 0 17099
+S
+#0
+
+
+
+#SPECIALS
+M 17008 spec_breath_lightning Load to: Saint Peter
+M 17012 spec_breath_lightning Load to: a catatonic soul
+M 17017 spec_breath_lightning Load to: a militant angel
+M 17040 spec_breath_lightning Load to: an angel gardener
+M 17041 spec_thief Load to: a cute little ferret
+S
+
+
+
+#RESETS
+D 0 17008 0 2               * The north door of The Pearly Gates is closed and locked
+D 0 17009 2 1               * The south door of Entrance to Heaven is closed
+D 0 17040 1 1               * The east door of Backyard of Mansion is closed
+M 0 17008     1 17008     1   * Load Saint Peter
+E 0 17008    17    17         * Holy book is loaded held in the hands of Saint Peter
+G 0 17014    -1               * A pearly key is given to Saint Peter
+E 0 17053    18    18         * A swirling mist is loaded floating of Saint Peter
+M 0 17009     8 17009     3   * Load An angel
+E 0 17009     6     6         * A halo is loaded over the head of An angel
+M 0 17010     1 17010     1   * Load an angel receptionist
+E 0 17010    17    17         * A feather pen is loaded held in the hands of an angel receptionist
+M 0 17009     1 17011     1   * Load An angel
+M 0 17009     1 17011     8   * Load An angel
+O 0 17011     0 17011         * A coffee table loaded to Waiting Room
+O 0 17011     0 17011         * A coffee table loaded to Waiting Room
+O 0 17011     0 17011         * A coffee table loaded to Waiting Room
+M 0 17012     4 17012     4   * Load a catatonic soul
+E 0 17012     3     3         * A robe of content is loaded around the neck (1) of a catatonic soul
+M 0 17015     1 17015     1   * Load an angel cook
+G 0 17015    -1               * Some angel food cake is given to an angel cook
+M 0 17016     1 17016     1   * Load God's assistant
+E 0 17016    16    16         * The {cwrath{x of {mgod{x! is loaded wielded of God's assistant
+M 0 17017     1 17017     1   * Load a militant angel
+E 0 17017     3     3         * A pair of angel wings is loaded around the neck (1) of a militant angel
+M 0 17026     4 17026     4   * Load an astral traveller
+E 0 17026    16    16         * A {wsilvery{x cord is loaded wielded of an astral traveller
+M 0 17029     1 17029     1   * Load an angelic waitress
+G 0 17029    -1               * A margarita is given to an angelic waitress
+G 0 17015    -1               * Some angel food cake is given to an angelic waitress
+O 0 17032     0 17032         * A heavenly fountain loaded to Foyer of Heavenly Mansion
+O 0 17033     0 17033         * An easy chair loaded to Room in Mansion
+M 0 17039     1 17039     1   * Load the Devil
+G 0 17038    -1               * A {rrod{x of {bdivine{c might{x is given to the Devil
+O 0 17037     0 17039         * A pile of pennies from heaven loaded to Treasury of Heaven
+M 0 17040     5 17040     1   * Load an angel gardener
+M 0 17048     1 17048     1   * Load a poodle
+O 0 17048     0 17048         * A dog house loaded to Pet Heaven
+P 0 17047     1 17048     0   * A plastic trinket put inside a dog house
+P 0 17046     1 17048     0   * A doggie chew toy put inside a dog house
+M 0 17002     3 17052     3   * Load a weight watcher
+S
+
+
+
+#SHOPS
+17015 0 0 0 0 0 100 50 0 23
+17029 0 0 0 0 0 100 0 0 23
+0
+
+
+
+#$

@@ -1,0 +1,811 @@
+/* Okay so this is a crappy area coded just to give me a few rooms to play */
+/* with so I can try coding some mobiles etc. */
+/* This zone is copyright of u01mat@abdn.ac.uk 1996 */
+/* This header should accompany this file */
+/* All may crap comments are surrounded by /* */ i think so should be easy */
+/* to edit out. Last time I coded putting text in /* */ meant it was ignored */
+/* sorry if that is not the case here. */
+
+/* ZZ = start of vnums   XX = area numbers */
+/* i would guess XX and ZZ will be the same but I made them different just */
+/* incase they are not 							   */
+/* if possible could you make a file of all the bugs you fix in this area  */
+/* and mail it back to me. That way I will know what I have done wrong and */
+/* hopefully it wont happen again. If you have any queries, etc mail me or */
+/* note me on the mud. 							   */
+/*	Yours sincerely, well almost sincerely,                            */
+/* 						Deth (u01mat@abdn.ac.uk)   */
+
+#AREA {90 100} Deth	Deth Keep.~
+
+#ROOMS
+#ZZ00
+Before the drawbridge~
+	You stand before the Deth Keep.  It is a large ominous castle standing
+alone on a craggy peak.  The only way to reach the keep appears to be the large
+solid looking drawbridge in front of you.
+~
+XX A 5
+D3
+You see a drawbridge to the west.
+~
+~
+0 -1 ZZ01
+S
+#ZZ01
+On the drawbridge~
+	You are standing on a large drawbridge before the Deth Keep. As you look
+to either side you can see a huge drop of over one thousand feet that will
+almost certainly kill you.
+~
+XX A 1	
+D1
+To the east you see a rocky path.
+~
+~
+0 -1 ZZ00
+D3
+To the west the drawbridge continues.
+~
+~
+0 -1 ZZ02
+S
+#ZZ02
+Before the gates of the Deth keep~
+	You stand before the gates of a formidable keep, at least it seemed
+formidable from the other side of the drawbridge. As you get closer you notice
+the keep appears to have fallen into disrepair.
+~
+XX D 1
+D1
+To the east is a large drawbridge.
+~
+~
+0 -1 ZZ01
+D3
+To the west is a entrance to the keep.
+~
+~
+0 -1 ZZ03
+#ZZ03 
+Inside the gates of the Deth keep~
+	Standing inside the gates of the keep you can see a guard house to the
+south and some sort of dining hall to the north. Although the keep looks like it
+is falling apart you can hear and see signs that it is still well guarded.
+~
+XX D 1
+D0
+To the north is the guards dining hall.
+~
+~
+0 -1 ZZ05
+D1
+To the east are the gates of the keep.
+~
+~
+0 -1 ZZ02
+D2
+To the south are the guards barracks.
+~
+~
+0 -1 ZZ04
+D3
+To the west is a small courtyard.
+~
+~
+0 -1 ZZ06
+S
+#ZZ04
+Inside the guards barracks~
+	You are standing inside the barracks of the keep.  They are quite large
+and can house many soldiers, however you notice that more than half the bunks
+are now empty.
+~
+XX D 1
+D0
+To the north is the keep entrance.
+~
+~
+0 -1 ZZ03
+S
+#ZZ05 
+Inside the guards dining hall~
+	Standing in the dining hall you can see a number of guards eating their
+evening meal. There are huge tables that can seat several more guards than are
+currently here.
+~
+XX D 1
+D2
+To the south is the keep entrance.
+~
+~
+0 -1 ZZ03
+S
+#ZZ06
+A small coutyard before the keep~
+	You are standing in a small courtyard before the main building of the
+keep. This looks like the perfect place to be killed by an archer on the
+battlements. However like most of the guards the archers seem to be absent.
+~
+XX D 1
+D1
+To the east is the keep entrance.
+~
+~
+0 -1 ZZ03
+D3
+To the west is the main building of the keep.
+~
+~
+0 -1 ZZ07
+S
+#ZZ07
+Within the keep entrance~
+	Now that you have entered the keep you realise just how run down it has
+become. There is refuse scattered around the corridors and rats stroll gently
+across the floor without a care in the world.
+~
+XX D 1
+D0
+To the north is a small stairway.
+~
+~
+0 -1 ZZ10
+D1
+To the east is a small courtyard.
+~
+~
+0 -1 ZZ06
+D2
+To the south is a small stairway.
+~
+~
+0 -1 ZZ11
+D3
+To the west the main hall of the keep.
+~
+~
+0 -1 ZZ08
+S
+#ZZ08 
+The main hall of the keep~
+	Having entered the main keep you realise what a place of splendour this
+must have once been. The remnants of tapestries and statues no longer do justice
+to the room you stand in. You wonder how such a great castle could have come to
+such a state.
+~
+XX D 1
+D1
+To the east is the keep entrance.
+~
+~
+0 -1 ZZ07
+D3
+To the west is the masters throne.
+~
+~
+0 -1 ZZ09
+S
+#ZZ09
+Before the ruler of the keep~
+	You stand before the ruler of the keep, or at least you would if he was
+here. Before you sits a grotty little man who claims to be a cousin of Deth.
+Looking at this pathetic man you realise how the once great Deth Keep could have
+sunken to it's current state. This man could lose in a game of bingo if he was
+the only player.
+~
+XX D 1
+D1
+To the east is the main hall.
+~
+~
+0 -1 ZZ08
+S
+#ZZ10
+A private stairway in the keep~
+	You are standing on a small private stairway leading upwards. It leads
+to a small area above the main throne room where Deth sleeps.
+~
+XX D 1
+D2
+To the south is the main entrance to the keep.
+~
+~
+0 -1 ZZ07
+D4
+Leading upwards is a small stairway.
+~
+~
+0 -1 ZZ16
+S
+#ZZ11
+A stairway in the keep~
+	You are standing at the top of a small stairway leading down into the
+depths below the keep. It seems seldom used as you can see from the dust present
+on all the surfaces.
+~
+XX D 1
+D0
+To the north is the entrance to the keep.
+~
+~
+0 -1 ZZ07
+D6
+Leading down is a dust set of steps.
+~
+~
+0 -1 ZZ12
+S
+#ZZ12
+The bottom of a stairway~
+	You are standing at the bottom of a small stairway in the keep.  To the
+north you can see a small flickering light.
+~
+XX D 1
+D0
+To the north is a small room.
+~
+~
+0 -1 ZZ13
+D5
+Leading up are a set of dusty steps.
+~
+~
+0 -1 ZZ11
+S
+#ZZ13 
+A small room under the keep~
+	You are standing in a small room under the keep.  It appears there is or
+at least was life down here after all.  A small straw mattress in one corner of
+the room suggest someone or something sleeps here.
+~
+XX D 1
+D1
+To the east is a small passageway.
+~
+~
+0 -1 ZZ18
+D2 
+To the south is a small stairway.
+~
+~
+0 -1 ZZ12
+S
+#ZZ14
+A secluded hallway~
+	You are standing in a secluded hallway outside the bed chamber of Deth.
+The hallway itself seems quite bland and serves no purpose other than somewhere
+to put the door.
+~
+XX D 1
+D0
+To the north is a bend in the hallway.
+~
+~
+0 -1 ZZ15
+D3
+To the west is a small doorway.
+~
+~
+1 -1 ZZ17
+S
+#ZZ15 
+A bend in the hallway~
+	You have reached a bend in the hallway leading to Deth's private
+chamber.  Perhaps you should consider turning back rather than continuing to
+violate her privacy.
+~
+XX D 1
+D1
+To the east is a small stairway.
+~
+~
+0 -1 ZZ16
+D2
+To the south is a small hallway.
+~
+~
+0 -1 ZZ14
+S
+#ZZ16
+The top of a stairway~
+	You are at the top of a stairway leading the Deth's private chamber. It
+would be advisable to turn back now rather than face her wrath.
+~
+XX AD 1
+D3
+To the west is a bend in the hallway.
+~
+~
+0 -1 ZZ15
+D5
+A small stairway leads down.
+~
+~
+0 -1 ZZ10
+S
+#ZZ17
+A small comfortable room~
+	You are standing in a small comfortable room. This is certainly not what
+you expected to find.  Instead of jewels and riches there is simply a small bed
+that does not appear to have been used for quite sometime.  Suddenly you realise
+that it has all been a wasted journey. No one has ruled the keep for sometime,
+the guards have been stationed here as a token jesture to a once great dynasty,
+which is now no more.
+~
+XX D 1
+D1
+To the east is a door.
+~
+~
+1 -1 ZZ14
+S
+#ZZ18
+A tight passageway~
+	You are standing in a small tight passageway heading east and west. To
+the west you can see a flickering light, but to the east you can see nothing.
+~
+XX AD 1
+D1
+To the east is a winch room.
+~
+~
+0 -1 ZZ19
+D3
+To the west is a empty room.
+~
+~
+0 -1 ZZ13
+S	
+#ZZ19 
+A small winch room~
+	You are standing in a small room filled with cogs and levers. Looking
+out a hole in the east wall you can see the underside of the drawbridge for the
+keep.
+~
+XX AD 1
+D1
+To the east is a crawlway under the drawbridge.
+~
+~
+0 -1 ZZ20
+D3
+To the west is a tight passageway.
+~
+~
+0 -1 ZZ18
+S
+#ZZ20
+Under the drawbridge~
+	You crawling along under the drawbridge to the keep, you can here guards
+walking about above you. The few from here is terrifying and you wonder whatever
+possessed you to come out here in the first place.
+~
+XX AD 1
+D1
+To the east is a small mountain ledge.
+~
+~
+0 -1 ZZ21
+D3
+To the west is a small winch room.
+~
+~
+0 -1 ZZ19
+S
+#ZZ21
+On a mountain side~
+	You are on a small part of the mountain side just below the begining of
+the drawbridge. You can hear the guards on the drawbridge moving around and
+talking. You wonder if you should risk climbing up and hope they don't notice
+you or if you should remain hidden.
+~
+XX D 1
+D3
+To the west is a crawlway under the drawbridge.
+~
+~
+0 -1 ZZ20
+D4
+Looking up you see the begining of the drawbridge.
+~
+~
+0 -1 ZZ01
+S
+
+/* Some sort of connector rooms to go in here */
+
+#0
+
+#MOBILES
+
+#ZZ00
+guard~
+Guard~
+On of the keeps guards stands before you.
+~
+Before you stands a man who has dedicated his life to defending the keep.
+~
+human~
+ABFGT DZ 0 ZZ01
+95 10 50D100+15000 100D10+500 5d10+50 slash
+-250 -250 -250 -250
+CDFIU AB B 0
+stand stand male 10000
+AV ABCDEFGHIJK medium 0
+
+#ZZ01
+honour guard~
+Honour Guard~
+A guard stands before you in resplendant armour.
+~
+Before you stands one of the proud few chosen to defend Deth.
+~
+human~
+ABGT DHVZc 1000 ZZ01
+100 15 50D100+20000 100D10+500 10d10+50 slash
+-300 -300 -300 -300
+ACDFHIU AB B 0
+stand stand male 10000
+AV ABCDEFGHIJK medium 0
+
+#ZZ02
+ruler man king master~
+Master of the keep~
+A small man sits before you.
+~
+The man who is currently ruling deth keep is small but of stocky build and has a
+proud look about him. Even with the world collapsing around him he would fight
+to the death.
+~
+human~
+ABGR DHTVZc -1000 ZZ01
+105 20 100d100+22000 10D100+1000 10d10+80 slash
+-350 -350 -350 -350
+ACDFHIU ABC B 0
+sit stand male 20000
+AV ABCDEFGHIJK medium 0
+
+#ZZ03
+rat vermin~
+rat~
+A small furry and totally harmless rat.
+~
+The rat is small furry and of now harm to anyone.  It looks like it is here only
+as a token gesture and for some strange reason it is classed as a rabbit.
+~
+rabbit~
+ABGa J 0 ZZ01
+100 0 100d100+30000 100D10+2000 10d10+50 claw
+-200 -200 -200 -200
+ACDFIU ABCD B 0
+stand stand either 0
+AG ACDFJK tiny 0
+
+/* Thats all me mobiles for just now. Hope to add more later if this bit */
+/* works okay. */
+
+#0
+/* The objective of this being to create a complete set of objects that look */
+/* good once you have a full set but are bloody hard to get. */
+/* Hopefully the objects can remain unchanged. I would prefer to bump up the */
+/* strength and power of the mobiles to make the objects hard enough to get. */
+
+#OBJECTS
+#ZZ00
+mithril breastplate~
+Mithril Breastplate~
+A gleaming breastplate lies here.~
+mithril~
+9 AH D
+15 15 15 15
+100 15 10000 G
+A
+5 4
+A
+12 100
+A
+13 100
+A
+18 8
+A
+19 8
+/* +4 str +100 hp and mana +8 hit and dam */
+/* (not as good as quest eq by +4 hit and dam and some spell saves and armor */
+
+#ZZ01
+mithril gloves~
+Mithril Gloves~
+A set of gleaming gloves lies here.~
+mithril~
+9 AH H
+15 15 15 15
+100 8 5000 G
+A
+12 100
+A
+13 100
+A
+18 5
+A
+19 5
+/* Likes dagaars for hp and mana but with extra hit and dam */
+
+#ZZ02
+mithril leggings~
+Mithril Leggings~
+A set of gleaming leggings lies here.~
+mithril~
+9 AH F
+15 15 15 15
+100 12 6000 G
+A
+12 60
+A
+13 60
+A
+18 5
+A
+19 5
+/* Same as knee pads but gives some extra hp and mana, worse ac*/
+
+#ZZ03
+mithril armplates~
+Mithril Armplates~
+A set of gleaming armplates lies here.~
+mithril~
+9 AH I
+15 15 15 15
+100 12 6000 G
+A
+12 60
+A
+13 60
+A
+18 4
+A
+19 4
+/* Same as shoguns armplates with 1 xtra hit and dam some hp mana worse ac */
+
+#ZZ04 
+mithril boots~
+Mithril Boots~
+A set of gleaming boots lies here.~
+mithril~
+9 AH G
+15 15 15 15
+100 8 5000 G
+
+#ZZ05
+mithril helmet~
+Mithril Helmet~
+A gleaming helmet lies here.~
+mithril~
+9 AH E
+15 15 15 15
+100 7 5000 G
+A
+12 100
+A
+13 100
+A
+18 8
+A
+19 8
+/* same as crown of isles, worse armor no spell save no + stats */
+
+#ZZ06
+shimmering cloak~
+Shimmering Cloak~
+A cloak lies on the ground shimmering.~
+cloth~
+9 AH C
+15 15 15 15
+100 3 8000 G
+A
+12 100
+A
+12 100
+A
+18 8
+A
+19 8
+/* same as shawls of vestals, worse ac 2 hit goes to dam no spells saves */
+/* no +4 con */
+
+#ZZ07 
+mithril ring power~
+Mithril Ring~
+A very powerful looking ring lies abandoned on the ground.~
+mithril~
+9 AH B
+15 15 15 15
+100 1 5000 G
+A
+12 100
+A
+13 100
+A
+18 8
+A
+19 8
+/* not even close to emerald ring, worse armor some hp goes to mana same */
+/* hit and dam */
+
+#ZZ08
+mithril sword~
+Mithril Sword~
+A gleaming sword lies on the ground here.~
+mithril~
+5 AH AN 
+1 25 4 20 0
+95 25 20000 G
+/* About average for a good sword, no effects*/
+
+#ZZ09
+sword deth~
+Sword of Deth~
+A black sword lies on the ground absorbing all the light around it.~
+mithril~
+5 BM AN
+1  25 5 0
+100 30 30000 G
+A
+13 100
+A
+18 8
+A
+19 8
+/* Should be the hardest piece of all to get. */
+
+#ZZ10
+bracer mithril~
+Mithril Bracer~
+A bracer lies here gleaming.~
+mithril~
+9 AH L
+15 15 15 15
+100 4 5000 G
+A
+12 80
+A
+13 80
+A 
+18 8
+A
+19 8
+/* You could almost call this a bracer of fire */
+/* slightly better hit (+2) no xtra wis or int worse armor */
+
+#ZZ11
+girth mithril~
+Mithril Girth~
+A girth lies here gleaming.~
+mithril~
+9 AH L
+15 15 15 15 
+100 5 6000 G
+A
+1 4
+A
+2 4
+A
+5 4
+A
+18 6
+A
+19 6
+/* Better hit and dam than rainbow (+2) gives +4 to str,dex,con no hp or mana */
+
+#ZZ12
+cape mithril~
+Mithril Cape~
+A cape lies here gleaming.~
+mithril~
+9 AH K
+15 15 15 15
+100 3 6000 G
+A
+20 20
+A
+21 20
+A
+22 20
+A
+23 20
+A
+24 20
+A
+25 20
+/* No hit, dam, hp or mana but pretty nice spell protection */
+/* Would be nice to increase the ac on this one or maybe give a bit of */
+/* hp+mana */
+
+#0
+/* The 15 for ac's on armor is just an standard number at the mo. */
+/* None of the high level eq I have in the game at the momment is less tham */
+/* 15 across the board. It may be possible to increase the ac's later but */
+/* at the momment I have made them all 15 and will not place any ac modifiers */
+
+/* This eq may seem powerful but it is not the best eq in the game */
+/* I think the bracer girth leggings and gloves are probally better than */
+/* anything else in the game but that is because the leggings and gloves */
+/* i currently use are level 60 this eq is level 100.  The girth and bracers */
+/* are only slightly better and are worse armor. */
+
+/* MAJOR POINT : If I get it set up properly there will be 2 of each honour */
+/* guard and three of each regular guard in a room and they will assist each */
+/* other. Two rock hard level 100's means the level 91's should have to group */
+/* to kill them for the eq. This zone is intended as a place for level 90-91's*/
+/* to kill stuff while they are waiting to rebirth or if they dont want to */
+/* rebirth. If this goes well I may expand it. */
+/* I think a dungeon is possible, a large wilderness outside the castle and */
+/* or a small town in the shadow of the keep sorta thing. */
+
+#RESETS
+
+M 0 ZZ00 9 ZZ01 *Guard
+E 1 ZZ04 3 8 *Boots
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ01 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ01 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ05 *Guard
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ05 3 16 *Helmet
+
+M 0 ZZ00 9 ZZ05 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ05 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ07 *Guard
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ01 3 16 *Gloves
+
+M 0 ZZ00 9 ZZ07 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ00 9 ZZ07 *Guard
+E 1 ZZ08 -1 16 *Sword
+
+M 0 ZZ01 4 ZZ08 *Honour
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ10 2 14 *Bracer
+E 1 ZZ03 2 10 *Armplates
+
+M 0 ZZ01 4 ZZ08 *Honour
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ11 2 13 *Girth
+E 1 ZZ02 2 7 *Leggings
+
+M 0 ZZ01 4 ZZ14 *Honour
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ12 2 12 *Cape
+
+M 0 ZZ01 4 ZZ14 *Honour
+E 1 ZZ08 -1 16 *Sword
+E 1 ZZ00 2 5 *Platemail
+
+M 0 ZZ02 1 ZZ09 *Ruler
+E 1 ZZ09 1 16 *Dethsword
+E 1 ZZ07 3 1 *Ring
+E 1 ZZ06 4 3 *Cloak
+
+M 0 ZZ03 1 ZZ17 *Rat
+
+D 0 ZZ17 1 1
+D 0 ZZ14 3 1
+S
+
+#SPECIALS
+M ZZ02 spec_cast_mage
+S
+#$
+
+

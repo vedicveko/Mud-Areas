@@ -1,0 +1,154 @@
+A Quickie Guide to Implementing NPC Classes in Circle Mud.
+
+NPC Classes are implemented in name only in Circle Mud, the goal of this file
+is to show you how to save each mobile's class to file, make each class "do
+something", and if you have it, make the class settable in Oasis OLC.
+
+
+Step 1.
+  A. Open up structs.h
+  B. Scroll down to the line that says /* NPC classes (currently unused 
+  C. After 
+     #define CLASS_NPC_GIANT    5
+     Add, 
+     #define NUM_NPC_CLASS 6 /* This must be the number of NPC classes */
+  D. Close structs.h
+
+Step 2.
+  A. Open up db.c
+  B. Scroll down to the interpret_espec function.
+  C. After,
+ 
+     CASE("Cha") {
+       RANGE(3, 25);
+       mob_proto[i].real_abils.cha = num_arg;
+     }
+
+     Add, 
+
+     CASE("Class") {
+       RANGE(0, NUM_NPC_CLASS);
+       mob_proto[i].player.class = num_arg;
+     }
+
+     Now the mob's class will be settable in the file as an E spec
+    
+     #1203 
+     rat rodent~
+     a mammoth rat~
+     An enormous rat is sleeping here.
+     ~
+     This thing is huge!  The rat's beady, red eyes and greasy fur make you a
+     little squeemish.    
+     ~
+     188554 0 0 0 0 0 0 0 8 E
+     10 3 60 1d10+200 1d4+5
+     200 2285
+     8 8 0
+     Class: 3         <------ Will make this mob NPC Class Animal.
+     E
+
+  D. Close db.c
+  
+Step 3.
+  A. Open up spec_assign.c
+
+
+Step 4.
+  A. Open up act.movement.c
+  B. Somewhere at the top of the file after all of the external functions add,
+  
+     char *move_message(struct char_data *ch)
+     {
+       if (!IS_NPC(ch))
+          return ("leaves"); 
+       else if (GET_CLASS(ch) == CLASS_NPC_ANIMAL)
+	  return ("scurries");
+       else if (GET_CLASS(ch) == CLASS_NPC_GIANT)
+          return ("stomps");
+       else if (GET_CLASS(ch) == CLASS_NPC_UNDEAD)
+          return ("shambles");
+       else if (GET_CLASS(ch) == CLASS_NPC_HUMANOID)
+          return ("walks");
+       else
+          return ("leaves");
+     }  
+
+  C. Then, find any line that looks like the one below,
+
+    sprintf(buf2, "$n leaves %s.", dirs[dir]);
+
+    And change it to look like this,
+
+    sprintf(buf2, "$n %s %s.", move_message(ch), dirs[dir]);
+
+  D. Now, when if you have a mob setup as NPC_CLASS_ANIMAL, instead of the mud
+     saying "A rat leaves east." it will say "A rat scurries east."
+
+  E. Close act.movement.c
+
+Step 5.
+  A. Open olc.h
+  B. After 
+     #define MEDIT_ALIGNMENT       26 
+     Add,
+     #define MEDIT_CLASS           27
+  C. Close olc.h
+
+Step 6.
+  A. Open up medit.c
+  B. At the top of the file with all the other extern stuff add,
+     extern char *npc_class_types[];
+  C. in medit_save_to_disk() after,
+     if (GET_CHA(mob) != 11)
+       fprintf(mob_file, "Cha: %d\n", GET_CHA(mob));
+     Add,
+     if(GET_CLASS(mob) != CLASS_NPC_OTHER)
+        fprintf(mob_file, "Class: %d\n", GET_CLASS(mob));
+  D. after the medit_disp_aff_flags() function add,
+
+      void medit_disp_class_flags(struct descriptor_data *d)
+      { 
+         int i;
+  
+         get_char_cols(d->character);
+         send_to_char("[H[J", d->character);
+         for (i = 0; i < NUM_NPC_CLASS; i++)
+         {  sprintf(buf, "%s%2d%s) %s\r\n", 
+	   grn, i, nrm, npc_class_types[i]);
+           send_to_char(buf, d->character);
+         }
+      send_to_char("Enter class type : ", d->character);
+      }
+
+  E. After,
+     "%sM%s) AFF Flags : %s%s\r\n"
+     Add,
+     "%sN%s) Class     : %s%s\r\n"
+  F. After, 
+	  grn, nrm, yel, attack_hit_text[GET_ATTACK(mob)].singular,
+	  grn, nrm, cyn, buf1,
+	  grn, nrm, cyn, buf2,
+     Add,
+          grn, nrm, cyn, npc_class_types[(int)GET_CLASS(mob)], 
+  G. After, 
+    case 'M':
+      OLC_MODE(d) = MEDIT_AFF_FLAGS;
+      medit_disp_aff_flags(d);
+      return;
+    
+     Add, 
+     case 'n':
+     case 'N':
+      OLC_MODE(d) = MEDIT_CLASS;
+      medit_disp_class_flags(d);
+      return;
+
+  H. close medit.c
+
+Step 7.
+  A. Recompile the mud and pray.
+
+
+Yes, this is very basic. But it provides a good start.
+

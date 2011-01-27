@@ -1,0 +1,2437 @@
+#AREA {T5-55 } Kaariel's Supermarket~
+
+#MOBILES
+#12800
+Dave man manager~
+Dave the Deli Manager~
+A very large man is hacking away at a large side of beef. 
+His name tag reads: 'Dave'.
+~
+An enormous man peers back at you through grease-stained glasses and asks 
+if you would like some of his meat.
+~
+human~
+BF H -500 S
+40 2 15d10+1850 1d10+150 4d8+13 3
+-100 -100 -100 -50
+DEFN K C H
+8 8 1 675
+AM ABCDE 3 0
+#12801
+Pharmacist~
+the Pharmicist~
+The supermarket pharmacist smiles and offers you some prozac.
+~
+A small man in a white coat grins, holding out a bottle of little blue 
+pills marked 'Free Samples'.
+~
+human~
+BU H 0 S
+28 1 6d12+703 1d10+90 2d12+8 3
+-25 -30 -45 -50
+DKF LQ 0 0
+8 8 1 987
+AM ABCDEFGHI 2 0
+#12802
+Vera lady~
+Vera the produce lady~
+Vera the produce lady putters about, straightening all the veggies.
+~
+Vera smiles kindly at you, holding 2 tangerines. You think what 
+enormous melons she has.
+~
+human~
+UB 0 500 S
+15 0 3d9+208 1d10+90 2d6+3 2
+-20 -34 -16 -4
+EFI 0 0 0
+8 8 2 69
+AM ABCDEFGHI 2 0
+#12803
+Heidi~
+Heidi the Deli Understudy~
+The Deli Understudy, a strange woman with short red hair, smiles as she 
+shows you her pork.
+~
+Her name tag has a small volkswagon sticker on it, and she seems to think 
+you are staring a little too hard.
+~
+human~
+BU HV -500 S
+51 1 50d10+5000 1d10+100 5d8+20 3
+-20 -20 -20 -15
+EFK C K D
+8 8 2 130
+AM ABCDEFG 3 0
+#12804
+Jeff~
+Jeff the trumpet extraordinaire~
+Jeff stands in the aisle, ripping some high notes on his trumpet.
+~
+The most clean-cut guy you've ever seen. He fills the room with his 
+raucous trumpet playing.
+~
+human~
+BAG VHC 1000 S
+60 1 50d10+9500 1d10+100 8d6+28 10
+-12 -13 -12 -4
+DEFNPK NMPQ K G
+8 8 1 135
+AH ABCEDFGHIJ 3 0
+#12805
+Pete~
+Pete the errand-boy~
+Pete stands ready to load your groceries into your car.
+~
+A small overworked kid frantically jams groceries into plastic bags. You 
+think he just broke your eggs. He deserves death.
+~
+human~
+G 0 -100 S
+15 0 3d9+208 1d10+100 2d6+3 2 
+-2 -5 -7 0
+F 0 0 0
+8 8 1 14
+AHM ABCDEFGHIJ 1 0
+#12806
+Rick~
+Rick G.~
+Rick G. stands here, looking imposing.
+~
+Rick is a tall, burly man who -=LOOKS=- like he could tear you limb from limb.
+He seems to be absorbed in thought...better not bother him.
+~
+human~
+BCH H 500 S
+18 0 3d9+283 1d10+100 2d7+4 2
+-3 -1 0 -4
+k 0 0 IJH
+8 8 1 100
+AH ABCDEFGHIJ 2 0
+#12807
+Thom~
+Thom the flower lady~
+Thom stands behind the floral department counter, fondling the gardenias.
+~
+A large man with carrot colored hair sings to the flowers in the fridge.
+Hmmm...seems to be a loony. He scares you.
+~
+human~
+BA 0 900 S
+45 0 25d10+3000 1d10+100 8d4+16 3
+-15 -15 -15 0
+J IJ N E
+8 8 1 100
+AHM ABCDEFGHIJ 1 0
+#12808
+DeLayne~
+DeLayne the stockboy~
+DeLayne slowly stocks the shelves with cans of pinto beans.
+~
+A dark-haired boy takes cans of pinto beans from boxes and places them
+askew on the shelf. He seems to be in a trance. Maybe you should put him out
+of his misery.
+~
+human~
+BAC 0 21 S
+13  0 2d10+170 1d10+100 2d5+3 2
+-1 -4 -5 0
+0 0 0 0
+8 8 1 20
+HA ABCDEFGHI 1 0
+#12809 
+Amy~
+Amy the flim processing girl~
+A girl wearing a frutopia shirt waits behind the counter to develop your flim.
+~
+A lovely girl with short blonde hair cheerfully asks if she can help you.
+She's a little too cheery. She bothers you. Maybe she can help you with some
+exp....
+~
+human~
+BAG 0 -900 S
+19 0 3d9+308 1d10+100 2d7+5 1
+-4 -8 -7 -3
+FK 0 0 0
+8 8 2 80
+AH ABCDEFGHI 1 0
+#12810
+Michael~
+Michael~
+Michael snors soundly under the desk.
+~
+A strange boy with short brown hair. You wonder if he's getting paid
+for sleeping on the job. Better do something about it....the
+management sure isn't.
+~
+human~
+BAG BQR -750 S
+45 1 25d10+3000 1d10+90 18d4+16 2
+-19 -19 -18 -18
+DE 0 0 0
+8 8 1 340
+AH ABCDEFGHI 2 0
+#12811
+movie rental girl video~
+Michelle the movie rental girl~
+Michelle stands ready to check out your video.
+~
+Michelle stands behind the video counter and smiles radiantly. She won't
+stop talking about D.B. Sweeny in 'The Cutting Edge'. 
+~
+human~
+BAG 0 400 S
+34 1 10d10+1200 1d10+100 4d7+10 2
+-11 -12 -13 -8
+DEF 0 0 0
+8 8 2 240
+AH ABCDEFGHI 2 0
+#12812
+Mark~
+Mark~
+Mark is here shopping with his honeybunch.
+~
+A man with an Aerosmith t-shirt fondles his girlfriend RIGHT IN THE AISLE!
+His lovey-dovey attention to her sickens and nauseates you. Kill him switfly,
+before you vomit on the baked beans.
+~
+human~
+BAG 0 350 S
+46 1 15d10+850 1d10+100 4d8+13 2
+-13 -28 -20 -10
+EFHR C 0 D
+8 8 1 550
+AH ABCDEFGHI 2 0
+#12813
+Becky~
+Becky~
+Becky is here being fondled by her man.
+~
+A girl wearing a Taz cap giggles softly as Mark macks on her. You think you
+might puke from the discusting display of public affection. Kill them now.
+Please.
+~
+human~
+BAG H 350 S
+44 1 25d10+2750 1d10+100 8d4+15 2
+-15 -18 -12 -10
+EFHR 0 D 0
+8 8 2 450
+AH ABCDEFGHI 2 0
+#12814
+Banana man~
+Banana man~
+A man is here in a banana costume, offering you some free samples.
+~
+A true weirdo. He stands 8 feet tall and is very insistent that you try
+some of his banana bread.
+~
+human~
+BAG 0 250 S
+23 0 5d10+450 1d10+100 3d6+6 2
+-6 -8 -7 -2
+EF 0 0 0
+8 8 1 250
+AH ABCDEFGHI 2 0
+#12815
+Woman Shopper~
+Shopper~
+A woman is here, shouting at her screaming kid in the basket to shut up.
+~
+This lady has obviously had enough of her screaming child. She turns red
+in the face yelling at him.
+~
+human~
+HA 0 -400 S
+5 0 2d6+60 1d10+100 1d6+1 2
+5 5 5 5
+0 0 0 0
+8 8 2 15
+AH ABCDEFGHI 1 0
+#12816
+Man Shopper~
+Shopper~
+A man is here, wandering lost through the aisles looking for the taco seasoning.
+~
+This guy can't find anything he's looking for. Why don't you put him out of
+his misery.
+~
+human~
+AH 0 -400 S
+8 0 2d7+96 1d10+100 1d7+1 2
+3 3 3 3
+0 0 0 0
+8 8 1 22
+AH ABCDEFGHI 1 0
+#12817
+Shallow Female~
+A Shallow Female~
+A Shallow Female is here, looking for something to make her beautiful.
+~
+A pretty blond girl. As you look at her, you get the feeling that no one
+is home.
+~
+human~
+AB 0 550 S
+10 0 2d7+121 1d10+100 2d4+2 2
+1 1 1 0
+0 0 0 0
+8 8 2 22
+AH ABCDEFGHI 1 0
+#12818
+Lars~
+Lars~
+Lars the psycho butcher is here.
+~
+One word: Scary. A short ugly man with red hair, glaring at you through
+filthy safety goggles. You are very unnerved.
+~
+human~
+BCF HVD 1000 S
+51 1 50d10+5000 1d10+100 5d8+20 3
+-30 -30 -30 -30 
+BDEF AQ J I
+8 8 1 2500
+AH ABCDEFGHIJ 2 0
+#12819
+Fat Woman~
+A Fat Woman~
+A Fat Woman runs you down to get to her favorite flavor.
+~
+You barely get a look before she smashes into you, knocking you to the floor.
+Now she is fondling her French Vanilla.
+~
+human~
+BCA 0 -1000 S
+45 1 25d10+3000 1d10+100 8d4+16 3
+-15 -15 -15 -15
+DEF 0 0 0
+8 8 2 500
+AH ABCDEFGHIJ 2 0
+#12820
+Fat Man~
+A Fat Man~
+A Fat Man runs you down to get to his favorite flavor.
+~
+You barely get a look before he smashes into you, knocking you to the floor.
+Now he is fondling his precious French Vanilla.
+~
+human~
+BCA 0 -1000 S
+45 1 25d10+3000 1d10+100 8d4+16 3
+-15 -15 -15 -15
+DEF 0 0 0
+8 8 1 500
+AH ABCDEFGHIJ 2 0
+#12821
+Assistant Manager Hezekiah~
+Assistant Manager Hezekiah~
+Assistant Manager Hezekiah is here, whipping the employees.
+~
+With a meniacal cackle, he whips the grocery boys across the back with
+a nasty looking whip. He looks at you and asks if you found everything
+ok.
+~
+human~
+BAG H -780 S
+35 0 10d10+1300 1d10+100 3d10+11 13
+-11 -11 -11 -11
+DEF 0 D 0 
+8 8 1 4500
+AH ABCDEFGHIJ 3 0
+#12822
+General Manager Colin~
+General Manager Colin~
+General Manager Colin is here, beating the employees.
+~
+The grocery boys cringe in terror as Colin cackles and whacks them a few
+times. He seems to be enjoying it a little too much.
+~
+human~
+BAG HV -1000 S
+40 1 15d10+1850 10d1+100 8d4+16 13
+-15 -15 -15 -15
+DEF 0 D 0
+8 8 1 4500
+AH ABCDEFGHIJ 3 0
+#12823
+Jason Frey~
+Jason Frey~
+Jason Frey is here, trying to rip off some cheap limon rum.
+~
+A shifty looking kleptomaniac with dark black hair and sly grin. You can tell
+this kid has the IQ of patio furniture. He annoys you.
+~
+human~
+BAG 0 -1000 S
+16 0 3d9+233 1d100+100 2d7+4 3
+-2 -2 -2 -2
+DEF 0 0 0
+8 8 1 4500    
+AH ACBDEFGHIJ 2 0
+#12824
+Grocery Boy~
+Grocery Boy~
+A Grocery boy is here
+~
+A small kid who is busy dodging the manager's whip.
+~
+human~
+BAG 0 0 S
+5 -2 2d6+60 1d10+10 1d6+1 3
+5 5 5 5
+0 0 0 0
+8 8 1 0
+AH ABCDEFGHIJ 1 0
+#12825
+Sullen Cashier~
+Sullen Cashier Girl~
+The Sullen Cashier Girl is here.
+~
+A short, snotty little prude. You are discusted at the very sight of her.
+~
+human~
+BAG 0 -350 S
+10 -2 2d7+121 1d10+10 2d4+2 3
+1 1 1 1
+0 0 0 0
+8 8 2 0
+AH ABCDEFGHIJ 1 0
+#12826
+Hyperactive Cashier~
+Hyperactive Cashier Boy~
+The Hyperactive Cashier Boy is here
+~
+Meduim build with short blond hair. He won't shut up. Shut him up won't you?
+~
+human~
+BAG 0 -350 S
+10 -2 2d7+121 1d10+10 2d4+2 3
+1 1 1 1
+0 0 0 0
+8 8 1 0
+AH ABCDEFGHIJ 1 0
+#12827
+Human Sloth Cashier~
+The Human Sloth~
+The Human Sloth is here, barely moving.
+~
+A tall boy with long black hair. He is obviously on prozac.
+~
+human~
+BAG 0 -350 S
+10 -2 2d7+121 1d10+10 2d4+2 3
+1 1 1 1
+0 0 0 0
+8 8 1 0
+AH ABCDEFGHIJ 1 0
+#12828 
+Pervert~
+A Pervert~
+A Pervert is here ogling the videos.
+~
+You can't quite see his face, but you do notice he is thinking about
+renting 'Forest Hump'. Good choice.
+~
+human~
+BAG Naa -780 S
+22 0 5d10+400 1d10+10 4d4+6 3
+-5 -5 -5 -5
+EFG 0 0 0
+8 8 1 0
+AH ABCDEFGHIJ 1 0
+#12829
+Mosquito Reginald~
+A Mosquito named Reginald~
+A tiny Mosquito is buzzing in your ear.
+~
+A small little insect. He lands on your arm, ready to dig in.
+~
+insect~
+BAG H 550 S
+60 1 50d10+9500 1d10+100 8d6+28 10
+-12 -13 -12 -4
+PDEFNPK 0 K G
+8 8 1 135
+AH ABCEDFGHIJ 0 0
+
+#0
+
+#OBJECTS
+#12800
+Mace~
+Jeff's Spanker Mace~
+A mace of formidable power lies on the floor.~
+Silver~
+5 AB AN 
+4 9 9 21 0
+48 10 500000 G
+A 
+18 3
+#12801
+key~
+a silver key~
+A key is here on a gigantic keychain marked XXX.~
+silver~
+18 F 1
+0 0 0 0 0
+1 1 1 G
+#12802
+Bernie Whip~
+A whip named 'Bernie'~
+A braided leather whip lies coiled neatly in the corner.~
+Leather~
+5 AB AN
+7 6 6 13 0
+34 5 100000 G
+A
+2 1
+#12803
+Tie necktie fantasies~
+A Tie called 'Fantasies'~
+A necktie that looks like an inkblot test is folded neatly on the floor.~
+Fabric~
+9 AB AC
+10 12 12 5 0
+51 5 10000 G
+A
+5 2
+A 
+1 1
+#12804
+Meathook bloody~
+A Bloody Meathook~
+A bloody meathook hovers in the air nearby.~
+Metal~
+5 GAB AN
+2 10 8 21 0
+51 10 500000 G
+A 
+18 4
+#12805
+Thin Cord Whip~
+A Thin Cord Whip~
+A thin cord whip lies askew on the floor.~
+Cord~
+5 A AN
+7 10 7 13 0
+45 6 100000 G
+A
+2 4
+#12806
+Movie Rental Card~
+Aesir Winn Dixie Movie Rental Card~
+A movie rental card from the Aesir Winn Dixie is here.~
+Paper~
+9 AB AO
+9 9 9 5 0
+48 1 90000 G
+A
+3 3
+#12807
+Knowledge~
+Knowledge of the Mysteries of Life~
+Knowledge of the Mysteries of Life has been left here by some careless person.~
+Other~
+9 AB AE
+10 8 8 7 0
+45 2 100000 G
+A
+4 1
+A
+3 1
+#12808
+Gold converse shoes~
+A pair of Shiny Gold Converse Shoes~
+A pair of shiny gold converse shoes have been left here.~
+Canvas~
+9 AB AG
+10 11 12 5 0
+50 5 100000 G
+A
+2 1
+A
+13 45
+A
+12 45
+#12809
+Nametag~
+A Nametag that says 'Heidi'~
+A Nametag that says 'Heidi' has been dropped here.~
+Paper~
+9 AB AD
+5 8 9 5 0
+50 3 100000 G
+A
+18 2
+A
+19 3
+A
+4 -3
+#12810
+Bandana~
+A Glow in the Dark Bandana~
+A glow in the dark bandana has been dropped here.~
+Cloth~
+9 AB AE
+7 7 7 5 0
+40 4 50000 G
+A
+3 -2
+A 
+5 3
+#12811
+Peace Ring~
+A Ring with a Peace Symbol on it.~
+A beautiful ring with a peace symbol on it is here.~
+Metal~
+9 AB AB
+8 10 7 5 0
+40 3 40000 G
+A
+14 100
+A
+5 -2
+#12812
+Bra 48~
+A 48-hour Bra~
+A 48-hour bra has been dropped here.~
+Cloth~
+9 AB AD
+7 7 8 10 0
+40 6 30000 G
+A
+12 50
+A
+2 -2
+#12813 
+calvin hobbes shirt~
+A Calvin and Hobbes T-Shirt~
+A Calvin and Hobbes T-Shirt has been dropped here.~
+Cloth~
+9 AB AJ 
+7 9 12 5 0
+45 4 40000 G
+A
+4 1
+A
+5 1
+#12814
+Jeans~
+A pair of torn-up Jeans~
+A pair of torn-up jeans has been dropped here.~
+Cloth~
+9 AB AF
+8 8 12 5 0
+50 4 40000 G
+A
+18 4
+A
+2 -2
+#12815
+Hickie~
+A Gross Hickie~
+A gross hickie has been left here~
+Other~
+9 A AC
+7 8 7 8 0
+40 1 40000 G
+A
+13 50
+A
+1 -2
+#12816
+Attitude bad~
+A Bad Attitude~
+A Bad Attitude has been dropped here.~
+Other~
+9 AB AD
+10 11 12 5 0
+50 13 60000 G
+A
+3 -1
+A
+13 50
+#12817
+Violent indifference~
+Violent Indifference~
+Violent Indifference has been dropped here.~
+Other~
+9 AB AD
+11 8 9 5 0
+50 10 60000 G
+A
+4 2
+A
+18 1
+#12818
+Clarity Mind~
+Clarity of Mind~
+Clarity of Mind has been dropped here.~
+Other~
+9 AB AE
+9 10 11 5 0
+50 10 60000 G
+A
+3 3
+#12819
+Steadfast Steadfastness~
+Steadfastness~
+Steadfastness has been dropped here.~
+Other~
+9 AB AJ
+14 10 8 5 0
+60 10 100000 G
+A
+1 1
+A
+13 75
+#12820
+Carton French Vanilla~
+A Carton of French Vanilla Ice-Cream~
+A carton of yummy french vanilla ice-cream has been dropped here.~
+paper~
+9 AB AO
+7 9 8 7 0
+45 10 10000 G
+A
+12 50
+A
+14 -84
+#12821
+Determination~
+Determination~
+Determination has been droppped here.~
+steel~
+9 AB AD
+9 8 8 13 0
+40 10 10000 G
+
+#0
+
+#ROOMS
+#12801
+Entrance to the Winn Dixie of Aesir~
+You stand in the entrance to the gigantic supermarket of Aesir. There is
+a sign above the door.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12809
+D2
+???????
+~
+~
+0 -1 3001
+D1
+The Flower Shop
+~
+~
+0 -1 12802
+D3
+Grocery carry-out area
+~
+~
+0 -1 12808
+E
+sign~
+Aesir Winn Dixie has the lowest 
+prices in the land. Even lower 
+than the New Thalos HEB or even 
+the Dwarven Village Safeway. 
+     Compare and Save.
+~
+S
+#12802
+The Flower Shop~
+You in the flower shop, among flora and fauna of every kind. 
+The sweet aroma of flowers fills your nostrils. Thom is 
+mumbling something about listening in the dark. He is not normal.
+~
+0 D 0
+D0
+Main area of the store
+~
+~
+0 -1 12810
+D3
+Main Entrance
+~
+~
+0 -1 12801
+S
+#12803
+Video Rental~
+You stand in the video rental department. All around you are couples
+engaged in bitter fights over 'Legends of the Fall' vs. 'Resivor Dogs'
+and the like. You notice a door to the south with a small sign on it.
+Hmmm....
+~
+0 D 0
+D0
+Main area of the store
+~
+~
+0 -1 12811
+D2
+Adult Movies Room
+~
+~
+2 12801 12874
+E
+sign~
+    Adult Movies Room. 
+  Under 21 not admitted. 
+ Obtain key by killing woman
+     at front desk.
+~
+S
+#12804
+Winn Dixie Deli~
+You stand at the counter of the Winn Dixie deli. Every kind of meat
+imaginable lies in the display before you. They have a special on 
+screaming harpie lips. Only 450 gold a pound. Perhaps you would like
+a free sample.....?
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12812
+D2
+Meat Locker
+~
+~
+1 -1 12805
+S
+#12805
+Meat Locker~
+You sneak behind the counter to find yourself in an enormous meat locker.
+Rancid, decaying animal flesh surrounds you. Hmm. You think you might YAK. 
+You notice a small man glaring at you with a meathook in his hands.
+His nametag says 'Lars'.
+~
+0 D 0
+D0
+The Deli
+~
+~
+1 -1 12804
+S
+#12806
+The Tobacco Display~
+You see every kind of cigarette and cigar you could ever want to puff on.
+And quite a few that you wouldn't.
+~
+0 D 0
+D0
+Checkout line #1
+~
+~
+0 -1 12815
+D1
+Grocery carry-out area
+~
+~
+0 -1 12807
+S
+#12807
+Grocery carry-out area~
+You see a burly man whipping the grocery boys to improve effeciency. He
+knocks one to the ground and laughs meniacally. Ha Ha Ha. Grocery boys 
+frantically cram groceries into sacks, trying to avoid the end of the general 
+manager's whip.
+
+~ 
+0 D 0
+D0
+Checkout line #2
+~
+~
+0 -1 12816
+D1
+Grocery carry-out area
+~
+~
+0 -1 12808
+D3
+The Tobacco display
+~
+~
+0 -1 12806
+S
+#12808
+Grocery carry-out area~
+You see a burly man whipping the grocery boys to improve effeciency. He
+knocks one to the ground and laughs meniacally. Ha Ha Ha. Grocery boys 
+busily cram groceries into sacks, trying to avoid the end of the shift 
+manager's whip.
+
+~ 
+0 D 0
+D0
+Express checkout line
+~
+~
+0 -1 12817
+D1
+Main Entrance
+~
+~
+0 -1 12801
+D3
+Grocery carry-out area
+~
+~
+0 -1 12807
+S
+#12809
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12818
+D2
+Main Entrance
+~
+~
+0 -1 12801
+D1
+Main area of store
+~
+~
+0 -1 12810
+D3
+Express checkout line
+~
+~
+0 -1 12817
+S
+#12810
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12819
+D2
+The Flower Shop
+~
+~
+0 -1 12802
+D1
+Main area of store
+~
+~
+0 -1 12811
+D3
+Main area of store
+~
+~
+0 -1 12809
+S
+#12811
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12820
+D2
+Video Rental
+~
+~
+0 -1 12803
+D1
+Main area of store
+~
+~
+0 -1 12812
+D3
+Main area of store
+~
+~
+0 -1 12810
+S
+#12812
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12820
+D2
+The Supermarket Deli
+~
+~
+0 -1 12804
+D1
+Customer Service
+~
+~
+0 -1 12813
+D3
+Main area of store
+~
+~
+0 -1 12811
+S
+#12813
+Customer Service Desk~
+Not too much going on here. There dosen't seem to be anyone working
+behind the desk. Is that snoring you hear? hmmm...It seems the
+employees are -hiding- from the customers and getting paid 25 gold
+a tick for napping...
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12822
+D3
+Main area of store
+~
+~
+0 -1 12812
+S
+#12814
+The Film Developing Department~
+A group of people stand around the film processing desk impatiently tapping
+their feet and checking their watches. The service here is extremly slow.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12824
+S
+#12815
+Checkout line #1~
+The sullen girl behind the register blandly asks how you are doing as she
+runs your 5 lbs of harpie lips over the scanner. You ask for a pack of
+Marlboro Menthol, the girl sneers and points to a large sign on the register.
+She dosen't think you are old enough?!? Well, I dont think I would stand for
+that....
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12825
+D2
+The Tobacco Display
+~
+~
+0 -1 12806
+E
+sign~
+        WARNING
+   We card under 115 
+     years of age.
+   No proof of age: 
+  NO BEER--NO TOBACCO
+  So don't even try.
+~
+S
+#12816
+Checkout line #2~
+A loud, hyperactive boy is fumbling uselessly with the register. He 
+alternates between cursing and apology as he violently yanks at the
+money drawer. Obviously incompetent. Save the manager the trouble                                             
+and kill him quickly.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12826
+D2
+The Grocery take-out area
+~
+~
+0 -1 12807
+S
+#12817
+Express check-out line~
+Possibly the slowest human on earth is ringing up groceries in this 
+line. A tall dark-haired boy is taking all the sweet time he wants. He looks
+at the 6 pack you are carrying, shakes his head, and points to a sign above
+the register. Now you're pissed. Go get him.
+~
+0 D 0
+D0
+Main area of store
+~
+~
+0 -1 12827
+D2
+The Magazine rack
+~
+~
+0 -1 12808
+D1
+Main area of store
+~
+~
+0 -1 12809
+E
+sign~
+           WARNING
+  If you try to buy tobacco or
+  alcohol without proof of age
+  you can FORGET IT! And don't
+try and convince us that picture
+on your liscense is YOU. Because
+     it obviously is not.
+~
+S
+#12818
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Health and Beauty Aids Aisle
+~
+~
+0 -1 12828
+D2
+Main area of store
+~
+~
+0 -1 12809
+D1
+Main area of store
+~
+~
+0 -1 12819
+D3
+Main area of store
+~
+~
+0 -1 128027
+S
+#12819
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Cereal Aisle
+~
+~
+0 -1 12829
+D2
+Main area of store
+~
+~
+0 -1 12810
+D1
+Main area of store
+~
+~
+0 -1 12820
+D3
+Main area of store
+~
+~
+0 -1 128018
+S
+#12820
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Frozen Foods Aisle
+~
+~
+0 -1 12830
+D2
+Main area of store
+~
+~
+0 -1 12811
+D1
+Main area of store
+~
+~
+0 -1 12821
+D3
+Main area of store
+~
+~
+0 -1 12819
+S
+#12821
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Ice Cream Aisle
+~
+~
+0 -1 12831
+D2
+Main area of store
+~
+~
+0 -1 12812
+D1
+Main area of store
+~
+~
+0 -1 12822
+D3
+Main area of store
+~
+~
+0 -1 12820
+S
+#12822
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Milk and Cheese Aisle
+~
+~
+0 -1 12832
+D2
+Customer Service Desk
+~
+~
+0 -1 12813
+D3
+Main area of store
+~
+~
+0 -1 12821
+S
+#12823
+The Pharmacy~
+As you look through the lotions and peruse the profolactics, you notice
+a skinny man in a white coat smiling down at you over thick bi-focals. 
+With waxy grin and velvet voice, the pharmacist asks if he can help you.
+~
+0 D 0
+D1
+The Main area of store
+~
+~
+0 -1 12824
+S
+#12824
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Produce Aisle
+~
+~
+0 -1 12834
+D2
+Film Developing Department
+~
+~
+0 -1 12814
+D1
+Main area of store
+~
+~
+0 -1 12825
+D3
+The Pharmacy
+~
+~
+0 -1 12823
+S
+#12825
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+Canned Goods Aisle
+~
+~
+0 -1 12835
+D2
+Check-out line #1
+~
+~
+0 -1 12815
+D1
+Main area of store
+~
+~
+0 -1 12826
+D3
+Main area of store
+~
+~
+0 -1 12824
+S
+#12826
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Soft Drinks Aisle
+~
+~
+0 -1 12836
+D2
+Check-out line #2
+~
+~
+0 -1 12816
+D1
+Main area of store
+~
+~
+0 -1 12827
+D3
+Main area of store
+~
+~
+0 -1 12825
+S
+#12827
+Main area of store~
+You stand in the front of the Aesir Winn Dixie. Imperial Guards and Gargolyes
+hurry past you with carts full of groceries, trying to get some last-minute
+shopping done. Bad music fills the store, and you are accosted frequently to 
+try a free sample of the latest canned swamp wraith.
+~
+0 D 0
+D0
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12837
+D2
+Express check-out line
+~
+~
+0 -1 12817
+D1
+Main area of store
+~
+~
+0 -1 12818
+D3
+Main area of store
+~
+~
+0 -1 12826
+S
+#12828
+Beauty Aids Aisle~
+Better described perhaps as the 'shallow female aisle'. Shallow females
+wander about, zombie-like, trying to find the perfect lotion to make
+them beautiful. Superficiality seems to have gotten a foothold here.
+Be careful, don't let them suck you in...remember: You are beautiful
+-just the way you are-.
+~
+0 D 0
+D0
+Beauty Aids Aisle
+~
+~
+0 -1 12838
+D2
+Main Area of Store
+~
+~
+0 -1 12818
+S
+#12829
+The Cereal Aisle~
+What an incredible selection of cold cereal! From 'Bran Balls' to 'Captain 
+Cavity', it's all here. You hear a child pestering her mother for a box of 
+sugar-coated-caramel-filled-cookie-flavored bran flakes and you realize
+the people here are beginning to irritate you.
+~
+0 D 0
+D0
+The Cereal Aisle
+~
+~
+0 -1 12839
+D2
+Main Area of Store
+~
+~
+0 -1 12819
+S
+#12830
+The Frozen Dinner Aisle~
+Freezers line the aisle, jammed with every sort of frozen food possible.
+You glance at the expiration date on a pot pie dinner and....oh my.....
+that could explain the terrible stench. When the FROZEN food is rotting,
+it means you need to reevaluate your choice of supermarkets.
+~
+0 D 0
+D0
+The Frozen Dinner Aisle
+~
+~
+0 -1 12840
+D2
+The Main Area of Store
+~
+~
+0 -1 12820
+S
+#12831
+The Ice-Cream Aisle~
+You stand in the frigid ice-cream aisle. Brrrrr it's cold here. This 
+seems to be the feeding ground for the seriously overweight. Watch out,
+if you get between one of them and their 'Rocky Road' ice cream, it's not
+a pretty sight.
+~
+0 D 0
+D0
+The Ice Cream Aisle
+~
+~
+0 -1 12841
+D2
+The Main Area of Store
+~
+~
+0 -1 12821
+S
+#12832
+The Dairy Aisle~
+Enormous quantities of milk and cheese unfold before you. You wonder how
+the few cows in Aesir could produce so much. It is truly Reardon's Utopia, 
+and a nightmare for the lactose intolerant.
+~
+0 D 0
+D0
+The Dairy Aisle
+~
+~
+0 -1 12842
+D2
+The Main Area of Store
+~
+~
+0 -1 12822
+S
+#12833
+A Dummie Room~
+Well, I messed up the numbering so i have to code this wonderful, creative,
+and witty room, to make the numbers work out right. *sigh* 
+~
+0 D 0
+S
+#12834
+The Produce Aisle~
+Fresh fruits and vegetables are piled high all around you. They 
+have the biggest kiwi display you think you have ever seen. As you
+wander through this maze of produce, you wonder if you still know
+your way out of here.
+~
+0 D 0
+D0
+The Produce Aisle
+~
+~
+0 -1 12843
+D2
+Main area of Store
+~
+~
+0 -1 12824
+S
+#12835
+The Canned Goods Aisle~
+The shelves here are mostly empty, due to a lazy stockboy no doubt.
+The floor is littered with expired coupons and you have to be careful
+to step around burst cans of chili on the floor. Ewww.
+~
+0 D 0
+D0 
+The Canned Goods Aisle
+~
+~
+0 -1 12844
+D2
+The main area of store
+~
+~
+0 -1 12825
+S
+#12836
+The Soft Drink Aisle~
+There are shelves upon shelves of various soft drinks you have never
+heard of. The floor is quite sticky, and to your discust you notice 
+several large cockroaches have been caught in it.
+~
+0 D 0
+D0 
+The Soft Drink Aisle
+~
+~
+0 -1 12845
+D2
+The main area of store
+~
+~
+0 -1 12826
+S
+#12837
+The Wine and Hard Liquor Aisle~
+The pride of Aesir Winn Dixie. This is the most alcohol you have ever
+seen in one place. Millions of bottles of wine, spiced rum, whiskey...
+...anything you could want. Be careful though, any underage mortal
+that tries to buy alcohol gets 6 hours jailtime if caught.
+~
+0 D 0
+D0
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12846
+D2
+The main area of store
+~
+~
+0 -1 12827
+S
+#12838
+Beauty Aids Aisle~
+Better described perhaps as the 'shallow female aisle'. Shallow females
+wander about, zombie-like, trying to find the perfect lotion to make
+them beautiful. Superficiality seems to have gotten a foothold here.
+Be careful, don't let them suck you in...remember: You are beautiful
+-just the way you are-.
+~
+0 D 0
+D0
+Beauty Aids Aisle
+~
+~
+0 -1 12847
+D2
+Beauty Aids Aisle
+~
+~
+0 -1 12828
+S
+#12839
+The Cereal Aisle~
+What an incredible selection of cold cereal! From 'Bran Balls' to 'Captain 
+Cavity', it's all here. You hear a child pestering her mother for a box of 
+sugar-coated-caramel-filled-cookie-flavored bran flakes and you realize
+the people here are beginning to irritate you.
+~
+0 D 0
+D0
+The Cereal Aisle
+~
+~
+0 -1 12848
+D2
+The Cereal Aisle
+~
+~
+0 -1 12829
+S
+#12840
+The Frozen Dinner Aisle~
+Freezers line the aisle, jammed with every sort of frozen food possible.
+You glance at the expiration date on a pot pie dinner and....oh my.....
+that could explain the terrible stench. When the FROZEN food is rotting,
+it means you need to reevaluate your choice of supermarkets.
+~
+0 D 0
+D0
+The Frozen Dinner Aisle
+~
+~
+0 -1 12849
+D2
+The Frozen Dinner Aisle
+~
+~
+0 -1 12830
+S
+#12841
+The Ice-Cream Aisle~
+You stand in the frigid ice-cream aisle. Brrrrr it's cold here. This 
+seems to be the feeding ground for the seriously overweight. Watch out,
+if you get between one of them and their 'Rocky Road' ice cream, it's not
+a pretty sight.
+~
+0 D 0
+D0
+The Ice Cream Aisle
+~
+~
+0 -1 12850
+D2
+The Ice Cream Aisle
+~
+~
+0 -1 12831
+S
+#12842
+The Dairy Aisle~
+Enormous quantities of milk and cheese unfold before you. You wonder how
+the few cows in Aesir could produce so much. It is truly Reardon's Utopia, 
+and a nightmare for the lactose intolerant.
+~
+0 D 0
+D0
+The Dairy Aisle
+~
+~
+0 -1 12851
+D2
+The Dairy Aisle
+~
+~
+0 -1 12832
+S
+#12843
+The Produce Aisle~
+Fresh fruits and vegetables are piled high all around you. They 
+have the biggest kiwi display you think you have ever seen. As you
+wander through this maze of produce, you wonder if you still know
+your way out of here.
+~
+0 D 0
+D0
+The Produce Aisle
+~
+~
+0 -1 12862
+D2
+The Produce Aisle
+~
+~
+0 -1 12834
+S
+#12844
+The Canned Goods Aisle~
+The shelves here are mostly empty, due to a lazy stockboy no doubt.
+The floor is littered with expired coupons and you have to be careful
+to step around burst cans of chili on the floor. Ewww.
+~
+0 D 0
+D0 
+The Canned Goods Aisle
+~
+~
+0 -1 12853
+D2
+The Canned Goods Aisle
+~
+~
+0 -1 12835
+S
+#12845
+The Soft Drink Aisle~
+There are shelves upon shelves of various soft drinks you have never
+heard of. The floor is quite sticky, and to your discust you notice 
+several large cockroaches have been caught in it.
+~
+0 D 0
+D0 
+The Soft Drink Aisle
+~
+~
+0 -1 12854
+D2
+The Soft Drink Aisle
+~
+~
+0 -1 12836
+S
+#12846
+The Wine and Hard Liquor Aisle~
+The pride of Aesir Winn Dixie. This is the most alcohol you have ever
+seen in one place. Millions of bottles of wine, spiced rum, whiskey...
+...anything you could want. Be careful though, any underage mortal
+that tries to buy alcohol gets 6 hours jailtime if caught.
+~
+0 D 0
+D0
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12855
+D2
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12837
+S
+#12847
+Beauty Aids Aisle~
+Better described perhaps as the 'shallow female aisle'. Shallow females
+wander about, zombie-like, trying to find the perfect lotion to make
+them beautiful. Superficiality seems to have gotten a foothold here.
+Be careful, don't let them suck you in...remember: You are beautiful
+-just the way you are-.
+~
+0 D 0
+D0
+Beauty Aids Aisle
+~
+~
+0 -1 12856
+D2
+Beauty Aids Aisle
+~
+~
+0 -1 12838
+S
+#12848
+The Cereal Aisle~
+What an incredible selection of cold cereal! From 'Bran Balls' to 'Captain 
+Cavity', it's all here. You hear a child pestering her mother for a box of 
+sugar-coated-caramel-filled-cookie-flavored bran flakes and you realize
+the people here are beginning to irritate you.
+~
+0 D 0
+D0
+The Cereal Aisle
+~
+~
+0 -1 12857
+D2
+The Cereal Aisle
+~
+~
+0 -1 12839
+S
+#12849
+The Frozen Dinner Aisle~
+Freezers line the aisle, jammed with every sort of frozen food possible.
+You glance at the expiration date on a pot pie dinner and....oh my.....
+that could explain the terrible stench. When the FROZEN food is rotting,
+it means you need to reevaluate your choice of supermarkets.
+~
+0 D 0
+D0
+The Frozen Dinner Aisle
+~
+~
+0 -1 12858
+D2
+The Frozen Dinner Aisle
+~
+~
+0 -1 12840
+S
+#12850
+The Ice-Cream Aisle~
+You stand in the frigid ice-cream aisle. Brrrrr it's cold here. This 
+seems to be the feeding ground for the seriously overweight. Watch out,
+if you get between one of them and their 'Rocky Road' ice cream, it's not
+a pretty sight.
+~
+0 D 0
+D0
+The Ice Cream Aisle
+~
+~
+0 -1 12859
+D2
+The Ice Cream Aisle
+~
+~
+0 -1 12841
+S
+#12851
+The Dairy Aisle~
+Enormous quantities of milk and cheese unfold before you. You wonder how
+the few cows in Aesir could produce so much. It is truly Reardon's Utopia, 
+and a nightmare for the lactose intolerant.
+~
+0 D 0
+D0
+The Dairy Aisle
+~
+~
+0 -1 12860
+D2
+The Dairy Aisle
+~
+~
+0 -1 12842
+S
+#12852
+The Produce Aisle~
+Fresh fruits and vegetables are piled high all around you. They 
+have the biggest kiwi display you think you have ever seen. As you
+wander through this maze of produce, you wonder if you still know
+your way out of here.
+~
+0 D 0
+D0
+The Produce Aisle
+~
+~
+0 -1 12861
+D2
+The Produce Aisle
+~
+~
+0 -1 12843
+S
+#12853
+The Canned Goods Aisle~
+The shelves here are mostly empty, due to a lazy stockboy no doubt.
+The floor is littered with expired coupons and you have to be careful
+to step around burst cans of chili on the floor. Ewww.
+~
+0 D 0
+D0 
+The Canned Goods Aisle
+~
+~
+0 -1 12862
+D2
+The Canned Goods Aisle
+~
+~
+0 -1 12844
+S
+#12854
+The Soft Drink Aisle~
+There are shelves upon shelves of various soft drinks you have never
+heard of. The floor is quite sticky, and to your discust you notice 
+several large cockroaches have been caught in it.
+~
+0 D 0
+D0 
+The Soft Drink Aisle
+~
+~
+0 -1 12863
+D2
+The Soft Drink Aisle
+~
+~
+0 -1 12845
+S
+#12855
+The Wine and Hard Liquor Aisle~
+The pride of Aesir Winn Dixie. This is the most alcohol you have ever
+seen in one place. Millions of bottles of wine, spiced rum, whiskey...
+...anything you could want. Be careful though, any underage mortal
+that tries to buy alcohol gets 6 hours jailtime if caught.
+~
+0 D 0
+D0
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12864
+D2
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12846
+S
+#12856
+Beauty Aids Aisle~
+Better described perhaps as the 'shallow female aisle'. Shallow females
+wander about, zombie-like, trying to find the perfect lotion to make
+them beautiful. Superficiality seems to have gotten a foothold here.
+Be careful, don't let them suck you in...remember: You are beautiful
+-just the way you are-.
+~
+0 D 0
+D0
+Beauty Aids Aisle
+~
+~
+0 -1 12865
+D2
+Beauty Aids Aisle
+~
+~
+0 -1 12847
+S
+#12857
+The Cereal Aisle~
+What an incredible selection of cold cereal! From 'Bran Balls' to 'Captain 
+Cavity', it's all here. You hear a child pestering her mother for a box of 
+sugar-coated-caramel-filled-cookie-flavored bran flakes and you realize
+the people here are beginning to irritate you.
+~
+0 D 0
+D0
+The Cereal Aisle
+~
+~
+0 -1 12866
+D2
+The Cereal Aisle
+~
+~
+0 -1 12848
+S
+#12858
+The Frozen Dinner Aisle~
+Freezers line the aisle, jammed with every sort of frozen food possible.
+You glance at the expiration date on a pot pie dinner and....oh my.....
+that could explain the terrible stench. When the FROZEN food is rotting,
+it means you need to reevaluate your choice of supermarkets.
+~
+0 D 0
+D0
+The Frozen Dinner Aisle
+~
+~
+0 -1 12867
+D2
+The Frozen Dinner Aisle
+~
+~
+0 -1 12849
+S
+#12859
+The Ice-Cream Aisle~
+You stand in the frigid ice-cream aisle. Brrrrr it's cold here. This 
+seems to be the feeding ground for the seriously overweight. Watch out,
+if you get between one of them and their 'Rocky Road' ice cream, it's not
+a pretty sight.
+~
+0 D 0
+D0
+The Ice Cream Aisle
+~
+~
+0 -1 12868
+D2
+The Ice Cream Aisle
+~
+~
+0 -1 12850
+S
+#12860
+The Dairy Aisle~
+Enormous quantities of milk and cheese unfold before you. You wonder how
+the few cows in Aesir could produce so much. It is truly Reardon's Utopia, 
+and a nightmare for the lactose intolerant.
+~
+0 D 0
+D0
+The Dairy Aisle
+~
+~
+0 -1 12869
+D2
+The Dairy Aisle
+~
+~
+0 -1 12851
+S
+#12861
+The Produce Aisle~
+Fresh fruits and vegetables are piled high all around you. They 
+have the biggest kiwi display you think you have ever seen. As you
+wander through this maze of produce, you wonder if you still know
+your way out of here.
+~
+0 D 0
+D0
+The Produce Aisle
+~
+~
+0 -1 12870
+D2
+The Produce Aisle
+~
+~
+0 -1 12852
+S
+#12862
+The Canned Goods Aisle~
+The shelves here are mostly empty, due to a lazy stockboy no doubt.
+The floor is littered with expired coupons and you have to be careful
+to step around burst cans of chili on the floor. Ewww.
+~
+0 D 0
+D0 
+The Canned Goods Aisle
+~
+~
+0 -1 12871
+D2
+The main area of store
+~
+~
+0 -1 12853
+S
+#12863
+The Soft Drink Aisle~
+There are shelves upon shelves of various soft drinks you have never
+heard of. The floor is quite sticky, and to your discust you notice 
+several large cockroaches have been caught in it.
+~
+0 D 0
+D0 
+The Soft Drink Aisle
+~
+~
+0 -1 12872
+D2
+The Soft Drink Aisle
+~
+~
+0 -1 12854
+S
+#12864
+The Wine and Hard Liquor Aisle~
+The pride of Aesir Winn Dixie. This is the most alcohol you have ever
+seen in one place. Millions of bottles of wine, spiced rum, whiskey...
+...anything you could want. Be careful though, any underage mortal
+that tries to buy alcohol gets 6 hours jailtime if caught.
+~
+0 D 0
+D0
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12873
+D2
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12855
+S
+#12865
+Beauty Aids Aisle~
+Better described perhaps as the 'shallow female aisle'. Shallow females
+wander about, zombie-like, trying to find the perfect lotion to make
+them beautiful. Superficiality seems to have gotten a foothold here.
+Be careful, don't let them suck you in...remember: You are beautiful
+-just the way you are-.
+~
+0 D 0
+D2
+Beauty Aids Aisle
+~
+~
+0 -1 12856
+D1
+The Cereal Aisle
+~
+~
+0 -1 12866
+D3
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12873
+S
+#12866
+The Cereal Aisle~
+What an incredible selection of cold cereal! From 'Bran Balls' to 'Captain 
+Cavity', it's all here. You hear a child pestering her mother for a box of 
+sugar-coated-caramel-filled-cookie-flavored bran flakes and you realize
+the people here are beginning to irritate you.
+~
+0 D 0
+D2
+The Cereal Aisle
+~
+~
+0 -1 12857
+D1
+The Frozen Dinners Aisle
+~
+~
+0 -1 12867
+D3
+Beauty Aids Aisle
+~
+~
+0 -1 12865
+S
+#12867
+The Frozen Dinner Aisle~
+Freezers line the aisle, jammed with every sort of frozen food possible.
+You glance at the expiration date on a pot pie dinner and....oh my.....
+that could explain the terrible stench. When the FROZEN food is rotting,
+it means you need to reevaluate your choice of supermarkets.
+~
+0 D 0
+D2
+The Frozen Dinner Aisle
+~
+~
+0 -1 12858
+D1
+The Ice Cream Aisle
+~
+~
+0 -1 12868
+D3
+The Cereal Aisle
+~
+~
+0 -1 12866
+S
+#12868
+The Ice-Cream Aisle~
+You stand in the frigid ice-cream aisle. Brrrrr it's cold here. This 
+seems to be the feeding ground for the seriously overweight. Watch out,
+if you get between one of them and their 'Rocky Road' ice cream, it's not
+a pretty sight.
+~
+0 D 0
+D2
+The Ice Cream Aisle
+~
+~
+0 -1 12859
+D1
+The Dairy Aisle
+~
+~
+0 -1 12869
+D3
+The Frozen Food Aisle
+~
+~
+0 -1 12867
+S
+#12869
+The Dairy Aisle~
+Enormous quantities of milk and cheese unfold before you. You wonder how
+the few cows in Aesir could produce so much. It is truly Reardon's Utopia, 
+and a nightmare for the lactose intolerant.
+~
+0 D 0
+D2
+The Dairy Aisle
+~
+~
+0 -1 12860
+D3
+The Ice Cream Aisle
+~
+~
+0 -1 12868
+S
+#12870
+The Produce Aisle~
+Fresh fruits and vegetables are piled high all around you. They 
+have the biggest kiwi display you think you have ever seen. As you
+wander through this maze of produce, you wonder if you still know
+your way out of here.
+~
+0 D 0
+D1
+The Canned Goods Aisle
+~
+~
+0 -1 12871
+D2
+The Produce Aisle
+~
+~
+0 -1 12861
+S
+#12871
+The Canned Goods Aisle~
+The shelves here are mostly empty, due to a lazy stockboy no doubt.
+The floor is littered with expired coupons and you have to be careful
+to step around burst cans of chili on the floor. Ewww.
+~
+0 D 0
+D1 
+The Soft Drinks Aisle
+~
+~
+0 -1 12872
+D2
+The Canned Goods Aisle
+~
+~
+0 -1 12862
+D3
+The Produce Aisle
+~
+~
+0 -1 12870
+S
+#12872
+The Soft Drink Aisle~
+There are shelves upon shelves of various soft drinks you have never
+heard of. The floor is quite sticky, and to your discust you notice 
+several large cockroaches have been caught in it.
+~
+0 D 0
+D1
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12873
+D2
+The Soft Drink Aisle
+~
+~
+0 -1 12868
+D3
+Canned Foods Aisle
+~
+~
+0 -1 12871
+S
+#12873
+The Wine and Hard Liquor Aisle~
+The pride of Aesir Winn Dixie. This is the most alcohol you have ever
+seen in one place. Millions of bottles of wine, spiced rum, whiskey...
+...anything you could want. Be careful though, any underage mortal
+that tries to buy alcohol gets 6 hours jailtime if caught.
+~
+0 D 0
+D1
+The Beauty Aids Aisle
+~
+~
+0 -1 12865
+D2
+The Wine and Hard Liquor Aisle
+~
+~
+0 -1 12864
+D3
+The Soft Drinks Aisle
+~
+~
+0 -1 12872
+S
+#12874
+The Adult Movies Room~
+A very naughty place. The walls are covered with very naughty videos
+indeed. You examine a fine piece of cinematography called 'Erectnophobia'
+only to find out that it's rented. Darn. You begin to feel a little 
+nervous as you glance around you; the people here are very disconcerting.
+~
+0 D 0
+D0 
+The Video Rental
+~
+~
+1 -1 12803
+S
+
+#0
+
+#RESETS
+M 0 12815 15 12809       woman
+M 0 12815 15 12819
+M 0 12815 15 12827
+M 0 12815 15 12827
+M 0 12815 15 12826
+M 0 12815 15 12826
+M 0 12815 15 12821
+M 0 12815 15 12822
+M 0 12815 15 12812
+*
+M 0 12816 16 12810       man
+M 0 12816 16 12820
+M 0 12816 16 12818
+M 0 12816 16 12826
+M 0 12816 16 12826
+M 0 12816 16 12812
+M 0 12816 16 12819
+M 0 12816 16 12819
+M 0 12816 16 12824
+M 0 12816 16 12825
+*
+M 0 12800 1 12804        dave
+E 1 12817 -1 12         violent indifference
+*
+M 0 12803 1 12804        heidi
+E 1 12808 -1 8          shoes
+E 1 12809 -1 5          nametag
+E 1 12811 -1 1          ring
+E 1 12814 -1 7          jeans
+*
+M 0 12801 1 12823        pharmicist
+M 0 12802 1 12856        vera
+*
+M 0 12804 1 12857        jeff
+E 1 12803 -1 3          tie
+E 1 12800 -1 16         mace
+E 1 12819 -1 5          steadfastness
+E 1 12818 -1 6          clarity
+*
+M 0 12805 1 12853        pete
+*
+M 0 12806 1 12830        rick
+E 1 12821 -1 5          determination
+*
+M 0 12807 1 12802        thom
+E 1 12810 -1 6          bandana
+*
+M 0 12808 1 12829        delayne
+*
+M 0 12809 1 12814        amy
+*
+M 0 12810 1 12813        michael
+E 1 12813 -1 5          knowlegde
+E 1 12807 -1 6          t-shirt
+*
+M 0 12811 1 12803        Michelle
+G 1 12801 -1            key
+E 1 12806 -1 17         rental card
+E 1 12812 -1 5          48-hour bra
+*
+M 0 12812 1 12839        Mark
+M 0 12813 1 12839        becky
+E 1 12815 -1 3          hickey
+*
+M 0 12814 4 12870        banana man
+M 0 12814 4 12869
+M 0 12814 4 12822
+M 0 12814 4 12824
+*
+M 0 12817 10 12828       Shallow female
+M 0 12817 10 12828
+M 0 12817 10 12838
+M 0 12817 10 12838
+M 0 12817 10 12838
+M 0 12817 10 12847
+M 0 12817 10 12856
+M 0 12817 10 12856
+M 0 12817 10 12865
+M 0 12817 10 12865
+*
+M 0 12818 1 12805        Lars
+E 1 12804 -1 16         meathook
+E 1 12816 -1 5          bad attitude
+*
+M 0 12819 10 12831       Fat woman
+M 0 12819 10 12831
+M 0 12819 10 12841 
+E 1 12820 -1 17         ice cream
+M 0 12819 10 12850 
+M 0 12819 10 12850
+M 0 12819 10 12859 
+M 0 12819 10 12868 
+E 1 12820 -1 17         ice cream
+* 
+M 0 12820 10 12831       Fat man
+M 0 12820 10 12841
+M 0 12820 10 12841
+M 0 12820 10 12850
+E 1 12820 -1 17         ice cream
+M 0 12820 10 12859
+M 0 12820 10 12859
+M 0 12820 10 12868
+*
+M 0 12821 1 12808        Assistant manager
+E 1 12805 -1 16         whip
+*
+M 0 12822 1 12807        General manager
+E 1 12802 -1 16         whip
+*
+M 0 12823 1 12855        jason frey
+*
+M 0 12824 8 12807        grocery boys
+M 0 12824 8 12807
+M 0 12824 8 12807
+M 0 12824 8 12807
+M 0 12824 8 12808 
+M 0 12824 8 12808
+M 0 12824 8 12808
+M 0 12824 8 12808
+*
+M 0 12825 1 12815        sullen cashier
+M 0 12826 1 12816        hyperactive
+M 0 12827 1 12817        slothboy
+*
+M 0 12828 07 12874       pervert
+M 0 12828 07 12874
+M 0 12828 07 12874
+M 0 12828 07 12874
+M 0 12828 07 12874
+M 0 12828 07 12874
+M 0 12828 07 12874
+*
+D 0 12803 2 2        closed and locked door TO porno room
+D 0 12874 0 1           closed door FROM porno room
+D 0 12805 0 1           closed door FROM meat locker
+D 0 12804 2 1           closed door TO meat locker
+*
+M 0 12829 1 12857        jeff's mosquito friend
+S
+
+#$

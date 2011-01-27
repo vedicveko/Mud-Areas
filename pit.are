@@ -1,0 +1,1370 @@
+#AREA	{5 15} Zafnax The Pit Fighters' Arena~
+
+
+#MOBILES
+#3300
+pit fighter~
+a pit fighter~
+A pit fighter brandishes his flail menacingly.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3301
+pit fighter~
+a pit fighter~
+A pit fighter brandishes her trident menacingly.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3302
+ref referee~
+the ref~
+The pit ref struggles to keep the competitors at bay until the next round.
+~
+This beleagured fellow's sole task is to attempt to adjudicate the pit
+fights and stop the fighters from killing each other until the right time.
+He has a rather tough time of it, as the many scars on his body attest, but
+he looks bad enough to handle himself.
+~
+2|8|64 128|512 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3303
+member audience spectator~
+an audience member~
+An audience member cheers himself hoarse as another pit fighter falls.
+~
+This bloodthirsty spectator comes to the fights to watch men and women slay
+each other, or to watch them be torn apart by wild animals, placing bets on
+the outcome.
+~
+2|64|128 0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3304
+member audience spectator~
+an audience member~
+An audience member cheers herself hoarse as another pit fighter falls.
+~
+This bloodthirsty spectator comes to the fights to watch men and women slay
+each other, or to watch them be torn apart by wild animals, placing bets on
+the outcome.
+~
+2|64|128 0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3305
+bookie~
+a bookie~
+A bookie roams the stands collecting bets.
+~
+This ambitious entrepeneur has made a LOT of money arranging bets on the
+illegal fights carried out in this arena of death. He asks you if you wish
+to place a small wager on the outcome of the next fight.
+~
+2|64|128 512|8192 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3306
+food vendor~
+a food vendor~
+A food vendor sells snacks here to the spectators.
+~
+It may seem a little off to be serving light refreshments at a pit fight, but
+hell, if ya gotta eat, ya gotta eat.
+~
+2|8|64 128|512|8192 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3307
+wild dog~
+a wild dog~
+A wild dog snarls at you and attacks!
+~
+This vicious little mongrel has been specially trained through a mixture of
+starvation and abuse to be as mean and violent as possible. It is aching to
+tear the flesh from as many people as it can.
+~
+2|32|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3308
+fighting cock~
+a fighting cock~
+A fighting cock struts proudly past you.
+~
+This rooster has been specially trained to fight in the arena against other
+cocks for the enjoyment of the bloodthirsty spectators.
+~
+2|64|128 512 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#3309
+boar~
+a wild boar~
+A wild boar grunts and charges at you.
+~
+These ferocious swine were captured on the Plains of Blood and brought here
+to use in mortal combat against the pit fighters.
+~
+2|32|64 512|8192 0 S
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#3310
+pit master~
+the pit master~
+The pit master cackles at you, and asks if you want to fight.
+~
+The pit master has been capturing and training potential pit fighters all
+his adult life. And though you are a little older than most of his students
+when they begin training, he still sizes you up as a potential combatant.
+~
+2|8|64 512|8192 -400 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3311
+pit guard~
+a pit guard~
+A pit guard patrols for escaping pit fighters.
+~
+These guards are kept to make sure the pit fighters don't escape. Most of
+them are retired pit fighters themselves, and are thus very well-trained
+and lethal.
+~
+2|8|64 512|8192 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3312
+pit fighter champion champ butch~
+the champion~
+Butch, the pit fighter champion, flexes his muscles and roars!
+~
+Butch has fought an unprecedented 100 fights, and has not lost a one (well
+that's obvious- if he had lost he wouldn't be alive). He is also one of
+the most vicious and brutal of the pit fighters, and specializes in slaying
+his opponents by grabbing them when they are stunned and snapping them in
+half.
+~
+2|8|64 128|512|8192 -800 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3313
+pit fighter~
+a pit fighter~
+A pit fighter brandishes his flail menacingly.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3314
+pit fighter~
+a pit fighter~
+A pit fighter brandishes her dagger menacingly.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3315
+pit fighter~
+a pit fighter~
+A pit fighter brandishes his spear menacingly.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3316
+pit fighter~
+a pit fighter~
+A pit fighter brandishes her trident menacingly.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3317
+pit fighter~
+a pit fighter~
+A pit fighter battles ferociously against wild beasts here.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3318
+pit fighter~
+a pit fighter~
+A pit fighter battles ferociously against wild beasts here.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3319
+pit fighter~
+a pit fighter~
+A pit fighter brandishes his spear menacingly.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3320
+pit fighter~
+a pit fighter~
+A pit fighter brandishes her spear menacingly.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3321
+pit fighter~
+a pit fighter~
+A pit fighter is resting here.
+~
+This fellow has been trained from birth for but one purpose- to fight in
+the pits until he achieves sufficient wealth to buy his freedom or until
+he is slain.
+~
+2|8|64 512 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3322
+pit fighter~
+a pit fighter~
+A pit fighter is resting here.
+~
+This woman has been trained from birth for but one purpose- to fight in
+the pits until she achieves sufficient wealth to buy his freedom or until
+she is slain.
+~
+2|8|64 512 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#0
+
+
+#OBJECTS
+#3300
+flail~
+a military flail~
+A military flail has been left here.~
+~
+5 0 1|8192
+0 0 0 4 
+10 0 0
+A
+19 2
+#3301
+trident~
+a trident~
+A barbed trident is stuck in the ground here.~
+~
+5 0 1|8192
+0 0 0 2 
+5 0 0
+A
+18 2
+#3302
+shield~
+a bronze shield~
+A bronze shield lies here.~
+~
+9 0 1|512
+0 0 0 0 
+7 0 0
+A
+17 -3
+#3303
+helm~
+a bronze helm~
+A bronze helm has been left here.~
+~
+9 0 1|16
+0 0 0 0 
+3 0 0
+#3304
+breast plate breastplate~
+a bronze breastplate~
+A bronze breastplate lies on the floor here.~
+~
+9 0 1|8
+0 0 0 0 
+9 0 0
+#3305
+greaves~
+a pair of bronze greaves~
+A pair of bronze greaves has been left here.~
+~
+9 0 1|32
+0 0 0 0 
+6 0 0
+A
+2 -1
+A
+14 -20
+#3306
+bracer~
+a bronze bracer~
+A bronze bracer is lying on the floor here.~
+~
+9 0 1|4096
+0 0 0 0 
+3 0 0
+#3307
+dagger~
+an obsidian dagger~
+An obsidian dagger is wedged into a crack in the floor here.~
+~
+5 0 1|8192
+0 0 0 11 
+3 0 0
+#3308
+net~
+a net~
+A net has been piled up on the floor here.~
+~
+3 0 1|16384
+5 1 1 68 
+4 0 0
+#3309
+spear~
+a sturdy spear~
+A sturdy spear with a barbed head is stuck in the wall here.~
+~
+30 0 1|8192|16384
+0 0 0 0 
+4 0 0
+#3310
+girdle~
+a leather girdle~
+A leather girdle with bronze studs is curled up on the floor here.~
+~
+9 0 1|2048
+0 0 0 0 
+5 0 0
+#3311
+slip~
+a betting slip~
+A betting slip has been left here.~
+~
+8 0 1|16384
+0 0 0 0 
+1 150 0
+#3312
+belt pouch~
+a belt pouch~
+A belt pouch lies here.~
+~
+15 0 1|2048
+10 1 0 0 
+1 0 0
+#3313
+dog collar~
+a dog collar~
+A dog collar has been left here.~
+~
+9 0 1|4
+0 0 0 0 
+2 0 0
+#3314
+rooster collar~
+a rooster collar~
+A rooster collar has been left here.~
+~
+9 0 1|4
+0 0 0 0 
+1 0 0
+#3315
+boar collar~
+a boar collar~
+A boar collar has been left here.~
+~
+9 0 1|4
+0 0 0 0 
+3 0 0
+#3316
+cloak~
+a fine cloak~
+A fine cloak has been neatly folded up here.~
+~
+9 0 1|4
+0 0 0 0 
+2 0 0
+A
+23 -1
+A
+25 1
+#3317
+gauntlets~
+a pair of leather gauntlets~
+These leather gauntlets look very supple and well-made.~
+~
+9 2 1|128
+0 0 0 0 
+1 0 0
+A
+2 1
+A
+18 1
+#3318
+bracers~
+a set of leather bracers~
+A set of leather bracers lie here.~
+~
+9 0 1|256
+0 0 0 0 
+3 0 0
+A
+13 5
+#3319
+sandals~
+a pair of sandals~
+A pair of sandals has been left here.~
+~
+9 0 1|64
+0 0 0 0 
+1 0 0
+#3320
+sword~
+an iron sword~
+A rare iron sword lies in its scabbard here.~
+~
+5 16|128|512 1|8192
+0 0 0 3 
+13 0 0
+A
+1 1
+A
+18 2
+A
+19 2
+#3321
+tunic~
+an embroidered tunic~
+An embroidered tunic lies here.~
+~
+9 0 1|8
+0 0 0 0 
+1 0 0
+#3322
+ring~
+a pit guard's ring~
+A pit guard's ring has been left here.~
+~
+9 0 1|2
+0 0 0 0 
+1 0 0
+A
+5 1
+A
+13 8
+#3323
+helm~
+a plumed bronze helm~
+A plumed bronze helm rests here.~
+~
+9 0 1|16
+0 0 0 0 
+3 0 0
+A
+4 1
+#3324
+club~
+a stout club~
+A stout club used for subduing slaves lies here.~
+~
+9 0 1|8192
+0 0 0 7 
+3 0 0
+#3325
+shield~
+a bronze shield~
+A bronze shield with a gold insignia lies here.~
+~
+9 0 1|512
+0 0 0 0 
+5 0 0
+A
+17 -8
+#3326
+greaves~
+a pair of lightweight bronze greaves~
+A pair of lightweight bronze greaves has been left here.~
+~
+9 0 1|32
+0 0 0 0 
+3 0 0
+A
+14 20
+#3327
+girdle~
+a broad girdle~
+A broad girdle is laid out here.~
+~
+9 0 1|2048
+0 0 0 0 
+5 0 0
+A
+13 10
+#3328
+cloak~
+a pit guard's cloak~
+A pit guard's cloak lies here.~
+~
+9 0 1|4
+0 0 0 0 
+2 0 0
+A
+23 -1
+#3329
+cuirass~
+a bronze cuirass~
+A bronze cuirass has been left here.~
+~
+9 0 1|8
+6 0 0 0 
+5 0 0
+A
+17 -5
+#3330
+champ girdle~
+the champ's girdle~
+The champ's girdle is here! Wear it!~
+~
+9 1|64|4096 1|2048
+0 0 0 0 
+1 0 0
+A
+1 1
+A
+5 1
+A
+13 5
+A
+17 -6
+A
+25 1
+#3331
+great axe~
+a great axe~
+A great axe is leaned against a wall here.~
+~
+5 2|16|512 1|32768
+0 0 0 3 
+25 0 0
+A
+19 5
+#3332
+mask~
+a black mask~
+A black mask is here.~
+~
+9 0 1|16
+0 0 0 0 
+1 0 0
+#3333
+boots~
+a pair of fur boots~
+A pair of fur boots has been left here.~
+~
+9 0 1|64
+0 0 0 0 
+7 0 0
+A
+5 1
+#3334
+water flask~
+a flask of water~
+A flask of water rests here.~
+~
+17 0 1|16384
+5 5 0 0 
+1 0 0
+#3335
+wine flask~
+a flask of wine~
+A flask of wine rests here.~
+~
+17 0 1|16384
+5 5 2 0 
+1 0 0
+#3336
+meat~
+a strip of dried meat~
+A strip of dried meat lies here.~
+~
+19 0 1
+4 0 0 0 
+1 0 0
+#3337
+bone~
+a bone~
+A human bone lies here.~
+~
+5 0 1|32768
+0 0 0 7 
+4 0 0
+A
+18 -2
+A
+19 -2
+#3338
+raw meat~
+some raw meat~
+A pile of raw meat lies here festering.~
+~
+19 0 1
+8 0 0 1 
+5 0 0
+#0
+
+
+#ROOMS
+#3300
+Entry to the Pits~
+You are heading down a steep staircase toward a dimly-lit room which serves
+as the entry to the Pits- the bloodstained arenas where lethal fights between
+pit fighters and animals take place, accompanied by the betting of the
+bloodthirsty spectators. This cruel sport was abolished by the time of
+Present Anon, but here in the past it is alive and well.
+~
+0 8 0
+D4
+~
+~
+1 0 14100
+D5
+~
+~
+0 -1 3301
+S
+#3301
+The Entryway~
+Passages run in all directions from this large central area. Spectators
+rush back and forth, toward the main pits to the east and west, eager for
+action. You hear shouts, cheers and screams echoing from each of these
+directions. There is a large sign post in the center of the room which
+gives directions.
+~
+0 8 0
+D0
+~
+~
+0 -1 3302
+D1
+~
+~
+0 -1 3306
+D2
+~
+~
+0 -1 3304
+D3
+~
+~
+0 -1 3314
+D4
+~
+~
+0 -1 3300
+E
+signpost~
+The signpost reads-
+
+NORTH- The Dog Pens. Keep Out!
+
+SOUTH- The Cock Pens. Keep Out!
+
+EAST- The Beast Pit.
+
+WEST- The Fighter Pit.
+~
+S
+#3302
+Outside the Dog Pens~
+From behind the door to the east you can hear the barking and growling of
+what sounds like several large savage dogs. A huge sign on the door reads-
+"DANGER. WILD DOGS. KEEP OUT!". Hmm...
+~
+0 1|8 0
+D1
+The door has a sign warning people to stay away~
+door~
+1 0 3303
+D2
+~
+~
+0 -1 3301
+S
+#3303
+The Dog Pens~
+Yup. This is them all right. You aren't sure what gives it away more- the
+piles of raw meat and steaming dog turds, or the rather large and mean-
+looking dogs themselves...
+~
+0 1|8 0
+D3
+~
+~
+1 0 3302
+S
+#3304
+Outside the Cock Pens~
+From the east comes the sounds of several roosters squabbling and feeding.
+The sound of their steel-tipped claws scraping on the stone floor causes
+you to shudder. There seems to be little to be gained by disturbing them,
+but then again adventurers are always barging into the lairs of aggressive
+animals.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 3301
+D1
+~
+~
+1 0 3305
+S
+#3305
+Inside the Cock Pens~
+This room looks like a subterranean farmyard, complete with a small wooden
+shed and troughs containing bird seed and water. You see a water pump in
+one corner. These cocks are well looked after.
+~
+0 1|8 0
+D3
+~
+~
+1 0 3304
+S
+#3306
+Outside the Beast Pits~
+To the west lie a series of beast pits where a variety of animals battle
+each other as well as the occasional pit fighter. You hear loud cheers amid
+the cries of wounded animals.
+~
+0 8 0
+D1
+~
+~
+0 -1 3307
+D3
+~
+~
+0 -1 3301
+S
+#3307
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see what looks like wild boars battling with a rather
+beleagured pit fighter, who seems to have little chance of winning. The
+spectators are all betting on the boars...
+~
+0 8 0
+D0
+~
+~
+0 -1 3308
+D2
+~
+~
+0 -1 3309
+D3
+~
+~
+0 -1 3306
+D5
+~
+~
+0 -1 3310
+S
+#3308
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see what looks like wild dogs battling each other, snapping
+and snarling as they gnaw at each other's vitals. The spectators are all
+cheering wildly. You find yourself feeling rather ill.
+~
+0 8 0
+D2
+~
+~
+0 -1 3307
+D5
+~
+~
+0 -1 3311
+S
+#3309
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see what looks like roosters battling with each other
+in a small ring. They are rather battered-looking, and both look close to
+exhaustion.
+~
+0 8 0
+D0
+~
+~
+0 -1 3307
+D5
+~
+~
+0 -1 3312
+S
+#3310
+The Boar Pit~
+Uh Oh. You have jumped down into the boar pit. Not a wise move. Its likely
+that the boars will turn on you, and also probable that the pit fighter
+will as well, for making him look weak by trying to save him (even if you
+weren't...).
+~
+0 8 0
+D1
+~
+~
+1 0 3313
+D4
+~
+~
+0 -1 3307
+S
+#3311
+The Dog Pit~
+Way to go slick. Just drop right on down into a pit full of savage dogs.
+How brilliant. The crowd up above goes wild though, at the thought of fresh
+blood.
+~
+0 8 0
+D1
+~
+~
+1 0 3324
+D4
+~
+~
+0 -1 3308
+S
+#3312
+The Cock Pit~
+You are standing in a small ring with two roosters. Amazingly enough, they
+don't react violently to your intrusions- they are probably too tired. The
+audience above is yelling for you to clear out.
+~
+0 8 0
+D1
+~
+~
+1 0 3325
+D4
+~
+~
+0 -1 3309
+S
+#3313
+The Boar Pens~
+The boars are kept in this room that runs off the pit. They are released
+near combat time by the pit guards, then ushered back with tridents and
+large clubs.
+~
+0 1|8 0
+D3
+~
+~
+1 0 3310
+S
+#3314
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see pit fighters battling with each other using a variety
+of weapons and armor. The audience is busy placing bets. A staircase leads
+up to the owner's box.
+
+More pits lie to the north and south.
+~
+0 8 0
+D0
+~
+~
+0 -1 3315
+D1
+~
+~
+0 -1 3301
+D2
+~
+~
+0 -1 3316
+D4
+~
+~
+0 -1 3321
+D5
+~
+~
+0 -1 3318
+S
+#3315
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see pit fighters battling with each other using a variety
+of weapons and armor. The audience is busy placing bets.
+~
+0 8 0
+D2
+~
+~
+0 -1 3314
+D5
+~
+~
+0 -1 3317
+S
+#3316
+The Stands~
+Crowds gather here to observe the fighting taking place in the pit below.
+Peering down, you see pit fighters battling with each other using a variety
+of weapons and armor. The audience is busy placing bets.
+~
+0 8 0
+D0
+~
+~
+0 -1 3314
+D5
+~
+~
+0 -1 3319
+S
+#3317
+A Pit~
+Pit fighters in this pit rush at each other with the most bizarre weapons
+you have ever seen. They seem to be designed more for their ability to
+inflict pain than for practicality. The fighters are intent on their combat
+and ignore you, though the audience above issues catcalls and demand you
+get out at once. Or join in ;)
+~
+0 8 0
+D3
+~
+~
+1 0 3322
+D4
+~
+~
+0 -1 3315
+S
+#3318
+A Pit~
+Pit fighters in this pit rush at each other with the most bizarre weapons
+you have ever seen. They seem to be designed more for their ability to
+inflict pain than for praticality. The fighters are intent on their combat
+and ignore you, though the audience above issues catcalls and demand you
+get out at once. Or join in ;)
+~
+0 8 0
+D3
+~
+~
+1 0 3320
+D4
+~
+~
+0 -1 3314
+S
+#3319
+A Pit~
+Pit fighters in this pit rush at each other with the most bizarre weapons
+you have ever seen. They seem to be designed more for their ability to
+inflict pain than for praticality. The fighters are intent on their combat
+and ignore you, though the audience above issues catcalls and demand you
+get out at once. Or join in ;)
+~
+0 8 0
+D3
+~
+~
+1 0 3323
+D4
+~
+~
+0 -1 3316
+S
+#3320
+Pit Fighter Barracks~
+The Pit Fighters are quartered in these dingy rooms that open up onto the
+pit. Guards are usually here to make sure that they don't escape. The guards
+live in the town above.
+~
+0 1|8 0
+D1
+~
+~
+1 0 3318
+S
+#3321
+The Owner's Box~
+The Pit master sits up here, with whatever young girl (or boy) he is courting
+at the time, and observes his fighters battle to death in the pits below.
+It is a luxuriously appointed affair, with silk curtains and soft cushions
+from Araby. An opium pipe sits on a table nearby.
+~
+0 8 0
+D5
+~
+~
+0 -1 3314
+S
+#3322
+Pit Fighter Barracks~
+The Pit Fighters are quartered in these dingy rooms that open up onto the
+pit. Guards are usually here to make sure that they don't escape. The guards
+live in the town above.
+~
+0 1|8 0
+D1
+~
+~
+1 0 3317
+S
+#3323
+Pit Fighter Barracks~
+The Pit Fighters are quartered in these dingy rooms that open up onto the
+pit. Guards are usually here to make sure that they don't escape. The guards
+live in the town above.
+~
+0 1|8 0
+D1
+~
+~
+1 0 3319
+S
+#3324
+A Dog Pen~
+While the bulk of the dogs are kept in the kennels near the entrance, some
+who are used frequently are quartered here, in this filthy pit.
+~
+0 1|8 0
+D3
+~
+~
+1 0 3311
+S
+#3325
+A Cock Pen~
+The majority of the fighting cocks are kept in the well-appointed pens near
+the entrance. The ones who are considered expendable or too weak are kept
+here for frequent use.
+~
+0 1|8 0
+D3
+~
+~
+1 0 3312
+S
+#0
+
+
+#RESETS
+M 1 3300 1 3317                     loads fighter
+E 1 3300 1 16                     wields flail
+E 1 3302 1 11                     holds shield
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3301 1 3317                     loads fighter
+E 1 3301 1 16                     wields trident
+E 1 3308 1 17                     holds net
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3302 6 3314                     loads refs
+E 1 3324 1 16                     wields club
+M 1 3302 6 3315
+E 1 3324 1 16                     wields club
+M 1 3302 6 3316
+E 1 3324 1 16                     wields club
+M 1 3302 6 3307
+E 1 3324 1 16                     wields club
+M 1 3302 6 3308
+E 1 3324 1 16                     wields club
+M 1 3302 6 3309
+E 1 3324 1 16                     wields club
+*
+M 1 3303 12 3307                    loads audience
+M 1 3303 12 3308
+M 1 3303 12 3309
+M 1 3303 12 3314
+M 1 3303 12 3315
+M 1 3303 12 3316
+M 1 3303 12 3301
+*
+M 1 3304 12 3307                    loads audience
+M 1 3304 12 3308
+M 1 3304 12 3309
+M 1 3304 12 3314
+M 1 3304 12 3315
+M 1 3304 12 3316
+M 1 3304 12 3301
+*
+M 1 3305 1 3314                     loads bookie
+G 1 3311 0			0                       gives slip
+*
+M 1 3306 1 3306                     loads vendor
+G 1 3334 0			0
+G 1 3335 0			0
+G 1 3336 0			0
+*
+M 1 3307 9 3303                     loads dogs
+E 1 3313 1 3                      wears collar
+M 1 3307 9 3311                     loads dogs
+E 1 3313 1 3                      wears collar
+M 1 3307 9 3324                     loads dogs
+E 1 3313 1 3                      wears collar
+*
+M 1 3308 9 3305                     loads cocks
+E 1 3314 1 3                      wears collar
+M 1 3308 9 3312                     loads cocks
+E 1 3314 1 3                      wears collar
+M 1 3308 9 3325                     loads cocks
+E 1 3314 1 3                      wears collar
+*
+M 1 3309 4 3310                     loads boars
+E 1 3315 1 3                      wears collar
+M 1 3309 4 3313                     loads boars
+E 1 3315 1 3                      wears collar
+*
+M 1 3310 1 3321                     loads master
+E 1 3316 1 3                      wears cloak
+E 1 3317 1 9                      wears gauntlets
+E 1 3318 1 10                     wears bracers
+E 1 3319 1 8                      wears sandals
+E 1 3320 1 16                     wields sword
+E 1 3321 1 5                      wears tunic
+*
+M 1 3311 12 3301                    loads guards
+E 1 3322 1 1                      wears ring
+E 1 3323 1 6                      wears helm
+E 1 3324 1 16                     wields club
+E 1 3325 1 11                     holds shield
+E 1 3326 1 7                      wears greaves
+E 1 3327 1 13                     wears girdle
+E 1 3328 1 3                      wears cloak
+E 1 3329 1 5                      wears breastplate
+*
+M 1 3312 1 3318                     loads champ
+E 1 3330 1 13                     wears girdle
+E 1 3331 1 16                     wields axe
+E 1 3332 1 6                      wears mask
+E 1 3333 1 8                      wears boots
+*
+M 1 3313 1 3318                     loads fighter
+E 1 3300 1 16                     wields flail
+E 1 3302 1 11                     holds shield
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3314 1 3318                     loads fighter
+E 1 3307 1 16                     wields dagger
+E 1 3308 1 17                     holds net
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3315 1 3319                     loads fighter
+E 1 3309 1 16                     wields spear
+E 1 3302 1 11                     holds shield
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3316 1 3317                     loads fighter
+E 1 3301 1 16                     wields trident
+E 1 3308 1 17                     holds net
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3317 1 3310                     loads fighter
+E 1 3300 1 16                     wields flail
+E 1 3302 1 11                     holds shield
+E 1 3309 1 17                     holds spear
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3318 1 3310                     loads fighter
+E 1 3300 1 16                     wields flail
+E 1 3302 1 11                     holds shield
+E 1 3309 1 17                     holds spear
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3319 1 3317                     loads fighter
+E 1 3300 1 16                     wields flail
+E 1 3308 1 17                     holds net
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3320 1 3317                     loads fighter
+E 1 3301 1 16                     wields trident
+E 1 3302 1 11                     holds shield
+E 1 3303 1 6                      wears helm
+E 1 3304 1 5                      wears breastplate
+E 1 3305 1 7                      wears greaves
+E 1 3306 1 14                     wears bracer
+E 1 3306 1 15                     wears bracer
+E 1 3310 1 13                     wears girdle
+*
+M 1 3321 6 3320                     loads resting fighters
+M 1 3322 6 3320                     loads resting female fighters
+M 1 3321 6 3322                     loads resting fighters
+M 1 3322 6 3322                     loads resting female fighters
+M 1 3321 6 3323                     loads resting fighters
+M 1 3322 6 3323                     loads resting female fighters
+*
+O 1 3337 1 3303                      loads bones
+O 1 3337 1 3305                      loads bones
+O 1 3337 1 3310                      loads bones
+O 1 3337 1 3311                      loads bones
+O 1 3337 1 3312                      loads bones
+O 1 3337 1 3317                      loads bones
+O 1 3337 1 3318                      loads bones
+O 1 3337 1 3319                      loads bones
+*
+O 1 3338 1 3303                      loads food
+O 1 3338 1 3313                      loads food
+O 1 3338 1 3324                      loads food
+O 1 3338 1 3325                      loads food
+*
+D 1 3302 1 1
+D 1 3303 3 2
+D 1 3304 1 1
+D 1 3305 3 2
+D 1 3310 1 1
+D 1 3311 1 1
+D 1 3312 1 1
+D 1 3313 3 1
+D 1 3317 3 1
+D 1 3318 3 1
+D 1 3319 3 1
+D 1 3320 1 1
+D 1 3322 1 1
+D 1 3323 1 1
+D 1 3324 3 1
+D 1 3325 3 1
+*
+S
+
+
+#SHOPS
+3306 17 19 1 0 0 120 80 0 23
+0
+
+
+#SPECIALS
+M  3302 spec_cast_mage			the ref
+M  3305 spec_thief			a bookie
+M  3307 spec_poison			a wild dog
+M  3308 spec_breath_acid			a fighting cock
+M  3310 spec_executioner			the pit master
+M  3311 spec_guard			a pit guard
+M  3312 spec_cast_judge			the champion
+S
+
+
+#$

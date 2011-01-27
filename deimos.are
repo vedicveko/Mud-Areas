@@ -1,0 +1,467 @@
+#AREA {DeTri} Devlin  Deimos Tribe Area  ~
+
+
+#MOBILES
+
+#7030
+Hannibal Lector~
+The shopkeeper~
+The shopkeeper of the Deimos tribe is here ~
+He looks at you with a some what diranged manner
+~
+human~
+ABGV CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0
+#7031
+Dr.Death~
+death~
+The Docter is here, waiting for you to die~
+~
+human~
+ABGVa CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+#7032
+Bill~
+The Trainer~
+Bill, the trainer of the Deimos tribe is standing here~
+The train can help you practice skills and spells, train attributes and gain
+spells and skill groups.
+~
+human~
+ABJKVGb CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+
+#0
+
+#ROOMS
+
+#7030
+The entrance to the Deimos tribe area~
+Before you stands a Condo complex with very few rooms.
+There is a plaque of the wall.
+~
+70 DKN 0
+D0
+Bill's room.
+~
+~
+0 -1 7034
+D1
+Hannibal's Shop.
+~
+~
+0 -1 7033
+D2
+Hallway of Fear
+~
+~
+0 -1 7032
+D3
+Dr.Death's room.
+~
+~
+0 -1 7031
+D5
+Ragnorak.
+~
+~
+0 -1 3001
+E
+plaque~
+Welcome all Members, The Offices of LadyRed, FireStorm, 
+and Devlin are to the South, Thank you, This Area brought
+to you by Devlin.
+~
+S
+#7031
+Dr.Death's Room~
+Jack, the docter is here currently "helping" an older tribe member 
+meet his maker, so see all kinds of insterments around here, including
+a cash machine, looks like he wants you to pay first.
+~
+70 DKN 0
+D1
+Entrance
+~
+~
+0 -1 7030
+S
+#7032
+The Hallway of Fear~
+The Hallway of Fear, down the hall you see
+four doors, two of them are on each side
+of the hall, they seem to be the officers
+offices
+~
+70 DKNS 0
+D0
+Entrance.
+~
+~
+0 -1 7030
+D2
+Hallway of Fear
+~
+~
+0 -1 7035
+S
+#7033
+Hannibal's Shop~
+Hannibal Lecter, the Shopowner is here, look at you through his mask
+he seems to have a lot of those piled on the side of his little store
+also he is selling wonderful soft drinks on the side.
+~
+70 DKN 0
+D3
+Entrance.
+~
+~
+0 -1 7030
+S
+#7034
+Bill's Gym~
+Bill is standanding in the middle of the room with all of the 
+equipment and other stuff you would find at a gym, but this is 
+for Deimos members only.
+~
+70 DKN 0
+D2
+~
+~
+0 -1 7030
+S
+#7035
+Hallway of Fear~
+The Hallway looks a little less fearful as the last room. You 
+see two doors, one to the east and one to the west. The Eastern
+door has a sign that reads
+
+                     "FireStorms Office"
+
+ and the door on the Western side that reads
+
+                    " LadyRed's Office"
+
+  Down the hall you see four more doors
+~
+70 DKN 0
+D0
+The Hallway of Fear.
+~
+~
+0 -1 7032
+D3
+LadyRed's Office.
+~
+~
+1 -1 7036
+D1
+FireStorm's Office.
+~
+~
+1 -1 7037
+D2
+Hallway of Fear.
+~
+~
+0 -1 7040
+S
+#7036
+LadyRed's Office~
+Walking towards the middle of this room you cant help but notice the
+beautiful black and white marble figurines all about the room. Most of the
+figures are of glorious Dragons flying through the sky. The rest are just
+collections of the different races and creatures all about the land of
+Aesir. Towards the huge bay windows that let in just the slightest sunshine
+that sparkles off the glass figurines on top of the black marble desk, you
+see two figurines made of what at first to you seems to be of glass but, as
+you walk closer to inspect them you realize that the figurines of a huge
+beautiful dragon and a fairy is actually made of diamonds. Inspecting the
+figurines closer you notice a small inscription
+at the base that reads "LadyRed and Firestorm Twins of light, darkness,
+peace, and rage." Hearing a noise behind you, you spin around and turn to
+see LadyRed standing in front of you pointing to a chair in front of the
+marble desk, paitiently and eagerly awaiting to speak to you about the great
+Tribe of Deimos.
+
+~
+70 DKN 0
+D1
+Hallway of Fear.
+~
+~
+0 -1 7035
+D3
+LadyRed's Bedroom.
+~
+~
+1 -1 7038
+S
+#7037
+FireStorm's Office~
+Entering this room your eyes adjust to the smei-darkness, but there is enough
+light to do basic work, such as helping her sister run the tribe, the walls  
+are painted black, and most of the things in here are either dark or realted 
+to the darkness in her soul.
+~
+0 DKN 0
+D3
+Hallway of Fear.
+~
+~
+1 -1 7035
+D1
+FireStorm's Bedroom
+~
+~
+1 -1 7039
+S
+#7038
+LadyRed's Bedroom~
+You open the door slightly to look inside this room. Looking around you see
+a huge master bedroom elegantly and lavishly decorated in Red, black and white.
+Looking around, you notice paintings of dragon, mythical creatures, and
+faces of the local towns people which are made by the occupant. As you walk
+towards the center of the room the soft, plush, black carpet gently tickles
+your toes. Admiring the Black marble dresser in the corner, you gently throw
+yourself into the middle of the heart shaped waterbed that is in the center
+of the room. The Comfortable red velvet covers on the waterbed make you feel
+at home and very sleepy. Slowly drifting to sleep you notice the room
+changing slightly, before you finally close your eyes to the deep sleep of a
+spell being cast upon you. You notice LadyRed standing above you and realize
+that you are now her love slave forever.
+~
+0 DNK 0
+D1
+LadyRed's Office.
+~
+~
+1 -1 7036
+S
+#7039
+FireStorm's Bedroom~
+Stumbleing upon the rug of this dark room you can sense Fire's darkness in 
+her soul, the bed has darkened sheets on it, the blinds are closed and appear
+to be stuck, what appears to be the book self is full of dark books, which 
+the titles which you can't see because of the light, you feel that you should
+leave this dark, evil room.
+~
+0 DNK 0
+D3
+FireStorm's Office.
+~
+~
+1 -1 7037
+S
+#7040
+Hall of Fear~
+You can see the end of the hall not that far away, you can see a door on 
+the east and west side, the sign on the west side reads,
+
+                        "Devlin's Office, Recruter"
+
+the door on the east side reads, 
+
+                        " The Kennel, Beware "
+
+
+~
+0 DNK 0
+D3
+Devlin's Office.
+~
+~
+1 -1 7041
+D1
+The Kennel
+~
+~
+1 -1 7043
+D2
+The End of the Hall
+~
+~
+0 1 7045
+S
+#7041
+Devlin's Office~
+This medium sized office, which has been fully decorated with Deimos posters
+and other things, on the right side of the room, a nice oak finished desk is
+there, on it there is a IBM, some papers, pens, and other things you would
+normally find on a desk. Potted plants are everywhere, reminding you of a 
+jungle, you feel like sitting on one of the comfortable chairs when Devlin
+walks out from hid bedroom door.
+~
+0 DNK 0
+D1
+Hallway of Fear
+~
+~
+1 -1 7040
+D3
+Devlin's Bedroom
+~
+~
+1 -1 7042
+S
+#7042
+Devlin's Bedroom~
+When you walk into his bedroom you wonder how he got all of this 
+electronic equipment, a VCR, 41" Screen T.V, an IBM. Over on the dresser
+you see a picture of his loving wife Gally, and various pictures of him 
+standing over the dead bodies of the Seven Deadly Sins, when he was away at 
+Rebirth. The bed is larger then other's you have seen, and with bedposts that
+almost touch the celing, makes you wonder what they are used for?
+~
+0 DNK 0
+D1
+Devlin's Office.
+~
+~
+1 -1 7041
+S
+#7043
+The Kennel~
+You enter a large room where the entire place seems to have 
+silvery-gray hair everywhere. On one wall is a diploma stating
+top honours from Aesir's top wolf-training University. Beside that
+is a picture of two women hugging a huge scary looking wolf. Closer
+examination shows that the wolf is indeed Raukotur and the two women 
+are his lovely owners Ladyred and Firestorm. The desk near the back
+of the room is tidy with a in/out tray (and a few gnaw marks on the 
+legs.). There is a feather pen in an inkwell. The feather must be from
+a huge bird (probably a roc) and the ink looks red, blood red. You begin
+thinking that you better be sure you read the fine print of any deal you
+make in this room.
+
+~
+0 DNK 0
+D1
+The Kennel.
+~
+~
+1 -1 7044
+D3
+The Hall of Fear.
+~
+~
+1 -1 7040
+S
+#7044
+The Kennel~
+In scary opposition to the office, this room looks rather messy. 
+There is a bloody red cloak with a hood, probably from some victim. 
+Some gnawed bones are on the floor, looks like from a number of races
+fairy, human, elf, dwarf. You look uneasily at the fact that the food and
+water dishes both seem to be empty. There are a tapestries on the walls
+depicting some of Rauk's more glorious moments. One shows him literally 
+ripping apart Lassie, Benji and Beethoven with the motto "DOGS ARE WIMPS"
+at the bottom. The other depicts Deimos and what it stands for, Rauk had
+a motto put at the bottom "Loyalty to the Death". Seeing as Rauk is a 
+very private wolf, you better hope that he never finds that you invaded 
+his den....
+
+~
+0 DNK 0
+D3
+The Kennel.
+~
+~
+0 1 7043
+S
+#7045
+The End of the Hall~
+At the end of the hall you see two paths leading to the Donation Room and 
+The Swimming Pool.
+~
+0 DNK 0
+D3
+Donation Room.
+~
+~
+0 1 7046
+D1
+Swimming Pool.
+~
+~
+0 1 7047
+S
+#7046
+Donation Room~
+This room is used to help each other out by giving other people equipment
+that we don't need any more
+~
+0 DNK 0
+D1
+End of The Hall
+~
+~
+0 1 7045
+S
+#7047
+Swimming Pool~
+The pool of water is clear and suprisingly cool, it might just be the thing
+you need after a hard day of leveling
+~
+0 DNK 0
+D3
+End of The Hall
+~
+~
+0 1 7045
+S
+#0
+
+#OBJECTS
+#7030
+Strange Brew~
+Strange Brew~
+A strange looking brew is here~
+liquid~
+10 A A
+0 0 0 0 0
+1 2 5000 G
+#7031
+Hannibal's Mask~
+Hannibal's Mask~
+A mask made of leather and metal is lying here~
+metal~
+9 AI E
+0 0 0 0 0
+50 4 75000 G
+#0
+#RESETS
+
+M 0 7030 1 7033
+G 1 7030 -1
+G 1 7031 -1
+M 0 7031 1 7031
+M 0 7032 1 7034
+
+S
+
+#SHOPS
+
+7030      10 10 10 10 10     100 100     1 24
+
+0
+
+#SPECIALS
+
+M 7031 spec_cast_adept
+
+S
+
+#$

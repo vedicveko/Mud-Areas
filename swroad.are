@@ -1,0 +1,2079 @@
+#AREADATA
+Name        { ALL } SW Road~
+Zone        1
+Builders    Lotherius~
+VNUMs       14200 14399
+Security    5
+End
+
+
+
+#MOBILES
+#14200
+centerland road guard~
+the road guard~
+A road guard bearing the insignia of CenterLand is here.
+~
+The guard looks very bored with his post, but he also looks very well trained.
+~
+human~
+ABT NZ 500 S
+40 0 16d108+648 40d10+100 5d9+45 3
+-15 -15 -15 -2
+CEFHKNT 0 0 0
+6 8 1 0
+AHMV ABCDEFGHIJK M unknown
+#14201
+guard centerland road~
+a road guard~
+A road guard bearing the insignia of CenterLand is here.
+~
+The guard looks very bored with his post, but he also looks very well trained.
+~
+human~
+ABT NZ 500 S
+40 0 16d108+648 40d10+100 5d9+45 3
+-15 -15 -15 -2
+CEFHKNT 0 0 0
+6 8 1 7
+AHMV ABCDEFGHIJK M unknown
+#14202
+guard centerland road~
+a road guard~
+A road guard bearing the insignia of CenterLand is here.
+~
+The guard looks very bored with his post, but he also looks very well trained.
+~
+human~
+ABT NZ 500 S
+40 0 16d108+648 40d10+100 5d9+45 11
+-15 -15 -15 -2
+CEFHKNT 0 0 0
+6 8 1 7
+AHMV ABCDEFGHIJK M unknown
+#14203
+bandit road~
+a road bandit~
+A road bandit is here, contemplating your purse.
+~
+He is quite burley, and looks like he has made more than his share of kills. He
+looks not fully human.
+~
+orc~
+ACGT JP -500 S
+15 0 6d37+162 15d10+100 4d5+13 3
+0 0 0 5
+CDEFJKN 0 Q S
+8 8 1 4
+AHMV ABCDEFGHIJK L unknown
+#14204
+cooshie guard~
+Looney's cooshie~
+Looney's cooshie takes one look at you and knows you do not belong here.
+~
+You realize this is not your run-of-the mill cooshie.  Perhaps the teeth
+as long as your fingernails was the first clue, but when you realize what he
+is gnawing on, that was probably the only other clue you needed.  
+~
+dog~
+ABFT JNOQVZ 0 S
+38 20 16d97+603 38d10+100 5d9+40 7
+-13 -13 -13 -1
+ADFH A B Z
+8 8 1 0
+AGHMV ABCDEFGHIJKUV S unknown
+#14205
+Looney elf~
+Looney~
+The innkeep, Looney the Elf, is here, wiping down a glass.
+~
+Looney is probably the oldest elf you have ever seen, at least 3000 years
+old.  It is said that he was on Dragon's Haven even before the coming of
+Searall.  Watching Looney for a bit, you realize he is *always* wiping the
+same glass, and he serves his customers out of dirty glasses.  Better use
+your own.  
+~
+elf~
+ABT HJT 500 S
+50 20 16d168+930 50d10+100 5d11+57 3
+-21 -21 -21 -5
+HJR A BP Z
+8 8 1 4
+AHMV ABCDEFGHIJK M unknown
+>greet_prog 100~
+if isnpc($n)
+  say Pets are allowed only in the stables!
+  mpecho Looney calls in a stable hand who leads $n to the stables.
+  mptransfer $n 14230
+else
+  ramble $n
+endif
+~
+>rand_prog 10~
+mpecho Looney looks bored and begins making a fur cap from a rabbitskin.
+~
+>give_prog rabbitskin skin~
+mpecho Looney smiles as you give him the rabbitskin.
+  say Since you're such a good customer, I'll make you a rabbitskin cap out of this!
+  mpecho Looney begins cutting & sewing the rabbitskin into a cap.
+  mpecho Looney utters some magical words, and the cap glows blue.
+  smile $n
+  mpoload 14204
+  give cap $n
+  mpjunk skin
+~
+>fight_prog 25
+
+  mpcast 'exorcism' $n
+
+~
+>fight_prog 50
+  mpcast 'dispel magic' $n
+~
+|
+#14206
+bunny rabbit pretty little~
+a pretty little bunny rabbit~
+A pretty little bunny rabbit is here.
+~
+The bunny rabbit looks harmless.
+~
+unique~
+AGT DNOTVZ 0 S
+20 12 11d38+238 20d10+100 5d5+20 7
+-2 -2 -2 3
+CFHKM A B 0
+8 8 1 0
+B 0 T unknown
+>fight_prog 10~
+say Puny mortal! I am no bunny rabbit!
+  say I am the ever-feared Bunny Dragon!
+~
+|
+#14207
+mage cloaked Ler'Kier~
+Ler'Kier the Mage~
+A cloaked mage sits in the corner sipping some ale.
+~
+As you look at the mage, he introduces himself as Ler'Kier, former
+captain of the Legions of Light, a regiment that once fought to protect
+Adaria from the armies of evil.  
+~
+human~
+AR Z 0 S
+45 15 16d136+786 45d10+100 5d10+51 3
+-18 -18 -18 -4
+CFH 0 N 0
+8 8 1 15
+AHMV ABCDEFGHIJK M unknown
+#0
+
+
+
+#NEWOBJECTS
+#14200
+pike road guardian~
+a road guardian's pike~
+A solid iron pike is here.~
+iron~
+5 G AN
+D AC AD ABCD 0
+39 15 11150 P
+R 100
+A
+14 20
+A
+18 4
+A
+19 5
+A
+21 -3
+#14201
+axe brass orc~
+an orc axe~
+A brass orc axe is here~
+brass~
+5 0 AN
+AC C AC ACE 0
+15 10 750 P
+R 100
+#14202
+blacklight light strobe orb wierd~
+a nifty blacklight strobe~
+A wierd orb is here flashing wierd purple and blue colors.		~
+glass~
+1 A AO
+0 0 360 0 0
+35 4 4150 P
+R 100
+A
+12 20
+A
+4 1
+#14203
+fountain cold~
+a fountain~
+A fountain is here with a cold liquid flowing forth.~
+stone~
+25 O 0
+BEF BEF AB 0 0
+1 244 5000 P
+R 100
+E
+fountain cold~
+You realize that the liquid is nothing but water. Looney, of course, denies this,
+insisting that it is ale. Somehow, you think he really believes what he says.
+~
+#14204
+rabbitskin cap~
+a rabbitskin cap~
+A cap made out of soft rabbitskin is here.~
+cloth~
+9 GI AE
+BC BC BC BC 0
+15 6 2350 P
+R 100
+A
+12 10
+A
+4 1
+#14205
+rabbitskin skin~
+a rabbit skin~
+The skin of a rabbit is here.~
+flesh~
+13 0 A
+0 0 0 0 0
+1 5 25 P
+R 100
+#14206
+belt golden looney~
+Looney's Golden Belt~
+A gold belt with magical runes etched on it lies here.~
+gold~
+9 K AL
+ACD ACD ACD ACD 0
+50 5 10500 P
+R 100
+A
+19 5
+A
+18 5
+#14207
+longsword blackened iron black sword~
+a black iron longsword~
+A blackened longsword is here~
+iron~
+5 GK AN
+A AC ABD A 0
+50 25 9700 P
+R 100
+A
+12 10
+A
+18 4
+A
+19 4
+#0
+
+
+
+#ROOMS
+#14200
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14228
+D3
+~
+~
+0 0 14237
+S
+#14201
+A small guardpost~
+A small guardpost is here, guarding the end of the Great Southwest Road. 
+Trees shadow the ramshackle building, and to the west of the building, past
+a gate, you can make out the road itself.  To the stands the gates of the
+City of Lukhan.  A small trail wanders off.  A rotten wooden {rsign{x is
+posted over the door of the guardhouse.  
+~
+0 0 3
+E
+sign rotten wooden~
+GateHouse maintained jointly under the Lukhan - Centerland compact.
+ 
+West: Centerland
+East: City of Lukhan
+~
+D1
+~
+~
+0 0 2041
+D3
+A huge gate blocks the way.
+~
+gate door~
+1 -1 14202
+S
+#14202
+A westerly road~
+The road is muddy here, and well covered with grass. It appears as though
+not very many people traverse the road here. To the north you can see the
+peaks of the southern Dorn mountains in the far distance, and to the west,
+looms the great peak of Mt. Krestin.
+~
+0 0 4
+D1
+~
+gate door~
+1 -1 14201
+D3
+~
+~
+0 -1 14203
+S
+#14203
+A southwest curve in the road~
+Here the road curves to the southwest gradually, avoiding some jagged hills
+immeidiately to the west. The altitude is rising sharply, and the air is getting
+thinner. The trees here are more and more evergreen than before.
+~
+0 0 4
+D1
+~
+~
+0 -1 14202
+D2
+~
+~
+0 -1 14204
+S
+#14204
+A north-south stretch of the road~
+The road runs from north to south here through a proud stand of trees. To
+the north the road bends to the east, and farther north in the misty distance
+is the southern Dorn range of mountains. South of here, the road turns
+west again, skirting the jagged hills.
+~
+0 0 4
+D0
+~
+~
+0 -1 14203
+D2
+~
+~
+0 -1 14205
+S
+#14205
+A westerly bend in the road~
+The road turns a westerly direction here, and through a gap in the trees you
+can see the soaring peak of Mt. Krestin piercing the sky to the west. You
+can are much higher in altitude than before. The road here is becoming very
+rocky, and the mud is a thing of the past.
+
+A pile of wreckage sits alongside the road here.
+~
+0 0 5
+E
+wreckage pile~
+The pile of wreckage looks like it may have once been a wagon. There are
+useless chunks of metal laying amidst charred boards. There doesn't appear
+to be anything of use here.
+~
+D0
+~
+~
+0 -1 14204
+D3
+~
+~
+0 -1 14206
+S
+#14206
+A paved road sloping up~
+The road here is now paved, though not well maintained. The road
+appears to be climbing the slopes of Mt. Krestin now.To the north is a
+mine entrance which appears to have been closed off by an avalanche.
+~
+0 0 5
+D0
+~
+~
+1 -1 14236
+D1
+~
+~
+0 -1 14205
+D3
+~
+~
+0 -1 14207
+S
+#14207
+A paved road on the slopes of Mt. Krestin~
+You can see the steep peak of Mt. Krestin towering over you to the west.
+The road appears to head straight toward it from here. Back to the east, the
+trail drops back down into the foothills sharply. Jagged spikes of rock line
+the road to the north.
+~
+0 0 5
+D1
+~
+~
+0 -1 14206
+D3
+~
+~
+0 -1 14208
+S
+#14208
+The road at the edge of the treeline~
+The road begins to break out of the trees here, and the peak of Mt. Krestin
+obliterates anything else from view to the west. What seems like a mile up
+the slope, the road turns to the south to skirt the peak itself. A cold wind
+whips at you here. You see a small building to the south with a {rsign{w
+hanging over the door.
+~
+0 0 0
+E
+sign~
+The Looney Elf Inn
+~
+E
+building~
+The building is a small, dilapidated deal, with old dusty windows.
+~
+D1
+~
+~
+0 -1 14207
+D2
+~
+~
+1 -1 14229
+D3
+~
+~
+0 -1 14209
+S
+#14209
+A road high on the east slope~
+You are high on the east slope of Mt. Krestin. The snowfields on the tall
+peak loom before you to the west. To the south you can make out the dark
+Thornhaven Forest. A cold wind rips at you here.
+~
+0 0 5
+D1
+~
+~
+0 -1 14208
+D3
+~
+~
+0 -1 14210
+S
+#14210
+Along the road skirting the main peak~
+The road turns south here to skirt the main peak of Mt. Krestin, which
+looms above you. A cold wind tears through your clothing and chills you to
+the bone. Far, far to the east, you can make out the faint outline of the walls
+of Midgaard.
+~
+0 0 5
+D1
+~
+~
+0 -1 14209
+D2
+~
+~
+0 -1 14211
+S
+#14211
+Along the road skirting the main peak~
+The road runs north to south here, skirting the main peak of Mt. Krestin.
+The air is still extremely thin, and the wind is ripping at your clothing.
+~
+0 0 5
+D0
+~
+~
+0 -1 14210
+D2
+~
+~
+0 -1 14212
+S
+#14212
+A curve in the road around Mt. Krestin~
+The road curves around the southeast of Mt. Krestin here. To the south,
+you see the dark green carpet of Thornhaven Forest. To the northwest you
+can see nothing put the looming peak of the mountain.
+~
+0 0 5
+D0
+~
+~
+0 -1 14211
+D3
+~
+~
+0 -1 14213
+S
+#14213
+Along the road south of Mt. Krestin~
+The road is pretty level here, albeit quite high above the Thornhaven forest
+to the south. To the north is the looming peak of Mt. Krestin. The cold wind
+rips at your clothing here.
+~
+0 0 5
+D1
+~
+~
+0 -1 14212
+D3
+~
+~
+0 -1 14214
+S
+#14214
+Along the road south of Mt. Krestin~
+The road is pretty level here, albeit quite high above the Thornhaven forest
+to the south. To the north is the looming peak of Mt. Krestin. The cold wind
+rips at your clothing here.
+~
+0 0 5
+D1
+~
+~
+0 -1 14213
+D3
+~
+~
+0 -1 14215
+S
+#14215
+Along the road south of Mt. Krestin~
+The road is pretty level here, albeit quite high above the Thornhaven forest
+to the south. To the north is the looming peak of Mt. Krestin. The cold wind
+rips at your clothing here.
+~
+0 0 5
+D1
+~
+~
+0 -1 14214
+D3
+~
+~
+0 -1 14216
+S
+#14216
+Along the road south of Mt. Krestin~
+The road is pretty level here, albeit quite high above the Thornhaven forest
+to the south. The cold wind rips at your clothing here. You can see the road
+curving to the northwest and down around the other side of the mountain
+ahead.
+~
+0 0 5
+D0
+~
+~
+0 -1 14217
+D1
+~
+~
+0 -1 14215
+S
+#14217
+On the road southwest of Mt. Krestin~
+The road is slowly sloping down off of the mountain now, and in the
+distance you can see the blue ribbon of a river.  To the northeast, Mt. 
+Krestin looms high and proud.  
+~
+0 0 5
+D2
+~
+~
+0 -1 14216
+D3
+~
+~
+0 -1 14218
+S
+#14218
+On the road southwest of Mt. Krestin~
+The road is slowly sloping down off of the mountain now, and in the
+distance you can see the blue ribbon of a river.  To the northeast, Mt. 
+Krestin looms high and proud.  
+~
+0 0 5
+D0
+~
+~
+0 -1 14219
+D1
+~
+~
+0 -1 14217
+S
+#14219
+On the road west of Mt. Krestin~
+The road is slowly sloping down off of the mountain now, and in the
+distance you can see the blue ribbon of a river.  To the east, the great
+mountain still fills the sky.  
+~
+0 0 5
+D2
+~
+~
+0 -1 14218
+D3
+~
+~
+0 -1 14220
+S
+#14220
+On the road west of Mt. Krestin~
+The road is slowly sloping down off of the mountain now, and in the
+distance you can see the blue ribbon of a river.  To the east, the great
+mountain still fills the sky.  The road is now surrounded by a sparse
+highland pine forest.  
+~
+0 0 5
+D0
+~
+~
+0 -1 14221
+D1
+~
+~
+0 -1 14219
+S
+#14221
+On the road near the Canyon Gorge~
+To the east, Mt. Krestin fills the sky here. To the west, you can see the
+great Chermatin Canyon Gorge, and the sounds of it can be heard even from
+this distance. The smell of pine and the roar of the nearby canyon fill the air.
+~
+0 0 4
+D0
+~
+~
+0 -1 14222
+D2
+~
+~
+0 -1 14220
+S
+#14222
+On the road east of the the Canyon Gorge~
+This is the east edge of the Chermatin Canyon Gorge.  A huge bridge
+crosses the canyon, which must be over a mile across.  The roar of the water
+in the gorge deafens out almost all other sounds.  
+~
+0 0 4
+D2
+~
+~
+0 -1 14221
+D3
+~
+~
+0 -1 14223
+S
+#14223
+On the bridge of Chermatin Canyon~
+This is a humoungous bridge crossing the canyon gorge. The bridge itself
+is wide enough to march an army across, and no doubt that is what it was
+built for. Thousands of feet below the water roars past, drowning out all
+other sounds here.
+~
+0 0 1
+D1
+~
+~
+0 -1 14222
+D3
+~
+~
+0 -1 14224
+S
+#14224
+On the bridge of Chermatin Canyon~
+This is a humongous bridge crossing the canyon gorge. The bridge itself
+is wide enough to march an army across, and no doubt that is what it was
+built for. Thousands of feet below the water roars past, drowning out all
+other sounds here.
+~
+0 0 1
+D1
+~
+~
+0 -1 14223
+D3
+~
+~
+0 -1 14225
+S
+#14225
+On the road west of the Canyon Gorge~
+To the east is the Great Chermatin Canyon Gorge. The bridge crossing it
+seems to be well over a mile across, and the technologies needed to build
+such a bridge obviously no longer exist in the lands.
+~
+0 0 4
+D0
+~
+~
+0 -1 14226
+D1
+~
+~
+0 -1 14224
+S
+#14226
+Along the CenterLand Road~
+There are fields and pastures along the road here, and you can see the
+towers of the legendary city of CenterLand ahead to the northwest. The
+road seems quite well maintained here.
+~
+0 0 4
+D2
+~
+~
+0 -1 14225
+D3
+~
+~
+0 -1 14227
+S
+#14227
+Along the CenterLand Road~
+Farmhouses line the road here, and the traffic of people slow you down
+somewhat. To the north you can see the towers of CenterLand, and to the
+southeast in the distance you can make out the blue ribbon of the Chermatin
+Canyon. Far to the southeast you can see the graceful peak of Mt. Krestin.
+Past CenterLand to the northwest you can see the even higher peak of
+Center Mountain.
+~
+0 0 2
+D0
+~
+~
+0 -1 14228
+D1
+~
+~
+0 -1 14226
+S
+#14228
+The CrossRoads~
+You stand outside the south gate of CenterLand.  Guards stand to both sides
+of the gate keeping order.  The gates are made of clean white stone, and the
+fabled city lies beyond.  To the west, the road continues down into the
+hills.  A {rsign{x is here.  
+~
+0 0 1
+E
+sign~
+Welcome to the CrossRoads.
+ 
+North: CenterLand
+East: City of Lukhan
+West: City of Ashton
+South: Parts Unknown
+~
+D2
+~
+~
+0 -1 14227
+D3
+~
+~
+0 0 14200
+S
+#14229
+Main room of the Looney Elf Inn~
+This is the main room of the looney elf inn. There are several people around,
+and the atmosphere seems very relaxed. The walls have flowers and portraits
+on them. You notice a couple of the portraits have been hung upside down.
+There is a door to the west to the stables, and a staircase which leads to the
+rooms.
+~
+0 8 0
+E
+portrait~
+Only one of the portraits is labeled, and it reads "Looney Meeting Drijian".
+Oddly enough, it has a painting of Looney meeting Drijian on it.
+Looney sees you looking at the portrait and says "Dats when I met Drijian, yup.
+Back when dis ol' in were lot more den it is now, yup."
+~
+D0
+~
+~
+1 -1 14208
+D3
+~
+~
+1 -1 14230
+D4
+~
+~
+0 -1 14231
+S
+#14230
+The stables~
+This is the stables of the Inn. A horseshoe hangs over the door back into the
+inn. The smell of horses is strong here. In the dim light, you can see lots of
+stalls and such where horses are kept, yet they are all empty. The door back
+to the inn is east.
+~
+0 9 0
+D1
+~
+~
+1 -1 14229
+S
+#14231
+Upstairs hallway~
+This is the upstairs hallway of the Looney Elf Inn. There are rooms to both
+the north and south, and the hallway continues a short distance to the west.
+~
+0 8 0
+D0
+~
+~
+1 -1 14232
+D2
+~
+~
+1 -1 14233
+D3
+~
+~
+0 -1 14234
+D5
+~
+~
+0 -1 14229
+S
+#14232
+A room in the inn~
+This room is pretty bare. There is nothing but a straw bed and a dresser in
+here, and the bed doesn't look very comfortable.
+~
+0 2056 0
+D2
+~
+~
+1 -1 14231
+S
+#14233
+A room in the inn~
+This room has a straw bed that looks like it *could* be comfortable after a
+long journey on the road. It also looks occupied - clothing is hanging on a
+small bar at the back of the room.
+~
+0 2056 0
+D0
+~
+~
+1 -1 14231
+S
+#14234
+The end of the hallway.~
+This is the end of the short upstairs hallway. Back to the east are the two
+rooms this inn offers for rent as well as the staircase down. To the west is
+a door marked "Looney's Room". There is a {Rsign{w on the door with a
+{Rwarning{w in big red letters.
+~
+0 8 0
+E
+sign~
+{RWarning - Do Not Enter.
+{WProtected by Looney's Guard Cooshie.
+{GYou have been warned. Death will be your fault.
+~
+D1
+~
+~
+0 -1 14231
+D3
+~
+~
+1 -1 14235
+S
+#14235
+Inside Looney's Room~
+When you enter the room, you realize that Looney has definitely earned
+his name. This room does not even appear to be level - it is angled sharply
+to the left. The light is annoyingly flashing between purple and red, and the
+strong smell of incense is on the air.
+~
+0 8 11
+D1
+~
+~
+1 -1 14234
+S
+#14236
+Behind the boulders covering the entrance to the mine~
+This is a small room behind the boulders. It appears that there are yet more
+boulders covering the entrance beyond here, and you can go no farther.
+~
+0 521 0
+D2
+~
+~
+1 -1 14206
+S
+#14237
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14200
+D3
+~
+~
+0 0 14238
+S
+#14238
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14237
+D3
+~
+~
+0 0 14239
+S
+#14239
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14238
+D3
+~
+~
+0 0 14240
+S
+#14240
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14239
+D3
+~
+~
+0 0 14241
+S
+#14241
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14240
+D3
+~
+~
+0 0 14242
+S
+#14242
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14241
+D2
+~
+~
+0 0 14243
+S
+#14243
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14242
+D3
+~
+~
+0 0 14244
+S
+#14244
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14243
+D2
+~
+~
+0 0 14245
+S
+#14245
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14244
+D3
+~
+~
+0 0 14246
+S
+#14246
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14245
+D3
+~
+~
+0 0 14247
+S
+#14247
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14246
+D3
+~
+~
+0 0 14248
+S
+#14248
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14247
+D3
+~
+~
+0 0 14249
+S
+#14249
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14248
+D3
+~
+~
+0 0 14250
+S
+#14250
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14249
+D2
+~
+~
+0 0 14251
+S
+#14251
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14250
+D3
+~
+~
+0 0 14252
+S
+#14252
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14251
+D2
+~
+~
+0 0 14253
+S
+#14253
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14252
+D2
+~
+~
+0 0 14254
+S
+#14254
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14253
+D2
+~
+~
+0 0 14255
+S
+#14255
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14254
+D3
+~
+~
+0 0 14256
+S
+#14256
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14255
+D2
+~
+~
+0 0 14257
+S
+#14257
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14256
+D2
+~
+~
+0 0 14260
+S
+#14258
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14319
+S
+#14259
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14260
+D2
+~
+~
+0 0 14261
+S
+#14260
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14257
+D2
+~
+~
+0 0 14259
+S
+#14261
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14259
+D2
+~
+~
+0 0 14262
+S
+#14262
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14261
+D3
+~
+~
+0 0 14263
+S
+#14263
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14262
+D2
+~
+~
+0 0 14264
+S
+#14264
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14263
+D2
+~
+~
+0 0 14265
+S
+#14265
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14264
+D3
+~
+~
+0 0 14266
+S
+#14266
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14265
+D3
+~
+~
+0 0 14267
+S
+#14267
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14266
+D3
+~
+~
+0 0 14268
+S
+#14268
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14267
+D3
+~
+~
+0 0 14269
+S
+#14269
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14268
+D2
+~
+~
+0 0 14270
+S
+#14270
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14269
+D2
+~
+~
+0 0 14271
+S
+#14271
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14270
+D2
+~
+~
+0 0 14272
+S
+#14272
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14271
+D3
+~
+~
+0 0 14273
+S
+#14273
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14272
+D3
+~
+~
+0 0 14274
+S
+#14274
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14273
+D3
+~
+~
+0 0 14275
+S
+#14275
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14274
+D3
+~
+~
+0 0 14276
+S
+#14276
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14275
+D3
+~
+~
+0 0 14277
+S
+#14277
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14276
+D2
+~
+~
+0 0 14278
+S
+#14278
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14277
+D3
+~
+~
+0 0 14279
+S
+#14279
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14278
+D3
+~
+~
+0 0 14280
+S
+#14280
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14279
+D3
+~
+~
+0 0 14281
+S
+#14281
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14280
+D3
+~
+~
+0 0 14282
+S
+#14282
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14281
+D3
+~
+~
+0 0 14283
+S
+#14283
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14282
+D3
+~
+~
+0 0 14284
+S
+#14284
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14283
+D3
+~
+~
+0 0 14285
+S
+#14285
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14284
+D3
+~
+~
+0 0 14286
+S
+#14286
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14285
+D3
+~
+~
+0 0 14287
+S
+#14287
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14286
+D3
+~
+~
+0 0 14288
+S
+#14288
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14287
+D3
+~
+~
+0 0 14289
+S
+#14289
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14288
+D3
+~
+~
+0 0 14290
+S
+#14290
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14289
+D3
+~
+~
+0 0 14291
+S
+#14291
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14290
+D3
+~
+~
+0 0 14292
+S
+#14292
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14291
+D3
+~
+~
+0 0 14293
+S
+#14293
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14292
+D3
+~
+~
+0 0 14294
+S
+#14294
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14293
+D3
+~
+~
+0 0 14295
+S
+#14295
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14296
+D1
+~
+~
+0 0 14294
+S
+#14296
+~
+~
+0 0 0
+D2
+~
+~
+0 0 14295
+D3
+~
+~
+0 0 14297
+S
+#14297
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14296
+D3
+~
+~
+0 0 14298
+S
+#14298
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14297
+D3
+~
+~
+0 0 14299
+S
+#14299
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14298
+D3
+~
+~
+0 0 14300
+S
+#14300
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14299
+D3
+~
+~
+0 0 14301
+S
+#14301
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14300
+D3
+~
+~
+0 0 14302
+S
+#14302
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14301
+D3
+~
+~
+0 0 14303
+S
+#14303
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14302
+D3
+~
+~
+0 0 14304
+S
+#14304
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14303
+D3
+~
+~
+0 0 14305
+S
+#14305
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14304
+D3
+~
+~
+0 0 14306
+S
+#14306
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14305
+D2
+~
+~
+0 0 14307
+S
+#14307
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14306
+D3
+~
+~
+0 0 14308
+S
+#14308
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14307
+D2
+~
+~
+0 0 14309
+S
+#14309
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14308
+D2
+~
+~
+0 0 14310
+S
+#14310
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14309
+D2
+~
+~
+0 0 14311
+S
+#14311
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14310
+D3
+~
+~
+0 0 14312
+S
+#14312
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14311
+D2
+~
+~
+0 0 14313
+S
+#14313
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14312
+D3
+~
+~
+0 0 14314
+S
+#14314
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14313
+D2
+~
+~
+0 0 14315
+S
+#14315
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14314
+D3
+~
+~
+0 0 14316
+S
+#14316
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14315
+D2
+~
+~
+0 0 14317
+S
+#14317
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14316
+D2
+~
+~
+0 0 14318
+S
+#14318
+~
+~
+0 0 0
+D0
+~
+~
+0 0 14317
+D3
+~
+~
+0 0 14319
+S
+#14319
+~
+~
+0 0 0
+D1
+~
+~
+0 0 14318
+D2
+~
+~
+0 0 14258
+S
+#0
+
+
+
+#SPECIALS
+M 14200 spec_guard Load to: the road guard
+M 14201 spec_guard Load to: a road guard
+M 14202 spec_guard Load to: a road guard
+M 14203 spec_thief Load to: a road bandit
+M 14204 spec_poison Load to: Looney's cooshie
+M 14205 spec_cast_cleric Load to: Looney
+M 14206 spec_breath_any Load to: a pretty little bunny rabbit
+M 14207 spec_cast_mage Load to: Ler'Kier the Mage
+S
+
+
+
+#RESETS
+D 0 14201 3 1
+D 0 14202 1 1
+D 0 14206 0 1
+D 0 14208 2 1
+D 0 14229 0 1
+D 0 14229 3 1
+D 0 14230 1 1
+D 0 14231 0 1
+D 0 14231 2 1
+D 0 14232 2 1
+D 0 14233 0 1
+D 0 14234 3 1
+D 0 14235 1 1
+D 0 14236 2 1
+M 0 14200 1 14201
+E 0 14200 9999 16
+M 0 14200 1 14201
+E 0 14200 9999 16
+M 0 14203 1 14206
+E 0 14201 9999 16
+M 0 14203 1 14215
+E 0 14201 9999 16
+M 0 14206 1 14221
+G 0 14205 4
+M 0 14201 1 14223
+E 0 14200 9999 16
+M 0 14201 1 14224
+E 0 14200 9999 16
+M 0 14202 1 14228
+E 0 14200 9999 16
+M 0 14202 1 14228
+E 0 14200 9999 16
+M 0 14205 1 14229
+E 0 14202 9999 0
+E 0 14206 9999 13
+E 0 14207 9999 16
+M 0 14207 1 14229
+O 0 14203 9999 14229
+M 0 14204 1 14235
+O 0 14202 9999 14235
+M 0 14206 1 14236
+G 0 14205 4
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

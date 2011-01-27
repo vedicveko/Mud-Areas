@@ -1,0 +1,1818 @@
+#AREADATA
+Credits     {r<  0-  5> {bWink     {gCity of Dawn{x~
+Name        City of Dawn~
+Filename    dawn.are~
+Builders    Wink~
+VNUMs       17100 17199
+Security    9
+End
+
+
+
+#MOBILES
+#17100
+mailman~
+the mailman~
+The mailman is whistling a merry tune.
+~
+~
+school monster~
+AUZ 0 0 0
+3 0 1d6+23 3d10+100 1d5+1 none
+8 8 8 9
+0 AB 0 C
+stand stand either 90
+AMV ABCDEFHJKQU M 0
+#17101
+frantic shopper~
+a frantic shopper~
+A frantic shopper rushes past you.
+~
+~
+school monster~
+AUZ 0 0 0
+4 0 1d10+33 4d10+100 1d7+2 none
+7 7 7 8
+0 AB 0 C
+stand stand either 120
+AMV ABCDEFHJKQU M 0
+#17102
+dirty child~
+a dirty child~
+A dirty child is playing in the street.
+~
+~
+school monster~
+AUZ 0 0 0
+2 0 1d2+16 2d10+100 1d3+1 none
+8 8 8 9
+0 AB 0 C
+stand stand none 78
+AMV ABCDEFHJKQU M 0
+#17103
+Mercutio~
+mercutio~
+Mercutio is inspecting his inventory.
+~
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#17104
+Mercutio~
+mercutio~
+Mercutio is inspecting his inventory.
+~
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#17106
+Sabrina~
+sabrina~
+Sabrina is polishing Helmets, and checking her inventory.
+~
+~
+human~
+ABZ H 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 AB 0 0
+stand stand female 99999
+AHMV ABCDEFGHIJK M 0
+#17108
+Sebastian~
+sebastian~
+Sebastian is busy inspecting the capes for flaws.
+~
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 AB 0 0
+stand stand none 99999
+AHMV ABCDEFGHIJK M 0
+#17122
+Sidney~
+sidney~
+Sidney is cooking one of his famous dinners. YUM!
+~
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 0 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK M 0
+#17123
+Mercutio~
+mercutio~
+Mercutio is inspecting his inventory.
+~
+~
+human~
+ABVZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 AB 0 0
+stand stand none 99999
+AHMV ABCDEFGHIJK M 0
+#17124
+Thornton~
+Thornton~
+Thornton offers to help you select just the right footwear.
+~
+He's middle aged and has probably gone through a million job changes. 
+Maybe there are people in the world really made to sell shoes.  
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 AB 0 0
+stand stand none 99999
+AHMV ABCDEFGHIJK M 0
+#17125
+Mercutio~
+mercutio~
+Mercutio is inspecting his inventory.
+~
+~
+human~
+ABZ 0 0 0
+10 0 2d33+96 10d10+100 3d5+7 none
+3 3 3 6
+0 AB 0 0
+stand stand none 2000
+AHMV ABCDEFGHIJK M 0
+#17126
+green slime~
+a green slime~
+Some green slime on the ground appears to be living off trash.
+~
+It's green, it's slimy...  It's green slime.  
+~
+human~
+AGZ 0 0 0
+1 0 1d2+6 1d10+100 1d2+0 none
+9 9 9 9
+U 0 0 0
+stand stand none 50
+AHMV ABCDEFGHIJK M 0
+#17127
+oldstyle rat~
+the great sewer rat~
+The huge hungry-looking sewer rat sits here.
+~
+~
+human~
+AFZ J -1000 0
+3 0 1d6+23 3d10+100 1d5+1 none
+8 8 8 9
+U 0 0 0
+stand stand male 150
+AHMV ABCDEFGHIJK M 0
+#17128
+oldstyle lizard~
+a lizard~
+A lizard runs amuck in the muck.
+~
+It's a lot like a green slime, execept it has four legs, a tail and a
+tongue.  
+~
+lizardman~
+AGZ D 100 0
+4 0 1d10+33 4d10+100 1d7+2 none
+7 7 7 8
+FR 0 L I
+stand stand male 160
+AGXc ACDEFHKQV M 0
+#17129
+oldstyle snake~
+the slithering snake~
+The snake slithers towards you.
+~
+~
+snake~
+AFZ J -500 0
+5 0 1d16+42 5d10+100 2d4+3 none
+6 6 6 8
+FNR 0 L I
+stand stand none 170
+AGXYc ADEFKLQVX M 0
+#17130
+Giant Spider~
+A giant spider~
+A spider creeps through the sewer toward you.
+~
+It's a spider.  It's big, it's hairy, and it's mean.  Better watch out...
+Or you might be its next meal.  
+~
+centipede~
+ABFGZ MVZ 0 0
+6 0 1d24+51 6d10+100 2d5+3 none
+6 6 6 8
+0 0 FIL EH
+stand stand none 180
+ABGO ACDEFKUV M 0
+#17131
+alligator~
+an alligator~
+An alligator is swimming through the sewer.
+~
+An extremely large alligator is seemingly guarding his own little pile of
+trash.  I wouldn't go near him if I were you.  
+~
+centipede~
+ACZ Z -400 0
+7 4 1d33+61 7d10+100 2d6+3 none
+5 5 5 7
+FNU 0 FI E
+stand stand either 190
+ABGHMOV ABCDEFGHIJK M 0
+#0
+
+
+#OBJECTS
+#17100
+straw cape~
+a straw cape~
+A cape made of straw is here.~
+none~
+armor 0 AC
+A B A A 0
+1 10 72 P
+#17101
+reinforced straw cape~
+{Y a reinforced straw cape{x~
+A reinforced straw cape gathers dust here.~
+none~
+armor 0 AC
+A B B A 0
+2 10 86 P
+#17102
+magical silk cape~
+{R a magical, silk cape{x~
+A magical, silk cape floats here.~
+none~
+armor 0 AC
+AB AB AB A 0
+3 0 92 P
+#17103
+cotten cape~
+{W a thin, durable cotten cape{x~
+A cotten cape is being eaten by moths here.~
+none~
+armor 0 AC
+AB AB C B 0
+4 0 102 P
+#17104
+papyrus cape~
+{y a papyrus cape{x~
+A papyrus cape is being written upon here.~
+none~
+armor 0 AC
+C AC AC AB 0
+5 10 111 P
+#17105
+helmet nightfall~
+{b the helmet of nightfall{x~
+The helmet of nightfall can barely be seen here.~
+none~
+armor 0 AE
+AB C C B 0
+4 10 102 P
+#17106
+helmet dawn~
+{m the helmet of Dawn{x~
+The helmet of Dawn glows here.~
+none~
+armor 0 AE
+AC AC C AB 0
+5 10 111 P
+#17107
+helmet humility~
+{B a helmet of humility{x~
+A helmet of humility has been left here for seconds.~
+none~
+armor 0 AE
+B A A A 0
+1 10 72 P
+#17108
+helmet sunshine~
+{Y a helmet of sunshine{x~
+A helmet of sunshine blinds you momentarily here.~
+none~
+armor 0 AE
+B A B A 0
+2 10 86 P
+#17109
+helmet dawn~
+{C a helmet of Dawn's demise{x~
+A helmet of Dawn's demise is not being worn here.~
+none~
+armor 0 AE
+AB AB AB A 0
+3 10 92 P
+#17110
+mourning stockings~
+{y a pair of mourning stockings{x~
+A pair of mourning stockings lie here.~
+none~
+armor 0 AF
+B A A A 0
+1 10 72 P
+#17111
+grass leggings~
+{g a pair of mutated, grass leggings{x~
+Mutant grass leggings radiate here.~
+none~
+armor 0 AF
+B B A A 0
+2 10 86 P
+#17112
+ruby plated pants~
+{M a pair of ruby plated pants{x~
+Ruby plated pants hang here.~
+none~
+armor 0 AF
+AB AB AB A 0
+3 10 92 P
+#17113
+titanium bonded shorts~
+{G a pair of titanium bonded shorts{x~
+Titanium bonded shorts were left right here.~
+none~
+armor 0 AF
+AB C AB B 0
+4 10 102 P
+#17114
+kilt unending solitude~
+{Y the kilt of unending solitude{x~
+The kilt of unending solitude is being cleaned here.~
+none~
+armor 0 AF
+AC AC C AB 0
+5 10 111 P
+#17115
+suit armor~
+{R a well-crafted suit of armor{x~
+A well crafted suit of armor is here~
+none~
+armor 0 AD
+A A B A 0
+1 10 72 P
+#17116
+plate-mail protection~
+{g a plate-mail of protection{x~
+A plate-mail of protection can be taken from here.~
+none~
+armor 0 AD
+A B B A 0
+2 10 86 P
+#17117
+breast-plate~
+{r a superbly constructed breast-plate{x~
+A breast-plate ist hier.~
+none~
+armor 0 AD
+AB AB AB A 0
+3 10 92 P
+#17118
+breast-plate daybreak~
+{W a plate-mail breast-plate of daybreak{x~
+A breast-plate of daybreak was tinkered into existence here.~
+none~
+armor 0 AD
+AB AB C B 0
+4 10 102 P
+#17119
+suede jacket~
+{b a steel-laced suede jacket{x~
+A suede jacket was discarded here.~
+none~
+armor 0 AD
+AC AC C AB 0
+5 10 111 P
+#17124
+open-toed sandals~
+a pair of open-toed sandals~
+A pair of open-toed sandals lies here.~
+none~
+armor 0 AG
+B A A A 0
+1 30 72 P
+#17125
+closed-toed sandals~
+a pair of closed-toed sandals~
+A pair of sandals lies here.~
+none~
+armor 0 AG
+B A B A 0
+2 30 86 P
+#17126
+soft boots~
+a pair of soft boots~
+A pair of soft boots lies here.~
+none~
+armor 0 AG
+AB AB AB A 0
+3 40 92 P
+#17127
+boots~
+a pair of boots~
+A pair of dusty, worn-out boots lies here.~
+none~
+armor 0 AG
+C AB AB B 0
+4 40 102 P
+#17128
+hard-soled boots~
+a pair of hard-soled boots~
+A pair of hard-soled boots lie here.~
+none~
+armor 0 AG
+AC C AC AB 0
+5 55 111 P
+#17129
+candy necklace~
+a {rc{ya{rn{yd{ry {yn{re{rc{yk{rl{ya{rc{ye{x~
+A yummy looking candy necklace lies here.~
+oldstyle~
+jewelry AN AC
+0 0 0 0 0
+1 20 20 P
+A 3 1
+#17130
+newbie book bible~
+an ET Newbie Bible~
+A Newbie Bible has been left her by some careless newbie!~
+none~
+trash GN A
+0 0 0 0 0
+0 10 15 P
+E
+page8~
+Well, thats it as far as what you need to know to get you started.  For
+any other help or information you need, just ASK SOMEONE FOR HELP.  You can
+also type "help commands", "help", or leave a note to immortal if you really
+need some guidance and they will help you.  Other suggested things to read:
+"Help pkill" "Help" "Help tick" "help premise" "help rules" "help motd"
+"help note" THE END!  
+~
+E
+page7~
+You can gain spells or skills at your guildmaster once you have enough
+trains to do so.  Type "help gain" for more information.  When you are at
+your guildmaster, type "gain list" to see the skills or spells available to
+you.  Warriors and thieves cannot gain or use spells until they reach level
+75.  
+~
+E
+page6~
+One of the most important and useful features of ET is that you can
+customize your character.  Customization means that you can select skills or
+spells specifically for what you need and want for your character.  Do you
+remember what you have?  Type "info" to see what groups of skills or spells
+you have.  Typing "info" then the name of a specific group will show you all
+the skills or spells in that group.  You can gain skills and spells later in
+the game, so if you stocked up when you created your character, you really
+should reconsider.  When you type "info", you will see how many creation
+points (CP) you have.  If the # is above 55, you probably should recreate. 
+Reason being, the more CP you have, the more experience it takes to level. 
+If you want to level and not have too much trouble, keep your creation
+points between 40 and 55.  Type "help premise" for more information.  
+~
+E
+bible~
+Updated by Chance 7-16-96
+ 
+Welcome to ETERNITY'S TRIALS!  This book is designed to help you get started on
+your adventures in Thera.  Look at or read the different page numbers to read what
+is contained on that page.  Remember, no space between page and number.
+ 
+Page1 - Getting Started
+Page2 - Weapons And Armor
+Page3 - Hitrolls and Damage Rolls
+Page4 - Money
+Page5 - Clans
+Page6 - Miscellaneous Tidbits
+ 
+Have fun and enjoy!
+~
+E
+page1~
+First things first, type 'auto' to get a list of the automatic features
+of ET.  For newbies, typing 'autoexit', 'autogold', 'autoloot', and
+'autosac' should help immensely.  Next, typing 'title', followed by a short
+string will allow you to edit your title on the WHO list, vary it to your
+liking.  Other things of interest to new players might include the help
+files on prompt, the wizlist for Immortal assistance, and WHO list by typing
+WHO for assistance from other players.  When in doubt, ASK SOMEBODY.  
+~
+E
+page2~
+Armor and weapons have undergone a little change here on ET.  Now people
+can wear armor and wield weapons that are up to 5 levels higher than they
+are.  For now, however, the sub issue equipment issued to you and found in
+MUD school should suffice.  Later, as you explore outside of GreyHaven,
+other weapons and armor can be found.  But not all may be as good as what
+you currently possess.  Typing COMPARE [item] will compare an item in your
+inventory to a similar item being worn by you.  
+~
+E
+page3~
+Type 'score' to go to your score screen.  Hitroll is the number used in
+addition to other factors to determine whether or not you make contact in
+combat.  When contact is achieved, your damage roll is used in determining
+how much damage is actually done.  The higher these numbers, the better.  
+~
+E
+page4~
+Money on Thera is in the form of gold and silver pieces.  Typing worth
+will let you see how much of it you have.  Money can be earned in three
+ways, 1) by killing the various mobs, or creatures, of Thera, 2) by
+sacrificing the corpses of mobs when dead, a nd 3) by selling your excessive
+equipment.  Remember that money has weight, too, and that banks are provided
+when your pockets become too heavy so you can deposit excessive gold and
+silver.  
+~
+E
+page5~
+Clans are now a necessary addition to ET.  All players are required to be
+in one, as you saw on the creation screen.  Clans allow players to pkill, or
+to kill other players, but it also allows private clan halls to heal, the
+companionship of fellow clan members, and certain other priviledges only
+given to members in clans other then loners.  Type "help clan" for more
+information on clans.  
+ 
+Another really important addition to ET is the morgue.  Your clan hall 
+should have an entry point (a portal or an exit) into the morgue, where
+you will get all your items from your corpse when you die.  The specific
+location of the morgue is under the church of Mota in Greyhaven, 
+directly below the temple cleric's room.
+~
+E
+page6~
+Just remember, when in doubt, ASK SOMEONE ABOUT IT.  Immortals are
+usually on for most questions, but many players may be able to answer your
+questions as well.  
+~
+#17131
+nerdy glasses bifocals~
+{Xsome {Rnerdy {Cglasses{x~
+Some ET newbie glasses are here.~
+oldstyle~
+jewelry A AR
+0 0 0 0 0
+1 20 18 P
+A 4 1
+#17132
+atlas~
+a junior Eternity's Trials Atlas is here~
+A junior beginners version of the Eternity's Trials Atlas is here~
+none~
+map NY A
+A 0 0 0 0
+1 2 12 P
+E
+greyhaven~
+A Map of Greyhaven, revised by Dimi 
+ 
+     Warrior Weapon      NORTH GATE           General Celeste's  
+WEST Guild   Shops  Armory   | Bakery Butcher Store   Clothing Jewelry EAST 
+GATE---|-------|-------|---------|-------|-------|-------|--------|----GATE 
+   H|     Lexington Street  C| Leather Melony's Bank  Wolfshead  Black | 
+   U|                       H| Shop    Maps           Pets       Guard |B 
+   D|                       U|    |                              Pub   |R 
+   S|       Cleric's Mud    R| Ranger's                           |    |O 
+   O|       Guild    School C| Guild                            thief  |N 
+   N|Paladin   |      /     H|                                  guild  |X 
+    |Guild-----Church-----Fountain---Park---Druid's Guild             | 
+   H|        / |     |      C|                                         | 
+   U| Morgue  Holy   Pit    H|______________Hall of Heroes             |B 
+   D|         Shop          U|           |                             |R 
+   S|                       R| Granite   casino            A Hole-     |O 
+   O|         Guild for     C| Gargoyle          Sylvan    Quest       |N 
+   N|         Necromancers  H| Inn               Pub       Area        |X 
+   N|--------------|------------|-----------------|---------|----------| 
+                             | magic shop     |                        | 
+ *visit Melony's Maps        |(mage guild)   Apothecary            River 
+  to buy other maps     SOUTH GATE                       to sands_sorrow\
+~
+E
+eto~
+Overview of the realms of Eternity's Trials by Dimi   
+   
+                                          Wink's House  
+                Xenalia/Gabriellaic Ocean______|______Athenaic  
+Valley of Elves       |      |                 |      Ocean    
+      |__________Olympus   Moria               |        |  
+      |                      |                 |        |  
+Athenaic___forest_Greyhaven_Crossroads_New Thalos_Athenaic 
+Ocean      /      |          |                        Ocean  
+  |    Athenaic   | Elemental Canyon______Wyvern Tower/  
+  |____Ocean      |          |  
+                Gabriellaic Ocean/Xenalia 
+~
+E
+et1~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed 
+ or neutral). Other area alignments unknown, please note Dimi if you know. 
+************************************************************************** 
+           Heaven(100-150g)_st_peter_portal_Barovia(100-150e) 
+                          /up 
+           Astral Plane (10-35) 
+                    |  /up 
+Pernicia (90-110e)__|/__Amity (115-135n)/Sidhonia (140-160n) 
+Pern (90-110-g)    /up 
+                 /up: In the Air (5-10) 
+        GREYHAVEN FOUNTAIN 
+************************************************************************** 
+                |__|granite gargoyle inn/portal to DreamWeaver's Path(35-55)
+                |
+              GREYHAVEN SOUTH 
+                |           \ 
+  Peasant revolt(5-15)     River, to Sands of Sorrow (10-20)(look et2 map) 
+                | 
+             Camelot (5-25n) (end of dark horsemen trail) 
+                | 
+             Avalon (25-45)
+~
+E
+atlas~
+An index to the Atlas of Eternity's Trials.      
+Maps by Dimi.  Thanks to Chipper, Vestrivan and Grunt for help.   
+       
+OVERVIEW of Eternity's Trials, type: look eto        
+FAR EAST of Greyhaven, around New Thalos, type: look et5      
+GREYHAVEN, type: look grey   
+XENALIA, NORTH & WEST: look nwxena
+XENALIA, SOUTH & EAST: look sexena
+SOUTH and UP from Greyhaven, type: look et1     
+NORTH & WEST of Greyhaven, type: look et2   
+EAST (then NORTH) of Greyhaven, type: look et3      
+EAST (then SOUTH) of Greyhaven, type: look et4
+~
+E
+et2~
+~
+E
+et3~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed
+ or neutral). Other area alignments unknown, please note Dimi if you know.
+**************************************************************************
+        Gabriellaic Ocean (look et4) 
+          | 
+          |___elven realms (60-80g) 
+          | 
+        Moria (5-15) 
+          |________dwarven kingdoms & mines (10-25) 
+          |         |            \ 
+          |   dwarf daycare(1-5)  catacombs(10-20)--holy grove(5-20)         
+          |      
+          |           nirvana(10-35) void(1-5)--old thalos(1-30) 
+          |                     \ 
+GREYHAVEN | leprachun(1-10) holy grove(5-20) the show(5-20n) coliseum(5-15) 
+EAST      |      |               |              |                | 
+GATE_crossroads__eastern road____|__________checkpoint___________|__NEW THALOS
+~
+E
+et4~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed
+ or neutral). Other area alignments unknown, please note Dimi if you know.
+**************************************************************************
+EAST GATE
+GREYHAVEN--crossroads---eastern road---near sands of sorrow--New Thalos
+                 |           |              |
+Old Thalos(1-30)-| Gnome Village(5-15) Sands Sorrow(10/20)-Pyramid(5/50)
+                 |_                                           |
+        ***DOWN***_|                            City of Sphinxes (10-30)
+        |      __
+        *     |  |__
+        |        |  |--
+        *        |  |  Warzone(60-80) to Realm of the Pygmies(95-105n)
+        |        |  |       |
+        *        |  |_bloody intersection
+        |        |          |\down, Plains of Incarnation(100-110n)
+        *        |      Mahn-Tor (5-35)
+         \       |         
+            \    | Centaurs(5-12)   Twin peeks(50-90)   Chessboard(55-99)
+               \ |          |              |             |
+Thalos(drows)-***UP***-----------------------------Wyvern Tower(5-30)
+(5-25)           | Elemental Canyon (5-30)
+                 |/
+          Gabriellaic Ocean (look et3 or eto)
+~
+E
+et5~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed
+ or neutral).  Other area alignments unknown, please note Dimi if you know.
+***************************************************************************
+        (50-74n) WINK'S HOUSE  Treasure Island(30-50)(level 30 quest portal)
+                       |           | 
+        (55-75n) Steab_|           | 
+                       |           |  
+GREYHAVEN  Eastern     |           |  
+EAST GATE__Road__NEW THALOS-Dragon Sea-Moonlight Sea-Athenaic Ocean  
+                       |   
+Under New Thalos(5-15)-|   
+                        \bridge down   
+  ________Ishtar River________|  
+  |                           Body Parts Castle(35-55)  
+ White Tower, lower (80-90n)
+~
+E
+sexena~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed
+ or neutral). Other area alignments unknown, please note Dimi if you know.
+************ portal to Gabriellaic Ocean: east of Greyhaven **************
+ 
+            Mount Xena   mirkwood
+                 |       (5-10)
+   (gabriellaic ocean)   |           
+Herculean_____XENALIA____|__Callisto's Forest________Callisto's Forest___
+Road             |             |                 |        |
+            Iolus' Desert   gerighelm         gandahar    |   
+                 |          (1-30)            (10-90)     |
+                 |_fields                              bordermarch   
+ gilligan's ilse_| (1-65)                              (90-115e)   
+ (12-18)         |
+                 |
+ cannabis(40-60)_|
+                 |_kendermore(1-65)
+ mt. doom(45-65)_|                          SOUTH & EAST XENALIA
+~
+E
+nwxena~
+Map key: (levels & alignment: e = mostly evil, g = mostly good, n = mixed 
+ or neutral). Other area alignments unknown, please note Dimi if you know. 
+************ portal to Gabriellaic Ocean: east of Greyhaven ************** 
+{x
+{W   NORTH & WEST XENALIA{x              jher's lair(35-55)_|
+{x                                                        |/setting sons
+{r  Unfortunate Town{x                                      |      (30-62)
+{r  (50-70)                                               {x|
+{x   |     Ghost                   Cage & Aquarium(15-25)_| 
+{x   |     Town     Lenny's                               |\goblin stronghold
+{x   |    (45-65)    House    midgaard(all)  fun house    |           (10-20)
+{x   |_______|      (15-20)   & zoo(1-15)   (12-17)    MOUNT XENA 
+{x      |             |           |            |         |   
+_____Herculean Road_|______Herculean Road____|_______XENALIA_Callisto's Forest
+{x             |                                 (gabriellaic ocean)
+{x          holy place                                   |
+{x          (45-60)                                Iolus' Desert
+{x
+~
+#17133
+et beanie hat~
+{Can {XE{GT {Bbeanie {Yhat{x~
+An ET beanie hat is here.~
+oldstyle~
+armor N AE
+AB AB AB 0 0
+1 20 14 P
+#17134
+mood ring~
+{Xa {Ymood {Gring{X~
+An ET mood ring is here~
+ice~
+jewelry GN AB
+0 0 0 0 0
+1 10 20 G
+A 1 1
+E
+ring pink ice~
+How strange...it's made of ice, but it doesn't melt. It feels pleasantly 
+cool to the touch.
+~
+#17148
+chicken soup~
+chicken soup~
+A bowl of chicken soup is here.. it should help make you feel better :)~
+none~
+pill 0 A
+300 'armor' 'bless' 'sanctuary' 'none'
+300 0 0 P
+#17150
+eternity's trials backpack~
+an{M E{Wt{Me{Wr{Mn{Wi{Mt{Wy{M'{Ws{C T{Wr{Ci{Wa{Cl{Ws{g backpack{x~
+You see a backpack here.~
+none~
+container GY A
+900 A 0 40 25
+1 5 5 P
+#17151
+water skin~
+a{b huge{C water{b skin{x~
+A water skin is here.~
+none~
+drink Y A
+500 500 'water' 0 0
+1 0 10 P
+#17152
+magic turnip~
+a magic{g turnip{x~
+A magic turnip is here.~
+none~
+food Y A
+BEF BEF 0 0 0
+1 1 5 P
+#17153
+ET Newbie Hint Book~
+{CAn {MET {CNewbie Hint Book (Look Hint){x~
+{CAn {MET {CNewbie Hint Book is here{x~
+none~
+trash 0 A
+0 0 0 0 0
+0 10 10 P
+E
+hint~
+{wBelow are directions to five good low level areas on Eternity's Trials.
+After you have finished with these areas, you will have to explore or get
+help from others to find new areas.  {x 
+ 
+{wAll directions start from the middle fountain in Greyhaven.{x
+ 
+{bThe Shire     {C: {w4N, 6W, Open West, 2W, N, W, N, W, N, N, E, E, N{x {x     
+{bRoyal Preserve{C: {w8N, Open North, 2N{x
+{bDreamscape    {C: {w4N, 6W, Open West, W, 2N, 2W, 2S, E, Enter Vortex, S, Enter Dream{x
+{bPeasant Revolt{C: {w6S, Open South, 7S{x
+{bCamelot       {C: {w6S, Open South, 2S, W, 2S, 2W, S, W, S{x
+{x
+~
+#0
+
+
+
+#ROOMS
+#17100
+Entrance to the City of Dawn~
+The city before you is a most beautiful sight.  The buildings are
+outlined by a light pink color radiating from the sky.  As you look around,
+you notice many other people that look just as confused as you.  
+~
+0 R 0
+D0
+~
+~
+0 0 17101
+D2
+~
+~
+0 0 3700
+S
+#17101
+Main St.~
+This street seems very busy.  To the east and west you hear people
+shouting.  Someone walks up to you and says 'You look a little confused, if
+you need help, go west and north to the school.  If you already know how to
+play, you might want to look around the town.  There are many shops, and you
+may find yourself on an adventure or two.  ' 
+~
+0 R 0
+D0
+~
+~
+0 0 17114
+D1
+~
+~
+0 0 17115
+D2
+~
+~
+0 0 17100
+D3
+~
+~
+0 0 17102
+S
+#17102
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+~
+0 R 0
+D0
+~
+~
+0 0 3757
+D1
+~
+~
+0 0 17101
+D2
+~
+~
+0 0 17104
+D3
+~
+~
+0 0 17105
+S
+#17103
+Bodywear~
+~
+0 CR 0
+S
+#17104
+Legwear~
+~
+0 0 0
+D0
+~
+~
+0 0 17102
+S
+#17105
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+~
+0 0 0
+D0
+~
+~
+0 0 17106
+D1
+~
+~
+0 0 17102
+D2
+~
+~
+0 0 17108
+D3
+~
+~
+0 0 17109
+S
+#17106
+Helmet Shop~
+Helmet's of all types can be seen on the shelves in this brightly lit
+room.  
+~
+0 K 0
+D2
+~
+~
+0 0 17105
+S
+#17108
+Neckwear~
+You see many types of neck-wear in this bright yet dusty store.  
+~
+0 K 0
+D0
+~
+~
+0 0 17105
+S
+#17109
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 17110
+D1
+~
+~
+0 0 17105
+S
+#17110
+Back Alley~
+The back alley is a scary place.  Trash litters the street, and there are
+dirty people sleeping under boxes in the corner.  A trash barrel has a small
+fire in it, you assume it is to keep the homeless warm.  It is too dark
+here, and you decide moving on would be your best choice.  
+~
+0 0 0
+D0
+~
+~
+0 0 17111
+D2
+~
+~
+0 0 17109
+S
+#17111
+Park Entrance~
+The park is to the north.  You hear happy childrens voices, and the
+chattering of many small animals.  The squeak of the swingset is very loud,
+but it adds to the festive sounds.  To the east is a large residential area,
+and to the south is the main strip.  
+~
+0 R 0
+D0
+~
+~
+0 0 17147
+D1
+~
+~
+0 0 17112
+D2
+~
+~
+0 0 17110
+S
+#17112
+Field~
+You are in a large field just outside the entrance to the park.  Tall
+green grass beckons you to lie down and rest.  It is very peaceful here. 
+Off to the east you can hear what sounds like a large crowd, while to the
+west you hear the delighted squeals of children playing in the park.  
+~
+0 R 0
+D1
+~
+~
+0 0 17113
+D3
+~
+~
+0 0 17111
+S
+#17113
+Field~
+You are in a large field.  Tall green grass beckons you to lie down and
+rest.  It is very peaceful here.  The field surrounds you on all sides.  You
+can see and hear a large crowd off some distance to the east.  
+~
+0 0 0
+D0
+~
+~
+0 0 17149
+D1
+~
+~
+0 0 17114
+D2
+~
+~
+0 0 17150
+D3
+~
+~
+0 0 17112
+S
+#17114
+Field~
+You are in a large field.  Tall green grass beckons yyou to lie down and
+rest.  It is very peaceful here.  East of here through the field you see a
+crowd of busy people hurrying asbout.  The field stretches east and west,
+and tapers off at Main Street to the south.  
+~
+0 R 0
+D1
+~
+~
+0 0 17121
+D2
+~
+~
+0 0 17101
+D3
+~
+~
+0 0 17113
+S
+#17115
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+~
+0 0 0
+D0
+~
+~
+0 0 17124
+D1
+~
+~
+0 0 17116
+D2
+~
+~
+0 0 17125
+D3
+~
+~
+0 0 17101
+S
+#17116
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+~
+0 0 0
+D0
+~
+~
+0 0 3718
+D1
+~
+~
+0 0 17117
+D2
+~
+~
+0 0 17123
+D3
+~
+~
+0 0 17115
+S
+#17117
+Main St.~
+Main St.  Is full of frantic activity.  Shoppers are running around
+trying to find the best bargain, children are playing in the streets.  Every
+once in awhile, you catch a glimpse of a stray dog or cat hiding behind a
+trash barrel.  The streets are worn down from so much traffic, and are in
+need of serious repair.  
+~
+0 0 0
+D0
+~
+~
+0 0 17118
+D3
+~
+~
+0 0 17116
+S
+#17118
+Back Alley~
+The alley is very dark and dismal.  Trash litters the alley, and you
+nitce there is a big pile in the center of the road that seems to be
+covering something.  You bend over to look, and realize it must be an
+entrance to the sewers.  
+~
+0 0 0
+D0
+~
+~
+0 0 17119
+D2
+~
+~
+0 0 17117
+D5
+~
+~
+1 0 17126
+S
+#17119
+Entrance to Arena~
+The sounds from the arena are very loud.  You hear cheering from the
+stands, and wonder what is going on.  You see many people walking in and out
+of the arena, some wounded, and some looking very happy.  
+~
+0 0 0
+D1
+~
+~
+0 0 3727
+D2
+~
+~
+0 0 17118
+D3
+~
+~
+0 0 17120
+S
+#17120
+Walkway~
+A large bustling crowd is heading toward the east.  The people are from
+all different walks of life..  You see rich men in fancy clothes, women
+wearing dresses of tapestry, and a few that look a bit scruffy.  If you
+follow them, you will come upon the Arena Entrance.  
+~
+0 R 0
+D1
+~
+~
+0 0 17119
+D3
+~
+~
+0 0 17121
+S
+#17121
+Field~
+You are at the edge of a large field.  To the east you see a walkway with
+a large crowd of people.  Looking through the field to the west you see
+children happily playing in the park.  A small house is to the north.  
+~
+0 R 0
+D0
+~
+~
+0 0 17151
+D1
+~
+~
+0 0 17120
+D2
+~
+~
+0 0 17152
+D3
+~
+~
+0 0 17114
+S
+#17122
+Grocer~
+~
+0 C 0
+S
+#17123
+The Wicker Basket~
+You can buy a variety of awesome things in this store from the looks of it.
+~
+0 K 0
+D0
+~
+~
+0 0 17116
+S
+#17124
+Footwear~
+You have never seen so much awesome foot gear in your life.  The foor
+wear is so colorful too.  
+~
+0 K 0
+D2
+~
+~
+0 0 17115
+S
+#17125
+Future Store~
+This room is barren, except for some boxes on the floor.  It seems that
+the shop keeper is not open for business yet.  
+~
+0 0 0
+D0
+~
+~
+0 0 17115
+S
+#17126
+The Sewers~
+You are in the sewers below town.  Strands of light peer down at you from
+a hole above your head.  It smells awful down here.  Your feet are covered
+with green sludge.  Nevertheless, you feel the urge to move on.  
+~
+0 A 0
+D0
+~
+~
+0 0 17127
+D4
+~
+manhole~
+1 0 17118
+S
+#17127
+The Sewers~
+You are in the sewers below town.  It smells awful down here.  Your feet
+are covered with green sludge.  Nevertheless, you feel the urge to move on. 
+~
+0 A 0
+D1
+~
+~
+0 0 17128
+D2
+~
+~
+0 0 17126
+S
+#17128
+The Sewers~
+You are in the sewers below town.  The sludge that hugs your ankles seems
+a lot lower here.  Then you realize why...  You are standing at a drop-off
+point.  The sewer drops into a large pool below, and continues to sludge
+west and north.  
+~
+0 A 0
+D0
+~
+~
+0 0 17129
+D3
+~
+~
+0 0 17127
+D5
+~
+~
+0 0 17141
+S
+#17129
+The Sewers~
+You are in the sewers below town.  To the west and south, the sludge
+continues.  
+~
+0 0 0
+D2
+~
+~
+0 0 17128
+D3
+~
+~
+0 0 17130
+S
+#17130
+The Sewers~
+This part of the sewers is actually kind of interesting.  To the east,
+there is much more sludge and stench, while to the north, it seems to smell
+good?!?  
+~
+0 A 0
+D0
+~
+~
+0 0 17131
+D1
+~
+~
+0 0 17129
+S
+#17131
+A Heap of Trash~
+You are standing in a huge garbage heap.  It is filled with leftover food
+and dead flowers.  The town must have had a party recently.  As much as
+you'd love to stay here and smell the trash, you really should be moving on.
+~
+0 A 0
+D2
+~
+~
+0 0 17130
+D3
+~
+~
+0 0 17132
+S
+#17132
+Backup From Hell~
+Ack!!!!  Eeeeeew!  Yuck!  You have stumbled onto the beginning of the end
+of the sewer system.  Sludge, filth and muck hang from the walls and eat
+away at your boots as you tread across the dark and murky ground.  The sewer
+exit is just to the north.  
+~
+0 A 0
+D0
+~
+~
+0 0 17133
+D1
+~
+~
+0 0 17131
+S
+#17133
+A Long Sewer Pipe~
+You are in a long, narrow pipe that extends north and forms two smaller
+passageways, and up, where the sewer meets the surface.  It stinks so bad in
+here, not even holding your nose is keeping you from smelling the filth.  
+~
+0 0 0
+D0
+~
+~
+0 0 17134
+D2
+~
+~
+0 0 17132
+S
+#17134
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  The pipe leads east and
+west.  
+~
+0 0 0
+D1
+~
+~
+0 0 17135
+D2
+~
+~
+0 0 17133
+D3
+~
+~
+0 0 17136
+S
+#17135
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D0
+~
+~
+0 0 17138
+D3
+~
+~
+0 0 17134
+S
+#17136
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D0
+~
+~
+0 0 17137
+D1
+~
+~
+0 0 17134
+S
+#17137
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D1
+~
+~
+0 0 17140
+D2
+~
+~
+0 0 17136
+S
+#17138
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D2
+~
+~
+0 0 17135
+D3
+~
+~
+0 0 17139
+S
+#17139
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D1
+~
+~
+0 0 17138
+D3
+~
+~
+0 0 17140
+S
+#17140
+The Overflow Pipe~
+This is the sewer overflow pipe.  Whenerver the sewer floods, all the
+refuse and gunk it holds gets pushed in here.  You can barely breathe from
+the noxious fumes in here, and barely move because of the layers of sludge
+on the floor.  Aren't you glad you came in here?  
+~
+0 A 0
+D1
+~
+~
+0 0 17139
+D3
+~
+~
+0 0 17137
+S
+#17141
+The Sludge Pool~
+You are in a small, murky pool of gunk and slime.  The pool seems to move
+in the southern direction.  You can easily climb up and out of it if you
+want.  
+~
+0 A 0
+D2
+~
+~
+0 0 17142
+D4
+~
+~
+0 0 17128
+S
+#17142
+Sludge Pool~
+You are in a small, murky pool of gunk and slime.  The pool seems to
+move in the western direction.  The main part of the pool is to the north.  
+~
+0 A 0
+D0
+~
+~
+0 0 17141
+D3
+~
+~
+0 0 17143
+S
+#17143
+Sludge Pool~
+You are in a small, murky pool of gunk and slime.  The pool seems to
+move in theastern direction.  To the north is a huge heap of garbage.  
+~
+0 A 0
+D0
+~
+~
+0 0 17144
+D1
+~
+~
+0 0 17142
+S
+#17144
+Garbage Heap~
+You stand on top of a huge mountain of trash.  Everything you have ever
+thrown away, and everything that everyone else has thrown away seems to have
+accumulated here.  You start to make for the pool that is south of here.. 
+When suddenly you see something squirming in the trash!  
+~
+0 A 0
+D2
+~
+~
+0 0 17143
+D5
+~
+~
+1 0 17145
+S
+#17145
+Inside the Mountain of Garbage~
+You are inside a trash heap.  It stinks in here.  You probably should get
+out quick before you are asphixiated.  Or, you could go down further into the
+heap.  
+~
+0 A 0
+D4
+~
+garbage~
+1 0 17144
+D5
+~
+~
+0 0 17146
+S
+#17146
+Trash that Dreams is Made of~
+You are inside a large trash heap, and have managed to get yourself into
+a pile of disgusting molds and fungi.  Sounds delicious, right?  You're also
+sitting on some lovely uncooked, rotten meat.  Have fun.  
+~
+0 A 0
+D4
+~
+~
+0 0 17145
+S
+#17147
+The Park~
+The park is very busy.  There is a group of kids playing tag, and a group
+of younger kids playing on the old wooden swing.  You notice a few children
+playing on what looks like an old wagon wheel, spinning in circles.  
+a few parents are sitiing on a bench at the edge of the park.
+~
+0 R 0
+D2
+~
+~
+0 0 17111
+D3
+~
+~
+0 0 17148
+S
+#17148
+The Forest~
+The forest is a BAD place.  It is the home of the boogeyman that hunts
+small children and eats them for dinner.  He uses their leg bones to pick
+his teeth afterwards.  He lives in the base of a tree, and uses a bright red
+ball to lure children to the base, and snatches then up!  YUMMY!  
+~
+0 R 0
+D1
+~
+~
+0 0 17147
+S
+#17149
+Field~
+You are in a large field.  Tall green grass beckons you to lie down and
+rest.  It is very peaceful here.  Little birds dart and dive through the
+air, chasing after insects.  The field stretches out to the south.  
+~
+0 0 0
+D2
+~
+~
+0 0 17113
+S
+#17150
+Field~
+You are in a large field.  Tall green grass beckons you to lie down and
+rest.  It is very peaceful here.  You hear the chirping of tiny insects
+hopping through the grass.  The field stretches out to the north.  
+~
+0 0 0
+D0
+~
+~
+0 0 17113
+S
+#17151
+A small house~
+This shack is a most pitiful sight.  It looks as if it was built from
+scraps of wood and tree bark.  There are large holes in the walls, and the
+windows are made from the bottoms of old jars found in the dump.  
+~
+0 DR 0
+D2
+~
+~
+0 0 17121
+S
+#17152
+Field~
+You are at the edge of a large field.  A tall mass of bushes and weeds
+prevent you from going any direction but north.  
+~
+0 R 0
+D0
+~
+~
+0 0 17121
+S
+#17153
+~
+~
+0 C 0
+S
+#17154
+~
+~
+0 C 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 17118 5 1               * The down door of Back Alley is closed
+D 0 17126 4 1               * The up door of The Sewers is closed
+M 0 17100     1 17101     1   * Load the mailman
+M 0 17101    10 17101     4   * Load a frantic shopper
+M 0 17102    10 17102     2   * Load a dirty child
+M 0 17101    10 17105     2   * Load a frantic shopper
+M 0 17106     1 17106     1   * Load sabrina
+G 0 17105    -1               * {b the helmet of nightfall{x is given to sabrina
+G 0 17106    -1               * {m the helmet of dawn{x is given to sabrina
+G 0 17107    -1               * {b a helmet of humility{x is given to sabrina
+G 0 17108    -1               * {y a helmet of sunshine{x is given to sabrina
+G 0 17109    -1               * {c a helmet of dawn's demise{x is given to sabrina
+M 0 17108     1 17108     1   * Load sebastian
+G 0 17100    -1               * A straw cape is given to sebastian
+G 0 17101    -1               * {y a reinforced straw cape{x is given to sebastian
+G 0 17102    -1               * {r a magical, silk cape{x is given to sebastian
+G 0 17103    -1               * {w a thin, durable cotten cape{x is given to sebastian
+G 0 17104    -1               * {y a papyrus cape{x is given to sebastian
+M 0 17102    10 17116     2   * Load a dirty child
+M 0 17123     1 17123     1   * Load mercutio
+G 0 17129    -1               * A {rc{ya{rn{yd{ry {yn{re{rc{yk{rl{ya{rc{ye{x is given to mercutio
+G 0 17134    -1               * {xa {ymood {gring{x is given to mercutio
+G 0 17130    -1               * An et newbie bible is given to mercutio
+G 0 17131    -1               * {xsome {rnerdy {cglasses{x is given to mercutio
+G 0 17132    -1               * A junior eternity's trials atlas is here is given to mercutio
+G 0 17133    -1               * {can {xe{gt {bbeanie {yhat{x is given to mercutio
+G 0 17150    -1               * An{m e{wt{me{wr{mn{wi{mt{wy{m'{ws{c t{wr{ci{wa{cl{ws{g backpack{x is given to mercutio
+G 0 17151    -1               * A{b huge{c water{b skin{x is given to mercutio
+G 0 17152    -1               * A magic{g turnip{x is given to mercutio
+G 0 17153    -1               * {can {met {cnewbie hint book (look hint){x is given to mercutio
+M 0 17124     1 17124     1   * Load Thornton
+G 0 17124    -1               * A pair of open-toed sandals is given to Thornton
+G 0 17125    -1               * A pair of closed-toed sandals is given to Thornton
+G 0 17126    -1               * A pair of soft boots is given to Thornton
+G 0 17127    -1               * A pair of boots is given to Thornton
+G 0 17128    -1               * A pair of hard-soled boots is given to Thornton
+M 0 17125     1 17125     1   * Load mercutio
+M 0 17126     7 17126     1   * Load a green slime
+M 0 17126     7 17127     1   * Load a green slime
+M 0 17126     7 17128     1   * Load a green slime
+M 0 17127     3 17128     1   * Load the great sewer rat
+M 0 17126     7 17129     1   * Load a green slime
+M 0 17127     3 17129     1   * Load the great sewer rat
+M 0 17126     7 17130     1   * Load a green slime
+M 0 17130     1 17131     1   * Load A giant spider
+M 0 17130     3 17131     1   * Load A giant spider
+M 0 17126     7 17132     1   * Load a green slime
+M 0 17128     4 17132     1   * Load a lizard
+M 0 17126     7 17133     1   * Load a green slime
+M 0 17128     4 17133     1   * Load a lizard
+M 0 17128     4 17135     1   * Load a lizard
+M 0 17127     3 17135     1   * Load the great sewer rat
+M 0 17129     4 17136     1   * Load the slithering snake
+M 0 17129     4 17137     1   * Load the slithering snake
+M 0 17130     3 17138     1   * Load A giant spider
+M 0 17130     3 17140     1   * Load A giant spider
+M 0 17128     4 17141     1   * Load a lizard
+M 0 17129     4 17142     1   * Load the slithering snake
+M 0 17131     3 17142     1   * Load an alligator
+M 0 17129     4 17143     1   * Load the slithering snake
+M 0 17129     4 17144     1   * Load the slithering snake
+M 0 17131     3 17144     1   * Load an alligator
+M 0 17131     3 17145     1   * Load an alligator
+S
+
+
+
+#SHOPS
+17106 9 0 0 0 0 100 100 0 24
+17108 9 33 11 0 0 100 100 0 24
+17122 0 0 0 0 0 20 50 0 24
+17123 13 9 19 33 28 100 100 0 23
+17124 9 0 0 0 0 100 100 0 23
+17125 9 0 0 0 0 100 100 0 23
+0
+
+
+
+#$

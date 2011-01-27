@@ -1,0 +1,4851 @@
+#AREA   Forest of the Dead~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+20 40 0 65
+$
+
+#RESETMSG A sudden death cry breaks the silence of the dead...~
+
+#FLAGS
+0 8
+
+#ECONOMY 0 43378420
+
+#MOBILES
+#2800
+maschel duAngnain paladin undead slayer~
+Maschel duAngnain~
+An armored elf clad in the raiments of a paladin sworn to destroy undead stands here.
+~
+A tall, striking nobleman, Maschel duAngnain is a knight of both Malathar
+and Maritshome, and is a sworn enemy of undead everywhere. He is currently
+preparing to enter the Forest of the Dead once more, in another attempt to
+lay low the evil that fester here, a sore blight on the Elven holdings.
+If asked politely, he may be able to shed some light on some of the evil
+forces that control the forest, and where they may be found.
+~
+3 4727468 1000 C
+40 0 -300 0d0+0 0d0+0
+75000 0
+8 8 1
+22 22 22 22 22 22 22
+0 0 0 0 0
+1 3 0 0 3 1 2
+0 0 1791 48 3149570 0 1084227920 2635783
+> fight_prog 100~
+if rand(30)
+say Forces of Light unite to drive this evil being from here!
+stun
+disarm
+gouge
+else
+if rand(10)
+c heal
+c 'cure blindness'
+c 'dispel evil'
+c 'dispel magic'
+else
+if rand(25)
+wield avenger
+disarm
+bash
+punch
+else
+c 'faerie fire' $r
+endif
+endif
+endif
+~
+> greet_prog 100~
+if class($n) == vampire
+scream
+say Undead! I should destroy thee, vile filth!
+, fingers his sword in obvious irritation.
+c protect
+say Begone from my sight, vermin, afore I change my mind!
+snarl
+else
+if ispc($n)
+frown
+say Well met, stranger. Take care in these lands. Peril is rife,
+say and a plague to the unwary...
+else
+endif
+endif
+~
+> rand_prog 2~
+c heal $r
+c 'restore mana' $r
+nod
+mpat 3 c heal
+~
+> speech_prog p cresslix~
+say Cresslix! That accursed fiend! He has taken everything
+say from me, including my lovely Angelique... I will not
+say rest until his dying corpse lies at my feet!
+mutter
+say Should you wish to aid me, tell me so, and I will
+say aid you.
+~
+> speech_prog p i wish to aid you~
+say Excellent. You are of noble and stout heart, $n.
+say The vile lich lives, if that is the appropriate word, in
+say a diabolical tower known as T'kemp, famous for its
+say shifting hallways, which no one has ever managed to penetrate
+say to find his hidden lair. I myself know not the precise 
+say location of T'kemp, nor the secret of passing its halls,
+say but I do know this- magic will fail you in that place,
+say so do not rely upon it.
+nod
+~
+> speech_prog p t'kemp~
+say As I stated, it is the residence of Cresslix, the vile
+say lich that is the bane of my existence. I intend to become
+say the bane of his!
+say T'Kemp has three guardians, in addition to the shifting halls.
+say Each is a potent foe, and guards a key needed to access the
+say final sanctum of the vile lord of Darkness.
+~
+|
+#2801
+cresslix lich~
+Cresslix~
+A diabolical creature of the undead cackles hideously.
+~
+Utterly evil, Cresslix the damned is a vile creature, in life a necromancer
+of incredible power who has become an even greater threat in undeath. He
+sits within his blackened tower of twisted metal, plotting the eventual
+destruction of the Elven kingdom of Malathar, and many fear that he may well
+one day succeed.
+~
+35 358097576 -1000 C
+51 0 -300 100d10+11000 10d10+30
+1000000 0
+8 8 1
+13 22 13 13 23 13 13
+-22 -22 -22 -22 -22
+67 0 0 0 4097 1 2
+0 0 262207 32 3153678 0 16899 524291
+> fight_prog 80~
+if rand(30)
+c chill $r
+c 'winter mist' #r
+c feebleness $r
+else
+if rand(40)
+c necro $r
+c 'energy drain' $r
+wield wraithblade
+else
+if rand(10)
+mprestore self 100
+c unravel $r
+c razorbait $r
+else
+if rand(15)
+c 'acetum primus' $r
+c poison $r
+c 'dispel magic' $n
+else
+c 'faerie fire' $r
+endif
+endif
+endif
+endif
+if rand(20)
+mpgoto $i
+mprestore self 100
+c 'chill touch' $r
+endif
+~
+> greet_prog 100~
+if ispc($n)
+scream
+say No! This cannot be! How did you manage to find me!
+sneer
+say That accursed elf snot Maschel aided you, didn't he?
+say No matter, I shall destroy you just as I destroyed his wife!
+cackle
+c shadowform
+c blazeward
+c resilience
+else
+say No! I will not tolerate any more intrusions!
+mpe $n screams as unholy energies tear at $s soul!
+mpslay $n
+muhaha
+endif
+~
+> rand_prog 33~
+wield wraithblade
+mpat 3 c heal
+~
+> death_prog 100~
+mpe _blu As the lich perishes, the sphere you saw below appears.
+mpe _blu Hovering in mid air, it allows you access back to the caverns.
+mpe _blu It appears to be the only possible exit from this chamber.
+mpopenpassage 2899 2889 0
+~
+|
+#2802
+evil treant~
+an evil treant~
+A treant, warped and corrupted by the evil here, looms before you.
+~
+This tainted woodland being now exists only to slay and devour the
+living, whatever race or class they may be. The antithesis of its kindly
+cousins of the southern woods, this creature is a hated and feared menace
+to travellers here.
+~
+35 512 -765 C
+24 0 -88 0d0+0 0d0+0
+157560 0
+8 8 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 0
+0 0 0 16 2104320 1 960 2
+> greet_prog 100~
+, waves its spiny branches menacingly.
+~
+|
+#2803
+ghost robert ascerguin~
+the ghost of Robert Ascerguin~
+A shimmering, translucent figure hovers here.
+~
+A paladin of Maritshome who was slain horribly by a wraith, Robert's
+ghost now remains, seeking to avenge his death. The experience has driven
+him quite mad, and he cannot differentiate between friend and foe.
+~
+35 2171562 400 C
+28 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 0 0 2113286 0 1249906688 3
+> greet_prog 100~
+scream
+say More accursed foes! You must all die, in the name of good!
+snarl
+c 'frost breath' $n
+~
+> act_prog flees~
+yell NO! YOU CANNOT ESCAPE ME!
+mpat $n mea $n A ghostly hand clutches at you, dragging you back!
+mptrans $n
+c 'frost breath' $n
+~
+> death_prog 100~
+mpe A peaceful smile graces Robert's pained features as he is granted peace.
+~
+|
+#2804
+shambling mound~
+a shambling mound~
+A pile of rotting garbage and plant matter rises in the clearing.
+~
+This semi-intelligent, malevolent creature destroys any and all in its
+path. An overgrown plant, it can nevertheless inflict considerable
+damage on its victims.
+~
+35 512 -400 C
+26 0 -50 0d0+0 0d0+0
+12500 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 8232 3145776 3334 1 192 2
+> death_prog 100~
+mpe As the shambling mound perishes, a ring falls from its body.
+mpoload 2812 20
+drop band
+~
+|
+#2805
+skeleton ~
+a skeleton warrior~
+A skeleton clad in moldering armor stumbles through the trees.
+~
+This is the remains of one of the many soldiers who died in the bloody
+wars fought in these parts in centuries past. Now it is condemned to
+wander eternally, in search of something it can never find- peace.
+~
+97 512 -500 C
+22 0 0 0d0+0 0d0+0
+300 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 4096 4096 0
+0 0 0 64 3366 17 3 3
+> death_prog 100~
+mpe Your final blow reduces the undead to a pile of broken bones.
+~
+|
+#2806
+forest ghoul~
+a forest ghoul~
+A rotting corpse covered in twigs and other debris crawls out of the pit.
+~
+Unlike its more urban cousins, the forest ghoul is not the reanimated
+corpse of a slain human, but the remains of a human whose spirit was stolen
+by evil forces and replaced by vile spirits of the dark forests, thus
+making it resistant to many of the conventional weapons used against
+"true" undead.
+~
+39 544 -656 C
+25 0 0 0d0+0 0d0+0
+7500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 4096 4096 0
+0 0 263743 64 3846 1 262723 2
+> rand_prog 2~
+cackle
+mpasound A hideous cackling comes from somewhere nearby.
+~
+> greet_prog 100~
+howl
+drool
+lick
+~
+|
+#2807
+tangle thorn~
+a tanglethorn~
+A thick, spiky plant with long thorny tendrils waves in the wind.
+~
+This is one of the many evil, semi-intelligent plants that thrives
+in this cursed wood. It subsists on the flesh of creatures it incapacitates
+and kills with its potent acidic venom.
+~
+35 552 -400 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 8192 8192 2
+0 0 8224 2097184 2432 1 262658 2
+> greet_prog 100~
+mpe A section of the undergrowth springs to life as you enter!
+mpe Probing tentacles and keen sensitivity to vibrations enable it to
+mpe detect even hidden or invisible trespassers.
+~
+> fight_prog 10~
+mpe Acidic venom squirts from the plant's thorny protrusions!
+c 'acid breath'
+c poison
+~
+|
+#2808
+leshy~
+a leshy~
+A treelike humanoid with backwards feet charges towards you.
+~
+An evil forest creature, the Leshy resembles a humanoid tree, save
+that its feet are inverted, so that tracks that appear to head away
+from you are actually heading towards you...
+~
+35 98848 -600 C
+25 0 -50 0d0+0 0d0+0
+15000 0
+8 8 0
+13 13 13 18 13 13 13
+-3 -3 -3 -6 -3
+84 3 0 0 8192 8192 0
+6 0 2047 1052512 0 1 593 2
+> rand_prog 2~
+snort
+~
+> greet_prog 100~
+cackle
+say Die, creatures of the outside world!
+mpe The leshy clumsily charges towards you.
+~
+|
+#2809
+zombie~
+a zombie warrior~
+A zombie spearman shambles through the dark woods.
+~
+This is the remains of one of the many soldiers who died in the bloody
+wars fought in these parts in centuries past. Now it is condemned to
+wander eternally, in search of something it can never find- peace.
+~
+97 512 -500 C
+22 0 0 0d0+0 0d0+0
+300 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 0
+0 0 2047 32 3350 1 3 3
+> fight_prog 15~
+say GAAAAAAAHHHHHH
+mpe Your flailing blows send chunks of flesh flying from $I's body.
+if rand(60)
+mea $n A large chunk of the zombie's arm barely misses your head
+else
+mea $n A large chunk of flesh strikes you in the face!
+mpdamage $n 20
+endif
+~
+|
+#2810
+slime beast~
+the slime beast~
+A gruesome, slimecovered thing rises from the mire.
+~
+~
+35 552 -887 C
+28 0 -100 0d0+0 0d0+0
+15645 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 0 0 1 1 0
+0 0 0 1048814 2100496 1 592 2
+> act_prog p pound misses you.~
+mea $n Your weapon bounces off the slime beast's slippery hide!
+~
+> act_prog p crush misses you.~
+mea $n Your weapon bounces off the slime beast's slippery hide!
+~
+> fight_prog 10~
+mpe The slime beast roars and releases a volume of swamp gas!
+c gas
+~
+|
+#2811
+wight~
+a barrow wight~
+A shimmering, translucent figure rises from the tomb.
+~
+The undead result of a semi-successful bid by an ancient necromancer
+for immortality, this undead is immortal, but at the price of being
+trapped in a partially-corporeal form, and unable to leave its tomb.
+Enraged at this situation, it vents its anger on those unfortunate fools
+that disturb it.
+~
+35 271581864 -1000 C
+32 0 -100 0d0+0 0d0+0
+100000 0
+8 8 0
+13 22 13 13 13 13 13
+0 0 0 0 0
+68 0 0 0 4097 1 0
+0 0 0 1048576 2108678 0 1243615232 3
+> greet_prog 100~
+if ispc($n)
+, hisses menacingly.
+say Fool! You know not what forces you interfere with!
+say You were stupid indeed to venture into my tomb, but through
+say your idiocy I may yet be able to escape. So I suppose I
+say should be grateful that you have the brains of an Aldenramian
+say stoat, eh?
+cackle
+say Ironic, is it not?
+giggle
+else
+endif
+~
+> fight_prog 20~
+snarl
+wield broadsword
+if rand(60)
+mea $n The wight lashes out at you, seeking to touch you with freezing hands.
+c chill $n
+c chill $n
+c chill $n
+else
+disarm
+gouge
+snarl
+say Fool, you will perish in the fires of perdition afore I do!
+endif
+~
+> death_prog 100~
+mpe As the wight perishes, its form dissipates, leaving only a few
+mpe fragments of bone and its unearthly cold equipment.
+~
+|
+#2812
+unholy spirit~
+an unholy spirit~
+A snarling, drooling clawed creature flies screaming at you!
+~
+~
+97 336167464 0 C
+46 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 8192 8192 0
+0 0 362431 0 0 0 4099 2
+#2813
+wood golem statue~
+a wood golem~
+A twisted, gnarled wooden statue rises from a carpet of moss.
+~
+This statue has been here for centuries, judging by the thick moss that
+covers it. A grim smile has been hacked into its face, making it look at
+once both ludicrous and disturbingly macabre.
+~
+3 512 -200 C
+27 0 -100 0d0+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 8192 8192 0
+0 0 199 2097168 7456 65 960 2
+> act_prog p pierce misses you.~
+mea $n Your weapon sinks into the wood, causing little damage.
+~
+> act_prog p stab misses you.~
+mea $n Your weapon sinks into the wood, causing little damage.
+~
+> rand_prog 2~
+mpe The statue appears to shift slightly...
+~
+> fight_prog 20~
+mpe The golem uproots a small tree and hurls it at its foe!
+if rand(50)
+mea $n The tree sails overhead, narrowly missing you!
+else
+mea $n The tree slams into you, winding you!
+mpdamage $n 100
+mpechoar $n $n is staggered as the tree slams into $m.
+endif
+~
+|
+#2814
+druid shenaria~
+She'naria~
+A rather homely elf, clad in simple brown robes, sits meditating.
+~
+An island of purity in a sea of corruption, She'naria resides in the
+dark heart of this foul wood in the hopes of one day finding a way to 
+reverse the evil this place contains. She is curt, abrupt and distrustful,
+as she has an annoying habit of seeing the worst in people.
+~
+3 107176 200 C
+35 0 -200 11d10+1500 1d22+40
+500000 0
+8 8 2
+13 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+9 5 0 0 2 1 0
+0 0 2047 1048583 3840 0 1243611712 199
+> fight_prog 33~
+smile
+say I am master of all things forest-like, $n!
+, taps her head knowingly... hmmm.
+mpe With a shriek and a wave, She'naria utters an invocation!
+say Creatures of the forest, aid me!
+if rand(40)
+mpe A rather confused rabbit suddenly appears in a puff of smoke!
+mpmload 2815
+blink
+mutter
+say Attack, my...err.. ferocious rabbit!
+mpforce rabbit cringe
+mpforce $n cackle druid
+else
+if rand(60)
+mpe A rabid boar suddenly appears, snorting and foaming at the mouth!
+grin
+mpmload 2817
+say Ahh, attack my enemies, savage boar!
+mpe The boar grunts, looks around, and charges at She'naria!
+, eeps!
+mpforce $n cackle druid
+mpforce boar mpkill druid
+else
+if rand(80)
+mpe A faun appears, blinking innocently.
+curse
+mpmload 2816
+say I don't believe this...
+roll
+mpe The deer gazes about for a few minutes, then drops down for a nap.
+mpforce deer sleep
+mpforce $n cackle druid
+else
+mpe Absolutely nothing happens!
+mutter
+endif
+endif
+endif
+~
+> greet_prog 100~
+if ispc($n)
+mutter
+roll
+say What do you want, $n? Can't you see I'm busy?
+say Evidently not, stupid question really... If you knew I
+say was busy, you wouldn't DISTURB me, WOULD YOU? Not if you
+say had any MANNERS, that is... Which you obviously DON'T!
+shriek
+else
+endif
+~
+> rand_prog 2~
+say Why are you still here, eh? Begone!
+mutter
+meditate
+, meditates peacefully, collecting mana from the cosmos.
+~
+> act_prog p sits down.~
+say What are you doing! Don't make yourself at home! Leave!
+mea $n $I yanks you to your feet.
+mpforce $n stand
+say Out! Out! OUT!
+mea $n $I is trying to push you out the door, but isn't strong enough.
+~
+> act_prog p sprawls out haphazardly.~
+say What are you doing! Don't make yourself at home! Leave!
+mea $n $I yanks you to your feet.
+mpforce $n stand
+say Out! Out! OUT!
+mea $n $I is trying to push you out the door, but isn't strong enough.
+~
+> act_prog p collapses into a deep sleep.~
+mpe Words fail She'naria, who is speechless with rage at $n.
+wake $n
+say $n, perhaps I did not make myself clear...
+mpe She'naria is so angry, she looks like she will shake herself apart.
+say LEAVE!
+scream $n
+mea $n Your ears ringing, you dash wildly from the hut!
+mea $n What a rude awakening!
+mpechoar $n Startled suddenly from $s sleep, $n panics and dashes outside!
+mptrans $n 2840
+mpat 2840 mpechoar $n comes bolting out of the hut, obviously terrified!
+~
+> act_prog p looks at you.~
+gasp
+say How dare you look at me in such a lascivious fashion!
+slap $n
+if cha($n) >= 16
+say On the other hand, you aren't bad looking...
+wink $n
+else
+endif
+~
+|
+#2815
+rabbit~
+a rabbit~
+A rather confused rabbit sits here.
+~
+~
+193 512 0 C
+5 18 8 1d1+30 1d4+1
+2 100
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 512 512 0
+0 0 33621545 0 0 0 0 0
+#2816
+deer~
+a deer~
+A deer blinks in confusion at its surrounds.
+~
+She is a graceful creature on long, slender legs, and with large, brown eyes
+looking back at you with an air of watchful interest.
+~
+83 8 350 C
+8 19 0 2d8+33 1d6+0
+0 200
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 1
+0 0 1581 0 0 0 32 0
+#2817
+boar~
+a boar~
+A ferocious boar grunts and lowers its head.
+~
+~
+1 0 -200 C
+12 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 512 512 0
+0 0 69273257 0 0 0 128 2
+#2818
+giant spider~
+a giant spider~
+A spider the size of a small pony scuttles across the webs.
+~
+Loathsome arachnids infest most of the forests of Brythunia, a constant
+hazard to locals and visitors alike.
+~
+35 33312 0 C
+24 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 256 256 0
+0 0 1068 0 256 17 262145 2
+> death_prog 100~
+mpe A clump of webbing is torn down by the spider as it thrashes about.
+mpe Peering at the webbing, you find a usable piece and twist it into
+mpe a usable item.
+if rand(66)
+mpoload 2836 
+else
+mpoload 2835
+endif
+~
+|
+#2819
+harpy~
+a harpy~
+A cackling harpy pecks at bits of flesh.
+~
+One of the many evil creatures that took over the stockade, it now
+returns frequently to assault curious adventurers.
+~
+163 524808 -750 C
+32 0 -50 0d0+0 0d0+0
+25000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+42 3 0 0 512 512 0
+0 0 296505 1050624 0 0 579 2
+> rand_prog 2~
+, screeches loudly and angrily!
+mpasound A beautiful voice raised in song comes from somewhere nearby.
+~
+> fight_prog 15~
+mpe The harpy begins to sing, attempting to charm you!
+mpasound A beautiful voice raised in song comes from somewhere nearby.
+if wis($n) < 13
+mea $n Being weak willed, you fall prey to the soothing song.
+mea $n You lower your guard and smile blissfully. The harpy strikes!
+mpdamage $n 75
+else
+mea $n You resist the effects of the song and redouble your efforts!
+curse
+endif
+~
+|
+#2820
+elven wraith~
+an elven wraith~
+An elvish soldier slain in the battle has returned as a wraith.
+~
+Unable to rest after its violent death, this elf has returned to a
+semblance of existence as a wraith, doomed to haunt this place until
+it is laid to rest.
+~
+3 270574120 400 C
+34 0 -100 0d0+0 0d0+0
+35000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 2 2 0
+0 0 0 1056768 2100998 1 1109397504 524291
+> fight_prog 20~
+mea $n The icy cold touch of the wraith chills you to the bone.
+c chill
+c weaken
+~
+> greet_prog 100~
+if ispc($n)
+say Flee, corporeal one. Flee, while ye yet may!
+moan
+else
+moan
+endif
+~
+> rand_prog 2~
+moan
+mpasound A loud moaning echoes around the stockade.
+~
+> act_prog p DISARMS you!~
+cackle
+say You think removing my weapon reduces my power!
+say Such trappings are only a dim indication of a prior 
+say existence. I have powers, unwanted perhaps, but nevertheless...
+mpe $I utters a few incantations... Strange energy suffuses its form.
+mpat 3 c shadowform
+mpat 3 c heal
+mpat 3 c 'eldritch sphere'
+~
+|
+#2821
+vampire commander~
+the commander~
+The commander of the fort welcomes you to his office.
+~
+What? Impossible. How could the commander have survived the slaughter
+outside? You shake your head, suspending disbelief to consider the 
+facts. The commander certainly is an odd fellow, all tall and gaunt.
+Frowning, you peer closer; are those FANGS?
+~
+7 8872 -1000 C
+38 0 -100 20d10+2080 8d4+32
+100000 0
+8 8 0
+18 18 13 18 13 13 13
+-4 -4 -4 -4 -4
+1 4 0 0 2 2 0
+0 0 2047 1048584 2109188 1 1107302912 524291
+> fight_prog 25~
+c chill
+feed
+lick
+if rand(60)
+gouge
+cackle
+else
+disarm
+wield fang
+mmm
+endif
+~
+> act_prog p from the south.~
+if ispc($n)
+chuckle
+say What a pleasant surprise! Fellow adventurers, like myself.
+smile
+say Oh, ignore the bureaucratic surrounds, i was once a brave
+say adventurer, just like you, long ago. 
+sigh
+shrug
+say That is in the past now. How may I help you?
+, stares at you strangely.
+else
+say I'm sorry, I don't have time for your sort right now.
+say Good day.
+op s
+mpe The commander escorts $n outside.
+mpforce $n s
+close s
+sigh
+endif
+~
+> rand_prog 100~
+wield claw
+mpat 3 c heal
+close s
+~
+> rand_prog 2~
+sing
+, is staring at you strangely...
+~
+> speech_prog p vampire~
+say Vampire? Moi?
+, looks astonished.
+chuckle
+say Damnit, you're right. Good for you.
+say I took the form of the foolish commander of this place.
+say You should have seen the looks on his guards' faces...
+say Slaughtered by their own boss!
+cackle
+say Heh, guess you had to be there.
+shrug
+say Die.
+c gas
+~
+> act_prog p opens a closet.~
+mpe $I rushes over and quickly shuts the closet!
+close closet
+say Er leave that alone please.
+smile
+~
+|
+#2822
+behemoth~
+the behemoth~
+A mammoth creature lies here, deep in slumber.
+~
+The sleeping behemoth is a pet of Cresslix, which he releases to feed
+at a point in the forest at regular intervals. It is rumored to be
+unkillable, save by the Gods themselves. But if it is slain, its hide
+is of considerable value...
+~
+3 512 0 C
+48 0 -300 11d22+22320 11d11+60
+1000000 0
+8 8 0
+25 13 13 13 13 13 13
+-30 -30 -30 -30 -30
+89 3 0 0 512 512 0
+0 0 42010301 8895 3153216 0 832 2
+> rand_prog 2~
+snore
+mpasound The snoring of some gargantuan sleeper shakes the walls.
+~
+> act_prog p slash misses you.~
+mea $n Your blade fails to cut through the thick hide.
+~
+> fight_prog 66~
+if rand(15)
+mpe The behemoth stamps hard on the ground, causing it to tremble violently!
+c earthquake
+endif
+if rand(45)
+mpat 3 c 'cure blindness'
+mpat 3 c heal
+mpat 3 c heal
+mea $r The behemoth smashes its mighty foot into you!
+mpdamage $r 400
+else
+if rand(60)
+mpe The behemoth tires of battling, $n, and decides to beat someone new!
+mpgoto $i
+grin
+wink $r
+murder $r
+mpdamage $r 400
+else
+if rand(70)
+mprestore self 300
+mpe The wounds you inflict seem to fade even as they are inflicted.
+else
+mea $r The behemoth slams its tail into you.
+mpdamage $r 600
+endif
+endif
+endif
+~
+> rand_prog 2~
+mpe The behemoth stirs and lets rip with a massive fart.
+fart
+smile
+if rand(10)
+c gas
+else
+endif
+~
+> death_prog 100~
+mpe The beast is slain! Blinking in surprise, it staggers a bit while
+mpe the message finally reaches its tiny brain. With a final cough
+mpe and spasm, the beast dies, falling remarkably softly to the ground
+mpe As it perishes. $n screams madly and leaps atop the corpse, tearing
+mpe A chunk of flesh from its mottled hide. Grinning evilly, $e leaps
+mpe back down and sports $s prize proudly.
+mpoload 2853
+~
+> act_prog p charges at you screaming, but you dodge out of the way.~
+rofl
+mpe Clearly, the thought of you trying to stun a ten thousand tonne
+mpe creature amuses the behemoth immensely. In its mirth, it thrashes
+mpe around, belching, farting and scattering opponents about.
+c gas
+c earthquake
+mpdamage $r 125
+~
+|
+#2823
+manifestation chaos~
+a chaotic manifestation~
+A glowing black sphere of evil energy hovers here.
+~
+This sphere of energy has only a dim consciousness, and will do 
+nothing except feed off the ambient evil in the air, unless it is
+provoked or molested.
+~
+3 268435968 -1000 C
+45 0 -200 100d10+4500 11d4+44
+0 0
+8 8 0
+13 13 13 13 13 13 13
+-30 -30 -30 -30 -30
+90 3 0 0 32768 32768 0
+0 0 16 80 3153666 0 20480 6
+> fight_prog 50~
+c 'energy drain'
+c weaken
+c chill
+~
+> death_prog 100~
+mpe A piece of the sphere floats free as it perishes.
+mpoload 2858
+~
+|
+#2824
+haunt~
+a haunt~
+A ghostly apparition weeps silently.
+~
+This is the cursed spirit of a former noble of this once fair city,
+doomed to remain and watch it slowly decay into nothing, helpless to
+leave or prevent this or its own suffering. Coupled with this is the
+fact that anyone who could speak her language died milennia ago.
+~
+3 270533288 750 C
+46 0 -300 0d0+0 0d0+0
+450000 0
+8 8 2
+13 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+84 1 0 0 65536 65536 0
+0 0 0 1048576 2109190 0 1243615232 6
+> greet_prog 100~
+if ispc($n)
+sigh
+say Adventurer, I know you cannot understand what I say.
+say But nevertheless, I must warn you of Cresslix, the former
+say leader of this place. He has turned evil, and resides in 
+say a tower of shifting halls north of the entrance to this
+say city. Slay him, and end this dreadful curse.
+mpe Upset by your inability to understand her, the haunt weeps again.
+else
+endif
+~
+> rand_prog 2~
+c heal
+c heal $r
+c 'restore mana' $r
+~
+|
+#2827
+goblin spy~
+a goblin spy~
+A small goblin creeps furtively through the woods.
+~
+Sent by tribes from the south, this creature's mission is to locate
+any possible allies in this fell wood, and maybe even find the legendary
+Cresslix, the mad necromancer that is rumored to reside here, in the shifting
+halls of T'kemp.
+~
+197 98856 -400 C
+18 0 0 0d0+0 0d0+0
+500 0
+8 8 1
+13 13 13 20 13 13 13
+0 0 0 0 0
+39 2 0 0 16384 16384 0
+0 0 264191 0 0 0 1601 2
+#2828
+clay golem~
+a clay golem~
+A berserk clay golem is smashing marble and stone.
+~
+Once a faithful and loyal guardian of the owner of this home, this creature
+and its brethren now runs amuck, smashing all in its path.
+~
+97 552 0 C
+40 0 -123 0d0+0 0d0+0
+100000 0
+8 8 0
+25 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+40 3 0 0 8192 8192 0
+0 0 199 8425 2104598 0 8388880 6
+#2829
+mad mage aczeal~
+Aczeal~
+A gibbering, drooling mage casts spells at everything.
+~
+An adventurer like yourself, Aczael became trapped by the golems in
+this ruined tower, and, being unable to leave, slowly went mad.
+~
+3 33288 -200 C
+42 0 -109 0d0+0 0d0+0
+575000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 -30
+0 0 0 0 1 1 0
+0 0 2047 1048576 3072 0 1075843649 1050114
+> rand_prog 2~
+if rand(30)
+giggle
+mpe $I points at a large rock, and it explodes into tiny fragments!
+else
+if rand(40)
+cackle
+c 'create food'
+ooo
+snicker
+else
+if rand(60)
+wince
+say Miscast!
+c gas
+cringe
+else
+if rand(80)
+c fly
+c invis
+say Awesome! I'm flying inviso man!
+drool
+else
+snap
+c shadowform
+ooo
+endif
+endif
+endif
+endif
+~
+> greet_prog 100~
+mea $n $I peers at you quizzically.
+say Who are YOU....?
+boggle
+shrug
+say Hey, watch this!
+mpe $I makes an arcane gesture with his hands...
+if rand(60)
+mpe A rock appears!
+, smiles proudly.
+mea $n You try to look impressed. This fellow could be dangerous.
+else
+mpe Nothing happens!
+curse
+stamp
+say No fair!
+sniff
+endif
+~
+> fight_prog 45~
+if rand(30)
+c 'fire breath' $n
+mpe $I jumps up and down in glee.
+say Burn baby burn!
+else
+if rand(60)
+mpe $I grabs his spellbook and hastily leafs through it.
+mpe Failing to find a spell, he resorts to physical violence.
+gouge
+bash
+cackle
+else
+if rand(45)
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+else
+c 'faerie fire'
+c weaken
+c blindness
+endif
+endif
+endif
+~
+|
+#2830
+gargoyle~
+a gargoyle~
+As you enter, one of the visages breaks free from the wall and comes to life!
+~
+This bestial creature is one of the many twisted magical creations of
+the lich cresslix, left to guard his domain.
+~
+35 524968 -400 C
+44 0 -200 1d1+2500 4d10+20
+320000 0
+8 8 0
+17 8 3 17 17 3 6
+-10 -10 -10 0 -10
+85 3 0 0 1 1 0
+0 0 329407 0 11552 0 7 8194
+#2831
+pennig vampyr~
+the Vampyr Pennig~
+A slim, nubile young girl, scarcely in her teens, steps out of the shadows.
+~
+The kidnapped daughter of Maschel, Cresslix's minions brought her here
+to be used by the lich, and he corrupted her into another member of his
+legion of undead. Despite her appearance, she is vile, conniving and
+utterly twisted and evil, her mind permanently warped by the trauma her
+body and soul has been subjected to.
+~
+3 268444328 -1000 C
+48 0 -200 1d1+5500 0d0+0
+500000 0
+8 8 2
+22 22 13 22 22 22 13
+-10 -10 -10 0 -10
+67 4 0 0 1 1 0
+0 0 263871 3145736 3846 1 1107302914 10259
+> greet_prog 100~
+if ispc($n)
+smile
+curtsey
+say Greetings, noble adventurer. Have you come... to rescue me?
+cackle
+say Or to slay Cresslix, my father, my mentor, my... love?
+, licks her lips in a grossly lascivious fashion.
+say Well you had best be rid of that concept, $n!
+mpe A dangerous gleam creeps into Pennig's dead eyes. 
+else
+endif
+~
+|
+#2832
+marshal klein~
+Marshal Klein~
+A battered, beaten man sits in a corner of the chamber.
+~
+A friend of Maschel who sought to rescue Pennig, Klein has been reduced
+to being Pennig's plaything to relieve her boredom, and now awaits only
+his death, or possible rescue by Maschel.
+~
+3 8872 700 C
+46 0 -200 1d1+4000 25d2+10
+0 0
+8 8 1
+17 13 13 17 13 13 13
+0 0 0 0 -15
+0 2 0 0 1 1 0
+0 0 2047 270487 2165760 0 560 524291
+> greet_prog 100~
+if ispc($n)
+say If you want more pain, Pennig, then... 
+, sees who you are and leaps to his feet, drawing a long dagger.
+wield dagger
+glare $n
+say Who the hell are you?
+else
+endif
+~
+> fight_prog 33~
+wield dagger
+circle $n
+gouge
+disarm
+~
+|
+#2833
+zombie chopper~
+Chopper zombie~
+A zombie with a slight gleam of intelligence in his eyes stands here.
+~
+A former servant of Cresslix, this chef-turned-mercenary-turned-undead
+has been punished by being turned into a living zombie and placed here
+to guard the lower chambers.
+~
+3 552 -555 C
+45 0 0 0d0+0 0d0+0
+100000 0
+8 8 0
+22 8 13 15 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+0 0 2047 16 3846 1 513 524291
+> rand_prog 66~
+wield chopper
+~
+> rand_prog 2~
+lick
+grin
+~
+> fight_prog 66~
+wield chopper
+if rand(25)
+disarm
+grin
+endif
+if rand(40)
+gouge
+mea $r Chopper runs his tongue along his cleaver and buries it in your chest!
+mpechoar $r $I runs his tongue along his cleaver and slashes $r!
+mpdamage $r 200
+lick
+else
+if rand(60)
+stun
+mpe An evil gleam creeps into Chopper's eyes and he slashes wildly!
+mpdamage $r 100
+mpdamage $r 100
+cackle
+else
+if rand(80)
+mpat 3 c heal
+mpat 3 c heal
+mpat 3 c heal
+mpe Wounds close on $I's body as you inflict them!
+muhaha
+say Hardy flesh, eh?
+wink
+scream
+else
+mmm
+endif
+endif
+endif
+~
+> greet_prog 100~
+say 'Ere's one boyz! Get 'em!
+cackle
+drool
+murder $n
+~
+|
+#2834
+zombie~
+a living zombie~
+A former associate of Chopper staggers to his boss' aid.
+~
+A former servant of Cresslix, this chef-turned-mercenary-turned-undead
+has been punished by being turned into a living zombie and placed here
+to guard the lower chambers.
+~
+3 552 -555 C
+45 0 0 0d0+0 0d0+0
+100000 0
+8 8 0
+22 8 13 15 13 13 13
+0 0 0 0 0
+71 3 0 0 1936552545 1936552545 0
+0 0 2047 16 3846 1 513 524291
+> greet_prog 100~
+say GAAAAAAAAHHH!
+murder $r
+~
+|
+#0
+
+
+#OBJECTS
+#2800
+holy avenger~
+a Holy Avenger~
+A glowing sword of brilliant white illuminates the area.~
+~
+5 8963401 8193
+0 0 0 3
+18 175000 17500
+A
+1 2
+A
+5 2
+A
+13 75
+A
+18 8
+A
+19 8
+A
+24 -4
+A
+27 512
+#2801
+amulet elven realms~
+the Amulet of the Elven Realms~
+A shiny mithril amulet glows brightly.~
+~
+9 8947008 5
+8 0 0 0
+3 56000 5600
+A
+3 1
+A
+4 2
+A
+12 35
+A
+21 -2
+A
+22 -2
+A
+18 2
+A
+19 3
+#2802
+sunburst shield~
+a sunburst shield~
+A shield emblazoned with a sunburst image fills the room with light.~
+~
+9 8947008 513
+22 0 0 0
+5 19999 1999
+A
+25 3
+A
+31 1
+A
+12 20
+A
+13 20
+A
+18 2
+A
+19 2
+A
+23 -3
+A
+24 -3
+#2803
+plate undead slayer~
+the Plate of the Undead Slayer~
+A suit of fantastically bright metal armor glows with a brilliant hue.~
+~
+9 25740608 9
+13 0 0 0
+1 50000 5000
+A
+17 -30
+A
+13 60
+A
+18 6
+A
+19 6
+A
+27 32
+A
+27 2560
+#2804
+brand brilliance~
+Fiery Brand of Brilliance~
+A flaming rod of white metal is scorching the ground beneath it.~
+~
+1 8949057 1
+0 0 -1 0
+1 150646 15064
+A
+18 2
+A
+19 2
+A
+24 -3
+> damage_prog 33~
+mpoload 2804
+drop brand
+mpforce $n get brilliance
+mea $n The brand magically reforms from the broken scraps!
+mpforce $n hold brilliance
+~
+|
+#2805
+wraithblade~
+Wraithblade~
+A shimmering sword of evil energy shifts in and out of existence here.~
+~
+5 624 8193
+0 0 0 6
+1 0 0
+A
+1 -1
+A
+5 -1
+A
+12 130
+A
+18 9
+A
+19 9
+A
+26 1048576
+A
+22 -2
+A
+20 -2
+A
+24 -2
+A
+30 25
+#2806
+claws of the damned~
+Claws of the Damned~
+A pair of twisted metal claws sour the ground they taint.~
+~
+9 627410 129
+11 0 0 0
+22 3675000 367500
+A
+1 1
+A
+2 1
+A
+17 -15
+A
+12 25
+A
+18 4
+A
+19 6
+#2807
+black cowl cresslix~
+the Black Cowl of Cresslix~
+A cowl of black cloth is draped on the floor.~
+~
+9 98896 17
+12 0 0 0
+1 4500 450
+A
+3 2
+A
+4 2
+A
+12 125
+A
+19 4
+A
+26 16777216
+> wear_prog 1~
+c sanc $n
+~
+|
+#2808
+tears saint~
+Tears of the Saint~
+A blackened shard of crystal lies here.~
+~
+9 229984 65537
+8 0 0 0
+1 15000 1500
+A
+25 -2
+A
+31 -2
+A
+13 25
+A
+12 25
+A
+18 3
+A
+19 3
+#2809
+falchion~
+a shining falchion~
+A magical falchion shimmers here.~
+~
+5 524353 8193
+0 0 0 3
+8 50900 5090
+A
+18 5
+A
+19 5
+#2810
+tattered cloak ~
+a tattered cloak~
+A tattered cloak is draped on the ground.~
+~
+9 64 1025
+7 0 0 0
+3 100000 10000
+A
+1 1
+A
+4 1
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 3
+A
+24 -2
+#2811
+weatherbeaten sign~
+a weatherbeaten sign~
+A weatherbeaten sign is nailed to a tree.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+sign~
+The Forest of the Dead is a dangerous place, and not for novice adventurers,
+or those who are weak of heart. Certainly one should be no less than level 20,
+even those much higher than this should still show care.
+~
+#2812
+band ring jewelled~
+a jewelled band~
+A gold band encrusted with tiny gems gleams brightly.~
+~
+9 65 3
+4 0 0 0
+1 50000 5000
+A
+3 1
+A
+4 1
+A
+12 20
+A
+18 2
+#2813
+iron torc~
+an iron torc~
+A circular piece of iron lies here.~
+~
+9 557568 5
+6 0 0 0
+24 100 10
+A
+17 -10
+A
+13 10
+A
+18 1
+A
+19 2
+A
+24 2
+#2814
+battered mace~
+a battered mace~
+This mace has seen more battles than you...~
+~
+5 524288 8193
+0 0 0 7
+5 75 7
+A
+19 3
+#2815
+iron buckler~
+an iron buckler~
+An iron buckler has been dropped here.~
+~
+9 524288 513
+7 0 0 0
+10 50 5
+A
+17 -10
+A
+13 30
+A
+19 2
+A
+22 -1
+A
+21 -1
+A
+23 -1
+#2816
+gaping pit~
+a gaping pit~
+A gaping pit serves as a lair for some horrid beast.~
+~
+15 0 0
+10000 1 0 0
+1 0 0
+#2817
+splint mail~
+splint mail~
+A suit of splint mail has been tossed aside here.~
+~
+9 16793600 9
+17 0 0 0
+10 5750 575
+A
+17 -13
+A
+1 1
+A
+5 2
+A
+18 -3
+A
+19 4
+#2818
+circlet thorns~
+circlet of thorns~
+Someone has fashioned a wreath from sharp thorn and thistle.~
+~
+9 262144 17
+5 0 0 0
+1 0 0
+A
+13 -20
+A
+4 2
+A
+12 50
+A
+29 32
+A
+20 -1
+> wear_prog 100~
+mea $n Spiny thorns dig into your head as you don the circlet.
+mpdamage $n 10
+~
+> remove_prog 100~
+mea $n The thorns tear at your flesh as you remove the circlet.
+mpdamage $n 10
+mpforce $n wince
+~
+|
+#2819
+bark leggings~
+bark leggings~
+A pair of leggings crafted from tree bark has been left here.~
+~
+13 262164 33
+6 0 0 0
+4 50 5
+A
+1 1
+A
+2 1
+A
+17 -5
+A
+18 2
+A
+19 1
+A
+23 3
+#2820
+spear~
+an ironshod spear~
+An iornshod spear is thrust into the ground.~
+~
+5 524288 8193
+0 0 0 2
+8 100 10
+A
+18 2
+A
+19 2
+#2821
+leather girdle~
+a leather girdle~
+A leather girdle studded with rusted iron studs hangs from a hook.~
+~
+9 573440 2049
+10 0 0 0
+10 500 50
+A
+5 1
+A
+1 1
+A
+3 -1
+A
+4 -1
+A
+13 10
+A
+17 -10
+#2822
+mildewed sandals~
+mildewed sandals~
+A pair of sandals covered in mold and other substances lies here.~
+~
+9 262144 65
+3 0 0 0
+1 5 0
+#2823
+cold steel broadsword~
+Cold Steel Broadsword~
+A broadsword forged in cold instead of heat glows strangely.~
+~
+5 623169 8193
+0 0 0 6
+3 50000 5000
+A
+1 -1
+A
+5 -1
+A
+3 2
+A
+12 50
+A
+18 6
+A
+19 8
+A
+27 2
+A
+21 -5
+#2824
+cold steel gauntlets~
+Cold Steel Gauntlets~
+A pair of icy cold blue steel gauntlets chill the surrounding air.~
+~
+9 623169 129
+7 0 0 0
+2 5670 567
+A
+1 -1
+A
+5 -1
+A
+12 20
+A
+18 4
+A
+19 4
+A
+27 2
+A
+29 1
+#2825
+sapphire bracelet~
+sapphire bracelet~
+A delicate sapphire bracelet has been carelessly tossed aside.~
+~
+9 98881 4097
+3 0 0 0
+1 75000 7500
+A
+2 1
+A
+18 3
+A
+12 5
+A
+13 5
+A
+24 -3
+#2826
+glassy panel~
+a glassy panel~
+A glassy panel is set into one of the grimy stone walls.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpe With a soft sigh, the panel moves inwards, revealing a chamber.
+mpopenpassage 2898 2899 4 
+~
+> pull_prog 100~
+mpe The panel slides silently shut, sealing the exit.
+mpclosepassage 2898 4
+~
+|
+#2827
+goblin spy~
+a newly created goblin spy~
+Some god dropped a newly created goblin spy here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2828
+spyglass~
+a spyglass~
+A small brass spyglass has been left behind.~
+~
+9 524288 131073
+4 0 0 0
+1 3000 300
+A
+3 1
+A
+18 2
+A
+26 32
+#2829
+map~
+a faded and torn map~
+A faded and torn map of the Forest lies here, unwanted.~
+~
+13 262144 1
+0 0 0 0
+1 0 0
+E
+map~
+Goblins aren't renowned navigators at the best of times, and this fact,
+coupled with the exceptionally poor condition of the map, makes most of
+it illegible and highly suspect. However, several of the markings seem to
+fit with what little you know of local geography, and doubtless some of
+the landmarks are general knowledge to the locals.
+ 
+     Cresslix?
+        
+        
+                                       Stair Thingy
+        
+                                                             Tower
+        
+        
+        
+                                                                   R
+HEre bE    -------------
+sLime...
+                                                                I
+                         G?
+Ruins n                                                         V
+stuff                                    |
+                                         |
+                                      Startz                      E
+~
+#2830
+moss sleeves~
+sleeves of moss~
+Sleeves covered with damp moss cover the ground.~
+~
+9 1600 257
+8 0 0 0
+1 45000 4500
+A
+1 1
+A
+4 1
+A
+5 1
+A
+12 25
+A
+13 25
+A
+18 2
+A
+19 2
+A
+27 1
+#2831
+perfect maple leaf~
+a perfect maple leaf~
+A perfectly formed maple leaf lies on the floor.~
+~
+9 8634432 16385
+12 0 0 0
+1 0 0
+A
+4 2
+A
+12 50
+A
+18 4
+A
+19 4
+A
+24 -5
+A
+26 32768
+#2832
+amber earring~
+amber earrings~
+A pair of drops of hardened tree sap lie here.~
+~
+9 1089 65537
+5 0 0 0
+1 4000 400
+A
+3 2
+A
+2 1
+A
+12 10
+A
+20 -2
+#2833
+staff~
+a stout wooden staff~
+A piece of oak six feet long lies here.~
+~
+5 8650816 8193
+0 0 0 7
+1 44 4
+A
+4 1
+A
+12 20
+A
+18 4
+A
+19 4
+#2834
+robes~
+plain brown robes~
+A pile of brown cloth has been dumped here.~
+~
+9 262144 9
+5 0 0 0
+5 100 10
+#2835
+spider silk belt~
+a spider silk belt~
+A belt fashioned from spider web can barely be seen.~
+~
+9 262208 2049
+6 0 0 0
+1 7500 750
+A
+2 2
+A
+18 3
+#2836
+spider silk leggings~
+spider silk leggings~
+A pair of silken leggings lies here.~
+~
+9 262208 33
+6 0 0 0
+1 7500 750
+A
+2 1
+A
+14 100
+A
+19 2
+#2837
+battered wooden sign~
+a battered wooden sign~
+A battered wooden sign marks the trails.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+sign~
+To the North lies the Elven Outpost, barracks of the contingent
+assigned to guard these forests from harm. Show the proper respect to
+these authorities of the Elven Kingdoms.
+ 
+Do not enter if you are below level 30...
+~
+#2838
+skeleton~
+an elven skeleton~
+The skeletal remains of an elven sentry are slumped over the edge.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#2839
+moldering cloak~
+moldering boots~
+Elven boots covered in white mold lie here.~
+~
+9 262144 5
+1 0 0 0
+1 0 0
+#2840
+moldering boots~
+a moldering cloak~
+A rotting brown cloak covered in white mold lies here.~
+~
+9 262144 65
+1 0 0 0
+1 0 0
+#2841
+elven mail~
+a suit of elven mail~
+A suit of finely wrought elven chain has been carefully placed here.~
+~
+9 8389696 9
+11 0 0 0
+1 10000 1000
+A
+17 -20
+A
+2 1
+A
+12 50
+A
+24 -5
+#2842
+elven longsword~
+an elven longsword~
+An ornately-fashioned sword lies here.~
+~
+5 8389697 8193
+0 0 0 3
+10 4000 400
+A
+3 1
+A
+2 1
+A
+13 22
+A
+12 33
+A
+18 7
+A
+19 6
+#2843
+closet~
+a closet~
+A wooden closet rests near the door.~
+~
+15 0 0
+10000 13 2844 0
+500 0 0
+E
+closet~
+Used to store weapons and other items, this closet has not been opened
+in some time.
+~
+#2844
+closet key~
+the closet key~
+A small key has been dropped here~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#2845
+sword gerold~
+Gerold's sword~
+A finely wrought elven longsword has been dropped here.~
+~
+5 8422729 8193
+0 0 0 3
+30 750000 75000
+A
+1 1
+A
+5 1
+A
+31 2
+A
+13 50
+A
+12 50
+A
+18 8
+A
+19 8
+A
+24 -3
+#2846
+closet key~
+the closet key~
+A small key has been dropped here~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#2847
+finn shield~
+Finn's shield~
+A brilliantly glowing white shield has been left here.~
+~
+9 8422720 513
+12 0 0 0
+30 500000 50000
+A
+4 1
+A
+5 1
+A
+31 2
+A
+13 10
+A
+12 20
+A
+18 2
+A
+19 2
+A
+27 2097152
+#2848
+closet~
+a closet~
+A wooden closet rests near the door.~
+~
+15 0 0
+10000 13 2846 0
+500 0 0
+E
+closet~
+Used to store weapons and other items, this closet has not been opened
+in some time.
+~
+#2849
+closet~
+a closet~
+A wooden closet rests near the door.~
+~
+15 0 0
+10000 5 -1 0
+500 0 0
+E
+closet~
+Used to store weapons and other items, this closet has not been opened
+in some time.
+~
+#2850
+claw nightbeast~
+Claw of the Nightbeast~
+A twisted, mangled claw drips blood onto the floor.~
+~
+5 16908882 8193
+0 0 0 5
+20 100 10
+A
+1 -1
+A
+5 -1
+A
+13 60
+A
+18 7
+A
+19 7
+#2851
+skeleton~
+the commander's skeleton~
+The skeletal remains of the commander lie scattered here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+skeleton~
+Everyone has a skeleton in their closet...
+~
+> exa_prog 100~
+mpforce $n laugh
+mpforce $n frown
+mpforce $n say Wait, that's not funny...
+~
+|
+#2852
+moss moccasins~
+moss covered moccasins~
+A pair of moccasions fashioned from moss lies here.~
+~
+9 262144 65
+4 0 0 0
+1 0 0
+A
+27 1
+A
+26 32768
+A
+14 75
+A
+31 2
+#2853
+hide behemoth~
+behemoth hide~
+A strip of thick leathery skin lies here.~
+~
+13 262144 1
+0 0 0 0
+1 0 0
+#2854
+behemoth plate~
+Behemoth Plate~
+A suit of armor crafted from the hide of Cresslix's behemoth hums loudly.~
+~
+9 16826434 9
+60 0 0 0
+75 0 0
+A
+17 -40
+A
+1 2
+A
+5 2
+A
+13 125
+A
+22 -3
+A
+20 -3
+A
+23 -3
+A
+27 2228544
+A
+18 8
+A
+19 8
+#2855
+sign~
+a rusted metal sign~
+A sheet of rusted metal has been nailed to a dead tree.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+sign~
+"Behold ye the ruins of Taraitiga, city of the ancients. Once a prosperous
+place of learning, it fell to the forest, and is now inhabited by even worse
+foes than undead. Travel cautiously!
+ 
+None of less than level 35 should venture further...
+~
+#2856
+insane look~
+an insane look~
+A glowing object hovers close to the floor.~
+~
+9 25395264 131073
+8 0 0 0
+1 0 0
+A
+3 1
+A
+4 1
+A
+12 60
+A
+18 3
+A
+19 2
+> exa_prog 100~
+mea $n The madness of mages is actually a boost to their power, if not
+mea $n their social skills, and actually can manifest itself after the
+mea $n mage's demise.
+~
+> rand_prog 2~
+if class($r) == mage
+mpforce $r gibber
+mpforce $r drool
+else
+endif
+~
+|
+#2857
+red robes~
+robes of crimson~
+A set of crimson robes lies on the floor.~
+~
+9 25395264 1025
+20 0 0 0
+4 7550 755
+A
+13 50
+A
+12 50
+A
+24 -5
+A
+19 5
+#2858
+manifestation evil~
+a manifestation of evil~
+A glowing black sphere floats here.~
+~
+1 535 1
+0 0 -1 0
+1 0 0
+A
+26 2097152
+A
+12 50
+A
+13 50
+A
+18 4
+A
+19 4
+A
+27 512
+A
+24 -4
+#2859
+white robes~
+white robes~
+A pile of white cloth is bundled up here.~
+~
+9 1089 9 64
+14 0 0 0
+1 423423 42342
+A
+25 3
+A
+31 1
+A
+4 2
+A
+12 75
+A
+13 25
+A
+18 4
+A
+19 4
+A
+21 -4
+#2860
+bracer marshal~
+The Marshal's Bracer~
+A glint of metal alerts you to the presence of a tarnished bracer.~
+~
+9 525376 4097
+13 0 0 0
+1 15000 1500
+A
+17 -10
+A
+1 1
+A
+18 2
+A
+19 3
+#2861
+mithril dagger~
+a mithril dagger~
+A long mithril dagger has been left here.~
+~
+5 721984 8193
+0 0 0 11
+1 100000 10000
+A
+1 1
+A
+2 1
+A
+13 60
+A
+18 10
+A
+19 10
+A
+24 -5
+> wear_prog 100~
+if isevil($n)
+else
+mea $n The dagger slips comfortably into your grasp.
+endif
+~
+|
+#2862
+chopper~
+Chopper~
+A bloodied meat chopper lies buried in a slab of meat.~
+~
+5 524820 8193
+0 0 0 3
+10 12000 1200
+A
+1 3
+A
+13 40
+A
+18 8
+A
+19 6
+#0
+
+
+#ROOMS
+#2800
+Les Foret d'Mort~
+Twisted, gnarled trees hang low over the rutted path, becoming increasingly
+decayed and blackened as the path heads deeper into what is known as
+the Forest of the Dead. Few have ventured into this fell wood, and even
+fewer have returned to tell about it. Birds and forest animals shun this
+place, as if they could not stand to be too close less they become cursed
+or infected with the evil contained within. The sun cannot be seen overhead,
+obscured as it is by the dark, gnarled branches of the nearby trees, which
+are so obscured and mutated by evil that not even a druid would be able to
+determine their original species. A weatherbeaten sign has been nailed to one
+of these trees, to the left of the path.
+~
+0 69 3
+D0
+~
+~
+0 -1 2801
+S
+#2801
+A Dark Junction~
+A short way into the cursed wood, the rutted path splits, with a new
+fork cutting into the thick undergrowth to the east, while the original
+path continues north. The forest is utterly still, no animal cries or
+bird calls fill the air, nor even the movement of anything through the
+undergrowth, save for the noise your own feet make as you slowly progress
+into the forest. Caution is the keyword here, for any turn in the path
+could conceal unknown horrors.
+~
+0 65 3
+D0
+~
+~
+0 -1 2804
+D1
+~
+~
+0 -1 2802
+D2
+~
+~
+0 -1 2800
+S
+#2802
+An Overgrown Path~
+Progress is difficult here, as the rampant undergrowth almost totally
+obscures the path, the spiny fronds and spiky thorns tearing at flesh
+and clothing, leaving you a bleeding, cursing wreck after only twenty
+paces. It appears that no one has come this way in years, though something
+had to clear the once-broad path in the first place.
+~
+0 65 3
+D1
+~
+~
+0 -1 2803
+D3
+~
+~
+0 -1 2801
+S
+#2803
+A Dead(!) End...~
+The path ends suddenly, in a small clearing, which is stained with dried
+blood and white bones, showing through a pile of garbage and decaying
+plant matter. Peering closely, you are astonished when the pile appears to
+move towards you, ever so slightly. Shaking your heard, you shrug and attribute
+it to an optical illusion engendered by stress and fatigue. seconds before you
+feel a leafy frond grope at your ankles...
+~
+0 69 3
+D3
+~
+~
+0 -1 2802
+S
+#2804
+A Convergence of Trails~
+At this point two narrow paths converge, offering a choice of three
+directions, proceeding deeper into the forest to the east and west,
+and to the outside world to the south. Tracks in the dirt, made by
+heavy footed humanoids, lead east and west. Some of them have been
+made by rather narrow feet, as of skeletons or such.
+~
+0 65 3
+D1
+~
+~
+0 -1 2807
+D2
+~
+~
+0 -1 2801
+D3
+~
+~
+0 -1 2805
+S
+#2805
+Side Paths~
+At this point, narrow paths branch off to the north and south, though
+neither appears to penetrate far into the depths of the forest. A low
+moaning issues forth from the north, while to the south silence reigns,
+as in most parts of this dark place. No tracks can be seen heading in
+either direction.
+~
+0 65 3
+D0
+~
+~
+0 -1 2819
+D1
+~
+~
+0 -1 2804
+D2
+~
+~
+0 -1 2806
+D3
+~
+~
+0 -1 2818
+S
+#2806
+A Sticky End~
+The path ends here at a wall of sticky spiderwebs, in which you see
+a variety of dessicated corpses, trapped and drained of their blood
+over the years by the presumably huge spiders that constructed this
+macabre lair. Ranging from small hobbits to towering half-trolls, you
+marvel at the potency of the venom of a spider that could incapacitate
+such beasts. 
+~
+0 69 3
+D0
+~
+~
+0 -1 2805
+S
+#2807
+A Variety of Paths~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside.
+~
+0 65 3
+D0
+~
+~
+0 -1 2813
+D3
+~
+~
+0 -1 2804
+D6
+~
+~
+0 -1 2808
+S
+#2808
+A Shadowy Trail~
+Progress is slow here, made difficult by thick, protruding roots that
+threaten to catch at the feet of passers-by. Compounded by the poor
+visibility caused by the thick canopy of black branches, it is impossible
+to travel faster than a cautious walk. Blood stains can be seen at
+frequent intervals, as well as the occasional dented shield and snapped
+spear haft.
+~
+0 65 3
+D6
+~
+~
+0 -1 2809
+D9
+~
+~
+0 -1 2807
+S
+#2809
+Another Meeting of Paths~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside.
+~
+0 65 3
+D0
+~
+~
+0 -1 2810
+D3
+~
+~
+0 -1 2811
+D9
+~
+~
+0 -1 2808
+> rand_prog 33~
+mpe _lbl The sound of running water reaches your ears.
+~
+|
+S
+#2810
+Another Dead End~
+So many of the paths and trails in this depressing forest seem to end
+in dead ends, or worse, so you aren't terribly surprised when this one
+does too. And most of the time these dead ends contain numerous threats
+to your continued existence on this plane; you doubt this one will be any
+different...
+~
+0 69 3
+D2
+~
+~
+0 -1 2809
+S
+#2811
+Frequent Slaughter~
+As you duck and weave around more and more common piles of broken
+weapons and slaughtered humanoids, the legends of this forest begin
+to come back to mind. Centuries ago, during the Dark Ages when Chaos
+threatened the very existence of Brythunia and the Estroglian Empire,
+a massive battle, one of many such battles, was fought on the grounds
+now covered by this forest. The armies of Law marshalled here to defend
+the Elven Kingdoms to the south from the hordes from the north. Hundreds
+of thousands of lives were lost during the Dark Ages, but no battle
+claimed more in a single day than the slaughter that occured here, in
+the lands that the Elves enchanted to blossom with flower and tree to
+cover the stain on their lands. The deaths that occured here carried strong
+necromantic magicks, however, and the forest quickly became corrupted and
+reduced to the state you now behold.
+~
+0 65 3
+D1
+~
+~
+0 -1 2809
+D3
+~
+~
+0 -1 2812
+S
+#2812
+A Crossroads~
+At this point several paths converge, allowing one to head in any
+of the cardinal directions. The path to the north ends at the wooden
+gates of a stockade, which has become badly overgrown as the garrison
+that was stationed there has long since fallen to the evil that roams
+unhindered in this dark wood. Despite having fallen prey to the forces
+of nature, much of the stockade still stands, a testament to the sturdiness
+of Elven fortifications.
+~
+0 65 3
+D0
+~
+~
+0 -1 2847
+D1
+~
+~
+0 -1 2811
+D2
+~
+~
+0 -1 2813
+D3
+~
+~
+0 -1 2814
+S
+#2813
+Dark Trails~
+The path winds and twists around the bases of mighty oaks, blackened by
+fire and evil magics. Dark growths stain the bark of the trees, as well
+as the leafy carpet underfoot. Some of the stains are blood, some are more
+unusual, and disgusting, substances that are probably best left
+uninvestigated.
+~
+0 65 3
+D0
+~
+~
+0 -1 2812
+D2
+~
+~
+0 -1 2807
+S
+#2814
+A Solemn Statue~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside. At this point, however, a wooden statue has been constructed,
+for whatever reason, differentiating it from the others.
+~
+0 65 3
+D1
+~
+~
+0 -1 2812
+D3
+~
+~
+0 -1 2815
+D6
+~
+~
+0 -1 2834
+D7
+~
+~
+0 -1 2833
+S
+#2815
+A Narrow Trail~
+Plunging deeper into the forest, you cannot help but pause and wonder
+if this is such a great idea; serious threat for little perceived
+financial gain, and the possibility of losing what you already own
+to boot. Ah well, 'tis good that you are made of sterner stuff, and
+bravely enter where others fear to tread... what's the bit about fools
+and rushing? No matter, it couldn't be important to the proverb.
+~
+0 65 3
+D1
+~
+~
+0 -1 2814
+D3
+~
+~
+0 -1 2816
+S
+#2816
+A Fork in the Trail~
+Once again, you reach a point where you are offered a variety of 
+paths to choose from, each of which could lead to perils greater than
+you could imagine. Or they could lead to yet more junctions, each choice
+taking you further towards being totally lost. You wonder how many of
+the many adventurers who never returned weren't actually slain but ran
+out of food after becoming hopelessly lost in this dark place?
+~
+0 65 3
+D1
+~
+~
+0 -1 2815
+D2
+~
+~
+0 -1 2817
+D3
+~
+~
+0 -1 2821
+S
+#2817
+Dark Trails~
+The path winds and twists around the bases of mighty oaks, blackened by
+fire and evil magics. Dark growths stain the bark of the trees, as well
+as the leafy carpet underfoot. Some of the stains are blood, some are more
+unusual, and disgusting, substances that are probably best left
+uninvestigated.
+~
+0 65 3
+D0
+~
+~
+0 -1 2816
+D2
+~
+~
+0 -1 2818
+S
+#2818
+Further in the Forest~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside.
+~
+0 65 3
+D0
+~
+~
+0 -1 2817
+D1
+~
+~
+0 -1 2805
+D9
+~
+~
+0 -1 2820
+S
+#2819
+A Grisly Fate~
+This trail ends at what was evidently the site of a furious battle.
+Two corpses lie on the ground, one of an armored knight, the other an
+indistinct black mass, with no coherent form that you can easily
+identify. Thick grey mist obscures your vision, and you quickly sense
+that some presence still lingers on here, though you cannot guess at
+its motives.
+~
+0 69 3
+D2
+~
+~
+0 -1 2805
+S
+#2820
+A Bend in the Trail~
+At this point the bath broadens, and twists to the west, heading towards
+a different section of the forest; an older section, it appears, that
+existed before the newer forest was planted after the battles that occured
+here. Who knows what ancient foes may lie in this direction? And who knows
+what fantastic treasures they may have accumulated in this time?
+~
+0 65 3
+D3
+~
+~
+0 -1 2822
+D6
+~
+~
+0 -1 2818
+S
+#2821
+The End of the Path~
+The path ends a short distance to the west, at a thick, impenetrable
+wall of vines and spiky plants, laden with thorns that will tear your
+thick breeches and skin like paper. A thick, viscous substance drips
+from the larger thorns, sizzling when it strikes the leafy ground. You
+are certain that even a scratch from one of these plants would not do
+you much good...
+~
+0 69 3
+D1
+~
+~
+0 -1 2816
+S
+#2822
+A Second Bend~
+The path bends again, heading north into darker, thicker trees, though
+the path is still broader than near the entrance. No bodies litter
+the trail here; few people indeed have dared (or been able) to venture
+this deep into the forest. A foul stench, of rotting vegetable matter,
+fills the air; blocked perpetually from the sun as this area is, the
+dying vegetation is allowed to fester indefinitely with nothing to dry
+it out and dispel the odors.
+~
+0 65 3
+D0
+~
+~
+0 -1 2823
+D1
+~
+~
+0 -1 2820
+S
+#2823
+Footprints in the Dirt~
+At this point, the trail is marked by large footprints, of some
+unindentifiable humanoid heading away from a clearing to the north.
+The tracks head into the undergrowth nearby, and don't appear to
+have returned, indicating that the clearing ahead is most likely
+deserted, and may well be a good place to rest for a while. Gazing at
+the footprints reminds you of how tired your own aching feet are, and
+you long to sit down and take off your boots, at least for a few minutes.
+~
+0 65 3
+D0
+~
+~
+0 -1 2824
+D2
+~
+~
+0 -1 2822
+D3
+~
+~
+0 -1 2825
+S
+#2824
+A Dark Clearing~
+The path ends in a small clearing overshadowed by several menacing
+oaks, their bark blackened and mangled by fire and sword blows. Several
+corpses, stripped of any valuables, litter the scorched earth, along with
+numerous pools of dried blood and intestines, from which issues a strong
+stench. Looking about, you wonder where the perpetrator of these dark deeds
+might be lurking, and if you are the next intended member of this gruesome
+cavalcade of death.
+~
+0 69 3
+D2
+~
+~
+0 -1 2823
+S
+#2825
+The Twisting, Turning Path~
+Deep holes in the trail here, made by the impact of blows made by
+some mammoth creature, contain the mangled remains of unfortunate
+creatures, including goblins, zombies, elves and humans. Peering
+around, you see no sign of whatever made these marks; perhaps it has
+been slain or driven off...?
+~
+0 65 3
+D1
+~
+~
+0 -1 2823
+D7
+~
+~
+0 -1 2826
+S
+#2826
+Deep in the Forest~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside.
+~
+0 65 3
+D0
+~
+~
+0 -1 2829
+D3
+~
+~
+0 -1 2827
+D8
+~
+~
+0 -1 2825
+S
+#2827
+An Older Section of the Forest~
+At this point the path beneath your feet slowly changes from dirt to
+broken, cracked masonry. Crumbling statues line the path, almost totally
+overgrown by the thick black vines you are now so familiar with. A lingering
+musty odor fills the air, and you realize that you have stumbled upon the
+remains of some ancient city, long since devoured by the forest and its
+evil inhabitants. To the southwest, you can now make out a series of ruined
+dwellings, crumbling stone structures almost totally overgrown by the forest.
+Small creatures scurry about, in search of food or shiny objects. A rusted
+metal sign has been nailed to a tree near the statues.
+~
+0 65 3
+D1
+~
+~
+0 -1 2826
+D9
+~
+~
+0 -1 2828
+E
+statues~
+Of marble and plaster, these statues appear to have once resembled
+nude women and men in classic poses, the type of architecture that you
+have seen in history texts detailing Brythunia's rich history.
+~
+S
+#2828
+Taraitiga~
+Stepping onto the stone road, you almost feel that you have been
+transported back in time. Despite the ruin and overgrowth, many of
+the structures still display the remarkable architectural features
+endemic to this period of history, and are actually in quite good
+condition considering the surroundings. It was rumored that the ancients
+used magical beings as servants and guards, and that their cities fell
+when these beings threw off the shackles of servitude and slew their
+former masters. You are not an expert in Brythunian history, but you'd
+be willing to bet some of these unruly automatons were responsible for
+much of the damage done to this once-fair city, and then the evil forest
+did the rest.
+~
+0 8261 1
+D2
+~
+~
+0 -1 2856
+D3
+~
+~
+0 -1 2864
+D6
+~
+~
+0 -1 2827
+S
+#2829
+Rivers of Slime~
+The path here is interrupted by the occurence of a slowly flowing river
+of what appears to be green slime, flowing from a large pool to the
+northwest, across the path, disappearing into the undergrowth to the
+southeast; the plants and trees glow with a strange hue where the slime
+has made contact with them. A vile, putrid odor, too strong to bear at
+times, wafts in from the northwest and accompanies the foul stream on its
+course. Nothing could live in such water, surely?
+~
+0 65 3
+D1
+~
+~
+0 -1 2831
+D2
+~
+~
+0 -1 2826
+D7
+~
+~
+0 -1 2830
+S
+#2830
+A Pool of Slime~
+The stench arising from this mini quagmire is almost unbearable.
+Bubbles, created by some unknown source, rise to the surface at random
+intervals, bursting with a soft pop and filling the air with more noxious
+odors. In the midst of this foul pool resides some terrible beast, doubtless
+responsible for the remains of several humanoids dangling from the thick
+canopy of trees overhead. Occasionally a chunk of decayed flesh will fall
+from one of the corpses and sink in the pool without trace.
+~
+0 69 3
+D8
+~
+~
+0 -1 2829
+S
+#2831
+An Ancient Path~
+At this point, the forest trail is met by a broad, stone paved road
+running due north, lined on each side by glowing marble statues in
+pristine condition. The statues look vaguely familiar to you, and
+as you approach you realize that they are similar to the ones found
+in many of the cities of the ancients across Brythunia, save that 
+instead of showing considerable signs of age and neglect, they appear to
+be brand new. This curious occurence is compounded by the fact that not
+a single branch or leaf touches the road at any point; some magical force
+prevents any growth from obscuring it.
+~
+0 65 3
+D0
+~
+~
+0 -1 2871
+D3
+~
+~
+0 -1 2829
+D6
+You have a bad feeling about the clearing up ahead...
+~
+~
+0 -1 2832
+S
+#2832
+Ambush!~
+You don't know what it was. Maybe you slept in a little too late. Maybe
+last night's drinking bout at the Hammer and Anvil left your wits a little
+fuddled. Or maybe you just weren't paying attention. At any rate, your
+normally alert adventurer's sixth sense was definitely not operating up to
+acceptable standards; you failed to notice the birds fleeing nearby trees,
+as if some hidden monster lurked within, you failed to notice the loop of
+vine carefully concealed beneath a pile of uncharacteristically dry leaves,
+and you failed to notice the dull gleam of drawn swords. Before you knew
+it, you had stepped on the trap, been yanked upside down into the air, and
+left dangling as several giggling forest goblins emerged, and slowly stabbed
+and slashed you until naught remained but a bleeding, screaming mass of
+flesh, looted and left for the vultures to pick clean.
+~
+0 3153991 3
+S
+#2833
+A Gloomy Path~
+Twisted, gnarled oaks seem to reach out at you as you progress,
+clawing and scratching with blackened, mangled limbs slick with moss
+and rotting pulp. A sickly sweet stench fills the air, making you feel
+slightly queasy and reluctant to proceed in this direction. However,
+there appears to be little more appealing in any other part of the
+forest either.
+~
+0 65 3
+D0
+~
+~
+0 -1 2842
+D8
+~
+~
+0 -1 2814
+S
+#2834
+A Bloodstained Trail~
+The path winds and twists around the bases of mighty oaks, blackened by
+fire and evil magics. Dark growths stain the bark of the trees, as well
+as the leafy carpet underfoot. Some of the stains are blood, some are more
+unusual, and disgusting, substances that are probably best left
+uninvestigated.
+~
+0 65 3
+D0
+~
+~
+0 -1 2835
+D9
+~
+~
+0 -1 2814
+S
+#2835
+Gloom Shrouded Foliage~
+Shadows creep across the path, reducing visibility to virtually nil,
+forcing you to slow your pace to a crawl to avoid the many treacherous
+roots and potholes that litter the trail. Small creatures slither through
+the undergrowth nearby, the first sign you have seen of any inhabitants
+in great numbers other than undead. Rats, undoubtedly, but at least they
+are living and breathing creatures, and not soulless undead.
+~
+0 65 3
+D1
+~
+~
+0 -1 2836
+D2
+~
+~
+0 -1 2834
+D7
+~
+~
+0 -1 2841
+S
+#2836
+Crumbling Remains~
+At one stage a stone watch tower stood here, though the elements,
+the forest and its fell inhabitants have long since reduced it to a
+pile of moss-covered stones, entwined in thick black vines and smeared
+with dried blood. Bones and broken weapons litter the ground around the
+base of the tower, the remains of the unfortunate souls who once
+garrisoned this outpost, and some of their enemies they managed to
+slay before they fell. A chill wind blows over the ruins, and a keening
+wail from somewhere far away can be heard. The spirits of those slain
+here do not rest easily, you can be certain, and are making themselves
+heard as best they can in their non-corporeal states. Shivering, you
+cast one last glance at this ruin, and decide which way to proceed.
+~
+0 65 3
+D3
+~
+~
+0 -1 2835
+D6
+~
+~
+0 -1 2837
+> rand_prog 33~
+if ispc($r)
+mea $r Ghostly hands brush and tug at you, sending shivers up your spine...
+mpdamage $r 50
+else
+endif
+~
+|
+S
+#2837
+A Rare Sight Indeed~
+Stumbling through the forest, you stop suddenly when you see a
+large stone tower, in good condition and of strong foundation, rising
+to the north. After a moment's confusion, you suddenly realize that
+you have reached the easternmost extend of the Walls of Defiance,
+the massive stone structure that protects the northern plains of
+Estroglian from the Hordes of the north. The sound of running water
+reaches your ears, and you realise that the Phlugistrum flows by
+close to the east of here, though a thick wall of vegetation prevents
+you from reaching it. 
+~
+0 65 3
+D7
+~
+~
+0 -1 2838
+D9
+~
+~
+0 -1 2836
+> rand_prog 33~
+mpe _lbl The sound of running water reaches your ears.
+~
+|
+S
+#2838
+The Twisting Forest Path~
+The path here is as twisted and warped as the gnarled blackened branches
+that the dark trees on either side have given issue to. Frequently it
+feels as if they are almost attempting to grab you, and drag you into
+their evil domain. Roots protruding from the ground catch at your feet,
+and more than once you almost end up face down on the ground.
+~
+0 65 3
+D3
+~
+~
+0 -1 2839
+D8
+~
+~
+0 -1 2837
+S
+#2839
+More Branches of the Path~
+More twists and bends in the sinuous forest trail beckon before you,
+allowing various choices as to where to proceed in this dark wood.
+You occasionally catch glimpses of creatures scurrying through the
+dark undergrowth to either side, accompanied by faint shrieks and
+high pitched giggling; the effect is rather unnerving and you are
+happy to press on.
+~
+0 65 3
+D0
+~
+~
+0 -1 2840
+D1
+~
+~
+0 -1 2838
+D9
+~
+~
+0 -1 2841
+S
+#2840
+A Thatched Cottage Deep in the Woods~
+Suddenly, literally out of nowhere, the trail ends at a small thatch
+hut, buried in the forest, not visible from more than a few yards away
+due to the thick, heavy undergrowth and the shadows of surrounding trees.
+Smoke billowing from the chimney indicates at least some form of
+occupation, be it friendly or malign. The front door is closed, but doesn't
+appear to be locked (not that a locked door has ever stopped you from 
+barging in unwanted before). No windows are present on this side, and
+the dense clusters of trees make it impossible to work your way around
+the sides.
+~
+0 65 3
+D0
+~
+~
+3 -1 2846
+D2
+~
+~
+0 -1 2839
+> rand_prog 33~
+mpe A sweet aroma, of herbs and fine foods, drifts in from the north.
+~
+|
+S
+#2841
+Several Choices~
+Literally hundreds of trails twist and wend their way through the
+dark forest, proceeding to various fates, most best left unspoken of.
+Each bears at least small traces of progress by adventurers before you,
+though you see very few sets of tracks indeed heading back to the
+outside.
+ 
+A small hillock rises to the west at the end of the path in that
+direction.
+~
+0 0 1
+D3
+~
+~
+0 -1 2843
+D6
+~
+~
+0 -1 2839
+D8
+~
+~
+0 -1 2835
+D9
+~
+~
+0 -1 2842
+S
+#2842
+Sinister Vegetation~
+The path here is as twisted and warped as the gnarled blackened branches
+that the dark trees on either side have given issue to. Frequently it
+feels as if they are almost attempting to grab you, and drag you into
+their evil domain. Roots protruding from the ground catch at your feet,
+and more than once you almost end up face down on the ground.
+~
+0 0 3
+D2
+~
+~
+0 -1 2833
+D6
+~
+~
+0 -1 2841
+S
+#2843
+A Stone Arch~
+The path ends here, before a stone arch set into the side of a small
+hillock. Peering in between the stone supports, you see a narrow
+stairway descending into the darkness below, towards a tomb, perhaps,
+or the lair of some intelligent underground-dwelling species. Either
+way, you suspect that they wouldn't be partial to visitors.
+~
+0 69 3
+D1
+~
+~
+0 -1 2841
+D5
+~
+~
+0 -1 2844
+S
+#2844
+The Base of the Stair~
+The steps end before a rusted iron door, set in the earth of the west
+wall. A keyhole is present, but nature has rendered it unusuable over
+the centuries, so even if you had the correct key it would serve no
+purpose. A single rune, the rune of Death, has been carved into the door,
+visible even through the heavy corrosion. A thin layer of moisture can
+also be perceived, the type of condensation common to metal exposed to
+cold temperatures for extended periods, the water forming a sheath as
+a result.
+~
+0 3153929 0 0 0 4
+D3
+~
+~
+39 -1 2845
+D4
+~
+~
+0 -1 2843
+S
+#2845
+A Chilly Crypt~
+The interior of the cramped crypt contains a single stone tomb, a 
+sarcophagus bearing an inlaid image of the necromancer it houses. Runes
+and sigils cover the walls, traced in luminiscent silver, gold and platinum.
+Images, vile images, of death, dismemberment and other evil acts cover the
+ceiling, as if it was created for the dead body to take pleasure in during
+its eternal rest. An unnatural cold fills the room, from an unknown source;
+icicles have formed in parts of the damp chamber as a result.
+~
+0 3153929 0 0 0 4
+D1
+~
+~
+39 -1 2844
+S
+#2846
+A Messy Dwelling~
+You haven't been inside such a messy dwelling since you visited an orcish
+village in your youth, and even then they at least had the benefit of not
+knowing any better. The cranky elf who lives here, however, should and 
+indeed does know better; she is simply too lazy and disorganized to clean
+the dirty pots, piles of paper and animal stains from the walls and floor.
+~
+0 1048584 0
+D2
+~
+~
+3 -1 2840
+S
+#2847
+Outside the Stockade~
+Upon closer examination, you are surprised to see that much of the
+stockade is still intact; the tactician in you says that someone managed
+to sneak in and unlock the gates, allowing the enemy outside to pour in
+virtually unhindered, slaughtering the surprised inhabitants before they
+could be called to arms. A devilish, but gruesomely effective, tactic.
+You wonder also what forces yet remain within these wooden walls?
+~
+0 65 3
+D0
+~
+stockade~
+3 -1 2848
+D2
+~
+~
+0 -1 2812
+S
+#2848
+The Stockade~
+Stepping through the gate, you are greeted by a visage of death and
+destruction. Half-devoured corpses in various stages of decay lie
+everywhere, surrounded by their broken weapons and smashed armor. 
+Hardly any corpses appear to be of any race but elven; only one or
+two badly rotted corpse appear to be remains of the enemy that took
+this place. Whatever overran this place was swift, efficient and deadly.
+The elves didn't stand a chance. A set of steps leads up to a watchtower,
+while open doorways to the east and west lead into quarters of the
+garrison. A second door lies to the north, leading to the officers' 
+area. It doesn't appear to have been disturbed...
+~
+0 0 1
+D0
+~
+~
+3 -1 2850
+D1
+~
+~
+0 -1 2855
+D2
+~
+~
+3 -1 2847
+D3
+~
+~
+0 -1 2854
+D4
+~
+~
+0 -1 2849
+S
+#2849
+The Watchtower~
+Once the lookout tower for the stockade garrison, this position was
+safe from the ground, but quite vulnerable to aerial attacks, which
+was the fate of the unfortunate soul stationed here when the garrison
+was finally crushed by the evil forces of the forest. Huge gouges mar
+the wooden structure, as of the claws of some powerful creature. Blood
+is spattered on the roof and the floor, the result of deep slashes made
+by these same claws in elven flesh.
+~
+0 0 1
+D5
+~
+~
+0 -1 2848
+S
+#2850
+Commanders' Quarters~
+Surprised at the lack of obvious effort made by the invaders to
+break ino this area, you are even more surprised by the sight that
+greets you when you pass easily through the unlocked door. Bodies
+lie sprawled on the floor, bearing no obvious injuries but with
+grimaces of horror and pain contorting their faces into terrible
+ritcuses of unpleasant death. Some being managed to pass through the
+walls and slay the defenders of the commander, with little effort.
+You grip your weapon firmly and wonder if it still remains nearby...
+~
+0 8 0
+D0
+~
+~
+3 -1 2852
+D1
+~
+~
+3 -1 2851
+D2
+~
+~
+3 -1 2848
+D3
+~
+~
+3 -1 2853
+S
+#2851
+Lieutenant's Quarters~
+Once the quarters of an officer of the stockade, this room is now devoid
+of inhabitants; whoever was quartered here met his end with the others in
+the foyer outside. A few papers are scattered about the room, as if blown
+there some time ago by a sudden breeze.
+~
+0 8 0
+D3
+~
+~
+3 -1 2850
+S
+#2852
+The Commander's Office~
+This room is simple in accoutrements, boasting a small desk, several
+maps and charts of the surrounding region, and a small military cot
+near a window looking out onto dense forest. You frown, knowing that
+the woodlands you see are certainly not the ones that surround this
+place, and quickly deduce that this is an optical illusion, cleverly
+designed to remind the commander of his home.
+~
+0 0 1
+D2
+~
+~
+3 -1 2850
+S
+#2853
+Lieutenant's Office~
+Once the quarters of an officer of the stockade, this room is now devoid
+of inhabitants; whoever was quartered here met his end with the others in
+the foyer outside. A few papers are scattered about the room, as if blown
+there some time ago by a sudden breeze.
+~
+0 8 0
+D1
+~
+~
+3 -1 2850
+S
+#2854
+Ruined Barracks~
+A terrific battle took place in here; it would be nice to think that the
+elves gave as good as they got, but the overwhelming number of elven corpses
+in comparison to those of the enemy shows that this clearly was not the
+case. The elves were decimated, slaughtered by powerful foes from the evil
+forest, a force they were evidently totally unprepared for. Shaking your head,
+you turn your mind to more practical matters and begin to search for anything
+of value.
+~
+0 8 0
+D1
+~
+~
+0 -1 2848
+S
+#2855
+Ruined Barracks~
+A terrific battle took place in here; it would be nice to think that the
+elves gave as good as they got, but the overwhelming number of elven corpses
+in comparison to those of the enemy shows that this clearly was not the
+case. The elves were decimated, slaughtered by powerful foes from the evil
+forest, a force they were evidently totally unprepared for. Shaking your head,
+you turn your mind to more practical matters and begin to search for anything
+of value.
+~
+0 8 0
+D3
+~
+~
+0 -1 2848
+S
+#2856
+The Rubble Strewn Streets~
+Little save the stone of this place survived the onslaught of the golems
+as they rampaged over the dwellings of their former masters; shards of
+broken glass, pottery and other debris litters the road everywhere you
+go, making this rubble-strewn causeway a precarious path to follow.
+The sounds of stone meeting with stone from nearby indicates that they
+haven't finished yet, either!
+~
+0 8257 1
+D0
+~
+~
+0 -1 2828
+D2
+~
+~
+0 -1 2858
+D3
+~
+~
+0 -1 2857
+S
+#2857
+A Ruined Structure~
+The interior of this structure is in total ruin, destroyed and abandoned
+centuries before even the rise of Estroglia. Nothing of value remains; it
+has long since been looted or ruined. There are signs, however, that something
+has recently been rummaging through the rubble, for whatever purpose.
+~
+0 8265 0
+D1
+~
+~
+0 -1 2856
+S
+#2858
+The Rubble Strewn Streets~
+As you proceed, you arfe struck by the fact that there are no bodies
+scattered amongst the debris; then you realize that whoever the golems
+slew, their remains would have long since moldered away by now. Yet the
+golems still exist, the magical entities that they are, continuing to
+blindly smash and tear asunder all that was once their city.
+~
+0 8257 1
+D0
+~
+~
+0 -1 2856
+D1
+~
+~
+0 -1 2859
+D9
+~
+~
+0 -1 2860
+S
+#2859
+A Ruined Structure~
+The interior of this structure is in total ruin, destroyed and abandoned
+centuries before even the rise of Estroglia. Nothing of value remains; it
+has long since been looted or ruined. There are signs, however, that something
+has recently been rummaging through the rubble, for whatever purpose.
+~
+0 8265 0
+D3
+~
+~
+0 -1 2858
+S
+#2860
+The Rubble Strewn Streets~
+This street is actually one of only two remaining in the city that is
+still traversable; the rest have been buried entirely in rubble or torn
+up and crushed to dust by the enraged golems. It is amazing that they 
+haven't managed to destroy the city entirely by now; perhaps some structures
+are too hardy for even their mighty strengh to utterly demolish.
+~
+0 8257 1
+D3
+~
+~
+0 -1 2861
+D6
+~
+~
+0 -1 2858
+S
+#2861
+The End of the Concourse~
+The path ends here, outside several ruined dwellings, only one of which
+is accessible. Several mangled corpses, of adventurers, litter the ground
+here, showing evidence of having been smashed to a pulp by the rampaging
+golems. Cringing, you step around the mess and peer into the dwelling.
+~
+0 3153992 0
+D1
+~
+~
+0 -1 2860
+D2
+~
+~
+0 -1 2862
+S
+#2862
+A Ruined Structure~
+The interior of this structure is in total ruin, destroyed and abandoned
+centuries before even the rise of Estroglia. Nothing of value remains; it
+has long since been looted or ruined. There are signs, however, that something
+has recently been rummaging through the rubble, for whatever purpose.
+ 
+A gaping hole in the roof leads to a partially intact second level.
+~
+0 3153992 0
+D0
+~
+~
+0 -1 2861
+D4
+~
+~
+64 -1 2863
+S
+#2863
+The Second Floor~
+Some creature has turned this area into a home, of sorts, filling it
+with all manner of items scavenged from the ruined dwelling below.
+Partially demolished tables support cracked and chipped urns and plates,
+while armless and legless statues are propped up against the crumbling
+walls. Plaster coats the floor, having long since crumbled and fallen
+from the walls.
+~
+0 3153993 0
+D5
+~
+~
+64 -1 2862
+S
+#2864
+The Western Boulevard~
+Once an idyllic lane lined with tall trees and marble statues, this
+road is now naught but piles of rubble and potholes, the result of the
+rampaging golems. Several ruined buildings have collapsed onto the road,
+making progress slow and difficult as you circumvent the ruined dwellings.
+Whatever wealth this city once contained has long since been demolished, or
+looted by brave (and lucky) adventurers.
+~
+0 8257 1
+D0
+~
+~
+0 -1 2865
+D1
+~
+~
+0 -1 2828
+D3
+~
+~
+0 -1 2866
+S
+#2865
+A Ruined Structure~
+The interior of this structure is in total ruin, destroyed and abandoned
+centuries before even the rise of Estroglia. Nothing of value remains; it
+has long since been looted or ruined. There are signs, however, that something
+has recently been rummaging through the rubble, for whatever purpose.
+~
+0 8265 0
+D2
+~
+~
+0 -1 2864
+S
+#2866
+The Rubble Strewn Streets~
+Gaping holes in the road the size of a giant's fist at frequent 
+intervals are a firm testament to the strengh and fury of the mighty
+magical servants that now rampage unchecked through this ancient city.
+You shudder as you imagine your head being the focus of one of these
+sledgehammer blows.
+~
+0 8257 1
+D1
+~
+~
+0 -1 2864
+D3
+~
+~
+0 -1 2867
+S
+#2867
+The Rubble Strewn Streets~
+The street ends here, with several buildings in various states of
+demolition lying to the northwest and the south. These two appear to
+be the only ones reasonably intact; the rest have already been torn down
+and reduced to rubble. A faint glow issues forth from the northwestern
+structure, which by what remains of its facade appears to have once been
+a place of worship, but now is just another ruin.
+~
+0 8257 1
+D1
+~
+~
+0 -1 2866
+D2
+~
+~
+0 -1 2869
+D7
+~
+~
+0 -1 2868
+S
+#2868
+A Ruined Chapel~
+When the temple was violated and the priests slain by the golems, the
+blessings that once held sway here began to falter, then as the populace
+lost faith in the gods who had failed to protect them in their hour of
+need it manifested itself in a representation of dark and malicious 
+thoughts, compounded with fear and betrayal, and all the emotions that
+only worsen a person coalesced into an immortal entity that now inhabits
+this once-sacred ground, a bitter irony as the temple was once that of a
+god of love, light and life.
+~
+0 3153993 0
+D8
+~
+~
+0 -1 2867
+S
+#2869
+An Ancient Dwelling~
+Judging by the size of this structure, or what remains of it, this
+must once have been the residence of someone of significant importance
+in the city; the mayor, perhaps, or the high priest of the temple. At
+any rate, it appears to have survived better than most of the other
+structures, a statement of either its structural integrity or the 
+result of some latent programming of the golems that still prevents them
+from levelling it.
+~
+0 8265 0
+D0
+~
+~
+0 -1 2867
+D2
+~
+~
+0 -1 2870
+S
+#2870
+An Ignoble Fate~
+The noble that once ruled this city resided here, in what was once an
+opulent palace. Now only moldering scraps of cloth and broken furniture
+remain, a dim legacy of a glorious past. So stricken with grief was the
+noble at the fate of her city (she has been dead so long all have now
+forgotten her name, including herself), that she took her own life, and
+now haunts this place.
+~
+0 3153989 0
+D0
+~
+~
+0 -1 2869
+S
+#2871
+The Stone Causeway~
+The clear stone causeway runs north, lined by the statues, heading
+towards a low set building, of white stone but crisscrossed with deep
+red lines, that glow faintly. The door is of mithril, and sits open,
+and you fancy you can hear a faint humming coming from within. It seems
+innocuous enough, but if this is indeed the lair of a person of import
+or power, you are fairly certain that they wouldn't make their home in
+this dark wood if they were not of evil mein.
+~
+0 8261 1
+D0
+~
+~
+1 -1 2872
+D2
+~
+~
+0 -1 2831
+S
+#2872
+A Dark Corridor~
+The second you pass through the doors you are plunged into darkness.
+Some magical force prohibits light here, and you cannot see where you
+are proceeding. Reaching out with your hands, you can feel stone walls,
+roughly twelve feet apart, and the bases of massive pillars that 
+presumably support the unseen ceiling of this place. You cannot find the
+entrance behind you; it would seem you just took the first few steps of
+a one way trip.
+~
+0 3219529 0
+D0
+~
+~
+0 -1 2873
+S
+#2873
+Travelling Blindly~
+Feeling worse than helpless, you grope blindly through the darkness,
+reaching out with your hands for any obstacle. More than once your
+groping touch encounters warm, soft flesh covered in fur that moves
+under your grasp, and you withdraw your hand in revulsion. The floor
+is slippery with some unknown substance that has the odor of fresh
+blood.
+~
+0 3219529 0
+D0
+~
+~
+0 -1 2874
+D2
+~
+~
+0 -1 2872
+S
+#2874
+The Darkness Continues~
+This is quickly becoming unbearable. Your mind, unnerved by the sensory
+deprivation, is screaming for release, but neither sight nor sound is
+detected, and you yearn in vain for anything to break this silent darkness.
+You realize now that you cannot make a noise, even if you wanted to; it is
+as if your voice were locked inside your throat.
+~
+0 3219529 0
+D0
+~
+~
+0 -1 2877
+D2
+~
+~
+0 -1 2873
+S
+#2875
+A Damp Cell~
+This cramped, damp cell serves as a holding place for those few people
+that are not slain by Chopper, and are kept until Cresslix decides what
+to do with them.
+~
+0 3153993 0
+D3
+~
+~
+7 -1 2877
+S
+#2876
+A Damp Cell~
+This cramped, damp cell serves as a holding place for those few people
+that are not slain by Chopper, and are kept until Cresslix decides what
+to do with them.
+~
+0 3153993 0
+D1
+~
+~
+7 -1 2877
+S
+#2877
+An Unpleasant Greeting~
+Suddenly your light source flares into full light, as you step past
+some limit of the magical field, and you find yourself in a large
+black chamber, the walls of which writhe and moan as if they were alive.
+The floor is slick with blood and gore, and you notice to your horror
+that so are your hands and booted feet. Blood covers most of you, in
+fact, thick clumps matting your hair and staining your armor. Shrieking,
+you scarcely notice the other horrors this chamber conceals. The only
+other feature your slightly unhinged mind detects is the presence of two
+doors, in the east and west walls, and a staircase to the north.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 2878
+D1
+~
+~
+7 -1 2875
+D2
+~
+~
+0 -1 2874
+D3
+~
+~
+7 -1 2876
+S
+#2878
+The Base of the Stairs~
+A set of steps rises up out of the gore here, heading up to a landing
+adorned with gothic architectural features. The stairs are broad, and
+of marble, and covered with a blood red carpet, that lines the exact
+center. Grinning gargoyles stand at either end of the balustrades,
+beckoning lewdly at visitors to this section. You wonder what new threats
+you can expect.
+~
+0 3153993 0
+D2
+~
+~
+0 -1 2877
+D4
+~
+~
+0 -1 2879
+S
+#2879
+The Second Tier~
+The stairs end here, at a small landing lined with a carved wooden
+balustrade. The walls bear gothic murals, and the arched exit to the
+north is carved with visages of grinning gargoyles and leering demons.
+A shiver runs up and down your spine, and you realize that the master
+of this fell domain, Cresslix, is aware of your presence in his sanctum,
+though you cannot explain how you know this.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 2880
+D5
+~
+~
+0 -1 2878
+S
+#2880
+Gallery of the Macabre~
+Before you is a large, arched hall, the vaulted ceilings over sixty feet in
+height. Several iron wrought chandeliers, laden with unlit candles, depend
+from hooks set in the supports, while the grey stone walls bear elaborate
+murals of pain, death and mutilation. Several items are displayed here, as
+grotesque museum exhibits, including an iron maiden, a rack, several tables
+laden with manacles and iron masks, and an iron chair. The air is musty, and
+carries the faint taint of putrescent flesh; apparently not all of this
+equipment was cleaned before being placed here. Flickering light can be seen
+to the west.
+~
+0 3153993 0
+D2
+~
+~
+0 -1 2879
+D3
+~
+~
+0 -1 2881
+S
+#2881
+A Grim Sight~
+The hall continues, widening slightly here, where the entire northern
+wall is made of a series of panes of glass, framed with iron bars.
+Peering through the glass, you peer out onto a desolate landscape, the
+forest below shrouded in mist caused by a perpetual rain. Dark stormclouds
+hover menacingly overhead, broken only by the black metal spire of a tower
+that rises northwest of here, framed in lightning at random intervals.
+Deep, booming laughter reverberates through the hall, though it could just
+be thunder. Ghostly spectral shapes flicker back and forth outside, pelted
+by the incessant rain and scattered by the occasional lightning strike.
+Sometimes one will flit closer to you, and stare with empty eyesockets at
+you, imploring you to help release it from its undead state.
+~
+0 0 1
+D1
+~
+~
+0 -1 2880
+D3
+~
+~
+0 -1 2882
+S
+#2882
+The Mausoleum~
+The hall narrows again here, to the dimensions of the museum of torture,
+and is very similar in appearance, save that this chamber is filled with
+large stone sarcophagii, all open, revealing the perfectly preserved
+remains of unknown mages and priests from times forgotten. Peering closer,
+you are relieved to note that they appear to be quite dead, and not about
+to leap forth and attack you, unlike the other "corpses" you have encountered
+in the forest of the walking dead. The hall continues for a short distance 
+to the west, where it ends at an arched entranceway.
+~
+0 3153993 0
+D1
+~
+~
+0 -1 2881
+D3
+~
+~
+0 -1 2883
+S
+#2883
+Approaching the High Tower~
+The passage ends here, before an arched entrance into the tower.
+Peering into the gloom, you note that there is no floor in the room
+to the north; instead the tower appears to be completely hollow! A
+staircase ascends, winding around the inside wall of the tower, heading
+to the top. Dreading having to make such a trip, you wonder to yourself
+yet again- is this really worth it?
+~
+0 3153993 0
+D0
+~
+~
+0 -1 2884
+D1
+~
+~
+0 -1 2882
+S
+#2884
+The Base of the Stair~
+Spiralling upwards, as far as you can see, is a narrow, crumbling stair,
+clinging precariously to the edges of the circular stairwell it inhabits.
+A gaping blackness lies below, in the space the stairs circle as they 
+ascend; a false step could mean plummeting far down into whatever foul
+depths the tower plumbs.
+~
+0 3153993 0 0 0 4
+D2
+~
+~
+0 -1 2883
+D4
+~
+~
+0 -1 2885
+S
+#2885
+The Ancient Stair~
+Small chunks of masonry break away from the stairs under your feet as
+you ascend, causing you to cling tenaciously to the wall as you edge your
+way upwards. The stair is barely wide enough for one person, let alone
+more, and you realize that you will be a sitting duck for any foe that
+might fly up the chute that the staircase circles as it winds its way
+around the inner wall of the tower.
+~
+0 3156041 0
+D4
+~
+~
+0 -1 2886
+D5
+~
+~
+0 -1 2884
+S
+#2886
+The Ancient Star~
+The stair continues, for what seems like forever, winding around and
+around, soaring higher into the tower, which is obviously much larger
+than it appeared from the view you glimpsed through the window earlier.
+Either that, or some fell enchantment is at work ...WHOA! You shriek as
+your concentration slips during your musings, and you lose your footing.
+Scrabbling furiously, you manage to leap to the next step, and glance 
+back at the pile of debris that was once supporting your foot as it
+plummets into the inky darkness below. Wiping your brow with relief, you
+collect yourself and continue.
+~
+0 3156041 0
+D4
+~
+~
+0 -1 2887
+D5
+~
+~
+0 -1 2885
+S
+#2887
+The Ancient Star~
+At this point you surmise that you are almost near the top; the stairs
+show considerably less signs of wear (indicating that few adventurers
+made it this far) and you fancy you can hear loud breathing coming
+from a dark chamber that is now coming into view at the top of the stair.
+Smiling with relief, you hasten your pace, and ready yourself for the
+next challenge Cresslix' domain will hurl at you.
+~
+0 3156041 0
+D4
+~
+~
+0 -1 2888
+D5
+~
+~
+0 -1 2886
+S
+#2888
+A Massive Chamber~
+The staircase ends here, at the southern end of a massive stone chamber,
+the walls and floor of which are covered in deep, savage claw marks, as
+of some gargantuan beast sharpening its claws, perhaps in preparation for
+battle or feasting? Piles of skulls, as high as your waist, have been 
+arranged at regular intervals around the perimeter of the area, a grim
+reminder of the killing power of whatever beast resides here.
+~
+0 3153993 0
+D0
+~
+~
+0 -1 2889
+D5
+~
+~
+0 -1 2887
+S
+#2889
+The Glowing Sphere~
+The chamber ends here, before a gaping hole in the ceiling, which is
+filled with a glowing translucent sphere. Although it crackles and
+shimmers with powerful magicks, the energy surging from it doesn't do
+you any noticeable harm. There doesn't appear to be any other way onwards
+except through whatever this sphere keeps in place.
+~
+0 3145801 0
+D2
+~
+~
+0 -1 2888
+D4
+~
+sphere~
+67 -1 2890
+S
+#2890
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2890
+D1
+~
+~
+0 -1 2890
+D2
+~
+~
+0 -1 2890
+D3
+~
+~
+0 -1 2890
+D6
+~
+~
+0 -1 2894
+D7
+~
+~
+0 -1 2890
+D8
+~
+~
+0 -1 2890
+D9
+~
+~
+0 -1 2890
+> act_prog p from below.~
+mpe The sphere slides shut behind you, barring the entrance.
+mpe You appear to have entered the uppermost sanctum of Cresslix!
+mpe Now, where could he be...
+~
+|
+S
+#2891
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2894
+D1
+~
+~
+0 -1 2891
+D2
+~
+~
+0 -1 2891
+D3
+~
+~
+0 -1 2893
+D6
+~
+~
+0 -1 2891
+D7
+~
+~
+0 -1 2891
+D8
+~
+~
+0 -1 2891
+D9
+~
+~
+0 -1 2891
+S
+#2892
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2893
+D1
+~
+~
+0 -1 2892
+D2
+~
+~
+0 -1 2892
+D3
+~
+~
+0 -1 2892
+D6
+~
+~
+0 -1 2892
+D7
+~
+~
+0 -1 2892
+D8
+~
+~
+0 -1 2892
+D9
+~
+~
+0 -1 2895
+S
+#2893
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2893
+D1
+~
+~
+0 -1 2891
+D2
+~
+~
+0 -1 2892
+D3
+~
+~
+0 -1 2893
+D6
+~
+~
+0 -1 2893
+D7
+~
+~
+0 -1 2893
+D8
+~
+~
+0 -1 2893
+D9
+~
+~
+0 -1 2893
+S
+#2894
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2894
+D1
+~
+~
+0 -1 2894
+D2
+~
+~
+0 -1 2891
+D3
+~
+~
+0 -1 2894
+D6
+~
+~
+0 -1 2894
+D7
+~
+~
+0 -1 2894
+D8
+~
+~
+0 -1 2894
+D9
+~
+~
+0 -1 2890
+S
+#2895
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2896
+D1
+~
+~
+0 -1 2895
+D2
+~
+~
+0 -1 2895
+D3
+~
+~
+0 -1 2895
+D6
+~
+~
+0 -1 2892
+D7
+~
+~
+0 -1 2895
+D8
+~
+~
+0 -1 2895
+D9
+~
+~
+0 -1 2895
+S
+#2896
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2896
+D1
+~
+~
+0 -1 2896
+D2
+~
+~
+0 -1 2895
+D3
+~
+~
+0 -1 2897
+D6
+~
+~
+0 -1 2896
+D7
+~
+~
+0 -1 2896
+D8
+~
+~
+0 -1 2896
+D9
+~
+~
+0 -1 2896
+S
+#2897
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2897
+D1
+~
+~
+0 -1 2897
+D2
+~
+~
+0 -1 2897
+D6
+~
+~
+0 -1 2897
+D7
+~
+~
+0 -1 2898
+D8
+~
+~
+0 -1 2897
+D9
+~
+~
+0 -1 2897
+S
+#2898
+Halls of Peril~
+Dark, shifting walls press in on all sides of you here, threatening to
+engulf you. Not a sound permeates the dizzying, moving dark shapes, nor
+does your light source penetrate far into the gloom. Shapes move about on
+all sides of you, adding to your confusion. Panic sets in as you also realize
+that in this evil place your magic will not function either.
+~
+0 3481737 0 0 0 6
+D0
+~
+~
+0 -1 2898
+D1
+~
+~
+0 -1 2898
+D2
+~
+~
+0 -1 2898
+D3
+~
+~
+0 -1 2898
+D6
+~
+~
+0 -1 2898
+D7
+~
+~
+0 -1 2898
+D8
+~
+~
+0 -1 2897
+D9
+~
+~
+0 -1 2898
+S
+#2899
+The Sanctum of Evil~
+The panel opens onto a small chamber, no more than a dozen feet on
+each side, which contains naught but a small slab of obsidian, set in
+the middle of a blazing pentagram of fire. Smoke fills the room, causing
+you to choke and gag, while the heat from the pentagram is quickly becoming
+unbearable. What manner of being would reside in such a fell domain?
+~
+0 3153933 0 0 0 9
+> rand_prog 33~
+if ispc($r)
+mea $r Smoke fills your lungs and fire scorches your legs!
+mpdamage $r 100
+mforce $r cough
+else
+endif
+~
+|
+S
+#0
+
+
+#RESETS
+M 1 2800 1 2800
+E 1 2800 1 16
+E 1 2801 1 3
+E 1 2802 1 11
+E 1 2803 1 5
+E 1 2804 1 0
+O 1 2811 1 2800
+M 1 2804 1 2803
+M 1 2802 3 2805
+M 1 2818 3 2806
+M 1 2818 3 2806
+M 1 2818 3 2806
+M 1 2805 7 2807
+E 1 2813 1 3
+E 1 2814 1 16
+E 1 2815 1 11
+M 1 2805 7 2809
+E 1 2814 1 16
+E 1 2815 1 11
+E 1 2813 1 3
+M 1 2806 1 2810
+E 1 2818 1 6
+O 1 2816 1 2810
+P 0 2817 1 0
+M 1 2805 7 2812
+E 1 2814 1 16
+E 1 2815 1 11
+E 1 2813 1 3
+O 1 2837 1 2812
+M 1 2827 5 2813
+E 1 2828 1 20
+G 1 2829 1
+M 1 2813 1 2814
+E 1 2830 1 10
+M 1 2805 7 2816
+E 1 2813 1 3
+E 1 2814 1 16
+E 1 2815 1 11
+M 1 2827 5 2817
+E 1 2828 1 20
+G 1 2829 1
+M 1 2805 7 2818
+E 1 2813 1 3
+E 1 2814 1 16
+E 1 2815 1 11
+M 1 2803 1 2819
+E 1 2809 1 16
+E 1 2810 1 12
+M 1 2807 1 2821
+M 1 2809 6 2822
+E 1 2820 1 16
+E 1 2821 1 13
+E 1 2822 1 8
+M 1 2808 1 2824
+E 1 2819 1 7
+E 1 2852 1 8
+M 1 2809 6 2826
+E 1 2820 1 16
+E 1 2821 1 13
+E 1 2822 1 8
+O 1 2855 1 2827
+M 1 2809 6 2829
+E 1 2820 1 16
+E 1 2821 1 13
+E 1 2822 1 8
+M 1 2810 1 2830
+M 1 2805 7 2833
+E 1 2813 1 3
+E 1 2814 1 16
+E 1 2815 1 11
+M 1 2809 6 2834
+E 1 2820 1 16
+E 1 2821 1 13
+E 1 2822 1 8
+M 1 2809 6 2836
+E 1 2820 1 16
+E 1 2822 1 8
+E 1 2821 1 13
+M 1 2809 6 2838
+E 1 2820 1 16
+E 1 2821 1 13
+E 1 2822 1 8
+M 1 2802 3 2838
+M 1 2827 5 2839
+E 1 2828 1 20
+G 1 2829 1
+M 1 2827 5 2839
+E 1 2828 1 20
+G 1 2829 1
+M 1 2827 5 2839
+E 1 2828 1 20
+G 1 2829 1
+D 0 2840 0 1
+M 1 2805 7 2841
+E 1 2813 1 3
+E 1 2814 1 16
+E 1 2815 1 11
+M 1 2802 3 2842
+D 0 2844 3 2
+M 1 2811 1 2845
+E 1 2823 1 16
+E 1 2824 1 9
+E 1 2825 1 14
+D 0 2845 1 2
+M 1 2814 1 2846
+E 1 2831 1 17
+E 1 2832 1 19
+E 1 2833 1 16
+E 1 2834 1 5
+D 0 2846 2 1
+D 0 2847 0 1
+D 0 2848 0 1
+D 0 2848 2 1
+M 1 2819 1 2849
+O 1 2838 1 2849
+O 1 2839 1 2849
+O 1 2840 1 2849
+D 0 2850 0 1
+D 0 2850 1 1
+D 0 2850 2 1
+D 0 2850 3 1
+O 1 2848 1 2851
+P 0 2847 1 0
+D 0 2851 3 1
+M 1 2821 1 2852
+G 1 2844 1
+G 1 2846 1
+E 1 2850 1 16
+O 1 2849 1 2852
+P 0 2851 1 0
+D 0 2852 2 1
+O 1 2843 1 2853
+P 0 2845 1 0
+D 0 2853 1 1
+M 1 2820 2 2854
+E 1 2841 1 5
+E 1 2842 1 16
+M 1 2820 2 2855
+E 1 2841 1 5
+E 1 2842 1 16
+M 1 2828 5 2857
+M 1 2828 5 2859
+M 1 2829 1 2863
+E 1 2856 1 20
+E 1 2857 1 12
+O 1 20 1 2863
+O 1 20 1 2863
+M 1 2828 5 2865
+M 1 2828 5 2866
+M 1 2823 1 2868
+M 1 2828 5 2869
+M 1 2824 1 2870
+E 1 2859 1 5
+D 0 2871 0 0
+M 1 2832 1 2875
+E 1 2860 1 14
+E 1 2861 1 16
+D 0 2875 3 2
+M 1 2831 1 2876
+D 0 2876 1 2
+M 1 2833 1 2877
+E 1 2862 1 16
+M 1 2834 2 2877
+M 1 2834 2 2877
+D 0 2877 1 2
+D 0 2877 3 2
+M 1 2830 2 2879
+M 1 2830 2 2879
+M 1 2822 1 2888
+D 0 2889 4 1
+M 1 2812 4 2890
+M 1 2812 4 2892
+M 1 2812 4 2895
+M 1 2812 4 2897
+O 1 2826 1 2898
+M 1 2801 1 2899
+E 1 2805 1 16
+E 1 2806 1 9
+E 1 2807 1 6
+E 1 2808 1 19
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2800 spec_cast_cleric
+M  2801 spec_fido
+M  2803 spec_breath_frost
+M  2806 spec_fido
+M  2807 spec_poison
+M  2810 spec_breath_gas
+M  2811 spec_cast_undead
+M  2812 spec_fido
+M  2814 spec_cast_cleric
+M  2818 spec_fido
+M  2820 spec_breath_frost
+M  2821 spec_cast_mage
+M  2822 spec_fido
+M  2823 spec_breath_frost
+M  2824 spec_cast_adept
+M  2829 spec_cast_mage
+M  2831 spec_breath_frost
+S
+
+
+#$

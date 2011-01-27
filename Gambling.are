@@ -1,0 +1,751 @@
+#AREA
+gambling.are~
+Gambling Hall~
+{ 5 15} Kandahar Gambling Hall~
+9400 9499
+
+#MOBILES
+#9401
+hasard participant player~
+a dice player~
+A hasard participant shakes the dice in his hands.
+~
+This participant's eyes are darting from side to side as he judges his
+throw.  He has been playing this game for most of the night and hopes to
+recoup his losses.  
+~
+human~
+AFGHT D -700 0
+6 0 2d6+85 2d50+50 1d6+1 punch
+4 4 4 4
+EFNU 0 0 C
+stand stand male 50
+ABGHMV ABCDEFGHIJKQV medium 0
+#9402
+treasurer greedy man~
+the greedy treasurer~
+The greedy treasurer eyes a stack of coins.
+~
+This treasurer is making mountains of money by the second.  His plan
+to run a thriving business has succeeded ...  And how!  
+~
+human~
+ABGT DFH 2 0
+12 0 2d10+170 2d50+50 1d10+3 slap
+0 0 0 8
+DEFN 0 0 0
+sit stand male 200
+AHMV ABCDEFGHIJK medium 0
+#9403
+participant player merrills~
+a tables player~
+This merrills player assesses his moves.
+~
+This participant is trying to assess what moves he has left from this
+game and is hoping to actually win this time.  
+~
+human~
+AGT 0 0 0
+9 0 2d7+121 2d50+50 1d8+2 none
+2 2 2 2
+EFNU 0 0 0
+stand stand male 250
+AHMV ABCDEFGHIJK medium 0
+#9404
+player chess participant~
+a tables player~
+This chess player sums up his winnings.
+~
+This player has been doing rather well considering he only just
+started playing the game.  Must be beginner's luck.  
+~
+human~
+ACGHT 0 1 0
+2 0 2d6+35 2d50+50 1d5+0 scratch
+8 8 8 10
+EFNU 0 0 0
+stand stand male 50
+AHMV ABCDEFGHIJK medium 0
+#9405
+player cards participant~
+a cards player~
+This cards player ponders what to play next.
+~
+This participant rather likes playing cards.  The competition isn't up
+to much and he can rake in a good profit most days.  
+~
+human~
+ACGT 0 0 0
+4 0 2d6+60 2d50+50 1d5+1 punch
+5 5 5 5
+EFNU 0 0 0
+sit sit male 75
+AHMV ABCDEFGHIJK medium 0
+#9406
+player raffle participant~
+a dice player~
+This raffles participant judges his throw carefully.
+~
+This dice game is played with three dice.  And this player has been
+winning all night.  He is wondering whether to continue playing or take
+his winnings home before he loses it all.  
+~
+human~
+AGHT 0 100 0
+3 0 2d7+46 2d50+50 1d6+0 none
+7 7 7 7
+EFNU 0 0 0
+stand stand male 30
+AHMV ABCDEFGHIJK medium 0
+#9407
+onlooker~
+an onlooker~
+An interested onlooker watches the proceedings.
+~
+This onlooker watches the games with interest and wonders if she would
+be any good at any of them.  Unable to decide whether to take the plunge,
+she wavers indecisively.  
+~
+human~
+AGHT 0 150 0
+3 0 2d7+46 2d50+50 1d6+0 slap
+7 7 7 7
+EFNU 0 0 0
+stand sit female 20
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#9400
+Entrance to Ye Olde Gambling Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  To the south
+lies the treasury and betting office and to the west, the familiar paving
+of Wall Road.  
+~
+0 8 0
+D0
+~
+~
+0 0 9401
+D1
+~
+~
+0 0 9407
+D2
+~
+~
+0 0 9403
+D3
+~
+~
+0 0 3047
+S
+#9401
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D0
+~
+~
+0 0 9402
+D1
+~
+~
+0 0 9406
+D2
+~
+~
+0 0 9400
+S
+#9402
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D1
+~
+~
+0 0 9405
+D2
+~
+~
+0 0 9401
+S
+#9403
+Betting Office~
+This is the betting office.  The room is sparsely furnished with an
+old wooden desk, a couple of chairs and a large cupboard on the wall. 
+The cupboard is locked with a padlock.  The desk is covered with papers
+and there is also a quill and pot of ink to one side.  North leads to the
+entrance and south to the treasury.  
+~
+0 8 0
+D0
+~
+~
+0 0 9400
+D2
+~
+~
+0 0 9404
+S
+#9404
+The Treasury~
+This is the place where all the gold, silver and other treasures are
+kept.  There is a locked cabinet at the far end of the room.  And the
+rest of the room is totally bare.  North leads back to the betting
+office.  
+~
+0 8 0
+D0
+~
+~
+0 0 9403
+S
+#9405
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D1
+~
+~
+0 0 9410
+D2
+~
+~
+0 0 9406
+D3
+~
+~
+0 0 9402
+S
+#9406
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D0
+~
+~
+0 0 9405
+D1
+~
+~
+0 0 9411
+D2
+~
+~
+0 0 9407
+D3
+~
+~
+0 0 9401
+S
+#9407
+Entrance Hallway to Ye Olde Gambling Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  Gambling is
+taking place in all corners of the room and the exit to the street lies
+to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 9406
+D1
+~
+~
+0 0 9412
+D2
+~
+~
+0 0 9408
+D3
+~
+~
+0 0 9400
+S
+#9408
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9407
+D1
+~
+~
+0 0 9413
+D2
+~
+~
+0 0 9409
+S
+#9409
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9408
+D1
+~
+~
+0 0 9414
+S
+#9410
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D1
+~
+~
+0 0 9415
+D2
+~
+~
+0 0 9411
+D3
+~
+~
+0 0 9405
+S
+#9411
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D0
+~
+~
+0 0 9410
+D1
+~
+~
+0 0 9416
+D2
+~
+~
+0 0 9412
+D3
+~
+~
+0 0 9406
+S
+#9412
+Entrance to Ye Olde Gambling hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  Gambling is
+taking place in all corners of the room and the exit to the street lies
+to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 9411
+D1
+~
+~
+0 0 9417
+D2
+~
+~
+0 0 9413
+D3
+~
+~
+0 0 9407
+S
+#9413
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9412
+D1
+~
+~
+0 0 9418
+D2
+~
+~
+0 0 9414
+D3
+~
+~
+0 0 9408
+S
+#9414
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9413
+D1
+~
+~
+0 0 9419
+D3
+~
+~
+0 0 9409
+S
+#9415
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D1
+~
+~
+0 0 9420
+D2
+~
+~
+0 0 9416
+D3
+~
+~
+0 0 9410
+S
+#9416
+Dicing Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various dicing games popular in this town.  
+~
+0 8 0
+D0
+~
+~
+0 0 9415
+D1
+~
+~
+0 0 9421
+D2
+~
+~
+0 0 9417
+D3
+~
+~
+0 0 9411
+S
+#9417
+Entrance to Ye Olde Gambling hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  Gambling is
+taking place in all corners of the room and the exit to the street lies
+to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 9416
+D1
+~
+~
+0 0 9422
+D2
+~
+~
+0 0 9418
+D3
+~
+~
+0 0 9412
+S
+#9418
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9417
+D1
+~
+~
+0 0 9423
+D2
+~
+~
+0 0 9419
+D3
+~
+~
+0 0 9413
+S
+#9419
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9418
+D1
+~
+~
+0 0 9424
+D3
+~
+~
+0 0 9414
+S
+#9420
+Cards Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the room is dedicated to the cards games now taking a hold of the city.  
+~
+0 8 0
+D2
+~
+~
+0 0 9421
+D3
+~
+~
+0 0 9415
+S
+#9421
+Cards Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the room is dedicated to the cards games now taking a hold of the city.  
+~
+0 8 0
+D0
+~
+~
+0 0 9420
+D2
+~
+~
+0 0 9422
+D3
+~
+~
+0 0 9416
+S
+#9422
+Entrance to Ye Olde Gambling hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  Gambling is
+taking place in all corners of the room and the exit to the street lies
+to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 9421
+D2
+~
+~
+0 0 9423
+D3
+~
+~
+0 0 9417
+S
+#9423
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9422
+D2
+~
+~
+0 0 9424
+D3
+~
+~
+0 0 9418
+S
+#9424
+Tables Hall~
+A long hall stretches the length of the building, with an assortment
+of tables to one side.  The hall is fairly ramshackle and the walls look
+like they are about to blow down.  There is a buzz of low conversation
+and strange noises coming from different parts of the room.  This part of
+the hall is dedicated to the various board or tables games popular in
+this age.  
+~
+0 8 0
+D0
+~
+~
+0 0 9423
+D3
+~
+~
+0 0 9419
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 1 9405 7 9401 1
+M 1 9401 5 9402 1
+M 1 9402 1 9403 1
+M 1 9405 7 9404 1
+M 1 9403 7 9406 1
+M 1 9405 7 9408 1
+M 1 9401 5 9408 1
+M 1 9405 7 9409 1
+M 1 9407 3 9410 1
+M 1 9404 4 9410 2
+M 1 9403 7 9410 1
+M 1 9407 3 9411 1
+M 1 9401 5 9411 1
+M 1 9404 4 9413 2
+M 1 9403 7 9414 1
+M 1 9405 7 9415 1
+M 1 9406 8 9415 1
+M 1 9406 8 9416 1
+M 1 9406 8 9417 1
+M 1 9406 8 9418 1
+M 1 9401 5 9418 1
+M 1 9406 8 9419 1
+M 1 9406 8 9420 1
+M 1 9407 3 9420 1
+M 1 9405 7 9421 1
+M 1 9403 7 9421 1
+M 1 9401 5 9422 1
+M 1 9403 7 9422 1
+M 1 9406 8 9423 1
+M 1 9403 7 9423 1
+M 1 9403 7 9424 1
+M 1 9406 8 9424 1
+M 1 9405 7 9424 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
+
+
+

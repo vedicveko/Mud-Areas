@@ -1,0 +1,7700 @@
+#AREA   Queen of the Demonweb Pits~
+
+
+
+#AUTHOR Rolindar~
+
+#RANGES
+40 50 40 65
+$
+
+#RESETMSG The fabric of the web shifts slightly as Lolth imposes new changes.~
+
+#FLAGS
+0 12
+
+#ECONOMY 0 87523918
+
+#MOBILES
+#31500
+lolth~
+Lolth~
+A beautiful drow female beckons enticingly to you.
+~
+Vile beyond belief, this evil demoness is the unchallenged ruler of
+this level of the Abyss, and seeks to conquer as many realities of
+the Prime Material Plane as she can, which is why she must be stopped!
+Ripping a soul from the ether and devouring it, she screams a challenge
+and attacks!
+~
+35 23077544 -1000 C
+55 0 -300 45d45+21000 5d20+80
+1750000 0
+8 8 2
+25 25 25 25 25 25 25
+-10 -10 -10 -10 -10
+90 3 0 0 69635 1 5
+0 0 2046 1065350 2108416 0 1252003840 7
+> fight_prog 45~
+mpe _red $I shrieks in unholy rage and unleashes her most potent attacks!
+c 'necromantic touch' $n
+mpdamage $n 1100
+~
+> fight_prog 23~
+c 'faerie fire' $n
+c feebleness $n
+c lethargy $n
+c 'ill fortune' $n
+~
+> fight_prog 18~
+mpe _blu Lolth utters a word, and an unholy minion appears to aid her.
+~
+> fight_prog 66~
+if rand(40)
+vom $r
+gouge
+else
+if rand(50)
+shriek
+mpdamage all 400
+c unravel $r
+else
+c 'dispel magic' $r
+endif
+endif
+~
+> rand_prog 5~
+mprestore self 200
+~
+> all_greet_prog 100~
+mpe As you enter, a vision of the Queen of Spiders herself appears!
+say Oh, foolish mortal, do you really know what you are doing?
+say What can you hope to achieve, here, in my realm, where I am nigh
+say invincible? 
+shake
+say A pity, to waste such power, on such a foolish endeavour.
+sigh
+say I will destroy you, $n, know that, but you will have to find me.
+snicker
+say Here, though, is a taste of my power!
+if isimmort($n)
+else
+c 'necromantic touch' $n
+c 'necromantic touch' $n
+endif
+mpe _yel With that Lolth vanishes, in a cloud of stinking yellow smoke.
+mpgoto 31699
+~
+|
+#31501
+troll~
+a troll~
+A hideous troll claws its way out of the trash!
+~
+These trolls are not hill trolls, as are commonly seen in and around
+Darkhaven. These rubbery-skinned, black eyed terrors with claws that
+can rip steel are dark trolls, used as guards and muscle by most
+intelligent subterranean races. To see them here does not bode well.
+Lolth has evidently transported them to her realm to serve as guards
+and henchmen.
+~
+39 552 -1000 C
+44 0 0 20d20+3300 3d5+30
+5000 0
+8 8 1
+20 13 13 20 13 3 3
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 262184 2097984 16 129 3 2
+> rand_prog 100~
+close se
+mprestore self 50
+~
+> fight_prog 15~
+snarl
+~
+> fight_prog 15~
+lick
+~
+> fight_prog 15~
+scream
+~
+> fight_prog 15~
+drool
+~
+|
+#31502
+trose cleric human~
+Trose~
+An unkempt human clad in plate mail leaps to his feet as you enter.
+~
+This dishevelled cleric has been here for quite some time, and during
+his involuntary stay has managed to establish a lair here, and capture
+several chaotic foes (or so he believes). Earnest in his faith and
+devotion, he could be a useful ally; or a dangerous opponent...
+~
+3 4203176 500 C
+46 0 0 7500d0+0 2d2+22
+75000 0
+8 8 1
+13 11 16 15 14 15 15
+-10 -10 -10 -10 -10
+0 1 0 0 1 1 4
+0 0 1791 2113695 7936 0 245366784 1571
+> death_prog 100~
+mpmset self gold 0
+mpjunk coins
+say Ah, sweet death has me in its fell embrace!
+~
+> rand_prog 2~
+mpe $I frowns at the humans caged to the east.
+say Foul creatures.
+spit
+~
+> all_greet_prog 100~
+if name($n) == werewolf woman
+say Chaos has escaped! Help me dispatch it!
+c 'frost breath' $n
+else
+if ispc($n)
+mpe $I leaps up, his expression a mixture of excitement and apprehension.
+say Good grief! Adventurers! Here!
+chuckle
+say I thought I was doomed to a lifetime of solitude, with these...
+mpe $I looks at the caged humans to the east and snarls.
+say Spawn of chaos. they are dangerous, friend, dangerous indeed.
+say You must believe me!
+sigh
+c know $n
+ if isgood($n)
+ mea $n Sensing you as one of devout morals, Trose relaxes a little.
+ t $n Fellow servant of Law, I can aid thee, if you wish. I can attempt
+ t $n to recharge magical items in need of it, if you have any...
+ endif
+endif
+~
+> act_prog p DISARMS you!~
+mpe _whi Wolfsbane leaps back to Trose's hand!
+wield wolfsbane
+snarl
+mea $n _whi $I smites you with the weapon!
+mpdamage $n 200
+~
+> fight_prog 66~
+if isevil($n)
+mpe _whi Trose's mace screams in fury as it detects evil souls!
+mpdamage $n 400
+else
+c earthquake
+c heal
+endif
+~
+> fight_prog 25~
+disarm
+stun
+~
+> act_prog circle~
+mea $n _whi A beam of brilliant light smites you!
+mer $n _whi A beam of brilliant light smites $n!
+mpdamage $n 400
+~
+|
+#31503
+werewolf woman~
+a naked woman~
+A comely naked woman huddles meekly in the straw.
+~
+This poor wretch looks malnourished and bears signs of abuse; what
+has that monster Trose done to these poor women? Mind you, a lot
+of the bruises look remarkably like clumps of hair- dense, coarse
+black hair...
+~
+35 552 -300 C
+42 0 0 3000d0+0 2d4+12
+0 0
+8 8 2
+22 13 13 22 22 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 264191 16898 11264 1 262147 524547
+> all_greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+mea $n The 'woman' undergoes a startling transformation!
+mea $n Hair sprouts all over her form, which is suddenly become lithe and
+mea $n sinewy! Long claws sprout from her hands, and teeth gape from her maw!
+mpmset self short a werewolf
+mpmset self long A ferocious lycanthrope tears at your throat!
+endif
+endif
+~
+> rand_prog 5~
+mpmset self short a naked woman
+mpmset self long A comely naked woman huddles meekly in the straw.
+~
+|
+#31504
+gnoll soldier~
+a gnollish soldier~
+A gnollish soldier rests in between assignments, drinking ale.
+~
+These fecund, doglike creatures are not difficult foes to dispatch,
+however their superior numbers may give them the advantage if you
+seek to melee with them.
+~
+35 512 -666 C
+30 0 -66 750d1+0 2d2+8
+1000 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 3 0 0 1 1 0
+0 0 1063 0 0 0 16 524291
+#31505
+minotaur~
+a minotaur~
+A minotaur officer is seated at the table, drinking.
+~
+These burly, bull-headed creatures are a terrifying foe in battle, capable
+of inflicting significant damage even unarmed, due to their natural weaponry.
+~
+35 552 -400 C
+43 0 0 3500d0+0 4d4+24
+22500 0
+8 8 1
+22 13 13 18 13 13 13
+0 0 0 0 0
+48 3 0 0 1 1 0
+0 0 68159103 0 1051648 0 416 3
+> fight_prog 75~
+wield great
+~
+> all_greet_prog 100~
+snort
+~
+> fight_prog 20~
+snort
+~
+|
+#31506
+vrock demon~
+Vrock~
+A twisted, sneering demon sits perched on the ledge near the door.
+~
+Holder of the namesake assigned to all demons of his ilk, Vrock is the
+mightiest of his kind, and serves Lolth willingly as guardian of this
+chamber. Magical enchantments prohibit him ever being slain; you will
+have to hold him off and wait until the room transports you to the
+next level...
+~
+35 4727464 -300 C
+47 0 -112 5000d0+0 4d4+12
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 329279 1056934 2100993 0 547 2
+> death_prog 100~
+mpe _red A hellish cloud of fire and brimstone heralds $I's rebirth!
+mpmload 31506
+mpforce 2.vrock cackle
+~
+> fight_prog 25~
+mea $n _blu The demon hurls you high into the air!
+mer $n _blu The demon hurls $n high into the air!
+mea $n _red You crash back down to earth, dragged by $I's telekinesis!
+mer $n _red $n crashes back down to earth, dragged by $I's telekinesis!
+mpdamage $n 400
+~
+> fight_prog 40~
+mprestore self 200
+~
+> all_greet_prog 100~
+cackle
+if ispc($n)
+say Fools you are to trespass in mistress' lair!
+grin
+say However, through fate or blind luck, you have trespassed wisely...
+say To proceed however, you must get past me!
+lick
+endif
+~
+|
+#31507
+large pedipalp schizomidae~
+a schizomidae~
+A curious hybrid between spider and scorpion scuttles along the corridor.
+~
+Known as whip scorpions, all pedipalp resemble a cross between a spider
+and a scorpion, and possess both the attacks and attributes of each
+species. 
+ 
+The Schizomidae are the smallest, and weakest, of the species.
+~
+101 33312 0 C
+35 0 0 1200d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262152 2
+#31508
+large solifugid~
+a large solifugid~
+An spiderlike creature scuttles along the floor.
+~
+False spiders are rarely encountered, save of course in this realm of
+the Queen of Spiders herself.
+~
+101 33288 0 C
+35 0 0 1200d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36 0 2048 0 128 2
+#31509
+large scorpion~
+a large scorpion~
+A scorpion the size of a large hound scuttles across the stone floor.
+~
+This horror is one of the many insectoid 'pets' kept by Lolth, and left
+to wander her web as they will.
+~
+101 33312 0 C
+35 0 0 1200d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262152 2
+#31510
+large spider~
+a large spider~
+A hairy arachnid crawls through the web.
+~
+Of all insects, arachnids are the most beloved of Lolth, and as such
+are themselves worshipped by the depraved drow, as avatars of their
+dark deity. The spiders here are larger and more savage than any
+encountered on your home plane, however...
+~
+101 33312 -500 C
+35 0 0 1200d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262145 2
+#31511
+bugbear thug~
+a bugbear thug~
+A burly bugbear armed with club and mallet moves forward.
+~
+Smelly, foul-tempered and cruel, bugbears are eight foot humanoids,
+goblinoid in nature and almost ursine in appearance. They are a crude
+race used as thugs and guards by other, more intelligent species.
+~
+101 512 -700 C
+40 0 0 16d50+1200 4d4+8
+6000 0
+8 8 1
+19 13 13 13 19 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 2
+0 0 263871 0 0 0 3 524291
+> fight_prog 30~
+if rand(50)
+gouge
+else
+stun
+endif
+~
+> rand_prog 25~
+wield mallet
+wield club
+~
+> all_greet_prog 100~
+if rand(25)
+scream
+else
+if rand(40)
+snarl
+else
+if rand(60)
+growl
+else
+lick
+endif
+endif
+endif
+~
+|
+#31512
+erelda drow cleric ~
+Erelda~
+A beautiful drow cleric sits in the center of the chamber.
+~
+Lolth brings those she wishes to use for special services here to be
+tested; this woman is the only survivor of a group of five such (un?)
+fortunate individuals so summoned. Thus she is ready for combat, but
+will not react instantly, preferring instead to see how what she sees
+as another 'test' from the Queen of Spiders pans out.
+~
+3 8872 -1000 C
+46 0 -200 6000d0+0 5d5+30
+22570 0
+8 8 2
+13 18 18 22 13 18 13
+-10 -10 -10 -10 -10
+1 1 0 0 2 2 0
+0 0 2047 3182991 3072 0 111153152 1735
+> all_greet_prog 100~
+if isimmort($n)
+bow $n
+else
+if ispc($n)
+ if race($n) == drow
+ or race($n) == elf
+ eye $n
+ say Does Lolth seek to test you as well, then?
+ else
+ mpe $I stands up as you enter.
+ say Stranger, if you have ventured here by accident, I suggest that
+ say you leave. If you are another challenge from Mistress, then I
+ say am ready. Either way, if you remain, prepare for a fight...
+ grin
+ endif
+endif
+endif
+~
+> rand_prog 2~
+if ispc($r)
+glare $r
+say Are you ready to do battle, $r?
+mpe _blu $I surrounds herself with protective magicks.
+c demonskin
+c dragonskin
+c 'eldritch sphere'
+c shadowform
+endif
+~
+> fight_prog 18~
+c feebleness
+c 'necromantic touch'
+~
+> fight_prog 66~
+wield adamantium
+~
+> fight_prog 30~
+rem adamantium
+hold crossbow
+zap $n
+rem crossbow
+wield adamantium
+~
+|
+#31513
+mirror demon~
+the mirror demon~
+A shifting, multi-faceted crystalline entity shifts in and out of existence.
+~
+This floating, shimmering being defies description;it would perhaps
+be most analagous with a series of revolving mirrors, each catching
+and reflecting light independently, dazzling you as powerful waves
+of cold and electricity surge forth.
+~
+7 340263594 -874 C
+48 0 -200 11000d0+0 2d9+22
+856000 0
+8 8 0
+13 13 13 13 13 13 13
+-30 -30 -30 -30 -30
+85 0 0 0 65536 65536 4
+0 0 0 590 3149088 16 1075924992 2
+> all_greet_prog 100~
+if isimmort($n)
+else
+mea $n _blu The mirror demon dazzles you with its brilliance!
+c blindness $n
+c blindness $n
+c blindness $n
+endif
+~
+> fight_prog 20~
+mpe _blu The mirror demon fades out of existence...
+mpgoto $i
+c 'frost breath' $r
+~
+> death_prog 100~
+mpe _blu A jagged piece of glass flies across the room, struck off by your blow
+mpoload 31518 
+drop amulet
+~
+> fight_prog 10~
+c 'spiral blast'
+~
+> rand_prog 2~
+c 'spiral blast'
+~
+|
+#31514
+herzou demon ~
+Herzou~
+A fishlike demon with a huge maw swims towards you.
+~
+This loathsome demon is the namesake of the second class of demons,
+the Herzou. The same rules and conditions that bind Vrock also limit
+this being, also granting it the same immortality whilst in this 
+place. 
+~
+39 -2141183320 -300 C
+47 0 -150 6000d0+0 4d4+20
+0 0
+8 8 0
+13 13 13 22 22 13 13
+-5 -5 -5 -5 -5
+67 3 0 0 1 1 3
+0 0 0 1056832 2101122 0 515 3
+> death_prog 100~
+mpe _blu As the corpse sinks into the water, it bursts open!
+mpe _red A new Herzou crawls out of the exploded remains of the old!
+mpmload 31514
+~
+|
+#31515
+robed human jackalwere~
+a robed human~
+A robed human stands before the altar, as if waiting for something.
+~
+This humble fellow appears to be a devoted follower of the gods of Law.
+Perhaps this man staffs a small bastion of faith, established here by
+these same gods for the benefit of those who seek to do away with
+the demon queen? But then, why do his beady eyes shift so...?
+~
+3 552 -750 C
+44 0 -120 6000d0+0 4d4+12
+150000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 2
+18 18 263865 0 11264 0 3 327
+> rand_prog 100~
+wield ornate
+mprestore self 200
+mpmset self short a robed human
+mpmset self long A robed human stands before the altar, waiting.
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+bow $n
+say Greetings and peace be with you, $n.
+say Safe you are, here, away from Lolth and her minions. Rest, sleep
+say and i will restore you to full health!
+endif
+endif
+~
+> act_prog p collapses into a deep sleep.~
+snarl
+mprestore $n 2000
+bs $n
+~
+> fight_prog 100~
+mpmset self short a jackalwere
+mpmset self long A ferocious hybrid of human and jackal tears at your eyes!
+~
+> fight_prog 30~
+gouge
+disarm
+get all
+~
+|
+#31516
+ardulace drow ~
+Ardulace~
+A beautiful drow cleric sits in the center of the chamber.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 8872 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 2
+13 18 18 22 13 18 13
+0 0 0 0 0
+1 1 0 0 3 2 2
+0 0 2047 3182991 3072 0 111153152 1735
+> fight_prog 10~
+mpe _yel $I calls upon aid from the Netherworld!
+c gate
+~
+> all_greet_prog 100~
+if isimmort($n)
+else
+sneer
+say Foolish whelp, $n! You will pay for your intrusion!
+say Anatlab, aid me in destroying this scum!
+mpforce 'anatlab drow' cackle
+mpforce 'anatlab drow' grin
+mpforce 'anatlab drow' nod
+mpforce 'anatlab drow' say My pleasure, mistress...
+endif
+~
+> act_prog p DISARMS you!~
+wield death
+~
+|
+#31517
+anatlab drow~
+Anatlab~
+A cruel faced drow mage stands beside the throne.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 680 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 1
+13 18 18 22 13 18 13
+0 0 0 0 0
+1 0 0 0 2 2 2
+0 0 2047 3182991 3072 0 1344278528 1735
+> fight_prog 20~
+c 'faerie fire'
+c razorbait
+c swordbait
+~
+> act_prog p DISARMS you!~
+wield blade
+~
+|
+#31518
+minolin drow~
+Minolin~
+A cackling drow priestess is sprawled on the throne.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 8872 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 2
+18 18 18 22 13 18 13
+0 0 0 0 0
+1 1 0 0 2 2 2
+0 0 2047 3182991 3072 0 111153152 1735
+> all_greet_prog 100~
+if ispc($n)
+mpe $I rises langorously as you approach.
+lick
+say How sweet, Riklaunim, fresh meat!
+cackle
+snarl
+say KILL THEM!
+mpforce 'riklaunim drow' sneer $n
+endif
+~
+> fight_prog 18~
+mpgoto $i
+if ispc($r)
+c poison $r
+endif
+~
+> act_prog p DISARMS you!~
+mpe _yel $I tosses the disarmed weapon on the ground... it explodes!
+mpjunk darkmace
+c gas
+c gas
+cackle
+~
+|
+#31519
+riklaunim drow~
+Riklaunim~
+A handsome drow mage gazes lustfully at the reclining beauty.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 680 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 1
+13 18 18 22 13 18 13
+0 0 0 0 0
+1 0 0 0 2 2 2
+0 0 2047 3182991 3072 0 1344278528 1735
+> fight_prog 8~
+c 'quantum spike'
+rescue minolin
+~
+> fight_prog 30~
+mpe $I's enervative magicks sap the strength of $n!
+c 'ethereal funnel'
+c 'energy drain'
+c 'energy drain'
+~
+> fight_prog 50~
+c 'magic missile'
+c 'magic missile'
+~
+|
+#31520
+lirdnolu drow~
+Lirdnolu~
+A lewd drow cleric gestures at you lasciviously.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 8872 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 2
+13 18 18 22 13 18 13
+0 0 0 0 0
+1 1 0 0 2 2 2
+0 0 2047 3182991 3072 0 111153152 1735
+> all_greet_prog 100~
+if ispc($n)
+mpe $I eyes you appraisingly as you approach.
+say Well, look Adinirahc, new toys, playthings for our gratification...
+lick
+mmm
+nod
+say Yes, you'll do nicely... IN HELL!
+mpe $I's seductive demeanor vanishes, replaced by a snarling visage of hate!
+endif
+~
+> death_prog 33~
+mpe As the hateful cleric perishes, a look of serenity crosses her face.
+mpe Perhaps in death she will find the peace she lacked in life...
+mpjunk visage
+~
+> fight_prog 25~
+c 'winter mist' 
+c 'frost breath'
+c 'frost breath'
+~
+|
+#31521
+adinirahc drow~
+Adinirahc~
+A gaunt drow mage eyes you imperiously.
+~
+This drow is one of Lolth's chosen, her favorites whom she reserves for
+special assignments. They were about to be sent out to find and slay
+you, but you have saved them the effort... Cruel, powerful and capable
+of great feats of magic, they are individually powerful foes. Together,
+they may well be invincible!
+~
+35 680 -1000 C
+46 0 -50 8000d0+0 5d5+30
+100000 0
+8 8 1
+13 18 18 22 13 18 13
+0 0 0 0 0
+1 0 0 0 2 2 2
+0 0 2047 3182991 3072 0 1344278528 1735
+> fight_prog 25~
+c 'lightning bolt'
+c 'lightning bolt'
+~
+> fight_prog 33~
+c fireball
+c fireball
+~
+> fight_prog 45~
+c 'caustic fount'
+~
+> fight_prog 55~
+c 'magnetic thrust'
+c 'magnetic thrust'
+~
+> act_prog circle~
+mpe $n's devious assault, while clever, has dire consequences!
+c q $n
+c q $n
+~
+|
+#31522
+zombie~
+a zombie~
+A mindless zombie rises from the floor to greet you!
+~
+This pitiful wretch is all that is left of another adventurer who
+sought to put to the sword the drow quartered within this dark
+chantry.
+~
+35 552 0 C
+42 0 0 2200d0+0 0d0+0
+0 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65536 65536 0
+0 0 32 0 3842 0 400 2
+> fight_prog 13~
+mpe A zombie starts moaning! The noise is deafening!
+~
+|
+#31523
+ghast~
+a ghast~
+A decaying corpse claws its way out of the earth!
+~
+Innocent souls slain and roughly interred here, they have become 
+animated because Lolth wills it, and now exist only to slay the
+life they once so treasured.
+~
+35 8872 -800 C
+42 0 0 12d50+3100 2d2+16
+1800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 65536 65536 0
+0 0 262176 0 3842 1 262403 2
+#31524
+glabrezu demon~
+Glabrezu~
+A mighty four-armed demon rises from the flames.
+~
+Mightiest of the demons that bear its namesake, Glabrezu is a towering
+demon, possessed of two mighty clawed arms and two smaller prehensile
+taloned arms. Its stocky muscular frame is wreathed in a halo of fire,
+which it is totally immune to.
+~
+39 34087592 -666 C
+50 0 -100 8000d0+0 3d8+20
+0 0
+8 8 0
+20 13 13 20 13 13 13
+-10 -10 -10 -10 -10
+0 3 0 0 1 1 0
+0 0 0 1089608 2101121 0 2097287 524291
+> death_prog 100~
+mpe _red As the mighty demon sinks back into the flames, another arises!
+mpmload 31524
+~
+> fight_prog 18~
+stun
+c 'fire breath' $r
+~
+> all_greet_prog 100~
+if isnpc($n)
+mpe _red $I drags $n into the pit, where $e screams as $e is burned alive!
+mppurge $n
+else
+if ispc($n)
+chuckle
+say The indomitable $n finally graces my chamber. I was warned of your
+say approach, whelp. Now you shall burn in my fires, before you can
+say escape!
+flex
+endif
+endif
+~
+> rand_prog 100~
+close se
+~
+> fight_prog 100~
+close se
+~
+> fight_prog 20~
+mea $r _red $I grabs you and hurls you into the pit!
+mer $r _red $I grabs $n and hurls $m into the pit!
+mpforce $r scream
+mpdamage $r 250
+~
+|
+#31525
+bugbear soldier~
+a bugbear soldier~
+One of Lolth's bugbear soldiers searches the forest for enemies.
+~
+Smelly, foul-tempered and cruel, bugbears are eight foot humanoids,
+goblinoid in nature and almost ursine in appearance. They are a crude
+race used as thugs and guards by other, more intelligent species.
+Their presence here in Caer Sidi indicates that Lolth seeks to conquer
+this world.
+~
+101 512 -700 C
+40 0 0 16d50+1200 4d4+8
+6000 0
+8 8 1
+19 13 13 13 19 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 2
+0 0 263871 0 0 0 3 524291
+> greet_prog 100~
+if isnpc($n)
+ if name($n) == elven knight
+ mpe The bugbear screams and attacks the knight!
+ mpkill $n
+ else
+ if name($n) == unicorn
+ mpe The bugbear screams and attacks the unicorn!
+ mpkill $n
+ else
+ mpe The bugbear eyes the strange creature warily.
+ endif
+ endif
+else
+if ispc($n)
+say Enemy of Lolth! Perish!
+snarl
+endif
+endif
+~
+> rand_prog 2~
+peer
+~
+|
+#31526
+elven knight~
+an elven knight~
+A haughty elf clad in field plate searches the forest for Lolth's minions.
+~
+An agent of the Lord of this dominion, this knight has been sent to
+investigate claims of an invasion, through the portal from Lolth's
+web, where she has sent an expeditionary force. He will be instantly
+suspicious of new arrivals, but will recognize that you are not an
+agent of Lolth, but of someone else.
+~
+65 4203176 -200 C
+42 0 -66 4000d0+0 2d8+12
+50000 0
+8 8 1
+18 13 13 13 13 13 13
+-5 -5 -5 -5 -5
+1 8 0 0 2 2 0
+0 0 2047 1049344 2100224 8192 16 524307
+> all_greet_prog 100~
+if isnpc($n) 
+ if name($n) == bugbear soldier
+ say Lackeys of the filth spider queen! Attack!
+ mpkill $n
+ else
+ if name($n) == minotaur
+ say Lackeys of the filth spider queen! Attack!
+ mpkill $n
+ else
+ if name($n) == unicorn
+ pat $n
+ else
+ mpe The knight glares at $n suspiciously.
+ endif
+ endif
+ endif
+else
+say Halt, stranger, and state your business in Caer Sidi.
+poke $n
+endif
+~
+> speech_prog lolth~
+say You are enemies of that spider bitch, I assume?
+nod
+say M'lord Alfric would have words with you, $n.
+say You will find him in the tower to the north.
+~
+> fight_prog 8~
+mpe _lbl An elven knight yells '$n makes war upon us! Send help!'
+if rand(33)
+mpe An elven dog rushes through the forest to aid the knight.
+endif
+~
+> act_prog p DISARMS you!~
+if rand(33)
+mpe The knight hefts his battle axe!
+wield battle
+else
+if rand(45)
+mpe The knight grabs up his lance and charges!
+mea $n You are run through!
+mer $n $n is run through!
+mpdamage $n 200
+else
+mpe The knight draws a longsword and brandishes it!
+wield longsword
+endif
+endif
+~
+|
+#31527
+cooshee dog~
+a cooshee~
+An elf's hunting dog snarls at the intruders!
+~
+Loyal companions of the elves, these dogs are powerful hunters and
+dangerous foes in combat.
+~
+35 552 400 C
+33 0 0 1200d0+0 3d3+12
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2 2 0
+0 0 167839293 0 3072 0 1 2
+> all_greet_prog 100~
+if isnpc($n)
+mpkill $n
+endif
+~
+|
+#31528
+minotaur ~
+a minotaur~
+A mighty minotaur charges through the choked forest.
+~
+These burly, bull-headed creatures are a terrifying foe in battle, capable
+of inflicting significant damage even unarmed, due to their natural weaponry.
+Lolth has sent them here to demoralize and dismay the elves with their
+ferocious assaults.
+~
+97 552 -400 C
+43 0 0 3500d0+0 4d4+24
+22500 0
+8 8 1
+22 13 13 18 13 13 13
+0 0 0 0 0
+48 3 0 0 1 1 2
+0 0 68159103 0 1051648 0 416 3
+> all_greet_prog 100~
+if isimmort($n)
+else
+if name($n) == bugbear soldier
+grunt
+else
+mpkill $n
+endif
+endif
+~
+|
+#31529
+unicorn~
+a unicorn~
+A large muscular horse with a single horn atop its head snorts and whinnies.
+~
+Forget images of dainty, frolicking faeriekin with carefree mein, this
+mighty steed is the size of rhinocerous, and its razor sharp horn is
+coated with the blood of bugbears and minotaurs!
+~
+65 680 600 C
+40 0 -100 3300d0+0 5d5+20
+0 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2 2 0
+0 0 101779005 1064960 2105088 0 416 524291
+> all_greet_prog 100~
+if isimmort($n)
+else
+if ispc($n)
+mpe The mighty steed stamps the ground and eyes you with apprehension.
+else
+if name($n) == elven knight
+mpe The mighty beast nuzzles the elf gently.
+mpforce $n laugh
+else
+mpe The unicorn rears in anger, its hooves flashing!
+mpkill $n
+endif
+endif
+endif
+~
+|
+#31530
+duke alfric elf~
+Duke Alfric~
+A grim, sallow elven lord prepares for an offensive.
+~
+Haughty, stern and cold, this impassive elf is the ruler of this realm,
+and while a competent ruler, he is also pragmatic verging on the cruel.
+He is, however, a staunch opponent of Lolth (she is, after all, in the
+process of invading his realm) and will aid any party that seeks to do
+her harm.
+~
+3 339739304 -300 C
+47 0 0 11000d0+0 2d18+33
+1000000 0
+8 8 1
+18 18 18 18 18 18 18
+-10 -10 -10 -10 -10
+1 0 0 0 2 2 3
+0 0 1855 1049408 2104320 8192 1914703872 524291
+> act_prog p DISARMS you!~
+mpe $I's runesword glows with dark energy!
+c q $n
+c q $n
+wield alfric
+sneer $n
+~
+> fight_prog 18~
+snarl
+say Idiots! We should be banding together to dispatch the Spider Queen!
+mpe _lbl $I raises his runesword, and arcane energies are released!
+if rand(33)
+c 'frost breath'
+else
+if rand(45)
+c 'fire breath'
+else
+c 'lightning breath'
+endif
+endif
+~
+> fight_prog 100~
+mpforce meriven mpkill $n
+rescue meriven
+~
+> all_greet_prog 100~
+bow $n
+say Ah, word was sent to me of your arrival, brave $n.
+nod
+say Your arrival could not have been more fortuitous... Lolth's
+say armies press at our borders, and we are hard pressed to hold
+say them at bay. If you are intending to do the vile demoness any
+say harm, then please say so!
+~
+> speech_prog p i intend ~
+nod
+say Excellent. My resources are at your disposal. You may use the
+say chamber downstairs to safely summon or recall allies, or to
+say rest and prepare for your campaign against the demoness. If you
+say require food or water, simply say so, and it will be provided.
+say Here also is a token of Caer Sidi's appreciation.
+mpoload 31554
+give token $n
+~
+> speech_prog p i intend to do the vile demoness harm~
+nod
+say Excellent. My resources are at your disposal. You may use the
+say chamber downstairs to safely summon or recall allies, or to
+say rest and prepare for your campaign against the demoness. If you
+say require food or water, simply say so, and it will be provided.
+say Here also is a token of Caer Sidi's appreciation.
+mpoload 31554
+give token $n
+~
+|
+#31531
+meriven consort elf~
+Meriven~
+A grinning, attractive elven woman stands behind her consort.
+~
+This comely elven noble is the consort of Alfric, and holds a special
+place in both his heart and his political circles. Scheming and even
+dangerous, she is nonetheless still staunchly opposed to Lolth, as are
+all who are of this realm, for she seeks to bring ruin down upon them
+all.
+~
+7 4227752 -300 C
+44 0 -100 9000d0+0 5d8+30
+500000 0
+8 8 2
+18 18 13 18 18 22 22
+-10 -10 -10 -10 -10
+1 2 0 0 2 2 2
+0 0 2047 1049122 2100224 8192 1600 524291
+> fight_prog 25~
+wield slender
+if ispc($n)
+circle $n
+gouge
+wink
+endif
+~
+> rand_prog 100~
+wield slender
+mprestore self 50
+~
+> fight_prog 100~
+mpforce 'duke alfric elf' mpkill $n
+~
+> all_greet_prog 100~
+wink $n
+mmm
+~
+|
+#31532
+servant duke~
+the servant~
+An invisible servant awaits orders.
+~
+~
+8388611 552 0 C
+50 0 0 30000d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 2 2 0
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+mpinvis 51
+~
+> speech_prog p food~
+c 'create food'
+~
+> speech_prog p water~
+c 'create spring'
+~
+> rand_prog 10~
+if ispc($r)
+c heal $r
+c 'restore mana' $r
+endif
+~
+|
+#31533
+white dragon~
+the white wyrm~
+A mighty white scaled wyrm lies coiled in the cavern entrance, enjoying the cold.
+~
+Placed here by Lolth as an added deterrant to intruders (from either
+side of the portal...), this drake has had an easy time of it, when
+you consider only it, and frost giants, could hope to survive the long
+arduous trek across the wastelands.
+~
+39 268436008 -565 C
+45 0 -200 8700d0+0 5d5+40
+500000 0
+8 8 1
+22 13 13 14 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 2
+0 0 42272317 96 3074 1 3 524290
+> death_prog 100~
+mpoload 31555 40
+~
+|
+#31534
+wynyyn captain pirate corsair~
+Captain Wynyyn~
+A dreadlocked pirate grins at you with incredibly white teeth.
+~
+This darkskinned corsair is the captain of a vessel that sails this
+ocean world, and is opposed to Lolth's incursions into his waters.
+He is for the most part incapable of stopping her, however, without
+allies. 
+~
+3 680 400 C
+48 0 -200 11200d0+0 7d12+66
+1000000 0
+8 8 1
+18 18 13 18 13 13 19
+0 0 0 0 0
+0 3 0 0 1 1 3
+40 0 2047 1048864 2100224 0 64 2621443
+> fight_prog 21~
+gouge
+mpdamage $n 400
+mpdamage $n 400
+~
+> fight_prog 33~
+mpe $I spins rapidly, his sabres cutting through armor and flesh!
+mpdamage all 400
+~
+> fight_prog 75~
+wield sabre
+wield sabre
+lunge
+strike
+~
+> act_prog circle~
+t $n You be makin' sneak attacks on da Wynyyn, mon...
+tsk
+mea $n $i strikes you in the face with the hilt of his sabre!
+mpdamage $n 200
+~
+> rand_prog 66~
+wield sabre
+~
+> all_greet_prog 100~
+mea $n The swarthy corsair grins broadly at you.
+say Hey mon! Welcome to de island of de Wayfarer, mon!
+mpe $I points at the ship moored in the harbor.
+say This is me 'arbour, mon, and ye're welcome 'ere.
+nod
+say Don't be bringin' de Lolth down on me, mon... Danbaly heself
+say cannot save us from her...
+shake
+~
+> rand_prog 2~
+say Get your back into it, mon!
+chuckle
+~
+|
+#31535
+ixitxachitl~
+an ixitxachitl~
+A manta-like creature skims just under the surface of the water.
+~
+This evil, intelligent sea dwelling creature is extremely rare in your
+world, but apparently quite common here, in this strange realm. They
+resemble manta rays, save that their dark eyes gleam with cruel sentience,
+and they are capable of casting magic.
+~
+97 -2145385984 -500 C
+44 0 0 3200d0+0 3d3+12
+50000 0
+8 8 0
+13 13 13 22 13 13 13
+0 0 0 0 0
+81 1 0 0 1 1 2
+0 0 99385 1050914 0 0 136314889 1048850
+#31536
+lacedon ghoul corpse corsair~
+a lacedon~
+A rotting dreadlocked corpse clad in the garb of a corsair floats in the water.
+~
+Once one of the good-natured corsairs that sail these oceans, this
+hapless fellow was slain by agents of Lolth and tossed into the sea,
+where strange magicks have preserved him as an undead.
+~
+97 -2145385984 -400 C
+38 0 0 2500d0+0 5d3+15
+15000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 512 7424 0 262147 3
+> greet_prog 100~
+mpe The corpse's eyes snap open as you approach!
+~
+|
+#31537
+morkoth~
+a morkoth~
+A shadowy fiend rises from the depths in search of prey.
+~
+Evil creatures that lair in the deep, dark depths of the ocean, this
+one has been enticed to the surface by Lolth, to wreak havoc on her
+behalf preparatory to her eventual conquest of this unfortunate realm.
+~
+101 2097800 -600 C
+48 0 -100 4000d0+0 3d8+20
+125532 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 8192 8192 0
+0 0 9256 0 2082 0 1074008065 3
+#31538
+sahaugin~
+a sahaugin warrior~
+A sahaugin warrior hunts for surface-dwelling prey.
+~
+These undersea dwelling humanoids resemble fish-scaled humans with
+long teeth and claws, covered in seaweed and algae. They are evil and
+ferocious, hating all air-breathing life, and are yet another indication
+of Lolth's workings here.
+~
+97 -2145385984 0 C
+40 0 0 2800d0+0 2d4+15
+10000 0
+8 8 1
+18 13 13 18 13 13 13
+0 0 0 0 0
+81 6 0 0 65536 65536 0
+0 0 264121 16450 0 0 3 524291
+#31539
+rastafarian corsair~
+a rastafarian corsair~
+A dreadlocked corsair loads supplies on the fast ship.
+~
+This swarthy corsair is one of Wynyyn's loyal crew, and is busy preparing
+his captain's ship for another foray against the forces of Lolth. A broad
+grin creases his dark skin when you approach him, and he offers a greasy
+hand to shake.
+~
+3 512 400 C
+38 0 0 2500d0+0 4d4+12
+15000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 0 0 0 528 524291
+> rand_prog 2~
+whistle
+~
+> rand_prog 2~
+smile
+~
+|
+#31540
+black dragon~
+a black dragon~
+A small but ferocious black dragon rears back in anger!
+~
+This cruel and malicious wyrm has been placed here by Lolth, fed well
+and given treasure in return for snaring and reporting intruders to
+the Queen of Spiders. Thus far its task has been simple; Lolth's vast
+hordes have all but decimated what little resistance it encountered
+conquering this domain.
+~
+39 552 -774 C
+46 0 -66 7000d0+0 4d4+28
+575600 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 0
+0 0 8750649 2162976 2176 0 7 524291
+> death_prog 100~
+mpoload 31558
+~
+|
+#31541
+harpy~
+a harpy~
+A filthy harpy flies through the thick masses of decaying trees.
+~
+Foul creatures of Chaos, the harpies delight in slaying, maiming and
+feasting on hapless stragglers and adventurers such as yourself.
+~
+97 524808 -750 C
+44 0 -50 120d10+1800 7d7+21
+5000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+42 2 0 0 1 1 2
+0 0 296505 1050624 0 1 579 2
+#31542
+shambling mound~
+a shambling mound~
+A pile of rotting garbage and plant matter rises in the clearing.
+~
+This semi-intelligent, malevolent creature destroys any and all in its
+path. An overgrown plant, it can nevertheless inflict considerable
+damage on its victims.
+~
+97 512 -400 C
+45 0 -50 3000d1+0 4d10+10
+12500 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 65536 65536 0
+0 0 8232 3145776 3334 1 192 2
+#31543
+swamp troll~
+a swamp troll~
+A blackskinned troll covered in moss cavorts with glee.
+~
+These wild savage trolls are cousins of hill trolls, blackskinned and
+feral. Lolth has marshalled them to serve as shock troops in such foul
+regions.
+~
+101 544 -1000 C
+44 0 0 20d20+2500 3d5+30
+5000 0
+8 8 1
+20 13 13 20 13 3 3
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 262184 2097984 16 129 3 2
+#31544
+giant swamp toad~
+a giant toad~
+A giant swamp toad hops through its muddy domain.
+~
+This monstrous amphibian is twice the size of a warhorse, and thrice
+as powerful. It can bite an armored knight in twain, and squirts acid
+and swamp gas from its pores and maw.
+~
+97 512 -400 C
+42 0 -50 12d10+1750 0d0+0
+0 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 1024 1024 0
+0 0 33557565 1048656 2100480 1 961 2
+> fight_prog 20~
+if rand(50)
+c 'acid breath'
+else
+c gas
+endif
+~
+|
+#31545
+survivor halfing ~
+a survior~
+A wretched halfling is curled up in a corner on the far wall.
+~
+This unfortunate soul was captured by Lolth's armies when she attempted
+to steal from their paymaster; as punishment she was cast in here, to
+serve as food for Lolth's spiders.
+~
+7 98816 -300 C
+39 0 0 2200d0+0 1d3+8
+500 0
+8 8 2
+13 13 13 18 13 13 13
+0 0 0 0 0
+3 2 0 0 131072 131072 2
+0 0 47 0 0 0 577 524291
+#31546
+spider giant lolth chosen~
+a giant spider~
+A truly enormous spider moves rapidly through the labyrinth.
+~
+These loathsome creatures are Lolth's chosen, bred to serve her and
+those she places them under the command of. They are larger than war
+horses, and can fell even a giant with their venom.
+~
+97 98856 -600 C
+44 0 0 40d40+1000 3d4+16
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 0 0 0 65536 65536 2
+0 0 1085 3145728 3328 17 1074003969 2
+> death_prog 100~
+mpe _gre Ichor sprays the room as your final blow smashes the vile spider open!
+~
+|
+#31547
+spider giant lolth chosen phase~
+a phase spider~
+A truly enormous spider moves rapidly through the labyrinth.
+~
+These loathsome creatures are Lolth's chosen, bred to serve her and
+those she places them under the command of. They are larger than war
+horses, and can fell even a giant with their venom.
+~
+97 67207722 -600 C
+44 0 0 40d40+2000 3d4+16
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 0 0 0 65536 65536 2
+0 0 1085 3145728 3332 17 1074069505 2
+> fight_prog 20~
+mogoto $i
+mpe _whi The spider phases out of existence, reappearing behind $r!
+c 'lightning breath' $r
+~
+|
+#31548
+dwarf maldev warrior~
+a Maldevian dwarf~
+A dwarven warrior scowls suspiciously at you.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+65 512 500 C
+40 0 -100 2000d0+0 2d4+12
+50000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 2047 3165456 0 0 144 524291
+> fight_prog 20~
+wield maldevian
+scowl
+~
+> greet_prog 100~
+if ispc($n)
+ if race($n) == dwarf
+ bow $n
+ else
+ scowl $n
+ endif
+endif
+~
+|
+#31549
+dwarf maldev warrior lookout~
+a Maldevian dwarf~
+A long-bearded dwarf remains alert, on the lookout for imminent assaults.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+3 512 500 C
+40 0 -100 2000d0+0 2d4+12
+50000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 6 0 0 4 4 0
+0 0 2047 3165456 0 0 144 524291
+> rand_prog 2~
+peer
+hmm
+~
+> fight_prog 20~
+wield maldevian
+scowl
+~
+> greet_prog 100~
+if ispc($n)
+ if race($n) == dwarf
+ nod $n
+ say Well met, fellow dwarf. May the mountains bless thee.
+ else
+ frown $n
+ say What are you doing here? You'd best report to the commander.
+ endif
+endif
+~
+|
+#31550
+commander maldev~
+the Maldevian commander~
+A grizzled old dwarf sits staring at maps of the region.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+3 552 500 C
+45 0 -100 4500d0+0 2d4+12
+150000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 6 0 0 5 1 2
+0 0 2047 3165456 2048 0 144 524291
+> all_greet_prog 100~
+if isnpc($n)
+ if name($n) == dwarf maldev warrior
+ nod $n
+ mpforce $n nod
+ mpforce $n sigh
+ else
+ eye $n
+ say I'm terribly busy, and don't have time to deal with you...
+ mpforce $n s
+ endif
+else
+if ispc($n)
+ if race($n) == dwarf
+ gasp
+ say Truly, it does gladden my heart to see a cousin here; when I
+ say was informed of your arrival, I could scarce believe it. Yet
+ say your arrival is poorly timed indeed, for the hordes of Lolth
+ say appear set to defeat us all...
+ else
+ frown
+ say Stranger, you have picked a poor time to visit the dwarves...
+ say Can you not see the hordes of Lolth massed in preparation to
+ say destroy us?
+ boggle
+ endif
+endif
+endif
+~
+|
+#31551
+nalfeshnee demon general~
+Nalfeshnee~
+The demonic general of Lolth's armies on Maldev awaits your arrival.
+~
+This ancient, rotund demon is visually uninspiring, yet you know well
+that he is one of the more powerful demons of the Abyss, and as such
+serves Lolth as a general and advisor on campaigns. He is amused more
+than worried by your intrusion, and won't even bother attacking you,
+unless provoked.
+~
+7 4727464 -666 C
+45 0 -200 6000d0+0 4d4+22
+225000 0
+8 8 0
+18 18 13 18 13 3 4
+-10 -10 -10 -10 -10
+67 0 0 0 1 1 3
+0 0 67372861 1065128 11841 0 4099 1574403
+> all_greet_prog 100~
+if isnpc($n)
+growl $n
+say LEAVE ME!
+mpforce $n cringe
+mpforce $n s
+else
+chuckle
+say Well, well, well, I expected you'd come here when my messengers
+say informed me of your arrival in Maldev. 
+sneer
+say What can you possibly hope to achieve, $n? You are hopelessly
+say outnumbered, and devoid of reinforcements. I, on the other hand,
+say have an entire dimension to draw allies from, and even should you
+say slay me, Lolth will resurrect me within hours. So...
+shrug
+say You're doomed!
+cackle
+say Dear, dear me.
+mpe $I wipes away tears of laughter.
+endif
+~
+> fight_prog 33~
+c 'scorching surge' $n
+c blazebane $r
+c 'scorching surge' $r
+~
+> fight_prog 18~
+roar
+shriek
+vom $r
+~
+> rand_prog 2~
+twiddle
+hum
+~
+> rand_prog 3~
+stretch
+snarl
+say BRING ME WOMEN! BRING ME WINE!
+snort
+~
+|
+#31552
+bugbear soldier~
+a bugbear soldier~
+One of Lolth's bugbear soldiers prepares to engage the enemy.
+~
+Smelly, foul-tempered and cruel, bugbears are eight foot humanoids,
+goblinoid in nature and almost ursine in appearance. They are a crude
+race used as thugs and guards by other, more intelligent species.
+Their presence here in Caer Sidi indicates that Lolth seeks to conquer
+this world.
+~
+101 512 -700 C
+40 0 0 16d50+1200 4d4+8
+6000 0
+8 8 1
+19 13 13 13 19 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 2
+0 0 263871 0 0 0 3 524291
+> rand_prog 3~
+say FIGHT! FIGHT! FIGHT!
+grin
+~
+> rand_prog 33~
+wield morning
+~
+> fight_prog 33~
+wield morning
+~
+|
+#31553
+ogre scout~
+an ogre scout~
+A snoring ogre has fallen asleep at his post.
+~
+This lazy individual was assigned to keep an eye on enemy movements;
+a task he has failed woefully at. Nalfeshnee cares little however, the
+Maldevians are a defeated race, and he knows it.
+~
+3 512 -656 C
+42 0 0 3000d0+0 0d0+0
+12000 0
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 16 16 0
+0 0 2047 0 0 0 384 524291
+> rand_prog 2~
+snore
+~
+|
+#31554
+umber hulk~
+an umber hulk~
+An umber hulk prepares to burrow under the fortress' walls.
+~
+Umber Hulks are burrowers of unparalleled ability, and thus are used by
+Lolth as sappers, and it is in this capacity that they burrow under
+enemy fortifications, then the hordes of bugbears and ogres pour through
+the newly created breach.
+~
+35 512 -600 C
+28 0 -50 3000d0+0 5d5+30
+5000 0
+8 8 0
+22 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 2
+0 0 2360366 3150096 2048 0 1048707 2
+> rand_prog 25~
+doorbash n
+mprestore self 200
+grunt
+~
+|
+#31555
+hill giant~
+a hill giant sentry~
+A hill giant is hurling rocks at the fortress walls.
+~
+This ugly, knotty-limbed humanoid stands at around nine feet tall, and
+is the hue of freshly turned earth. A foul smell, a combination of the
+oily hides and the blood of victims that cover their hides, issues from
+the creature. A dim malevolent intelligence flickers in its dead brown
+eyes, while a cruel grin twists its toothy maw.
+~
+3 512 -400 C
+42 0 0 30d20+2000 2d8+27
+50000 0
+8 8 1
+19 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 0
+0 0 2047 0 0 0 16 1
+> rand_prog 10~
+mpe With a mighty heave, the giant sends a rock sailing at the walls.
+mpe It impacts with a terrific crash, sending chunks of rock flying!
+mpe A great cheer goes up amongst the invading horde!
+grin
+~
+|
+#31556
+bugbear soldier~
+a bugbear soldier~
+One of Lolth's bugbear soldiers prepares to engage the enemy.
+~
+Smelly, foul-tempered and cruel, bugbears are eight foot humanoids,
+goblinoid in nature and almost ursine in appearance. They are a crude
+race used as thugs and guards by other, more intelligent species.
+Their presence here in Caer Sidi indicates that Lolth seeks to conquer
+this world.
+~
+101 512 -700 C
+40 0 0 16d50+1200 4d4+8
+6000 0
+8 8 1
+19 13 13 13 19 13 13
+0 0 0 0 0
+39 3 0 0 16384 16384 2
+0 0 263871 0 0 0 3 524291
+#31557
+troll shock trooper~
+a troll shock trooper~
+Troll shock troops await deployment on the field.
+~
+These trolls are not hill trolls, as are commonly seen in and around
+Darkhaven. These rubbery-skinned, black eyed terrors with claws that
+can rip steel are dark trolls, used as guards and muscle by most
+intelligent subterranean races. To see them here does not bode well.
+Lolth has evidently transported them to her realm to serve as guards
+and henchmen.
+~
+39 552 -1000 C
+44 0 0 20d20+3300 3d5+30
+5000 0
+8 8 1
+20 13 13 20 13 3 3
+0 0 0 0 0
+8 3 0 0 64 64 0
+0 0 262184 2097984 16 129 3 2
+#31558
+red dragon ~
+a red dragon~
+A red dragon carries the battle to the skies!
+~
+This mighty wyrm serves Lolth willingly, scorching her enemies and
+inciting sheer terror in return for a share of the loot garnered.
+Capable of melting stone and charring metal with its tremendous fiery
+breath, it is truly a terrifying ally.
+~
+35 34079232 -745 C
+48 0 -100 8000d0+0 6d6+36
+500000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 -10 -10
+31 3 0 0 2048 2048 0
+0 0 8718009 16416 2099201 2 8199 2
+> rand_prog 5~
+mpe _red The dragon unleashes a terrific fiery blast on the walls!
+mpe Stone melts and crumbles beneath the tremendous heat!
+mpe _red The armies below cheer as several burning dwarves shriek and
+mpe _red leap from the battlements, falling to their deaths far below.
+mpat 31638 mpe _red A screaming, burning dwarf smashes into the hard rock!
+mpasound A dwarf smashes into the rocks nearby, burned beyond recognition.
+~
+|
+#31559
+peryton~
+a peryton~
+A winged deer fetches dwarves off the battlements.
+~
+This deer-headed beast is of chaotic magic, and is invulnerable to
+conventional attacks. It is used to fetch archers from the battlements,
+immune as it is to their arrows, which it then drops down to the hordes
+milling below.
+~
+35 524800 -500 C
+38 0 0 1800d0+0 4d2+15
+0 0
+8 8 1
+13 13 13 18 13 13 13
+0 0 0 0 0
+85 3 0 0 65536 65536 0
+0 0 1345080 0 26624 0 642 2
+> rand_prog 10~
+mpe The peryton suddenly darts low across the battlements, and snares a dwarf!
+mpe The hapless soldier wails as he is carried far above, then dropped!
+mpe The armored dwarf hurtles past you, smashing into the stone below!
+mpat 31638 mpe An armored dwarf smashes into the rocky ground near you!
+~
+> rand_prog 10~
+mpe _blu A volley of arrows strike the soaring peryton, bouncing off!
+snicker
+~
+|
+#31560
+dwarf maldev sentry~
+a Maldevian dwarf~
+A dwarven sentry tensely awaits the incursion of the hordes.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+3 512 500 C
+40 0 -100 2000d0+0 2d4+12
+50000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 2047 3165456 0 0 144 524291
+> rand_prog 33~
+wield maldevian
+~
+> fight_prog 33~
+wield maldevian
+~
+|
+#31561
+dwarf maldev crossbowman~
+a Maldevian dwarf~
+A dwarven crossbowman fires bolts at the hordes massed below.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+3 512 500 C
+40 0 -100 2000d0+0 2d4+12
+50000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 2047 3165456 0 0 144 524291
+> rand_prog 3~
+mpe The dwarf wails as a peryton suddenly swoops low over the battlements!
+~
+|
+#31562
+pegasus~
+a pegasus~
+A winged horse circles far above the battlements.
+~
+This mighty winged steed nervously awaits the aerial assault that will
+come, knowing it stands little chance against the mighty red dragon and
+its invulnerable peryton allies.
+~
+3 565896 870 C
+38 0 0 2000d0+0 2d7+39
+22500 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 512 512 0
+0 0 0 0 2560 0 32 2
+#31563
+dwarf maldev warrior~
+a Maldevian dwarf~
+A citizen of Maldev rushes about, hastily preparing a defense.
+~
+These sturdy warriors are hard-pressed indeed, their kingdom all but
+conquered by the hordes of Lolth. Only the fortress of Kandelspire
+stands, preventing the hordes from totally subjugating this region in
+the name of their fell Queen.
+~
+65 512 500 C
+40 0 -100 2000d0+0 2d4+12
+50000 0
+8 8 1
+18 13 13 13 18 13 13
+0 0 0 0 0
+2 3 0 0 4 4 0
+0 0 2047 3165456 0 0 144 524291
+#31564
+vlad tolenkov vampire~
+Vlad Tolenkov~
+A nightmarish figure creeps forth from the shadowy demesne...
+~
+New lieutenant of Lolth, Vlad has been charged with recruiting undead
+in this nightmarish world he reigns over, to reinforce her hordes in
+other campaigns. He is a horribly disfigured being, utterly vile and
+corrupt, and seeks to destroy all life he encounters.
+~
+35 340271784 -1000 C
+52 0 -200 16000d0+0 50d50+50
+1000000 0
+8 8 1
+20 18 13 20 13 13 13
+-9 -9 -9 -9 -9
+67 4 0 0 1 1 3
+0 0 262192 1056776 2105094 0 1109397504 3
+> all_greet_prog 100~
+snicker
+t $n Welcome, $n... to your worst nightmare!
+cackle
+~
+> fight_prog 20~
+c feebleness $r
+grasp $r
+~
+> fight_prog 12~
+mpgoto $i
+vom $r
+c chill $r
+~
+> fight_prog 45~
+feed
+mpdamage $n 400
+mpdamage $n 400
+~
+> death_prog 33~
+mpjunk embrace
+~
+|
+#31565
+ghoul~
+a cadaverous ghoul~
+A cadaverous ghoul lies at rest in torpor.
+~
+Animated by Vlad from the remains of those he feeds upon, these ghouls
+remain in torpor, awaiting the call of their ruler. Your arrival has
+prematurely stirred them, however, and now they will wander in search
+of meat!
+~
+101 552 -666 C
+38 0 0 20d200+1000 4d6+12
+0 0
+8 8 0
+13 13 13 22 13 13 13
+0 0 0 0 0
+36 2 0 0 65536 65536 0
+0 0 263871 576 7426 1 262147 2
+#31566
+huge pedipalp amblypygi~
+an amblypygi~
+A bulky whip scorpion lumbers along the corridor.
+~
+Known as whip scorpions, all pedipalp resemble a cross between a spider
+and a scorpion, and possess both the attacks and attributes of each
+species. 
+ 
+The Amblypygi are larger than the Schizomidae, and considerably heavier.
+~
+101 33312 0 C
+38 0 0 2000d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262272 2
+#31567
+solifugid huge camel spider~
+a huge solifugid~
+A massive camel spider scurries rapidly along the ceiling.
+~
+False spiders are rarely encountered, save of course in this realm of
+the Queen of Spiders herself.
+~
+101 33288 0 C
+38 0 0 1800d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36 0 2048 0 128 2
+#31568
+huge scorpion~
+a huge scorpion~
+A massive scorpion drips acidic venom on the floor.
+~
+This horror is one of the many insectoid 'pets' kept by Lolth, and left
+to wander her web as they will.
+~
+101 33312 0 C
+38 0 0 1800d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262152 2
+#31569
+huge spider~
+a huge spider~
+A monstrous, hairy spider spins a web as it travels the abyss.
+~
+Of all insects, arachnids are the most beloved of Lolth, and as such
+are themselves worshipped by the depraved drow, as avatars of their
+dark deity. The spiders here are larger and more savage than any
+encountered on your home plane, however...
+~
+101 33312 -500 C
+38 0 0 1800d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262145 2
+#31570
+giant pedipalp uropygi~
+a uropygi~
+A pedipalp larger than a warhorse moves rapidly along the corridor.
+~
+Known as whip scorpions, all pedipalp resemble a cross between a spider
+and a scorpion, and possess both the attacks and attributes of each
+species. 
+ 
+The Uropygi are the largest of the species.
+~
+101 33312 0 C
+41 0 0 2400d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262403 2
+#31571
+solifugid giant sun spider~
+a giant solifugid~
+A massive camel spider scurries rapidly along the ceiling.
+~
+False spiders are rarely encountered, save of course in this realm of
+the Queen of Spiders herself.
+~
+101 33288 0 C
+41 0 0 2400d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 36 0 2048 0 385 2
+#31572
+giant scorpion~
+a giant scorpion~
+A monstrous scorpion gouges the floor with its tread.
+~
+This horror is one of the many insectoid 'pets' kept by Lolth, and left
+to wander her web as they will.
+~
+101 33312 0 C
+41 0 0 2400d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262152 2
+#31573
+giant spider~
+a huge spider~
+A giant spider moves with horrifying speed across the floor.
+~
+Of all insects, arachnids are the most beloved of Lolth, and as such
+are themselves worshipped by the depraved drow, as avatars of their
+dark deity. The spiders here are larger and more savage than any
+encountered on your home plane, however...
+~
+101 33448 -500 C
+41 0 0 2400d0+0 3d3+9
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 0
+0 0 65572 0 2048 0 262145 2
+#31574
+bone colossus~
+the bone colossus~
+The mighty bone colossus, fearsome servant of Lolth, rises from the ground!
+~
+Indestructible entity created by Lolth, this gargantuan creature can
+devastate foes with its corrosive, poisonous breath, if not with its
+mighty blows from a club seventeen feet long.
+~
+35 4203176 0 C
+55 0 -300 11800d0+0 7d29+80
+0 0
+8 8 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+40 3 0 0 1 1 0
+0 0 0 197 3149098 16 848 524291
+> rand_prog 100~
+wield club
+mprestore self 1000
+~
+> act_prog p DISARMS you!~
+wield colossus
+~
+> death_prog 100~
+mpjunk colossus
+if rand(10)
+mpoload 31570 50
+endif
+~
+|
+#31575
+trinax cleric~
+Trinax~
+A devout human cleric sits in the cell, meditating.
+~
+Captured by Lolth whilst quested by some divine being, Trinax will 
+disclose little of his past or his quest, though he is grateful to
+you for slaying the colossus. 
+~
+3 4203176 1000 C
+50 0 -300 8000d0+0 3d8+76
+0 0
+8 8 1
+16 13 18 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 3
+0 0 2047 0 2048 0 236978176 4294
+> rand_prog 2~
+yoga
+~
+> all_greet_prog 100~
+if ispc($n)
+mpe $I smiles and rises to his feet as you enter.
+say Well met, $n. My thanks for slaying the colossus.
+bow $n
+c bless $n
+smile
+say If you wish to rest a while, I shall tend your wounds.
+endif
+~
+> rand_prog 33~
+if ispc($r)
+c heal $r
+c 'restore magic' $r
+endif
+~
+> fight_prog 33~
+c unravel
+c 'faerie fire'
+c blindness
+~
+> fight_prog 18~
+c harm 
+c heal
+~
+|
+#0
+
+
+#OBJECTS
+#31500
+embrace unholy lolth~
+Lolth's unholy embrace~
+You feel a strange presence invading your mind...~
+~
+9 532 1025 16
+18 0 0 0
+1 150000 15000
+A
+17 -20
+A
+13 100
+A
+12 100
+A
+18 9
+A
+19 9
+A
+24 -10
+A
+23 -10
+A
+26 32774
+#31501
+umbrageous influence~
+umbrageous influence~
+A malign presence threatens to overcome you...~
+~
+9 532 17
+12 0 0 0
+1 50000 5000
+A
+3 3
+A
+4 3
+A
+12 125
+A
+18 5
+A
+19 5
+A
+27 1048576
+#31502
+bauble arachnid~
+arachnid bauble~
+A simple token of arachnia is caught in thick webbing.~
+~
+9 532 65537
+7 0 0 0
+1 17500 1750
+A
+2 2
+A
+31 2
+A
+13 45
+A
+18 4
+A
+19 4
+#31503
+essence yochlol~
+Essence of the Yochlol~
+The substance from which Lolth's handmaidens are formed coalesces here.~
+~
+9 0 9
+17 0 0 0
+12 175600 17560
+A
+17 -30
+A
+13 100
+A
+12 100
+A
+18 7
+A
+19 7
+A
+23 -5
+A
+24 -3
+A
+27 16516
+#31504
+plate mail~
+plate mail~
+A suit of stained and battered plate mail lies here.~
+~
+9 17351680 9
+12 18 0 0
+18 40000 4000
+A
+17 -20
+A
+4 2
+A
+12 65
+A
+13 35
+A
+18 4
+A
+19 6
+A
+24 -3
+#31505
+wolfsbane mace~
+Wolfsbane~
+A shining silver mace glows with an intrinsic light.~
+~
+5 8424768 8193
+0 0 0 8
+10 157600 15760
+A
+1 1
+A
+13 50
+A
+12 105
+A
+18 8
+A
+19 8
+A
+26 4
+A
+26 8192
+A
+56 3
+> wear_prog 100~
+if isgood($n)
+mea $n _whi Wolfsbane shines brightly, in appreciation of your purity.
+mer $n _whi Wolfsbane shines brightly, in appreciation of $n's purity.
+endif
+~
+> remove_prog 100~
+mpe _whi The glow infusing Wolfsbane fades to a dim lustre.
+~
+> damage_prog 100~
+mpe _whi Brilliant energy pours from the damaged mace!
+c bless $r
+~
+> repair_prog 100~
+mpe _whi The mace gleams with new vigor!
+c bless $r
+~
+|
+#31506
+scroll trose vellum~
+Trose's scroll~
+A shining white piece of vellum lies on the floor.~
+~
+2 320 1
+41 61 61 61
+1 5000 500
+#31507
+great axe~
+a great axe~
+A mighty axe of polished adamantium lies on the ground.~
+~
+5 64 8193
+0 0 0 0
+30 50000 5000
+A
+18 8
+A
+19 8
+#31508
+wooden club~
+a wooden club~
+A large wooden club pierced with iron nails gouges the floor.~
+~
+5 262144 8193
+0 0 0 8
+10 50 5
+A
+19 4
+#31509
+wooden mallet~
+a wooden mallet~
+A heavy wooden mallet has been dropped here.~
+~
+5 262144 8193
+0 0 0 7
+10 150 15
+A
+19 4
+A
+18 1
+#31510
+lever~
+a metal lever~
+A heavy metal lever is set in the far wall.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mea $n _blu The air around you crackles with electricity...
+mptrans $n 31529
+~
+> pull_prog 100~
+mea $n _blu The air around you crackles with electricity...
+mptrans $n 31529
+~
+|
+#31511
+adamantium short sword~
+an adamantium short sword~
+A drow short sword forged from black metal hums quietly.~
+~
+5 524358 8193
+0 0 0 2
+4 15000 1500
+E
+adamantium sword short~
+This weapon is incredibly sharp, and virtually unbreakable, crafted as
+it is from adamantium by skilled drow smiths.
+~
+A
+2 2
+A
+18 6
+A
+19 4
+A
+24 -2
+#31512
+adamantium mace~
+an adamantium mace~
+A drow mace forged from black metal hums quietly.~
+~
+5 524358 8193
+0 0 0 7
+4 15000 1500
+A
+18 6
+A
+19 4
+A
+24 -2
+#31513
+adamantium chain armor erelda~
+the armor of Erelda~
+A suit of magically enchanted drow mail hums with dark magics.~
+~
+9 623170 9
+30 0 0 0
+10 250000 25000
+E
+adamantium chain~
+This chain is forged from adamantite and is almost weightless, despite
+offering protection equivalent to heavy plate.
+~
+A
+17 -30
+A
+13 50
+A
+12 50
+A
+18 6
+A
+19 6
+A
+14 50
+A
+22 -2
+A
+23 -2
+#31514
+brooch house everhate silver crossed daggers~
+the brooch of House Everhate~
+A tiny pair of crossed silver daggers lies on the ground.~
+~
+9 20 5
+3 0 0 0
+1 175000 17500
+E
+brooch drow~
+The runes on this brooch mark the wearer as a member of the indicated
+house. Priests and other women wear more ornate brooches than the less
+important males.
+~
+A
+12 100
+#31515
+hand crossbow~
+a hand crossbow~
+This tiny crossbow fires poisoned darts at its target.~
+~
+3 20 16385
+40 9 9 33
+1 17500 1750
+E
+hand crossbow ~
+These missile weapons do little damage in the conventional sense, but
+if they manage to break the skin their bolts inject potent venoms,
+that can cause madness, sickness or worse.
+~
+A
+18 5
+#31516
+ring antivenom~
+a ring of antivenom~
+A plain black ring rolls about on the floor.~
+~
+9 524884 3
+6 0 0 0
+1 15000 1500
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 2
+A
+27 256
+A
+20 -10
+#31517
+favor lolth~
+a favor of Lolth~
+A blackened scrap of cloth serves as a crude kerchief.~
+~
+1 2581 1
+0 0 100 0
+1 5000 500
+A
+13 45
+A
+12 65
+A
+18 4
+A
+19 4
+A
+24 -3
+#31518
+amulet deflection~
+the amulet of deflection~
+A jagged piece of glass dangles from a silver chain.~
+~
+9 524385 5
+17 0 0 0
+3 15600 1560
+A
+17 -20
+A
+13 10
+A
+12 60
+A
+18 3
+A
+19 3
+A
+27 32
+#31519
+crystal shard~
+a crystal shard~
+A long, jagged chunk of crystal lies on the ground.~
+~
+5 513 8193
+0 0 0 11
+10 15600 1560
+A
+13 80
+A
+18 10
+A
+19 9
+A
+24 -3
+A
+21 -3
+#31520
+white robes faith~
+robes of faith~
+A pile of white cloth covers the floor.~
+~
+9 8751360 1025
+11 0 0 0
+4 1500 150
+A
+12 60
+A
+13 20
+A
+18 4
+A
+19 4
+A
+22 -3
+A
+20 -3
+#31521
+gold pectoral~
+a gold pectoral~
+A rectangular piece of gold set with gems glitters in the light.~
+~
+9 9011714 5
+9 0 0 0
+12 5000 500
+A
+2 -1
+A
+5 1
+A
+13 15
+A
+12 35
+A
+19 4
+#31522
+ornate javelin~
+an ornately wrought javelin~
+A javelin of ancient design is propped up against a wall.~
+~
+5 524820 8193
+0 0 0 2
+8 15760 1576
+A
+18 6
+A
+19 6
+#31523
+boots speed~
+boots of speed~
+A pair of tough leather boots tremble with magical energy.~
+~
+9 64 65
+6 0 0 0
+1 50000 5000
+A
+2 3
+A
+14 225
+A
+18 5
+#31524
+altar~
+an altar~
+A large white altar rests in the center of the room.~
+~
+12 256 0
+0 0 0 0
+1 0 0
+E
+altar~
+Peering closely, you see a layer of filth encrusted on the altar...
+~
+#31525
+unholy armor lolth~
+Unholy armor of Lolth~
+This adamantium plate seethes with malignant energies.~
+~
+9 2644 9
+22 0 0 0
+10 500000 50000
+A
+17 -30
+A
+13 50
+A
+12 50
+A
+18 6
+A
+19 6
+A
+24 -4
+A
+23 -4
+#31526
+unholy shield lolth~
+Unholy shield of Lolth~
+A blackened metal shield seethes with malignant energies.~
+~
+9 2644 513
+12 0 0 0
+5 250000 25000
+A
+17 -20
+A
+13 25
+A
+12 25
+A
+18 3
+A
+19 3
+A
+22 -3
+A
+21 -3
+#31527
+ring protection~
+ring of protection~
+An ensorcelled band of pure adamantium catches your eye.~
+~
+9 524352 3
+10 0 0 0
+1 5000 500
+A
+17 -10
+A
+21 -1
+A
+23 -1
+A
+24 -1
+A
+22 -1
+A
+20 -1
+> wear_prog 3~
+c shield $n
+c armor $n
+~
+|
+#31528
+death lance~
+a death lance~
+A shimmering black beam of negative energy shimmers into view.~
+~
+5 2640 8193
+6 0 0 6
+5 56000 5600
+A
+18 4
+A
+19 4
+A
+30 25
+#31529
+blade adamantite~
+adamantite blade~
+A drow short sword forged from black metal hums quietly.~
+~
+5 524870 8193
+0 0 0 2
+4 15000 1500
+E
+adamantium sword short~
+This weapon is incredibly sharp, and virtually unbreakable, crafted as
+it is from adamantium by skilled drow smiths.
+~
+A
+12 75
+A
+13 25
+A
+18 8
+A
+19 8
+A
+27 1048576
+#31530
+bag holding~
+bag of holding~
+A small leather bag lies innocuously on the ground.~
+~
+15 64 1
+100 5 -1 0
+1 15000 1500
+#31531
+darkmace ~
+Darkmace~
+A blackened steel mace pulses with otherworldly energy.~
+~
+5 17402454 8193
+0 0 0 6
+18 157600 15760
+A
+1 1
+A
+13 75
+A
+12 125
+A
+18 10
+A
+19 10
+A
+24 -7
+A
+27 514
+#31532
+scorched vial~
+scorched vial~
+A scorched vial of dark liquid slowly leaks onto the floor.~
+~
+10 86 1
+40 29 215 224
+2 15000 1500
+#31533
+wings flying~
+Wings of flying~
+A pair of twisted, batlike wings lie crumpled in a heap.~
+~
+9 64 1025
+10 0 0 0
+8 15000 1500
+A
+26 524288
+A
+2 2
+A
+14 175
+A
+18 6
+A
+19 6
+A
+13 66
+#31534
+wand frost black baton~
+wand of frost~
+This black baton is cool to the touch.~
+~
+3 65 16385
+40 7 7 202
+1 15000 1500
+A
+27 2
+#31535
+visage hate~
+visage of hate~
+Your heart is filled with hatred...~
+~
+9 2580 131073
+9 0 0 0
+5 0 0
+E
+visage hate~
+Your soul feels tainted as you gaze deeply into the monstrous visions
+that appear before you. It would be a noble deed indeed to damn this
+infernal visage to the Gods; perhaps you may even liberate the beauty
+besieged by hatred?
+~
+A
+25 -2
+A
+1 1
+A
+13 60
+A
+18 4
+A
+19 4
+> wear_prog 100~
+if isevil($n)
+mea $n _red Your features twist and you snarl as hated consumes you.
+mer $n _red $n's features twist into a mask of hatred!
+mpforc $n snarl
+endif
+~
+> remove_prog 100~
+if isevil($n)
+mea $n A certain serenity returns to you, restoring your twisted face.
+mer $n $n is suddenly rid of the dark humor.
+endif
+~
+> sac_prog 33~
+mpe _whi The room is suddenly bathed in a sweet, seductive scent...
+mpoload 31537 50
+drop seductive
+~
+|
+#31537
+seductive demeanour~
+seductive demeanour~
+You look long into the eyes of lust...~
+~
+9 66625 131073
+11 0 0 0
+5 0 0
+A
+25 3
+A
+31 2
+A
+13 25
+A
+12 75
+A
+18 3
+A
+19 3
+A
+24 -4
+A
+27 2048
+> wear_prog 100~
+if isevil($n)
+else
+mea $n _whi You smile beguilingly as you adopt the demeanour.
+mer $n _whi $n suddenly appears incredibly, incredibly attractive!
+c 'elven beauty' $n
+endif
+~
+> remove_prog 100~
+mea $n It is with disappointment that you return to your senses.
+mer $n $n's beauty suddenly diminishes.
+~
+> damage_prog 100~
+mpe _red $n's beauty appears disfigured by the blow!
+~
+> repair_prog 100~
+mpe _whi The room is bathed in a sweet, sensual scent.
+~
+> zap_prog 100~
+mea $n You cannot appreciate the beauty of love!
+~
+|
+#31538
+blood stream~
+a stream of blood~
+A stream of blood flows to the north.~
+~
+27 0 0
+0 0 0 0
+1 0 0
+#31539
+witchslayer rapier~
+Witchslayer~
+A shining steel rapier gleams in its own aura.~
+~
+5 562580800 8193
+0 0 0 11
+1 57500 5750
+A
+13 100
+A
+12 100
+A
+18 10
+A
+19 10
+A
+26 8196
+A
+27 1048576
+#31540
+flaming pit~
+the flaming pit~
+A blazing fire in the pit licks hungrily at nearby flammable substances.~
+~
+34 0 0
+0 0 0 0
+1 0 0
+#31541
+lance elven long~
+an elven long lance~
+A wooden pole 18' long, edged with bronze, is thrust into the dirt.~
+~
+5 1600 8193
+0 0 0 6
+20 15000 1500
+A
+1 1
+A
+13 45
+A
+18 4
+A
+19 9
+A
+27 512
+#31542
+battle axe~
+a battle axe~
+A bronze battle axe lies discarded here.~
+~
+5 525888 8193
+0 0 0 1
+20 15600 1560
+A
+18 8
+A
+19 8
+#31543
+elven longsword~
+an elven longsword~
+A gleaming blade of a strange metal alloy catches the light.~
+~
+5 525889 8193
+0 0 0 3
+20 15600 1560
+A
+2 2
+A
+12 75
+A
+18 7
+A
+19 7
+#31544
+field plate~
+field plate~
+A heavy suit of ornate plate is laid out on the ground.~
+~
+9 525888 9
+15 0 0 0
+40 15600 1560
+A
+17 -30
+A
+13 60
+A
+18 6
+A
+19 5
+A
+24 -3
+A
+22 -3
+#31545
+kite shield~
+kite shield~
+A heavy bronze shield lies on the ground.~
+~
+9 525888 513
+11 0 0 0
+12 15600 1560
+A
+17 -20
+A
+23 -6
+A
+21 -6
+A
+27 96
+#31546
+runesword alfric~
+the runesword of Alfric~
+A bronze longsword covered in runes casts a dark light.~
+~
+5 525888 8193
+0 0 0 6
+1 500000 50000
+A
+17 -10
+A
+13 65
+A
+12 99
+A
+18 12
+A
+19 11
+A
+24 -5
+A
+26 8
+A
+27 8192
+#31547
+ensorcelled bronze plate~
+ensorcelled bronze plate~
+This ancient bronze plate is suffused with arcane energies.~
+~
+9 525888 9
+18 0 0 0
+12 15600 1560
+A
+17 -40
+A
+13 50
+A
+12 50
+A
+18 7
+A
+19 7
+A
+22 -4
+A
+20 -4
+#31548
+ensorcelled bronze shield~
+ensorcelled bronze shield~
+A bronze shield covered in arcane glyphs catches your eye.~
+~
+9 525888 513
+17 0 0 0
+10 15600 1560
+A
+17 -20
+A
+13 50
+A
+18 4
+A
+19 7
+A
+27 16514
+#31549
+signet caer sidi~
+the signet of Caer Sidi~
+An ensorcelled band of bronze rolls around on the floor.~
+~
+9 524352 3
+10 0 0 0
+1 5000 500
+A
+17 -12
+A
+23 -3
+A
+13 20
+A
+12 20
+A
+18 4
+A
+19 2
+#31550
+wand magic missiles~
+wand of magic missiles~
+A slender wand of bronze lies here.~
+~
+3 525888 16385
+50 30 30 32
+2 7560 756
+#31551
+slender bronze dagger~
+a slender bronze dagger~
+A slender dagger of bronze graces the floor.~
+~
+5 525888 8193
+0 0 0 11
+1 15600 1560
+A
+18 10
+A
+13 50
+A
+19 7
+#31552
+elven cloak~
+elven cloak~
+A drab brown cloak covered in leaves has been tossed aside.~
+~
+9 1632 5
+7 0 0 0
+1 5000 500
+A
+2 1
+A
+17 -12
+A
+18 3
+A
+19 3
+A
+26 65536
+#31553
+brass bracer~
+brass bracer~
+A narrow brass bracer has been dropped here.~
+~
+9 525888 4097
+11 8 0 0
+1 15600 1560
+A
+2 1
+A
+17 -10
+A
+13 10
+A
+12 10
+A
+18 3
+A
+19 3
+#31554
+token caer sidi~
+token of Caer Sidi~
+A simple signet has been dropped here.~
+~
+1 65 1
+0 0 -1 0
+1 0 0
+A
+13 20
+A
+12 20
+A
+18 2
+A
+19 2
+#31555
+ring warmth~
+ring of warmth~
+A glowing band of brown metal radiates intense heat.~
+~
+9 524353 3
+9 0 0 0
+2 56000 5600
+A
+27 2
+A
+13 20
+A
+18 2
+A
+19 3
+#31556
+sabre corsair~
+the corsair's sabre~
+A shining steel blade stained with gore gleams brightly.~
+~
+5 17450048 8193
+0 0 0 1
+5 75000 7500
+A
+13 100
+A
+18 10
+A
+19 8
+A
+24 -3
+A
+23 -3
+A
+26 8912904
+#31557
+sleeves corsair~
+sleeves of the corsair~
+Some god dropped a newly created sleeves corsair here.~
+~
+9 25314304 257
+11 9 0 0
+3 15000 1500
+A
+17 -20
+A
+13 30
+A
+18 3
+A
+19 5
+A
+40 10
+#31558
+ring symbol lolth favor~
+symbol of Lolth's favor~
+A blackened ring covered in silvery spiderwebs lies here.~
+~
+9 524886 3
+8 0 0 0
+3 250000 25000
+A
+18 3
+A
+19 3
+A
+27 256
+#31559
+bone dagger~
+a bone dagger~
+A jagged dagger crafted from a human bone lies here.~
+~
+5 262144 8193
+5 0 0 2
+2 10 1
+A
+19 3
+#31560
+mithril chain shirt~
+a mithril chain shirt~
+A shirt of mithril chain catches and reflects the light.~
+~
+9 25723968 9
+9 0 0 0
+5 50000 5000
+A
+17 -20
+A
+13 30
+A
+12 30
+A
+18 4
+A
+19 4
+A
+24 -2
+#31561
+maldevian axe battle dwarven~
+a maldevian battle axe~
+An axe forged from an unknown alloy rests here.~
+~
+5 8946752 8193
+0 0 0 1
+10 25600 2560
+A
+1 3
+A
+19 7
+#31562
+pentacle fiery~
+fiery pentacle~
+A fiery pentacle of iron hangs from a metal chain.~
+~
+9 8489555 5
+11 0 0 0
+21 157500 15750
+A
+13 30
+A
+12 60
+A
+18 3
+A
+19 3
+A
+27 1
+#31563
+grasp hellish~
+hellish grasp~
+A flaming claw scorches the ground in a wide arc.~
+~
+9 9013843 129
+11 7 0 0
+18 75000 7500
+A
+1 -1
+A
+3 2
+A
+12 50
+A
+19 5
+#31564
+adamantite morning star~
+an adamantite morning star~
+The entirety of this morning star is crafted from pure adamantium.~
+~
+5 541264 8193
+0 0 0 7
+12 50000 5000
+A
+18 2
+A
+19 4
+#31565
+ring mail jack~
+a ring mail jack~
+A heavy ring mail jack lies on the floor.~
+~
+9 524288 9
+9 0 0 0
+30 2000 200
+A
+17 -30
+A
+13 25
+#31566
+dwarven crossbow~
+a dwarven crossbow~
+A heavy crossbow lies cocked and loaded here.~
+~
+5 0 8193
+0 0 0 6
+10 500 50
+A
+19 3
+#31567
+catapult~
+a catapult~
+A dwarven steam catapult lobs rocks into the advancing army.~
+~
+37 0 0
+0 0 0 0
+1 0 0
+E
+catapult~
+A complex construct of gears and levers of wood and metal, it looks
+terribly complicated and quite unstable. 
+~
+> push_prog 100~
+mea $n The catapult fires, hurling you high into the air!
+mer $n The catapult fires, hurling $n high into the air!
+mea $n You soar far above, past dragon and pegasus, then plummet downwards!
+mea $n _red Screaming, you smash into the ground, far away!
+mptrans $n 31635
+mpat 0.$n mea 0.$n _red Bones snap as you collide with the rocky ground.
+mpat 0.$n mer 0.$n _red $n screams as $e hurtles down from the skies!
+mpat 0.$n mpdamage 0.$n 600
+~
+> pull_prog 100~
+mea $n The catapult fires, hurling you high into the air!
+mer $n The catapult fires, hurling $n high into the air!
+mea $n You soar far above, past dragon and pegasus, then plummet downwards!
+mea $n _red Screaming, you smash into the ground, far away!
+mptrans $n 31635
+mpat 0.$n mea 0.$n _red Bones snap as you collide with the rocky ground.
+mpat 0.$n mer 0.$n _red $n screams as $e hurtles down from the skies!
+mpat 0.$n mpdamage 0.$n 600
+~
+|
+#31568
+death's cold embrace~
+Death's Cold Embrace~
+Are you ready to slip into the embrace of Death...?~
+~
+9 17023028 1025
+30 13 0 0
+8 0 0
+A
+2 2
+A
+13 125
+A
+18 5
+A
+19 7
+A
+23 -3
+A
+27 514
+#31569
+bone club colossus~
+the bone club of the colossus~
+A mighty bone club stretches seventeen feet across the groud.~
+~
+5 16 8193
+0 0 0 6
+1 0 0
+#31570
+bone club colossus~
+the bone club of the colossus~
+A bone club covered in dark glyphs hovers above the ground.~
+~
+5 16 8193
+0 0 0 6
+55 15000 1500
+A
+1 2
+A
+2 -1
+A
+13 150
+A
+18 8
+A
+19 8
+A
+24 -3
+A
+22 -1
+A
+27 40
+> wear_prog 100~
+mea $n Your muscles strain as you heft the mighty weapon.
+mer $n $n's muscles strain as $e hefts the mighty weapon.
+~
+|
+#31571
+pendant truth~
+the pendant of truth~
+A shining silver pendant shimmers into view.~
+~
+9 25283937 5
+14 0 0 0
+12 150000 15000
+A
+4 2
+A
+13 25
+A
+12 75
+A
+18 4
+A
+19 3
+A
+26 8388644
+A
+56 106
+#0
+
+
+#ROOMS
+#31500
+Floating Through Chaos~
+Floating, falling, with nothing to break the bleak void, nothing to
+focus on to alleviate the nausea hurtling through nothingness is
+causing. After a while, your fall begins to slow in velocity, and you
+see a tiny pinprick of light in the void, rapidly growing larger as
+you near it. Eventually you land with a soft bump on what appears to
+be a plain stone platform, the only feature in this realm of pure
+nothingness, your only bearing (and a welcome one it is!). The light
+is apparently a portal, of sorts, opening onto, to your surprise, a
+rather plain stone corridor...
+~
+0 3153933 0
+D2
+~
+~
+0 -1 31501
+S
+#31501
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31518
+D7
+~
+~
+0 -1 31502
+S
+#31502
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31501
+D9
+~
+~
+0 -1 31503
+S
+#31503
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31502
+D7
+~
+~
+0 -1 31504
+D9
+~
+~
+0 -1 31506
+S
+#31504
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31503
+D9
+~
+~
+0 -1 31505
+S
+#31505
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+ 
+A sturdy oaken portal floats in the fog to the northwest.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31504
+D7
+~
+~
+1027 -1 31526
+S
+#31506
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+ 
+A sturdy oaken portal floats in the fog to the west.
+~
+0 3153929 0
+D3
+~
+~
+1027 -1 31524
+D6
+~
+~
+0 -1 31503
+D8
+~
+~
+0 -1 31507
+S
+#31507
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31506
+D8
+~
+~
+0 -1 31510
+D9
+~
+~
+0 -1 31508
+S
+#31508
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31507
+D7
+~
+~
+0 -1 31509
+S
+#31509
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31508
+S
+#31510
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31511
+D7
+~
+~
+0 -1 31507
+S
+#31511
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31512
+D9
+~
+~
+0 -1 31510
+S
+#31512
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31513
+D7
+~
+~
+0 -1 31511
+S
+#31513
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+ 
+A sturdy oaken portal floats in the fog to the northwest.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31516
+D7
+~
+~
+1027 -1 31521
+D8
+~
+~
+0 -1 31514
+D9
+~
+~
+0 -1 31512
+S
+#31514
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31515
+D7
+~
+~
+0 -1 31513
+S
+#31515
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D9
+~
+~
+0 -1 31514
+S
+#31516
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31517
+D9
+~
+~
+0 -1 31513
+S
+#31517
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31519
+D7
+~
+~
+0 -1 31518
+D8
+~
+~
+0 -1 31516
+S
+#31518
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31517
+D9
+~
+~
+0 -1 31501
+S
+#31519
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+ 
+A sturdy oaken portal floats in the fog to the north.
+~
+0 3153929 0
+D0
+~
+~
+1027 -1 31522
+D8
+~
+~
+0 -1 31520
+D9
+~
+~
+0 -1 31517
+S
+#31520
+The Web~
+A floor of polished stone stretches as far as you can see, twisting and
+turning as it cuts through a dense wall of fog, the immediate area that
+surrounds the floor the only area devoid of this substance. A repulsive
+stench issues forth from the substance, while the floor underfoot seems
+to shift in discomfort as you tread 'pon it...
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31519
+S
+#31521
+Den of Offal~
+Piles of rotting, rancid garbage, of assorted and foul origin, catches
+both your eyes and nose as you hurl the wooden portal open; peering
+closely you half-imagine you can see something moving about in the
+refuse; surely not?
+~
+0 3153929 0
+D8
+~
+~
+1027 -1 31513
+S
+#31522
+The Stronghold of Trose~
+This small chamber boasts a simple cot bed, a pile of broken furniture
+and several holy symbols, nailed to the bare walls. A large cage fills
+the eastern section of the room, and within it you can see several
+feeble humans, crawling weakly about and begging for mercy. A foul,
+but bearable, odor emanates from these wretches, and also from the rather
+dishevelled and unwashed individual who inhabits this cubicle.
+~
+0 3153928 0 0 0 4
+D1
+~
+~
+7 -1 31523
+D2
+~
+~
+1027 -1 31519
+S
+#31523
+Cage of Chaos~
+Stained straw is scattered across the broken, uneven stone floor of
+this cell, which serves as home to those unfortunates imprisoned 
+within the sturdy iron bars. The air is rich with the unpleasant and
+pervasive aroma of sweat, urine and faeces, and is almost (but not
+quite) as unpleasant as a troll warren. 
+~
+0 3153929 0 0 0 8
+D3
+~
+~
+7 -1 31522
+S
+#31524
+A Barracks ~
+This long hall is lit, apparently by magical means, sufficiently to
+allow you to see to the far end, and as far as you can determine it
+appears to be a barracks, for humanoid creatures that rest in the
+beds that line each side of the hall. Long tables laden with barely
+palatable food line the center of the hall, while a seperate table at
+the far end serves as mess for the officers of this lot. Lolth seems
+to maintain a variety of base and fell creatures as henchmen...
+~
+0 1 0
+D1
+~
+~
+1027 -1 31506
+D3
+~
+~
+0 -1 31525
+S
+#31525
+Masters of the Gnolls~
+The end of the barracks boasts a table with three large chairs, large
+enough to seat a troll or ogre, though the nature of the officers is
+something else entirely, though equally in keeping with the vile and
+chaotic troops quartered to the east. A half-devoured halfling carcass
+has been tossed into one corner, evidently not to the diners' taste.
+Halfing meat is notoriously succulent, at least to most carniverous
+humanoids.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 31524
+S
+#31526
+Sepulchre of the Damned~
+The floor of this chamber is of soft earth, in stark contrast to the
+stony floor of the fog-shrouded corridors outside. Writhing, whitish
+masses crawl through the dark soil, some thrusting suddenly up between
+your feet, probing forwards like the groping tentacles of some malign
+entity. A narrow, crumbling stone ledge runs around the edge of this
+unholy place, harbor of the fell master of this dark domain.
+~
+0 3153929 0
+D8
+~
+~
+1027 -1 31505
+> rand_prog 100~
+if ispc($r)
+mea $r _lbl Your ears ring as you are blinded by a flash of bluish light!
+mptrans $r 31527
+endif
+~
+|
+S
+#31527
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D9
+~
+~
+0 -1 31528
+S
+#31528
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31527
+D9
+~
+~
+0 -1 31542
+S
+#31529
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+ 
+A single wooden door lies to the southwest.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31542
+D8
+~
+~
+0 -1 31530
+D9
+~
+~
+1027 -1 31543
+S
+#31530
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31529
+S
+#31531
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31532
+D8
+~
+~
+0 -1 31542
+S
+#31532
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+ 
+A black door umbrages the crimson vista to the northeast.
+~
+0 3153929 0
+D6
+~
+~
+1027 -1 31546
+D8
+~
+~
+0 -1 31531
+D9
+~
+~
+0 -1 31533
+S
+#31533
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31532
+D9
+~
+~
+0 -1 31534
+S
+#31534
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31533
+D7
+~
+~
+0 -1 31535
+D8
+~
+~
+0 -1 31539
+D9
+~
+~
+0 -1 31537
+S
+#31535
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31536
+D8
+~
+~
+0 -1 31534
+S
+#31536
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31535
+S
+#31537
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+ 
+A pale white door graces the reddish mists to the northwest.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31534
+D7
+~
+~
+1027 -1 31548
+D9
+~
+~
+0 -1 31538
+S
+#31538
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31537
+S
+#31539
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31534
+D8
+~
+~
+0 -1 31540
+S
+#31540
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31541
+D7
+~
+~
+0 -1 31539
+S
+#31541
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+ 
+A polished steel door reflects your image to the northwest.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31542
+D7
+~
+~
+1027 -1 31547
+D9
+~
+~
+0 -1 31540
+S
+#31542
+Web of Horrors~
+Your vision is clouded by a reddish hue, the blood of the millions of
+innocent souls who have been bound into the crimson stone that weaves
+through this infernal domain. A tapestry of grim making, a testament
+to the evil entity that holds sway over all who pass through her fell
+domain. Waves of nausea wash over you sporadically as you search in
+desperation for stability in this chaotic maelstrom.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31528
+D7
+~
+~
+0 -1 31531
+D8
+~
+~
+0 -1 31529
+D9
+~
+~
+0 -1 31541
+S
+#31543
+An Irresistable Urge...~
+This long corridor is totally devoid of markings or furnishings; the
+walls are stark white, as if freshly painted, and the floor is of
+smooth white marble. However, a strange tugging sensation that seems
+to rapidly gain in intensity distracts you...
+~
+0 3153933 0
+D9
+~
+~
+0 -1 31544
+> entry_prog 100~
+mpforce $n vis
+mpforce $n wimpy 0
+mea $n _blu A massive electromagnetic force drags you to the southwest!
+mpforce $n sw
+~
+|
+S
+#31544
+A Cluttered Chamber~
+This cluttered chamber is strewn with all manner of items, ranging
+from furniture to armored corpses, all stuck as if by magic to the
+southwestern wall, which hums loudly, much like a field of magical
+energy surrounding a spellcaster. It is difficult to move through
+the rubble covering the floor, and also difficult to see what else
+may be lurking in wait here...
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31543
+D8
+~
+~
+3 -1 31545
+S
+#31545
+An Empty Chamber~
+This dark chamber is apparently devoid of feature or function; only
+a plain metal lever set in the far wall remarks it as anything out
+of the ordinary...
+~
+0 3153929 0
+D7
+~
+~
+3 -1 31544
+S
+#31546
+Chamber of Meditation~
+This stark white chamber boasts but a single item of interest- a large
+carving on the far wall, set with gleaming gemstones, representing the
+Queen of Spiders resplendent in her unholy court, doted upon by nude
+male suitors of various races, mostly drow but some human and even fair
+elven. The entire is suffused with a nimbus of strikingly revolting mauve
+energy, which causes nausea on sight to even the staunchest warrior.
+~
+0 0 1
+D9
+~
+~
+1027 -1 31532
+S
+#31547
+Hall of Mirrors~
+The entirety of this chamber is peppered with shards of glass, or a 
+substance very similar, which catches and reflects your image a
+hundredfold, creating a dizzying array of your form. The exact size
+of this chamber is therefore understandably difficult to determine,
+as everywhere you look you see only a long glass corridor populated
+by yourself. However, your attention is drawn to a shifting, spiraling
+pattern that advances through the maze of mirrors towards you...
+~
+0 3153928 0
+D8
+~
+~
+1027 -1 31541
+S
+#31548
+Deep Waters~
+The portal opens onto a chamber filled with dark waters, that extend
+far beyond your range of vision into the inky darkness. It is almost
+as if you have exited the web and passed to an aquatic layer of the
+Abyss, save that you know in your gut that this anomaly is yet another
+of Lolth's creations, a physical manifestation of her twisted muse,
+her will alone keeping the waters in check. Dark shapes swim through
+the darkness, swimming towards the sudden light you have brought into
+their realm...
+~
+0 3153929 8
+D8
+~
+~
+1027 -1 31537
+> rand_prog 100~
+if ispc($r)
+mea $r _dch The waters swirl around you...
+mptrans $r 31549
+endif
+~
+|
+S
+#31549
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+ 
+A blazing portal of fire shimmers into view to the northwest.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31550
+D2
+~
+~
+0 -1 31558
+D7
+~
+~
+1027 -1 31567
+S
+#31550
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+ 
+A door of stone fills most of the southwestern aspect.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 31549
+D6
+~
+~
+0 -1 31551
+D9
+~
+~
+1027 -1 31566
+S
+#31551
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31552
+D9
+~
+~
+0 -1 31550
+S
+#31552
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31553
+D7
+~
+~
+0 -1 31551
+S
+#31553
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 31554
+D3
+~
+~
+0 -1 31552
+S
+#31554
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+ 
+A stout portal of oak shot with bronze studs fills the northwest corner.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31553
+D3
+~
+~
+0 -1 31555
+D7
+~
+~
+1027 -1 31560
+S
+#31555
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31554
+D9
+~
+~
+0 -1 31556
+S
+#31556
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31555
+D7
+~
+~
+0 -1 31557
+S
+#31557
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 31558
+D8
+~
+~
+0 -1 31556
+S
+#31558
+Swirling Mists~
+Thick clouds of rolling fog, shot through with streaks of white and gold,
+surround the precarious path of shifting stone you tread upon. Waves of
+dizziness assault you at sporadic intervals, as the stone bucks and heaves
+underfoot, the tortured souls bound into its construction seeking release
+from their torment.
+ 
+A shining portal of white metal lies to the southeast.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31549
+D1
+~
+~
+0 -1 31557
+D8
+~
+~
+1027 -1 31559
+S
+#31559
+A Place of Peace?~
+This candlelit chapel is dominated by a large white altar, before which
+one may worship the gods it is dedicated to; evidently the gods of
+light and law, surprisingly enough. Wonders never cease- who would be
+capable of forging and holding a bastion of law in a layer of the abyss
+itself? Perhaps this would be a safe place to regain your strength.
+~
+0 3153932 0
+D7
+~
+~
+1027 -1 31558
+S
+#31560
+An Ominous Passage~
+The door opens onto a narrow corridor, the walls of which are decorated
+with lurid reliefs of varying but always base nature, carved by some
+ghoulish artisan, most likely Lolth herself, exercising her will over
+the chaotic substance that forms her web. A second door lies at the
+far end of this chamber, lit by flickering torchlight, and from this
+direction a foul odor indeed rises...
+~
+0 3153928 0
+D3
+~
+~
+1031 -1 31561
+D8
+~
+~
+1027 -1 31554
+S
+#31561
+Barrier of Blades~
+Stepping into this section of the corridor, you are suddenly assaulted
+by a series of slashing, whirling blades, that materialize rapidly all
+around you. Deep cuts score your armor and flesh, and your blood begins
+to flow, pooling on the floor and running along channels in the floor
+to the north, from where a low moan rises... This dark chamber is the
+only other escape from the slashing blades, other than turning tail and
+fleeing like a rabbit...
+~
+0 3153928 0
+D0
+~
+~
+0 -1 31562
+D1
+~
+~
+1031 -1 31560
+> entry_prog 100~
+mpforce $n vis
+if isimmort($n)
+else
+mpdamage $n 400
+mpoload 31538
+endif
+~
+> rand_prog 100~
+if ispc($r)
+mpdamage $r 400
+mpdamage $r 400
+endif
+~
+|
+S
+#31562
+The Three Thrones~
+A spacious chamber, honored by three great thrones of bronze set with
+elven skulls and lined with human flesh, opens before you, boasting
+numerous other grim trophies, including a series of cadaverous visages,
+carved into the floor, where the blood flowing from the south pools,
+pouring into their open mouths. With growing horror, you realize that
+the visages are the faces of undead beasts, animated by your lifeblood
+and rising to take more! The occupants of the thrones cackle and cavort
+as they watch the spectacle, preparing to battle you when you are done.
+~
+0 3153928 0
+D0
+~
+~
+0 -1 31563
+D1
+~
+~
+0 -1 31565
+D2
+~
+~
+0 -1 31561
+D3
+~
+~
+0 -1 31564
+> entry_prog 100~
+mpforce $n vis
+mpforce $n twitch
+~
+> rand_prog 100~
+if ispc($r)
+mpe _dch Bolts of negative energy streak through the chamber!
+mpdamage $r 250
+endif
+~
+> rand_prog 100~
+if ispc($r)
+mpe _red A pillar of flame strikes down from above, scorching $r!
+mpdamage $r 250
+endif
+~
+> rand_prog 100~
+if ispc($r)
+mpe _lbl A deathly chill fills the room...
+mpdamage $r 250
+endif
+~
+|
+S
+#31563
+Throne of Chaos~
+The vile furnishings of this fell domain pale in comparison to the
+demonic inhabitants that avail themselves of them; each throne is
+the seat of power for a drow cleric of the foulest demeanour... A
+dreadful, calamitous wailing arises as you approach the wantonly
+lewd drow sprawled in the throne, but a single indication of the
+unholy creature confined in the beguilingly beauteous elfin frame.
+~
+0 3153928 0
+D2
+~
+~
+0 -1 31562
+S
+#31564
+Throne of Chaos~
+The vile furnishings of this fell domain pale in comparison to the
+demonic inhabitants that avail themselves of them; each throne is
+the seat of power for a drow cleric of the foulest demeanour... A
+dreadful, calamitous wailing arises as you approach the wantonly
+lewd drow sprawled in the throne, but a single indication of the
+unholy creature confined in the beguilingly beauteous elfin frame.
+~
+0 3153928 0
+D1
+~
+~
+0 -1 31562
+S
+#31565
+Throne of Chaos~
+The vile furnishings of this fell domain pale in comparison to the
+demonic inhabitants that avail themselves of them; each throne is
+the seat of power for a drow cleric of the foulest demeanour... A
+dreadful, calamitous wailing arises as you approach the wantonly
+lewd drow sprawled in the throne, but a single indication of the
+unholy creature confined in the beguilingly beauteous elfin frame.
+~
+0 3153928 0
+D3
+~
+~
+0 -1 31562
+S
+#31566
+A Mass Grave~
+The loosely packed earth that fills the bottom third of this chamber
+is littered with debris, most of it items you would expect to find in
+a charnel house. Scraps of cloth, bits of bone and pieces of flesh
+lie scattered in profusion about the dirt, while the clawed hands of
+those interred in this foul place protrude at random intervals; it is
+with a growing dread in the pit of your stomach that you notice some
+of them start to scrabble at the surrounding earth...
+~
+0 3153929 0
+D6
+~
+~
+1027 -1 31550
+S
+#31567
+The Blazing Pit~
+This small chamber is dominated by a deep pit, which is filled with
+hellfire, the heat almost too intense to stand within even fifty feet
+of. Thick layers of soot obscure the walls and roof, though you doubt
+there was ever much there that mortal eyes would care to gaze upon. A
+sense of loathing fills your heart as you gaze at the pit; you must
+get out, and quickly!
+~
+0 3153929 0
+D8
+~
+~
+1027 -1 31549
+> rand_prog 100~
+if ispc($r)
+mea $r _red The flames suddenly rise to consume you!
+mptrans $r 31568
+endif
+~
+|
+S
+#31568
+Imminent Peril~
+The fires of Glabrezu have hurled you yet again further into the web
+of the Queen of Spiders; this time, the point of your destination
+appears to be an art gallery, of a sort. Lewd and lascivious artwork
+covers the walls; expliict scenes of interaction between drow and
+demons the most common theme, though monstrous arachnids with elven
+upper bodies also feature prominently. Lolth is a mistress of utter
+depravity and perversion, in truth, but can she be stopped here, in her
+own realm, which so easily molds to her will?
+~
+0 0 1
+D2
+~
+~
+0 -1 31569
+S
+#31569
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the southeast.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31570
+D8
+~
+door~
+1027 -1 31582
+S
+#31570
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the northeast.
+~
+0 3153929 0
+D6
+~
+door~
+1027 -1 31590
+D8
+~
+~
+0 -1 31571
+D9
+~
+~
+0 -1 31569
+S
+#31571
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+~
+0 3153929 0
+D7
+~
+~
+0 -1 31570
+D9
+~
+~
+0 -1 31572
+S
+#31572
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the southeast.
+~
+0 3153929 0
+D6
+~
+~
+0 -1 31571
+D8
+~
+door~
+1027 -1 31591
+D9
+~
+~
+0 -1 31573
+S
+#31573
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+
+One such door lies to the northwest.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 31574
+D6
+~
+~
+0 -1 31572
+D7
+~
+door~
+1027 -1 31600
+S
+#31574
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the southeast.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31573
+D7
+~
+~
+0 -1 31575
+D8
+~
+~
+1027 -1 31610
+S
+#31575
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the north.
+~
+0 3153929 0
+D0
+~
+door~
+1027 -1 31620
+D7
+~
+~
+0 -1 31576
+D8
+~
+~
+0 -1 31574
+S
+#31576
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the east.
+~
+0 3153929 0
+D1
+~
+door~
+1027 -1 31650
+D6
+~
+~
+0 -1 31577
+D8
+~
+~
+0 -1 31575
+S
+#31577
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+One such door lies to the northeast.
+~
+0 3153929 0
+D6
+~
+door~
+1027 -1 31660
+D8
+~
+~
+0 -1 31578
+D9
+~
+~
+0 -1 31576
+S
+#31578
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+An open door to the north opens onto another orange hall.
+~
+0 3153929 0
+D0
+~
+~
+1 -1 31579
+D7
+~
+~
+0 -1 31577
+S
+#31579
+Halls of Orange~
+Twisting corridors of orange stone, walled with the same thick mists,
+penetrate the void of the Abyss, stretching out before you. Howls and
+moans echo through these empty halls, totally devoid of furnishings or
+life. Only the somber wooden portals, spaced sporadically along the
+walls, provide any alternate route, and even then a risky one...
+ 
+You suddenly notice that the passage behind you has disappeared, and
+you feel a strange pulling sensation...
+~
+0 3153933 0
+S
+#31580
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153925 3
+D0
+~
+~
+0 -1 31581
+D1
+~
+~
+0 -1 31580
+D2
+~
+~
+0 -1 31583
+D3
+~
+~
+0 -1 31584
+S
+#31581
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31582
+D1
+~
+~
+0 -1 31581
+D2
+~
+~
+0 -1 31581
+D3
+~
+~
+0 -1 31580
+S
+#31582
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+ 
+A shimmering portal to the northwest affords an escape from this alternate
+world.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31581
+D1
+~
+~
+0 -1 31582
+D2
+~
+~
+0 -1 31582
+D3
+~
+~
+0 -1 31583
+D7
+~
+portal~
+1027 -1 31569
+S
+#31583
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31583
+D1
+~
+~
+0 -1 31582
+D2
+~
+~
+0 -1 31580
+D3
+~
+~
+0 -1 31585
+S
+#31584
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31584
+D1
+~
+~
+0 -1 31580
+D2
+~
+~
+0 -1 31585
+D3
+~
+~
+0 -1 31586
+S
+#31585
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31584
+D1
+~
+~
+0 -1 31585
+D2
+~
+~
+0 -1 31583
+D3
+~
+~
+0 -1 31587
+S
+#31586
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31584
+D1
+~
+~
+0 -1 31587
+D2
+~
+~
+0 -1 31586
+D3
+~
+~
+0 -1 31586
+S
+#31587
+Caer Sidi~
+A dark forest filled with mildewed, rotting oaks surrounded by thick
+clumps of weeds and vines surrounds you, almost suffocating you with
+humidity and the strong odor of rotting vegetation. Shapes move about
+the wood, for the most part not bothering you, yet still making sure
+to mark your progress.
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31586
+D1
+~
+~
+16777216 -1 31588
+D2
+~
+~
+0 -1 31585
+D3
+~
+~
+0 -1 31587
+S
+#31588
+A Guard Tower~
+Rising out of the forest is a tower, of dressed grey stone, where the
+elves maintain an outpost, and from where they can launch assaults
+against these new arrivals to their world. Numerous weapons and pieces
+of armor, curiously all of bronze and not steel or mithril, line the
+walls, while a narrow stair winds up to the next level. 
+~
+0 1036 0
+D2
+~
+~
+0 -1 31587
+D4
+~
+~
+0 -1 31589
+S
+#31589
+The Main Chamber~
+This chamber appears to have been hastily converted to a council
+chamber, where the ruler of this region can plan new campaigns against
+the bugbear hordes of Lolth. The elves are hard pressed indeed by the
+sheer weight of numbers Lolth is bringing to bear against them, and
+are more than willing to ally themselves with any who would seek to do
+her harm, as long as they weren't also seeking to do Caer Sidi harm...
+~
+0 3153928 0 0 0 8
+D5
+~
+~
+0 -1 31588
+S
+#31590
+Foul Weather~
+The door opens onto an ice-filled cavern, which opens to the east onto
+a raging blizzard. Even from here, the pure force of the mighty storm
+assaults you, chilling you to the bone and blowing you against the far
+wall. It would be suicide, not to mention impossible, to try to progress
+into that blizzard; apparently this portal opens onto a world that has
+already fallen to the taint of Lolth, and all that is left is this winter
+wasteland...
+~
+0 3153929 0
+D9
+~
+door~
+1027 -1 31570
+S
+#31591
+A Tiny Purple Island~
+This tiny island is the only visible land mass in an endless ocean 
+that stretches away on all sides. The waters of this water-covered
+world are not as yours, however; this salty brine is pinkish in color,
+and flows beneath a yellow sky, lit by a blue sun. The rocky island
+is purplish in color, and revolts the eye that is unused to such odd
+shades for familiar subjects. Lolth is currently seeking to conquer
+this realm, her agents are undoubtedly already here...
+~
+0 3153924 10
+D0
+~
+~
+0 -1 31592
+D1
+~
+~
+0 -1 31596
+D2
+~
+~
+0 -1 31591
+D3
+~
+~
+0 -1 31591
+D7
+~
+door~
+1027 -1 31572
+S
+#31592
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31591
+D1
+~
+~
+0 -1 31593
+D2
+~
+~
+0 -1 31595
+D3
+~
+~
+0 -1 31592
+S
+#31593
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31594
+D1
+~
+~
+0 -1 31593
+D2
+~
+~
+0 -1 31592
+D3
+~
+~
+0 -1 31593
+S
+#31594
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31595
+D1
+~
+~
+0 -1 31597
+D2
+~
+~
+0 -1 31594
+D3
+~
+~
+0 -1 31593
+S
+#31595
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31596
+D1
+~
+~
+0 -1 31598
+D2
+~
+~
+0 -1 31594
+D3
+~
+~
+0 -1 31592
+S
+#31596
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31595
+D1
+~
+~
+0 -1 31599
+D2
+~
+~
+0 -1 31596
+D3
+~
+~
+0 -1 31591
+S
+#31597
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31597
+D1
+~
+~
+0 -1 31598
+D2
+~
+~
+0 -1 31597
+D3
+~
+~
+0 -1 31594
+S
+#31598
+Sailing the Strangely-Hued Sea~
+Spray from the pinkish waters strikes you in the face as you make your
+way across them; the water is salty as you would expect, and is in all
+regards the same as ocean waters in your world, save for the color. A
+hot bluish sun beats down on you, making it difficult to see very far,
+though the seemingly endless waters boast little of interest.
+~
+0 3153920 7
+D0
+~
+~
+0 -1 31598
+D1
+~
+~
+0 -1 31597
+D2
+~
+~
+0 -1 31599
+D3
+~
+~
+0 -1 31595
+S
+#31599
+A Small Island~
+This tiny island rises out of the pinkish waters, its rough purplish
+volcanic surface a strange sight to one accustomed to blue waters 
+washing up on yellow sand. Lotuslike flowers sprout randomly across
+the rocky island, save where a section has been cleared to construct
+a dock, where a single ship is currently moored; its captain has put
+ashore for supplies. Lolth's taint is not strong here; evidently she
+has yet to conquer the rulers of this watery world.
+~
+0 3153924 10
+D0
+~
+~
+0 -1 31596
+D1
+~
+~
+0 -1 31596
+D2
+~
+~
+0 -1 31598
+D3
+~
+~
+0 -1 31596
+S
+#31600
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31600
+D1
+~
+~
+0 -1 31601
+D2
+~
+~
+0 -1 31600
+D3
+~
+~
+0 -1 31602
+D8
+~
+portal~
+1027 -1 31573
+S
+#31601
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31600
+D1
+~
+~
+0 -1 31608
+D2
+~
+~
+0 -1 31601
+D3
+~
+~
+0 -1 31603
+S
+#31602
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31603
+D1
+~
+~
+0 -1 31600
+D2
+~
+~
+0 -1 31602
+D3
+~
+~
+0 -1 31604
+S
+#31603
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31607
+D1
+~
+~
+0 -1 31602
+D2
+~
+~
+0 -1 31601
+D3
+~
+~
+0 -1 31605
+S
+#31604
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31602
+D1
+~
+~
+0 -1 31604
+D2
+~
+~
+0 -1 31605
+D3
+~
+~
+0 -1 31604
+S
+#31605
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31606
+D1
+~
+~
+0 -1 31603
+D2
+~
+~
+0 -1 31604
+D3
+~
+~
+0 -1 31605
+S
+#31606
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31606
+D1
+~
+~
+0 -1 31605
+D2
+~
+~
+0 -1 31607
+D3
+~
+~
+0 -1 31606
+D7
+~
+~
+16777216 -1 31609
+S
+#31607
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31607
+D1
+~
+~
+0 -1 31608
+D2
+~
+~
+0 -1 31603
+D3
+~
+~
+0 -1 31606
+S
+#31608
+The Black Fen~
+Soft, stinking mud, intermixed with rotting vegetation and human bones,
+impedes progress through the treacherous swamp that surrounds you on all
+sides. An overwhelming sense of evil and loathing fills you, a legacy of
+the horrors unleashed by Lolth and her armies on this pitiful remnants
+of a world. What manner of beasts could reside in such a place?
+~
+0 3153921 3
+D0
+~
+~
+0 -1 31608
+D1
+~
+~
+0 -1 31601
+D2
+~
+~
+0 -1 31608
+D3
+~
+~
+0 -1 31607
+S
+#31609
+A Small Cave~
+A small cave opens onto the stinking swamp, haven of the guardian of
+the creatures in this region, placed here undoubtedly by Lolth herself
+to ensure all remains as she wills it. Woe betide any that fall under
+the shadow of this foul beast's temper!
+~
+0 3153929 0
+D8
+~
+~
+0 -1 31606
+S
+#31610
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31610
+D1
+~
+~
+0 -1 31612
+D2
+~
+~
+0 -1 31614
+D3
+~
+~
+0 -1 31610
+D7
+~
+~
+1027 -1 31574
+S
+#31611
+A Secret Chamber~
+This cramped crawlspace is the abode of a pitiful wretch who has somehow
+managed to survive after being cast into this maze to feed Lolth's newly
+bred spiders, from which she selects the finest specimens to serve in
+her armies. His lair contains little, save for a crudely fashioned table
+and a few bone weapons.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 31616
+S
+#31612
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31612
+D1
+~
+~
+0 -1 31615
+D2
+~
+~
+0 -1 31613
+D3
+~
+~
+0 -1 31610
+S
+#31613
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31613
+D1
+~
+~
+0 -1 31613
+D2
+~
+~
+0 -1 31616
+D3
+~
+~
+0 -1 31612
+S
+#31614
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31617
+D1
+~
+~
+0 -1 31615
+D2
+~
+~
+0 -1 31610
+D3
+~
+~
+0 -1 31614
+S
+#31615
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31616
+D1
+~
+~
+0 -1 31618
+D2
+~
+~
+0 -1 31612
+D3
+~
+~
+0 -1 31614
+S
+#31616
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31619
+D1
+~
+~
+16777216 -1 31611
+D2
+~
+~
+0 -1 31613
+D3
+~
+~
+0 -1 31615
+S
+#31617
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31617
+D1
+~
+~
+0 -1 31618
+D2
+~
+~
+0 -1 31614
+D3
+~
+~
+0 -1 31617
+S
+#31618
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31619
+D1
+~
+~
+0 -1 31615
+D2
+~
+~
+0 -1 31618
+D3
+~
+~
+0 -1 31617
+S
+#31619
+The Labyrinth of Arachne~
+Twisting, shadowy corridors, intermittently lit by smoldering torches
+thrust into corroded iron sconces, lead away in every direction. Long
+shadows, cast by the arachnid masters of this subterranean realm, seem
+to follow every step you take. Piles of bones cocooned in spider web
+abound, as do broken weapons and pools of dried blood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31619
+D1
+~
+~
+0 -1 31619
+D2
+~
+~
+0 -1 31616
+D3
+~
+~
+0 -1 31618
+S
+#31620
+The Kingdom of Maldev~
+The portal opens onto a rocky mountain pass, that winds northward,
+heading past small forts built on the hillsides to the west and then
+the east, towards a mighty dwarven fortress that towers above even
+the mountains, its gleaming spires under constant assault by the 
+hordes of the Queen of Spiders. It would seem there is no end to her
+insatiable thirst for conquest. Troops of Lolth can be seen even from
+here moving about the pass, and in the vast area before the gates of
+the fortress.
+~
+0 3153924 5
+D0
+~
+~
+0 -1 31621
+D2
+~
+portal~
+1025 -1 31575
+S
+#31621
+A Wooden Palisade~
+At this point a narrow path runs up to the gates of a wooden palisade,
+occupied by one of the two sides in this terrible war. Both this and
+the other fort you spied are of dwarven make, to be sure, but you can
+not tell from here whether dwarves still occupy the structure, or if
+it has been taken over by Lolth's hordes.
+~
+0 0 5
+D2
+~
+~
+0 -1 31620
+D4
+~
+~
+0 -1 31622
+D6
+~
+~
+0 -1 31627
+S
+#31622
+The Gates of the Palisade~
+A pair of wooden gates, bound with bronze, bar entrance to the fort, which
+is constructed of treated wood lashed together with rope then reinforced
+with wooden crossbeams. A watchtower rises from the interior; doubtless
+your arrival has been noticed, unless you took exceptional care. Those who
+are quartered within may well treat you with hostility, irrespective of
+which side they are on...
+~
+0 3153920 5
+D3
+~
+~
+7 -1 31623
+D5
+~
+~
+0 -1 31621
+S
+#31623
+Within the Fort~
+The interior of the fort is swathed in darkness, both to foil attempts to
+see what forces may lie within, and also because those who occupy the fort
+are well used to operating in such a medium. The floors are swept clean,
+but show signs of combat in the form of indelible blood stains and deep
+gouges in the wood.
+~
+0 3153929 0
+D1
+~
+~
+16777223 -1 31622
+D3
+~
+~
+0 -1 31625
+D4
+~
+~
+0 -1 31624
+S
+#31624
+A Watch Tower~
+This enclosed watchtower affords an excellent view of the pass, as well
+as the battlefield before the fortress, which is strewn with bodies and
+the hordes of Lolth, wide stretches of the ground seeming to ripple with
+the movement of troops.
+~
+0 3153929 0
+D5
+~
+~
+0 -1 31623
+S
+#31625
+Within the Fort~
+The interior of the fort is swathed in darkness, both to foil attempts to
+see what forces may lie within, and also because those who occupy the fort
+are well used to operating in such a medium. The floors are swept clean,
+but show signs of combat in the form of indelible blood stains and deep
+gouges in the wood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31626
+D1
+~
+~
+0 -1 31623
+S
+#31626
+A Small Office~
+This chamber is dominated by a desk littered with battleplans and maps,
+while the walls are papered with the same, including a series of missives
+from the dwarven king, exhorting his generals to better efforts. Despite
+their valor, the dwarves appear doomed to failure; the hordes outnumber
+them grossly, and are being reinforced all the time.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 31625
+S
+#31627
+Approaching Kandelspire~
+The pass continues, winding its way towards the bloodsoaked plains
+before the fortress, where the heart of the battle is. Sounds of 
+combat ring in your ears, as do the cries of the dying. The dwarves
+certainly appear to be dealing significant damage to the hordes, but
+they cannot hope to prevail against such punishing odds.
+~
+0 3153920 5
+D0
+~
+~
+0 -1 31628
+D9
+~
+~
+0 -1 31621
+S
+#31628
+A Wooden Palisade~
+At this point a narrow path runs up to the gates of a wooden palisade,
+occupied by one of the two sides in this terrible war. Both this and
+the other fort you spied are of dwarven make, to be sure, but you can
+not tell from here whether dwarves still occupy the structure, or if
+it has been taken over by Lolth's hordes.
+ 
+The pass opens onto the decimated valley before Kandelspire to the 
+northwest.
+~
+0 3153920 5
+D2
+~
+~
+0 -1 31627
+D4
+~
+~
+0 -1 31629
+D7
+~
+~
+16777216 -1 31635
+S
+#31629
+The Gates of the Palisade~
+A pair of wooden gates, bound with bronze, bar entrance to the fort, which
+is constructed of treated wood lashed together with rope then reinforced
+with wooden crossbeams. A watchtower rises from the interior; doubtless
+your arrival has been noticed, unless you took exceptional care. Those who
+are quartered within may well treat you with hostility, irrespective of
+which side they are on...
+~
+0 3153920 5
+D1
+~
+~
+7 -1 31630
+D5
+~
+~
+0 -1 31628
+S
+#31630
+Within the Fort~
+The interior of the fort is swathed in darkness, both to foil attempts to
+see what forces may lie within, and also because those who occupy the fort
+are well used to operating in such a medium. The floors are swept clean,
+but show signs of combat in the form of indelible blood stains and deep
+gouges in the wood.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31632
+D3
+~
+~
+16777223 -1 31629
+D4
+~
+~
+0 -1 31631
+S
+#31631
+A Watch Tower~
+This enclosed watchtower affords an excellent view of the pass, as well
+as the battlefield before the fortress, which is strewn with bodies and
+the hordes of Lolth, wide stretches of the ground seeming to ripple with
+the movement of troops.
+~
+0 3153929 0
+D5
+~
+~
+0 -1 31630
+S
+#31632
+Within the Fort~
+The interior of the fort is swathed in darkness, both to foil attempts to
+see what forces may lie within, and also because those who occupy the fort
+are well used to operating in such a medium. The floors are swept clean,
+but show signs of combat in the form of indelible blood stains and deep
+gouges in the wood.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31633
+D3
+~
+~
+0 -1 31630
+S
+#31633
+Quarters of the Demon~
+This chamber has been gutted by fire, and boasts only a throne of twisted,
+burnt bronze as furnishings, the seat for the general of the armies that
+even now rampage across Maldev, laying waste to all they encounter. The
+general has waged a very successful campaign thus far, and now all that
+remains is to strike the final coup de grace against the beleagured dwarf
+fortress of Kandelspire. Thus he spends many hours here, revelling in his
+exceptional ability, enjoying the company of slaves when he feels the urge.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 31632
+S
+#31634
+The Battlefield of Maldev~
+The valley before the fortress is a scene of utter horror. Mangled bodies
+of dwarf and bugbear alike lie strewn about the rocky ground, as well as
+the corpses of humans, bears and ogres. Arrows and rocks rain down from
+the sheer walls of the fortress itself, which looms to the north, its tall
+spires under aerial assault from dragon and peryton. Dwarves shriek in
+dismay as they are blasted from the battlements, while bugbears howl as
+they are scattered by falling rocks and darts.
+~
+0 3153920 5
+D0
+~
+~
+0 -1 31637
+D1
+~
+~
+0 -1 31635
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31635
+The Battlefield of Maldev~
+The valley before the fortress is a scene of utter horror. Mangled bodies
+of dwarf and bugbear alike lie strewn about the rocky ground, as well as
+the corpses of humans, bears and ogres. Arrows and rocks rain down from
+the sheer walls of the fortress itself, which looms to the north, its tall
+spires under aerial assault from dragon and peryton. Dwarves shriek in
+dismay as they are blasted from the battlements, while bugbears howl as
+they are scattered by falling rocks and darts.
+~
+0 3153920 5
+D0
+~
+~
+0 -1 31638
+D1
+~
+~
+0 -1 31636
+D3
+~
+~
+0 -1 31634
+D8
+~
+~
+16777216 -1 31628
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31636
+The Battlefield of Maldev~
+The valley before the fortress is a scene of utter horror. Mangled bodies
+of dwarf and bugbear alike lie strewn about the rocky ground, as well as
+the corpses of humans, bears and ogres. Arrows and rocks rain down from
+the sheer walls of the fortress itself, which looms to the north, its tall
+spires under aerial assault from dragon and peryton. Dwarves shriek in
+dismay as they are blasted from the battlements, while bugbears howl as
+they are scattered by falling rocks and darts.
+~
+0 3153920 5
+D0
+~
+~
+0 -1 31639
+D3
+~
+~
+0 -1 31635
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31637
+The Battlefield of Maldev~
+The valley before the fortress is a scene of utter horror. Mangled bodies
+of dwarf and bugbear alike lie strewn about the rocky ground, as well as
+the corpses of humans, bears and ogres. Arrows and rocks rain down from
+the sheer walls of the fortress itself, which looms to the north, its tall
+spires under aerial assault from dragon and peryton. Dwarves shriek in
+dismay as they are blasted from the battlements, while bugbears howl as
+they are scattered by falling rocks and darts.
+~
+0 3153920 5
+D1
+~
+~
+0 -1 31638
+D2
+~
+~
+0 -1 31634
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31638
+The Gates of Kandelspire~
+The massive valves that guard the entrance to this dwarven citadel stand
+firm against the hordes, who have parted to allow mighty umber hulks
+the chance to smash the gates asunder, or to undermine the mighty walls.
+Dwarves plummet from the walls, struck down by boulders or dragonfire,
+while the besieged defenders frantically hurl everything they can out the
+windows on the invading army below. Despite their valiant efforts, it would
+seem they are doomed to fall to the innumerable hordes.
+~
+0 3153924 1
+D0
+~
+~
+8388615 -1 31640
+D1
+~
+~
+0 -1 31639
+D2
+~
+~
+0 -1 31635
+D3
+~
+~
+0 -1 31637
+D4
+~
+~
+16777280 -1 31647
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31639
+The Battlefield of Maldev~
+The valley before the fortress is a scene of utter horror. Mangled bodies
+of dwarf and bugbear alike lie strewn about the rocky ground, as well as
+the corpses of humans, bears and ogres. Arrows and rocks rain down from
+the sheer walls of the fortress itself, which looms to the north, its tall
+spires under aerial assault from dragon and peryton. Dwarves shriek in
+dismay as they are blasted from the battlements, while bugbears howl as
+they are scattered by falling rocks and darts.
+~
+0 3153920 5
+D2
+~
+~
+0 -1 31636
+D3
+~
+~
+0 -1 31638
+> rand_prog 100~
+if rand(50)
+mpe The hordes scatter as a volley of arrows shoots out from the fortress!
+ if ispc($r)
+ mea $r _red You are struck by several darts!
+ mpdamage $r 50
+ endif
+else
+mpe A massive boulder is hurled from a catapult on the battlements!
+mpe _red A dozen bugbears explode in a shower of gore as the rock strikes!
+mpasound Bugbears scream in agony as a rock crushes several of them.
+endif
+~
+|
+S
+#31640
+Kandelspire~
+The walls of the spacious fortress reverberate with the impact of countless
+hurled rocks, and tremble as chunks are torn away by dragonfire. Dwarves
+rush about, nervously anticipating the imminent breach that will spell the
+doom of their kingdom. Weapons hang between tapestries on the gray walls,
+though most have been snatched up by citizens to use against the hordes.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31643
+D1
+~
+~
+0 -1 31642
+D2
+~
+~
+8388615 -1 31638
+D3
+~
+~
+0 -1 31641
+S
+#31641
+Kandelspire~
+The walls of the spacious fortress reverberate with the impact of countless
+hurled rocks, and tremble as chunks are torn away by dragonfire. Dwarves
+rush about, nervously anticipating the imminent breach that will spell the
+doom of their kingdom. Weapons hang between tapestries on the gray walls,
+though most have been snatched up by citizens to use against the hordes.
+ 
+A set of stairs leads up to the battlements.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31640
+D4
+~
+~
+0 -1 31644
+S
+#31642
+Kandelspire~
+The walls of the spacious fortress reverberate with the impact of countless
+hurled rocks, and tremble as chunks are torn away by dragonfire. Dwarves
+rush about, nervously anticipating the imminent breach that will spell the
+doom of their kingdom. Weapons hang between tapestries on the gray walls,
+though most have been snatched up by citizens to use against the hordes.
+ 
+A set of stairs leads up to the battlements.
+~
+0 3153929 0
+D3
+~
+~
+0 -1 31640
+D4
+~
+~
+0 -1 31646
+S
+#31643
+Kandelspire~
+The walls of the spacious fortress reverberate with the impact of countless
+hurled rocks, and tremble as chunks are torn away by dragonfire. Dwarves
+rush about, nervously anticipating the imminent breach that will spell the
+doom of their kingdom. Weapons hang between tapestries on the gray walls,
+though most have been snatched up by citizens to use against the hordes.
+ 
+A set of stairs leads up to the battlements.
+~
+0 3153929 0
+D2
+~
+~
+0 -1 31640
+D4
+~
+~
+0 -1 31645
+S
+#31644
+The Battlements of Kandelspire~
+Peering over the crenelated battlements is like looking into the mouth
+of hell. Screaming, howling hordes of bugbears and trolls tear across
+the valley, charging towards the walls as giants hurl massive rocks at
+them, tearing huge holes in the defenses. A massive dragon soars high
+above, searing dwarves from the battlements with dragonfire, while a
+flock of perytons swoop down to pluck up and then drop dwarves into the
+hordes below, where they are torn to pieces.
+~
+0 3153920 1
+D5
+~
+~
+0 -1 31641
+> rand_prog 100~
+if rand(25)
+mpe The catapult whistles loudly as it propels a boulder skyward.
+else
+if rand(50)
+mpe The dwarves let loose another volley of missiles into the horde.
+else
+mpe _red Dragonfire sears the battlements, melting stone and burning flesh!
+ if ispc($r)
+ mpdamage $r 200
+ endif
+endif
+endif
+~
+|
+S
+#31645
+The Battlements of Kandelspire~
+Peering over the crenelated battlements is like looking into the mouth
+of hell. Screaming, howling hordes of bugbears and trolls tear across
+the valley, charging towards the walls as giants hurl massive rocks at
+them, tearing huge holes in the defenses. A massive dragon soars high
+above, searing dwarves from the battlements with dragonfire, while a
+flock of perytons swoop down to pluck up and then drop dwarves into the
+hordes below, where they are torn to pieces.
+~
+0 3153920 1
+D2
+~
+~
+64 -1 31647
+D4
+~
+~
+16777280 -1 31649
+D5
+~
+~
+0 -1 31643
+> rand_prog 100~
+if rand(25)
+mpe The catapult whistles loudly as it propels a boulder skyward.
+else
+if rand(50)
+mpe The dwarves let loose another volley of missiles into the horde.
+else
+mpe _red Dragonfire sears the battlements, melting stone and burning flesh!
+ if ispc($r)
+ mpdamage $r 200
+ endif
+endif
+endif
+~
+|
+S
+#31646
+The Battlements of Kandelspire~
+Peering over the crenelated battlements is like looking into the mouth
+of hell. Screaming, howling hordes of bugbears and trolls tear across
+the valley, charging towards the walls as giants hurl massive rocks at
+them, tearing huge holes in the defenses. A massive dragon soars high
+above, searing dwarves from the battlements with dragonfire, while a
+flock of perytons swoop down to pluck up and then drop dwarves into the
+hordes below, where they are torn to pieces.
+~
+0 3153920 1
+D5
+~
+~
+0 -1 31642
+> rand_prog 100~
+if rand(25)
+mpe The catapult whistles loudly as it propels a boulder skyward.
+else
+if rand(50)
+mpe The dwarves let loose another volley of missiles into the horde.
+else
+mpe _red Dragonfire sears the battlements, melting stone and burning flesh!
+ if ispc($r)
+ mpdamage $r 200
+ endif
+endif
+endif
+~
+|
+S
+#31647
+The Skies of Maldev~
+The skies of Maldev are aflame. Countless burning bodies plummet from the
+walls, seared by Dragonfire, while flaming skulls issue from a fort near
+the walls, cast by some dread necromancer, smashing into and igniting the
+defenses of the fortress. Numerous creatures soar through the skies, in
+the process of inflicting more losses on the beleagured dwarves. Far below,
+reinforcements can be seen flowing in to join the hordes. Bolts and
+arrows tear through the sky, fired by dwarves on the battlements, while
+large rocks are lobbed by their steam catapults.
+~
+0 19931136 9
+D0
+~
+~
+64 -1 31645
+D4
+~
+~
+64 -1 31648
+D5
+~
+~
+64 -1 31638
+S
+#31648
+The Skies of Maldev~
+The skies of Maldev are aflame. Countless burning bodies plummet from the
+walls, seared by Dragonfire, while flaming skulls issue from a fort near
+the walls, cast by some dread necromancer, smashing into and igniting the
+defenses of the fortress. Numerous creatures soar through the skies, in
+the process of inflicting more losses on the beleagured dwarves. Far below,
+reinforcements can be seen flowing in to join the hordes.
+~
+0 19931136 9
+D0
+~
+~
+64 -1 31649
+D5
+~
+~
+64 -1 31647
+S
+#31649
+The Skies of Maldev~
+The skies of Maldev are aflame. Countless burning bodies plummet from the
+walls, seared by Dragonfire, while flaming skulls issue from a fort near
+the walls, cast by some dread necromancer, smashing into and igniting the
+defenses of the fortress. Numerous creatures soar through the skies, in
+the process of inflicting more losses on the beleagured dwarves. Far below,
+reinforcements can be seen flowing in to join the hordes.
+~
+0 19931136 9
+D2
+~
+~
+64 -1 31648
+D5
+~
+~
+64 -1 31645
+S
+#31650
+An Overgrown Courtyard~
+The portal opens onto a courtyard, of an ancient castle long fallen
+into ruin. Thick, grayish weeds choke the life out of twisted, gnarled
+trees that have sprouted through the broken, crumbling flagstones. A
+pair of bronze double doors lie to the north, at the far end of this
+courtyard, while an archway opens onto a shadowy passage to the east.
+The whole place reeks of death and decay, smolder and sin.
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31651
+D1
+~
+~
+0 -1 31655
+D3
+~
+door~
+16778243 -1 31576
+S
+#31651
+A Weed-Choked Fountain~
+Pale moonlight illuminates a dry fountain, choked with weeds and leaves,
+emanating a noxious stench that is a combination of rotting vegetation
+and blood. Several skeletons surround the fountain, the only other sign
+of habitation thus far. The bronze valves loom menacingly to the north,
+radiating waves of unease and apprehension.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 31652
+D2
+~
+~
+0 -1 31650
+S
+#31652
+A Darkened Hallway~
+The thick layer of dust that carpets this corridor indicates that no
+living thing has passed this way in quite some time; and nor would they
+have any pressing need to. This foul place is death, darkness and doom
+at once, permeated with sickening amounts of evil and gloom, oppressing
+even the darkest soul with its force.
+~
+0 3153929 0
+D1
+~
+~
+0 -1 31654
+D2
+~
+~
+3 -1 31651
+D3
+~
+~
+0 -1 31653
+S
+#31653
+A Darkened Hallway~
+The thick layer of dust that carpets this corridor indicates that no
+living thing has passed this way in quite some time; and nor would they
+have any pressing need to. This foul place is death, darkness and doom
+at once, permeated with sickening amounts of evil and gloom, oppressing
+even the darkest soul with its force.
+ 
+A rune-covered portal bars passage to the north.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 31658
+D1
+~
+~
+0 -1 31652
+S
+#31654
+A Darkened Hallway~
+The thick layer of dust that carpets this corridor indicates that no
+living thing has passed this way in quite some time; and nor would they
+have any pressing need to. This foul place is death, darkness and doom
+at once, permeated with sickening amounts of evil and gloom, oppressing
+even the darkest soul with its force.
+ 
+A rune-covered portal bars passage to the north.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 31659
+D3
+~
+~
+0 -1 31652
+S
+#31655
+A Darkened Hallway~
+The thick layer of dust that carpets this corridor indicates that no
+living thing has passed this way in quite some time; and nor would they
+have any pressing need to. This foul place is death, darkness and doom
+at once, permeated with sickening amounts of evil and gloom, oppressing
+even the darkest soul with its force.
+ 
+Rune covered portal lie to the north and south.
+~
+0 3153929 0
+D0
+~
+~
+3 -1 31656
+D2
+~
+~
+3 -1 31657
+D3
+~
+~
+0 -1 31650
+S
+#31656
+Unholy Sepulchre~
+Tainted shrouds cover corpses decades old, dessicated and drained of blood
+by some fiend, then placed within this ancient crypt. The stale air is an
+insult accompanying every nervous inhalation, while the clouds of dust
+stirred up by the tread of your booted feet clouds your vision. Cobwebs as
+thick as a human's wrist carpet the ceiling; what other ancient evils lie
+in wait here?
+~
+0 3153929 0
+D2
+~
+~
+3 -1 31655
+S
+#31657
+Unholy Sepulchre~
+Tainted shrouds cover corpses decades old, dessicated and drained of blood
+by some fiend, then placed within this ancient crypt. The stale air is an
+insult accompanying every nervous inhalation, while the clouds of dust
+stirred up by the tread of your booted feet clouds your vision. Cobwebs as
+thick as a human's wrist carpet the ceiling; what other ancient evils lie
+in wait here?
+~
+0 3153929 0
+D0
+~
+~
+3 -1 31655
+S
+#31658
+Unholy Sepulchre~
+Tainted shrouds cover corpses decades old, dessicated and drained of blood
+by some fiend, then placed within this ancient crypt. The stale air is an
+insult accompanying every nervous inhalation, while the clouds of dust
+stirred up by the tread of your booted feet clouds your vision. Cobwebs as
+thick as a human's wrist carpet the ceiling; what other ancient evils lie
+in wait here?
+~
+0 3153929 0
+D2
+~
+~
+3 -1 31653
+S
+#31659
+Unholy Sepulchre~
+Tainted shrouds cover corpses decades old, dessicated and drained of blood
+by some fiend, then placed within this ancient crypt. The stale air is an
+insult accompanying every nervous inhalation, while the clouds of dust
+stirred up by the tread of your booted feet clouds your vision. Cobwebs as
+thick as a human's wrist carpet the ceiling; what other ancient evils lie
+in wait here?
+~
+0 3153929 0
+D2
+~
+~
+3 -1 31654
+S
+#31660
+A Barren Desert~
+The door opens onto a sandy desert, albeit one with curiously defined
+limits; in each direction it ends at a shimmering, translucent wall,
+beyond which you can see the void of outer space. This flat world is
+apparently artificial, created (or stolen) by Lolth to house special
+"guests" in the bone cage that lies nearby. Some of the bones have fallen
+from the cage, and appear to have formed a crude outline of a massive
+humanoid...
+~
+0 3153920 10 0 0 4
+D9
+~
+door~
+1027 -1 31577
+D10
+~
+cage~
+133120 -1 31661
+S
+#31661
+The Cell of Trinax~
+The interior of this tiny cell barely has room for one, let alone two
+occupants. Yet the skeleton that lies shackled to one wall indicates
+that the cell once did in fact house two pitiful foes of Lolth, rather
+than the single man who remains, apparently unconcerned by his woeful
+predicament. 
+~
+0 3154441 0 0 0 2
+D10
+~
+~
+133120 -1 31660
+S
+#31698
+Realm of Horrors~
+~
+0 3153929 0
+D0
+~
+~
+0 -1 31699
+S
+#31699
+Realm of Horrors~
+~
+0 3153929 0
+D2
+~
+~
+0 -1 31698
+S
+#0
+
+
+#RESETS
+R 0 31580 3
+R 0 31581 3
+R 0 31582 3
+R 0 31583 3
+R 0 31584 3
+R 0 31585 3
+R 0 31586 3
+R 0 31587 3
+R 0 31591 3
+R 0 31592 3
+R 0 31593 3
+R 0 31594 3
+R 0 31595 3
+R 0 31596 3
+R 0 31597 3
+R 0 31598 3
+R 0 31599 3
+R 0 31600 3
+R 0 31601 3
+R 0 31602 3
+R 0 31603 3
+R 0 31604 3
+R 0 31605 3
+R 0 31606 3
+R 0 31607 3
+R 0 31608 3
+R 0 31610 3
+R 0 31612 3
+R 0 31613 3
+R 0 31614 3
+R 0 31615 3
+R 0 31616 3
+R 0 31617 3
+R 0 31618 3
+R 0 31619 3
+M 1 31507 4 31502
+M 1 31508 4 31503
+D 0 31505 7 1
+M 1 31509 2 31506
+D 0 31506 3 1
+M 1 31508 4 31507
+M 1 31510 2 31508
+M 1 31507 4 31510
+M 1 31507 4 31512
+M 1 31508 4 31513
+D 0 31513 7 1
+M 1 31510 2 31514
+M 1 31509 2 31516
+M 1 31508 4 31517
+M 1 31507 4 31518
+D 0 31519 0 1
+M 1 31501 4 31521
+M 1 31501 4 31521
+M 1 31501 4 31521
+M 1 31501 4 31521
+D 0 31521 8 1
+M 1 31502 1 31522
+E 1 31504 1 5
+E 1 31505 1 16
+G 1 31506 1
+D 0 31522 1 2
+D 0 31522 2 1
+M 1 31503 3 31523
+M 1 31503 3 31523
+M 1 31503 3 31523
+D 0 31523 3 2
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+M 1 31504 12 31524
+D 0 31524 1 1
+M 1 31505 3 31525
+E 1 31507 1 16
+M 1 31505 3 31525
+E 1 31507 1 16
+M 1 31505 3 31525
+E 1 31507 1 16
+M 1 31506 1 31526
+D 0 31526 8 1
+M 1 31566 2 31527
+M 1 31566 2 31527
+D 0 31529 9 1
+M 1 31569 2 31530
+M 1 31569 2 31530
+D 0 31532 6 1
+M 1 31567 2 31536
+M 1 31567 2 31536
+D 0 31537 7 1
+M 1 31568 2 31538
+M 1 31568 2 31538
+D 0 31541 7 1
+M 1 31511 6 31544
+E 1 31508 1 18
+E 1 31509 1 16
+M 1 31511 6 31544
+E 1 31508 1 18
+E 1 31509 1 16
+M 1 31511 6 31544
+E 1 31508 1 18
+E 1 31509 1 16
+M 1 31511 6 31544
+E 1 31508 1 18
+E 1 31509 1 16
+M 1 31511 6 31544
+E 1 31509 1 16
+E 1 31508 1 18
+M 1 31511 6 31544
+E 1 31508 1 16
+E 1 31509 1 18
+D 0 31544 8 1
+O 1 31510 1 31545
+D 0 31545 7 1
+M 1 31512 1 31546
+E 1 31511 1 16
+E 1 31512 1 18
+E 1 31513 1 5
+E 1 31514 1 3
+G 1 31515 1
+E 1 31516 1 1
+E 1 31517 1 0
+D 0 31546 9 1
+M 1 31513 1 31547
+E 1 31519 1 16
+D 0 31547 8 1
+M 1 31514 1 31548
+D 0 31548 8 1
+M 1 31570 2 31549
+M 1 31570 2 31549
+D 0 31549 7 1
+D 0 31550 9 1
+M 1 31571 2 31551
+M 1 31571 2 31551
+M 1 31572 2 31553
+M 1 31572 2 31553
+D 0 31554 7 1
+M 1 31573 3 31556
+M 1 31573 3 31556
+M 1 31573 3 31556
+D 0 31558 8 1
+M 1 31515 1 31559
+E 1 31520 1 12
+E 1 31521 1 3
+E 1 31522 1 16
+E 1 31523 1 8
+O 1 31524 1 31559
+D 0 31559 7 1
+D 0 31560 3 2
+D 0 31560 8 1
+O 1 31538 1 31561
+D 0 31561 1 2
+M 1 31522 4 31562
+M 1 31522 4 31562
+M 1 31522 4 31562
+M 1 31522 4 31562
+M 1 31518 1 31563
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31527 1 1
+E 1 31531 1 16
+G 1 31532 1
+M 1 31519 1 31563
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31529 1 16
+E 1 31533 1 12
+E 1 31534 1 17
+M 1 31516 1 31564
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31527 1 1
+E 1 31528 1 16
+M 1 31517 1 31564
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31527 1 1
+E 1 31529 1 16
+G 1 31530 1
+M 1 31520 1 31565
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31528 1 16
+E 1 31535 1 20
+M 1 31521 1 31565
+E 1 31525 1 5
+E 1 31526 1 11
+E 1 31529 1 16
+M 1 31523 4 31566
+M 1 31523 4 31566
+M 1 31523 4 31566
+M 1 31523 4 31566
+O 1 31539 1 31566
+D 0 31566 6 1
+M 1 31524 1 31567
+O 1 31540 1 31567
+D 0 31567 8 1
+D 0 31569 8 1
+D 0 31570 6 1
+D 0 31572 8 1
+D 0 31573 7 1
+D 0 31574 8 1
+D 0 31575 0 1
+D 0 31576 1 1
+D 0 31577 6 1
+D 0 31578 0 0
+M 1 31500 1 31579
+E 1 31501 1 6
+E 1 31502 1 19
+E 1 31503 1 5
+M 1 31528 1 31580
+E 1 31507 1 16
+M 1 31525 6 31581
+E 1 31508 1 16
+M 1 31525 6 31581
+E 1 31508 1 16
+M 1 31525 6 31581
+E 1 31508 1 16
+D 0 31582 7 1
+M 1 31525 6 31583
+E 1 31508 1 16
+M 1 31525 6 31583
+E 1 31508 1 16
+M 1 31525 6 31583
+E 1 31508 1 16
+M 1 31529 2 31584
+M 1 31529 2 31586
+M 1 31526 1 31587
+E 1 31541 1 16
+G 1 31542 1
+G 1 31543 1
+E 1 31544 1 5
+E 1 31545 1 11
+M 1 31532 1 31588
+M 1 31530 1 31589
+E 1 31546 1 16
+E 1 31547 1 5
+E 1 31548 1 11
+E 1 31549 1 1
+G 1 31550 1
+M 1 31531 1 31589
+E 1 31551 1 16
+E 1 31552 1 3
+E 1 31553 1 14
+E 1 31553 1 15
+M 1 31533 1 31590
+D 0 31590 9 1
+D 0 31591 7 1
+M 1 31535 1 31593
+M 1 31536 3 31594
+M 1 31536 3 31594
+M 1 31536 3 31594
+M 1 31537 1 31595
+M 1 31538 3 31598
+M 1 31538 3 31598
+M 1 31538 3 31598
+M 1 31534 1 31599
+E 1 31556 1 18
+E 1 31556 1 16
+E 1 31557 1 10
+M 1 31539 3 31599
+M 1 31539 3 31599
+M 1 31539 3 31599
+M 1 31541 2 31600
+M 1 31541 2 31600
+D 0 31600 8 1
+M 1 31543 3 31603
+M 1 31543 3 31603
+M 1 31543 3 31603
+M 1 31542 1 31604
+M 1 31544 2 31606
+M 1 31544 2 31608
+M 1 31540 1 31609
+M 1 31546 4 31610
+D 0 31610 7 1
+M 1 31545 1 31611
+E 1 31559 1 16
+M 1 31546 4 31613
+M 1 31547 1 31615
+M 1 31546 4 31618
+M 1 31546 4 31618
+D 0 31620 2 0
+D 0 31622 3 2
+M 1 31548 3 31623
+E 1 31560 1 5
+E 1 31561 1 16
+M 1 31548 3 31623
+E 1 31561 1 16
+E 1 31560 1 5
+M 1 31548 3 31623
+E 1 31560 1 5
+E 1 31561 1 16
+D 0 31623 1 2
+M 1 31549 1 31624
+E 1 31561 1 16
+E 1 31560 1 5
+M 1 31550 1 31626
+E 1 31560 1 5
+E 1 31561 1 16
+E 1 31561 1 18
+D 0 31629 1 2
+M 1 31552 3 31630
+E 1 31564 1 16
+E 1 31565 1 5
+M 1 31552 3 31630
+E 1 31564 1 16
+E 1 31565 1 5
+M 1 31552 3 31630
+E 1 31564 1 16
+E 1 31565 1 5
+D 0 31630 3 2
+M 1 31553 1 31631
+M 1 31551 1 31633
+E 1 31558 1 1
+E 1 31562 1 3
+E 1 31563 1 9
+M 1 31556 12 31634
+M 1 31556 12 31634
+M 1 31556 12 31634
+M 1 31557 2 31635
+M 1 31557 2 31635
+M 1 31555 3 31635
+M 1 31556 12 31636
+M 1 31556 12 31636
+M 1 31556 12 31636
+M 1 31556 12 31637
+M 1 31556 12 31637
+M 1 31556 12 31637
+M 1 31555 3 31637
+M 1 31554 1 31638
+D 0 31638 0 2
+M 1 31556 12 31639
+M 1 31556 12 31639
+M 1 31556 12 31639
+M 1 31555 3 31639
+M 1 31560 2 31640
+E 1 31560 1 5
+E 1 31561 1 16
+M 1 31560 2 31640
+E 1 31560 1 5
+E 1 31561 1 16
+D 0 31640 2 2
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31563 7 31643
+M 1 31561 3 31644
+E 1 31566 1 16
+E 1 31560 1 5
+O 1 31567 1 31644
+M 1 31561 3 31645
+E 1 31566 1 16
+E 1 31560 1 5
+O 1 31567 1 31645
+M 1 31561 3 31646
+E 1 31560 1 5
+E 1 31566 1 16
+O 1 31567 1 31646
+M 1 31559 2 31647
+M 1 31559 2 31647
+M 1 31558 1 31648
+M 1 31562 2 31649
+M 1 31562 2 31649
+D 0 31650 3 1
+D 0 31651 0 1
+D 0 31652 2 1
+D 0 31653 0 1
+D 0 31654 0 1
+D 0 31655 0 1
+D 0 31655 2 1
+M 1 31565 6 31656
+M 1 31565 6 31656
+D 0 31656 2 1
+M 1 31565 6 31657
+M 1 31565 6 31657
+D 0 31657 0 1
+M 1 31565 6 31658
+M 1 31565 6 31658
+D 0 31658 2 1
+M 1 31564 1 31659
+E 1 31568 1 12
+D 0 31659 2 1
+M 1 31574 1 31660
+E 1 31569 1 16
+D 0 31660 9 1
+M 1 31575 1 31661
+E 1 31571 1 3
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 31502    3  4  0         160   2         0 23    ; Trose
+0
+
+
+#SPECIALS
+M  31500 spec_cast_cleric
+M  31501 spec_fido
+M  31502 spec_cast_cleric
+M  31503 spec_fido
+M  31506 spec_cast_undead
+M  31507 spec_janitor
+M  31508 spec_fido
+M  31509 spec_poison
+M  31510 spec_janitor
+M  31512 spec_cast_undead
+M  31513 spec_cast_mage
+M  31514 spec_breath_gas
+M  31515 spec_cast_adept
+M  31516 spec_cast_cleric
+M  31517 spec_cast_mage
+M  31518 spec_cast_cleric
+M  31519 spec_cast_mage
+M  31520 spec_cast_cleric
+M  31521 spec_cast_mage
+M  31524 spec_breath_fire
+M  31530 spec_breath_any
+M  31532 spec_fido
+M  31533 spec_breath_frost
+M  31534 spec_cast_mage
+M  31535 spec_cast_cleric
+M  31536 spec_fido
+M  31537 spec_fido
+M  31540 spec_breath_acid
+M  31541 spec_fido
+M  31542 spec_poison
+M  31543 spec_fido
+M  31544 spec_poison
+M  31546 spec_fido
+M  31547 spec_fido
+M  31551 spec_breath_fire
+M  31557 spec_fido
+M  31558 spec_cast_mage
+M  31562 spec_cast_cleric
+M  31564 spec_cast_mage
+M  31565 spec_thief
+M  31566 spec_janitor
+M  31567 spec_fido
+M  31568 spec_poison
+M  31569 spec_janitor
+M  31570 spec_janitor
+M  31571 spec_fido
+M  31572 spec_poison
+M  31573 spec_janitor
+M  31574 spec_breath_gas
+M  31575 spec_cast_adept
+S
+
+
+#$

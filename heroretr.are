@@ -1,0 +1,442 @@
+#AREADATA
+Name Hall of Heroes~
+Builders Kandahar~
+VNUMs 7500 7599
+Credits (null)~
+Security 3
+End
+
+
+
+#MOBILES
+#7500
+librarian~
+the librarian~
+The {Clibrarian{W whispers shhhhh{x.
+~
+~
+Human~
+ABGQVa DFH -1000 0
+150 1800 1d1+120000 1d1+999 1d3000+900 wrath
+-45 -45 -45 -45
+FGK ABCDHJKMNP 0 0
+stand stand none 7500
+AHMV ABCDEFGHIJK medium unknown
+#7501
+Jemini~
+Jemini~
+{MJemini {xwaits to serve you.
+~
+~
+Elf~
+ABGT J 0 0
+150 1800 1d1+120000 1d1+999 6d500+900 none
+-45 -45 -45 -45
+0 ABCDHIJKLQ B Z
+stand stand female 1000000
+AHMV ABCDEFGHIJK medium unknown
+#7502
+Olos~
+Olos~
+The {cbartender{x smiles questioningly at you.
+~
+~
+Human~
+ABGT 0 0 0
+150 1800 1d1+120000 1d1+999 3d1000+900 none
+-45 -45 -45 -45
+0 ABCDHIJKLPQ 0 0
+stand stand male 10000
+AHMV ABCDEFGHIJK medium unknown
+#7503
+mansion guard~
+a Mansion Guard~
+A {Wguard{x stands here, blocking the entrance.
+~
+~
+Dwarf~
+ABGT DFHJV 0 0
+155 1860 100000d1+0 1d1+999 300d1+0 punch
+-150 -150 -150 -150
+FHK ABCDHIJKLMNPQ LQ R
+stand stand none 7750
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 7500 100~
+#7504
+Justine~
+Justine~
+{cA {Cpretty french maid {cdusts here.{x
+~
+{CJustine {cis the maid for the {xHall of Heroes{c.  She is employed to
+enrich their lives and to keep the {xHall{c clean and tidy.  She doesn't
+appreciate being summoned by non-heroes.  And she certainly doesn't
+appreciate being attacked!  You have been warned!  (Heroes of course, may
+summon her to their bidding provided she isn't currently employed helping
+another hero.)  {x 
+~
+Human~
+ABR DFJV 0 0
+85 500 30000d1+1 1000d1+1 300d1+1 slap
+-90 -90 -90 -90
+CFJKN BDHJKLMQT B Z
+stand stand female 500
+AHMV ABCDEFGHIJK small unknown
+#0
+
+
+
+#OBJECTS
+#7500
+roast turkey~
+{rroast {yturkey {xwith {Rcran{Mberry {xsauce~
+A plate of {yturkey {xwith all the trimmings.~
+poultry~
+food T AO
+BEF BEF 0 0 0
+130 1 250 P
+#7501
+pumpkin pie~
+a slice of {ypumpkin pie {xwith {Wwhipped {xcream~
+A slice of {ypumpkin pie {xwith {Wwhipped {xcream on a plate.~
+pumpkin~
+food T AO
+DF DF 0 0 0
+130 1 75 P
+#7502
+obsidian stone~
+an {Dobsidian{x stone~
+A smooth rock shines in the light here.~
+stone~
+warp_stone AT AO
+0 0 0 0 0
+130 1 5000 P
+#7503
+bottle champagne~
+a {gbottle{x of {YChampagne{x~
+An expensive looking {gbottle{x of {YChampagne{x.~
+glass~
+drink T AO
+50 50 'champagne' 0 0
+130 1 500 P
+#7504
+float root beer rootbeer~
+a {rrootbeer{W float{x~
+A glass full of {rrootbeer{x and {Wicecream{x.~
+glass~
+drink T AO
+120 120 'root beer' 0 0
+130 1 250 P
+#7505
+bottle cranberry~
+a bottle of {Rcran{Mberry{x juice~
+A bottle of fresh {Rcran{Mberry {xjuice.~
+glass~
+drink T AO
+120 120 'cranberry juice' 0 0
+130 1 300 P
+#7506
+sheepskin rug~
+a {Wsheepskin rug{x~
+A deep-pile {Wsheepskin rug{x lays here.~
+sheepskin~
+furniture T P
+B EIJKN EHK BCDFGHJ BCDFGHJ
+130 1 0 P
+#7507
+couch~
+a comfortable velvet couch~
+A comfortable {ctwo-seater couch{x.~
+velvet~
+furniture T P
+B EIJKN EHK BCDFGHJ BCDFGHJ
+130 200 0 P
+#7508
+rosewood table~
+a {rrosewood coffee table{x~
+A {rrosewood coffee table{x.~
+rosewood~
+furniture T P
+0 EHI N 0 0
+130 200 0 P
+#7509
+apple pie~
+a slice of {yhome-made {yapple pie{x~
+A slice of {yhome-made {yapple pie{x on a plate.~
+apple~
+food T AO
+DF DF 0 0 0
+130 1 75 P
+#7510
+steak~
+a {Rjuicy {rfillet steak{x~
+A {Rjuicy {rfillet steak{x on a platter.~
+meat~
+food T AO
+CDEF CDEF 0 0 0
+130 1 100 P
+#7511
+coffee jug~
+a jug {xof {ycoffee{x~
+A large {yjug {xof {ycoffee {xsits on the {rtable{x.~
+porcelain~
+fountain T P
+-1 -1 'coffee' 0 0
+130 5000 0 P
+#7512
+iced tea~
+a glass of {Wiced{x-{rt{ye{Ya{x~
+A glass of {Wiced{x-{rt{ye{Ya{x.~
+glass~
+drink T AO
+50 50 'tea' 0 0
+130 1 100 P
+#7513
+flag hero~
+{M>{m>{b>{BHERO FLAG{b<{m<{M<{x~
+A special {M>{m>{b>{BHERO FLAG{b<{m<{M<{x hums here.~
+silk~
+light T AOP
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+130 5 800 P
+A
+13 500
+A
+12 500
+A
+20 -20
+A
+14 100
+A
+18 40
+A
+19 40
+E
+flag~
+{RDO NOT PICK THIS UP if you are NOT A HERO!{x
+{Y(You will be slayed and your corpse eaten!){x
+~
+#0
+
+
+
+#ROOMS
+#7500
+{WThe {GCourtyard{x~
+{gThis courtyard has been lovingly tended, as {mshrubs{g and {Gtrees{g
+grow in secluded clusters, each one a wonder in itself.  There is an area
+set to one side where {Dsparring{g may take place.  The ground is paved with
+{Wflagstones{g of an octagonal shape.  The main {xHall {garea lies to the
+south.  {x 
+~
+0 8208 0
+D2
+~
+~
+0 0 7501
+S
+#7501
+{YA Hallway{x~
+{yOrnately framed {cpaintings{y hang on the tinted walls here and the
+carpet underfoot is a luxurious deep pile.  A {Wdiamante{y chandelier
+dangles from the ceiling bathing the hallway with a {Ywarm glow{y.  The
+{Gcourtyard{y lies to the north and to the west lies the {xHall {mshoppe{y. 
+The entrance to the {xHall{y lies to the far south.  {x 
+~
+0 263176 0
+D0
+~
+~
+0 0 7500
+D2
+~
+~
+0 0 7502
+D3
+~
+~
+0 0 7508
+S
+#7502
+{YA Hallway{x~
+{yThis part of the hallway broadens out and leads off to the east and
+west and further to the north.  The entrance lies at the end of the hallway
+to the south.  Impressive {cpaintings{y are hung on the tinted walls and the
+carpeting underfoot is deep pile, {Yluxurious {yand a {Broyal blue {ycolour.
+{x 
+~
+0 271368 0
+D0
+~
+~
+0 0 7501
+D1
+~
+~
+0 0 7505
+D2
+~
+~
+0 0 7503
+D3
+~
+~
+0 0 7507
+S
+#7503
+{YA Hallway{x~
+{yThe hallway is {Ybrightly lit{y with a huge {Wdiamante{y chandelier
+which dangles from the ceiling.  Ornately framed {cOld Masters{y hang on the
+tinted walls and the {Broyal blue{y carpet underfoot is plush and luxurious.
+No expense has been spared here.  The hallway leads south to the entrance
+and continues further north into the {xHall.  
+~
+0 271368 0
+D0
+~
+~
+0 0 7502
+D2
+~
+~
+0 0 7504
+S
+#7504
+{YThe Entranceway{x~
+{yThis is the entranceway to the {xHall {yof {CHeroes{y.  Lush carpeting
+and superior light fittings adorn this splendid entrance.  Impressive
+{Wwhite marble{y pillars grace the doorway and the whole aura is that of
+luxury and no expense spared.  The {xHall{y continues to the north and to
+the south lies the exit to the main road.  {x 
+~
+0 271368 0
+D0
+~
+~
+0 0 7503
+S
+#7505
+{ML{mounge {MB{mar{x~
+{yThe {Yaura {yof {Yexcellence{y continues into this room which is one of
+the mainstays of the {xHall{y itself.  Cosy yet functional, the bar area
+lies to the south with {ccomfortable armchairs{y and {rrosewood coffee
+tables {yin strategic locations.  The {Mbar{y itself is a magnificent
+creation, with every single glass and bottle in its rightful place.  The
+rest of the lounge continues to the north.  The {Mbar{y also serves food if
+you require it.  {x 
+~
+0 271368 0
+D0
+~
+~
+0 0 7506
+D3
+~
+~
+0 0 7502
+S
+#7506
+{MT{mhe {ML{mounge{x~
+{yPart of the Lounge Bar, this area is purely dedicated to seating and
+relaxing.  {cComfortable armchairs {ywith {rrosewood coffee tables{y have
+been placed around the room.  At the far north lies a magnificent
+{Rf{Yi{Rr{Ye{yplace which in the winter burns a roaring fire.  Scatter rugs
+are dotted around the room, lending to the aura of luxury and excellence. 
+The {Mbar{y area lies to the south.  {x 
+~
+0 271368 0
+D2
+~
+~
+0 0 7505
+S
+#7507
+{CLibrary{x~
+{cThis is the library of the {xHall {cof {CHeroes{c.  It radiates an aura
+of peacefulness and tranquility.  {WSoft lights{c and even softer music
+hover in the background.  Bookshelves line the walls, floor to ceiling and
+there are a few armchairs and a deep-pile {Wsheepkin rug{c lying on the
+floor.  The atmosphere is mellow and relaxing.  {x 
+~
+0 271368 0
+D1
+~
+~
+0 0 7502
+S
+#7508
+Hall {mShoppe{x~
+{yThis is the hustle and bustle area of the {xHall{y, where trading takes
+place on a daily if not hourly basis.  Like the rest of the {xHall{y, this
+room is immaculately furnished and decorated, with the same {Broyal blue{y
+carpet, tinted walls and {Wdiamante{y chandelier.  {cWater colours{y hang on
+the walls framed in simple yet elegant frames.  The hallway lies to the
+east.  {x 
+~
+0 271368 0
+D1
+~
+~
+0 0 7501
+S
+#0
+
+
+
+#SPECIALS
+M 7500 spec_cast_adept
+M 7504 spec_breath_any
+S
+
+
+
+#RESETS
+M 0 7504 1 7501 1
+M 0 7503 1 7504 1
+M 0 7502 1 7505 1
+G 0 7503 0
+G 0 7504 0
+G 0 7505 0
+G 0 7500 0
+G 0 7501 0
+G 0 7509 0
+G 0 7510 0
+G 0 7512 0
+O 0 7507 0 7506
+O 0 7508 0 7506
+O 0 7511 0 7506
+O 0 7506 0 7507
+M 0 7500 1 7507 1
+M 0 7501 1 7508 1
+G 0 7513 0
+G 0 3377 0
+G 0 3376 0
+G 0 3041 0
+G 0 3085 0
+G 0 3040 0
+G 0 7502 0
+G 0 3082 0
+S
+
+
+
+#SHOPS
+7501 5 9 32 33 13 100 100 0 23
+7502 0 19 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#7500
+if level $n < 130
+say Only heroes are admitted into the Hall, $n.
+mob echoat $n $I picks you up and tosses you outside.
+mob echoaround $n $I picks $n up and tosses $m outside.
+mob transfer $n 3302
+else
+say Greetings, $n.  Have fun and remember, all sparring is to be done in the courtyard.
+endif
+~
+#0
+
+#$

@@ -1,0 +1,1336 @@
+#AREA
+
+arena.are~
+
+Arena~
+
+{ 1 5 } Grehyton Caverns~
+
+4600 4699
+
+
+
+#MOBILES
+
+#4600
+
+crazy coot~
+
+Crazy coot is here~
+
+A crazy old coot is here rambling in a strange tongue.
+
+~
+
+Half clothed and dirty, he finds the caves friendlier then
+
+the townsfolk above.
+
+~
+
+human~
+
+AG 0 350 0
+
+4 0 2d7+46 2d9+100 1d5+1 none
+
+6 6 6 9
+
+EFNU 0 0 0
+
+sit sit male 2
+
+0 0 medium 0
+
+#4601
+
+oldstyle zombie~
+
+the rotting zombie~
+
+A rotting zombie is staggering towards you with outstretched hands.
+
+~
+
+Maggots crawl all over its decaying body.
+
+~
+
+human~
+
+AF J -750 0
+
+1 0 2d4+16 2d9+100 1d4+1 none
+
+1 1 1 1
+
+EFNU 0 0 0
+
+stand stand male 2
+
+0 0 medium 0
+
+#4602
+
+oldstyle ghoul~
+
+the ghastly ghoul~
+
+A ghastly ghoul is here.
+
+~
+
+It is a walking corpse with long fangs and long, sharp nails that most of
+
+resemble claws.  Its eyes are a dark yellow colour and glare hungrily at you.
+
+~
+
+human~
+
+AF J -750 0
+
+4 0 2d4+20 3d9+100 1d4+1 none
+
+1 1 1 1
+
+EFNU 0 0 0
+
+stand stand male 5
+
+0 0 medium 0
+
+#4603
+
+oldstyle skeleton~
+
+a dusty skeleton~
+
+A dusty skeleton lies here.
+
+~
+
+The dusty bones are almost brown.  It must have been buried for a very long
+
+time.
+
+~
+
+human~
+
+AF J -750 0
+
+3 0 2d6+35 1d9+100 1d6+0 none
+
+7 7 7 10
+
+EFNU 0 0 0
+
+stand stand male 0
+
+0 0 medium 0
+
+#4604
+
+oldstyle skeleton~
+
+a dusty skeleton~
+
+A dusty skeleton lies here.
+
+~
+
+The dusty bones are almost brown.  It must have been buried for a very long
+
+time.
+
+~
+
+human~
+
+AF J -750 0
+
+3 0 2d6+35 1d9+100 1d6+0 none
+
+7 7 7 10
+
+EFNU 0 0 0
+
+stand stand male 0
+
+0 0 medium 0
+
+#4605
+
+oldstyle zombie~
+
+the rotting zombie~
+
+A rotting zombie is staggering towards you with outstretched hands.
+
+~
+
+Maggots crawl all over its decaying body.
+
+~
+
+human~
+
+AF J -750 0
+
+4 0 2d7+46 2d9+100 1d5+1 none
+
+6 6 6 9
+
+EFNU 0 0 0
+
+stand stand male 5
+
+0 0 medium 0
+
+#0
+
+
+
+#OBJECTS
+
+#4600
+
+candlestick~
+
+a candlestick~
+
+A pewter candlestick is standing here.~
+
+oldstyle~
+
+light 0 AO
+
+0 0 24 0 0
+
+0 50 10 P
+
+E
+
+candlestick~
+
+It is a rather old-looking three-armed candlestick made from pewter.  Its
+
+candles are a yellowish white colour.
+
+~
+
+#4601
+
+xxx bottle~
+
+a xxx bottle~
+
+A xxx bottle is lying here.~
+
+oldstyle~
+
+drink 0 A
+
+32 32 'whisky' 0 0
+
+0 20 100 P
+
+E
+
+brandy bottle~
+
+The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
+
+like a small dragon's head.  Bottles like these are often worth a small
+
+amount money, even when empty.
+
+~
+
+#4602
+
+xxx bottle~
+
+a xxx bottle~
+
+A xxx bottle is lying here.~
+
+oldstyle~
+
+drink 0 A
+
+32 0 'whisky' 0 0
+
+0 20 100 P
+
+#4603
+
+large barrel~
+
+a barrel~
+
+A large barrel is here.~
+
+oldstyle~
+
+boat 0 A
+
+0 0 0 0 0
+
+0 1000 50 P
+
+E
+
+wheelbarrow~
+
+It is a heavy barrel looks as if it might float..
+
+~
+
+#4604
+
+club~
+
+a club~
+
+A club is lying here.~
+
+oldstyle~
+
+weapon 0 AN
+
+mace 1 5 pound 0
+
+0 80 169 P
+
+E
+
+shovel~
+
+It is a large metal club.
+
+~
+
+#4605
+
+rake~
+
+a rake~
+
+A rake is lying here.~
+
+oldstyle~
+
+weapon 0 AN
+
+mace 1 4 claw 0
+
+0 80 140 P
+
+E
+
+rake~
+
+It is a large metal rake with a solid wooden handle.
+
+~
+
+#4610
+
+skeleton~
+
+a dusty skeleton~
+
+A dusty skeleton lies here.~
+
+oldstyle~
+
+furniture 0 A
+
+0 0 0 0 0
+
+0 150 0 P
+
+E
+
+skeleton~
+
+The dusty bones are almost brown.  It must have been buried for a very long
+
+time.
+
+A dusty skeleton is in an excellent condition.
+
+~
+
+#4611
+
+amethyst gem~
+
+a amethyst~
+
+A large, beautifully polished amethyst has been left here.~
+
+oldstyle~
+
+warp_stone T AO
+
+0 0 0 0 0
+
+0 10 2500 P
+
+E
+
+amethyst~
+
+It has a very deep purple colour.
+
+~
+
+#4612
+
+pendant silver~
+
+a silver pendant~
+
+A silver pendant has been left here.~
+
+oldstyle~
+
+jewelry 0 AC
+
+0 0 0 0 0
+
+7 10 800 P
+
+A
+
+1 1
+
+A
+
+17 -1
+
+E
+
+pendant silver~
+
+It resembles Thor's hammer and appears to be made of solid silver.
+
+~
+
+#4613
+
+dagger silver~
+
+a silver dagger~
+
+A long silver dagger is lying here.~
+
+oldstyle~
+
+weapon 0 AN
+
+dagger 2 4 pierce 0
+
+6 10 430 P
+
+A
+
+19 1
+
+E
+
+dagger silver~
+
+It has a long, sharp blade that is made entirely from silver.  A small rune
+
+has been engraved on the blade next to the hilt.
+
+~
+
+#0
+
+
+
+#ROOMS
+
+#4600
+
+Caves of the Arena~
+
+You are standing in some caves under the city. Young adventurers often
+
+come here to increase their skills and gain experience in battle. You
+
+see a ladder heading up to Calinth if you want to leave. 
+
+Be sure to read some of the signs along the way.
+
+~
+
+0 0 2
+
+D1
+
+The cave leads eastwards into dark rock formations.
+
+~
+
+~
+
+0 -1 4650
+
+D2
+
+The cave leads south into dark rock formations.
+
+~
+
+~
+
+0 -1 4601
+
+D3
+
+The cave leads west into dark rock formations.
+
+~
+
+~
+
+0 -1 4606
+
+D4
+
+You see a ladder to Calinth.
+
+~
+
+~
+
+0 -1 3384
+
+S
+
+#4601
+
+A Glowing Cavern~
+
+This cavern is covered with natural gemstones that reflect the
+
+small amounts of light in here. It is quite beautiful.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4600
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4602
+
+S
+
+#4602
+
+A Dripping Cave~
+
+You are in a foul smelling cave with strange glowing fungus growing
+
+on all the rock formations. You hear a faint dripping echoing 
+
+around this area from some unseen source.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4601
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4603
+
+S
+
+#4603
+
+A Rocky Cave~
+
+Piles of rubble and dirt cover the floor inside this section of
+
+the cave. It looks as their has been a recent collapse in the
+
+ceiling. Perhaps the construction in the city above is making 
+
+this section dangerous.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4602
+
+D2
+
+The cave continues southward.
+
+~
+
+~
+
+0 -1 4604
+
+S
+
+#4604
+
+A Small Cave Room~
+
+You are in a tight quartered cave room. It would be difficult
+
+to fight in this space. Perhaps you better get out before 
+
+something finds you.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4603
+
+D1
+
+The cave leads eastwards.
+
+~
+
+~
+
+0 -1 4638
+
+D3
+
+The cave leads westwards..
+
+~
+
+~
+
+0 -1 4618
+
+S
+
+#4606
+
+A Twisting Cave~
+
+The water formed mineral deposits in this cave give it a
+
+spiralling appearance. Other parts have been smoothed by
+
+some water source from long ago.
+
+~
+
+0 0 2
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4600
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4608
+
+D5
+
+~
+
+stone~
+
+1 -1 4607
+
+E
+
+stone~
+
+It is a large irregular stone placed over a forgotten pit.
+
+~
+
+S
+
+#4607
+
+A forgotten Pit~
+
+You are in a dark pit beneath a large stone.
+
+The only exit appears to be up.
+
+~
+
+0 AD 1
+
+D4
+
+~
+
+stone~
+
+1 -1 4606
+
+D5
+
+You see a dark area.
+
+~
+
+~
+
+0 -1 7030
+
+S
+
+#4608
+
+A Cave~
+
+You are in a darker part of the caves now. Sounds of battle
+
+are echoing from somewhere near you. Dripping sounds and
+
+running water are in the distance.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4606
+
+D3
+
+The cave continues westwards.
+
+~
+
+~
+
+0 -1 4610
+
+D5
+
+~
+
+stone~
+
+1 -1 4609
+
+E
+
+stone~
+
+It is a large stone blocking an entrance to somewhere.
+
+~
+
+S
+
+#4609
+
+Forgotten Entrance~
+
+You are in a forgotten sealed up entrance to an ancient mine.
+
+The way is blocked from here and the only exit appears to be
+
+up.
+
+~
+
+0 AD 1
+
+D4
+
+~
+
+stone~
+
+1 -1 4608
+
+S
+
+#4610
+
+A Filthy Cave~
+
+A disgusting cave. Piles of trash and rotting food are scattered
+
+all about. You wonder how most of it got here until you see a
+
+faint bit of light coming from the ceiling. Citizens of Calinth
+
+drop their trash down here.
+
+~
+
+0 0 2
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4608
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4612
+
+D4
+
+You see a way up and out.
+
+~
+
+~
+
+0 -1 3030
+
+S
+
+#4612
+
+{YA Dark Cave{x~
+
+You are in a darker cave section. The rocks look all the same
+
+and you wonder if you will ever get out.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4610
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4614
+
+S
+
+#4614
+
+A Dark Cave~
+
+You are in a dark section of the cave. A faint howling wind can
+
+be heard whistling through the stones on the ceiling.
+
+~
+
+0 0 2
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4616
+
+D3
+
+The cave continues westwards.
+
+~
+
+~
+
+0 -1 4612
+
+S
+
+#4616
+
+A Fungus Cave~
+
+Bits of carrion and rotting corpses are resting on a strange
+
+yellow fungus that is clinging to the stones. When you turn
+
+your head you can almost swear you saw it move.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4614
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4618
+
+S
+
+#4618
+
+A High Cave~
+
+The sloping cave leads into a room with a tremendous view.
+
+A large ceiling and wide open space are quite beautiful.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4616
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4604
+
+S
+
+#4638
+
+A Darkened Cave~
+
+Stained black walls and floor give the cave section an eerie
+
+appearance. It almost seems as if fire raged through here.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4640
+
+D3
+
+The cave continues westwards.
+
+~
+
+~
+
+0 -1 4604
+
+S
+
+#4640
+
+A Cavern~
+
+A large cavern with strange looking stone formations.
+
+Shadows dart behind columns of natural rock as you
+
+move through this cave.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4642
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4638
+
+S
+
+#4642
+
+A Cave~
+
+You are standing in the most generic cave you have ever
+
+seen. There are bats hanging from the ceiling and strange
+
+dripping noises.
+
+~
+
+0 0 2
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4644
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4640
+
+S
+
+#4644
+
+A Strange Cave~
+
+You are standing in one of the strangest looking caves you
+
+have ever seen. It almost looks as if someone made it to 
+
+look naturally formed. But something just isnt quite right.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4646
+
+D3
+
+The cave continues westwards.
+
+~
+
+~
+
+0 -1 4642
+
+S
+
+#4646
+
+A Burial Pit~
+
+You are standing in a jumble of coffins and bones. It appears
+
+parts of the graveyard have collapsed into the caves below
+
+the city.
+
+~
+
+0 0 2
+
+D2
+
+The cavecontinues southwards.
+
+~
+
+~
+
+0 -1 4644
+
+D3
+
+The cavecontinues westwards.
+
+~
+
+~
+
+0 -1 4648
+
+S
+
+#4648
+
+A Wet Grotto~
+
+You are in a medium size cavern, in the center is a small
+
+stagnant looking pool. Fungus grows all around and small
+
+bubbles rise to the surface of the water.
+
+~
+
+0 0 2
+
+D0
+
+The cave continues northwards.
+
+~
+
+~
+
+0 -1 4650
+
+D1
+
+The cave continues eastwards.
+
+~
+
+~
+
+0 -1 4646
+
+S
+
+#4650
+
+A Large Cave~
+
+You are standing in a large cave filled with strange rock
+
+formations. Sounds of battle are coming from somewhere nearby.
+
+~
+
+0 0 2
+
+D2
+
+The cave continues southwards.
+
+~
+
+~
+
+0 -1 4648
+
+D3
+
+The cave continues westwards.
+
+~
+
+~
+
+0 -1 4600
+
+S
+
+#0
+
+
+
+#RESETS
+
+O 0 4610  13 4607	* a dusty skeleton
+
+M 0 4603   4 4609  1	* a dusty skeleton
+
+G 1 4601  -1     	*   a brandy bottle
+
+G 1 4612  -1     	*   a silver pendant
+
+O 0 4610  13 4646	* a dusty skeleton
+
+M 0 4603   4 4646  1	* a dusty skeleton
+
+O 0 4610  13 4646	* a dusty skeleton
+
+O 0 4603   5 4646	* a wheelbarrow
+
+M 0 4601   1 4646  1	* the rotting zombie
+
+G 1 4611  -1     	*   a amethyst
+
+O 0 4610  13 4646	* a dusty skeleton
+
+M 0 4603   4 4646  1	* a dusty skeleton
+
+M 0 4604   4 4646  1	* a dusty skeleton
+
+M 0 4604   4 4600  1	* a dusty skeleton
+
+M 0 4604   4 4646  1	* a dusty skeleton
+
+M 0 4604   4 4600  1	* a dusty skeleton
+
+M 0 4605   3 4646  1	* the rotting zombie
+
+M 0 4605   3 4646  1	* the rotting zombie
+
+M 0 4605   3 4610  1	* the rotting zombie
+
+S
+
+
+
+#SHOPS
+
+0
+
+
+
+#SPECIALS
+
+M 4601 spec_cast_undead    	* the rotting zombie
+
+M 4602 spec_cast_undead    	* the ghastly ghoul
+
+M 4603 spec_cast_undead    	* a dusty skeleton
+
+M 4604 spec_cast_undead    	* a dusty skeleton
+
+M 4605 spec_cast_undead    	* the rotting zombie
+
+S
+
+
+
+#$
+

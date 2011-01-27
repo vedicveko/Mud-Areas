@@ -1,0 +1,1094 @@
+#AREA   { 1 5} Yaegar Playground~
+
+
+#MOBILES
+#3725
+bully~
+a playground bully~
+A playground bully wanders around looking for someone's lunch to steal.
+~
+This socially maladjusted brat is going to make life a misery for some poor
+soul, so why don't you finish him off? But be careful- he's BAD.
+~
+32 0 -400 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3726
+little boy~
+a little boy~
+A little boy with a lollipop stares curiously at you.
+~
+What a yucky, irritating little brat. Waste 'im :)
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3727
+little girl~
+a little girl~
+A little girl with a hula-hoop stares curiously at you.
+~
+What a yucky, irritating little brat. Waste 'er :)
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3728
+stray dog~
+a stray dog~
+A stray dog wanders the yard looking for scraps.
+~
+Who let this mongrel in? Well, you better kill him- the council will put him
+down if they catch him anyway.
+~
+4|128 0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3729
+supervisor teacher~
+a class supervisor~
+A class supervisor idly watches her charges frolic.
+~
+She looks very bored, so why don't you liven up her dull life a little?
+~
+128 0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#3730
+bird~
+a bird~
+A bird pecks at some food scraps on the ground.
+~
+This pushy little scavenger is a menace to the playground. The again, so are
+you...
+~
+4 0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#3731
+beetle bug~
+a beetle~
+A tiny beetle hastens along to avoid being squashed by careless kids.
+~
+This stout little fellow has so far managed to avoid being killed... maybe
+its luck has run out?
+~
+1 0 0 S
+0 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#3732
+geek~
+the class geek~
+The class geek sulks by himself here.
+~
+This geek was once the butt of everyone's jokes and everyone ridiculed him
+and he had no friends. So, he taught himself martial arts and kicked their
+butts, but now he still has no friends because they are petrified of him...
+~
+32 0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#3733
+mugger~
+a mugger~
+This shady character waits around the schoolyard to nab potential victims.
+~
+He's bad, he smells and he's probably a pervert. But he'll probably get you
+before you get him so don't be afraid to run.
+~
+4|32 0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#ROOMS
+#3725
+Southwest Corner of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3730
+D1
+~
+~
+0 -1 3726
+D4
+~
+~
+0 -1 3750
+S
+#3726
+Southern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3731
+D1
+~
+~
+0 -1 3727
+D3
+~
+~
+0 -1 3725
+D4
+~
+~
+0 -1 3750
+S
+#3727
+Southern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3732
+D1
+~
+~
+0 -1 3728
+D3
+~
+~
+0 -1 3726
+D4
+~
+~
+0 -1 3750
+S
+#3728
+Southern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3733
+D1
+~
+~
+0 -1 3729
+D3
+~
+~
+0 -1 3727
+D4
+~
+~
+0 -1 3750
+S
+#3729
+Southeast Corner of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3734
+D3
+~
+~
+0 -1 3728
+D4
+~
+~
+0 -1 3750
+S
+#3730
+Western Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3735
+D1
+~
+~
+0 -1 3731
+D2
+~
+~
+0 -1 3725
+D4
+~
+~
+0 -1 3750
+S
+#3731
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3736
+D1
+~
+~
+0 -1 3732
+D2
+~
+~
+0 -1 3726
+D3
+~
+~
+0 -1 3730
+D4
+~
+~
+0 -1 3750
+S
+#3732
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3737
+D1
+~
+~
+0 -1 3733
+D2
+~
+~
+0 -1 3727
+D3
+~
+~
+0 -1 3731
+D4
+~
+~
+0 -1 3750
+S
+#3733
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3738
+D1
+~
+~
+0 -1 3734
+D2
+~
+~
+0 -1 3728
+D3
+~
+~
+0 -1 3732
+D4
+~
+~
+0 -1 3750
+S
+#3734
+Eastern Wall of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3739
+D2
+~
+~
+0 -1 3729
+D3
+~
+~
+0 -1 3733
+D4
+~
+~
+0 -1 3750
+S
+#3735
+Western Wall of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3740
+D1
+~
+~
+0 -1 3736
+D2
+~
+~
+0 -1 3730
+D4
+~
+~
+0 -1 3750
+S
+#3736
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3741
+D1
+~
+~
+0 -1 3737
+D2
+~
+~
+0 -1 3731
+D3
+~
+~
+0 -1 3735
+D4
+~
+~
+0 -1 3750
+S
+#3737
+Central Area of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+
+A gaping hole in the ground here allows access to a darker, more evil
+playground... There is a sign you can look at nearby.
+~
+0 0 1
+D0
+~
+~
+0 -1 3742
+D1
+~
+~
+0 -1 3738
+D2
+~
+~
+0 -1 3732
+D3
+~
+~
+0 -1 3736
+D4
+~
+~
+0 -1 3750
+D5
+~
+~
+0 -1 3751
+E
+sign~
+WARNING! The playground below is unattended by staff or supervisors and as
+such we can make no guarantee of your safety. Aggressive creatures have been
+known to inhabit this area.
+
+--The Management.
+~
+S
+#3738
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3743
+D1
+~
+~
+0 -1 3739
+D2
+~
+~
+0 -1 3733
+D3
+~
+~
+0 -1 3737
+D4
+~
+~
+0 -1 3750
+S
+#3739
+Eastern Wall of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3744
+D2
+~
+~
+0 -1 3734
+D3
+~
+~
+0 -1 3738
+D4
+~
+~
+0 -1 3750
+S
+#3740
+Western Wall of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3745
+D1
+~
+~
+0 -1 3741
+D2
+~
+~
+0 -1 3735
+D4
+~
+~
+0 -1 3750
+S
+#3741
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3746
+D1
+~
+~
+0 -1 3742
+D2
+~
+~
+0 -1 3736
+D3
+~
+~
+0 -1 3740
+D4
+~
+~
+0 -1 3750
+S
+#3742
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3747
+D1
+~
+~
+0 -1 3743
+D2
+~
+~
+0 -1 3737
+D3
+~
+~
+0 -1 3741
+D4
+~
+~
+0 -1 3750
+S
+#3743
+The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3748
+D1
+~
+~
+0 -1 3744
+D2
+~
+~
+0 -1 3738
+D3
+~
+~
+0 -1 3742
+D4
+~
+~
+0 -1 3750
+S
+#3744
+Western Wall of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+~
+~
+0 -1 3749
+D2
+~
+~
+0 -1 3739
+D3
+~
+~
+0 -1 3743
+D4
+~
+~
+0 -1 3750
+S
+#3745
+Northwestern Corner of The Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D1
+~
+~
+0 -1 3746
+D2
+~
+~
+0 -1 3740
+D4
+~
+~
+0 -1 3750
+S
+#3746
+Northern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D1
+~
+~
+0 -1 3747
+D2
+~
+~
+0 -1 3741
+D3
+~
+~
+0 -1 3745
+D4
+~
+~
+0 -1 3750
+S
+#3747
+Northern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D0
+entrance to nursery school~
+~
+1 0 3700
+D1
+~
+~
+0 -1 3748
+D2
+~
+~
+0 -1 3742
+D3
+~
+~
+0 -1 3746
+D4
+~
+~
+0 -1 3750
+S
+#3748
+Northern Wall of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D1
+~
+~
+0 -1 3749
+D2
+~
+~
+0 -1 3743
+D3
+~
+~
+0 -1 3747
+D4
+~
+~
+0 -1 3750
+S
+#3749
+Northeastern Corner of the Playground~
+You are standing in a crowded playground, full of small children giggling
+merrily as they frolic and enjoy themselves in activities such as hopscotch,
+skipping, playing in the sandpits and clambering over the jungle bars. Bored
+teachers cast a cursory glance every now again to make sure none of them 
+have died, but other than that its a carefree environment. Time to raise
+cain :).
+
+If the children prove to be too much, you can always flee up the jungle bars.
+~
+0 0 1
+D2
+~
+~
+0 -1 3744
+D3
+~
+~
+0 -1 3748
+D4
+~
+~
+0 -1 3750
+S
+#3750
+The Top of the Jungle Bars~
+Whew! That was close! Lucky those nasty kids didn't get their foul mitts on
+you! You notice a shimmering portal up from here, through which you can
+ascend...
+~
+0 4|1024 0
+D4
+outside the temple~
+~
+0 -1 31000
+S
+#3751
+Below The Playground~
+The playground above was constructed atop another, older playground that
+had fallen into ruin. Careless workmen didn't entirely seal it off, however,
+and it is now a refuge for derelicts, rejects and shady characters who will
+be most indisposed toward you. You are safe here, as the teachers above can
+still keep an eye on you, but if you proceed into the inky darkness of the
+ruins in any direction, anything could happen...
+~
+0 4|1024 0
+D0
+~
+~
+0 -1 3753
+D1
+~
+~
+0 -1 3756
+D2
+~
+~
+0 -1 3758
+D3
+~
+~
+0 -1 3755
+D4
+~
+~
+0 -1 3737
+S
+#3752
+Northwestern Corner of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D1
+~
+~
+0 -1 3753
+D2
+~
+~
+0 -1 3755
+S
+#3753
+Northern Wall of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D1
+~
+~
+0 -1 3754
+D2
+~
+~
+0 -1 3751
+D3
+~
+~
+0 -1 3752
+S
+#3754
+Northeastern Corner of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D2
+~
+~
+0 -1 3756
+D3
+~
+~
+0 -1 3753
+S
+#3755
+Western Wall of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D0
+~
+~
+0 -1 3752
+D1
+~
+~
+0 -1 3751
+D2
+~
+~
+0 -1 3757
+S
+#3756
+Eastern Wall of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D0
+~
+~
+0 -1 3754
+D2
+~
+~
+0 -1 3759
+D3
+~
+~
+0 -1 3751
+S
+#3757
+Southwestern Corner of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D0
+~
+~
+0 -1 3755
+D1
+~
+~
+0 -1 3758
+S
+#3758
+Southern Wall of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D0
+~
+~
+0 -1 3751
+D1
+~
+~
+0 -1 3759
+D3
+~
+~
+0 -1 3757
+S
+#3759
+Eastern Wall of the Old Playground~
+You step carefully through the rubble and debris of the old playground, 
+warily alert for signs of any aggressive foes. Screams and evil laughter
+reach your ears, and you shiver uncomfortably, praying that your light
+doesn't run out...
+~
+0 1 0
+D0
+~
+~
+0 -1 3756
+D3
+~
+~
+0 -1 3758
+S
+#0
+
+
+#RESETS
+*
+D 0 3747 0 1          CLOSES DOOR TO SCHOOL
+*
+M 1 3726 4 3729       LITTLE BOYS   
+M 1 3727 4 3732       LITTLE GIRLS    
+M 1 3728 4 3735       DOGS   
+M 1 3729 2 3738       SUPERVISORS   
+M 1 3730 5 3741       BIRDS 
+M 1 3731 5 3744       BEETLES
+M 1 3729 1 3747       SUPERVISORS 
+M 1 3725 2 3752       BULLIES
+M 1 3732 2 3755       GEEKS
+M 1 3733 2 3758       MUGGERS
+S
+
+
+#$

@@ -1,0 +1,959 @@
+#AREA
+Plane of the Mortals~
+K players~
+L @@W{@@mRMORT@@W}@@N~
+N 27
+I 70 120
+V 1100 1149
+X 0
+F 15
+U You hear the screams of the Dead within your head.~
+O stephen~
+R stephen~
+W stephen~
+T You can teleport into here
+#ROOMS
+#1146
+The Secret Garden~
+This small garden is built on the roof of part of the Players' Rooms.
+Lush green grass softly ripples around your legs, while unseen birds
+serenade you with their sweet song.  On the bushes that encompass this
+area, small, brightly-coloured butterflies flutter back and forth,
+while a soft breeze helps to keep you cool and relaxed.
+~
+17935 0
+D4
+~
+~
+8 -1 1145
+S
+#1145
+On A High Up Ledge~
+This small, narrow ledge is constructed out of metal, and forms a walkway
+around the Observation Room to the East.  From here, you seem uninterested
+in the amazing view, and more worried about not falling to the ground, many
+tens of feet below you.
+~
+18452 1
+D1
+~
+~
+481 1145 1144
+D5
+~
+~
+8 -1 1146
+S
+#1144
+The Observation Room~
+This small room is situated above the level of the Player's Rooms, and the
+adjacent Temple and buildings of Midgaard.
+Circular in shape, with a domed roof, this room offers clear views across
+Midgaard and the surrounding area.  Far off to the West, you can sometimes
+watch the Sun glint off the ocean.
+ 
+There are no walls as such here; instead the whole room appears to be
+constructed out of the finest quality glass.  Outside the windows, a
+small metal walkway encircles the structure, although you are unable to
+work out any way to gain access to it.  Even if you could, balancing on
+such a thin strip of metal this high up could be tricky...  Instead, why
+not just sit a while, and enjoy the view, letting your worries fade away?
+~
+17934 0
+D3
+~
+~
+481 1145 1145
+S
+#1140
+A Tiny Alcove~
+You are in a tiny alcove, which is just the right size to hold a bulletin board.
+~
+8 0
+D0
+~
+~
+0 -1 1116
+S
+#1136
+New room~
+No description~
+0 0
+D1
+~
+~
+0 -1 1132
+S
+#1135
+New room~
+No description~
+0 0
+D0
+~
+~
+0 -1 1131
+S
+#1134
+New room~
+No description~
+0 0
+D3
+~
+~
+0 -1 1130
+S
+#1132
+The Templars' Guild~
+Description to come...
+~
+0 0
+D1
+A small, dusty chamber.
+~
+~
+0 -1 1124
+D3
+~
+~
+0 -1 1136
+S
+#1131
+The Conjuerers' Guild~
+Description to come....
+~
+0 0
+D0
+~
+~
+0 -1 1124
+D2
+~
+~
+0 -1 1135
+S
+#1130
+The Rangers' Guild~
+No description~
+0 0
+D1
+~
+~
+0 -1 1134
+D3
+A small, dusty chamber.
+~
+~
+0 -1 1124
+S
+#1126
+The Training Room~
+This is where disciples of the Way come to advance their skills. 
+Due to the complexity of advancing one's Knowledge, only one disciple may
+enter at any one time.  Your Guild room is to the south.
+~
+1548 0
+D2
+Your Guild room.
+~
+~
+0 -1 1125
+S
+#1125
+The Psionicist's Guild~
+This is where the Psionicists gather, whether they be beginners in the Way,
+or true Mindbenders.  The room is fairly small, with small cushions littered
+about the place for Psionicists to rest and meditate.
+The chamber lies to the south, and your training room to the north.
+~
+1036 0
+D0
+The Training Room.
+~
+~
+0 -1 1126
+D2
+The Chamber.
+~
+~
+0 -1 1124
+S
+#1124
+A small, dusty chamber~
+You are in a small chamber, below Guild square.  This chamber was built to
+accomadate the new guilds of this Realm.  The chamber itself is square, with
+rounded corners.  Stone stairs lead up to Guild Square, and a small spiral
+staircase winds down below you.
+~
+12 0
+D0
+The Psionicist's Guild.
+~
+~
+0 -1 1125
+D1
+Rangers' Guild.
+~
+~
+0 -1 1130
+D2
+Conjuerers's Guild.
+~
+~
+0 -1 1131
+D3
+Templar's Guild
+~
+~
+0 -1 1132
+D4
+Guild Square.
+~
+~
+0 -1 1104
+D5
+The Player's Bar.
+~
+~
+0 -1 1122
+S
+#1123
+The Disused Wine Cellar~
+This small, cold room has definitely seen better days.  Dust covers everything
+in this room - the ceiling included.  There are numerous broken bottles 
+littering the floor, and some old barrels have been left stacked against the
+west wall.
+~
+12 0
+D4
+The Trapdoor.
+~
+trapdoor~
+1 -1 1122
+E
+ceiling~
+@@bYou notice a small trap door.@@N~
+E
+barrels~
+@@WBehind the barrels, you notice a small tunnel.@@N~
+S
+#1122
+The Player's Bar~
+This is surely the largest room within the area of the Player's Rooms.
+A huge gleaming bar stretches across the far wall, manned by a single bartender
+who never appears to be over or underworked.  Stools line the bar, and the rest
+of the room is occupied by small and large tables, with an assortment of
+chairs surrounding them.  A small spiral staircase leads up.
+~
+1036 0
+D4
+The chamber.
+~
+~
+0 -1 1124
+D5
+A small, dusty trapdoor.
+~
+trapdoor~
+1 -1 1123
+S
+#1121
+The Training Room~
+This is where you come to become well-versed in your Spells and Skills.
+Your Guild Room lies to the East.
+~
+1036 0
+D1
+Your Guild Room.
+~
+~
+0 -1 1108
+S
+#1120
+Mage's Laboratory~
+This is the Magical Experiments Laboratory.  Dark smoke-stained stones
+arch over numerous huge oaken tables, most of these cluttered with strange-
+looking pipes and flasks.  The floor is covered with half-erased pentagrams
+and even weirder symbols, and a blackboard in a dark corner has only been
+partially cleaned, some painful-looking letters faintly visible.  
+Your Guild Room lies to the North.
+~
+1036 0
+D0
+Your Guild Room.
+~
+~
+0 -1 1107
+E
+letters blackboard board~
+You see the words: "Fear is the Mind Killer"
+~
+S
+#1119
+The Training Room~
+This is where you come to become well-versed in your Spells and Skills.
+Your Guild Room lies to the West.
+~
+1036 0
+D3
+Your Guild Room.
+~
+~
+0 -1 1106
+S
+#1118
+Cleric's Inner Sanctum~
+This is the inner sanctum.  A picture of the mighty Thor, is hanging on
+the wall, just above the altar which is set against the western wall.  
+Your Guild Room lies to the South.
+~
+1036 0
+D2
+Your Guild Room.
+~
+~
+0 -1 1105
+E
+altar~
+A still quivering sheep lies here as a sacrifice to the Mighty Thor.
+~
+S
+#1117
+The Info Room~
+This grand room houses the Rules Board.  Maybe you should read it??
+~
+12 0
+D1
+A small, round room.
+~
+~
+0 -1 1114
+E
+board~
+Umm this is a fake board.  The real one is broke.
+~
+E
++notice~
+~
+S
+#1116
+The Gossip Room~
+The Gossip Room, as it's name implies, is the suggested room for players to
+congregate, rest and talk about any subject.  The way out is to the North.
+~
+14 0
+D0
+A small, round room.
+~
+~
+0 -1 1114
+D2
+~
+~
+0 -1 1140
+S
+#1115
+The PK Room!~
+This room is provided to enable disputing players to fight to the death,
+without gaining Player Killing Flags.  The way out is to the South.
+~
+140 0
+D2
+A small, round room.
+~
+~
+0 -1 1114
+S
+#1114
+A Small, Round Room~
+You are in a small round room, which serves as an area between the surrounding
+rooms.  Exits lead north, east, south and west.
+~
+8 0
+D0
+The PK Room.
+~
+~
+0 -1 1115
+D1
+The Lobby.
+~
+~
+0 -1 1103
+D2
+The Gossip Room.
+~
+~
+0 -1 1116
+D3
+The Info Room.
+~
+~
+0 -1 1117
+S
+#1113
+A Privacy Booth~
+These Booths are designed to only allow a maximum of two players to enter.
+Please use them for whatever purpose you see fit.  The way out is to the East.
+~
+1548 0
+D1
+The Landing.
+~
+~
+0 -1 1109
+S
+#1112
+A Privacy Booth~
+These Booths are designed to only allow a maximum of two players to enter.
+Please use them for whatever purpose you see fit.  The way out is to the North.
+~
+1548 0
+D0
+The Landing.
+~
+~
+0 -1 1109
+S
+#1111
+A Privacy Booth~
+These Booths are designed to only allow a maximum of two players to enter.
+Please use them for whatever purpose you see fit.  The way out is to the West.
+~
+1548 0
+D3
+The Landing.
+~
+~
+0 -1 1109
+S
+#1110
+A Privacy Booth~
+These Booths are designed to only allow a maximum of two players to enter.
+Please use them for whatever purpose you see fit.  The way out is to the South.
+~
+1548 0
+D2
+The Landing.
+~
+~
+0 -1 1109
+S
+#1109
+The Landing~
+You are on the Landing of the Privacy Suite, built above the Lobby of the
+Player's Rooms.  There are four privacy booths here, situated to the north,
+east, south and west.  Each room will hold a *maximum* of two players.  Stairs
+lead down back to the Lobby.
+~
+12 0
+D0
+A Privacy Booth.
+~
+~
+0 -1 1110
+D1
+A Privacy Booth.
+~
+~
+0 -1 1111
+D2
+A Privacy Booth.
+~
+~
+0 -1 1112
+D3
+A Privacy Booth.
+~
+~
+0 -1 1113
+D5
+The Lobby.
+~
+~
+0 -1 1103
+S
+#1108
+The Warrior's Room~
+This room is provided solely for the use of those belonging to the Warrior's
+Guild.  You can discuss new strategies with Guild members, devise new attack
+methods, or even suggestions to aid your Guild.  It's also a cool place in
+which to hang out!  Guild Sqaure is East, the training room lies to the West.
+~
+1036 0
+D1
+Guild Square.
+~
+~
+0 -1 1104
+D3
+The Training Room.
+~
+~
+0 -1 1121
+S
+#1107
+The Mage's Room~
+This room is provided solely for the use of those belonging to the Mage's
+Guild.  It is intended to be used as a room to discuss spells, and perhaps
+suggestions for new spells.  It also makes a pretty select place to hang out!
+Guild Square is to the North, and the training room is South.
+~
+1036 0
+D0
+Guild Square.
+~
+~
+0 -1 1104
+D2
+Mage's Laboratory
+~
+~
+0 -1 1120
+S
+#1106
+The Thief's Room~
+This room is provided solely for the use of those belonging to the Thief's
+Guild.  Everything here is nailed to the floor, for some strange reason.
+This room can be used to discuss new tactics, ideas or just for somewhere to
+hangout.  Guild Square is West, and the training room is East.
+~
+1036 0
+D1
+The Training Room.
+~
+~
+0 -1 1119
+D3
+Guild Square.
+~
+~
+0 -1 1104
+S
+#1105
+The Cleric's Room~
+This room is provided solely for the use of those belonging to the Cleric's
+Guild.  It can be used as an room to discuss new ideas for Cleric spells, to
+get information from fellow guild members, or just as somewhere to hang out.
+The Guild Square is to the South, and the Training room is to the North.
+~
+1036 0
+D0
+Cleric's Inner Sanctum.
+~
+~
+0 -1 1118
+D2
+Guild Square.
+~
+~
+0 -1 1104
+S
+#1104
+Guild Square~
+Guild Square, situated below the Grand Lobby, forms a central area from which
+the seperate guild rooms are built round.  These rooms are only open to players
+of *that* guild, and may be reached by use of the GUILD command, or by simply 
+walking into YOUR room.  Small steps lead back upstairs, whilst some dusty
+stone stairs leads further down.
+~
+8 0
+D0
+Clerics' Rooms.
+~
+~
+0 -1 1105
+D1
+Thiefs' Rooms.
+~
+~
+0 -1 1106
+D2
+Mages' Rooms.
+~
+~
+0 -1 1107
+D3
+Warriors' Rooms.
+~
+~
+0 -1 1108
+D4
+The Lobby.
+~
+~
+0 -1 1103
+D5
+It looks murky down there.
+~
+~
+0 -1 1124
+S
+#1103
+The Lobby~
+You are in the Lobby of the Player's Rooms.  This grand room is slightly
+cold, like a train station on an Autumn morning.  You sense a general bustle,
+and can hear the mumbles and giggles of other players pursuing their interests.
+There are small, rock steps leading down towards where most of the noise is
+coming from.  Wide, wooden steps lead up, whilst doors are set into the east
+and west walls.
+~
+8 0
+D1
+The Passage.
+~
+~
+0 -1 1102
+D3
+A small, round room.
+~
+~
+0 -1 1114
+D4
+The Privacy Suite.
+~
+~
+0 -1 1109
+D5
+Guild Square.
+~
+~
+0 -1 1104
+S
+#1102
+The Passage~
+You are now in a passage between the Entrance Hall to the east and the Lobby
+to the west.
+~
+8 0
+D1
+The Entrance Hall.
+~
+~
+0 -1 1101
+D2
+~
+~
+481 1106 1100
+D3
+The Lobby.
+~
+~
+0 -1 1103
+S
+#1101
+The Entrance Hall~
+You are within the Entrance to the Player's Room, a collection of rooms
+provided for players to meet privately, settle disputes, or just to chat.
+This room is of similar construction to the Temple, but with a lower ceiling.
+Hidden light sources make the marble walls gleam brightly.  Exits lead east
+and west.
+~
+8 0
+D1
+The Temple of Midgaard.
+~
+~
+0 -1 3001
+D3
+The Passage.
+~
+~
+0 -1 1102
+S
+#1100
+@@mRemortals' Sanctuary@@N~
+This is where all the Remortals of the Realm gather to relax and chat,
+share war stories or plan their strategies.
+A soft light emanates from the walls and comfortable rugs and cushions
+abound.
+ 
+~
+1036 0
+D0
+~
+~
+481 1106 1102
+S
+#0
+#MOBILES
+#1106
+guildmaster master~
+the guildmaster~
+Your guildmaster is standing here.
+~
+You are in no doubt that this guildmaster is truly close to your god; he has
+a peaceful, loving look. You notice that he is surrounded by a white aura.
+You sense that he could destroy your mind with the slightest thought.
+~
+1027 128 1000 S
+76 1
+0 0 0
+! 0 0 0 7 0 0 0
+#1105
+al bartender~
+Al the Bartender~
+Al the Bartender stands behind the bar, waiting for your order.
+~
+Al the Bartender is a short, fat, round kind of guy, always cleaning glasses,
+with the help of some spit and a dirty cloth.  He looks just that little bit
+strange, ya know?  Enough for you to notice, but not enough to make you really
+think about it.  He flashes a quick smile at you.
+~
+515 533180 900 S
+75 1
+-1000 500 500
+! 0 0 0 7 0 0 0
+>greet_prog 100~
+if ispc($n)
+        say Greetings, $n
+        bow $n
+endif
+~
+>act_prog p smiles at you.~
+say A smile a day keeps the Doctor away!
+   emote gets back to cleaning his glasses.
+~
+>act_prog p opens the trapdoor.~
+say Just the cellar down there... and that's empty.
+   sigh
+   emote spits into the glass he is cleaning.
+~
+>rand_prog 2~
+emote leans towards you.
+   say They say it gets hot this year.  Very hot.
+~
+>rand_prog 10~
+emote starts on a new glass, and spits twice for good measure.
+~
+|
+#1104
+guildmaster master~
+the guildmaster~
+Your guildmaster is standing here.
+~
+This is your master.  Big and strong with bulging muscles.  Several scars
+across his body prove that he was using arms before you were born.  He
+has a calm look on his face.
+~
+1027 0 1000 S
+82 1
+0 0 0
+! 0 0 0 7 0 0 0
+#1103
+guildmaster master~
+the guildmaster~
+Your guildmaster is standing here.
+~
+You realize that whenever your guildmaster moves, you fail to notice it:
+the way of the true thief.  She is dressed in poor clothing, having
+the appearance of a beggar.
+~
+1027 0 1000 S
+79 2
+0 0 0
+! 0 0 0 7 0 0 0
+#1102
+guildmaster master~
+the guildmaster~
+Your guildmaster is standing here.
+~
+You are in no doubt that this guildmaster is truly close to your god; he has
+a peaceful, loving look. You notice that he is surrounded by a white aura.
+~
+1027 128 1000 S
+75 1
+0 0 0
+! 0 0 0 7 0 0 0
+#1101
+guildmaster master~
+the guildmaster~
+Your guildmaster is standing here.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses. She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+1027 0 1000 S
+73 2
+0 0 0
+! 0 0 0 7 0 0 0
+#0
+#OBJECTS
+#1147
+seat~
+a wooden garden seat~
+A very old, well-worn oak garden seat is tucked away in one corner.~
+12 64 0 1
+2 0 0 0
+1
+L
+1
+#1146
+fountain~
+a small china fountain~
+A small china fountain gurgles away sweetly to itself.
+~
+25 64 0 1
+0 0 0 0
+1000
+L
+1
+#1145
+glass key~
+a glass key~
+An Important Looking Glass Key Lies Here.~
+1 0 1 1
+0 0 0 0
+1
+L
+1
+#1144
+seat~
+a small, circular seat~
+A small, circular seat is in the middle of the room.~
+12 64 0 1
+2 0 0 0
+200
+L
+1
+#1141
+board~
+the Lovers' Board~
+The Lovers's Board is here, stuck to the wall with four arrows.~
+27 0 0 1
+14 1 1 1141
+10000
+L
+1
+#1117
+board~
+the Info board~
+The Info Board is here, holding Rules, and General Information.
+~
+27 0 0 1
+365 1 82 1117
+1
+L
+1
+#1105
+pepsi~
+a can of Pepsi~
+A can of Pepsi lies forgotten on the floor.
+~
+17 0 1 1
+4 4 15 0
+5
+L
+1
+#1104
+jack daniel's whisky~
+a glass of Jack Daniel's~
+A glass of Jack Daniel's lies on the floor.
+~
+17 0 1 1
+4 4 5 0
+5
+L
+1
+#1103
+wine~
+a glass of wine~
+A bottle of quality red wine has been left here.
+~
+17 0 1 1
+4 4 2 0
+5
+L
+1
+#1102
+beer~
+a bottle of beer~
+A bottle of warm beer has been left here.
+~
+17 0 1 1
+4 4 1 0
+5
+L
+1
+#1101
+spring water~
+a bottle of spring water~
+A small bottle of local spring water has been left here.
+~
+17 0 1 1
+4 4 0 0
+5
+L
+1
+#1100
+board~
+@@bBoard@@N~
+@@bAn ancient board for Remortals' scribbles@@N~
+27 0 0 1
+30 35 35 1100
+1
+L
+1
+#1106
+key~
+@@bAncient key of the @@mRemortals@@N~
+@@bAncient key of the @@mRemortals' Sanctum@@N~
+4 0 1 1
+0 0 0 -1
+1
+L
+80
+#1107
+wed board~
+@@eS@@do@@eE@@W's @@yWedding @@aBoard@@N~
+@@eS@@do@@eE@@W's @@yWedding @@aBoard@@N
+~
+27 1 0 1
+60 1 1 1107
+1000
+L
+1
+#0
+#SHOPS
+1105 17 2 8 18 13 550 10 0 23
+0
+#RESETS
+M 0 1101 1 1120       The Magic Users Guildmaster
+M 0 1102 1 1118       The Clerics Guildmaster
+M 0 1103 1 1119       The Thieves Guildmaster
+M 0 1104 1 1121       The Warrior's Guildmaster
+M 0 1106 1 1126       The Psionicist's Guildmaster  
+M 0 1105 1 1122       Al the Bartender
+G 0 1101 0            Give Al the water
+G 0 1102 0            Give Al the beer
+G 0 1103 0            Give Al the wine
+G 0 1104 0            Give Al the whisky
+G 0 1105 0            Give Al the Pepsi
+D 0 1122 5 1 
+D 0 1123 4 1 
+O 0 1117 0 1117 (null)
+
+O 0 1144 0 1144 (null)
+
+D 0 1145 1 1 (null)
+
+D 0 1145 1 2 (null)
+
+D 0 1144 3 1 (null)
+
+D 0 1144 3 2 (null)
+
+O 0 1146 0 1146 (null)
+
+O 0 1147 0 1146 (null)
+
+D 0 1102 2 1 (null)
+
+O 0 1100 0 1100 (null)
+
+D 0 1100 0 2 (null)
+
+O 0 1107 0 1109 (null)
+
+S
+#$

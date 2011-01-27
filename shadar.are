@@ -1,0 +1,2579 @@
+#AREA
+DSA Format~
+shadar.are~
+Shadar Logoth~
+[20 40] Odin     Shadar Logoth~
+35600 35699
+Descr
+No description.
+~
+Bldrs Odin~
+Sec 4
+Levels 20 40
+Flags B
+End
+#HELPS
+Shadar Logoth is based on the Wheel of Time books by Robert Jordan.  
+The city has been empty and long forgotten by many.  It is cursed by the 
+Mashadar, the fog which will kill anything it touches.
+
+Shadar Logoth was written by Odin for Devil's Silence MUD
+(ds.ruinsmud.com:5000).  It is being used with the understanding
+that the area will remain relatively intact and that the help file shall
+not change, only changes to hp/weapon dice/armor class and the like are
+allowed.  Names and descriptions will not change.  
+-1 $~
+
+#MOBILES
+#35600
+trolloc beast~
+a trolloc~
+A huge hairy beast stands here looking for his next prey.
+~
+The trolloc's red eyes are filled with hatred and fear.  His only armor
+is the hair on his body and his weapon in his hands.  
+~
+unique~
+AFGT DFcd 0 -1000 35600
+25 25 5d10+550 1d1+1 2d10+7 thwack
+-10 -10 -10 -10
+0 0 DEI CHKR
+sit sit male 100
+0 0 giant fur
+~
+Damroll  25
+Toughness  1
+End
+#35601
+mordeth man~
+Mordeth~
+A man stands here lurking in the shadows.
+~
+Mordeth is a sleek, somewhat overfed man, with dropping eyelids that
+makes him seem to be hiding behind something and staring.  He is short and
+bald, and his clothes are of rare kind.  
+~
+human~
+AFGR DFPQVZ HNO -1000 0
+50 65 50d10+7000 5d10+20 10d4+23 none
+-34 -34 -34 -34
+0 0 CKLQ 0
+sit sit male 1000
+AHMV ABCDEFGHIJK medium none
+~
+Damroll  65
+Saves  -20
+Speed  1
+Toughness  2
+End
+#35602
+mashadar fog~
+Mashadar~
+A thin tendril of silver-grey fog drifts low across the street.
+~
+~
+unique~
+AFGW DFPTZc 0 -1000 0
+100 130 50d50+29500 5d10+20 10d10+45 none
+-70 -70 -70 -70
+0 0 0 0
+sit sit male 0
+0 0 giant ooze
+~
+Damroll  130
+Regain  100
+Saves  -50
+Speed  2
+Toughness  5
+End
+#35603
+halfman myrddraal fade~
+The Fade~
+A man stands here sending out his order to his fist.
+~
+The man has is eyeless, but his stare paralyze you.  His black cloak
+drapes around his body, and lies still regardless of the wind howling around
+him.  
+~
+unique~
+AFGR DFZ HNO -1000 0
+40 40 15d10+1850 5d10+20 4d8+13 none
+-22 -22 -22 -22
+0 LQ CK R
+sit sit male 0
+0 0 large none
+~
+Damroll  40
+Saves  -30
+Speed  2
+Toughness  1
+End
+#35604
+trolloc beast~
+a trolloc~
+A huge hairy beast stands here looking for his next prey.
+~
+The trolloc's red eyes are filled with hatred and fear.  His only armor
+is the hair on his body and his weapon in his hands.  
+~
+unique~
+AFGT DFcd 0 -1000 35604
+30 30 6d12+853 5d10+20 4d6+8 thwack
+-14 -14 -14 -14
+0 0 DEI CHKR
+sit sit male 100
+0 0 giant fur
+~
+Damroll  30
+Regain  20
+Toughness  2
+End
+#0
+
+
+
+#OBJECTS
+#35600
+white fountain~
+{0A fountain {&white{0 as {&snow{0~
+{0A fountain {&white{0 as {&snow{0 stands in the middle of the street.~
+stone~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+~
+End
+#35601
+torch~
+a burning torch~
+A burning torch is on the wall giving some help against the darkness.~
+wood~
+light AOR 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 0 0 P
+~
+End
+#35602
+treasure gold money~
+some {#gold{0 from the treasure~
+A {#treasure{0 lies here reflecting the light from the torches.~
+gold~
+money ABG A
+0 CE 0 0 0
+0 0 2000 P
+~
+End
+#35603
+boot soft red~
+soft {!red{0 boots~
+A pair of boots lies here.~
+none~
+armor CJM AG
+E E E E 0
+40 20 2000 P
+A
+18 3
+A
+19 3
+A
+14 100
+A
+13 20
+A
+4 2
+A
+3 -1
+~
+End
+#35604
+vest red~
+a long {!red{0 vest~
+A {!red{0 vest lies here.~
+none~
+armor CJM AK
+E E E E 0
+40 20 2000 P
+A
+18 4
+A
+19 4
+A
+13 75
+A
+2 -2
+A
+5 1
+A
+20 -2
+~
+End
+#35605
+shirt white~
+a {&white{0 shirt~
+A {&snowy white{0 shirt lies here.~
+none~
+armor CJM AD
+D D D D 0
+40 20 2000 P
+A
+18 2
+A
+19 3
+A
+13 50
+A
+12 70
+A
+5 2
+A
+3 1
+~
+End
+#35606
+chainmail mail chain~
+chainmail~
+A chainmail of finest iron lies here.~
+iron~
+armor CJM AD
+D D D D 0
+20 20 2000 P
+A
+13 60
+A
+20 2
+A
+18 2
+A
+19 2
+A
+5 1
+~
+End
+#35607
+black cloak~
+{8black{0 cloak~
+A cloak as {8dark{0 as the {8night{0 lies here.~
+none~
+armor CJM AK
+AD AD D D 0
+30 20 2000 P
+A
+13 30
+A
+12 60
+A
+18 3
+A
+19 3
+A
+20 -1
+A
+4 1
+A
+3 1
+~
+End
+#35608
+axe trolloc~
+a trolloc axe~
+A huge axe lies here.~
+none~
+weapon BCJM AN
+axe 5 9 chop FH
+25 20 2000 P
+A
+18 2
+A
+19 3
+A
+13 20
+A
+12 20
+A
+14 -10
+~
+End
+#35609
+axe trolloc~
+a {8black{0 axe~
+An axe {8black{0 as {8coal{0 lies here.~
+none~
+weapon CJM AN
+axe 7 9 cleave FH
+35 20 2000 P
+A
+12 50
+A
+14 -35
+A
+13 50
+A
+18 4
+A
+19 4
+~
+End
+#35610
+sword black~
+a {8black{0 sword~
+A sword {8dark{0 as the {8night{0 lies here.~
+none~
+weapon CJM AN
+sword 6 8 slash AD
+35 20 2000 P
+~
+End
+#35611
+flaming red eyes~
+{!f{1la{#m{1in{!g{0 eyes~
+A pair of {!f{1la{#m{1in{!g{0 eyes is squashed here.~
+none~
+armor CJ AY
+E E E E 0
+35 20 2000 P
+A
+18 4
+A
+19 4
+A
+12 60
+A
+13 40
+A
+14 20
+A
+4 1
+A
+3 1
+A
+5 -1
+A
+2 1
+~
+End
+#35612
+dagger jewel~
+a jewel encrusted dagger~
+A strange dagger lies here.~
+none~
+weapon CJM AN
+dagger 7 9 stab CGH
+40 20 2000 P
+A
+19 -2
+A
+18 -2
+A
+13 -100
+~
+End
+#0
+
+
+
+#ROOMS
+#35600
+The gates of Shadar Logoth.~
+What remains of a large black gate hangs from its hinges.  From the looks
+of it, it was once wide enough for an entire legion of men to walk through
+side by side.  Buildings inside the city are broken and worn down by age,
+but what is left of them is breathtaking.  Hardly a sound can be heard here.
+As though not a soul has lived here or even visited for many many years. 
+The gate lies to the north while the road leads away from here to the south.
+~
+0 4 1
+D0
+~
+~
+0 0 35601
+End
+D2
+~
+~
+0 0 35699
+End
+S
+End
+#35601
+Inside Shadar Logoth.~
+The city looms to the north, magnificent in it's dead splendor.  The wind
+howls as it sweeps through the empty streets and alleyways emitting a
+mournful wail.  Shutters from the buildings sway back and forth in the
+breeze creating an almost rythmic sound that compliments the humming of the
+wind.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35602
+End
+D2
+~
+~
+0 0 35600
+End
+S
+End
+#35602
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues south and north.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35603
+End
+D2
+~
+~
+0 0 35601
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35603
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues south and north.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35604
+End
+D2
+~
+~
+0 0 35602
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+End
+#35604
+An Intersection.~
+The street lies empty and deserted.  It has been aeons since man has
+walked them.  The wind flowing through the empty buildings emits a low
+screeching sound akin to a moan of terror.  Although the sun stands high in
+the air, it doesn't give any protection against the cold.  The streets
+continue in every direction but they offer little change from much of what
+has already been seen.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35607
+End
+D1
+~
+~
+0 0 35606
+End
+D2
+~
+~
+0 0 35603
+End
+D3
+~
+~
+0 0 35605
+End
+S
+Reset O 35600 1 100 0 Load {0a fountain {&white{0 as {&snow{0.
+End
+#35605
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35604
+End
+D3
+~
+~
+0 0 35608
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+End
+#35606
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35618
+End
+D3
+~
+~
+0 0 35604
+End
+S
+End
+#35607
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues south and north.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35630
+End
+D2
+~
+~
+0 0 35604
+End
+S
+End
+#35608
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35605
+End
+D3
+~
+~
+0 0 35609
+End
+S
+End
+#35609
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35608
+End
+D3
+~
+~
+0 0 35610
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35610
+An Intersection.~
+The street lies empty and deserted.  It has been aeons since man has
+walked them.  The wind flowing through the empty buildings emits a low
+screeching sound akin to a moan of terror.  Although the sun stands high in
+the air, it doesn't give any protection against the cold.  The streets
+continue in every direction but they offer little change from much of what
+has already been seen.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35612
+End
+D1
+~
+~
+0 0 35609
+End
+D2
+~
+~
+0 0 35615
+End
+D3
+~
+~
+0 0 35611
+End
+S
+End
+#35611
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35610
+End
+D3
+~
+~
+0 0 35628
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+End
+#35612
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+south.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35613
+End
+D2
+~
+~
+0 0 35610
+End
+S
+End
+#35613
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+south.  To the west and east are a opening into the buildings, but no doors
+are visable.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35614
+End
+D1
+~
+~
+0 0 35637
+End
+D2
+~
+~
+0 0 35612
+End
+D3
+~
+~
+0 0 35633
+End
+S
+End
+#35614
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D2
+~
+~
+0 0 35613
+End
+S
+Reset M 35603 1 100 0 Load The Fade.
+Reset E 35607 12 100 0 {8black{0 cloak is loaded about the shoulders of {8black{0 cloak
+Reset E 35611 27 100 0 {!f{1la{#m{1in{!g{0 eyes is loaded worn on eyes of {!f{1la{#m{1in{!g{0 eyes
+End
+#35615
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+north.
+~
+0 436215809 1
+D0
+~
+~
+0 0 35610
+End
+D2
+~
+~
+0 0 35616
+End
+S
+End
+#35616
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+north.  To the west and east are a opening into the buildings, but no doors
+are visable.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35615
+End
+D1
+~
+~
+0 0 35645
+End
+D2
+~
+~
+0 0 35617
+End
+D3
+~
+~
+0 0 35641
+End
+S
+End
+#35617
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35616
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35618
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35619
+End
+D3
+~
+~
+0 0 35606
+End
+S
+End
+#35619
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35620
+End
+D3
+~
+~
+0 0 35618
+End
+S
+End
+#35620
+An Intersection.~
+The street lies empty and deserted.  It has been aeons since man has
+walked them.  The wind flowing through the empty buildings emits a low
+screeching sound akin to a moan of terror.  Although the sun stands high in
+the air, it doesn't give any protection against the cold.  The streets
+continue in every direction but they offer little change from much of what
+has already been seen.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35622
+End
+D1
+~
+~
+0 0 35621
+End
+D2
+~
+~
+0 0 35625
+End
+D3
+~
+~
+0 0 35619
+End
+S
+End
+#35621
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35629
+End
+D3
+~
+~
+0 0 35620
+End
+S
+End
+#35622
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+south.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35623
+End
+D2
+~
+~
+0 0 35620
+End
+S
+End
+#35623
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+south.  To the west and east are a opening into the buildings, but no doors
+are visable.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35624
+End
+D1
+~
+~
+0 0 35653
+End
+D2
+~
+~
+0 0 35622
+End
+D3
+~
+~
+0 0 35649
+End
+S
+End
+#35624
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D2
+~
+~
+0 0 35623
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset E 35608 16 100 0 A trolloc axe is loaded wielded of a trolloc axe
+End
+#35625
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+north.
+~
+0 436215809 1
+D0
+~
+~
+0 0 35620
+End
+D2
+~
+~
+0 0 35626
+End
+S
+End
+#35626
+A dark alley.~
+The empty alley is dark and foreboding.  Cold wind gusts periodically
+sweep down the street.  Barrels long forgotten lie in heaps in the corners. 
+Small streams of sunlight peek over the rooftops, but give little light for
+guidance.  The alley continues downwards and the intersection lies to the
+north.  To the west and east are a opening into the buildings, but no doors
+are visable.  
+~
+0 436215809 1
+D0
+~
+~
+0 0 35625
+End
+D1
+~
+~
+0 0 35661
+End
+D2
+~
+~
+0 0 35627
+End
+D3
+~
+~
+0 0 35657
+End
+S
+End
+#35627
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35626
+End
+S
+Reset M 35603 1 100 0 Load The Fade.
+Reset E 35610 16 100 0 A {8black{0 sword is loaded wielded of a {8black{0 sword
+Reset E 35607 12 100 0 {8black{0 cloak is loaded about the shoulders of {8black{0 cloak
+End
+#35628
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35611
+End
+S
+End
+#35629
+Dead End.~
+A stone wall embraces the rooftops of the tall buildings.  Strong gusts
+of wind threaten to topple anything that moves.  The smell of death
+permeates the air, causing a great sense of foreboding.  
+~
+0 436215808 1
+D3
+~
+~
+0 0 35621
+End
+S
+End
+#35630
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues south and north.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35631
+End
+D2
+~
+~
+0 0 35607
+End
+S
+Reset M 35602 1 100 0 Load Mashadar.
+End
+#35631
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues south and north.  
+~
+0 436215808 1
+D0
+~
+~
+0 0 35632
+End
+D2
+~
+~
+0 0 35630
+End
+S
+End
+#35632
+An Intersection.~
+The street lies empty and deserted.  It has been aeons since man has
+walked them.  The wind flowing through the empty buildings emits a low
+screeching sound akin to a moan of terror.  Although the sun stands high in
+the air, it doesn't give any protection against the cold.  The streets
+continue in every direction but they offer little change from much of what
+has already been seen.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35670
+End
+D2
+~
+~
+0 0 35631
+End
+D3
+~
+~
+0 0 35665
+End
+S
+End
+#35633
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, west and south, and east leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35635
+End
+D1
+~
+~
+0 0 35613
+End
+D2
+~
+~
+0 0 35636
+End
+D3
+~
+~
+0 0 35634
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset E 35608 16 100 0 A trolloc axe is loaded wielded of a trolloc axe
+Reset E 35606 5 100 0 Chainmail is loaded on the body of chainmail
+End
+#35634
+West room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the east leading back to the main hall.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35633
+End
+S
+End
+#35635
+North room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the south leads
+back to the main hall.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35633
+End
+S
+End
+#35636
+South room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the north which leads back to the main hall.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35633
+End
+S
+End
+#35637
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, east and south, and west leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35639
+End
+D1
+~
+~
+0 0 35638
+End
+D2
+~
+~
+0 0 35640
+End
+D3
+~
+~
+0 0 35613
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35638
+East room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the west leads
+back to the main hall.  
+~
+0 436215817 0
+D3
+~
+~
+0 0 35637
+End
+S
+End
+#35639
+North room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the south which leads back to the main hall.
+~
+0 436215817 0
+D2
+~
+~
+0 0 35637
+End
+S
+End
+#35640
+South room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the north leading back to the main hall. 
+~
+0 436215817 0
+D0
+~
+~
+0 0 35637
+End
+S
+End
+#35641
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, west and south, and east leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35643
+End
+D1
+~
+~
+0 0 35616
+End
+D2
+~
+~
+0 0 35644
+End
+D3
+~
+~
+0 0 35642
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35604 1 100 0 Load a trolloc.
+Reset E 35609 16 100 0 A {8black{0 axe is loaded wielded of a {8black{0 axe
+End
+#35642
+West room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the east leading back to the main hall.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35641
+End
+S
+End
+#35643
+North room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the south leads
+back to the main hall.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35641
+End
+S
+End
+#35644
+South room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the north which leads back to the main hall.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35641
+End
+S
+End
+#35645
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, east and south, and west leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35647
+End
+D1
+~
+~
+0 0 35646
+End
+D2
+~
+~
+0 0 35648
+End
+D3
+~
+~
+0 0 35616
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35600 1 100 0 Load a trolloc.
+End
+#35646
+East room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the west leads
+back to the main hall.  
+~
+0 436215817 0
+D3
+~
+~
+0 0 35645
+End
+S
+End
+#35647
+North room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the south which leads back to the main hall.
+~
+0 436215817 0
+D2
+~
+~
+0 0 35645
+End
+S
+End
+#35648
+South room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the north leading back to the main hall. 
+~
+0 436215817 0
+D0
+~
+~
+0 0 35645
+End
+S
+End
+#35649
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, west and south, and east leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35651
+End
+D1
+~
+~
+0 0 35623
+End
+D2
+~
+~
+0 0 35652
+End
+D3
+~
+~
+0 0 35650
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset E 35606 5 100 0 Chainmail is loaded on the body of chainmail
+End
+#35650
+West room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the east leading back to the main hall.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35649
+End
+S
+End
+#35651
+North room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the south leads
+back to the main hall.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35649
+End
+S
+End
+#35652
+South room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the north which leads back to the main hall.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35649
+End
+S
+End
+#35653
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, east and south, and west leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35656
+End
+D1
+~
+~
+0 0 35654
+End
+D2
+~
+~
+0 0 35655
+End
+D3
+~
+~
+0 0 35623
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+Reset E 35609 16 100 0 A {8black{0 axe is loaded wielded of a {8black{0 axe
+End
+#35654
+East room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the west leads
+back to the main hall.  
+~
+0 436215817 0
+D3
+~
+~
+0 0 35653
+End
+S
+End
+#35655
+South room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the north leading back to the main hall. 
+~
+0 436215817 0
+D0
+~
+~
+0 0 35653
+End
+S
+End
+#35656
+North room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the south which leads back to the main hall.
+~
+0 436215817 0
+D2
+~
+~
+0 0 35653
+End
+S
+End
+#35657
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, west and south, and east leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35659
+End
+D1
+~
+~
+0 0 35626
+End
+D2
+~
+~
+0 0 35660
+End
+D3
+~
+~
+0 0 35658
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35658
+West room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the east leading back to the main hall.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35657
+End
+S
+End
+#35659
+North room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the south leads
+back to the main hall.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35657
+End
+S
+End
+#35660
+South room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the north which leads back to the main hall.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35657
+End
+S
+End
+#35661
+Inside a building.~
+The room is cold and damp.  Wind stirs up dust sending it swirling into a
+vortex which swells then dies quickly.  Water stains streak the walls in a
+random pattern.  Drops of water patter rhytmically against the ground.  The
+room is reminiscent of death, dull gray colors are devoid of life.  There
+are rooms to the north, east and south, and west leads back to the alleyway.
+~
+0 436215817 0
+D0
+~
+~
+0 0 35663
+End
+D1
+~
+~
+0 0 35662
+End
+D2
+~
+~
+0 0 35664
+End
+D3
+~
+~
+0 0 35626
+End
+S
+Reset M 35604 1 100 0 Load a trolloc.
+Reset M 35604 1 100 0 Load a trolloc.
+End
+#35662
+East room.~
+The room can barely be called one...  The walls are so dead with age that
+they have crumpled into heaps of stone.  A large chipped stone column in the
+middle of the room is the ceilings only support.  The wind howls violently
+through the room.  The smell of death is prevalent in the air.  Remants of
+human remains lay in piles on the stone floor.  An exit to the west leads
+back to the main hall.  
+~
+0 436215817 0
+D3
+~
+~
+0 0 35661
+End
+S
+End
+#35663
+North room.~
+Remnants of rotten barrels lay in the corners.  A large table of stone is
+in the middle of the room.  The table is gray with age, and it is swaying in
+the wind, as one of it's legs is about to topple from under it.  The
+southern wall contains a painting, badly faded by the years.  The depiction
+is that of a king sitting on his throne surveying his city.  There is a
+visible entrance to the south which leads back to the main hall.
+~
+0 436215817 0
+D2
+~
+~
+0 0 35661
+End
+S
+End
+#35664
+South room.~
+Remnants of what was once a strong wall add to the death and desolation
+of this town.  What used to be a fireplace rests in the corner, miraculously
+the chimney is still intact.  A hole in the wall seems to have served as a
+window, keeping the room lit during the day.  There is a visible entrance to
+the north leading back to the main hall. 
+~
+0 436215817 0
+D0
+~
+~
+0 0 35661
+End
+S
+End
+#35665
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35632
+End
+D3
+~
+~
+0 0 35666
+End
+S
+End
+#35666
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  To the west is the ruins and the street continues to the
+east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35665
+End
+D3
+~
+~
+0 0 35667
+End
+S
+End
+#35667
+The ruins.~
+The ground is strewn with rubble.  The wind is much stronger here and
+it's howl even louder.  A column stands in the middle of the rubble
+untouched from wind, weather and age.  There are visible exits in all
+directions save to the west.  
+~
+0 436215821 0
+D0
+~
+~
+0 0 35668
+End
+D1
+~
+~
+0 0 35666
+End
+D2
+~
+~
+0 0 35669
+End
+S
+End
+#35668
+The ruins.~
+The ground is strewn with rubble.  The wind is much stronger here and
+it's howl even louder.  A strong gust of wind stirs up the thickly settled
+dust creating a blinding fog.  There is a visible exit to the south leading
+back to the column.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35667
+End
+D5
+~
+passage~
+4 0 35677
+Flags ABFG
+End
+S
+End
+#35669
+The ruins.~
+The ground is strewn with rubble.  The wind is much stronger here and
+it's howl even louder.  A strong gust of wind stirs up the thickly settled
+dust creating a blinding fog.  There is a visible exit to the south leading
+back to the column.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35667
+End
+S
+End
+#35670
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  The street continues west and east.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35671
+End
+D3
+~
+~
+0 0 35632
+End
+S
+End
+#35671
+An empty street.~
+The street is empty.  A thick fog lay heavily with eerie noises seeming
+to come from within.  The wind sweeps down the street howling tauntingly. 
+The buildings are broken and worn down by age, but what is left of them is
+breathtaking.  To The east is an opening into the building and the street
+continues to the west.  
+~
+0 436215808 1
+D1
+~
+~
+0 0 35672
+End
+D3
+~
+~
+0 0 35670
+End
+S
+Reset M 35603 1 100 0 Load The Fade.
+Reset E 35607 12 100 0 {8black{0 cloak is loaded about the shoulders of {8black{0 cloak
+End
+#35672
+Inside a building.~
+The room is dim and damp.  The howling wind sweeps across the floor into
+the next room.  The room is empty except for an old table that has been
+knocked over in one of the corner.  There are visible exits east, south and
+west, which lead back out to the street.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35675
+End
+D2
+~
+~
+0 0 35674
+End
+D3
+~
+~
+0 0 35671
+End
+S
+Reset M 35600 1 100 0 Load a trolloc.
+Reset E 35608 16 100 0 A trolloc axe is loaded wielded of a trolloc axe
+Reset M 35600 1 100 0 Load a trolloc.
+Reset E 35608 16 100 0 A trolloc axe is loaded wielded of a trolloc axe
+Reset M 35600 1 100 0 Load a trolloc.
+End
+#35673
+The attic.~
+A large armoire takes up most of the space in the attic, which is cold,
+dark and damp.  Spiderwebs cover the armoire in an almost spectre-like way,
+carressing the armoire in it's web embrace.  The wind gusts up from the room
+below sending the webs rippling in it's breeze before swelling and blowing
+out the window.  The only exit is back down.  
+~
+0 436215817 0
+D5
+~
+~
+0 0 35675
+End
+S
+End
+#35674
+A white room.~
+The walls of the room are as white as powdered snow.  The room is
+completely devoid of any life.  The wind has blown some leaves inside,
+marring the pristineness of the room.  The room, however, provides a safe
+shelter from the howling winds outside.  The north door leads back to the
+hall.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35672
+End
+S
+End
+#35675
+Back room.~
+The only furniture in the room is a ladder leading up to the attic.  The
+years have treated the ladder badly, and it is in a state of functional
+disrepair.  A bunch of moss and rotting wood would be a more appropriate
+description.  The howling wind blows the ladder as it howls upwards before
+returning outside back to the streets.  The west door leads back out to the
+hall.  
+~
+0 436215817 0
+D0
+~
+Wall~
+4 0 35676
+Flags ABFG
+End
+D3
+~
+~
+0 0 35672
+End
+D4
+~
+~
+0 0 35673
+End
+S
+End
+#35676
+Behind the wall.~
+The room is dank with moisture.  The smell of rotting fungus prevades
+this room that has been closed for so many centuries.  The room is small,
+meant for storage only.  The paint has all but chipped off totally, and
+anything stored in here by now has wasted away into nothingness.  
+~
+0 436215817 0
+D2
+~
+~
+4 0 35675
+Flags ABFG
+End
+S
+Reset M 35603 1 100 0 Load The Fade.
+Reset E 35610 16 100 0 A {8black{0 sword is loaded wielded of a {8black{0 sword
+Reset E 35611 27 100 0 {!f{1la{#m{1in{!g{0 eyes is loaded worn on eyes of {!f{1la{#m{1in{!g{0 eyes
+Reset E 35607 12 100 0 {8black{0 cloak is loaded about the shoulders of {8black{0 cloak
+Reset M 35604 1 100 0 Load a trolloc.
+Reset E 35609 16 100 0 A {8black{0 axe is loaded wielded of a {8black{0 axe
+Reset E 35606 5 100 0 Chainmail is loaded on the body of chainmail
+End
+#35677
+Under the ruins.~
+The tunnel is dark and foreboding.  The wind can be heard from outside
+howling tauntingly.  Darkness fills the air heavily like a damp fog.  Down
+the winding tunnels, thick spiderwebs blow in an unseen breeze reaching out
+like whispy tendrils trying vainly to ensnare any who pass in their silky
+embrace.  The tunnel continues to the east and up leads back to the ruins.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35678
+End
+D4
+~
+~
+4 0 35668
+Flags ABFG
+End
+S
+End
+#35678
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues east and west.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35679
+End
+D3
+~
+~
+0 0 35677
+End
+S
+End
+#35679
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues east and west.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35680
+End
+D3
+~
+~
+0 0 35678
+End
+S
+End
+#35680
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and west.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35681
+End
+D3
+~
+~
+0 0 35679
+End
+S
+End
+#35681
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and south.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35682
+End
+D2
+~
+~
+0 0 35680
+End
+S
+End
+#35682
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and south.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35683
+End
+D2
+~
+~
+0 0 35681
+End
+S
+End
+#35683
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and south.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35684
+End
+D2
+~
+~
+0 0 35682
+End
+S
+End
+#35684
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and south.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35685
+End
+D2
+~
+~
+0 0 35683
+End
+S
+End
+#35685
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues west, east and south.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35687
+End
+D2
+~
+~
+0 0 35684
+End
+D3
+~
+~
+0 0 35686
+End
+S
+End
+#35686
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and east.  
+~
+0 436215821 0
+D0
+~
+~
+0 0 35688
+End
+D1
+~
+~
+0 0 35685
+End
+S
+End
+#35687
+Dark tunnel.~
+The tunnel is dark and foreboding.  A taunting laughter can be heard
+echoing through the tunnels.  Darkness fills the air heavily like a damp
+fog.  Down the winding tunnels, thick spiderwebs blow in an unseen breeze
+reaching out like whispy tendrils trying vainly to ensnare any who pass in
+their silky embrace.  The tunnel continues north and west.  
+~
+0 436215821 0
+D0
+~
+~
+0 0 35690
+End
+D3
+~
+~
+0 0 35685
+End
+S
+End
+#35688
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits east and
+south.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35693
+End
+D1
+~
+~
+0 0 35689
+End
+D2
+~
+~
+0 0 35686
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+End
+#35689
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits east, north
+and west.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35692
+End
+D1
+~
+~
+0 0 35690
+End
+D3
+~
+~
+0 0 35688
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+End
+#35690
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits north, south
+and west.  
+~
+0 436215817 0
+D0
+~
+~
+0 0 35691
+End
+D2
+~
+~
+0 0 35687
+End
+D3
+~
+~
+0 0 35689
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+End
+#35691
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits west and
+south.  
+~
+0 436215817 0
+D2
+~
+~
+0 0 35690
+End
+D3
+~
+~
+0 0 35692
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+End
+#35692
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits east, south
+and west.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35691
+End
+D2
+~
+~
+0 0 35689
+End
+D3
+~
+~
+0 0 35693
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+Reset M 35601 1 100 0 Load Mordeth.
+Reset E 35612 16 100 0 A jewel encrusted dagger is loaded wielded of a jewel encrusted dagger
+Reset E 35605 5 100 0 A {&white{0 shirt is loaded on the body of a {&white{0 shirt
+Reset E 35604 12 100 0 A long {!red{0 vest is loaded about the shoulders of a long {!red{0 vest
+Reset E 35603 8 100 0 Soft {!red{0 boots is loaded on the feet of soft {!red{0 boots
+End
+#35693
+Treasure room.~
+The room explodes in a brilliance of color.  Treasure of all types and
+amounts are heaped around the room, reflecting off the white tiles of the
+walls.  The immense size of the room creates echoes as gems and coins shift
+into position on the large mounds of treasure.  There are exits east and
+south.  
+~
+0 436215817 0
+D1
+~
+~
+0 0 35692
+End
+D2
+~
+~
+0 0 35688
+End
+S
+Reset O 35601 1 100 0 Load A burning torch.
+Reset O 35602 1 80 0 Load Some {#gold{0 from the treasure.
+End
+#35694
+Deep in the forest.~
+The trees covers the sky with it's massive green branches.  The wind
+creates a ghostlike sound as it sweeps through the forest making the trees
+sway.  A flock of ravens flies away as a branch cracks, peering out over the
+forest.  The path continues west and east.  
+~
+0 0 3
+D1
+~
+~
+0 0 4801
+End
+D3
+~
+~
+0 0 35695
+End
+S
+End
+#35695
+Deep in the forest.~
+The trees covers the sky with it's massive green branches.  The wind
+creates a ghostlike sound as it sweeps through the forest making the trees
+sway.  A flock of ravens flies away as a branch cracks, peering out over the
+forest.  The path continues west and east.  
+~
+0 0 3
+D1
+~
+~
+0 0 35694
+End
+D3
+~
+~
+0 0 35696
+End
+S
+End
+#35696
+Deep in the forest.~
+The trees covers the sky with it's massive green branches.  The wind
+creates a ghostlike sound as it sweeps through the forest making the trees
+sway.  A flock of ravens flies away as a branch cracks, peering out over the
+forest.  The path continues north and east.  
+~
+0 0 3
+D0
+~
+~
+0 0 35697
+End
+D1
+~
+~
+0 0 35695
+End
+S
+End
+#35697
+Light forest.~
+The ground is arid and dusty.  Dead trees rest against each other
+seemingly ghostlike in the darkness.  The wind makes a howling sound as it
+sweeps through the forest.  A pack of ravens almost blot out the sky,
+scanning the ground for signs of prey.  The path continues north and south. 
+~
+0 0 3
+D0
+~
+~
+0 0 35698
+End
+D2
+~
+~
+0 0 35696
+End
+S
+End
+#35698
+Light forest.~
+The ground is arid and dusty.  Dead trees rest against each other
+seemingly ghostlike in the darkness.  The wind makes a howling sound as it
+sweeps through the forest.  A pack of ravens almost blot out the sky,
+scanning the ground for signs of prey.  The path continues north and south. 
+~
+0 0 3
+D0
+~
+~
+0 0 35699
+End
+D2
+~
+~
+0 0 35697
+End
+S
+End
+#35699
+Light forest.~
+The ground is arid and dusty.  Dead trees rest against each other
+seemingly ghostlike in the darkness.  The wind makes a howling sound as it
+sweeps through the forest.  A pack of ravens almost blot out the sky,
+scanning the ground for signs of prey.  The path continues south and Shadar
+Logoth looms to the north.  
+~
+0 0 3
+D0
+~
+~
+0 0 35600
+End
+D2
+~
+~
+0 0 35698
+End
+S
+End
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

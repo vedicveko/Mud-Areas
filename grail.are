@@ -1,0 +1,3000 @@
+#AREA {35 91} BlueBottle  Quest For the Holy Grail~
+
+#MOBILES
+
+#10501
+swallow~
+A Swallow~
+ A swallow is flying around your head, for some reason it is holding a
+coconut.
+~
+ This swallow, European you think (must be, African are non-migratory) is
+flying above your head, beating its wings at four hundred and ninety three
+times a second. Somehow it has managed to pick up a coconut.
+~
+song bird~
+GU TZ 0 10501
+36 0 10d10+900 1d1+100 4d7+11 11
+-10 -9 -7 -2
+HF A F EGK
+8 8 0 1d10+100
+AGW ACKPU 1 0
+
+#10502
+dennis~
+Dennis the Peasant~
+A peasant scavenging in the mud
+~
+ Dennis the peasant is here, raking in the mud and explaining the virtues of
+living within an anarcho-syndicatist commune, as opposed to hanging onto
+outdated imperialist dogma which perpetuates the social and...
+ 'SHUT UP!'
+~
+human~
+ABCG Z 700 10502
+40 0 15d10+1290 1d1+100 4d8+13 16
+-15 -10 -14 -4
+CDFLR 0 I KF
+6 8 1 63d3+180
+ABHMV ABCDEFHIJK 2 0
+
+#10503
+woman peasant~
+The Old Woman~
+A peasant scavenging in the mud
+~
+ This old woman is part of the commune, she is dressed in muddy rags, and seems
+to delight in her job of scavenging around in the peat.
+~
+human~
+AG Z 500 10502
+39 0 14d10+1200 1d1+100 4d8+10 16
+-14 -10 -12 -5
+CDFR 0 I KG
+6 8 1 5d1+100
+ABHMV ABCDEFHIJK 2 0
+
+#10504
+knight black~
+The Black Knight~
+A knight stands here clad in black gleaming armour.
+~
+ The black knight stands motionless, guarding the bridge. He is tall and menacing,
+and holds a very long sword which shows the stains of the knight's previous
+victims. The black knight looks, and believes himself to be, invincible...
+~
+human~
+ABFGT HVDFZ 760 10503
+41 1 12d9+500 1d1+100 5d9+23 15
+-20 -19 -18 -9
+CEFIKP A 0 0
+8 8 1 12d50+5000
+AHM BC 3 0
+
+#10505
+penguin squirrel~
+A Small woodland Penguin~
+A penguin is here, gathering nuts and berries.
+~
+ You see a small grey penguin scampering from tree to tree. It is collecting
+acorns for the long winter hibernation. It spots you and tries to scurry up the
+nearest tree...
+...wait a second - penguin? are you sure?
+~
+rabbit~
+ACGHUR UVZ 100 10503
+47 1 25d10+3100 100d5+200 6d6+19 10
+-17 -13 -14 -10
+DHK ABL EJ NFG
+8 8 0 350d4+700
+ACHIV DQ 1 0
+
+#10506
+cart driver~
+The Cart Driver~
+A Cart driver is here collecting the dead of the village.
+~
+ The cart driver lumbers slowly along the main street behind a large cart full of
+corpses. He is well off, in the terms of the other villagers, and wears a black,
+hooded robe. He Calls 'Bring out your dead' every few steps as he goes about his
+macabre duty.
+~
+human~
+ABCS Z -600 10504
+54 1 45d10+1700 1d1+100 6d7+20 13
+-21 -20 -21 -16
+ACD A C GIK
+5 8 1 50d15+1500
+AHM ABCDEG 2 0
+
+#10507
+villager~
+The Villager~
+A villager is standing here, looking dirty
+~
+ You are repulsed that anyone can live in as much filth as this man, without
+daily baths, a decent sewage system, 3 meals a day, hundreds of servants and
+a few dozen concubines (that's *concubines*, not porcupines - although... ).
+~
+human~
+AS Z 200 10504
+57 0 48d9+2498 10d50+300 10d4+21 9
+-28 -29 -31 -21
+DEFJ AB 0 N
+8 8 1 40
+AHM ABCDEG 2 0
+
+#10508
+villager~
+The Villager~
+A villager is standing here, looking dirty
+~
+ You are repulsed that anyone can live in as much filth as this woman, without
+daily baths, a decent sewage system, 3 meals a day, hundreds of servants and
+a few dozen concubines (that's *concubines*, not porcupines - although... ).
+~
+human~
+AS Z 200 10504
+58 0 50d9+2000 10d50+300 10d4+24 16
+-28 -29 -31 -21
+DEFJ AB 0 N
+8 8 2 50
+AHM ABCDEG 2 0
+
+#10509
+idiot~
+The Village Idiot~
+An insane looking man is standing here.
+~
+ The village idiot cackles insanely as he hits you about the head with a rubber
+chicken. He is wearing a mucky green jester's costume and his eyes are alight with
+an unearthly glow. Some saliva dribbles down his chin.
+~
+human~
+ABCFGT TZ -666 10504
+72 1 52d10+3300 1d1+100 7d8+27 7
+-32 -27 -31 -24
+CDHJ AC FG IHN
+8 8 2 500d400+50000
+AHM ABCDEFGHIJKQ 2 0
+
+#10510
+bedevere~
+Sir Bedevere~
+Sir Bedevere stands here, looking wise.
+~
+ The knight Sir Bedevere stands here holding a duck which weighs the same weight
+as a witch. He exudes an aura of great learning and intelligence.
+~
+human~
+ABGQ UZ 1000 10504
+67 0 49d11+3000 400d10+500 11d5+23 20
+-28 -30 -29 -18
+FGKP B N M
+8 5 2 1000
+AHM ABCDEFGHIJKQ 2 0
+
+#10511
+witch~
+The Witch~
+A woman in a witch's hat and false nose is sitting here.
+~
+ The witch sits here, naturally depressed at having just been proved to be a
+witch. She wears a simple white robe and her pointed hat and nobbly nose
+are testament to her witchesness.
+~
+human~
+ABGR Z -1000 10505
+62 0 50d10+2400 120d10+100 10d5+25 19
+-23 -24 -19 -14
+ADGK A JK G
+6 8 1 200
+AHM ABCDEFGHIJKQ 2 0
+
+#10512
+zoot~
+Zoot~
+An attractive woman in a flimsy nightgown stands here.
+~
+ Zoot stands here welcoming you into Castle Anthrax. She must be *really*
+cold in that nightgown...
+~
+human~
+ABGHQ DFUZ 200 10506
+79 0 48d13+3300 10d100+300 7d6+30 4
+-30 -23 -29 -16
+DE A C GHI
+8 8 2 1000d10+500
+AHM ABCDEFGHIJKQ 2 0
+
+#10513
+dingo~
+Dingo~
+An attractive woman in a flimsy nightgown stands here, guarding the locked
+room...
+~
+ Dingo looks exactly like the woman that let you into the castle. Are you
+*sure* it's not just the same actress?
+~
+human~
+ABGHQ DFUZ 200 10506
+79 1 48d13+3200 10d100+300 8d6+32 10
+-25 -26 -12 -14
+DE A D GHI
+8 8 2 150
+AHM ABCDEFGHIJKQ 2 0
+
+#10514
+blonde~
+A young blonde~
+A young blonde woman of between sixteen and nineteen-and-a-half reclines here
+saying hello to you.
+~
+ Quite a shallow characterisation this one, she's done Shakespeare you know, and
+now! And now she's playing this ludicrously sexist roll of a blonde who
+spends her time bathing, dressing, undressing, making exciting underwear...
+~
+human~
+AG Z -50 10506
+76 0 49d14+4000 1d1+100 8d7+22 12
+-20 -20 -20 -10
+DF A 0 0
+8 8 2 1d100+5000
+AHMV ABCDEFGHIJK 2 0
+
+#10515
+brunette~
+A young brunette~
+A young brunette of between sixteen and nineteen-and-a-half reclines here
+saying hello to you.
+~
+ Quite a shallow characterisation this one, she's done Shakespeare you know, and
+now! And now she's playing this ludicrously sexist roll of a brunnete who
+spends her time bathing, dressing, undressing, making exciting underwear...
+~
+human~
+AG Z 50 10506
+77 0 49d14+4100 1d1+100 8d7+23 12
+-22 -21 -22 -14
+DF A 0 0
+8 8 2 1d100+5000
+AHMV ABCDEFGHIJK 2 0
+
+#10516
+galahad~
+Sir Galahad the chaste~
+A young knight of the round table lies here, struggling to retain his
+chastity.
+~
+ Sir Galahad lies here on the bed. He appears to be wounded in the leg.
+All that protects his honour is a heavy steel chastity belt.
+~
+human~
+ABT HZ 700 10507
+86 1 50d20+4200 1d100+500 9d10+27 18
+-30 -31 -28 -20
+CEFGHIJK C 0 HKN
+5 8 1 1000d10+500
+AHMV ABCDEFGHIJK 2 0
+
+#10517
+certain death~
+Certain Death~
+I think it's best you didn't know what is standing here...
+~
+ Certain Death
+~
+snake~
+ABCGFORT DFHJVZ 0 10508
+98 5 65d17+16000 3d600+400 14d8+18 9
+-56 -56 -65 -51
+ABCDEFHIKN AB M N
+8 8 0 666
+DI 0 4 0
+
+#10518
+knight ni~
+The Knight who says 'Ni!'~
+A tall knight stands here.
+~
+ A knight stands over you, saying Ni!
+~
+human~
+AGT DVZ -30 10509
+96 0 49d14+6900 1d1+100 9d7+27 11
+-50 -48 -46 -35
+DEFHIKU A E N
+8 8 1 90d10+700
+AHMV ABCDEFGHIJK 2 0
+
+#10519
+knight ni~
+The Knight who says 'Ni!'~
+The Leader of the knights of Ni! stands here.
+~
+ The leader of The Knights of Ni! is affected only by one thing -
+The word which the Knights of Ni! cannot hear...
+~
+human~
+ABGT DVZ -1000 10509
+110 1 49d14+6900 1d1+100 12d7+40 3
+-50 -48 -46 -35
+DEFHIK ABCD 0 0
+8 8 1 90d10+700
+AHMV ABCDEFGHIJK 2 0
+
+#10520
+tim enchanter~
+Tim the Enchanter~
+A Tall and Powerful Wizard stands here.
+~
+ Tim the enchanter stands looking enigmatic. He wears a helmet made
+out of animal bones and holds a tall, wooden staff. He has a very silly
+fake Scots accent.
+~
+human~
+ABCGQR DFHVZ 500 10510
+84 0 47d12+7010 110d50+500 9d7+20 20
+-30 -29 -31 -30
+AGHKP BC 0 FK
+8 8 1 100
+ACHMV ABCDEFGHIJK 2 0
+
+#10521
+rabbit monster~
+A small cute fluffy and totaly harmless rabbit~
+A small white rabbit sits here among the skulls.
+~
+ The only thing strange about this rabbit is the blood around its
+mouth.
+~
+rabbit~
+ABCFGT DFVZ -1000 10511
+98 10 65d12+11000 10d9+10 12d10+20 7
+-68 -67 -72 -68
+ACDEFHJKN AB 0 H
+8 8 0 500
+DGV ACDEFKLUV 1 0
+
+#10522
+bridge keeper~
+The Bridgekeeper~
+The man from scene 24 stands here, guarding the bridge.
+~
+ The Bridge keeper looks old and weary, and smells a bit, but he
+guards the bridge with his life...
+~
+human~
+ABG Z 10 10512
+64 0 45d10+3000 10d9+10 8d7+18 17
+-24 -27 -24 -15
+J ABJ 0 G
+8 8 1 1
+AHMV ABCDEFGHIJK 2 0
+
+#10523
+french taunter~
+The French Taunter~
+A French Knight stands here, protecting the castle.
+~
+ The french taunter stands here is full armour. His weapon, however
+is his sarcasm and general insulting.
+~
+human~
+ABFGQRT DFHVZc -200 10513
+120 16 50D20+18000 100D10+500 10d8+100 18
+-250 -242 -251 -350
+ACDFGHIJU AB 0 I
+8 8 1 20000
+AD ABCDEFGHIJK 2 0
+
+#10524
+rodger shrubber~
+Rodger the Shrubber~
+Rodger the Shrubber stands here selling you things.
+~
+ Rodger may now work in a gift shop, but he will still sell you a
+shrubbery if you *really* want one...
+~
+human~
+AB Z 0 10514
+91 0 1000d1 100d1 0 0
+0 0 0 0
+0 ABCD 0 0
+8 8 1 1000000
+0 0 2 0
+
+
+#10525
+french taunter~
+The French Taunter~
+A French Knight stands here, protecting the castle.
+~
+ The french taunter stands here is full armour. His weapon, however
+is his sarcasm and general insulting.
+~
+human~
+ABFGQRT DFHVZc -200 10513
+120 16 50D20+18000 100D10+500 10d8+100 18
+-250 -242 -251 -350
+ACDFGHIJU AB 0 I
+8 8 1 20000
+AD ABCDEFGHIJK 2 0
+#0
+
+#MOBPROGS
+M 10502 dennis.prg
+M 10504 blkngt.prg
+M 10506 cartdvr.prg
+M 10509 idiot.prg
+M 10511 witch.prg
+M 10512 zoot.prg
+M 10513 anthrax.prg
+M 10514 anthrax.prg
+M 10515 anthrax.prg
+M 10516 galahad.prg
+M 10518 ni.prg
+M 10519 ni2.prg
+M 10520 tim.prg
+M 10522 bridgek.prg
+M 10523 taunt.prg
+M 10525 taunt.prg
+S
+
+#OBJECTS
+
+#10500
+coconut shell~
+A coconut shell~
+A coconut shell sits here.~
+wood~
+9 0 AO
+9 7 8 6 0
+35 10 200 G
+A
+14 100
+
+#10501
+black armour~
+The armour of the Black Knight~
+A large plate of the blackest armour lies here.~
+iron~
+9 CEJ AD
+15 15 15 10 0
+33 100 2000 G
+A
+1 2
+A
+2 1
+A
+3 -2
+A
+12 -50
+A
+13 75
+A
+18 2
+A
+19 6
+
+#10502
+black sword~
+The sword of the Black Knight~
+A very long and evil looking sword lies here.~
+steel~
+5 CEJ AN
+1 7 7 3 0
+29 30 1000
+A
+2 1
+A
+18 4
+A
+19 3
+
+#10503
+webbed feet~
+A pair of webbed feet~
+A pair of webbed feet lie here in a puddle.~
+flesh~
+9 GM G
+4 5 2 1
+15 20 10 G
+A
+3 1
+A
+4 2
+A
+5 1
+A
+13 10
+
+#10504
+rubber chicken~
+A Rubber Chicken~
+A flaccid rubber chicken lies here not clucking.~
+rubber~
+5 B AN
+7 9 10 13 0
+65 20 69 G
+A
+2 3
+A
+13 100
+A
+14 50
+A
+18 5
+A
+19 8
+
+#10505
+duck~
+Sir Bedevere's Duck~
+A duck sits here quacking to its heart's content.~
+flesh~
+22 I AO
+0 0 0 0 0
+20 1 200 G
+
+#10506
+ring cognition~
+The ring of cognition~
+A ring lies here contemplating the mysteries of the Universe.~
+steel~
+9 AIK B
+15 15 15 14 0
+50 4 2000 G
+A
+3 2
+A
+4 3
+A
+9 20
+A
+12 20
+A
+13 25
+A
+18 4
+A
+19 4
+A
+24 -10
+
+#10507
+hat nose~
+The pointed hat and false nose of a Witch~
+A nobbly rubber nose and pointed black hat lie here.~
+paper~
+9 CEHJLM AE
+4 4 3 1 0
+20 3 1 G
+A
+12 20
+
+#10508
+model camelot~
+A Model of Camelot~
+A costly and detailed model of the castle Camelot sits here.~
+wood~
+13 0 0
+0 0 0 0 0
+1 2000 0 G
+
+#10509
+key~
+The key to the tower~
+A glowing gold key lies here, on the end of a string.~
+gold~
+18 AG 0
+0 0 0 0 0
+1 2 100 G
+
+#10510
+exciting underwear~
+Exciting Underwear~
+A large amount of lace lies here enticingly.~
+cloth~
+9 0 K
+2 2 2 1 0
+70 2 100 G
+
+#10511
+chastity belt~
+A Chastity Belt~
+An archaic device lies here looking uncomfortable.~
+metal~
+9 AI L
+18 19 19 15 0
+75 41 3000 G
+A
+2 -1
+A
+3 1
+A
+4 1
+A
+12 100
+A
+13 75
+A
+14 -50
+A
+18 6
+A
+19 8
+
+#10512
+helmet bravery~
+The Helmet of the Brave~
+A Heroic Helmet sits here with an unearthly aura.~
+metal~
+9 ABGHIM E
+19 19 19 19 0
+106 25 1000000 G
+A
+1 5
+A
+2 1
+A
+3 2
+A
+4 2
+A
+12 100
+A
+13 100
+A
+18 8
+A
+19 8
+A
+24 -19
+
+#10513
+underpants instanity~
+The Underpants of the Insane~
+Only a madman would wear their underpants on their head.~
+cloth~
+9 ABGHIM E
+19 19 19 19 0
+106 25 1000000 G
+A
+1 5
+A
+2 1
+A
+3 -1
+A
+4 -2
+A
+13 200
+A
+18 8
+A
+19 8
+A
+24 -19
+
+#10514
+key~
+The Key of heroes~
+A plain key lies here.~
+metal~
+18 AG 0
+0 0 0 0 0
+1 2 100 G
+
+#10515
+heroes chest~
+The chest of Heroes~
+A plain chest sits here.~
+wood~
+15 0 0
+100 15 10514 0 0
+100 1000 1 G
+
+#10516
+cash~
+A wad of cash~
+The wad of cash flows from the chest.~
+paper~
+20 0 1
+70000 0 0 0 0
+0 0 70000 G
+
+#10517
+grail beacon~
+Grail Shaped Beacon~
+A Shining beacon in the shape of a cup lies here.~
+metal~
+4 ABG A
+100 20 20 57 0
+50 15 100 G
+
+#10518
+ni~
+Ni!~
+Ni!~
+paper~
+5 AEJM AN
+0 10 11 9 0
+75 25 100 G
+
+#10519
+herring~
+A Herring~
+A Herring lies here looking silly.~
+flesh~
+9 0 AO
+10 10 10 10 0
+80 10 1000 G
+A
+13 50
+A
+18 8
+A
+19 8
+
+#10520
+staff fire~
+The Staff of Fire~
+A thin staff is standing here of its own accord.~
+wooden~
+3 0 AO
+90 15 15 201 0
+70 8 400 G
+
+#10521
+rabbit foot~
+A Lucky rabbit's foot~
+Not so lucky for the rabbit...~
+flesh~
+3 0 AO
+100 10 10 36 0
+100 10 10000 G
+
+#10522
+razor wit~
+A Razor Wit~
+Words can't hurt you, can they?
+~
+paper~
+5 ABGHM AN
+2 12 9 29 0
+106 10 1000000 G
+A
+13 100
+A
+18 6
+A
+19 8
+
+#10523
+biting sarcasm~
+Biting Sarcasm~
+Sticks and stones...
+~
+silver~
+5 BGHIM AN
+0 10 11 31 0
+106 25 1000000 G
+A
+3 2
+A
+12 100
+A
+18 8
+A
+19 5
+
+#10524
+shield irony~
+The Shield of Irony~
+A really awful shield lies here.~
+metal~
+9 0 AJ
+19 19 19 19 0
+106 40 1000000 G
+A
+1 5
+A
+2 2
+A
+13 100
+A
+17 -30
+A
+18 7
+A
+19 7
+A
+20 -15
+A
+21 -15
+A
+22 -15
+A
+23 -15
+A
+24 -15
+
+#10525
+ring oxymorons~
+The ring of Oxymorons~
+A Square ring lies here.
+~
+metal~
+9 G AB
+19 19 19 19 0
+106 5 1000000 G
+A
+12 50
+A
+13 150
+A
+18 8
+A
+19 10
+
+#10526
+shrubbery small plant~
+A Shrubbery~
+A small plant lies on the ground, giving a nice effect.~
+wood~
+8 IN A
+0 0 0 0 0
+15 10 50000 G
+
+#10527
+holy grail~
+The Holy Grail~
+The Holiest of Grails sits here.~
+metal~
+4 AGIN AO
+100 7 7 3 0
+100 2 1750000 G
+
+#10528
+cheap t-shirt~
+A T-shirt with the moto 'I love Aesir'~
+A cheap white t-shirt lies here in a pile.~
+cloth~
+9 AIN AD
+8 8 8 8 0
+15 3 2000 G
+A
+1 1
+A
+2 1
+A
+3 2
+A
+4 2
+A
+9 30
+A
+13 30
+
+#10529
+medallion taunting~
+The Medallion of Taunting~
+A nasty looking medallion lies here.~
+metal~
+9 EG AC
+19 19 19 19 0
+106 30 1000000 G
+A
+1 3
+A
+12 75
+A
+13 120
+A
+18 8
+A
+19 8
+A
+24 -15
+
+#10530
+holy hand grenade~
+The Holy Hand-Grenade of Antioch~
+A hand-grenade lies here with instructions.. in Latin~
+metal~
+3 BGN AO
+100 30 30 23 0
+90 18 50000 G
+
+#0
+
+#ROOMS
+
+#10500
+A path by a castle.~
+
+ You find yourself walking along a dirt path, to the east is a non-
+descript castle while to the west you can see a moorland that stretches
+for miles.
+ There is a Neon sign floating here.
+ To the North, you can see a rather interesting forest.
+~
+0 C 2
+
+D0
+The path continues northwards.
+~
+~
+0 -1 10501
+
+D?? (exit)
+You could go back of course, no-one's forcing you.
+~
+~
+0 -1 ??
+
+E
+sign~
+                          *THE CREDITS*
+
+                     Direction: BlueBottle
+               Photography: Ralph The Wonder Llama
+          Based on an idea by Monty Pithon (no, *python*)
+~
+S
+
+#10501
+A path by a castle.~
+
+ You find yourself walking along a dirt path, to the east is a
+non-descript castle while to the west you can see a moorland that 
+stretches for miles. There are swallows (European I think) flying
+around your head trying to work out the best way to carry coconuts.
+ You feel it is best to carry on North towards that interesting
+forest, it just looks so ... intriguing.
+~
+0 2
+
+D0
+The path continues northwards.
+~
+~
+0 -1 10502
+D2
+The path goes back to the south.
+~
+~
+0 -1 10500
+S
+
+#105002
+A path by a castle.~
+
+ You are still walking along a dirt path, to the east is a still
+non-descript castle while to the west you can still see a moorland 
+that stretches for miles. There are still swallows flying around your
+head trying to work out the best way to carry coconuts.
+ You feel the forest to the North still looks interesting.
+~
+0 2
+
+D0
+The path continues northwards.
+~
+~
+0 -1 10503
+D2
+The path goes back to the south.
+~
+~
+0 -1 10501
+S
+
+#10503
+A path by a castle.~
+
+ You'd never believe it but yes, you are walking along a dirt path,
+to the east is a non-descript castle while to the west you can see a 
+moorland that stretches for miles. There are swallows (European I think)
+flying around your head trying to work out the best way to carry
+coconuts.
+ You feel you should carry on North towards that interesting forest, it's
+so lovely.
+~
+0 2
+
+D0
+The path continues northwards.
+~
+~
+0 -1 105004
+D2
+The path goes back to the south.
+~
+~
+0 -1 105002
+S
+
+#105004
+The end of the path.~
+
+ Yippee! the end of the path, now all between you and that *wonderful*
+forest is some moorland.
+~
+0 2
+
+D0
+Some picturesque moors.
+~
+~
+0 -1 105006
+D2
+Back to the path.
+~
+~
+0 -1 105004
+S
+
+#10505
+Moorland~
+
+ You are on the moor. You breathe in the clear air and survey the land.
+ To your North you see a rather fetching forest.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10508
+D1
+Moorland
+~
+~
+0 -1 10506
+S
+
+#10506
+Moorland~
+
+ You are walking along a moor. To your West you can see two distant
+castles, a strange and brilliant light emanates from the furthest one
+away. You take a deep breathe of the clear, crisp air and survey the
+land. To your north you can see an old woman scavenging in the dirt.
+ Further to your North is that lovely little forest, oh yes it's a beauty!
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10509
+D1
+Moorland
+~
+~
+0 -1 10507
+D2
+The end of the path
+~
+~
+0 -1 10505
+D3
+Moorland
+~
+~
+0 -1 10510
+S
+
+#10507
+Moorland~
+ You are on the moor. More moorland ranges to your north.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10510
+D3
+Moorland
+~
+~
+0 -1 10506
+S
+
+#10508
+Moorland~
+ You are still on the moor. To your east you can see an old woman.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10511
+D1
+Moorland
+~
+~
+0 -1 10509
+D2
+Moorland
+~
+~
+0 -1 10505
+S
+
+#10509
+Moorland~
+
+ You are still on the moor, the ground is muddiest here, you see an old
+woman, oh sorry, old man - he's 27, but you can't just call him man...
+OK, you could call him Dennis but you didn't bother to find out his
+name, did you?
+~
+
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10512
+D1
+Moorland
+~
+~
+0 -1 10510
+D2
+Moorland
+~
+~
+0 -1 10506
+D3
+Moorland
+~
+~
+0 -1 10508
+
+E
+S
+
+#10510
+Moorland~
+ You are still on the moor, you scan ahead to your north, to see your
+destination...
+~
+
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10513
+D2
+Moorland
+~
+~
+0 -1 10507
+D3
+Moorland
+~
+~
+0 -1 10509
+S
+
+#10511
+Moorland~
+ You are still on the moor.
+~
+0 2
+
+D1
+Moorland
+~
+~
+0 -1 10512
+D2
+~
+~
+0 -1 10508
+S
+
+#10512
+Moorland~
+ You are still on the moor. You see a lovely looking forest to the
+northeast.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10514
+D1
+Moorland
+~
+~
+0 -1 10513
+D2
+Moorland
+~
+~
+0 -1 10509
+D3
+Moorland
+~
+~
+0 -1 10511
+S
+
+#10513
+Moorland~
+ You are still on the moor. It is a wonderful morning, the sun shines in
+a clear blue sky, and gets *right* in your eyes.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10515
+D2
+Moorland
+~
+~
+0 -1 10510
+D3
+Moorland
+~
+~
+0 -1 10512
+S
+
+#10514
+Moorland~
+ You are still on the moor, you ready your sword as ahead you see a
+knight guarding the lovely forest.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10516
+D1
+Moorland
+~
+~
+0 -1 10515
+D2
+Moorland
+~
+~
+0 -1 10515
+S
+
+#10515
+Moorland~
+ You are still on the moor, a few clouds are now scattered across the
+sky.
+Ahead of you is the path that leads to the lovely forest.
+~
+0 2
+
+D0
+Moorland
+~
+~
+0 -1 10517
+D2
+Moorland
+~
+~
+0 -1 10513
+D3
+Moorland
+~
+~
+0 -1 10514
+S
+
+#10516
+Moorland~
+ You are still on the moor, the path to the forest is to the east of
+you.
+~
+0 2
+
+D1
+Moorland
+~
+~
+0 -1 10517
+D2
+Moorland
+~
+~
+0 -1 10514
+S
+
+
+#10517
+The end of the Moorland~
+ You reach the end of the moor. Ahead of you is the path that leads, via
+a bridge, to the forest. You can see a knight dressed in black armour
+guarding the bridge.
+~
+0 2
+
+D0
+Path to the forest
+~
+~
+0 -1 10518
+D2
+Moorland
+~
+~
+0 -1 10515
+D3
+Moorland
+~
+~
+0 -1 10516
+S
+
+#10518
+The path to the forest~
+
+ You are at the end of the moor, the lovely forest is to the east of you,
+at the end of a dirt track.
+~
+
+0 2
+
+D1
+The path to the forest.
+~
+~
+0 -1 10519
+D2
+Moorland
+~
+~
+0 -1 10517
+S
+
+#10519
+The path to the forest.
+~
+ The forest looms ahead, closer now, you are intrigued and feel urged to
+travel onwards, past the bridge.
+0 3
+
+D0
+Path to the forest
+~
+~
+0 -1 10520
+D3
+Moorland
+~
+~
+0 -1 10518
+S
+
+#10520
+Path to the forest~
+ You are on the path to the forest
+~
+0 3
+
+D1
+Path to the forest
+~
+~
+0 -1 10521
+D2
+Beginning of the path
+~
+~
+0 -1 10519
+S
+
+#10521
+The path to the forest~
+ To your east, you can see a Black Knight protecting the bridge that
+leads to the really nice forest. You draw your sword in anticipation
+~
+0 3
+
+D1
+Bridge to the forest
+~
+~
+0 -1 10522
+D2
+Path to the forest
+~
+~
+0 -1 10520
+S
+
+#10522
+The bridge to the forest~
+ You are on the trail to the rather beautiful forest. The Black Knight
+is here, standing over the fresh corpse of another fool who tried to
+cross the bridge.
+ He looks up from his kill and stares at you with no emotion.
+~
+0 3
+
+D1
+The forest!
+~
+~
+0 -1 10527
+D3
+Path to the forest
+~
+~
+0 -1 10521
+S
+
+
+
+#10523
+The forest~
+ Do you actually need a description for a forest?
+ To your north you can see a more dangerous, and let's face it
+interesting, looking forest.
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 105???
+D1
+Forest
+~
+~
+0 -1 10524
+D2
+Entrance to the forest
+~
+~
+0 -1 10527
+S
+
+#10524
+The Forest~
+ Trees, bracken (that's a nice word isn't it? oh, please yourself), and
+small mammals sum up this singularly uninteresting place. You can sea a
+village to your east, a cottage to your north and two castles to your
+south.
+~
+0 3
+
+D1
+Forest
+~
+~
+0 -1 10525
+D2
+Forest
+~
+~
+0 -1 10528
+D3
+Forest
+~
+~
+0 -1 10523
+S
+
+#10525
+The Forest~
+ Trees, trees and trees!
+ Yup, it's just your regular forest.
+ To your north you can see a vaguely interesting cottage.
+~
+0 3
+
+D0
+Path to cottage
+~
+~
+0 -1 10538
+D1
+Forest
+~
+~
+0 -1 10526
+D2
+Forest
+~
+~
+0 -1 10529
+D3
+Forest
+~
+~
+0 -1 10524
+S
+
+#10526
+The Forest~
+ My, what a large collection of trees. Very interesting to, say, your
+hardened tree-spotter, but mind-numbingly boring to your hardened
+mudder. Well, which are you??
+~
+
+0 3
+
+D2
+Forest
+~
+~
+0 -1 10530
+D3
+Forest
+~
+~
+0 -1 10525
+S
+
+#10527
+The Forest~
+ No. 1
+ The larch
+~
+
+0 3
+
+D2
+Forest
+~
+~
+0 -1 10546
+D3
+Forest
+~
+~
+0 -1 10541
+S
+
+#10527
+The Entrance to the forest~
+ You find yourself standing in probably the most dull forest you've
+ever seen. There is an old, wooden sign posted in the ground.
+~
+0 3
+
+D0
+The forest
+~
+~
+0 -1 10523
+D1
+Yet more forest
+~
+~
+0 -1 10528
+D2
+Even more forest
+~
+~
+0 -1 10532
+D3
+The bridge
+~
+~
+0 -1 10522
+
+E
+sign~
+I lied about it being interesting :-P
+~
+S
+
+#10528
+The Forest~
+ Forest, that thing filled with trees, plants (just a second, trees
+*are* plants), small furry animals and the Spanish Inquisition. Eh? I
+didn't expect...
+...urgh!
+ Ahem... to your south you can see a mythical castle.
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10525
+D1
+Forest
+~
+~
+0 -1 10529
+D2
+Forest
+~
+~
+0 -1 10533
+D3
+Forest
+~
+~
+0 -1 10527
+S
+
+#10529
+The Forest~
+ Yes folks, this is just your ordinary every day forest.
+ To your north you may or may not be able to see what might be a
+cottage (you know - cottage - as in the kind of cheese). and to
+your south you can see an old castle, topped with a glowing light.
+~
+
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10525
+D1
+Forest
+~
+~
+0 -1 10530
+D2
+Forest
+~
+~
+0 -1 10534
+D3
+Forest
+~
+~
+0 -1 10528
+S
+
+#10530
+The Forest~
+ Trees, trees, trees, trees, trees, etc.
+ To your east you see a peasant village.
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10526
+D3
+Forest
+~
+~
+0 -1 10525
+S
+
+#10531
+The End of the Forest~
+ You are very pleased with the lack of trees here (well, you should be,
+unless you're some kind of weirdo... oh - you are?)
+ To your east, as you've no doubt gathered by now, is a village.
+~
+
+0 3
+
+D1
+Entrance to the Village
+~
+~
+0 -1 10542
+D3
+Forest
+~
+~
+0 -1 10530
+S
+
+#10532
+The Forest~
+ Yup, it *is* a tree-filled area, how observant of you.
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10527
+D1
+Forest
+~
+~
+0 -1 10533
+S
+
+#10533
+The Forest~
+ You find yourself inside a revolving television full of fungus.
+ No, not really, just a lot of trees.
+ To your south you can see the historic castle of Camelot!
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10528
+D1
+Forest
+~
+~
+0 -1 10534
+D2
+The Road to Camelot
+~
+~
+0 -1 10535
+D3
+Forest
+~
+~
+0 -1 10532
+S
+
+#10534
+The Forest~
+ I'll give you a clue as to what you see here.
+ It's an anagram of 'steer'
+ To your south you see a castle with a shining beacon on top.
+~
+0 3
+
+D0
+Forest
+~
+~
+0 -1 10529
+D3
+Forest
+~
+~
+0 -1 10533
+S
+
+#10535
+Camelot!~
+ You can hear faint singing from the castle to the south.
+ There is a warning sign fallen in the mud here.
+~
+
+0 4
+
+D0
+Forest
+~
+~
+0 -1 10533
+D2
+The Road to Camelot
+~
+~
+0 -1 10536
+
+E
+sign~
+Perhaps you shouldn't go there,
+it is a silly place.
+~
+S
+
+#10536
+Camelot!~
+ And tap dancing... (?)
+~
+0 4
+
+D0
+The road to Camelot
+~
+~
+0 -1 10535
+D2
+Camelot!
+~
+~
+0 -1 10537
+S
+
+#10537
+Camelot!~
+
+ Camelot!
+ Camelot!
+ Camelot!
+ (it's only a model)
+~
+
+0 4
+
+D0
+Forest
+~
+~
+0 -1 10536
+S
+
+#10538
+Path to a cottage~
+ You are walking out of the forest up a gravel path towards a cottage.
+~
+
+0 5
+
+D0
+Path to a cottage
+~
+~
+0 -1 10539
+D2
+The forest
+~
+~
+0 -1 10525
+S
+
+#10539
+Path to a cottage~
+ You are walking out of the forest up a gravel path towards a cottage.
+~
+
+0 5
+
+D0
+Path to a cottage
+~
+~
+0 -1 10540
+D2
+Path to a cottage
+~
+~
+0 -1 10538
+S
+
+#10540
+Path to a cottage~
+ You are walking out of the forest up a gravel path towards a cottage.
+~
+
+0 5
+
+D0
+A cottage
+~
+~
+0 -1 10541
+D2
+Path to a cottage
+~
+~
+0 -1 10539
+S
+
+#10541
+Inside A cottage~
+ You find yourself inside the cottage belonging to the aptly named 'Sir
+Not-appearing-in-this-MUD'.
+ 
+~
+0 AD 0
+
+D2
+Path to a cottage
+~
+~
+0 -1 10540
+S
+
+#10542
+The Entrance To the Village~
+ You are at the entrance to a rustic village. Villagers clothed in
+simple, dirty rags stream around you, some bow before you, never having seen someone of your status before, while others regard you with an air
+of envy.
+ As you enter, you can see a line of monks, chanting and hitting
+themselves over the head with planks of wood, leaving.
+~
+0 0 1
+D1
+Back into the Forest
+~
+~
+0 -1 10531
+D3
+The main street of the Village
+~
+~
+0 -1 10543
+S
+
+#10543
+The main street of the village~
+ The main street of the village is a cacophony of noise and colour (as
+long as that colour is brown). As you squelch through the muddy
+thoroughfare, you see marketkeepers and beggars jostling for the
+attention of the multitude of villagers.
+~
+0 0 1
+D1
+The entrance of the village
+~
+~
+0 -1 10542
+D3
+The main street of the village~
+~
+~
+0 -1 10544
+S
+
+#10544
+The main street of the village~
+ The main street of the village is a cacophony of noise and colour (as
+long as that colour is brown). As you squelch through the muddy
+thoroughfare, you see marketkeepers and beggars jostling for the
+attention of the multitude of villagers. There is a man here trailing a
+cart full of corpses and calling 'Bring out Your dead!'.
+~
+0 0 1
+D1
+The main street in the village
+~
+~
+0 -1 10543
+D3
+The Village square
+~
+~
+0 -1 10545
+S
+
+#10545
+The Village Square~
+ 'Village Square' is perhaps a bit pretentious for what is basically a
+muddy clearing in the village. The villagers go about their daily 
+business in the grime, except for a crowd that is gathering to your
+east. You notice that a house to your south has been carelessly left
+open.
+~
+0 0 1
+D0
+The Village Square
+~
+~
+0 -1 10547
+D1
+The Village Square
+~
+~
+0 -1 10546
+D2
+A villager's house
+~
+~
+0 -1 10551
+D3
+The main street
+~
+~
+0 -1 10544
+D4
+The Village Square
+~
+~
+0 -1 10546
+S
+
+#10546
+The Village Square~
+ You find yourself behind a crowd of villagers. They ignore you, as
+their attention is directed at the raised platform at the front, where a
+knight stands...
+~
+0 0 1
+D0
+The Village Square
+~
+~
+0 -1 10548
+D3
+The Village Square
+~
+~
+0 -1 10545
+S
+
+#10547
+The Village Square~
+ You are in the throng of the crowd, to your north-east you see a
+knight, and behind him a large set of scales.
+~
+0 0 1
+D1
+The Village Square
+~
+~
+0 -1 10548
+D2
+The Village Square
+~
+~
+0 -1 10545
+S
+
+#10548
+The Village Square~
+  You are now at the front of the crowd - in front of you, on a raised
+platform, stands a knight. The crowd jeers as a woman wearing an
+obviously fake nose is brought to him. For some reason, the knight holds
+a duck.
+~
+0 0 1
+D0
+A raised Platform
+~
+~
+0 -1 10549
+D2
+The Village Square
+~
+~
+0 -1 10546
+D3
+The Village Square
+~
+~
+0 -1 10547
+S
+
+#10549
+A wooden platform~
+ You push through the crowd and climb onto the platform. It is
+constructed of rotting timber and does not look very safe. Sir Bedevere
+stands here, a duck in his hands.
+~
+0 0 1
+D1
+A large pair of scales
+~
+~
+0 -1 10550
+D2
+The Village Square
+~
+~
+0 -1 10548
+S
+
+#10550
+A large set of scales~
+ You are standing in front of a very large set of wooden scales. A woman
+with a fake crooked nose sits dejectedly on one side of the scales. She
+looks hopefully at you, that you might rescue her from certain death at the hands of the crowd of villagers.
+~
+0 0 1
+D3
+The platform
+~
+~
+0 -1 10549
+S
+
+#10551
+A villager Idiot's House~
+ You stand at the threshold of a filthy house. The floor is covered in
+straw, and you can see rats running around. A foolish looking man is
+sitting on a rickety wooden seat, watching the television. He ignores
+you as he changes the channel with his remote control. You realise that
+something isn't right
+with this picture...
+ It's 787 AD! they didn't *have* remote controls then.
+ The man finally realises that you are here, and turns around - a
+psychopathic glint in his eyes. You are about to leave, but the door behind
+you slams shut...
+ The Village idiot attacks...
+~
+0 ADN 0
+D0
+The main street
+~
+~
+1 1 10545
+S
+
+#10552
+The castle drawbridge~
+ You are standing in front of giant stone castle, the entrance - a
+relatively small wooden door - is open and through the threshold you can
+see a beautiful woman waiting for you...
+ The villagers have posted a warning sign in the ground.
+~
+0 0 2
+D0
+Back to the forest
+~
+~
+0 -1 10534
+D2
+The entrance to the castle
+~
+~
+0 -1 10553
+E
+sign~
+Castle Anthrax: Beware of certain temptation
+~
+S
+
+#10553
+The entrance to Castle Anthrax~
+ You enter the castle. In front of you is a large area consisting
+entirely of young Blondes and Brunettes all between sixteen and
+nineteen-and-a-half, all alone with no-one to protect them, spending
+their lives bathing, dressing, undressing, making exiting underwear...
+~
+0 0 0
+D0
+The castle drawbridge
+~
+~
+0 -1 10552
+D2
+The main hall
+~
+~
+0 -1 10555
+S
+
+#10554
+The main hall of Castle Anthrax~
+ You are in a large hall, tapestries line the stone walls and young
+women line the floor saying 'hello' to you.
+~
+0 0 0
+D1
+The main hall
+~
+~
+0 -1 10555
+D2
+A stairwell
+~
+~
+0 -1 10558
+S
+
+#10555
+The main hall of Castle Anthrax~
+ You are in a large hall, tapestries line the stone walls and young
+women line the floor saying 'hello' to you. To your east is a passage
+~
+0 0 0
+D1
+A passage
+~
+~
+0 -1 10556
+D2
+The main hall
+~
+~
+0 -1 10559
+S
+
+#10556
+A passage~
+ You are in a narrow corridor, to your east you can see a set of stairs
+leading up to the tower where you saw the glowing light - could this be
+the key to finding the grail?
+~
+0 0 0
+D1
+A stairwell
+~
+~
+0 -1 10562
+D3
+The main hall
+~
+~
+0 -1 10555
+S
+
+#10557
+A stairwell~
+ You find yourself at the bottom of a set of wooden stairs. At the top,
+you can see the woman you saw at the entrance standing in front of a 
+door.
+ You see a warm light around the edges of the door.
+~
+0 0 0
+D3
+The passage
+~
+~
+0 -1 10556
+D4
+the top of the stairs
+~
+~
+0 -1 10562
+S
+
+#10558
+A stairwell~
+ You are at the bottom of a flight of steps. At the top you can see a
+stone landing. To your south you see a treacherous corridor...
+~
+0 0 0
+D0
+The main hall
+~
+~
+0 -1 10554
+D1
+The main hall
+~
+~
+0 -1 10559
+D2
+A corridor
+~
+~
+0 -1 10560
+D4
+A set of steps
+~
+~
+0 -1 10564
+S
+
+#10559
+The main hall of Castle Anthrax~
+ You are in a large hall, tapestries line the stone walls and young
+women line the floor saying 'hello' to you.
+~
+0 0 0
+D0
+The main hall
+~
+~
+0 -1 10555
+D3
+A stairwell
+~
+~
+0 -1 10558
+S
+
+#10560
+A dangerous looking corridor~
+ You are engulfed in an icy chill as you enter this darkened corridor.
+ The shadows in front of you move and you feel it is best to turn back.
+~
+0 A 0
+D0
+safety
+~
+~
+0 -1 10558
+D1
+The end of the corridor
+~
+~
+0 -1 10561
+S
+
+#10561
+The end of the corridor~
+ The corridor ends abruptly here, the darkness is almost impenetrable.
+ A few inhuman scratches along the floor indicate that there may be a 
+trapdoor...
+ The blood liberally covering the area indicate that you just *may* want
+to turn back...
+D3
+run away! run away!
+~
+~
+0 -1 10560
+D5
+...gulp!
+~
+~
+1 1 10566
+
+#10562
+In front of a door~
+ You reach the top of the stairs and find yourself facing Dingo, Zoot's
+identical sister (no, not just the same actress playing two characters,
+what do you think I am? A cheapskate?), is standing in front of you,
+protecting whatever is inside.
+~
+0 0 0
+D1
+A room
+~
+~
+2 10509 10563
+D5
+The bottom of the stairs
+~
+~
+0 -1 10557
+S
+
+#10563
+A room at the top of the castle~
+ You are in small room, nothing adorns the stone walls and all that
+makes this room special is a glowing beacon standing on a table in front
+of the window that looks over the forest.
+~
+0 0 0
+D3
+The entrance to the room
+~
+~
+2 10509 10562
+S
+
+#10564
+A staircase~
+ You are on a spiraling staircase. Above you, you can see an open
+doorway, which leads to a room in which is a knight lying on a bed.
+~
+0 0 0
+D4
+A Bedroom
+~
+~
+0 -1 10565
+D5
+The stairwell
+~
+~
+0 -1 10558
+S
+
+#10565
+A Bedroom~
+ You are in a lavishly furnished bedroom, in the centre of the room is
+bed on which Sir Galahad the Chaste lies, resisting temptation.
+~
+0 0 0
+D5
+A Staircase
+~
+~
+0 -1 10564
+S
+
+#10566
+The cellar~
+ The trapdoor slams shut behind with an ominous thud and you find
+yourself in a dark cellar. By the dim candlelight you can read a sign
+scrawled in blood on the wall.
+~
+0 A 0
+D1
+...gulp
+~
+~
+0 -1 10567
+D3
+...gulp
+~
+~
+0 -1 10569
+
+E
+sign~
+The blood reads:
+
+ Only the brave or the foolish walk into certain death.
+ If thou art brave, go East
+ If thou art foolish, go West
+
+ Only those who have already proved their worth may enter...
+
+
+Scary, huh?
+~
+
+#10567
+The Tomb of the Brave~
+ You are surely brave to enter this room. As you walk in a hideous being
+descends upon you. Its features are twisted and it wears on its head
+what you hope will be your prize for killing it.
+ Certain Death attacks...
+
+ There is no escape now
+~
+0 ANQ 0
+D3
+A cellar of unbelievable wealth
+~
+~
+1 1 10568
+S
+
+#10568
+The cellar of unbelievable wealth~
+ You stumble away from your battle with certain death to find a marvelous room. It seems even the *walls* are covered with gold.
+ Riches beyond your wildest dreams decorate the walls and in the
+middle of the room there lies a plain wooden chest.
+~
+0 Q 0
+S
+
+#10569
+The Tomb of the Foolish~
+ You are surely insane to enter this room. As you walk in a hideous
+being descends upon you. Its features are twisted and it wears on its
+head what you hope will be your prize for killing it.
+ Certain Death attacks...
+
+ There is no escape now
+~
+0 ANQ 0
+D1
+A cellar of unbelievable wealth
+~
+~
+1 1 10568
+S
+
+#10570
+The beginning of the slightly-more-interesting-than-the-last-one Forest~
+ The trees are denser in this part of the forest, casting forbidding
+shadows, a light mist fills the air making it difficult to see very far in front of you.
+ However, you can see tall vaguely human shapes moving about in front
+of you.
+ A wooden sign has been nailed to a tree.
+~
+0 C 3
+D0
+The forest of Ni!
+~
+~
+0 -1 10572
+D2
+The boring forest
+~
+~
+0 -1 10523
+E
+sign~
+Ni!
+~
+S
+#10571
+The forest of Ni!~
+ You stumble further through the darkened forest, the keepers of the
+sacred words surround you, saying 'Ni!' 'Peng!' and 'Nee-wom!'
+ To your north you can see a particularly tall Knight.
+~
+0 A 3
+D0
+The forest of Ni!
+~
+~
+0 -1 10573
+D1
+The forest of Ni!
+~
+~
+0 -1 10572
+S
+#10572
+The forest of Ni!~
+ The mist turns into a fog and you find yourself enclosed by a group of
+figures. With horror you realise that you have wandered into the forest
+that is home to
+
+                     The Knights Who Say 'Ni!'(tm)
+
+ These are the keepers of the sacred words 'Ni!' 'Peng!' and 'Nee-wom!'.
+ Those who hear these words seldom live to tell the tale...
+~
+0 A 3
+D2
+The start of the forest
+~
+~
+0 -1 10570
+D3
+The forest of Ni!
+~
+~
+0 -1 10571
+S
+#10573
+The forest of Ni!~
+ You find yourself in a clearing in the forest. The tallest of the knights who say
+'Ni!' stares down at you...
+~
+0 A 3
+D0
+The forest of Ni!
+~
+~
+0 -1 10574
+D2
+The forest of Ni!
+~
+~
+0 -1 10571
+S
+#10574
+The forest Of Ni!~
+ The mist begins to clear and in front of you, you can see an open space.
+~
+0 0 3
+D1
+A clearing
+~
+~
+0 -1 10575
+D2
+The forest of Ni!
+~
+~
+0 -1 10573
+S
+#10575
+A clearing~
+ With relief, you come out of the forest and into a clearing. The wind
+blows around you. In front of you, you see a deep cave-mouth.
+ As if from nowhere, an eccentric looking enchanter with a fake Scots
+accent and a fetish for pyrotechnics appears in front of you.
+~
+0 0 2
+D1
+The cave of Caerbannog
+~
+~
+0 -1 76
+D2
+The forest of Ni!
+~
+~
+0 -1 10574
+S
+#10576
+The Mouth of the Cave of Caerbannog~
+ You step cautiously into the cave mouth, looking for the beast of which
+the enchanter spoke. Human remains are spread around with abundance, but
+all you can see a small, white fluffy rabbit...
+...the beast attacks
+~
+0 0 2
+D1
+The cave of Caerbannog
+~
+~
+0 -1 10577
+D3
+The clearing
+~
+~
+S
+#10577
+The Cave of Caerbannog~
+ You enter into the cave, it is too dark to really see anything.
+~
+0 AD 0
+D0
+Further into the cave
+~
+~
+0 -1 10578
+D3
+The mouth of the cave
+~
+~
+S
+#10578
+ You go further into the cave. On the far wall, your light makes out some
+writing....
+~
+0 AD 0
+D0
+Further into the cave
+~
+~
+0 -1 10577
+D2
+Towards the entrance
+~
+~
+E
+writing~
+The writing is in Aramaic, it says:
+
+  Here may be found the last words of Joseph of Aramathea.
+
+  "He who is valorous and pure of heart may find the Holy Grail in the
+ aaaaarrrrrrggghhh..."
+~
+S
+#10579
+The Cave of Caerbannog~
+ You scramble round in the dark until you see a light, up ahead you can
+see the exit
+~
+0 AD 0
+D2
+Back into the cave
+~
+~
+0 -1 10578
+D3
+Towards the exit
+~
+~
+0 -1 10580
+S
+#10580
+The exit of the Cave~
+ You come out of the cave and find yourself standing on a narrow stone ledge.
+ In front of you is the Gorge of Eternal Peril. The only way across is
+over the Bridge of Death, which is guarded by the strange man from scene
+24.
+~
+0 0 5
+D1
+The cave of Caerbannog
+~
+~
+0 -1 10579
+D3
+The edge of the Gorge
+~
+~
+0 -1 10581
+S
+#10581
+The Edge of The Gorge of Eternal Peril~
+ You stand at the edge of the Gorge and look down. The Gorge of Eternal
+Peril stretches downwards to infinity, you feel many brave knights have
+met their death here. The Bridgekeeper stands here. He guards the bridge
+with his life, although you feel he could be corruptible for the right
+price...
+~
+0 0 5
+D3
+Back...
+~
+~
+0 -1 10580
+S
+#10582
+The Bridge of Death~
+ The Bridgekeeper moves his fingers in an very intricate, and probably
+dangerous, series of movements and you are transported to the beginning of the bridge.
+
+ The bridge you are on does *not* look very safe - it is a rickety
+affair and planks occasionally fall down into the Gorge.
+ You  cannot see what lies on the other side.
+~
+0 N 5
+D3
+Further along the bridge
+~
+~
+0 -1 10583
+S
+#10583
+The Bridge of Death~
+The bridge you are on does *not* look very safe - it is a rickety
+affair and planks occasionally fall down into the Gorge.
+ To your west you see a well deserved break.
+~
+0 N 5
+D1
+Back along the bridge
+~
+~
+0 -1 10582
+D3
+Intermission
+~
+~
+0 -1 10584
+S
+#10584
+Intermission~
+
+   ######################################################################
+   #********************************************************************#
+   #*                                                                  *#
+   #*                           Intermission                           *#
+   #*                                                                  *#
+   #********************************************************************#
+   ######################################################################
+
+~
+0 N 5
+D1
+The Bridge of Death
+~
+~
+0 -1 10583
+D3
+The Bridge of Death
+~
+~
+0 -1 10585
+S
+#10585
+The Bridge Of Death~
+ You are approaching the end of the bridge.
+ To your west you can see the castle Aaaaarrrrrrggghhh towering above
+you.
+~
+0 N 5
+D1
+Intermission
+~
+~
+0 -1 10584
+D3
+The Castle Aaaaarrrrrrggghhh
+~
+~
+0 -1 10585
+S
+#10586
+The Castle Aaaaarrrrrrggghhh~
+ You step off the Bridge of Death and into the Castle Aaaaarrrrrrggghhh,
+as you enter through the small door at the side you can hear French
+voices above you. To your north is a tacky gift shop.
+~
+0 ADN 0
+D0
+The tacky gift shop
+~
+~
+0 -1 10587
+D4
+The Battlements
+~
+~
+0 -1 10588
+S
+#10587
+The Tacky Gift Shop~
+ You step from the medieval castle into a neon-lit gift shop. Rodger the
+shrubber stands here dressed in a horrible sequined suit. He smiles with
+a fake, bright smile and motions to his wares, in a brightly lit glass
+cabinet under the counter.
+ To your amazement, you find he sells the Holiest of Grails, although you
+try to ignore the fact he has hundreds of boxes of grails...
+ To your east you see an open door with a green neon 'Exit' sign above
+it.
+~
+0 DN 0
+D1
+Exit
+~
+~
+0 -1 (sjofn)
+D2
+The main hall of Aaaaarrrrrrggghhh
+~
+~
+0 -1 10586
+S
+#10588
+The Battlements of Aaaaarrrrrrggghhh~
+ You step into the daylight, over the ramparts you can see all over your
+Kingdom, and you are tempted just to stay here and admire the view rather
+than facing the scornful French persons that await you to your north.
+~
+0 0 1
+D0
+You don't want to go north...
+~
+~
+0 -1 10589
+S
+#10589
+The Battlements of Aaaaarrrrrrggghhh~
+ You walk further along the battlements and see two heavily armoured
+French persons looking over the battlements. stubbing your toe on a
+loose plank, you swear loudly.
+ The French Taunters turn around and attack...
+~
+0 N 1
+D2
+Run away!!!
+~
+~
+0 -1 10588
+S
+
+#0
+
+#RESETS
+
+M 0 10501 5 10501   Swallow
+E 1 10500 -1 17
+M 0 10501 5 10503
+E 1 10500 -1 17
+M 0 10501 5 10504
+E 1 10500 -1 17
+M 0 10501 5 10504
+E 1 10500 -1 17
+*
+M 0 10502 1 10509   Dennis
+*
+M 0 10503 2 10507   woman peasant
+M 0 10503 2 10508
+*
+M 0 10504 1 10522   Black knight
+E 1 10501 -1 5      (armour)
+E 1 10502 10 16     (sword)
+*
+M 0 10505 1 10528   Squirrel in disguise:>
+E 1 10503 -1 8
+*
+M 0 10506 1 10543   Cart driver
+*
+M 0 10507 4 10543   villager
+M 0 10507 4 10545
+M 0 10507 4 10548
+M 0 10507 4 10547
+*
+M 0 10508 4 10544   villager (female)
+M 0 10508 4 10546
+M 0 10508 4 10547
+M 0 10508 4 10548
+*
+M 0 10509 1 10551   Village idiot
+E 1 10504 15 16
+D 0 10545 2 0       (door to cottage)
+D 0 10551 0 1
+*
+M 0 10510 1 10549   Sir Bedevere
+E 1 10506 20 1      (ring)
+G 1 10505 -1        (duck:)
+*
+M 0 10511 1 10550   Witch
+E 1 10507 -1 6      (hat & nose)
+*
+O 1 10508 1 10537   Camelot
+*
+M 0 10512 1 10553   Zoot
+*
+M 0 10513 1 10562   Dingo
+G 1 10509 -1        key
+D 10509 10562 1 2   door
+D 10509 10563 3 1    "
+*
+M 0 10514 5 10555   Blonde
+E 1 10510 -1 12     E. UW :)
+M 0 10514 5 10554
+E 1 10510 -1 12
+M 0 10514 5 10559
+E 1 10510 -1 12
+M 0 10514 5 10559
+E 1 10510 -1 12
+M 0 10514 5 10558
+E 1 10510 -1 12
+*
+M 0 10515 5 10555  Brunette
+E 1 10510 -1 12
+M 0 10515 5 10555
+E 1 10510 -1 12
+M 0 10515 5 10554
+E 1 10510 -1 12
+M 0 10515 5 10556
+E 1 10510 -1 12
+M 0 10515 5 10559
+E 1 10510 -1 12
+*
+M 0 10516 1 10565  Galahad
+E 1 10511 8 13     Chastity belt
+*
+O 1 10517 -1 10563 Grail shaped beacon
+*
+M 0 10517 2 10567  Certain death
+E 1 10512 7 6      Helmet of brave
+G 1 10514 2        key
+M 0 10517 2 10569
+E 1 10513 7 6      Underpants/insane
+G 1 10514 2        Key
+*
+O 1 10515 1 10568  chest
+P 0 10516 1 10515  cash
+*
+M 0 10518 7 10572  Ni!
+E 1 10518 16 20
+M 0 10518 7 10572
+E 1 10518 16 20
+M 0 10518 7 10571
+E 1 10518 16 20
+M 0 10518 7 10571
+E 1 10518 16 20
+M 0 10518 7 10573
+E 1 10518 16 20
+M 0 10518 7 10573
+E 1 10518 16 20
+*
+M 0 10519 1 10573  head ni!
+E 1 10519 17 -1    herring
+*
+M 0 10520 1 10575  tim
+E 1 10520 17 40    staff
+*
+M 0 10521 1 10576  rabbit:>
+G 1 10521 -1       foot
+*
+M 0 10522 1 10581  bridgekeeper
+*
+M 0 10523 1 10589  taunter1
+E 1 10522 15 16    razor wit
+E 1 10524 16 11    shield of irony
+M 0 10525 1 10589  taunter2
+E 1 10523 16 16    biting sarcasm
+E 1 10525 23 1     ring
+E 1 10529 13 4     medallion
+*
+M 0 10524 1 10587  rodger shrubber
+G 1 10527 -1       the grail!
+G 1 10526 -1       shrubbery!
+G 1 10528 -1       t-shirt
+G 1 10530 -1       handgrenade :>
+S
+
+#SPECIALS
+M 10505 spec_cast_mage
+M 10505 spec_breath_frost
+M 10510 spec_cast_cleric
+M 10511 spec_cast_mage
+M 10512 spec_cast_cleric
+M 10517 spec_cast_undead
+M 10517 spec_breath_fire
+M 10517 spec_cast_mage
+M 10520 spec_cast_mage
+M 10523 spec_cast_cleric
+M 10523 spec_cast_mage
+M 10523 spec_cast_undead
+M 10523 spec_breath_any
+S
+
+#SHOPS
+10523 0 0 0 0 50 50 1 24
+0
+
+#$
+

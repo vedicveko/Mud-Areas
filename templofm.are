@@ -1,0 +1,1284 @@
+#AREADATA
+Name The Temple of Moon~
+Builders Debra~
+VNUMs 400 450
+Credits {50 + } Debra     Temple of the Moon~
+Security 9
+End
+
+
+
+#MOBILES
+#404
+acolyte woman~
+1~
+an Acolyte~
+A black-robed acolyte is here, whispering soft prayers.
+~
+A young woman is here, lost in prayers. She is clad in a simple black robe
+with a copper-coloured pictured depicting the Moon on the chest. She wanders
+around the first floor, apparently not noticing her own movements at all.
+You think you see something out of place with the young woman and look closer.
+It's the shadow! Her shadow is not hers! It has 3 arms! You wonder what kind
+of dark creatures lurk in this place and decide to move along before they
+notice your presence.
+~
+Human~
+ACFGR T -400 0
+50 15 10d10+4000 5d10+100 5d15+80 whip
+-20 -20 -20 -80
+EFNP IK F H
+stand stand female 10
+HMV ABCJK medium unknown
+F for A
+F par DEFGHI
+#407
+summoner cleric priest~
+1~
+the Summoner~
+The Summoner is here, drawing circles on the floor.
+~
+The summoner crawls all over the floor, drawing mystic pictures inside the 
+pentagra with various substances, some red, some yellow, some blue. All the
+while he mutters to himself, you don't know whether they are prayers or is he
+totally insane, talking to shadows.. speaking of which they seem to have a
+life of their own.. maybe you aren't alone with him in the room. You glare
+around nervously. The man doesn't seem to mind the shadows at all, he just
+continues drawing his little symbols. 
+~
+Human~
+ABGQ Q 0 0
+55 10 10d10+5000 1d1+999 10d8+90 beating
+-40 -30 -40 -60
+CIKQ I F H
+stand stand male 90
+HMV 0 medium unknown
+F for A
+F par ABCDEFGHIJK
+#414
+nightblade night blade black assassin~
+6~
+Nightblade~
+A nightblade is sneaking around here, attempting to stab you in the back
+~
+The twisted figure appears to have some human characteristics but you are sure
+it most definitely is not human. It is covered totally in a snowy white suit
+allowing it to hide well in this cold tunnel. Its face is covered completely
+with a white ninja-style headpiece.
+~
+Human~
+AGHOST DFPV -600 0
+55 20 10d10+6000 5d10+200 10d14+60 pierce
+-30 -30 -30 -80
+FN BFI K H
+stand stand none 20
+HMV ABCEGJK medium unknown
+F for A
+F par DFHI
+#415
+Izaakh ice demon~
+1~
+Izaakh~
+Izaakh, the Ice-Demon
+~
+At first you mistook the Demon for an ice statue. But it definitely moves 
+around. It leaves a trail of white mist as it suddenly races across the room 
+suddenly noticing you. A wailing shriek can be heard as his fearsome hammer
+cuts through the air in a massive swing aimed straight at you! You break your
+observations to defend yourself from the icy beast's wrath.
+~
+Human~
+ABFGST DFQTVZ -1000 0
+70 60 10d10+10000 10d10+200 20d10+130 claw
+-60 -30 -60 -90
+BDFKN I FG HPSZ
+stand stand none 50
+AHMV ABCDEFGHIJK small unknown
+#418
+defender warrior moon fighter~
+2~
+Defender of the Moon~
+The Defender of the Moon is here, making sure the ritual goes uninterrupted
+~
+You see a huge warrior standing in front of you. The man is clad in a heavy
+midnight blue chain shirt, matching arm-, and leg guards and metal enforced
+boots. He wields a surprising weapon, a ranseur. Only the best men are advanced
+to the rank of Defender and they go through extensive training. Training you
+are about to see in action as the man notices you and his face splits in a
+wicked grin as he turns his weapon to assault you.
+~
+Human~
+ABCFGT DFV -1000 0
+60 25 10d10+8000 10d10+100 10d10+50 none
+-60 -30 -60 -100
+CDEFHIKLP I F H
+stand stand male 30
+HMV ABCDFHJK medium unknown
+F for A
+F par EGI
+#421
+paladin moon~
+1~
+The Paladin of the Moon~
+The Paladin of the Moon guards the temple from people like you.
+~
+A demonic looking man, that's the best general description you can come up
+with. his hair is short, black and spiked. His face is long, teeth pointy
+and eyes have a reddish tint. He is wearing a splint mail and on his hip
+you see a sword. You think you get to take a better look at that sword in
+no-time. He springs on his feet and with blurring speed he draws his scimitar
+and slashes at you in a one single graceful but deadly move. The sword shimmers
+around the edges, obviously sensing prey, as it strikes at you.
+~
+Human~
+ABFGT DFH -1000 0
+80 30 10d10+8000 5d5+100 15d10+180 slash
+-60 -40 -60 -90
+ABEFHK I FK H
+stand stand male 100
+AHMV BCDEJK large unknown
+F par AFGHI
+#423
+knight holy avatar~
+1~
+the Holy Avatar~
+The Holy Avatar glares at you, his pike ready for combat.
+~
+A surprising sight, a man clad in white armour. His face is bloodied and his
+armor is scratched but he doesn't seem to notice. He glares at you, looking 
+for the smallest mistake to impale you with his pike. Apparently he is from
+the temple of the Sun, his job to rescue the sacrificial maiden before she
+is killed. By the bodyparts and dead defenders you can deduce he is very adept
+in the arts of combat.
+ 
+~
+Human~
+ABGT HNV 1000 0
+65 70 10d10+7000 1d1+99 10d10+130 punch
+-50 -50 -50 -50
+DEFHIK BH I 0
+stand stand none 50
+AHMV AEGHJK medium unknown
+F par BCDFI
+#430
+maiden girl woman~
+1~
+The maiden~
+A fair maiden is about to be sacrificed to Izaakh
+~
+The young fair woman screams in terror and trashes around but her bonds won't
+let her free. She is small, just over 5 feet tall and is clad in a white simple
+robe that barely covers her body. Her wrists and ankles are tied with leather
+straps and her long white hair flows freely over the dark altar she's lying on.
+~
+Human~
+ABG H 1000 0
+30 -10 5d10+2000 1d1+999 5d10+30 punch
+10 10 10 -20
+I NS 0 DEFGIJKMO
+stand stand female 0
+AHMV ABCEJK medium unknown
+F par DFGHI
+#431
+avatar dark knight~
+1~
+The Dark avatar~
+The Dark Avatar stands here, making powerful gestures and chanting wildly.
+~
+The second in top of the cult is the Dark Avatar or the Templemaster as some
+call him. He is in charge of all the Ritual's parts except the sacrifice 
+itself which is done by the Daughter herself. The Avatar wears only a loincloth
+and a blackened metal mask depicting something indescribeable. He holds the
+sacrificial maiden down on the altar with his left hand while making wild
+mystical gestures with his right hand. His chanting is heard above all the
+followers' voices despite the apparently heavy mask he wears. He seems unaware
+of your presence, trusting the guards to keep out intruders during the Ritual.
+He looks strong enough to rip off your arm if he were to notice you however.
+~
+Human~
+ABFGRT DF -1000 0
+65 15 10d10+9000 10d5+800 10d8+120 slash
+-40 -20 -40 -70
+EHK I FG HN
+stand stand none 80
+HMV F medium unknown
+F for A
+F par ABCDEGHIJK
+#433
+worshipper man moon~
+4~
+A worshipper~
+A Worshipper of the Moon is here, changing his unholy prayers.
+~
+As you look at the face of the worshipper you feel a shiver. He looks like
+a perfectly normal man, the kind you could encounter in any given village with
+a happy family. Only his eyes betray the darkness of his black soul. They seem
+to burn with a midnight blue flame as he devotedly takes part in the gruesome
+ritual of sacrifice. He is clad in a simple black tunic with a silvery emblem
+on the chest depicting the full Moon.
+~
+Human~
+AGHS O -900 0
+55 20 10d10+6000 5d10+200 5d15+90 crush
+-40 -40 -40 -40
+CJKLP BI 0 H
+stand stand male 10
+HMV ABCDEFGHIJK medium unknown
+F for A
+#437
+daughter moon woman~
+1~
+The Daughter of the Moon~
+The Daughter of the Moon is meditating here.
+~
+The Daughter is the head of the cult of the Moon and it shows. On her head is
+a dark circlet, a token of her power among the cult. She wears tens,
+even hundreds of midnight blue and black silk scarves tied delicately together
+making intricate patterns and flowing around her in the wind, making her 
+movements blurry and dreamlike. She seems to be in a meditative state, sitting
+on the floor, looking intently at the full moon, drawing power from it's 
+mystic aura. Her outlines appear to glow slightly as the moon's power radiates
+outwards. Soon she will go in bringing the Ritual to it's dreadful end.
+~
+Human~
+ABCGQRST DFHOVZ -1000 0
+90 80 10d100+16000 1d1+1500 80d2+220 wrath
+-80 -80 -60 -100
+ADEFHIJK IK F H
+stand stand female 300
+HMV BCEFGHIJKL medium unknown
+F for A
+F par AD
+#0
+
+
+
+#OBJECTS
+#400
+gleaming pike~
+gleaming pike~
+A gleaming pike rests on the floor.~
+iron~
+weapon AHKLPUWZ AN
+staff 10 9 charge D
+50 80 25000 P
+A
+1 5
+A
+18 4
+A
+19 4
+#401
+ranseur moonlight polearm pole arm~
+moonlight ranseur~
+A black ranseur glimmers on the floor.~
+metal~
+weapon EHJPUWZ AN
+polearm 8 10 slash BD
+50 50 25000 P
+A
+18 4
+A
+19 4
+#402
+moonblade moon blade scimitar~
+moonblade~
+A long-bladed scimitar is lying on the ground.~
+iron~
+weapon EHJLPWZ AN
+dagger 10 7 thrust D
+50 30 25000 P
+A
+18 4
+A
+19 4
+A
+20 -1
+#403
+night black key~
+night-black key~
+A key so dark it burns the eyes is here.~
+unknown~
+key HPZ A
+0 0 0 0 0
+54 1 0 P
+#404
+moonlight splintmail splint mail~
+moonlight Splintmail~
+A midnight blue splintmail lies forgotten on the floor.~
+metal~
+armor BCHJPUWZ AD
+ABCD ABCD ABCD ADE 0
+50 20 25000 P
+A
+18 4
+A
+19 4
+A
+1 4
+A
+2 2
+A
+13 50
+#405
+zakh than thuk hammer warhammer~
+{xZakh Than Thuk~
+A blue warhammer is here, releasing gusts of cold.~
+wood~
+weapon AHLMPYZ AN
+mace 10 9 pound BG
+50 250 25000 P
+A
+12 50
+A
+13 50
+A
+19 4
+A
+18 4
+#406
+summoner black candle~
+summoner's Black Candle~
+A black candle burns with a small flame here.~
+wax~
+light UW AO
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+50 2 10000 P
+A
+13 50
+A
+18 4
+A
+19 4
+A
+12 50
+#407
+shield moonlight moon light~
+moonlight Shield~
+A Blueish black shield rests on the floor.~
+metal~
+armor HPUZ AJ
+BCDE BCDE BCDE BEF 0
+65 5 0 P
+A
+19 5
+A
+18 5
+A
+20 -2
+A
+12 100
+A
+13 100
+#408
+moonlight circlet light~
+the Circlet of the Moon~
+A Dark black circlet is lying on the ground here.~
+silver~
+armor BHJLPUYZ AE
+BD BD BD ADE 0
+60 2 0 P
+A
+19 4
+A
+18 4
+A
+1 4
+A
+2 4
+A
+3 4
+#409
+moonshine bottle moon shine~
+bottle of Moonshine~
+A dark blue bottle is here, looking lonely..~
+unknown~
+drink A AO
+200 100 'vodka' 0 0
+1 1 100 P
+#411
+phase matrix~
+a Phase Matrix~
+A shimmering and quivering cube of rainbow lights is here.~
+cloth~
+container PY A
+1000 0 0 1000 50
+1 2 10 P
+#0
+
+
+
+#ROOMS
+#400
+{WIn a Dark, Cursed Forest{w~
+You are in a dark gloomy forest.  All around you are ghostly trees.  You
+think they used to be oaks before some evil curse turned this forest into
+the nightmare it is now, the branches of the trees are badly scorched and
+twisted.  The undergrowth is growing wildly and deadly snakes and spiders
+swarm all over the place.  Luckily there is a path here.  You want to get
+out of here as soon as possible.  
+~
+0 4 3
+D0
+~
+~
+0 -1 401
+D1
+~
+~
+0 -1 10495
+S
+#401
+{WThe Path Ends{w~
+You have almost fought your way out of the cursed forest.  You see a
+clearing up ahead but you still have some way to walk.  The snakes have
+grown bigger and less poisonous based on your observations during the last
+few hundred feet.  You can hear a faint humming sound and then suddenly, a
+sharp scream.  A human scream.  You hurry your steps.  
+~
+0 1 3
+D0
+~
+~
+0 -1 402
+D2
+~
+~
+0 -1 400
+S
+#402
+{WA Clearing in Front of the Temple of the Moon{w~
+You have made it to the clearing.  On the other side lies the cursed
+forest and on the other lies a magnificent temple.  Or it would be
+magnificent if it was day and a battalion of gardeners had cleaned up some
+little details, like the huge brown poison vines reaching up the walls and
+the thorny 7 feet tall bushes all over the place.  Right now the building is
+frightening and the full moon does nothing to reduce its fearful aura.  Its
+imposing walls almost glow yet they are black as the night. The massive
+gates look extremely heavy and a pale blueish glow comes from inside.  You
+can hear the chanting clearly now and the screams of some poor woman.  You
+think you heard a man scream also there but you aren't sure.  
+~
+0 4 0
+D0
+~
+~
+0 -1 404
+D2
+~
+~
+0 -1 401
+S
+#403
+{WThe Southwest Corner of the First Floor{w~
+This is the southwestern part of the first floor.  The walls here are
+black but turn blueish when going northwards.  The floor has seen better
+days, it is covered with brownish stains and scratches.  You notice a man
+crawling on the floor in the middle part of the floor.  He looks like he's
+doing something.  Maybe you should go take a closer look.  Some acolytes
+wander around here in a trance, mumbling strange words, their eyes looking
+but not seeing.  Something big is going on, you can feel it.  
+~
+0 8 0
+D0
+~
+~
+0 -1 406
+D1
+~
+~
+0 -1 404
+S
+#404
+{WInside the Front Gates{w~
+You have stepped inside the huge gates.  You feel cold.  It really is
+cold in here even when it was warm outside.  You see several acolytes
+wandering around the floor, mumbling strange prayers.  In the middle of the
+hall is a man on his hands and knees, apparently drawing on the floor.  Some
+candles burn around him.  There is a staircase leading up in the northwest
+corner and an iron door draws your attention on the eastern wall.  
+~
+0 8 0
+D0
+~
+~
+0 -1 407
+D1
+~
+~
+0 -1 405
+D2
+~
+~
+0 -1 402
+D3
+~
+~
+0 -1 403
+S
+#405
+{WThe Southeast Corner of the First Floor{w~
+The unnatural coldness radiates from the east wall. It is freezing in here and
+you almost have to jump up and down to keep yourself warm. The acolytes don't 
+seem to notice the coldness as they wander all around. From the muffled chant
+you can hear from above it is easy to deduce there is a ritual of some sort
+in progress. What kind of ritual could be going on in a place like this if not
+one involving demons and sacrifices.. human sacrifices.
+~
+0 8 0
+D0
+~
+~
+0 -1 408
+D3
+~
+~
+0 -1 404
+S
+#406
+{WAlong the West Wall on the First Floor{w~
+You are nearing the massive staircase leading upwards.  The west wall is
+covered with arcane inscriptions that seem to glow at irregular times. 
+Maybe they are some sort of wards.  Better not touch them.  In fact better
+to stay as far away from them as possible.  You look around to see if you
+have already triggered an alarm but the people don't seem to notice your
+presence.  
+~
+0 8 0
+D0
+~
+~
+0 -1 411
+D1
+~
+~
+0 -1 407
+D2
+~
+~
+0 -1 403
+S
+#407
+{WInside the Candle-Lit Pentagram{w~
+You have stepped inside a red colored pentagram drawn on the floor. 
+Three feet tall candles burn in each of the pentagram's tips, releasing a
+greyish smoke that spreads all over the hall.  It smells sweet.  Suddenly
+you feel light- headed!  The smoke must be poisonous.  You gag.  There is a
+man clad in a black robe on his knees drawing arcane symbols inside the
+pentagram.  He uses mostly red but some yellow can be seen as well.  He
+doesn't look like he has seen you.  In fact he probably couldn't see an army
+marching in the front gates.  He is holding a black burning candle in his
+free hand.  
+~
+0 1056776 0
+E
+pentagram~
+The pentagram seems to be drawn in blood. It seems fresh, or at least your 
+boots stick to it when you walk on it. You feel a shiver.
+~
+D0
+~
+~
+0 -1 412
+D1
+~
+~
+0 -1 408
+D2
+~
+~
+0 -1 404
+D3
+~
+~
+0 -1 406
+M 0 H 0
+S
+#408
+{WEastern Wall of the First Floor{w~
+You are just outside the iron bolted door.  The door is cold to the touch
+and the temperature in this part of the hall is below freezing.  This
+doesn't seem to hinder the man drawing inside the pentagram or the fanatic
+followers who wander around the hall, quietly whispering to themselves. 
+Whoever is behind that door must be frozen to death a thousand times by now.
+~
+0 8 0
+D0
+~
+~
+0 -1 413
+D1
+~
+~
+1 -1 409
+D2
+~
+~
+0 -1 405
+D3
+~
+~
+0 -1 407
+S
+#409
+{WIn an Ice-Covered Corridor{w~
+The corridor looks like its been hacked into an iceberg.  Ice and snow is
+everywhere.  The tunnel is round shaped and slippery.  You hang on to the
+door so you won't fall down.  The chanting seems to echo from the tunnel as
+well as from the door which leads you to think this tunnel is somehow
+connected to the upper floors of the temple.  
+~
+0 8200 0
+D1
+~
+~
+0 -1 410
+D3
+~
+~
+1 -1 408
+S
+#410
+{WThe Icy Corridor Turns Northwards{w~
+You have come further into the icy corridor.  It turns rather suddenly to
+the north and starts to slide downwards.  You grab the irregular ice walls
+for support as you make your way through.  The work you have just to keep
+your footage on the slippery sloping surface makes you curse under your
+breath.  You have a bad feeling about sliding down the tunnel..  Who knows
+what might lie ahead.  
+~
+0 8200 0
+D0
+~
+~
+0 -1 414
+D3
+~
+~
+0 -1 409
+S
+#411
+{WAt the Foot of the Staircase{w~
+A massive staircase made of midnight blue stone ascends to the second
+floor here.  There are dark stains on some steps and the walls all around
+have been scratched severely.  The chanting sound gets louder when you walk
+towards the stairs.  You think you can also detect a faint clanking sound
+from the second floor..  Just like if a battle was going on.  
+~
+0 8 0
+D1
+~
+~
+0 -1 412
+D2
+~
+~
+0 -1 406
+D4
+~
+~
+0 -1 416
+S
+#412
+{WNext to the Northern Wall{w~
+You are walking along the northernmost wall of the first floor.  There is
+a window the size of half the wall showing you the wild poisonous bushes and
+the cursed forest outside the temple.  The pale glow of the moon shines in
+making everything appear dead and hopeless.  You feel a wave of despair wash
+over you.  You wish you were anywhere else.  
+~
+0 8 0
+D1
+~
+~
+0 -1 413
+D2
+~
+~
+0 -1 407
+D3
+~
+~
+0 -1 411
+S
+#413
+{WThe Northeast Corner of the First Floor{w~
+The moonglow from the window on the north wall bathes everything in dark,
+gloomy shades.  The coldness emanating from the eastern wall enhances the
+already heavy atmosphere of doom and hopelessness.  The feeling is topped
+with the distant, steady sound of chanting from the upper floors. 
+Everything feels as if it was all a dream.  Your thoughts start to wander
+ahead, expecting the final nail in the coffin..  Your coffin.  
+~
+0 8 0
+D2
+~
+~
+0 -1 408
+D3
+~
+~
+0 -1 412
+S
+#414
+{WThe Ice Corridor Just Outside a Large Room{w~
+The icy corridor turns sharply to the left while going down in an ever
+steepening angle.  The entrance to the room is almost a drop.  You feel a
+slight freezing wind from the room the corridor opens to and you think you
+saw something move in there.  Now that you look more carefully, you see
+several small tornados of snow whirling inside the room.  These phenomena
+are no more than 7 feet tall and would be a beautiful sight to behold under
+normal circumstances.  Now they give you the creeps.  
+~
+0 8200 0
+D2
+~
+~
+0 -1 410
+D3
+~
+~
+0 -1 415
+S
+#415
+{WThe Cold Den{w~
+The drop into the room is softened by the one foot thick layer of fine
+snow covering the floor.  You can see several human-shaped ice and snow
+figures in various positions all over the room.  Several small tornados
+whirl all around the room throwing snow up in the air.  Upon closer
+examination the figures turn out to be frozen people!  Just at that moment
+you think you saw one of the statues move.  You turn to look more carefully
+but you can't see anything special.  
+~
+0 8200 0
+D1
+~
+~
+0 -1 414
+S
+#416
+{WAt the Top of a Staircase Going Down{w~
+You have ascended the staircase up to the second floor.  The floor here
+is the same midnight blue as the stairs and the walls are made of black
+marble.  Delicate patterns curve around the beautiful stone.  Up ahead you
+can see a simple guard post.  You can hear sounds of combat echoing from the
+hallways accompanied by occasional screams of pain as some poor man meets
+his doom in the hands of another.  You are beginning to hear some patterns
+in the chanting.  The ongoing ritual must have entered a new phase.  
+~
+0 12 0
+D2
+~
+~
+0 -1 418
+D5
+~
+~
+0 -1 411
+S
+#417
+{WA Corridor on the Second Floor{w~
+The simple corridor turns southwards towards the chanting.  East you can
+see a simple guard post.  A window on the north wall lets the moon shine its
+eerie pale blue light into the hallway making the shadows deep and the walls
+seem almost alive.  You feel cold despite the fact that the temperature is
+comfortable.  
+~
+0 8 0
+D1
+~
+~
+0 -1 418
+D2
+~
+~
+0 -1 420
+S
+#418
+{WGuard Post{w~
+You have entered the first line of defense of the inner sanctum well
+before the actual entrance.  The guards here have been instructed to kill
+first and ask questions later.  They look a little nervous at the moment
+though, someone or something has gotten past this guard post and, judging
+from the bloodstains in the eastern corridor, is butchering its way around
+the floor.  
+~
+0 8 0
+D0
+~
+~
+0 -1 416
+D1
+~
+~
+0 -1 419
+D3
+~
+~
+0 -1 417
+S
+#419
+{WA Bloody Corridor{w~
+The floor of this corridor is thoroughly stained with blood.  A couple of
+dead defenders lie in twisted positions, bleeding slowly on the floor.  The
+window on the north wall is broken.  As you look out of it you see one more
+defender lying motionless in the bushes below.  The sounds of combat echo
+louder now, the combatants must be near.  The corridor turns southwards and
+gets bloodier each step.  
+~
+0 8 0
+D2
+~
+~
+0 -1 422
+D3
+~
+~
+0 -1 418
+S
+#420
+{WA Simple North-South Corridor{w~
+The chanting echoes louder from the south corridor.  Suddenly you feel an
+ice cold breeze from the south accompanied with a terrible, high pitched
+scream of terror and a low growling sound.  Just as suddenly the scream
+stops and the chanting takes over again but this time the tempo seems to
+have increased somewhat.  The ritual has reached another stage.  
+~
+0 8 0
+D0
+~
+~
+0 -1 417
+D2
+~
+~
+0 -1 424
+S
+#421
+{WThe Private Quarters of the Paladin{w~
+This room is decorated in expensive style.  Red tapestries hang on the
+walls, there is a large oriental style rug on the floor and the u-shaped
+sofa dominating the center of the room is coloured midnight blue, a common
+colour in the temple as you have seen in so many occasions.  There is an
+ebony table on the floor next to the sofa and on the table you see a small,
+closed chest.  Several swords are hanging between the tapestries and an
+empty platemail stands in a corner, holding a ranseur in its hand.  There is
+a simple bed in a corner in contrast to all the decorations.  The inhabitant
+of this room must be in favour of the cult.  
+~
+0 8 0
+D2
+~
+~
+0 -1 425
+S
+#422
+{WThe Bloodier Corridor{w~
+The corridor gets bloodier each step.  You see several dead bodies of
+defenders carelessly tossed in the corner.  The walls are covered with blood
+and gore up to the ceiling.  Only a few splashes in the ceiling by the way. 
+When you look west you can see the source of the combat sounds: A warrior
+clad in white is easily warding off the assaults of two defenders who are
+still left standing.  He is practically standing on a pile of corpses and
+wields his pike with deadly accuracy, impaling the second defender right
+before your very eyes.  
+~
+0 8 0
+D0
+~
+~
+0 -1 419
+D1
+~
+~
+0 -1 423
+S
+#423
+{WThe Bloodiest Corridor{w~
+The corridor ends in a mass of flesh and blood.  Several defenders have
+met their doom in the whirlwind of death that is the white warrior.  He
+disposes of the last one and stands warily, ready for a new trick.  You are
+surprised that he is here, wondering what he might be doing.  The defenders
+seem to think he belongs elsewhere but he is rather sure that he has come to
+the right place.  At least judging from the pools of blood and piles of
+bodies you can make that assumption.  
+~
+0 8 0
+D3
+~
+~
+0 -1 422
+S
+#424
+{WA Bare Corridor on the Second Floor{w~
+This section of the second floor is very clean and sterile.  The walls
+almost glow with a dark pale glow, almost as if the moon shone through them
+vaguely, generating darkened shades all over the corridor.  You feel a cold
+shiver run down your spine.  Then another.  And another.  What could cause
+that?  
+~
+0 8 0
+D0
+~
+~
+0 -1 420
+D1
+~
+~
+0 -1 425
+S
+#425
+{WOutside the Paladin's Quarters{w~
+You are standing outside a lavishly decorated living room.  The room has
+no door and the peeking in you can see a man dressed in black clothing
+resting easy on a midnight blue sofa in the middle of the room.  To the
+south you can see another simple guard post.  The chanting can be heard from
+the south.  There is also a spiralling staircase leading up behind the
+guards.  Must be the entrance to the inner sanctum.  
+~
+0 8 0
+D0
+~
+~
+0 -1 421
+D1
+~
+~
+0 -1 426
+D2
+~
+~
+0 -1 427
+D3
+~
+~
+0 -1 424
+S
+#426
+{WThe Guard Barracks{w~
+This is the resting room and barracks for the defenders of the temple. 
+Several simple metal-framed beds have been set around the room in perfect
+order.  There is a matching number of closets on the eastern wall but they
+are all locked.  The walls and floor are bare and there is a small window on
+the south wall where you can see the path approaching the temple as well as
+the main gate.  Oddly enough there are no guards here at the moment.  Maybe
+there is trouble somewhere in the temple or in its vicinity.  In any case
+you think it might be wise to be somewhere else when they get back though.  
+~
+0 8 0
+D3
+~
+~
+0 -1 425
+S
+#427
+{WThe Second Guard Post{w~
+This guard post is in every way identical to the first one.  A wooden
+table set in the middle of the passage and a chair next to it for the guard
+to sit on.  Peeking up the staircase you can see a dark blue passage leading
+northwards.  Just as you start to take a few steps the chanting speeds up
+and takes on a higher pitch.  You can hear a faint woman's voice through is,
+crying.  The ritual must be ending completion.  Your hearbeat quickens as
+you feel the cold draft flowing from the third floor.  
+~
+0 8 0
+D0
+~
+~
+0 -1 425
+D4
+~
+~
+0 -1 428
+S
+#428
+{WOn the Stairs to the Second Floor{w~
+You are standing at the top of the staircase about to enter the cult's
+inner sanctum.  You can see a masked man next to an altar gesturing wildly. 
+You aren't sure if he has noticed you or not but judging from the fact that
+no guards are cutting you to pieces yet you can guess he hasn't.  You can
+also see a balcony high on the back wall with stairs leading to it from both
+sides.  Fanatic cultists can be seen, chanting wildly under the balcony.  
+~
+0 8 0
+D0
+~
+~
+0 -1 429
+D5
+~
+~
+0 -1 427
+S
+#429
+{WThe Entrance to the Inner Sanctum{w~
+You are in a corridor standing next to a large room filled with fanatic
+cultists.  There is a large round hole in the middle of the room and on this
+side of the hole stands a large black altar.  An almost naked man is leading
+the ritual, standing at the altar with his back turned to you.  You can also
+see a woman clad in a white robe tied down lying on the altar.  You
+immediately guess she is to be sacrificed at the climax of the dark ritual. 
+The man gestures wildly towards the balcony high on the north wall.  You can
+see there is a door up there.  
+~
+0 8 0
+D0
+~
+~
+0 -1 431
+D2
+~
+~
+0 -1 428
+S
+#430
+{WAmidst the Masses of Worshippers{w~
+You try to make room for yourself amidst the cultists but they push you
+back.  Slowly you flow through their ranks towards your goal.  This crowd is
+worse than at the sunday market.  You hope they don't get angry at you
+because that would surely spell doom as the masses would probably pull you
+down and trample you to death like a small ant.  
+~
+0 8 0
+D0
+~
+~
+0 -1 433
+D1
+~
+~
+0 -1 431
+S
+#431
+{WThe Dark Altar{w~
+You are standing right next to the black altar.  It looks very
+uninteresting, just like a big black rock that has been cut to a rectangular
+shape.  No inscriptions, no symbols, no carvings, no nothing.  On the other
+side you can see the pit where the freezing drafts are coming from.  You
+look down but see only darkness.  In any case the darkness you see is much
+more interesting than the altar.  Then again who says altars have to be
+elaborate?  
+~
+0 12 0
+D1
+~
+~
+0 -1 432
+D2
+~
+~
+0 -1 429
+D3
+~
+~
+0 -1 430
+D5
+~
+~
+0 -1 415
+S
+#432
+{WAmong the Worshippers{w~
+The huddling masses of people push and pull you all around.  You try to
+fight the movement but can only direct it a little.  They seem uninterested
+in you though which is a good thing for this kind of a crowd would certainly
+squash you like a bug if it got angry for some reason.  You can see the
+stairs going up to the balcony due north and the altar to the west.  
+~
+0 8 0
+D0
+~
+~
+0 -1 435
+D3
+~
+~
+0 -1 431
+S
+#433
+{WAmong the Howling Masses{w~
+Pushing as much as you can you can just about move a little but you have
+to be careful as the followers push back and forth.  It's amazing how this
+kind of a crowd can be stuffed in a room this small.  But these people are
+living proof it can be done.  Despite the fact there is plenty of room on
+the stairs and up on the balcony, none of the followers are taking advantage
+of this space.  You deduce the most likely reason for such behaviour is that
+the space is reserved for their leader and they wouldn't want to stir the
+wrath of the Moon now would they.  
+~
+0 8 0
+D1
+~
+~
+0 -1 434
+D2
+~
+~
+0 -1 430
+S
+#434
+{WThe Balcony Above the Ice Pit{w~
+You have ascended the steps up to the balcony.  You have an unobstructed
+view of the room below, the altar and the pit.  There is a black door on the
+north wall.  You hesitate for a moment: should you open it or not?  What
+could lie behind it?  Undoubtedly the leader of the Cult is there.  You
+ponder if you want to meet her and most likely get a fanatically angry
+response or just leave and run away as fast as your legs can take you.  You
+can't stay here for long because she is sure to walk out that door any
+minute now.  
+~
+0 8 0
+D0
+~
+~
+4 403 436
+D1
+~
+~
+0 -1 435
+D3
+~
+~
+0 -1 433
+S
+#435
+{WBetween the Masses{w~
+This part of the room is just as crowded as the other parts.  Whereever
+you turn your head, another follower stands chanting arcane words.  If you
+push someone to make room for yourself, others behind you push you forward
+and you lose the little space you just made.  Nevertheless you are moving
+around, even though the direction is a bit uncertain at times.  You try to
+go as close to the walls as possible so they wouldn't push you into the pit.
+If only you could reach those stairs you could take a breather because the
+followers don't seem to dare climb up one step.  
+~
+0 8 0
+D2
+~
+~
+0 -1 432
+D3
+~
+~
+0 -1 434
+S
+#436
+{WA Spartan Living Room{w~
+The room is spartan in the very basic meaning.  A table, a chair, a bed
+and a small chest next to the bed is all there is in the room.  No
+valuables, no expensive rugs, no colourful curtains in the window, just bare
+and simple accessories.  The leader must really believe in her cause.  You
+quickly search around and find nothing special, just a few simple clothes in
+the chest.  There also is a trapdoor in the ceiling leading onto the roof of
+the tower.  You peek up and see the open sky.  It is a clear night and the
+moon is full.  You hear a faint mumbling sound coming from the roof.. 
+Someone must be out there.  
+~
+0 1050120 0
+D2
+~
+~
+4 403 434
+D4
+~
+~
+0 -1 437
+S
+#437
+{WThe Top of the Highest Tower{w~
+You have stepped out of the tower and are standing under the pale glow of
+the moon.  You can almost feel the cold, unforgiving power of the Moon flow
+around you.  The view is fantastic even in these gloomy circumstances.  The
+cursed forest looks almost alive as the wind moves the branches..  What
+wind?  There is no wind!  The forest must be alive!  You hope and pray you
+can still get out of here.  It wouldn't look very nice if you survive the
+horrors of the evil temple and then get eaten alive by a forest now would
+it.  The concept doesn't seem too funny at the moment, though you are sure
+you'll have a few good laughs over it tomorrow at the local tavern, sitting
+safely next to your beermug with your friends.  
+~
+0 0 0
+D5
+~
+~
+0 -1 436
+S
+#0
+
+
+
+#SPECIALS
+M 421 spec_breath_frost
+M 423 spec_guard
+M 431 spec_cast_mage
+M 437 spec_breath_frost
+S
+
+
+
+#RESETS
+D 0 408 1 1
+D 0 409 3 1
+D 0 434 0 2
+D 0 436 2 2
+M 0 404 1 403 1
+M 0 404 1 404 1
+M 0 404 1 405 1
+M 0 404 1 406 1
+M 0 407 1 407 1
+E 0 406 0 0
+M 0 404 1 408 1
+M 0 414 6 409 2
+M 0 414 6 410 2
+M 0 404 1 411 1
+M 0 404 1 412 1
+M 0 404 1 413 1
+M 0 414 6 414 2
+M 0 415 1 415 1
+E 0 405 0 16
+G 0 411 0
+P 0 405 10 411 1
+M 0 418 1 418 2
+M 0 418 5 420 1
+E 0 401 0 16
+E 0 411 0 17
+P 0 401 10 411 1
+M 0 421 1 421 1
+E 0 404 0 5
+E 0 402 0 16
+E 0 403 0 17
+G 0 411 0
+P 0 403 10 411 1
+P 0 402 10 411 1
+P 0 404 10 411 1
+M 0 423 1 423 1
+E 0 400 0 16
+E 0 411 0 17
+P 0 400 10 411 1
+M 0 418 1 427 2
+M 0 433 1 430 4
+M 0 430 1 431 1
+M 0 431 1 431 1
+M 0 433 1 432 4
+M 0 433 1 433 4
+M 0 433 1 435 4
+M 0 437 1 437 1
+E 0 409 0 17
+E 0 407 0 11
+E 0 408 0 6
+G 0 411 0
+P 0 408 10 411 1
+P 0 407 10 411 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

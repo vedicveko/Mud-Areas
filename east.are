@@ -1,0 +1,705 @@
+#AREADATA
+Name Eastern Road~
+Builders Grehyton~
+VNUMs 7900 7999
+Credits { 5 35} Grehyton Eastern Road~
+Security 8
+End
+
+
+
+#MOBILES
+#7900
+Bandit~
+the bandit~
+The bandit screams as he ambushes you.
+~
+Down on their luck, i dont think so. The bandits
+have plagued this road for a long time.
+~
+unique~
+AFG P -400 0
+4 0 2d5+60 0d0+0 1d6+1 pound
+8 8 8 8
+IJ 0 0 0
+stand stand male 4
+0 0 medium unknown
+#7901
+lost boy~
+the lost boy~
+The lost boy is here crying.
+~
+He is dirty and sad. You wonder how long he
+has been lost out here.
+~
+unique~
+AG 0 0 0
+1 0 2d6+10 0d0+0 1d4+0 scratch
+8 8 8 9
+F 0 0 0
+stand stand male 0
+0 0 medium unknown
+#7902
+traveller~
+the traveller~
+The traveller is here....travelling.
+~
+She wears clothes from a distant land, you 
+assume she has been around.
+~
+unique~
+ACG 0 0 0
+10 0 2d7+121 0d0+0 2d4+2 punch
+7 7 7 9
+EIN 0 0 0
+stand stand female 0
+0 0 medium unknown
+#0
+
+
+
+#OBJECTS
+#7900
+gold ring~
+a gold ring~
+A shiny piece of metal glints from the dirt.~
+gold~
+treasure P AB
+0 0 0 0 0
+10 2 0 P
+A
+3 1
+E
+ring~
+It has a beautiful leafy design worked into
+the metal by skilled hands.~
+#7901
+bamboo jacket~
+a bamboo jacket~
+A bamboo jacket of foreign origins sits here.~
+bamboo~
+armor 0 AD
+AB C C 0 B
+6 15 0 P
+F
+V 0 0 H
+#7902
+glowing bauble~
+a glowing bauble~
+A glowing bauble rests here.~
+crystal~
+light A AO
+0 0 BDEFGH 0 0
+3 10 0 P
+E
+bauble~
+Intricately wrought bauble of elvish origins.
+It glows brightly and could light a small room.~
+#7903
+water tube~
+a water tube~
+A water tube sits here.~
+bone~
+drink 0 A
+60 60 'water' 0 0
+0 1 0 P
+E
+tube water~
+This tube made of bone has been used by 
+travellers of many lands, the design makes it
+lightweight and non bulky.~
+#7904
+black pill~
+a black pill~
+A black pill rests here.~
+ash~
+pill P A
+10 'cure poison' '' '' ''
+10 0 0 P
+E
+pill~
+There is a stamped skull on top of the pill.~
+#7905
+woven sack~
+a woven sack~
+A woven sack sits here.~
+cloth~
+container 0 AO
+50 0 0 5 100
+3 3 0 P
+E
+woven bag~
+Its a tight weave that looks quite sturdy.~
+#7906
+gorp~
+a bag of gorp~
+A bag of gorp sits here.~
+bread~
+food P A
+ABCD D 0 0 0
+0 0 0 P
+E
+gorp~
+This is a raisen and nut mix used by rangers
+and adventurers.~
+#7907
+turkish delite~
+a turkish delite~
+A sweet turkish delite sits here.~
+cream~
+food P A
+B A 0 0 0
+0 0 0 P
+E
+turkish delite~
+A sweet and succulent turkish delite, made of
+chocolate, nuts and from the finest creams.~
+#7908
+meat jerky~
+a meat jerky~
+A meat jerky sits here.~
+hard leather~
+food P A
+DE D 0 0 0
+0 0 0 P
+E
+meat jerky~
+Hmmm meat jerky, you wonder what kind of meat
+it is.~
+#7909
+bench~
+a bench~
+A forest bench sits here.~
+bamboo~
+furniture 0 0
+B DGH BEHKN CFG CFG
+0 300 0 P
+E
+bench~
+Some nice person built a bench here, to help
+you rest on your long journey.~
+#7910
+curved dagger~
+a curved dagger~
+A curved dagger sits here.~
+metal~
+weapon 0 AN
+dagger 1 6 pierce 0
+5 5 0 P
+E
+dagger curved~
+A sharp curved dagger with a blue blade.~
+#0
+
+
+
+#ROOMS
+#7900
+{YOutside The East Gate{x~
+You are outside the east gate of Calinth on the Eastern
+road. People leaving from Calinth often stop by the
+graveyard which is to the south to visit and pay their
+respects to dead friends. The Eastern road is known
+for its bandits and pirates. To the west inside the
+gate are many of the Cavaliers and guards that protect
+the town.
+~
+0 4 11
+D0
+~
+~
+0 0 7921
+D1
+The eastern road.
+~
+~
+0 -1 7901
+D3
+~
+~
+0 0 20225
+S
+#7901
+{YEastern Road{x~
+You are on the Eastern road, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D0
+~
+~
+0 0 7922
+D1
+The Eastern Trail.
+~
+~
+0 -1 7902
+D3
+The Eastern Trail.
+~
+~
+0 -1 7900
+S
+#7902
+{YEastern Trail{x~
+You are on the eastern trail. Dark clouds loom
+over some mountains far to the north. The forest
+here is getting darker and thicker.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7903
+D3
+The Eastern Trail.
+~
+~
+0 -1 7901
+S
+#7903
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7904
+D3
+The Eastern Trail.
+~
+~
+0 -1 7902
+S
+#7904
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7905
+D3
+The Eastern Trail.
+~
+~
+0 -1 7903
+S
+#7905
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7906
+D3
+The Eastern Trail.
+~
+~
+0 -1 7904
+S
+#7906
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7907
+D3
+The Eastern Trail.
+~
+~
+0 -1 7905
+S
+#7907
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7908
+D3
+The Eastern Trail.
+~
+~
+0 -1 7906
+S
+#7908
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7909
+D3
+The Eastern Trail.
+~
+~
+0 -1 7907
+S
+#7909
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7910
+D3
+The Eastern Trail.
+~
+~
+0 -1 7908
+S
+#7910
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7911
+D3
+The Eastern Trail.
+~
+~
+0 -1 7909
+S
+#7911
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7912
+D3
+The Eastern Trail.
+~
+~
+0 -1 7910
+S
+#7912
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 8192 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7913
+D3
+The Eastern Trail.
+~
+~
+0 -1 7911
+S
+#7913
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7914
+D3
+The Eastern Trail.
+~
+~
+0 -1 7912
+S
+#7914
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7915
+D3
+The Eastern Trail.
+~
+~
+0 -1 7913
+S
+#7915
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7916
+D3
+The Eastern Trail.
+~
+~
+0 -1 7914
+S
+#7916
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7917
+D3
+The Eastern Trail.
+~
+~
+0 -1 7915
+S
+#7917
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7918
+D3
+The Eastern Trail.
+~
+~
+0 -1 7916
+S
+#7918
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7919
+D3
+The Eastern Trail.
+~
+~
+0 -1 7917
+S
+#7919
+{YEastern Trail{x~
+You are on the eastern trail, forest surrounds 
+you and it is dark and quiet. Kinda gives you
+and uneasy feeling. A large mountain lies to the
+north.
+~
+0 0 11
+D1
+The Eastern Trail.
+~
+~
+0 -1 7920
+D3
+The Eastern Trail.
+~
+~
+0 -1 7918
+S
+#7920
+{YCrossroads{x~
+You are at a crossroads on the Eastern trail. This
+junction heads north towards the mountains and south
+towards more forest. The the east the road continues.
+The ground here shows signs of recent travel and a
+small bit of blood is on the ground.
+~
+0 0 11
+D3
+The Eastern Trail.
+~
+~
+0 -1 7919
+S
+#7921
+{gDarken Forest{x~
+You are standing in a large forest north of the east road leaving Newtown.
+Thick ancient oaks and tall pines are all around you, sounds and smells of
+the forest fill the area. To the north is more forest and further east you
+can hear the sound of water rolling onto a beach
+~
+0 0 3
+D1
+~
+~
+0 0 7922
+D2
+~
+~
+0 0 7900
+S
+#7922
+{gDarken Forest{x~
+You are standing in a large forest north of the east road leaving Newtown.
+Thick ancient oaks and tall pines are all around you. Sounds and smells of
+the forest fill the area.  To the north is more forest and further east you
+can hear the sound of water rolling onto a beach.
+~
+0 0 3
+D2
+~
+~
+0 0 7901
+D3
+~
+~
+0 0 7921
+S
+#7923
+{gDarken Forest{x~
+You are standing in a large forest north of the east road leaving Newtown.
+Thick ancient oaks and tall pines are all around you. Sounds and smells of
+the forest fill the area.  To the north is more forest and further east you
+can hear the sound of water rolling onto a beach.
+~
+0 0 3
+D2
+~
+~
+0 0 7902
+D3
+~
+~
+0 0 7922
+S
+#7924
+{gDarken Forest{x~
+You are standing in a large forest north of the east road leaving Newtown.
+Thick ancient oaks and tall pines are all around you. Sounds and smells of
+the forest fill the area.  To the north is more forest and further east you
+can hear the sound of water rolling onto a beach.
+~
+0 0 3
+D2
+~
+~
+0 0 7903
+D3
+~
+~
+0 0 7923
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 7902 5 7901 1
+G 0 7906 0
+G 0 7905 0
+M 0 7901 1 7904 1
+G 0 7907 0
+M 0 7902 5 7904 1
+E 0 7901 0 5
+E 0 7902 0 17
+O 0 7909 0 7909
+M 0 7900 3 7912 3
+E 0 7910 0 16
+M 0 7900 3 7912 3
+E 0 7910 0 16
+M 0 7900 3 7912 3
+E 0 7910 0 16
+G 0 7904 0
+G 0 7905 0
+M 0 7902 5 7912 1
+E 0 7900 0 1
+E 0 7900 0 2
+E 0 7901 0 5
+E 0 7910 0 16
+G 0 7908 0
+G 0 7904 0
+G 0 7903 0
+M 0 7902 5 7915 1
+E 0 7901 0 5
+G 0 7906 0
+G 0 7905 0
+G 0 7903 0
+M 0 7902 5 7918 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

@@ -1,0 +1,206 @@
+#AREA {CoTri} Aesir  Council Tribe Area~
+
+
+#MOBILES
+
+#7110
+shopkeeper~
+The shopkeeper~
+The shopkeeper of the --- tribe is here ~
+~
+human~
+ABGV CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0
+#7111
+healer~
+The healer~
+The healer of the --- tribe~
+~
+human~
+ABGVa CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+#7112
+trainer~
+The Trainer~
+The trainer of the --- tribe is standing here~
+The train can help you practice skills and spells, train attributes and gain
+spells and skill groups.
+~
+human~
+ABJKVGb CDEF 0 S
+100 0 100d100+100 100d100+100 5d5+5 5
+-30 -30 -30 -30
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 100000
+0 0 3 0      
+
+#0
+
+#ROOMS
+
+#7110
+The entrance to the Council tribe area~
+Welcome to the hide away for the Mortal Council.
+~
+71 DKN 0
+D0
+The Trainers room.
+~
+~
+0 -1 7113
+D1
+The shop.
+~
+~
+0 -1 7112
+D2
+The conference room.
+~
+~
+0 -1 7111
+D3
+The Healers room.
+~
+~
+0 -1 7115
+D5
+Lanfear.
+~
+~
+0 -1 15017    
+E
+plaque~
+can put something here.
+~
+S
+#7111
+The Conference Room~
+Put a describ here.
+~
+71 DKN 0
+D0
+Entrance
+~
+~
+0 -1 7110
+S
+#7112
+The Shop of the --- tribe~
+enter describ
+~
+71 DKNS 0
+D3
+Entrance.
+~
+~
+0 -1 7110
+S
+#7113
+Trainer's Room~
+enter describ.
+~
+71 DKN 0
+D2
+Entrance.
+~
+~
+0 -1 7110
+D3
+Donation room
+~
+~
+0 -1 7114
+S
+#7114
+Donation Room.~
+enter describ.
+~
+71 DKN 0
+D1
+~
+~
+0 -1 7113
+S
+#7115
+Healers room~
+enter describ.
+~
+71 DKN 0
+D1
+Entrance.
+~
+~
+0 -1 7110
+D3
+Whatever room.
+~
+~
+0 -1 7116
+S
+#7116
+Whatever room ( change )~
+enter describ.
+~
+71 DKN 0
+D1
+Healers room.
+~
+~
+0 -1 7115
+S
+#0
+
+#OBJECTS
+#7110
+potion~
+potion~
+potion~
+liquid~
+10 A A
+45 28 0 0 0
+1 4 3000 G
+#7111
+eq~
+eq~
+eq~
+metal~
+0 0 A
+10 10 10 10 0
+1 3 3000 G
+A
+3 2
+A
+4 2       
+
+#0
+#RESETS
+
+M 0 7110 1 7112
+G 1 7110 -1
+G 1 7111 -1
+M 0 7111 1 7115
+M 0 7112 1 7113
+
+S
+
+#SHOPS
+
+7110      10 10 10 10 10     100 100     0 24
+
+0
+
+#SPECIALS
+
+M 7111 spec_cast_adept
+
+S
+
+#$
